@@ -45,3 +45,7 @@ it reports the number of files process to stderr
 it exits with zero status on success
 it exits with non-zero status on failure
 
+
+questions:
+----------
+How to tell if a BSN has already been processed, or it needs to be reprocessed?
