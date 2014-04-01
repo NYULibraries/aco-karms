@@ -30,7 +30,7 @@ try:
 		orig_recs_all.append(orig_rec)
 except:	orig_recs_all = []
 try:
-	handles_csv = codecs.open(folder_name+'/'+folder_name+'_4_handles.csv', 'r')    # opens the text file containing the URL handles, 001, and 003 fields (read-only)
+	handles_csv = codecs.open(folder_name+'/'+folder_name+'_handles.csv', 'r')    # opens the text file containing the URL handles, 001, and 003 fields (read-only)
 	handles_lines = handles_csv.readlines()
 except:
 	handles_csv = ''
