@@ -17,11 +17,23 @@ class GenWorkDirs < Test::Unit::TestCase
 
 
   UNWRITABLE_DIR  = 'test/wip/unwritable'
+  DIR1            = 'test/wip/dir1'
+  DIR2            = 'test/wip/dir2'
+  DIR3            = 'test/wip/dir3'
   # VALID_TEXT          = 'test/texts/valid'
   # EMPTY_TEXT          = 'test/texts/empty-dir'
   # BAD_M_D_COUNT_TEXT  = 'test/texts/bad-m-d-file-count'
   # BAD_M_D_PREFIX_TEXT = 'test/texts/bad-m-d-prefix'
   # CANONICAL_XML       = 'test/canonical/valid_mets.xml'
+
+
+  def test_valid_invocation
+    o, e, s = Open3.capture3("#{COMMAND} #{DIR1} #{DIR2}")
+    assert(s == 0, "exit status")
+    assert('' == o, "stdout")
+    assert('' == e, "stderr")
+  end
+
 
   def test_with_incorrect_argument_count
     o, e, s = Open3.capture3("#{COMMAND}")
@@ -32,11 +44,11 @@ class GenWorkDirs < Test::Unit::TestCase
   end
 
   def test_with_unwritable_dir
-    o, e, s = Open3.capture3("#{COMMAND} #{UNWRITABLE_DIR}")
+    o, e, s = Open3.capture3("#{COMMAND} #{UNWRITABLE_DIR} #{DIR1}")
     assert(s != 0)
     assert(o == '')
     assert_match(/usage/, e)
-    assert_match(/incorrect number of arguments/, e)
+    assert_match(/bad target directory/, e)
   end
 
 
