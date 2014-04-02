@@ -51,6 +51,14 @@ class GenWorkDirs < Test::Unit::TestCase
     assert_match(/bad target directory/, e)
   end
 
+  def test_with_non_existent_dir
+    o, e, s = Open3.capture3("#{COMMAND} 'this-dir-dne-really' #{DIR1}")
+    assert(s != 0)
+    assert(o == '')
+    assert_match(/usage/, e)
+    assert_match(/bad target directory/, e)
+  end
+
 
   # def test_with_invalid_dir
   #   o, e, s = Open3.capture3("#{COMMAND} 'nyu_aco000003' 'SOURCE_ENTITY:TEXT' 'VERTICAL' 'LEFT_TO_RIGHT' 'RIGHT_TO_LEFT' invalid-dir-path")
