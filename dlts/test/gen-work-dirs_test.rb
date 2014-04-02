@@ -16,6 +16,7 @@ class GenWorkDirs < Test::Unit::TestCase
 # it exits with non-zero status on failure
 
 
+  UNWRITABLE_DIR  = 'test/wip/unwritable'
   # VALID_TEXT          = 'test/texts/valid'
   # EMPTY_TEXT          = 'test/texts/empty-dir'
   # BAD_M_D_COUNT_TEXT  = 'test/texts/bad-m-d-file-count'
@@ -29,6 +30,15 @@ class GenWorkDirs < Test::Unit::TestCase
     assert_match(/usage/, e)
     assert_match(/incorrect number of arguments/, e)
   end
+
+  def test_with_unwritable_dir
+    o, e, s = Open3.capture3("#{COMMAND} #{UNWRITABLE_DIR}")
+    assert(s != 0)
+    assert(o == '')
+    assert_match(/usage/, e)
+    assert_match(/incorrect number of arguments/, e)
+  end
+
 
   # def test_with_invalid_dir
   #   o, e, s = Open3.capture3("#{COMMAND} 'nyu_aco000003' 'SOURCE_ENTITY:TEXT' 'VERTICAL' 'LEFT_TO_RIGHT' 'RIGHT_TO_LEFT' invalid-dir-path")

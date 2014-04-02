@@ -54,6 +54,8 @@ questions:
 How to tell if a BSN has already been processed, or it needs to be reprocessed?
 =end
 
+MIN_REQUIRED_ARGS = 2
+
 def print_usage
   str = ["usage: #$0 <target dir> <ie WIP dir 1> [<ie WIP dir 2> ...]",
          "   <target dir>   : directory under which to create sub directories",
@@ -79,8 +81,18 @@ def err_exit(msg = nil)
 end
 
 def validate_and_extract_args(args_in)
+  args_out = {}
+  errors   = []
+
   # argument count correct?
-  usage_err_exit("incorrect number of arguments") unless args_in.length >= 2
+  emsg = "incorrect number of arguments"
+  usage_err_exit(emsg) unless args_in.length >= MIN_REQUIRED_ARGS
+
+  candidate = args_in.shift
+  emsg = "bad target directory"
+  unless Dir.exists?(candidate) && File.writable?(candidate)
+    usage_err_exit(emsg)
+  end
 end
 
 #------------------------------------------------------------------------------
