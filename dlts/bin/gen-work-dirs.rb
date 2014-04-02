@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+require_relative '../lib/wip'
+
 =begin
 development plan:
 -----------------
@@ -80,6 +82,15 @@ def err_exit(msg = nil)
   exit 1
 end
 
+def target_dir_valid?(d)
+  Dir.exists?(d) && File.writable?(d)
+end
+
+def ie_dir_valid?(ie)
+  wip = Wip.new(ie)
+end
+
+
 def validate_and_extract_args(args_in)
   args_out = {}
   errors   = []
@@ -88,11 +99,24 @@ def validate_and_extract_args(args_in)
   emsg = "incorrect number of arguments"
   usage_err_exit(emsg) unless args_in.length >= MIN_REQUIRED_ARGS
 
+  # validate target directory
   candidate = args_in.shift
   emsg = "bad target directory"
-  unless Dir.exists?(candidate) && File.writable?(candidate)
-    usage_err_exit(emsg)
+  usage_err_exit(emsg) unless target_dir_valid?(candidate)
+  args_out[:target] = candidate
+
+  # validate source directories
+  args_in.each do |ie|
+    valid, emsg = ie_dir_valid?(ie)
+    errors << emsg unless valid
   end
+
+  unless errors.empty?
+    estr = errors.join("\n")
+    usage_err_exit(estr)
+  end
+
+  args_out
 end
 
 #------------------------------------------------------------------------------
