@@ -67,14 +67,24 @@ def print_usage
   $stderr.puts str.join("\n")
 end
 
+def usage_err_exit(msg = nil)
+  $stderr.puts(msg) unless msg.nil?
+  print_usage
+  exit 1
+end
 
 def err_exit(msg = nil)
   $stderr.puts(msg) unless msg.nil?
   exit 1
 end
 
+def validate_and_extract_args(args_in)
+  # argument count correct?
+  usage_err_exit("incorrect number of arguments") unless args_in.length >= 2
+end
 
-print_usage
-err_exit
-
+#------------------------------------------------------------------------------
+# MAIN
+#------------------------------------------------------------------------------
+args = validate_and_extract_args(ARGV)
 
