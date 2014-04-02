@@ -6,8 +6,8 @@ coordination point between NYU DLTS and NYU KARMS metadata processing.
 ```
 Directory structure is as follows:
 
-bin/                stores scripts
-marcxml/<partner>   stores source MARCXML files from partners
+bin/            stores scripts
+marcxml/<003>   stores source MARCXML files from partners
 
 work/<partner>/<003>_<dstamp>              stores .csv file with format specified below
 work/<partner>/<003>_<dstamp>/handles.csv  file with MARC 003, MARC 001, and handle URLs
@@ -16,19 +16,19 @@ work/<partner>/<003>_<dstamp>/marcxml      contains all MARCXML files mentioned 
 #### Example Directory
 ```
 work/
-     foo/
+     FOO/
          FOO_20140330/
                       handles.csv
                       marcxml/
-                              foo0004567_marcxml.xml
-                              foo9871234_marcxml.xml
+                              FOO0004567_marcxml.xml
+                              FOO9871234_marcxml.xml
                               ...
-     quux/
+     QXX/
          QXX_20140401/
                       handles.csv
                       marcxml/
-                              quux1234567_marcxml.xml
-                              quux9876543_marcxml.xml
+                              QXX1234567_marcxml.xml
+                              QXX9876543_marcxml.xml
                               ...
 ```
 #### CSV file format:
