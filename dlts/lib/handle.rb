@@ -10,8 +10,8 @@ class Handle
   private
   def process_path!
     # check that handle file exists and is readable
-    raise "handle file does not exist"   unless File.exists?(@path)
-    raise "handle file must be readable" unless File.readable?(@path)
+    raise "handle file does not exist"  unless File.exists?(@path)
+    raise "handle file is not readable" unless File.readable?(@path)
 
     # check that handle file only has one line
     lines = File.read(@path).split("\n")

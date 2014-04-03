@@ -16,6 +16,7 @@ class HandleTest < MiniTest::Unit::TestCase
   INVALID_HANDLE_PATH = 'test/handle/invalid'
   EMPTY_HANDLE_PATH   = 'test/handle/empty'
   DNE_HANDLE_PATH     = 'this/path/does/not/exist'
+  UNREADABLE_HANDLE_PATH = 'test/handle/unreadable'
 
   def test_class
     assert_instance_of(Handle, Handle.new(VALID_HANDLE_PATH))
@@ -40,4 +41,12 @@ class HandleTest < MiniTest::Unit::TestCase
     assert_match(/handle file does not exist/, err.message)
   end
 
+  def test_unreadable_handle_file
+    File.chmod( 0000, UNREADABLE_HANDLE_PATH)
+    err = assert_raises(RuntimeError) { Handle.new(UNREADABLE_HANDLE_PATH) }
+    assert_match(/handle file is not readable/, err.message)
+  end
+
+  # restore read/write permissions on test file
+  MiniTest::Unit.after_tests { File.chmod( 0644, UNREADABLE_HANDLE_PATH) }
 end
