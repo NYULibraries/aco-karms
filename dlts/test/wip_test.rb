@@ -1,5 +1,5 @@
-require 'test/unit'
+require 'test_helper'
 
-class WipTest < Test::Unit::TestCase
+class WipTest < MiniTest::Unit::TestCase
 
 end
