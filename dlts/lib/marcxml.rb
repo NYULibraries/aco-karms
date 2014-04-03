@@ -3,19 +3,24 @@ require 'open-uri'
 
 class Marcxml
   def initialize(path)
-    @path = path.dup
+    @path        = path.dup
     @schema_path = nil
-    @doc  = nil
+    @doc         = nil
+    @ctrl_003    = nil
+    @ctrl_001    = nil
 
     get_schema_path
     validate_path!
     validate_against_schema!
+    extract_ctrl!
   end
 
   def get_001
+    @ctrl_001
   end
 
   def get_003
+    @ctrl_003
   end
 
   private
@@ -35,7 +40,7 @@ class Marcxml
 
   def validate_against_schema!
     xsd  = Nokogiri::XML::Schema(File.open(@schema_path))
-    @doc = Nokogiri::XML(File.read(@path))
+    @doc = Nokogiri::XML(File.open(@path))
 
     error_array = xsd.validate(@doc)
     unless error_array.empty?
@@ -46,6 +51,11 @@ class Marcxml
     end
   end
 
+  def extract_ctrl!
+    @ctrl_001 = @doc.xpath("//xmlns:record/xmlns:controlfield[@tag='001']").text
+    @ctrl_003 = @doc.xpath("//xmlns:record/xmlns:controlfield[@tag='003']").text
+    raise "missing controlfield 001" if @ctrl_001 == ''
+    raise "missing controlfield 003" if @ctrl_003 == ''
+  end
+
 end
-
-
