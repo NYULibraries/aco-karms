@@ -6,6 +6,11 @@ class Handle
     process_path!
   end
 
+  def to_url
+    "http://hdl.handle.net/#{@handle}"
+  end
+
+
   private
   def process_path!
     # check that handle file exists and is readable

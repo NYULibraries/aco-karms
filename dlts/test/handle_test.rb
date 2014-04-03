@@ -12,10 +12,10 @@ class HandleTest < MiniTest::Unit::TestCase
   # handle.to_hdl
   # handle.to_url
 
-  VALID_HANDLE_PATH   = 'test/handle/valid'
-  INVALID_HANDLE_PATH = 'test/handle/invalid'
-  EMPTY_HANDLE_PATH   = 'test/handle/empty'
-  DNE_HANDLE_PATH     = 'this/path/does/not/exist'
+  VALID_HANDLE_PATH      = 'test/handle/valid'
+  INVALID_HANDLE_PATH    = 'test/handle/invalid'
+  EMPTY_HANDLE_PATH      = 'test/handle/empty'
+  DNE_HANDLE_PATH        = 'this/path/does/not/exist'
   UNREADABLE_HANDLE_PATH = 'test/handle/unreadable'
 
   def test_class
@@ -60,6 +60,11 @@ class HandleTest < MiniTest::Unit::TestCase
   def test_suffix_method
     h = Handle.new(VALID_HANDLE_PATH)
     assert(h.suffix == "abdcde")
+  end
+
+  def test_to_url_method
+    h = Handle.new(VALID_HANDLE_PATH)
+    assert(h.to_url == "http://hdl.handle.net/2333.1/abdcde")
   end
 
 
