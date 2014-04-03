@@ -47,6 +47,13 @@ class HandleTest < MiniTest::Unit::TestCase
     assert_match(/handle file is not readable/, err.message)
   end
 
+
+  def test_handle_method
+    h = Handle.new(VALID_HANDLE_PATH)
+    assert(h.handle == "2333.1/abdcde")
+  end
+
+
   # restore read/write permissions on test file
   MiniTest::Unit.after_tests { File.chmod( 0644, UNREADABLE_HANDLE_PATH) }
 end

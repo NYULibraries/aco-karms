@@ -2,7 +2,6 @@ class Handle
   attr_reader :handle, :prefix, :suffix
   def initialize(path)
     @path = path.dup
-    @errors = {}
     @handle = @prefix = @suffix = nil
     process_path!
   end
@@ -22,7 +21,7 @@ class Handle
     # ensure that there is only one '/' delimiter
     match = /\A([^\/]+)\/([^\/]+)\z/.match(handle)
     raise "incorrect handle format. expecting prefix/suffix"  if match.nil?
-    @handle, @prefix, @suffix = match
+    @handle, @prefix, @suffix = match.to_a
   end
 end
 
