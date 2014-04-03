@@ -3,6 +3,7 @@ class MarcxmlTest < MiniTest::Unit::TestCase
 
   VALID_MARCXML_PATH      = 'test/marcxml/valid'
   INVALID_001_PATH        = 'test/marcxml/invalid_001'
+  INVALID_003_PATH        = 'test/marcxml/invalid_003'
   EMPTY_MARCXML_PATH      = 'test/marcxml/empty'
   DNE_MARCXML_PATH        = 'this/path/does/not/exist'
   UNREADABLE_MARCXML_PATH = 'test/marcxml/unreadable'
@@ -36,6 +37,12 @@ class MarcxmlTest < MiniTest::Unit::TestCase
     h = Marcxml.new(VALID_MARCXML_PATH)
     assert(h.get_003 == "COO")
   end
+
+  def test_marcxml_missing_003
+    err = assert_raises(RuntimeError) { Marcxml.new(INVALID_003_PATH) }
+    assert_match(/marcxml file is not readable/, err.message)
+  end
+
 
   # restore read/write permissions on test file
   MiniTest::Unit.after_tests { File.chmod( 0644, UNREADABLE_MARCXML_PATH) }
