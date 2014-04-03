@@ -47,10 +47,14 @@ class HandleTest < MiniTest::Unit::TestCase
     assert_match(/handle file is not readable/, err.message)
   end
 
-
   def test_handle_method
     h = Handle.new(VALID_HANDLE_PATH)
     assert(h.handle == "2333.1/abdcde")
+  end
+
+  def test_prefix_method
+    h = Handle.new(VALID_HANDLE_PATH)
+    assert(h.prefix == "2333.1")
   end
 
 
