@@ -1,7 +1,7 @@
 require 'test/unit'
 require 'open3'
 
-class GenWorkDirs < Test::Unit::TestCase
+class GenWorkDirsTest < Test::Unit::TestCase
 
   COMMAND = 'ruby bin/gen-work-dirs.rb'
 
