@@ -57,6 +57,11 @@ class HandleTest < MiniTest::Unit::TestCase
     assert(h.prefix == "2333.1")
   end
 
+  def test_suffix_method
+    h = Handle.new(VALID_HANDLE_PATH)
+    assert(h.suffix == "abdcde")
+  end
+
 
   # restore read/write permissions on test file
   MiniTest::Unit.after_tests { File.chmod( 0644, UNREADABLE_HANDLE_PATH) }
