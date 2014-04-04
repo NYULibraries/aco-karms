@@ -54,4 +54,9 @@ class WipTest < MiniTest::Unit::TestCase
     w = Wip.new(NNC_V1)
     assert(Marcxml, w.marcxml)
   end
+
+  def test_marcxml_path_method
+    w = Wip.new(NNC_V1)
+    assert(w.marcxml_path == File.join(NNC_V1, 'data', 'columbia_CU58888896_marcxml.xml'))
+  end
 end

@@ -2,9 +2,10 @@ require_relative './marcxml'
 require_relative './handle'
 
 class Wip
-  attr_reader :handle, :marcxml
+  attr_reader :handle, :marcxml, :marcxml_path
 
   def initialize(path)
+    @marcxml_path = nil
     @path     = validate_path(path.dup)
     @handle   = get_handle
     @marcxml  = get_marcxml
@@ -27,6 +28,7 @@ class Wip
     glob_str = File.join(@path, 'data', '*_marcxml.xml')
     marcxml_paths = Dir.glob(glob_str)
     raise "marcxml file count != 1" unless marcxml_paths.length == 1
-    Marcxml.new(marcxml_paths[0])
+    @marcxml_path = marcxml_paths[0]
+    Marcxml.new(@marcxml_path)
   end
 end
