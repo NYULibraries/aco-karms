@@ -14,12 +14,13 @@ class Handle
   private
   def process_path!
     # check that handle file exists and is readable
-    raise "handle file does not exist"  unless File.exists?(@path)
-    raise "handle file is not readable" unless File.readable?(@path)
+    raise "handle file does not exist: #{@path}"  unless File.exists?(@path)
+    raise "handle file is not readable: #{@path}" unless File.readable?(@path)
 
     # check that handle file only has one line
     lines = File.read(@path).split("\n")
-    raise "handle file empty or has more than one line"  unless lines.length == 1
+    emsg = "handle file empty or has more than one line: #{@path}"
+    raise emsg unless lines.length == 1
     handle = lines[0]
 
     # check handle format
@@ -29,4 +30,3 @@ class Handle
     @handle, @prefix, @suffix = match.to_a
   end
 end
-
