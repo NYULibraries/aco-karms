@@ -1,6 +1,3 @@
-# prototype
-# ultimately:
-#  nyudl:ie:wip
 require_relative './marcxml'
 require_relative './handle'
 

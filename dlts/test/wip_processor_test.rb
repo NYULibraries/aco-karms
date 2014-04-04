@@ -1,25 +1,46 @@
 require 'test_helper'
 
-class WipTest < MiniTest::Unit::TestCase
-  # the directory must exist
-  # the directory must be readable
-  # it must have a valid handle file
-  # it must have one MARCXML file
-  # it returns a marcxml object
-  # it returns a handle object
+class WipProcessorTest < MiniTest::Unit::TestCase
+  NNC_V1    = 'test/wip/NNC_valid_1'
+  NNC_V2    = 'test/wip/NNC_valid_2'
+  COO_V1    = 'test/wip/COO_valid_1'
+  COO_V2    = 'test/wip/COO_valid_2'
+  WORK_DIR  = 'test/work'
+  DNE_PATH  = 'this-path-does-not-exist'
+  TEST_ONE  = {work_root: WORK_DIR, wips: [NNC_V1]}
 
-  NNC_V1             = 'test/wip/NNC_valid_1'
-  I_MARCXML          = 'test/wip/invalid_marcxml'
-  I_MARCXML_NO_003   = 'test/wip/invalid_marcxml_missing_003'
-  I_NO_HANDLE        = 'test/wip/missing_handle'
-  I_NO_MARCXML       = 'test/wip/missing_marcxml'
-  I_TOO_MANY_MARCXML = 'test/wip/too_many_marcxml'
-  DNE_PATH           = 'this-path-does-not-exist'
-
-  def test_class
-    assert_instance_of(Wip, Wip.new(NNC_V1))
+  def create_work_dir
+    FileUtils.mkdir(WORK_DIR) unless File.exists?(WORK_DIR)
+    FileUtils.touch(File.join(WORK_DIR, '.gitkeep'))
   end
 
+  def destroy_work_dir
+    FileUtils.remove_dir(WORK_DIR)
+  end
+
+  def setup
+    create_work_dir
+  end
+
+  def teardown
+    destroy_work_dir
+  end
+
+  def test_class
+    assert_instance_of(WipProcessor, WipProcessor.new(TEST_ONE))
+  end
+
+  def test_wip_directory_does_not_exist
+    err = assert_raises(RuntimeError) { Wip.new(DNE_PATH) }
+    assert_match(/directory does not exist/, err.message)
+  end
+
+  MiniTest::Unit.after_tests do
+    FileUtils.mkdir(WORK_DIR) unless File.exists?(WORK_DIR)
+    FileUtils.touch(File.join(WORK_DIR, '.gitkeep'))
+  end
+
+=begin
   def test_wip_directory_does_not_exist
     err = assert_raises(RuntimeError) { Wip.new(DNE_PATH) }
     assert_match(/directory does not exist/, err.message)
@@ -54,4 +75,5 @@ class WipTest < MiniTest::Unit::TestCase
     w = Wip.new(NNC_V1)
     assert(Marcxml, w.marcxml)
   end
+=end
 end

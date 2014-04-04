@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-
 require_relative '../lib/wip'
 
 =begin
@@ -27,7 +26,7 @@ WIP prerequisites:
 
 flow:
 ----
-aggregate list of IEs that have been digitized but have not been sent to KARMS
+aggregate list of IE WIPs that have been digitized but have not been sent to KARMS
 if list is not empty
   create subdirectory work/<yyyy-mm-dd>
   emit header row into file work/<yyyy-mm-dd>/<yyyy-mm-dd>.csv
@@ -103,17 +102,14 @@ def validate_and_extract_args(args_in)
   candidate = args_in.shift
   emsg = "bad target directory"
   usage_err_exit(emsg) unless target_dir_valid?(candidate)
-  args_out[:target] = candidate
+  args_out[:work_root] = candidate
 
-  # validate source directories
-  args_in.each do |ie|
-    valid, emsg = ie_dir_valid?(ie)
-    errors << emsg unless valid
-  end
-
-  unless errors.empty?
-    estr = errors.join("\n")
-    usage_err_exit(estr)
+  # instantiate Wip objects
+  # N.B. the Wip.new raises an exception if there is a problem
+  args_out[:wips] = []
+  args_in.each do |wip_dir|
+    w = Wip.new(wip_dir)
+    args_out[:wips] << w
   end
 
   args_out
@@ -123,3 +119,4 @@ end
 # MAIN
 #------------------------------------------------------------------------------
 args = validate_and_extract_args(ARGV)
+

@@ -19,9 +19,11 @@ class GenWorkDirsTest < MiniTest::Unit::TestCase
 
   UNWRITABLE_DIR  = 'test/wip/unwritable'
   NNC_V1          = 'test/wip/NNC_valid_1'
+  NNC_V2          = 'test/wip/NNC_valid_2'
   COO_V1          = 'test/wip/COO_valid_1'
-  DIR3            = 'test/wip/dir3'
+  COO_V2          = 'test/wip/COO_valid_2'
   WORK_DIR        = 'test/work'
+  DNE_PATH        = 'this-path-does-not-exist'
 
   def test_valid_invocation
     o, e, s = Open3.capture3("#{COMMAND} #{NNC_V1} #{COO_V1}")
@@ -47,7 +49,7 @@ class GenWorkDirsTest < MiniTest::Unit::TestCase
   end
 
   def test_with_non_existent_work_dir
-    o, e, s = Open3.capture3("#{COMMAND} 'this-dir-dne' #{NNC_V1}")
+    o, e, s = Open3.capture3("#{COMMAND} #{DNE_PATH} #{NNC_V1}")
     assert(s != 0)
     assert(o == '')
     assert_match(/usage/, e)
@@ -55,17 +57,18 @@ class GenWorkDirsTest < MiniTest::Unit::TestCase
   end
 
   def test_with_non_existent_wip_dir
-    o, e, s = Open3.capture3("#{COMMAND} #{WORK_DIR} 'this-dir-dne'")
+    o, e, s = Open3.capture3("#{COMMAND} #{WORK_DIR} #{DNE_PATH}")
     assert(s != 0)
     assert(o == '')
-    assert_match(/usage/, e)
-    assert_match(/bad target directory/, e)
+    assert_match(/directory does not exist/, e)
   end
 
   def test_with_single_wip_dir
     o, e, s = Open3.capture3("#{COMMAND} #{WORK_DIR} #{NNC_V1}")
+    today = Time.now.strftime("%Y%m%d")
     assert(s == 0)
-  end 
+    assert(File.exists?(File.join(WORK_DIR, "NNC")), "work/<003> subdirectory not created")
+  end
 
   # def test_with_invalid_dir
   #   o, e, s = Open3.capture3("#{COMMAND} 'nyu_aco000003' 'SOURCE_ENTITY:TEXT' 'VERTICAL' 'LEFT_TO_RIGHT' 'RIGHT_TO_LEFT' invalid-dir-path")
