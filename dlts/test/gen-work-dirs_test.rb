@@ -18,14 +18,14 @@ class GenWorkDirsTest < MiniTest::Unit::TestCase
   # exits non-zero on failure
 
   UNWRITABLE_DIR  = 'test/wip/unwritable'
-  DIR1            = 'test/wip/dir1'
-  DIR2            = 'test/wip/dir2'
+  NNC_V1          = 'test/wip/NNC_valid_1'
+  COO_V1          = 'test/wip/COO_valid_1'
   DIR3            = 'test/wip/dir3'
   WORK_DIR        = 'test/work'
 
   def test_valid_invocation
-    o, e, s = Open3.capture3("#{COMMAND} #{DIR1} #{DIR2}")
-    assert(s == 0, "exit status")
+    o, e, s = Open3.capture3("#{COMMAND} #{NNC_V1} #{COO_V1}")
+    assert(s == 0, "exit status: #{e}")
     assert('' == o, "stdout")
     assert('' == e, "stderr")
   end
@@ -39,15 +39,23 @@ class GenWorkDirsTest < MiniTest::Unit::TestCase
   end
 
   def test_with_unwritable_dir
-    o, e, s = Open3.capture3("#{COMMAND} #{UNWRITABLE_DIR} #{DIR1}")
+    o, e, s = Open3.capture3("#{COMMAND} #{UNWRITABLE_DIR} #{NNC_V1}")
     assert(s != 0)
     assert(o == '')
     assert_match(/usage/, e)
     assert_match(/bad target directory/, e)
   end
 
-  def test_with_non_existent_dir
-    o, e, s = Open3.capture3("#{COMMAND} 'this-dir-dne-really' #{DIR1}")
+  def test_with_non_existent_work_dir
+    o, e, s = Open3.capture3("#{COMMAND} 'this-dir-dne' #{NNC_V1}")
+    assert(s != 0)
+    assert(o == '')
+    assert_match(/usage/, e)
+    assert_match(/bad target directory/, e)
+  end
+
+  def test_with_non_existent_wip_dir
+    o, e, s = Open3.capture3("#{COMMAND} #{WORK_DIR} 'this-dir-dne'")
     assert(s != 0)
     assert(o == '')
     assert_match(/usage/, e)
@@ -55,7 +63,7 @@ class GenWorkDirsTest < MiniTest::Unit::TestCase
   end
 
   def test_with_single_wip_dir
-    o, e, s = Open3.capture3("#{COMMAND} #{WORK_DIR} #{DIR1}")
+    o, e, s = Open3.capture3("#{COMMAND} #{WORK_DIR} #{NNC_V1}")
     assert(s == 0)
   end 
 

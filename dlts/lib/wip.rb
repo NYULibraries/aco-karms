@@ -9,10 +9,9 @@ class Wip
 
 
   def initialize(path)
-    @path     = path.dup
+    @path     = validate_path(path.dup)
     @handle   = get_handle
     @marcxml  = get_marcxml
-    @errors = {}
   end
   def valid?
     # assert MARCXML present
@@ -27,8 +26,10 @@ class Wip
 
   private
 
-  def validate_path
-    @errors[:path] << "bad path" unless File.readable?(@path)
+  def validate_path(path)
+    raise "directory does not exist: #{path}"  unless File.exists?(path)
+    raise "directory is not readable: #{path}" unless File.readable?(path)
+    path
   end
 
   def get_handle
