@@ -40,9 +40,30 @@ class WipProcessorTest < MiniTest::Unit::TestCase
 
     w = WipProcessor.new(TEST_ONE)
     w.run
-    assert(File.exists?(File.join(WORK_DIR, 'NNC')), "003 dir not created")
+    assert(File.exists?(File.join(WORK_DIR, 'NNC')), "<003> dir not created")
+    assert(File.exists?(File.join(WORK_DIR, 'NNC', "NNC_#{date_str}")), "<003>_<date_str> dir not created")
+    assert(File.exists?(File.join(WORK_DIR, 'NNC', "NNC_#{date_str}", 'marcxml')), "marcxml dir not created")
   end
 
+  def test_run_method_creates_directory_heirarchy
+    date_str  = Time.now.strftime("%Y%m%d")
+
+    w = WipProcessor.new(TEST_ONE)
+    w.run
+    assert(File.exists?(File.join(WORK_DIR, 'NNC')), "<003> dir not created")
+    assert(File.exists?(File.join(WORK_DIR, 'NNC', "NNC_#{date_str}")), "<003>_<date_str> dir not created")
+    assert(File.exists?(File.join(WORK_DIR, 'NNC', "NNC_#{date_str}", 'marcxml')), "marcxml dir not created")
+  end
+
+  def test_run_method_copies_marcxml_file
+    date_str  = Time.now.strftime("%Y%m%d")
+
+    w = WipProcessor.new(TEST_ONE)
+    w.run
+    exp = File.join(WORK_DIR, 'NNC', "NNC_#{date_str}", 'marcxml', "NNC_3076855_marcxml.xml")
+    assert(File.exists?(exp), "marcxml file not copied")
+    assert(FileUtils.cmp(exp, File.join(NNC_V1, 'data', 'columbia_CU58888896_marcxml.xml')))
+  end
 
 
 

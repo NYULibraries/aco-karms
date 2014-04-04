@@ -21,17 +21,21 @@ class WipProcessor
 
   private
   def process_wip(w)
-    str_003           = w.marcxml.get_003
+    str_003              = w.marcxml.get_003
+    str_001              = w.marcxml.get_001
 
-    tgt_003_path      = File.join(@work_root, str_003)
-    tgt_003_date_path = File.join(tgt_003_path, "#{str_003}_#{@date_str}")
-    tgt_marcxml_path  = File.join(tgt_003_date_path, 'marcxml')
-    csv_file_path     = File.join(tgt_003_date_path, 'handles.csv')
+    tgt_003_path         = File.join(@work_root, str_003)
+    tgt_003_date_path    = File.join(tgt_003_path, "#{str_003}_#{@date_str}")
+    tgt_marcxml_dir_path = File.join(tgt_003_date_path, 'marcxml')
+    tgt_marcxml_path     = File.join(tgt_marcxml_dir_path, "#{str_003}_#{str_001}_marcxml.xml")
+
+    csv_file_path        = File.join(tgt_003_date_path, 'handles.csv')
 
     # creates:
     #  tgt_003_path
     #  tgt_003_date_path
     #  tgt_marcxml_path
-    FileUtils.mkdir_p(tgt_marcxml_path)
+    FileUtils.mkdir_p(tgt_marcxml_dir_path)
+    FileUtils.cp(w.marcxml_path, tgt_marcxml_path)
   end
 end
