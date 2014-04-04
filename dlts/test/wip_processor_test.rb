@@ -7,7 +7,7 @@ class WipProcessorTest < MiniTest::Unit::TestCase
   COO_V2    = 'test/wip/COO_valid_2'
   WORK_DIR  = 'test/work'
   DNE_PATH  = 'this-path-does-not-exist'
-  TEST_ONE  = {work_root: WORK_DIR, wips: [NNC_V1]}
+  TEST_ONE  = {work_root: WORK_DIR, wips: [Wip.new(NNC_V1)]}
 
   def create_work_dir
     FileUtils.mkdir(WORK_DIR) unless File.exists?(WORK_DIR)
@@ -34,6 +34,21 @@ class WipProcessorTest < MiniTest::Unit::TestCase
     err = assert_raises(RuntimeError) { Wip.new(DNE_PATH) }
     assert_match(/directory does not exist/, err.message)
   end
+
+  def test_run_method_creates_directory_heirarchy
+    date_str  = Time.now.strftime("%Y%m%d")
+
+    w = WipProcessor.new(TEST_ONE)
+    w.run
+    assert(File.exists?(File.join(WORK_DIR, 'NNC')), "003 dir not created")
+  end
+
+
+
+
+
+
+
 
   MiniTest::Unit.after_tests do
     FileUtils.mkdir(WORK_DIR) unless File.exists?(WORK_DIR)

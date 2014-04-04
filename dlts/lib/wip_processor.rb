@@ -21,7 +21,7 @@ class WipProcessor
 
   private
   def process_wip(w)
-    str_003           = w.handle.get_003
+    str_003           = w.marcxml.get_003
 
     tgt_003_path      = File.join(@work_root, str_003)
     tgt_003_date_path = File.join(tgt_003_path, "#{str_003}_#{@date_str}")
