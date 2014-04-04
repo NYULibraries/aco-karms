@@ -1,32 +1,27 @@
 require 'test_helper'
 require 'open3'
+require 'fileutils'
 
 #class GenWorkDirsTest < Test::Unit::TestCase
 class GenWorkDirsTest < MiniTest::Unit::TestCase
 
   COMMAND = 'ruby bin/gen-work-dirs.rb'
 
-
-# it creates a directory if there are some IEs that have not been processed
-# it emits the header row successfully
-# it parses the MARCXML correctly
-# it emits the 003,001, and handle fields correctly
-# it does not create a directory if all files have already been processed
-# it reports the number of files process to stderr
-# it exits with zero status on success
-# it exits with non-zero status on failure
-
+  # for each wip directory
+  # - creates a /work/<003> directory if it does not exist
+  # - creates a /work/<003>/<003>_<date stamp> directory if it DNE
+  # - creates a /work/<003>/<003>_<date stamp>/marcxmk directory if it DNE
+  # - creates the handles.csv file if it DNE and emits the header row
+  # - copies the marcxml to the marcxml directory
+  # - appends the WIP's <003>,<001>,<handle> to the csv file
+  # exits 0 on success
+  # exits non-zero on failure
 
   UNWRITABLE_DIR  = 'test/wip/unwritable'
   DIR1            = 'test/wip/dir1'
   DIR2            = 'test/wip/dir2'
   DIR3            = 'test/wip/dir3'
-  # VALID_TEXT          = 'test/texts/valid'
-  # EMPTY_TEXT          = 'test/texts/empty-dir'
-  # BAD_M_D_COUNT_TEXT  = 'test/texts/bad-m-d-file-count'
-  # BAD_M_D_PREFIX_TEXT = 'test/texts/bad-m-d-prefix'
-  # CANONICAL_XML       = 'test/canonical/valid_mets.xml'
-
+  WORK_DIR        = 'test/work'
 
   def test_valid_invocation
     o, e, s = Open3.capture3("#{COMMAND} #{DIR1} #{DIR2}")
@@ -34,7 +29,6 @@ class GenWorkDirsTest < MiniTest::Unit::TestCase
     assert('' == o, "stdout")
     assert('' == e, "stderr")
   end
-
 
   def test_with_incorrect_argument_count
     o, e, s = Open3.capture3("#{COMMAND}")
@@ -60,6 +54,10 @@ class GenWorkDirsTest < MiniTest::Unit::TestCase
     assert_match(/bad target directory/, e)
   end
 
+  def test_with_single_wip_dir
+    o, e, s = Open3.capture3("#{COMMAND} #{WORK_DIR} #{DIR1}")
+    assert(s == 0)
+  end 
 
   # def test_with_invalid_dir
   #   o, e, s = Open3.capture3("#{COMMAND} 'nyu_aco000003' 'SOURCE_ENTITY:TEXT' 'VERTICAL' 'LEFT_TO_RIGHT' 'RIGHT_TO_LEFT' invalid-dir-path")

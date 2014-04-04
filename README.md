@@ -20,15 +20,15 @@ work/
          FOO_20140330/
                       handles.csv
                       marcxml/
-                              FOO0004567_marcxml.xml
-                              FOO9871234_marcxml.xml
+                              FOO_0004567_marcxml.xml
+                              FOO_9871234_marcxml.xml
                               ...
      QXX/
          QXX_20140401/
                       handles.csv
                       marcxml/
-                              QXX1234567_marcxml.xml
-                              QXX9876543_marcxml.xml
+                              QXX_1234567_marcxml.xml
+                              QXX_9876543_marcxml.xml
                               ...
 ```
 #### CSV file format:
