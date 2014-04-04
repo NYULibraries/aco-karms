@@ -51,6 +51,11 @@ class WipTest < MiniTest::Unit::TestCase
     assert(Handle, w.handle)
   end
 
+  def test_marcxml_method
+    w = Wip.new(NNC_V1)
+    assert(Marcxml, w.marcxml)
+  end
+
 
 =begin
   def test_valid

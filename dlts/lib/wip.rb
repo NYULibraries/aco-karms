@@ -5,7 +5,7 @@ require_relative './marcxml'
 require_relative './handle'
 
 class Wip
-  attr_reader :handle
+  attr_reader :handle, :marcxml
 
   def initialize(path)
     @path     = validate_path(path.dup)
