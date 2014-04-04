@@ -1,12 +1,14 @@
 require 'test_helper'
 class MarcxmlTest < MiniTest::Unit::TestCase
 
-  VALID_MARCXML_PATH      = 'test/marcxml/valid'
-  INVALID_001_PATH        = 'test/marcxml/invalid_001'
-  INVALID_003_PATH        = 'test/marcxml/invalid_003'
-  EMPTY_MARCXML_PATH      = 'test/marcxml/empty'
-  DNE_MARCXML_PATH        = 'this/path/does/not/exist'
-  UNREADABLE_MARCXML_PATH = 'test/marcxml/unreadable'
+  VALID_MARCXML_PATH        = 'test/marcxml/valid'
+  INVALID_001_PATH          = 'test/marcxml/invalid_001'
+  INVALID_003_PATH          = 'test/marcxml/invalid_003'
+  VALID_DEFAULT_NS_PATH     = 'test/marcxml/default_ns'
+  VALID_NON_DEFAULT_NS_PATH = 'test/marcxml/non_default_ns'
+  EMPTY_MARCXML_PATH        = 'test/marcxml/empty'
+  DNE_MARCXML_PATH          = 'this/path/does/not/exist'
+  UNREADABLE_MARCXML_PATH   = 'test/marcxml/unreadable'
 
   def test_class
     assert_instance_of(Marcxml, Marcxml.new(VALID_MARCXML_PATH))
@@ -40,8 +42,25 @@ class MarcxmlTest < MiniTest::Unit::TestCase
 
   def test_marcxml_missing_003
     err = assert_raises(RuntimeError) { Marcxml.new(INVALID_003_PATH) }
-    assert_match(/marcxml file is not readable/, err.message)
+    assert_match(/missing controlfield 003/, err.message)
   end
+
+  def test_marcxml_missing_001
+    err = assert_raises(RuntimeError) { Marcxml.new(INVALID_001_PATH) }
+    assert_match(/missing controlfield 001/, err.message)
+  end
+
+  def test_marcxml_with_namespace
+    h = Marcxml.new(VALID_DEFAULT_NS_PATH)
+    assert(h.get_003 == "COO")
+    assert(h.get_001 == "1621570")
+  end
+  def test_marcxml_with_default_namespace
+    h = Marcxml.new(VALID_NON_DEFAULT_NS_PATH)
+    assert(h.get_003 == "NNU")
+    assert(h.get_001 == "001696991")
+  end
+
 
 
   # restore read/write permissions on test file

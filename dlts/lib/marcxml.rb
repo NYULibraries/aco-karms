@@ -52,8 +52,38 @@ class Marcxml
   end
 
   def extract_ctrl!
-    @ctrl_001 = @doc.xpath("//xmlns:record/xmlns:controlfield[@tag='001']").text
-    @ctrl_003 = @doc.xpath("//xmlns:record/xmlns:controlfield[@tag='003']").text
+    key = @doc.namespaces.key("http://www.loc.gov/MARC21/slim")
+    raise "unable to identify MARC21 namespace" if key.nil?
+
+    # the xmlns varies by document
+    # some documents use the default namespace, 'xmlns' for MARC21/slim
+    # while other documents use 'xmlns:marc'
+    # MARC21/slim is the default namespace, then we need 'xmlns' as the
+    # namespace for Nokogiri xpaths.
+    # if the MARC21/slim namespace is NOT the default, then
+    # strip off the leading 'xmlns:' and extract the namespace prefix.
+    # e.g.,
+    #
+    #   h = @columbia_doc.namespaces
+    #     => {"xmlns"=>"http://www.loc.gov/MARC21/slim"}
+    #   h.key("http://www.loc.gov/MARC21/slim")
+    #     => "xmlns"
+    #
+    #   nyu_h = @nyu_doc.namespaces
+    #     => {"xmlns:marc"=>"http://www.loc.gov/MARC21/slim"}
+    #   nyu_h.key("http://www.loc.gov/MARC21/slim")
+    #     => "xmlns:marc"
+    #
+    ns = key == "xmlns" ? key : key.sub("xmlns:",'')
+
+    # assemble prefix for the controlfield Nokogiri XPath expression
+    xpath_prefix = "//#{ns}:record/#{ns}:controlfield"
+
+    # extract the controlfield 001 and 003 values
+    @ctrl_001 = @doc.xpath("#{xpath_prefix}[@tag='001']").text
+    @ctrl_003 = @doc.xpath("#{xpath_prefix}[@tag='003']").text
+
+    # assert that controlfields are not missing or empty
     raise "missing controlfield 001" if @ctrl_001 == ''
     raise "missing controlfield 003" if @ctrl_003 == ''
   end
