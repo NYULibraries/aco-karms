@@ -7,7 +7,10 @@ class WipProcessorTest < MiniTest::Unit::TestCase
   COO_V2    = 'test/wip/COO_valid_2'
   WORK_DIR  = 'test/work'
   DNE_PATH  = 'this-path-does-not-exist'
-  TEST_ONE  = {work_root: WORK_DIR, wips: [Wip.new(NNC_V1)]}
+  TEST_NNC_ONE  = {work_root: WORK_DIR, wips: [Wip.new(NNC_V1)]}
+  TEST_NNC_TWO  = {work_root: WORK_DIR, wips: [Wip.new(NNC_V1), Wip.new(NNC_V2)]}
+  C_NNC_ONE_CSV = 'test/canonical/handles_nnc_one.csv'
+  C_NNC_TWO_CSV = 'test/canonical/handles_nnc_two.csv'
 
   def create_work_dir
     FileUtils.mkdir(WORK_DIR) unless File.exists?(WORK_DIR)
@@ -27,7 +30,7 @@ class WipProcessorTest < MiniTest::Unit::TestCase
   end
 
   def test_class
-    assert_instance_of(WipProcessor, WipProcessor.new(TEST_ONE))
+    assert_instance_of(WipProcessor, WipProcessor.new(TEST_NNC_ONE))
   end
 
   def test_wip_directory_does_not_exist
@@ -38,7 +41,7 @@ class WipProcessorTest < MiniTest::Unit::TestCase
   def test_run_method_creates_directory_heirarchy
     date_str  = Time.now.strftime("%Y%m%d")
 
-    w = WipProcessor.new(TEST_ONE)
+    w = WipProcessor.new(TEST_NNC_ONE)
     w.run
     assert(File.exists?(File.join(WORK_DIR, 'NNC')), "<003> dir not created")
     assert(File.exists?(File.join(WORK_DIR, 'NNC', "NNC_#{date_str}")), "<003>_<date_str> dir not created")
@@ -48,7 +51,7 @@ class WipProcessorTest < MiniTest::Unit::TestCase
   def test_run_method_creates_directory_heirarchy
     date_str  = Time.now.strftime("%Y%m%d")
 
-    w = WipProcessor.new(TEST_ONE)
+    w = WipProcessor.new(TEST_NNC_ONE)
     w.run
     assert(File.exists?(File.join(WORK_DIR, 'NNC')), "<003> dir not created")
     assert(File.exists?(File.join(WORK_DIR, 'NNC', "NNC_#{date_str}")), "<003>_<date_str> dir not created")
@@ -58,14 +61,32 @@ class WipProcessorTest < MiniTest::Unit::TestCase
   def test_run_method_copies_marcxml_file
     date_str  = Time.now.strftime("%Y%m%d")
 
-    w = WipProcessor.new(TEST_ONE)
+    w = WipProcessor.new(TEST_NNC_ONE)
     w.run
     exp = File.join(WORK_DIR, 'NNC', "NNC_#{date_str}", 'marcxml', "NNC_3076855_marcxml.xml")
     assert(File.exists?(exp), "marcxml file not copied")
     assert(FileUtils.cmp(exp, File.join(NNC_V1, 'data', 'columbia_CU58888896_marcxml.xml')))
   end
 
+  def test_run_method_creates_csv_file
+    date_str  = Time.now.strftime("%Y%m%d")
 
+    w = WipProcessor.new(TEST_NNC_ONE)
+    w.run
+    exp = File.join(WORK_DIR, 'NNC', "NNC_#{date_str}", 'handles.csv')
+    assert(File.exists?(exp), "csv file not created")
+    assert(FileUtils.cmp(exp, C_NNC_ONE_CSV))
+  end
+
+  def test_run_method_creates_correct_csv_file_for_two_wips
+    date_str  = Time.now.strftime("%Y%m%d")
+
+    w = WipProcessor.new(TEST_NNC_TWO)
+    w.run
+    exp = File.join(WORK_DIR, 'NNC', "NNC_#{date_str}", 'handles.csv')
+    assert(File.exists?(exp), "csv file not created")
+    assert(FileUtils.cmp(exp, C_NNC_TWO_CSV))
+  end
 
 
 

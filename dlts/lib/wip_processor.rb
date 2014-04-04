@@ -10,7 +10,6 @@ class WipProcessor
     @work_root = File.expand_path(h[:work_root])
     @wips      = h[:wips]
     @date_str  = Time.now.strftime("%Y%m%d")
-
   end
 
   def run
@@ -37,5 +36,13 @@ class WipProcessor
     #  tgt_marcxml_path
     FileUtils.mkdir_p(tgt_marcxml_dir_path)
     FileUtils.cp(w.marcxml_path, tgt_marcxml_path)
+
+    # update csv file
+    File.open(csv_file_path, "a") do |f|
+      if f.size == 0
+        f.puts '003,001,handle'
+      end
+      f.puts "#{str_003},#{str_001},#{w.handle.to_url}"
+    end
   end
 end
