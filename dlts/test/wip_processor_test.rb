@@ -9,8 +9,10 @@ class WipProcessorTest < MiniTest::Unit::TestCase
   DNE_PATH  = 'this-path-does-not-exist'
   TEST_NNC_ONE  = {work_root: WORK_DIR, wips: [Wip.new(NNC_V1)]}
   TEST_NNC_TWO  = {work_root: WORK_DIR, wips: [Wip.new(NNC_V1), Wip.new(NNC_V2)]}
+  TEST_FOUR     = {work_root: WORK_DIR, wips: [Wip.new(NNC_V1), Wip.new(COO_V1), Wip.new(NNC_V2), Wip.new(COO_V2)]}
   C_NNC_ONE_CSV = 'test/canonical/handles_nnc_one.csv'
   C_NNC_TWO_CSV = 'test/canonical/handles_nnc_two.csv'
+  C_COO_TWO_CSV = 'test/canonical/handles_coo_two.csv'
 
   def create_work_dir
     FileUtils.mkdir(WORK_DIR) unless File.exists?(WORK_DIR)
@@ -88,8 +90,19 @@ class WipProcessorTest < MiniTest::Unit::TestCase
     assert(FileUtils.cmp(exp, C_NNC_TWO_CSV))
   end
 
+  def test_run_method_creates_correct_csv_files_for_four_wips_from_two_003s
+    date_str  = Time.now.strftime("%Y%m%d")
 
+    w = WipProcessor.new(TEST_FOUR)
+    w.run
+    exp_nnc = File.join(WORK_DIR, 'NNC', "NNC_#{date_str}", 'handles.csv')
+    assert(File.exists?(exp_nnc), "NNC csv file not created")
+    assert(FileUtils.cmp(exp_nnc, C_NNC_TWO_CSV))
 
+    exp_coo = File.join(WORK_DIR, 'COO', "COO_#{date_str}", 'handles.csv')
+    assert(File.exists?(exp_coo), "COO csv file not created")
+    assert(FileUtils.cmp(exp_coo, C_COO_TWO_CSV))
+  end
 
 
   MiniTest::Unit.after_tests do
@@ -97,40 +110,4 @@ class WipProcessorTest < MiniTest::Unit::TestCase
     FileUtils.touch(File.join(WORK_DIR, '.gitkeep'))
   end
 
-=begin
-  def test_wip_directory_does_not_exist
-    err = assert_raises(RuntimeError) { Wip.new(DNE_PATH) }
-    assert_match(/directory does not exist/, err.message)
-  end
-
-  def test_handle_file_missing
-    err = assert_raises(RuntimeError) { Wip.new(I_NO_HANDLE) }
-    assert_match(/handle file does not exist/, err.message)
-  end
-
-  def test_marcxml_file_missing
-    err = assert_raises(RuntimeError) { Wip.new(I_NO_MARCXML) }
-    assert_match(/marcxml file count != 1/, err.message)
-  end
-
-  def test_marcxml_too_many_marcxml_files
-    err = assert_raises(RuntimeError) { Wip.new(I_TOO_MANY_MARCXML) }
-    assert_match(/marcxml file count != 1/, err.message)
-  end
-
-  def test_marcxml_missing_003_controlfield
-    err = assert_raises(RuntimeError) { Wip.new(I_MARCXML_NO_003) }
-    assert_match(/missing controlfield 003/, err.message)
-  end
-
-  def test_handle_method
-    w = Wip.new(NNC_V1)
-    assert(Handle, w.handle)
-  end
-
-  def test_marcxml_method
-    w = Wip.new(NNC_V1)
-    assert(Marcxml, w.marcxml)
-  end
-=end
 end
