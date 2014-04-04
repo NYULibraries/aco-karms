@@ -16,10 +16,22 @@ class WipTest < MiniTest::Unit::TestCase
   I_NO_HANDLE        = 'test/wip/missing_handle'
   I_NO_MARCXML       = 'test/wip/missing_marcxml'
   I_TOO_MANY_MARCXML = 'test/wip/too_many_marcxml'
+  DNE_PATH           = 'this-path-does-not-exist'
 
   def test_class
     assert_instance_of(Wip, Wip.new(NNC_V1))
   end
+
+  def test_nonexistent_wip
+    err = assert_raises(RuntimeError) { Wip.new(DNE_PATH) }
+    assert_match(/directory does not exist/, err.message)
+  end
+
+  def test_missing_handle_file
+    err = assert_raises(RuntimeError) { Wip.new(I_NO_HANDLE) }
+    assert_match(/handle file does not exist/, err.message)
+  end
+
 
 =begin
   def test_valid
