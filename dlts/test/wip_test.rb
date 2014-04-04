@@ -8,7 +8,6 @@ class WipTest < MiniTest::Unit::TestCase
   # it returns a marcxml object
   # it returns a handle object
 
-  UNWRITABLE_DIR     = 'test/wip/unwritable'
   NNC_V1             = 'test/wip/NNC_valid_1'
   COO_V1             = 'test/wip/COO_valid_1'
   I_MARCXML          = 'test/wip/invalid_marcxml'
@@ -22,14 +21,34 @@ class WipTest < MiniTest::Unit::TestCase
     assert_instance_of(Wip, Wip.new(NNC_V1))
   end
 
-  def test_nonexistent_wip
+  def test_wip_directory_does_not_exist
     err = assert_raises(RuntimeError) { Wip.new(DNE_PATH) }
     assert_match(/directory does not exist/, err.message)
   end
 
-  def test_missing_handle_file
+  def test_handle_file_missing
     err = assert_raises(RuntimeError) { Wip.new(I_NO_HANDLE) }
     assert_match(/handle file does not exist/, err.message)
+  end
+
+  def test_marcxml_file_missing
+    err = assert_raises(RuntimeError) { Wip.new(I_NO_MARCXML) }
+    assert_match(/marcxml file count != 1/, err.message)
+  end
+
+  def test_marcxml_too_many_marcxml_files
+    err = assert_raises(RuntimeError) { Wip.new(I_TOO_MANY_MARCXML) }
+    assert_match(/marcxml file count != 1/, err.message)
+  end
+
+  def test_marcxml_missing_003_controlfield
+    err = assert_raises(RuntimeError) { Wip.new(I_MARCXML_NO_003) }
+    assert_match(/missing controlfield 003/, err.message)
+  end
+
+  def test_handle_method
+    w = Wip.new(NNC_V1)
+    assert(Handle, w.handle)
   end
 
 
