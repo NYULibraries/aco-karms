@@ -24,7 +24,6 @@ class Wip
   end
 
   def get_marcxml
-    wip_name = File.basename(@path)
     glob_str = File.join(@path, 'data', '*_marcxml.xml')
     marcxml_paths = Dir.glob(glob_str)
     raise "marcxml file count != 1" unless marcxml_paths.length == 1
