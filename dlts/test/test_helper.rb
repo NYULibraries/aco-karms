@@ -1,0 +1,8 @@
+require 'fileutils'
+require 'minitest/unit'
+require 'minitest/autorun'
+require 'minitest/pride'
+require_relative '../lib/handle'
+require_relative '../lib/marcxml'
+require_relative '../lib/wip'
+require_relative '../lib/wip_processor'

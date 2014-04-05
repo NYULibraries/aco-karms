@@ -1,0 +1,103 @@
+require 'test_helper'
+require 'open3'
+require 'fileutils'
+
+#class GenWorkDirsTest < Test::Unit::TestCase
+class GenWorkDirsTest < MiniTest::Unit::TestCase
+
+  COMMAND = 'ruby bin/gen-work-dirs.rb'
+
+  # for each wip directory
+  # - creates a /work/<003> directory if it does not exist
+  # - creates a /work/<003>/<003>_<date stamp> directory if it DNE
+  # - creates a /work/<003>/<003>_<date stamp>/marcxmk directory if it DNE
+  # - creates the handles.csv file if it DNE and emits the header row
+  # - copies the marcxml to the marcxml directory
+  # - appends the WIP's <003>,<001>,<handle> to the csv file
+  # exits 0 on success
+  # exits non-zero on failure
+
+  UNWRITABLE_DIR  = 'test/wip/unwritable'
+  NNC_V1          = 'test/wip/NNC_valid_1'
+  NNC_V2          = 'test/wip/NNC_valid_2'
+  COO_V1          = 'test/wip/COO_valid_1'
+  COO_V2          = 'test/wip/COO_valid_2'
+  WORK_DIR        = 'test/work'
+  DNE_PATH        = 'this-path-does-not-exist'
+
+  def create_work_dir
+    FileUtils.mkdir(WORK_DIR) unless File.exists?(WORK_DIR)
+    FileUtils.touch(File.join(WORK_DIR, '.gitkeep'))
+  end
+
+  def destroy_work_dir
+    FileUtils.remove_dir(WORK_DIR)
+  end
+
+  def setup
+    create_work_dir
+  end
+
+  def teardown
+    destroy_work_dir
+  end
+
+  def test_valid_invocation
+    o, e, s = Open3.capture3("#{COMMAND} #{WORK_DIR} #{COO_V1}")
+    assert(s == 0, "exit status: #{e}")
+    assert('' == o, "stdout")
+    assert('' == e, "stderr")
+  end
+
+  def test_with_incorrect_argument_count
+    o, e, s = Open3.capture3("#{COMMAND}")
+    assert(s != 0)
+    assert(o == '')
+    assert_match(/usage/, e)
+    assert_match(/incorrect number of arguments/, e)
+  end
+
+  def test_with_unwritable_dir
+    o, e, s = Open3.capture3("#{COMMAND} #{UNWRITABLE_DIR} #{NNC_V1}")
+    assert(s != 0)
+    assert(o == '')
+    assert_match(/usage/, e)
+    assert_match(/bad target directory/, e)
+  end
+
+  def test_with_non_existent_work_dir
+    o, e, s = Open3.capture3("#{COMMAND} #{DNE_PATH} #{NNC_V1}")
+    assert(s != 0)
+    assert(o == '')
+    assert_match(/usage/, e)
+    assert_match(/bad target directory/, e)
+  end
+
+  def test_with_non_existent_wip_dir
+    o, e, s = Open3.capture3("#{COMMAND} #{WORK_DIR} #{DNE_PATH}")
+    assert(s != 0)
+    assert(o == '')
+    assert_match(/directory does not exist/, e)
+  end
+
+=begin
+  def test_with_single_wip_dir
+    o, e, s = Open3.capture3("#{COMMAND} #{WORK_DIR} #{NNC_V1}")
+    assert(s == 0)
+    assert(File.exists?(File.join(WORK_DIR, "NNC")), "work/<003> subdirectory not created")
+  end
+
+  def test_with_multiple_wip_dir
+    o, e, s = Open3.capture3("#{COMMAND} #{WORK_DIR} #{NNC_V1} #{COO_V2} #{NNC_V2} #{COO_V1}")
+    assert(s == 0)
+    assert(File.exists?(File.join(WORK_DIR, "NNC")), "work/NNC subdirectory not created")
+    assert(File.exists?(File.join(WORK_DIR, "COO")), "work/COO subdirectory not created")
+  end
+=end
+
+  MiniTest::Unit.after_tests do
+    FileUtils.mkdir(WORK_DIR) unless File.exists?(WORK_DIR)
+    FileUtils.touch(File.join(WORK_DIR, '.gitkeep'))
+  end
+
+end
