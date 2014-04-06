@@ -12,7 +12,7 @@ All WIP directories must be structured as:
 
 Each WIP directory MUST:
 * have a ```<wip>/data``` directory that contains only ONE MARCXML file with the suffix ```_marcxml.xml```
-  * the MARCXML file must validate against the MARC21slim.xsd schema.
+  * the MARCXML file must validate against the ```MARC21slim.xsd``` schema.
   * the MARCXML file must contain ```<controlfield tag="003">``` an ```<controlfield tag="001">``` elements
 * contain a ```handle``` file containing a string ```<prefix>/<suffix>```
   * e.g., ```2333.1/s4mw6wxyz```
