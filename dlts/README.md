@@ -1,4 +1,4 @@
-## aco-karms : dlts/ subdirectory
+## aco-karms : dlts subdirectory
 
 This directory and subdirectories contains the DLTS-specific
 work-directory generation code and test framework.
