@@ -22,7 +22,6 @@ class ValidateAcoMarcxml < MiniTest::Unit::TestCase
     assert('' == e, "stderr")
   end
 
-=begin
   def test_with_incorrect_argument_count
     o, e, s = Open3.capture3("#{COMMAND}")
     assert(s != 0)
@@ -31,16 +30,29 @@ class ValidateAcoMarcxml < MiniTest::Unit::TestCase
     assert_match(/incorrect number of arguments/, e)
   end
 
-  def test_with_unwritable_dir
-    o, e, s = Open3.capture3("#{COMMAND} #{UNWRITABLE_DIR} #{NNC_V1}")
+  def test_with_non_existent_file
+    o, e, s = Open3.capture3("#{COMMAND} #{DNE_MARCXML_PATH}")
     assert(s != 0)
     assert(o == '')
-    assert_match(/usage/, e)
-    assert_match(/bad target directory/, e)
+    assert_match(/File does not exist/, e)
   end
 
-  def test_with_non_existent_work_dir
-    o, e, s = Open3.capture3("#{COMMAND} #{DNE_PATH} #{NNC_V1}")
+  def test_unreadable_marcxml_file
+    File.chmod( 0000, UNREADABLE_MARCXML_PATH)
+    o, e, s = Open3.capture3("#{COMMAND} #{UNREADABLE_MARCXML_PATH}")
+    assert(s != 0)
+    assert(o == '')
+    assert_match(/File is not readable/, e)
+  end
+
+
+  # restore read/write permissions on test file
+  MiniTest::Unit.after_tests { File.chmod( 0644, UNREADABLE_MARCXML_PATH) }
+
+
+=begin
+  def test_with_unwritable_dir
+    o, e, s = Open3.capture3("#{COMMAND} #{UNWRITABLE_DIR} #{NNC_V1}")
     assert(s != 0)
     assert(o == '')
     assert_match(/usage/, e)
