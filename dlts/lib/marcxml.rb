@@ -55,13 +55,18 @@ class Marcxml
     key = @doc.namespaces.key("http://www.loc.gov/MARC21/slim")
     raise "unable to identify MARC21 namespace" if key.nil?
 
-    # the xmlns varies by document
-    # some documents use the default namespace, 'xmlns' for MARC21/slim
-    # while other documents use 'xmlns:marc'
-    # MARC21/slim is the default namespace, then we need 'xmlns' as the
-    # namespace for Nokogiri xpaths.
-    # if the MARC21/slim namespace is NOT the default, then
-    # strip off the leading 'xmlns:' and extract the namespace prefix.
+    # the MARC21/slim xmlns varies by document
+    #   some  documents use the default 'xmlns' namespace
+    #   other documents use the 'xmlns:marc'    namespace
+    #
+    # These differences are reflected in the Nokogiri XPath expressions:
+    #   e.g.
+    #     //xmlns:record/xmlns:controlfield
+    #     //marc:record/marc:controlfield
+    #
+    # Nokogiri::XML::Document#namespaces is used to determine the proper
+    #   namespace prefix to use in the XPath expressions.
+    #
     # e.g.,
     #
     #   h = @columbia_doc.namespaces
@@ -74,6 +79,8 @@ class Marcxml
     #   nyu_h.key("http://www.loc.gov/MARC21/slim")
     #     => "xmlns:marc"
     #
+    #
+    # use 'xmlns' if in default namespace, otherwise extract namespace prefix
     ns = key == "xmlns" ? key : key.sub("xmlns:",'')
 
     # assemble prefix for the controlfield Nokogiri XPath expression
@@ -87,5 +94,4 @@ class Marcxml
     raise "missing controlfield 001" if @ctrl_001 == ''
     raise "missing controlfield 003" if @ctrl_003 == ''
   end
-
 end

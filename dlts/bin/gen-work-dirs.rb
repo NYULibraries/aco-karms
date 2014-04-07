@@ -39,7 +39,6 @@ end
 
 def validate_and_extract_args(args_in)
   args_out = {}
-  errors   = []
 
   # argument count correct?
   emsg = "incorrect number of arguments"
