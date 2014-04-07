@@ -61,23 +61,7 @@ class MarcxmlTest < MiniTest::Unit::TestCase
     assert(h.get_001 == "001696991")
   end
 
-
-
   # restore read/write permissions on test file
   MiniTest::Unit.after_tests { File.chmod( 0644, UNREADABLE_MARCXML_PATH) }
-
-=begin
-
-  def test_marcxml_get_001
-    h = Marcxml.new(VALID_MARCXML_PATH)
-    assert(h.marcxml == "2333.1/abdcde")
-  end
-
-  def test_marcxml_get_003
-    h = Marcxml.new(VALID_MARCXML_PATH)
-    assert(h.marcxml == "2333.1/abdcde")
-  end
-
-=end
 
 end
