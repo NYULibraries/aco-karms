@@ -44,14 +44,14 @@ class GenWorkDirsTest < MiniTest::Unit::TestCase
 
   def test_valid_invocation
     o, e, s = Open3.capture3("#{COMMAND} #{WORK_DIR} #{COO_V1}")
-    assert(s == 0, "exit status: #{e}")
+    assert(s.exitstatus == 0, "exit status: #{e}")
     assert('' == o, "stdout")
     assert('' == e, "stderr")
   end
 
   def test_with_incorrect_argument_count
     o, e, s = Open3.capture3("#{COMMAND}")
-    assert(s != 0)
+    assert(s.exitstatus != 0)
     assert(o == '')
     assert_match(/usage/, e)
     assert_match(/incorrect number of arguments/, e)
@@ -59,7 +59,7 @@ class GenWorkDirsTest < MiniTest::Unit::TestCase
 
   def test_with_unwritable_dir
     o, e, s = Open3.capture3("#{COMMAND} #{UNWRITABLE_DIR} #{NNC_V1}")
-    assert(s != 0)
+    assert(s.exitstatus != 0)
     assert(o == '')
     assert_match(/usage/, e)
     assert_match(/bad target directory/, e)
@@ -67,7 +67,7 @@ class GenWorkDirsTest < MiniTest::Unit::TestCase
 
   def test_with_non_existent_work_dir
     o, e, s = Open3.capture3("#{COMMAND} #{DNE_PATH} #{NNC_V1}")
-    assert(s != 0)
+    assert(s.exitstatus != 0)
     assert(o == '')
     assert_match(/usage/, e)
     assert_match(/bad target directory/, e)
@@ -75,25 +75,10 @@ class GenWorkDirsTest < MiniTest::Unit::TestCase
 
   def test_with_non_existent_wip_dir
     o, e, s = Open3.capture3("#{COMMAND} #{WORK_DIR} #{DNE_PATH}")
-    assert(s != 0)
+    assert(s.exitstatus != 0)
     assert(o == '')
     assert_match(/directory does not exist/, e)
   end
-
-=begin
-  def test_with_single_wip_dir
-    o, e, s = Open3.capture3("#{COMMAND} #{WORK_DIR} #{NNC_V1}")
-    assert(s == 0)
-    assert(File.exists?(File.join(WORK_DIR, "NNC")), "work/<003> subdirectory not created")
-  end
-
-  def test_with_multiple_wip_dir
-    o, e, s = Open3.capture3("#{COMMAND} #{WORK_DIR} #{NNC_V1} #{COO_V2} #{NNC_V2} #{COO_V1}")
-    assert(s == 0)
-    assert(File.exists?(File.join(WORK_DIR, "NNC")), "work/NNC subdirectory not created")
-    assert(File.exists?(File.join(WORK_DIR, "COO")), "work/COO subdirectory not created")
-  end
-=end
 
   MiniTest::Unit.after_tests do
     FileUtils.mkdir(WORK_DIR) unless File.exists?(WORK_DIR)
