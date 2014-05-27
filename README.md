@@ -19,14 +19,14 @@ work/
      FOO/
          FOO_20140330/
                       handles.csv
-                      marcxml/
+                      marcxml_in/
                               FOO_0004567_marcxml.xml
                               FOO_9871234_marcxml.xml
                               ...
      QXX/
          QXX_20140401/
                       handles.csv
-                      marcxml/
+                      marcxml_in/
                               QXX_1234567_marcxml.xml
                               QXX_9876543_marcxml.xml
                               ...
