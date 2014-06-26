@@ -25,7 +25,7 @@
 
 #### Princeton:
 ```
-* Delivered via    : with deposits
+* Delivered via    : hard drive image deposits
 * Alternate via    : SFTP
 * Account NetID    : nyu299
 * Project Manager  : Peter Green
