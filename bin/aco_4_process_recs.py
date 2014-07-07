@@ -1,44 +1,70 @@
 #!/usr/bin/python
 
-# Filename: aco_4_process_recs.py
-# This Python script is used to:
-#  1) for oclc records:
-#		add a new 035 field containing the 001/003 BSN data from the original record using txt file
-#		delete the 001/003 containing the OCLC number and add new 001/003 fields for the BSN data
-#  2) for original records (lacking any OCLC record):
-#		delete any existing 035 fields
-#		copy the BSN data from the 001/003 fields to a new 035 field
-#  3) for all records:
-#		check record for presence of 880 script fields and write to .mrc files accordingly
-#		check record for presence of RDA fields
-
+import os
+import errno
 import pymarc
-from pymarc.field import Field
+from pymarc import Record, Field
 import codecs
-import re
+import aco_functions
 
-institution = raw_input("Enter the institution code (e.g., NNC for columbia, COO for cornell, NNU for nyu, or princeton): ")
-batch_date = raw_input("Enter the date of the batch being processed in the format YYYYMMDD (e.g., 20140317):")
-folder_name = institution + "_" + batch_date
-
-rec_analysis_msgs = ''
+parent_dir = os.path.dirname(os.getcwd())
+work_folder = parent_dir+'/work'
+inst_code = raw_input('Enter the 3-letter institutional code: ')
+batch_date = raw_input('Enter the batch date (YYYYMMDD): ')
+batch_folder = work_folder+'/'+inst_code+'/'+inst_code+'_'+batch_date
 
 # INPUT FILES
-try:	marcRecsIn_oclc_recs_1 = pymarc.MARCReader(file(folder_name+'/'+folder_name+'_3_oclc_recs_1_batch.mrc'), to_unicode=True, force_utf8=True)
-except: marcRecsIn_oclc_recs_1 = ''
-try:	marcRecsIn_oclc_recs_2 = pymarc.MARCReader(file(folder_name+'/'+folder_name+'_3_oclc_recs_2_manual.mrc'), to_unicode=True, force_utf8=True)
-except:	marcRecsIn_oclc_recs_2 = ''
-try:	marcRecsIn_orig_recs_no_oclc = pymarc.MARCReader(file(folder_name+'/'+folder_name+'_3_orig_recs_no_oclc_nums.mrc'), to_unicode=True, force_utf8=True)
+oclc_nums_bsns_all = []
+
+# retrieve the ORIGINAL records that DO NOT have a corresponding OCLC record
+try:	marcRecsIn_orig_recs_no_oclc = pymarc.MARCReader(file(batch_folder+'/'+inst_code+'_'+batch_date+'_2_orig_recs_no_oclc_nums.mrc'), to_unicode=True, force_utf8=True)
 except:	marcRecsIn_orig_recs_no_oclc = ''
-oclc_nums_bsns_txt = codecs.open(folder_name+'/'+folder_name+'_2_oclc_nums_bsns.txt', 'r', encoding='utf-8')	# opens the txt file containing the 001s, 003s, and corresponding OCLC nums (read-only)
-oclc_nums_bsns_lines = oclc_nums_bsns_txt.readlines()	# read the txt file containing 001/003 and corresponding OCLC numbers
+
+# retrieve the OCLC records from the BATCH process
+try:	marcRecsIn_oclc_batch = pymarc.MARCReader(file(batch_folder+'/'+inst_code+'_'+batch_date+'_3_oclc_recs_batch.mrc'), to_unicode=True, force_utf8=True)
+except: marcRecsIn_oclc_batch = ''
+try:
+	oclc_nums_bsns_batch = open(batch_folder+'/'+inst_code+'_'+batch_date+'_2_oclc_nums_bsns_batch.txt', 'r')	# opens the txt file containing the 001s, 003s, and corresponding OCLC nums (read-only)
+	oclc_nums_bsns_batch_lines = oclc_nums_bsns_batch.readlines()	# read the txt file containing 001/003 and corresponding OCLC numbers
+	for line in oclc_nums_bsns_batch_lines:
+		oclc_nums_bsns_all.append(line)
+	oclc_nums_bsns_batch.close()
+except:
+	oclc_nums_bsns_batch_lines = ''
+
+# retreive the OCLC records from the MANUAL process
+try:	marcRecsIn_oclc_manual = pymarc.MARCReader(file(batch_folder+'/'+inst_code+'_'+batch_date+'_3_oclc_recs_manual.mrc'), to_unicode=True, force_utf8=True)
+except:	marcRecsIn_oclc_manual = ''
+try:
+	oclc_nums_bsns_manual = open(batch_folder+'/'+inst_code+'_'+batch_date+'_3_oclc_nums_bsns_manual.txt', 'r')	# opens the txt file containing the 001s, 003s, and corresponding OCLC nums (read-only)
+	oclc_nums_bsns_manual_lines = oclc_nums_bsns_manual.readlines()	# read the txt file containing 001/003 and corresponding OCLC numbers
+	for line in oclc_nums_bsns_manual_lines:
+		oclc_nums_bsns_all.append(line)
+	oclc_nums_bsns_manual.close()
+except:
+	oclc_nums_bsns_manual_lines = ''
+
+# retrieve the CSV file containing the 003/001 values and corresponding URL handles
+try:
+	handles = open(batch_folder+'/handles.csv', 'r')
+	handles_lines = handles.readlines()
+	handles.close()
+except:	handles = ''
 
 # OUTPUT FILES
-marcRecsOut_recs_script = pymarc.MARCWriter(file(folder_name+'/'+folder_name+'_4_recs_script.mrc', 'w'))
-marcRecsOut_recs_no_script = pymarc.MARCWriter(file(folder_name+'/'+folder_name+'_4_recs_no_script.mrc', 'w'))
-rec_analysis_txt = codecs.open(folder_name+'/'+folder_name+'_4_rec_analysis.txt', 'w')
+marcRecsOut_no_script = pymarc.MARCWriter(file(batch_folder+'/'+inst_code+'_'+batch_date+'_4_recs_no_script.mrc', 'w'))
+recs_no_script = codecs.open(batch_folder+'/'+inst_code+'_'+batch_date+'_4_recs_no_script_nums.txt', 'w')
+recs_no_script.write('Records LACKING 880 script fields:\n-------------------------------------------------------------\n')
 
-rec_count = 0				# variable to keep track of the total number of records processed
+marcRecsOut_final = pymarc.MARCWriter(file(batch_folder+'/'+inst_code+'_'+batch_date+'_4_dlts_final_recs.mrc', 'w'))
+
+rec_analysis_txt = codecs.open(batch_folder+'/'+inst_code+'_'+batch_date+'_4_rec_analysis.txt', 'w')
+indiv_rec_analysis_msg = ''
+all_rec_analysis_msg = ''
+
+
+oclc_nums = set()			# variable to keep track of oclc numbers processed
+rec_count_tot = 0			# variable to keep track of the total number of records processed
 rec_count_file1 = 0			# variable to keep track of the number of records processed for File 1
 rec_count_file2 = 0			# variable to keep track of the number of records processed for File 2
 rec_count_file3 = 0			# variable to keep track of the number of records processed for File 3
@@ -46,159 +72,167 @@ rec_no_oclc_match_count = 0	# variable to keep track of the number of OCLC recor
 recs_880s_count = 0			# variable to keep track of the number of records having 880 script fields
 recs_no_880s_count = 0		# variable to keep track of the number of records NOT having 880 script fields
 recs_rda_count = 0			# variable to keep track of the number of records having RDA 3XX or 040e fields
+recs_repl_char_count = 0	# variable to keep track of the number of records containing the bad encoding replacement character
 
 ######################################################################
-##  Method:  strip_number()
+##  Method process_rec()
 ######################################################################
-def strip_number(oclc_subfield):
-	digits_regex = re.compile('\d+')	# regular expression for matching a series of numerical characters only
-	oclc_subfield = oclc_subfield.strip()							# remove any whitespace around the 035 a/z content
-	oclc_subfield_digits = re.findall(digits_regex,oclc_subfield)	# extract just the OCLC number from the 035 a/z
-	oclc_subfield_digits = oclc_subfield_digits[0].lstrip('0')		# remove any leading zeros from the OCLC number
-	return oclc_subfield_digits
-
-######################################################################
-##  Method:  calculate_percentage()
-######################################################################
-def calculate_percentage(x,y):
-	percentage = 100 * float(x)/float(y)
-	percentage = round(percentage,1)
-	return str(percentage)
+def process_rec(rec, type):
+	global oclc_nums
+	global oclc_nums_bsns_all
+	global handles_lines
+	global rec_no_oclc_match_count
+	global recs_880s_count
+	global recs_no_880s_count
+	global recs_rda_count
+	global recs_repl_char_count
+	global rec_count_tot
+	global indiv_rec_analysis_msg
 	
-######################################################################
-##  Method:  process_record()
-######################################################################
-def process_record(rec):
-	global rec_analysis_msgs
-	rec_003_value = rec.get_fields('003')[0].value()	# the institutional code from the 003 (either "OCLC" or a partner institution)
-	rec_001_value = rec.get_fields('001')[0].value()	# the local record number from the 001 (either the OCLC number or the partner's BSN)
-	rec_analysis_msgs += 'Record '+rec_003_value+'_'+rec_001_value+'\n'
-												
-	if rec_001_value.startswith('o'):		# this is a record exported from oclc, not an original record
-		# for oclc records, add a new 035 field and new 001/003 fields containing the orig record's 001/003 data using txt file
-		# get list of OCLC numbers for this OCLC record from 035 subfields a and z
-		rec_oclc_nums = set()
-		if len(rec.get_fields('035')) > 0:					# check if there are any 035 fields in the OCLC record
-			for rec_035 in rec.get_fields('035'):			# iterate through each of the 035 fields
-				rec_035az = rec_035.get_subfields('a','z')	# capture all the subfields a or z in the 035 field
-				if len(rec_035az) > 0:						# check if any subfields a or z exist
-					for this_az in rec_035az:				# iterate through each of the subfields a or z
-						this_oclc_num = strip_number(this_az)	# strip the subfield data down to just the OCLC number digits
-						rec_oclc_nums.add(this_oclc_num)		# add the number to the list of this record's OCLC numbers
-						rec_analysis_msgs += 'oclc_rec_035_num: '+str(this_az)+'\n'
+	rec_003_value = rec.get_fields('003')[0].value()	# either 'OCLC' or the partner's institution code from the 003 field
+	rec_001_value = rec.get_fields('001')[0].value()	# either the OCLC number or the inst_id from the 001 field
+	if type=='oclc':
+		################################################
+		# Check for duplicate OCLC record
+		dup_num = False
+		for num in oclc_nums:
+			if rec_001_value == num:
+				dup_num = True
+		if not dup_num:
+			oclc_nums.add(rec_001_value)
 		
-		oclc_match = False
-		for line in oclc_nums_bsns_lines:		# iterate through each of the lines in the txt file containing 001s/003s and OCLC numbers from original records
-			if line.startswith('003'):			# this is the first header line in the txt file
-				# skip the line
-				skipped_line = line
-			else:
-				# process the line data from the txt file
-				line_data = line.split(',')
-				line_003 = line_data[0].strip()			# capture the partner's institution code
-				line_001 = line_data[1].strip()			# capture the partner's bsn
-				line_oclc_nums = line_data[2].strip()	# capture the corresponding OCLC numbers and remove any white space around them
-				line_oclc_nums = line_oclc_nums.strip('"')	# remove the quotes around the OCLC number(s)
-				line_oclc_nums = line_oclc_nums.split('|')	# create a list of the OCLC numbers based on the pipe delimiter, in case there are more than one
-
-				for rec_oclc_num in rec_oclc_nums:
-					for line_oclc_num in line_oclc_nums:
-						if line_oclc_num == rec_oclc_num:
-							oclc_match = True
-							rec_analysis_msgs += 'Record matches: '+line_003+'_'+line_001+'\n'
-							# add an 035 field to the OCLC record containing the 001/003 information from the original record
-							line_bsn = '('+line_003+')'+line_001
-							new_035_bsn = Field(tag='035', indicators=[' ',' '], subfields=['a',line_bsn])
-							rec.add_field(new_035_bsn)
-							
-							# delete the existing 001/003 fields from the OCLC record containing the OCLC number and symbol
-							rec.remove_field(rec.get_fields('003')[0])
-							rec.remove_field(rec.get_fields('001')[0])
-							
-							# add new 001/003 fields to the OCLC record containing the partner's bsn and institution code
-							new_003 = Field(tag='003', data=line_003)
-							rec.add_field(new_003)
-							new_001 = Field(tag='001', data=line_001)
-							rec.add_field(new_001)
+	if type=='orig' or not dup_num:
+		################################################
+		# Add institutional code and record ID to OCLC records, etc.
+		rec, oclc_id, inst_id, oclc_match, msg_1 = aco_functions.process_001_003_fields(rec, oclc_nums_bsns_all)
+		indiv_rec_analysis_msg += msg_1
 		if not oclc_match:
-			rec_analysis_msgs += 'OCLC numbers did not match any original record\n'
-			global rec_no_oclc_match_count
-			rec_no_oclc_match_count +=1
+			rec_no_oclc_match_count += 1
+		
+		################################################
+		# Check if record contains 880 script fields
+		script_rec, msg_2 = aco_functions.check_880s(rec)
+		indiv_rec_analysis_msg += msg_2
+		if not script_rec:
+			marcRecsOut_no_script.write(rec)
+			recs_no_script.write('   OCLC ID: '+oclc_id+' / Institution ID: '+inst_id+'\n')
+			recs_no_880s_count += 1
+		else:
+			recs_880s_count += 1
 			
-	else:		# this is a partner's original record for which an OCLC record was not found in Connexion
-		# for orig records, delete all existing 035 fields
-		if len(rec_035s) > 0:
-			for rec_035 in rec_035s:
-				rec_analysis_msgs += 'orig_rec_035 num: '+str(rec_035)+'\n'
-				rec.remove_field(rec_035)	# delete this 035 field
-	
-		# for orig records, copy the 001/003 BSN field data to an 035 field
-		new_035_bsn = Field(tag='035', indicators=[' ',' '], subfields=['a','('+rec_003+')'+rec_001])
-		rec.add_field(new_035_bsn)
-			
-	# check if record has 880 script fields and write to corresponding MARC record output file
-	rec_880s = rec.get_fields('880')
-	if len(rec_880s) > 0:
-		marcRecsOut_recs_script.write(rec)
-		global recs_880s_count
-		recs_880s_count +=1
-		rec_analysis_msgs += 'Record contains 880 script fields\n'
-	else:
-		marcRecsOut_recs_no_script.write(rec)
-		global recs_no_880s_count
-		recs_no_880s_count +=1
-		rec_analysis_msgs += 'Record does NOT contain 880 script fields\n'
-	
-	# check if record uses RDA cataloging standards
-	rec_336s = rec.get_fields('336')
-	rec_337s = rec.get_fields('337')
-	rec_338s = rec.get_fields('338')
-	if len(rec.get_fields('040')[0].get_subfields('e')) > 0:
-		rec_040e = rec.get_fields('040')[0].get_subfields('e')[0].value()
-		rec_analysis_msgs += '040e field is '+rec_040e+'\n'
-	else:
-		rec_040e = ''
-	if len(rec_336s)>0 or len(rec_337s)>0 or len(rec_338s)>0 or rec_040e=='rda':
-		rec_analysis_msgs += 'Record contains RDA fields\n'
-		global recs_rda_count
-		recs_rda_count +=1
-	
-	rec_analysis_msgs += '-----------------------------------------------------------------\n'
-	
-######################################################################
-##  MAIN SCRIPT
-######################################################################
-for record_oclc_1 in marcRecsIn_oclc_recs_1:
-	process_record(record_oclc_1)
-	rec_count +=1
+		################################################
+		# Check if record contains RDA fields
+		rda_rec, msg_3 = aco_functions.check_rda(rec)
+		indiv_rec_analysis_msg += msg_3
+		if rda_rec:
+			recs_rda_count += 1
+		
+		################################################
+		# Check if record contains bad encoding script character (black diamond around question-mark)
+		# Evidenced by presence of Python source code u"\uFFFD" (See: http://www.fileformat.info/info/unicode/char/0fffd/index.htm)
+		repl_char, msg_4 = aco_functions.check_repl_char(rec)
+		indiv_rec_analysis_msg += msg_4
+		if repl_char:
+			recs_repl_char_count += 1
+		
+		################################################
+		# Add/Delete/Modify MARC fields in print record to convert to an e-resource record
+		rec, msg_5 = aco_functions.convert_2_eres_rec(rec, rda_rec)
+		indiv_rec_analysis_msg += msg_5
+		
+		################################################
+		# Sort any $6 subfields that do not appear first in the field
+		rec = aco_functions.sort_6_subs(rec)
+		
+		aco_functions.second_sort_6_check(rec)
+		
+		################################################
+		# Link any unlinked 880 fields (having "00" in the 880 $6 numbering)
+		rec, unlinked_exist, msg_6 = aco_functions.link_880s(rec)
+		indiv_rec_analysis_msg += msg_6
+		
+		################################################
+		# Match the 001/003 fields and insert the corresponding URL handle in an 856 field
+		rec, msg_7 = aco_functions.insert_url(rec, handles_lines)
+		indiv_rec_analysis_msg += msg_7
+		
+		indiv_rec_analysis_msg += '-------------------------------------------------\n'
+		
+		################################################
+		# Change LDR values
+		ldr = list(rec.leader)
+		ldr[5] = 'n'
+		ldr[6] = 'a'
+		ldr[7] = 'm'
+		#ldr[9] = 'a'
+		rec.leader = ''.join(ldr)
+		
+		################################################
+		# Write out individual .mrc record
+		try: os.makedirs(batch_folder+'/mrc_out')
+		except OSError as exception:
+			if exception.errno != errno.EEXIST:
+				raise
+		indiv_marcRecOut = pymarc.MARCWriter(file(batch_folder+'/mrc_out/'+inst_id+'_mrc.mrc', 'w'))
+		indiv_marcRecOut.write(rec)
+		indiv_marcRecOut.close()
+		
+		################################################
+		# Convert MARC to MARCXML and write out individual MARCXML record
+		rec_xml = pymarc.record_to_xml(rec, namespace=True)
+		try: os.makedirs(batch_folder+'/marcxml_out')
+		except OSError as exception:
+			if exception.errno != errno.EEXIST:
+				raise
+		indiv_marcRecOut_xml = codecs.open(batch_folder+'/marcxml_out/'+inst_id+'_marcxml.xml', 'w')
+		indiv_marcRecOut_xml.write(rec_xml)
+		indiv_marcRecOut_xml.close()
+		
+		################################################
+		# Write out record to full set of final records
+		marcRecsOut_final.write(rec)
+		
+		rec_count_tot +=1
+
+
+recs_no_script.write('\nFile: 2_orig_recs_no_oclc_nums.mrc\n')
+for record_orig in marcRecsIn_orig_recs_no_oclc:
+	process_rec(record_orig, 'orig')
 	rec_count_file1 +=1
 
-for record_oclc_2 in marcRecsIn_oclc_recs_2:
-	process_record(record_oclc_2)
-	rec_count +=1
+recs_no_script.write('File: 3_oclc_recs_batch.mrc\n')
+for record_oclc_1 in marcRecsIn_oclc_batch:
+	process_rec(record_oclc_1, 'oclc')
 	rec_count_file2 +=1
 
-for record_orig in marcRecsIn_orig_recs_no_oclc:
-	process_record(record_orig)
-	rec_count +=1
+recs_no_script.write('\nFile: 3_oclc_recs_manual.mrc\n')
+for record_oclc_2 in marcRecsIn_oclc_manual:
+	process_rec(record_oclc_2, 'oclc')
 	rec_count_file3 +=1
 
-rec_analysis_msgs += 'Total records processed for '+folder_name+': '+str(rec_count)+' records\n'
-rec_analysis_msgs += 'File 1 (oclc-batch): '+str(rec_count_file1)+'\n'
-rec_analysis_msgs += 'File 2 (oclc-manual): '+str(rec_count_file2)+'\n'
-rec_analysis_msgs += 'File 3 (orig-no oclc num): '+str(rec_count_file3)+'\n\n'
+recs_no_script.write('-------------------------------------------------------------\n')
+recs_no_script.write('TOTAL Number of Records LACKING 880 script fields: '+str(recs_no_880s_count))
 
-perc_880s = calculate_percentage(recs_880s_count,rec_count)
-perc_no_880s = calculate_percentage(recs_no_880s_count,rec_count)
-perc_rda = calculate_percentage(recs_rda_count,rec_count)
-rec_analysis_msgs += 'Records where OCLC nums did not match: '+str(rec_no_oclc_match_count)+'\n'
-rec_analysis_msgs += 'Records containing 880 script fields: '+str(recs_880s_count)+' ('+perc_880s+'%)\n'
-rec_analysis_msgs += 'Records NOT containing 880 script fields: '+str(recs_no_880s_count)+' ('+perc_no_880s+'%)\n'
-rec_analysis_msgs += 'Records containing RDA fields: '+str(recs_rda_count)+' ('+perc_rda+'%)\n'
-rec_analysis_txt.write(rec_analysis_msgs)
-print str(rec_count)+' records were processed in file'
+all_rec_analysis_msg += 'Total records processed for '+inst_code+'_'+batch_date+': '+str(rec_count_tot)+' records\n'
+all_rec_analysis_msg += 'File 1 (orig-no oclc num): '+str(rec_count_file1)+'\n'
+all_rec_analysis_msg += 'File 2 (oclc-batch): '+str(rec_count_file2)+'\n'
+all_rec_analysis_msg += 'File 3 (oclc-manual): '+str(rec_count_file3)+'\n\n'
 
-oclc_nums_bsns_txt.close()
-marcRecsOut_recs_script.close()
-marcRecsOut_recs_no_script.close()
+perc_880s = aco_functions.calculate_percentage(recs_880s_count,rec_count_tot)
+perc_no_880s = aco_functions.calculate_percentage(recs_no_880s_count,rec_count_tot)
+perc_rda = aco_functions.calculate_percentage(recs_rda_count,rec_count_tot)
+all_rec_analysis_msg += 'Records where OCLC nums did not match: '+str(rec_no_oclc_match_count)+'\n'
+all_rec_analysis_msg += 'Records containing 880 script fields: '+str(recs_880s_count)+' ('+perc_880s+'%)\n'
+all_rec_analysis_msg += 'Records NOT containing 880 script fields: '+str(recs_no_880s_count)+' ('+perc_no_880s+'%)\n'
+all_rec_analysis_msg += 'Records containing RDA fields: '+str(recs_rda_count)+' ('+perc_rda+'%)\n'
+all_rec_analysis_msg += 'Records containing bad encoding replacement character: '+str(recs_repl_char_count)+'\n'
+all_rec_analysis_msg += '-------------------------------------------------\nINDIVIDUAL RECORDS ANALYSIS:\n-------------------------------------------------\n'
+
+rec_analysis_txt.write(all_rec_analysis_msg)
+rec_analysis_txt.write(indiv_rec_analysis_msg)
+print str(rec_count_tot)+' records were processed in all files'
+
+marcRecsOut_no_script.close()
+recs_no_script.close()
+marcRecsOut_final.close()
 rec_analysis_txt.close()

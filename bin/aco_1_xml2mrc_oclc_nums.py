@@ -1,36 +1,43 @@
 #!/usr/bin/python
 
-# Filename: aco_2_extract_oclc_nums.py
-# This Python script is used to:
-# 1)  extract the unique OCLC numbers from the original ACO MARC records
-# 2)  write the list of all OCLC numbers to two .txt files:
-#     -  one file containing *just* the OCLC numbers to be used for batch processing in Connexion (2_oclc_nums_for_batch.txt) and
-#     -  one file containing the 001s (institution codes), 003s (BSNs), and OCLC numbers to be used for reference (2_oclc_nums_bsns.txt)
-# 3)  write the original records lacking an OCLC number to an .mrc file (2_no_oclc_nums_recs.mrc)
-# 4)  write the list of 001 and 003 fields for original records lacking an OCLC number to a txt file for reference (2_no_oclc_nums_bsns.txt)
-
+import os
 import pymarc
-from pymarc.field import Field
+from pymarc import Record, Field
+from xml.dom.minidom import parseString
 import codecs
-import re
 
-institution = raw_input("Enter the institution code (e.g., NNC for columbia, COO for cornell, NNU for nyu, or princeton): ")
-batch_date = raw_input("Enter the date of the batch being processed in the format YYYYMMDD (e.g., 20140317):")
-folder_name = institution + "_" + batch_date
+parent_dir = os.path.dirname(os.getcwd())
+work_folder = parent_dir+'/work'
+inst_code = raw_input('Enter the 3-letter institutional code: ')
+batch_date = raw_input('Enter the batch date (YYYYMMDD): ')
+batch_folder = work_folder+'/'+inst_code+'/'+inst_code+'_'+batch_date
+
+marcRecsOut_orig_recs = pymarc.MARCWriter(file(batch_folder+'/'+inst_code+'_'+batch_date+'_1_orig_recs.mrc', 'w'))
+
+marcxml_dir = batch_folder+'/marcxml_in'
+for filename in os.listdir(marcxml_dir):
+	file_path = os.path.join(marcxml_dir,filename)
+	if os.path.isfile(file_path):
+		if file_path[-3:]=='xml':
+			marc_xml_array = pymarc.parse_xml_to_array(file_path)
+			for rec in marc_xml_array:
+				marcRecsOut_orig_recs.write(rec)
+marcRecsOut_orig_recs.close()
 
 # INPUT FILES
-marcRecsIn_orig_recs = pymarc.MARCReader(file(folder_name+'/'+folder_name+'_1_orig_recs.mrc'), to_unicode=True, force_utf8=True)
+marcRecsIn_orig_recs = pymarc.MARCReader(file(batch_folder+'/'+inst_code+'_'+batch_date+'_1_orig_recs.mrc'), to_unicode=True, force_utf8=True)
 
 # OUTPUT FILES
-marcRecsOut_orig_recs_no_oclc_nums = pymarc.MARCWriter(file(folder_name+'/'+folder_name+'_2_orig_recs_no_oclc_nums.mrc', 'w'))
-orig_recs_no_oclc_nums_txt = codecs.open(folder_name+'/'+folder_name+'_2_orig_recs_no_oclc_nums.txt', 'w', encoding='utf-8')
-oclc_nums_for_batch_txt = codecs.open(folder_name+'/'+folder_name+'_2_oclc_nums_for_batch.txt', 'w', encoding='utf-8')
-oclc_nums_bsns_txt = codecs.open(folder_name+'/'+folder_name+'_2_oclc_nums_bsns.txt', 'w', encoding='utf-8')
+marcRecsOut_orig_recs_no_oclc_nums = pymarc.MARCWriter(file(batch_folder+'/'+inst_code+'_'+batch_date+'_2_orig_recs_no_oclc_nums.mrc', 'w'))
+orig_recs_no_oclc_nums_txt = codecs.open(batch_folder+'/'+inst_code+'_'+batch_date+'_2_orig_recs_no_oclc_nums.txt', 'w', encoding='utf-8')
+oclc_nums_batch_txt = codecs.open(batch_folder+'/'+inst_code+'_'+batch_date+'_2_oclc_nums_batch.txt', 'w', encoding='utf-8')
+oclc_nums_bsns_batch_txt = open(batch_folder+'/'+inst_code+'_'+batch_date+'_2_oclc_nums_bsns_batch.txt', 'w')
 
 ######################################################################
 ##  Method:  strip_number()
 ######################################################################
 def strip_number(oclc_subfield):
+	import re
 	digits_regex = re.compile('\d+')	# regular expression for matching a series of numerical characters only
 	oclc_subfield = oclc_subfield.strip()							# remove any whitespace around the 035 a/z content
 	oclc_subfield_digits = re.findall(digits_regex,oclc_subfield)	# extract just the OCLC number from the 035 a/z
@@ -40,13 +47,13 @@ def strip_number(oclc_subfield):
 ######################################################################
 ##  MAIN SCRIPT
 ######################################################################
-rec_count = 0			# variable to keep track of the total number of original records processed
+rec_count_tot = 0		# variable to keep track of the total number of original records processed
 oclc_num_count = 0		# variable to keep track of the number of original records that have an OCLC number
 no_oclc_num_count = 0	# variable to keep track of the number of original records that do NOT have an OCLC number
-batch_oclc_nums = set()		# set variable to capture unique list of OCLC numbers found in *all* records to be used for batch exporting from OCLC Connexion
+batch_oclc_nums = set()	# set variable to capture unique list of OCLC numbers found in *all* records to be used for batch exporting from OCLC Connexion
 
 orig_recs_no_oclc_nums_txt.write('003/Inst,001/BSN,OCLC number(s),245a/Title\n')
-oclc_nums_bsns_txt.write('003/Inst,001/BSN,OCLC number(s),245a/Title\n')
+oclc_nums_bsns_batch_txt.write('003/Inst,001/BSN,OCLC number(s)\n')
 
 for record_orig in marcRecsIn_orig_recs:	# Iterate through all original records in marcRecsIn_orig_recs
 	orig_003_value = record_orig.get_fields('003')[0].value()	# the institutional code from the 003
@@ -67,26 +74,26 @@ for record_orig in marcRecsIn_orig_recs:	# Iterate through all original records 
 					oclc_num_exists = True
 					oclc_num_count +=1
 	if oclc_num_exists:
-		oclc_nums_bsns_txt.write(orig_003_value+','+orig_001_value+',"')
+		oclc_nums_bsns_batch_txt.write(orig_003_value+','+orig_001_value+',"')
 		num_count = 0
 		for num in rec_oclc_nums:
-			oclc_nums_bsns_txt.write(num)
+			oclc_nums_bsns_batch_txt.write(num)
 			if num_count < len(rec_oclc_nums)-1:
-				oclc_nums_bsns_txt.write('|')
+				oclc_nums_bsns_batch_txt.write('|')
 			num_count +=1
-		oclc_nums_bsns_txt.write('","'+orig_245a+'"\n')
+		oclc_nums_bsns_batch_txt.write('"\n')
 	else:
-		marcRecsOut_orig_recs_no_oclc_nums.write(record)
+		marcRecsOut_orig_recs_no_oclc_nums.write(record_orig)
 		orig_recs_no_oclc_nums_txt.write(orig_003_value+','+orig_001_value+',,"'+orig_245a+'"\n')
 		no_oclc_num_count +=1
 			
-	rec_count +=1
+	rec_count_tot +=1
 
 for oclc_num in batch_oclc_nums:
-	oclc_nums_for_batch_txt.write(oclc_num+'\n')
-print str(rec_count)+' records were processed in file'
+	oclc_nums_batch_txt.write(oclc_num+'\n')
+print str(rec_count_tot)+' records were processed in file'
 
 marcRecsOut_orig_recs_no_oclc_nums.close()
 orig_recs_no_oclc_nums_txt.close()
-oclc_nums_for_batch_txt.close()
-oclc_nums_bsns_txt.close()
+oclc_nums_batch_txt.close()
+oclc_nums_bsns_batch_txt.close()
