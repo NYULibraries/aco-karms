@@ -9,6 +9,7 @@ class MarcxmlTest < MiniTest::Unit::TestCase
   EMPTY_MARCXML_PATH        = 'test/marcxml/empty'
   DNE_MARCXML_PATH          = 'this/path/does/not/exist'
   UNREADABLE_MARCXML_PATH   = 'test/marcxml/unreadable'
+  BADLY_FORMED_XML_PATH     = 'test/marcxml/badly_formed'
 
   def test_class
     assert_instance_of(Marcxml, Marcxml.new(VALID_MARCXML_PATH))
@@ -55,10 +56,15 @@ class MarcxmlTest < MiniTest::Unit::TestCase
     assert(h.get_003 == "COO")
     assert(h.get_001 == "1621570")
   end
+
   def test_marcxml_with_default_namespace
     h = Marcxml.new(VALID_NON_DEFAULT_NS_PATH)
     assert(h.get_003 == "NNU")
     assert(h.get_001 == "001696991")
+  end
+
+  def test_badly_formed_xml
+    err = assert_raises(Nokogiri::XML::SyntaxError) { Marcxml.new(BADLY_FORMED_XML_PATH) }
   end
 
   # restore read/write permissions on test file

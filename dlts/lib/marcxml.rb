@@ -40,7 +40,7 @@ class Marcxml
 
   def validate_against_schema!
     xsd  = Nokogiri::XML::Schema(File.open(@schema_path))
-    @doc = Nokogiri::XML(File.open(@path))
+    @doc = Nokogiri::XML(File.open(@path)) {|config| config.strict }
 
     error_array = xsd.validate(@doc)
     unless error_array.empty?
