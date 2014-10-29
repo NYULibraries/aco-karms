@@ -2,6 +2,13 @@ require 'nokogiri'
 require 'open-uri'
 
 class Marcxml
+
+  # NNU = New York University
+  # NNC = Columbia University
+  # NIC = Cornell University
+  # NjP = Princeton University
+  VALID_003_CODES = %w(NNU NNC NIC NjP)
+
   def initialize(path)
     @path        = path.dup
     @schema_path = nil
@@ -93,5 +100,6 @@ class Marcxml
     # assert that controlfields are not missing or empty
     raise "missing controlfield 001" if @ctrl_001 == ''
     raise "missing controlfield 003" if @ctrl_003 == ''
+    raise "unrecognized controlfield 003" unless VALID_003_CODES.include?(@ctrl_003)
   end
 end

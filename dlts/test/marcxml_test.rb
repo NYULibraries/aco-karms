@@ -4,6 +4,7 @@ class MarcxmlTest < MiniTest::Unit::TestCase
   VALID_MARCXML_PATH        = 'test/fixtures/marcxml/valid'
   INVALID_001_PATH          = 'test/fixtures/marcxml/invalid_001'
   INVALID_003_PATH          = 'test/fixtures/marcxml/invalid_003'
+  UNRECOGNIZED_003_PATH     = 'test/fixtures/marcxml/unrecognized_003'
   VALID_DEFAULT_NS_PATH     = 'test/fixtures/marcxml/default_ns'
   VALID_NON_DEFAULT_NS_PATH = 'test/fixtures/marcxml/non_default_ns'
   EMPTY_MARCXML_PATH        = 'test/fixtures/marcxml/empty'
@@ -43,12 +44,17 @@ class MarcxmlTest < MiniTest::Unit::TestCase
 
   def test_marcxml_get_003
     h = Marcxml.new(VALID_MARCXML_PATH)
-    assert(h.get_003 == "COO")
+    assert(h.get_003 == "NIC")
   end
 
   def test_marcxml_missing_003
     err = assert_raises(RuntimeError) { Marcxml.new(INVALID_003_PATH) }
     assert_match(/missing controlfield 003/, err.message)
+  end
+
+  def test_marcxml_unrecognized_003
+    err = assert_raises(RuntimeError) { Marcxml.new(UNRECOGNIZED_003_PATH) }
+    assert_match(/unrecognized controlfield 003/, err.message)
   end
 
   def test_marcxml_missing_001
@@ -58,7 +64,7 @@ class MarcxmlTest < MiniTest::Unit::TestCase
 
   def test_marcxml_with_namespace
     h = Marcxml.new(VALID_DEFAULT_NS_PATH)
-    assert(h.get_003 == "COO")
+    assert(h.get_003 == "NIC")
     assert(h.get_001 == "1621570")
   end
 
