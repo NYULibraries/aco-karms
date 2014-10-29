@@ -6,15 +6,19 @@ class ValidateAcoMarcxml < MiniTest::Unit::TestCase
 
   COMMAND = 'ruby bin/validate-aco-marcxml.rb'
 
-  VALID_MARCXML_PATH        = 'test/marcxml/valid'
-  INVALID_001_PATH          = 'test/marcxml/invalid_001'
-  INVALID_003_PATH          = 'test/marcxml/invalid_003'
-  VALID_DEFAULT_NS_PATH     = 'test/marcxml/default_ns'
-  VALID_NON_DEFAULT_NS_PATH = 'test/marcxml/non_default_ns'
-  EMPTY_MARCXML_PATH        = 'test/marcxml/empty'
+  VALID_MARCXML_PATH        = 'test/fixtures/marcxml/valid'
+  INVALID_001_PATH          = 'test/fixtures/marcxml/invalid_001'
+  INVALID_003_PATH          = 'test/fixtures/marcxml/invalid_003'
+  VALID_DEFAULT_NS_PATH     = 'test/fixtures/marcxml/default_ns'
+  VALID_NON_DEFAULT_NS_PATH = 'test/fixtures/marcxml/non_default_ns'
+  EMPTY_MARCXML_PATH        = 'test/fixtures/marcxml/empty'
   DNE_MARCXML_PATH          = 'this/path/does/not/exist'
-  UNREADABLE_MARCXML_PATH   = 'test/marcxml/unreadable'
+  UNREADABLE_MARCXML_PATH   = 'test/fixtures/marcxml/unreadable'
 
+  def teardown
+    # restore read/write permissions on test file
+    File.chmod( 0644, UNREADABLE_MARCXML_PATH)
+  end
   def test_valid_invocation
     o, e, s = Open3.capture3("#{COMMAND} #{VALID_MARCXML_PATH}")
     assert(s == 0, "exit status: #{e}")
@@ -63,6 +67,4 @@ class ValidateAcoMarcxml < MiniTest::Unit::TestCase
     assert_match(/missing controlfield 001/, e, "stderr: #{e}")
   end
 
-  # restore read/write permissions on test file
-  MiniTest::Unit.after_tests { File.chmod( 0644, UNREADABLE_MARCXML_PATH) }
 end

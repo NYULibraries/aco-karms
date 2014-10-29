@@ -8,12 +8,12 @@ class WipTest < MiniTest::Unit::TestCase
   # it returns a marcxml object
   # it returns a handle object
 
-  NNC_V1             = 'test/wip/NNC_valid_1'
-  I_MARCXML          = 'test/wip/invalid_marcxml'
-  I_MARCXML_NO_003   = 'test/wip/invalid_marcxml_missing_003'
-  I_NO_HANDLE        = 'test/wip/missing_handle'
-  I_NO_MARCXML       = 'test/wip/missing_marcxml'
-  I_TOO_MANY_MARCXML = 'test/wip/too_many_marcxml'
+  NNC_V1             = 'test/fixtures/wip/NNC_valid_1'
+  I_MARCXML          = 'test/fixtures/wip/invalid_marcxml'
+  I_MARCXML_NO_003   = 'test/fixtures/wip/invalid_marcxml_missing_003'
+  I_NO_HANDLE        = 'test/fixtures/wip/missing_handle'
+  I_NO_MARCXML       = 'test/fixtures/wip/missing_marcxml'
+  I_TOO_MANY_MARCXML = 'test/fixtures/wip/too_many_marcxml'
   DNE_PATH           = 'this-path-does-not-exist'
 
   def test_class
