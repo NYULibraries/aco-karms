@@ -10,9 +10,9 @@ class WipProcessorTest < MiniTest::Unit::TestCase
   TEST_NNC_ONE  = {work_root: WORK_DIR, wips: [Wip.new(NNC_V1)]}
   TEST_NNC_TWO  = {work_root: WORK_DIR, wips: [Wip.new(NNC_V1), Wip.new(NNC_V2)]}
   TEST_FOUR     = {work_root: WORK_DIR, wips: [Wip.new(NNC_V1), Wip.new(NIC_V1), Wip.new(NNC_V2), Wip.new(NIC_V2)]}
-  C_NNC_ONE_CSV = 'test/canonical/handles_nnc_one.csv'
-  C_NNC_TWO_CSV = 'test/canonical/handles_nnc_two.csv'
-  C_NIC_TWO_CSV = 'test/canonical/handles_nic_two.csv'
+  C_NNC_ONE_CSV = 'test/fixtures/canonical/handles_nnc_one.csv'
+  C_NNC_TWO_CSV = 'test/fixtures/canonical/handles_nnc_two.csv'
+  C_NIC_TWO_CSV = 'test/fixtures/canonical/handles_nic_two.csv'
 
   def create_work_dir
     FileUtils.mkdir(WORK_DIR) unless File.exists?(WORK_DIR)
