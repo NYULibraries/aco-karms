@@ -11,6 +11,11 @@ class MarcxmlTest < MiniTest::Unit::TestCase
   UNREADABLE_MARCXML_PATH   = 'test/fixtures/marcxml/unreadable'
   BADLY_FORMED_XML_PATH     = 'test/fixtures/marcxml/badly_formed'
 
+  # restore read/write permissions on test file
+  def teardown 
+    File.chmod( 0644, UNREADABLE_MARCXML_PATH) 
+  end
+
   def test_class
     assert_instance_of(Marcxml, Marcxml.new(VALID_MARCXML_PATH))
   end
@@ -66,8 +71,5 @@ class MarcxmlTest < MiniTest::Unit::TestCase
   def test_badly_formed_xml
     err = assert_raises(Nokogiri::XML::SyntaxError) { Marcxml.new(BADLY_FORMED_XML_PATH) }
   end
-
-  # restore read/write permissions on test file
-  MiniTest::Unit.after_tests { File.chmod( 0644, UNREADABLE_MARCXML_PATH) }
 
 end

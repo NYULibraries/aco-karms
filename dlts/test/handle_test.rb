@@ -1,11 +1,16 @@
 require 'test_helper'
 class HandleTest < MiniTest::Unit::TestCase
 
-  VALID_HANDLE_PATH      = 'test/handle/valid'
-  INVALID_HANDLE_PATH    = 'test/handle/invalid'
-  EMPTY_HANDLE_PATH      = 'test/handle/empty'
+  VALID_HANDLE_PATH      = 'test/fixtures/handle/valid'
+  INVALID_HANDLE_PATH    = 'test/fixtures/handle/invalid'
+  EMPTY_HANDLE_PATH      = 'test/fixtures/handle/empty'
   DNE_HANDLE_PATH        = 'this/path/does/not/exist'
-  UNREADABLE_HANDLE_PATH = 'test/handle/unreadable'
+  UNREADABLE_HANDLE_PATH = 'test/fixtures/handle/unreadable'
+
+  # restore read/write permissions on test file
+  def teardown
+    File.chmod( 0644, UNREADABLE_HANDLE_PATH)
+  end
 
   def test_class
     assert_instance_of(Handle, Handle.new(VALID_HANDLE_PATH))
@@ -56,7 +61,4 @@ class HandleTest < MiniTest::Unit::TestCase
     assert(h.to_url == "http://hdl.handle.net/2333.1/abdcde")
   end
 
-
-  # restore read/write permissions on test file
-  MiniTest::Unit.after_tests { File.chmod( 0644, UNREADABLE_HANDLE_PATH) }
 end
