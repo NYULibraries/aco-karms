@@ -19,8 +19,8 @@ class GenWorkDirsTest < MiniTest::Unit::TestCase
   UNWRITABLE_DIR  = 'test/fixtures/wip/unwritable'
   NNC_V1          = 'test/fixtures/wip/NNC_valid_1'
   NNC_V2          = 'test/fixtures/wip/NNC_valid_2'
-  COO_V1          = 'test/fixtures/wip/COO_valid_1'
-  COO_V2          = 'test/fixtures/wip/COO_valid_2'
+  NIC_V1          = 'test/fixtures/wip/NIC_valid_1'
+  NIC_V2          = 'test/fixtures/wip/NIC_valid_2'
   WORK_DIR        = 'test/work'
   DNE_PATH        = 'this-path-does-not-exist'
 
@@ -42,7 +42,7 @@ class GenWorkDirsTest < MiniTest::Unit::TestCase
   end
 
   def test_valid_invocation
-    o, e, s = Open3.capture3("#{COMMAND} #{WORK_DIR} #{COO_V1}")
+    o, e, s = Open3.capture3("#{COMMAND} #{WORK_DIR} #{NIC_V1}")
     assert(s.exitstatus == 0, "exit status: #{e}")
     assert('' == o, "stdout")
     assert('' == e, "stderr")

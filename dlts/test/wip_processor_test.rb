@@ -3,16 +3,16 @@ require 'test_helper'
 class WipProcessorTest < MiniTest::Unit::TestCase
   NNC_V1    = 'test/fixtures/wip/NNC_valid_1'
   NNC_V2    = 'test/fixtures/wip/NNC_valid_2'
-  COO_V1    = 'test/fixtures/wip/COO_valid_1'
-  COO_V2    = 'test/fixtures/wip/COO_valid_2'
+  NIC_V1    = 'test/fixtures/wip/NIC_valid_1'
+  NIC_V2    = 'test/fixtures/wip/NIC_valid_2'
   WORK_DIR  = 'test/work'
   DNE_PATH  = 'this-path-does-not-exist'
   TEST_NNC_ONE  = {work_root: WORK_DIR, wips: [Wip.new(NNC_V1)]}
   TEST_NNC_TWO  = {work_root: WORK_DIR, wips: [Wip.new(NNC_V1), Wip.new(NNC_V2)]}
-  TEST_FOUR     = {work_root: WORK_DIR, wips: [Wip.new(NNC_V1), Wip.new(COO_V1), Wip.new(NNC_V2), Wip.new(COO_V2)]}
+  TEST_FOUR     = {work_root: WORK_DIR, wips: [Wip.new(NNC_V1), Wip.new(NIC_V1), Wip.new(NNC_V2), Wip.new(NIC_V2)]}
   C_NNC_ONE_CSV = 'test/canonical/handles_nnc_one.csv'
   C_NNC_TWO_CSV = 'test/canonical/handles_nnc_two.csv'
-  C_COO_TWO_CSV = 'test/canonical/handles_coo_two.csv'
+  C_NIC_TWO_CSV = 'test/canonical/handles_nic_two.csv'
 
   def create_work_dir
     FileUtils.mkdir(WORK_DIR) unless File.exists?(WORK_DIR)
@@ -89,9 +89,9 @@ class WipProcessorTest < MiniTest::Unit::TestCase
     assert(File.exists?(exp_nnc), "NNC csv file not created")
     assert(FileUtils.cmp(exp_nnc, C_NNC_TWO_CSV))
 
-    exp_coo = File.join(WORK_DIR, 'COO', "COO_#{date_str}", 'handles.csv')
-    assert(File.exists?(exp_coo), "COO csv file not created")
-    assert(FileUtils.cmp(exp_coo, C_COO_TWO_CSV))
+    exp_coo = File.join(WORK_DIR, 'NIC', "NIC_#{date_str}", 'handles.csv')
+    assert(File.exists?(exp_coo), "NIC csv file not created")
+    assert(FileUtils.cmp(exp_coo, C_NIC_TWO_CSV))
   end
 
 
