@@ -2,7 +2,6 @@ require 'test_helper'
 require 'open3'
 require 'fileutils'
 
-#class GenWorkDirsTest < Test::Unit::TestCase
 class GenWorkDirsTest < MiniTest::Unit::TestCase
 
   COMMAND = 'ruby bin/gen-work-dirs.rb'
@@ -17,11 +16,11 @@ class GenWorkDirsTest < MiniTest::Unit::TestCase
   # exits 0 on success
   # exits non-zero on failure
 
-  UNWRITABLE_DIR  = 'test/wip/unwritable'
-  NNC_V1          = 'test/wip/NNC_valid_1'
-  NNC_V2          = 'test/wip/NNC_valid_2'
-  COO_V1          = 'test/wip/COO_valid_1'
-  COO_V2          = 'test/wip/COO_valid_2'
+  UNWRITABLE_DIR  = 'test/fixtures/wip/unwritable'
+  NNC_V1          = 'test/fixtures/wip/NNC_valid_1'
+  NNC_V2          = 'test/fixtures/wip/NNC_valid_2'
+  COO_V1          = 'test/fixtures/wip/COO_valid_1'
+  COO_V2          = 'test/fixtures/wip/COO_valid_2'
   WORK_DIR        = 'test/work'
   DNE_PATH        = 'this-path-does-not-exist'
 

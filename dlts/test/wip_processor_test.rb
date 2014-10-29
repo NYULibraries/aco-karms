@@ -1,10 +1,10 @@
 require 'test_helper'
 
 class WipProcessorTest < MiniTest::Unit::TestCase
-  NNC_V1    = 'test/wip/NNC_valid_1'
-  NNC_V2    = 'test/wip/NNC_valid_2'
-  COO_V1    = 'test/wip/COO_valid_1'
-  COO_V2    = 'test/wip/COO_valid_2'
+  NNC_V1    = 'test/fixtures/wip/NNC_valid_1'
+  NNC_V2    = 'test/fixtures/wip/NNC_valid_2'
+  COO_V1    = 'test/fixtures/wip/COO_valid_1'
+  COO_V2    = 'test/fixtures/wip/COO_valid_2'
   WORK_DIR  = 'test/work'
   DNE_PATH  = 'this-path-does-not-exist'
   TEST_NNC_ONE  = {work_root: WORK_DIR, wips: [Wip.new(NNC_V1)]}
