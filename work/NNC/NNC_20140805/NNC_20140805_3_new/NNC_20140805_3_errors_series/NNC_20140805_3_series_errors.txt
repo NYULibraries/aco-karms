@@ -1,0 +1,66 @@
+Records containing SERIES errors - batch NNC_20140805
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2015-01-10 17:46:15.981329
+---------------------------------------------------------------------
+FILE: NNC_20140805_1/NNC_20140805_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNC_20140805_2_oclc_recs_batch.mrc
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm50579256 
+   oclc_rec_035_num: (OCoLC)50579256
+Institution ID: NNC_668867
+Record 999:  NNC_668867 (OCoLC)ocm50579256
+880 script fields: YES
+ERROR-880: Unlinked 880s: YES
+   880 $6 600-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-03 Silsilat al-kutub al-ḥadīthah ; 13
+040 $e field: [none]
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm23508558 
+   oclc_rec_035_num: (OCoLC)23508558
+   oclc_rec_035_num: (OCoLC)43529171
+Institution ID: NNC_3375569
+Record 999:  NNC_3375569 (OCoLC)ocm23508558
+880 script fields: YES
+ERROR-880: Unlinked 880s: YES
+   880 $6 800-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Dirāsāt Islāmīyah ; 4
+040 $e field: [none]
+RDA fields: YES
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm11795623 
+   oclc_rec_035_num: (OCoLC)11795623
+Institution ID: NNC_3058897
+Record 999:  NNC_3058897 (OCoLC)ocm11795623
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   245 - Qawāʻid ʻaqāʼid āl Muḥammad : al-Bāṭinīyah / Muḥammad ibn al-Ḥasan al-Daylamī al-Yamānī ; ʻarafa al-kitāb wa-qaddamahu lil-qurrāʼ Muḥammad Zāhid ibn al-Ḥasan al-Kawtharī ; ʻuniya bi-nashrahu wa-ṣaḥḥaḥahu wa-waḍaʻa fahārusuhu ʻIzzat al-ʻAṭṭār al-Ḥusaynī.
+   260 - al-Qāhirah : publisher not identified, 1950 (al-Qāhirah : Maṭbaʻat al-Saʻādah)
+   490 - Kutub nādirah ; al-ʻadad 500
+ERROR-880: Unlinked 880s: YES
+   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 490-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 830-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Kutub nādirah ; al-ʻadad 500
+040 $e field: [none]
+RDA fields: YES
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm23486208 
+   oclc_rec_035_num: (OCoLC)23486208
+Institution ID: NNC_3063371
+Record 999:  NNC_3063371 (OCoLC)ocm23486208
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Dirāsāt Islāmīyah ; 3
+040 $e field: [none]
+RDA fields: YES
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 4
+
