@@ -1,18 +1,18 @@
 Total UPDATED records processed - batch NIC_20141113: 146 records
-Report produced: 2015-01-13 20:09:02.648043
+Report produced: 2015-01-16 12:40:12.926185
 Input File 1 (updated recs): 109
 Input File 2 (final records prev round): 37
 
 Records where OCLC nums did not match: 0
-Total records containing any type of error for this round: 37 (25.3%)
-Total records passing to final version for this round: 109 (74.7%)
+Total records containing any type of error for this round: 31 (21.2%)
+Total records passing to final version for this round: 115 (78.8%)
 -----------------------
 Records containing 880 script fields: 106 (72.6%)
 Records with NO 880 script fields: 3 (2.1%)
 Records missing key 880 script fields: 27 (18.5%)
-Records containing unlinked 880 script fields: 1 (0.7%)
-Records containing series errors in 490/800/810/811/830 fields: 6 (4.1%)
-Records containing miscellaneous errors: 3 (2.1%)
+Records containing unlinked 880 script fields: 0 (0.0%)
+Records containing series errors in 490/800/810/811/830 fields: 0 (0.0%)
+Records containing miscellaneous errors: 2 (1.4%)
 Records containing bad encoding replacement character: 0
 Records containing RDA fields: 112 (76.7%)
 ---------------------------------------------------------------------
@@ -21,12 +21,11 @@ INDIVIDUAL RECORDS ANALYSIS:
 OCLC ID: (OCoLC)ocm40592761 
    oclc_rec_035_num: (OCoLC)40592761
 Institution ID: NIC_2453870
-Record 999:  NIC_2453870 (OCoLC)ocm40592761 ok
+Record 999:  NIC_2453870 (OCoLC)ocm40592761
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Egyptian-Arabic manual for self-study
    250 - 19th ed., enl.
-   700 - Elias, Edward Elias.
 040 $e field: [none]
 RDA fields: YES
 ---------------------------------------------------------------------
@@ -86,8 +85,7 @@ Record 999:  NIC_3530146 (OCoLC)ocm23484892
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    490 - Sammlungen alter arabischer Dichter ; 3
    700 - Ahlwardt, W. (Wilhelm), 1828-1909, editor.
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Sammlungen alter arabischer Dichter ; 3
+   830 - Sammlungen alter arabischer Dichter ; 3.
 040 $e field: [none]
 RDA fields: YES
 ---------------------------------------------------------------------
@@ -117,7 +115,7 @@ Record 999:  NIC_1686257 (OCoLC)ocm63980050
 OCLC ID: (OCoLC)ocm64680439 
    oclc_rec_035_num: (OCoLC)64680439
 Institution ID: NIC_1909429
-Record 999:  NIC_1909429 (OCoLC)ocm64680439 ok
+Record 999:  NIC_1909429 (OCoLC)ocm64680439
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
@@ -309,7 +307,6 @@ Record 999:  NIC_1924073 (OCoLC)ocm60467165 ok
 880 script fields: YES
 040 $e field: [none]
 ERROR-MISC: 007  hd afa---buca
-ERROR-MISC: Original record for the print contains a 245$h GMD: [microform], li-Luwīs Shaykhū.
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm16129154 
    oclc_rec_035_num: (OCoLC)16129154
@@ -334,7 +331,6 @@ Record 999:  NIC_1685926 (OCoLC)ocm53262115
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Orthographie und Punktierung des Koran
-   490 - Nashrīyāt al-Islāmīyah ; 3
 040 $e field: [none]
 RDA fields: YES
 ---------------------------------------------------------------------
@@ -367,9 +363,6 @@ Record 999:  NIC_3533688 (OCoLC)ocm33873693
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
-ERROR-MISC: 007  hd bfa011baaa
-ERROR-MISC: 007  hd bfa011baba
-ERROR-MISC: 007  hd afa011baca
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm34702757 
    oclc_rec_035_num: (OCoLC)34702757
@@ -543,7 +536,6 @@ OCLC ID: (OCoLC)ocm15565269
 Institution ID: NIC_1685921
 Record 999:  NIC_1685921 (OCoLC)ocm15565269
 880 script fields: YES
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Kitāb al-Hilāl ; 46
 040 $e field: [none]
 RDA fields: YES
 ---------------------------------------------------------------------
@@ -620,8 +612,6 @@ OCLC ID: (OCoLC)ocm30312152
 Institution ID: NIC_3528015
 Record 999:  NIC_3528015 (OCoLC)ocm30312152
 880 script fields: YES
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻIrāqī.
 040 $e field: [none]
 RDA fields: YES
 ---------------------------------------------------------------------
@@ -706,8 +696,6 @@ OCLC ID: (OCoLC)ocm15154883
 Institution ID: NIC_1930284
 Record 999:  NIC_1930284 (OCoLC)ocm15154883
 880 script fields: YES
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-06 Maktabat al-qirāʼah wa-al-thaqāfah al-adabīyah. Silsilat al-mawsūʻāt al-ʻArabīyah
 040 $e field: [none]
 RDA fields: YES
 ---------------------------------------------------------------------
@@ -719,11 +707,6 @@ Record 999:  NIC_5082236 (OCoLC)ocm44271222
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Mufaddalīyāt, an anthology of ancient Arabian odes
-ERROR-880: Unlinked 880s: YES
-   880 $6 650-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
-   880 $6 650-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
-   880 $6 610-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 610-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: [none]
 RDA fields: YES
 020s: YES
@@ -744,7 +727,6 @@ OCLC ID: (OCoLC)ocm22723093
 Institution ID: NIC_1931250
 Record 999:  NIC_1931250 (OCoLC)ocm22723093
 880 script fields: YES
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
 040 $e field: [none]
 RDA fields: YES
 ---------------------------------------------------------------------
@@ -934,7 +916,6 @@ OCLC ID: (OCoLC)ocm08454988
 Institution ID: NIC_1909423
 Record 999:  NIC_1909423 (OCoLC)ocm08454988
 880 script fields: YES
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Dirāsāt Jāmiʻīyah.
 040 $e field: [none]
 RDA fields: YES
 ---------------------------------------------------------------------
