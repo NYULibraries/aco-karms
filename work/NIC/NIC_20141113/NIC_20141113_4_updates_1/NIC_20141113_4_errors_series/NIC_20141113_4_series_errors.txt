@@ -1,0 +1,11 @@
+Records containing SERIES errors - batch NIC_20141113
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2015-01-16 12:40:12.926185
+---------------------------------------------------------------------
+FILE: NIC_20141113_3_updates.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 0
+

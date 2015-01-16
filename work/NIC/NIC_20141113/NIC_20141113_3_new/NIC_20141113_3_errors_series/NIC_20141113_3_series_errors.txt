@@ -1,0 +1,105 @@
+Records containing SERIES errors - batch NIC_20141113
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2015-01-13 20:06:58.181409
+---------------------------------------------------------------------
+FILE: NIC_20141113_1/NIC_20141113_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NIC_20141113_2_oclc_recs_batch.mrc
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm23484892 
+   oclc_rec_035_num: (OCoLC)23484892
+Institution ID: NIC_3530146
+Record 999:  NIC_3530146 (OCoLC)ocm23484892
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Sammlungen alter arabischer Dichter ; 3
+040 $e field: [none]
+RDA fields: YES
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm13115487 
+   oclc_rec_035_num: (OCoLC)13115487
+Institution ID: NIC_1879908
+Record 999:  NIC_1879908 (OCoLC)ocm13115487
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   490 - Kitāb al-yawm ; al-ʻadad 240
+ERROR-880: Unlinked 880s: YES
+   880 $6 490-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 830-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Kitāb al-yawm ; al-ʻadad 240
+040 $e field: [none]
+RDA fields: YES
+020s: YES
+020a: 9771240986
+020s: YES
+020a: 9789771240983
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm15565269 
+   oclc_rec_035_num: (OCoLC)15565269
+Institution ID: NIC_1685921
+Record 999:  NIC_1685921 (OCoLC)ocm15565269
+880 script fields: YES
+ERROR-880: Unlinked 880s: YES
+   880 $6 830-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Kitāb al-Hilāl ; 46
+040 $e field: [none]
+RDA fields: YES
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm30312152 
+   oclc_rec_035_num: (OCoLC)30312152
+Institution ID: NIC_3528015
+Record 999:  NIC_3528015 (OCoLC)ocm30312152
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - al-Aṣmaʻī, 740-ca. 828.
+   260 - Baghdad : publisher not identified, 1968.
+ERROR-880: Unlinked 880s: YES
+   880 $6 240-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-02 Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻIrāqī.
+040 $e field: [none]
+RDA fields: YES
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm15154883 
+   oclc_rec_035_num: (OCoLC)15154883
+   oclc_rec_035_num: (OCoLC)289375731
+Institution ID: NIC_1930284
+Record 999:  NIC_1930284 (OCoLC)ocm15154883
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - Miṣr : Dār al-Māmūn, [1355-1357/1936-1938]
+   490 - Maktabat al-qirāʼah wa-al-thaqāfah al-adabīyah. Silsilat al-mawsūʻāt al-ʻArabīyah
+ERROR-880: Unlinked 880s: YES
+   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 490-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 830-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Maktabat al-qirāʼah wa-al-thaqāfah al-adabīyah. Silsilat al-mawsūʻāt al-ʻArabīyah
+040 $e field: [none]
+RDA fields: YES
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm08454988 
+   oclc_rec_035_num: (OCoLC)8454988
+Institution ID: NIC_1909423
+Record 999:  NIC_1909423 (OCoLC)ocm08454988
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - al-Ḥadīthī, Khadījah ʻAbd al-Razzāq.
+   245 - Abū Ḥayyān al-Naḥawī / [taʼlīf] Khadījah al-Ḥadīthī.
+ERROR-880: Unlinked 880s: YES
+   880 $6 100-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-03 Dirāsāt Jāmiʻīyah.
+040 $e field: [none]
+RDA fields: YES
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 6
+
