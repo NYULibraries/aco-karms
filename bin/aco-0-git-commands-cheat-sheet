@@ -22,11 +22,12 @@ ACO git commands:
 			git add work/[inst.code]/[inst.code]_[batch date]*
 			git add work/NNC/NNC_20140805*
 --  commit the changes to the tracked files
-		git commit -am 'Process NEW/UPDATED files for [inst.name] batch [inst.code]_[batch date]
+		git commit -am 'Process NEW/UPDATES - [inst.name] - [inst.code]_[batch date] - [Jira Tkt #] - [STATUS]
 	Examples:
-		git commit -am 'Process NEW files for Columbia batch NNC_20140805'
-		git commit -am 'Process UPDATED files for Columbia batch NNC_20140805'
-		git commit -am 'Process UPDATED files for Columbia batch NNC_20140805 - FINAL SET'
+		git commit -am 'Process NEW - Columbia - NNC_20140805 - DLTSACO-45'
+		git commit -am 'Process UPDATES - Columbia - NNC_20140805 - DLTSACO-45'
+		git commit -am 'Process NEW - NYU - NNU_20140527 - DLTSACO-32 - NEED REPULLED'
+		git commit -am 'Process UPDATES - Columbia - NNC_20140805 - DLTSACO-45 - FINAL SET'
 	NOTE: the -a parameter signifies to include deleted files in the commit without having to separately run the "rm" command
 
 5)  Once all updates are finished for the batch and the final records are complete:
