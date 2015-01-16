@@ -1,49 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     cam a2200217 a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">002354683</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010172121.0</controlfield>
-<controlfield tag="008">880928q19801989ir            000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb11493008</subfield>
-</datafield>
+<controlfield tag="005">20141224202835.0</controlfield>
+<controlfield tag="008">900312s198u    xx            000 0 arard</controlfield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG88-B31892</subfield>
+<subfield code="a">(OCoLC)21203414</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
 <subfield code="a">OSU</subfield>
+<subfield code="b">eng</subfield>
 <subfield code="c">OSU</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">OCLCQ</subfield>
 <subfield code="d">NNU</subfield>
 </datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
+<datafield tag="050" ind1=" " ind2="4">
 <subfield code="a">PJ6307</subfield>
-<subfield code="b">.H35 1980</subfield>
+<subfield code="b">.H29 1980z</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
 <subfield code="6">880-01</subfield>
-<subfield code="a">Hāshimī, al-Sayyid Aḥmad.</subfield>
+<subfield code="a">Hāshimī, al-Sayyid Aḥmad.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="3">
 <subfield code="6">880-02</subfield>
-<subfield code="a">al-Qawāʻid al-asāsīyah lil-lughah al-ʻArabīyah ḥasab manhaj "Matn al-Alfīyah" li-Ibn Mālik wa-khulāṣat al-sharrāḥ li-Ibn Hishām wa-Ibn ʻUqayl wa-al-Ashmūnī /</subfield>
-<subfield code="c">taʼlīf al-Sayyid Aḥmad al-Hāshimī.</subfield>
+<subfield code="a">al-Qawāʻid al-asāsīyah lil-Lughah al-ʻArabīyah hasab manhaj "matn al-Alfīyah" li-Ibn Mālik wa-khulāṣat al-sharrāḥ li-Ibn Hishām wa-Ibn ʻUqayl wa-al-Ashmūnī /</subfield>
+<subfield code="c">taʼlīf al-Sayyid Aḥmad al-Hāshimī.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">[Tehran? :</subfield>
-<subfield code="b">Dār al-Hijrah,</subfield>
-<subfield code="c">198-?]</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">[Ṭahrān?] :</subfield>
+<subfield code="b">[Dār al-Hijrah],</subfield>
+<subfield code="c">[198-?]</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">368, 16 p. ;</subfield>
-<subfield code="c">25 cm.</subfield>
+<subfield code="a">368, 16 pages ;</subfield>
+<subfield code="c">25 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Arabic language</subfield>
 <subfield code="x">Grammar.</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Arabic language</subfield>
+<subfield code="x">Grammar.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst00812341</subfield>
 </datafield>
 <datafield tag="880" ind1="0" ind2=" ">
 <subfield code="6">100-01/</subfield>
@@ -54,17 +74,14 @@
 <subfield code="a">القواعد الأساسية للغة العربية حسب منهج "متن الافية" لابن مالك وخلاصة الشراح لابن هشام وابن عقيل والأشمونى /</subfield>
 <subfield code="c">تأليف السيد أحمد الهاشمي.</subfield>
 </datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-03/</subfield>
+<subfield code="a">[طهران؟] :</subfield>
+<subfield code="b">[دار الهجرة]،</subfield>
+<subfield code="c">[198-?]</subfield>
+</datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">19960719</subfield>
-<subfield code="d">19880928</subfield>
-<subfield code="d">19960719</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">1</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">p</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
@@ -78,5 +95,6 @@
 <subfield code="h">N</subfield>
 <subfield code="i">1</subfield>
 <subfield code="j">MAIN</subfield>
+<subfield code="k">0</subfield>
 </datafield>
 </record>

@@ -1,66 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a22002415  4500</leader>
+<leader>00000cam a22      i 4500</leader>
 <controlfield tag="001">001676621</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20001218185703.0</controlfield>
+<controlfield tag="005">20141121152534.0</controlfield>
 <controlfield tag="008">900705s1899    le            000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12219979</subfield>
-</datafield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(MNU)notisAQB8503</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)MNUGAQB8503-B</subfield>
+<subfield code="a">(OCoLC)33110169</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">MnU</subfield>
-<subfield code="c">MnU</subfield>
+<subfield code="a">MNU</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">MNU</subfield>
+<subfield code="d">OCLCG</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCA</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">NNU</subfield>
+</datafield>
+<datafield tag="050" ind1=" " ind2="4">
+<subfield code="a">PJ6101</subfield>
+<subfield code="b">.F33 1899</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Farḥāt, Jirmānūs,</subfield>
-<subfield code="d">1670 or 71-1732 or 3.</subfield>
+<subfield code="6">880-01</subfield>
+<subfield code="a">Farḥāt, Jirmānūs,</subfield>
+<subfield code="d">1670 or 1671-1732 or 1733.</subfield>
 </datafield>
 <datafield tag="240" ind1="1" ind2="0">
-<subfield code="a">Baḥth al-maṭālib fī ʻilm al-ʻArabīyah</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">Baḥth al-maṭālib fī ʻilm al-ʻArabīyah</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
-<subfield code="a">Kitāb baḥth al-maṭālib fī ʻilm al-ʻArabīyah /</subfield>
-<subfield code="c">Jirmānūs Farḥat ; maʻa ḥawāshin ʻalayhi li-muṣaḥḥihi Saʻīd al-Khūrī al-Shartūnī al-Lubnānī.</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">Kitāb baḥth al-maṭālib fī ʻilm al-ʻArabīyah /</subfield>
+<subfield code="c">Jirmānūs Farḥat ; maʻa ḥawāshin ʻalayhi li-muṣaḥḥihi Saʻīd al-Khūrī al-Shartūnī al-Lubnānī.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
 <subfield code="c">1899.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">363 p. ;</subfield>
-<subfield code="c">21 cm.</subfield>
+<subfield code="a">363 pages ;</subfield>
+<subfield code="c">21 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="700" ind1="1" ind2=" ">
 <subfield code="a">Shartūnī, Saʻīd al-Khūrī,</subfield>
-<subfield code="d">1849-1912.</subfield>
+<subfield code="d">1849-1912</subfield>
+<subfield code="6">880-04</subfield>
+</datafield>
+<datafield tag="776" ind1="0" ind2="8">
+<subfield code="i">Online version:</subfield>
+<subfield code="a">Farḥāt, Jirmānūs, 1670 or 1671-1732 or 1733.</subfield>
+<subfield code="s">Baḥth al-maṭālib fī ʻilm al-ʻArabīyah.</subfield>
+<subfield code="t">Kitāb baḥth al-maṭālib fī ʻilm al-ʻArabīyah.</subfield>
+<subfield code="d">1899</subfield>
+<subfield code="w">(OCoLC)875854904</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">فرحات، جرمانوس،</subfield>
+<subfield code="d">1670 or 1671-1732 or 1733.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">240-02/</subfield>
+<subfield code="a">بحث المطالب في علم العربية</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">245-03/</subfield>
+<subfield code="a">كتاب بحث المطالب في علم العربية /</subfield>
+<subfield code="c">جرمانوس فرحة ؛ مع حواشن عليه لمصححه سعيد الخوري الشرتوني اللبناني.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">700-04/</subfield>
+<subfield code="a">شرتوني، سعيد الخوري،</subfield>
+<subfield code="d">18491912.</subfield>
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">PJ6101</subfield>
-<subfield code="b">.F33 1899</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1</subfield>
-<subfield code="r">028242777</subfield>
-</datafield>
-<datafield tag="987" ind1=" " ind2=" ">
-<subfield code="a">match points : missing?</subfield>
-</datafield>
-<datafield tag="987" ind1=" " ind2=" ">
-<subfield code="a">tracings : missing?</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="s">9115</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
@@ -74,5 +105,6 @@
 <subfield code="h">N</subfield>
 <subfield code="i">1</subfield>
 <subfield code="j">MAIN</subfield>
+<subfield code="k">0</subfield>
 </datafield>
 </record>

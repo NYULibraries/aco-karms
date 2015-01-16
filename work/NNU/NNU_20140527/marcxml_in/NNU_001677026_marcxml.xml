@@ -1,24 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200277ua 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001677026</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20001218194455.0</controlfield>
-<controlfield tag="008">950928s1949    ua       b    001 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12220396</subfield>
-</datafield>
+<controlfield tag="005">20141121154044.0</controlfield>
+<controlfield tag="008">980330s1949    ua       b    001 0 arard</controlfield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(NjP)notisCBX8366</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NJPG95-B60649</subfield>
+<subfield code="a">(OCoLC)38869068</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">NjP</subfield>
-<subfield code="c">NjP</subfield>
+<subfield code="a">IXA</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">IXA</subfield>
+<subfield code="d">OCLCG</subfield>
+<subfield code="d">OCLCA</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">NNU</subfield>
+</datafield>
+<datafield tag="041" ind1="1" ind2=" ">
+<subfield code="a">ara</subfield>
+<subfield code="h">gre</subfield>
+</datafield>
+<datafield tag="050" ind1=" " ind2="4">
+<subfield code="a">B415.A8</subfield>
+<subfield code="b">A7</subfield>
 </datafield>
 <datafield tag="100" ind1="0" ind2=" ">
+<subfield code="6">880-01</subfield>
 <subfield code="a">Aristotle.</subfield>
 </datafield>
 <datafield tag="240" ind1="1" ind2="0">
@@ -26,18 +34,22 @@
 <subfield code="l">Arabic</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
-<subfield code="a">Kitāb al-Nafs /</subfield>
-<subfield code="c">li-Arisṭūṭālīs ; naqalahu ilá al-ʻArabīyah Aḥmad Fuʼād al-Ahwānī ; rājaʻahu ʻalá al-yūnānīyah Jūrj Shiḥātah Qanawātī.</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">Kitāb al-Nafs /</subfield>
+<subfield code="c">li-Arisṭūṭālīs ; naqalahu ilá al-ʻArabīyah Aḥmad Fuʼād al-Ahwānī ; rājaʻahu ʻalá al-Yūnānīyah Jūrj Shiḥātah Qanawātī.</subfield>
 </datafield>
 <datafield tag="246" ind1="1" ind2="0">
+<subfield code="6">880-03</subfield>
 <subfield code="a">Nafs</subfield>
 </datafield>
 <datafield tag="250" ind1=" " ind2=" ">
-<subfield code="a">al-Ṭabʻah 1.</subfield>
+<subfield code="6">880-04</subfield>
+<subfield code="a">al-Ṭabʻah 1.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
+<subfield code="6">880-05</subfield>
 <subfield code="a">[Cairo] :</subfield>
-<subfield code="b">Dār Iḥyāʼ al-Kutub al-ʻArabīyah,</subfield>
+<subfield code="b">Dār Iḥyāʼ al-Kutub al-ʻArabīyah,</subfield>
 <subfield code="c">1949.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
@@ -51,29 +63,61 @@
 <subfield code="a">Zoology</subfield>
 <subfield code="v">Pre-Linnean works.</subfield>
 </datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Zoology.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01184696</subfield>
+</datafield>
+<datafield tag="655" ind1=" " ind2="7">
+<subfield code="a">Early works.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01411636</subfield>
+</datafield>
 <datafield tag="700" ind1="1" ind2=" ">
-<subfield code="a">Ahwānī, Aḥmad Fuʼād,</subfield>
-<subfield code="d">d. 1970.</subfield>
+<subfield code="6">880-06</subfield>
+<subfield code="a">Ahwānī, Aḥmad Fuʼād,</subfield>
+<subfield code="d">-1970.</subfield>
 </datafield>
 <datafield tag="700" ind1="1" ind2=" ">
 <subfield code="a">Anawati, Georges C.,</subfield>
-<subfield code="d">1905-</subfield>
+<subfield code="d">1905-1994</subfield>
+<subfield code="6">880-07</subfield>
+</datafield>
+<datafield tag="880" ind1="0" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">ارسطوطاليس.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">245-02/</subfield>
+<subfield code="a">كتاب النفس /</subfield>
+<subfield code="c">لارسطوطاليس ؛ نقله الى العربية احمد فؤاد الاهواني ؛ راجعه على اليونانية جورج شحاتة قنواتي.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">246-03/</subfield>
+<subfield code="a">نفس</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">250-04/</subfield>
+<subfield code="a">الطبعة 1.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-05/</subfield>
+<subfield code="a">[Cairo] :</subfield>
+<subfield code="b">دار احياء الكتب العربية،</subfield>
+<subfield code="c">1949.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">700-06/</subfield>
+<subfield code="a">اهواني، احمد فؤاد،</subfield>
+<subfield code="d">-1970.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">700-07/</subfield>
+<subfield code="a">قنواتي، جرجس ،</subfield>
+<subfield code="d">1905-1994.</subfield>
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">B415.A2</subfield>
-<subfield code="b">A512</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1</subfield>
-<subfield code="r">027699639</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="s">9124</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
@@ -87,5 +131,6 @@
 <subfield code="h">N</subfield>
 <subfield code="i">0</subfield>
 <subfield code="j">MAIN</subfield>
+<subfield code="k">0</subfield>
 </datafield>
 </record>
