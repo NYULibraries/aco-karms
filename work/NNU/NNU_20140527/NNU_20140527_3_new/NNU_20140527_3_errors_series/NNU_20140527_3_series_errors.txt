@@ -1,0 +1,94 @@
+Records containing SERIES errors - batch NNU_20140527
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2015-01-16 13:51:27.381269
+---------------------------------------------------------------------
+FILE: NNU_20140527_1/NNU_20140527_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNU_20140527_1/NNU_20140527_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNU_001680051
+   orig_rec_035 num: =035  \\$a(OCoLC)20087277
+Record 999:  NNU_001680051 
+880 script fields: YES
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Silsilah al-thaqāfīyah, 4
+040 $e field: [none]
+RDA fields: YES
+---------------------------------------------------------------------
+Institution ID: NNU_001680054
+   orig_rec_035 num: =035  \\$a(OCoLC)50159916
+Record 999:  NNU_001680054 
+880 script fields: YES
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Silsilat al-Kashshāf al-adabīyah ; 8
+040 $e field: [none]
+RDA fields: YES
+---------------------------------------------------------------------
+Institution ID: NNU_001680087
+   orig_rec_035 num: =035  \\$a(OCoLC)26243710$z(OCoLC)224168793
+Record 999:  NNU_001680087 
+880 script fields: YES
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 [Intishārāt Anjuman Farhangī-i Mihr ; dawrah-i 2, 1]
+040 $e field: [none]
+RDA fields: YES
+---------------------------------------------------------------------
+Institution ID: NNU_001680089
+   orig_rec_035 num: =035  \\$a(OCoLC)67309451
+Record 999:  NNU_001680089 
+880 script fields: YES
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Maktabat al-Ṣāḥib ibn ʻAbbād ; 1.
+040 $e field: [none]
+---------------------------------------------------------------------
+Institution ID: NNU_001680234
+   orig_rec_035 num: =035  \\$a(OCoLC)17812853
+Record 999:  NNU_001680234 
+880 script fields: YES
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-03 Silsilat Dīwān al-shiʻr al-Arabī ; 91
+040 $e field: [none]
+RDA fields: YES
+---------------------------------------------------------------------
+Institution ID: NNU_001680957
+   orig_rec_035 num: =035  \\$a(OCoLC)476984774
+Record 999:  NNU_001680957 
+880 script fields: YES
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Risālat al-Baʻth ; 1
+040 $e field: [none]
+---------------------------------------------------------------------
+Institution ID: NNU_001682863
+   orig_rec_035 num: =035  \\$a(OCoLC)20576135
+Record 999:  NNU_001682863 
+880 script fields: YES
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-06 Manshūrāt Dār al-Adīb ; 2
+040 $e field: [none]
+RDA fields: YES
+---------------------------------------------------------------------
+Institution ID: NNU_001685837
+   orig_rec_035 num: =035  \\$a(OCoLC)8454988
+Record 999:  NNU_001685837 
+880 script fields: YES
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Dirāsāt Jāmiʻīyah
+040 $e field: [none]
+RDA fields: YES
+---------------------------------------------------------------------
+Institution ID: NNU_001856006
+   orig_rec_035 num: =035  \\$a(OCoLC)8598918$z(OCoLC)67309644
+Record 999:  NNU_001856006 
+880 script fields: YES
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Dawāwīn ṣaghīrah ; 3
+040 $e field: [none]
+RDA fields: YES
+---------------------------------------------------------------------
+Institution ID: NNU_002818856
+   orig_rec_035 num: =035  \\$a(OCoLC)32427542$z(OCoLC)241376094$z(OCoLC)857745091
+Record 999:  NNU_002818856 
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Salih Abdul Quddos al-Basri
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Turāthunā
+040 $e field: [none]
+RDA fields: YES
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 10
+

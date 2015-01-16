@@ -1,33 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200217 a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">002057185</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">19940725150406.0</controlfield>
-<controlfield tag="008">930223s1903    le            000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb11010482</subfield>
+<controlfield tag="005">20141225193812.0</controlfield>
+<controlfield tag="008">130812s1903    le            000 0 ara d</controlfield>
+<datafield tag="010" ind1=" " ind2=" ">
+<subfield code="a">  2013415155</subfield>
 </datafield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG93-B7251</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">GLIS010104823</subfield>
+<subfield code="a">(OCoLC)82177090</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
 <subfield code="a">NNU</subfield>
-<subfield code="c">NNU</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">ZYU</subfield>
+<subfield code="d">DLC</subfield>
+<subfield code="d">OCLCF</subfield>
 </datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="i">02/23/93 CT</subfield>
+<datafield tag="042" ind1=" " ind2=" ">
+<subfield code="a">lccopycat</subfield>
+</datafield>
+<datafield tag="050" ind1=" " ind2="4">
+<subfield code="a">PJ7631</subfield>
+<subfield code="b">.D59 1903</subfield>
+</datafield>
+<datafield tag="050" ind1="0" ind2="0">
+<subfield code="a">PJ7631</subfield>
+<subfield code="b">.D595 1903</subfield>
 </datafield>
 <datafield tag="245" ind1="0" ind2="0">
-<subfield code="a">Dīwān Tadhkirat al-ghāfil ʻan istiḥḍār al-maʼākil :</subfield>
-<subfield code="b">al-mawsūm bi-al-muʻāraḍāt al-Zaynīyah ʻalá al-manẓūmāt al-Hilālīyah /</subfield>
-<subfield code="c">li-jāmiʻihi Muḥammad al-Khālid Chalabī al-Ḥimṣī.</subfield>
+<subfield code="6">880-01</subfield>
+<subfield code="a">Dīwān Tadhkirat al-ghāfil ʻan istiḥḍār al-maʼākil :</subfield>
+<subfield code="b">al-mawsūm bi-al-muʻāraḍāt al-Zaynīyah ʻalá al-manẓūmāt al-Hilālīyah /</subfield>
+<subfield code="c">li-jāmiʻihi Muḥammad al-Khālid Chalabī al-Ḥimṣī.</subfield>
+</datafield>
+<datafield tag="246" ind1="3" ind2="0">
+<subfield code="6">880-02</subfield>
+<subfield code="a">Tadhkirat al-ghāfil ʻan istiḥḍār al-maʼākil :</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">Bayrūt :</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">Bayrūt :</subfield>
 <subfield code="b">[s.n.],</subfield>
 <subfield code="c">1321 [1903 or 1904]</subfield>
 </datafield>
@@ -38,34 +52,37 @@
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Arabic poetry.</subfield>
 </datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Arabic poetry.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst00812533</subfield>
+</datafield>
 <datafield tag="700" ind1="1" ind2=" ">
-<subfield code="a">Ḥimṣī, Muḥammad al-Khālid Chalabī.</subfield>
+<subfield code="6">880-04</subfield>
+<subfield code="a">Ḥimṣī, Muḥammad al-Khālid Chalabī.</subfield>
+</datafield>
+<datafield tag="880" ind1="0" ind2="0">
+<subfield code="6">245-01/</subfield>
+<subfield code="a">ديوان تذكرة الغافل عن استحضار المآكل :</subfield>
+<subfield code="b">الموسوم بالمارضات الزينية على المنظومات الهلالية /</subfield>
+<subfield code="c">جمعه محمد الخالد الجلبي الحماصي.</subfield>
+</datafield>
+<datafield tag="880" ind1="3" ind2="0">
+<subfield code="6">246-02/</subfield>
+<subfield code="a">تذكرة الغافل عن استحضار الماكل</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-03/</subfield>
+<subfield code="a">بيروت :</subfield>
+<subfield code="b">[s.n.]،</subfield>
+<subfield code="c">1321 [1903 or 1904]</subfield>
+</datafield>
+<datafield tag="880" ind1="0" ind2=" ">
+<subfield code="6">700-04/</subfield>
+<subfield code="a">محمد الخالد الجلبي الحماصي.</subfield>
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">PJ7631</subfield>
-<subfield code="b">.D59 1903</subfield>
-<subfield code="i">02/23/93 C</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1</subfield>
-<subfield code="r">016822465</subfield>
-<subfield code="i">02/23/93 C</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">02/23/93</subfield>
-<subfield code="t">c</subfield>
-<subfield code="s">9114</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="d">02/23/93</subfield>
-<subfield code="c">MG</subfield>
-<subfield code="b">MG</subfield>
-<subfield code="i">930223</subfield>
-<subfield code="l">NYUG</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
@@ -79,5 +96,6 @@
 <subfield code="h">N</subfield>
 <subfield code="i">0</subfield>
 <subfield code="j">MAIN</subfield>
+<subfield code="k">0</subfield>
 </datafield>
 </record>
