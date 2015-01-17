@@ -4,8 +4,13 @@ ACO git commands:
 --  navigate in Terminal to:  cd Documents/NYU/github_repos/aco-karms
 --  make sure you are on the clone's master branch:  git branch  (*master should have the asterisk)
 --  if not on master, switch to it:  git checkout master
---  synch the master branches:  git pull origin master
-	(not sure how this may or may not affect the other branches on the local clone)
+--  synch the master branches:
+	git pull origin master
+	versus
+	git merge origin/master
+	or
+	git fetch --all
+	(not sure which method is best to get the clone master branch fully in synch with the remote/origin master branch)
 
 2)  Once the master branch is synched, create a feature branch for the batch to be processed
 --  create the feature branch using the institutional code and the date of the batch:
