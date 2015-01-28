@@ -5,12 +5,14 @@ ACO git commands:
 --  make sure you are on the clone's master branch:  git branch  (*master should have the asterisk)
 --  if not on master, switch to it:  git checkout master
 --  synch the master branches:
-	git pull origin master
+	git fetch
 	versus
-	git merge origin/master
-	or
 	git fetch --all
-	(not sure which method is best to get the clone master branch fully in synch with the remote/origin master branch)
+	git pull origin master
+	git merge origin/master
+	*git fetch seems to get the clone master branch fully in synch with the remote/origin master branch, but
+	but not sure the difference with the other commands.  git pull origin master always seems to result in a git status
+	message:  "Your branch is ahead of 'origin/master' by # commits"
 
 2)  Once the master branch is synched, create a feature branch for the batch to be processed
 --  create the feature branch using the institutional code and the date of the batch:
