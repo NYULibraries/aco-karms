@@ -1,0 +1,51 @@
+Records containing SERIES errors - batch NNU_20150114
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2015-01-16 15:30:16.913833
+---------------------------------------------------------------------
+FILE: NNU_20150114_1/NNU_20150114_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNU_001680281
+   orig_rec_035 num: =035  9\$aNYUb12223684
+   orig_rec_035 num: =035  \\$a(CStRLIN)IAUG84-B52879
+Record 999:  NNU_001680281 
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Fuḥūl al-ʻArab fī ʻilm al-adab.
+040 $e field: [none]
+---------------------------------------------------------------------
+Institution ID: NNU_001680960
+   orig_rec_035 num: =035  9\$aNYUb12224364
+   orig_rec_035 num: =035  \\$a(CStRLIN)MIUG85-B28268
+Record 999:  NNU_001680960 
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Intishārāt Dānishkāh Ṭahrān, 340
+040 $e field: [none]
+---------------------------------------------------------------------
+Institution ID: NNU_001682798
+   orig_rec_035 num: =035  9\$aNYUb12226215
+   orig_rec_035 num: =035  \\$a(MiU)notisAFS5361
+   orig_rec_035 num: =035  \\$a(CStRLIN)MIUGAFS5361-B
+Record 999:  NNU_001682798 
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Durūs wa-muḥāḍarāt bi-kilīyat al-Ādāb; His 2
+040 $e field: [none]
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNU_20150114_1/NNU_20150114_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNU_003072691
+   orig_rec_035 num: =035  \\$a(OCoLC)141041022
+   orig_rec_035 num: =035  \\$a(CStRLIN)UKMNM0020969MU-B
+Record 999:  NNU_003072691 
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Dawāwīn ṣaghīrah ; 2
+040 $e field: [none]
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 4
+
