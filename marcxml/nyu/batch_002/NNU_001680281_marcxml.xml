@@ -1,52 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     cam a2200325u  4500</leader>
+<leader>00000cam a22      i 4500</leader>
 <controlfield tag="001">001680281</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20001218223130.0</controlfield>
-<controlfield tag="008">840726m19281930ae       b    000 0 arao</controlfield>
+<controlfield tag="005">20150121175224.0</controlfield>
+<controlfield tag="008">831228q19281930ae       b    000 0 ara d</controlfield>
 <datafield tag="010" ind1=" " ind2=" ">
-<subfield code="a">73206585 /NE</subfield>
-</datafield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12223684</subfield>
+<subfield code="a">   73206585</subfield>
 </datafield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)IAUG84-B52879</subfield>
+<subfield code="a">(OCoLC)22262772</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="c">CU</subfield>
-<subfield code="d">CU</subfield>
-<subfield code="d">IaU</subfield>
+<subfield code="a">CUY</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">CUY</subfield>
+<subfield code="d">OCL</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">NNU</subfield>
 </datafield>
-<datafield tag="050" ind1="0" ind2=" ">
+<datafield tag="050" ind1=" " ind2="4">
 <subfield code="a">PJ7700.K8</subfield>
-<subfield code="b">Z77</subfield>
+<subfield code="b">.Z771</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
 <subfield code="a">Pérès, Henri.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
-<subfield code="a">Sharḥ Dīwān Kuthayyir ibn ʻAbd al-Raḥmān al-Khuzāʻī al-mashhūr bi-Kuthayyir ʻAzzah.</subfield>
-<subfield code="c">Qad iʻtaná bi-jamʻihi wa-nashrihi Hanrī Pīris.</subfield>
+<subfield code="6">880-01</subfield>
+<subfield code="a">Sharḥ Dīwān Kuthayyir ibn ʻAbd al-Raḥmān al-Khuzāʻī al-mashhūr bi-Kuthayyir ʻAzzah.</subfield>
+<subfield code="c">Qad iʻtaná bi-jamʻihi wa-nashrihi Hanrī Pīris.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">[al-Jazāʹir,</subfield>
-<subfield code="b">Maṭbaʻat Jūl Karbūnil]</subfield>
-<subfield code="c">1928-[30]</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">[Al-Jazāʼir],</subfield>
+<subfield code="b">[Maṭbaʻat Jūl Karbūnil],</subfield>
+<subfield code="c">[1928-1930]</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">2 v.</subfield>
+<subfield code="a">volumes</subfield>
 <subfield code="c">19 cm.</subfield>
 </datafield>
-<datafield tag="490" ind1="0" ind2=" ">
-<subfield code="a">Fuḥūl al-ʻArab fī ʻilm al-adab.</subfield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="490" ind1="1" ind2=" ">
-<subfield code="a">Khazānat al-Kutub al-ʻArabīyah.</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">Fuḥūl al-ʻArab fī ʻilm al-adab</subfield>
+</datafield>
+<datafield tag="490" ind1="1" ind2=" ">
+<subfield code="6">880-04</subfield>
+<subfield code="a">Khazānat al-Kutub al-ʻArabīyah</subfield>
 </datafield>
 <datafield tag="500" ind1=" " ind2=" ">
-<subfield code="a">Added t.p.: Dîwān [par] Koṭayyir-ʻAzza; accompagné d'un commentaire arabe.</subfield>
+<subfield code="a">Added t.p.: Dîwān [par] Koṭayyir-ʻAzza; accompagné d'un commentaire arabe.</subfield>
 </datafield>
 <datafield tag="500" ind1=" " ind2=" ">
 <subfield code="a">A compilation of commentaries on individual verses of Kuthayyir's poems written by various authors.</subfield>
@@ -58,39 +77,76 @@
 <subfield code="a">Includes bibliographical references.</subfield>
 </datafield>
 <datafield tag="600" ind1="0" ind2="0">
-<subfield code="a">Kuthayyir ʻAzzah ibn ʻAbd al-Raḥmān,</subfield>
-<subfield code="d">d. 723.</subfield>
-<subfield code="t">Dīwān.</subfield>
+<subfield code="6">880-05</subfield>
+<subfield code="a">Kuthayyir ʻAzzah ibn ʻAbd al-Raḥmān,</subfield>
+<subfield code="d">-723.</subfield>
+<subfield code="t">Dīwān.</subfield>
 </datafield>
-<datafield tag="700" ind1="0" ind2=" ">
-<subfield code="a">Kuthayyir ʻAzzah ibn ʻAbd al-Raḥmān,</subfield>
-<subfield code="d">d. 723.</subfield>
-<subfield code="t">Dīwān.</subfield>
-<subfield code="f">1928-30.</subfield>
+<datafield tag="700" ind1="1" ind2="2">
+<subfield code="6">880-06</subfield>
+<subfield code="a">Kuthayyir ʻAzzah,</subfield>
+<subfield code="d">643 or 644-723 or 724.</subfield>
+<subfield code="t">Dīwān.</subfield>
+</datafield>
+<datafield tag="776" ind1="0" ind2="8">
+<subfield code="i">Online version:</subfield>
+<subfield code="a">Pérès, Henri.</subfield>
+<subfield code="t">Sharḥ Dīwān Kuthayyir ibn ʻAbd al-Raḥmān al-Khuzāʻī al-mashhūr bi-Kuthayyir ʻAzzah.</subfield>
+<subfield code="d">[Al-Jazāʹir, Maṭbaʻat Jūl Karbūnil, 1928-30</subfield>
+<subfield code="w">(OCoLC)624051920</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">245-01/</subfield>
+<subfield code="a">شرح ديوان كثير بن عبد الرحمن الخزاعي المشهور بكثير عزة.</subfield>
+<subfield code="c">قد اعتنى بجمعه ونشره هنري پيرس.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-02/</subfield>
+<subfield code="a">[الجزائر]،</subfield>
+<subfield code="b">[مطبعة جول كربونل]،</subfield>
+<subfield code="c">[1928-1930]</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">490-03/</subfield>
+<subfield code="a">فحول العرب في علم الأدب</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">490-04/</subfield>
+<subfield code="a">خزانة الكتب العربية</subfield>
+</datafield>
+<datafield tag="880" ind1="0" ind2="4">
+<subfield code="6">600-05/</subfield>
+<subfield code="a">كثير عزة بن عبد الرحمن،</subfield>
+<subfield code="d">-723.</subfield>
+<subfield code="t">ديوان.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="2">
+<subfield code="6">700-06/</subfield>
+<subfield code="a">كثير عزة،</subfield>
+<subfield code="d">643 or 644-723 or 724.</subfield>
+<subfield code="t">ديوان.</subfield>
 </datafield>
 <datafield tag="830" ind1=" " ind2="0">
 <subfield code="a">Maktabah al-ʻArabīyah (Cairo, Egypt)</subfield>
 </datafield>
+<datafield tag="830" ind1=" " ind2="0">
+<subfield code="6">880-07</subfield>
+<subfield code="a">Fuḥūl al-ʻArab fī ʻilm al-adab.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2="0">
+<subfield code="6">830-07/</subfield>
+<subfield code="a">فحول العرب في علم الأدب.</subfield>
+</datafield>
+<datafield tag="830" ind1=" " ind2="0">
+<subfield code="6">880-08</subfield>
+<subfield code="a">Khazānat al-Kutub al-ʻArabīyah.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2="0">
+<subfield code="6">830-08/</subfield>
+<subfield code="a">خزانة الكتب العربية.</subfield>
+</datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">PJ7700.K8</subfield>
-<subfield code="b">Z77</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1:v.1</subfield>
-<subfield code="r">028857145</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1:v.2</subfield>
-<subfield code="r">010349770</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="s">9114</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
