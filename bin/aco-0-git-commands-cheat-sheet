@@ -10,9 +10,13 @@ ACO git commands:
 	git fetch --all
 	git pull origin master
 	git merge origin/master
-	*git fetch seems to get the clone master branch fully in synch with the remote/origin master branch, but
-	but not sure the difference with the other commands.  git pull origin master always seems to result in a git status
-	message:  "Your branch is ahead of 'origin/master' by # commits"
+	* not sure how to get the clone master branch fully in synch with the remote/origin master branch, 
+	so that git status doesn't report:
+		"Your branch is [ahead/behind] origin/master by # commits and can be fast forwarded...
+		nothing to commit (working directory clean)"
+	* git fetch doesn't seem to retrieve any new files in origin/master, but git pull origin master does
+	* git pull origin master sometimes results in the git status message:
+		"Your branch is ahead of 'origin/master' by # commits..."
 
 2)  Once the master branch is synched, create a feature branch for the batch to be processed
 --  create the feature branch using the institutional code and the date of the batch:
