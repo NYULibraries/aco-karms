@@ -1,68 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200385   4500</leader>
+<leader>00000cam a22      i 4500</leader>
 <controlfield tag="001">001977452</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">19940713181853.0</controlfield>
-<controlfield tag="008">911118s1973    ir       b    000 0 arar</controlfield>
+<controlfield tag="005">20150124161522.0</controlfield>
+<controlfield tag="008">801017s1973    ir       b    000 0 ara</controlfield>
 <datafield tag="010" ind1=" " ind2=" ">
-<subfield code="a">79354161</subfield>
-</datafield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb10924556</subfield>
+<subfield code="a">   79354161</subfield>
 </datafield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG91-B65496</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">GLIS009245563</subfield>
+<subfield code="a">(OCoLC)6837692</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
 <subfield code="a">DLC</subfield>
-<subfield code="c">WaU</subfield>
-<subfield code="d">m.c.</subfield>
-<subfield code="d">CU</subfield>
-<subfield code="d">CStRLIN</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">WAU</subfield>
+<subfield code="d">OCL</subfield>
+<subfield code="d">OCLCG</subfield>
+<subfield code="d">CUY</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCA</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCF</subfield>
 <subfield code="d">NNU</subfield>
 </datafield>
 <datafield tag="041" ind1="0" ind2=" ">
 <subfield code="a">perara</subfield>
 </datafield>
-<datafield tag="050" ind1="0" ind2=" ">
+<datafield tag="050" ind1=" " ind2="4">
 <subfield code="a">B753</subfield>
 <subfield code="b">.M8 1973</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="a">B753</subfield>
-<subfield code="b">.M8 1973</subfield>
-<subfield code="i">11/18/91 CT</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Ṣadr al-Dīn Shīrāzī, Muḥammad ibn Ibrāhīm,</subfield>
-<subfield code="d">d. 1641.</subfield>
+<subfield code="6">880-01</subfield>
+<subfield code="a">Ṣadr al-Dīn Shīrāzī, Muḥammad ibn Ibrāhīm,</subfield>
+<subfield code="d">-1641.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
-<subfield code="a">Sih risālah /</subfield>
-<subfield code="c">az Muḥammad ibn Ibrāhīm Ṣadr al-Dīn al-Shīrāzī ; bā taʻlīq va taṣḥīḥ̄ va muqaddimah-'i Jalāl al-Dīn Āshtiyānī.</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">Sih risālah /</subfield>
+<subfield code="c">az Muḥammad ibn Ibrāhīm Ṣadr al-Dīn al-Shīrāzī ; bā taʻlīq va taṣḥīḥ̄ va muqaddimah-'i Jalāl al-Dīn Āshtiyānī.</subfield>
+</datafield>
+<datafield tag="246" ind1="3" ind2=" ">
+<subfield code="6">880-03</subfield>
+<subfield code="a">Rasā'il-i falsafī</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
+<subfield code="6">880-04</subfield>
 <subfield code="a">Mashhad :</subfield>
-<subfield code="b">Chāpʹkhānah-'i Dānishgāh-i Mashhad,</subfield>
+<subfield code="b">Chāpʹkhānah-'i Dānishgāh-i Mashhad,</subfield>
 <subfield code="c">1973.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">217, 198, [16] p. ;</subfield>
+<subfield code="a">217, 198, [16] pages ;</subfield>
 <subfield code="c">24 cm.</subfield>
 </datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
+</datafield>
 <datafield tag="490" ind1="1" ind2=" ">
-<subfield code="a">Intishārāt-i Dānishkadah-ʼi Ilāhīyat va Maʻārif-i Islāmī-i Mashhad ;</subfield>
-<subfield code="v">shumārah-í 5</subfield>
+<subfield code="6">880-05</subfield>
+<subfield code="a">Intishārāt-i Dānishkadah-'i Ilāhiyāt va Maʻārif-i Islāmī-yi Mashhad ;</subfield>
+<subfield code="v">5</subfield>
 </datafield>
 <datafield tag="500" ind1=" " ind2=" ">
-<subfield code="a">Added t. p.: Three treatises.</subfield>
+<subfield code="a">Added t.p.: Three treatises.</subfield>
 </datafield>
 <datafield tag="500" ind1=" " ind2=" ">
-<subfield code="a">Cover title: Rasā'il-i falsafī.</subfield>
+<subfield code="a">Cover title: Rasā'il-i falsafī.</subfield>
 </datafield>
 <datafield tag="500" ind1=" " ind2=" ">
 <subfield code="a">Texts in Arabic; introd. and notes in Persian; a pref. in English.</subfield>
@@ -71,54 +90,117 @@
 <subfield code="a">Includes bibliographical references.</subfield>
 </datafield>
 <datafield tag="505" ind1="0" ind2=" ">
-<subfield code="a">al-Masā'il al-qudsīyah.--Mutashābihāt al-Qur'ān.--Ajwibat al-masā'il.</subfield>
-</datafield>
-<datafield tag="600" ind1="1" ind2="0">
-<subfield code="a">Ṣadr al-Dīn Shīrāzī, Muḥammad ibn Ibrāhīm,</subfield>
-<subfield code="d">d. 1641.</subfield>
-</datafield>
-<datafield tag="630" ind1="0" ind2="0">
-<subfield code="a">Koran</subfield>
-<subfield code="x">Criticism, interpretation, etc.</subfield>
+<subfield code="a">al-Masā'il al-qudsīyah.--Mutashābihāt al-Qur'ān.--Ajwibat al-masā'il.</subfield>
 </datafield>
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Islamic philosophy</subfield>
 <subfield code="v">Early works to 1800.</subfield>
 </datafield>
-<datafield tag="700" ind1="1" ind2=" ">
-<subfield code="a">Āshtiyānī, Jalāl al-Dīn.</subfield>
+<datafield tag="600" ind1="1" ind2="0">
+<subfield code="6">880-06</subfield>
+<subfield code="a">Ṣadr al-Dīn Shīrāzī, Muḥammad ibn Ibrāhīm,</subfield>
+<subfield code="d">-1641.</subfield>
 </datafield>
-<datafield tag="740" ind1="0" ind2=" ">
-<subfield code="a">Rasā'il-i falsafī.</subfield>
+<datafield tag="630" ind1="0" ind2="0">
+<subfield code="a">Qurʼan</subfield>
+<subfield code="x">Criticism, interpretation, etc.</subfield>
+</datafield>
+<datafield tag="600" ind1="1" ind2="7">
+<subfield code="a">Ṣadr al-Dīn Shīrāzī, Muḥammad ibn Ibrāhīm,</subfield>
+<subfield code="d">-1641.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01845304</subfield>
+</datafield>
+<datafield tag="630" ind1="0" ind2="7">
+<subfield code="a">Qurʼan.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01842877</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Islamic philosophy.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01730358</subfield>
+</datafield>
+<datafield tag="655" ind1=" " ind2="7">
+<subfield code="a">Criticism, interpretation, etc.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01411635</subfield>
+</datafield>
+<datafield tag="655" ind1=" " ind2="7">
+<subfield code="a">Early works.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01411636</subfield>
+</datafield>
+<datafield tag="700" ind1="1" ind2=" ">
+<subfield code="a">Āshtiyānī, Jalāl al-Dīn</subfield>
+<subfield code="6">880-07</subfield>
+</datafield>
+<datafield tag="776" ind1="0" ind2="8">
+<subfield code="i">Online version:</subfield>
+<subfield code="a">Ṣadr al-Dīn Shīrāzī, Muḥammad ibn Ibrāhīm, -1641.</subfield>
+<subfield code="t">Sih risālah.</subfield>
+<subfield code="d">Mashhad : Chāpʹkhānah-'i Dānishgāh-i Mashhad, 1973</subfield>
+<subfield code="w">(OCoLC)551393002</subfield>
+</datafield>
+<datafield tag="776" ind1="0" ind2="8">
+<subfield code="i">Online version:</subfield>
+<subfield code="a">Ṣadr al-Dīn Shīrāzī, Muḥammad ibn Ibrāhīm, -1641.</subfield>
+<subfield code="t">Sih risālah.</subfield>
+<subfield code="d">Mashhad : Chāpʹkhānah-'i Dānishgāh-i Mashhad, 1973</subfield>
+<subfield code="w">(OCoLC)607647282</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">صدر الدين الشيرازي، محمد ابن إبراهيم.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="2">
+<subfield code="6">245-02/</subfield>
+<subfield code="a">المسائل القدسية متشابهات القران اجوبة المسائل :</subfield>
+<subfield code="b">سه رساله /</subfield>
+<subfield code="c">از محمدبن ابراهيم صدر الدين الشيرازى ؛ با تعليق و تصحيح و مقدمه جلال الدين آشتيانى.</subfield>
+</datafield>
+<datafield tag="880" ind1="3" ind2=" ">
+<subfield code="6">246-03/</subfield>
+<subfield code="a">رسائل فلسفى</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-04/</subfield>
+<subfield code="a">مشهد :</subfield>
+<subfield code="b">جاپخانه دانشاه مشهد،</subfield>
+<subfield code="c">١٣٥٢.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">490-05/</subfield>
+<subfield code="a">انتشارات دانشكدۀ الهيات و معارف اسلامى مشهد ؛</subfield>
+<subfield code="v">شماره ٥</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="4">
+<subfield code="6">600-06/</subfield>
+<subfield code="a">ملاّ صدرا، محمد ابراهيم.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">700-07/</subfield>
+<subfield code="a">آشتيانى، جلال الدين.</subfield>
+</datafield>
+<datafield tag="810" ind1="1" ind2=" ">
+<subfield code="a">Mashhad (Iran).</subfield>
+<subfield code="b">Dānishgāh.</subfield>
+<subfield code="b">Dānishkadah-'i Ilāhīyāt va Maʻārif-i Islāmī-i Mashhad.</subfield>
+<subfield code="t">Intishārāt-i Dānishkadah-'i Ilāhīyāt va Maʻārif-i Islāmī-i Mashhad ;</subfield>
+<subfield code="v">5.</subfield>
 </datafield>
 <datafield tag="830" ind1=" " ind2="0">
-<subfield code="a">Intishārāt-i Dānishkadah-ʼi Ilāhīyat va Maʻārif-i Islāmī-i Mashhad ;</subfield>
-<subfield code="v">shumārah-í 5.</subfield>
+<subfield code="6">880-08</subfield>
+<subfield code="a">Intishārāt-i Dānishkadah-'i Ilāhiyāt va Maʻārif-i Islāmī-yi Mashhad ;</subfield>
+<subfield code="v">5.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2="0">
+<subfield code="6">830-08/</subfield>
+<subfield code="a">انتشارات دانشكدۀ الهيات و معارف اسلامى مشهد ؛</subfield>
+<subfield code="v">شماره ٥.</subfield>
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="i">11/18/91 C</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1</subfield>
-<subfield code="r">015733655</subfield>
-<subfield code="i">11/18/91 C</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">11/18/91</subfield>
-<subfield code="t">c</subfield>
-<subfield code="s">9115</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="w">CUBGGLAD33730517B</subfield>
-<subfield code="d">11/18/91</subfield>
-<subfield code="c">MG</subfield>
-<subfield code="b">MDE</subfield>
-<subfield code="i">911118</subfield>
-<subfield code="l">NYUG</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>

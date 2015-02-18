@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     cam a2200301 a 4500</leader>
+<leader>00000cam a2200301 a 4500</leader>
 <controlfield tag="001">001367186</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010173033.0</controlfield>
+<controlfield tag="005">20150127213407.0</controlfield>
 <controlfield tag="008">980317s1964    iq            000 1 arard</controlfield>
 <datafield tag="010" ind1=" " ind2=" ">
 <subfield code="a">ne 67000932</subfield>
@@ -24,16 +24,12 @@
 <subfield code="d">CU-SB</subfield>
 <subfield code="d">NNU</subfield>
 </datafield>
-<datafield tag="050" ind1="0" ind2=" ">
+<datafield tag="050" ind1=" " ind2="4">
 <subfield code="a">PJ7711</subfield>
 <subfield code="b">.B8 1964</subfield>
 </datafield>
 <datafield tag="066" ind1=" " ind2=" ">
 <subfield code="c">(3</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="a">PJ7711</subfield>
-<subfield code="b">.B8 1964</subfield>
 </datafield>
 <datafield tag="130" ind1="0" ind2=" ">
 <subfield code="a">Arabian nights.</subfield>
@@ -62,6 +58,10 @@
 <datafield tag="500" ind1=" " ind2=" ">
 <subfield code="a">Reprint. Originally published: al-Ṭabʻah 1. Būlāq : Maṭbaʻat Būlāq, 1252 [1836 or 1837]</subfield>
 </datafield>
+<datafield tag="650" ind1=" " ind2="0">
+<subfield code="a">Tales</subfield>
+<subfield code="z">Middle East.</subfield>
+</datafield>
 <datafield tag="700" ind1="1" ind2=" ">
 <subfield code="a">ʻAdawī, Muḥammad Qiṭṭah</subfield>
 <subfield code="6">880-03</subfield>
@@ -83,15 +83,6 @@
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">20020222</subfield>
-<subfield code="d">19980317</subfield>
-<subfield code="d">20020420</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">1</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">e</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>

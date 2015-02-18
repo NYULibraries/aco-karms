@@ -1,72 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200229 a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001905098</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20021022124717.0</controlfield>
-<controlfield tag="008">901213q19501959ua            000 1 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb10847525</subfield>
-</datafield>
+<controlfield tag="005">20150123175541.0</controlfield>
+<controlfield tag="008">940209s1952    ua            000 0 arard</controlfield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG90-B51389</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">GLIS008475255</subfield>
+<subfield code="a">(OCoLC)29771969</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">NNU</subfield>
-<subfield code="c">NNU</subfield>
+<subfield code="a">CLE</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">CLE</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">NNU</subfield>
 </datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="i">12/13/90 CT</subfield>
+<datafield tag="050" ind1=" " ind2="4">
+<subfield code="a">PJ7828.K52</subfield>
+<subfield code="b">A695</subfield>
+</datafield>
+<datafield tag="082" ind1=" " ind2="4">
+<subfield code="a">892.72</subfield>
+<subfield code="b">877</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Ḥakīm, Tawfīq.</subfield>
+<subfield code="6">880-01</subfield>
+<subfield code="a">Ḥakīm, Tawfīq.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
+<subfield code="6">880-02</subfield>
 <subfield code="a">Ahl al-kahf /</subfield>
-<subfield code="c">Tawfīq Ḥakīm.</subfield>
+<subfield code="c">Tawfīq Ḥakīm.</subfield>
 </datafield>
 <datafield tag="250" ind1=" " ind2=" ">
-<subfield code="a">al-Ṭabʻah 6.</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">al-Ṭabʻah 6.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">[Cairo] :</subfield>
-<subfield code="b">Maktabat al-Ādāb,</subfield>
-<subfield code="c">[195-?]</subfield>
+<subfield code="6">880-04</subfield>
+<subfield code="a">[al-Qāhirah] :</subfield>
+<subfield code="b">Maktabat al-Ādāb,</subfield>
+<subfield code="c">1952.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">179 p. ;</subfield>
-<subfield code="c">22 cm.</subfield>
+<subfield code="a">179 pages ;</subfield>
+<subfield code="c">20 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="500" ind1=" " ind2=" ">
 <subfield code="a">A play.</subfield>
 </datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">حكيم، توفيق.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">245-02/</subfield>
+<subfield code="a">اهل الكهف /</subfield>
+<subfield code="c">توفيق حكيم.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">250-03/</subfield>
+<subfield code="a">الطبعة 6.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-04/</subfield>
+<subfield code="a">[القاهرة] :</subfield>
+<subfield code="b">مكتبة الاداب،</subfield>
+<subfield code="c">1952.</subfield>
+</datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">PJ7828.K52</subfield>
-<subfield code="b">A695 1950x</subfield>
-<subfield code="i">12/13/90 C</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1</subfield>
-<subfield code="i">12/13/90 C</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">12/13/90</subfield>
-<subfield code="t">c</subfield>
-<subfield code="s">9114</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="d">12/13/90</subfield>
-<subfield code="c">MG</subfield>
-<subfield code="b">MG</subfield>
-<subfield code="i">901213</subfield>
-<subfield code="l">NYUG</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
