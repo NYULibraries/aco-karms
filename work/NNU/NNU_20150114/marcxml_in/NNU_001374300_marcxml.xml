@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200289 a 4500</leader>
+<leader>00000nam a2200289 a 4500</leader>
 <controlfield tag="001">001374300</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010172917.0</controlfield>
+<controlfield tag="005">20150118143559.0</controlfield>
 <controlfield tag="008">980416s1920    le            000 0 ara</controlfield>
 <datafield tag="010" ind1=" " ind2=" ">
 <subfield code="a">68004668</subfield>
@@ -21,17 +21,17 @@
 <subfield code="d">CStRLIN</subfield>
 <subfield code="d">NNU</subfield>
 </datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
+<datafield tag="050" ind1=" " ind2="4">
 <subfield code="a">PJ7643</subfield>
 <subfield code="b">.A1 1920</subfield>
 </datafield>
+<datafield tag="066" ind1=" " ind2=" ">
+<subfield code="c">(3</subfield>
+</datafield>
 <datafield tag="100" ind1="0" ind2=" ">
-<subfield code="a">Mufaḍḍal ibn Muḥammad al-Ḍabbī,</subfield>
-<subfield code="d">8th cent.</subfield>
 <subfield code="6">880-01</subfield>
+<subfield code="a">Mufaḍḍal ibn Muḥammad al-Ḍabbī,</subfield>
+<subfield code="d">active 8th century.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
 <subfield code="6">880-02</subfield>
@@ -39,11 +39,16 @@
 <subfield code="b">wa-hiya nukhbah min qaṣāʼid al-shuʻarāʼ al-muqallīn fī al-Jāhilīyah wa-awāʼil al-Islām /</subfield>
 <subfield code="c">ihktārahā Abū al-ʻAbbās al-Mufaḍḍal ibn Muḥammad al-Dabbī ; maʻa sharḥ wāfir li-Abī Muḥammad al-Qāsim ibn Muḥammad ibn Bashār al-Anbārī ; ʻuníyá bi-ṭabʻih wa-muqābalat naskhih wa-tadhyīlih bi-ḥawāshin wa-riwāyāt li-ʻiddat lughawiyyīn wa-ʻulamāʼ Kārilūs Yaʻqūb Lāyil.</subfield>
 </datafield>
+<datafield tag="246" ind1="3" ind2="0">
+<subfield code="6">880-03</subfield>
+<subfield code="a">Mufaḍḍaliyāt</subfield>
+</datafield>
 <datafield tag="246" ind1="3" ind2=" ">
+<subfield code="6">880-03</subfield>
 <subfield code="a">Mufaḍḍalīyāt</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
-<subfield code="6">880-03</subfield>
+<subfield code="6">880-04</subfield>
 <subfield code="a">Bayrūt :</subfield>
 <subfield code="b">Maṭbaʻat al-Ābāʼ al-Yasūʻiyyīn,</subfield>
 <subfield code="c">1920.</subfield>
@@ -65,35 +70,32 @@
 </datafield>
 <datafield tag="880" ind1="0" ind2=" ">
 <subfield code="6">100-01/</subfield>
-<subfield code="a">مفضل بن محمد الضبي.</subfield>
+<subfield code="a">مفضل بن محمد الضبي،</subfield>
+<subfield code="d">active 8th century.</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2="0">
 <subfield code="6">245-02/</subfield>
 <subfield code="a">ديوان المفضليات :</subfield>
-<subfield code="b">وهي نخبة من قصائد الشعراء المقلين في الجاهلية واوائل الاسلام /</subfield>
+<subfield code="b">وهي نخبة من قصائد الشعراء المقلين في الجاهلية واوائل الإسلام /</subfield>
 <subfield code="c">اختارها أبو العباس المفضل بن محمد الضبي ؛ مع شرح وافر لأبي محمد القاسم بن محمد بن بشار الأنباري ؛ عنيى بطبعه ومقابلة نسخه وتذييله بحواشن وروايات لعدة لغوتين وعلماز كارلوس يعقوب لايل.</subfield>
 </datafield>
+<datafield tag="880" ind1="3" ind2="0">
+<subfield code="6">246-03/</subfield>
+<subfield code="a">مفضليات</subfield>
+</datafield>
 <datafield tag="880" ind1=" " ind2=" ">
-<subfield code="6">260-03/</subfield>
+<subfield code="6">260-04/</subfield>
 <subfield code="a">بيروت :</subfield>
 <subfield code="b">مطبعة الآباء اليسوعيين،</subfield>
 <subfield code="c">١٩٢٠.</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2=" ">
 <subfield code="6">700-04/</subfield>
-<subfield code="a">ابن الأنباري، محمد بن القاسم.</subfield>
+<subfield code="a">ابن الأنباري، محمد بن القاسم،</subfield>
+<subfield code="d">885-940?</subfield>
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">19980416</subfield>
-<subfield code="d">19980416</subfield>
-<subfield code="d">20021030</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">1</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">p</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>

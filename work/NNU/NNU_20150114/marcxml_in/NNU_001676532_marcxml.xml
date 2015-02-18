@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     cam a2200205ua 4500</leader>
+<leader>00000cam a2200205ua 4500</leader>
 <controlfield tag="001">001676532</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20001218185428.0</controlfield>
+<controlfield tag="005">20150127214133.0</controlfield>
 <controlfield tag="008">840411m18979999le            000 0 araod</controlfield>
 <datafield tag="035" ind1="9" ind2=" ">
 <subfield code="a">NYUb12219887</subfield>
@@ -18,14 +18,18 @@
 <datafield tag="100" ind1="1" ind2=" ">
 <subfield code="a">Cheikho, Louis,</subfield>
 <subfield code="d">1859-1927</subfield>
+<subfield code="6">880-01</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
+<subfield code="6">880-02</subfield>
 <subfield code="a">Riyāḍ al-adab fī marāthī shawāʻir al-ʻArab /</subfield>
 <subfield code="c">Jamaʻahu wa-ḍabaṭahu wa-ʻallaqa ḥawāshih wa-waqafa ʻalá ṭabʻihi Lūwīs Shaykhū al-Yasūʻī.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
+<subfield code="6">880-03</subfield>
 <subfield code="a">Bayrūt :</subfield>
 <subfield code="b">al-Maṭbaʻah al-Kāthūlīkīyah.</subfield>
+<subfield code="c">1897-</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
 <subfield code="a">v. ;</subfield>
@@ -34,24 +38,24 @@
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Arabic poetry.</subfield>
 </datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">شيخو، لويس،</subfield>
+<subfield code="d">1859-1927.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">245-02/</subfield>
+<subfield code="a">رياض الأدب في مراثي شواعر العرب /</subfield>
+<subfield code="c">جمعه و ضبطه و علق حواشيه و وقف على طبعه لويس شيخو اليسوعي.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-03/</subfield>
+<subfield code="a">بيروت :</subfield>
+<subfield code="b">المطبعة الكاثوليكية،</subfield>
+<subfield code="c">1897-</subfield>
+</datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">PJ7521</subfield>
-<subfield code="b">.C5</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1:v.1</subfield>
-<subfield code="r">010906512</subfield>
-</datafield>
-<datafield tag="987" ind1=" " ind2=" ">
-<subfield code="a">match points : missing?</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="s">9114</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
