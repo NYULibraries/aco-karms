@@ -1,89 +1,17 @@
-Records MISSING KEY 880 script fields - batch NNU_20140527
---  At least one of the key fields is missing subfield $6,
-    so the corresponding 880 script field is missing or unlinked
---  Key fields:
-    100, 110, 111, 130
-    240, 245, 246, 250, 260, 264
-    440, 490
-    700, 710, 711, 730
-    800, 810, 811, 830
-Report produced: 2015-01-16 18:31:53.975254
----------------------------------------------------------------------
-FILE: NNU_20140527_1/NNU_20140527_1_orig_no_oclc_nums.mrc
----------------------------------------------------------------------
-Institution ID: NNU_001597538
-   orig_rec_035 num: =035  9\$aNYUb12112450
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG00-B839
-Record 999:  NNU_001597538 
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Title on p. [4] of cover: Diwan Ibn al-Dahan al-Mousli, Abdullah ibn Asaʼad Abu al-Faraj Muhdhab al-Din
-040 $e field: [none]
----------------------------------------------------------------------
-Institution ID: NNU_001685356
-   orig_rec_035 num: =035  9\$aNYUb12228794
-   orig_rec_035 num: =035  \\$a(NNU)NYUb12228794
-Record 999:  NNU_001685356 
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Dictionary of the Kuwaiti vocabulary in cartography, dialects, and social environment
-040 $e field: [none]
----------------------------------------------------------------------
-Institution ID: NNU_001685463
-   orig_rec_035 num: =035  9\$aNYUb12228902
-   orig_rec_035 num: =035  \\$a(NNU)NYUb12228902
-Record 999:  NNU_001685463 
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Évolution de la poésie érotique
-040 $e field: [none]
----------------------------------------------------------------------
-Institution ID: NNU_001685590
-   orig_rec_035 num: =035  9\$aNYUb12229029
-   orig_rec_035 num: =035  \\$a(NNU)NYUb12229029
-Record 999:  NNU_001685590 
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Rūznāmajah
-   246 - Popular proverbs from al-Mutanabbi's poetry, & the Memoranda
-040 $e field: [none]
----------------------------------------------------------------------
-Institution ID: NNU_001685861
-   orig_rec_035 num: =035  9\$aNYUb12229302
-   orig_rec_035 num: =035  \\$a(CStRLIN)CTYN00-B3024
-Record 999:  NNU_001685861 
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Diwan Abdol Baqi al-Omari
-   246 - Teriaq al-Faruqi
-040 $e field: [none]
----------------------------------------------------------------------
-Institution ID: NNU_001696911
-   orig_rec_035 num: =035  9\$aNYUb12243948
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG01-B388
-Record 999:  NNU_001696911 
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Diwan de Nicholas at-Turk
-040 $e field: [none]
----------------------------------------------------------------------
-Institution ID: NNU_001696939
-   orig_rec_035 num: =035  9\$aNYUb12243977
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG01-B428
-Record 999:  NNU_001696939 
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Title on added t. p.: Millénaire d'Avicenne : congrès de Bagdad, 20-28 mars 1952
-   246 - Millénaire d'Avicenne
-   710 - League of Arab States. Idārah al-Thaqāfīyah.
-040 $e field: [none]
----------------------------------------------------------------------
+ALL Records containing any type of error - batch NNU_20140527
+--  Each of these records have one or more of the following errors:
+    --  no 880 fields
+    --  missing a key 880 field
+    --  have an unlinked 880 field
+    --  have a series heading error in the 490/800/810/811/830 fields
+    --  have one of the various miscellaneous errors, marked with ERROR-MISC
+Report produced: 2015-02-22 22:31:17.728426
 ---------------------------------------------------------------------
 FILE: NNU_20140527_1/NNU_20140527_1_orig_with_oclc_nums.mrc
 ---------------------------------------------------------------------
 Institution ID: NNU_000751830
    orig_rec_035 num: =035  \\$a(OCoLC)234447222
-Record 999:  NNU_000751830 
+Record 999:  NNU_000751830
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - Poems
@@ -92,7 +20,7 @@ RDA fields: YES
 ---------------------------------------------------------------------
 Institution ID: NNU_001628357
    orig_rec_035 num: =035  \\$a(OCoLC)476914554
-Record 999:  NNU_001628357 
+Record 999:  NNU_001628357
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Lexique français-arabe renfermant certains termes techniques relatifs aux arts figurés
@@ -100,7 +28,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 ---------------------------------------------------------------------
 Institution ID: NNU_001676621
    orig_rec_035 num: =035  \\$a(OCoLC)33110169
-Record 999:  NNU_001676621 
+Record 999:  NNU_001676621
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    260 - 1899.
@@ -109,7 +37,7 @@ RDA fields: YES
 ---------------------------------------------------------------------
 Institution ID: NNU_001676900
    orig_rec_035 num: =035  \\$a(OCoLC)9416911
-Record 999:  NNU_001676900 
+Record 999:  NNU_001676900
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Book of the flower
@@ -121,7 +49,7 @@ RDA fields: YES
 ---------------------------------------------------------------------
 Institution ID: NNU_001677026
    orig_rec_035 num: =035  \\$a(OCoLC)38869068
-Record 999:  NNU_001677026 
+Record 999:  NNU_001677026
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - De anima. Arabic
@@ -129,7 +57,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 ---------------------------------------------------------------------
 Institution ID: NNU_001679743
    orig_rec_035 num: =035  \\$a(OCoLC)30941149
-Record 999:  NNU_001679743 
+Record 999:  NNU_001679743
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Harîrî's Durrat-al-ġawwâṣ
@@ -138,7 +66,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 ---------------------------------------------------------------------
 Institution ID: NNU_001679877
    orig_rec_035 num: =035  \\$a(OCoLC)21614836$z(OCoLC)223225383
-Record 999:  NNU_001679877 
+Record 999:  NNU_001679877
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Title on p. [4] of cover: Sharh tuhfat al-khalil fi al-arud wa al-qafiya
@@ -147,7 +75,7 @@ RDA fields: YES
 ---------------------------------------------------------------------
 Institution ID: NNU_001679997
    orig_rec_035 num: =035  \\$a(OCoLC)22535719
-Record 999:  NNU_001679997 
+Record 999:  NNU_001679997
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Arabic philologist; Anastase-Marie the Carmalite (1866-1947) : his life and writings
@@ -156,7 +84,7 @@ RDA fields: YES
 ---------------------------------------------------------------------
 Institution ID: NNU_001680071
    orig_rec_035 num: =035  \\$a(OCoLC)18484128$z(OCoLC)23486066
-Record 999:  NNU_001680071 
+Record 999:  NNU_001680071
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Diwan al-Mutanabbī, with the commentary by Abi-l-Hasan Ali ibn Ahmad al-Wahidi al-Naisaburi
@@ -166,7 +94,7 @@ RDA fields: YES
 ---------------------------------------------------------------------
 Institution ID: NNU_001680282
    orig_rec_035 num: =035  \\$a(OCoLC)23484735$z(OCoLC)18056151
-Record 999:  NNU_001680282 
+Record 999:  NNU_001680282
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Diwan Maskin al-Darimi
@@ -174,7 +102,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 ---------------------------------------------------------------------
 Institution ID: NNU_001680502
    orig_rec_035 num: =035  \\$a(OCoLC)427647121
-Record 999:  NNU_001680502 
+Record 999:  NNU_001680502
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Diwan Abu Hayyan
@@ -182,7 +110,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 ---------------------------------------------------------------------
 Institution ID: NNU_001680638
    orig_rec_035 num: =035  \\$a(OCoLC)23498269
-Record 999:  NNU_001680638 
+Record 999:  NNU_001680638
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Malentendus : contes
@@ -191,7 +119,7 @@ RDA fields: YES
 ---------------------------------------------------------------------
 Institution ID: NNU_001680758
    orig_rec_035 num: =035  \\$a(OCoLC)19743303
-Record 999:  NNU_001680758 
+Record 999:  NNU_001680758
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Ahmad ibn Faris, his life, poems, works
@@ -200,7 +128,7 @@ RDA fields: YES
 ---------------------------------------------------------------------
 Institution ID: NNU_001683087
    orig_rec_035 num: =035  \\$a(OCoLC)13884137
-Record 999:  NNU_001683087 
+Record 999:  NNU_001683087
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    700 - Seligsohn, Max, 1865-
@@ -209,7 +137,7 @@ RDA fields: YES
 ---------------------------------------------------------------------
 Institution ID: NNU_001685574
    orig_rec_035 num: =035  \\$a(OCoLC)10643173
-Record 999:  NNU_001685574 
+Record 999:  NNU_001685574
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Jahiz and Abbasid city life
@@ -218,7 +146,7 @@ RDA fields: YES
 ---------------------------------------------------------------------
 Institution ID: NNU_001685764
    orig_rec_035 num: =035  \\$a(OCoLC)862567598
-Record 999:  NNU_001685764 
+Record 999:  NNU_001685764
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - ʻAlqama ben ʻAbada dīwān
@@ -228,7 +156,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 ---------------------------------------------------------------------
 Institution ID: NNU_001686826
    orig_rec_035 num: =035  \\$a(OCoLC)60506124
-Record 999:  NNU_001686826 
+Record 999:  NNU_001686826
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - ʻOrwa ben el-Ward, dîwân accompagné du commentaire d'Ibn es Sikkît
@@ -237,7 +165,7 @@ RDA fields: YES
 ---------------------------------------------------------------------
 Institution ID: NNU_001699460
    orig_rec_035 num: =035  \\$a(OCoLC)29797242
-Record 999:  NNU_001699460 
+Record 999:  NNU_001699460
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    830 - Publications de l'Université de Tehran ; 440.
@@ -246,7 +174,7 @@ RDA fields: YES
 ---------------------------------------------------------------------
 Institution ID: NNU_001700956
    orig_rec_035 num: =035  \\$a(OCoLC)122873399
-Record 999:  NNU_001700956 
+Record 999:  NNU_001700956
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Histoire de Djoûdhar le pecheur et du sac enchanté
@@ -256,7 +184,7 @@ RDA fields: YES
 ---------------------------------------------------------------------
 Institution ID: NNU_001701317
    orig_rec_035 num: =035  \\$a(OCoLC)54306620
-Record 999:  NNU_001701317 
+Record 999:  NNU_001701317
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Ibn ʻAbd Rabbihi and his ʻiqd
@@ -264,7 +192,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 ---------------------------------------------------------------------
 Institution ID: NNU_001845372
    orig_rec_035 num: =035  \\$a(OCoLC)81746346
-Record 999:  NNU_001845372 
+Record 999:  NNU_001845372
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - Works. Selections. 1908
@@ -273,7 +201,7 @@ RDA fields: YES
 ---------------------------------------------------------------------
 Institution ID: NNU_001949176
    orig_rec_035 num: =035  \\$a(OCoLC)24928536
-Record 999:  NNU_001949176 
+Record 999:  NNU_001949176
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Ibn al-ʻArabī's al-Tajalliyāt al-ilāhiyya
@@ -281,7 +209,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 ---------------------------------------------------------------------
 Institution ID: NNU_002046845
    orig_rec_035 num: =035  \\$a(OCoLC)32972363$z(OCoLC)8717375$z(OCoLC)23488935
-Record 999:  NNU_002046845 
+Record 999:  NNU_002046845
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Aperçu sur la biographie d'Avicenne
@@ -292,7 +220,7 @@ RDA fields: YES
 ---------------------------------------------------------------------
 Institution ID: NNU_002049858
    orig_rec_035 num: =035  \\$a(OCoLC)81757887
-Record 999:  NNU_002049858 
+Record 999:  NNU_002049858
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    700 - Nöldeke, Theodor, 1836-1930. Zu Kalīla waDimna.
@@ -301,7 +229,7 @@ RDA fields: YES
 ---------------------------------------------------------------------
 Institution ID: NNU_002177858
    orig_rec_035 num: =035  \\$a(OCoLC)31742266
-Record 999:  NNU_002177858 
+Record 999:  NNU_002177858
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Sammlungen alter arabischer Dichter
@@ -312,7 +240,7 @@ RDA fields: YES
 ---------------------------------------------------------------------
 Institution ID: NNU_002287402
    orig_rec_035 num: =035  \\$a(OCoLC)813613461
-Record 999:  NNU_002287402 
+Record 999:  NNU_002287402
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Kitāb at-tarbiʻ wa-t-tadwīr de Ǧāḥiẓ
@@ -321,7 +249,7 @@ RDA fields: YES
 ---------------------------------------------------------------------
 Institution ID: NNU_002818856
    orig_rec_035 num: =035  \\$a(OCoLC)32427542$z(OCoLC)241376094$z(OCoLC)857745091
-Record 999:  NNU_002818856 
+Record 999:  NNU_002818856
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Salih Abdul Quddos al-Basri
@@ -330,7 +258,7 @@ RDA fields: YES
 ---------------------------------------------------------------------
 Institution ID: NNU_002818882
    orig_rec_035 num: =035  \\$a(OCoLC)22840027
-Record 999:  NNU_002818882 
+Record 999:  NNU_002818882
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - ʻOumâra du Yémen : sa vie et son æuvre
@@ -342,7 +270,7 @@ RDA fields: YES
 ---------------------------------------------------------------------
 Institution ID: NNU_002854078
    orig_rec_035 num: =035  \\$a(OCoLC)60506479
-Record 999:  NNU_002854078 
+Record 999:  NNU_002854078
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Diwan al-Argi
@@ -352,12 +280,82 @@ RDA fields: YES
 ---------------------------------------------------------------------
 Institution ID: NNU_002959061
    orig_rec_035 num: =035  \\$a(OCoLC)6823125$z(OCoLC)264191205
-Record 999:  NNU_002959061 
+Record 999:  NNU_002959061
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Metathesis in the Arabic language
 040 $e field: [none]
 RDA fields: YES
 ---------------------------------------------------------------------
-TOTAL Number of Records missing key 880 script fields: 37
+---------------------------------------------------------------------
+FILE: NNU_20140527_1/NNU_20140527_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNU_001597538
+   orig_rec_035 num: =035  9\$aNYUb12112450
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG00-B839
+Record 999:  NNU_001597538
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Title on p. [4] of cover: Diwan Ibn al-Dahan al-Mousli, Abdullah ibn Asaʼad Abu al-Faraj Muhdhab al-Din
+040 $e field: [none]
+---------------------------------------------------------------------
+Institution ID: NNU_001685356
+   orig_rec_035 num: =035  9\$aNYUb12228794
+   orig_rec_035 num: =035  \\$a(NNU)NYUb12228794
+Record 999:  NNU_001685356
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Dictionary of the Kuwaiti vocabulary in cartography, dialects, and social environment
+040 $e field: [none]
+---------------------------------------------------------------------
+Institution ID: NNU_001685463
+   orig_rec_035 num: =035  9\$aNYUb12228902
+   orig_rec_035 num: =035  \\$a(NNU)NYUb12228902
+Record 999:  NNU_001685463
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Évolution de la poésie érotique
+040 $e field: [none]
+---------------------------------------------------------------------
+Institution ID: NNU_001685590
+   orig_rec_035 num: =035  9\$aNYUb12229029
+   orig_rec_035 num: =035  \\$a(NNU)NYUb12229029
+Record 999:  NNU_001685590
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Rūznāmajah
+   246 - Popular proverbs from al-Mutanabbi's poetry, & the Memoranda
+040 $e field: [none]
+---------------------------------------------------------------------
+Institution ID: NNU_001685861
+   orig_rec_035 num: =035  9\$aNYUb12229302
+   orig_rec_035 num: =035  \\$a(CStRLIN)CTYN00-B3024
+Record 999:  NNU_001685861
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Diwan Abdol Baqi al-Omari
+   246 - Teriaq al-Faruqi
+040 $e field: [none]
+---------------------------------------------------------------------
+Institution ID: NNU_001696911
+   orig_rec_035 num: =035  9\$aNYUb12243948
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG01-B388
+Record 999:  NNU_001696911
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Diwan de Nicholas at-Turk
+040 $e field: [none]
+---------------------------------------------------------------------
+Institution ID: NNU_001696939
+   orig_rec_035 num: =035  9\$aNYUb12243977
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG01-B428
+Record 999:  NNU_001696939
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Title on added t. p.: Millénaire d'Avicenne : congrès de Bagdad, 20-28 mars 1952
+   246 - Millénaire d'Avicenne
+   710 - League of Arab States. Idārah al-Thaqāfīyah.
+040 $e field: [none]
+---------------------------------------------------------------------
+TOTAL Number of Records containing any type of error: 37
 
