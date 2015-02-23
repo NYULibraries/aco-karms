@@ -101,7 +101,10 @@ def process_001_003_fields(rec_orig, rec, oclc_nums_bsns_all):
 	
 	rec_999s = rec.get_fields('999')
 	if len(rec_999s) == 0:
-		new_999_nums = Field(tag='999', indicators=[' ',' '], subfields=['i',inst_id,'o',oclc_id])
+		if oclc_id == '':
+			new_999_nums = Field(tag='999', indicators=[' ',' '], subfields=['i',inst_id])
+		else:
+			new_999_nums = Field(tag='999', indicators=[' ',' '], subfields=['i',inst_id,'o',oclc_id])
 		rec_orig.add_ordered_field(new_999_nums)
 		rec.add_ordered_field(new_999_nums)
 		msg += 'Record 999:  '+new_999_nums.value()+'\n'
@@ -843,7 +846,7 @@ def insert_url(rec, handles):
 	handle_match = False
 	
 	for line in handles:
-		handle_data = line.split(",")
+		handle_data = line.split(',')
 		handle_003 = handle_data[0]
 		handle_001 = handle_data[1]
 		handle = handle_data[2]
@@ -869,6 +872,42 @@ def insert_url(rec, handles):
 	if not handle_match:
 		msg += 'ERROR-MISC:  No handles in CSV file matched the record 003/001\n'
 	return (rec, msg)
+
+######################################################################
+##  Method:  insert_src_entities()
+######################################################################
+def insert_src_entities(rec, bsn_se_lines):
+	msg = ''
+	rec_003 = rec.get_fields('003')[0].value()
+	rec_001 = rec.get_fields('001')[0].value()
+	se_match = False
+	
+	inst_regex = re.compile('^[^_]*')	# regular expression for matching leading characters up to the first underscore
+	for line in bsn_se_lines:
+		bsn_se_data = line.split(',')
+		se_001 = bsn_se_data[0]
+		se_IDs = bsn_se_data[1]
+		se_inst = re.findall(inst_regex,se_IDs)[0]
+		if se_inst == 'nyu':
+			se_003 = 'NNU'
+			# add leading zeros to create a 9-digit BSN for NYU records
+			se_001 = "{0:0>9}".format(se_001)
+		if se_inst == 'columbia':
+			se_003 = 'NNC'
+		if se_inst == 'cornell':
+			se_003 = 'NIC'
+		if rec_003 == se_003 and rec_001 == se_001:
+			se_match = True
+			se_IDs_list = se_IDs.split('|')
+			for se_ID in se_IDs_list:
+				se_ID = se_ID.strip()
+				rec.get_fields('999')[0].add_subfield('s', se_ID)
+
+	if not se_match:
+		msg += 'ERROR-MISC:  No BSNs in bsn-se-map.csv file matched the record 003/001\n'
+	
+	return (rec, msg)
+			
 
 ######################################################################
 ##  Method process_rec()
@@ -957,6 +996,11 @@ def process_rec(rec, type):
 		indiv_rec_analysis_msg += msg_9
 		
 		################################################
+		# Match the BSNs and insert the corresponding SE (source entity) book IDs into the 999 field
+		rec, msg_10 = insert_src_entities(rec, aco_globals.bsn_se_lines)
+		indiv_rec_analysis_msg += msg_10
+		
+		################################################
 		# Change LDR values
 		ldr = list(rec.leader)
 		ldr[5] = 'n'
@@ -1033,8 +1077,8 @@ def process_rec(rec, type):
 			aco_globals.marcRecsOut_errors_all.write(rec_orig)
 			aco_globals.recs_errors_all_txt.write(indiv_rec_analysis_msg)
 		else:
-			aco_globals.marcRecsOut_final_rnd.write(rec)
-			aco_globals.recs_final_rnd_count += 1
+			aco_globals.marcRecsOut_final_subset.write(rec)
+			aco_globals.recs_final_this_subset_count += 1
 		
 		aco_globals.marcRecsOut_final_all.write(rec)
 				
