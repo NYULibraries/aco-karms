@@ -898,10 +898,15 @@ def insert_src_entities(rec, bsn_se_lines):
 			se_003 = 'NIC'
 		if rec_003 == se_003 and rec_001 == se_001:
 			se_match = True
+			msg += 'Source entities (book IDs): '
 			se_IDs_list = se_IDs.split('|')
 			for se_ID in se_IDs_list:
 				se_ID = se_ID.strip()
 				rec.get_fields('999')[0].add_subfield('s', se_ID)
+				msg += se_ID + ', '
+			msg = msg.rstrip(', ')
+			msg += '\n'
+				
 
 	if not se_match:
 		msg += 'ERROR-MISC:  No BSNs in bsn-se-map.csv file matched the record 003/001\n'
