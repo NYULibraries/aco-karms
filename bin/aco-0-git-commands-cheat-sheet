@@ -42,11 +42,11 @@ ACO git commands:
 	use an asterisk for truncation:
 		git checkout -- work//NNC/NNC_20140805*
 --  commit the changes to the tracked files
-		git commit -am 'Process records - [inst.name] - [inst.code]_[batch date] - [Jira Tkt #] - [STATUS]
+		git commit -am 'Process updates - [inst.name] - [inst.code]_[batch date] - [Jira Tkt #] - [STATUS]
 	Examples:
-		git commit -am 'Process records - Columbia - NNC_20140805 - DLTSACO-45'
-		git commit -am 'Process records - NYU - NNU_20140527 - DLTSACO-32 - NEED REPULLED'
-		git commit -am 'Process records - Cornell - NIC_20141113 - DLTSACO-101 - FINAL SET'
+		git commit -am 'Process updates - Columbia - NNC_20140805 - DLTSACO-45'
+		git commit -am 'Process updates - NYU - NNU_20140527 - DLTSACO-32 - NEED REPULLED'
+		git commit -am 'Process updates - Cornell - NIC_20141113 - DLTSACO-101 - FINAL SET'
 	NOTE: the -a parameter signifies to include deleted files in the commit without having to separately run the "rm" command
 
 5)  Once all updates are finished for the batch and the final records are complete:
