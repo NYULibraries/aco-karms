@@ -37,6 +37,8 @@ ACO git commands:
 			git add work/NNC/NNC_20140805*
 --  use the following command to remove any untracked files and/or directories:
 		git clean -f -d
+	OR you can specify a particular directory:
+		git clean -f -d work/NNU/NNU_20140304
 --  use the following command to remove any tracked files and/or directories:
 		git checkout -- [file/directory]
 	use an asterisk for truncation:
@@ -51,6 +53,7 @@ ACO git commands:
 
 5)  Once all updates are finished for the batch and the final records are complete:
 --  push the feature branch to git:
+		git push origin [feature_branch_name]
 		git push origin [inst.code]_[batch date]
 		git push origin NNC_20140805
 		[enter your git username/password]
