@@ -65,6 +65,7 @@ ACO git commands:
 6)  After the Pull Request is completed:
 --  re-synch the master branch on the local clone with the git master branch (step 1 above)
 --  delete the feature branch on the local clone:
+		git branch -d [feature_branch_name]
 		git branch -d [inst.code]_[batch date]
 		git branch -d NNC_20140805
 	NOTE: you must *not* be active on the feature branch in order to be able to delete the feature branch
