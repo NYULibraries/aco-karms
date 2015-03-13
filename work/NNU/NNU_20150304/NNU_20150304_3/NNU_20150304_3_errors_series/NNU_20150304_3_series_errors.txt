@@ -1,0 +1,57 @@
+Records containing SERIES errors - batch NNU_20150304
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2015-03-13 14:32:31.542219
+---------------------------------------------------------------------
+FILE: NNU_20150304_1/NNU_20150304_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNU_001677144
+   orig_rec_035 num: =035  9\$aNYUb12220519
+   orig_rec_035 num: =035  \\$a(MH)MHBIW82925HU
+   orig_rec_035 num: =035  \\$a(OCoLC)16838911
+   orig_rec_035 num: =035  \\$a(CStRLIN)MAHGBIW82925-B
+Record 999:  NNU_001677144
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Silsilat al-makhṭūṭāt; al-Juzʼ 2/5
+040 $e field: [none]
+Source entities (book IDs): nyu_aco000441
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNU_20150304_1/NNU_20150304_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNU_001682907
+   orig_rec_035 num: =035  9\$aNYUb12226324
+   orig_rec_035 num: =035  \\$a(MiU)notisAFS4197
+   orig_rec_035 num: =035  \\$a(CStRLIN)MIUGAFS4197-B
+Record 999:  NNU_001682907
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Wizārat al-Thaqāfah wa-al-Irshād, Mudīrīyat al-Thaqāfah al-ʻĀmmah, Silsilat al-Kutub al-Ḥadīthah ; 23
+040 $e field: [none]
+Source entities (book IDs): nyu_aco000586
+---------------------------------------------------------------------
+Institution ID: NNU_001686026
+   orig_rec_035 num: =035  9\$aNYUb12229468
+   orig_rec_035 num: =035  \\$a(NNU)NYUb12229468
+Record 999:  NNU_001686026
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Silsilat al-thaqāfah al-shaʻbīyah ; 8
+040 $e field: [none]
+Source entities (book IDs): nyu_aco000585
+---------------------------------------------------------------------
+Institution ID: NNU_002657436
+   orig_rec_035 num: =035  9\$aNYUb10345429
+   orig_rec_035 num: =035  \\$aGLIS003454296
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG83-B16349
+Record 999:  NNU_002657436
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+040 $e field: [none]
+Source entities (book IDs): nyu_aco000599
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 4
+
