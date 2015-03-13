@@ -51,6 +51,7 @@ for filename in os.listdir(marcxml_dir):
 		if file_path[-3:]=='xml':
 			marc_xml_array = pymarc.parse_xml_to_array(file_path)
 			for rec in marc_xml_array:
+				rec = aco_functions.pad_008(rec)
 				marcRecsOut_orig_recs.write(rec)
 marcRecsOut_orig_recs.close()
 

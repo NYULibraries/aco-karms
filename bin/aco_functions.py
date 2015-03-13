@@ -10,6 +10,26 @@ from copy import deepcopy
 import aco_globals
 
 ######################################################################
+##  Method:  pad_008() - for NYU records, pads the 008 field to 40 chars
+##		fixing when blanks in bytes 38 and/or 39 are deleted when
+##		exported out of Aleph using URL template
+######################################################################
+def pad_008(rec):
+	rec_008_val = rec.get_fields('008')[0].value()
+	if len(rec_008_val) < 40:
+		pad_008_val = rec_008_val.ljust(40)
+		
+		# delete the existing 008 field from the original record
+		rec.remove_field(rec.get_fields('008')[0])
+		
+		# add new 008 field padded to 40 chars to the original record
+		new_008 = Field(tag='008', data=pad_008_val)
+		rec.add_ordered_field(new_008)
+		
+	return rec
+		
+
+######################################################################
 ##  Method:  strip_number()
 ######################################################################
 def strip_number(oclc_subfield):
