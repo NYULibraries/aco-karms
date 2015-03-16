@@ -1,0 +1,39 @@
+Records containing MISCELLANEOUS errors - batch NIC_20150206
+--  Each of these records contain at least one of the miscellaneous errors
+    recorded mostly for notice of validation errors or to identify programming issues
+--  List of possible miscellaneous errors:
+    --  the OCLC # in the OCLC batch record did not match on any OCLC #s in the original records
+    --  record contains multiple 999 fields
+    --  zero or multiple $6 subfields in 880s
+    --  record is missing an 040 field
+    --  record contains invalid replacement character (black diamond with question mark) - found in NYU records
+    --  code in the 003 does not match any of the partner institution codes
+    --  the 003/001 fields did not change from the OCLC # to the BSN during processing
+    --  the 003/001 fields in the handles.csv file did not match on any record in the batch
+    --  an 006 or 007 field is present in the original record (signifying an alternate format other than print)
+    --  record is missing a 245 title field, or has multiple 245 fields
+    --  a 245 $h GMD field is present in the original record (signifying an alternate format other than print)
+    --  the 245 $h GMD field was not added to a non-RDA e-version record during processing
+    --  the $6 subfield did not sort to the first position in the field - issue with NYU records
+Report produced: 2015-03-16 11:19:42.336268
+---------------------------------------------------------------------
+FILE: NIC_20150206_1/NIC_20150206_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NIC_1801260
+   orig_rec_035 num: =035  \\$a(NIC)notisAJK6340
+   orig_rec_035 num: =035  \\$a(OCoLC)13397434
+   orig_rec_035 num: =035  \\$a1801260
+Record 999:  NIC_1801260
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+020s: YES
+020a: 9771240056 (v. 4)
+020s: YES
+020a: 9771241346 (v. 8)
+Source entities (book IDs): cornell_aco000252:juz7, cornell_aco000253:juz8, cornell_aco000254:juz9, cornell_aco000255:juz10, cornell_aco000256:juz11
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NIC_20150206_1/NIC_20150206_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing miscellaneous errors: 1
+
