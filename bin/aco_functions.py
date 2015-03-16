@@ -133,7 +133,11 @@ def process_001_003_fields(rec_orig, rec, oclc_nums_bsns_all):
 		for rec_999 in rec_999s:
 			msg += '   '+rec_999+'\n'
 	elif len(rec_999s) == 1:
-		msg += 'Record 999:  '+rec_999s[0].value()+'\n'
+		new_999 = deepcopy(rec_999s[0])
+		for new_999e in new_999.get_subfields('e'):
+			# delete any existing subfield $e in the new 999 field
+			new_999.delete_subfield('e')
+		msg += 'Record 999:  '+new_999.value()+'\n'
 	
 	return (rec_orig, rec, oclc_id, inst_id, oclc_match, msg)
 
