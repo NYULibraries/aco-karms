@@ -1,0 +1,25 @@
+Records containing UNLINKED 880 script fields - batch NNC_20150116
+--  At least one 880 field has sequence number -00 in subfield $6,
+    meaning it is not linked to the corresponding parallel field
+Report produced: 2015-03-16 11:29:29.567188
+---------------------------------------------------------------------
+FILE: NNC_20150116_1/NNC_20150116_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNC_3074008
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm40972078
+   orig_rec_035 num: =035  \\$a(OCoLC)40972078
+   orig_rec_035 num: =035  \\$a(NNC)3074008
+Record 999:  NNC_3074008
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - Zayyāt, Aḥmad Ḥasan, 1885-1968.
+ERROR-880: Unlinked 880s: YES
+   880 $6 100-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: [none]
+Source entities (book IDs): columbia_aco000243
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNC_20150116_1/NNC_20150116_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing unlinked 880 script fields: 1
+
