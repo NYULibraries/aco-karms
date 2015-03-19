@@ -22,7 +22,7 @@ prev_processed = os.path.exists(aco_globals.batch_folder+'/'+batch_name+'_0_orig
 
 if prev_processed:
 	# Move previously processed ouput files to timestamped folder
-	prev_file_timestamp = time.strftime('%Y%m%d_%H%M%S', time.gmtime(os.path.getmtime(aco_globals.batch_folder+'/'+batch_name+'_0_orig_recs.mrc')))
+	prev_file_timestamp = time.strftime('%Y%m%d_%H%M%S', time.localtime(os.path.getmtime(aco_globals.batch_folder+'/'+batch_name+'_0_orig_recs.mrc')))
 	dest_folder = aco_globals.batch_folder+'/'+batch_name+'_1_'+prev_file_timestamp+'/'
 	try:
 		os.makedirs(dest_folder)
