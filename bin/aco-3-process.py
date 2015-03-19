@@ -83,7 +83,7 @@ except:
 
 if prev_processed:
 	# Move previously processed output files to timestamped folder
-	prev_file_timestamp = time.strftime('%Y%m%d_%H%M%S', time.gmtime(os.path.getmtime(aco_globals.batch_folder+'/'+batch_name+'_3/'+batch_name+'_3_final_recs.mrc')))
+	prev_file_timestamp = time.strftime('%Y%m%d_%H%M%S', time.localtime(os.path.getmtime(aco_globals.batch_folder+'/'+batch_name+'_3/'+batch_name+'_3_final_recs.mrc')))
 	dest_folder = aco_globals.batch_folder+'/'+batch_name+'_3_'+prev_file_timestamp+'/'
 	src_folder = aco_globals.batch_folder+'/'
 	src_3 = batch_name+'_3/'
