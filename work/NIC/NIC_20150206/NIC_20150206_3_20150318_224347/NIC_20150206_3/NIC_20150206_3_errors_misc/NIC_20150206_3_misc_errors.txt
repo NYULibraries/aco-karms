@@ -1,0 +1,39 @@
+Records containing MISCELLANEOUS errors - batch NIC_20150206
+--  Each of these records contain at least one of the miscellaneous errors
+    recorded mostly for notice of validation errors or to identify programming issues
+--  List of possible miscellaneous errors:
+    --  the OCLC # in the OCLC batch record did not match on any OCLC #s in the original records
+    --  record contains multiple 999 fields
+    --  zero or multiple $6 subfields in 880s
+    --  record is missing an 040 field
+    --  record contains invalid replacement character (black diamond with question mark) - found in NYU records
+    --  code in the 003 does not match any of the partner institution codes
+    --  the 003/001 fields did not change from the OCLC # to the BSN during processing
+    --  the 003/001 fields in the handles.csv file did not match on any record in the batch
+    --  an 006 or 007 field is present in the original record (signifying an alternate format other than print)
+    --  record is missing a 245 title field, or has multiple 245 fields
+    --  a 245 $h GMD field is present in the original record (signifying an alternate format other than print)
+    --  the 245 $h GMD field was not added to a non-RDA e-version record during processing
+    --  the $6 subfield did not sort to the first position in the field - issue with NYU records
+Report produced: 2015-03-16 11:21:12.886581
+---------------------------------------------------------------------
+FILE: NIC_20150206_2_oclc_recs_batch.mrc
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm26232343 
+   oclc_rec_035_num: (OCoLC)26232343
+Institution ID: NIC_4439433
+Record 999:  NIC_4439433 (OCoLC)ocm26232343
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Renaissance des lettres arabes
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: 007  hd bfa014baaa
+ERROR-MISC: 007  hd bfa014baba
+ERROR-MISC: 007  hd afa014baca
+Source entities (book IDs): cornell_aco000224
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NIC_20150206_1/NIC_20150206_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing miscellaneous errors: 1
+
