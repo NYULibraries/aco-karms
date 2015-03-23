@@ -5,16 +5,21 @@ ALL Records containing any type of error - batch NIC_20150206
     --  have an unlinked 880 field
     --  have a series heading error in the 490/800/810/811/830 fields
     --  have one of the various miscellaneous errors, marked with ERROR-MISC
-Report produced: 2015-03-16 11:21:12.886581
+Report produced: 2015-03-23 13:47:51.721690
 ---------------------------------------------------------------------
-FILE: NIC_20150206_2_oclc_recs_batch.mrc
+FILE: NIC_20150206_3/NIC_20150206_3_updates.mrc
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm26232343 
    oclc_rec_035_num: (OCoLC)26232343
 Institution ID: NIC_4439433
-Record 999:  NIC_4439433 (OCoLC)ocm26232343
-ERROR-880: 880 script fields: NO
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Renaissance des lettres arabes
+Record 999:  NIC_4439433 (OCoLC)ocm26232343 cornell_aco000224
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Kitab el asnam
+   246 - Livre des idoles
+   250 - 2. éd.
+   490 - Renaissance des lettres arabes
+   830 - Renaissance des lettres arabes.
 040 $e field: [none]
 RDA fields: YES
 ERROR-MISC: 007  hd bfa014baaa
@@ -26,7 +31,7 @@ OCLC ID: (OCoLC)ocm08001295
    oclc_rec_035_num: (OCoLC)8001295
    oclc_rec_035_num: (OCoLC)28771742
 Institution ID: NIC_4509091
-Record 999:  NIC_4509091 (OCoLC)ocm08001295
+Record 999:  NIC_4509091 (OCoLC)ocm08001295 cornell_aco000337
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Book of monasteries
@@ -34,193 +39,50 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): cornell_aco000337
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm15077557 
-   oclc_rec_035_num: (OCoLC)15077557
-Institution ID: NIC_1847327
-Record 999:  NIC_1847327 (OCoLC)ocm15077557
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000384:juz1, cornell_aco000383:juz2
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm10711000 
-   oclc_rec_035_num: (OCoLC)10711000
-Institution ID: NIC_21783
-Record 999:  NIC_21783 (OCoLC)ocm10711000
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - Ḥaydarābād al-Dakkan, al-Hind : Maṭbaʻah Majlis Dāʼirat al-Maʻārif al-ʻUthmānīyah, 1978-1980.
-   830 - Silsilah al-jadīdah min maṭbūʻāt Dāʼirat al-Maʻārif al-ʻUthmānīyah ; 5/j/7/1-5/j/7/4.
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000001:v.1, cornell_aco000002:v.2, cornell_aco000003:v.3, cornell_aco000004:v.4
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm18251165 
    oclc_rec_035_num: (OCoLC)18251165
 Institution ID: NIC_1676597
-Record 999:  NIC_1676597 (OCoLC)ocm18251165
-ERROR-880: 880 script fields: NO
+Record 999:  NIC_1676597 (OCoLC)ocm18251165 cornell_aco000309:jil.1
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Texte des textes
+   490 - Bibliothéque iranienne ; 22
+   700 - Corbin, Henry.
+   830 - Bibliothèque iranienne ; 22.
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): cornell_aco000309:jil.1
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm63215334 
-   oclc_rec_035_num: (OCoLC)63215334
-Institution ID: NIC_1015398
-Record 999:  NIC_1015398 (OCoLC)ocm63215334
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): cornell_aco000320
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm20541202 
-   oclc_rec_035_num: (OCoLC)20541202
-Institution ID: NIC_4405994
-Record 999:  NIC_4405994 (OCoLC)ocm20541202
-880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 246-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000220
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm08006162 
-   oclc_rec_035_num: (OCoLC)8006162
-Institution ID: NIC_4432714
-Record 999:  NIC_4432714 (OCoLC)ocm08006162
-880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 700-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000310
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm24939413 
-   oclc_rec_035_num: (OCoLC)24939413
-   oclc_rec_035_num: (OCoLC)25400475
-Institution ID: NIC_7070817
-Institution ID: NIC_7070817
-Record 999:  NIC_7070817 (OCoLC)ocm24939413
-ERROR-880: 880 script fields: NO
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Makhṭūṭāt Maktabat Ayat Allāh al-Marʻashī al-ʻĀmmah ; 8
-040 $e field: [none]
-Source entities (book IDs): cornell_aco000311
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm61737192 
-   oclc_rec_035_num: (OCoLC)61737192
-Institution ID: NIC_1681684
-Record 999:  NIC_1681684 (OCoLC)ocm61737192
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): cornell_aco000289:v.1
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm63979465 
-   oclc_rec_035_num: (OCoLC)63979465
-Institution ID: NIC_1681402
-Record 999:  NIC_1681402 (OCoLC)ocm63979465
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): cornell_aco000287
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm23498384 
    oclc_rec_035_num: (OCoLC)23498384
 Institution ID: NIC_1932513
-Record 999:  NIC_1932513 (OCoLC)ocm23498384
-ERROR-880: 880 script fields: NO
+Record 999:  NIC_1932513 (OCoLC)ocm23498384 cornell_aco000230
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - [1948]
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): cornell_aco000230
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm13541001 
-   oclc_rec_035_num: (OCoLC)13541001
-Institution ID: NIC_1879955
-Record 999:  NIC_1879955 (OCoLC)ocm13541001
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000345:muj.1, cornell_aco000346:muj.2, cornell_aco000347:muj.3, cornell_aco000348:muj.4, cornell_aco000349:muj.5, cornell_aco000350:muj.6, cornell_aco000351:muj.7, cornell_aco000352:muj.8, cornell_aco000353:muj.9, cornell_aco000354:muj.10, cornell_aco000355:muj.11, cornell_aco000356:muj.12, cornell_aco000357:muj.13, cornell_aco000358:muj.14, cornell_aco000359:muj.15, cornell_aco000360:muj.16-18;suppl.
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm28914677 
-   oclc_rec_035_num: (OCoLC)28914677
-Institution ID: NIC_4437722
-Record 999:  NIC_4437722 (OCoLC)ocm28914677
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - Miṣr : Muṣṭafá al-Bābī al-Ḥalabī, [19--?]
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000272:v.1-2, cornell_aco000273:v.3-4, cornell_aco000274:v.5-6, cornell_aco000275:v.7-8
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm17504241 
    oclc_rec_035_num: (OCoLC)17504241
    oclc_rec_035_num: (OCoLC)123270471
 Institution ID: NIC_4510848
-Record 999:  NIC_4510848 (OCoLC)ocm17504241
+Record 999:  NIC_4510848 (OCoLC)ocm17504241 cornell_aco000338
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    100 - Drower, E. S. (Ethel Stefana), Lady, 1879-1972.
-   700 - Badawī, Naʻīm, 1911-
-   700 - Rūmī, Ghaḍbān, 1905-
-ERROR-880: Unlinked 880s: YES
-   880 $6 700-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
-   880 $6 700-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): cornell_aco000338
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23496832 
-   oclc_rec_035_num: (OCoLC)23496832
-Institution ID: NIC_1968700
-Record 999:  NIC_1968700 (OCoLC)ocm23496832
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000339:juz1
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn185066115
-   oclc_rec_035_num: (OCoLC)185066115
-Institution ID: NIC_7070811
-Record 999:  NIC_7070811 (OCoLC)ocn185066115
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): cornell_aco000291
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm07743912 
-   oclc_rec_035_num: (OCoLC)7743912
-Institution ID: NIC_4432728
-Record 999:  NIC_4432728 (OCoLC)ocm07743912
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Alfain
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000312
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm16952389 
-   oclc_rec_035_num: (OCoLC)16952389
-Institution ID: NIC_4431184
-Record 999:  NIC_4431184 (OCoLC)ocm16952389
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000332
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm11813609 
    oclc_rec_035_num: (OCoLC)11813609
 Institution ID: NIC_1649493
-Record 999:  NIC_1649493 (OCoLC)ocm11813609
+Record 999:  NIC_1649493 (OCoLC)ocm11813609 cornell_aco000006:qism2
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    250 - al-Ṭabʻah 4.
-   260 - al-Qāhirah, J.M.ʻA : Dār al-Maʻārif, -1980.
-   490 - Dhakhāʼir al-ʻArab ; 1
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 490-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 020s: YES
@@ -229,43 +91,14 @@ RDA fields: YES
 020a: 9789777337939 (v. 2)
 Source entities (book IDs): cornell_aco000006:qism2
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm08223241 
-   oclc_rec_035_num: (OCoLC)8223241
-Institution ID: NIC_4431264
-Record 999:  NIC_4431264 (OCoLC)ocm08223241
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   490 - Maktabat al-ʻilmay al-ʻāmmah ; 14
-   830 - Maktabat al-ʻilmay al-ʻāmmah ; 14.
-ERROR-880: Unlinked 880s: YES
-   880 $6 490-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 830-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000334
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm80807276 
-   oclc_rec_035_num: (OCoLC)80807276
-Institution ID: NIC_5971146
-Record 999:  NIC_5971146 (OCoLC)ocm80807276
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): cornell_aco000290
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm20295274 
-   oclc_rec_035_num: (OCoLC)20295274
-Institution ID: NIC_1818637
-Record 999:  NIC_1818637 (OCoLC)ocm20295274
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000225:juz1, cornell_aco000226:juz2, cornell_aco000227:juz3, cornell_aco000228:juz4, cornell_aco000229:juz5
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocn321037157
    oclc_rec_035_num: (OCoLC)321037157
 Institution ID: NIC_6580756
-Record 999:  NIC_6580756 (OCoLC)ocn321037157
-ERROR-880: 880 script fields: NO
+Record 999:  NIC_6580756 (OCoLC)ocn321037157 cornell_aco000267
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - Wensinck, A. J. (Arent Jan), 1882-1939.
+   240 - Handbook of early Muhammadan tradition. Arabic
 040 $e field: [none]
 020s: YES
 020a: 9773002055
@@ -273,19 +106,10 @@ ERROR-880: 880 script fields: NO
 020a: 9789773002053
 Source entities (book IDs): cornell_aco000267
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm19125832 
-   oclc_rec_035_num: (OCoLC)19125832
-Institution ID: NIC_1789534
-Record 999:  NIC_1789534 (OCoLC)ocm19125832
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000314:juz1, cornell_aco000315:juz2, cornell_aco000316:juz3, cornell_aco000317:juz4, cornell_aco000318:juz5, cornell_aco000319:juz6
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm13884074 
    oclc_rec_035_num: (OCoLC)13884074
 Institution ID: NIC_4430528
-Record 999:  NIC_4430528 (OCoLC)ocm13884074
+Record 999:  NIC_4430528 (OCoLC)ocm13884074 cornell_aco000288
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Title on added t.p.: Kitab al-makharij fiʼl-hiyal
@@ -295,29 +119,10 @@ RDA fields: YES
 020s: YES
 Source entities (book IDs): cornell_aco000288
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm18173805 
-   oclc_rec_035_num: (OCoLC)18173805
-Institution ID: NIC_1882579
-Record 999:  NIC_1882579 (OCoLC)ocm18173805
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000236:juz1-2, cornell_aco000237:juz3-4, cornell_aco000238:juz5-6, cornell_aco000239:juz7-8, cornell_aco000240:juz9-10, cornell_aco000241:juz11-12, cornell_aco000242:juz13-14, cornell_aco000243:juz15-16, cornell_aco000244:juz17-18, cornell_aco000245:juz19-20, cornell_aco000246:juz21-22, cornell_aco000247:juz23-24, cornell_aco000248:juz25-26, cornell_aco000249:juz27-28, cornell_aco000250:juz29-30, cornell_aco000251:juz31-32
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm24928536 
-   oclc_rec_035_num: (OCoLC)24928536
-Institution ID: NIC_3670416
-Record 999:  NIC_3670416 (OCoLC)ocm24928536
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Ibn al-ʻArabī's al-Tajalliyāt al-ilāhiyya
-040 $e field: [none]
-Source entities (book IDs): cornell_aco000222
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm12443652 
    oclc_rec_035_num: (OCoLC)12443652
 Institution ID: NIC_6581260
-Record 999:  NIC_6581260 (OCoLC)ocm12443652
+Record 999:  NIC_6581260 (OCoLC)ocm12443652 cornell_aco000306
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - Ghunyat al-mutamallī
@@ -325,109 +130,19 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): cornell_aco000306
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm35672354 
-   oclc_rec_035_num: (OCoLC)35672354
-Institution ID: NIC_1880518
-Record 999:  NIC_1880518 (OCoLC)ocm35672354
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   240 - Mustamsik al-ʻurwah al-wuthqá
-   250 - al-Ṭabʻah 4.
-   260 - Qum, Īrān : Maktabah Āyat Allāh al-ʻUẓmá al-Marʻashī al-Najafī, 1404 [1984]
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000292:juz1, cornell_aco000293:juz2, cornell_aco000294:juz3, cornell_aco000295:juz4, cornell_aco000296:juz5, cornell_aco000297:juz6, cornell_aco000298:juz7, cornell_aco000299:juz8, cornell_aco000300:juz9, cornell_aco000301:juz10, cornell_aco000302:v.11, cornell_aco000303:juz12, cornell_aco000304:juz13, cornell_aco000305:juz14
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm04326088 
-   oclc_rec_035_num: (OCoLC)4326088
-Institution ID: NIC_6965909
-Record 999:  NIC_6965909 (OCoLC)ocm04326088
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000223
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm04325142 
-   oclc_rec_035_num: (OCoLC)4325142
-   oclc_rec_035_num: (OCoLC)5587781
-   oclc_rec_035_num: (OCoLC)43095145
-Institution ID: NIC_1930345
-Record 999:  NIC_1930345 (OCoLC)ocm04325142
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   100 - al-Zawāhirī, Fakhr al-Dīn al-Aḥmadī.
-   245 - al-Siyāsah wa-al-Azhar / min mudhakkirāt Shaykh al-Islām al-Ẓawāhirī.
-   260 - [Cairo] : Maṭbaʻat al-Iʻtimād, 1364, 1945.
-ERROR-880: Unlinked 880s: YES
-   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000308
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm44808603 
-   oclc_rec_035_num: (OCoLC)44808603
-Institution ID: NIC_6405535
-Record 999:  NIC_6405535 (OCoLC)ocm44808603
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   100 - Jalālī, Muḥammad Ḥusayn al-Ḥusaynī, 1936-1982.
-   260 - Ṭihrān : Markaz Intishārāt al-Aʻlāmī, 1973 (Ṭihrān : Maṭbaʻat al-Shams)
-ERROR-880: Unlinked 880s: YES
-   880 $6 100-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 246-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000321
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm23507775 
    oclc_rec_035_num: (OCoLC)23507775
 Institution ID: NIC_7491388
-Record 999:  NIC_7491388 (OCoLC)ocm23507775
+Record 999:  NIC_7491388 (OCoLC)ocm23507775 cornell_aco000207
 ERROR-880: 880 script fields: NO
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): cornell_aco000207
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm64026507 
-   oclc_rec_035_num: (OCoLC)64026507
-Institution ID: NIC_1935111
-Record 999:  NIC_1935111 (OCoLC)ocm64026507
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000333
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm30408473 
-   oclc_rec_035_num: (OCoLC)30408473
-Institution ID: NIC_7164986
-Record 999:  NIC_7164986 (OCoLC)ocm30408473
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Tārīkh al-Islām
-   260 - Ḥalab : Dār al-Waʻy, [19--?]
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000336
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm61589322 
-   oclc_rec_035_num: (OCoLC)61589322
-   oclc_rec_035_num: (OCoLC)18205212
-Institution ID: NIC_6749538
-Record 999:  NIC_6749538 (OCoLC)ocm61589322
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): cornell_aco000307
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm17028593 
    oclc_rec_035_num: (OCoLC)17028593
 Institution ID: NIC_1820070
-Record 999:  NIC_1820070 (OCoLC)ocm17028593
+Record 999:  NIC_1820070 (OCoLC)ocm17028593 cornell_aco000235:juz1 cornell_aco000234:juz2 cornell_aco000233:juz3 cornell_aco000232:juz4 cornell_aco000231:juz5
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Title on p. [4] of cover: Tafsir as'safee
@@ -439,7 +154,7 @@ OCLC ID: (OCoLC)ocm23491833
    oclc_rec_035_num: (OCoLC)23491833
    oclc_rec_035_num: (OCoLC)68139722
 Institution ID: NIC_4430527
-Record 999:  NIC_4430527 (OCoLC)ocm23491833
+Record 999:  NIC_4430527 (OCoLC)ocm23491833 cornell_aco000286
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Tabqat al-fouqaha, Moulana Tash Kopri Zada
@@ -450,7 +165,7 @@ Source entities (book IDs): cornell_aco000286
 OCLC ID: (OCoLC)ocm09181329 
    oclc_rec_035_num: (OCoLC)9181329
 Institution ID: NIC_4412713
-Record 999:  NIC_4412713 (OCoLC)ocm09181329
+Record 999:  NIC_4412713 (OCoLC)ocm09181329 cornell_aco000208:v.1
 880 script fields: YES
 ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
 ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Fī sabīl fahm al-falsafah al-Islāmīyah, Mushkilat al-Wujūd ; 1
@@ -458,39 +173,5 @@ ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Fī sabi
 RDA fields: YES
 Source entities (book IDs): cornell_aco000208:v.1
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm13397434 
-   oclc_rec_035_num: (OCoLC)13397434
-Institution ID: NIC_1801260
-Record 999:  NIC_1801260 (OCoLC)ocm13397434
-ERROR-880: 880 script fields: NO
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Kitāb al-yawm ; al-ʻadad 187, <202, 216, 229, 242, 256, 268, 293>
-040 $e field: [none]
-RDA fields: YES
-020s: YES
-020a: 9777327218 (v. 13)
-020s: YES
-020a: 9789777327213 (v. 13)
-Source entities (book IDs): cornell_aco000252:juz7, cornell_aco000253:juz8, cornell_aco000254:juz9, cornell_aco000255:juz10, cornell_aco000256:juz11
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn762077993
-   oclc_rec_035_num: (OCoLC)762077993
-Institution ID: NIC_7523043
-Record 999:  NIC_7523043 (OCoLC)ocn762077993
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): cornell_aco000322
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm64736210 
-   oclc_rec_035_num: (OCoLC)64736210
-Institution ID: NIC_1621570
-Record 999:  NIC_1621570 (OCoLC)ocm64736210
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): cornell_aco000005
----------------------------------------------------------------------
----------------------------------------------------------------------
-FILE: NIC_20150206_1/NIC_20150206_1_orig_no_oclc_nums.mrc
----------------------------------------------------------------------
-TOTAL Number of Records containing any type of error: 43
+TOTAL Number of Records containing any type of error: 13
 
