@@ -8,6 +8,7 @@ import datetime
 import string
 from copy import deepcopy
 import aco_globals
+import xml.dom.minidom
 
 ######################################################################
 ##  Method:  pad_008() - for NYU records, pads the 008 field to 40 chars
@@ -1124,12 +1125,14 @@ def process_rec(rec, type):
 		################################################
 		# Convert MARC to MARCXML and write out individual MARCXML record
 		rec_xml = pymarc.record_to_xml(rec, namespace=True)
+		pretty_rec_xml = xml.dom.minidom.parseString(rec_xml)
+		pretty_rec_xml = pretty_rec_xml.toprettyxml(encoding='utf-8')
 		try: os.makedirs(aco_globals.batch_folder+'/marcxml_out')
 		except OSError as exception:
 			if exception.errno != errno.EEXIST:
 				raise
 		indiv_marcRecOut_xml = codecs.open(aco_globals.batch_folder+'/marcxml_out/'+inst_id+'_marcxml.xml', 'w')
-		indiv_marcRecOut_xml.write(rec_xml)
+		indiv_marcRecOut_xml.write(pretty_rec_xml)
 		indiv_marcRecOut_xml.close()
 				
 		aco_globals.indiv_rec_analysis_msgs += indiv_rec_analysis_msg
