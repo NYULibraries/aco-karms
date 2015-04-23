@@ -1,75 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200241 a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001676358</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20001218185059.0</controlfield>
-<controlfield tag="008">920511s1962    iq            000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12219706</subfield>
-</datafield>
+<controlfield tag="005">20150319175740.0</controlfield>
+<controlfield tag="008">920511s1962    iq            000 0 araod</controlfield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NJPG92-B26152</subfield>
+<subfield code="a">(OCoLC)253699701</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">NjP</subfield>
-<subfield code="c">NjP</subfield>
+<subfield code="a">LGG</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">LGG</subfield>
+<subfield code="d">NNU</subfield>
+</datafield>
+<datafield tag="050" ind1=" " ind2="4">
+<subfield code="a">BP165.5</subfield>
+<subfield code="b">.H37 1962</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Hāshimī, Muḥammad Jamāl.</subfield>
+<subfield code="6">880-01</subfield>
+<subfield code="a">Hāshimī, Muḥammad Jamāl.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
-<subfield code="a">Uṣūl al-dīn al-Islāmī /</subfield>
-<subfield code="c">Muḥammad Jamāl al-Hāshimī.</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">Uṣūl al-dīn al-Islāmī /</subfield>
+<subfield code="c">Muḥammad Jamāl al-Hāshimī.</subfield>
 </datafield>
 <datafield tag="250" ind1=" " ind2=" ">
-<subfield code="a">al-Ṭabʻah 1.</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">al-Ṭabʻah 1.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
+<subfield code="6">880-04</subfield>
 <subfield code="a">al-Najaf :</subfield>
-<subfield code="b">Dār al-Bāqir,</subfield>
-<subfield code="c">1962.</subfield>
+<subfield code="b">Dār al-Bāqir,</subfield>
+<subfield code="c">1962</subfield>
+<subfield code="e">(al-Najaf :</subfield>
+<subfield code="f">Maṭbaʻat al-Nuʻmān)</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
 <subfield code="a">127 p. ;</subfield>
 <subfield code="c">22 cm.</subfield>
 </datafield>
 <datafield tag="490" ind1="1" ind2=" ">
-<subfield code="a">al-Maktabah al-Islāmīyah ;</subfield>
+<subfield code="6">880-05</subfield>
+<subfield code="a">al-Maktabah al-Islāmīyah ;</subfield>
 <subfield code="v">1</subfield>
 </datafield>
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Islam</subfield>
-<subfield code="v">Catechisms.</subfield>
+<subfield code="x">Catechisms.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">هاشمي، محمد جمال.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">245-02/</subfield>
+<subfield code="a">اصول الدين الاسلامي /</subfield>
+<subfield code="c">محمد جمال الهاشمي.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">250-03/</subfield>
+<subfield code="a">الطبعة 1.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-04/</subfield>
+<subfield code="a">النجف :</subfield>
+<subfield code="b">دار الباقر،</subfield>
+<subfield code="c">1962</subfield>
+<subfield code="e">(لنجف :</subfield>
+<subfield code="f">مطبعة النعمان)</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">490-05/</subfield>
+<subfield code="a">المكتبة الاسلامية ؛</subfield>
+<subfield code="v">1</subfield>
 </datafield>
 <datafield tag="830" ind1=" " ind2="0">
-<subfield code="a">Maktabah al-Islāmīyah ;</subfield>
+<subfield code="6">880-06</subfield>
+<subfield code="a">Maktabah al-Islāmīyah (Najaf, Iraq) ;</subfield>
+<subfield code="v">1.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2="0">
+<subfield code="6">830-06/</subfield>
+<subfield code="a">مكتبة الاسلامية (نجف، العراق) ؛</subfield>
 <subfield code="v">1.</subfield>
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
 </datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">BP45</subfield>
-<subfield code="b">.H3</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1</subfield>
-<subfield code="r">027714156</subfield>
-</datafield>
-<datafield tag="987" ind1=" " ind2=" ">
-<subfield code="a">MICROFORM</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="s">9124</subfield>
-</datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
 <subfield code="b">BOBST</subfield>
 <subfield code="c">Main Collection</subfield>
-<subfield code="d">BP45 .H3</subfield>
+<subfield code="d">BP165.5 .H37 1962</subfield>
 <subfield code="e">unavailable</subfield>
 <subfield code="t">Unavailable</subfield>
 <subfield code="f">1</subfield>

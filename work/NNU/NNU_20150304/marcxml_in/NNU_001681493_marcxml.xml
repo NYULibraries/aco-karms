@@ -1,63 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a22002051  4500</leader>
+<leader>00000cam a22        4500</leader>
 <controlfield tag="001">001681493</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20001218232554.0</controlfield>
+<controlfield tag="005">20150318175242.0</controlfield>
 <controlfield tag="008">000413s1927    mr            000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12224897</subfield>
-</datafield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(NNC)notisAQL8670</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(OCoLC)ocm43845077</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYCGAQL8670-B</subfield>
+<subfield code="a">(OCoLC)43845077</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
 <subfield code="a">ZCU</subfield>
+<subfield code="b">eng</subfield>
 <subfield code="c">ZCU</subfield>
+<subfield code="d">OCLCQ</subfield>
+</datafield>
+<datafield tag="050" ind1=" " ind2="4">
+<subfield code="a">DT321</subfield>
+<subfield code="b">.G43 1927</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Gharīṭ, Muḥammad ibn Muḥammad al-Mufaḍḍal.</subfield>
+<subfield code="6">880-01</subfield>
+<subfield code="a">Gharīṭ, Muḥammad ibn Muḥammad al-Mufaḍḍal.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
-<subfield code="a">Fawāṣil al-jumān fī anbāʼ wuzarāʼ wakuttāb al-zamān biqalam .. /</subfield>
-<subfield code="c">Muhammad Gharīṭ.</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">Fawāṣil al-jumān fī anbāʼ wuzarāʼ wakuttāb al-zamān biqalam ...</subfield>
+<subfield code="c">Muhammad Gharīṭ.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">Fās :</subfield>
-<subfield code="b">al-Matbʻah al-Jadīdah,</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">Fās,</subfield>
+<subfield code="b">al-Maṭbʻah al-Jadīdah,</subfield>
 <subfield code="c">1346 [1927]</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">312 p. ;</subfield>
-<subfield code="c">23 cm.</subfield>
+<subfield code="a">312 pages</subfield>
+<subfield code="c">23 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">غريط، محمد بن محمد المفضل.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">245-02/</subfield>
+<subfield code="a">فواصل الجمان في انباء وزراء وكتاب الزمان بقلم ...</subfield>
+<subfield code="c">مهمد غريط.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-03/</subfield>
+<subfield code="a">فاس،</subfield>
+<subfield code="b">المطبعة الجديدة،</subfield>
+<subfield code="c">1346 [1927]</subfield>
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">PJ8280</subfield>
-<subfield code="b">.G5</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1</subfield>
-<subfield code="r">029135087</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="s">9125</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
 <subfield code="b">BOBST</subfield>
 <subfield code="c">Main Collection</subfield>
-<subfield code="d">PJ8280 .G5</subfield>
+<subfield code="d">PJ8280 .G5 1927</subfield>
 <subfield code="e">unavailable</subfield>
 <subfield code="t">Unavailable</subfield>
 <subfield code="f">1</subfield>

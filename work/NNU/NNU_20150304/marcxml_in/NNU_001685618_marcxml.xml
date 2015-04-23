@@ -1,54 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a22003131  4500</leader>
+<leader>00000cam a22      i 4500</leader>
 <controlfield tag="001">001685618</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010173305.0</controlfield>
+<controlfield tag="005">20150401172655.0</controlfield>
 <controlfield tag="008">000225s1949    le h     b    001 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12229057</subfield>
-</datafield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(NNU)NYUb12229057</subfield>
+<subfield code="a">(OCoLC)477007826</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
 <subfield code="a">CGU</subfield>
-<subfield code="c">CGU</subfield>
-<subfield code="d">CtY</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">N15</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">NNU</subfield>
 </datafield>
 <datafield tag="041" ind1="0" ind2=" ">
 <subfield code="a">arafre</subfield>
 </datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
+<datafield tag="050" ind1=" " ind2="4">
 <subfield code="a">PJ7542.M8</subfield>
-<subfield code="b">I3</subfield>
+<subfield code="b">I3 1949</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Ibn Sanāʼ al-Mulk, Hibat Allāh ibn Jaʻfar,</subfield>
-<subfield code="d">1150 or 51-1211 or 12</subfield>
 <subfield code="6">880-01</subfield>
+<subfield code="a">Ibn Sanāʼ al-Mulk, Hibat Allāh ibn Jaʻfar,</subfield>
+<subfield code="d">1150 or 1151-1211 or 1212.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
 <subfield code="6">880-02</subfield>
-<subfield code="a">Dār al-ṭirāz fī ʻamal al-muwashshaḥāt /</subfield>
-<subfield code="c">taʼlīf Abī al-Qāsim Hibat Allāh ibn Jaʻfar ibn Sanāʼ al-Mulk ; ʻuniya bi-taḥqīqihi wa-nashrih Jawdat al-Rikābī.</subfield>
+<subfield code="a">Dār al-ṭirāz fī ʻamal al-muwashshaḥāt /</subfield>
+<subfield code="c">taʼlīf Abī al-Qāsim Hibat Allāh ibn Jaʻfar ibn Sanāʼ al-Mulk ; ʻuniya bi-taḥqīqihi wa-nashrih Jawdat al-Rikābī.</subfield>
 </datafield>
 <datafield tag="246" ind1="1" ind2="5">
-<subfield code="a">Dâr aṭ-ṭirâz, poétique du muwaśśaḥ</subfield>
+<subfield code="a">Dâr aṭ-ṭirâz, poétique du muwaśśaḥ</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
 <subfield code="6">880-03</subfield>
-<subfield code="a">Bayrūt :</subfield>
-<subfield code="b">al-Maṭbaʻah al-Kāthūlīkīyah,</subfield>
+<subfield code="a">Bayrūt :</subfield>
+<subfield code="b">al-Maṭbaʻah al-Kāthūlīkīyah,</subfield>
 <subfield code="c">1949.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">160, 16 p. :</subfield>
-<subfield code="b">facsims. ;</subfield>
-<subfield code="c">25 cm.</subfield>
+<subfield code="a">160, 16 pages :</subfield>
+<subfield code="b">facsimiles ;</subfield>
+<subfield code="c">25 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="546" ind1=" " ind2=" ">
 <subfield code="a">Added t.p. and introd. in French.</subfield>
@@ -61,6 +74,16 @@
 </datafield>
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Arabic poetry.</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Arabic poetry.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst00812533</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Muwashshah.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01031229</subfield>
 </datafield>
 <datafield tag="700" ind1="1" ind2=" ">
 <subfield code="a">Rikābī, Jawdat</subfield>
@@ -88,20 +111,11 @@
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
 </datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">20010429</subfield>
-<subfield code="d">20010429</subfield>
-<subfield code="d">20010429</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">6</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">p</subfield>
-</datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
 <subfield code="b">BOBST</subfield>
 <subfield code="c">Main Collection</subfield>
-<subfield code="d">PJ7542.M8 I3</subfield>
+<subfield code="d">PJ7542.M8 I3 1949</subfield>
 <subfield code="e">unavailable</subfield>
 <subfield code="t">Unavailable</subfield>
 <subfield code="f">1</subfield>
