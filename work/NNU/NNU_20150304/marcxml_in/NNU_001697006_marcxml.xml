@@ -1,56 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200253 a 4500</leader>
+<leader>00000cam a22      i 4500</leader>
 <controlfield tag="001">001697006</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010171146.0</controlfield>
-<controlfield tag="008">010125s1933    ua            000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12244045</subfield>
-</datafield>
+<controlfield tag="005">20150403163021.0</controlfield>
+<controlfield tag="008">920302s1933    ua            000 0 ara d</controlfield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG01-B510</subfield>
+<subfield code="a">(OCoLC)33993880</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
 <subfield code="a">HLS</subfield>
+<subfield code="b">eng</subfield>
 <subfield code="c">HLS</subfield>
-<subfield code="d">CGU</subfield>
-<subfield code="d">NNU</subfield>
+<subfield code="d">N15</subfield>
+<subfield code="d">OCLCQ</subfield>
 </datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
+<datafield tag="050" ind1="1" ind2="4">
 <subfield code="a">PJ7876.A54</subfield>
-<subfield code="b">.D5</subfield>
+<subfield code="b">.D5 1933</subfield>
 </datafield>
 <datafield tag="100" ind1="0" ind2=" ">
 <subfield code="6">880-01</subfield>
-<subfield code="a">Zakī Mubārak.</subfield>
+<subfield code="a">Zakī Mubārak.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
 <subfield code="6">880-02</subfield>
-<subfield code="a">Dīwān Zakī Mubārak /</subfield>
-<subfield code="c">Zakī Mubārak.</subfield>
+<subfield code="a">Dīwān Zakī Mubārak /</subfield>
+<subfield code="c">Zakī Mubārak.</subfield>
 </datafield>
 <datafield tag="246" ind1="3" ind2=" ">
-<subfield code="a">Poemes érotiques</subfield>
+<subfield code="a">Poemes érotiques</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
 <subfield code="6">880-03</subfield>
-<subfield code="a">[al-Qahirah] :</subfield>
-<subfield code="b">al-Maktabah al-Tijārīyah al-Kubrá,</subfield>
+<subfield code="a">[Cairo] :</subfield>
+<subfield code="b">al-Maktabah al-Tijārīyah al-Kubrá,</subfield>
 <subfield code="c">1933.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">158 p. ;</subfield>
-<subfield code="c">17 cm.</subfield>
+<subfield code="a">158 pages ;</subfield>
+<subfield code="c">17 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="500" ind1=" " ind2=" ">
 <subfield code="a">Poems.</subfield>
 </datafield>
 <datafield tag="500" ind1=" " ind2=" ">
-<subfield code="a">Title on p. [4] of cover: Poemes érotiques.</subfield>
+<subfield code="a">Title on p. [4] of cover: Poemes érotiques.</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2=" ">
 <subfield code="6">100-01/</subfield>
@@ -70,20 +80,11 @@
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
 </datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">20010125</subfield>
-<subfield code="d">20010125</subfield>
-<subfield code="d">20010125</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">1</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">p</subfield>
-</datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
 <subfield code="b">BOBST</subfield>
 <subfield code="c">Main Collection</subfield>
-<subfield code="d">PJ7876.A54 D5</subfield>
+<subfield code="d">PJ7876.A54 D5 1933</subfield>
 <subfield code="e">unavailable</subfield>
 <subfield code="t">Unavailable</subfield>
 <subfield code="f">1</subfield>

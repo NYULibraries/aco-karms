@@ -1,33 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     cam a2200325 a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001674715</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010170925.0</controlfield>
-<controlfield tag="008">001208s1946    ua            000 d ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12217549</subfield>
-</datafield>
+<controlfield tag="005">20150415174544.0</controlfield>
+<controlfield tag="008">040525s1946    ua            000 d ara d</controlfield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG00-B4021</subfield>
+<subfield code="a">(OCoLC)55482482</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">NNU</subfield>
-<subfield code="c">NNU</subfield>
+<subfield code="a">ZYU</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">ZYU</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCG</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">NNU</subfield>
 </datafield>
 <datafield tag="041" ind1="1" ind2=" ">
 <subfield code="a">ara</subfield>
 <subfield code="h">fre</subfield>
 </datafield>
 <datafield tag="050" ind1=" " ind2="4">
-<subfield code="a">PQ2613.I2</subfield>
-<subfield code="b">G412 1946</subfield>
-</datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
-<subfield code="c">(4</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
 <subfield code="a">PQ2613.I2</subfield>
 <subfield code="b">G412 1946</subfield>
 </datafield>
@@ -38,53 +33,72 @@
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
 <subfield code="6">880-02</subfield>
-<subfield code="a">Min abṭāl al-asāṭīr al-Yūnānīyah :</subfield>
-<subfield code="b">Ūdīb ; Tīsīyūs /</subfield>
-<subfield code="c">Andrīh Zhīd ; tarjamat Ṭāhā Ḥusayn.</subfield>
+<subfield code="a">Min abṭāl al-asāṭīr al-Yūnānīyah :</subfield>
+<subfield code="b">Ūdīb ; Tīsīyūs /</subfield>
+<subfield code="c">Andrīh Zhīd ; tarjamat Ṭāhā Ḥusayn.</subfield>
 </datafield>
 <datafield tag="246" ind1="3" ind2=" ">
 <subfield code="6">880-03</subfield>
-<subfield code="a">Awdīb</subfield>
+<subfield code="a">Awdīb</subfield>
 </datafield>
 <datafield tag="246" ind1="3" ind2=" ">
 <subfield code="6">880-04</subfield>
-<subfield code="a">Tīsīyūs</subfield>
+<subfield code="a">Tīsīyūs</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
 <subfield code="6">880-05</subfield>
-<subfield code="a">al-Qāhirah :</subfield>
-<subfield code="b">Dār al-Kātib al-Miṣrī,</subfield>
+<subfield code="a">al-Qāhirah :</subfield>
+<subfield code="b">Dār al-Kātib al-Miṣrī,</subfield>
 <subfield code="c">1946.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">310 p. ;</subfield>
-<subfield code="c">20 cm.</subfield>
+<subfield code="a">310 pages ;</subfield>
+<subfield code="c">20 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
+</datafield>
+<datafield tag="700" ind1="1" ind2=" ">
+<subfield code="6">880-06</subfield>
+<subfield code="a">Ḥusayn, Ṭāhā,</subfield>
+<subfield code="d">1889-1973.</subfield>
 </datafield>
 <datafield tag="700" ind1="1" ind2=" ">
 <subfield code="a">Gide, André,</subfield>
-<subfield code="d">1869-1951.</subfield>
+<subfield code="d">1869-1951</subfield>
+<subfield code="6">880-07</subfield>
 <subfield code="t">Oedipe.</subfield>
 <subfield code="l">Arabic.</subfield>
 </datafield>
 <datafield tag="700" ind1="1" ind2=" ">
 <subfield code="a">Gide, André,</subfield>
-<subfield code="d">1869-1951.</subfield>
-<subfield code="t">Thésée.</subfield>
+<subfield code="d">1869-1951</subfield>
+<subfield code="6">880-08</subfield>
+<subfield code="t">Thésée.</subfield>
 <subfield code="l">Arabic.</subfield>
-</datafield>
-<datafield tag="700" ind1="1" ind2=" ">
-<subfield code="a">Ḥusayn, Ṭāhā,</subfield>
-<subfield code="d">1889-1973.</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2=" ">
 <subfield code="6">100-01/</subfield>
-<subfield code="a">�يد، اندريه.</subfield>
+<subfield code="a">چيد، اندريه،</subfield>
+<subfield code="d">1869-1951.</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2="0">
 <subfield code="6">245-02/</subfield>
 <subfield code="a">من أبطال الأساطير اليونانية :</subfield>
 <subfield code="b">اوديب ؛ تيسيوس /</subfield>
-<subfield code="c">اندريه �يد ؛ ترجمة طه حسين.</subfield>
+<subfield code="c">اندريه چيد ؛ ترجمة طه حسين.</subfield>
 </datafield>
 <datafield tag="880" ind1="3" ind2=" ">
 <subfield code="6">246-03/</subfield>
@@ -100,17 +114,27 @@
 <subfield code="b">دار الكاتب المصري،</subfield>
 <subfield code="c">١٩٤٦.</subfield>
 </datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">700-06/</subfield>
+<subfield code="a">حسين، طه،</subfield>
+<subfield code="d">1889-1973.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">700-07/</subfield>
+<subfield code="a">چيد، اندريه،</subfield>
+<subfield code="d">1869-1951.</subfield>
+<subfield code="t">اوديب.</subfield>
+<subfield code="l">Arabic.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">700-08/</subfield>
+<subfield code="a">چيد، اندريه،</subfield>
+<subfield code="d">1869-1951.</subfield>
+<subfield code="t">تيسيوس.</subfield>
+<subfield code="l">Arabic.</subfield>
+</datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">20050222</subfield>
-<subfield code="d">20001208</subfield>
-<subfield code="d">20050222</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">1</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">p</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
