@@ -1,1 +1,1 @@
-wget -r --no-parent --reject 'index.html*' http://oai.library.cornell.edu/nyu/ 
+wget -e robots=off -r --no-parent --reject 'index.html*' http://oai.library.cornell.edu/nyu/
