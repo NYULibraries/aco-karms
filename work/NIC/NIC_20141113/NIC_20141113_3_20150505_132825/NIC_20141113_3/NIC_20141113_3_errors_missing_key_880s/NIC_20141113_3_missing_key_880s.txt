@@ -1,19 +1,15 @@
-Records containing UNLINKED 880 script fields - batch NIC_20141113
---  At least one 880 field has sequence number -00 in subfield $6,
-    meaning it is not linked to the corresponding parallel field
-Report produced: 2015-02-22 22:00:01.211644
+Records MISSING KEY 880 script fields - batch NIC_20141113
+--  At least one of the key fields is missing subfield $6,
+    so the corresponding 880 script field is missing or unlinked
+--  Key fields:
+    100, 110, 111, 130
+    240, 245, 246, 250, 260, 264
+    440, 490
+    700, 710, 711, 730
+    800, 810, 811, 830
+Report produced: 2015-05-05 13:28:17.658962
 ---------------------------------------------------------------------
 FILE: NIC_20141113_2_oclc_recs_batch.mrc
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm64024843 
-   oclc_rec_035_num: (OCoLC)64024843
-Institution ID: NIC_1920797
-Record 999:  NIC_1920797 (OCoLC)ocm64024843
-880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 700-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 700-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-040 $e field: [none]
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm07579396 
    oclc_rec_035_num: (OCoLC)7579396
@@ -28,38 +24,7 @@ ERROR-880: Unlinked 880s: YES
    880 $6 246-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm18197486 
-   oclc_rec_035_num: (OCoLC)18197486
-   oclc_rec_035_num: (OCoLC)23487439
-   oclc_rec_035_num: (OCoLC)454330234
-Institution ID: NIC_1931814
-Record 999:  NIC_1931814 (OCoLC)ocm18197486
-880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-040 $e field: rda
-RDA fields: YES
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm08005009 
-   oclc_rec_035_num: (OCoLC)8005009
-Institution ID: NIC_3531464
-Record 999:  NIC_3531464 (OCoLC)ocm08005009
-880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 700-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-040 $e field: [none]
-RDA fields: YES
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm13060529 
-   oclc_rec_035_num: (OCoLC)13060529
-Institution ID: NIC_7683042
-Record 999:  NIC_7683042 (OCoLC)ocm13060529
-880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 246-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-040 $e field: rda
-RDA fields: YES
+Source entities (book IDs): cornell_aco000148
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm08960869 
    oclc_rec_035_num: (OCoLC)8960869
@@ -75,16 +40,40 @@ ERROR-880: Unlinked 880s: YES
    880 $6 740-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000157:v.1, cornell_aco000158:v.2
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm32427514 
-   oclc_rec_035_num: (OCoLC)32427514
-Institution ID: NIC_1921247
-Record 999:  NIC_1921247 (OCoLC)ocm32427514
+OCLC ID: (OCoLC)ocm17017909 
+   oclc_rec_035_num: (OCoLC)17017909
+Institution ID: NIC_1677770
+Record 999:  NIC_1677770 (OCoLC)ocm17017909
 880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 700-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Works. 1978
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000020
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm10643173 
+   oclc_rec_035_num: (OCoLC)10643173
+Institution ID: NIC_3530961
+Record 999:  NIC_3530961 (OCoLC)ocm10643173
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Jahiz and Abbasid city life
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): cornell_aco000149
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocn123338532
+   oclc_rec_035_num: (OCoLC)123338532
+Institution ID: NIC_6169884
+Record 999:  NIC_6169884 (OCoLC)ocn123338532
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Suhād
+   246 - Laḥn al-tāʼih
+040 $e field: [none]
+Source entities (book IDs): cornell_aco000187
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm23504432 
    oclc_rec_035_num: (OCoLC)23504432
@@ -97,6 +86,7 @@ ERROR-880: Unlinked 880s: YES
    880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000007
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm13115487 
    oclc_rec_035_num: (OCoLC)13115487
@@ -116,6 +106,7 @@ RDA fields: YES
 020a: 9771240986
 020s: YES
 020a: 9789771240983
+Source entities (book IDs): cornell_aco000048
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm36551849 
    oclc_rec_035_num: (OCoLC)36551849
@@ -128,6 +119,7 @@ ERROR-880: Unlinked 880s: YES
    880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000144
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm16129154 
    oclc_rec_035_num: (OCoLC)16129154
@@ -142,6 +134,7 @@ ERROR-880: Unlinked 880s: YES
    880 $6 490-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000183:v.1, cornell_aco000184:v.2
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm43184743 
    oclc_rec_035_num: (OCoLC)43184743
@@ -154,6 +147,7 @@ ERROR-880: Unlinked 880s: YES
    880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000067:juz 1, cornell_aco000068:juz 2
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm23519160 
    oclc_rec_035_num: (OCoLC)23519160
@@ -171,6 +165,7 @@ ERROR-880: Unlinked 880s: YES
    880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000180
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm23498944 
    oclc_rec_035_num: (OCoLC)23498944
@@ -183,6 +178,7 @@ ERROR-880: Unlinked 880s: YES
    880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000198:v.1, cornell_aco000199:v.2
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm34702757 
    oclc_rec_035_num: (OCoLC)34702757
@@ -197,6 +193,7 @@ ERROR-880: Unlinked 880s: YES
    880 $6 264-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
 040 $e field: rda
 RDA fields: YES
+Source entities (book IDs): cornell_aco000083
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm10888075 
    oclc_rec_035_num: (OCoLC)10888075
@@ -210,6 +207,21 @@ ERROR-880: Unlinked 880s: YES
    880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000037
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocn493951298
+   oclc_rec_035_num: (OCoLC)493951298
+Institution ID: NIC_6792982
+Record 999:  NIC_6792982 (OCoLC)ocn493951298
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Rūwwād 'al-tajāwuz' fī al-adab al-Tūnisī al-ḥadīth
+040 $e field: [none]
+020s: YES
+020a: 9789973009210
+020s: YES
+020a: 9973009215
+Source entities (book IDs): cornell_aco000190
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm63980010 
    oclc_rec_035_num: (OCoLC)63980010
@@ -221,6 +233,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 ERROR-880: Unlinked 880s: YES
    880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
+Source entities (book IDs): cornell_aco000031
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm32341363 
    oclc_rec_035_num: (OCoLC)32341363
@@ -237,16 +250,7 @@ ERROR-880: Unlinked 880s: YES
    880 $6 830-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: [none]
 RDA fields: YES
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm19601928 
-   oclc_rec_035_num: (OCoLC)19601928
-Institution ID: NIC_3532230
-Record 999:  NIC_3532230 (OCoLC)ocm19601928
-880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 240-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-040 $e field: [none]
-RDA fields: YES
+Source entities (book IDs): cornell_aco000175
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm21552380 
    oclc_rec_035_num: (OCoLC)21552380
@@ -259,6 +263,20 @@ ERROR-880: Unlinked 880s: YES
    880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000186
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm31084592 
+   oclc_rec_035_num: (OCoLC)31084592
+   oclc_rec_035_num: (OCoLC)250073578
+Institution ID: NIC_1935583
+Record 999:  NIC_1935583 (OCoLC)ocm31084592
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   130 - Texte zur arabischen Lexikographie.
+   246 - Texte zur arabischen Lexikographie
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): cornell_aco000121
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm19468363 
    oclc_rec_035_num: (OCoLC)19468363
@@ -273,18 +291,18 @@ ERROR-880: Unlinked 880s: YES
    880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000119
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm15565269 
-   oclc_rec_035_num: (OCoLC)15565269
-Institution ID: NIC_1685921
-Record 999:  NIC_1685921 (OCoLC)ocm15565269
+OCLC ID: (OCoLC)ocm60510312 
+   oclc_rec_035_num: (OCoLC)60510312
+Institution ID: NIC_1674736
+Record 999:  NIC_1674736 (OCoLC)ocm60510312
 880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 830-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Kitāb al-Hilāl ; 46
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Works. Selections. 1909. 1909
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000017
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm37669626 
    oclc_rec_035_num: (OCoLC)37669626
@@ -300,16 +318,7 @@ ERROR-880: Unlinked 880s: YES
    880 $6 700-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: [none]
 RDA fields: YES
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm31085910 
-   oclc_rec_035_num: (OCoLC)31085910
-Institution ID: NIC_3527901
-Record 999:  NIC_3527901 (OCoLC)ocm31085910
-880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 130-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-040 $e field: [none]
-RDA fields: YES
+Source entities (book IDs): cornell_aco000012
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm22303022 
    oclc_rec_035_num: (OCoLC)22303022
@@ -324,6 +333,7 @@ ERROR-880: Unlinked 880s: YES
    880 $6 650-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000152
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm30312152 
    oclc_rec_035_num: (OCoLC)30312152
@@ -340,6 +350,7 @@ ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
 ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-02 Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻIrāqī.
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000142
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm78567911 
    oclc_rec_035_num: (OCoLC)78567911
@@ -356,6 +367,17 @@ ERROR-880: Unlinked 880s: YES
    880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
    880 $6 246-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: [none]
+Source entities (book IDs): cornell_aco000127
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm60506111 
+   oclc_rec_035_num: (OCoLC)60506111
+Institution ID: NIC_5666861
+Record 999:  NIC_5666861 (OCoLC)ocm60506111
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Arabiya : Untersuchungen zur arabischen Sprach- und Stilgeschichte. Arabic
+040 $e field: [none]
+Source entities (book IDs): cornell_aco000182
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm17927537 
    oclc_rec_035_num: (OCoLC)17927537
@@ -371,6 +393,7 @@ ERROR-880: Unlinked 880s: YES
    880 $6 250-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
    880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
+Source entities (book IDs): cornell_aco000055
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm15154883 
    oclc_rec_035_num: (OCoLC)15154883
@@ -389,6 +412,7 @@ ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
 ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Maktabat al-qirāʼah wa-al-thaqāfah al-adabīyah. Silsilat al-mawsūʻāt al-ʻArabīyah
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000091:juz1, cornell_aco000092:juz2, cornell_aco000100:juz3, cornell_aco000099:juz4, cornell_aco000102:juz5, cornell_aco000101:juz6, cornell_aco000098:juz7, cornell_aco000093:juz8, cornell_aco000094:juz9, cornell_aco000097:juz10, cornell_aco000095:juz11, cornell_aco000096:juz12, cornell_aco000103:juz13, cornell_aco000104:juz14, cornell_aco000105:juz15, cornell_aco000106:juz16, cornell_aco000108:juz17, cornell_aco000107:juz18, cornell_aco000110:juz19, cornell_aco000109:juz20
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm44271222 
    oclc_rec_035_num: (OCoLC)44271222
@@ -409,6 +433,7 @@ RDA fields: YES
 020a: 9775250676
 020s: YES
 020a: 9789775250674
+Source entities (book IDs): cornell_aco000181
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm22723093 
    oclc_rec_035_num: (OCoLC)22723093
@@ -422,6 +447,7 @@ ERROR-880: Unlinked 880s: YES
    880 $6 490-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000111:juz1
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm08534533 
    oclc_rec_035_num: (OCoLC)8534533
@@ -437,6 +463,7 @@ ERROR-880: Unlinked 880s: YES
    880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000135
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm21994835 
    oclc_rec_035_num: (OCoLC)21994835
@@ -449,6 +476,7 @@ ERROR-880: Unlinked 880s: YES
    880 $6 240-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000066
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm13120492 
    oclc_rec_035_num: (OCoLC)13120492
@@ -463,26 +491,45 @@ ERROR-880: Unlinked 880s: YES
    880 $6 700-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000137
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm25653306 
-   oclc_rec_035_num: (OCoLC)25653306
-Institution ID: NIC_1909832
-Record 999:  NIC_1909832 (OCoLC)ocm25653306
+OCLC ID: (OCoLC)ocm12719869 
+   oclc_rec_035_num: (OCoLC)12719869
+Institution ID: NIC_3530149
+Record 999:  NIC_3530149 (OCoLC)ocm12719869
 880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 700-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Poems
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000146
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm14246750 
-   oclc_rec_035_num: (OCoLC)14246750
-Institution ID: NIC_3532260
-Record 999:  NIC_3532260 (OCoLC)ocm14246750
+OCLC ID: (OCoLC)ocm24011597 
+   oclc_rec_035_num: (OCoLC)24011597
+Institution ID: NIC_1886001
+Record 999:  NIC_1886001 (OCoLC)ocm24011597
 880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 700-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   730 - Arabian nights. Selections.
 040 $e field: [none]
 RDA fields: YES
+020s: YES
+020a: 9771750062 (v. 2)
+020s: YES
+020a: 9789771750062 (v. 2)
+Source entities (book IDs): cornell_aco000056:v.2
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm07621935 
+   oclc_rec_035_num: (OCoLC)7621935
+   oclc_rec_035_num: (OCoLC)187312845
+Institution ID: NIC_3556255
+Record 999:  NIC_3556255 (OCoLC)ocm07621935
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Mustafa Sādiq al-Rafiʼi : his age, his biography, and his writings
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): cornell_aco000171
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm21626886 
    oclc_rec_035_num: (OCoLC)21626886
@@ -496,6 +543,7 @@ ERROR-880: Unlinked 880s: YES
    880 $6 700-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000087
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm49001307 
    oclc_rec_035_num: (OCoLC)49001307
@@ -509,6 +557,19 @@ ERROR-880: Unlinked 880s: YES
    880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
    880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
+Source entities (book IDs): cornell_aco000029:v.1, cornell_aco000028:v.2
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm01298816 
+   oclc_rec_035_num: (OCoLC)1298816
+Institution ID: NIC_3536905
+Record 999:  NIC_3536905 (OCoLC)ocm01298816
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - Rustum, Asad, 1897-1965.
+   246 - Calendar of state papers from the Royal Archives of Egypt relating to the affairs of Syria
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): cornell_aco000167:v.1, cornell_aco000168:v.2, cornell_aco000169:v.3, cornell_aco000170:v.4
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm08454988 
    oclc_rec_035_num: (OCoLC)8454988
@@ -525,6 +586,7 @@ ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
 ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-03 Dirāsāt Jāmiʻīyah.
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000058
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm22694329 
    oclc_rec_035_num: (OCoLC)22694329
@@ -538,6 +600,7 @@ ERROR-880: Unlinked 880s: YES
    880 $6 700-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000191
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm29646467 
    oclc_rec_035_num: (OCoLC)29646467
@@ -554,9 +617,10 @@ ERROR-880: Unlinked 880s: YES
    880 $6 830-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: [none]
 RDA fields: YES
+Source entities (book IDs): cornell_aco000166
 ---------------------------------------------------------------------
 ---------------------------------------------------------------------
 FILE: NIC_20141113_1/NIC_20141113_1_orig_no_oclc_nums.mrc
 ---------------------------------------------------------------------
-TOTAL Number of Records containing unlinked 880 script fields: 41
+TOTAL Number of Records missing key 880 script fields: 42
 
