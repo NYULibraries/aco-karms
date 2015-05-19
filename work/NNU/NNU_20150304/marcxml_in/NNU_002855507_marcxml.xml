@@ -1,80 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     cam a2200253   4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">002855507</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">19940713181853.0</controlfield>
-<controlfield tag="008">870818s1948    le            000 1 arar</controlfield>
-<datafield tag="010" ind1=" " ind2=" ">
-<subfield code="a">74219324</subfield>
-</datafield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb10569677</subfield>
-</datafield>
+<controlfield tag="005">20150508161401.0</controlfield>
+<controlfield tag="008">870331s1948    le            000 f ara d</controlfield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG87-B27006</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">GLIS005696775</subfield>
+<subfield code="a">(OCoLC)15466905</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="c">NNU</subfield>
+<subfield code="a">OSU</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">OSU</subfield>
+<subfield code="d">OCLCG</subfield>
+<subfield code="d">OCLCQ</subfield>
 </datafield>
-<datafield tag="050" ind1=" " ind2="0">
+<datafield tag="050" ind1=" " ind2="4">
 <subfield code="a">PJ7860.I45</subfield>
-<subfield code="b">K5 1948</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="a">PJ7860.I45</subfield>
-<subfield code="b">K5 1948</subfield>
-<subfield code="i">09/03/87 CT</subfield>
+<subfield code="b">K38 1948</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
 <subfield code="a">Rihani, Ameen Fares,</subfield>
-<subfield code="d">1876-1940.</subfield>
+<subfield code="d">1876-1940</subfield>
+<subfield code="6">880-01</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
-<subfield code="a">Khārij al-ḥarīm</subfield>
-<subfield code="c">[taʼlīf] Amīn al-Rīḥānī.</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">Khārij al-ḥarīm /</subfield>
+<subfield code="c">Amīn al-Rayḥānī ; ashrafa ʻalá taṣḥīḥihā wa-ṭabʻihā Albirt al-Rayḥānī.</subfield>
 </datafield>
 <datafield tag="250" ind1=" " ind2=" ">
-<subfield code="a">al-Ṭabʻah 4., ashrafa ʻalá taṣḥīḥihā wa-tabʻihā Albirt al-Rīḥānī.</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">al-Ṭabʻah 4.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">[Bayrūt,</subfield>
-<subfield code="b">Maṭābiʻ Ṣādir Rīḥānī,</subfield>
-<subfield code="c">1948]</subfield>
+<subfield code="6">880-04</subfield>
+<subfield code="a">Bayrūt :</subfield>
+<subfield code="b">Maṭābiʻ Ṣādir Rayḥānī,</subfield>
+<subfield code="c">1948.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">131 p.</subfield>
-<subfield code="c">21 cm.</subfield>
+<subfield code="a">131 pages ;</subfield>
+<subfield code="c">20 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="500" ind1=" " ind2=" ">
-<subfield code="a">A novel.</subfield>
+<subfield code="a">Novel.</subfield>
+</datafield>
+<datafield tag="700" ind1="1" ind2=" ">
+<subfield code="6">880-05</subfield>
+<subfield code="a">Rīḥānī, Albirt.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">ريحاني، أمىن فارس،,</subfield>
+<subfield code="d">1876-1940.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">245-02/</subfield>
+<subfield code="a">خارج الحريم /</subfield>
+<subfield code="c">أمين الريحاني ؛ أشرف على تصحيحها وطبعها ألبرت الريحاني.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">250-03/</subfield>
+<subfield code="a">الطبعة 4.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-04/</subfield>
+<subfield code="a">بيروت :</subfield>
+<subfield code="b">مطابع صادر ريحاني،</subfield>
+<subfield code="c">1948.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">700-05/</subfield>
+<subfield code="a">ريحاني، ألبرت.</subfield>
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="i">09/03/87 C</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1</subfield>
-<subfield code="r">012551696</subfield>
-<subfield code="i">09/03/87 C</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">09/03/87</subfield>
-<subfield code="t">c</subfield>
-<subfield code="s">9114</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="w">NYUG87B27006</subfield>
-<subfield code="d">08/18/87</subfield>
-<subfield code="b">MH</subfield>
-<subfield code="i">870903</subfield>
-<subfield code="l">NYUG</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
