@@ -5,20 +5,9 @@ ALL Records containing any type of error - batch NNC_20150304
     --  have an unlinked 880 field
     --  have a series heading error in the 490/800/810/811/830 fields
     --  have one of the various miscellaneous errors, marked with ERROR-MISC
-Report produced: 2015-06-01 11:25:23.818638
+Report produced: 2015-06-02 13:29:34.327125
 ---------------------------------------------------------------------
 FILE: NNC_20150304_3/NNC_20150304_3_updates.mrc
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm48104053 
-   oclc_rec_035_num: (OCoLC)48104053
-Institution ID: NNC_3099484
-Record 999:  NNC_3099484 (OCoLC)ocm48104053 columbia_aco000572
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   100 - Bigiev, Musa Dzharullakh, 1875-1949.
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000572
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm15028151 
    oclc_rec_035_num: (OCoLC)15028151
@@ -43,19 +32,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco000547
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm18102992 
-   oclc_rec_035_num: (OCoLC)18102992
-Institution ID: NNC_3082654
-Record 999:  NNC_3082654 (OCoLC)ocm18102992 columbia_aco000570
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   240 - Tārikh al-Islām.. Selections
-ERROR-880: Unlinked 880s: YES
-   880 $6 240-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000570
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm29062997 
    oclc_rec_035_num: (OCoLC)29062997
 Institution ID: NNC_3076860
@@ -73,7 +49,6 @@ Institution ID: NNC_3071323
 Record 999:  NNC_3071323 (OCoLC)ocm42840762 columbia_aco000411
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - [Place of publication not identified] : [publisher not identified], 1364 [1944 or 1945]
    260 - [Place of publication not identified] : [publisher not identified], 1364 [1944 or 1945]
 040 $e field: [none]
 RDA fields: YES
@@ -107,7 +82,6 @@ Institution ID: NNC_32387
 Record 999:  NNC_32387 (OCoLC)ocm84444082 columbia_aco000503
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   110 - American University of Beirut.
    260 - Beirut, 1870.
 040 $e field: [none]
 Source entities (book IDs): columbia_aco000503
@@ -135,7 +109,6 @@ Record 999:  NNC_3063278 (OCoLC)ocm23507032 columbia_aco000586
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    260 - 1955.
-   260 - 1955.
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco000586
@@ -155,7 +128,9 @@ OCLC ID: (OCoLC)ocm48196685
    oclc_rec_035_num: (OCoLC)48196685
 Institution ID: NNC_3121227
 Record 999:  NNC_3121227 (OCoLC)ocm48196685 columbia_aco000601
-ERROR-880: 880 script fields: NO
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - Beyrouth, Imprimerie catholique, 1912-13.
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco000601
@@ -207,17 +182,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco000593
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm29491275 
-   oclc_rec_035_num: (OCoLC)29491275
-Institution ID: NNC_3233793
-Record 999:  NNC_3233793 (OCoLC)ocm29491275 columbia_aco000528
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   700 - Van Dyck, Edward Abbott.
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000528
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm07904541 
    oclc_rec_035_num: (OCoLC)7904541
@@ -307,17 +271,6 @@ ERROR-880: 880 script fields: NO
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco000465
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23485900 
-   oclc_rec_035_num: (OCoLC)23485900
-Institution ID: NNC_3071669
-Record 999:  NNC_3071669 (OCoLC)ocm23485900 columbia_aco000432
-880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 700-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000432
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm03602654 
    oclc_rec_035_num: (OCoLC)3602654
@@ -412,7 +365,6 @@ Institution ID: NNC_3072641
 Record 999:  NNC_3072641 (OCoLC)ocm47833094 columbia_aco000469
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   100 - Ghaiṭī, Najm al-Dīn al-, -1573.
    260 - [Cairo], [1295, A.D. 1878]
 040 $e field: [none]
 RDA fields: YES
@@ -441,5 +393,5 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco000522
 ---------------------------------------------------------------------
-TOTAL Number of Records containing any type of error: 38
+TOTAL Number of Records containing any type of error: 34
 

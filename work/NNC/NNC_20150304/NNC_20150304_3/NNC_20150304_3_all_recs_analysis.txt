@@ -1,16 +1,16 @@
 Total records processed - batch NNC_20150304: 200 records
-Report produced: 2015-06-01 11:25:23.818638
-Input File (updates): 178
-Input File (final subset): 22
+Report produced: 2015-06-02 13:29:34.327125
+Input File (updates): 38
+Input File (final subset): 162
 
 Records where OCLC nums did not match: 0
-Total records containing any type of error for this round: 38 (19.0%)
-Total records passing to final version for this round: 162 (81.0%)
+Total records containing any type of error for this round: 34 (17.0%)
+Total records passing to final version for this round: 166 (83.0%)
 -----------------------
-Records containing 880 script fields: 174 (87.0%)
-Records with NO 880 script fields: 4 (2.0%)
-Records missing key 880 script fields: 33 (16.5%)
-Records containing unlinked 880 script fields: 2 (1.0%)
+Records containing 880 script fields: 35 (17.5%)
+Records with NO 880 script fields: 3 (1.5%)
+Records missing key 880 script fields: 31 (15.5%)
+Records containing unlinked 880 script fields: 0 (0.0%)
 Records containing series errors in 490/800/810/811/830 fields: 0 (0.0%)
 Records containing miscellaneous errors: 0 (0.0%)
 Records containing bad encoding replacement character: 0
@@ -18,83 +18,11 @@ Records containing RDA fields: 175 (87.5%)
 ---------------------------------------------------------------------
 INDIVIDUAL RECORDS ANALYSIS:
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47822247 
-   oclc_rec_035_num: (OCoLC)47822247
-Institution ID: NNC_3071658
-Record 999:  NNC_3071658 (OCoLC)ocm47822247 columbia_aco000428
-880 script fields: YES
-040 $e field: [none]
-Source entities (book IDs): columbia_aco000428
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm84289358 
-   oclc_rec_035_num: (OCoLC)84289358
-Institution ID: NNC_38948
-Record 999:  NNC_38948 (OCoLC)ocm84289358 columbia_aco000462
-880 script fields: YES
-040 $e field: [none]
-Source entities (book IDs): columbia_aco000462
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm21713655 
-   oclc_rec_035_num: (OCoLC)21713655
-Institution ID: NNC_3076916
-Record 999:  NNC_3076916 (OCoLC)ocm21713655 columbia_aco000412
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000412
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23129382 
-   oclc_rec_035_num: (OCoLC)23129382
-Institution ID: NNC_3076363
-Record 999:  NNC_3076363 (OCoLC)ocm23129382 columbia_aco000602
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000602
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm49683081 
-   oclc_rec_035_num: (OCoLC)49683081
-Institution ID: NNC_3270107
-Record 999:  NNC_3270107 (OCoLC)ocm49683081 columbia_aco000455
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000455
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm40975777 
-   oclc_rec_035_num: (OCoLC)40975777
-Institution ID: NNC_3233814
-Record 999:  NNC_3233814 (OCoLC)ocm40975777 columbia_aco000519
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000519
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm40237335 
-   oclc_rec_035_num: (OCoLC)40237335
-Institution ID: NNC_3071331
-Record 999:  NNC_3071331 (OCoLC)ocm40237335 columbia_aco000484
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000484
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm28955937 
-   oclc_rec_035_num: (OCoLC)28955937
-Institution ID: NNC_3169741
-Record 999:  NNC_3169741 (OCoLC)ocm28955937 columbia_aco000413
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000413
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm48104053 
    oclc_rec_035_num: (OCoLC)48104053
 Institution ID: NNC_3099484
 Record 999:  NNC_3099484 (OCoLC)ocm48104053 columbia_aco000572
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   100 - Bigiev, Musa Dzharullakh, 1875-1949.
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco000572
@@ -122,35 +50,14 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco000547
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn316075612
-   oclc_rec_035_num: (OCoLC)316075612
-Institution ID: NNC_3068364
-Record 999:  NNC_3068364 (OCoLC)ocn316075612 columbia_aco000500
-880 script fields: YES
-040 $e field: [none]
-Source entities (book IDs): columbia_aco000500
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm18102992 
    oclc_rec_035_num: (OCoLC)18102992
 Institution ID: NNC_3082654
 Record 999:  NNC_3082654 (OCoLC)ocm18102992 columbia_aco000570
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   240 - Tārikh al-Islām.. Selections
-ERROR-880: Unlinked 880s: YES
-   880 $6 240-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco000570
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm43931507 
-   oclc_rec_035_num: (OCoLC)43931507
-Institution ID: NNC_3233781
-Record 999:  NNC_3233781 (OCoLC)ocm43931507 columbia_aco000505
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000505
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm29062997 
    oclc_rec_035_num: (OCoLC)29062997
@@ -163,42 +70,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco000560
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm51982192 
-   oclc_rec_035_num: (OCoLC)51982192
-Institution ID: NNC_3370448
-Record 999:  NNC_3370448 (OCoLC)ocm51982192 columbia_aco000481
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000481
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm34659155 
-   oclc_rec_035_num: (OCoLC)34659155
-Institution ID: NNC_3270420
-Record 999:  NNC_3270420 (OCoLC)ocm34659155 columbia_aco000415
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000415
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm40975971 
-   oclc_rec_035_num: (OCoLC)40975971
-Institution ID: NNC_3370383
-Record 999:  NNC_3370383 (OCoLC)ocm40975971 columbia_aco000474
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000474
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm40973190 
-   oclc_rec_035_num: (OCoLC)40973190
-Institution ID: NNC_3068202
-Record 999:  NNC_3068202 (OCoLC)ocm40973190 columbia_aco000521
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000521
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm42840762 
    oclc_rec_035_num: (OCoLC)42840762
 Institution ID: NNC_3071323
@@ -206,55 +77,9 @@ Record 999:  NNC_3071323 (OCoLC)ocm42840762 columbia_aco000411
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    260 - [Place of publication not identified] : [publisher not identified], 1364 [1944 or 1945]
-   260 - [Place of publication not identified] : [publisher not identified], 1364 [1944 or 1945]
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco000411
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47812949 
-   oclc_rec_035_num: (OCoLC)47812949
-Institution ID: NNC_3071168
-Record 999:  NNC_3071168 (OCoLC)ocm47812949 columbia_aco000591
-880 script fields: YES
-040 $e field: [none]
-Source entities (book IDs): columbia_aco000591
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47822333 
-   oclc_rec_035_num: (OCoLC)47822333
-Institution ID: NNC_3071682
-Record 999:  NNC_3071682 (OCoLC)ocm47822333 columbia_aco000495
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000495
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47851385 
-   oclc_rec_035_num: (OCoLC)47851385
-   oclc_rec_035_num: (OCoLC)80717733
-Institution ID: NNC_3074026
-Record 999:  NNC_3074026 (OCoLC)ocm47851385 columbia_aco000592
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000592
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm33824009 
-   oclc_rec_035_num: (OCoLC)33824009
-Institution ID: NNC_3073686
-Record 999:  NNC_3073686 (OCoLC)ocm33824009 columbia_aco000443
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000443
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47924196 
-   oclc_rec_035_num: (OCoLC)47924196
-Institution ID: NNC_3080533
-Record 999:  NNC_3080533 (OCoLC)ocm47924196 columbia_aco000419
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000419
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm09114736 
    oclc_rec_035_num: (OCoLC)9114736
@@ -267,42 +92,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco000558
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47942104 
-   oclc_rec_035_num: (OCoLC)47942104
-Institution ID: NNC_3082680
-Record 999:  NNC_3082680 (OCoLC)ocm47942104 columbia_aco000513
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000513
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm43222126 
-   oclc_rec_035_num: (OCoLC)43222126
-Institution ID: NNC_3058993
-Record 999:  NNC_3058993 (OCoLC)ocm43222126 columbia_aco000548
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000548
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23512163 
-   oclc_rec_035_num: (OCoLC)23512163
-Institution ID: NNC_3076645
-Record 999:  NNC_3076645 (OCoLC)ocm23512163 columbia_aco000598
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000598
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47722806 
-   oclc_rec_035_num: (OCoLC)47722806
-Institution ID: NNC_3059339
-Record 999:  NNC_3059339 (OCoLC)ocm47722806 columbia_aco000543
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000543
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm22201538 
    oclc_rec_035_num: (OCoLC)22201538
 Institution ID: NNC_3274777
@@ -314,145 +103,15 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 040 $e field: [none]
 Source entities (book IDs): columbia_aco000430
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm36599610 
-   oclc_rec_035_num: (OCoLC)36599610
-   oclc_rec_035_num: (OCoLC)264531161
-Institution ID: NNC_3076886
-Record 999:  NNC_3076886 (OCoLC)ocm36599610 columbia_aco000480
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000480
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm40974041 
-   oclc_rec_035_num: (OCoLC)40974041
-Institution ID: NNC_4906193
-Record 999:  NNC_4906193 (OCoLC)ocm40974041 columbia_aco000565
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000565
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47905562 
-   oclc_rec_035_num: (OCoLC)47905562
-Institution ID: NNC_3079548
-Record 999:  NNC_3079548 (OCoLC)ocm47905562 columbia_aco000471
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000471
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm49694037 
-   oclc_rec_035_num: (OCoLC)49694037
-Institution ID: NNC_3274208
-Record 999:  NNC_3274208 (OCoLC)ocm49694037 columbia_aco000491
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000491
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm57209561 
-   oclc_rec_035_num: (OCoLC)57209561
-Institution ID: NNC_4975230
-Record 999:  NNC_4975230 (OCoLC)ocm57209561 columbia_aco000596
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000596
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm49355172 
-   oclc_rec_035_num: (OCoLC)49355172
-Institution ID: NNC_3235680
-Record 999:  NNC_3235680 (OCoLC)ocm49355172 columbia_aco000439
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000439
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23508139 
-   oclc_rec_035_num: (OCoLC)23508139
-   oclc_rec_035_num: (OCoLC)33049830
-   oclc_rec_035_num: (OCoLC)549207814
-Institution ID: NNC_3071303
-Record 999:  NNC_3071303 (OCoLC)ocm23508139 columbia_aco000525
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000525
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm35048729 
-   oclc_rec_035_num: (OCoLC)35048729
-Institution ID: NNC_3054982
-Record 999:  NNC_3054982 (OCoLC)ocm35048729 columbia_aco000568
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000568
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm84444082 
    oclc_rec_035_num: (OCoLC)84444082
 Institution ID: NNC_32387
 Record 999:  NNC_32387 (OCoLC)ocm84444082 columbia_aco000503
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   110 - American University of Beirut.
    260 - Beirut, 1870.
 040 $e field: [none]
 Source entities (book IDs): columbia_aco000503
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47861976 
-   oclc_rec_035_num: (OCoLC)47861976
-Institution ID: NNC_3076699
-Record 999:  NNC_3076699 (OCoLC)ocm47861976 columbia_aco000456
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000456
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm48243929 
-   oclc_rec_035_num: (OCoLC)48243929
-Institution ID: NNC_3131547
-Record 999:  NNC_3131547 (OCoLC)ocm48243929 columbia_aco000422
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000422
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm29883795 
-   oclc_rec_035_num: (OCoLC)29883795
-Institution ID: NNC_3058937
-Record 999:  NNC_3058937 (OCoLC)ocm29883795 columbia_aco000574
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000574
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm48245390 
-   oclc_rec_035_num: (OCoLC)48245390
-Institution ID: NNC_3131633
-Record 999:  NNC_3131633 (OCoLC)ocm48245390 columbia_aco000556
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000556
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm11749558 
-   oclc_rec_035_num: (OCoLC)11749558
-Institution ID: NNC_3058921
-Record 999:  NNC_3058921 (OCoLC)ocm11749558 columbia_aco000553
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000553
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm48392568 
-   oclc_rec_035_num: (OCoLC)48392568
-Institution ID: NNC_3130417
-Record 999:  NNC_3130417 (OCoLC)ocm48392568 columbia_aco000425
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000425
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm27789110 
    oclc_rec_035_num: (OCoLC)27789110
@@ -470,87 +129,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco000473
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm43196715 
-   oclc_rec_035_num: (OCoLC)43196715
-Institution ID: NNC_3068286
-Record 999:  NNC_3068286 (OCoLC)ocm43196715 columbia_aco000527
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000527
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47806024 
-   oclc_rec_035_num: (OCoLC)47806024
-Institution ID: NNC_3068180
-Record 999:  NNC_3068180 (OCoLC)ocm47806024 columbia_aco000489
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000489
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm48208327 
-   oclc_rec_035_num: (OCoLC)48208327
-Institution ID: NNC_3122182
-Record 999:  NNC_3122182 (OCoLC)ocm48208327 columbia_aco000492
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000492
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm30927725 
-   oclc_rec_035_num: (OCoLC)30927725
-Institution ID: NNC_3071186
-Record 999:  NNC_3071186 (OCoLC)ocm30927725 columbia_aco000493
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000493
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm36551849 
-   oclc_rec_035_num: (OCoLC)36551849
-Institution ID: NNC_3071644
-Record 999:  NNC_3071644 (OCoLC)ocm36551849 columbia_aco000589
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000589
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47814190 
-   oclc_rec_035_num: (OCoLC)47814190
-Institution ID: NNC_3071360
-Record 999:  NNC_3071360 (OCoLC)ocm47814190 columbia_aco000514
-880 script fields: YES
-040 $e field: [none]
-Source entities (book IDs): columbia_aco000514
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47807656 
-   oclc_rec_035_num: (OCoLC)47807656
-   oclc_rec_035_num: (OCoLC)83859250
-Institution ID: NNC_3068351
-Record 999:  NNC_3068351 (OCoLC)ocm47807656 columbia_aco000418
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000418
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm48193175 
-   oclc_rec_035_num: (OCoLC)48193175
-Institution ID: NNC_3121125
-Record 999:  NNC_3121125 (OCoLC)ocm48193175 columbia_aco000595
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000595
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47849669 
-   oclc_rec_035_num: (OCoLC)47849669
-Institution ID: NNC_3073789
-Record 999:  NNC_3073789 (OCoLC)ocm47849669 columbia_aco000426
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000426
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm23507032 
    oclc_rec_035_num: (OCoLC)23507032
 Institution ID: NNC_3063278
@@ -558,28 +136,9 @@ Record 999:  NNC_3063278 (OCoLC)ocm23507032 columbia_aco000586
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    260 - 1955.
-   260 - 1955.
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco000586
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23514368 
-   oclc_rec_035_num: (OCoLC)23514368
-Institution ID: NNC_3059239
-Record 999:  NNC_3059239 (OCoLC)ocm23514368 columbia_aco000509
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000509
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm28765534 
-   oclc_rec_035_num: (OCoLC)28765534
-Institution ID: NNC_3058871
-Record 999:  NNC_3058871 (OCoLC)ocm28765534 columbia_aco000450
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000450
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm08653236 
    oclc_rec_035_num: (OCoLC)8653236
@@ -592,32 +151,16 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco000571
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm48202491 
-   oclc_rec_035_num: (OCoLC)48202491
-Institution ID: NNC_3121534
-Record 999:  NNC_3121534 (OCoLC)ocm48202491 columbia_aco000417
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000417
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm48196685 
    oclc_rec_035_num: (OCoLC)48196685
 Institution ID: NNC_3121227
 Record 999:  NNC_3121227 (OCoLC)ocm48196685 columbia_aco000601
-ERROR-880: 880 script fields: NO
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - Beyrouth, Imprimerie catholique, 1912-13.
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco000601
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47829320 
-   oclc_rec_035_num: (OCoLC)47829320
-Institution ID: NNC_3072300
-Record 999:  NNC_3072300 (OCoLC)ocm47829320 columbia_aco000475
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000475
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm79416191 
    oclc_rec_035_num: (OCoLC)79416191
@@ -672,8 +215,6 @@ OCLC ID: (OCoLC)ocm29491275
 Institution ID: NNC_3233793
 Record 999:  NNC_3233793 (OCoLC)ocm29491275 columbia_aco000528
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   700 - Van Dyck, Edward Abbott.
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco000528
@@ -688,33 +229,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco000404
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm18363755 
-   oclc_rec_035_num: (OCoLC)18363755
-Institution ID: NNC_3063392
-Record 999:  NNC_3063392 (OCoLC)ocm18363755 columbia_aco000546
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000546
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm28701456 
-   oclc_rec_035_num: (OCoLC)28701456
-Institution ID: NNC_3071272
-Record 999:  NNC_3071272 (OCoLC)ocm28701456 columbia_aco000518
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000518
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm27375784 
-   oclc_rec_035_num: (OCoLC)27375784
-Institution ID: NNC_3239722
-Record 999:  NNC_3239722 (OCoLC)ocm27375784 columbia_aco000542
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000542
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocn505009948
    oclc_rec_035_num: (OCoLC)505009948
@@ -739,15 +253,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco000458
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47722866 
-   oclc_rec_035_num: (OCoLC)47722866
-Institution ID: NNC_3059359
-Record 999:  NNC_3059359 (OCoLC)ocm47722866 columbia_aco000508
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000508
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm43195451 
    oclc_rec_035_num: (OCoLC)43195451
    oclc_rec_035_num: (OCoLC)30327229
@@ -760,61 +265,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco000478
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm18576592 
-   oclc_rec_035_num: (OCoLC)18576592
-Institution ID: NNC_3063603
-Record 999:  NNC_3063603 (OCoLC)ocm18576592 columbia_aco000431
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000431
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47918820 
-   oclc_rec_035_num: (OCoLC)47918820
-Institution ID: NNC_3080204
-Record 999:  NNC_3080204 (OCoLC)ocm47918820 columbia_aco000501
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000501
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47855561 
-   oclc_rec_035_num: (OCoLC)47855561
-Institution ID: NNC_3076204
-Record 999:  NNC_3076204 (OCoLC)ocm47855561 columbia_aco000452
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000452
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm32531080 
-   oclc_rec_035_num: (OCoLC)32531080
-Institution ID: NNC_3122208
-Record 999:  NNC_3122208 (OCoLC)ocm32531080 columbia_aco000545
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000545
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47881983 
-   oclc_rec_035_num: (OCoLC)47881983
-   oclc_rec_035_num: (OCoLC)81483110
-Institution ID: NNC_3077317
-Record 999:  NNC_3077317 (OCoLC)ocm47881983 columbia_aco000467
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000467
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47847578 
-   oclc_rec_035_num: (OCoLC)47847578
-Institution ID: NNC_3073622
-Record 999:  NNC_3073622 (OCoLC)ocm47847578 columbia_aco000453
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000453
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm13079258 
    oclc_rec_035_num: (OCoLC)13079258
    oclc_rec_035_num: (OCoLC)419328425
@@ -826,24 +276,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco000449
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm44845611 
-   oclc_rec_035_num: (OCoLC)44845611
-Institution ID: NNC_3071368
-Record 999:  NNC_3071368 (OCoLC)ocm44845611 columbia_aco000486
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000486
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm43295514 
-   oclc_rec_035_num: (OCoLC)43295514
-Institution ID: NNC_3077306
-Record 999:  NNC_3077306 (OCoLC)ocm43295514 columbia_aco000516
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000516
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm17723549 
    oclc_rec_035_num: (OCoLC)17723549
@@ -876,97 +308,14 @@ ERROR-880: 880 script fields: NO
 RDA fields: YES
 Source entities (book IDs): columbia_aco000465
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47827748 
-   oclc_rec_035_num: (OCoLC)47827748
-   oclc_rec_035_num: (OCoLC)79301366
-Institution ID: NNC_3072094
-Record 999:  NNC_3072094 (OCoLC)ocm47827748 columbia_aco000531
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000531
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47942156 
-   oclc_rec_035_num: (OCoLC)47942156
-Institution ID: NNC_3082686
-Record 999:  NNC_3082686 (OCoLC)ocm47942156 columbia_aco000498
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000498
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm33992827 
-   oclc_rec_035_num: (OCoLC)33992827
-Institution ID: NNC_3063520
-Record 999:  NNC_3063520 (OCoLC)ocm33992827 columbia_aco000550
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000550
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm41354577 
-   oclc_rec_035_num: (OCoLC)41354577
-Institution ID: NNC_3073944
-Record 999:  NNC_3073944 (OCoLC)ocm41354577 columbia_aco000582
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000582
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn453139628
-   oclc_rec_035_num: (OCoLC)453139628
-Institution ID: NNC_3068047
-Record 999:  NNC_3068047 (OCoLC)ocn453139628 columbia_aco000445
-880 script fields: YES
-040 $e field: [none]
-Source entities (book IDs): columbia_aco000445
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47758764 
-   oclc_rec_035_num: (OCoLC)47758764
-Institution ID: NNC_3063369
-Record 999:  NNC_3063369 (OCoLC)ocm47758764 columbia_aco000477
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000477
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm26846658 
-   oclc_rec_035_num: (OCoLC)26846658
-Institution ID: NNC_3071258
-Record 999:  NNC_3071258 (OCoLC)ocm26846658 columbia_aco000494
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000494
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47826755 
-   oclc_rec_035_num: (OCoLC)47826755
-Institution ID: NNC_3071924
-Record 999:  NNC_3071924 (OCoLC)ocm47826755 columbia_aco000544
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000544
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm23485900 
    oclc_rec_035_num: (OCoLC)23485900
 Institution ID: NNC_3071669
 Record 999:  NNC_3071669 (OCoLC)ocm23485900 columbia_aco000432
 880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 700-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco000432
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm40974939 
-   oclc_rec_035_num: (OCoLC)40974939
-Institution ID: NNC_3279358
-Record 999:  NNC_3279358 (OCoLC)ocm40974939 columbia_aco000534
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000534
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm03602654 
    oclc_rec_035_num: (OCoLC)3602654
@@ -978,41 +327,6 @@ ERROR-880: 880 script fields: NO
 RDA fields: YES
 Source entities (book IDs): columbia_aco000581
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm79158271 
-   oclc_rec_035_num: (OCoLC)79158271
-Institution ID: NNC_3236291
-Record 999:  NNC_3236291 (OCoLC)ocm79158271 columbia_aco000414
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000414
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm30573868 
-   oclc_rec_035_num: (OCoLC)30573868
-   oclc_rec_035_num: (OCoLC)30573842
-Institution ID: NNC_3071341
-Record 999:  NNC_3071341 (OCoLC)ocm30573868 columbia_aco000406
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000406
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn506120577
-   oclc_rec_035_num: (OCoLC)506120577
-Institution ID: NNC_3367337
-Record 999:  NNC_3367337 (OCoLC)ocn506120577 columbia_aco000436
-880 script fields: YES
-040 $e field: [none]
-Source entities (book IDs): columbia_aco000436
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm82805117 
-   oclc_rec_035_num: (OCoLC)82805117
-Institution ID: NNC_3076938
-Record 999:  NNC_3076938 (OCoLC)ocm82805117 columbia_aco000559
-880 script fields: YES
-040 $e field: [none]
-Source entities (book IDs): columbia_aco000559
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm23497379 
    oclc_rec_035_num: (OCoLC)23497379
 Institution ID: NNC_3076640
@@ -1023,85 +337,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco000597
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm33923271 
-   oclc_rec_035_num: (OCoLC)33923271
-Institution ID: NNC_3071663
-Record 999:  NNC_3071663 (OCoLC)ocm33923271 columbia_aco000427
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000427
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47822688 
-   oclc_rec_035_num: (OCoLC)47822688
-Institution ID: NNC_3071747
-Record 999:  NNC_3071747 (OCoLC)ocm47822688 columbia_aco000490
-880 script fields: YES
-040 $e field: [none]
-Source entities (book IDs): columbia_aco000490
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm36905373 
-   oclc_rec_035_num: (OCoLC)36905373
-Institution ID: NNC_3059344
-Record 999:  NNC_3059344 (OCoLC)ocm36905373 columbia_aco000461
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000461
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47913371 
-   oclc_rec_035_num: (OCoLC)47913371
-Institution ID: NNC_3079798
-Record 999:  NNC_3079798 (OCoLC)ocm47913371 columbia_aco000573
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000573
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm48805965 
-   oclc_rec_035_num: (OCoLC)48805965
-Institution ID: NNC_3171119
-Record 999:  NNC_3171119 (OCoLC)ocm48805965 columbia_aco000437
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000437
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm36503824 
-   oclc_rec_035_num: (OCoLC)36503824
-Institution ID: NNC_3071164
-Record 999:  NNC_3071164 (OCoLC)ocm36503824 columbia_aco000460
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000460
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23743650 
-   oclc_rec_035_num: (OCoLC)23743650
-Institution ID: NNC_3076738
-Record 999:  NNC_3076738 (OCoLC)ocm23743650 columbia_aco000506
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000506
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm43265061 
-   oclc_rec_035_num: (OCoLC)43265061
-Institution ID: NNC_3072222
-Record 999:  NNC_3072222 (OCoLC)ocm43265061 columbia_aco000497
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000497
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47813435 
-   oclc_rec_035_num: (OCoLC)47813435
-Institution ID: NNC_3071273
-Record 999:  NNC_3071273 (OCoLC)ocm47813435 columbia_aco000483
-880 script fields: YES
-040 $e field: [none]
-Source entities (book IDs): columbia_aco000483
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm21789239 
    oclc_rec_035_num: (OCoLC)21789239
@@ -1115,87 +350,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco000472
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm50200527 
-   oclc_rec_035_num: (OCoLC)50200527
-Institution ID: NNC_3068226
-Record 999:  NNC_3068226 (OCoLC)ocm50200527 columbia_aco000541
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000541
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47234567 
-   oclc_rec_035_num: (OCoLC)47234567
-Institution ID: NNC_3040285
-Record 999:  NNC_3040285 (OCoLC)ocm47234567 columbia_aco000517
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000517
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47911876 
-   oclc_rec_035_num: (OCoLC)47911876
-Institution ID: NNC_3079717
-Record 999:  NNC_3079717 (OCoLC)ocm47911876 columbia_aco000504
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000504
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm40236479 
-   oclc_rec_035_num: (OCoLC)40236479
-Institution ID: NNC_3058978
-Record 999:  NNC_3058978 (OCoLC)ocm40236479 columbia_aco000551
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000551
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47813532 
-   oclc_rec_035_num: (OCoLC)47813532
-   oclc_rec_035_num: (OCoLC)51774060
-Institution ID: NNC_3071299
-Record 999:  NNC_3071299 (OCoLC)ocm47813532 columbia_aco000485
-880 script fields: YES
-040 $e field: [none]
-Source entities (book IDs): columbia_aco000485
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm40699927 
-   oclc_rec_035_num: (OCoLC)40699927
-Institution ID: NNC_3063585
-Record 999:  NNC_3063585 (OCoLC)ocm40699927 columbia_aco000590
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000590
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23506641 
-   oclc_rec_035_num: (OCoLC)23506641
-Institution ID: NNC_4918817
-Record 999:  NNC_4918817 (OCoLC)ocm23506641 columbia_aco000416
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-Source entities (book IDs): columbia_aco000416
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47832918 
-   oclc_rec_035_num: (OCoLC)47832918
-Institution ID: NNC_3072605
-Record 999:  NNC_3072605 (OCoLC)ocm47832918 columbia_aco000537
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000537
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm18923758 
-   oclc_rec_035_num: (OCoLC)18923758
-Institution ID: NNC_3082679
-Record 999:  NNC_3082679 (OCoLC)ocm18923758 columbia_aco000424
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000424
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm47809109 
    oclc_rec_035_num: (OCoLC)47809109
 Institution ID: NNC_3068438
@@ -1206,53 +360,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco000476
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47864925 
-   oclc_rec_035_num: (OCoLC)47864925
-Institution ID: NNC_3076921
-Record 999:  NNC_3076921 (OCoLC)ocm47864925 columbia_aco000536
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000536
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm56163002 
-   oclc_rec_035_num: (OCoLC)56163002
-Institution ID: NNC_4388092
-Record 999:  NNC_4388092 (OCoLC)ocm56163002 columbia_aco000555
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000555
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23505220 
-   oclc_rec_035_num: (OCoLC)23505220
-Institution ID: NNC_3122361
-Record 999:  NNC_3122361 (OCoLC)ocm23505220 columbia_aco000499
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000499
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm29254033 
-   oclc_rec_035_num: (OCoLC)29254033
-   oclc_rec_035_num: (OCoLC)122889359
-Institution ID: NNC_3071522
-Record 999:  NNC_3071522 (OCoLC)ocm29254033 columbia_aco000507
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000507
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm42866618 
-   oclc_rec_035_num: (OCoLC)42866618
-   oclc_rec_035_num: (OCoLC)64017071
-Institution ID: NNC_3079520
-Record 999:  NNC_3079520 (OCoLC)ocm42866618 columbia_aco000479
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000479
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm47855508 
    oclc_rec_035_num: (OCoLC)47855508
@@ -1266,178 +373,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco000578
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47800172 
-   oclc_rec_035_num: (OCoLC)47800172
-Institution ID: NNC_3068039
-Record 999:  NNC_3068039 (OCoLC)ocm47800172 columbia_aco000580
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000580
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47755212 
-   oclc_rec_035_num: (OCoLC)47755212
-Institution ID: NNC_3063204
-Record 999:  NNC_3063204 (OCoLC)ocm47755212 columbia_aco000444
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000444
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm40245090 
-   oclc_rec_035_num: (OCoLC)40245090
-Institution ID: NNC_3080158
-Record 999:  NNC_3080158 (OCoLC)ocm40245090 columbia_aco000600
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000600
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm44198999 
-   oclc_rec_035_num: (OCoLC)44198999
-Institution ID: NNC_3068246
-Record 999:  NNC_3068246 (OCoLC)ocm44198999 columbia_aco000529
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-Source entities (book IDs): columbia_aco000529
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47924146 
-   oclc_rec_035_num: (OCoLC)47924146
-Institution ID: NNC_3080528
-Record 999:  NNC_3080528 (OCoLC)ocm47924146 columbia_aco000557
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000557
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm38997896 
-   oclc_rec_035_num: (OCoLC)38997896
-Institution ID: NNC_3071810
-Record 999:  NNC_3071810 (OCoLC)ocm38997896 columbia_aco000435
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000435
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm48208200 
-   oclc_rec_035_num: (OCoLC)48208200
-Institution ID: NNC_3122144
-Record 999:  NNC_3122144 (OCoLC)ocm48208200 columbia_aco000539
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000539
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm17044694 
-   oclc_rec_035_num: (OCoLC)17044694
-   oclc_rec_035_num: (OCoLC)264979853
-Institution ID: NNC_3067054
-Record 999:  NNC_3067054 (OCoLC)ocm17044694 columbia_aco000563
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000563
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm26275857 
-   oclc_rec_035_num: (OCoLC)26275857
-Institution ID: NNC_3080584
-Record 999:  NNC_3080584 (OCoLC)ocm26275857 columbia_aco000451
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000451
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm49393228 
-   oclc_rec_035_num: (OCoLC)49393228
-Institution ID: NNC_3238940
-Record 999:  NNC_3238940 (OCoLC)ocm49393228 columbia_aco000441
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000441
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm56798505 
-   oclc_rec_035_num: (OCoLC)56798505
-Institution ID: NNC_4893623
-Record 999:  NNC_4893623 (OCoLC)ocm56798505 columbia_aco000524
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000524
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm78148812 
-   oclc_rec_035_num: (OCoLC)78148812
-   oclc_rec_035_num: (OCoLC)48806392
-Institution ID: NNC_3171140
-Record 999:  NNC_3171140 (OCoLC)ocm78148812 columbia_aco000535
-880 script fields: YES
-040 $e field: [none]
-Source entities (book IDs): columbia_aco000535
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn504979931
-   oclc_rec_035_num: (OCoLC)504979931
-Institution ID: NNC_3071395
-Record 999:  NNC_3071395 (OCoLC)ocn504979931 columbia_aco000403
-880 script fields: YES
-040 $e field: [none]
-Source entities (book IDs): columbia_aco000403
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47822655 
-   oclc_rec_035_num: (OCoLC)47822655
-   oclc_rec_035_num: (OCoLC)122963841
-Institution ID: NNC_3071744
-Record 999:  NNC_3071744 (OCoLC)ocm47822655 columbia_aco000532
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000532
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm31238880 
-   oclc_rec_035_num: (OCoLC)31238880
-Institution ID: NNC_3131655
-Record 999:  NNC_3131655 (OCoLC)ocm31238880 columbia_aco000464
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000464
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47717319 
-   oclc_rec_035_num: (OCoLC)47717319
-Institution ID: NNC_3058988
-Record 999:  NNC_3058988 (OCoLC)ocm47717319 columbia_aco000510
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000510
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm36599461 
-   oclc_rec_035_num: (OCoLC)36599461
-Institution ID: NNC_3068078
-Record 999:  NNC_3068078 (OCoLC)ocm36599461 columbia_aco000538
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000538
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn505038637
-   oclc_rec_035_num: (OCoLC)505038637
-Institution ID: NNC_32314
-Record 999:  NNC_32314 (OCoLC)ocn505038637 columbia_aco000496
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000496
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm31217535 
-   oclc_rec_035_num: (OCoLC)31217535
-Institution ID: NNC_3072850
-Record 999:  NNC_3072850 (OCoLC)ocm31217535 columbia_aco000463
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000463
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm03977521 
    oclc_rec_035_num: (OCoLC)3977521
 Institution ID: NNC_3179480
@@ -1446,96 +381,6 @@ ERROR-880: 880 script fields: NO
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco000487
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47882895 
-   oclc_rec_035_num: (OCoLC)47882895
-Institution ID: NNC_3077341
-Record 999:  NNC_3077341 (OCoLC)ocm47882895 columbia_aco000530
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000530
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm46365656 
-   oclc_rec_035_num: (OCoLC)46365656
-Institution ID: NNC_3071393
-Record 999:  NNC_3071393 (OCoLC)ocm46365656 columbia_aco000470
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000470
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47721063 
-   oclc_rec_035_num: (OCoLC)47721063
-Institution ID: NNC_3059121
-Record 999:  NNC_3059121 (OCoLC)ocm47721063 columbia_aco000454
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000454
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47760656 
-   oclc_rec_035_num: (OCoLC)47760656
-Institution ID: NNC_3063588
-Record 999:  NNC_3063588 (OCoLC)ocm47760656 columbia_aco000584
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000584
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm40974859 
-   oclc_rec_035_num: (OCoLC)40974859
-Institution ID: NNC_3076760
-Record 999:  NNC_3076760 (OCoLC)ocm40974859 columbia_aco000408
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000408
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm56834476 
-   oclc_rec_035_num: (OCoLC)56834476
-Institution ID: NNC_4906194
-Record 999:  NNC_4906194 (OCoLC)ocm56834476 columbia_aco000466
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000466
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm16269189 
-   oclc_rec_035_num: (OCoLC)16269189
-Institution ID: NNC_3072126
-Record 999:  NNC_3072126 (OCoLC)ocm16269189 columbia_aco000523
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000523
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm48022706 
-   oclc_rec_035_num: (OCoLC)48022706
-Institution ID: NNC_3089936
-Record 999:  NNC_3089936 (OCoLC)ocm48022706 columbia_aco000482
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000482
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47864652 
-   oclc_rec_035_num: (OCoLC)47864652
-Institution ID: NNC_3076912
-Record 999:  NNC_3076912 (OCoLC)ocm47864652 columbia_aco000446
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000446
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47717261 
-   oclc_rec_035_num: (OCoLC)47717261
-Institution ID: NNC_3058946
-Record 999:  NNC_3058946 (OCoLC)ocm47717261 columbia_aco000564
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000564
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm49340514 
    oclc_rec_035_num: (OCoLC)49340514
@@ -1548,14 +393,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco000440
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47813215 
-   oclc_rec_035_num: (OCoLC)47813215
-Institution ID: NNC_3071240
-Record 999:  NNC_3071240 (OCoLC)ocm47813215 columbia_aco000526
-880 script fields: YES
-040 $e field: [none]
-Source entities (book IDs): columbia_aco000526
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm49340981 
    oclc_rec_035_num: (OCoLC)49340981
 Institution ID: NNC_3233792
@@ -1567,51 +404,16 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco000599
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm40819623 
-   oclc_rec_035_num: (OCoLC)40819623
-Institution ID: NNC_3063549
-Record 999:  NNC_3063549 (OCoLC)ocm40819623 columbia_aco000575
-880 script fields: YES
-040 $e field: [none]
-Source entities (book IDs): columbia_aco000575
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm47833094 
    oclc_rec_035_num: (OCoLC)47833094
 Institution ID: NNC_3072641
 Record 999:  NNC_3072641 (OCoLC)ocm47833094 columbia_aco000469
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   100 - Ghaiṭī, Najm al-Dīn al-, -1573.
    260 - [Cairo], [1295, A.D. 1878]
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco000469
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23486151 
-   oclc_rec_035_num: (OCoLC)23486151
-Institution ID: NNC_3233699
-Record 999:  NNC_3233699 (OCoLC)ocm23486151 columbia_aco000594
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000594
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm57024418 
-   oclc_rec_035_num: (OCoLC)57024418
-Institution ID: NNC_4905795
-Record 999:  NNC_4905795 (OCoLC)ocm57024418 columbia_aco000421
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000421
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47813045 
-   oclc_rec_035_num: (OCoLC)47813045
-Institution ID: NNC_3071181
-Record 999:  NNC_3071181 (OCoLC)ocm47813045 columbia_aco000433
-880 script fields: YES
-040 $e field: [none]
-Source entities (book IDs): columbia_aco000433
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm47884615 
    oclc_rec_035_num: (OCoLC)47884615
@@ -1624,78 +426,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco000567
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47881137 
-   oclc_rec_035_num: (OCoLC)47881137
-   oclc_rec_035_num: (OCoLC)234387201
-Institution ID: NNC_3077308
-Record 999:  NNC_3077308 (OCoLC)ocm47881137 columbia_aco000515
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000515
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47755320 
-   oclc_rec_035_num: (OCoLC)47755320
-Institution ID: NNC_3063222
-Record 999:  NNC_3063222 (OCoLC)ocm47755320 columbia_aco000457
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000457
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47925068 
-   oclc_rec_035_num: (OCoLC)47925068
-   oclc_rec_035_num: (OCoLC)80784518
-Institution ID: NNC_3080618
-Record 999:  NNC_3080618 (OCoLC)ocm47925068 columbia_aco000511
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000511
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm82009530 
-   oclc_rec_035_num: (OCoLC)82009530
-Institution ID: NNC_3071370
-Record 999:  NNC_3071370 (OCoLC)ocm82009530 columbia_aco000579
-880 script fields: YES
-040 $e field: [none]
-Source entities (book IDs): columbia_aco000579
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47822166 
-   oclc_rec_035_num: (OCoLC)47822166
-Institution ID: NNC_3071633
-Record 999:  NNC_3071633 (OCoLC)ocm47822166 columbia_aco000562
-880 script fields: YES
-040 $e field: [none]
-Source entities (book IDs): columbia_aco000562
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm19959772 
-   oclc_rec_035_num: (OCoLC)19959772
-Institution ID: NNC_3082684
-Record 999:  NNC_3082684 (OCoLC)ocm19959772 columbia_aco000569
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000569
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm48248532 
-   oclc_rec_035_num: (OCoLC)48248532
-Institution ID: NNC_3127316
-Record 999:  NNC_3127316 (OCoLC)ocm48248532 columbia_aco000554
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000554
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm40556150 
-   oclc_rec_035_num: (OCoLC)40556150
-Institution ID: NNC_3170326
-Record 999:  NNC_3170326 (OCoLC)ocm40556150 columbia_aco000438
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000438
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm47884492 
    oclc_rec_035_num: (OCoLC)47884492
