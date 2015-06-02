@@ -5,28 +5,47 @@
 	<controlfield tag="003">NNU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150424q19501959iq      o     000 1 ara d</controlfield>
+	<controlfield tag="008">150602s195u    iq      o     000 1 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ7862.A27</subfield>
+		<subfield code="b">K5 1950</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Ṣabrī, Idmūn.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Ṣabrī, Idmūn.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Khubz al-ḥukūmah</subfield>
-		<subfield code="h">[electronic resource] :</subfield>
-		<subfield code="b">aqāṣīṣ /</subfield>
-		<subfield code="c">Idmūn Ṣabrī.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Khubz al-ḥukūmah :</subfield>
+		<subfield code="b">aqāṣīṣ /</subfield>
+		<subfield code="c">Idmūn Ṣabrī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Baghdād :</subfield>
-		<subfield code="b">[s.n.,</subfield>
-		<subfield code="c">195-]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Baghdād :</subfield>
+		<subfield code="b">[publisher not identified],</subfield>
+		<subfield code="c">[195-]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (56 p.)</subfield>
+		<subfield code="a">online resource (56 pages)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
@@ -47,12 +66,28 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Ṣabrī, Idmūn.</subfield>
-		<subfield code="t">Khubz al-ḥukūmah</subfield>
+		<subfield code="a">Ṣabrī, Idmūn.</subfield>
+		<subfield code="t">Khubz al-ḥukūmah</subfield>
 		<subfield code="w">(NNU)002933615</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/hhmgqr0h</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/</subfield>
+		<subfield code="a">صبري، ادمون.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/</subfield>
+		<subfield code="a">خبز الحكومة :</subfield>
+		<subfield code="b">اقاصيص /</subfield>
+		<subfield code="c">ادمون صبري.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/</subfield>
+		<subfield code="a">بغداد :</subfield>
+		<subfield code="b">[publisher not identified],</subfield>
+		<subfield code="c">[195-]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -65,6 +100,5 @@
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNU_002933615</subfield>
 		<subfield code="s">nyu_aco000559</subfield>
-		<subfield code="e">(ERROR-880)</subfield>
 	</datafield>
 </record>

@@ -5,10 +5,11 @@
 	<controlfield tag="003">NNU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150424q19601969iq a    o     000 0 ararc</controlfield>
+	<controlfield tag="008">150602s196u    iq a    o     000 0 arard</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
@@ -20,18 +21,32 @@
 		<subfield code="a">Samʻān, al-Farīd</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Ṭūfān</subfield>
-		<subfield code="h">[electronic resource] /</subfield>
-		<subfield code="c">shiʻr Alfrīd Samʻān.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Ṭūfān :</subfield>
+		<subfield code="b">shiʻr /</subfield>
+		<subfield code="c">Alfrīd Samʻān.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[Baghdād :</subfield>
-		<subfield code="b">s.n.,</subfield>
-		<subfield code="c">196-?]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[Baghdād] :</subfield>
+		<subfield code="b">[publisher not identified],</subfield>
+		<subfield code="c">[196-?]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (65 p.) :</subfield>
-		<subfield code="b">ill.</subfield>
+		<subfield code="a">online resource (65 pages) :</subfield>
+		<subfield code="b">illustrations</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
@@ -53,7 +68,7 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Samʻān, al-Farīd 880-01</subfield>
-		<subfield code="t">Ṭūfān</subfield>
+		<subfield code="t">Ṭūfān</subfield>
 		<subfield code="w">(NNU)002933684</subfield>
 		<subfield code="w">(DLC)ne 65000948</subfield>
 	</datafield>
@@ -62,7 +77,19 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01/</subfield>
-		<subfield code="a">سمعان, الفريد.</subfield>
+		<subfield code="a">سمعان، الفريد.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/</subfield>
+		<subfield code="a">طوفان :</subfield>
+		<subfield code="b">شعر /</subfield>
+		<subfield code="c">الفريد سمعان.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/</subfield>
+		<subfield code="a">[بغداد] :</subfield>
+		<subfield code="b">[publisher not identified],</subfield>
+		<subfield code="c">[196-?]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -75,6 +102,5 @@
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNU_002933684</subfield>
 		<subfield code="s">nyu_aco000560</subfield>
-		<subfield code="e">(ERROR-880)</subfield>
 	</datafield>
 </record>

@@ -3,32 +3,12 @@ Records containing SERIES errors - batch NNU_20150304
 --  Either the 490 field has 1st indicator=0 (untraced)
 --  Or there are more 490 fields than there are 800/810/811/830 fields,
     so the corresponding 8XX heading needs added
-Report produced: 2015-04-24 00:11:45.367390
+Report produced: 2015-06-02 07:36:46.380546
 ---------------------------------------------------------------------
 FILE: NNU_20150304_1/NNU_20150304_1_orig_with_oclc_nums.mrc
----------------------------------------------------------------------
-Institution ID: NNU_001677144
-   orig_rec_035 num: =035  \\$a(OCoLC)16838911
-Record 999:  NNU_001677144
-880 script fields: YES
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Silsilat al-makhṭūṭāt ; al-Juzʼ 2/5
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): nyu_aco000441
----------------------------------------------------------------------
-Institution ID: NNU_001686026
-   orig_rec_035 num: =035  \\$a(OCoLC)49475105
-Record 999:  NNU_001686026
-880 script fields: YES
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Silsilat al-thaqāfah al-shaʻbīyah ; 8
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): nyu_aco000585
 ---------------------------------------------------------------------
 ---------------------------------------------------------------------
 FILE: NNU_20150304_1/NNU_20150304_1_orig_no_oclc_nums.mrc
 ---------------------------------------------------------------------
-TOTAL Number of Records containing series errors: 2
+TOTAL Number of Records containing series errors: 0
 
