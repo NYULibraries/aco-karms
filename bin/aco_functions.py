@@ -510,10 +510,14 @@ def convert_2_eres_rec(rec, rda_rec):
 	# create new 040 field for NNU
 	for rec_040 in rec.get_fields('040'):
 		rec.remove_field(rec_040)	# delete the existing 040 field(s)
-	if rda_rec:
-		new_040 = Field(tag='040', indicators=[' ',' '], subfields=['a','NNU','b','eng','e','rda','c','NNU'])
+	if rec_003_value == 'LeBAU':
+		cat_lang = 'ara'
 	else:
-		new_040 = Field(tag='040', indicators=[' ',' '], subfields=['a','NNU','b','eng','c','NNU'])
+		cat_lang = 'eng'
+	if rda_rec:
+		new_040 = Field(tag='040', indicators=[' ',' '], subfields=['a','NNU','b',cat_lang,'e','rda','c','NNU'])
+	else:
+		new_040 = Field(tag='040', indicators=[' ',' '], subfields=['a','NNU','b',cat_lang,'c','NNU'])
 	rec.add_ordered_field(new_040)
 	
 	# correct the 041 language code field when multiple codes exist in the same subfield
