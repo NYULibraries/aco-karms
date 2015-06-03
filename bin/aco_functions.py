@@ -433,7 +433,7 @@ def convert_2_eres_rec(rec, rda_rec):
 	elif rec_003_value == 'LeBAU':
 		inst_name = "American Univeristy of Beirut's Jafet Memorial Library"
 		inst_710a = 'Jafet Memorial Library.'
-		inst_710b = 'Libraries.'
+		inst_710b = ''
 	else:
 		inst_name = ''
 		inst_710a = ''
@@ -710,7 +710,11 @@ def convert_2_eres_rec(rec, rda_rec):
 # 	rec.add_ordered_field(new_539)
 	
 	# add headings referring to the ACO project and partners
- 	new_710 = Field(tag='710', indicators=['2',' '], subfields=['a', inst_710a, 'b', inst_710b])
+	if not inst_710b == '':
+		new_710 = Field(tag='710', indicators=['2',' '], subfields=['a', inst_710a, 'b', inst_710b])
+	else:
+		new_710 = Field(tag='710', indicators=['2',' '], subfields=['a', inst_710a])
+	
  	rec.add_ordered_field(new_710)
 	
 	new_730 = Field(tag='730', indicators=['0',' '], subfields=['a','Arabic Collections Online.'])
