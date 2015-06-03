@@ -11,7 +11,7 @@ from pymarc import Record, Field
 import aco_globals
 import aco_functions
 
-inst_code = raw_input('Enter the 3-letter institutional code: ')
+inst_code = raw_input('Enter the institutional code: ')
 batch_date = raw_input('Enter the batch date (YYYYMMDD): ')
 batch_name = inst_code+'_'+batch_date
 aco_globals.batch_folder += '/'+inst_code+'/'+batch_name

@@ -433,7 +433,7 @@ def convert_2_eres_rec(rec, rda_rec):
 	elif rec_003_value == 'LeBAU':
 		inst_name = "American Univeristy of Beirut's Jafet Memorial Library"
 		inst_710a = 'Jafet Memorial Library.'
-		inst_710b = 'Libraries.'
+		inst_710b = ''
 	else:
 		inst_name = ''
 		inst_710a = ''
@@ -510,10 +510,14 @@ def convert_2_eres_rec(rec, rda_rec):
 	# create new 040 field for NNU
 	for rec_040 in rec.get_fields('040'):
 		rec.remove_field(rec_040)	# delete the existing 040 field(s)
-	if rda_rec:
-		new_040 = Field(tag='040', indicators=[' ',' '], subfields=['a','NNU','b','eng','e','rda','c','NNU'])
+	if rec_003_value == 'LeBAU':
+		cat_lang = 'ara'
 	else:
-		new_040 = Field(tag='040', indicators=[' ',' '], subfields=['a','NNU','b','eng','c','NNU'])
+		cat_lang = 'eng'
+	if rda_rec:
+		new_040 = Field(tag='040', indicators=[' ',' '], subfields=['a','NNU','b',cat_lang,'e','rda','c','NNU'])
+	else:
+		new_040 = Field(tag='040', indicators=[' ',' '], subfields=['a','NNU','b',cat_lang,'c','NNU'])
 	rec.add_ordered_field(new_040)
 	
 	# correct the 041 language code field when multiple codes exist in the same subfield
@@ -710,7 +714,11 @@ def convert_2_eres_rec(rec, rda_rec):
 # 	rec.add_ordered_field(new_539)
 	
 	# add headings referring to the ACO project and partners
- 	new_710 = Field(tag='710', indicators=['2',' '], subfields=['a', inst_710a, 'b', inst_710b])
+	if not inst_710b == '':
+		new_710 = Field(tag='710', indicators=['2',' '], subfields=['a', inst_710a, 'b', inst_710b])
+	else:
+		new_710 = Field(tag='710', indicators=['2',' '], subfields=['a', inst_710a])
+	
  	rec.add_ordered_field(new_710)
 	
 	new_730 = Field(tag='730', indicators=['0',' '], subfields=['a','Arabic Collections Online.'])
@@ -782,7 +790,7 @@ def convert_2_eres_rec(rec, rda_rec):
 				rec.remove_field(rec_090)
 	
 	# delete any local fields (9XXs, OWN, AVA)
-	rec_9XXs = rec.get_fields('903','910','938','950','955','981','987','994','998','OWN','AVA')
+	rec_9XXs = rec.get_fields('852','903','907','910','938','945','950','955','981','987','994','998','OWN','AVA')
 	if len(rec_9XXs) > 0:
 		for rec_9XX in rec_9XXs:
 			rec.remove_field(rec_9XX)
@@ -921,6 +929,8 @@ def insert_src_entities(rec, bsn_se_lines):
 			se_003 = 'NNC'
 		if se_inst == 'cornell':
 			se_003 = 'NIC'
+		if se_inst == 'aub':
+			se_003 = 'LeBAU'
 		if rec_003 == se_003 and rec_001 == se_001:
 			se_match = True
 			msg += 'Source entities (book IDs): '
