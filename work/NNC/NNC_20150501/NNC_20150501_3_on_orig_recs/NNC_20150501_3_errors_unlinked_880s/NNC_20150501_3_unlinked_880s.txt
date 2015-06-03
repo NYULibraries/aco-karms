@@ -1,0 +1,44 @@
+Records containing UNLINKED 880 script fields - batch NNC_20150501
+--  At least one 880 field has sequence number -00 in subfield $6,
+    meaning it is not linked to the corresponding parallel field
+Report produced: 2015-06-03 10:31:56.583297
+---------------------------------------------------------------------
+FILE: NNC_20150501_1/NNC_20150501_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNC_3121263
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm21585047
+   orig_rec_035 num: =035  \\$a(OCoLC)21585047
+   orig_rec_035 num: =035  \\$a(NNC)3121263
+Record 999:  NNC_3121263
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - Bagdhād : al-Maktabah al-ʻArabì̄yah, 1321 [1922/23]
+ERROR-880: Unlinked 880s: YES
+   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): columbia_aco000638
+---------------------------------------------------------------------
+Institution ID: NNC_3128110
+   orig_rec_035 num: =035  \\$9ATW1926CU
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm17504482
+   orig_rec_035 num: =035  \\$a(OCoLC)17504482$z(OCoLC)122811659
+Record 999:  NNC_3128110
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   245 - Rasaʼil Ikhwān al-Safāʼ / ʻAnī bi-taṣḥīḥah Khayr al-Dīn al-Ziriklī.
+   260 - [Cairo] : al-Matbaʻah al-ʻArabiyah, 1928.
+   700 - Ziriklī, Khayr al-Dīn, 1893-1976.
+ERROR-880: Unlinked 880s: YES
+   880 $6 240-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 700-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: [none]
+Source entities (book IDs): columbia_aco000603:v.1-2
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNC_20150501_1/NNC_20150501_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing unlinked 880 script fields: 2
+
