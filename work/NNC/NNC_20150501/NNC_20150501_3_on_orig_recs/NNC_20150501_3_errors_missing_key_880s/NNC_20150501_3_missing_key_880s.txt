@@ -1,0 +1,136 @@
+Records MISSING KEY 880 script fields - batch NNC_20150501
+--  At least one of the key fields is missing subfield $6,
+    so the corresponding 880 script field is missing or unlinked
+--  Key fields:
+    100, 110, 111, 130
+    240, 245, 246, 250, 260, 264
+    440, 490
+    700, 710, 711, 730
+    800, 810, 811, 830
+Report produced: 2015-06-03 10:31:56.583297
+---------------------------------------------------------------------
+FILE: NNC_20150501_1/NNC_20150501_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNC_3058958
+   orig_rec_035 num: =035  \\$9ATM7565CU
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm57075915
+   orig_rec_035 num: =035  \\$a(OCoLC)57075915$z(OCoLC)33109986
+Record 999:  NNC_3058958
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Himmah fī ādāb ittibāʻ al-aʼimmah
+   260 - [al-Qāhirah] : Dār al-Fikr al-ʻArabī, [194-?]
+   490 - Silsilat Makhṭūṭāt al-Fāṭimīyīn ; 3
+   700 - Ḥusayn, Muḥammad Kāmil.
+   830 - Silsilat Makhṭūṭāt al-Fāṭimīyīn ; 3.
+040 $e field: [none]
+Source entities (book IDs): columbia_aco000631
+---------------------------------------------------------------------
+Institution ID: NNC_3063284
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn780680495
+   orig_rec_035 num: =035  \\$9ATN5079CU
+   orig_rec_035 num: =035  \\$a(OCoLC)780680495
+Record 999:  NNC_3063284
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - [Cairo] : Maṭbaʻat al-Maʻāhid, [1924].
+040 $e field: [none]
+Source entities (book IDs): columbia_aco000615
+---------------------------------------------------------------------
+Institution ID: NNC_3071470
+   orig_rec_035 num: =035  \\$a(OCoLC)30345760
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm30345760
+   orig_rec_035 num: =035  \\$9ATP4445CU
+   orig_rec_035 num: =035  \\$a(NNC)3071470
+Record 999:  NNC_3071470
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Lahab fī Dajlah
+040 $e field: [none]
+Source entities (book IDs): columbia_aco000692
+---------------------------------------------------------------------
+Institution ID: NNC_3072712
+   orig_rec_035 num: =035  \\$a(OCoLC)21926872
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm21926872
+   orig_rec_035 num: =035  \\$9ATP5786CU
+   orig_rec_035 num: =035  \\$a(NNC)3072712
+Record 999:  NNC_3072712
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Kitab al-Diyarat or the book of monasteries
+040 $e field: [none]
+Source entities (book IDs): columbia_aco000686
+---------------------------------------------------------------------
+Institution ID: NNC_3076190
+   orig_rec_035 num: =035  \\$9ATP9754CU
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm09472136
+   orig_rec_035 num: =035  \\$a(OCoLC)9472136
+   orig_rec_035 num: =035  \\$a(NNC)3076190
+Record 999:  NNC_3076190
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Mahdi Ubayʼd-Ullah
+040 $e field: [none]
+Source entities (book IDs): columbia_aco000639
+---------------------------------------------------------------------
+Institution ID: NNC_3121263
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm21585047
+   orig_rec_035 num: =035  \\$a(OCoLC)21585047
+   orig_rec_035 num: =035  \\$a(NNC)3121263
+Record 999:  NNC_3121263
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - Bagdhād : al-Maktabah al-ʻArabì̄yah, 1321 [1922/23]
+ERROR-880: Unlinked 880s: YES
+   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): columbia_aco000638
+---------------------------------------------------------------------
+Institution ID: NNC_3128110
+   orig_rec_035 num: =035  \\$9ATW1926CU
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm17504482
+   orig_rec_035 num: =035  \\$a(OCoLC)17504482$z(OCoLC)122811659
+Record 999:  NNC_3128110
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   245 - Rasaʼil Ikhwān al-Safāʼ / ʻAnī bi-taṣḥīḥah Khayr al-Dīn al-Ziriklī.
+   260 - [Cairo] : al-Matbaʻah al-ʻArabiyah, 1928.
+   700 - Ziriklī, Khayr al-Dīn, 1893-1976.
+ERROR-880: Unlinked 880s: YES
+   880 $6 240-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 700-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: [none]
+Source entities (book IDs): columbia_aco000603:v.1-2
+---------------------------------------------------------------------
+Institution ID: NNC_3183813
+   orig_rec_035 num: =035  \\$9AUC7871CU
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn213894832
+   orig_rec_035 num: =035  \\$a(OCoLC)213894832
+Record 999:  NNC_3183813
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   700 - Massignon, Louis, 1883-1962.
+040 $e field: [none]
+Source entities (book IDs): columbia_aco000628
+---------------------------------------------------------------------
+Institution ID: NNC_3367915
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm18261482
+   orig_rec_035 num: =035  \\$a(OCoLC)18261482
+   orig_rec_035 num: =035  \\$a(NNC)3367915
+Record 999:  NNC_3367915
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - Ibn al-Wazīr, Muḥammad ibn Ibrāhīm, 1373 or 1374-1436.
+   260 - al-Qāhirah : Sharikat Ṭabʻ al-Kutūb al-ʻArabīyah, 1318 [i.e. 1900 or 1901] (Miṣr : Maṭbaʻat al-Ādāb)
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): columbia_aco000640
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNC_20150501_1/NNC_20150501_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records missing key 880 script fields: 9
+
