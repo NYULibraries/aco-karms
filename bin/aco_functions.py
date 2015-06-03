@@ -786,7 +786,7 @@ def convert_2_eres_rec(rec, rda_rec):
 				rec.remove_field(rec_090)
 	
 	# delete any local fields (9XXs, OWN, AVA)
-	rec_9XXs = rec.get_fields('903','910','938','950','955','981','987','994','998','OWN','AVA')
+	rec_9XXs = rec.get_fields('852','903','907','910','938','945','950','955','981','987','994','998','OWN','AVA')
 	if len(rec_9XXs) > 0:
 		for rec_9XX in rec_9XXs:
 			rec.remove_field(rec_9XX)
