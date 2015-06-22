@@ -431,7 +431,7 @@ def convert_2_eres_rec(rec, rda_rec):
 		inst_710a = 'Princeton University.'
 		inst_710b = 'Library.'
 	elif rec_003_value == 'LeBAU':
-		inst_name = "American Univeristy of Beirut's Jafet Memorial Library"
+		inst_name = "American University of Beirut's Jafet Memorial Library"
 		inst_710a = 'Jafet Memorial Library.'
 		inst_710b = ''
 	else:
