@@ -1,61 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     cam a2200301   4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001682357</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">19990518061539.6</controlfield>
-<controlfield tag="008">840213s1964    iq       b    000 0 arar</controlfield>
+<controlfield tag="005">20150603170451.0</controlfield>
+<controlfield tag="008">840213s1964    iq            000 0 arar</controlfield>
 <datafield tag="010" ind1=" " ind2=" ">
 <subfield code="a">ne 65002742</subfield>
-</datafield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12225772</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(MH)MHBID84163HU</subfield>
 </datafield>
 <datafield tag="035" ind1=" " ind2=" ">
 <subfield code="a">(OCoLC)10409760</subfield>
 </datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)MAHGBID84163-B</subfield>
-</datafield>
 <datafield tag="040" ind1=" " ind2=" ">
 <subfield code="a">DLC</subfield>
-<subfield code="c">TxU</subfield>
-<subfield code="d">TxU</subfield>
-<subfield code="d">MH</subfield>
-<subfield code="d">CStRLIN</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">IXA</subfield>
+<subfield code="d">IXA</subfield>
+<subfield code="d">OCL</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCG</subfield>
+<subfield code="d">CUY</subfield>
+<subfield code="d">NYP</subfield>
+<subfield code="d">OCLCA</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">NNU</subfield>
+</datafield>
+<datafield tag="043" ind1=" " ind2=" ">
+<subfield code="a">f-ua---</subfield>
 </datafield>
 <datafield tag="050" ind1=" " ind2="4">
-<subfield code="a">BP144</subfield>
-<subfield code="b">.H54 1964</subfield>
+<subfield code="a">K40.M6</subfield>
+<subfield code="b">H5 1964</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Muḥaqqiq al-Ḥillī, Jaʻfar ibn al-Ḥasan,</subfield>
-<subfield code="d">1205 or 6-1277.</subfield>
+<subfield code="6">880-01</subfield>
+<subfield code="a">Muḥaqqiq al-Ḥillī, Jaʻfar ibn al-Ḥasan,</subfield>
+<subfield code="d">1205 or 1206-1277.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="3">
-<subfield code="a">al-Mukhtaṣar al-nāfiʻ fī fiqh al-Imāmīyah,</subfield>
-<subfield code="c">ʼallafahu Abū al-Qāsim Najm al-Dīn Jaʻfar ibn al-Ḥasan al-Ḥillī.</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">al-Mukhtaṣar al-nāfiʻ fī fiqh al-Imāmīyah /</subfield>
+<subfield code="c">ʼallafahu Abū al-Qāsim Najm al-Dīn Jaʻfar ibn al-Ḥasan al-Ḥillī.</subfield>
 </datafield>
 <datafield tag="250" ind1=" " ind2=" ">
-<subfield code="a">[al-Ṭabʻah 2]</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">[al-Ṭabʻah 2].</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">Baghdād,</subfield>
-<subfield code="b">al-Maktabah al-Ahlīyah,</subfield>
+<subfield code="6">880-04</subfield>
+<subfield code="a">Baghdād :</subfield>
+<subfield code="b">al-Maktabah al-Ahlīyah,</subfield>
 <subfield code="c">1964.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">336 p.</subfield>
-<subfield code="c">24 cm.</subfield>
+<subfield code="a">336 pages ;</subfield>
+<subfield code="c">24 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="500" ind1=" " ind2=" ">
-<subfield code="a">An abridgment by the author of his sharāʼiʻ al-Islām fī masāʼil al-ḥalāl wa-al-ḥarām.</subfield>
-</datafield>
-<datafield tag="504" ind1=" " ind2=" ">
-<subfield code="a">Bibliographical footnotes.</subfield>
+<subfield code="a">An abridgment by the author of his sharāʼiʻ al-Islām fī masāʼil al-ḥalāl wa-al-ḥarām.</subfield>
 </datafield>
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Islamic law</subfield>
@@ -65,26 +84,56 @@
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Shiites.</subfield>
 </datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Islamic law.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst00979949</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Shiites.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01115976</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Egypt.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01208755</subfield>
+</datafield>
+<datafield tag="655" ind1=" " ind2="7">
+<subfield code="a">Outlines, syllabi, etc.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01423836</subfield>
+</datafield>
+<datafield tag="776" ind1="0" ind2="8">
+<subfield code="i">Online version:</subfield>
+<subfield code="a">Muḥaqqiq al-Ḥillī, Jaʻfar ibn al-Ḥasan, 1205 or 6-1277.</subfield>
+<subfield code="t">Mukhtaṣar al-nāfiʻ fī fiqh al-Imāmīyah.</subfield>
+<subfield code="b">[al-Ṭabʻah 2].</subfield>
+<subfield code="d">Baghdād, al-Maktabah al-Ahlīyah, 1964</subfield>
+<subfield code="w">(OCoLC)623523811</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">محقق الحلي، جعفر بن الحسن،</subfield>
+<subfield code="d">1205 or 1206-1277.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="2">
+<subfield code="6">245-02/</subfield>
+<subfield code="a">المختصر النافع في فقه الإمامية /</subfield>
+<subfield code="c">ألفه أبو القاسم نجم الدين جعفر الحسن الحلي.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">250-03/</subfield>
+<subfield code="a">[الطبعة 2].</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-04/</subfield>
+<subfield code="a">بغداد،</subfield>
+<subfield code="b">المكتبة الأهلية،</subfield>
+<subfield code="c">1964.</subfield>
+</datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">BP175.J5</subfield>
-<subfield code="b">H5 1964</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1</subfield>
-<subfield code="r">009993406</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">2</subfield>
-<subfield code="r">009984355</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="s">9115</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>

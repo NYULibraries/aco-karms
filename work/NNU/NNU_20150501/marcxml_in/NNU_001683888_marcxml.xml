@@ -1,53 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200301 i 4500</leader>
+<leader>00000cam a22      i 4500</leader>
 <controlfield tag="001">001683888</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010173216.0</controlfield>
-<controlfield tag="008">970521s1961    ir       b    001 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12227314</subfield>
-</datafield>
+<controlfield tag="005">20150608172135.0</controlfield>
+<controlfield tag="008">000926s1961    ir       b    001 0 ara d</controlfield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(NNU)NYUb12227314</subfield>
+<subfield code="a">(OCoLC)606039953</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">NN</subfield>
-<subfield code="c">NN</subfield>
-<subfield code="d">CtY</subfield>
+<subfield code="a">EUX</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">EUX</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">N15</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">NNU</subfield>
 </datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
-<subfield code="c">(4</subfield>
+<datafield tag="041" ind1="0" ind2=" ">
+<subfield code="a">araper</subfield>
 </datafield>
-<datafield tag="090" ind1=" " ind2=" ">
+<datafield tag="050" ind1=" " ind2="4">
 <subfield code="a">BP166</subfield>
-<subfield code="b">.M8</subfield>
+<subfield code="b">.M8 1961</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Ṣadr al-Dīn Shīrāzī, Muḥammad ibn Ibrāhīm,</subfield>
-<subfield code="d">d. 1641</subfield>
 <subfield code="6">880-01</subfield>
+<subfield code="a">Ṣadr al-Dīn Shīrāzī, Muḥammad ibn Ibrāhīm,</subfield>
+<subfield code="d">-1641.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="3">
 <subfield code="6">880-02</subfield>
-<subfield code="a">al-Maẓāhir al-Ilāhīyah /</subfield>
-<subfield code="c">li-muʼallifih Ṣadr al-Dīn Muḥammad al-Shīrāzī ; ḥaqqaqah wa-qaddama lahu wa-ʻallaqa ʻalayh Jalāl al-Dīn Āshtīyānī.</subfield>
+<subfield code="a">al-Maẓāhir al-Ilāhīyah /</subfield>
+<subfield code="c">li-muʼallifih Ṣadr al-Dīn Muḥammad al-Shīrāzī ; ḥaqqaqah wa-qaddama lahu wa-ʻallaqa ʻalayh Jalāl al-Dīn Āshtīyānī.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
 <subfield code="6">880-03</subfield>
-<subfield code="a">[Mashhad :</subfield>
-<subfield code="b">s.n.,</subfield>
-<subfield code="c">1961]</subfield>
+<subfield code="a">[Mashhad] :</subfield>
+<subfield code="b">[publisher not identified],</subfield>
+<subfield code="c">[1961]</subfield>
 <subfield code="e">(Mashhad :</subfield>
-<subfield code="f">Chāpkhānah-ʼi Khurāsān)</subfield>
+<subfield code="f">Chāpkhānah-ʼi Khurāsān)</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">16,[4], 128 p. ;</subfield>
-<subfield code="c">25cm.</subfield>
+<subfield code="a">16, [4], 128 pages ;</subfield>
+<subfield code="c">25 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="500" ind1=" " ind2=" ">
-<subfield code="a">At head of title: Yādbūd-i chahārṣadumīn sāl-i tavallud-i Mullā Ṣadrā, Dānishgāh-i Mashhad.</subfield>
+<subfield code="a">At head of title: Yādbūd-i chahārṣadumīn sāl-i tavallud-i Mullā Ṣadrā, Dānishgāh-i Mashhad.</subfield>
 </datafield>
 <datafield tag="500" ind1=" " ind2=" ">
 <subfield code="a">In Arabic, introd. in Persian.</subfield>
@@ -55,12 +72,19 @@
 <datafield tag="500" ind1=" " ind2=" ">
 <subfield code="a">Introd. dated 1380 [1961].</subfield>
 </datafield>
-<datafield tag="504" ind1=" " ind2=" ">
-<subfield code="a">Includes bibliographical references.</subfield>
-</datafield>
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Islamic philosophy</subfield>
 <subfield code="v">Early works to 1800.</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Islamic philosophy.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01730358</subfield>
+</datafield>
+<datafield tag="655" ind1=" " ind2="7">
+<subfield code="a">Early works.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01411636</subfield>
 </datafield>
 <datafield tag="700" ind1="1" ind2=" ">
 <subfield code="a">Āshtiyānī, Jalāl al-Dīn</subfield>
@@ -68,7 +92,8 @@
 </datafield>
 <datafield tag="880" ind1="1" ind2=" ">
 <subfield code="6">100-01/</subfield>
-<subfield code="a">صدر الدين شيرازي، محمد بن ابراهيم.</subfield>
+<subfield code="a">صدر الدين شيرازي، محمد بن ابراهيم،</subfield>
+<subfield code="d">-1641.</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2="2">
 <subfield code="6">245-02/</subfield>
@@ -81,7 +106,7 @@
 <subfield code="b">د.ن.،</subfield>
 <subfield code="c">1961]</subfield>
 <subfield code="e">(مشهد :</subfield>
-<subfield code="f">�ا�خان� خراسان)</subfield>
+<subfield code="f">چاپخانۀ خراسان)</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2=" ">
 <subfield code="6">700-04/</subfield>
@@ -89,15 +114,6 @@
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">20010429</subfield>
-<subfield code="d">20010429</subfield>
-<subfield code="d">20010429</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">6</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">p</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
