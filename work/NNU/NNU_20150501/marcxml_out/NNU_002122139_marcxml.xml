@@ -5,41 +5,55 @@
 	<controlfield tag="003">NNU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150603q19701979ir      o     000 0 ara d</controlfield>
+	<controlfield tag="008">150622s197u    ir      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">(3</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">BP166.94</subfield>
 		<subfield code="b">.I17 1970z</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="6">880-01</subfield>
-		<subfield code="a">Ibn Abī Zaynab, Muḥammad ibn Ibrāhīm,</subfield>
-		<subfield code="d">9th cent.</subfield>
+		<subfield code="a">Ibn Abī Zaynab, Muḥammad ibn Ibrāhīm,</subfield>
+		<subfield code="d">active 9th century.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Ghaybah</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="6">880-02</subfield>
-		<subfield code="a">Kitāb al-Ghaybah</subfield>
-		<subfield code="h">[electronic resource] /</subfield>
-		<subfield code="c">taʼlīf Muḥammad ibn Ibrāhīm al-Nuʻmānī</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Kitāb al-Ghaybah /</subfield>
+		<subfield code="c">taʼlīf Muḥammad ibn Ibrāhīm al-Nuʻmānī</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Ghaybah</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">880-03</subfield>
-		<subfield code="a">Ṭihrān :</subfield>
-		<subfield code="b">Maktabat al-Ṣadūq,</subfield>
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Ṭihrān :</subfield>
+		<subfield code="b">Maktabat al-Ṣadūq,</subfield>
 		<subfield code="c">[197-?]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (335 p.)</subfield>
+		<subfield code="a">online resource (335 pages)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
@@ -55,6 +69,16 @@
 		<subfield code="a">Imamate</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Imamate.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst00967643</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">Early works.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01411636</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">New York University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -62,13 +86,10 @@
 	<datafield ind1="0" ind2=" " tag="730">
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="740">
-		<subfield code="a">Ghaybah.</subfield>
-	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Ibn Abī Zaynab, Muḥammad ibn Ibrāhīm, 9th cent. 880-01</subfield>
-		<subfield code="t">Kitāb al-Ghaybah</subfield>
+		<subfield code="a">Ibn Abī Zaynab, Muḥammad ibn Ibrāhīm, active 9th century.</subfield>
+		<subfield code="t">Kitāb al-Ghaybah</subfield>
 		<subfield code="w">(NNU)002122139</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
@@ -76,17 +97,26 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
 		<subfield code="6">100-01/</subfield>
-		<subfield code="a">محمد بن ابراهيم النعماني.</subfield>
+		<subfield code="a">محمد بن ابراهيم النعماني،</subfield>
+		<subfield code="d">active 9th century</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/</subfield>
+		<subfield code="6">240-02/</subfield>
+		<subfield code="a">غيبة</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-03/</subfield>
 		<subfield code="a">كتاب الغيبة /</subfield>
 		<subfield code="c">تأليف محمد بن ابراهيم النعماني.</subfield>
 	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">246-04/</subfield>
+		<subfield code="a">غيبة</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-03/</subfield>
-		<subfield code="a">تهران :</subfield>
-		<subfield code="b">مكابة الصدوق،</subfield>
+		<subfield code="6">260-05/</subfield>
+		<subfield code="a">طهران :</subfield>
+		<subfield code="b">مكتبة الصدوق،</subfield>
 		<subfield code="c">[197-?]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -100,6 +130,5 @@
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNU_002122139</subfield>
 		<subfield code="s">nyu_aco000718</subfield>
-		<subfield code="e">(ERROR-880)</subfield>
 	</datafield>
 </record>
