@@ -3,42 +3,12 @@ Records containing SERIES errors - batch NNU_20150501
 --  Either the 490 field has 1st indicator=0 (untraced)
 --  Or there are more 490 fields than there are 800/810/811/830 fields,
     so the corresponding 8XX heading needs added
-Report produced: 2015-06-03 13:10:58.528925
+Report produced: 2015-06-22 10:32:35.075460
 ---------------------------------------------------------------------
 FILE: NNU_20150501_1/NNU_20150501_1_orig_with_oclc_nums.mrc
 ---------------------------------------------------------------------
 ---------------------------------------------------------------------
 FILE: NNU_20150501_1/NNU_20150501_1_orig_no_oclc_nums.mrc
 ---------------------------------------------------------------------
-Institution ID: NNU_001677444
-   orig_rec_035 num: =035  9\$aNYUb12220823
-   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG94-B20451
-Record 999:  NNU_001677444
-ERROR-880: 880 script fields: NO
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Durūs tamhīdīyah fī ʻilm al-uṣūl ; 1
-040 $e field: [none]
-Source entities (book IDs): nyu_aco000752
----------------------------------------------------------------------
-Institution ID: NNU_001684105
-   orig_rec_035 num: =035  9\$aNYUb12227533
-   orig_rec_035 num: =035  \\$a(NNU)NYUb12227533
-Record 999:  NNU_001684105
-880 script fields: YES
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Silsilat al-mutūn al-fiqhīyah ; 1
-040 $e field: [none]
-Source entities (book IDs): nyu_aco000746
----------------------------------------------------------------------
-Institution ID: NNU_001689290
-   orig_rec_035 num: =035  9\$aNYUb12233646
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG00-B4120
-Record 999:  NNU_001689290
-880 script fields: YES
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Dhakhāʼir al-Fikr al-Islāmī ; 1
-040 $e field: [none]
-Source entities (book IDs): nyu_aco000705
----------------------------------------------------------------------
-TOTAL Number of Records containing series errors: 3
+TOTAL Number of Records containing series errors: 0
 
