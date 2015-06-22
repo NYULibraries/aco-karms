@@ -1,81 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     cam a2200277   4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001677978</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">19970424174521.4</controlfield>
-<controlfield tag="008">891103s1970    iq       b    000 0 arar</controlfield>
+<controlfield tag="005">20150603163639.0</controlfield>
+<controlfield tag="008">891103s1970    iq       b    000 0 ara</controlfield>
 <datafield tag="010" ind1=" " ind2=" ">
-<subfield code="a">70962191 /NE</subfield>
-</datafield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12221363</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(MH)MHBIU17610HU</subfield>
+<subfield code="a">   70962191</subfield>
 </datafield>
 <datafield tag="035" ind1=" " ind2=" ">
 <subfield code="a">(OCoLC)20592468</subfield>
 </datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)MAHGBIU17610-B</subfield>
-</datafield>
 <datafield tag="040" ind1=" " ind2=" ">
 <subfield code="a">DLC</subfield>
-<subfield code="c">WaU</subfield>
-<subfield code="d">WaU</subfield>
-<subfield code="d">MH</subfield>
-<subfield code="d">CStRLIN</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">WAU</subfield>
+<subfield code="d">WAU</subfield>
+<subfield code="d">OSU</subfield>
+<subfield code="d">HIN</subfield>
+<subfield code="d">UKSMC</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">NNU</subfield>
 </datafield>
-<datafield tag="050" ind1="0" ind2=" ">
+<datafield tag="050" ind1=" " ind2="4">
 <subfield code="a">BP192.4</subfield>
-<subfield code="b">.F39</subfield>
+<subfield code="b">.F39 1970</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Fayyāḍ, ʻAbd Allāh.</subfield>
+<subfield code="6">880-01</subfield>
+<subfield code="a">Fayyāḍ, ʻAbd Allāh.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
-<subfield code="a">Tārīkh al-Imāmīyah wa-aslāfihim min al-Shīʻah</subfield>
-<subfield code="b">mundhu nashāʼat al-tashayyuʻ ḥattá maṭlaʻ al-qarn al-rābiʻ al-hijrī,</subfield>
-<subfield code="c">taʼlīf ʻAbd Allāh Fayyāḍ.</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">Tārīkh al-Imāmīyah wa-aslāfihim min al-Shīʻah :</subfield>
+<subfield code="b">mundhu nashāʼat al-tashayyuʻ ḥattá maṭlaʻ al-qarn al-rābiʻ al-hijrī /</subfield>
+<subfield code="c">taʼlīf ʻAbd Allāh Fayyāḍ.</subfield>
+</datafield>
+<datafield tag="246" ind1="1" ind2="5">
+<subfield code="6">880-03</subfield>
+<subfield code="a">Tārīkh al-Imāmīyah wa-aslāfihim min al-Shīʻah mundhu nashāʼat al-tashayyuʻ ḥattá maṭlaʻ al-qarn al-rābiʻ al-hijrī</subfield>
 </datafield>
 <datafield tag="250" ind1=" " ind2=" ">
-<subfield code="a">[al-Ṭabʻah 1.]</subfield>
+<subfield code="6">880-04</subfield>
+<subfield code="a">[al-Ṭabʻah 1.].</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">Baghdād,</subfield>
-<subfield code="b">Maṭbaʻat Asʻad,</subfield>
+<subfield code="6">880-05</subfield>
+<subfield code="a">Baghdād :</subfield>
+<subfield code="b">Maṭbaʻat Asʻad,</subfield>
 <subfield code="c">1970.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">222 p.</subfield>
-<subfield code="c">23 cm.</subfield>
+<subfield code="a">222 pages ;</subfield>
+<subfield code="c">23 cm</subfield>
 </datafield>
-<datafield tag="500" ind1=" " ind2=" ">
-<subfield code="a">Added t. p.: Tarikh al-Imamiyah wa aslafihm min al-Shiʻa mundhu nash, at al-tashayyuʻ hatta matlaʻ al-qarn al-rabiʻ al-Hijri, by Abdullah Fayyad.</subfield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="504" ind1=" " ind2=" ">
-<subfield code="a">Bibliography : p. 209-216.</subfield>
+<subfield code="a">Includes bibliographical references (pages 209-216).</subfield>
 </datafield>
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Shiites</subfield>
 <subfield code="x">History.</subfield>
 </datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Shiites.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01115976</subfield>
+</datafield>
+<datafield tag="655" ind1=" " ind2="7">
+<subfield code="a">History.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01411628</subfield>
+</datafield>
+<datafield tag="776" ind1="0" ind2="8">
+<subfield code="i">Online version:</subfield>
+<subfield code="a">Fayyāḍ, ʻAbd Allāh.</subfield>
+<subfield code="t">Tārīkh al-Imāmīyah wa-aslāfihim min al-Shīʻah.</subfield>
+<subfield code="b">[al-Ṭabʻah 1.].</subfield>
+<subfield code="d">Baghdād, Maṭbaʻat Asʻad, 1970</subfield>
+<subfield code="w">(OCoLC)639404653</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">فياض، عبد الله.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">245-02/</subfield>
+<subfield code="a">تاريخ الإمامية وأسلافهم من الشيعة :</subfield>
+<subfield code="b">منذ نشأة التشيع حتى مطلع القرن الرابع الهجري /</subfield>
+<subfield code="c">تأليف عبد الله فياض.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="5">
+<subfield code="6">246-03/</subfield>
+<subfield code="a">تاريخ الامامية واسلافهم من الشيعة منذ نشأة التشيع حتى مطلع القرن الرابع الهجري</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">250-04/</subfield>
+<subfield code="a">[الطبعة 1.].</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-05/</subfield>
+<subfield code="a">بغداد :</subfield>
+<subfield code="b">مطبعة أسعد،</subfield>
+<subfield code="c">١٩٧٠.</subfield>
+</datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">BP192.4</subfield>
-<subfield code="b">.F39</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1</subfield>
-<subfield code="r">028095092</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="s">9115</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>

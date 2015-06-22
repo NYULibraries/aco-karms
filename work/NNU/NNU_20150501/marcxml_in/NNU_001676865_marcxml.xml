@@ -1,68 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a22003251  4500</leader>
+<leader>00000cam a22      i 4500</leader>
 <controlfield tag="001">001676865</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010173152.0</controlfield>
-<controlfield tag="008">000725s1965    iq a          000 0 ara</controlfield>
+<controlfield tag="005">20150605161111.0</controlfield>
+<controlfield tag="008">890922s1965    iq a          000 0 ara</controlfield>
 <datafield tag="010" ind1=" " ind2=" ">
 <subfield code="a">ne 67000224</subfield>
 </datafield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12220229</subfield>
-</datafield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(NNU)NYUb12220229</subfield>
+<subfield code="a">(OCoLC)20383835</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
 <subfield code="a">DLC</subfield>
-<subfield code="c">WaU</subfield>
-<subfield code="d">WaU</subfield>
-<subfield code="d">MH</subfield>
-<subfield code="d">CStRLIN</subfield>
-<subfield code="d">CtY</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">WAU</subfield>
+<subfield code="d">DLC</subfield>
+<subfield code="d">HIN</subfield>
+<subfield code="d">IUL</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">NNU</subfield>
+</datafield>
+<datafield tag="042" ind1=" " ind2=" ">
+<subfield code="a">premarc</subfield>
 </datafield>
 <datafield tag="043" ind1=" " ind2=" ">
 <subfield code="a">a-su---</subfield>
 </datafield>
-<datafield tag="050" ind1="0" ind2=" ">
+<datafield tag="050" ind1="0" ind2="0">
 <subfield code="a">BP187.3</subfield>
-<subfield code="b">.B27</subfield>
-</datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="a">BP187.3</subfield>
-<subfield code="b">.B27</subfield>
+<subfield code="b">.S499 1965</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Sharīf, Muḥammad Badīʻ,</subfield>
-<subfield code="d">1905-</subfield>
 <subfield code="6">880-01</subfield>
+<subfield code="a">Sharīf, Muḥammad Badīʻ,</subfield>
+<subfield code="d">1905-</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
 <subfield code="6">880-02</subfield>
-<subfield code="a">Fī mahbiṭ al-waḥy /</subfield>
-<subfield code="c">Muḥammad Badīʻ Sharīf.</subfield>
-</datafield>
-<datafield tag="246" ind1="3" ind2=" ">
-<subfield code="a">Fī mahbaṭ al-waḥy</subfield>
+<subfield code="a">Fī mahbiṭ al-waḥy</subfield>
+<subfield code="c">[taʼlīf] Muḥammad Badīʻ Sharīf.</subfield>
 </datafield>
 <datafield tag="250" ind1=" " ind2=" ">
 <subfield code="6">880-03</subfield>
-<subfield code="a">al-Ṭabʻah 1.</subfield>
+<subfield code="a">[al-Ṭabʻah 1].</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
 <subfield code="6">880-04</subfield>
-<subfield code="a">[Baghdād :</subfield>
-<subfield code="b">s.n.,</subfield>
-<subfield code="c">1965]</subfield>
+<subfield code="a">[Baghdād] :</subfield>
+<subfield code="b">[publisher not identified],</subfield>
+<subfield code="c">[1965]</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">286 p. :</subfield>
-<subfield code="b">ill. ;</subfield>
-<subfield code="c">25 cm.</subfield>
+<subfield code="a">286 pages :</subfield>
+<subfield code="b">illustrations ;</subfield>
+<subfield code="c">25 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Islamic shrines.</subfield>
@@ -75,14 +83,45 @@
 <subfield code="a">Medina (Saudi Arabia)</subfield>
 <subfield code="x">Description and travel.</subfield>
 </datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Islamic shrines.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst00980069</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Travel.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01155558</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Saudi Arabia</subfield>
+<subfield code="z">Mecca.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01204780</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Saudi Arabia</subfield>
+<subfield code="z">Medina.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01213531</subfield>
+</datafield>
+<datafield tag="776" ind1="0" ind2="8">
+<subfield code="i">Online version:</subfield>
+<subfield code="a">Sharīf, Muḥammad Badīʻ, 1905-</subfield>
+<subfield code="t">Fī mahbiṭ al-waḥy.</subfield>
+<subfield code="b">[al-Ṭabʻah 1].</subfield>
+<subfield code="d">[Baghdād, 1965]</subfield>
+<subfield code="w">(OCoLC)644544610</subfield>
+</datafield>
 <datafield tag="880" ind1="1" ind2=" ">
 <subfield code="6">100-01/</subfield>
-<subfield code="a">شريف، محمد بديع.</subfield>
+<subfield code="a">شريف، محمد بديع،,</subfield>
+<subfield code="d">1905-</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2="0">
 <subfield code="6">245-02/</subfield>
 <subfield code="a">في مهبط الوحي /</subfield>
-<subfield code="c">محمد بديع شريف.</subfield>
+<subfield code="c">[تأليف] محمد بديع شريف.</subfield>
 </datafield>
 <datafield tag="880" ind1=" " ind2=" ">
 <subfield code="6">250-03/</subfield>
@@ -90,27 +129,18 @@
 </datafield>
 <datafield tag="880" ind1=" " ind2=" ">
 <subfield code="6">260-04/</subfield>
-<subfield code="a">[بغداد :</subfield>
-<subfield code="b">د.ن.،</subfield>
-<subfield code="c">1965]</subfield>
+<subfield code="a">[بغداد] :</subfield>
+<subfield code="b">[publisher not identified],</subfield>
+<subfield code="c">[1965]</subfield>
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">20010429</subfield>
-<subfield code="d">20010429</subfield>
-<subfield code="d">20010429</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">6</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">e</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
 <subfield code="b">BOBST</subfield>
 <subfield code="c">Main Collection</subfield>
-<subfield code="d">BP187.3 .B27</subfield>
+<subfield code="d">BP187.3 .B27 1965</subfield>
 <subfield code="e">unavailable</subfield>
 <subfield code="t">Unavailable</subfield>
 <subfield code="f">1</subfield>

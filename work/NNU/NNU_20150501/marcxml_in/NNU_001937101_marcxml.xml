@@ -1,74 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200229   4500</leader>
+<leader>00000cam a22      i 4500</leader>
 <controlfield tag="001">001937101</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">19940713181853.0</controlfield>
+<controlfield tag="005">20150610175114.0</controlfield>
 <controlfield tag="008">910620s1960    iq            000 0 ararc</controlfield>
 <datafield tag="010" ind1=" " ind2=" ">
 <subfield code="a">ne 66001582</subfield>
 </datafield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb10881450</subfield>
-</datafield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG91-B38160</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">GLIS00881450X</subfield>
+<subfield code="a">(OCoLC)83067792</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
 <subfield code="a">Princeton Univ. Libr.</subfield>
-<subfield code="c">NNU</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">ZYU</subfield>
+<subfield code="d">OCLCG</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">NNU</subfield>
 </datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="i">06/20/91 CT</subfield>
+<datafield tag="050" ind1=" " ind2="4">
+<subfield code="a">BP135</subfield>
+<subfield code="b">.S47 1960</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
 <subfield code="a">Shahīd al-Thānī, Zayn al-Dīn ibn ʻAlī,</subfield>
-<subfield code="d">1506-1559.</subfield>
+<subfield code="d">1506-1559</subfield>
+<subfield code="6">880-01</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="3">
-<subfield code="a">al-Dirāyah fī ʻilm muṣṭalaḥ al-ḥadīth,</subfield>
-<subfield code="c">lil-Shahīd Zayn al-Dīn al-Āmilī (al-Shahīd al-Thānī)</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">al-Dirāyah fī ʻilm muṣṭalaḥ al-ḥadīth /</subfield>
+<subfield code="c">lil-Shahīd Zayn al-Dīn al-Āmilī (al-Shahīd al-Thānī).</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">al-Najaf,</subfield>
-<subfield code="b">Maṭbaʻat al-Nuʻmān,</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">al-Najaf :</subfield>
+<subfield code="b">Maṭbaʻat al-Nuʻmān,</subfield>
 <subfield code="c">[1960]</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">144 p.</subfield>
-<subfield code="c">23 cm.</subfield>
+<subfield code="a">144 pages</subfield>
+<subfield code="c">23 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Hadith.</subfield>
 </datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Hadith.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst00950112</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">شهيد الثاني، زين الدين بن علي،</subfield>
+<subfield code="d">1506-1559.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="2">
+<subfield code="6">245-02/</subfield>
+<subfield code="a">الدراية في علم مصطلح الحديث /</subfield>
+<subfield code="c">للشهيد زين الدين الاملي (لشهيد الثاني).</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-03/</subfield>
+<subfield code="a">النجف :</subfield>
+<subfield code="b">مطبعة النعمان،</subfield>
+<subfield code="c">[1960]</subfield>
+</datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">BP135</subfield>
-<subfield code="b">.S47 1960</subfield>
-<subfield code="i">06/20/91 C</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1</subfield>
-<subfield code="r">015288056</subfield>
-<subfield code="i">06/20/91 C</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">06/20/91</subfield>
-<subfield code="t">c</subfield>
-<subfield code="s">9114</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="d">06/20/91</subfield>
-<subfield code="c">MG</subfield>
-<subfield code="b">MG</subfield>
-<subfield code="i">910620</subfield>
-<subfield code="l">NYUG</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
