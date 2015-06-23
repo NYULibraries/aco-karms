@@ -5,32 +5,52 @@
 	<controlfield tag="003">NNU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150622s1924    ua ac   o     000 0 ara d</controlfield>
+	<controlfield tag="008">150623s1924    ua c    o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">D198.3</subfield>
+		<subfield code="b">.Q13 1924</subfield>
+	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
-		<subfield code="a">Qadrīyah Ḥusayn,</subfield>
-		<subfield code="c">Princess</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Qadrīyah Ḥusayn,</subfield>
+		<subfield code="c">Princess.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Shahīrāt al-nisāʼ fī al-ʻālam al-Islāmī</subfield>
-		<subfield code="h">[electronic resource] /</subfield>
-		<subfield code="c">bi-qalam Qadrīyah Ḥusayn ; taʻrīb ʻAbd al-ʻAzi̇z Amīn al-Khȧjī.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Shahīrāt al-nisāʼ fī al-ʻālam al-Islāmī /</subfield>
+		<subfield code="c">bi-qalam Qadrīyah Ḥusayn ; taʻrīb ʻAbd al-ʻAzi̇z Amīn al-Khȧjī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
-		<subfield code="a">al-Ṭabʻah 1.</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Ṭabʻah 1.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Miṣr :</subfield>
-		<subfield code="b">al-Maktabah al-Miṣrīyah,</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Al-Maktabah al-Miṣrīyah,</subfield>
 		<subfield code="c">1924.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (2 v. in 1.) :</subfield>
-		<subfield code="b">ill., ports.</subfield>
+		<subfield code="a">online resource (2 volumes in 1.) :</subfield>
+		<subfield code="b">portraits</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
@@ -45,6 +65,15 @@
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">Muslim women.</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Muslim women.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01030996</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Khānjī, ʻAbd al-ʻAzīz Amīn</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">New York University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -53,13 +82,45 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">Qadrīyah Ḥusayn, Princess.</subfield>
+		<subfield code="t">Shahīrāt al-nisāʼ fī al-ʻālam al-Islāmī.</subfield>
+		<subfield code="b">al-Ṭabʻah 1.</subfield>
+		<subfield code="d">Miṣr : Al-Maktabah al-Miṣrīyah, 1924</subfield>
+		<subfield code="w">(OCoLC)568763348</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Qadrīyah Ḥusayn, Princess</subfield>
-		<subfield code="t">Shahīrāt al-nisāʼ fī al-ʻālam al-Islāmī</subfield>
+		<subfield code="a">Qadrīyah Ḥusayn, Princess.</subfield>
+		<subfield code="t">Shahīrāt al-nisāʼ fī al-ʻālam al-Islāmī</subfield>
 		<subfield code="w">(NNU)002823823</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/brv15h8g</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01/</subfield>
+		<subfield code="a">قدرية حسين،</subfield>
+		<subfield code="c">Princess.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/</subfield>
+		<subfield code="a">شهيرات النساء في العالم الاسلامي /</subfield>
+		<subfield code="c">بقلم قدرية حسين ؛ تعريب عبد العزيز أمين الخانجي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">250-03/</subfield>
+		<subfield code="a">الطبعة 1.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">المكتبة المصرية،</subfield>
+		<subfield code="c">1924.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-05/</subfield>
+		<subfield code="a">خانجي، عبد العزيز امين.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -72,6 +133,5 @@
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNU_002823823</subfield>
 		<subfield code="s">nyu_aco000731</subfield>
-		<subfield code="e">(ERROR-880)</subfield>
 	</datafield>
 </record>

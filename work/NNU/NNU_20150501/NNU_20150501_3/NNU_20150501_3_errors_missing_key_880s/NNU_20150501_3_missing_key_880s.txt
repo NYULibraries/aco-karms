@@ -7,7 +7,7 @@ Records MISSING KEY 880 script fields - batch NNU_20150501
     440, 490
     700, 710, 711, 730
     800, 810, 811, 830
-Report produced: 2015-06-22 10:32:35.075460
+Report produced: 2015-06-23 10:06:57.610933
 ---------------------------------------------------------------------
 FILE: NNU_20150501_1/NNU_20150501_1_orig_with_oclc_nums.mrc
 ---------------------------------------------------------------------
@@ -153,8 +153,6 @@ Record 999:  NNU_001974862
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Peaks of prophecy
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/ - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): nyu_aco000721
@@ -181,39 +179,18 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 040 $e field: [none]
 Source entities (book IDs): nyu_aco000776
 ---------------------------------------------------------------------
+Institution ID: NNU_002749491
+   orig_rec_035 num: =035  \\$a(OCoLC)36053264
+Record 999:  NNU_002749491
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - Thaʻlabī, Aḥmad ibn Muḥammad, -1035.
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): nyu_aco000716
+---------------------------------------------------------------------
 ---------------------------------------------------------------------
 FILE: NNU_20150501_1/NNU_20150501_1_orig_no_oclc_nums.mrc
----------------------------------------------------------------------
-Institution ID: NNU_002177801
-   orig_rec_035 num: =035  9\$aNYUb11210190
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG93-B28336
-Record 999:  NNU_002177801
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   240 - Masāʼil al-Rāzi wa-ajwibatuhā
-   700 - Anṣārī, Muḥammad ʻAlī.
-040 $e field: [none]
-Source entities (book IDs): nyu_aco000653
----------------------------------------------------------------------
-Institution ID: NNU_002177818
-   orig_rec_035 num: =035  9\$aNYUb11210207
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG93-B28935
-Record 999:  NNU_002177818
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   240 - Nujūm al-ṭiwāl
-040 $e field: [none]
-Source entities (book IDs): nyu_aco000758
----------------------------------------------------------------------
-Institution ID: NNU_002186311
-   orig_rec_035 num: =035  9\$aNYUb11221888
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG94-B47855
-Record 999:  NNU_002186311
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   240 - Qilādat al-naḥr fī sharḥ ḥizb al-baḥr
-040 $e field: [none]
-Source entities (book IDs): nyu_aco000774
 ---------------------------------------------------------------------
 Institution ID: NNU_002311769
    orig_rec_035 num: =035  9\$aNYUb11423266
@@ -225,15 +202,5 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 040 $e field: [none]
 Source entities (book IDs): nyu_aco000800
 ---------------------------------------------------------------------
-Institution ID: NNU_002361363
-   orig_rec_035 num: =035  9\$aNYUb11502870
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG88-B37463
-Record 999:  NNU_002361363
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   830 - Min makhṭūṭāt Maktabat Āyat Allāh al-Marʻashī al-ʻĀmmah ; 19.
-040 $e field: [none]
-Source entities (book IDs): nyu_aco000698
----------------------------------------------------------------------
-TOTAL Number of Records missing key 880 script fields: 21
+TOTAL Number of Records missing key 880 script fields: 18
 
