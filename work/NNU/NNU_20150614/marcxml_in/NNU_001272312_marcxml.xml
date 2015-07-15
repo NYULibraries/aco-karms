@@ -1,77 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200253 a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001272312</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010172810.0</controlfield>
-<controlfield tag="008">970806s1947    ua            000 0 ara d</controlfield>
-<datafield tag="010" ind1=" " ind2=" ">
-<subfield code="a">ne 67001913</subfield>
-</datafield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb11656102</subfield>
-</datafield>
+<controlfield tag="005">20150708155746.0</controlfield>
+<controlfield tag="008">840829s1947    ua            000 1 arard</controlfield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(NNU)NYUb11656102</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG97-B2535</subfield>
+<subfield code="a">(OCoLC)11101697</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">PU</subfield>
-<subfield code="c">PSt</subfield>
+<subfield code="a">IXA</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">IXA</subfield>
+<subfield code="d">OCL</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCO</subfield>
 <subfield code="d">NNU</subfield>
 </datafield>
-<datafield tag="050" ind1="0" ind2=" ">
-<subfield code="a">DT95.5</subfield>
-<subfield code="b">.S43 1947</subfield>
+<datafield tag="043" ind1=" " ind2=" ">
+<subfield code="a">f-ua---</subfield>
 </datafield>
 <datafield tag="050" ind1=" " ind2="4">
-<subfield code="a">DT95.5</subfield>
-<subfield code="b">.S43 1947</subfield>
-</datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="a">DT95.5</subfield>
-<subfield code="b">.S43 1947</subfield>
+<subfield code="a">PJ7862.H39</subfield>
+<subfield code="b">M58 1947</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Shayyāl, Jamāl al-Dīn.</subfield>
+<subfield code="a">Shayyāl, Jamāl al-Dīn</subfield>
+<subfield code="6">880-01</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
-<subfield code="a">Miṣr wa-al-Shām bayna dawlatayn :</subfield>
-<subfield code="b">qiṣṣah tārīkhīyah taṣifu al-aḥdāth fī al-quṭrayn al-shaqīqayn bayna sanatay 558, 569 ibbāna inḥilāl al-dawlah al-Fāṭimīyah wa-qiyām dawlat Banī Ayyūb /</subfield>
-<subfield code="c">taʼlīf Jamāl al-Dīn al-Shayyāl.</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">Miṣr wa-al-Shām bayna dawlatayn :</subfield>
+<subfield code="b">qiṣṣah tārīkhīyah taṣif al-aḥdāth fī al-quṭrayn al-shaqīqayn bayna sanatay 558, 569 abān inḥilāl al-dawlah al-Fāṭimīyah wa-qiyām dawlat Banī Ayyūb /</subfield>
+<subfield code="c">taʼlīf Jamāl al-Dīn al-Shayyāl.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">al-Qāhirah :</subfield>
-<subfield code="b">Dār al-Fikr al-ʻArabī,</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">[al-Qāhirah?] :</subfield>
+<subfield code="b">Dār al-Fikr al-ʻArabī,</subfield>
 <subfield code="c">[1947?]</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">254 p. ;</subfield>
-<subfield code="c">21 cm.</subfield>
+<subfield code="a">254 pages ;</subfield>
+<subfield code="c">20 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="0">
+<subfield code="a">Fatimites</subfield>
+<subfield code="x">History</subfield>
+<subfield code="v">Fiction.</subfield>
 </datafield>
 <datafield tag="651" ind1=" " ind2="0">
 <subfield code="a">Egypt</subfield>
 <subfield code="x">History</subfield>
-<subfield code="y">640-1250.</subfield>
+<subfield code="y">640-1250</subfield>
+<subfield code="v">Fiction.</subfield>
 </datafield>
-<datafield tag="651" ind1=" " ind2="0">
-<subfield code="a">Syria</subfield>
-<subfield code="x">History.</subfield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Fatimites.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst00921954</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Egypt.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01208755</subfield>
+</datafield>
+<datafield tag="648" ind1=" " ind2="7">
+<subfield code="a">640 - 1250</subfield>
+<subfield code="2">fast</subfield>
+</datafield>
+<datafield tag="655" ind1=" " ind2="7">
+<subfield code="a">Fiction.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01423787</subfield>
+</datafield>
+<datafield tag="655" ind1=" " ind2="7">
+<subfield code="a">History.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01411628</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">شيال، جمال الدين.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">245-02/</subfield>
+<subfield code="a">مصر والشام بين دولتين :</subfield>
+<subfield code="b">قصة تاريخية تصف الأحداث في القطرين الشقيقين بين سنتي 558,569 إبان انحلال الدولة الفاطمية وقيام دولة بني أيوب /</subfield>
+<subfield code="c">تأليف جمال الدين الشيال.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-03/</subfield>
+<subfield code="a">[القاهرة] :</subfield>
+<subfield code="b">دار الفكر العربي ؛</subfield>
+<subfield code="c">[1947?]</subfield>
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="e">uhol</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">1</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">e</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>

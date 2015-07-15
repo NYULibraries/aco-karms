@@ -1,44 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200229 a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">002186288</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010172446.0</controlfield>
+<controlfield tag="005">20150713160844.0</controlfield>
 <controlfield tag="008">941014s1907    sy            000 0 ara d</controlfield>
 <datafield tag="010" ind1=" " ind2=" ">
-<subfield code="a">73210184</subfield>
-</datafield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb11221860</subfield>
+<subfield code="a">   73210184</subfield>
 </datafield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG94-B47825</subfield>
+<subfield code="a">(OCoLC)862570036</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
 <subfield code="a">NNU</subfield>
-<subfield code="c">NNU</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">N15</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">NNU</subfield>
 </datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
+<datafield tag="050" ind1=" " ind2="4">
 <subfield code="a">BX4711.322</subfield>
 <subfield code="b">.M39 1907</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Maẓlūm, Maksīmūs ibn Jurjis,</subfield>
-<subfield code="d">1779 or 80-1854 or 5</subfield>
 <subfield code="6">880-01</subfield>
+<subfield code="a">Maẓlūm, Maksīmūs ibn Jurjis,</subfield>
+<subfield code="d">1779 or 1780-1854 or 1855.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
 <subfield code="6">880-02</subfield>
-<subfield code="a">Nubdhah tārīkhīyah fīmā jará li-ṭāʼifat al-Rūm al-Kāthūlīk mundhu sanat 1837 fa-mā baʻdahā /</subfield>
-<subfield code="c">bi-qalam Maksīmūs Maẓlūm ; Duniya bi-ṭabaʻihi Qusṭanṭīn al-Bāshā.</subfield>
+<subfield code="a">Nubdhah tārīkhīyah fīmā jará li-ṭāʼifat al-Rūm al-Kāthūlīk mundhu sanat 1837 fa-mā baʻdahā /</subfield>
+<subfield code="c">bi-qalam Maksīmūs Maẓlūm ; Duniya bi-ṭabaʻihi Qusṭanṭīn al-Bāshā.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">[Duma, Syria? :</subfield>
-<subfield code="b">s.n.,</subfield>
-<subfield code="c">1907]</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">[Syria?] :</subfield>
+<subfield code="b">ʻuniyá bi-ṭabʻihā al-Khūrī Qusṭanṭīn al-Bāshā,</subfield>
+<subfield code="c">[1907]</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
 <subfield code="a">16, 357 p. ;</subfield>
@@ -49,26 +48,35 @@
 <subfield code="b">Patriarchate of Antioch (Melchite)</subfield>
 <subfield code="x">History.</subfield>
 </datafield>
+<datafield tag="610" ind1="2" ind2="7">
+<subfield code="a">Catholic Church.</subfield>
+<subfield code="b">Patriarchate of Antioch (Melchite)</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst00581741</subfield>
+</datafield>
+<datafield tag="655" ind1=" " ind2="7">
+<subfield code="a">History.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01411628</subfield>
+</datafield>
 <datafield tag="880" ind1="0" ind2=" ">
 <subfield code="6">100-01/</subfield>
-<subfield code="a">مكسيموس مظلوم.</subfield>
+<subfield code="a">مكسيموس مظلوم،</subfield>
+<subfield code="d">1779 or 1780-1854 or 1855.</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2="0">
 <subfield code="6">245-02/</subfield>
 <subfield code="a">نبذة تاريخية فيما جرى لطائفة الروم الكاثوليك منذ سنة ١٨٣٧ فما بعدها /</subfield>
 <subfield code="c">بقلم مكسيموس مظلوم ؛ عني بطبعها قسطنطين الباشا.</subfield>
 </datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-03/</subfield>
+<subfield code="a">[سوريا؟] :</subfield>
+<subfield code="b">عنيى بطبعها الخوري قسطنطين الباشا،</subfield>
+<subfield code="c">[1907]</subfield>
+</datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">19941014</subfield>
-<subfield code="d">19941014</subfield>
-<subfield code="d">20011025</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">1</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">p</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
