@@ -3,46 +3,12 @@ Records containing SERIES errors - batch NNU_20150614
 --  Either the 490 field has 1st indicator=0 (untraced)
 --  Or there are more 490 fields than there are 800/810/811/830 fields,
     so the corresponding 8XX heading needs added
-Report produced: 2015-06-26 11:55:14.556143
+Report produced: 2015-07-14 21:09:28.543022
 ---------------------------------------------------------------------
 FILE: NNU_20150614_1/NNU_20150614_1_orig_with_oclc_nums.mrc
----------------------------------------------------------------------
-Institution ID: NNU_001676544
-   orig_rec_035 num: =035  9\$aNYUb12219900
-   orig_rec_035 num: =035  \\$a(MH)MHBIS83257HU
-   orig_rec_035 num: =035  \\$a(OCoLC)32214965
-   orig_rec_035 num: =035  \\$a(CStRLIN)MAHGBIS83257-B
-Record 999:  NNU_001676544
-ERROR-880: 880 script fields: NO
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Kitāb al-baʻth ; 1
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001538
 ---------------------------------------------------------------------
 ---------------------------------------------------------------------
 FILE: NNU_20150614_1/NNU_20150614_1_orig_no_oclc_nums.mrc
 ---------------------------------------------------------------------
-Institution ID: NNU_001344010
-   orig_rec_035 num: =035  9\$aNYUb11743807
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG97-B4573
-Record 999:  NNU_001344010
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   240 - Dhikr naḥl
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Maktabat al-Maqrīzī al-ṣaghīrah ; 1
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001585
----------------------------------------------------------------------
-Institution ID: NNU_001682321
-   orig_rec_035 num: =035  9\$aNYUb12225734
-   orig_rec_035 num: =035  \\$a(CStRLIN)MIUG84-B26699
-Record 999:  NNU_001682321
-ERROR-880: 880 script fields: NO
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Dirāsāt fī al-ḥadīth wa-tārīkh aḥādīth Sayf ibn ʻUmar ; 2.
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001027:v.1
----------------------------------------------------------------------
-TOTAL Number of Records containing series errors: 3
+TOTAL Number of Records containing series errors: 0
 

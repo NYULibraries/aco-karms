@@ -5,32 +5,50 @@
 	<controlfield tag="003">NNU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150626s1924    sy a    o     000 0 araod</controlfield>
+	<controlfield tag="008">150714s1924    sy a    o     000 0 araod</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">BP195.N7</subfield>
-		<subfield code="b">T35 1924 (Orien Arab)</subfield>
+		<subfield code="b">T35 1924</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Ṭawīl, Muḥammad Amīn Ghālib.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Ṭawīl, Muḥammad Amīn Ghālib.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Tārīkh al-ʻAlawīyīn</subfield>
-		<subfield code="h">[electronic resource] /</subfield>
-		<subfield code="c">Muḥammad Amīn Ghālib al-Ṭawīl.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Tārīkh al-ʻAlawīyīn /</subfield>
+		<subfield code="c">taʼlīf Muḥammad Amīn Ghālib al-Ṭawīl.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Sūriā :</subfield>
-		<subfield code="b">Maṭbaʻat al-Tarqī,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Lādhiqīyah :</subfield>
+		<subfield code="b">Maṭbaʻat al-Taraqqī,</subfield>
 		<subfield code="c">1924.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (478 p.) :</subfield>
-		<subfield code="b">ill.</subfield>
+		<subfield code="a">online resource (478 pages) :</subfield>
+		<subfield code="b">illustrations</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Romanized.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
@@ -45,6 +63,11 @@
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">Nosairians.</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Nosairians.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01039491</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">New York University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -53,14 +76,36 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">Ṭawīl, Muḥammad Amīn Ghālib.</subfield>
+		<subfield code="t">Tārīkh al-ʻAlawīyīn.</subfield>
+		<subfield code="d">al-Lādhiqīyah : Maṭbaʻat al-Taraqqī [yuṭlabu min muʼallifihi] 1924</subfield>
+		<subfield code="w">(OCoLC)713401817</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Ṭawīl, Muḥammad Amīn Ghālib.</subfield>
-		<subfield code="t">Tārīkh al-ʻAlawīyīn</subfield>
+		<subfield code="a">Ṭawīl, Muḥammad Amīn Ghālib.</subfield>
+		<subfield code="t">Tārīkh al-ʻAlawīyīn</subfield>
 		<subfield code="w">(NNU)001678011</subfield>
 		<subfield code="w">(DLC)ne 68001461</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/7d7wm5rt</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/</subfield>
+		<subfield code="a">طويل، محمد امين غالب.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/</subfield>
+		<subfield code="a">تاريخ العلويين /</subfield>
+		<subfield code="c">تأليف محمد امين غالب الطويل.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/</subfield>
+		<subfield code="a">اللاذقية :</subfield>
+		<subfield code="b">مطبعة الترقي،</subfield>
+		<subfield code="c">1924.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -73,6 +118,5 @@
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNU_001678011</subfield>
 		<subfield code="s">nyu_aco000993</subfield>
-		<subfield code="e">(ERROR-880)</subfield>
 	</datafield>
 </record>
