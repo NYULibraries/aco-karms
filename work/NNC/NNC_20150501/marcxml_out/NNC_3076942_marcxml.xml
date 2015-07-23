@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150603s1935    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">150723s1935    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,14 +17,18 @@
 		<subfield code="h">und</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Racine, Jean,</subfield>
 		<subfield code="d">1639-1699.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Andromaque.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Qiṣat Andrūmāk /</subfield>
+		<subfield code="c">Rāsīn ; naqlahā ilá al-ʻArabiyah Ṭaha Ḥusayn.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">al-Qāhirah,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
 		<subfield code="b">al-Maṭbaʻah al-Amīriyah,</subfield>
 		<subfield code="c">1935.</subfield>
 	</datafield>
@@ -57,6 +61,7 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Ḥusayn, Ṭāhā,</subfield>
 		<subfield code="d">1889-1973.</subfield>
 	</datafield>
@@ -70,12 +75,33 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Racine, Jean, 1639-1699.</subfield>
-		<subfield code="t">Andromaque</subfield>
+		<subfield code="t">Qiṣat Andrūmāk</subfield>
 		<subfield code="w">(NNC)3076942</subfield>
 		<subfield code="w">(OCoLC)47865373</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/mcvdng0s</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">راسين،</subfield>
+		<subfield code="d">1639-1699.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">قصة اندروماك /</subfield>
+		<subfield code="c">راسين ؛ نقلها الى العربية طه حسين.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">المطبعة الاميرية،</subfield>
+		<subfield code="c">1935.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-04</subfield>
+		<subfield code="a">حسين، طه،</subfield>
+		<subfield code="d">1889-1973.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -87,8 +113,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3076942</subfield>
-		<subfield code="o">(OCoLC)ocm47865373 </subfield>
+		<subfield code="o">(OCoLC)ocm47865373</subfield>
 		<subfield code="s">columbia_aco000650</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco000650</subfield>
 	</datafield>
 </record>

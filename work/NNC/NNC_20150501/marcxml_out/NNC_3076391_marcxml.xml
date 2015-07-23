@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150603s1954    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">150723s1954    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -13,14 +13,23 @@
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Jād al-Mawlá, Muḥammad Aḥmad.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Qiṣaṣ al-Qurʼān ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Qiṣaṣ al-Qurʼān /</subfield>
+		<subfield code="c">Jād al-Mawlá Muḥammad Aḥmad.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Ṭabʻah al-sādisah.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo,</subfield>
-		<subfield code="c">1373-1954.</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">al-Maktabah al-Tijāriyah al-Kubrá,</subfield>
+		<subfield code="c">[1954]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (431 pages)</subfield>
@@ -51,6 +60,7 @@
 		<subfield code="a">In Arabic.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">By M.A. Jād al-Mawlā, Muḥammad Abū al-Faḍl Ibrāhīm, ʻAlī Muḥammad al-Bajāwī and al-Sayyid Shaḥḥātah.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="630">
@@ -62,7 +72,8 @@
 		<subfield code="0">(OCoLC)fst01842877</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">Abu al-Faḍl Ibrāhīm, Muḥammad,</subfield>
+		<subfield code="6">880-06</subfield>
+		<subfield code="a">Ibrāhīm, Muḥammad Abū al-Faḍl,</subfield>
 		<subfield code="e">author.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -82,6 +93,34 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/tx95x8td</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">جاد المولى، محمد احمد.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">قصص القرآن /</subfield>
+		<subfield code="c">جاد المولى محمد احمد. </subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">250-03</subfield>
+		<subfield code="a">الطبعة السادسة.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">المكتبة التجارية الكبرى،</subfield>
+		<subfield code="c">[1954]</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-05</subfield>
+		<subfield code="a">بي م.. جاد المولا، محمد ابو الفضل ابراهيم، علي محمد البجاوي اند السيد شحاتة.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-06</subfield>
+		<subfield code="a">ابراهيم، محمد ابو الفضل،</subfield>
+		<subfield code="e">اثر.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -92,8 +131,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3076391</subfield>
-		<subfield code="o">(OCoLC)ocm42910254 </subfield>
+		<subfield code="o">(OCoLC)ocm42910254</subfield>
 		<subfield code="s">columbia_aco000785</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco000785</subfield>
 	</datafield>
 </record>

@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150603s1949    xx      o     000 0 ara d</controlfield>
+	<controlfield tag="008">150723s1949    xx      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,11 +17,14 @@
 		<subfield code="b">.I15 1949</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ibshīhī, Muḥammad ibn Aḥmad,</subfield>
 		<subfield code="d">1388-approximately 1446.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Mustaṭraf.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Mustaṭraf fī kul fan mustẓraf /</subfield>
+		<subfield code="c">Shihāb al-Dīn Aḥmad al-Ibshīhī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="c">[1949]</subfield>
@@ -52,6 +55,7 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Ibn Ḥijjah al-Ḥamawī, Taqī al-Dīn Abū Bakr ibn ʻAlī,</subfield>
 		<subfield code="d">-1434.</subfield>
 	</datafield>
@@ -78,12 +82,27 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Ibshīhī, Muḥammad ibn Aḥmad, 1388-approximately 1446.</subfield>
-		<subfield code="t">al-Mustaṭraf</subfield>
+		<subfield code="t">al-Mustaṭraf fī kul fan mustẓraf</subfield>
 		<subfield code="w">(NNC)3076914</subfield>
 		<subfield code="w">(OCoLC)23514703</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/7d7wm5n3</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">ابشيهي، محمد بن احمد،</subfield>
+		<subfield code="d">1388-approximately 1446.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">المستطرف في كل فن مستظرف /</subfield>
+		<subfield code="c">شهاب الدين احمد الابشيهي.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">600-03</subfield>
+		<subfield code="a">ابن حجة الحموي، تقي الدين ابو بكر بن علي،</subfield>
+		<subfield code="d">1434.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -95,8 +114,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3076914</subfield>
-		<subfield code="o">(OCoLC)ocm23514703 </subfield>
+		<subfield code="o">(OCoLC)ocm23514703</subfield>
 		<subfield code="s">columbia_aco000776</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco000776</subfield>
 	</datafield>
 </record>
