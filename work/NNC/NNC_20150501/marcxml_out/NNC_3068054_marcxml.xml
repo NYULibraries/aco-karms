@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150603s1929    sy      o     000 0 ara d</controlfield>
+	<controlfield tag="008">150723s1929    sy      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,15 +17,18 @@
 		<subfield code="b">.I25 1929</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ibn Jinnī, Abū al-Fatḥ ʻUthmān,</subfield>
 		<subfield code="d">-1002.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Mubhij fī tafsīr asmāʼ shuʻaraʼ Dīwān al-ḥamāsah :</subfield>
-		<subfield code="b">ʻan aṣl maktūb ʻām (669) maʻa al-muʻāraḍah bi-nuskhah qadīmah fī Dār al- Kutub al-Miṣrīyah wa-nuskhah nāqiṣah /</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Mubhij fī tafsīr asmāʼ shuʻarāʼ Dīwān al-ḥamāsah :</subfield>
+		<subfield code="b">ʻan aṣl maktūb ʻām (669) maʻa al-muʻāraḍah bi-nuskhah qadīmah fī Dār al-Kutub al-Miṣrīyah wa-nuskhah nāqiṣah /</subfield>
 		<subfield code="c">bi-khaṭṭ Muḥammad Maḥmūd ibn al-Talāmīdh al-Takizī al-Shinqīṭī min khizānatihi fī Dār al-Kutub al- Miṣrīyah ayḍan.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Dimashq :</subfield>
 		<subfield code="b">Maṭbaʻat al-Taraqqī,</subfield>
 		<subfield code="c">1348 [1929]</subfield>
@@ -66,6 +69,7 @@
 		<subfield code="0">(OCoLC)fst01751766</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="2" tag="700">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Abū Tammām Ḥabīb ibn Aws al-Ṭāʼī,</subfield>
 		<subfield code="d">active 808-842.</subfield>
 		<subfield code="t">Ḥamāsah.</subfield>
@@ -80,12 +84,35 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Ibn Jinnī, Abū al-Fatḥ ʻUthmān, -1002.</subfield>
-		<subfield code="t">al-Mubhij fī tafsīr asmāʼ shuʻaraʼ Dīwān al-ḥamāsah</subfield>
+		<subfield code="t">al-Mubhij fī tafsīr asmāʼ shuʻarāʼ Dīwān al-ḥamāsah</subfield>
 		<subfield code="w">(NNC)3068054</subfield>
 		<subfield code="w">(OCoLC)78078935</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/3bk3jcxh</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">ابن جني، ابو الفتح عثمان،</subfield>
+		<subfield code="d">1002.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">المبهج في تفسير اسماء شعراء ديوان الحماسة :</subfield>
+		<subfield code="b">عن اصل مكتوب عام (669) مع المعارضة بنسخة قديمة في دار الكتب المصرية ونسخة ناقصة /</subfield>
+		<subfield code="c">بخط محمد محمود بن التلاميذ التكزي الشنقيطي من خزانته في دار الكتب ال مصرية ايضن.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">دمشق :</subfield>
+		<subfield code="b">مطبعة الترقي،</subfield>
+		<subfield code="c">1348 [1929]</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="2" tag="880">
+		<subfield code="6">700-04</subfield>
+		<subfield code="a">ابو تمام حبيب بن اوس الطائي،</subfield>
+		<subfield code="d">active 808-842.</subfield>
+		<subfield code="t">حماسة.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -97,8 +124,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3068054</subfield>
-		<subfield code="o">(OCoLC)ocm78078935 </subfield>
+		<subfield code="o">(OCoLC)ocm78078935</subfield>
 		<subfield code="s">columbia_aco000620</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco000620</subfield>
 	</datafield>
 </record>

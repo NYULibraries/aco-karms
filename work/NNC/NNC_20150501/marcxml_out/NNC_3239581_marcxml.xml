@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150603s1889    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">150723s1889    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,11 +17,14 @@
 		<subfield code="d">1628-1688.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Siyāhat al-masīhi.</subfield>
-		<subfield code="b">The Pilgrim's progress ... [Part I].</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Siyāḥat al-masīḥī =</subfield>
+		<subfield code="b">The pilgrim's progress.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Beirut,</subfield>
+	<datafield ind1=" " ind2="0" tag="260">
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Bayrūt :</subfield>
+		<subfield code="b">al-Maṭbaʻah al-Amīrkīyah,</subfield>
 		<subfield code="c">1889.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -41,6 +44,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Ms. note: Vowelled edition.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Non-Latin script record</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
@@ -69,12 +75,22 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Bunyan, John, 1628-1688.</subfield>
-		<subfield code="t">Siyāhat al-masīhi</subfield>
+		<subfield code="t">Siyāḥat al-masīḥī =</subfield>
 		<subfield code="w">(NNC)3239581</subfield>
 		<subfield code="w">(OCoLC)49419590</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/wdbrv3qs</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-01</subfield>
+		<subfield code="a">سياحة المسيحي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">260-02</subfield>
+		<subfield code="a">بيروت :</subfield>
+		<subfield code="b">المطبعة الاميركية،</subfield>
+		<subfield code="c">1889.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -86,8 +102,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3239581</subfield>
-		<subfield code="o">(OCoLC)ocm49419590 </subfield>
+		<subfield code="o">(OCoLC)ocm49419590</subfield>
 		<subfield code="s">columbia_aco000643</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco000643</subfield>
 	</datafield>
 </record>

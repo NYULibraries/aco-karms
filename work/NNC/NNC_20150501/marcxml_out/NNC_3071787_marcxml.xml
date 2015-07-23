@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150603s1946    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">150723s1946    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -13,15 +13,18 @@
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Munūfī, al-Sayyid Maḥmūd Abū al-Fayḍ.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Kitāb al-wujūd;</subfield>
-		<subfield code="b">mabāḥith fī Allāh wa al-ṭabī ʻa wa al-insān ..., fatḥ jadīd fī al-naẓra ilā al-ʻawālim wa al-kāʼināt,</subfield>
-		<subfield code="c">waḍaʻahū Maḥmūd Abū-al-Faiḍ al-Manūfī ʻamīd al-Faiḍīyīn.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb al-wujūd :</subfield>
+		<subfield code="b">mabāḥith fī Allāh wa al-ṭabīʻaا wa al-insān ..., fatḥ jadīd fī al-naẓra ilá al-ʻawālim wa al-kāʼināt /</subfield>
+		<subfield code="c">waḍaʻahu Maḥmūd Abū-al-Faiḍ al-Manūfī ʻamīd al-Faiḍīyīn.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">al-Qāhirah,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
 		<subfield code="b">al-Maktabah al-Fayḍīyah,</subfield>
 		<subfield code="c">[1946?]</subfield>
 	</datafield>
@@ -39,6 +42,12 @@
 	<datafield ind1=" " ind2=" " tag="338">
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Non-Latin script record</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Non-Latin script record</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
@@ -68,12 +77,28 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Munūfī, al-Sayyid Maḥmūd Abū al-Fayḍ.</subfield>
-		<subfield code="t">Kitāb al-wujūd;</subfield>
+		<subfield code="t">Kitāb al-wujūd</subfield>
 		<subfield code="w">(NNC)3071787</subfield>
 		<subfield code="w">(OCoLC)47826209</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/b2rbp256</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">منوفي، السيد محمود ابو الفيض. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">كتاب الوجود :</subfield>
+		<subfield code="b">مباحث في الله و الطبيعة ع و الانسان ...، فتح جديد في النظرة الى العوالم و الكائنات /</subfield>
+		<subfield code="c">وضعه محمود ابوالفض المنوفي عميد الفضيين.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">المكتبة الفيضية،</subfield>
+		<subfield code="c">[1946؟]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -85,8 +110,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3071787</subfield>
-		<subfield code="o">(OCoLC)ocm47826209 </subfield>
+		<subfield code="o">(OCoLC)ocm47826209</subfield>
 		<subfield code="s">columbia_aco000721</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco000721</subfield>
 	</datafield>
 </record>

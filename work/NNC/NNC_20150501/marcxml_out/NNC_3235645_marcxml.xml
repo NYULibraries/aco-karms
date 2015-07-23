@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150603s1916    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">150723s1916    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -13,15 +13,24 @@
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Jazāʼirī, Ṭāhir ibn Ṣāliḥ,</subfield>
 		<subfield code="d">1851 or 1852-1919 or 1920.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Kitāb al-tibyān ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb al-Tibyān li-baʻḍ al-mabāḥith al-mutaʻalliqah bi-al-Qurʼān ʻalá ṭarīq al-itqān /</subfield>
+		<subfield code="c">lil-Muʻtaṣim bi-Allāh Ṭāhir ibn Ṣāliḥ ibn Aḥmad al-Jazāʼirī.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Ṭabʻah 1.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo,</subfield>
-		<subfield code="c">1334 A.H. [1916]</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Maṭbaʻat al-Manār,</subfield>
+		<subfield code="c">1334 [1916]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (280, 8 pages)</subfield>
@@ -66,12 +75,32 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Jazāʼirī, Ṭāhir ibn Ṣāliḥ, 1851 or 1852-1919 or 1920.</subfield>
-		<subfield code="t">Kitāb al-tibyān</subfield>
+		<subfield code="t">Kitāb al-Tibyān li-baʻḍ al-mabāḥith al-mutaʻalliqah bi-al-Qurʼān ʻalá ṭarīq al-itqān</subfield>
 		<subfield code="w">(NNC)3235645</subfield>
 		<subfield code="w">(OCoLC)49355099</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/6q573qmb</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">جزائري، طاهر بن صالح،</subfield>
+		<subfield code="d">1851 or 1852-1919 or 1920.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">كتاب التبيان لبعض المباحث المتعلقة بالقرآن على طريق الاتقان /</subfield>
+		<subfield code="c">للمعتصم بالله طاهر بن صالح بن احمد الجزائري.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">250-03</subfield>
+		<subfield code="a">الطبعة 1.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مطبعة المنار،</subfield>
+		<subfield code="c">1334 [1916]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -83,8 +112,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3235645</subfield>
-		<subfield code="o">(OCoLC)ocm49355099 </subfield>
+		<subfield code="o">(OCoLC)ocm49355099</subfield>
 		<subfield code="s">columbia_aco000607</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco000607</subfield>
 	</datafield>
 </record>

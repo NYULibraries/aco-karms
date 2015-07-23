@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150603s193u    iq      o     000 0 ara d</controlfield>
+	<controlfield tag="008">150723s193u    iq      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -13,15 +13,18 @@
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Sulaym ibn Qays,</subfield>
 		<subfield code="d">-approximately 705.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Kitāb Sulaym ibn Qays al-Hilālī.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb Sulaym ibn Qays al-Kūfī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Najaf,</subfield>
-		<subfield code="b">Maṭbaʻat al-Ḥaidariyya,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Najaf :</subfield>
+		<subfield code="b">Maṭbaʻah al-Ḥaīdariyyah,</subfield>
 		<subfield code="c">[193-?]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -81,12 +84,27 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Sulaym ibn Qays, -approximately 705.</subfield>
-		<subfield code="t">Kitāb Sulaym ibn Qays al-Hilālī</subfield>
+		<subfield code="t">Kitāb Sulaym ibn Qays al-Kūfī</subfield>
 		<subfield code="w">(NNC)3058926</subfield>
 		<subfield code="w">(OCoLC)47717220</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/sqv9s736</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">سليم بن قيس،</subfield>
+		<subfield code="d">-approximately 705.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">كتاب سليم بن قيس الكوفي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">نجف :</subfield>
+		<subfield code="b">مطبعة الحيدرية،</subfield>
+		<subfield code="c">[193؟]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -98,8 +116,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3058926</subfield>
-		<subfield code="o">(OCoLC)ocm47717220 </subfield>
+		<subfield code="o">(OCoLC)ocm47717220</subfield>
 		<subfield code="s">columbia_aco000724</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco000724</subfield>
 	</datafield>
 </record>

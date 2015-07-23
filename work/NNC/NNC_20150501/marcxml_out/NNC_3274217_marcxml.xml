@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150603s1882    le      o     000 0 ara d</controlfield>
+	<controlfield tag="008">150723s1882    le      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -13,14 +13,19 @@
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Mutanabbī, Abū al-Ṭayyib Aḥmad ibn al-Ḥusayn,</subfield>
 		<subfield code="d">915 or 916-965.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Dīwān ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb al-ʻarf al-ṭayyib fī sharḥ Dīwān Abī al-Ṭayyib /</subfield>
+		<subfield code="c">li-Nāṣīf al-Yāzijī al-Lubnānī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Beirut,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Bayrūt :</subfield>
+		<subfield code="b">Maṭbaʻat al-Qiddīs Jāwurjiyūs,</subfield>
 		<subfield code="c">1882.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -48,7 +53,14 @@
 		<subfield code="d">2015.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Mutanabbī, Abū al-Ṭayyib Aḥmad ibn al-Ḥusayn,</subfield>
+		<subfield code="d">915 or 916-965.</subfield>
+		<subfield code="t">Poems.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Yāzijī, Nāṣīf,</subfield>
 		<subfield code="d">1800-1871.</subfield>
 	</datafield>
@@ -69,12 +81,39 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Mutanabbī, Abū al-Ṭayyib Aḥmad ibn al-Ḥusayn, 915 or 916-965.</subfield>
-		<subfield code="t">Dīwān</subfield>
+		<subfield code="t">Kitāb al-ʻarf al-ṭayyib fī sharḥ Dīwān Abī al-Ṭayyib</subfield>
 		<subfield code="w">(NNC)3274217</subfield>
 		<subfield code="w">(OCoLC)49694295</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/kwh70vf6</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">متنبي، ابو الطيب احمد بن الحسين،</subfield>
+		<subfield code="d">915 or 916-965.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">كتاب العرف الطيب في شرح ديوان ابي الطيب /</subfield>
+		<subfield code="c">لناصيف اليازجي اللبناني.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">بيروت :</subfield>
+		<subfield code="b">مطبعة القديس جاورجيوس،</subfield>
+		<subfield code="c">1882.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">600-04</subfield>
+		<subfield code="a">متنبي، ابو الطيب احمد بن الحسين،</subfield>
+		<subfield code="d">915 or 916-965.</subfield>
+		<subfield code="t">Poems.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-05</subfield>
+		<subfield code="a">يازجي، ناصيف،</subfield>
+		<subfield code="d">1800-1871.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -86,8 +125,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3274217</subfield>
-		<subfield code="o">(OCoLC)ocm49694295 </subfield>
+		<subfield code="o">(OCoLC)ocm49694295</subfield>
 		<subfield code="s">columbia_aco000706</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco000706</subfield>
 	</datafield>
 </record>

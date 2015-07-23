@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150603s1937    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">150723s1937    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -13,16 +13,19 @@
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ibn Ḥajar al-Haythamī, Aḥmad ibn Muḥammad,</subfield>
 		<subfield code="d">approximately 1503-approximately 1566.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Zawājir ʻan iqtirāf al-kabāʼir,</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Zawājir ʻan iqtirāf al-kabāʼir /</subfield>
 		<subfield code="c">lil-imām Ibn Ḥajar al-Makkī al-Haytamī. Wabihāmishihī: kitāb Kaff al-raʻāʻ ʻan muḥarramāt al-lahw wa-al-samāʻ, thumma yalīhi: kitāb al-Aʻlām biqawāṭiʻ al-Islām; wahumā lahū ayḍan.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">al-Qāhirah,</subfield>
-		<subfield code="b">Matb. al-Ḥijāzī,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
+		<subfield code="b">Maṭbaʻat al-Ḥijāzī,</subfield>
 		<subfield code="c">1356 [1937]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -50,6 +53,11 @@
 		<subfield code="d">2015.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Sin</subfield>
+		<subfield code="x">Islam</subfield>
+		<subfield code="v">Early works to 1800.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -67,6 +75,22 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/7m0cg13b</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">ابن حجر الهىثمى، احمد بن محمد،</subfield>
+		<subfield code="d">approximately 1503-approximately 1566.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">الزواجر عن اقتراف الكبائر /</subfield>
+		<subfield code="c">للامام ابن حجر المكي الهيتمي. وبهامشهي: كتاب كف الرعاع عن محرمات اللهو والسماع، ثم يليه: كتاب الاعلام بقواطع الاسلام؛ وهما لهوا ايضن.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">مطبعة الحجازي،</subfield>
+		<subfield code="c">1356 [1937]</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -77,8 +101,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3087638</subfield>
-		<subfield code="o">(OCoLC)ocm47977938 </subfield>
+		<subfield code="o">(OCoLC)ocm47977938</subfield>
 		<subfield code="s">columbia_aco000667</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco000667</subfield>
 	</datafield>
 </record>

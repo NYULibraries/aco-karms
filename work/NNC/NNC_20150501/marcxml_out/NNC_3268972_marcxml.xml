@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150603s1929    su      o     000 0 ara d</controlfield>
+	<controlfield tag="008">150723s1929    su      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -13,18 +13,24 @@
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ibn Hubayrah, Yaḥyá ibn Muḥammad,</subfield>
 		<subfield code="d">-1165.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Ifṣāḥ ʻan maʻānī al-ṣiḥāḥ</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Kitāb al-ifṣaḥ ʻan maʻānī al-ṣiḥāḥ ...</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Kitāb al-ifṣāḥ ʻan maʻānī al-ṣiḥāḥ /</subfield>
+		<subfield code="c">taʼlīf ʻAwn al-Dīn Abī al-Muẓaffar Yaḥyá ibn Muḥammad ibn Hubayrah al-Ḥanbalī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Aleppo,</subfield>
-		<subfield code="c">1348 A.H. [1929]</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Ḥalab :</subfield>
+		<subfield code="b">al-Maṭbaʻat al-ʻIlmīyah li-Muḥammad Rāghib al-Ṭabbākh,</subfield>
+		<subfield code="c">1929.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (48, 448, 3 pages)</subfield>
@@ -90,12 +96,32 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Ibn Hubayrah, Yaḥyá ibn Muḥammad, -1165.</subfield>
-		<subfield code="t">Kitāb al-ifṣaḥ ʻan maʻānī al-ṣiḥāḥ</subfield>
+		<subfield code="t">Kitāb al-ifṣāḥ ʻan maʻānī al-ṣiḥāḥ</subfield>
 		<subfield code="w">(NNC)3268972</subfield>
 		<subfield code="w">(OCoLC)49647333</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/931zctz3</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">ابن هبيرة، يحيى بن محمد،</subfield>
+		<subfield code="d">-1165.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">240-02</subfield>
+		<subfield code="a">افصاح عن معاني الصحاح</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-03</subfield>
+		<subfield code="a">كتاب الافصاح عن معاني الصحاح /</subfield>
+		<subfield code="c">تأليف عون الدين ابي المظفر يحيى بن محمد بن هبيرة الحنبلي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04</subfield>
+		<subfield code="a">حلب :</subfield>
+		<subfield code="b">المطبعة العلمية لمحمد راغب الطباخ،</subfield>
+		<subfield code="c">1929.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -107,8 +133,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3268972</subfield>
-		<subfield code="o">(OCoLC)ocm49647333 </subfield>
+		<subfield code="o">(OCoLC)ocm49647333</subfield>
 		<subfield code="s">columbia_aco000778</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco000778</subfield>
 	</datafield>
 </record>

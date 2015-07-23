@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150603s1928    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">150723s1928    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -13,17 +13,19 @@
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Shāṭibī, al-Qāsim ibn Fīrruh,</subfield>
 		<subfield code="d">1144-1194.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Matn Ḥirz al-amānī wawajh al-tahānī,</subfield>
-		<subfield code="b">al-maʻ-rūfah bi-l-Shāṭibīyah,</subfield>
-		<subfield code="c">taʼlīf Abī-l-Ḳāsim ibn Fierro ibn Khalaf ibn Aḥmad al-Ruʻainī al-Shāṭibī al-Andalusī. Wamaʻahū Kitāb Taḳrīb al-nafʻ fiʹl-ḳirāʼāt al-sabʻ, taʼlīf Alī Muḥammad al-Ḍabbāʻ.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Matn Ḥirz al-amānī wawajh al-tahānī  al-maʻrūfah bi-al-Shāṭibīyah /</subfield>
+		<subfield code="c">taʼlīf Abī al-Qāsim ibn Fīrah ibn Khalaf ibn Aḥmad al-Ruʻainī al-Shāṭibī al-Andalusī. Wa maʻahū Kitāb Taqrīb al-nafʻ fi al-qirāʼāt al-sabʻ, taʼlīf Alī Muḥammad al-Ḍabbāʻ.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Miṣr,</subfield>
-		<subfield code="b">Maṭb. Muṣṭafā al-Bābī al-Ḥalabī,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Maṭbaʻat Muṣṭafá al-Bābī al-Ḥalabī,</subfield>
 		<subfield code="c">1347 [1928]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -51,6 +53,10 @@
 		<subfield code="d">2015.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="0" tag="630">
+		<subfield code="a">Qurʼan</subfield>
+		<subfield code="x">Readings.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -61,12 +67,28 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Shāṭibī, al-Qāsim ibn Fīrruh, 1144-1194.</subfield>
-		<subfield code="t">Matn Ḥirz al-amānī wawajh al-tahānī</subfield>
+		<subfield code="t">Matn Ḥirz al-amānī wawajh al-tahānī  al-maʻrūfah bi-al-Shāṭibīyah</subfield>
 		<subfield code="w">(NNC)3076452</subfield>
 		<subfield code="w">(OCoLC)47859046</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/37pvmg7s</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">شاطبي، القاسم بن فيره،</subfield>
+		<subfield code="d">1144-1194.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">متن حرز الاماني ووجه التهاني  المعروفة بالشاطبية /</subfield>
+		<subfield code="c">تأليف ابي القاسم بن فيرة بن خلف بن احمد الرعني الشاطبي الاندلسي. و معه كتاب تقريب النفع ف القراءات السبع، تأليف الي محمد الضباع.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مطبعة مصطفى البابي الحلبي،</subfield>
+		<subfield code="c">1347 [1928]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -78,8 +100,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3076452</subfield>
-		<subfield code="o">(OCoLC)ocm47859046 </subfield>
+		<subfield code="o">(OCoLC)ocm47859046</subfield>
 		<subfield code="s">columbia_aco000775</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco000775</subfield>
 	</datafield>
 </record>

@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150603s1891    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">150723s1891    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -13,16 +13,19 @@
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ṭuwayrānī, Ḥasan Ḥusnī ibn Ḥusayn,</subfield>
 		<subfield code="d">1849 or 1850-1897 or 1898.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Kitāb Dalīl ahl al-īmān fī siḥḥat al-Qurʼān,</subfield>
-		<subfield code="c">athar Ḥasan Ḥusnī al-Tuwayrānī.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb Dalīl ahl al-īmān fī ṣiḥḥat al-Qurʼān /</subfield>
+		<subfield code="c">Athar Ḥasan Ḥusnī al-Tuwayrānī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Miṣr,</subfield>
-		<subfield code="b">maṭbaʻat ʹal-Nilʹ,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">maṭbaʻat al-Nīlʹ,</subfield>
 		<subfield code="c">1309 [1891]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -53,6 +56,10 @@
 		<subfield code="d">2015.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="0" tag="630">
+		<subfield code="a">Qurʼan</subfield>
+		<subfield code="x">Evidences, authority, etc.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -70,12 +77,28 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Ṭuwayrānī, Ḥasan Ḥusnī ibn Ḥusayn, 1849 or 1850-1897 or 1898.</subfield>
-		<subfield code="t">Kitāb Dalīl ahl al-īmān fī siḥḥat al-Qurʼān</subfield>
+		<subfield code="t">Kitāb Dalīl ahl al-īmān fī ṣiḥḥat al-Qurʼān</subfield>
 		<subfield code="w">(NNC)3121261</subfield>
 		<subfield code="w">(OCoLC)48197075</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/6t1g1n95</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">طويراني، حسن حسني بن حسين،</subfield>
+		<subfield code="d">1849 or 1850-1897 or 1898.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">كتاب دليل اهل الايمان في صحة القرآن /</subfield>
+		<subfield code="c">اثر حسن حسني التويراني.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مطبعة النيل،</subfield>
+		<subfield code="c">1309 [1891]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -87,8 +110,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3121261</subfield>
-		<subfield code="o">(OCoLC)ocm48197075 </subfield>
+		<subfield code="o">(OCoLC)ocm48197075</subfield>
 		<subfield code="s">columbia_aco000714</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco000714</subfield>
 	</datafield>
 </record>
