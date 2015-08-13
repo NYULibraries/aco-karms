@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200361 a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001674747</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010170926.0</controlfield>
-<controlfield tag="008">001208s1951    iq c          000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12217582</subfield>
-</datafield>
+<controlfield tag="005">20150730175044.0</controlfield>
+<controlfield tag="008">040525s1951    iq c          000 0 ara d</controlfield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG00-B4053</subfield>
+<subfield code="a">(OCoLC)55482507</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">NNU</subfield>
-<subfield code="c">NNU</subfield>
+<subfield code="a">ZYU</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">ZYU</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">OCL</subfield>
+<subfield code="d">OCLCO</subfield>
 </datafield>
 <datafield tag="041" ind1="1" ind2=" ">
 <subfield code="a">ara</subfield>
@@ -24,20 +27,13 @@
 </datafield>
 <datafield tag="050" ind1=" " ind2="4">
 <subfield code="a">DS70.96.G7</subfield>
-<subfield code="b">S3</subfield>
-</datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="a">DS70.96.G7</subfield>
-<subfield code="b">S3</subfield>
+<subfield code="b">S3 1951</subfield>
 </datafield>
 <datafield tag="245" ind1="0" ind2="0">
 <subfield code="6">880-01</subfield>
-<subfield code="a">Ṣafḥah min tārīkh al-ʻIrāq̣ al-ḥadīth min sanat 1914 ilá sanat 1926 :</subfield>
-<subfield code="b">takwīn al-ḥukm al-waṭanī fī al-ʻIrāq : mudhakkiratān khaṭīratān /</subfield>
-<subfield code="c">al-ūlá bi-qalam Birsī Kūks wa-al-thānīyah bi-qalam Hinrī Dūbs ; taʻarīb Bashīr Farjū.</subfield>
+<subfield code="a">Ṣafḥah min tārīkh al-ʻIrāq̣ al-ḥadīth min sanat 1914 ilá sanat 1926 :</subfield>
+<subfield code="b">takwīn al-ḥukm al-waṭanī fī al-ʻIrāq : mudhakkiratān khaṭīratān /</subfield>
+<subfield code="c">al-ūlá bi-qalam Birsī Kūks wa-al-thānīyah bi-qalam Hinrī Dūbs ; taʻarīb Bashīr Farjū.</subfield>
 </datafield>
 <datafield tag="246" ind1="1" ind2=" ">
 <subfield code="i">Title on p. [4] of cover:</subfield>
@@ -48,18 +44,33 @@
 </datafield>
 <datafield tag="250" ind1=" " ind2=" ">
 <subfield code="6">880-02</subfield>
-<subfield code="a">al-Ṭabʻah 1.</subfield>
+<subfield code="a">al-Ṭabʻah 1.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
 <subfield code="6">880-03</subfield>
-<subfield code="a">Mawṣil :</subfield>
-<subfield code="b">Maṭbaʻat al-Ittiḥād al-Jadīdah,</subfield>
+<subfield code="a">Mawṣil :</subfield>
+<subfield code="b">Maṭbaʻat al-Ittiḥād al-Jadīdah,</subfield>
 <subfield code="c">[1951?]</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">112 p. :</subfield>
-<subfield code="b">ports. ;</subfield>
-<subfield code="c">22 cm.</subfield>
+<subfield code="a">112 pages :</subfield>
+<subfield code="b">portraits ;</subfield>
+<subfield code="c">22 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="651" ind1=" " ind2="0">
 <subfield code="a">Iraq</subfield>
@@ -75,17 +86,36 @@
 <subfield code="a">Iraq</subfield>
 <subfield code="x">Politics and government.</subfield>
 </datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Diplomatic relations.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01907412</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Politics and government</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01919741</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Great Britain.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01204623</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Iraq.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01205757</subfield>
+</datafield>
 <datafield tag="700" ind1="1" ind2=" ">
 <subfield code="6">880-04</subfield>
-<subfield code="a">Cox, Percy Zachariah,</subfield>
-<subfield code="c">Sir,</subfield>
+<subfield code="a">Cox, Percy,</subfield>
 <subfield code="d">1864-1937.</subfield>
 </datafield>
 <datafield tag="700" ind1="1" ind2=" ">
 <subfield code="6">880-05</subfield>
 <subfield code="a">Dobbs, Henry Robert Conway,</subfield>
 <subfield code="c">Sir,</subfield>
-<subfield code="d">d. 1934.</subfield>
+<subfield code="d">-1934.</subfield>
 </datafield>
 <datafield tag="880" ind1="0" ind2="0">
 <subfield code="6">245-01/</subfield>
@@ -113,15 +143,6 @@
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">20001208</subfield>
-<subfield code="d">20001208</subfield>
-<subfield code="d">20001208</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">1</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">p</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>

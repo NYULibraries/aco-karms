@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200277 a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001628344</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010170813.0</controlfield>
-<controlfield tag="008">000615s1956    iq ab         000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12155238</subfield>
+<controlfield tag="005">20150730172358.0</controlfield>
+<controlfield tag="008">870910s1956    iq ab    b    001 0 ara</controlfield>
+<datafield tag="010" ind1=" " ind2=" ">
+<subfield code="a">   90965296</subfield>
 </datafield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG00-B1898</subfield>
+<subfield code="a">(OCoLC)39497791</subfield>
+<subfield code="z">(OCoLC)16666029</subfield>
+<subfield code="z">(OCoLC)18402588</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">OrPS</subfield>
-<subfield code="c">OrPS</subfield>
-<subfield code="d">MH</subfield>
-<subfield code="d">CStRLIN</subfield>
-<subfield code="d">NNU</subfield>
+<subfield code="a">DLC-R</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">DLC</subfield>
+<subfield code="d">WAU</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">OCLCQ</subfield>
+</datafield>
+<datafield tag="042" ind1=" " ind2=" ">
+<subfield code="a">lcode</subfield>
 </datafield>
 <datafield tag="043" ind1=" " ind2=" ">
 <subfield code="a">a-iq---</subfield>
 </datafield>
-<datafield tag="050" ind1=" " ind2="4">
+<datafield tag="050" ind1="0" ind2="0">
 <subfield code="a">DS70.8.B4</subfield>
-<subfield code="b">J35 1956</subfield>
-</datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="a">DS70.8.B4</subfield>
-<subfield code="b">J35 1956</subfield>
+<subfield code="b">J36 1956</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Jamīl, Makkī</subfield>
 <subfield code="6">880-01</subfield>
+<subfield code="a">Jamīl, Makkī.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="3">
 <subfield code="6">880-02</subfield>
-<subfield code="a">al-Badū wa-al-qabāʼil al-raḥḥālah fī al-ʻIrāq /</subfield>
-<subfield code="c">taʼlīf Makkī al-Jamīl.</subfield>
+<subfield code="a">al-Badw wa-al-qabāʼil al-raḥḥālah fī al-ʻIrāq /</subfield>
+<subfield code="c">taʼlīf Makkī al-Jamīl ; ashrafa ʻalá ṭabʻihi Jihād al-ʻAbāyijī.</subfield>
 </datafield>
 <datafield tag="246" ind1="1" ind2=" ">
 <subfield code="i">Title on p. [4] of cover:</subfield>
@@ -47,48 +47,67 @@
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
 <subfield code="6">880-03</subfield>
-<subfield code="a">Baghdād :</subfield>
-<subfield code="b">Maṭbaʼah al-Rabiṭah,</subfield>
+<subfield code="a">Baghdād :</subfield>
+<subfield code="b">Maṭbaʻat al-Rābiṭah,</subfield>
 <subfield code="c">1956.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">327 p., [2] fold. plates :</subfield>
-<subfield code="b">ill., maps. ;</subfield>
-<subfield code="c">22 cm.</subfield>
+<subfield code="a">327 pages :</subfield>
+<subfield code="b">illustrations, maps ;</subfield>
+<subfield code="c">22 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="504" ind1=" " ind2=" ">
-<subfield code="a">Includes bibliographical references (p. 322).</subfield>
+<subfield code="a">Includes bibliographical references (pages 322-323) and indexes.</subfield>
+</datafield>
+<datafield tag="520" ind1=" " ind2=" ">
+<subfield code="a">Bedouins; Iraq.</subfield>
 </datafield>
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Bedouins</subfield>
 <subfield code="z">Iraq.</subfield>
 </datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Bedouins.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst00829496</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Iraq.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01205757</subfield>
+</datafield>
 <datafield tag="880" ind1="1" ind2=" ">
 <subfield code="6">100-01/</subfield>
-<subfield code="a">جميل، مكي.</subfield>
+<subfield code="a">جميل، مكى.</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2="2">
 <subfield code="6">245-02/</subfield>
 <subfield code="a">البدو والقبائل الرحالة في العراق /</subfield>
-<subfield code="c">تأليف مكي الجميل.</subfield>
+<subfield code="c">تأليف مكى الجميل ؛ اشرف على طبعه جهاد العبايجي.</subfield>
 </datafield>
 <datafield tag="880" ind1=" " ind2=" ">
 <subfield code="6">260-03/</subfield>
 <subfield code="a">بغداد :</subfield>
-<subfield code="b">مربعة الرابطة،</subfield>
-<subfield code="c">١٩٥٦.</subfield>
+<subfield code="b">مطبعة الرابطة،</subfield>
+<subfield code="c">1956.</subfield>
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">20000615</subfield>
-<subfield code="d">20000615</subfield>
-<subfield code="d">20000615</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">1</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">p</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>

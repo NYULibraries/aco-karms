@@ -1,43 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200229 a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001679557</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">19990310000000.0</controlfield>
+<controlfield tag="005">20150804160414.0</controlfield>
 <controlfield tag="008">940202s1965    iq            000 0 araod</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12222949</subfield>
-</datafield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(ICU)hz3651646</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)ILCGHZ3651646-B</subfield>
+<subfield code="a">(OCoLC)29737739</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
 <subfield code="a">OSU</subfield>
+<subfield code="b">eng</subfield>
 <subfield code="c">OSU</subfield>
-<subfield code="d">CGU</subfield>
+<subfield code="d">OCL</subfield>
+<subfield code="d">OCLCG</subfield>
+<subfield code="d">OCLCA</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">NNU</subfield>
+</datafield>
+<datafield tag="050" ind1=" " ind2="4">
+<subfield code="a">JC393.A3</subfield>
+<subfield code="b">G445 1965</subfield>
 </datafield>
 <datafield tag="100" ind1="0" ind2=" ">
-<subfield code="a">Ghazzālī,</subfield>
+<subfield code="6">880-01</subfield>
+<subfield code="a">Ghazzālī,</subfield>
 <subfield code="d">1058-1111.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
-<subfield code="a">Sirr al-ʻālamayn wa-kashf mā fī al-dārayn /</subfield>
-<subfield code="c">taʼlīf Abī Ḥāmid al-Ghazzālī.</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">Sirr al-ʻālamayn wa-kashf mā fī al-dārayn /</subfield>
+<subfield code="c">taʼlīf Abī Ḥāmid al-Ghazzālī.</subfield>
 </datafield>
 <datafield tag="250" ind1=" " ind2=" ">
-<subfield code="a">al-Ṭabʻah 2.</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">al-Ṭabʻah 2.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
+<subfield code="6">880-04</subfield>
 <subfield code="a">al-Najaf :</subfield>
-<subfield code="b">Maṭbaʻat al-Nuʻmān,</subfield>
+<subfield code="b">Maṭbaʻat al-Nuʻmān,</subfield>
 <subfield code="c">1965.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">232 p. ;</subfield>
-<subfield code="c">22 cm.</subfield>
+<subfield code="a">232 pages ;</subfield>
+<subfield code="c">22 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Kings and rulers</subfield>
@@ -48,21 +74,44 @@
 <subfield code="a">Education of princes</subfield>
 <subfield code="v">Early works to 1800.</subfield>
 </datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Education of princes.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst00902875</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Kings and rulers</subfield>
+<subfield code="x">Duties.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst00987703</subfield>
+</datafield>
+<datafield tag="655" ind1=" " ind2="7">
+<subfield code="a">Early works.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01411636</subfield>
+</datafield>
+<datafield tag="880" ind1="0" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">غزالي،</subfield>
+<subfield code="d">1058-1111.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">245-02/</subfield>
+<subfield code="a">سر العالمين وكشف ما في الدارين /</subfield>
+<subfield code="c">تأليف ابي حامد الغزالي.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">250-03/</subfield>
+<subfield code="a">الطبعة 2.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-04/</subfield>
+<subfield code="a">النجف :</subfield>
+<subfield code="b">مطبعة النعمان،</subfield>
+<subfield code="c">1965.</subfield>
+</datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">JC393.A3</subfield>
-<subfield code="b">G44 1965</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1</subfield>
-<subfield code="r">028418203</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="s">9115</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
