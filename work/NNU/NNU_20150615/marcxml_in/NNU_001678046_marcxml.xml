@@ -1,65 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a22002297a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001678046</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">19961007174532.2</controlfield>
+<controlfield tag="005">20150731170249.0</controlfield>
 <controlfield tag="008">961003m19251951le            000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12221431</subfield>
-</datafield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(MH)MHBIS40400HU</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)MAHGBIS40400-B</subfield>
+<subfield code="a">(OCoLC)81092452</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="d">CStRLIN</subfield>
+<subfield code="a">HLS</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">HLS</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">NNU</subfield>
 </datafield>
-<datafield tag="245" ind1="0" ind2="0">
-<subfield code="a">Mulūk al-ʻArab :</subfield>
-<subfield code="b">au riḥlah fī al-bilād al-ʻArabīyahm /</subfield>
-<subfield code="c">Amīn al-Rīḥānī.</subfield>
+<datafield tag="043" ind1=" " ind2=" ">
+<subfield code="a">ar-----</subfield>
+</datafield>
+<datafield tag="050" ind1=" " ind2="4">
+<subfield code="a">DS49.7</subfield>
+<subfield code="b">.R5 1925</subfield>
+</datafield>
+<datafield tag="100" ind1="1" ind2=" ">
+<subfield code="6">880-01</subfield>
+<subfield code="a">Rīḥānī, Amīn Albirt.</subfield>
+</datafield>
+<datafield tag="245" ind1="1" ind2="0">
+<subfield code="6">880-02</subfield>
+<subfield code="a">Mulūk al-ʻArab :</subfield>
+<subfield code="b">aw riḥlah fī al-bilād al-ʻArabīyahm /</subfield>
+<subfield code="c">Amīn al-Rīḥānī.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">Bayrūt :</subfield>
-<subfield code="b">al-Maṭbaʻah al-ʻIlmīyah,</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">Bayrūt :</subfield>
+<subfield code="b">Maṭābiʻ Ṣādir Rīḥānī,</subfield>
 <subfield code="c">1925-1951.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">2 v.</subfield>
+<subfield code="a">2 volumes</subfield>
 </datafield>
-<datafield tag="500" ind1=" " ind2=" ">
-<subfield code="a">Includes indexes.</subfield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="651" ind1=" " ind2="0">
 <subfield code="a">Arabian Peninsula</subfield>
 <subfield code="x">History.</subfield>
 </datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Arabian Peninsula.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01240131</subfield>
+</datafield>
+<datafield tag="655" ind1=" " ind2="7">
+<subfield code="a">History.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01411628</subfield>
+</datafield>
 <datafield tag="730" ind1="0" ind2=" ">
-<subfield code="a">Riḥlah fī al-bilād al-ʻArabīyah.</subfield>
+<subfield code="6">880-04</subfield>
+<subfield code="a">Riḥlah fī al-bilād al-ʻArabīyah.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">ريحاني، امين البرت.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">245-02/</subfield>
+<subfield code="a">ملوك العرب :</subfield>
+<subfield code="b">او رحلة في البلاد العربية /</subfield>
+<subfield code="c">امين الريحاني.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-03/</subfield>
+<subfield code="a">بيروت :</subfield>
+<subfield code="b">مطابع صادر ريحاني،</subfield>
+<subfield code="c">1925-1951.</subfield>
+</datafield>
+<datafield tag="880" ind1="0" ind2=" ">
+<subfield code="6">730-04/</subfield>
+<subfield code="a">رحلة في البلاد العربية.</subfield>
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">DS49.7</subfield>
-<subfield code="b">.R5 1951</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1:v.1</subfield>
-<subfield code="r">028216565</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1:v.2</subfield>
-<subfield code="r">028216623</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="s">9555</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>

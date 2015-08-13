@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200337 a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001627211</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010170809.0</controlfield>
-<controlfield tag="008">000609s1959    iq f          000 0 arax</controlfield>
+<controlfield tag="005">20150730172117.0</controlfield>
+<controlfield tag="008">000609s1959    iq f          000 0 araxd</controlfield>
 <datafield tag="010" ind1=" " ind2=" ">
-<subfield code="a">NE 67000810</subfield>
-</datafield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12153470</subfield>
+<subfield code="a">ne 67000810</subfield>
 </datafield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG00-B1795</subfield>
+<subfield code="a">(OCoLC)862566271</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="c">NN</subfield>
-<subfield code="d">NN</subfield>
+<subfield code="a">N15</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">N15</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">OCLCF</subfield>
 <subfield code="d">NNU</subfield>
 </datafield>
 <datafield tag="043" ind1=" " ind2=" ">
@@ -26,54 +26,55 @@
 <subfield code="a">DS79.9.B25</subfield>
 <subfield code="b">F72 1959</subfield>
 </datafield>
-<datafield tag="050" ind1="0" ind2=" ">
-<subfield code="a">DS51.B3</subfield>
-<subfield code="b">F7</subfield>
-</datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="a">DS79.9.B25</subfield>
-<subfield code="b">F72 1959</subfield>
-</datafield>
 <datafield tag="100" ind1="1" ind2=" ">
 <subfield code="6">880-01</subfield>
-<subfield code="a">Fransīs, Bashīr.</subfield>
+<subfield code="a">Fransīs, Bashīr.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
 <subfield code="6">880-02</subfield>
-<subfield code="a">Baghdād, tārīkhuhā wa-āthāruhā /</subfield>
-<subfield code="c">bi-qalam Bashīr Fransīs.</subfield>
+<subfield code="a">Baghdād, tārīkhuhā wa-āthāruhā /</subfield>
+<subfield code="c">bi-qalam Bashīr Fransīs.</subfield>
 </datafield>
 <datafield tag="250" ind1=" " ind2=" ">
 <subfield code="6">880-03</subfield>
-<subfield code="a">al-Ṭabʻah 1.</subfield>
+<subfield code="a">al-Ṭabʻah 1.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
 <subfield code="6">880-04</subfield>
-<subfield code="a">Baghdād :</subfield>
-<subfield code="b">Maṭbaʻat al-Rābiṭah,</subfield>
+<subfield code="a">Baghdād :</subfield>
+<subfield code="b">Maṭbaʻat al-Rābiṭah,</subfield>
 <subfield code="c">1959.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">22 p.</subfield>
-<subfield code="b">28 plates.</subfield>
+<subfield code="a">22 p. :</subfield>
+<subfield code="b">28 plates ;</subfield>
 <subfield code="c">25 cm.</subfield>
 </datafield>
 <datafield tag="500" ind1=" " ind2=" ">
 <subfield code="a">In Arabic.</subfield>
 </datafield>
 <datafield tag="500" ind1=" " ind2=" ">
-<subfield code="a">At head of title: al-Jumhūrīyah al-ʻIrāqīyah. Mudīrīyat al-Āthār al-ʻĀmmah.</subfield>
+<subfield code="a">At head of title: al-Jumhūrīyah al-ʻIrāqīyah. Mudīrīyat al-Āthār al-ʻĀmmah.</subfield>
 </datafield>
 <datafield tag="651" ind1=" " ind2="0">
 <subfield code="a">Baghdad (Iraq)</subfield>
 <subfield code="x">Antiquities.</subfield>
 </datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Antiquities.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst00810745</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Iraq</subfield>
+<subfield code="z">Baghdad.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01207444</subfield>
+</datafield>
 <datafield tag="710" ind1="1" ind2=" ">
+<subfield code="6">880-05</subfield>
 <subfield code="a">Iraq.</subfield>
-<subfield code="b">Mudīrīyat al-Āthār al-Qadīmah al-ʻĀmmah.</subfield>
+<subfield code="b">Mudīrīyat al-Āthār al-Qadīmah al-ʻĀmmah.</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2=" ">
 <subfield code="6">100-01/</subfield>
@@ -94,17 +95,13 @@
 <subfield code="b">مطبعة الرابطة،</subfield>
 <subfield code="c">١٩٥٩.</subfield>
 </datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">710-05/</subfield>
+<subfield code="a">العراق.</subfield>
+<subfield code="b">مديرية الاثار القديمة العامة.</subfield>
+</datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">20000609</subfield>
-<subfield code="d">20000609</subfield>
-<subfield code="d">20040609</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">1</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">e</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>

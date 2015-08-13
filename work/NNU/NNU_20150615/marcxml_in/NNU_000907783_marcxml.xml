@@ -1,42 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a22002531  4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">000907783</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010171447.0</controlfield>
+<controlfield tag="005">20150730164207.0</controlfield>
 <controlfield tag="008">030523s1935    ua ab         000 0 arard</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12718832</subfield>
-</datafield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG03-B1621</subfield>
+<subfield code="a">(OCoLC)862560055</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
 <subfield code="a">MiU</subfield>
-<subfield code="c">MiU</subfield>
-<subfield code="d">NNU</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">N15</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">OCLCF</subfield>
 </datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
+<datafield tag="050" ind1=" " ind2="4">
 <subfield code="a">DS38</subfield>
 <subfield code="b">.S3 1935</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Saʻīd, Amīn</subfield>
 <subfield code="6">880-01</subfield>
+<subfield code="a">Saʻīd, Amīn.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
 <subfield code="6">880-02</subfield>
-<subfield code="a">Ḥurūb al-Islām wa-al-Imbarāṭūrīyah al-Rūmānīyah \</subfield>
-<subfield code="c">taʼlīf Amīn Saʻīd.</subfield>
+<subfield code="a">Ḥurūb al-Islām wa-al-Imbarāṭūrīyah al-Rūmānīyah \</subfield>
+<subfield code="c">taʼlīf Amīn Saʻīd.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
 <subfield code="6">880-03</subfield>
-<subfield code="a">Miṣr :</subfield>
-<subfield code="b">Maṭaʻat ʻIsa al-Bābī al-Ḥalabī,</subfield>
-<subfield code="c">[1935]</subfield>
+<subfield code="a">Miṣr :</subfield>
+<subfield code="b">Maṭbaʻat ʻIsa al-Bābī al-Ḥalabī,</subfield>
+<subfield code="c">1935.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
 <subfield code="a">424 p.</subfield>
@@ -45,11 +41,16 @@
 </datafield>
 <datafield tag="490" ind1="0" ind2=" ">
 <subfield code="6">880-04</subfield>
-<subfield code="a">Tārīkh al-Islām al-siyāsī,</subfield>
+<subfield code="a">Tārīkh al-Islām al-siyāsī,</subfield>
 <subfield code="v">2</subfield>
 </datafield>
 <datafield tag="651" ind1=" " ind2="0">
 <subfield code="a">Islamic Empire.</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Islamic Empire.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01244134</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2=" ">
 <subfield code="6">100-01/</subfield>
@@ -62,26 +63,29 @@
 </datafield>
 <datafield tag="880" ind1=" " ind2=" ">
 <subfield code="6">260-03/</subfield>
-<subfield code="a">مصر ؛</subfield>
-<subfield code="b">مطبعة عيسى البابى الحلبى،</subfield>
-<subfield code="c">[١٩٣٥]</subfield>
+<subfield code="a">مصر :</subfield>
+<subfield code="b">مطبعة عيسى البابي الحلبي،</subfield>
+<subfield code="c">1935.</subfield>
 </datafield>
 <datafield tag="880" ind1="0" ind2=" ">
 <subfield code="6">490-04/</subfield>
 <subfield code="a">تاريخ الاسلام السياسى،</subfield>
 <subfield code="v">٢</subfield>
 </datafield>
+<datafield tag="800" ind1="1" ind2=" ">
+<subfield code="6">880-05</subfield>
+<subfield code="a">Saʻīd, Amīn.</subfield>
+<subfield code="t">Tārīkh al-Islām al-siyāsī ;</subfield>
+<subfield code="v">2.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">800-05/</subfield>
+<subfield code="a">سعيد، امين.</subfield>
+<subfield code="t">تاريخ الاسلام السياسي ؛</subfield>
+<subfield code="v">2.</subfield>
+</datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">20030523</subfield>
-<subfield code="d">20030523</subfield>
-<subfield code="d">20030523</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">1</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">p</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>

@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200325 a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001689400</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010170932.0</controlfield>
-<controlfield tag="008">001220s1968    iq       b    001 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12233757</subfield>
-</datafield>
+<controlfield tag="005">20150805162926.0</controlfield>
+<controlfield tag="008">040603s1968    iq       b    001 0 ara d</controlfield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG00-B4236</subfield>
+<subfield code="a">(OCoLC)55537821</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">NNU</subfield>
-<subfield code="c">NNU</subfield>
+<subfield code="a">ZYU</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">ZYU</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCG</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">NNU</subfield>
 </datafield>
 <datafield tag="043" ind1=" " ind2=" ">
 <subfield code="a">ff-----</subfield>
@@ -22,41 +26,49 @@
 <subfield code="a">DT194</subfield>
 <subfield code="b">.B3 1968</subfield>
 </datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="a">DT194</subfield>
-<subfield code="b">.B3 1968</subfield>
-</datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Bakrī, Abū ʻUbayd ʻAbd Allāh ibn ʻAbd al-ʻAzīz,</subfield>
-<subfield code="d">1040-1094</subfield>
 <subfield code="6">880-01</subfield>
+<subfield code="a">Bakrī, Abū ʻUbayd ʻAbd Allāh ibn ʻAbd al-ʻAzīz,</subfield>
+<subfield code="d">1040-1094.</subfield>
 </datafield>
 <datafield tag="240" ind1="1" ind2="0">
 <subfield code="6">880-02</subfield>
-<subfield code="a">Masālik wa-al-mamālik.</subfield>
+<subfield code="a">Masālik wa-al-mamālik.</subfield>
 <subfield code="k">Selections</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="3">
 <subfield code="6">880-03</subfield>
-<subfield code="a">al-Maghrib fī dhikr bilād Ifrīqīyah wa-al-Maghrib :</subfield>
-<subfield code="b">wa-huwa juzʼ min kitāb al-Masālik wa-al-mamālik /</subfield>
-<subfield code="c">taʼlīf Abī ʻUbayd al-Bakrī.</subfield>
+<subfield code="a">al-Maghrib fī dhikr bilād Ifrīqīyah wa-al-Maghrib :</subfield>
+<subfield code="b">wa-huwa juzʼ min kitāb al-Masālik wa-al-mamālik /</subfield>
+<subfield code="c">taʼlīf Abī ʻUbayd al-Bakrī.</subfield>
 </datafield>
 <datafield tag="246" ind1="1" ind2="4">
 <subfield code="a">Description de l'Afrique septentrionale</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
 <subfield code="6">880-04</subfield>
-<subfield code="a">Baghdād :</subfield>
-<subfield code="b">Yuṭlabu min Maktabat al-Muthannā,</subfield>
+<subfield code="a">Baghdād :</subfield>
+<subfield code="b">Yuṭlabu min Maktabat al-Muthannā,</subfield>
 <subfield code="c">[1968?]</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">213, 19 p. ;</subfield>
-<subfield code="c">25 cm.</subfield>
+<subfield code="a">213, 19 pages ;</subfield>
+<subfield code="c">25 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="500" ind1=" " ind2=" ">
 <subfield code="a">Preface in French.</subfield>
@@ -72,9 +84,25 @@
 <subfield code="x">Description and travel</subfield>
 <subfield code="v">Early works to 1800.</subfield>
 </datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Travel.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01155558</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Africa, North.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01239515</subfield>
+</datafield>
+<datafield tag="655" ind1=" " ind2="7">
+<subfield code="a">Early works.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01411636</subfield>
+</datafield>
 <datafield tag="880" ind1="1" ind2=" ">
 <subfield code="6">100-01/</subfield>
-<subfield code="a">بكري، أبو عبيد عبد الله بن عبد العزيز.</subfield>
+<subfield code="a">بكري، أبو عبيد عبد الله بن عبد العزيز،</subfield>
+<subfield code="d">1040-1094.</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2="0">
 <subfield code="6">240-02/</subfield>
@@ -94,15 +122,6 @@
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">20001220</subfield>
-<subfield code="d">20001220</subfield>
-<subfield code="d">20011109</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">1</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">p</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
