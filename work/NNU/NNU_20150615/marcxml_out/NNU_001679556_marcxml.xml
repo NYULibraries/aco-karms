@@ -5,43 +5,75 @@
 	<controlfield tag="003">NNU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150727r19681914iq h    ob    000 0 arax </controlfield>
+	<controlfield tag="008">150825r19681914iq h    ob    000 0 ara  </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="043">
-		<subfield code="a">ff-----</subfield>
-		<subfield code="a">aw-----</subfield>
+	<datafield ind1="0" ind2=" " tag="041">
+		<subfield code="a">ara</subfield>
+		<subfield code="a">fre</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">aw-----</subfield>
+		<subfield code="a">ff-----</subfield>
+		<subfield code="a">e-sp---</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">D199.3</subfield>
 		<subfield code="b">.J33 1968</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
-		<subfield code="a">Jāḥiẓ,</subfield>
-		<subfield code="d">d. 868 or 9.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Jāḥiẓ,</subfield>
+		<subfield code="d">-868 or 869.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Kitāb al-tāj fī akhlāq al-mulūk lil-Jāḥiẓ</subfield>
-		<subfield code="h">[electronic resource] /</subfield>
-		<subfield code="c">bi-Taḥqīq Aḥmad Zakī.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb al-Tāj fī akhlāq al-mulūk /</subfield>
+		<subfield code="c">lil-Jāḥiẓ ; bi-taḥqīq Aḥmad Zakī.</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Tāj fī akhlāq al-mulūk</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Akhlāq al-mulūk</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="246">
+		<subfield code="i">Title on cover p. [4]:</subfield>
+		<subfield code="a">Livre de la couronne = Kitāb al-Tadj</subfield>
+	</datafield>
+	<datafield ind1="3" ind2="0" tag="246">
+		<subfield code="a">Kitāb al-Tadj</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[Baghdād,</subfield>
-		<subfield code="b">Maktabat al-Muthanná,</subfield>
-		<subfield code="c">1968?]</subfield>
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">[Baghdād] :</subfield>
+		<subfield code="b">[Maktabat al-Muthanná],</subfield>
+		<subfield code="c">[1968?]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (83, 266, xiv p.) :</subfield>
-		<subfield code="b">facsims.</subfield>
+		<subfield code="a">online resource (83, 266, xiv pages) :</subfield>
+		<subfield code="b">facsimiles</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">In Arabic; preface in French.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">Added cover title: Le livre de la couronne, Kitab el tadj [par] Djâẖiẕ.</subfield>
+		<subfield code="a">Cover title.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Reprint of the ed. published in Cairo, 1914.</subfield>
@@ -50,10 +82,7 @@
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">Bibliography: p. 235-240.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">Cover title.</subfield>
+		<subfield code="a">Includes bibliographical references (pages 235-240).</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
@@ -66,8 +95,20 @@
 		<subfield code="a">Islamic Empire</subfield>
 		<subfield code="x">Court and courtiers.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">Zakī, Aḥmad.</subfield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Courts and courtiers.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst00881829</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">Islamic Empire.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01244134</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="700">
+		<subfield code="6">880-06</subfield>
+		<subfield code="a">Aḥmad Zakī,</subfield>
+		<subfield code="d">approximately 1866-1934.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">New York University.</subfield>
@@ -76,18 +117,51 @@
 	<datafield ind1="0" ind2=" " tag="730">
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="1" tag="740">
-		<subfield code="a">Tāj fī akhlāq al-mulūk.</subfield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">Jāḥiẓ, -868 or 9.</subfield>
+		<subfield code="t">Kitāb al-Tāj fī akhlāq al-mulūk.</subfield>
+		<subfield code="d">[Baghdād : Maktabat al-Muthanná, 1968?]</subfield>
+		<subfield code="w">(OCoLC)577232510</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Jāḥiẓ, d. 868 or 9.</subfield>
-		<subfield code="t">Kitāb al-tāj fī akhlāq al-mulūk lil-Jāḥiẓ</subfield>
+		<subfield code="a">Jāḥiẓ, -868 or 869.</subfield>
+		<subfield code="t">Kitāb al-Tāj fī akhlāq al-mulūk</subfield>
 		<subfield code="w">(NNU)001679556</subfield>
-		<subfield code="w">(DLC)71961252</subfield>
+		<subfield code="w">(DLC)   71961252</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/k98sfb5q</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01/</subfield>
+		<subfield code="a">جاحظ،</subfield>
+		<subfield code="d">-868 or 869.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/</subfield>
+		<subfield code="a">كتاب التاج في اخلاق الملوك /</subfield>
+		<subfield code="c">للجاحظ ؛ بتحقيق احمد زكي.</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">246-03/</subfield>
+		<subfield code="a">تاج في اخلاق الملوك</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">246-04/</subfield>
+		<subfield code="a">اخلاق الملوك</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-05/</subfield>
+		<subfield code="a">[بغداد] :</subfield>
+		<subfield code="b">[مكتبة المثنى]،</subfield>
+		<subfield code="c">[1968؟]</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">700-06/</subfield>
+		<subfield code="a">احمد زكي،</subfield>
+		<subfield code="d">1866-1934.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
