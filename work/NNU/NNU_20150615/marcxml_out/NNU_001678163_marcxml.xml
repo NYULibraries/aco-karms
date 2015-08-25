@@ -5,35 +5,61 @@
 	<controlfield tag="003">NNU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150727s1937    le a    o     000 0 ara d</controlfield>
+	<controlfield tag="008">150825s1937    le ac   o     000 0 arard</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
-		<subfield code="a">DS79</subfield>
-		<subfield code="b">.A65</subfield>
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">a-iq---</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ7818.I8</subfield>
+		<subfield code="b">A25 1937</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Abū al-Naṣr, ʻUmar.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Abū al-Naṣr, ʻUmar.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-ʻIrāq al-jadīd</subfield>
-		<subfield code="h">[electronic resource] /</subfield>
-		<subfield code="c">taʼlīf ʻUmar Abū al-Naṣr.</subfield>
+	<datafield ind1="1" ind2="4" tag="245">
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-ʻIrāq al-jadīd /</subfield>
+		<subfield code="c">taʼlīf ʻUmar Abū al-Naṣr.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
-		<subfield code="a">al-Ṭabʻah 1.</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Ṭabʻah 1.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">[Beirut] :</subfield>
-		<subfield code="b">Maṭbūʻāt al-Ahlīyah,</subfield>
+		<subfield code="b">Maṭbaʻat Dār al-Aḥad,</subfield>
 		<subfield code="c">1937.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (251 p.) :</subfield>
-		<subfield code="b">ports.</subfield>
+		<subfield code="a">online resource (251 pages) :</subfield>
+		<subfield code="b">illustrations, portraits.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Silsilat Maṭbūʻāt [al-Ahlīyah]</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Translation of title: The new Iraq.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
@@ -47,7 +73,35 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
 		<subfield code="a">Iraq</subfield>
-		<subfield code="x">History.</subfield>
+		<subfield code="x">Politics and government.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="a">Iraq</subfield>
+		<subfield code="x">Social conditions.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="a">Iraq</subfield>
+		<subfield code="x">Economic conditions.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Economic history.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst00901974</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Politics and government.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01919741</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Social conditions.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01919811</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">Iraq.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01205757</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">New York University.</subfield>
@@ -58,12 +112,43 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Abū al-Naṣr, ʻUmar.</subfield>
-		<subfield code="t">al-ʻIrāq al-jadīd</subfield>
+		<subfield code="a">Abū al-Naṣr, ʻUmar.</subfield>
+		<subfield code="t">al-ʻIrāq al-jadīd</subfield>
 		<subfield code="w">(NNU)001678163</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/crjdfqm4</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/</subfield>
+		<subfield code="a">أبو النصر، عمر.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/</subfield>
+		<subfield code="a">العراق الجديد /</subfield>
+		<subfield code="c">تأليف عمر أبو النصر.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">250-03/</subfield>
+		<subfield code="a">الطبعة 1.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/</subfield>
+		<subfield code="a">[بيروت] :</subfield>
+		<subfield code="b">مطبعة دار الاحد،</subfield>
+		<subfield code="c">1937.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">490-05/</subfield>
+		<subfield code="a">سلسلة مطبوعات [الاهلية]</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-06</subfield>
+		<subfield code="a">Silsilat Maṭbūʻāt [al-Ahlīyah]</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">830-06/</subfield>
+		<subfield code="a">سلسلة مطبوعات [الاهلية]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -76,6 +161,5 @@
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNU_001678163</subfield>
 		<subfield code="s">nyu_aco001291</subfield>
-		<subfield code="e">(ERROR-880)</subfield>
 	</datafield>
 </record>

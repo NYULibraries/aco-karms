@@ -5,40 +5,53 @@
 	<controlfield tag="003">NNU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150727s1969    iq a    ob    000 0 arax </controlfield>
+	<controlfield tag="008">150825s1969    iq      o     000 0 und d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">KBP632.32</subfield>
+		<subfield code="b">.J83 1969</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">al-Jubūrī, Abū al-Yaqẓān ʻAṭīyah.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Jubūrī, Abū al-Yaqẓān ʻAṭīyah.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Ḥukm al-mīrāth fī al-sharīʻah al-Islāmīyah</subfield>
-		<subfield code="h">[electronic resource] /</subfield>
-		<subfield code="c">[taʼlīf] Abū al-Yaqẓān ʻAṭīyah al-Jubūrī.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Ḥukm al-mīrāth fī al-sharīʻah al-Islāmīyah /</subfield>
+		<subfield code="c">[taʼlīf] Abū al-Yaqẓān ʻAṭīyah al-Jubūrī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
-		<subfield code="a">[al-Ṭabʻah 1.]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[al-Ṭabʻah 1.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Baghdād,</subfield>
-		<subfield code="b">Dār al-Nadhīr lil-Ṭibāʻah Wa-al-Nashr,</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Baghdād :</subfield>
+		<subfield code="b">Dār al-Nadhīr lil-Ṭibāʻah Wa-al-Nashr,</subfield>
 		<subfield code="c">1969.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (139 [i.e. 239] p.) :</subfield>
-		<subfield code="b">illus.</subfield>
+		<subfield code="a">online resource (1 volume)</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">In Arabic.</subfield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">Bibliography: p. 129 [i.e. 229]-230.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
@@ -50,6 +63,11 @@
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">Inheritance and succession (Islamic law)</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Inheritance and succession (Islamic law)</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst00973401</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">New York University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -58,14 +76,40 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">Jubūrī, Abū al-Yaqẓān ʻAṭīyah.</subfield>
+		<subfield code="t">Ḥukm al-mīrāth fī al-sharīʻah al-Islāmīyah.</subfield>
+		<subfield code="d">1969</subfield>
+		<subfield code="w">(OCoLC)605365889</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">al-Jubūrī, Abū al-Yaqẓān ʻAṭīyah.</subfield>
-		<subfield code="t">Ḥukm al-mīrāth fī al-sharīʻah al-Islāmīyah</subfield>
+		<subfield code="a">Jubūrī, Abū al-Yaqẓān ʻAṭīyah.</subfield>
+		<subfield code="t">Ḥukm al-mīrāth fī al-sharīʻah al-Islāmīyah</subfield>
 		<subfield code="w">(NNU)001679128</subfield>
-		<subfield code="w">(DLC)76962060</subfield>
+		<subfield code="w">(DLC)   76962060</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/sqv9s775</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/</subfield>
+		<subfield code="a">جبوري، أبو اليقظان عطية.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/</subfield>
+		<subfield code="a">حكم الميراث في الشريعة الاسلامية /</subfield>
+		<subfield code="c">[تأليف] أبو اليقظان عطية الجبوري.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">250-03/</subfield>
+		<subfield code="a">[الطبعة 1.].</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/</subfield>
+		<subfield code="a">بغداد :</subfield>
+		<subfield code="b">دار النذير للطباعة والنشر،</subfield>
+		<subfield code="c">1969.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -78,6 +122,5 @@
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNU_001679128</subfield>
 		<subfield code="s">nyu_aco001140</subfield>
-		<subfield code="e">(ERROR-880)</subfield>
 	</datafield>
 </record>

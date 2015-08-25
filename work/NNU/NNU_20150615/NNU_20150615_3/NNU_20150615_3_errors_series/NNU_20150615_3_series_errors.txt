@@ -3,77 +3,38 @@ Records containing SERIES errors - batch NNU_20150615
 --  Either the 490 field has 1st indicator=0 (untraced)
 --  Or there are more 490 fields than there are 800/810/811/830 fields,
     so the corresponding 8XX heading needs added
-Report produced: 2015-07-27 17:49:35.038783
+Report produced: 2015-08-25 11:10:58.854735
 ---------------------------------------------------------------------
 FILE: NNU_20150615_1/NNU_20150615_1_orig_with_oclc_nums.mrc
 ---------------------------------------------------------------------
-Institution ID: NNU_001379353
-   orig_rec_035 num: =035  \\$a(OCoLC)265439424
-Record 999:  NNU_001379353
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   240 - Relation d'un séjour de plusieurs années 'a Beyrouth et dans le Liban Arabic 1949.
-   250 - al-Ṭabʻah 1.
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Mabāḥith ajnabīyah fī tārīkh Lubnān.
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001079:v.1, nyu_aco001080:v.2
----------------------------------------------------------------------
-Institution ID: NNU_001682757
-   orig_rec_035 num: =035  9\$aNYUb12226174
-   orig_rec_035 num: =035  \\$a(NSyU)notisAFM7358
-   orig_rec_035 num: =035  \\$a(OCoLC)21541521
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYSXAFM7358-B
-Record 999:  NNU_001682757
-ERROR-880: 880 script fields: NO
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Silsilat tārīkh al-fạnn fī Sūrīyah, 1
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001180
----------------------------------------------------------------------
----------------------------------------------------------------------
-FILE: NNU_20150615_1/NNU_20150615_1_orig_no_oclc_nums.mrc
----------------------------------------------------------------------
 Institution ID: NNU_000907783
-   orig_rec_035 num: =035  9\$aNYUb12718832
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG03-B1621
+   orig_rec_035 num: =035  \\$a(OCoLC)862560055
 Record 999:  NNU_000907783
 880 script fields: YES
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Tārīkh al-Islām al-siyāsī, 2
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Tārīkh al-Islām al-siyāsī, 2
 040 $e field: [none]
 Source entities (book IDs): nyu_aco001267
 ---------------------------------------------------------------------
 Institution ID: NNU_001676869
-   orig_rec_035 num: =035  9\$aNYUb12220233
-   orig_rec_035 num: =035  \\$a(NNU)NYUb12220233
+   orig_rec_035 num: =035  \\$a(OCoLC)31008162
 Record 999:  NNU_001676869
 880 script fields: YES
 ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Maktab al-dirāsāt al-Islāmīyah fī Dimashq ; 2
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Maktab al-dirāsāt al-Islāmīyah fī Dimashq ; 2
 040 $e field: [none]
+RDA fields: YES
 Source entities (book IDs): nyu_aco001081:v.1, nyu_aco001082:v.2
 ---------------------------------------------------------------------
-Institution ID: NNU_001678568
-   orig_rec_035 num: =035  9\$aNYUb12221956
-   orig_rec_035 num: =035  \\$a(CStRLIN)MIUG83-B60470
-Record 999:  NNU_001678568
-ERROR-880: 880 script fields: NO
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Dirāsāt tārīkhīyah
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001094:v.1
----------------------------------------------------------------------
 Institution ID: NNU_001686577
-   orig_rec_035 num: =035  9\$aNYUb12230020
-   orig_rec_035 num: =035  \\$a(NNU)NYUb12230020
+   orig_rec_035 num: =035  \\$a(OCoLC)477011697
 Record 999:  NNU_001686577
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   800 - Faraj, Fuʼād. Mudun al-Miṣrīyah wa-taṭawwuruhā maʻa al-ʻuṣūr, Majmūʻah fannīyah tārīkhīyah ; 3-5.
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Mudun al-Miṣrīyah wa-taṭawwuruhā maʻa al-ʻuṣūr, Majmūʻah fannīyah tārīkhīyah ; 3-5
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Mudun al-Miṣrīyah wa-taṭawwuruhā maʻa al-ʻuṣūr, Majmūʻah fannīyah tārīkhīyah ; 3-5
 040 $e field: [none]
 Source entities (book IDs): nyu_aco001131:v.1, nyu_aco001132:v.2, nyu_aco001133:v.3
 ---------------------------------------------------------------------
-TOTAL Number of Records containing series errors: 6
+---------------------------------------------------------------------
+FILE: NNU_20150615_1/NNU_20150615_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 3
 
