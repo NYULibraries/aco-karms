@@ -1,17 +1,17 @@
 Total records processed - batch NNC_20150616: 185 records
-Report produced: 2015-07-23 07:31:00.906988
-Input File (oclc_batch): 185
-Input File (orig_no_oclc): 0
+Report produced: 2015-09-23 07:53:20.051774
+Input File (updates): 134
+Input File (final subset): 51
 
 Records where OCLC nums did not match: 0
-Total records containing any type of error for this round: 134 (72.4%)
-Total records passing to final version for this round: 51 (27.6%)
+Total records containing any type of error for this round: 48 (25.9%)
+Total records passing to final version for this round: 137 (74.1%)
 -----------------------
-Records containing 880 script fields: 108 (58.4%)
-Records with NO 880 script fields: 77 (41.6%)
-Records missing key 880 script fields: 50 (27.0%)
-Records containing unlinked 880 script fields: 29 (15.7%)
-Records containing series errors in 490/800/810/811/830 fields: 4 (2.2%)
+Records containing 880 script fields: 123 (66.5%)
+Records with NO 880 script fields: 11 (5.9%)
+Records missing key 880 script fields: 35 (18.9%)
+Records containing unlinked 880 script fields: 5 (2.7%)
+Records containing series errors in 490/800/810/811/830 fields: 1 (0.5%)
 Records containing miscellaneous errors: 0 (0.0%)
 Records containing bad encoding replacement character: 0
 Records containing RDA fields: 174 (94.1%)
@@ -21,8 +21,8 @@ INDIVIDUAL RECORDS ANALYSIS:
 OCLC ID: (OCoLC)ocm23509991 
    oclc_rec_035_num: (OCoLC)23509991
 Institution ID: NNC_2959237
-Record 999:  NNC_2959237 (OCoLC)ocm23509991
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2959237 (OCoLC)ocm23509991 columbia_aco001120
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001120
@@ -30,56 +30,26 @@ Source entities (book IDs): columbia_aco001120
 OCLC ID: (OCoLC)ocm30987905 
    oclc_rec_035_num: (OCoLC)30987905
 Institution ID: NNC_2752440
-Record 999:  NNC_2752440 (OCoLC)ocm30987905
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2752440 (OCoLC)ocm30987905 columbia_aco001041
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001041
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm29277236 
-   oclc_rec_035_num: (OCoLC)29277236
-Institution ID: NNC_1098976
-Record 999:  NNC_1098976 (OCoLC)ocm29277236
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001171
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm37681611 
    oclc_rec_035_num: (OCoLC)37681611
 Institution ID: NNC_2066219
-Record 999:  NNC_2066219 (OCoLC)ocm37681611
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2066219 (OCoLC)ocm37681611 columbia_aco001202
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001202
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm22350664 
-   oclc_rec_035_num: (OCoLC)22350664
-   oclc_rec_035_num: (OCoLC)122741245
-Institution ID: NNC_2758692
-Record 999:  NNC_2758692 (OCoLC)ocm22350664
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001044
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm29350805 
-   oclc_rec_035_num: (OCoLC)29350805
-Institution ID: NNC_2750943
-Record 999:  NNC_2750943 (OCoLC)ocm29350805
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001168
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm28816936 
    oclc_rec_035_num: (OCoLC)28816936
 Institution ID: NNC_2871736
-Record 999:  NNC_2871736 (OCoLC)ocm28816936
+Record 999:  NNC_2871736 (OCoLC)ocm28816936 columbia_aco001094
 880 script fields: YES
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Min asāṭīn al-ʻilm fī al-Najaf al-Ashraf ; 1
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001094
@@ -87,16 +57,21 @@ Source entities (book IDs): columbia_aco001094
 OCLC ID: (OCoLC)ocn505577272
    oclc_rec_035_num: (OCoLC)505577272
 Institution ID: NNC_2957295
-Record 999:  NNC_2957295 (OCoLC)ocn505577272
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2957295 (OCoLC)ocn505577272 columbia_aco001021
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   700 - Wensinck, A. J. (Arent Jan), 1882-1939. Handbook of early Muhammadan tradition.
+   700 - Wensinck, A. J. (Arent Jan), 1882-1939. Concordance et indices de la tradition musulmane.
 040 $e field: [none]
 Source entities (book IDs): columbia_aco001021
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm60775389 
    oclc_rec_035_num: (OCoLC)60775389
 Institution ID: NNC_695951
-Record 999:  NNC_695951 (OCoLC)ocm60775389
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_695951 (OCoLC)ocm60775389 columbia_aco001193
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   250 - al-Tabah 1.
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001193
@@ -104,26 +79,17 @@ Source entities (book IDs): columbia_aco001193
 OCLC ID: (OCoLC)ocm23499276 
    oclc_rec_035_num: (OCoLC)23499276
 Institution ID: NNC_2959078
-Record 999:  NNC_2959078 (OCoLC)ocm23499276
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001022
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm37968208 
-   oclc_rec_035_num: (OCoLC)37968208
-Institution ID: NNC_2958021
-Record 999:  NNC_2958021 (OCoLC)ocm37968208
+Record 999:  NNC_2959078 (OCoLC)ocm23499276 columbia_aco001022
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
-Source entities (book IDs): columbia_aco001020
+Source entities (book IDs): columbia_aco001022
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm23513311 
    oclc_rec_035_num: (OCoLC)23513311
    oclc_rec_035_num: (OCoLC)123268933
 Institution ID: NNC_2757203
-Record 999:  NNC_2757203 (OCoLC)ocm23513311
+Record 999:  NNC_2757203 (OCoLC)ocm23513311 columbia_aco001039
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Political life and governmental organizations in Irak during the fifth century of al-Hijree
@@ -134,8 +100,8 @@ Source entities (book IDs): columbia_aco001039
 OCLC ID: (OCoLC)ocm46344681 
    oclc_rec_035_num: (OCoLC)46344681
 Institution ID: NNC_2988164
-Record 999:  NNC_2988164 (OCoLC)ocm46344681
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2988164 (OCoLC)ocm46344681 columbia_aco001173
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001173
@@ -143,32 +109,17 @@ Source entities (book IDs): columbia_aco001173
 OCLC ID: (OCoLC)ocm23504955 
    oclc_rec_035_num: (OCoLC)23504955
 Institution ID: NNC_3058948
-Record 999:  NNC_3058948 (OCoLC)ocm23504955
+Record 999:  NNC_3058948 (OCoLC)ocm23504955 columbia_aco001030
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - 1318 [1900 or 1901]
-   700 - Ibn Dāwūd al-Ḥillī, al-Ḥasan ibn ʻAlī, 1249 or 1250-1339 or 1340.
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001030
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm09139675 
-   oclc_rec_035_num: (OCoLC)9139675
-   oclc_rec_035_num: (OCoLC)4722777
-Institution ID: NNC_2538034
-Record 999:  NNC_2538034 (OCoLC)ocm09139675
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001140
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm23481772 
    oclc_rec_035_num: (OCoLC)23481772
    oclc_rec_035_num: (OCoLC)123026428
 Institution ID: NNC_2757193
-Record 999:  NNC_2757193 (OCoLC)ocm23481772
+Record 999:  NNC_2757193 (OCoLC)ocm23481772 columbia_aco000999
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Title on p. [4] of covert: Iraq in the Umayyad period : political, social and administral aspects
@@ -179,8 +130,8 @@ Source entities (book IDs): columbia_aco000999
 OCLC ID: (OCoLC)ocm45894866 
    oclc_rec_035_num: (OCoLC)45894866
 Institution ID: NNC_2958019
-Record 999:  NNC_2958019 (OCoLC)ocm45894866
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2958019 (OCoLC)ocm45894866 columbia_aco001126
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001126
@@ -189,12 +140,8 @@ OCLC ID: (OCoLC)ocm10213627
    oclc_rec_035_num: (OCoLC)10213627
    oclc_rec_035_num: (OCoLC)29292222
 Institution ID: NNC_2537393
-Record 999:  NNC_2537393 (OCoLC)ocm10213627
+Record 999:  NNC_2537393 (OCoLC)ocm10213627 columbia_aco001194
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - Dimashq : al-Maktabah al-ʻArabīyah fī Dimashq, 1358 [1939] (Maṭbaʻat al-Taraqqī)
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001194
@@ -203,8 +150,8 @@ OCLC ID: (OCoLC)ocm48196392
    oclc_rec_035_num: (OCoLC)48196392
    oclc_rec_035_num: (OCoLC)83078460
 Institution ID: NNC_3121190
-Record 999:  NNC_3121190 (OCoLC)ocm48196392
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_3121190 (OCoLC)ocm48196392 columbia_aco001028
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001028
@@ -212,65 +159,36 @@ Source entities (book IDs): columbia_aco001028
 OCLC ID: (OCoLC)ocm22769209 
    oclc_rec_035_num: (OCoLC)22769209
 Institution ID: NNC_2752698
-Record 999:  NNC_2752698 (OCoLC)ocm22769209
+Record 999:  NNC_2752698 (OCoLC)ocm22769209 columbia_aco001095
 880 script fields: YES
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Silsilat tārīkh al-fann fī Sūrīyah ; 3
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001095
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm21923700 
-   oclc_rec_035_num: (OCoLC)21923700
-   oclc_rec_035_num: (OCoLC)62624934
-Institution ID: NNC_2768246
-Record 999:  NNC_2768246 (OCoLC)ocm21923700
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001113
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm43058458 
    oclc_rec_035_num: (OCoLC)43058458
 Institution ID: NNC_2542550
-Record 999:  NNC_2542550 (OCoLC)ocm43058458
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2542550 (OCoLC)ocm43058458 columbia_aco001157
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001157
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm43815243 
-   oclc_rec_035_num: (OCoLC)43815243
-Institution ID: NNC_2534614
-Record 999:  NNC_2534614 (OCoLC)ocm43815243
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001191
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocn476920139
    oclc_rec_035_num: (OCoLC)476920139
 Institution ID: NNC_2480793
-Record 999:  NNC_2480793 (OCoLC)ocn476920139
+Record 999:  NNC_2480793 (OCoLC)ocn476920139 columbia_aco001110
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    700 - Veth, Pieter Johannes, 1814-1895.
 040 $e field: [none]
 Source entities (book IDs): columbia_aco001110
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm21915964 
-   oclc_rec_035_num: (OCoLC)21915964
-Institution ID: NNC_2957196
-Record 999:  NNC_2957196 (OCoLC)ocm21915964
-880 script fields: YES
-040 $e field: [none]
-Source entities (book IDs): columbia_aco001144
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm16852449 
    oclc_rec_035_num: (OCoLC)16852449
 Institution ID: NNC_2758536
-Record 999:  NNC_2758536 (OCoLC)ocm16852449
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2758536 (OCoLC)ocm16852449 columbia_aco001085
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001085
@@ -278,8 +196,8 @@ Source entities (book IDs): columbia_aco001085
 OCLC ID: (OCoLC)ocm48208421 
    oclc_rec_035_num: (OCoLC)48208421
 Institution ID: NNC_3122190
-Record 999:  NNC_3122190 (OCoLC)ocm48208421
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_3122190 (OCoLC)ocm48208421 columbia_aco001019
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001019
@@ -287,7 +205,7 @@ Source entities (book IDs): columbia_aco001019
 OCLC ID: (OCoLC)ocm08272044 
    oclc_rec_035_num: (OCoLC)8272044
 Institution ID: NNC_2760876
-Record 999:  NNC_2760876 (OCoLC)ocm08272044
+Record 999:  NNC_2760876 (OCoLC)ocm08272044 columbia_aco001160
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Jahiliah: pre-Islamic age
@@ -299,8 +217,8 @@ OCLC ID: (OCoLC)ocm81374054
    oclc_rec_035_num: (OCoLC)81374054
    oclc_rec_035_num: (OCoLC)33922954
 Institution ID: NNC_41879
-Record 999:  NNC_41879 (OCoLC)ocm81374054
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_41879 (OCoLC)ocm81374054 columbia_aco001092:v.1
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001092:v.1
@@ -308,8 +226,10 @@ Source entities (book IDs): columbia_aco001092:v.1
 OCLC ID: (OCoLC)ocm46469449 
    oclc_rec_035_num: (OCoLC)46469449
 Institution ID: NNC_642299
-Record 999:  NNC_642299 (OCoLC)ocm46469449
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_642299 (OCoLC)ocm46469449 columbia_aco001154
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   130 - Bible. Arabic. 1910.
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001154
@@ -317,8 +237,8 @@ Source entities (book IDs): columbia_aco001154
 OCLC ID: (OCoLC)ocm56178183 
    oclc_rec_035_num: (OCoLC)56178183
 Institution ID: NNC_31840
-Record 999:  NNC_31840 (OCoLC)ocm56178183
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_31840 (OCoLC)ocm56178183 columbia_aco001099
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001099
@@ -326,17 +246,8 @@ Source entities (book IDs): columbia_aco001099
 OCLC ID: (OCoLC)ocm28706575 
    oclc_rec_035_num: (OCoLC)28706575
 Institution ID: NNC_2957447
-Record 999:  NNC_2957447 (OCoLC)ocm28706575
+Record 999:  NNC_2957447 (OCoLC)ocm28706575 columbia_aco001142
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   245 - Rijāl al-Khāqānī : bi-qalam ʻAlī al-Khāqānī / taḥqīq al-sayyid Muḥammad Ṣādiq Baḥr al-ʻUlūm ; ʻaniya bi-nashrihi wa-al-taqdīm lahu Ḥusayn al-Shaykh Ḥasan al-Khāqānī, ḥafīd al-muʼallif ; ṭabaʻa ʻalá nuskhat al-muṣa[nn]if.
-   260 - [al-Najaf], [1968]
-   700 - Baḥr al-ʻUlūm, Muḥammad Ṣādiq, editor.
-ERROR-880: Unlinked 880s: YES
-   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 700-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
-   880 $6 700-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001142
@@ -344,7 +255,7 @@ Source entities (book IDs): columbia_aco001142
 OCLC ID: (OCoLC)ocn505716461
    oclc_rec_035_num: (OCoLC)505716461
 Institution ID: NNC_2752242
-Record 999:  NNC_2752242 (OCoLC)ocn505716461
+Record 999:  NNC_2752242 (OCoLC)ocn505716461 columbia_aco001040
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Shatt el-Arab, Shatt el-Basrah, & its history
@@ -354,13 +265,8 @@ Source entities (book IDs): columbia_aco001040
 OCLC ID: (OCoLC)ocm40125915 
    oclc_rec_035_num: (OCoLC)40125915
 Institution ID: NNC_2760798
-Record 999:  NNC_2760798 (OCoLC)ocm40125915
+Record 999:  NNC_2760798 (OCoLC)ocm40125915 columbia_aco001087
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   245 - al-Bādiyah : baḥth shāmil fī al-bādiyah wa-waḍʻihā al-jughrāfī ... / ʻAbd al-Jabbār al-Rāwī.
-ERROR-880: Unlinked 880s: YES
-   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 740-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001087
@@ -368,10 +274,8 @@ Source entities (book IDs): columbia_aco001087
 OCLC ID: (OCoLC)ocm23523188 
    oclc_rec_035_num: (OCoLC)23523188
 Institution ID: NNC_1582721
-Record 999:  NNC_1582721 (OCoLC)ocm23523188
+Record 999:  NNC_1582721 (OCoLC)ocm23523188 columbia_aco001141
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   240 - Masʼalah al-Sharqīyah
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001141
@@ -379,8 +283,8 @@ Source entities (book IDs): columbia_aco001141
 OCLC ID: (OCoLC)ocm17504052 
    oclc_rec_035_num: (OCoLC)17504052
 Institution ID: NNC_2958342
-Record 999:  NNC_2958342 (OCoLC)ocm17504052
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2958342 (OCoLC)ocm17504052 columbia_aco001078
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001078
@@ -388,10 +292,8 @@ Source entities (book IDs): columbia_aco001078
 OCLC ID: (OCoLC)ocn249998506
    oclc_rec_035_num: (OCoLC)249998506
 Institution ID: NNC_3171589
-Record 999:  NNC_3171589 (OCoLC)ocn249998506
+Record 999:  NNC_3171589 (OCoLC)ocn249998506 columbia_aco001109
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - 1946.
 040 $e field: [none]
 Source entities (book IDs): columbia_aco001109
 ---------------------------------------------------------------------
@@ -400,8 +302,8 @@ OCLC ID: (OCoLC)ocm21434397
    oclc_rec_035_num: (OCoLC)29957706
    oclc_rec_035_num: (OCoLC)51476825
 Institution ID: NNC_810278
-Record 999:  NNC_810278 (OCoLC)ocm21434397
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_810278 (OCoLC)ocm21434397 columbia_aco001089
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001089
@@ -409,7 +311,7 @@ Source entities (book IDs): columbia_aco001089
 OCLC ID: (OCoLC)ocm30984337 
    oclc_rec_035_num: (OCoLC)30984337
 Institution ID: NNC_2752237
-Record 999:  NNC_2752237 (OCoLC)ocm30984337
+Record 999:  NNC_2752237 (OCoLC)ocm30984337 columbia_aco001138
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Princedom of Abbaside Bahdinan
@@ -417,39 +319,11 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco001138
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm21519802 
-   oclc_rec_035_num: (OCoLC)21519802
-Institution ID: NNC_808279
-Record 999:  NNC_808279 (OCoLC)ocm21519802
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001032:v.1-2
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm20409655 
-   oclc_rec_035_num: (OCoLC)20409655
-Institution ID: NNC_2759030
-Record 999:  NNC_2759030 (OCoLC)ocm20409655
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001198
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn122884936
-   oclc_rec_035_num: (OCoLC)122884936
-   oclc_rec_035_num: (OCoLC)47807246
-Institution ID: NNC_3068304
-Record 999:  NNC_3068304 (OCoLC)ocn122884936
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001018
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm45391921 
    oclc_rec_035_num: (OCoLC)45391921
 Institution ID: NNC_2766332
-Record 999:  NNC_2766332 (OCoLC)ocm45391921
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2766332 (OCoLC)ocm45391921 columbia_aco001169
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001169
@@ -457,26 +331,17 @@ Source entities (book IDs): columbia_aco001169
 OCLC ID: (OCoLC)ocm29065646 
    oclc_rec_035_num: (OCoLC)29065646
 Institution ID: NNC_2751006
-Record 999:  NNC_2751006 (OCoLC)ocm29065646
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2751006 (OCoLC)ocm29065646 columbia_aco001045:v.1 columbia_aco001046:v.2
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001045:v.1, columbia_aco001046:v.2
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm19426261 
-   oclc_rec_035_num: (OCoLC)19426261
-Institution ID: NNC_2480929
-Record 999:  NNC_2480929 (OCoLC)ocm19426261
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001114
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm45355057 
    oclc_rec_035_num: (OCoLC)45355057
 Institution ID: NNC_2762170
-Record 999:  NNC_2762170 (OCoLC)ocm45355057
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2762170 (OCoLC)ocm45355057 columbia_aco001170
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001170
@@ -484,14 +349,8 @@ Source entities (book IDs): columbia_aco001170
 OCLC ID: (OCoLC)ocm29194712 
    oclc_rec_035_num: (OCoLC)29194712
 Institution ID: NNC_1582714
-Record 999:  NNC_1582714 (OCoLC)ocm29194712
+Record 999:  NNC_1582714 (OCoLC)ocm29194712 columbia_aco001116
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   245 - Tārīkh al-masʼalah al-sharaqīyah / taʼlīf Ḥusayn Labīb.
-   260 - [Place of publication not identified] : [publisher not identified], 1921 (Miṣr : Maṭabaʼat al-Hilāl)
-ERROR-880: Unlinked 880s: YES
-   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001116
@@ -499,70 +358,35 @@ Source entities (book IDs): columbia_aco001116
 OCLC ID: (OCoLC)ocm22741656 
    oclc_rec_035_num: (OCoLC)22741656
 Institution ID: NNC_986092
-Record 999:  NNC_986092 (OCoLC)ocm22741656
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_986092 (OCoLC)ocm22741656 columbia_aco001010
+880 script fields: YES
 040 $e field: [none]
 Source entities (book IDs): columbia_aco001010
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm13095072 
    oclc_rec_035_num: (OCoLC)13095072
 Institution ID: NNC_2757097
-Record 999:  NNC_2757097 (OCoLC)ocm13095072
+Record 999:  NNC_2757097 (OCoLC)ocm13095072 columbia_aco001076:v.1
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   245 - Mabāḥith ʻIrāqīyah fī al-jughrāfīyah wa-al-tārīkh wa-al-athār wa-khiṭaṭ Baghdād. [Taʼlīf] Yaʻqūb Sarkīs. Bi-taqdīm Muḥammad Riḍā al-Shabībī.
-   260 - Baghdād : Sharikat al-Tijārah wa-al-Ṭibāʻah, 1948-<1981>
-ERROR-880: Unlinked 880s: YES
-   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 505-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001076:v.1
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm22123491 
-   oclc_rec_035_num: (OCoLC)22123491
-   oclc_rec_035_num: (OCoLC)42847119
-Institution ID: NNC_2762917
-Record 999:  NNC_2762917 (OCoLC)ocm22123491
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001136
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm08638551 
    oclc_rec_035_num: (OCoLC)8638551
    oclc_rec_035_num: (OCoLC)202364177
 Institution ID: NNC_2957114
-Record 999:  NNC_2957114 (OCoLC)ocm08638551
+Record 999:  NNC_2957114 (OCoLC)ocm08638551 columbia_aco001145
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   245 - al-Imām Sharaf al-Dīn ḥuzmat ḍawʼ ʻalā ṭarīq al-fikr al-imāmī, dirāsah wāʻiyah tatanā-wal al-jānib al-fikrī fī ḥayāt al-Imām al-Sayyid ʻAbd al-Ḥusayn Sharaf al-Dīn, al-rajul alladhī jaddada uṭur mafāhīm wa-waḍaʻa nuqāṭ ʻalā ḥurūf wa-sāham fī ījād manākh mulāʼim li-numuw faʻālīyāt Islāmīyah munfaṭihah ʻalā masraḥ al-fikr [taʼlīf] ʻAbbās ʻAlī.
-ERROR-880: Unlinked 880s: YES
-   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001145
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm32446501 
-   oclc_rec_035_num: (OCoLC)32446501
-Institution ID: NNC_669342
-Record 999:  NNC_669342 (OCoLC)ocm32446501
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001176
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm20657187 
    oclc_rec_035_num: (OCoLC)20657187
 Institution ID: NNC_695943
-Record 999:  NNC_695943 (OCoLC)ocm20657187
+Record 999:  NNC_695943 (OCoLC)ocm20657187 columbia_aco001183
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Khaṣāʼiṣ al-waḥy al-mubīn
-   260 - [Teheran] : Wizārat al-Irshād al-Islāmī, 1406 [1985 or 1986]
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001183
@@ -570,8 +394,11 @@ Source entities (book IDs): columbia_aco001183
 OCLC ID: (OCoLC)ocm14149866 
    oclc_rec_035_num: (OCoLC)14149866
 Institution ID: NNC_2958297
-Record 999:  NNC_2958297 (OCoLC)ocm14149866
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2958297 (OCoLC)ocm14149866 columbia_aco001013
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   700 - Qumshahʼī, Muḥammad Riz̤ā.
+   700 - Āshtiyānī, Jalāl al-Dīn.
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001013
@@ -579,8 +406,8 @@ Source entities (book IDs): columbia_aco001013
 OCLC ID: (OCoLC)ocm45898426 
    oclc_rec_035_num: (OCoLC)45898426
 Institution ID: NNC_2958488
-Record 999:  NNC_2958488 (OCoLC)ocm45898426
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2958488 (OCoLC)ocm45898426 columbia_aco001031
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001031
@@ -588,8 +415,8 @@ Source entities (book IDs): columbia_aco001031
 OCLC ID: (OCoLC)ocm23523751 
    oclc_rec_035_num: (OCoLC)23523751
 Institution ID: NNC_2421281
-Record 999:  NNC_2421281 (OCoLC)ocm23523751
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2421281 (OCoLC)ocm23523751 columbia_aco001201
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001201
@@ -597,8 +424,8 @@ Source entities (book IDs): columbia_aco001201
 OCLC ID: (OCoLC)ocm31920050 
    oclc_rec_035_num: (OCoLC)31920050
 Institution ID: NNC_1580100
-Record 999:  NNC_1580100 (OCoLC)ocm31920050
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_1580100 (OCoLC)ocm31920050 columbia_aco001146
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001146
@@ -606,8 +433,8 @@ Source entities (book IDs): columbia_aco001146
 OCLC ID: (OCoLC)ocm20383012 
    oclc_rec_035_num: (OCoLC)20383012
 Institution ID: NNC_2871113
-Record 999:  NNC_2871113 (OCoLC)ocm20383012
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2871113 (OCoLC)ocm20383012 columbia_aco001158
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001158
@@ -615,7 +442,7 @@ Source entities (book IDs): columbia_aco001158
 OCLC ID: (OCoLC)ocm09553113 
    oclc_rec_035_num: (OCoLC)9553113
 Institution ID: NNC_1580392
-Record 999:  NNC_1580392 (OCoLC)ocm09553113
+Record 999:  NNC_1580392 (OCoLC)ocm09553113 columbia_aco001156
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Title on cover p. [4]: Livre de la couronne = Kitāb al-Tadj
@@ -627,13 +454,8 @@ Source entities (book IDs): columbia_aco001156
 OCLC ID: (OCoLC)ocm23924229 
    oclc_rec_035_num: (OCoLC)23924229
 Institution ID: NNC_3062726
-Record 999:  NNC_3062726 (OCoLC)ocm23924229
+Record 999:  NNC_3062726 (OCoLC)ocm23924229 columbia_aco001002
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - [Place of publication not identified] : [publisher not identified], [19--?]
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 600-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001002
@@ -641,35 +463,17 @@ Source entities (book IDs): columbia_aco001002
 OCLC ID: (OCoLC)ocm81075077 
    oclc_rec_035_num: (OCoLC)81075077
 Institution ID: NNC_407982
-Record 999:  NNC_407982 (OCoLC)ocm81075077
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_407982 (OCoLC)ocm81075077 columbia_aco001115
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001115
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm21633722 
-   oclc_rec_035_num: (OCoLC)21633722
-Institution ID: NNC_2065579
-Record 999:  NNC_2065579 (OCoLC)ocm21633722
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001180
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm20765790 
-   oclc_rec_035_num: (OCoLC)20765790
-Institution ID: NNC_2871855
-Record 999:  NNC_2871855 (OCoLC)ocm20765790
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001143
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm43959645 
    oclc_rec_035_num: (OCoLC)43959645
 Institution ID: NNC_2757795
-Record 999:  NNC_2757795 (OCoLC)ocm43959645
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2757795 (OCoLC)ocm43959645 columbia_aco001103
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001103
@@ -677,27 +481,17 @@ Source entities (book IDs): columbia_aco001103
 OCLC ID: (OCoLC)ocm28961238 
    oclc_rec_035_num: (OCoLC)28961238
 Institution ID: NNC_2483056
-Record 999:  NNC_2483056 (OCoLC)ocm28961238
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2483056 (OCoLC)ocm28961238 columbia_aco001079
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001079
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm52222199 
-   oclc_rec_035_num: (OCoLC)52222199
-   oclc_rec_035_num: (OCoLC)45348044
-Institution ID: NNC_2760573
-Record 999:  NNC_2760573 (OCoLC)ocm52222199
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001000
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm43336662 
    oclc_rec_035_num: (OCoLC)43336662
 Institution ID: NNC_2421653
-Record 999:  NNC_2421653 (OCoLC)ocm43336662
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2421653 (OCoLC)ocm43336662 columbia_aco001179
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001179
@@ -705,8 +499,8 @@ Source entities (book IDs): columbia_aco001179
 OCLC ID: (OCoLC)ocm80238181 
    oclc_rec_035_num: (OCoLC)80238181
 Institution ID: NNC_647272
-Record 999:  NNC_647272 (OCoLC)ocm80238181
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_647272 (OCoLC)ocm80238181 columbia_aco001005
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001005
@@ -714,8 +508,10 @@ Source entities (book IDs): columbia_aco001005
 OCLC ID: (OCoLC)ocn505723524
    oclc_rec_035_num: (OCoLC)505723524
 Institution ID: NNC_425239
-Record 999:  NNC_425239 (OCoLC)ocn505723524
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_425239 (OCoLC)ocn505723524 columbia_aco001063:v.1 columbia_aco001064:v.2 columbia_aco001065:v.3 columbia_aco001066:v.4 columbia_aco001067:v.5 columbia_aco001068:v.6
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   700 - Huart, Clément, 1854-1926.
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001063:v.1, columbia_aco001064:v.2, columbia_aco001065:v.3, columbia_aco001066:v.4, columbia_aco001067:v.5, columbia_aco001068:v.6
@@ -723,8 +519,8 @@ Source entities (book IDs): columbia_aco001063:v.1, columbia_aco001064:v.2, colu
 OCLC ID: (OCoLC)ocm23499958 
    oclc_rec_035_num: (OCoLC)23499958
 Institution ID: NNC_2757658
-Record 999:  NNC_2757658 (OCoLC)ocm23499958
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2757658 (OCoLC)ocm23499958 columbia_aco001077
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001077
@@ -732,7 +528,7 @@ Source entities (book IDs): columbia_aco001077
 OCLC ID: (OCoLC)ocm22609169 
    oclc_rec_035_num: (OCoLC)22609169
 Institution ID: NNC_2752253
-Record 999:  NNC_2752253 (OCoLC)ocm22609169
+Record 999:  NNC_2752253 (OCoLC)ocm22609169 columbia_aco001119
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Baghdad fi tarikh él khilefa él-Abbassia
@@ -743,8 +539,8 @@ Source entities (book IDs): columbia_aco001119
 OCLC ID: (OCoLC)ocm30982575 
    oclc_rec_035_num: (OCoLC)30982575
 Institution ID: NNC_2757622
-Record 999:  NNC_2757622 (OCoLC)ocm30982575
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2757622 (OCoLC)ocm30982575 columbia_aco001075
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001075
@@ -752,46 +548,17 @@ Source entities (book IDs): columbia_aco001075
 OCLC ID: (OCoLC)ocm33923548 
    oclc_rec_035_num: (OCoLC)33923548
 Institution ID: NNC_2871706
-Record 999:  NNC_2871706 (OCoLC)ocm33923548
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2871706 (OCoLC)ocm33923548 columbia_aco001098
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001098
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm10009610 
-   oclc_rec_035_num: (OCoLC)10009610
-Institution ID: NNC_2531107
-Record 999:  NNC_2531107 (OCoLC)ocm10009610
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001118
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60601307 
-   oclc_rec_035_num: (OCoLC)60601307
-Institution ID: NNC_646872
-Record 999:  NNC_646872 (OCoLC)ocm60601307
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001175
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn122881302
-   oclc_rec_035_num: (OCoLC)122881302
-Institution ID: NNC_9008117
-Record 999:  NNC_9008117 (OCoLC)ocn122881302
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001200
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm45894600 
    oclc_rec_035_num: (OCoLC)45894600
 Institution ID: NNC_2957962
-Record 999:  NNC_2957962 (OCoLC)ocm45894600
+Record 999:  NNC_2957962 (OCoLC)ocm45894600 columbia_aco001197
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   700 - Qazwīnī, Abū Jaʻfar ʻUmar, -1299.
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001197
@@ -799,16 +566,8 @@ Source entities (book IDs): columbia_aco001197
 OCLC ID: (OCoLC)ocm23508148 
    oclc_rec_035_num: (OCoLC)23508148
 Institution ID: NNC_3063581
-Record 999:  NNC_3063581 (OCoLC)ocm23508148
+Record 999:  NNC_3063581 (OCoLC)ocm23508148 columbia_aco001011
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   100 - Porphyry, approximately 234-approximately 305.
-   245 - Īsāghūjī.
-   260 - 1952.
-ERROR-880: Unlinked 880s: YES
-   880 $6 100-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001011
@@ -816,26 +575,17 @@ Source entities (book IDs): columbia_aco001011
 OCLC ID: (OCoLC)ocm31062067 
    oclc_rec_035_num: (OCoLC)31062067
 Institution ID: NNC_3074049
-Record 999:  NNC_3074049 (OCoLC)ocm31062067
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_3074049 (OCoLC)ocm31062067 columbia_aco001027
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001027
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm12661097 
-   oclc_rec_035_num: (OCoLC)12661097
-Institution ID: NNC_2758420
-Record 999:  NNC_2758420 (OCoLC)ocm12661097
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001086
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm32341154 
    oclc_rec_035_num: (OCoLC)32341154
 Institution ID: NNC_2959248
-Record 999:  NNC_2959248 (OCoLC)ocm32341154
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2959248 (OCoLC)ocm32341154 columbia_aco001012
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001012
@@ -843,11 +593,8 @@ Source entities (book IDs): columbia_aco001012
 OCLC ID: (OCoLC)ocm23517295 
    oclc_rec_035_num: (OCoLC)23517295
 Institution ID: NNC_915093
-Record 999:  NNC_915093 (OCoLC)ocm23517295
+Record 999:  NNC_915093 (OCoLC)ocm23517295 columbia_aco001007
 880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 490-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 830-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001007
@@ -855,49 +602,31 @@ Source entities (book IDs): columbia_aco001007
 OCLC ID: (OCoLC)ocn505024676
    oclc_rec_035_num: (OCoLC)505024676
 Institution ID: NNC_310168
-Record 999:  NNC_310168 (OCoLC)ocn505024676
+Record 999:  NNC_310168 (OCoLC)ocn505024676 columbia_aco001132
 ERROR-880: 880 script fields: NO
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001132
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm19087409 
-   oclc_rec_035_num: (OCoLC)19087409
-Institution ID: NNC_1600793
-Record 999:  NNC_1600793 (OCoLC)ocm19087409
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001106
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm23491362 
    oclc_rec_035_num: (OCoLC)23491362
    oclc_rec_035_num: (OCoLC)27120763
    oclc_rec_035_num: (OCoLC)859664814
 Institution ID: NNC_5370511
-Record 999:  NNC_5370511 (OCoLC)ocm23491362
+Record 999:  NNC_5370511 (OCoLC)ocm23491362 columbia_aco001023
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    260 - [1947]
 ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 260-00 - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001023
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23497931 
-   oclc_rec_035_num: (OCoLC)23497931
-Institution ID: NNC_2752548
-Record 999:  NNC_2752548 (OCoLC)ocm23497931
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001058:v.1, columbia_aco001057:v.2
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm15246246 
    oclc_rec_035_num: (OCoLC)15246246
 Institution ID: NNC_2752680
-Record 999:  NNC_2752680 (OCoLC)ocm15246246
+Record 999:  NNC_2752680 (OCoLC)ocm15246246 columbia_aco001122
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Irak, the land and the people
@@ -908,7 +637,7 @@ Source entities (book IDs): columbia_aco001122
 OCLC ID: (OCoLC)ocm29631785 
    oclc_rec_035_num: (OCoLC)29631785
 Institution ID: NNC_1632729
-Record 999:  NNC_1632729 (OCoLC)ocm29631785
+Record 999:  NNC_1632729 (OCoLC)ocm29631785 columbia_aco001072
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Arabic-Islamic political thought (past & present)
@@ -916,45 +645,19 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco001072
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm25725301 
-   oclc_rec_035_num: (OCoLC)25725301
-Institution ID: NNC_636561
-Record 999:  NNC_636561 (OCoLC)ocm25725301
-880 script fields: YES
-040 $e field: [none]
-Source entities (book IDs): columbia_aco001186
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm25292730 
-   oclc_rec_035_num: (OCoLC)25292730
-Institution ID: NNC_2757718
-Record 999:  NNC_2757718 (OCoLC)ocm25292730
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001034
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocn506719114
    oclc_rec_035_num: (OCoLC)506719114
 Institution ID: NNC_915156
-Record 999:  NNC_915156 (OCoLC)ocn506719114
+Record 999:  NNC_915156 (OCoLC)ocn506719114 columbia_aco001117
 ERROR-880: 880 script fields: NO
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001117
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm81709505 
-   oclc_rec_035_num: (OCoLC)81709505
-Institution ID: NNC_641070
-Record 999:  NNC_641070 (OCoLC)ocm81709505
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001015
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm41099936 
    oclc_rec_035_num: (OCoLC)41099936
 Institution ID: NNC_647628
-Record 999:  NNC_647628 (OCoLC)ocm41099936
+Record 999:  NNC_647628 (OCoLC)ocm41099936 columbia_aco001181
 ERROR-880: 880 script fields: NO
 040 $e field: [none]
 RDA fields: YES
@@ -963,7 +666,7 @@ Source entities (book IDs): columbia_aco001181
 OCLC ID: (OCoLC)ocm17699840 
    oclc_rec_035_num: (OCoLC)17699840
 Institution ID: NNC_1580337
-Record 999:  NNC_1580337 (OCoLC)ocm17699840
+Record 999:  NNC_1580337 (OCoLC)ocm17699840 columbia_aco001056:v.1 columbia_aco001054:v.2 columbia_aco001055:v.3
 ERROR-880: 880 script fields: NO
 040 $e field: [none]
 RDA fields: YES
@@ -972,7 +675,7 @@ Source entities (book IDs): columbia_aco001056:v.1, columbia_aco001054:v.2, colu
 OCLC ID: (OCoLC)ocm13090940 
    oclc_rec_035_num: (OCoLC)13090940
 Institution ID: NNC_2754225
-Record 999:  NNC_2754225 (OCoLC)ocm13090940
+Record 999:  NNC_2754225 (OCoLC)ocm13090940 columbia_aco001061:v.1 columbia_aco001062:v.2
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Auns al-Jalil for Jeruslem & Khlil's history
@@ -984,31 +687,20 @@ Source entities (book IDs): columbia_aco001061:v.1, columbia_aco001062:v.2
 OCLC ID: (OCoLC)ocm23510282 
    oclc_rec_035_num: (OCoLC)23510282
 Institution ID: NNC_2483050
-Record 999:  NNC_2483050 (OCoLC)ocm23510282
+Record 999:  NNC_2483050 (OCoLC)ocm23510282 columbia_aco001128
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    260 - Dimashq, 1955.
 ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 260-00 - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001128
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm29899350 
-   oclc_rec_035_num: (OCoLC)29899350
-   oclc_rec_035_num: (OCoLC)23512308
-   oclc_rec_035_num: (OCoLC)45323168
-Institution ID: NNC_2754794
-Record 999:  NNC_2754794 (OCoLC)ocm29899350
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001134
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm60601318 
    oclc_rec_035_num: (OCoLC)60601318
 Institution ID: NNC_647577
-Record 999:  NNC_647577 (OCoLC)ocm60601318
+Record 999:  NNC_647577 (OCoLC)ocm60601318 columbia_aco001182
 ERROR-880: 880 script fields: NO
 040 $e field: [none]
 RDA fields: YES
@@ -1017,7 +709,7 @@ Source entities (book IDs): columbia_aco001182
 OCLC ID: (OCoLC)ocm45348651 
    oclc_rec_035_num: (OCoLC)45348651
 Institution ID: NNC_2760801
-Record 999:  NNC_2760801 (OCoLC)ocm45348651
+Record 999:  NNC_2760801 (OCoLC)ocm45348651 columbia_aco001167
 ERROR-880: 880 script fields: NO
 040 $e field: [none]
 RDA fields: YES
@@ -1026,7 +718,7 @@ Source entities (book IDs): columbia_aco001167
 OCLC ID: (OCoLC)ocm12820662 
    oclc_rec_035_num: (OCoLC)12820662
 Institution ID: NNC_2483431
-Record 999:  NNC_2483431 (OCoLC)ocm12820662
+Record 999:  NNC_2483431 (OCoLC)ocm12820662 columbia_aco001121
 ERROR-880: 880 script fields: NO
 040 $e field: [none]
 RDA fields: YES
@@ -1035,7 +727,7 @@ Source entities (book IDs): columbia_aco001121
 OCLC ID: (OCoLC)ocm42804430 
    oclc_rec_035_num: (OCoLC)42804430
 Institution ID: NNC_2871248
-Record 999:  NNC_2871248 (OCoLC)ocm42804430
+Record 999:  NNC_2871248 (OCoLC)ocm42804430 columbia_aco001199
 ERROR-880: 880 script fields: NO
 ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
 ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Fī riyāḍ al-Andalus, 1
@@ -1046,7 +738,7 @@ Source entities (book IDs): columbia_aco001199
 OCLC ID: (OCoLC)ocm34100403 
    oclc_rec_035_num: (OCoLC)34100403
 Institution ID: NNC_2871378
-Record 999:  NNC_2871378 (OCoLC)ocm34100403
+Record 999:  NNC_2871378 (OCoLC)ocm34100403 columbia_aco001123
 ERROR-880: 880 script fields: NO
 040 $e field: [none]
 RDA fields: YES
@@ -1055,7 +747,7 @@ Source entities (book IDs): columbia_aco001123
 OCLC ID: (OCoLC)ocm09834615 
    oclc_rec_035_num: (OCoLC)9834615
 Institution ID: NNC_2537649
-Record 999:  NNC_2537649 (OCoLC)ocm09834615
+Record 999:  NNC_2537649 (OCoLC)ocm09834615 columbia_aco001189
 ERROR-880: 880 script fields: NO
 040 $e field: [none]
 RDA fields: YES
@@ -1064,7 +756,7 @@ Source entities (book IDs): columbia_aco001189
 OCLC ID: (OCoLC)ocm45311042 
    oclc_rec_035_num: (OCoLC)45311042
 Institution ID: NNC_2752158
-Record 999:  NNC_2752158 (OCoLC)ocm45311042
+Record 999:  NNC_2752158 (OCoLC)ocm45311042 columbia_aco001082
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    245 - Arbīl fī adwārihā al-tārīkhīyah / dirāsah tārīkhīyah ʻāmmah li-Arbīl wa-anḥāʼihā mundhu aqdam al-ʻuṣūr ḥattā al-ḥarb al-ʻālamīyah al-ūlā Zubayr Eilāl IsmāʻIl.
@@ -1075,11 +767,11 @@ Source entities (book IDs): columbia_aco001082
 OCLC ID: (OCoLC)ocm22774034 
    oclc_rec_035_num: (OCoLC)22774034
 Institution ID: NNC_2753315
-Record 999:  NNC_2753315 (OCoLC)ocm22774034
+Record 999:  NNC_2753315 (OCoLC)ocm22774034 columbia_aco001073
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 490-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 830-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 490-00 - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 830-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001073
@@ -1087,7 +779,7 @@ Source entities (book IDs): columbia_aco001073
 OCLC ID: (OCoLC)ocm15686604 
    oclc_rec_035_num: (OCoLC)15686604
 Institution ID: NNC_2959348
-Record 999:  NNC_2959348 (OCoLC)ocm15686604
+Record 999:  NNC_2959348 (OCoLC)ocm15686604 columbia_aco001096
 ERROR-880: 880 script fields: NO
 040 $e field: [none]
 RDA fields: YES
@@ -1097,7 +789,7 @@ OCLC ID: (OCoLC)ocm22229951
    oclc_rec_035_num: (OCoLC)22229951
    oclc_rec_035_num: (OCoLC)48409386
 Institution ID: NNC_646869
-Record 999:  NNC_646869 (OCoLC)ocm22229951
+Record 999:  NNC_646869 (OCoLC)ocm22229951 columbia_aco001187
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - Ismaïl d'après les documents officiels. Arabic
@@ -1109,15 +801,8 @@ Source entities (book IDs): columbia_aco001187
 OCLC ID: (OCoLC)ocm37669626 
    oclc_rec_035_num: (OCoLC)37669626
 Institution ID: NNC_3071378
-Record 999:  NNC_3071378 (OCoLC)ocm37669626
+Record 999:  NNC_3071378 (OCoLC)ocm37669626 columbia_aco001026
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - Miṣr : al-Maktabah al-ʻArabīyah, 1926.
-ERROR-880: Unlinked 880s: YES
-   880 $6 240-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 246-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 700-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001026
@@ -1125,8 +810,8 @@ Source entities (book IDs): columbia_aco001026
 OCLC ID: (OCoLC)ocm10206342 
    oclc_rec_035_num: (OCoLC)10206342
 Institution ID: NNC_2958373
-Record 999:  NNC_2958373 (OCoLC)ocm10206342
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2958373 (OCoLC)ocm10206342 columbia_aco001127
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001127
@@ -1134,7 +819,7 @@ Source entities (book IDs): columbia_aco001127
 OCLC ID: (OCoLC)ocm23169784 
    oclc_rec_035_num: (OCoLC)23169784
 Institution ID: NNC_2751744
-Record 999:  NNC_2751744 (OCoLC)ocm23169784
+Record 999:  NNC_2751744 (OCoLC)ocm23169784 columbia_aco001037
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - American strategy in the Arab East; an analytical study of the development of American strategy in the Arab East & its connection with both Suez & 5th June crises
@@ -1146,28 +831,17 @@ OCLC ID: (OCoLC)ocm15129361
    oclc_rec_035_num: (OCoLC)15129361
    oclc_rec_035_num: (OCoLC)60601122
 Institution ID: NNC_636557
-Record 999:  NNC_636557 (OCoLC)ocm15129361
+Record 999:  NNC_636557 (OCoLC)ocm15129361 columbia_aco001003
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   710 - Markaz al-Islāmī lil-Abḥāth al-Siyāsīyah (Qum, Iran)
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001003
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23518011 
-   oclc_rec_035_num: (OCoLC)23518011
-Institution ID: NNC_2760571
-Record 999:  NNC_2760571 (OCoLC)ocm23518011
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001162
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm10271869 
    oclc_rec_035_num: (OCoLC)10271869
 Institution ID: NNC_2531924
-Record 999:  NNC_2531924 (OCoLC)ocm10271869
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2531924 (OCoLC)ocm10271869 columbia_aco001074
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001074
@@ -1175,8 +849,10 @@ Source entities (book IDs): columbia_aco001074
 OCLC ID: (OCoLC)ocm78854036 
    oclc_rec_035_num: (OCoLC)78854036
 Institution ID: NNC_675721
-Record 999:  NNC_675721 (OCoLC)ocm78854036
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_675721 (OCoLC)ocm78854036 columbia_aco001147
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   700 - Streeter, Burnett Hillman, 1874-1937. Sadhu.
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001147
@@ -1184,8 +860,8 @@ Source entities (book IDs): columbia_aco001147
 OCLC ID: (OCoLC)ocm60601248 
    oclc_rec_035_num: (OCoLC)60601248
 Institution ID: NNC_644857
-Record 999:  NNC_644857 (OCoLC)ocm60601248
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_644857 (OCoLC)ocm60601248 columbia_aco001006
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001006
@@ -1193,8 +869,8 @@ Source entities (book IDs): columbia_aco001006
 OCLC ID: (OCoLC)ocm43845077 
    oclc_rec_035_num: (OCoLC)43845077
 Institution ID: NNC_2537305
-Record 999:  NNC_2537305 (OCoLC)ocm43845077
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2537305 (OCoLC)ocm43845077 columbia_aco001149
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001149
@@ -1202,21 +878,16 @@ Source entities (book IDs): columbia_aco001149
 OCLC ID: (OCoLC)ocn224972974
    oclc_rec_035_num: (OCoLC)224972974
 Institution ID: NNC_8695130
-Record 999:  NNC_8695130 (OCoLC)ocn224972974
+Record 999:  NNC_8695130 (OCoLC)ocn224972974 columbia_aco001150
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   250 - Ṭab'ah 2.
-   260 - Bayrūt Maṭba'at al-Arz 1924.
 040 $e field: [none]
 Source entities (book IDs): columbia_aco001150
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm07757535 
    oclc_rec_035_num: (OCoLC)7757535
 Institution ID: NNC_2751879
-Record 999:  NNC_2751879 (OCoLC)ocm07757535
+Record 999:  NNC_2751879 (OCoLC)ocm07757535 columbia_aco001133
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Kitāb al-futuwwa
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001133
@@ -1225,7 +896,7 @@ OCLC ID: (OCoLC)ocm19351357
    oclc_rec_035_num: (OCoLC)19351357
    oclc_rec_035_num: (OCoLC)187322758
 Institution ID: NNC_2752264
-Record 999:  NNC_2752264 (OCoLC)ocm19351357
+Record 999:  NNC_2752264 (OCoLC)ocm19351357 columbia_aco001102
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Ghayat al-maram fi tarikh Baghdad Dar al-Salam
@@ -1237,44 +908,26 @@ OCLC ID: (OCoLC)ocm16985528
    oclc_rec_035_num: (OCoLC)16985528
    oclc_rec_035_num: (OCoLC)23500457
 Institution ID: NNC_2958963
-Record 999:  NNC_2958963 (OCoLC)ocm16985528
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2958963 (OCoLC)ocm16985528 columbia_aco001025
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001025
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm13083862 
-   oclc_rec_035_num: (OCoLC)13083862
-Institution ID: NNC_2750225
-Record 999:  NNC_2750225 (OCoLC)ocm13083862
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001033
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm60601125 
    oclc_rec_035_num: (OCoLC)60601125
 Institution ID: NNC_636692
-Record 999:  NNC_636692 (OCoLC)ocm60601125
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_636692 (OCoLC)ocm60601125 columbia_aco001004
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001004
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm20566867 
-   oclc_rec_035_num: (OCoLC)20566867
-Institution ID: NNC_34026
-Record 999:  NNC_34026 (OCoLC)ocm20566867
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001108:v.1-2
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm30588859 
    oclc_rec_035_num: (OCoLC)30588859
 Institution ID: NNC_2542527
-Record 999:  NNC_2542527 (OCoLC)ocm30588859
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2542527 (OCoLC)ocm30588859 columbia_aco001190
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001190
@@ -1282,107 +935,49 @@ Source entities (book IDs): columbia_aco001190
 OCLC ID: (OCoLC)ocm16464802 
    oclc_rec_035_num: (OCoLC)16464802
 Institution ID: NNC_2532535
-Record 999:  NNC_2532535 (OCoLC)ocm16464802
+Record 999:  NNC_2532535 (OCoLC)ocm16464802 columbia_aco001093
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - Cairo : Maṭbaʹat al-risalah, 1938.
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001093
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn317114673
-   oclc_rec_035_num: (OCoLC)317114673
-Institution ID: NNC_630571
-Record 999:  NNC_630571 (OCoLC)ocn317114673
-880 script fields: YES
-040 $e field: [none]
-Source entities (book IDs): columbia_aco001081
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm07632940 
-   oclc_rec_035_num: (OCoLC)7632940
-   oclc_rec_035_num: (OCoLC)36644152
-Institution ID: NNC_2752262
-Record 999:  NNC_2752262 (OCoLC)ocm07632940
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001069:v.1, columbia_aco001070:v.2, columbia_aco001071:v.3
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm43796909 
    oclc_rec_035_num: (OCoLC)43796909
 Institution ID: NNC_2533289
-Record 999:  NNC_2533289 (OCoLC)ocm43796909
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2533289 (OCoLC)ocm43796909 columbia_aco001104
+880 script fields: YES
 040 $e field: [none]
 Source entities (book IDs): columbia_aco001104
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm21475176 
    oclc_rec_035_num: (OCoLC)21475176
 Institution ID: NNC_2872015
-Record 999:  NNC_2872015 (OCoLC)ocm21475176
+Record 999:  NNC_2872015 (OCoLC)ocm21475176 columbia_aco001097
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   100 - Ibn al-Khaṭīb, Muḥammad Muḥammad ʻAbd al-Laṭīf.
+   100 - Ibn al-Khaṭīb.
 ERROR-880: Unlinked 880s: YES
    880 $6 100-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001097
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm22294523 
-   oclc_rec_035_num: (OCoLC)22294523
-   oclc_rec_035_num: (OCoLC)42846961
-Institution ID: NNC_2758669
-Record 999:  NNC_2758669 (OCoLC)ocm22294523
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001111
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm39771485 
    oclc_rec_035_num: (OCoLC)39771485
 Institution ID: NNC_2542525
-Record 999:  NNC_2542525 (OCoLC)ocm39771485
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2542525 (OCoLC)ocm39771485 columbia_aco001192
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Origin and development of colleges in Islam
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001192
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm22246073 
-   oclc_rec_035_num: (OCoLC)22246073
-Institution ID: NNC_2759517
-Record 999:  NNC_2759517 (OCoLC)ocm22246073
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001084
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm44656811 
-   oclc_rec_035_num: (OCoLC)44656811
-   oclc_rec_035_num: (OCoLC)9146905
-Institution ID: NNC_2482884
-Record 999:  NNC_2482884 (OCoLC)ocm44656811
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001124
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm29798519 
-   oclc_rec_035_num: (OCoLC)29798519
-Institution ID: NNC_2533916
-Record 999:  NNC_2533916 (OCoLC)ocm29798519
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001091
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm17661855 
    oclc_rec_035_num: (OCoLC)17661855
 Institution ID: NNC_638148
-Record 999:  NNC_638148 (OCoLC)ocm17661855
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_638148 (OCoLC)ocm17661855 columbia_aco001024
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001024
@@ -1391,33 +986,20 @@ OCLC ID: (OCoLC)ocm47865887
    oclc_rec_035_num: (OCoLC)47865887
    oclc_rec_035_num: (OCoLC)82400137
 Institution ID: NNC_3076974
-Record 999:  NNC_3076974 (OCoLC)ocm47865887
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001009
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm30956228 
-   oclc_rec_035_num: (OCoLC)30956228
-Institution ID: NNC_2760701
-Record 999:  NNC_2760701 (OCoLC)ocm30956228
+Record 999:  NNC_3076974 (OCoLC)ocm47865887 columbia_aco001009
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
-Source entities (book IDs): columbia_aco001101
+Source entities (book IDs): columbia_aco001009
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm23489913 
    oclc_rec_035_num: (OCoLC)23489913
    oclc_rec_035_num: (OCoLC)222696215
 Institution ID: NNC_2532578
-Record 999:  NNC_2532578 (OCoLC)ocm23489913
+Record 999:  NNC_2532578 (OCoLC)ocm23489913 columbia_aco001139
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   245 - al-Mughrib fī dhikr bilād Ifrīqīyah wa-al-Maghrib wa-huwwa juzʼ min kitāb al-Masālik wa-al-mamālik / taʼlīf Abī ʻUbayd al-Bakrī.
    246 - Description de lʼAfrique septentrionale
-ERROR-880: Unlinked 880s: YES
-   880 $6 240-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001139
@@ -1425,8 +1007,8 @@ Source entities (book IDs): columbia_aco001139
 OCLC ID: (OCoLC)ocm19643141 
    oclc_rec_035_num: (OCoLC)19643141
 Institution ID: NNC_2752636
-Record 999:  NNC_2752636 (OCoLC)ocm19643141
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2752636 (OCoLC)ocm19643141 columbia_aco001152
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001152
@@ -1434,12 +1016,10 @@ Source entities (book IDs): columbia_aco001152
 OCLC ID: (OCoLC)ocm43237470 
    oclc_rec_035_num: (OCoLC)43237470
 Institution ID: NNC_2757340
-Record 999:  NNC_2757340 (OCoLC)ocm43237470
+Record 999:  NNC_2757340 (OCoLC)ocm43237470 columbia_aco001036
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Dawud Pasha and the decline of the Mamluk dynasty in Iraq
-ERROR-880: Unlinked 880s: YES
-   880 $6 600-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001036
@@ -1447,10 +1027,9 @@ Source entities (book IDs): columbia_aco001036
 OCLC ID: (OCoLC)ocm15789024 
    oclc_rec_035_num: (OCoLC)15789024
 Institution ID: NNC_2757224
-Record 999:  NNC_2757224 (OCoLC)ocm15789024
+Record 999:  NNC_2757224 (OCoLC)ocm15789024 columbia_aco001166
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Ashʻār awlād al khulāfaʼ wa akhbāruhum from the Kitāb al-awrāḳ by Abū Bakr Muḥammad b. Yaḥya aṣ-Ṣūlī : Arabic text
    700 - Heyworth-Dunne, J. (James)
 040 $e field: [none]
 RDA fields: YES
@@ -1459,8 +1038,8 @@ Source entities (book IDs): columbia_aco001166
 OCLC ID: (OCoLC)ocm48797495 
    oclc_rec_035_num: (OCoLC)48797495
 Institution ID: NNC_3170544
-Record 999:  NNC_3170544 (OCoLC)ocm48797495
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_3170544 (OCoLC)ocm48797495 columbia_aco001137
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001137
@@ -1468,62 +1047,27 @@ Source entities (book IDs): columbia_aco001137
 OCLC ID: (OCoLC)ocm45346044 
    oclc_rec_035_num: (OCoLC)45346044
 Institution ID: NNC_2759622
-Record 999:  NNC_2759622 (OCoLC)ocm45346044
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001083
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm07746930 
-   oclc_rec_035_num: (OCoLC)7746930
-   oclc_rec_035_num: (OCoLC)234405016
-Institution ID: NNC_2871856
-Record 999:  NNC_2871856 (OCoLC)ocm07746930
+Record 999:  NNC_2759622 (OCoLC)ocm45346044 columbia_aco001083
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
-Source entities (book IDs): columbia_aco001195
+Source entities (book IDs): columbia_aco001083
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm09439576 
    oclc_rec_035_num: (OCoLC)9439576
    oclc_rec_035_num: (OCoLC)26513051
 Institution ID: NNC_2534533
-Record 999:  NNC_2534533 (OCoLC)ocm09439576
+Record 999:  NNC_2534533 (OCoLC)ocm09439576 columbia_aco001184
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   245 - al-Jaysh al-Miṣrī fī al-ḥarb al-Rūsiyah al-maʻrūfah bi-ḥarb al-qirm, 1853-1855 M / lil-amīr ʻUmar Ṭūsūn.
-   260 - al-Iskandariyah : Maṭbaʻat al-Mustaqbal, 1936.
-ERROR-880: Unlinked 880s: YES
-   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001184
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm05623221 
-   oclc_rec_035_num: (OCoLC)5623221
-Institution ID: NNC_2537810
-Record 999:  NNC_2537810 (OCoLC)ocm05623221
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001153
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm11102994 
-   oclc_rec_035_num: (OCoLC)11102994
-   oclc_rec_035_num: (OCoLC)42861487
-Institution ID: NNC_2537986
-Record 999:  NNC_2537986 (OCoLC)ocm11102994
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001053:v.1, columbia_aco001051:v.2, columbia_aco001052:v.3
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm11244699 
    oclc_rec_035_num: (OCoLC)11244699
 Institution ID: NNC_2760802
-Record 999:  NNC_2760802 (OCoLC)ocm11244699
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2760802 (OCoLC)ocm11244699 columbia_aco001165
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001165
@@ -1531,13 +1075,8 @@ Source entities (book IDs): columbia_aco001165
 OCLC ID: (OCoLC)ocm13025631 
    oclc_rec_035_num: (OCoLC)13025631
 Institution ID: NNC_5356663
-Record 999:  NNC_5356663 (OCoLC)ocm13025631
+Record 999:  NNC_5356663 (OCoLC)ocm13025631 columbia_aco001029
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - Tihrān : Anjuman-i Shāhanshāhī-i Falsafah-ʼi Īrān, 1357 [1978]
-ERROR-880: Unlinked 880s: YES
-   880 $6 240-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001029
@@ -1545,12 +1084,8 @@ Source entities (book IDs): columbia_aco001029
 OCLC ID: (OCoLC)ocm43912036 
    oclc_rec_035_num: (OCoLC)43912036
 Institution ID: NNC_2502690
-Record 999:  NNC_2502690 (OCoLC)ocm43912036
+Record 999:  NNC_2502690 (OCoLC)ocm43912036 columbia_aco001185
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   245 - al-Tawzīʻ (tawzīʻ al-dakhl al-qawmī wa-al-tharwah) / [taʼlīf] Muḥammad ʻAzīz.
-ERROR-880: Unlinked 880s: YES
-   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001185
@@ -1558,12 +1093,8 @@ Source entities (book IDs): columbia_aco001185
 OCLC ID: (OCoLC)ocm30984369 
    oclc_rec_035_num: (OCoLC)30984369
 Institution ID: NNC_2757207
-Record 999:  NNC_2757207 (OCoLC)ocm30984369
+Record 999:  NNC_2757207 (OCoLC)ocm30984369 columbia_aco001042
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - [al-Baṣrah] : Dār al-Ṭibāʻah al-Ḥadīthah, 1970.
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001042
@@ -1572,10 +1103,8 @@ OCLC ID: (OCoLC)ocn123004678
    oclc_rec_035_num: (OCoLC)123004678
    oclc_rec_035_num: (OCoLC)45904292
 Institution ID: NNC_2959783
-Record 999:  NNC_2959783 (OCoLC)ocn123004678
+Record 999:  NNC_2959783 (OCoLC)ocn123004678 columbia_aco001001
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Tanbīh al-mughtarrīn
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001001
@@ -1583,36 +1112,20 @@ Source entities (book IDs): columbia_aco001001
 OCLC ID: (OCoLC)ocm60601227 
    oclc_rec_035_num: (OCoLC)60601227
 Institution ID: NNC_643424
-Record 999:  NNC_643424 (OCoLC)ocm60601227
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_643424 (OCoLC)ocm60601227 columbia_aco001178
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - People's life of Christ. Arabic
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001178
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm07903092 
-   oclc_rec_035_num: (OCoLC)7903092
-Institution ID: NNC_2958404
-Record 999:  NNC_2958404 (OCoLC)ocm07903092
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001131
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23520219 
-   oclc_rec_035_num: (OCoLC)23520219
-Institution ID: NNC_2758853
-Record 999:  NNC_2758853 (OCoLC)ocm23520219
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001043
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm23496251 
    oclc_rec_035_num: (OCoLC)23496251
    oclc_rec_035_num: (OCoLC)28791960
 Institution ID: NNC_2871612
-Record 999:  NNC_2871612 (OCoLC)ocm23496251
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2871612 (OCoLC)ocm23496251 columbia_aco001174
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001174
@@ -1620,30 +1133,22 @@ Source entities (book IDs): columbia_aco001174
 OCLC ID: (OCoLC)ocm21241062 
    oclc_rec_035_num: (OCoLC)21241062
 Institution ID: NNC_783834
-Record 999:  NNC_783834 (OCoLC)ocm21241062
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_783834 (OCoLC)ocm21241062 columbia_aco001008
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Lesan āl-tanzil
+   490 - Majmūʻah-ʼi mīrās̲-i Īrān va Islām
+   830 - Majmūʻah-ʼi mīrās̲-i Īrān va Islām.
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001008
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23513338 
-   oclc_rec_035_num: (OCoLC)23513338
-   oclc_rec_035_num: (OCoLC)852828718
-Institution ID: NNC_2757191
-Record 999:  NNC_2757191 (OCoLC)ocm23513338
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001035
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm20517946 
    oclc_rec_035_num: (OCoLC)20517946
    oclc_rec_035_num: (OCoLC)29506681
 Institution ID: NNC_1579589
-Record 999:  NNC_1579589 (OCoLC)ocm20517946
+Record 999:  NNC_1579589 (OCoLC)ocm20517946 columbia_aco001151
 880 script fields: YES
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 al-Maktabah al-tārīkhīyah
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001151
@@ -1651,56 +1156,30 @@ Source entities (book IDs): columbia_aco001151
 OCLC ID: (OCoLC)ocm40975467 
    oclc_rec_035_num: (OCoLC)40975467
 Institution ID: NNC_627563
-Record 999:  NNC_627563 (OCoLC)ocm40975467
+Record 999:  NNC_627563 (OCoLC)ocm40975467 columbia_aco001188
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - Dimashq : al-Maktab al-Islāmī, 1380 [1960/61]
-   700 - Shāwīsh, Muḥammad Zuhayr, editor.
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 700-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 700-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001188
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm21474808 
-   oclc_rec_035_num: (OCoLC)21474808
-Institution ID: NNC_2759747
-Record 999:  NNC_2759747 (OCoLC)ocm21474808
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001088
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm48802551 
    oclc_rec_035_num: (OCoLC)48802551
 Institution ID: NNC_3170977
-Record 999:  NNC_3170977 (OCoLC)ocm48802551
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001196
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm15866916 
-   oclc_rec_035_num: (OCoLC)15866916
-Institution ID: NNC_1583259
-Record 999:  NNC_1583259 (OCoLC)ocm15866916
+Record 999:  NNC_3170977 (OCoLC)ocm48802551 columbia_aco001196
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
-Source entities (book IDs): columbia_aco001161
+Source entities (book IDs): columbia_aco001196
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm23213952 
    oclc_rec_035_num: (OCoLC)23213952
    oclc_rec_035_num: (OCoLC)25991850
    oclc_rec_035_num: (OCoLC)36264180
 Institution ID: NNC_696911
-Record 999:  NNC_696911 (OCoLC)ocm23213952
+Record 999:  NNC_696911 (OCoLC)ocm23213952 columbia_aco001014
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 240-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 246-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001014
@@ -1708,8 +1187,10 @@ Source entities (book IDs): columbia_aco001014
 OCLC ID: (OCoLC)ocm45391899 
    oclc_rec_035_num: (OCoLC)45391899
 Institution ID: NNC_2766327
-Record 999:  NNC_2766327 (OCoLC)ocm45391899
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2766327 (OCoLC)ocm45391899 columbia_aco001164
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   250 - al-Tabʻaḥ al-2.
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001164
@@ -1717,8 +1198,8 @@ Source entities (book IDs): columbia_aco001164
 OCLC ID: (OCoLC)ocm30715799 
    oclc_rec_035_num: (OCoLC)30715799
 Institution ID: NNC_2750342
-Record 999:  NNC_2750342 (OCoLC)ocm30715799
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2750342 (OCoLC)ocm30715799 columbia_aco001107
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001107
@@ -1726,8 +1207,10 @@ Source entities (book IDs): columbia_aco001107
 OCLC ID: (OCoLC)ocm28919050 
    oclc_rec_035_num: (OCoLC)28919050
 Institution ID: NNC_1493223
-Record 999:  NNC_1493223 (OCoLC)ocm28919050
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_1493223 (OCoLC)ocm28919050 columbia_aco001100
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   130 - Gospel of Barnabas. Arabic.
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001100
@@ -1735,14 +1218,8 @@ Source entities (book IDs): columbia_aco001100
 OCLC ID: (OCoLC)ocm08223241 
    oclc_rec_035_num: (OCoLC)8223241
 Institution ID: NNC_2871857
-Record 999:  NNC_2871857 (OCoLC)ocm08223241
+Record 999:  NNC_2871857 (OCoLC)ocm08223241 columbia_aco001155
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   490 - Maktabat al-ʻilmay al-ʻāmmah ; 14
-   830 - Maktabat al-ʻilmay al-ʻāmmah ; 14.
-ERROR-880: Unlinked 880s: YES
-   880 $6 490-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 830-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001155
@@ -1750,8 +1227,8 @@ Source entities (book IDs): columbia_aco001155
 OCLC ID: (OCoLC)ocm15364236 
    oclc_rec_035_num: (OCoLC)15364236
 Institution ID: NNC_2542301
-Record 999:  NNC_2542301 (OCoLC)ocm15364236
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2542301 (OCoLC)ocm15364236 columbia_aco001130
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001130
@@ -1759,11 +1236,8 @@ Source entities (book IDs): columbia_aco001130
 OCLC ID: (OCoLC)ocm19110782 
    oclc_rec_035_num: (OCoLC)19110782
 Institution ID: NNC_2542555
-Record 999:  NNC_2542555 (OCoLC)ocm19110782
+Record 999:  NNC_2542555 (OCoLC)ocm19110782 columbia_aco001125
 880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 490-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 830-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001125
@@ -1773,12 +1247,8 @@ OCLC ID: (OCoLC)ocm13079051
    oclc_rec_035_num: (OCoLC)187382924
    oclc_rec_035_num: (OCoLC)669902615
 Institution ID: NNC_2479410
-Record 999:  NNC_2479410 (OCoLC)ocm13079051
+Record 999:  NNC_2479410 (OCoLC)ocm13079051 columbia_aco001129
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   245 - al-ʻUmlah al-Islāmīyah fī al-ʻahd al-Atābakī [taʼlīf] Muḥammad Bāqir al-Ḥusaynī.
-ERROR-880: Unlinked 880s: YES
-   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001129
@@ -1787,16 +1257,18 @@ OCLC ID: (OCoLC)ocn223373737
    oclc_rec_035_num: (OCoLC)223373737
    oclc_rec_035_num: (OCoLC)60601416
 Institution ID: NNC_657851
-Record 999:  NNC_657851 (OCoLC)ocn223373737
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_657851 (OCoLC)ocn223373737 columbia_aco001177
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - Nāhī, Ṣalāḥ al-Dīn.
 040 $e field: [none]
 Source entities (book IDs): columbia_aco001177
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm23491696 
    oclc_rec_035_num: (OCoLC)23491696
 Institution ID: NNC_2537806
-Record 999:  NNC_2537806 (OCoLC)ocm23491696
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2537806 (OCoLC)ocm23491696 columbia_aco001163
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001163
@@ -1804,7 +1276,7 @@ Source entities (book IDs): columbia_aco001163
 OCLC ID: (OCoLC)ocm13885046 
    oclc_rec_035_num: (OCoLC)13885046
 Institution ID: NNC_2531869
-Record 999:  NNC_2531869 (OCoLC)ocm13885046
+Record 999:  NNC_2531869 (OCoLC)ocm13885046 columbia_aco001172
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Kawakib-us-sayyarah fi tartib-iz-ziyarah
@@ -1812,37 +1284,13 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco001172
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm28293606 
-   oclc_rec_035_num: (OCoLC)28293606
-   oclc_rec_035_num: (OCoLC)214258358
-Institution ID: NNC_80777
-Record 999:  NNC_80777 (OCoLC)ocm28293606
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001105
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm16840273 
-   oclc_rec_035_num: (OCoLC)16840273
-Institution ID: NNC_2757430
-Record 999:  NNC_2757430 (OCoLC)ocm16840273
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001112
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm21120591 
    oclc_rec_035_num: (OCoLC)21120591
 Institution ID: NNC_2531938
-Record 999:  NNC_2531938 (OCoLC)ocm21120591
+Record 999:  NNC_2531938 (OCoLC)ocm21120591 columbia_aco001090
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   100 - Aṣmaʻī, Muḥmmad ʻAbd al-Jawād.
    246 - Fort Méhémet-Ali
-   260 - Cairo : [publisher not identified], 1924 (Cairo : Maṭbaʻat Dār al-Kutub al-Miṣrīyah)
-ERROR-880: Unlinked 880s: YES
-   880 $6 100-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001090
@@ -1850,63 +1298,26 @@ Source entities (book IDs): columbia_aco001090
 OCLC ID: (OCoLC)ocm43933930 
    oclc_rec_035_num: (OCoLC)43933930
 Institution ID: NNC_2544370
-Record 999:  NNC_2544370 (OCoLC)ocm43933930
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2544370 (OCoLC)ocm43933930 columbia_aco001159
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001159
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23515471 
-   oclc_rec_035_num: (OCoLC)23515471
-Institution ID: NNC_1580322
-Record 999:  NNC_1580322 (OCoLC)ocm23515471
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001060:v.1-2, columbia_aco001059:v.3-4
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm12148530 
-   oclc_rec_035_num: (OCoLC)12148530
-Institution ID: NNC_2483053
-Record 999:  NNC_2483053 (OCoLC)ocm12148530
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001080
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm81576342 
    oclc_rec_035_num: (OCoLC)81576342
 Institution ID: NNC_31993
-Record 999:  NNC_31993 (OCoLC)ocm81576342
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_31993 (OCoLC)ocm81576342 columbia_aco001016
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001016
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm13885851 
-   oclc_rec_035_num: (OCoLC)13885851
-Institution ID: NNC_2752485
-Record 999:  NNC_2752485 (OCoLC)ocm13885851
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001038
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm14942094 
-   oclc_rec_035_num: (OCoLC)14942094
-   oclc_rec_035_num: (OCoLC)23484893
-Institution ID: NNC_1579302
-Record 999:  NNC_1579302 (OCoLC)ocm14942094
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001148
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm46344756 
    oclc_rec_035_num: (OCoLC)46344756
 Institution ID: NNC_2988179
-Record 999:  NNC_2988179 (OCoLC)ocm46344756
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_2988179 (OCoLC)ocm46344756 columbia_aco001135
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001135
@@ -1914,10 +1325,8 @@ Source entities (book IDs): columbia_aco001135
 OCLC ID: (OCoLC)ocm33860349 
    oclc_rec_035_num: (OCoLC)33860349
 Institution ID: NNC_3062977
-Record 999:  NNC_3062977 (OCoLC)ocm33860349
+Record 999:  NNC_3062977 (OCoLC)ocm33860349 columbia_aco001017
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   700 - Ḥalabī, Muḥammad Badr al-Dīn al-Naʻsānī.
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001017
