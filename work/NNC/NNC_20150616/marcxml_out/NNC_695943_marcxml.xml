@@ -1,157 +1,367 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
-	<controlfield tag="001">695943</controlfield>
-	<controlfield tag="003">NNC</controlfield>
-	<controlfield tag="006">m        d        </controlfield>
-	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150723m19851986ir      ob   f000 0 ara d</controlfield>
+	<leader>
+		02852nam a2200505   4500
+	</leader>
+	<controlfield tag="001">
+		695943
+	</controlfield>
+	<controlfield tag="003">
+		NNC
+	</controlfield>
+	<controlfield tag="006">
+		m        d        
+	</controlfield>
+	<controlfield tag="007">
+		cr cn |||m|||a
+	</controlfield>
+	<controlfield tag="008">
+		150923m19851986ir      ob   f000 0 ara d
+	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
-		<subfield code="b">eng</subfield>
-		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="a">
+			NNU
+		</subfield>
+		<subfield code="b">
+			eng
+		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
+		<subfield code="c">
+			NNU
+		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="6">880-01</subfield>
-		<subfield code="a">Ibn al-Biṭrīq, Yaḥyá ibn al-Ḥasan,</subfield>
-		<subfield code="d">1129-1203 or 1204.</subfield>
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Ibn al-Biṭrīq, Yaḥyá ibn al-Ḥasan,
+		</subfield>
+		<subfield code="d">
+			1129-1203 or 1204.
+		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
-		<subfield code="6">880-02</subfield>
-		<subfield code="a">Khaṣāʼiṣ al-waḥy al-mubīn</subfield>
+		<subfield code="6">
+			880-02
+		</subfield>
+		<subfield code="a">
+			Khaṣāʼiṣ al-waḥy al-mubīn
+		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="6">880-03</subfield>
-		<subfield code="a">Kitāb khaṣāʼiṣ al-waḥy al-mubīn /</subfield>
-		<subfield code="c">taʼlīf Yaḥyá ibn al-Ḥasan al-Ḥillī al-maʻrūf bi-Ibn al-Biṭrīq ; ḥaqqaqahu wa-ʻallaqa ʻalayhi wa-kharraja aḥādīthahu Muḥammad Bāqir al-Maḥmūdī.</subfield>
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			Kitāb khaṣāʼiṣ al-waḥy al-mubīn /
+		</subfield>
+		<subfield code="c">
+			taʼlīf Yaḥyá ibn al-Ḥasan al-Ḥillī al-maʻrūf bi-Ibn al-Biṭrīq ; ḥaqqaqahu wa-ʻallaqa ʻalayhi wa-kharraja aḥādīthahu Muḥammad Bāqir al-Maḥmūdī.
+		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
-		<subfield code="a">Khaṣāʼiṣ al-waḥy al-mubīn</subfield>
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Khaṣāʼiṣ al-waḥy al-mubīn
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
-		<subfield code="6">880-04</subfield>
-		<subfield code="a">al-Ṭabʻah 1.</subfield>
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			al-Ṭabʻah 1.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[Teheran] :</subfield>
-		<subfield code="b">Wizārat al-Irshād al-Islāmī,</subfield>
-		<subfield code="c">1406 [1985 or 1986]</subfield>
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			[Teheran] :
+		</subfield>
+		<subfield code="b">
+			Wizārat al-Irshād al-Islāmī,
+		</subfield>
+		<subfield code="c">
+			1406 [1985 or 1986]
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (276 pages)</subfield>
+		<subfield code="a">
+			online resource (276 pages)
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="336">
-		<subfield code="a">text</subfield>
-		<subfield code="2">rdacontent</subfield>
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="337">
-		<subfield code="a">computer</subfield>
-		<subfield code="2">rdamedia</subfield>
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="338">
-		<subfield code="a">online resource</subfield>
-		<subfield code="2">rdacarrier</subfield>
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">Title page vocalized.</subfield>
+		<subfield code="a">
+			Title page vocalized.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
+		<subfield code="a">
+			Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">Includes bibliographical references.</subfield>
+		<subfield code="a">
+			Includes bibliographical references.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">In Arabic.</subfield>
+		<subfield code="a">
+			In Arabic.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
-		<subfield code="a">Electronic reproduction.</subfield>
-		<subfield code="b">New York, N.Y. :</subfield>
-		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2015.</subfield>
-		<subfield code="5">NNU</subfield>
+		<subfield code="a">
+			Electronic reproduction.
+		</subfield>
+		<subfield code="b">
+			New York, N.Y. :
+		</subfield>
+		<subfield code="c">
+			New York University,
+		</subfield>
+		<subfield code="d">
+			2015.
+		</subfield>
+		<subfield code="5">
+			NNU
+		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
-		<subfield code="a">ʻAlī ibn Abī Ṭālib,</subfield>
-		<subfield code="c">Caliph,</subfield>
-		<subfield code="d">approximately 600-661.</subfield>
+		<subfield code="6">
+			880-07
+		</subfield>
+		<subfield code="a">
+			ʻAlī ibn Abī Ṭālib,
+		</subfield>
+		<subfield code="c">
+			Caliph,
+		</subfield>
+		<subfield code="d">
+			approximately 600-661.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">Hadith (Shiites)</subfield>
+		<subfield code="a">
+			Hadith (Shiites)
+		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="7" tag="600">
-		<subfield code="a">ʻAlī ibn Abī Ṭālib,</subfield>
-		<subfield code="c">Caliph,</subfield>
-		<subfield code="d">approximately 600-661</subfield>
-		<subfield code="2">fast</subfield>
-		<subfield code="0">(OCoLC)fst01804105</subfield>
+		<subfield code="a">
+			ʻAlī ibn Abī Ṭālib,
+		</subfield>
+		<subfield code="c">
+			Caliph,
+		</subfield>
+		<subfield code="d">
+			approximately 600-661
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01804105
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="7" tag="650">
-		<subfield code="a">Hadith (Shiites)</subfield>
-		<subfield code="2">fast</subfield>
-		<subfield code="0">(OCoLC)fst00950138</subfield>
+		<subfield code="a">
+			Hadith (Shiites)
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00950138
+		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-05</subfield>
-		<subfield code="a">Maḥmūdī, Muḥammad Bāqir.</subfield>
+		<subfield code="6">
+			880-08
+		</subfield>
+		<subfield code="a">
+			Maḥmūdī, Muḥammad Bāqir.
+		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="a">Columbia University.</subfield>
-		<subfield code="b">Libraries.</subfield>
+		<subfield code="a">
+			Columbia University.
+		</subfield>
+		<subfield code="b">
+			Libraries.
+		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="730">
-		<subfield code="a">Arabic Collections Online.</subfield>
+		<subfield code="a">
+			Arabic Collections Online.
+		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
-		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Ibn al-Biṭrīq, Yaḥyá ibn al-Ḥasan, 1129-1203 or 1204.</subfield>
-		<subfield code="t">Kitāb khaṣāʼiṣ al-waḥy al-mubīn</subfield>
-		<subfield code="w">(NNC)695943</subfield>
-		<subfield code="w">(OCoLC)20657187</subfield>
+		<subfield code="i">
+			Print version:
+		</subfield>
+		<subfield code="a">
+			Ibn al-Biṭrīq, Yaḥyá ibn al-Ḥasan, 1129-1203 or 1204.
+		</subfield>
+		<subfield code="t">
+			Kitāb khaṣāʼiṣ al-waḥy al-mubīn
+		</subfield>
+		<subfield code="w">
+			(NNC)695943
+		</subfield>
+		<subfield code="w">
+			(OCoLC)20657187
+		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">http://hdl.handle.net/2333.1/280gb84w</subfield>
+		<subfield code="u">
+			http://hdl.handle.net/2333.1/280gb84w
+		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/r</subfield>
-		<subfield code="a">ابن البطريق، يحيى بن الحسن.</subfield>
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ابن البطريق، يحيى بن الحسن.
+		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">240-02/r</subfield>
-		<subfield code="a">خصائص الوحي المبين</subfield>
+		<subfield code="6">
+			240-02/r
+		</subfield>
+		<subfield code="a">
+			خصائص الوحي المبين
+		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-03/r</subfield>
-		<subfield code="a">كتاب خصائص الوحي المبين /</subfield>
-		<subfield code="c">تأليف يحيى بن الحسن الحلي المعروف بابن البطريق ؛ حققه وعلق عليه وخرج احاديثه محمد باقر المحمودي.</subfield>
+		<subfield code="6">
+			245-03/r
+		</subfield>
+		<subfield code="a">
+			كتاب خصائص الوحي المبين /
+		</subfield>
+		<subfield code="c">
+			تأليف يحيى بن الحسن الحلي المعروف بابن البطريق ؛ حققه وعلق عليه وخرج احاديثه محمد باقر المحمودي.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-04/r
+		</subfield>
+		<subfield code="a">
+			خصائص الوحي المبين
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-04/r</subfield>
-		<subfield code="a">الطبعة 1.</subfield>
+		<subfield code="6">
+			250-05/r
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-00/r</subfield>
-		<subfield code="a">[طهران] :</subfield>
-		<subfield code="b">وزارة الارشاد الاسلامي،</subfield>
-		<subfield code="c">1406 [1986]</subfield>
+		<subfield code="6">
+			260-06/r
+		</subfield>
+		<subfield code="a">
+			[طهران] :
+		</subfield>
+		<subfield code="b">
+			وزارة الارشاد الاسلامي،
+		</subfield>
+		<subfield code="c">
+			1406 [1985 or 1986]
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">
+			600-07/r
+		</subfield>
+		<subfield code="a">
+			علي بن ابي طالب،
+		</subfield>
+		<subfield code="c">
+			Caliph,
+		</subfield>
+		<subfield code="d">
+			approximately 600-661.
+		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-05/r</subfield>
-		<subfield code="a">محمودي، محمد باقر.</subfield>
+		<subfield code="6">
+			700-08/r
+		</subfield>
+		<subfield code="a">
+			محمودي، محمد باقر.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
-		<subfield code="a">NNU</subfield>
-		<subfield code="b">WEB</subfield>
-		<subfield code="c">GENI</subfield>
-		<subfield code="t">0</subfield>
-		<subfield code="m">Electronic access</subfield>
-		<subfield code="s">01</subfield>
+		<subfield code="a">
+			NNU
+		</subfield>
+		<subfield code="b">
+			WEB
+		</subfield>
+		<subfield code="c">
+			GENI
+		</subfield>
+		<subfield code="t">
+			0
+		</subfield>
+		<subfield code="m">
+			Electronic access
+		</subfield>
+		<subfield code="s">
+			01
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
-		<subfield code="i">NNC_695943</subfield>
-		<subfield code="o">(OCoLC)ocm20657187 </subfield>
-		<subfield code="s">columbia_aco001183</subfield>
-		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="i">
+			NNC_695943
+		</subfield>
+		<subfield code="o">
+			(OCoLC)ocm20657187
+		</subfield>
+		<subfield code="s">
+			columbia_aco001183
+		</subfield>
+		<subfield code="e">
+			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001183
+		</subfield>
 	</datafield>
 </record>

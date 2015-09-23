@@ -1,132 +1,279 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
-	<controlfield tag="001">2531938</controlfield>
-	<controlfield tag="003">NNC</controlfield>
-	<controlfield tag="006">m        d        </controlfield>
-	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150723s1924    ua a    ob    000 0 arard</controlfield>
+	<leader>
+		02268nam a2200409   4500
+	</leader>
+	<controlfield tag="001">
+		2531938
+	</controlfield>
+	<controlfield tag="003">
+		NNC
+	</controlfield>
+	<controlfield tag="006">
+		m        d        
+	</controlfield>
+	<controlfield tag="007">
+		cr cn |||m|||a
+	</controlfield>
+	<controlfield tag="008">
+		150923s1924    ua a    ob    000 0 arard
+	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
-		<subfield code="b">eng</subfield>
-		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="a">
+			NNU
+		</subfield>
+		<subfield code="b">
+			eng
+		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
+		<subfield code="c">
+			NNU
+		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="041">
-		<subfield code="a">ara</subfield>
-		<subfield code="b">fre</subfield>
+		<subfield code="a">
+			ara
+		</subfield>
+		<subfield code="b">
+			fre
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
-		<subfield code="a">f-ua---</subfield>
+		<subfield code="a">
+			f-ua---
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
-		<subfield code="a">DT153.Q3</subfield>
-		<subfield code="b">A83 1924</subfield>
+		<subfield code="a">
+			DT153.Q3
+		</subfield>
+		<subfield code="b">
+			A83 1924
+		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Aṣmaʻī, Muḥmmad ʻAbd al-Jawād.</subfield>
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Aṣmaʻī, Muḥmmad ʻAbd al-Jawād.
+		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="6">880-01</subfield>
-		<subfield code="a">Qalʻat Muḥammad ʻAlī, lā qalʻat Nāpuliyūn :</subfield>
-		<subfield code="b">baḥth tārīkhī atharī /</subfield>
-		<subfield code="c">bi-qalam Muḥammad ʻAbd al-Jawād al-Aṣmaʻī.</subfield>
+		<subfield code="6">
+			880-02
+		</subfield>
+		<subfield code="a">
+			Qalʻat Muḥammad ʻAlī, lā qalʻat Nāpuliyūn :
+		</subfield>
+		<subfield code="b">
+			baḥth tārīkhī atharī /
+		</subfield>
+		<subfield code="c">
+			bi-qalam Muḥammad ʻAbd al-Jawād al-Aṣmaʻī.
+		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
-		<subfield code="a">Fort Méhémet-Ali</subfield>
+		<subfield code="a">
+			Fort Méhémet-Ali
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo :</subfield>
-		<subfield code="b">[publisher not identified],</subfield>
-		<subfield code="c">1924</subfield>
-		<subfield code="e">(Cairo :</subfield>
-		<subfield code="f">Maṭbaʻat Dār al-Kutub al-Miṣrīyah)</subfield>
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			al-Qāhirah :
+		</subfield>
+		<subfield code="b">
+			Maṭbaʻat Dār al-Kutub al-Miṣrīyah,
+		</subfield>
+		<subfield code="c">
+			1924.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (103, 13 pages) :</subfield>
-		<subfield code="b">illustrations</subfield>
+		<subfield code="a">
+			online resource (103, 13 pages) :
+		</subfield>
+		<subfield code="b">
+			illustrations
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="336">
-		<subfield code="a">text</subfield>
-		<subfield code="2">rdacontent</subfield>
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="337">
-		<subfield code="a">computer</subfield>
-		<subfield code="2">rdamedia</subfield>
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="338">
-		<subfield code="a">online resource</subfield>
-		<subfield code="2">rdacarrier</subfield>
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">Summary in French.</subfield>
+		<subfield code="a">
+			Summary in French.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">Title on added t.p.: le Fort Méhémet-Ali.</subfield>
+		<subfield code="a">
+			Title on added t.p.: le Fort Méhémet-Ali.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;Muḥallá bi-nubdhah tārīkhīyah mumtiʻah ʻan al-madāris al-ḥarbīyah wa-al-maʻāmil al-ʻaskarīyah wa-ḥālat al-jaysh al-Miṣrī (al-barrī wa-baḥrī)--fī ʻabd 'Muḥammad ʻAlī' / bi-qalam ʻUmar Ṭūsūn.&quot;</subfield>
+		<subfield code="a">
+			&quot;Muḥallá bi-nubdhah tārīkhīyah mumtiʻah ʻan al-madāris al-ḥarbīyah wa-al-maʻāmil al-ʻaskarīyah wa-ḥālat al-jaysh al-Miṣrī (al-barrī wa-baḥrī)--fī ʻabd 'Muḥammad ʻAlī' / bi-qalam ʻUmar Ṭūsūn.&quot;
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
+		<subfield code="a">
+			Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
-		<subfield code="a">Electronic reproduction.</subfield>
-		<subfield code="b">New York, N.Y. :</subfield>
-		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2015.</subfield>
-		<subfield code="5">NNU</subfield>
+		<subfield code="a">
+			Electronic reproduction.
+		</subfield>
+		<subfield code="b">
+			New York, N.Y. :
+		</subfield>
+		<subfield code="c">
+			New York University,
+		</subfield>
+		<subfield code="d">
+			2015.
+		</subfield>
+		<subfield code="5">
+			NNU
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
-		<subfield code="a">Qalʻat Muḥammad ʻAlī (Egypt)</subfield>
+		<subfield code="a">
+			Qalʻat Muḥammad ʻAlī (Egypt)
+		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="a">Columbia University.</subfield>
-		<subfield code="b">Libraries.</subfield>
+		<subfield code="a">
+			Columbia University.
+		</subfield>
+		<subfield code="b">
+			Libraries.
+		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="730">
-		<subfield code="a">Arabic Collections Online.</subfield>
+		<subfield code="a">
+			Arabic Collections Online.
+		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
-		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Aṣmaʻī, Muḥmmad ʻAbd al-Jawād.</subfield>
-		<subfield code="t">Qalʻat Muḥammad ʻAlī, lā qalʻat Nāpuliyūn</subfield>
-		<subfield code="w">(NNC)2531938</subfield>
-		<subfield code="w">(OCoLC)21120591</subfield>
+		<subfield code="i">
+			Print version:
+		</subfield>
+		<subfield code="a">
+			Aṣmaʻī, Muḥmmad ʻAbd al-Jawād.
+		</subfield>
+		<subfield code="t">
+			Qalʻat Muḥammad ʻAlī, lā qalʻat Nāpuliyūn
+		</subfield>
+		<subfield code="w">
+			(NNC)2531938
+		</subfield>
+		<subfield code="w">
+			(OCoLC)21120591
+		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">http://hdl.handle.net/2333.1/4j0zpfrj</subfield>
+		<subfield code="u">
+			http://hdl.handle.net/2333.1/4j0zpfrj
+		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-00/r</subfield>
-		<subfield code="a">‏أصمعى، محمد عبد الجواد.</subfield>
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			‏أصمعى، محمد عبد الجواد.
+		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-01/r</subfield>
-		<subfield code="a">‏قلعة محمد على، لا قلعة نابليون :‏</subfield>
-		<subfield code="b">‏بحث تاريخى أثرى /‏</subfield>
-		<subfield code="c">‏بقلم محمد عبد الجواد الأصمعى.</subfield>
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			‏قلعة محمد على، لا قلعة نابليون :‏
+		</subfield>
+		<subfield code="b">
+			‏بحث تاريخى أثرى /‏
+		</subfield>
+		<subfield code="c">
+			‏بقلم محمد عبد الجواد الأصمعى.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-00/r</subfield>
-		<subfield code="a">‏القاهرة :‏</subfield>
-		<subfield code="b">‏[د.ن.]،‏</subfield>
-		<subfield code="c">‏1924‏</subfield>
-		<subfield code="e">‏(القاهرة :‏</subfield>
-		<subfield code="f">‏مطبعة دار الكتب المصرية)</subfield>
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			مطبعة دار الكتب المصرية،
+		</subfield>
+		<subfield code="c">
+			1924.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
-		<subfield code="a">NNU</subfield>
-		<subfield code="b">WEB</subfield>
-		<subfield code="c">GENI</subfield>
-		<subfield code="t">0</subfield>
-		<subfield code="m">Electronic access</subfield>
-		<subfield code="s">01</subfield>
+		<subfield code="a">
+			NNU
+		</subfield>
+		<subfield code="b">
+			WEB
+		</subfield>
+		<subfield code="c">
+			GENI
+		</subfield>
+		<subfield code="t">
+			0
+		</subfield>
+		<subfield code="m">
+			Electronic access
+		</subfield>
+		<subfield code="s">
+			01
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
-		<subfield code="i">NNC_2531938</subfield>
-		<subfield code="o">(OCoLC)ocm21120591 </subfield>
-		<subfield code="s">columbia_aco001090</subfield>
-		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="i">
+			NNC_2531938
+		</subfield>
+		<subfield code="o">
+			(OCoLC)ocm21120591
+		</subfield>
+		<subfield code="s">
+			columbia_aco001090
+		</subfield>
+		<subfield code="e">
+			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001090
+		</subfield>
 	</datafield>
 </record>
