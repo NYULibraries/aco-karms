@@ -35,6 +35,9 @@ ACO git commands:
 		to track *only* the particular batch files:
 			git add work/[inst.code]/[inst.code]_[batch date]*
 			git add work/NNC/NNC_20140805*
+--  use the following command to check what changes were made to files:
+		git diff
+		git diff <filename>
 --  use the following command to remove any untracked files and/or directories:
 		git clean -f -d
 	OR you can specify a particular directory:
