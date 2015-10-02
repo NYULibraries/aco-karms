@@ -1,0 +1,98 @@
+Records containing SERIES errors - batch NjP_20150903
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2015-10-02 10:51:47.874550
+---------------------------------------------------------------------
+FILE: NjP_20150903_2_oclc_recs_batch.mrc
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm07873277 
+   oclc_rec_035_num: (OCoLC)7873277
+   oclc_rec_035_num: (OCoLC)19013663
+   oclc_rec_035_num: (OCoLC)23099335
+   oclc_rec_035_num: (OCoLC)27443928
+   oclc_rec_035_num: (OCoLC)34094626
+   oclc_rec_035_num: (OCoLC)41967370
+Institution ID: NjP_785770
+Institution ID: NjP_785770
+Institution ID: NjP_785770
+Institution ID: NjP_785770
+Institution ID: NjP_785770
+Institution ID: NjP_785770
+Record 999:  NjP_785770 (OCoLC)ocm07873277
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Zabān-i shināsī Īrānī ; 10
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): princeton_aco000016
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm18426393 
+   oclc_rec_035_num: (OCoLC)18426393
+Institution ID: NjP_2754317
+Record 999:  NjP_2754317 (OCoLC)ocm18426393
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - Dahhān, Sāmī.
+   260 - Miṣr : Dār al-Maʻārif, [195-?]
+   490 - Funūn al-adab al-ʻArabī. al-Fann al-ghināʼī ; 3
+ERROR-880: Unlinked 880s: YES
+   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 490-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 700-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Funūn al-adab al-ʻArabī. al-Fann al-ghināʼī ; 3
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): princeton_aco000129
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm42853993 
+   oclc_rec_035_num: (OCoLC)42853993
+Institution ID: NjP_2787649
+Record 999:  NjP_2787649 (OCoLC)ocm42853993
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Intishārāt-i Dānis. gāh-i Tihrān, 1320
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): princeton_aco000035
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm55006094 
+   oclc_rec_035_num: (OCoLC)55006094
+Institution ID: NjP_4139668
+Record 999:  NjP_4139668 (OCoLC)ocm55006094
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Silsilah adabīyah tārīkhīyah naḥwīyah
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): princeton_aco000072
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm30457491 
+   oclc_rec_035_num: (OCoLC)30457491
+Institution ID: NjP_4133356
+Record 999:  NjP_4133356 (OCoLC)ocm30457491
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Farhangʹhā-yi tāzī bih Pārsī ; 1
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): princeton_aco000067
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm30928442 
+   oclc_rec_035_num: (OCoLC)30928442
+Institution ID: NjP_2768672
+Record 999:  NjP_2768672 (OCoLC)ocm30928442
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Dawāwīn ṣaghīrah ; 1
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): princeton_aco000194
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NjP_20150903_1/NjP_20150903_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 6
+
