@@ -929,6 +929,8 @@ def insert_src_entities(rec, bsn_se_lines):
 			se_003 = 'NNC'
 		if se_inst == 'cornell':
 			se_003 = 'NIC'
+		if se_inst == 'princeton':
+			se_003 = 'NjP'
 		if se_inst == 'aub':
 			se_003 = 'LeBAU'
 		if rec_003 == se_003 and rec_001 == se_001:
