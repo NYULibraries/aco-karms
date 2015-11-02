@@ -1,109 +1,309 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
-	<controlfield tag="001">2958813</controlfield>
-	<controlfield tag="003">NNC</controlfield>
-	<controlfield tag="006">m        d        </controlfield>
-	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150621s1943    ua      o     000 0 ara d</controlfield>
+	<leader>
+		02355nam a2200409   4500
+	</leader>
+	<controlfield tag="001">
+		2958813
+	</controlfield>
+	<controlfield tag="003">
+		NNC
+	</controlfield>
+	<controlfield tag="006">
+		m        d        
+	</controlfield>
+	<controlfield tag="007">
+		cr cn |||m|||a
+	</controlfield>
+	<controlfield tag="008">
+		151007s1943    ua      o     000 0 ara d
+	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
-		<subfield code="b">eng</subfield>
-		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="a">
+			NNU
+		</subfield>
+		<subfield code="b">
+			eng
+		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
+		<subfield code="c">
+			NNU
+		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="4" tag="050">
-		<subfield code="a">BP160.M56</subfield>
-		<subfield code="b">A4</subfield>
+		<subfield code="a">
+			BP160.M56
+		</subfield>
+		<subfield code="b">
+			A4
+		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Āl al-Shaykh, ʻAbd al-Raḥmān ibn Ḥasan,</subfield>
-		<subfield code="d">1779?-1868?</subfield>
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Āl al-Shaykh, ʻAbd al-Raḥmān ibn Ḥasan,
+		</subfield>
+		<subfield code="d">
+			1779?-1868?
+		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Fatḥ al-majīd, sharḥ Kitāb al-tawḥīd,</subfield>
-		<subfield code="c">taʼlīf al-shaykh ʻAbd al-Raḥmān ibn Ḥasan Āl-al-Shaykh (al-mutawaffā sanata 1258 h.), bitaḥqīq Muḥammad Ḥamīd al-F[a]qī.</subfield>
+		<subfield code="6">
+			880-02
+		</subfield>
+		<subfield code="a">
+			Fatḥ al-majīd, sharḥ Kitāb al-tawḥīd /
+		</subfield>
+		<subfield code="c">
+			taʼlīf al-shaykh ʻAbd al-Raḥmān ibn Ḥasan Āl-al-Shaykh (al-mutawaffā sanata 1258 h.), bitaḥqīq Muḥammad Ḥamīd al-Fqī.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
-		<subfield code="a">al-Tạbʻah al-4.</subfield>
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			al-Ṭạbʻah al-4.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Miṣr,</subfield>
-		<subfield code="b">Maṭbaʻat Anṣār al-Sunnah al-Muḥammadīyah,</subfield>
-		<subfield code="c">1362 [1943]</subfield>
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Miṣr :
+		</subfield>
+		<subfield code="b">
+			Maṭbaʻat Anṣār al-Sunnah al-Muḥammadīyah,
+		</subfield>
+		<subfield code="c">
+			1362 [1943]
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (512 pages)</subfield>
+		<subfield code="a">
+			online resource (512 pages)
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="336">
-		<subfield code="a">text</subfield>
-		<subfield code="2">rdacontent</subfield>
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="337">
-		<subfield code="a">computer</subfield>
-		<subfield code="2">rdamedia</subfield>
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="338">
-		<subfield code="a">online resource</subfield>
-		<subfield code="2">rdacarrier</subfield>
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
+		<subfield code="a">
+			Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
-		<subfield code="a">Electronic reproduction.</subfield>
-		<subfield code="b">New York, N.Y. :</subfield>
-		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2015.</subfield>
-		<subfield code="5">NNU</subfield>
+		<subfield code="a">
+			Electronic reproduction.
+		</subfield>
+		<subfield code="b">
+			New York, N.Y. :
+		</subfield>
+		<subfield code="c">
+			New York University,
+		</subfield>
+		<subfield code="d">
+			2015.
+		</subfield>
+		<subfield code="5">
+			NNU
+		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
-		<subfield code="a">Muḥammad ibn ʻAbd al-Wahhāb,</subfield>
-		<subfield code="d">1703 or 1704-1792.</subfield>
-		<subfield code="t">Tawḥīd.</subfield>
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Muḥammad ibn ʻAbd al-Wahhāb,
+		</subfield>
+		<subfield code="d">
+			1703 or 1704-1792.
+		</subfield>
+		<subfield code="t">
+			Tawḥīd.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">God (Islam)</subfield>
+		<subfield code="a">
+			God (Islam)
+		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="7" tag="630">
-		<subfield code="a">Tawḥīd (Muḥammad ibn ʻAbd al-Wahhāb)</subfield>
-		<subfield code="2">fast</subfield>
-		<subfield code="0">(OCoLC)fst01369288</subfield>
+		<subfield code="a">
+			Tawḥīd (Muḥammad ibn ʻAbd al-Wahhāb)
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01369288
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="7" tag="650">
-		<subfield code="a">God (Islam)</subfield>
-		<subfield code="2">fast</subfield>
-		<subfield code="0">(OCoLC)fst00944142</subfield>
+		<subfield code="a">
+			God (Islam)
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00944142
+		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="a">Columbia University.</subfield>
-		<subfield code="b">Libraries.</subfield>
+		<subfield code="a">
+			Columbia University.
+		</subfield>
+		<subfield code="b">
+			Libraries.
+		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="730">
-		<subfield code="a">Arabic Collections Online.</subfield>
+		<subfield code="a">
+			Arabic Collections Online.
+		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
-		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Āl al-Shaykh, ʻAbd al-Raḥmān ibn Ḥasan, 1779?-1868?</subfield>
-		<subfield code="t">Fatḥ al-majīd, sharḥ Kitāb al-tawḥīd</subfield>
-		<subfield code="w">(NNC)2958813</subfield>
-		<subfield code="w">(OCoLC)45901574</subfield>
+		<subfield code="i">
+			Print version:
+		</subfield>
+		<subfield code="a">
+			Āl al-Shaykh, ʻAbd al-Raḥmān ibn Ḥasan, 1779?-1868?
+		</subfield>
+		<subfield code="t">
+			Fatḥ al-majīd, sharḥ Kitāb al-tawḥīd
+		</subfield>
+		<subfield code="w">
+			(NNC)2958813
+		</subfield>
+		<subfield code="w">
+			(OCoLC)45901574
+		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">http://hdl.handle.net/2333.1/66t1g44f</subfield>
+		<subfield code="u">
+			http://hdl.handle.net/2333.1/66t1g44f
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			آل الشيخ، عبد الرحمن بن حسن،
+		</subfield>
+		<subfield code="d">
+			1779?-1868?
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			فتح المجيد، شرح كتاب التوحيد /
+		</subfield>
+		<subfield code="c">
+			تأليف الشيخ عبد الرحمن بن حسن آلالشيخ (لمتوفى سنت 1258 ه.)، بتحقيق محمد حميد الفقي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/r
+		</subfield>
+		<subfield code="a">
+			الطبعة ال4.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			مطبعة انصار السنة المحمدية،
+		</subfield>
+		<subfield code="c">
+			1362 [1943]
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">
+			600-05/r
+		</subfield>
+		<subfield code="a">
+			محمد بن عبد الوهاب، 
+		</subfield>
+		<subfield code="d">
+			1703 or 1704-1792. 
+		</subfield>
+		<subfield code="t">
+			توحيد.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
-		<subfield code="a">NNU</subfield>
-		<subfield code="b">WEB</subfield>
-		<subfield code="c">GENI</subfield>
-		<subfield code="t">0</subfield>
-		<subfield code="m">Electronic access</subfield>
-		<subfield code="s">01</subfield>
+		<subfield code="a">
+			NNU
+		</subfield>
+		<subfield code="b">
+			WEB
+		</subfield>
+		<subfield code="c">
+			GENI
+		</subfield>
+		<subfield code="t">
+			0
+		</subfield>
+		<subfield code="m">
+			Electronic access
+		</subfield>
+		<subfield code="s">
+			01
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
-		<subfield code="i">NNC_2958813</subfield>
-		<subfield code="o">(OCoLC)ocm45901574 </subfield>
-		<subfield code="s">columbia_aco000811</subfield>
-		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="i">
+			NNC_2958813
+		</subfield>
+		<subfield code="o">
+			(OCoLC)ocm45901574
+		</subfield>
+		<subfield code="s">
+			columbia_aco000811
+		</subfield>
+		<subfield code="e">
+			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco000811
+		</subfield>
 	</datafield>
 </record>

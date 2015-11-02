@@ -3,35 +3,9 @@ Records containing SERIES errors - batch NNC_20150615
 --  Either the 490 field has 1st indicator=0 (untraced)
 --  Or there are more 490 fields than there are 800/810/811/830 fields,
     so the corresponding 8XX heading needs added
-Report produced: 2015-06-21 21:11:29.792553
+Report produced: 2015-10-07 12:54:00.380452
 ---------------------------------------------------------------------
-FILE: NNC_20150615_2_oclc_recs_batch.mrc
+FILE: NNC_20150615_3/NNC_20150615_3_updates.mrc
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm28718159 
-   oclc_rec_035_num: (OCoLC)28718159
-Institution ID: NNC_2958213
-Record 999:  NNC_2958213 (OCoLC)ocm28718159
-ERROR-880: 880 script fields: NO
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Silsilat al-tawjīh al-Dīns̄ ; 2
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000803
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm08914946 
-   oclc_rec_035_num: (OCoLC)8914946
-   oclc_rec_035_num: (OCoLC)222877678
-Institution ID: NNC_2958187
-Record 999:  NNC_2958187 (OCoLC)ocm08914946
-880 script fields: YES
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Maṭbūʻāt Kullīyat al-Dirāsāt al-Islāmīyah
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco000813
----------------------------------------------------------------------
----------------------------------------------------------------------
-FILE: NNC_20150615_1/NNC_20150615_1_orig_no_oclc_nums.mrc
----------------------------------------------------------------------
-TOTAL Number of Records containing series errors: 2
+TOTAL Number of Records containing series errors: 0
 
