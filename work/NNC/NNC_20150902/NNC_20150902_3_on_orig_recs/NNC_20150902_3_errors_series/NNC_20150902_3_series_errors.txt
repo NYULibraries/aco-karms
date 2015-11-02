@@ -1,0 +1,40 @@
+Records containing SERIES errors - batch NNC_20150902
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2015-11-02 16:21:56.255295
+---------------------------------------------------------------------
+FILE: NNC_20150902_1/NNC_20150902_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNC_568423
+   orig_rec_035 num: =035  \\$a(OCoLC)22427613
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm22427613
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG87-B48315
+   orig_rec_035 num: =035  \\$9ACM1777CU
+   orig_rec_035 num: =035  \\$a(NNC)568423
+Record 999:  NNC_568423
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Manshūrāt Dār al-Bayān, 49
+040 $e field: [none]
+Source entities (book IDs): columbia_aco001321
+---------------------------------------------------------------------
+Institution ID: NNC_646871
+   orig_rec_035 num: =035  \\$a(OCoLC)25905051
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm25905051
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B32456
+   orig_rec_035 num: =035  \\$9ACV3894CU
+   orig_rec_035 num: =035  \\$a(NNC)646871
+Record 999:  NNC_646871
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Iqraʾ ; 53
+040 $e field: [none]
+Source entities (book IDs): columbia_aco001357
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNC_20150902_1/NNC_20150902_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 2
+

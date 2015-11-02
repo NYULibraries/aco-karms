@@ -1,0 +1,84 @@
+Records MISSING KEY 880 script fields - batch NNC_20150902
+--  At least one of the key fields is missing subfield $6,
+    so the corresponding 880 script field is missing or unlinked
+--  Key fields:
+    100, 110, 111, 130
+    240, 245, 246, 250, 260, 264
+    440, 490
+    700, 710, 711, 730
+    800, 810, 811, 830
+Report produced: 2015-11-02 16:21:56.255295
+---------------------------------------------------------------------
+FILE: NNC_20150902_1/NNC_20150902_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNC_1480024
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm23490851
+   orig_rec_035 num: =035  \\$a(OCoLC)23490851
+Record 999:  NNC_1480024
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Nicomachean ethics Arabic
+   700 - Barthélemy Saint-Hilaire, J. (Jules), 1805-1895 ed.
+ERROR-880: Unlinked 880s: YES
+   880 $6 500-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
+   880 $6 700-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: [none]
+Source entities (book IDs): columbia_aco001245:v.1, columbia_aco001246:v.2
+---------------------------------------------------------------------
+Institution ID: NNC_642628
+   orig_rec_035 num: =035  \\$a(OCoLC)214292130
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn214292130
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B28357
+   orig_rec_035 num: =035  \\$9ACU9440CU
+   orig_rec_035 num: =035  \\$a(NNC)642628
+Record 999:  NNC_642628
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   700 - Qalamāwī, Suhayr. Muḥādarāt ʻan al-naqd al-adabī.
+040 $e field: [none]
+Source entities (book IDs): columbia_aco001355
+---------------------------------------------------------------------
+Institution ID: NNC_661188
+   orig_rec_035 num: =035  \\$a(OCoLC)17382107
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm17382107
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B47255
+   orig_rec_035 num: =035  \\$9ACW9109CU
+   orig_rec_035 num: =035  \\$a(NNC)661188
+Record 999:  NNC_661188
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Bulghah fī al-ḥikmah
+040 $e field: [none]
+Source entities (book IDs): columbia_aco001260
+---------------------------------------------------------------------
+Institution ID: NNC_898229
+   orig_rec_035 num: =035  \\$a(OCoLC)21685190
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm21685190
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG91-B4763
+   orig_rec_035 num: =035  \\$9AEX4874CU
+   orig_rec_035 num: =035  \\$a(NNC)898229
+Record 999:  NNC_898229
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Book of al-Dakhira
+040 $e field: [none]
+Source entities (book IDs): columbia_aco001273
+---------------------------------------------------------------------
+Institution ID: NNC_9629299
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn793201944
+   orig_rec_035 num: =035  \\$a(OCoLC)793201944
+   orig_rec_035 num: =035  \\$a(NNC)9629299
+Record 999:  NNC_9629299
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - Ḥaddād, Niqūlā.
+   246 - Ethics
+   260 - Baghdād : al-Maktabah al-ʻAṣrīyah, [1928]
+040 $e field: [none]
+Source entities (book IDs): columbia_aco001238
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNC_20150902_1/NNC_20150902_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records missing key 880 script fields: 5
+
