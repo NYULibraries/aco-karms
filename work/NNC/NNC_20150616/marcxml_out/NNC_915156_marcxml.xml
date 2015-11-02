@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01836nam a2200385   4500
+		02468nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		915156
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		150923s1946    sy      ob    000 0carard
+		151102s1946    sy      ob    000 0carard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -49,6 +49,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Bayhaqī, ʻAlī ibn Zayd,
 		</subfield>
@@ -57,6 +60,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Tārīkh ḥukamāʼ al-Islām /
 		</subfield>
@@ -65,11 +71,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Dimashq :
 		</subfield>
 		<subfield code="b">
-			Matbaʻat al-Taraqqi,
+			Maṭbaʻat al-Taraqqī,
 		</subfield>
 		<subfield code="c">
 			1946.
@@ -105,6 +114,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq
 		</subfield>
@@ -167,6 +179,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Kurd ʻAlī, Muḥammad,
 		</subfield>
@@ -201,13 +216,16 @@
 			(NNC)915156
 		</subfield>
 		<subfield code="w">
-			(DLC)  74235238 
+			(DLC)   74235238 
 		</subfield>
 		<subfield code="w">
 			(OCoLC)506719114
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq.
 		</subfield>
@@ -215,6 +233,69 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/2v6wwshv
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			بيهقي، علي بن زيد،
+		</subfield>
+		<subfield code="d">
+			1105 or 1106-1169 or 1170.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			تاريخ حكماء الاسلام /
+		</subfield>
+		<subfield code="c">
+			تأليف ظهير الدين البيهقي ؛ عني بنشره وتحقيقه محمد كرد علي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			دمشق :
+		</subfield>
+		<subfield code="b">
+			مطبعة الترقي،
+		</subfield>
+		<subfield code="c">
+			1946.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-04/r
+		</subfield>
+		<subfield code="a">
+			مطبوعات المجمع العلمي العربي بدمشق
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/r
+		</subfield>
+		<subfield code="a">
+			كرد علي، محمد،
+		</subfield>
+		<subfield code="d">
+			1876-1953.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-06/r
+		</subfield>
+		<subfield code="a">
+			مطبوعات المجمع العلمي العربي بدمشق.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

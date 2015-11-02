@@ -1,0 +1,22 @@
+Records containing SERIES errors - batch NNC_20150616
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2015-09-23 07:53:20.051774
+---------------------------------------------------------------------
+FILE: NNC_20150616_3/NNC_20150616_3_updates.mrc
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm42804430 
+   oclc_rec_035_num: (OCoLC)42804430
+Institution ID: NNC_2871248
+Record 999:  NNC_2871248 (OCoLC)ocm42804430 columbia_aco001199
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Fī riyāḍ al-Andalus, 1
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): columbia_aco001199
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 1
+

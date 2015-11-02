@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01794nam a2200337   4500
+		02497nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		2760801
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		150923s1924    le      o     000 0 ara d
+		151102s1924    le      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ibn ʻAqīl, Muḥammad,
 		</subfield>
@@ -49,11 +52,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Faṣl al-ḥākim fī al-Nizāʻ wa-al-takhāṣum fī-mā bayna Banī Umayyah wa-Banī Hāshim
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Kitāb Faṣl al-ḥākim fī al-nizāʻ wa-al-takhāsum fīmā bayna Banī Umayyah wa-Banī Hāshim /
 		</subfield>
@@ -62,6 +71,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Ṣaydā :
 		</subfield>
@@ -124,14 +136,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Maqrīzī, Aḥmad ibn ʻAlī,
 		</subfield>
 		<subfield code="d">
-			1364-1442.
+			 1364-1442.
 		</subfield>
 		<subfield code="t">
-			Nizāʻ wa-al-takhāṣum fī-mā bayna Banī Umayyah wa-Banī Hāshim.
+			Nizāʻ wa-al-takhāṣum fī-mā bayna Banī Umayyah wa-Banī Hāshim. 
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="600">
@@ -177,6 +192,64 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/k0p2nk26
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ابن عقيل، محمد،
+		</subfield>
+		<subfield code="d">
+			1862 or 1863-1931 or 1932.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02/r
+		</subfield>
+		<subfield code="a">
+			فصل الحاكم في النزاع والتخاصم فيما بين بني امية وبني هاشم
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-03/r
+		</subfield>
+		<subfield code="a">
+			كتاب فصل الحاكم في النزاع والتخاصم فيما بين بني امية وبني هاشم /
+		</subfield>
+		<subfield code="c">
+			جمع محمد ايبن عقيل بن عبد الله بن يحيا.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			صيدا :
+		</subfield>
+		<subfield code="b">
+			مطبعة العرفان،
+		</subfield>
+		<subfield code="c">
+			1343 [1924]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-05/r
+		</subfield>
+		<subfield code="a">
+			مقريزي، احمد بن علي،
+		</subfield>
+		<subfield code="d">
+			1364-1442.
+		</subfield>
+		<subfield code="t">
+			نزاع والتخاصم فيما بين بني امية وبني هاشم. 
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02182nam a2200409   4500
+		02813nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		647628
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		150923q19191920ua      o     000 0 araod
+		151102q19191920ua      o     000 0 araod
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Qadrī, Muḥammad,
 		</subfield>
@@ -41,27 +44,39 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Kitāb murshid al-ḥayrān ilá maʻrifat aḥwāl al-insān :
 		</subfield>
 		<subfield code="b">
-			fī al-muʻāmalāt al-sharʻīyah ʻalá madhhab al-Imām al-aʻẓam Abī Ḥanīfah al-Nuʻmān mulāʼiman li-ʻirf al-diyār al-Miṣrīyah wa-sāʼir al-imām al-Islāmīyah /
+			fī al-muʻāmalāt al-sharʻīyah ʻalá madhhab al-Imām al-aʻẓam Abī Ḥanīfah al-Nuʻmān mulāʼiman li-ʻirf al-diyār al-Miṣrīyah wa-sāʼir al-umam al-Islāmīyah /
 		</subfield>
 		<subfield code="c">
 			li-Muḥammad Qadrī Bāshā.
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Murshid al-ḥayrān
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			[al-Qāhirah] :
 		</subfield>
@@ -240,6 +255,61 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/pc866wpb
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			قدري، محمد،
+		</subfield>
+		<subfield code="d">
+			-1889.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			كتاب مرشد الحيران الى معرفة احوال الانسان :
+		</subfield>
+		<subfield code="b">
+			في المعاملات الشرعية على مذهب الامام الاعظم ابي حنيفة النعمان ملائماً لعرف الديار المصرية وسائر الامم الاسلامية /
+		</subfield>
+		<subfield code="c">
+			لمحمد قدري باشا.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2="0" tag="880">
+		<subfield code="6">
+			246-03/r
+		</subfield>
+		<subfield code="a">
+			مرشد الحيران
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-04/r
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-05/r
+		</subfield>
+		<subfield code="a">
+			[القاهرة] :
+		</subfield>
+		<subfield code="b">
+			المكتبة المصرية،
+		</subfield>
+		<subfield code="c">
+			1338 [1919 or 1920]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
