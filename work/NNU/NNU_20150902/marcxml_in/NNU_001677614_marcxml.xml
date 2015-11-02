@@ -1,46 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     cam a22002411  4500</leader>
+<leader>00000cam a22      i 4500</leader>
 <controlfield tag="001">001677614</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20001218200847.0</controlfield>
+<controlfield tag="005">20151012175614.0</controlfield>
 <controlfield tag="008">870219s1967    iq       b    000 0 ararc</controlfield>
 <datafield tag="010" ind1=" " ind2=" ">
 <subfield code="a">ne 67001504</subfield>
 </datafield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12220997</subfield>
-</datafield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)MIUG87-B12084</subfield>
+<subfield code="a">(OCoLC)23523141</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">Princeton Univ. Libr.</subfield>
-<subfield code="c">MiU</subfield>
-<subfield code="d">MiU</subfield>
+<subfield code="a">EYM</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">EYM</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCO</subfield>
+</datafield>
+<datafield tag="050" ind1=" " ind2="4">
+<subfield code="a">D465</subfield>
+<subfield code="b">.B15 1967</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Baḥrī, Luʼay.</subfield>
+<subfield code="6">880-01</subfield>
+<subfield code="a">Baḥrī, Luʼay.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
-<subfield code="a">Sikkat ḥadīd Baghdād:</subfield>
-<subfield code="b">dirāsah fī taṭawwur wa-diblūmāsīyat qaḍīyat Sikkat ḥadīd Birlīn-Baghdād ḥattáʻāmm 1914</subfield>
-<subfield code="c">[taʼlīf] Luʼay Baḥrī.</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">Sikkat ḥadīd Baghdād:</subfield>
+<subfield code="b">dirāsah fī taṭawwur wa-diblūmāsīyat qaḍīyat Sikkat ḥadīd Birlīn-Baghdād ḥattáʻāmm 1914</subfield>
+<subfield code="c">[taʼlīf] Luʼay Baḥrī.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">Baghdād,</subfield>
-<subfield code="b">Sharikat al-Ṭabʻ wa-al-Nashr al-Ahlīyah,</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">Baghdād :</subfield>
+<subfield code="b">Sharikat al-Ṭabʻ wa-al-Nashr al-Ahlīyah,</subfield>
 <subfield code="c">1967.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">180 p.</subfield>
-<subfield code="c">25 cm.</subfield>
+<subfield code="a">180 pages ;</subfield>
+<subfield code="c">25 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="500" ind1=" " ind2=" ">
 <subfield code="a">Added t.p.: Die Bagdad-Bahn. A study in the development and diplomacy of the Baghdad railway question, by Louay Bahry.</subfield>
 </datafield>
 <datafield tag="504" ind1=" " ind2=" ">
-<subfield code="a">Bibliography: p. 175-180.</subfield>
+<subfield code="a">Includes bibliographical references (pages 175-180).</subfield>
 </datafield>
 <datafield tag="610" ind1="2" ind2="0">
 <subfield code="a">Baghdad Railway.</subfield>
@@ -48,21 +71,48 @@
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Eastern question.</subfield>
 </datafield>
+<datafield tag="610" ind1="2" ind2="7">
+<subfield code="a">Baghdad Railway.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst00629683</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Eastern question.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst00901178</subfield>
+</datafield>
+<datafield tag="776" ind1="0" ind2="8">
+<subfield code="i">Online version:</subfield>
+<subfield code="a">Baḥrī, Luʼay.</subfield>
+<subfield code="t">Sikkat ḥadīd Baghdād.</subfield>
+<subfield code="d">Baghdād, Sharikat al-Ṭabʻ wa-al-Nashr al-Ahlīyah, 1967</subfield>
+<subfield code="w">(OCoLC)565090483</subfield>
+</datafield>
+<datafield tag="776" ind1="0" ind2="8">
+<subfield code="i">Online version:</subfield>
+<subfield code="a">Baḥrī, Luʼay.</subfield>
+<subfield code="t">Sikkat ḥadīd Baghdād.</subfield>
+<subfield code="d">Baghdād, Sharikat al-Ṭabʻ wa-al-Nashr al-Ahlīyah, 1967</subfield>
+<subfield code="w">(OCoLC)609527647</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">بحري، لوءي.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">245-02/</subfield>
+<subfield code="a">سكة حديد بغداد :</subfield>
+<subfield code="b">دراسة في تطور و دبلوماسية قضية سلة حديد برلين بغداد حتى عام 1914 /</subfield>
+<subfield code="c">[تٱليف] لوءي بحري.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-03/</subfield>
+<subfield code="a">بغداد :</subfield>
+<subfield code="b">شركة الطبع و النشر الاهلية،</subfield>
+<subfield code="c">1967.</subfield>
+</datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">D465</subfield>
-<subfield code="b">.B3</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1</subfield>
-<subfield code="r">012735661</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="s">9124</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
