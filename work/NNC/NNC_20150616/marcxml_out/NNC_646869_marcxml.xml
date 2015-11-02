@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02796nam a2200529   4500
+		02939nam a2200553   4500
 	</leader>
 	<controlfield tag="001">
 		646869
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		150923s1947    ua chf  o     010 0bara d
+		151102s1947    ua chf  o     010 0bara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -159,6 +159,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Ismail,
 		</subfield>
@@ -275,8 +278,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Tājir, Jāk.
+			Tājir, Jāk. 
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -336,7 +342,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-01
+			100-01/r
 		</subfield>
 		<subfield code="a">
 			جندى، جورج.
@@ -344,18 +350,18 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-02
+			245-02/r
 		</subfield>
 		<subfield code="a">
 			إسماعيل كما تصوره الوثائق الرسمية /
 		</subfield>
 		<subfield code="c">
-			ڄورج جندى، ڇاك تاجر ؛ مع مقدمه ليوسف جلاد.
+			جورج جندى، جاك تاجر ؛ مع مقدمه ليوسف جلاد.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-03
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			القاهرة :
@@ -365,6 +371,28 @@
 		</subfield>
 		<subfield code="c">
 			1947.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">
+			600-04/r
+		</subfield>
+		<subfield code="a">
+			اسماعيل،
+		</subfield>
+		<subfield code="c">
+			Khedive of Egypt,
+		</subfield>
+		<subfield code="d">
+			1830-1895.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/r
+		</subfield>
+		<subfield code="a">
+			تاجر، جاك. 
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

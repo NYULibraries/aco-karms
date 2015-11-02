@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01999nam a2200373   4500
+		02768nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		2537649
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		150923r1963uuuuiq      o     000 0 arar 
+		151102r1963uuuuiq      o     000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,30 +41,42 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			al-Ẓāhirī, Ghars al-Dīn Khalīl ibn Shāhīn,
+			Ẓāhirī, Ghars al-Dīn Khalīl ibn Shāhīn,
 		</subfield>
 		<subfield code="d">
-			1410 or 1411-1467 or 1468.
+			1410 or 11-1467 or 8.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Zoubdat kachf el-mamâlik;
+			Kitāb zubdah kashf al-mamālik wa-bayān al-ṭuruq wa-al-masālik =
 		</subfield>
 		<subfield code="b">
-			tableau politique et administratif de l'Ēgypte, de la Syrie et du Ḥidjâz sous la domination des sultans mamloûks duXIII au XV siècle,
+			Zoubdat kachf el-mamâlik : Tableau politique et administratif de l'Égypte, de la Syrie et du Ḥidjâz sous la domination des Sultans Mamloûks du xiii au xv siècle /
 		</subfield>
 		<subfield code="c">
-			par Khalîl eḍ-Ḍâhiry. Texte arabe publié par Paul Rvaisse. Paris, E. Leroux, 1894.
+			par Khalîl eḍ-Ḍâhiry ; Texte arabe publié par Paul Ravaisse . Paris, E. Leroux, 1894.
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Zubdat kashf almamālik
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			[Baghdād],
 		</subfield>
@@ -201,10 +213,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			al-Ẓāhirī, Ghars al-Dīn Khalīl ibn Shāhīn, 1410 or 1411-1467 or 1468.
+			Ẓāhirī, Ghars al-Dīn Khalīl ibn Shāhīn, 1410 or 11-1467 or 8.
 		</subfield>
 		<subfield code="t">
-			Zoubdat kachf el-mamâlik;
+			Kitāb zubdah kashf al-mamālik wa-bayān al-ṭuruq wa-al-masālik =
 		</subfield>
 		<subfield code="w">
 			(NNC)2537649
@@ -219,6 +231,56 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/9zw3r4nj
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ظاهري، غرس الدين خليل بن شاهين،
+		</subfield>
+		<subfield code="d">
+			1410 or 11-1467 or 8.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			كتاب زبدة كشف الممالك وبيان الطرق والمسالك =
+		</subfield>
+		<subfield code="b">
+			=
+		</subfield>
+		<subfield code="b">
+			Zoubdat kachf el-mamâlik : Tableau politique et administratif de l'Égypte, de la Syrie et du Ḥidjâz sous la domination des Sultans Mamloûks du xiii au xv siècle /
+		</subfield>
+		<subfield code="c">
+			par Khalîl eḍ-Ḍâhiry ; Texte arabe publié par Paul Ravaisse . Paris, E. Leroux, 1894.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-03/r
+		</subfield>
+		<subfield code="a">
+			زبدة كشف الممالك
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			[بغداد]،
+		</subfield>
+		<subfield code="b">
+			[مكتبة المثنى]،
+		</subfield>
+		<subfield code="c">
+			[1963؟]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

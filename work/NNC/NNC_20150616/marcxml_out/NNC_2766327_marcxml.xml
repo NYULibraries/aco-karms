@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02376nam a2200397   4500
+		02432nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		2766327
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		150923s1962    ir      o     000 0 ara d
+		151102s1962    ir      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -71,19 +71,22 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			al-Tabʻaḥ al-2.
+			al-Ṭabʻah al-2.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-04
+			880-05
 		</subfield>
 		<subfield code="a">
 			al-Najaf :
 		</subfield>
 		<subfield code="b">
-			al-Maṭba ah al-Ḥaydarīyah,
+			al-Maṭbaʻah al-Ḥaydarīyah,
 		</subfield>
 		<subfield code="c">
 			1962 m., 1381 h.
@@ -142,7 +145,7 @@
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
 		<subfield code="6">
-			880-05
+			880-06
 		</subfield>
 		<subfield code="a">
 			ʻAlī ibn Abī Ṭālib,
@@ -238,13 +241,21 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-04/r
+			250-04/r
+		</subfield>
+		<subfield code="a">
+			الطبعة ال2.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-05/r
 		</subfield>
 		<subfield code="a">
 			النجف :
 		</subfield>
 		<subfield code="b">
-			المطب ة الحيدرية،
+			المطبعة الحيدرية،
 		</subfield>
 		<subfield code="c">
 			1962 م.، 1381 ه.
@@ -252,7 +263,7 @@
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="880">
 		<subfield code="6">
-			600-05/r
+			600-06/r
 		</subfield>
 		<subfield code="a">
 			علي بن ابي طالب،

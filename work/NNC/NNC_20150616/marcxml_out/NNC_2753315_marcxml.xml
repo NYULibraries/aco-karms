@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		03409nam a2200553   4500
+		03425nam a2200553   4500
 	</leader>
 	<controlfield tag="001">
 		2753315
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		150923s1970    iq c    ob    000 0darar 
+		151102s1970    iq c    ob    000 0darar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -61,7 +61,7 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			Qalam wazīr,
+			Qalam wazīr :
 		</subfield>
 		<subfield code="b">
 			tārīkh mā ahmalahu al-tārīkh min ḥawādith al-masʼalah al-ʻArabīyah fī al-Ḥijāz wa-Sūrīyah wa-al-ʻIrāq
@@ -271,7 +271,7 @@
 			(NNC)2753315
 		</subfield>
 		<subfield code="w">
-			(DLC)  74962258 
+			(DLC)   74962258 
 		</subfield>
 		<subfield code="w">
 			(OCoLC)22774034
@@ -294,6 +294,14 @@
 			al-Kitāb 1.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="1" tag="830">
+		<subfield code="6">
+			880-08
+		</subfield>
+		<subfield code="a">
+			Āthār al-Kitāb 1
+		</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/bvq83f5r
@@ -301,10 +309,10 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-01
+			100-01/r
 		</subfield>
 		<subfield code="a">
-			شكر، ابراهيم صالح،,
+			شكر، ابراهيم صالح،
 		</subfield>
 		<subfield code="d">
 			1892-1944.
@@ -312,7 +320,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-02
+			245-02/r
 		</subfield>
 		<subfield code="a">
 			قلم وزير :
@@ -326,7 +334,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-03
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			بغداد :
@@ -340,15 +348,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			490-00
-		</subfield>
-		<subfield code="a">
-			آثار الكتاب 1
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
-			490-04
+			490-04/r
 		</subfield>
 		<subfield code="a">
 			آثار ؛
@@ -359,7 +359,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			500-05
+			500-05/r
 		</subfield>
 		<subfield code="a">
 			&quot;فصول ... نشر القسم الاول منها في مجلة الاماني ... 1931 ... ونشر القسم الثاني في جريدة الاخبار ... 1931 على التوالي.&quot;
@@ -367,7 +367,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-06
+			700-06/r
 		</subfield>
 		<subfield code="a">
 			اسماعيل، خالد محسن.
@@ -375,13 +375,13 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			800-07
+			800-07/r
 		</subfield>
 		<subfield code="a">
-			شكر، ابراهيم صالح،,
+			شكر، ابراهيم صالح،
 		</subfield>
 		<subfield code="d">
-			18921944.
+			1892-1944.
 		</subfield>
 		<subfield code="t">
 			آثار. ;
@@ -390,9 +390,9 @@
 			الكتاب 1.
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="880">
+	<datafield ind1=" " ind2="1" tag="880">
 		<subfield code="6">
-			830-00
+			830-08/r
 		</subfield>
 		<subfield code="a">
 			آثار الكتاب 1.

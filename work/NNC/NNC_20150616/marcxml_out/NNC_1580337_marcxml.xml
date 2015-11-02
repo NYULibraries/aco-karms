@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01662nam a2200337   4500
+		02101nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		1580337
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		150923m19271928ua      obd   000 0cara  
+		151102m19271928ua      obd   000 0cara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -46,6 +46,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ziriklī, Khayr al-Dīn,
 		</subfield>
@@ -54,22 +57,28 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Aʻlām :
 		</subfield>
 		<subfield code="b">
-			qāmūs tarājim al-ashʹhar al-rijāl wa-al-nisāʼ min al-ʻArab wa-al-mustashriqīn fī al-jahiliyyah wa-al-islam wa-al-ʻaṣr wa-al-Lāḍir /
+			qāmūs tarājim al-ashʹhar al-rijāl wa-al-nisāʼ min al-ʻArab wa-al-mustashriqīn fī al-jāhiliyyah wa-al-islām wa-al-ʻaṣr al-ḥāḍir /
 		</subfield>
 		<subfield code="c">
 			tāʼlīf Khayr al-Dīn al-Ziriklī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Miṣr :
 		</subfield>
 		<subfield code="b">
-			al-Ṭabʻah al-ʻarabiyya,
+			al-Maṭbʻah al-ʻarabiyyah,
 		</subfield>
 		<subfield code="c">
 			1927-1928.
@@ -180,6 +189,45 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/2547dbdt
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			زركلي، خير الدين،
+		</subfield>
+		<subfield code="d">
+			1893-1976.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الاعلام :
+		</subfield>
+		<subfield code="b">
+			قاموس تراجم لأشهر الرجال والنساء من العرب والمستشرقين في الجاهلية والاسلام والعصر والحاضر /
+		</subfield>
+		<subfield code="c">
+			تأليف خير الدين الزركلي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			المطبعة العربية،
+		</subfield>
+		<subfield code="c">
+			1927-1928.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

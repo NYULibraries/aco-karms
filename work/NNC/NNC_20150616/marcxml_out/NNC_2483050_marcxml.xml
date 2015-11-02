@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02175nam a2200433   4500
+		02250nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		2483050
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		150923s1955    sy ch   ob    000 0 ara d
+		151102s1955    sy ch   ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -60,8 +60,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Dimashq,
+			Dimashq :
+		</subfield>
+		<subfield code="b">
+			[al-Majmaʻ al-ʻIlamī al-ʻArabī bi-Dimashq],
 		</subfield>
 		<subfield code="c">
 			1955.
@@ -101,7 +107,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="6">
-			880-03
+			880-04
 		</subfield>
 		<subfield code="a">
 			Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq
@@ -136,7 +142,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
 		<subfield code="6">
-			880-04
+			880-05
 		</subfield>
 		<subfield code="a">
 			Kurd ʻAlī, Muḥammad,
@@ -208,7 +214,7 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
 		<subfield code="6">
-			880-05
+			880-06
 		</subfield>
 		<subfield code="a">
 			Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq.
@@ -221,7 +227,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-01
+			100-01/r
 		</subfield>
 		<subfield code="a">
 			دهان، سامي.
@@ -229,7 +235,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-02
+			245-02/r
 		</subfield>
 		<subfield code="a">
 			محمد كرد علي :
@@ -243,13 +249,13 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			دمشق :
 		</subfield>
 		<subfield code="b">
-			المجمع العلمي العربي بدمشق،
+			[المجمع العلمي العربي بدمشق]،
 		</subfield>
 		<subfield code="c">
 			1955.
@@ -257,7 +263,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			490-03
+			490-04/r
 		</subfield>
 		<subfield code="a">
 			مطبوعات المجمع العلمي العربي بدمشق
@@ -265,7 +271,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="4" tag="880">
 		<subfield code="6">
-			600-04
+			600-05/r
 		</subfield>
 		<subfield code="a">
 			كرد علي، محمد،,
@@ -276,7 +282,7 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
 		<subfield code="6">
-			830-05
+			830-06/r
 		</subfield>
 		<subfield code="a">
 			مطبوعات المجمع العلمي العربي بدمشق.

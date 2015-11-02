@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01730nam a2200361   4500
+		02314nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		310168
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		150923q19761977ir      ob    000 0 ara d
+		151102q19761977ir      ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,14 +41,20 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Mītham ibn ʻAlī ibn Mītham al-Baḥrānī,
+			Baḥrānī, Maytham ibn ʻAlī,
 		</subfield>
 		<subfield code="d">
-			-1280.
+			-1280?
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Qawāʻid al-marām fī ʻilm al-kalām /
 		</subfield>
@@ -57,11 +63,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Qum :
 		</subfield>
@@ -102,6 +114,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Min makhṭūṭāt Maktabat Āyat Allāh al-Marʻashī al-ʻĀmmah ;
 		</subfield>
@@ -176,7 +191,7 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Mītham ibn ʻAlī ibn Mītham al-Baḥrānī, -1280.
+			Baḥrānī, Maytham ibn ʻAlī, -1280?
 		</subfield>
 		<subfield code="t">
 			Qawāʻid al-marām fī ʻilm al-kalām
@@ -189,6 +204,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Min makhṭūṭāt Maktabat Āyat Allāh al-Marʻashī al-ʻĀmmah ;
 		</subfield>
@@ -199,6 +217,72 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/c866t42t
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			بحراني، ميثم بن علي،
+		</subfield>
+		<subfield code="d">
+			-1280؟
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			قواعد المرام في علم الكلام /
+		</subfield>
+		<subfield code="c">
+			تصنيف كمال الدين ميثم بن علي بن ميثم البحراني.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/r
+		</subfield>
+		<subfield code="a">
+			الطبعة 1. 
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			قم :
+		</subfield>
+		<subfield code="b">
+			مطبعة مهر،
+		</subfield>
+		<subfield code="c">
+			1397 [1976 or 1977]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-05/r
+		</subfield>
+		<subfield code="a">
+			من مخطوطات مكتبة آية الله المرعشي العامة ؛
+		</subfield>
+		<subfield code="v">
+			3
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-06/r
+		</subfield>
+		<subfield code="a">
+			من مخطوطات مكتبة آية الله المرعشي العامة ؛
+		</subfield>
+		<subfield code="v">
+			3.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

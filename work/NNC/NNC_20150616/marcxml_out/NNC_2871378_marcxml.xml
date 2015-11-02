@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01811nam a2200373   4500
+		02616nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		2871378
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		150923s1900    ua      o     000 0 arard
+		151102s1900    ua      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Tirmidhī, Muḥammad ibn ʻĪsá,
 		</subfield>
@@ -49,6 +52,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Shamāʼil.
 		</subfield>
@@ -57,19 +63,28 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Hādhā Mukhtaṣar Kitāb al-Shamāʼil al-Muḥammadīyah /
+			Hadhā Mukhtaṣar Kitāb al-Shamāʼil al-Muḥammadīyah /
 		</subfield>
 		<subfield code="c">
-			lil- Tirmidhī. Wa-bi-hāmishihi al-ʻIṭr al-shadhī li-muʼallifihimā ʻAbd al- Majīd al-Sharnūbī.
+			lil-Tirmidhī. Wa-bi-hāmishihi al-ʻIṭr al-shadhī li-muʼallifihimā ʻAbd al- Majīd al-Sharnūbī.
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="246">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Mukhtaṣar Kitāb al-Shamāʼil al-Muḥammadīyah
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			[Cairo] :
 		</subfield>
@@ -132,6 +147,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Muḥammad,
 		</subfield>
@@ -156,22 +174,28 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-07
+		</subfield>
 		<subfield code="a">
 			Tirmidhī, Muḥammad ibn ʻĪsá,
 		</subfield>
 		<subfield code="d">
-			-892.
+			 -892.
 		</subfield>
 		<subfield code="t">
-			Mukhtaṣar al- Shamāʼil.
+			Mukhtaṣar al- Shamāʼil. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-08
+		</subfield>
 		<subfield code="a">
 			Sharnūbī, ʻAbd al-Majīd.
 		</subfield>
 		<subfield code="t">
-			ʻIṭr al-shadhī.
+			ʻIṭr al-shadhī. 
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -195,7 +219,7 @@
 			Tirmidhī, Muḥammad ibn ʻĪsá, -892.
 		</subfield>
 		<subfield code="t">
-			Hādhā Mukhtaṣar Kitāb al-Shamāʼil al-Muḥammadīyah
+			Hadhā Mukhtaṣar Kitāb al-Shamāʼil al-Muḥammadīyah
 		</subfield>
 		<subfield code="w">
 			(NNC)2871378
@@ -207,6 +231,100 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/3xsj3xfs
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ترمذي، محمد بن عيسى،
+		</subfield>
+		<subfield code="d">
+			-892.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02/r
+		</subfield>
+		<subfield code="a">
+			شمائل.
+		</subfield>
+		<subfield code="k">
+			Selections
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-03/r
+		</subfield>
+		<subfield code="a">
+			هذا مختصر كتاب الشمائل المحمدية /
+		</subfield>
+		<subfield code="c">
+			للترمذي. وبهامشه العطر الشذي لمؤلفهما عبد المجيد الشرنوبي.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2="0" tag="880">
+		<subfield code="6">
+			246-04/r
+		</subfield>
+		<subfield code="a">
+			مختصر كتاب الشمائل المحمدية
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-05/r
+		</subfield>
+		<subfield code="a">
+			[القاهرة] :
+		</subfield>
+		<subfield code="b">
+			مطبعة بولاق الاميرية،
+		</subfield>
+		<subfield code="c">
+			1318 [1900 or 1901]
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">
+			600-06/r
+		</subfield>
+		<subfield code="a">
+			محمد،
+		</subfield>
+		<subfield code="c">
+			Prophet,
+		</subfield>
+		<subfield code="d">
+			-632.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-07/r
+		</subfield>
+		<subfield code="a">
+			ترمذي، محمد بن عيسى،
+		</subfield>
+		<subfield code="d">
+			-892.
+		</subfield>
+		<subfield code="t">
+			مختصر ال شمائل. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-08/r
+		</subfield>
+		<subfield code="a">
+			شرنوبي، عبد المجيد.
+		</subfield>
+		<subfield code="t">
+			عاطر الشذي. 
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

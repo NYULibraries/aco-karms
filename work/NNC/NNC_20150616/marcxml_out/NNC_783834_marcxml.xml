@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02302nam a2200445   4500
+		02467nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		783834
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		150923s1983    ir fh   ob    000 0 araod
+		151102s1983    ir fh   ob    000 0 araod
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -117,6 +117,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Majmūʻah-ʼi mīrās̲-i Īrān va Islām
 		</subfield>
@@ -176,10 +179,10 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-04
+			880-05
 		</subfield>
 		<subfield code="a">
-			Muḥaqqiq, Mahdī. 
+			Muḥaqqiq, Mahdī.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -210,6 +213,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Majmūʻah-ʼi mīrās̲-i Īrān va Islām.
 		</subfield>
@@ -260,10 +266,26 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-04/r
+			490-04/r
 		</subfield>
 		<subfield code="a">
-			محقق، مهدى. 
+			مجموعه ميراث ايران و اسلام
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/r
+		</subfield>
+		<subfield code="a">
+			محقق، مهدى.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-06/r
+		</subfield>
+		<subfield code="a">
+			مجموعه ميراث ايران و اسلام.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

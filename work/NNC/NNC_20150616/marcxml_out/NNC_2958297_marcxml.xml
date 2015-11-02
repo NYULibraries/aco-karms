@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02909nam a2200481   4500
+		03049nam a2200505   4500
 	</leader>
 	<controlfield tag="001">
 		2958297
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		150923s1974    ir      ob    000 0 arax 
+		151102s1974    ir      ob    000 0 arax 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -198,11 +198,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Qumshahʼī, Muḥammad Riz̤ā.
+			Qumshahʹī, Muḥammad Riz̤ā. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Āshtiyānī, Jalāl al-Dīn.
 		</subfield>
@@ -242,7 +248,7 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
 		<subfield code="6">
-			880-05
+			880-07
 		</subfield>
 		<subfield code="a">
 			Intishārāt-i Anjuman-i Islāmī-i Ḥikmat va Falsafah-ʼi Īrān ;
@@ -303,9 +309,25 @@
 			شماره' 56
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/r
+		</subfield>
+		<subfield code="a">
+			قمشه لي، محمد رضا.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-06/r
+		</subfield>
+		<subfield code="a">
+			آشتىانى، جلال الدىن.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
 		<subfield code="6">
-			830-05/r
+			830-07/r
 		</subfield>
 		<subfield code="a">
 			انتشارات انجمن اسلامى حکمت و فلسفۀ ايران ؛
