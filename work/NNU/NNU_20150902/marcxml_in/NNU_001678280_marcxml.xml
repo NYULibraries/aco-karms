@@ -1,41 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     cam a2200253 a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001678280</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20001218204108.0</controlfield>
+<controlfield tag="005">20151014173050.0</controlfield>
 <controlfield tag="008">870507s1962    sy            000 0 araod</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12221665</subfield>
-</datafield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)MIUG87-B34522</subfield>
+<subfield code="a">(OCoLC)23486284</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">MiU</subfield>
-<subfield code="c">MiU</subfield>
+<subfield code="a">EYM</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">EYM</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCG</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCA</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">ZCU</subfield>
+<subfield code="d">NNU</subfield>
 </datafield>
 <datafield tag="043" ind1=" " ind2=" ">
-<subfield code="a">a-Sy---</subfield>
+<subfield code="a">a-sy---</subfield>
+</datafield>
+<datafield tag="050" ind1=" " ind2="4">
+<subfield code="a">DS98.5</subfield>
+<subfield code="b">.M38 1962</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Maḥāsinī, Sulaymān ibn Aḥmad.</subfield>
+<subfield code="6">880-01</subfield>
+<subfield code="a">Maḥāsinī, Sulaymān ibn Aḥmad.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
-<subfield code="a">Ḥulūl al-taʻab wa-al-ālām bi-wuṣūl Abī al-Dhahab ila ́Dimashq al-Sham /</subfield>
-<subfield code="c">taʼlīf Sulaymān ibn Aḥmad al-Maḥāsinī ;taḥqīq Ṣalāḥal-Dīn al-Munajjid.</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">Ḥulūl al-taʻab wa-al-ālām bi-wuṣūl Abī al-Dhahab ila ́Dimashq al-Sham /</subfield>
+<subfield code="c">taʼlīf Sulaymān ibn Aḥmad al-Maḥāsinī ; taḥqīq Ṣalāḥal-Dīn al-Munajjid.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">[Damascus?] :</subfield>
-<subfield code="b">Manshūrāt Dār al-Kitāb al-Jadīd,</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">[Bayrūt] :</subfield>
+<subfield code="b">Manshūrāt Dār al-Kitāb al-Jadīd,</subfield>
 <subfield code="c">1962.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">35 p. ;</subfield>
+<subfield code="a">35 pages ;</subfield>
 <subfield code="c">20 cm.</subfield>
 </datafield>
-<datafield tag="490" ind1="0" ind2=" ">
-<subfield code="a">Silsilat al-nuṣūṣ al-qadīmah ;</subfield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
+</datafield>
+<datafield tag="490" ind1="1" ind2=" ">
+<subfield code="a">Silsilat al-nuṣūṣ al-qadīmah ;</subfield>
 <subfield code="v">2</subfield>
 </datafield>
 <datafield tag="651" ind1=" " ind2="0">
@@ -43,33 +72,59 @@
 <subfield code="x">History</subfield>
 <subfield code="y">1516-1918.</subfield>
 </datafield>
-<datafield tag="700" ind1="1" ind2=" ">
-<subfield code="a">Abu al-Dhahab, Muhammad Bey,</subfield>
-<subfield code="d">d. 1775.</subfield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Syria.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01208757.</subfield>
+</datafield>
+<datafield tag="648" ind1=" " ind2="7">
+<subfield code="a">1516 - 1918</subfield>
+<subfield code="2">fast.</subfield>
+</datafield>
+<datafield tag="655" ind1=" " ind2="7">
+<subfield code="a">History.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01411628.</subfield>
 </datafield>
 <datafield tag="700" ind1="1" ind2=" ">
-<subfield code="a">Munajjid, Ṣalāḥ al-Dīn.</subfield>
+<subfield code="6">880-04</subfield>
+<subfield code="a">Abu al-Dhahab, Muhammad Bey,</subfield>
+<subfield code="d">-1775.</subfield>
+</datafield>
+<datafield tag="700" ind1="1" ind2=" ">
+<subfield code="6">880-05</subfield>
+<subfield code="a">Munajjid, Ṣalāḥ al-Dīn.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">محاسني، سليمان بن أحمد.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">245-02/</subfield>
+<subfield code="a">حلول التعب والآلام بوصول أبي الذهب إلى دمشق الشام /</subfield>
+<subfield code="c">تأليف سليمان بن أحمد المحاسني ؛ تحقيق صلاح الدين المنجد.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-03/</subfield>
+<subfield code="a">[بيروت] :</subfield>
+<subfield code="b">منشورات دار الكتاب الجديد،</subfield>
+<subfield code="c">١٩٦٢.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">700-04/</subfield>
+<subfield code="a">ابو الذهب، محمد بي،</subfield>
+<subfield code="d">1775.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">700-05/</subfield>
+<subfield code="a">منجد، صلاح الدين.</subfield>
+</datafield>
+<datafield tag="830" ind1=" " ind2="0">
+<subfield code="a">Silsilat al-nuṣūṣ al-qadīmah ;</subfield>
+<subfield code="v">2.</subfield>
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">DS99.D3</subfield>
-<subfield code="b">M3 1962</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1</subfield>
-<subfield code="r">028246737</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">2</subfield>
-<subfield code="r">004447481</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="s">9114</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>

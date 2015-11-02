@@ -1,59 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200193 a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001678514</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20001218205336.0</controlfield>
-<controlfield tag="008">920116s1959    sy a          000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12221902</subfield>
-</datafield>
+<controlfield tag="005">20151014175331.0</controlfield>
+<controlfield tag="008">040315s1959    sy b     b    000 0 ara d</controlfield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NJPG92-B2930</subfield>
+<subfield code="a">(OCoLC)123312187</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">NjP</subfield>
-<subfield code="c">NjP</subfield>
+<subfield code="a">CSt</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">STF</subfield>
+<subfield code="d">YUS</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">OCL</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">NNU</subfield>
+</datafield>
+<datafield tag="043" ind1=" " ind2=" ">
+<subfield code="a">a-is---</subfield>
+<subfield code="a">ma-----</subfield>
+</datafield>
+<datafield tag="050" ind1=" " ind2="4">
+<subfield code="a">DS119.76</subfield>
+<subfield code="b">D3 1959</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Darwazah, Muḥammad ʻIzzat,</subfield>
+<subfield code="6">880-01</subfield>
+<subfield code="a">Darwazah, Muḥammad ʻIzzat,</subfield>
 <subfield code="d">1889-</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
-<subfield code="a">Maʼsāt Filasṭīn :</subfield>
-<subfield code="b">ʻarḍ mūjaz li-qaḍīyat Filasṭīn wa-tārīkhihā wa-taṭawwurihā wa-ḥāḍir Filasṭīn wa-mustaqbalihā /</subfield>
-<subfield code="c">bi-qalam Muḥammad ʻIzzat Darwazah.</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">Maʼsāt Filasṭīn :</subfield>
+<subfield code="b">ʻarḍ mūjaz li-qaḍīyat Filasṭīn wa-tārīkhihā wa-taṭawwurihā wa-ḥāḍir Filasṭīn wa-mustaqbalihā /</subfield>
+<subfield code="c">bi-qalam Muḥammad ʻIzzat Darwazah.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
+<subfield code="6">880-03</subfield>
 <subfield code="a">[Damascus] :</subfield>
-<subfield code="b">Dār al-Yaqẓah,</subfield>
+<subfield code="b">Dār al-Yaqẓah,</subfield>
 <subfield code="c">1959.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">132 p. :</subfield>
+<subfield code="a">132 pages :</subfield>
 <subfield code="b">maps ;</subfield>
-<subfield code="c">20 cm.</subfield>
+<subfield code="c">20 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
+</datafield>
+<datafield tag="504" ind1=" " ind2=" ">
+<subfield code="a">Includes bibliographical references.</subfield>
 </datafield>
 <datafield tag="651" ind1=" " ind2="0">
 <subfield code="a">Palestine</subfield>
 <subfield code="x">History</subfield>
 <subfield code="y">1917-1948.</subfield>
 </datafield>
+<datafield tag="650" ind1=" " ind2="0">
+<subfield code="a">Arab-Israeli conflict</subfield>
+<subfield code="y">1948-1967.</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="0">
+<subfield code="a">Jewish-Arab relations</subfield>
+<subfield code="x">History.</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="0">
+<subfield code="a">United States</subfield>
+<subfield code="x">Foreign relations</subfield>
+<subfield code="z">Middle East.</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="0">
+<subfield code="a">Middle East</subfield>
+<subfield code="x">Foreign relations</subfield>
+<subfield code="z">United States.</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="0">
+<subfield code="a">Great Britain</subfield>
+<subfield code="x">Foreign relations</subfield>
+<subfield code="z">Middle East.</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="0">
+<subfield code="a">Middle East</subfield>
+<subfield code="x">Foreign relations</subfield>
+<subfield code="z">Great Britain.</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Arab-Israeli conflict.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst00812220.</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Diplomatic relations.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01907412.</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Jewish-Arab relations.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst00983106.</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Great Britain.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01204623.</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Middle East.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01241586.</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Middle East</subfield>
+<subfield code="z">Palestine.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01207534.</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">United States.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01204155.</subfield>
+</datafield>
+<datafield tag="648" ind1=" " ind2="7">
+<subfield code="a">1917 - 1967</subfield>
+<subfield code="2">fast.</subfield>
+</datafield>
+<datafield tag="655" ind1=" " ind2="7">
+<subfield code="a">History.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01411628.</subfield>
+</datafield>
+<datafield tag="776" ind1="0" ind2="8">
+<subfield code="i">Online version:</subfield>
+<subfield code="a">Darwazah, Muḥammad ʻIzzat, 1889-</subfield>
+<subfield code="t">Maʼsāt Filasṭīn.</subfield>
+<subfield code="d">[Damascus] : Dār al-Yaqẓah, 1959</subfield>
+<subfield code="w">(OCoLC)654289831</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">دروزة، محمد عزة،</subfield>
+<subfield code="d">1889-</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">245-02/</subfield>
+<subfield code="a">مأساة فلسطين :</subfield>
+<subfield code="b">عرض موجز لقضية فلسطين وتاريخها وتطورها وحاضر فلسطين ومستقبلها /</subfield>
+<subfield code="c">بقلم محمد عزة دروزة.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-03/</subfield>
+<subfield code="a">[دمشق] :</subfield>
+<subfield code="b">دار اليقظة،</subfield>
+<subfield code="c">1959.</subfield>
+</datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">DS126</subfield>
-<subfield code="b">.D3</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1</subfield>
-<subfield code="r">028225046</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="s">9124</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>

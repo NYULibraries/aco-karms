@@ -1,82 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     cam a2200241 a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001823647</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">19940713181853.0</controlfield>
-<controlfield tag="008">890914q19401949sy a          000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb10758240</subfield>
-</datafield>
+<controlfield tag="005">20151019174242.0</controlfield>
+<controlfield tag="008">890914s194u    sy a          000 0 ara d</controlfield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG89-B35333</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">GLIS007582400</subfield>
+<subfield code="a">(OCoLC)80966804</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
 <subfield code="a">NNU</subfield>
-<subfield code="c">NNU</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">ZYU</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">NNU</subfield>
 </datafield>
 <datafield tag="043" ind1=" " ind2=" ">
 <subfield code="a">a-sy---</subfield>
 </datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="i">11/22/89 CT</subfield>
+<datafield tag="050" ind1=" " ind2="4">
+<subfield code="a">DS98.3.A43</subfield>
+<subfield code="b">Y86 1940z</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Yūnus, ʻAbd al-Laṭīf.</subfield>
+<subfield code="6">880-01</subfield>
+<subfield code="a">Yūnus, ʻAbd al-Laṭīf.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
-<subfield code="a">Tārīkh al-thawrah al-ʻAlawīyah :</subfield>
-<subfield code="b">wa-qāʼiduhā al-Shaykh Ṣāliḥ al-ʻAlī /</subfield>
-<subfield code="c">bi-qalam ʻAbd al-Laṭīf Yūnus.</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">Tārīkh al-thawrah al-ʻAlawīyah :</subfield>
+<subfield code="b">wa-qāʼiduhā al-Shaykh Ṣāliḥ al-ʻAlī /</subfield>
+<subfield code="c">bi-qalam ʻAbd al-Laṭīf Yūnus.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">Ḥamāh :</subfield>
-<subfield code="b">Maṭābiʻ Abī al-Fidāʼ,</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">Ḥamāh :</subfield>
+<subfield code="b">Maṭābiʻ Abī al-Fidāʼ,</subfield>
 <subfield code="c">[194-?]</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">223 p. :</subfield>
-<subfield code="b">ill. ;</subfield>
-<subfield code="c">23 cm.</subfield>
+<subfield code="a">223 pages :</subfield>
+<subfield code="b">illustrations ;</subfield>
+<subfield code="c">23 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="600" ind1="1" ind2="0">
-<subfield code="a">ʻAlī, Ṣāliḥ,</subfield>
-<subfield code="d">1883-1950.</subfield>
+<subfield code="6">880-04</subfield>
+<subfield code="a">ʻAlī, Ṣāliḥ,</subfield>
+<subfield code="d">1882 or 1883-1950.</subfield>
 </datafield>
 <datafield tag="651" ind1=" " ind2="0">
 <subfield code="a">Syria</subfield>
 <subfield code="x">History</subfield>
 <subfield code="y">20th century.</subfield>
 </datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">يونس، عبد اللطيف.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">245-02/</subfield>
+<subfield code="a">تاريخ الثورة العلوية :</subfield>
+<subfield code="b">وقائدها الشيخ صالح العلي /</subfield>
+<subfield code="c">بقلم عبد اللطيف يونس.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-03/</subfield>
+<subfield code="a">حماه :</subfield>
+<subfield code="b">مطابع ابي الفداء،</subfield>
+<subfield code="c">[194-?]</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="4">
+<subfield code="6">600-04/</subfield>
+<subfield code="a">علي، صالح،</subfield>
+<subfield code="d">1882 or 1883-1950.</subfield>
+</datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">DS98.3.A43</subfield>
-<subfield code="b">Y86 1940z</subfield>
-<subfield code="i">11/22/89 C</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1</subfield>
-<subfield code="r">014677937</subfield>
-<subfield code="i">11/22/89 C</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">11/22/89</subfield>
-<subfield code="t">c</subfield>
-<subfield code="s">9114</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="w">NYUG89B35333</subfield>
-<subfield code="d">09/14/89</subfield>
-<subfield code="c">MG</subfield>
-<subfield code="b">PJV</subfield>
-<subfield code="i">891122</subfield>
-<subfield code="l">NYUG</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
