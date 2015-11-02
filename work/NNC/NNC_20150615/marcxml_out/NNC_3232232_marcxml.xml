@@ -1,121 +1,291 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
-	<controlfield tag="001">3232232</controlfield>
-	<controlfield tag="003">NNC</controlfield>
-	<controlfield tag="006">m        d        </controlfield>
-	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">150621s1905    le      ob    001 0 ara  </controlfield>
+	<leader>
+		02330nam a2200409   4500
+	</leader>
+	<controlfield tag="001">
+		3232232
+	</controlfield>
+	<controlfield tag="003">
+		NNC
+	</controlfield>
+	<controlfield tag="006">
+		m        d        
+	</controlfield>
+	<controlfield tag="007">
+		cr cn |||m|||a
+	</controlfield>
+	<controlfield tag="008">
+		151007s1905    le      ob    001 0 ara  
+	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
-		<subfield code="b">eng</subfield>
-		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="a">
+			NNU
+		</subfield>
+		<subfield code="b">
+			eng
+		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
+		<subfield code="c">
+			NNU
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
-		<subfield code="a">a-tu---</subfield>
+		<subfield code="a">
+			a-tu---
+		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="060">
-		<subfield code="a">L</subfield>
-		<subfield code="b">S341m 1905</subfield>
+		<subfield code="a">
+			L
+		</subfield>
+		<subfield code="b">
+			S341m 1905
+		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Scher, Addai,</subfield>
-		<subfield code="d">1867-1916.</subfield>
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Scher, Addai,
+		</subfield>
+		<subfield code="d">
+			1867-1916.
+		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="6">880-01</subfield>
-		<subfield code="a">Madrasat Naṣībīn al-shahīrah :</subfield>
-		<subfield code="b">nubdhah tārīkhīyah fī aṣlihā wa-qawānīnihā wa-fī al-ʻulamāʼ alladhīna ishtaharū fīhā /</subfield>
-		<subfield code="c">lil-Sayyid Addī Shīr = Ecole de Nisibe : son origine, ses règlements et ses hommes célebres / par sa grandeur Mgr Addai Scher.</subfield>
+		<subfield code="6">
+			880-02
+		</subfield>
+		<subfield code="a">
+			Madrasat Naṣībīn al-shahīrah :
+		</subfield>
+		<subfield code="b">
+			nubdhah tārīkhīyah fī aṣlihā wa-qawānīnihā wa-fī al-ʻulamāʼ alladhīna ishtaharū fīhā /
+		</subfield>
+		<subfield code="c">
+			lil-Sayyid Addī Shīr = Ecole de Nisibe : son origine, ses règlements et ses hommes célebres / par sa grandeur Mgr Addai Scher.
+		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="1" tag="246">
-		<subfield code="a">Ecole de Nisibe</subfield>
+		<subfield code="a">
+			Ecole de Nisibe
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Bayrūt :</subfield>
-		<subfield code="b">al-Maṭbaʻah al-Kāthūlīkīyah lil-Ābāʼ al-Yasūʻyīn,</subfield>
-		<subfield code="c">1905.</subfield>
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			Bayrūt :
+		</subfield>
+		<subfield code="b">
+			al-Maṭbaʻah al-Kāthūlīkīyah lil-Ābāʼ al-Yasūʻyīn,
+		</subfield>
+		<subfield code="c">
+			1905.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (64 pages)</subfield>
+		<subfield code="a">
+			online resource (64 pages)
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="336">
-		<subfield code="a">text</subfield>
-		<subfield code="2">rdacontent</subfield>
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="337">
-		<subfield code="a">computer</subfield>
-		<subfield code="2">rdamedia</subfield>
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="338">
-		<subfield code="a">online resource</subfield>
-		<subfield code="2">rdacarrier</subfield>
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
+		<subfield code="a">
+			Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">Includes bibliographical references and index.</subfield>
+		<subfield code="a">
+			Includes bibliographical references and index.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
-		<subfield code="a">Electronic reproduction.</subfield>
-		<subfield code="b">New York, N.Y. :</subfield>
-		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2015.</subfield>
-		<subfield code="5">NNU</subfield>
+		<subfield code="a">
+			Electronic reproduction.
+		</subfield>
+		<subfield code="b">
+			New York, N.Y. :
+		</subfield>
+		<subfield code="c">
+			New York University,
+		</subfield>
+		<subfield code="d">
+			2015.
+		</subfield>
+		<subfield code="5">
+			NNU
+		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2="0" tag="610">
-		<subfield code="a">Madrasat Naṣībīn (Naṣībīn, Syria)</subfield>
+		<subfield code="a">
+			Madrasat Naṣībīn (Naṣībīn, Syria)
+		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2="2" tag="610">
-		<subfield code="a">Madrasat Naṣībīn.</subfield>
+		<subfield code="a">
+			Madrasat Naṣībīn.
+		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="650">
-		<subfield code="a">Schools</subfield>
-		<subfield code="z">Turkey</subfield>
-		<subfield code="x">History.</subfield>
+		<subfield code="a">
+			Schools
+		</subfield>
+		<subfield code="z">
+			Turkey
+		</subfield>
+		<subfield code="x">
+			History.
+		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">Saʻdi, Lutfi M.,</subfield>
-		<subfield code="e">former owner.</subfield>
-		<subfield code="5">DNLM</subfield>
+		<subfield code="a">
+			Saʻdi, Lutfi M.,
+		</subfield>
+		<subfield code="e">
+			former owner.
+		</subfield>
+		<subfield code="5">
+			DNLM
+		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="a">Columbia University.</subfield>
-		<subfield code="b">Libraries.</subfield>
+		<subfield code="a">
+			Columbia University.
+		</subfield>
+		<subfield code="b">
+			Libraries.
+		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="730">
-		<subfield code="a">Arabic Collections Online.</subfield>
+		<subfield code="a">
+			Arabic Collections Online.
+		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
-		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Scher, Addai, 1867-1916.</subfield>
-		<subfield code="t">Madrasat Naṣībīn al-shahīrah</subfield>
-		<subfield code="w">(NNC)3232232</subfield>
-		<subfield code="w">(OCoLC)51054141</subfield>
+		<subfield code="i">
+			Print version:
+		</subfield>
+		<subfield code="a">
+			Scher, Addai, 1867-1916.
+		</subfield>
+		<subfield code="t">
+			Madrasat Naṣībīn al-shahīrah
+		</subfield>
+		<subfield code="w">
+			(NNC)3232232
+		</subfield>
+		<subfield code="w">
+			(OCoLC)51054141
+		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">http://hdl.handle.net/2333.1/rjdfn5mj</subfield>
+		<subfield code="u">
+			http://hdl.handle.net/2333.1/rjdfn5mj
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			شير، ادي،
+		</subfield>
+		<subfield code="d">
+			1867-1916.
+		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-01/r</subfield>
-		<subfield code="a">مدرسة نصيبين الشهيرة :</subfield>
-		<subfield code="b">نبذة تاريخية في اصلا وقوانينها وفي العلماء الذين اشتهروا فيها /</subfield>
-		<subfield code="c">للسيد ادي شير = Ecole de Nisibe : son origine, ses règlements et ses hommes célebres / par sa grandeur Mgr Addai Scher.</subfield>
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			مدرسة نصيبين الشهيرة :
+		</subfield>
+		<subfield code="b">
+			نبذة تاريخية في اصلها وقوانينها وفي العلماء الذين اشتهروا فيها /
+		</subfield>
+		<subfield code="c">
+			للسيد ادي شير = Ecole de Nisibe : son origine, ses règlements et ses hommes célebres / par sa grandeur Mgr Addai Scher.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			بيروت :
+		</subfield>
+		<subfield code="b">
+			المطبعة الكاثوليكية للآباء اليسوعيين،
+		</subfield>
+		<subfield code="c">
+			1905.
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
-		<subfield code="a">NNU</subfield>
-		<subfield code="b">WEB</subfield>
-		<subfield code="c">GENI</subfield>
-		<subfield code="t">0</subfield>
-		<subfield code="m">Electronic access</subfield>
-		<subfield code="s">01</subfield>
+		<subfield code="a">
+			NNU
+		</subfield>
+		<subfield code="b">
+			WEB
+		</subfield>
+		<subfield code="c">
+			GENI
+		</subfield>
+		<subfield code="t">
+			0
+		</subfield>
+		<subfield code="m">
+			Electronic access
+		</subfield>
+		<subfield code="s">
+			01
+		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
-		<subfield code="i">NNC_3232232</subfield>
-		<subfield code="o">(OCoLC)ocm51054141 </subfield>
-		<subfield code="s">columbia_aco000931</subfield>
-		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="i">
+			NNC_3232232
+		</subfield>
+		<subfield code="o">
+			(OCoLC)ocm51054141
+		</subfield>
+		<subfield code="s">
+			columbia_aco000931
+		</subfield>
+		<subfield code="e">
+			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco000931
+		</subfield>
 	</datafield>
 </record>
