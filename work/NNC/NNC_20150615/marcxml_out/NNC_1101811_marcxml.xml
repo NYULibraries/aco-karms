@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02764nam a2200457   4500
+		02821nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		1101811
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1988    ir a    ob    001 0 arard
+		151105s1988    ir a    ob    001 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -182,8 +182,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
-			Ḥassūn, Muḥammad.
+			Ḥassūn, Muḥammad. 
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -218,7 +221,7 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
 		<subfield code="6">
-			880-06
+			880-07
 		</subfield>
 		<subfield code="a">
 			Min makhṭūṭāt Maktabat Āyat Allāh al-Marʻashī al-ʻĀmmah ;
@@ -287,9 +290,17 @@
 			29
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-06/r
+		</subfield>
+		<subfield code="a">
+			حسون، محمد. 
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
 		<subfield code="6">
-			830-06/r
+			830-07/r
 		</subfield>
 		<subfield code="a">
 			من مخطوطات مكتبة آية الله المرعشي العامة ؛

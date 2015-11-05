@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01964nam a2200373   4500
+		01967nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		3073329
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1954    ua      o     000 0 ara d
+		151105s1954    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,13 +41,16 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			al-Ḥānī, Ṇāsir.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">
-			880-01
+			880-02
 		</subfield>
 		<subfield code="a">
 			Muḥaḍarāt ʻan Jamīl al-Zahāwī, ḥayātihi wa-shiʻrin /
@@ -58,7 +61,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-02
+			880-03
 		</subfield>
 		<subfield code="a">
 			[Cairo] :
@@ -123,18 +126,15 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
 		<subfield code="6">
-			880-03
+			880-04
 		</subfield>
 		<subfield code="a">
-			al-Zahāwī, Jamīl,
-		</subfield>
-		<subfield code="d">
-			1863?-1936.
+			Zahāwī, Jamīl Ṣidqī. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="700">
 		<subfield code="6">
-			880-04
+			880-05
 		</subfield>
 		<subfield code="a">
 			Zahāwī, Jamīl Ṣidqī.
@@ -180,7 +180,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-00/r
+			100-01/r
 		</subfield>
 		<subfield code="a">
 			حاني، ناصر.
@@ -188,7 +188,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-01/r
+			245-02/r
 		</subfield>
 		<subfield code="a">
 			محاضرات عن جميل الزهاوي :
@@ -202,7 +202,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-02/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			[القاهرة] :
@@ -216,7 +216,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="4" tag="880">
 		<subfield code="6">
-			600-03/r
+			600-04/r
 		</subfield>
 		<subfield code="a">
 			زهاوي، جميل صدقي.
@@ -224,7 +224,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			700-04/r
+			700-05/r
 		</subfield>
 		<subfield code="a">
 			زهاوي، جميل صدقي.

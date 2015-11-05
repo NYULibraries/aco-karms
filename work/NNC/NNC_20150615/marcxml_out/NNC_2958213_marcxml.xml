@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02751nam a2200457   4500
+		02794nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		2958213
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1967    iq h    o     000 0 arar 
+		151105s1967    iq h    o     000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -169,8 +169,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
-			Ṣaffār, Rashīd.
+			Ṣaffār, Rashīd. 
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -248,7 +251,7 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
 		<subfield code="6">
-			880-06
+			880-07
 		</subfield>
 		<subfield code="a">
 			Silsilat al-tawjīh al-Dīnī ;
@@ -317,9 +320,17 @@
 			2
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-06/r
+		</subfield>
+		<subfield code="a">
+			صفار، رشيد. 
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
 		<subfield code="6">
-			830-06/r
+			830-07/r
 		</subfield>
 		<subfield code="a">
 			سلسلة التوجيه الديني ؛
@@ -359,7 +370,7 @@
 			columbia_aco000803
 		</subfield>
 		<subfield code="e">
-			(ERROR-880)(ERROR-SERIES)
+			(ERROR-880)
 		</subfield>
 		<subfield code="s">
 			columbia_aco000803

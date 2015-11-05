@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01815nam a2200361   4500
+		01902nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		2960717
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1937    ua a    o     000 0 arard
+		151105s1937    ua a    o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -45,17 +45,20 @@
 			880-01
 		</subfield>
 		<subfield code="a">
-			Shāfiʻī, Aḥmad ibn Muḥammad ibn ʻAyyād. 
+			Shāfiʻī, Aḥmad ibn Muḥammad ibn ʻAyyād.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Mafākhir al-ʻalīyah fī maʼāthir al-Shādhilīyah
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">
-			880-02
+			880-03
 		</subfield>
 		<subfield code="a">
 			Kitāb al-mafākhir al-ʻalīyah fī al-maʼāthir al-Shādhilīyah /
@@ -66,7 +69,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-03
+			880-04
 		</subfield>
 		<subfield code="a">
 			Miṣr :
@@ -188,12 +191,20 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			شافعي، احمد بن محمد بن عياد. 
+			شافعي، احمد بن محمد بن عياد.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-02/r
+			240-02/r
+		</subfield>
+		<subfield code="a">
+			مفاخر العلية في مآثر الشاذلية
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-03/r
 		</subfield>
 		<subfield code="a">
 			كتاب المفاخر العلية في المآثر الشاذلية /
@@ -204,7 +215,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-03/r
+			260-04/r
 		</subfield>
 		<subfield code="a">
 			مصر :
