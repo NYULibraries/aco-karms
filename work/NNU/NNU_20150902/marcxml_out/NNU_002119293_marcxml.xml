@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01462nam a2200277   4500
+		02217nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		002119293
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1890    ua      o     000 0 ara d
+		151105s1891    ua      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,56 +25,92 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			AC106
 		</subfield>
 		<subfield code="b">
-			.H795 1890
+			.H84 1891
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Ḥulwānī, Aḥmad ibn Aḥmad,
+			Ḥulwānī, Aḥmad ibn Aḥmad,
 		</subfield>
 		<subfield code="d">
-			1833 or 4-1890 or 91.
+			1833 or 1834-1890 or 1891.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Khams rasāʼil
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Khams rasāʼil /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Shihāb al-Dīn Aḥmad ibn Aḥmad ibn Ismāʻīl al-Ḥulwānī.
+			taʼlīf Shihāb al-Dīn Aḥmad ibn Aḥmad ibn Ismāʻīl al-Ḥulwānī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Ṭabʻah 1.
+			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Būlāq [Cairo] :
+			Būlāq, Miṣr :
 		</subfield>
 		<subfield code="b">
-			al-Maṭbaʻah al-Amīrīyah,
+			al-Maṭbaʻah al-Amīrīyah,
 		</subfield>
 		<subfield code="c">
-			1308 [1890 or 1891]
+			1308 [1891]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (80 p.)
+			online resource (80 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -84,7 +120,7 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="505">
 		<subfield code="a">
-			1. Qaṭʻ al-lijāj fī al-ijāj -- 2. Ḥalāwat al-ruzz fī ḥall al-lughz -- 3. al-Nāghim min al-Ṣādiḥ wa-al-bāghim -- 4. Manẓūmat al-Qaṭr al-shahdī fī awṣāf al-Mahdī -- 5. Qaṣīdat al-Ḥalwāʼ fī madḥ nabī al-zahrāʼ.
+			1. Qaṭʻ al-lijāj fī al-ijāj -- 2. Ḥalāwat al-ruzz fī ḥall al-lughz -- 3. al-Nāghim min al-Ṣādiḥ wa-al-bāghim -- 4. Manẓūmat al-Qaṭr al-shahdī fī awṣāf al-Mahdī -- 5. Qaṣīdat al-Ḥalwāʼ fī madḥ nabī al-zahrāʼ.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -104,6 +140,11 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Arabic language.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -119,13 +160,33 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Ḥulwānī, Aḥmad ibn Aḥmad, 1833 or 4-1890 or 91.
+		</subfield>
+		<subfield code="t">
+			Khams rasāʼil.
+		</subfield>
+		<subfield code="b">
+			al-Ṭabʻah 1.
+		</subfield>
+		<subfield code="d">
+			Bulāq, Miṣr : al-Maṭbaʻah al-Amīrīyah, 1308 [1891]
+		</subfield>
+		<subfield code="w">
+			(OCoLC)780215546
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ḥulwānī, Aḥmad ibn Aḥmad, 1833 or 4-1890 or 91.
+			Ḥulwānī, Aḥmad ibn Aḥmad, 1833 or 1834-1890 or 1891.
 		</subfield>
 		<subfield code="t">
-			Khams rasāʼil
+			Khams rasāʼil
 		</subfield>
 		<subfield code="w">
 			(NNU)002119293
@@ -134,6 +195,50 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/51c5b2rh
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			حلواني، أحمد بن أحمد،
+		</subfield>
+		<subfield code="d">
+			91 or 1890-4 or 1833.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			خمس رسائل /
+		</subfield>
+		<subfield code="c">
+			تأليف شهاب الدين أحمد بن أحمد بن اسماعيل الحلواني.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			بولاق، مصر :
+		</subfield>
+		<subfield code="b">
+			المطبعة الاميرية،
+		</subfield>
+		<subfield code="c">
+			1308 [1891]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -162,9 +267,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001424
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

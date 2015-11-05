@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01751nam a2200361   4500
+		02527nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		001677781
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007m19551956le j    ob    000 0 arar 
+		151105m19551956le j    ob    000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -33,22 +36,27 @@
 		<subfield code="a">
 			nm-----
 		</subfield>
-		<subfield code="a">
-			aw-----
-		</subfield>
-		<subfield code="a">
-			ff-----
-		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			DF552
 		</subfield>
 		<subfield code="b">
-			.R8
+			.R8 1955
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="082">
+		<subfield code="a">
+			949.5
+		</subfield>
+		<subfield code="2">
+			19
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Rustum, Asad,
 		</subfield>
@@ -57,38 +65,73 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Rūm fī siyāsatihim wa-ḥaḍāratihim wa-dīnihim wa-thaqāfatihim wa-ṣalātihim bi-al-ʻArab
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			al-Rūm fī siyāsatihim wa-ḥaḍāratihim wa-dīnihim wa-thaqāfatihim wa-ṣalātihim bi-al-ʻArab /
 		</subfield>
 		<subfield code="c">
 			li-Asad Rustum.
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="250">
+	<datafield ind1="3" ind2=" " tag="246">
 		<subfield code="a">
-			al-Ṭabʻah 1.
+			History of the Byzantine Empire
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Bayrūt,
+			Bayrūt,
 		</subfield>
 		<subfield code="b">
-			Dār al-Makshūf,
+			Dār al-Makshūf,
 		</subfield>
 		<subfield code="c">
-			1955-56.
+			1955-1956.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (2 v.) :
+			online resource (2 volumes) :
 		</subfield>
 		<subfield code="b">
-			geneal. tables.
+			genealogical tables
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -98,7 +141,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			Added t. p.: History of the Byzantine Empire, with special reference to its relations with contemporaneous Moslem states, by Asad J. Rustum.
+			Added t.p.: History of the Byzantine Empire, with special reference to its relations with contemporaneous Moslem states, by Asad J. Rustum.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -108,7 +151,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Bibliography: v. 1, p. 3-8.
+			Includes bibliographical references (v. 1, pages 3-8).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -136,26 +179,26 @@
 			History.
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="651">
+	<datafield ind1=" " ind2="7" tag="651">
 		<subfield code="a">
-			Byzantine Empire
+			Byzantine Empire.
 		</subfield>
-		<subfield code="x">
-			Relations
+		<subfield code="2">
+			fast
 		</subfield>
-		<subfield code="z">
-			Islamic Empire.
+		<subfield code="0">
+			(OCoLC)fst01209292.
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="651">
+	<datafield ind1=" " ind2="7" tag="655">
 		<subfield code="a">
-			Islamic Empire
+			History.
 		</subfield>
-		<subfield code="x">
-			Relations
+		<subfield code="2">
+			fast
 		</subfield>
-		<subfield code="z">
-			Byzantine Empire.
+		<subfield code="0">
+			(OCoLC)fst01411628.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -171,9 +214,24 @@
 			Arabic Collections Online.
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="1" tag="740">
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
+			Online version:
+		</subfield>
 		<subfield code="a">
-			History of the Byzantine Empire.
+			Rustum, Asad, 1897-1965.
+		</subfield>
+		<subfield code="t">
+			Rūm fī siyāsatihim wa-ḥaḍāratihim wa-dīnihim wa-thaqāfatihim wa-ṣalātihim bi-al-ʻArab.
+		</subfield>
+		<subfield code="b">
+			al-Ṭabʻah 1.
+		</subfield>
+		<subfield code="d">
+			Bayrūt, Dār al-Makshūf, 1955-56
+		</subfield>
+		<subfield code="w">
+			(OCoLC)558035991
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
@@ -184,7 +242,7 @@
 			Rustum, Asad, 1897-1965.
 		</subfield>
 		<subfield code="t">
-			al-Rūm fī siyāsatihim wa-ḥaḍāratihim wa-dīnihim wa-thaqāfatihim wa-ṣalātihim bi-al-ʻArab
+			al-Rūm fī siyāsatihim wa-ḥaḍāratihim wa-dīnihim wa-thaqāfatihim wa-ṣalātihim bi-al-ʻArab
 		</subfield>
 		<subfield code="w">
 			(NNU)001677781
@@ -196,6 +254,50 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/rn8pk3p1
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			‏رستم، أسد،
+		</subfield>
+		<subfield code="d">
+			1897-1965.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			‏الروم في سياستهم وحضارتهم ودينهم وثقافتهم وصلاتهم بالعرب/‏
+		</subfield>
+		<subfield code="c">
+			‏لاسد رستم.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			‏الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			‏بيروت :‏
+		</subfield>
+		<subfield code="b">
+			‏دار المكشوف،‏
+		</subfield>
+		<subfield code="c">
+			1955-1956.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

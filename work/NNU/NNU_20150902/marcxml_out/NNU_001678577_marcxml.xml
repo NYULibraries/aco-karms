@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01502nam a2200289   4500
+		02161nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		001678577
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1962    iq      o     000 0barax 
+		151105s1962    iq      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,48 +25,60 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			BP193.1
+			DS238.A6
 		</subfield>
 		<subfield code="b">
-			.N35
+			N3 1962
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Naqdī, Jaʻfar ibn Muḥammad,
+			Naqdī, Jaʻfar,
 		</subfield>
 		<subfield code="d">
-			1886-1950.
+			1885-1951.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Anwār al-ʻAlawīyah wa-al-asrār al-murtaḍawīyah fī aḥwāl Amīr al-muʼminīn wa-faḍāʼilihi wa-manāqibihi wa-ghazawātih
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			al-Anwar al-Alawiyah wa-al-asrar al-murtadawiyah fi ahwal Amir al-muminin wa-fadailihi wa-manaqibihi wa-ghazawatihi /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Jaʻfar al-Naqdī.
+			talif Jafar al-Naqdi.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Ṭabʻah 2, wa-fīhā ziyādāt muhimmah ʻalá al-ūlá.
+			al-Tabah 2, wa-fiha ziyadat muhimmah ala al-ula.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			al-Najaf,
+			al-Najaf :
 		</subfield>
 		<subfield code="b">
-			al-Maṭabaʻah al-Ḥaydarīyah,
+			al-Matbaah al-Haydariyah,
 		</subfield>
 		<subfield code="c">
 			1962.
@@ -74,12 +86,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (496 p.)
+			online resource (496 pages)
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
+	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">
-			In Arabic.
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -105,14 +136,34 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			ʻAlī ibn Abī Ṭālib,
+			ʻAlī ibn Abī Ṭālib,
 		</subfield>
 		<subfield code="c">
 			Caliph,
 		</subfield>
 		<subfield code="d">
-			600 (ca.)-661.
+			approximately 600-661.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="7" tag="600">
+		<subfield code="a">
+			ʻAlī ibn Abī Ṭālib,
+		</subfield>
+		<subfield code="c">
+			Caliph,
+		</subfield>
+		<subfield code="d">
+			approximately 600-661
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01804105.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -133,21 +184,79 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Naqdī, Jaʻfar ibn Muḥammad, 1886-1950.
+			Naqdī, Jaʻfar, 1885-1951.
 		</subfield>
 		<subfield code="t">
-			al-Anwār al-ʻAlawīyah wa-al-asrār al-murtaḍawīyah fī aḥwāl Amīr al-muʼminīn wa-faḍāʼilihi wa-manāqibihi wa-ghazawātih
+			al-Anwar al-Alawiyah wa-al-asrar al-murtadawiyah fi ahwal Amir al-muminin wa-fadailihi wa-manaqibihi wa-ghazawatihi
 		</subfield>
 		<subfield code="w">
 			(NNU)001678577
 		</subfield>
 		<subfield code="w">
-			(DLC)ne 66000223
+			(DLC)   66000223
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/hqbzkkz2
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			نقدي، جعفر،
+		</subfield>
+		<subfield code="d">
+			1885-1951.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			الأنوار العلوية والأسرار المرتضوية في أحوال أمير المؤمنين وفضائله ومناقبه وغزواته /
+		</subfield>
+		<subfield code="c">
+			تأليف جعفر النقدي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			الطبعة ٢.، وفيها زيادات مهمة على الأولى.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			النجف :
+		</subfield>
+		<subfield code="b">
+			المطبعة الحيدرية،
+		</subfield>
+		<subfield code="c">
+			١٩٦٢.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">
+			600-05/
+		</subfield>
+		<subfield code="a">
+			علي بن ابي طالب،
+		</subfield>
+		<subfield code="c">
+			له،
+		</subfield>
+		<subfield code="d">
+			approximately 600-661.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -176,9 +285,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001386
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

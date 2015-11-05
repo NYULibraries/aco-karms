@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01223nam a2200277   4500
+		01772nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		001823647
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007q19401949sy a    o     000 0 ara d
+		151105s194u    sy a    o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -34,31 +37,45 @@
 			a-sy---
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			Yūnus, ʻAbd al-Laṭīf.
+			DS98.3.A43
+		</subfield>
+		<subfield code="b">
+			Y86 1940z
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Yūnus, ʻAbd al-Laṭīf.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Tārīkh al-thawrah al-ʻAlawīyah
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="a">
+			Tārīkh al-thawrah al-ʻAlawīyah :
 		</subfield>
 		<subfield code="b">
-			wa-qāʼiduhā al-Shaykh Ṣāliḥ al-ʻAlī /
+			wa-qāʼiduhā al-Shaykh Ṣāliḥ al-ʻAlī /
 		</subfield>
 		<subfield code="c">
-			bi-qalam ʻAbd al-Laṭīf Yūnus.
+			bi-qalam ʻAbd al-Laṭīf Yūnus.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Ḥamāh :
+			Ḥamāh :
 		</subfield>
 		<subfield code="b">
-			Maṭābiʻ Abī al-Fidāʼ,
+			Maṭābiʻ Abī al-Fidāʼ,
 		</subfield>
 		<subfield code="c">
 			[194-?]
@@ -66,10 +83,34 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (223 p.) :
+			online resource (223 pages) :
 		</subfield>
 		<subfield code="b">
-			ill.
+			illustrations
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -95,11 +136,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			ʻAlī, Ṣāliḥ,
+			ʻAlī, Ṣāliḥ,
 		</subfield>
 		<subfield code="d">
-			1883-1950.
+			1882 or 1883-1950.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
@@ -131,10 +175,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Yūnus, ʻAbd al-Laṭīf.
+			Yūnus, ʻAbd al-Laṭīf.
 		</subfield>
 		<subfield code="t">
-			Tārīkh al-thawrah al-ʻAlawīyah
+			Tārīkh al-thawrah al-ʻAlawīyah
 		</subfield>
 		<subfield code="w">
 			(NNU)001823647
@@ -143,6 +187,53 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/1g1jwwmh
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			يونس، عبد اللطيف.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			تاريخ الثورة العلوية :
+		</subfield>
+		<subfield code="b">
+			وقائدها الشيخ صالح العلي /
+		</subfield>
+		<subfield code="c">
+			بقلم عبد اللطيف يونس.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			حماه :
+		</subfield>
+		<subfield code="b">
+			مطابع ابي الفداء،
+		</subfield>
+		<subfield code="c">
+			[194-?]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-04/
+		</subfield>
+		<subfield code="a">
+			علي، صالح،
+		</subfield>
+		<subfield code="d">
+			1882 or 1883-1950.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -171,9 +262,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001345
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

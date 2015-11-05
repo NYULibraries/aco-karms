@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01578nam a2200337   4500
+		02749nam a2200493   4500
 	</leader>
 	<controlfield tag="001">
 		001678422
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1951    le      o     100 0 ara d
+		151105s1951    le      o     100 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -38,8 +41,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="111">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Muʼtammar al-Dirāsāt al-ʻArabīyah
+			Muʼtammar al-Dirāsāt al-ʻArabīyah
 		</subfield>
 		<subfield code="n">
 			(1st :
@@ -51,28 +57,34 @@
 			Beirut, Lebanon)
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-ʻArab wa-al-ḥaḍārah al-ḥadīthah
+	<datafield ind1="1" ind2="4" tag="245">
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			al-ʻArab wa-al-ḥaḍārah al-ḥadīthah /
 		</subfield>
 		<subfield code="c">
-			bi-qalam Aḥmad Zakī Bik ... [et al.] ; ashrafat ʻalá ikhrājihi Hayʼat al-Dirāsāt al-ʻArabīyah fī al-Jāmiʻah al-Amīrkīyah.
+			bi-qalam Aḥmad Zakī Bik [and others] ; ashrafat ʻalá ikhrājihi Hayʼat al-Dirāsāt al-ʻArabīyah fī al-Jāmiʻah al-Amīrkīyah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Ṭabʻah 1.
+			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Bayrūt :
+			Bayrūt :
 		</subfield>
 		<subfield code="b">
-			Dār al-ʻIlm lil-Malāyīn,
+			Dār al-ʻIlm lil-Malāyīn,
 		</subfield>
 		<subfield code="c">
 			1951.
@@ -80,7 +92,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (144 p.)
+			online resource (144 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -134,9 +170,56 @@
 			Congresses.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
+	<datafield ind1=" " ind2="7" tag="650">
 		<subfield code="a">
-			Zakī, Aḥmad.
+			Arabs.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00812576
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Civilization, Western.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00863138
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Islamic civilization.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01730294
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Conference papers and proceedings.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01423772
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Zakī, Aḥmad.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -144,7 +227,7 @@
 			American University of Beirut.
 		</subfield>
 		<subfield code="b">
-			Dept. of Arabic.
+			Department of Arabic.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -162,10 +245,30 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Muʼtammar al-Dirāsāt al-ʻArabīyah (1st : 1951 : Beirut, Lebanon).
+		</subfield>
+		<subfield code="t">
+			Arab wa-al-ḥaḍārah al-ḥadīthah.
+		</subfield>
+		<subfield code="b">
+			al-Ṭabʻah 1.
+		</subfield>
+		<subfield code="d">
+			Bayrūt : Dār al-ʻIlm lil-Malāyīn, 1951
+		</subfield>
+		<subfield code="w">
+			(OCoLC)720454918
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="t">
-			al-ʻArab wa-al-ḥaḍārah al-ḥadīthah
+			al-ʻArab wa-al-ḥaḍārah al-ḥadīthah
 		</subfield>
 		<subfield code="w">
 			(NNU)001678422
@@ -174,6 +277,64 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/vdncjwz2
+		</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="880">
+		<subfield code="6">
+			111-01/
+		</subfield>
+		<subfield code="a">
+			مؤتمر الدراسات العربية
+		</subfield>
+		<subfield code="n">
+			(1الأول :
+		</subfield>
+		<subfield code="d">
+			1951 :
+		</subfield>
+		<subfield code="c">
+			بيروت، لبنان)
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			العرب والحضارة الحديثة /
+		</subfield>
+		<subfield code="c">
+			بقلم احمد زكي بك [اند ثرس] ؛ اشرفة على اخراجه هيئة الدراسات العربية في الجامعة الاميركية.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			بيروت :
+		</subfield>
+		<subfield code="b">
+			دار العلم للملايين،
+		</subfield>
+		<subfield code="c">
+			1951.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/
+		</subfield>
+		<subfield code="a">
+			زكي، احمد.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

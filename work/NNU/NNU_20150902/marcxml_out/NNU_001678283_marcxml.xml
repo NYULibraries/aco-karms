@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01253nam a2200289   4500
+		02226nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		001678283
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1963    sy a    o     000 0 ararc
+		151105s1963    sy a    o     000 0 ararc
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -34,52 +37,85 @@
 			a-sy---
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			DS99.P17
 		</subfield>
 		<subfield code="b">
-			B8
+			B8 1963
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Bunnī, ʻAdnān.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Fann al-Tadmurī
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			al-Fann al-Tadmurī
 		</subfield>
 		<subfield code="c">
-			[taʼlīf] ʻAdnān al-Bunnī.
+			[taʼlīf] ʻAdnān al-Bunnī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[Dimashq,
+			[Dimashq] :
 		</subfield>
 		<subfield code="b">
-			al-Majlis al-Aʻlá li-Riʻāyat al-Funūn wa-al-Ādāb wa-al-ʻUlūm al-Ijtimāʻīyah,
+			[al-Majlis al-Aʻlá li-Riʻāyat al-Funūn wa-al-Ādāb wa-al-ʻUlūm al-Ijtimāʻīyah],
 		</subfield>
 		<subfield code="c">
-			1963?]
+			[1963?]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (86 p.) :
+			online resource (86 pages) :
 		</subfield>
 		<subfield code="b">
-			illus.
+			illustrations
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">
-			Silsilat tārīkh al-fann fī Sūrīyah,
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Silsilat tārīkh al-fann fī Sūrīyah ;
 		</subfield>
 		<subfield code="v">
 			3
@@ -115,6 +151,31 @@
 			Antiquities.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Antiquities.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00810745
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Syria
+		</subfield>
+		<subfield code="z">
+			Tadmur.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01220260
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -130,13 +191,30 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Bunnī, ʻAdnān.
+		</subfield>
+		<subfield code="t">
+			Fann al-Tadmurī.
+		</subfield>
+		<subfield code="d">
+			[Dimashq, al-Majlis al-Aʻlá li-Riʻāyat al-Funūn wa-al-Ādāb wa-al-ʻUlūm al-Ijtimāʻīyah, 1963?]
+		</subfield>
+		<subfield code="w">
+			(OCoLC)579258068
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
 			Bunnī, ʻAdnān.
 		</subfield>
 		<subfield code="t">
-			al-Fann al-Tadmurī
+			al-Fann al-Tadmurī
 		</subfield>
 		<subfield code="w">
 			(NNU)001678283
@@ -148,6 +226,72 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/41ns1vg2
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			بني، عدنان.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="3" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			الفن التدمري /
+		</subfield>
+		<subfield code="c">
+			[تأليف] عدنان البني.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			[دمشق] :
+		</subfield>
+		<subfield code="b">
+			[المجل الاعلى لرعاية الفنون والآداب والعلوم الاجتماعية]،
+		</subfield>
+		<subfield code="c">
+			[1963؟]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-04/
+		</subfield>
+		<subfield code="a">
+			سلسلة تاريخ الفن في سورية ؛
+		</subfield>
+		<subfield code="v">
+			3
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Silsilat tārīkh al-fann fī Sūrīyah ;
+		</subfield>
+		<subfield code="v">
+			3.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-05/
+		</subfield>
+		<subfield code="a">
+			سلسلة تاريخ الفن في سورية ;
+		</subfield>
+		<subfield code="v">
+			3.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -176,9 +320,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001356
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)(ERROR-SERIES)
 		</subfield>
 	</datafield>
 </record>

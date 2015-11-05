@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01345nam a2200313   4500
+		02099nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		001678587
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1959    sy      ob    000 0 arard
+		151105s1959    sy      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -38,56 +41,84 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Ṭanṭāwī, ʻAlī,
+			Ṭanṭāwī, ʻAlī,
 		</subfield>
 		<subfield code="d">
 			1909-
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Akhbār ʻUmar
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="a">
+			Akhbār ʻUmar :
 		</subfield>
 		<subfield code="b">
-			wa-akhbār ʻAbd Allāh ibn ʻUmar /
+			wa-akhbār ʻAbd Allāh ibn ʻUmar /
 		</subfield>
 		<subfield code="c">
-			taʼlīf ʻAlī al-Ṭanṭāwī [wa-] Nājī al-Ṭanṭāwī.
+			taʼlīf ʻAlī al-Ṭanṭāwī, [wa-] Nājī al-Ṭanṭāwī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Ṭabʻah 1.
+			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Dimashq :
 		</subfield>
 		<subfield code="b">
-			Dār al-Fikr,
+			Dār al-Fikr,
 		</subfield>
 		<subfield code="c">
-			[1959]
+			1959.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (624 p.)
+			online resource (624 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
 			Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">
-			Bibliography: p. 620-624.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -108,27 +139,64 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			ʻUmar ibn al-Khaṭṭāb,
+			ʻUmar ibn al-Khaṭṭāb,
 		</subfield>
 		<subfield code="c">
 			Caliph,
 		</subfield>
 		<subfield code="d">
-			d. 644.
+			-644.
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
 		<subfield code="a">
-			ʻAbd Allāh ibn ʻUmar ibn al-Khaṭṭāb,
+			ʻAbd Allāh ibn ʻUmar ibn al-Khaṭṭāb,
 		</subfield>
 		<subfield code="d">
-			d. 693.
+			-693.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="7" tag="600">
+		<subfield code="a">
+			ʻAbd Allāh ibn ʻUmar ibn al-Khaṭṭāb,
+		</subfield>
+		<subfield code="d">
+			-693
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01803113.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="7" tag="600">
+		<subfield code="a">
+			ʻUmar ibn al-Khaṭṭāb,
+		</subfield>
+		<subfield code="c">
+			Caliph,
+		</subfield>
+		<subfield code="d">
+			-644
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01852177.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
-			Ṭanṭāwī, Nājī.
+			Ṭanṭāwī, Nājī.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -149,10 +217,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ṭanṭāwī, ʻAlī, 1909-
+			Ṭanṭāwī, ʻAlī, 1909-
 		</subfield>
 		<subfield code="t">
-			Akhbār ʻUmar
+			Akhbār ʻUmar
 		</subfield>
 		<subfield code="w">
 			(NNU)001678587
@@ -161,6 +229,75 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/k6djhdrt
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			‏طنطاوي، علي،
+		</subfield>
+		<subfield code="d">
+			1909-
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			‏أخبار عمر :‏
+		</subfield>
+		<subfield code="b">
+			‏و أخبار عبد الله بن عمر /‏
+		</subfield>
+		<subfield code="c">
+			‏علي الطنطاوي، ناجي الطنطاوي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			‏الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			‏دمشق :‏
+		</subfield>
+		<subfield code="b">
+			‏دار الفكر،‏
+		</subfield>
+		<subfield code="c">
+			1959.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">
+			600-05/
+		</subfield>
+		<subfield code="a">
+			عمر بن الخطاب،
+		</subfield>
+		<subfield code="c">
+			Caliph,
+		</subfield>
+		<subfield code="d">
+			-644.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-06/
+		</subfield>
+		<subfield code="a">
+			‏طنطاوي، ناجي.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -189,9 +326,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001389
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

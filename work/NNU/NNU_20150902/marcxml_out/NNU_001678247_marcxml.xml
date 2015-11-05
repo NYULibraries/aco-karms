@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01278nam a2200265   4500
+		01887nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		001678247
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1962    sy ch   o     000 0 ara c
+		151105s1962    sy ch   o     000 0 ara c
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,32 +25,49 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			al-Farfūrī, Muhammad Sālih.
+			D198.3
+		</subfield>
+		<subfield code="b">
+			.F22 1962
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Farfūr, Muḥammad Ṣāliḥ.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Durr al-manthūr /cli-S̥ālih̥ Farfūr
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			al-Durr al-manthūr /
 		</subfield>
 		<subfield code="c">
-			ala al-d̥iyāʼ al-mawfūr fī aʻyān Banī Farfūr li-Muh̥ammad Jamīl al-Shat̥t̥ī.
+			li-Ṣāliḥ Farfūr ; al-ḍīyāʼ al-mawfūr fī aʻyān Banī Farfūr li-Muḥammad Jamīl al-Shaṭṭī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Dimashq :
 		</subfield>
 		<subfield code="b">
-			Mat̥baʻat al-Taraqqī,
+			Mat̥baʻat al-Taraqqī,
 		</subfield>
 		<subfield code="c">
 			1962.
@@ -58,10 +75,34 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (203 p.) :
+			online resource (203 pages) :
 		</subfield>
 		<subfield code="b">
-			ports., facsims.
+			portraits, facsimiles
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -93,10 +134,13 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
 		<subfield code="a">
-			Shaṭṭī, Jamīl.
+			Shaṭṭī, Mụḥammad Jamīl,
+		</subfield>
+		<subfield code="d">
+			1882-
 		</subfield>
 		<subfield code="t">
-			Ḍiyā al-mawfūr fī aʻsyān Banī Farfūr.
+			D̥iyā al-mawfūr fī aʻsyān Banī Farfūr.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -114,13 +158,30 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Farfūr, Muhammad Sālih.
+		</subfield>
+		<subfield code="t">
+			Durr al-manthūr.
+		</subfield>
+		<subfield code="d">
+			Dimashq : Mat̥baʻat al-Taraqqī, 1962
+		</subfield>
+		<subfield code="w">
+			(OCoLC)568722804
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			al-Farfūrī, Muhammad Sālih.
+			Farfūr, Muḥammad Ṣāliḥ.
 		</subfield>
 		<subfield code="t">
-			al-Durr al-manthūr /cli-S̥ālih̥ Farfūr
+			al-Durr al-manthūr
 		</subfield>
 		<subfield code="w">
 			(NNU)001678247
@@ -132,6 +193,39 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/5qftthvj
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			فرفور، محمد صالح.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			الدر المنثور /
+		</subfield>
+		<subfield code="c">
+			لصالح فرفور ؛ الضياء الموفور في اعيان بني فرفور لمحمد جميل الشطي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			دمشق :
+		</subfield>
+		<subfield code="b">
+			مôتبعة الترقي،
+		</subfield>
+		<subfield code="c">
+			1962.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -160,9 +254,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001332
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

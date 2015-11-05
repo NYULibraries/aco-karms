@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02059nam a2200397   4500
+		02394nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		001717232
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1965    iq      o     000 0 ara d
+		151105s1965    iq      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,29 +25,19 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			DS238.A6
+			BP192.8
 		</subfield>
 		<subfield code="b">
-			Q5 1965
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">
-			DS238.A6
-		</subfield>
-		<subfield code="b">
-			Q5 1965
+			.Q6 1965
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
@@ -55,10 +45,10 @@
 			880-01
 		</subfield>
 		<subfield code="a">
-			Qundūzī, Sulaymān ibn Ibrāhīm,
+			Qundūzī, Sulaymān ibn Ibrāhīm,
 		</subfield>
 		<subfield code="d">
-			1805-1853 or 4.
+			1805-1853 or 1854.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
@@ -66,21 +56,10 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			Yanābīʻ al-mawaddah
-		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+			Yanābīʻ al-mawaddah /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Sulaymān ibn Ibrāhīm al-Qundūzī al-Ḥanafī ; waḍaʻa ʼal-muqaddimah Muḥammad Mahdī al-Sayyid Ḥasan al-K͡harsān.
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="246">
-		<subfield code="i">
-			Title on p. 4 of cover:
-		</subfield>
-		<subfield code="a">
-			Yanabia al-mawaddeh
+			taʼlīf Sulaymān ibn Ibrāhīm al-Qundūzī al-Ḥanafī ; waḍaʻa al-muqaddimah Muḥammad Mahdī al-Sayyid Ḥasan al-Kharsān.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
@@ -88,7 +67,7 @@
 			880-03
 		</subfield>
 		<subfield code="a">
-			al-Ṭabʻah 7
+			ʼAl-Ṭabʻah 7.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
@@ -99,7 +78,7 @@
 			al-Najaf :
 		</subfield>
 		<subfield code="b">
-			al-Maktabah al-Ḥaydarīyah,
+			al-Maktabah al-Ḥaydarīyah,
 		</subfield>
 		<subfield code="c">
 			1965.
@@ -107,12 +86,41 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (636 p.)
+			online resource (636 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			Photo-offset of the ed. published: Constantinople, 1302 [1884 or 5].
+			Wa-tamtāzu ʻalá bāqī ʼal-ṭabaʻāt bi-ʼal-taṣḥīḥ wa-ʼal-tadqīq.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">
+			Title on p. 4 of cover: Yanabia al-mawaddeh.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -137,23 +145,45 @@
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="0" tag="600">
+	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">
-			ʻAlī ibn Abī Ṭālib,
-		</subfield>
-		<subfield code="c">
-			Caliph,
-		</subfield>
-		<subfield code="d">
-			600 (ca.)-661.
+			Imamate.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
+	<datafield ind1="0" ind2="0" tag="600">
 		<subfield code="6">
 			880-05
 		</subfield>
 		<subfield code="a">
-			Kharsān, Ḥasan al-Mūsawī.
+			Muḥammad,
+		</subfield>
+		<subfield code="c">
+			Prophet,
+		</subfield>
+		<subfield code="d">
+			-632
+		</subfield>
+		<subfield code="x">
+			Family.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Imamate.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00967643.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			Kharsān, Ḥasan al-Mūsawī.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -169,15 +199,23 @@
 			Arabic Collections Online.
 		</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-07
+		</subfield>
+		<subfield code="a">
+			Yanābīʻ al-mawaddeh.
+		</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Qundūzī, Sulaymān ibn Ibrāhīm, 1805-1853 or 4.
+			Qundūzī, Sulaymān ibn Ibrāhīm, 1805-1853 or 1854.
 		</subfield>
 		<subfield code="t">
-			Yanābīʻ al-mawaddah
+			Yanābīʻ al-mawaddah
 		</subfield>
 		<subfield code="w">
 			(NNU)001717232
@@ -193,7 +231,10 @@
 			100-01/
 		</subfield>
 		<subfield code="a">
-			قندوزي، سليمان بن اراهيم.
+			قندوزي، سليمان بن ابراهيم،
+		</subfield>
+		<subfield code="d">
+			1805-1853 or 1854.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -212,7 +253,7 @@
 			250-03/
 		</subfield>
 		<subfield code="a">
-			الطبعة ٧.
+			ءلطبعة 7.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
@@ -226,15 +267,40 @@
 			المكتبة الحيدرية،
 		</subfield>
 		<subfield code="c">
-			١٩٦٥.
+			1965.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">
+			600-05/
+		</subfield>
+		<subfield code="a">
+			محمد،
+		</subfield>
+		<subfield code="c">
+			Prophet,
+		</subfield>
+		<subfield code="d">
+			-632
+		</subfield>
+		<subfield code="x">
+			Family.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-05/
+			700-06/
 		</subfield>
 		<subfield code="a">
 			خرسان، حسن الموسوي.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			740-07/
+		</subfield>
+		<subfield code="a">
+			ينابيع الموده.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -263,9 +329,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001387
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

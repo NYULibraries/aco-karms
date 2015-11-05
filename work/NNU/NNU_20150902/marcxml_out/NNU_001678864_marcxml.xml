@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01420nam a2200337   4500
+		01987nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		001678864
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1968    iq      ob    001 0 arar 
+		151105s1968    iq      ob    000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -34,39 +37,50 @@
 			ar-----
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			DS215
 		</subfield>
 		<subfield code="b">
-			.J82
+			.J82 1968
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Jubūrī, Yaḥyá.
+			Jubūrī, Yaḥyá.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Jāhilīyah
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="a">
+			al-Jāhilīyah :
 		</subfield>
 		<subfield code="b">
-			muqddamah fī al-ḥayāt al-ʻArabīyah li- dirāsat al-adab al-Jāhilī.
+			muqaddamah fī al-ḥayāt al-ʻArabīyah li-dirāsat al-adab al-Jāhilī /
 		</subfield>
 		<subfield code="c">
-			[taʼlīf] Yaḥyā al-Jubūrī.
+			[taʼlīf] Yaḥyá al-Jubūrī.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="246">
+		<subfield code="a">
+			Jahiliah: pre-Islamic age
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Baghdād,
+			Baghdād :
 		</subfield>
 		<subfield code="b">
-			Maṭbʻat al-Maʻārif,
+			Maṭbʻat al-Maʻārif,
 		</subfield>
 		<subfield code="c">
 			1968.
@@ -74,12 +88,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (159 p.)
+			online resource (159 pages)
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
+	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">
-			Cover title: al-Jahiliah: pre-Islamic age, by Yahya W. al-Jubury.
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -89,12 +122,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Bibliography: p. 119-127.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Includes indexes.
+			Includes bibliographical references (pages 119-127).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -119,18 +147,29 @@
 			Arabian Peninsula
 		</subfield>
 		<subfield code="x">
-			Social life and customs.
+			Social life and customs
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="650">
+	<datafield ind1=" " ind2="7" tag="650">
 		<subfield code="a">
-			Arabs
+			Manners and customs.
 		</subfield>
-		<subfield code="x">
-			History
+		<subfield code="2">
+			fast
 		</subfield>
-		<subfield code="y">
-			To 622.
+		<subfield code="0">
+			(OCoLC)fst01007815
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Arabian Peninsula.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01240131
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -146,12 +185,21 @@
 			Arabic Collections Online.
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="752">
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
+			Online version:
+		</subfield>
 		<subfield code="a">
-			Iraq
+			Jubūrī, Yaḥyá.
+		</subfield>
+		<subfield code="t">
+			Jāhilīyah.
 		</subfield>
 		<subfield code="d">
-			Baghdad.
+			Baghdād : Maṭbʻat al-Maʻārif, 1968
+		</subfield>
+		<subfield code="w">
+			(OCoLC)576962093
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
@@ -159,10 +207,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Jubūrī, Yaḥyá.
+			Jubūrī, Yaḥyá.
 		</subfield>
 		<subfield code="t">
-			al-Jāhilīyah
+			al-Jāhilīyah
 		</subfield>
 		<subfield code="w">
 			(NNU)001678864
@@ -174,6 +222,42 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/w0vt4f83
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			جبوري، يحيى.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			الجاهلية :
+		</subfield>
+		<subfield code="b">
+			مقدمة في الحياة العربية لدراسة الأدب الجاهلي /
+		</subfield>
+		<subfield code="c">
+			يحيى الجبوري.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			مطبعة المعارف،
+		</subfield>
+		<subfield code="c">
+			1968.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

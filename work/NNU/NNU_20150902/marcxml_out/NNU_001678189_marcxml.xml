@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01203nam a2200277   4500
+		01666nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		001678189
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1964    iq      o     000 0cara  
+		151105s1964    iq      o     000 0cara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -29,28 +29,61 @@
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">
-			Amīnī, Muḥammad Hādī.
+			a-iq---
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			DS79.9.N4
+		</subfield>
+		<subfield code="b">
+			A8 1964
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Amīnī, Muḥammad Hādī.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Muʻjam rijāl al-fikr wa-al-adab fī al-Najaf
+			Muʻjam rijāl al-fikr wa-al-adab fī al-Najaf
 		</subfield>
 		<subfield code="h">
 			[electronic resource] :
 		</subfield>
 		<subfield code="b">
-			khilāl alf ʻām. [al-Ṭabʻah 1].
+			khilāl alf ʻām /
+		</subfield>
+		<subfield code="c">
+			Muḥammad Hādī al-Amīnī
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			[al-Ṭabʻah 1].
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			al-Najaf,
+			al-Najaf :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat al-Ādāb,
+			Maṭbaʻat al-Ādāb,
 		</subfield>
 		<subfield code="c">
 			1964.
@@ -122,10 +155,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Amīnī, Muḥammad Hādī.
+			Amīnī, Muḥammad Hādī.
 		</subfield>
 		<subfield code="t">
-			Muʻjam rijāl al-fikr wa-al-adab fī al-Najaf
+			Muʻjam rijāl al-fikr wa-al-adab fī al-Najaf
 		</subfield>
 		<subfield code="w">
 			(NNU)001678189
@@ -137,6 +170,50 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/5dv41rm6
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			اميني، محمد هادي.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			معجم رجال الفكر والادب في النجف :
+		</subfield>
+		<subfield code="b">
+			خلال الف عام /
+		</subfield>
+		<subfield code="c">
+			محمد هادي الاميني
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			[الطبعة 1].
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			النجف :
+		</subfield>
+		<subfield code="b">
+			مطبعة الاداب،
+		</subfield>
+		<subfield code="c">
+			1964.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -165,9 +242,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001306
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

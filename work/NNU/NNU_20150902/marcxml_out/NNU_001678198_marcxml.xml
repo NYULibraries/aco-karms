@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01194nam a2200289   4500
+		01563nam a2200349   4500
 	</leader>
 	<controlfield tag="001">
 		001678198
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1896    le      ob    000 0 ara d
+		151105s1896    le      ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -34,36 +34,56 @@
 			a-le---
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			Aswad, Ibrāhīm,
+			DS80.9
+		</subfield>
+		<subfield code="b">
+			.A7 1896
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Aswad, Ibrāhīm,
 		</subfield>
 		<subfield code="d">
-			b. 1855.
+			1855-
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Dhakhāʼir Lubnān
+			Dhakhāʼir Lubnān
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Kitāb Dhakhāʼir Lubnān
+			Kitāb Dhakhāʼir Lubnān
 		</subfield>
 		<subfield code="h">
 			[electronic resource] /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Ibrāhīm Bik al-Aswad.
+			taʼlīf Ibrāhīm Bik al-Aswad.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Baʻabdā, Lubnān :
+			Baʻabdā, Lubnān :
 		</subfield>
 		<subfield code="b">
-			al-Maṭbaʻah al-ʻUthmānīyah,
+			al-Maṭbaʻah al-ʻUthmānīyah,
 		</subfield>
 		<subfield code="c">
 			1896.
@@ -106,7 +126,7 @@
 			Lebanon
 		</subfield>
 		<subfield code="x">
-			History.
+			History
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -127,10 +147,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Aswad, Ibrāhīm, b. 1855.
+			Aswad, Ibrāhīm, 1855-
 		</subfield>
 		<subfield code="t">
-			Kitāb Dhakhāʼir Lubnān
+			Kitāb Dhakhāʼir Lubnān
 		</subfield>
 		<subfield code="w">
 			(NNU)001678198
@@ -139,6 +159,50 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/kh1895z5
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			اسود، ابراهيم،
+		</subfield>
+		<subfield code="d">
+			1855-
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02/
+		</subfield>
+		<subfield code="a">
+			ذخائر لبنان
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-03/
+		</subfield>
+		<subfield code="a">
+			كتاب ذخائر لبنان/
+		</subfield>
+		<subfield code="c">
+			تأليف ابراهيم بك الاسود.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			بعبدا، لبنان :
+		</subfield>
+		<subfield code="b">
+			المطبعة العثمانية،
+		</subfield>
+		<subfield code="c">
+			1896.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -167,9 +231,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001310
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

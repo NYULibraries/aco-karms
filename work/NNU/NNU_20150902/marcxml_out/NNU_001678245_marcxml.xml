@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01367nam a2200277   4500
+		02215nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		001678245
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1925    ua ab   o     001 0 arard
+		151105s1925    ua ab   o     001 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,40 +25,68 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			Abī Rāshid, Ḥannā.
+			DS94.8.D8
+		</subfield>
+		<subfield code="b">
+			A2 1925
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="082">
+		<subfield code="a">
+			457.9
+		</subfield>
+		<subfield code="b">
+			4563
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Abī Rāshid, Ḥannā.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Jabal al-Durūz
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="a">
+			Jabal al-Durūz :
 		</subfield>
 		<subfield code="b">
-			baḥth ʻām, fī tārīkh shuʻūbihi wa-akhlāqihim wa-nasabihim wa-ʻādātihim wa-iʻtiqādātihim wa-nawādirahim wa-ashʻārahum wa-āthārahum wa-ḥurūbahum maʻa ṣaḥīfat aʻmal zaʻīmahum al-ḥarbī Sulṭān Bāshā al-Aṭrash ... /
+			baḥth ʻām, fī tārīkh shuʻūbihi wa-akhlāqihim wa-nasabihim wa-ʻādātihim wa-iʻtiqādātihim wa-nawādirahim wa-ashʻārahum wa-āthārahum wa-ḥurūbahum maʻa ṣaḥīfat aʻmal zaʻīmahum al-ḥarbī Sulṭān Bāshā al-Aṭrash ... /
 		</subfield>
 		<subfield code="c">
-			bi-qalam Ḥannā Abī Rāshid.
+			bi-qalam Ḥannā Abī Rāshid.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Ṭabʻah 1.
+			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Miṣr :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			Maktabat Zīdān al-ʻumūmīyah,
+			Maktabat Zīdān al-ʻumūmīyah,
 		</subfield>
 		<subfield code="c">
 			1925.
@@ -66,10 +94,34 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (340 p.) :
+			online resource (340 pages) :
 		</subfield>
 		<subfield code="b">
-			ill., maps
+			illustrations, maps
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -104,7 +156,29 @@
 			Druzes
 		</subfield>
 		<subfield code="x">
+			History
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Druzes.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00899110
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
 			History.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411628
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -125,10 +199,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Abī Rāshid, Ḥannā.
+			Abī Rāshid, Ḥannā.
 		</subfield>
 		<subfield code="t">
-			Jabal al-Durūz
+			Jabal al-Durūz
 		</subfield>
 		<subfield code="w">
 			(NNU)001678245
@@ -137,6 +211,50 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/m63xsn2f
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			ابي راشد، حنا.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			جبل الدروز :
+		</subfield>
+		<subfield code="b">
+			بحث عام، في تاريخ شعوبه واخلاقهم ونسبهم وعاداتهم واعتقاداتهم ونوادرهم واشعارهم وآثارهم وحروبهم مع صحيفة اعمل زعيمهم الحربي سلطان باشا الاطرش ... /
+		</subfield>
+		<subfield code="c">
+			بقلم حنا ابي راشد.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			مكتبة زيدان العمومية،
+		</subfield>
+		<subfield code="c">
+			1925.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -165,9 +283,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001326
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

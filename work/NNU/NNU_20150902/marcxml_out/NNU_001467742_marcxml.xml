@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01627nam a2200361   4500
+		01806nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		001467742
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1951    sy      ob    001 0 ara d
+		151105s1951    sy      ob    001 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -37,12 +40,12 @@
 			fre
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">
+			a-sy---
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			DS99.A56
 		</subfield>
@@ -66,13 +69,10 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			Ḥalab, al-jānib al-lughawī min al-kamilah
-		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+			Ḥalab, al-jānib al-lughawī min al-kamilah /
 		</subfield>
 		<subfield code="c">
-			Khayr al-Dīn al-Asadī.
+			Khayr al-Dīn al-Asadī.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="5" tag="246">
@@ -85,10 +85,10 @@
 			880-03
 		</subfield>
 		<subfield code="a">
-			Ḥalab :
+			Ḥalab :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat al-Ḍād,
+			Maṭbaʻat al-Ḍād,
 		</subfield>
 		<subfield code="c">
 			[1951?]
@@ -96,7 +96,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (223, 8 p.)
+			online resource (223, 8 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -136,6 +160,20 @@
 			Aleppo (Syria)
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Syria
+		</subfield>
+		<subfield code="z">
+			Aleppo.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01213345
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -157,7 +195,7 @@
 			Asadī, Khayr al-Dīn, 1900-1971.
 		</subfield>
 		<subfield code="t">
-			Ḥalab, al-jānib al-lughawī min al-kamilah
+			Ḥalab, al-jānib al-lughawī min al-kamilah
 		</subfield>
 		<subfield code="w">
 			(NNU)001467742
@@ -173,7 +211,10 @@
 			100-01/
 		</subfield>
 		<subfield code="a">
-			أسدي، عير الدين.
+			أسدي، عير الدين،
+		</subfield>
+		<subfield code="d">
+			1900-1971.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">

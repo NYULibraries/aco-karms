@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01149nam a2200265   4500
+		01942nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		001678275
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007q19601969sy      o     000 0 ara d
+		151105s196u    sy      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,32 +25,54 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">
+			a-sy---
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			DS99.D3
+		</subfield>
+		<subfield code="b">
+			A3 1960z
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			ʻĀdil, Fuʼād.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Mujtamaʻ al-Shāmī
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			al-Mujtamaʻ al-Shāmī /
 		</subfield>
 		<subfield code="c">
-			bi-qalam Fuʼād ʻĀdil.
+			bi-qalam Fuʼād ʻĀdil.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[Damascus] :
+			[Dimashq] :
 		</subfield>
 		<subfield code="b">
-			Wizārat al-Thaqāfah wa-al-Irshād al-Qawmī,
+			Wizārat al-Thaqāfah wa-al-Irshād al-Qawmī,
 		</subfield>
 		<subfield code="c">
 			[196-?]
@@ -58,12 +80,39 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (49 p.)
+			online resource (49 pages)
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">
-			Silsilat al-Thaqāfah al-Shaʻbīyah ;
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Silsilat al-Thaqāfah al-Shaʻbīyah ;
 		</subfield>
 		<subfield code="v">
 			7
@@ -99,6 +148,31 @@
 			Social life and customs.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Manners and customs.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01007815.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Syria
+		</subfield>
+		<subfield code="z">
+			Damascus.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01207112.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -120,7 +194,7 @@
 			ʻĀdil, Fuʼād.
 		</subfield>
 		<subfield code="t">
-			al-Mujtamaʻ al-Shāmī
+			al-Mujtamaʻ al-Shāmī
 		</subfield>
 		<subfield code="w">
 			(NNU)001678275
@@ -129,6 +203,72 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/zgmsbgb0
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			عادل، فؤاد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			المجتمع الشامي /
+		</subfield>
+		<subfield code="c">
+			بقلم فؤاد عادل.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			[دمشق] :
+		</subfield>
+		<subfield code="b">
+			وزارة الثقافة والإرشاد القومي،
+		</subfield>
+		<subfield code="c">
+			[-١٩٦؟]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-04/
+		</subfield>
+		<subfield code="a">
+			سلسلة الثقافة الشعبية ؛
+		</subfield>
+		<subfield code="v">
+			٧
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Silsilat al-Thaqāfah al-shaʻbīyah ; Damascus (Syria) ;
+		</subfield>
+		<subfield code="v">
+			7.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-05/
+		</subfield>
+		<subfield code="a">
+			سلسلة الثقافة الشعبية ؛ دمشق (سوريا) ;
+		</subfield>
+		<subfield code="v">
+			7.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -157,9 +297,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001351
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)(ERROR-SERIES)
 		</subfield>
 	</datafield>
 </record>

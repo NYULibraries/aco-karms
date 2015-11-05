@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01204nam a2200265   4500
+		01845nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		001678575
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1967    iq      ob    000 0bara d
+		151105s1967    iq      ob    000 0bara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,32 +25,49 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			Luṭfī, ʻAbd al-Majīd.
+			DS238.A6
+		</subfield>
+		<subfield code="b">
+			L8 1967
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Luṭfī, ʻAbd al-Majīd.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Imām ʻAlī rajul al-Islām al-mukhallad
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			al-Imām ʻAlī rajul al-Islām al-mukhallad /
 		</subfield>
 		<subfield code="c">
-			ʻAbd al-Majīd Luṭfī ; taḥqīq al-Lajnah.
+			ʻAbd al-Majīd Luṭfī ; taḥqīq al-Lajnah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Najaf :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat al-Nuʻmān,
+			Maṭbaʻat al-Nuʻmān,
 		</subfield>
 		<subfield code="c">
 			1967.
@@ -58,7 +75,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (228 p.)
+			online resource (228 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -68,7 +109,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Includes bibliographical references (p. 223).
+			Includes bibliographical references (page 223).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -89,14 +130,34 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			ʻAlī ibn Abī Ṭālib,
+			ʻAlī ibn Abī Ṭālib,
 		</subfield>
 		<subfield code="c">
 			Caliph,
 		</subfield>
 		<subfield code="d">
-			600 (ca.)-661.
+			approximately 600-661.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="7" tag="600">
+		<subfield code="a">
+			ʻAlī ibn Abī Ṭālib,
+		</subfield>
+		<subfield code="c">
+			Caliph,
+		</subfield>
+		<subfield code="d">
+			approximately 600-661.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01804105.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -117,10 +178,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Luṭfī, ʻAbd al-Majīd.
+			Luṭfī, ʻAbd al-Majīd.
 		</subfield>
 		<subfield code="t">
-			al-Imām ʻAlī rajul al-Islām al-mukhallad
+			al-Imām ʻAlī rajul al-Islām al-mukhallad
 		</subfield>
 		<subfield code="w">
 			(NNU)001678575
@@ -129,6 +190,53 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/59zw3tzh
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			لطفي، عبد المجيد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			الامام علي رجل الاسلام المخلد /
+		</subfield>
+		<subfield code="c">
+			عبد المجيد لطفي ؛ تحقيق اللجنة.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			النجف :
+		</subfield>
+		<subfield code="b">
+			مطبعة النعمان،
+		</subfield>
+		<subfield code="c">
+			1967.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">
+			600-04/
+		</subfield>
+		<subfield code="a">
+			علي بن ابي طالب،
+		</subfield>
+		<subfield code="c">
+			Caliph,
+		</subfield>
+		<subfield code="d">
+			approximately 600-661.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -157,9 +265,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001384
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

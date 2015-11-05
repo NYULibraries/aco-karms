@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01289nam a2200313   4500
+		01804nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		001677938
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1953    sy      ob    000 0 ara d
+		151105s1953    sy      ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -36,45 +39,48 @@
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			DS 51
-		</subfield>
-		<subfield code="b">
-			.A4 K45
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2="4" tag="050">
-		<subfield code="a">
 			DS51.I69
 		</subfield>
 		<subfield code="b">
 			K45 1953
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="082">
+		<subfield code="a">
+			956.4
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Khadduri, Majid,
 		</subfield>
 		<subfield code="d">
-			1908-
+			1908-2007.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Qadïyat al-Iskandarūnah
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Qaḍīyat al-Iskandarūnah /
 		</subfield>
 		<subfield code="c">
-			taʼlif Majīd Khaddūrī.
+			taʼlīf Majīd Khaddūrī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Dimashq :
+			Damashq :
 		</subfield>
 		<subfield code="b">
-			al-Maktabah al-Kubrá lil-Taʼlif wa-al Nashr,
+			al-Maktabah al-Kubrá lil-Taʼlīf wa-al-Nashr,
 		</subfield>
 		<subfield code="c">
 			[1953]
@@ -82,7 +88,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (120 (i.e.110) p.)
+			online resource (120 (i.e.110) pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -125,6 +155,31 @@
 			History.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Mediterranean Sea
+		</subfield>
+		<subfield code="z">
+			Gulf of Iskenderun.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01335344.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			History.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411628.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -143,10 +198,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Khadduri, Majid, 1908-
+			Khadduri, Majid, 1908-2007.
 		</subfield>
 		<subfield code="t">
-			Qadïyat al-Iskandarūnah
+			Qaḍīyat al-Iskandarūnah
 		</subfield>
 		<subfield code="w">
 			(NNU)001677938
@@ -155,6 +210,42 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/tqjq2ftn
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			خدوري، مجيد،
+		</subfield>
+		<subfield code="d">
+			1908-2007.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			قضية الاسكندرونة /
+		</subfield>
+		<subfield code="c">
+			تأليف مجيد خدوري.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			دمشق :
+		</subfield>
+		<subfield code="b">
+			المكتبة الكبرى للتأليف والنشر،
+		</subfield>
+		<subfield code="c">
+			[1953]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -183,9 +274,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001435
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01118nam a2200265   4500
+		01896nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		001678211
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1949    le      o     000 0 ara d
+		151105s1949    le      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,19 +25,30 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="050">
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">
+			a-le---
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="050">
 		<subfield code="a">
 			DS86
 		</subfield>
 		<subfield code="b">
-			.C42 1949
+			.C454 1949
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Chamoun, Camille,
 		</subfield>
@@ -46,35 +57,70 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Marāhil al-istiqlāl
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="a">
+			Marāhil al-istiqlāl :
 		</subfield>
 		<subfield code="b">
-			lubnān wa-duwal al-ʻArab fī al-muʼtamārāt al-dawliyah.
+			lubnān wa-duwal al-ʻArab fī al-muʼtamārāt al-dawliyah /
+		</subfield>
+		<subfield code="c">
+			Kamīl Shamʻūn.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Bayrūt :
+			Bayrūt :
 		</subfield>
 		<subfield code="b">
 			Maktabat Sadir,
 		</subfield>
 		<subfield code="c">
-			1949
+			1949.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (351 p.)
+			online resource (351 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
 			Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="520">
+		<subfield code="a">
+			Lebanon; history; politics; government.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -99,7 +145,29 @@
 			Lebanon
 		</subfield>
 		<subfield code="x">
-			Politics and government.
+			Politics and government
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Politics and government
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01919741
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Lebanon.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01206063
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -117,21 +185,80 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Chamoun, Camille, 1900-1987.
+		</subfield>
+		<subfield code="t">
+			Marāhil al-istiqlāl.
+		</subfield>
+		<subfield code="d">
+			Bayrūt : Maktabat Sadir, 1949
+		</subfield>
+		<subfield code="w">
+			(OCoLC)690437787
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
 			Chamoun, Camille, 1900-1987.
 		</subfield>
 		<subfield code="t">
-			Marāhil al-istiqlāl
+			Marāhil al-istiqlāl
 		</subfield>
 		<subfield code="w">
 			(NNU)001678211
+		</subfield>
+		<subfield code="w">
+			(DLC)   90963123
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/qrfj6t3h
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			شمعون، كميل،,
+		</subfield>
+		<subfield code="d">
+			1900-1987.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			مراحل الإستقلال :
+		</subfield>
+		<subfield code="b">
+			لبنان و دول العرب في المؤتمرات الدولية /
+		</subfield>
+		<subfield code="c">
+			كميل شمعون.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			بيروت :
+		</subfield>
+		<subfield code="b">
+			مكتبة صادر،
+		</subfield>
+		<subfield code="c">
+			[1949]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -160,9 +287,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001320
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

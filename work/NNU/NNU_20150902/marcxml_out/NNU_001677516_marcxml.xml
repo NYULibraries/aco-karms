@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01634nam a2200349   4500
+		02694nam a2200505   4500
 	</leader>
 	<controlfield tag="001">
 		001677516
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007r19701850iq      o     000 0 arax 
+		151105r19701850iq      o     000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,11 +25,14 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1="0" ind2="0" tag="050">
 		<subfield code="a">
 			CS2970
 		</subfield>
@@ -38,30 +41,52 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Muḥammad ibn Ḥabīb,
+			Muḥammad ibn Ḥabīb,
 		</subfield>
 		<subfield code="d">
-			d. 860.
+			-860.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Mukhtalaf al-qabāʼil wa-muʼtalafihā
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Mukhtalaf al-qabāʼil wa-muʼtalafihā /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Abī Jaʻfar Muḥammad ibn Ḥabīb al-Baghdādī. Iʻtaná bi-nashrih Fardīnānd Vastinfild.
+			taʼlīf Abī Jaʻfar Muḥammad ibn Ḥabīb al-Baghdādī. Iʻtaná bi-nashrih Fardīnānd Vastinfild.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="5" tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			Kitāb Mukhtalif al-qabāʼil wa-mūtalifihā
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2="0" tag="246">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Kitāb Mukhtalif al-qabāʼil wa-mūtalifihā
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Baghdād,
+			Baghdād :
 		</subfield>
 		<subfield code="b">
-			Maktabat al-Muthanná
+			Maktabat al-Muthanná
 		</subfield>
 		<subfield code="c">
 			[197-?]
@@ -69,7 +94,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (52, viii p.)
+			online resource (52, viii pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -84,7 +133,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			Added t.p.: Über die Gleichheit und Verschiedenheit der [a]rabischen Stämmenamen [von] Muḥammed ben Ḥabib.
+			Added t.p.: Über die Gleichheit und Verschiedenheit der [a]rabischen Stämmenamen [von] Muḥammed ben Ḥabib.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -124,15 +173,35 @@
 			Names, Personal
 		</subfield>
 		<subfield code="x">
+			Arabic
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Names, Personal
+		</subfield>
+		<subfield code="x">
 			Arabic.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01751766
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Wüstenfeld, Ferdinand,
 		</subfield>
 		<subfield code="d">
-			1808-1899.
+			1808-1899,
+		</subfield>
+		<subfield code="e">
+			editor.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -148,9 +217,26 @@
 			Arabic Collections Online.
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="1" tag="740">
+	<datafield ind1="0" ind2=" " tag="740">
 		<subfield code="a">
-			Über die Gleichheit und Verschiedenheit der arabischen Stämmenamen.
+			Über die Gleichheit und Verschiedenheit der arabischen Stämmenamen.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Muḥammad ibn Ḥabīb, -860.
+		</subfield>
+		<subfield code="t">
+			Mukhtalaf al-qabāʼil wa-muʼtalafihā.
+		</subfield>
+		<subfield code="d">
+			Baghdād, Maktabat al-Muthanná [197-?]
+		</subfield>
+		<subfield code="w">
+			(OCoLC)599978068
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
@@ -158,21 +244,81 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Muḥammad ibn Ḥabīb, d. 860.
+			Muḥammad ibn Ḥabīb, -860.
 		</subfield>
 		<subfield code="t">
-			Mukhtalaf al-qabāʼil wa-muʼtalafihā
+			Mukhtalaf al-qabāʼil wa-muʼtalafihā
 		</subfield>
 		<subfield code="w">
 			(NNU)001677516
 		</subfield>
 		<subfield code="w">
-			(DLC)72960552
+			(DLC)   72960552
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/0k6djm4w
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			محمد بن حبيب،,
+		</subfield>
+		<subfield code="d">
+			-860.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			مختلف القبائل ومؤتلفها /
+		</subfield>
+		<subfield code="c">
+			تأليف أبي جعفر محمد بن حبيب البغدادي ؛ اعتنى بنشره فرديناند ڤستنفلد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="5" tag="880">
+		<subfield code="6">
+			246-03/
+		</subfield>
+		<subfield code="a">
+			كتاب مختلف القبائل ومؤتلفها
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2="0" tag="880">
+		<subfield code="6">
+			246-04/
+		</subfield>
+		<subfield code="a">
+			مختلف القبائل ومؤتلفها
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-05/
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			مكتبة المثنى،
+		</subfield>
+		<subfield code="c">
+			[197-?]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-06/
+		</subfield>
+		<subfield code="a">
+			ڤستنفد، فرديناند.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -201,9 +347,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001226
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>
