@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01895nam a2200361   4500
+		01966nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		2796577
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1912    tu      o     000 0 ara d
+		151105s1912    tu      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,13 +41,16 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Khaṭṭ al-jadīd wamanāfiʻuh.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-02
+			880-03
 		</subfield>
 		<subfield code="a">
 			[İstanbul?]
@@ -90,7 +93,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="6">
-			880-03
+			880-04
 		</subfield>
 		<subfield code="a">
 			Its Neşriyat,
@@ -158,7 +161,7 @@
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="810">
 		<subfield code="6">
-			880-04
+			880-05
 		</subfield>
 		<subfield code="a">
 			Tamim-i Maarif ve Islâh-ĭ Huruf Cemiyeti.
@@ -183,9 +186,17 @@
 			تعميم معارف و اصلاح حروف جمعتي.
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الخط الجديد ومنافعه.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-02/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			استنبول؟]
@@ -199,18 +210,18 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			490-03/r
+			490-04/r
 		</subfield>
 		<subfield code="a">
 			تشرياتندن،
 		</subfield>
 		<subfield code="v">
-			عدد 3 
+			عدد 3
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="880">
 		<subfield code="6">
-			810-04/r
+			810-05/r
 		</subfield>
 		<subfield code="a">
 			تعميم معارف و اصلاح حروف جمعتي.
