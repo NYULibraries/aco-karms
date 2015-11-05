@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01318nam a2200289   4500
+		02045nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		001682376
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1954    ti      ob    00  0 ara  
+		151105s1954    ti abc  ob    000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,37 +25,57 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			Maṭwī, Muḥammad al-ʻArūsī.
+			D158
+		</subfield>
+		<subfield code="b">
+			.M26 1954
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Maṭwī, Muḥammad al-ʻArūsī.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Ḥurūb al-Ṣalībīyah fī al-Mashriq wa-al-Maghrib
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			al-Ḥurūb al-ṣalībīyah fī al-mashriq wa-al-maghrib /
 		</subfield>
 		<subfield code="c">
-			Muhammad al-ʻArūsī al-Maṭwī.
+			taʼlīf Muḥammad al-ʻArūsī al-Maṭwī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Ṭabʻah 1.
+			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Tūnis :
+			Tūnis :
 		</subfield>
 		<subfield code="b">
-			Dār al-Kutub al-Sharqīyah,
+			Dār al-Kutab al-Sharqīyah,
 		</subfield>
 		<subfield code="c">
 			1954.
@@ -63,10 +83,34 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (7, 224 p.) :
+			online resource (7, 224 pages) :
 		</subfield>
 		<subfield code="b">
-			illus., ports., maps.
+			illustrations, portraits, maps
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -76,12 +120,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Bibliography: p. 213-218.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			L.C. copy imperfect; p. 137-144 wanting.
+			Includes bibliographical references (pages 213-218).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -106,6 +145,17 @@
 			Crusades.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Crusades.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00884401.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -121,24 +171,85 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Maṭwī, Muḥammad al-ʻArūsī.
+		</subfield>
+		<subfield code="t">
+			Ḥurūb al-ṣalībīyah fī al-mashriq wa-al-maghrib.
+		</subfield>
+		<subfield code="b">
+			al-Ṭabʻah 1.
+		</subfield>
+		<subfield code="d">
+			Tūnis : Dār al-Kutab al-Sharqīyah, 1954
+		</subfield>
+		<subfield code="w">
+			(OCoLC)568385579
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Maṭwī, Muḥammad al-ʻArūsī.
+			Maṭwī, Muḥammad al-ʻArūsī.
 		</subfield>
 		<subfield code="t">
-			al-Ḥurūb al-Ṣalībīyah fī al-Mashriq wa-al-Maghrib
+			al-Ḥurūb al-ṣalībīyah fī al-mashriq wa-al-maghrib
 		</subfield>
 		<subfield code="w">
 			(NNU)001682376
 		</subfield>
 		<subfield code="w">
-			(DLC)59036727
+			(DLC)   59036727
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/7wm37srk
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			مطوي، محمد العروسي.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			الحروب الصليبية في المشرق والمغرب /
+		</subfield>
+		<subfield code="c">
+			محمد العروسي المطوي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			تونس :
+		</subfield>
+		<subfield code="b">
+			دار الكتب الشرقية،
+		</subfield>
+		<subfield code="c">
+			1954.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -167,9 +278,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001235
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)(ERROR-MISC)
 		</subfield>
 	</datafield>
 </record>

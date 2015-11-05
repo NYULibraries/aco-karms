@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01461nam a2200301   4500
+		02361nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		001678280
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1962    sy      o     000 0 araod
+		151105s1962    sy      o     000 0 araod
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,37 +25,54 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">
-			a-Sy---
+			a-sy---
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			DS98.5
+		</subfield>
+		<subfield code="b">
+			.M38 1962
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Maḥāsinī, Sulaymān ibn Aḥmad.
+			Maḥāsinī, Sulaymān ibn Aḥmad.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Ḥulūl al-taʻab wa-al-ālām bi-wuṣūl Abī al-Dhahab ila ́Dimashq al-Sham
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Ḥulūl al-taʻab wa-al-ālām bi-wuṣūl Abī al-Dhahab ila ́Dimashq al-Sham /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Sulaymān ibn Aḥmad al-Maḥāsinī ;taḥqīq Ṣalāḥal-Dīn al-Munajjid.
+			taʼlīf Sulaymān ibn Aḥmad al-Maḥāsinī ; taḥqīq Ṣalāḥal-Dīn al-Munajjid.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[Damascus?] :
+			[Bayrūt] :
 		</subfield>
 		<subfield code="b">
-			Manshūrāt Dār al-Kitāb al-Jadīd,
+			Manshūrāt Dār al-Kitāb al-Jadīd,
 		</subfield>
 		<subfield code="c">
 			1962.
@@ -63,12 +80,36 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (35 p.)
+			online resource (35 pages)
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">
-			Silsilat al-nuṣūṣ al-qadīmah ;
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="a">
+			Silsilat al-nuṣūṣ al-qadīmah ;
 		</subfield>
 		<subfield code="v">
 			2
@@ -107,17 +148,53 @@
 			1516-1918.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Syria.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01208757.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="648">
+		<subfield code="a">
+			1516 - 1918
+		</subfield>
+		<subfield code="2">
+			fast.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			History.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411628.
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Abu al-Dhahab, Muhammad Bey,
 		</subfield>
 		<subfield code="d">
-			d. 1775.
+			-1775.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Munajjid, Ṣalāḥ al-Dīn.
+			Munajjid, Ṣalāḥ al-Dīn.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -138,10 +215,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Maḥāsinī, Sulaymān ibn Aḥmad.
+			Maḥāsinī, Sulaymān ibn Aḥmad.
 		</subfield>
 		<subfield code="t">
-			Ḥulūl al-taʻab wa-al-ālām bi-wuṣūl Abī al-Dhahab ila ́Dimashq al-Sham
+			Ḥulūl al-taʻab wa-al-ālām bi-wuṣūl Abī al-Dhahab ila ́Dimashq al-Sham
 		</subfield>
 		<subfield code="w">
 			(NNU)001678280
@@ -150,6 +227,66 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/sxksn31q
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			محاسني، سليمان بن أحمد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			حلول التعب والآلام بوصول أبي الذهب إلى دمشق الشام /
+		</subfield>
+		<subfield code="c">
+			تأليف سليمان بن أحمد المحاسني ؛ تحقيق صلاح الدين المنجد.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			[بيروت] :
+		</subfield>
+		<subfield code="b">
+			منشورات دار الكتاب الجديد،
+		</subfield>
+		<subfield code="c">
+			١٩٦٢.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/
+		</subfield>
+		<subfield code="a">
+			ابو الذهب، محمد بي،
+		</subfield>
+		<subfield code="d">
+			1775.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/
+		</subfield>
+		<subfield code="a">
+			منجد، صلاح الدين.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="a">
+			Silsilat al-nuṣūṣ al-qadīmah ;
+		</subfield>
+		<subfield code="v">
+			2.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -180,7 +317,7 @@
 			nyu_aco001354
 		</subfield>
 		<subfield code="e">
-			(ERROR-880)(ERROR-SERIES)
+			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02511nam a2200433   4500
+		03635nam a2200625   4500
 	</leader>
 	<controlfield tag="001">
 		001766536
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1969    ir      o    |||| ||ara|d
+		151105s1969    ir a    ob    001 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,19 +25,22 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
+	<datafield ind1="1" ind2=" " tag="041">
+		<subfield code="a">
+			araper
 		</subfield>
-		<subfield code="c">
-			(4
+		<subfield code="h">
+			ara
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			QA444
 		</subfield>
@@ -50,10 +53,10 @@
 			880-01
 		</subfield>
 		<subfield code="a">
-			Ibn Ṭāhir al-Baghdādī, ʻAbd al-Qāhir,
+			Ibn Ṭāhir al-Baghdādī, ʻAbd al-Qāhir,
 		</subfield>
 		<subfield code="d">
-			d. 1037.
+			-1037.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
@@ -61,7 +64,10 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			Īḍāḥ ʻan uṣūl ṣināʻat al-massāḥ
+			Īḍāḥ ʻan uṣūl ṣināʻat al-massāḥ.
+		</subfield>
+		<subfield code="l">
+			Arabic &amp; Persian
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
@@ -69,24 +75,29 @@
 			880-03
 		</subfield>
 		<subfield code="a">
-			Kitāb al-Īḍāḥ ʻan uṣūl ṣināʻat al-massāḥ
-		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+			Kitāb al-Īḍāḥ ʻan uṣūl ṣināʻat al-massāḥ /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Abū Manṣūr ʻAbd al-Qāhir ibn Ṭāhir ... Tamīmī ; tarjumah-i Abū al-Futūḥ Muntajab al-Dīn Asʻad ibn Maḥmūd Iṣfahānī.
+			taʼlīf Abū Manṣūr ʻAbd al-Qāhir ibn Ṭāhir ibn Muḥammad ibn ʻAbd Allāh Tamīmī ; tarjamahu Abū al-Futūḥ Muntajab al-Dīn Asʻad ibn Maḥmūd Iṣfahānī.
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="260">
+	<datafield ind1="3" ind2="0" tag="246">
 		<subfield code="6">
 			880-04
 		</subfield>
 		<subfield code="a">
-			[Tihrān] :
+			Īḍāḥ ʻan uṣūl ṣināʻat al-massāh
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			[Tehran] :
 		</subfield>
 		<subfield code="b">
-			Intishārāt-i Bunyād-i Farhang-i Īrān,
+			Bunyād-i Farhang-i Īrān,
 		</subfield>
 		<subfield code="c">
 			[1347 i.e. 1969]
@@ -94,18 +105,34 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource ([8], 182 p.)
+			online resource ([8], 182 pages) :
+		</subfield>
+		<subfield code="b">
+			illustrations
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="490">
-		<subfield code="6">
-			880-05
-		</subfield>
+	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">
-			Intishārāt-i Bunyād-i Farhang-i Īrān ;
+			text
 		</subfield>
-		<subfield code="v">
-			51
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
@@ -113,7 +140,18 @@
 			880-06
 		</subfield>
 		<subfield code="a">
-			ʻIlm dar Īrān ;
+			Intishārāt-i Bunyād-i Farhang-i Īrān ;
+		</subfield>
+		<subfield code="v">
+			51
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-07
+		</subfield>
+		<subfield code="a">
+			ʻIlm dar Īrān ;
 		</subfield>
 		<subfield code="v">
 			8
@@ -141,9 +179,71 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="546">
+		<subfield code="a">
+			Arabic and Persian texts.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="504">
+		<subfield code="a">
+			Includes bibliographical references and index.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">
-			Surveying.
+			Mathematics, Arab.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Geometry
+		</subfield>
+		<subfield code="v">
+			Early works to 1800.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Geometry.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00940864.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Mathematics, Arab.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01012356.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Early works.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411636.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-08
+		</subfield>
+		<subfield code="a">
+			Abū al-Futūḥ al-Iṣbahānī al-ʻIjlī, Asʻad ibn Maḥmūd,
+		</subfield>
+		<subfield code="d">
+			1120 or 1121-1203.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -159,18 +259,37 @@
 			Arabic Collections Online.
 		</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-09
+		</subfield>
+		<subfield code="a">
+			Īḍāḥ ʻan uṣūl ṣināʻat al-massāh
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="752">
+		<subfield code="a">
+			Iran
+		</subfield>
+		<subfield code="d">
+			Tehran.
+		</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ibn Ṭāhir al-Baghdādī, ʻAbd al-Qāhir, d. 1037.
+			Ibn Ṭāhir al-Baghdādī, ʻAbd al-Qāhir, -1037.
 		</subfield>
 		<subfield code="t">
-			Kitāb al-Īḍāḥ ʻan uṣūl ṣināʻat al-massāḥ
+			Kitāb al-Īḍāḥ ʻan uṣūl ṣināʻat al-massāḥ
 		</subfield>
 		<subfield code="w">
 			(NNU)001766536
+		</subfield>
+		<subfield code="w">
+			(DLC)   99430657
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
@@ -183,7 +302,10 @@
 			100-01/
 		</subfield>
 		<subfield code="a">
-			بن طاهر البغدادى، عبد القاهر.
+			ابن طاهر البغدادي، عبد القاهر،
+		</subfield>
+		<subfield code="d">
+			-1037.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -202,32 +324,29 @@
 			كتاب الايضاح عن اصول صناعة المساح /
 		</subfield>
 		<subfield code="c">
-			تأليف ابو منصور عبد القاهر بن طاهر ... تميمى ؛ ترجمه ابو الفتوح منتجب الدين اسعد بن محمود اصفهانى.
+			تأليف ابو منصور عبد القاهر بن طاهر بن محمد بن عبد الله تميمي ؛ ترجمه ابو الفتوح منتجب الدين اسعد بن محمود اصفهاني.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2="0" tag="880">
+		<subfield code="6">
+			246-04/
+		</subfield>
+		<subfield code="a">
+			‏إيضاح عن اصول صناعة المساح
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-04/
+			260-05/
 		</subfield>
 		<subfield code="a">
-			[تهران] :
+			[طهران] :
 		</subfield>
 		<subfield code="b">
-			انتشارات بنياد فرهن� ايران،
+			بنيادا فرهنگا ايران،
 		</subfield>
 		<subfield code="c">
-			١٣٤٧.
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
-			490-05/
-		</subfield>
-		<subfield code="a">
-			انتشارت بنياد فرهن� ايران ؛
-		</subfield>
-		<subfield code="v">
-			٥١
+			[1347 i.e. 1969]
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
@@ -235,15 +354,45 @@
 			490-06/
 		</subfield>
 		<subfield code="a">
+			انتشارات بنياد فرهنگ ايران ؛
+		</subfield>
+		<subfield code="v">
+			51
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-07/
+		</subfield>
+		<subfield code="a">
 			علم در ايران ؛
 		</subfield>
 		<subfield code="v">
-			٨
+			8
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-08/
+		</subfield>
+		<subfield code="a">
+			ابو الفتوح اصفهاني، اسعد بن محمود،,
+		</subfield>
+		<subfield code="d">
+			1120 or 1121-1203.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			740-09/
+		</subfield>
+		<subfield code="a">
+			‏أيضاح عن اصول صناعة المساح.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
 		<subfield code="6">
-			880-07
+			880-10
 		</subfield>
 		<subfield code="a">
 			Intishārāt-i Bunyād-i Farhang-i Īrān ;
@@ -254,18 +403,18 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
 		<subfield code="6">
-			830-07/
+			830-10/
 		</subfield>
 		<subfield code="a">
-			انتشارت بنياد فرهن� ايران ؛
+			انتشارات بنياد فرهنگ ايران ;
 		</subfield>
 		<subfield code="v">
-			٥١
+			51.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
 		<subfield code="6">
-			880-08
+			880-11
 		</subfield>
 		<subfield code="a">
 			ʻIlm dar Īrān ;
@@ -276,13 +425,13 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
 		<subfield code="6">
-			830-08/
+			830-11/
 		</subfield>
 		<subfield code="a">
-			علم در ايران ؛
+			علم در ايران ;
 		</subfield>
 		<subfield code="v">
-			٨
+			8.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -311,9 +460,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001403
-		</subfield>
-		<subfield code="e">
-			(ERROR-MISC)
 		</subfield>
 	</datafield>
 </record>

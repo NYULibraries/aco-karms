@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01810nam a2200337   4500
+		02981nam a2200493   4500
 	</leader>
 	<controlfield tag="001">
 		001678564
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1951    ae      o     000 0 ara  
+		151105s1951    ae      o     000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,11 +25,19 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="050">
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">
+			ma-----
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="050">
 		<subfield code="a">
 			DS234
 		</subfield>
@@ -38,41 +46,47 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Ṭabarī,
+			Ṭabarī,
 		</subfield>
 		<subfield code="d">
 			838?-923.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Tārīkh al-rusul wa-al-mulūk.
+			Tārīkh al-rusul wa-al-mulūk.
 		</subfield>
 		<subfield code="k">
-			Selections.
-		</subfield>
-		<subfield code="f">
-			1951
+			Selections
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Muntakhabāt min al-juzʼ al-thālith min Tārīkh al-umam wa-al-mulūk
+		<subfield code="6">
+			880-03
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Muntakhabāt min al-juzʼ al-thālith min Tārīkh al-umam wa-al-mulūk /
 		</subfield>
 		<subfield code="c">
-			li-Abī Jaʻfar Muḥammad ibn Jarīr al-Ṭabarī ; iʻtaná bi-iltiqāṭiha wa-nashrihā Māriyūs Kānār.
+			li-Abī Jaʻfar Muḥammad ibn Jarīr al-Ṭabarī ; iʻtaná bi-iltiqāṭiha wa-nashrihā Māriyūs Kānār.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			al-Jazāʼir :
+			al-Jazāʼir :
 		</subfield>
 		<subfield code="b">
-			al-Maṭbaʻah al-Rasmīyah,
+			al-Maṭbaʻah al-Rasmīyah,
 		</subfield>
 		<subfield code="c">
 			1951.
@@ -80,12 +94,39 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (159 p.)
+			online resource (159 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Maktabat Maʻhad al-Durūs al-ʻUlyā al-Islāmīyah bi-al-Jazāʼir ;
+			Maktabat Maʻhad al-Durūs al-ʻUlyā al-Islāmīyah bi-al-Jazāʼir ;
 		</subfield>
 		<subfield code="v">
 			5
@@ -93,7 +134,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			Title on back cover: Recueil de textes relatifs au califat abbaside d'Al-Mu'tacim à Al-Mu'tamid (218-279 -- 833-892).
+			Title on back cover: Recueil de textes relatifs au califat abbaside d'Al-Mu'tacim à Al-Mu'tamid (218-279 -- 833-892).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -126,7 +167,32 @@
 			History.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Arab countries.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01240128.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			History.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411628.
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Canard, Marius.
 		</subfield>
@@ -146,7 +212,27 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
 		<subfield code="a">
-			Recueil de textes relatifs au califat abbaside d'Al-Mu'tacim à Al-Mu'tamid (218-279 -- 833-892).
+			Recueil de textes relatifs au califat abbaside d'Al-Mu'tacim à Al-Mu'tamid (218-279 -- 833-892)
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Ṭabarī, 838?-923.
+		</subfield>
+		<subfield code="s">
+			Tārīkh al-rusul wa-al-mulūk. Selections. 1951.
+		</subfield>
+		<subfield code="t">
+			Muntakhabāt min al-juzʼ al-thālith min Tārīkh al-umam wa-al-mulūk.
+		</subfield>
+		<subfield code="d">
+			al-Jazāʼir : al-Maṭbaʻah al-Rasmīyah, 1951
+		</subfield>
+		<subfield code="w">
+			(OCoLC)627052847
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
@@ -154,10 +240,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ṭabarī, 838?-923.
+			Ṭabarī, 838?-923.
 		</subfield>
 		<subfield code="t">
-			Muntakhabāt min al-juzʼ al-thālith min Tārīkh al-umam wa-al-mulūk
+			Muntakhabāt min al-juzʼ al-thālith min Tārīkh al-umam wa-al-mulūk
 		</subfield>
 		<subfield code="w">
 			(NNU)001678564
@@ -166,17 +252,83 @@
 			(DLC)ne 63002022
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="a">
-			Bibliothèque de l'institut d'études supérieures islamiques d'Alger ;
-		</subfield>
-		<subfield code="v">
-			5.
-		</subfield>
-	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/6djh9ztw
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			طبري،
+		</subfield>
+		<subfield code="d">
+			838?-923.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02/
+		</subfield>
+		<subfield code="a">
+			تاريخ الرسل والملوك.
+		</subfield>
+		<subfield code="k">
+			سلتنس
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-03/
+		</subfield>
+		<subfield code="a">
+			منتخبات من الجزء الثالث من تاريخ المم والملوك /
+		</subfield>
+		<subfield code="c">
+			لابي جعفر محمد بن جرير الطبري ؛ اعتنى بالتقاطه ونشرها ماريوس كانار.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			الجزائر :
+		</subfield>
+		<subfield code="b">
+			المطبعة الرسمية،
+		</subfield>
+		<subfield code="c">
+			1951.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-05/
+		</subfield>
+		<subfield code="a">
+			مكتبة معهد الدروس العليا الاسلامية بالجزائر ؛
+		</subfield>
+		<subfield code="v">
+			5
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-06/
+		</subfield>
+		<subfield code="a">
+			كانار، ماريوس.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="a">
+			Bibliothèque de l'Institut d'études supérieures islamiques d'Alger ;
+		</subfield>
+		<subfield code="v">
+			5.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

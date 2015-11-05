@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01172nam a2200265   4500
+		02178nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		001701113
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1948    le      o     00  0 ara  
+		151105s1948    le      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,11 +25,38 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">
+			a-sy---
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			DS94
+		</subfield>
+		<subfield code="b">
+			.R5 1948
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="082">
+		<subfield code="a">
+			956.9104
+		</subfield>
+		<subfield code="2">
+			21
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Rihani, Ameen Fares,
 		</subfield>
@@ -38,27 +65,36 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Nakabāt
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="a">
+			al-Nakabāt :
 		</subfield>
 		<subfield code="b">
-			hulāṣat tārīkh Sūrīyah mundhu al-ʻahd al-awwal baʻda al-Ṭūfān ilá ʻahd al-jumhūrīyah bi-Lubnān.
+			khulāṣah tārīkh Sūrīyah mundhu al-ʻahd al-awwal baʻd al-ṭūfān ilā ʻahd al-Jumhūrīyah bi-Lubnān /
+		</subfield>
+		<subfield code="c">
+			Amīn Rīḥānī ; ashraf ʻalā taṣḥiḥuhā wa ṭabʻuhā Albirt al-Riḥānī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Ṭabʻah 2.
+			al-Ṭabʻah 2.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Bayrūt :
+			Bayrūt :
 		</subfield>
 		<subfield code="b">
-			Maṭābiʻ Ṣādir Riḥānī,
+			[publisher not identified],
 		</subfield>
 		<subfield code="c">
 			1948.
@@ -66,7 +102,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (147 .p.)
+			online resource (147 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -93,10 +153,51 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
 		<subfield code="a">
-			Lebanon
+			Syria
 		</subfield>
 		<subfield code="x">
+			History
+		</subfield>
+		<subfield code="y">
+			20th century.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Syria.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01208757.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="648">
+		<subfield code="a">
+			1900 - 1999
+		</subfield>
+		<subfield code="2">
+			fast.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
 			History.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411628.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Rīḥānī, Albirt.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -120,7 +221,7 @@
 			Rihani, Ameen Fares, 1876-1940.
 		</subfield>
 		<subfield code="t">
-			al-Nakabāt
+			al-Nakabāt
 		</subfield>
 		<subfield code="w">
 			(NNU)001701113
@@ -129,6 +230,61 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/7m0cg1kq
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			ريحاني، امين فارس،
+		</subfield>
+		<subfield code="d">
+			1876-1940.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			النكبات :
+		</subfield>
+		<subfield code="b">
+			خلاصة تاريخ سورية منذ العهد الاول بعد الطوفان الى عهد الجمهورية بلبنان /
+		</subfield>
+		<subfield code="c">
+			امين ريحاني ؛ اشرف على تصحيحها و طبعها البرت الريحاني.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			الطبعة 2.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			بيروت :
+		</subfield>
+		<subfield code="b">
+			[publisher not identified],
+		</subfield>
+		<subfield code="c">
+			1948.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/
+		</subfield>
+		<subfield code="a">
+			ريحاني، البرت.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -157,9 +313,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001325
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)(ERROR-MISC)
 		</subfield>
 	</datafield>
 </record>

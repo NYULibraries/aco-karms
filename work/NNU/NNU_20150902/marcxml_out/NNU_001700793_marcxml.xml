@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01718nam a2200337   4500
+		03033nam a2200517   4500
 	</leader>
 	<controlfield tag="001">
 		001700793
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1934    ae      ob    000 0bara d
+		151105s1934    ae      ob    001 0bara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -42,7 +45,15 @@
 			a-sy---
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			DS97
+		</subfield>
+		<subfield code="b">
+			.C35 1934
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="050">
 		<subfield code="a">
 			DS97
 		</subfield>
@@ -50,28 +61,53 @@
 			.C35
 		</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="4" tag="082">
+		<subfield code="a">
+			956.8
+		</subfield>
+		<subfield code="b">
+			C16s
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Canard, Marius.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Nukhab tārīkhīyah wa-adabīyah jāmiʻah li-akhbār al-Amīr Sayf al-Dawlah al-Ḥamdānī al-tuwuffī sanat 356 H.-967 M
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Nukhab tārīkhīyah wa-adabīyah jāmiʻah li-akhbār al-Amīr Sayf al-Dawlah al-Ḥamdānī al-tuwuffī sanat 356 H.-967 M /
 		</subfield>
 		<subfield code="c">
-			Qad iʻtaná bi-iltiqāṭihā wa-sharaḥahā Mārius Kānār.
+			qad iʻtaná bi-iltiqāṭihā wa-sharaḥahā Māryūs Kānār.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="5" tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			Sayf al Daula :
+		</subfield>
+		<subfield code="b">
+			recueil de textes relatifs à l'émir Sayf al Daula le Hamdanide
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			al-Jazāʼir
+			al-Jazāʼir :
 		</subfield>
 		<subfield code="b">
-			[J. Carbonel]
+			J. Karbūnīl,
 		</subfield>
 		<subfield code="c">
 			1934.
@@ -79,12 +115,39 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (484 p.)
+			online resource (484 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Khizānat al-kutub al-ʻArabīyah,
+			Khizānat al-kutub al-ʻArabīyah ;
 		</subfield>
 		<subfield code="v">
 			al-juzʼ 8
@@ -92,7 +155,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			Added t.p.: Sayf al Daula; recueil de textes relatifs à l'émir Sayf al Daula le Hamdanide avec annotations. Édité par Marius Canard.
+			Added t.p.: Sayf al Daula : recueil de textes relatifs à l'émir Sayf al Daula le Hamdanide avec annotations / édité par Marius Canard.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -102,7 +165,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Bibliography: p. 434-451.
+			Includes bibliographical references (pages 434-451) and index.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -123,11 +186,39 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
-			Sayf al-Dawlah al-Ḥamdānī, ʻAlī ibn ʻAbd Allāh,
+			Sayf al-Dawlah al-Ḥamdānī, ʻAlī ibn ʻAbd Allāh,
 		</subfield>
 		<subfield code="d">
-			915 or 16-967.
+			916-967.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="600">
+		<subfield code="a">
+			Saif al-Daulah 'Ali, al-Hamdani,
+		</subfield>
+		<subfield code="c">
+			emir of Aleppo,
+		</subfield>
+		<subfield code="d">
+			916-969.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="7" tag="600">
+		<subfield code="a">
+			Sayf al-Dawlah al-Ḥamdānī, ʻAlī ibn ʻAbd Allāh,
+		</subfield>
+		<subfield code="d">
+			916-967.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01760943
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -151,26 +242,100 @@
 			Canard, Marius.
 		</subfield>
 		<subfield code="t">
-			Nukhab tārīkhīyah wa-adabīyah jāmiʻah li-akhbār al-Amīr Sayf al-Dawlah al-Ḥamdānī al-tuwuffī sanat 356 H.-967 M
+			Nukhab tārīkhīyah wa-adabīyah jāmiʻah li-akhbār al-Amīr Sayf al-Dawlah al-Ḥamdānī al-tuwuffī sanat 356 H.-967 M
 		</subfield>
 		<subfield code="w">
 			(NNU)001700793
 		</subfield>
 		<subfield code="w">
-			(DLC)72210957
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="a">
-			Maktabah al-ʻArabīyah (Cairo, Egypt) ;
-		</subfield>
-		<subfield code="v">
-			8.
+			(DLC)   72210957
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/7sqv9w0c
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			كانار، ماريوس.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			نخب تاريخية وادبية جامعة لاخبار الامير سيف الدولة الحمداني التوفي سنة 356 ه.967 م /
+		</subfield>
+		<subfield code="c">
+			قد اعتنى بالتقاطها وشرحها ماريوس كانار.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="5" tag="880">
+		<subfield code="6">
+			246-03/
+		</subfield>
+		<subfield code="a">
+			نخب تاريخية وادبية جامعة لاخبار الامير سيف الدولة الحمداني
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			الجزاۓر :
+		</subfield>
+		<subfield code="b">
+			جول كربونيل،
+		</subfield>
+		<subfield code="c">
+			١٩٣٤.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-05/
+		</subfield>
+		<subfield code="a">
+			خزانة الكتب العربية ؛
+		</subfield>
+		<subfield code="v">
+			٨.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-06/
+		</subfield>
+		<subfield code="a">
+			سيف الدولة الحمداني ، علي بن عبد الله.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-07
+		</subfield>
+		<subfield code="a">
+			Maktabah al-ʻArabīyah (Cairo, Egypt) ;
+		</subfield>
+		<subfield code="v">
+			no. 8.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-07/
+		</subfield>
+		<subfield code="a">
+			خزانة الكتب العربية ;
+		</subfield>
+		<subfield code="v">
+			٨.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -199,9 +364,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001327
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01307nam a2200301   4500
+		02050nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		001676868
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1950    sy      o     000 0 ara d
+		151105s1950    sy h    ob    001 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,45 +25,54 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">
+			a-sy---
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			DS99.D32
+			BP75.5
 		</subfield>
 		<subfield code="b">
-			K5
+			.K48 1950
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">
-			Khūlānī, ʻAbd al-Jabbār ibn ʻAbd Allāh,
-		</subfield>
-		<subfield code="d">
-			10th cent.
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">
 			880-01
 		</subfield>
 		<subfield code="a">
-			Tārīkh Dārīyā
+			Khūllānī, ʻAbd al-Jabbār.
 		</subfield>
-		<subfield code="h">
-			[electronic resource].
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
+		<subfield code="a">
+			Tārīkh Dāriyā /
+		</subfield>
+		<subfield code="c">
+			li-ʻAbd al-Jabbār al-Khūllānī ; bi-ʻināyat Saʻīd al-Afghānī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-02
+			880-03
+		</subfield>
+		<subfield code="a">
+			Dimashq :
+		</subfield>
+		<subfield code="b">
+			Maṭbaʻat al-Tarraqá,
 		</subfield>
 		<subfield code="c">
 			1950.
@@ -71,15 +80,54 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (152 p.) :
+			online resource (152 pages) :
 		</subfield>
 		<subfield code="b">
-			facsim.
+			facsimiles
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">
+			Includes Errata page.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">
+			At head of t.p.: Maṭbuʻāt al-Majmaʻ al-ʻilmi al-ʻarabi bi-Dimashq.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
 			Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="504">
+		<subfield code="a">
+			Includes bibliographical references and index.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -101,10 +149,49 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
 		<subfield code="a">
-			Dera (Syria)
+			Dārayyā (Damascus, Syria)
 		</subfield>
 		<subfield code="x">
 			History.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Muḥammad,
+		</subfield>
+		<subfield code="c">
+			Prophet,
+		</subfield>
+		<subfield code="d">
+			-632
+		</subfield>
+		<subfield code="x">
+			Companions.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="a">
+			Muḥammad,
+		</subfield>
+		<subfield code="c">
+			Prophet,
+		</subfield>
+		<subfield code="d">
+			-632
+		</subfield>
+		<subfield code="x">
+			Friends and associates.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Afghānī, Saʻīd.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -125,10 +212,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Khūlānī, ʻAbd al-Jabbār ibn ʻAbd Allāh, 10th cent.
+			Khūllānī, ʻAbd al-Jabbār.
 		</subfield>
 		<subfield code="t">
-			Tārīkh Dārīyā
+			Tārīkh Dāriyā
 		</subfield>
 		<subfield code="w">
 			(NNU)001676868
@@ -139,29 +226,59 @@
 			http://hdl.handle.net/2333.1/r2280k9w
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="880">
+	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			245-01/
+			100-01/
 		</subfield>
 		<subfield code="a">
-			تاريخ داري:
+			خلاني، عبد الجبار.
 		</subfield>
-		<subfield code="b">
-			تأليف عبد الجبار الخولانى.
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			تاريخ داريا /
+		</subfield>
+		<subfield code="c">
+			لعبد الجبار الخولاني ؛ بعناية سعيد الأفغاني.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-02/
+			260-03/
 		</subfield>
 		<subfield code="a">
 			دمشق :
 		</subfield>
 		<subfield code="b">
-			مطبوعت المجمع العلى العربي,
+			مطبعة الترقى،
 		</subfield>
 		<subfield code="c">
-			١٩٥٠.
+			?1950.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">
+			600-04/
+		</subfield>
+		<subfield code="a">
+			محمد،
+		</subfield>
+		<subfield code="c">
+			النبي
+		</subfield>
+		<subfield code="x">
+			الصحابة.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/
+		</subfield>
+		<subfield code="a">
+			افغاني، سعيد.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -190,9 +307,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001350
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

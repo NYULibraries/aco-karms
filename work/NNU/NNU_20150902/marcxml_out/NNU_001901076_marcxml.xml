@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01902nam a2200373   4500
+		03161nam a2200553   4500
 	</leader>
 	<controlfield tag="001">
 		001901076
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1959    sy bh   ob    000 0 arar 
+		151105s1959    sy bh   ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,80 +25,127 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="041">
+		<subfield code="a">
+			ara
+		</subfield>
+		<subfield code="h">
+			eng
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">
+			aw-----
+		</subfield>
+		<subfield code="a">
+			ac-----
+		</subfield>
 		<subfield code="a">
 			e-ur---
 		</subfield>
-		<subfield code="a">
-			a-ir---
-		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			DK21
+			PJ7816.I3
 		</subfield>
 		<subfield code="b">
-			.I25 1959
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">
-			DK21
-		</subfield>
-		<subfield code="b">
-			.I25 1959
+			R5 1959
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Ibn Faḍlān, Aḥmad,
+			Ibn Faḍlān, Aḥmad,
 		</subfield>
 		<subfield code="d">
-			fl. 922.
+			active 922.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Risalah
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Risālat Ibn Faḍlān fī waṣf al-riḥlah ilā bilād al-Turuk wa-al-Khazar wa-al-Rūs wa-al-Ṣaqālibah sanat 309 h.-921 m
+		<subfield code="6">
+			880-03
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Risālat Ibn Faḍlān fī waṣf al-riḥlah ilā bilād al-Turuk wa-al-Khazar wa-al-Rūs wa-al-Saqālibah sanat 309/921. /
 		</subfield>
 		<subfield code="c">
-			Aḥmad ibn Faḍlān ibn al-ʻAbbās ibn Rāshid ibn Ḥammād ; ḥaqqaqahā wa-ʻallaqa ʻalayhā wa-qaddama la-hā Sāmī al-Dahhān.
+			Ḥaqqaqahā wa-ʼallaqa ʼalayhā wa-qaddama lahā Sāmī al-Dahhān.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Dimashq :
+			[Dimashq] :
 		</subfield>
 		<subfield code="b">
-			al-Majmaʻ al-ʻIlmī al-ʻArabī,
+			[al-Maṭbaʻah al-Hāshimīyah],
 		</subfield>
 		<subfield code="c">
-			1959.
+			[1959]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (203 p., [6] leaves of plates) :
+			online resource (203 pages) :
 		</subfield>
 		<subfield code="b">
-			ill.
+			maps, facsimiles.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq
+			Maṭbūʼāt al-Majmaʼ al-ʼIlmī al-ʼArabī bi-Dimashq
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">
+			Translation of title: Ibn Faḍlānʼs treatise describing the journey to the lands of the Turks, Khazars, Russians and Slavs [in] the year 309/921. Edited, annotated and prefaced by Sāmī al-Dahhān.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -108,12 +155,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Bibliographical references (p. 199-203).
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Includes indexes.
+			Includes bibliographical references (pages 199-203).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -135,7 +177,7 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
 		<subfield code="a">
-			Soviet Union
+			Middle East
 		</subfield>
 		<subfield code="x">
 			Description and travel.
@@ -143,15 +185,73 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
 		<subfield code="a">
-			Iran
+			Asia, Central
 		</subfield>
 		<subfield code="x">
 			Description and travel.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
+	<datafield ind1=" " ind2="0" tag="651">
 		<subfield code="a">
-			Dahhān, Sāmī.
+			Soviet Union
+		</subfield>
+		<subfield code="x">
+			Description and travel.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Travel.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01155558.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Asia, Central.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01240497.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Middle East.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01241586.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Soviet Union.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01210281.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			al-Dahhān, Sāmī,
+		</subfield>
+		<subfield code="e">
+			editor.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -172,26 +272,97 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ibn Faḍlān, Aḥmad, fl. 922.
+			Ibn Faḍlān, Aḥmad, active 922.
 		</subfield>
 		<subfield code="t">
-			Risālat Ibn Faḍlān fī waṣf al-riḥlah ilā bilād al-Turuk wa-al-Khazar wa-al-Rūs wa-al-Ṣaqālibah sanat 309 h.-921 m
+			Risālat Ibn Faḍlān fī waṣf al-riḥlah ilā bilād al-Turuk wa-al-Khazar wa-al-Rūs wa-al-Saqālibah sanat 309/921
 		</subfield>
 		<subfield code="w">
 			(NNU)001901076
 		</subfield>
 		<subfield code="w">
-			(DLC)75972886 //r77
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="a">
-			Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq.
+			(DLC)   75972886
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/cc2fr232
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			ابن فضلان، احمد،
+		</subfield>
+		<subfield code="d">
+			active 922.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02/
+		</subfield>
+		<subfield code="a">
+			رسالة
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-03/
+		</subfield>
+		<subfield code="a">
+			رسالة ابن فضلان في وصف الرحلة الى بلاد الترك والخزر والروس والصقالبة سنة ٩٠٣ ه ٩٢١ م. /
+		</subfield>
+		<subfield code="c">
+			حققها وعلق عليها وقدم لها سامي الدهان.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			[دمشق] :
+		</subfield>
+		<subfield code="b">
+			[المطبعة الهاشمية]،
+		</subfield>
+		<subfield code="c">
+			[1959]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-05/
+		</subfield>
+		<subfield code="a">
+			مطبوعات المجمع العلمي العربي بدمشق
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-06/
+		</subfield>
+		<subfield code="a">
+			دهان، سامي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-07
+		</subfield>
+		<subfield code="a">
+			Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-07/
+		</subfield>
+		<subfield code="a">
+			مطبوعات المجمع العلمي العربي بدمشق.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -220,9 +391,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001254
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

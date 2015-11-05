@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01135nam a2200265   4500
+		01669nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		001677549
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1898    le      o     000 0 ara d
+		151105s1898    le a    o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,37 +25,57 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			Abkāriyūs, Yūḥannā.
+			D22
+		</subfield>
+		<subfield code="b">
+			.A2 1898
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Abkāriyūs, Yūḥannā.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Kitāb Qaṭf al-zuhūr fī tārīkh al-duhūr
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Kitāb Qaṭf al-zuhūr fī tārīkh al-duhūr /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Yūḥannā Abkāriyūs.
+			taʼlīf Yūḥannā Abkāriyūs.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Ṭabʻah 4.
+			al-Ṭabʻah 4.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Bayrūt :
+			Bayrūt :
 		</subfield>
 		<subfield code="b">
-			al-Maṭbaʻah al-Adabīyah,
+			al-Maṭbaʻah al-Adabīyah,
 		</subfield>
 		<subfield code="c">
 			1898.
@@ -63,10 +83,34 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (16, 767 p.) :
+			online resource (16, 767 pages) :
 		</subfield>
 		<subfield code="b">
-			ill.
+			illustrations
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -96,6 +140,17 @@
 			History.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			History.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00958235
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -114,10 +169,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Abkāriyūs, Yūḥannā.
+			Abkāriyūs, Yūḥannā.
 		</subfield>
 		<subfield code="t">
-			Kitāb Qaṭf al-zuhūr fī tārīkh al-duhūr
+			Kitāb Qaṭf al-zuhūr fī tārīkh al-duhūr
 		</subfield>
 		<subfield code="w">
 			(NNU)001677549
@@ -126,6 +181,47 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/jwstqnn5
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			ابكاريوس، يوحنا.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			كتاب قطف الزهور في تاريخ الدهور /
+		</subfield>
+		<subfield code="c">
+			تأليف يوحنا ابكاريوس.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			الطبعة 4.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			بيروت :
+		</subfield>
+		<subfield code="b">
+			المطبعة الادبية،
+		</subfield>
+		<subfield code="c">
+			1898.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -154,9 +250,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001419
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

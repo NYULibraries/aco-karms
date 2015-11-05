@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01183nam a2200265   4500
+		01684nam a2200349   4500
 	</leader>
 	<controlfield tag="001">
 		001676995
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1928    le      o     000 0 arar 
+		151105s1928    le a    o     000 f ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,43 +25,57 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">
+			a-le---
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			PJ7824.A323
 		</subfield>
 		<subfield code="b">
-			R3
+			R3 1928
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Faghālī, Ḥannā al-Khūrī.
+			Faghālī, Ḥannā al-Khūrī.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Rasāʼil Shimūnī
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="a">
+			Rasāʼil Shumūnī :
 		</subfield>
 		<subfield code="b">
-			rasāʼil akhlāqīyah adabīyah bi-lughah ʻāmmīyah,
+			rasāʼil akhlāqīyah adabīyah bi-lughah ʻāmmah /
 		</subfield>
 		<subfield code="c">
-			li-Ḥannā al-Khūrī al-Faghālī.̲
+			li-Ḥannā al-Khūrī al-Faghālī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Bayrūt,
+			Bayrūt :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat Jaridat al-Dabbūr,
+			Maṭbaʻat Jarīdat al-Dabūr,
 		</subfield>
 		<subfield code="c">
 			1928.
@@ -69,10 +83,34 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (93p.) :
+			online resource (93 pages) :
 		</subfield>
 		<subfield code="b">
-			illus.
+			illustrations
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -97,6 +135,23 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Villages
+		</subfield>
+		<subfield code="z">
+			Lebanon
+		</subfield>
+		<subfield code="x">
+			Social conditions
+		</subfield>
+		<subfield code="y">
+			20th century
+		</subfield>
+		<subfield code="v">
+			Fiction.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -110,20 +165,15 @@
 			Arabic Collections Online.
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="1" tag="740">
-		<subfield code="a">
-			Rasāʼil Shamūnī.
-		</subfield>
-	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Faghālī, Ḥannā al-Khūrī.
+			Faghālī, Ḥannā al-Khūrī.
 		</subfield>
 		<subfield code="t">
-			Rasāʼil Shimūnī
+			Rasāʼil Shumūnī
 		</subfield>
 		<subfield code="w">
 			(NNU)001676995
@@ -135,6 +185,42 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/x0k6dngw
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			فغالي، حنا الخوري.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			رسائل شموني :
+		</subfield>
+		<subfield code="b">
+			رسائل اخلاقية ادبية بلغة عامية /
+		</subfield>
+		<subfield code="c">
+			لحنا الخوري الفغالي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			بيروت :
+		</subfield>
+		<subfield code="b">
+			مطبعة جريدة الدبور،
+		</subfield>
+		<subfield code="c">
+			1928.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -163,9 +249,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001423
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

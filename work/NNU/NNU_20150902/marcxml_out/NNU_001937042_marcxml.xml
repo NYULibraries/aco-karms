@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02340nam a2200433   4500
+		04181nam a2200685   4500
 	</leader>
 	<controlfield tag="001">
 		001937042
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1973    ir c    ob    001 0 per d
+		151105s1973    ir c    ob    001 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -40,34 +43,56 @@
 			eng
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">
-			Bīrūnī, Muḥammad ibn Aḥmad,
+			a------
+		</subfield>
+		<subfield code="a">
+			f------
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			Q143.B5
+		</subfield>
+		<subfield code="b">
+			A85 1973
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Bīrūnī, Muḥammad ibn Aḥmad,
 		</subfield>
 		<subfield code="d">
 			973?-1048.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Abū Rayḥān Bīrūnī va Ibn Sīnā
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="a">
+			Abū Rayḥān Bīrūnī va Ibn Sīnā :
 		</subfield>
 		<subfield code="b">
-			al-asʼilah wa-al-ajwibah : bih inz̤imām-i pāskhʹhā-yi darbārah-ʹi Abū Rayḥān va difāʻ-i Abū Saʻīd Maʻṣūmī az Ibn Sīnā /
+			al-asʼilah wa-al-ajwibah : bih inz̤imām-i pāskhʹhā-yi darbārah-ʹi Abū Rayḥān va difāʻ-i Abū Saʻīd Maʻṣūmī az Ibn Sīnā /
 		</subfield>
 		<subfield code="c">
-			bih taṣḥīḥ va muqaddamah-ʹi Fārsī va Inglīsī Sayyid Ḥusayn Naṣr, Mahdī Muḥaqqiq.
+			bih taṣḥīḥ va muqaddamah-ʹi Fārsī va Inglīsī Sayyid Ḥusayn Naṣr, Mahdī Muḥaqqiq.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			[Tehran] :
 		</subfield>
 		<subfield code="b">
-			Shūrā-yi ʻĀlī-i Farhang va Hunar, Markaz-i Muṭālaʻāt va Hamāhangī-i Farhangī,
+			Shūrā-yi ʻĀlī-i Farhang va Hunar, Markaz-i Muṭālaʻāt va Hamāhangī-i Farhangī,
 		</subfield>
 		<subfield code="c">
 			1352 [1973]
@@ -75,15 +100,42 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (12, 90, 14 p.) :
+			online resource (12, 90, 14 pages) :
 		</subfield>
 		<subfield code="b">
-			port.
+			portrait
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Shūrā-yi ʻĀlī-i Farhang va Hunar, Markaz-i Muṭālaʻāt va Hamāhangī-i Farhangī ;
+			Shūrā-yi ʻĀlī-i Farhang va Hunar, Markaz-i Muṭālaʻāt va Hamāhangī-i Farhangī ;
 		</subfield>
 		<subfield code="v">
 			9
@@ -145,33 +197,89 @@
 			De caelo.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
+	<datafield ind1="0" ind2="7" tag="630">
 		<subfield code="a">
-			Muḥaqqiq, Mahdī.
+			De caelo (Aristotle)
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01357825.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Science.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01108176.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Islamic countries.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01244130.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Early works.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411636.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Muḥaqqiq, Mahdī.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Nasr, Seyyed Hossein.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">
-			Maʻṣūmī, Aḥmad ibn ʻAlī,
-		</subfield>
-		<subfield code="d">
-			11th cent.
-		</subfield>
-		<subfield code="t">
-			Faqīh.
-		</subfield>
-	</datafield>
 	<datafield ind1="0" ind2=" " tag="700">
+		<subfield code="6">
+			880-07
+		</subfield>
 		<subfield code="a">
 			Avicenna,
 		</subfield>
 		<subfield code="d">
 			980-1037.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-08
+		</subfield>
+		<subfield code="a">
+			Maʻṣūmī, Aḥmad ibn ʻAlī,
+		</subfield>
+		<subfield code="d">
+			active 11th century.
+		</subfield>
+		<subfield code="t">
+			Faqīh.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -193,16 +301,25 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-09
+		</subfield>
 		<subfield code="a">
 			Asʼilah wa'l-ajwibah.
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-10
+		</subfield>
 		<subfield code="a">
-			Biruni and Ibn Sina.
+			Bīrūnī va Ibn Sīnā .
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-11
+		</subfield>
 		<subfield code="a">
 			Asʼilah wa-al-ajwibah.
 		</subfield>
@@ -212,29 +329,161 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Bīrūnī, Muḥammad ibn Aḥmad, 973?-1048.
+			Bīrūnī, Muḥammad ibn Aḥmad, 973?-1048.
 		</subfield>
 		<subfield code="t">
-			Abū Rayḥān Bīrūnī va Ibn Sīnā
+			Abū Rayḥān Bīrūnī va Ibn Sīnā
 		</subfield>
 		<subfield code="w">
 			(NNU)001937042
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="830">
+	<datafield ind1="4" ind2="0" tag="856">
+		<subfield code="u">
+			http://hdl.handle.net/2333.1/gmsbcfzt
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
 		<subfield code="a">
-			Shūrā-yi ʻĀlī-i Farhang va Hunar (Iran).
+			بيروني، محمد بن احمد،
+		</subfield>
+		<subfield code="d">
+			973?-1048.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			ابو رىحان بىرونى و ابن سىنا :
+		</subfield>
+		<subfield code="b">
+			الاسئله والاجوبه : به انضمام پاسخ‌اى درباره‌ ابو رىحان و دفاع ابو سعىد معصومى از ابن سىنا /
+		</subfield>
+		<subfield code="c">
+			به تصحىح و مقدمه‌ فارسى و انگلىسى سيد حسىن نصر، مهدى محقق.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			[تهران] :
+		</subfield>
+		<subfield code="b">
+			شوراي عالي فرهنگ ڤ هنر، مركزا مطالعات ڤ هماهنگي فرهنگي،
+		</subfield>
+		<subfield code="c">
+			1352 [1973]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-04/
+		</subfield>
+		<subfield code="a">
+			شوراى عالى فرهنگ و هنر، مرکز مطالعات و هماهنگى فرهنگى ؛
+		</subfield>
+		<subfield code="v">
+			9
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/
+		</subfield>
+		<subfield code="a">
+			محقق، مهدي.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-06/
+		</subfield>
+		<subfield code="a">
+			نصر، سيد حسن.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			700-07/
+		</subfield>
+		<subfield code="a">
+			ابن سينا،
+		</subfield>
+		<subfield code="d">
+			9801037.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-08/
+		</subfield>
+		<subfield code="a">
+			معصومي، احمد بن علي،
+		</subfield>
+		<subfield code="d">
+			اتڤ 11ث نتري.
+		</subfield>
+		<subfield code="t">
+			فقيه.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			740-09/
+		</subfield>
+		<subfield code="a">
+			اسئلة و'لاجوبة.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			740-10/
+		</subfield>
+		<subfield code="a">
+			بيروني ڤ ابن سينا .
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			740-11/
+		</subfield>
+		<subfield code="a">
+			اسئلة والاجوبة.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-12
+		</subfield>
+		<subfield code="a">
+			Shūrā-yi ʻĀlī-i Farhang va Hunar (Iran).
 		</subfield>
 		<subfield code="p">
-			Markaz-i Muṭālaʻāt va Hamāhangī-i Farhangī (Series) ;
+			Markaz-i Muṭālaʻāt va Hamāhangī-i Farhangī (Series) ;
 		</subfield>
 		<subfield code="v">
 			9.
 		</subfield>
 	</datafield>
-	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">
-			http://hdl.handle.net/2333.1/gmsbcfzt
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-12/
+		</subfield>
+		<subfield code="a">
+			شوراى عالى فرهنگ و هنر (ايران).
+		</subfield>
+		<subfield code="p">
+			مرکز مطالعات و هماهنگى فرهنگى ;
+		</subfield>
+		<subfield code="v">
+			9.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -263,9 +512,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001404
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

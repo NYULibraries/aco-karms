@@ -1,0 +1,80 @@
+Records containing SERIES errors - batch NNU_20150902
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2015-10-07 08:45:05.035648
+---------------------------------------------------------------------
+FILE: NNU_20150902_1/NNU_20150902_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNU_001678283
+   orig_rec_035 num: =035  9\$aNYUb12221668
+   orig_rec_035 num: =035  \\$a(NSyU)notisAFB1983
+   orig_rec_035 num: =035  \\$a(OCoLC)22769209
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYSXAFB1983-B
+Record 999:  NNU_001678283
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Silsilat tārīkh al-fann fī Sūrīyah, 3
+040 $e field: [none]
+Source entities (book IDs): nyu_aco001356
+---------------------------------------------------------------------
+Institution ID: NNU_001679359
+   orig_rec_035 num: =035  9\$aNYUb12222750
+   orig_rec_035 num: =035  \\$a(MH)MHBII79987HU
+   orig_rec_035 num: =035  \\$a(OCoLC)08039686
+   orig_rec_035 num: =035  \\$a(CStRLIN)MAHGBII79987-B
+Record 999:  NNU_001679359
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Silsilat tabsīṭ al-ʻulūm, 5
+040 $e field: [none]
+Source entities (book IDs): nyu_aco001414
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNU_20150902_1/NNU_20150902_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNU_001678275
+   orig_rec_035 num: =035  9\$aNYUb12221660
+   orig_rec_035 num: =035  \\$a(NjP)notisCBW9385
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG95-B55133
+Record 999:  NNU_001678275
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Silsilat al-Thaqāfah al-Shaʻbīyah ; 7
+040 $e field: [none]
+Source entities (book IDs): nyu_aco001351
+---------------------------------------------------------------------
+Institution ID: NNU_001678280
+   orig_rec_035 num: =035  9\$aNYUb12221665
+   orig_rec_035 num: =035  \\$a(CStRLIN)MIUG87-B34522
+Record 999:  NNU_001678280
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Silsilat al-nuṣūṣ al-qadīmah ; 2
+040 $e field: [none]
+Source entities (book IDs): nyu_aco001354
+---------------------------------------------------------------------
+Institution ID: NNU_001678533
+   orig_rec_035 num: =035  9\$aNYUb12221921
+   orig_rec_035 num: =035  \\$aNNSZ00304910
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYPG003002014-B
+Record 999:  NNU_001678533
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Wizārat al-Thaqāfah wa-al-Irshād. Mudīrīyat al-Thaqāfah al-ʻĀmmah. Silsilat al-kutub al-ḥadīthah, 18
+040 $e field: [none]
+Source entities (book IDs): nyu_aco001362
+---------------------------------------------------------------------
+Institution ID: NNU_001678555
+   orig_rec_035 num: =035  9\$aNYUb12221943
+   orig_rec_035 num: =035  \\$a(CStRLIN)MAHN96-B337
+Record 999:  NNU_001678555
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Tārīkh al-Islām al-siyāsī.
+040 $e field: [none]
+Source entities (book IDs): nyu_aco001378
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 6
+

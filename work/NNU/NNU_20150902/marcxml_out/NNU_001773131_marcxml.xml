@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01781nam a2200361   4500
+		01923nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		001773131
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1964    iq      ob    000 0 ara d
+		151105s1964    iq      ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -34,20 +37,7 @@
 			HB171
 		</subfield>
 		<subfield code="b">
-			.G1512
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">
-			HB171
-		</subfield>
-		<subfield code="b">
-			.G1512
+			.G1512 1964
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
@@ -58,10 +48,10 @@
 			Gambs, John S.
 		</subfield>
 		<subfield code="q">
-			(John Saké),
+			(John Saké),
 		</subfield>
 		<subfield code="d">
-			b. 1899.
+			1899-
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
@@ -77,16 +67,13 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			al-Madkhal ilá ʻilm al-iqtiṣād, aw
-		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+			al-Madkhal ilá ʻilm al-iqtiṣād, aw :
 		</subfield>
 		<subfield code="b">
-			al-insān wa-nuqūd wa-al-baḍāʼiʻ /
+			al-insān wa-nuqūd wa-al-baḍāʼiʻ /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Jūn S. Kāmbis ; tarjamat Ḥamīd al-Qaysī.
+			taʼlīf Jūn S. Kāmbis ; tarjamat Ḥamīd al-Qaysī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
@@ -94,10 +81,10 @@
 			880-03
 		</subfield>
 		<subfield code="a">
-			al-Mawṣil :
+			al-Mawṣil :
 		</subfield>
 		<subfield code="b">
-			Maktabat al-Wafāʼ,
+			Maktabat al-Wafāʼ,
 		</subfield>
 		<subfield code="c">
 			1964.
@@ -105,7 +92,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (334 p.)
+			online resource (334 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -120,7 +131,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Includes bibliographical references (p. 327-332).
+			Includes bibliographical references (pages 327-332).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -145,6 +156,17 @@
 			Economics.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Economics.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00902116.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -163,10 +185,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Gambs, John S. (John Saké), b. 1899.
+			Gambs, John S. (John Saké), 1899-
 		</subfield>
 		<subfield code="t">
-			al-Madkhal ilá ʻilm al-iqtiṣād, aw
+			al-Madkhal ilá ʻilm al-iqtiṣād, aw
 		</subfield>
 		<subfield code="w">
 			(NNU)001773131
@@ -183,6 +205,12 @@
 		</subfield>
 		<subfield code="a">
 			كامبس، جون س.
+		</subfield>
+		<subfield code="q">
+			(John Saké),
+		</subfield>
+		<subfield code="d">
+			1899-
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">

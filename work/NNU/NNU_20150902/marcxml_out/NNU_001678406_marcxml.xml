@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01156nam a2200265   4500
+		01930nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		001678406
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1959    sy      o     000 0 ara d
+		151105s1959    sy      ob    000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,50 +25,104 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">
-			Mubārak, Muḥammad.
+			ma-----
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			DS36.8
+		</subfield>
+		<subfield code="b">
+			.M8 1959
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Mubārak, Muḥammad.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Ummah al-ʻArabīyah fī maʻrakat taḥqīq al-dhāt
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			al-Ummah al-ʻArabīyah fī maʻrakat taḥqīq al-dhāt /
 		</subfield>
 		<subfield code="c">
-			Muḥammad al-Mubārak.
+			Muḥammad al-Mubārak.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Dimashq :
 		</subfield>
 		<subfield code="b">
-			Muʼassasat al-Maṭbūʻāt al-ʻArabīyah,
+			Muʼassasat al-Maṭbūʻāt al-ʻArabīyah,
 		</subfield>
 		<subfield code="c">
-			[1959]
+			1959.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (229 p.)
+			online resource (229 pages)
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
+	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">
-			Last page incorrectly numbered.
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
 			Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="504">
+		<subfield code="a">
+			Includes bibliographical references.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -90,7 +144,48 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">
-			Arabs.
+			Civilization, Arab.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Nationalism
+		</subfield>
+		<subfield code="z">
+			Arab countries.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Civilization, Arab.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00862967.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Nationalism.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01033832.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Arab countries.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01240128.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -111,18 +206,62 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Mubārak, Muḥammad.
+			Mubārak, Muḥammad.
 		</subfield>
 		<subfield code="t">
-			al-Ummah al-ʻArabīyah fī maʻrakat taḥqīq al-dhāt
+			al-Ummah al-ʻArabīyah fī maʻrakat taḥqīq al-dhāt
 		</subfield>
 		<subfield code="w">
 			(NNU)001678406
+		</subfield>
+		<subfield code="w">
+			(DLC)   75587887
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/31zcrn6r
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			مبارك، محمد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			الامة العربية في معركة تحقيق الذات /
+		</subfield>
+		<subfield code="c">
+			محمد المبارك.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			دمشق :
+		</subfield>
+		<subfield code="b">
+			مؤسسة المطبوعات العربية،
+		</subfield>
+		<subfield code="c">
+			1959.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -151,9 +290,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001375
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

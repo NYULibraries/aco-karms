@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01586nam a2200301   4500
+		02380nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		001678478
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1968    iq b    o     000 0 arar 
+		151105s1968    iq b    o     000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -37,52 +37,67 @@
 			ma-----
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			DS119.7
 		</subfield>
 		<subfield code="b">
-			.J35
+			.J35 1968
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Jamīl, Ḥusayn.
+			Jamīl, Ḥusayn.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Buṭlān al-usus allatī uqīma ʻalayhā wujūd Isrāʼīl ʻalá al-arḍ al-ʻArabīyah wa-salāmat al-mawqif al-ʻArabī min al-qaḍīyah al-Filasṭīnīyah
+			Buṭlān al-usus allatī uqīma ʻalayhā wujūd Isrāʼīl ʻalá al-arḍ al-ʻArabīyah wa-salāmat al-mawqif al-ʻArabī min al-qaḍīyah al-Filasṭīnīyah
 		</subfield>
 		<subfield code="h">
 			[electronic resource] /
 		</subfield>
 		<subfield code="c">
-			Taʼlīf Ḥusayn Jamīl.
+			Taʼlīf Ḥusayn Jamīl.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[Baghdād]
+			[Baghdād]
 		</subfield>
 		<subfield code="b">
-			Wizārat al-Thaqāfah wa-al-Irshād, Mudīrīyat al-Irshād al-ʻĀmmah
+			Wizārat al-Thaqāfah wa-al-Irshād, Mudīrīyat al-Irshād al-ʻĀmmah
 		</subfield>
 		<subfield code="c">
 			[1968]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			online resource (161 p.) :
 		</subfield>
 		<subfield code="b">
-			map.
+			maps.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Silsilah al-iʻlāmīyah,
+			Silsilah al-iʻlāmīyah,
 		</subfield>
 		<subfield code="v">
 			2
@@ -115,6 +130,17 @@
 			Jewish-Arab relations.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Jewish-Arab relations.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00983106
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -133,35 +159,110 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Jamīl, Ḥusayn.
+			Jamīl, Ḥusayn.
 		</subfield>
 		<subfield code="t">
-			Buṭlān al-usus allatī uqīma ʻalayhā wujūd Isrāʼīl ʻalá al-arḍ al-ʻArabīyah wa-salāmat al-mawqif al-ʻArabī min al-qaḍīyah al-Filasṭīnīyah
+			Buṭlān al-usus allatī uqīma ʻalayhā wujūd Isrāʼīl ʻalá al-arḍ al-ʻArabīyah wa-salāmat al-mawqif al-ʻArabī min al-qaḍīyah al-Filasṭīnīyah
 		</subfield>
 		<subfield code="w">
 			(NNU)001678478
-		</subfield>
-		<subfield code="w">
-			(DLC)ne 68002621
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="810">
-		<subfield code="a">
-			Iraq.
-		</subfield>
-		<subfield code="b">
-			Wizārat al-Thaqāfah wa-al-Irshād.
-		</subfield>
-		<subfield code="t">
-			Silsilah al-iʻlāmīyah ;
-		</subfield>
-		<subfield code="v">
-			2.
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/f4qrfn42
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			جميل، حسين.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			بطلان الأسس التي أقيم عليها وجود إسرائيل على الأرض العربية وسلامة الموقف العربي من القضية الفلسطينية.
+		</subfield>
+		<subfield code="c">
+			تأليف حسين جميل.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			[بغداد]
+		</subfield>
+		<subfield code="b">
+			وزارة الثقافة والإرشاد، مديرية الإرشاد العامة
+		</subfield>
+		<subfield code="c">
+			[1968]
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			300-04/
+		</subfield>
+		<subfield code="a">
+			161 ص.
+		</subfield>
+		<subfield code="b">
+			خريطة
+		</subfield>
+		<subfield code="c">
+			21 سم.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-05/
+		</subfield>
+		<subfield code="a">
+			سلسلة الإعلامية،
+		</subfield>
+		<subfield code="v">
+			2
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="810">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			Iraq.
+		</subfield>
+		<subfield code="b">
+			Wizārat al-Thaqāfah wa-al-Irshād.
+		</subfield>
+		<subfield code="t">
+			Silsilah al-iʻlāmīyah ;
+		</subfield>
+		<subfield code="v">
+			2.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			810-06/
+		</subfield>
+		<subfield code="a">
+			العراق.
+		</subfield>
+		<subfield code="b">
+			وزارة الثقافة والإرشاد.
+		</subfield>
+		<subfield code="t">
+			سلسلة الإعلامية ؛
+		</subfield>
+		<subfield code="v">
+			2.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -190,9 +291,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001358
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

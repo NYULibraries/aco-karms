@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01334nam a2200313   4500
+		02088nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		001678192
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1969    iq abc  ob    000 0 arax 
+		151105s1969    iq abc  ob    000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -34,39 +37,45 @@
 			a-iq---
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			DS79.9.S5
 		</subfield>
 		<subfield code="b">
-			S5
+			S5 1969
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Sharqī, Ṭālib ʻAlī.
+			Sharqī, Ṭālib ʻAlī.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			ʻAyn al-Tamr
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="a">
+			ʻAyn al-Tamr :
 		</subfield>
 		<subfield code="b">
-			dirāsah jughrāfīyah ijtimāʻīyah tārīkhīyah li- ʻAyn al-Tamr wa-Shifāthā wa-mā yuḥīṭu bi-himā
+			dirāsah jughrāfīyah ijtimāʻīyah tārīkhīyah li-ʻAyn al-Tamr wa-Shifāthā wa-mā yuḥīṭu bi-himā /
 		</subfield>
 		<subfield code="c">
-			[taʼlīf] Ṭālib ʻAlī al-Sharqī.
+			[taʼlīf] Ṭālib ʻAlī al-Sharqī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Najaf,
+			al-Najaf :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat al- Ādāb,
+			Maṭbaʻat al- Ādāb,
 		</subfield>
 		<subfield code="c">
 			1969.
@@ -74,15 +83,34 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (284 p.) :
+			online resource (284 pages) :
 		</subfield>
 		<subfield code="b">
-			illus., map, ports.
+			illustrations, map, portraits
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
+	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">
-			In Arabic.
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -92,7 +120,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Bibliography: p. 233-239.
+			Includes bibliographical references (pages 233-239).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -113,13 +141,19 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Shithāthah.
+			Shithāthah (Iraq)
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			ʻAyn al-Tamr.
+			ʻAyn al-Tamr (Iraq)
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -137,10 +171,27 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Sharqī, Ṭālib ʻAlī.
+		</subfield>
+		<subfield code="t">
+			ʻAyn al-Tamr.
+		</subfield>
+		<subfield code="d">
+			al-Najaf, Maṭbaʻat al- Ādāb, 1969
+		</subfield>
+		<subfield code="w">
+			(OCoLC)555239976
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Sharqī, Ṭālib ʻAlī.
+			Sharqī, Ṭālib ʻAlī.
 		</subfield>
 		<subfield code="t">
 			ʻAyn al-Tamr
@@ -149,12 +200,64 @@
 			(NNU)001678192
 		</subfield>
 		<subfield code="w">
-			(DLC)79257216
+			(DLC)   79257216
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/dbrv18b2
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			‏شرقي، طالب علي.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			‏عين التمر :‏
+		</subfield>
+		<subfield code="b">
+			‏دراسة جغرافية اجتماعية تاريخية لعين التمر وشفاثا وما يحيط بهما /‏
+		</subfield>
+		<subfield code="c">
+			‏طالب علي الشرقي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			‏النجف :‏
+		</subfield>
+		<subfield code="b">
+			‏مطبعة الاداب،‏
+		</subfield>
+		<subfield code="c">
+			‏1969.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">
+			651-04/
+		</subfield>
+		<subfield code="a">
+			شثاثة.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">
+			651-05/
+		</subfield>
+		<subfield code="a">
+			عين التمر.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -183,9 +286,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001307
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01515nam a2200325   4500
+		03495nam a2200613   4500
 	</leader>
 	<controlfield tag="001">
 		001676410
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1952    ua      o     000 0 ara d
+		151105s1952    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,11 +25,38 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">
+			f-ua---
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			CD2316
+		</subfield>
+		<subfield code="b">
+			.A4 1952
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			DS97.5
+		</subfield>
+		<subfield code="b">
+			R987 1952
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Rustum, Asad,
 		</subfield>
@@ -38,27 +65,33 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Maḥfūẓāt al-Malakīyah
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			al-Maḥfūẓāt al-Malakīyah /
 		</subfield>
 		<subfield code="c">
-			ʻuniya bi-intiqāʼihā Asad Rustum. al-Fahāris li-Ṣubḥī Nāyif Abū Shaqrā.
+			ʻuniya bi-intiqāʼihā wa-tansīqihā wa-al-ishrāf ʻalá tarjamat baʻḍhā Asad Rustum ; al-fahāris li-Ṣubḥī Nāyif Abū Shaqrā.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="4" tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Fihris wathāʼiq al-Shām fī ʻahd Muḥammad ʻAlī al-Kabīr
+			Fihris wathāʼiq al-Shām fī ʻahd Muḥammad ʻAlī al-Kabīr
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			[Cairo :
+			[Cairo] :
 		</subfield>
 		<subfield code="b">
-			Dār al-Maʻārif bi-Miṣr,
+			Dār al-Maʻārif bi-Miṣr,
 		</subfield>
 		<subfield code="c">
 			[1952]
@@ -66,12 +99,47 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (326 p.)
+			online resource (326 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			At head of title: al-Jamʻīyah al-Malakīyah lil-Dirāsāt al-Tārīkhīyah.
+			At head of title: al-Jamʻīyah al-Malakīyah lil-Dirāsāt al-Tārīkhīyah.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			&quot;Al-Dhikrá al-miʼawīyah lil-maghfūr la-hu Muḥammad ʻAlī al-Kabīr&quot;--Cover.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -96,6 +164,28 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="a">
+			Syria
+		</subfield>
+		<subfield code="x">
+			History
+		</subfield>
+		<subfield code="v">
+			Sources.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="a">
+			Lebanon
+		</subfield>
+		<subfield code="x">
+			History
+		</subfield>
+		<subfield code="v">
+			Sources.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">
 			Archives
@@ -104,27 +194,97 @@
 			Egypt.
 		</subfield>
 	</datafield>
-	<datafield ind1="2" ind2=" " tag="710">
+	<datafield ind1=" " ind2="7" tag="650">
 		<subfield code="a">
-			Jamʻīyah al-Miṣrīyah lil-Dirāsāt al-Tārīkhīyah.
+			Archives.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00814030
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">
-			Hustum, Asad Jibrāʼīl.
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">
-			Abū Shaqrā, Ṣubḥī Nāʼif.
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="710">
+	<datafield ind1=" " ind2="7" tag="651">
 		<subfield code="a">
 			Egypt.
 		</subfield>
-		<subfield code="b">
-			Maḥfūẓāt al-Miṣrīyah.
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01208755
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Lebanon.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01206063
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Syria.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01208757
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			History.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411628
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Sources.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01423900
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-07
+		</subfield>
+		<subfield code="a">
+			Abū Shaqrā, Ṣubḥī Nāyif.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="700">
+		<subfield code="6">
+			880-08
+		</subfield>
+		<subfield code="a">
+			Abū Shaqrā, Ṣubḥī Nāyif.
+		</subfield>
+		<subfield code="t">
+			Fihris wathāʼiq al-Shām fī ʻahd Muḥammad ʻAlī al-Kabīr.
+		</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="710">
+		<subfield code="6">
+			880-09
+		</subfield>
+		<subfield code="a">
+			Jamʻīyah al-Miṣrīyah lil-Dirāsāt al-Tārīkhīyah.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -142,13 +302,30 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Rustum, Asad, 1897-1965.
+		</subfield>
+		<subfield code="t">
+			Maḥfūẓāt al-Malakīyah.
+		</subfield>
+		<subfield code="d">
+			[Cairo] : Dār al-Maʻārif bi-Miṣr, [1952]
+		</subfield>
+		<subfield code="w">
+			(OCoLC)645345324
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
 			Rustum, Asad, 1897-1965.
 		</subfield>
 		<subfield code="t">
-			al-Maḥfūẓāt al-Malakīyah
+			al-Maḥfūẓāt al-Malakīyah
 		</subfield>
 		<subfield code="w">
 			(NNU)001676410
@@ -157,6 +334,90 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/djh9w3rq
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			رستم، اسد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			المحفوظات الملكية /
+		</subfield>
+		<subfield code="c">
+			عني بانتقائها وتنسيقها والاشراف على ترجمة بعضها اسد رستم ؛ الفهارس لصبحي نايف ابو شقرا.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			246-03/
+		</subfield>
+		<subfield code="a">
+			فهرس وثائق الشام في عهد محمد علي الكبير
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			[القاهرة] :
+		</subfield>
+		<subfield code="b">
+			دار المعارف بمصر،
+		</subfield>
+		<subfield code="c">
+			[1952]
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			500-05/
+		</subfield>
+		<subfield code="a">
+			At head of title: الجمعية الملكية للدراسات التاريخية.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			500-06/
+		</subfield>
+		<subfield code="a">
+			&quot;الذكرى المئوية للمغفور له محمد علي الكبير&quot;Cover.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-07/
+		</subfield>
+		<subfield code="a">
+			ابو شقرا، صبحي نايف.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			700-08/
+		</subfield>
+		<subfield code="a">
+			ابو شقرا، صبحي نايف.
+		</subfield>
+		<subfield code="t">
+			فهرس وثائق الشام في عهد محمد علي الكبير.
+		</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="880">
+		<subfield code="6">
+			710-09/
+		</subfield>
+		<subfield code="a">
+			جمعية المصرية للدراسات التاريخية.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -185,9 +446,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001338
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

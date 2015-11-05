@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01276nam a2200313   4500
+		01978nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		001683164
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1964    iq      ob    00  0 ara  
+		151105s1964    iq      ob    000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,37 +25,62 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">
+			ma-----
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			D199.3
+		</subfield>
+		<subfield code="b">
+			.M38 1964
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Maʻrūf, Nājī.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			ʻUrūbat al-mudun al-Islāmīyah
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			ʻUrūbat al-mudun al-Islāmīyah /
 		</subfield>
 		<subfield code="c">
-			Nājī Maʻrūf.
+			[taʼlīf] Nājī Maʻrūf.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Ṭabʻah 1.
+			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Baghdād :
+			Baghdād :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat al-ʻĀnī,
+			Maṭbaʻat al-ʻĀnī,
 		</subfield>
 		<subfield code="c">
 			1964.
@@ -63,12 +88,36 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (80 p.)
+			online resource (80 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			Cover title: Islamic cities founded by the Arabs, by Naji Marouf.
+			Cover title: Islamic Cities Founded by the Arabs, by Naji Marouf.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -78,7 +127,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Bibliography: p. 77-78.
+			Includes bibliographical references (pages 77-78).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -100,17 +149,32 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">
-			Arabs.
+			Cities and towns
+		</subfield>
+		<subfield code="z">
+			Arab countries.
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="650">
+	<datafield ind1=" " ind2="7" tag="650">
 		<subfield code="a">
-			Islamic art.
+			Cities and towns.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00861748.
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="650">
+	<datafield ind1=" " ind2="7" tag="651">
 		<subfield code="a">
-			Islamic civilization.
+			Arab countries.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01240128.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -128,24 +192,82 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Maʻrūf, Nājī.
+		</subfield>
+		<subfield code="t">
+			ʻUrūbat al-mudun al-Islāmīyah.
+		</subfield>
+		<subfield code="b">
+			al-Ṭabʻah 1.
+		</subfield>
+		<subfield code="d">
+			Baghdād, Maṭbaʻat al-ʻĀnī, 1964
+		</subfield>
+		<subfield code="w">
+			(OCoLC)559048367
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
 			Maʻrūf, Nājī.
 		</subfield>
 		<subfield code="t">
-			ʻUrūbat al-mudun al-Islāmīyah
+			ʻUrūbat al-mudun al-Islāmīyah
 		</subfield>
 		<subfield code="w">
 			(NNU)001683164
-		</subfield>
-		<subfield code="w">
-			(DLC)ne 65000995
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/r7sqvdrm
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			معروف، ناجي.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			عروبة المدن الإسلامية /
+		</subfield>
+		<subfield code="c">
+			ناجي معروف.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			الطبعة ١.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			مطبعة العاني،
+		</subfield>
+		<subfield code="c">
+			١٩٦٤.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -174,9 +296,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001244
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)(ERROR-MISC)
 		</subfield>
 	</datafield>
 </record>

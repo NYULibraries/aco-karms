@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01146nam a2200265   4500
+		02007nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		001677533
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1955    ua c    o     010 0bara d
+		151105s1955    ua f    o     010 0barard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,27 +25,41 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="0" tag="245">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			Aḥmad Amīn
+			PJ7810
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="b">
+			.A6 1955
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="245">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Aḥmad Amīn /
 		</subfield>
 		<subfield code="c">
-			bi-qalamihi wa-qalam aṣdiqāʼih.
+			bi-qalamihi wa-qalam aṣdiqāʼihi.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			al-Qāhirah :
+			al-Qāhirah :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat Lajnat al-Taʼlīf wa-al-Tarjamah wa-al-Nashr,
+			Maṭbaʻat Lajnat al-Taʼlīf wa-al-Tarjumah wa-al-Nashr,
 		</subfield>
 		<subfield code="c">
 			1955.
@@ -53,15 +67,36 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (112 p.) :
+			online resource (112 pages, [5] leaves of plates)
 		</subfield>
-		<subfield code="b">
-			ports.
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			&quot;Bi-munāsabat al-dhikrá al-ūlaá li-wafātih, 30 Māyū, 1955.&quot;
+			&quot;Bi-munāsabat al-dhikrī al-awwalī li-wafātihi, 30 Māyū 1955.&quot;
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -87,19 +122,39 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Amīn, Aḥmad,
+			Amīn, Aḥmad,
 		</subfield>
 		<subfield code="d">
 			1886-1954.
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="650">
+	<datafield ind1="1" ind2="7" tag="600">
 		<subfield code="a">
-			Authors, Arab
+			Amīn, Aḥmad,
 		</subfield>
-		<subfield code="v">
-			Biography.
+		<subfield code="d">
+			1886-1954
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00018362
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Amīn, Aḥmad,
+		</subfield>
+		<subfield code="d">
+			1886-1954.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -117,10 +172,38 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="t">
+			Aḥmad Amīn.
+		</subfield>
+		<subfield code="d">
+			al-Qāhirah : Maṭbaʻat Lajnat al-Taʼlīf wa-al-Tarjumah wa-al-Nashr, 1955
+		</subfield>
+		<subfield code="w">
+			(OCoLC)586061243
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="t">
+			Aḥmad Amīn.
+		</subfield>
+		<subfield code="d">
+			al-Qāhirah : Maṭbaʻat Lajnat al-Taʼlīf wa-al-Tarjumah wa-al-Nashr, 1955
+		</subfield>
+		<subfield code="w">
+			(OCoLC)593032771
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="t">
-			Aḥmad Amīn
+			Aḥmad Amīn
 		</subfield>
 		<subfield code="w">
 			(NNU)001677533
@@ -129,6 +212,53 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/fn2z37qv
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">
+			245-01/
+		</subfield>
+		<subfield code="a">
+			احمد امين /
+		</subfield>
+		<subfield code="c">
+			بقلمه وقلم اصدقائه.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-02/
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			مطبعة لجنة التأليف والترجمة والنشر،
+		</subfield>
+		<subfield code="c">
+			1955.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-03/
+		</subfield>
+		<subfield code="a">
+			امين، احمد،
+		</subfield>
+		<subfield code="d">
+			1886-1954.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/
+		</subfield>
+		<subfield code="a">
+			امين، احمد،
+		</subfield>
+		<subfield code="d">
+			1886-1954.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -157,9 +287,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001232
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

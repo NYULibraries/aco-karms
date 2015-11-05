@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01894nam a2200337   4500
+		02055nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		002065463
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1955    iq      ob    000 0 arard
+		151105s1955    iq      ob    000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -29,12 +29,9 @@
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="050">
+	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">
-			DS79.9.M6
-		</subfield>
-		<subfield code="b">
-			U52 1955
+			a-iq---
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
@@ -75,7 +72,7 @@
 			880-03
 		</subfield>
 		<subfield code="a">
-			al-Mawṣil,
+			al-Mawṣil :
 		</subfield>
 		<subfield code="b">
 			Maṭbaʻat al-Hadaf,
@@ -121,10 +118,38 @@
 			Mosul (Iraq)
 		</subfield>
 		<subfield code="x">
+			History
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Iraq
+		</subfield>
+		<subfield code="z">
+			Mosul.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01202687
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
 			History.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411628
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Daywahʹchī, Saʻīd.
 		</subfield>
@@ -164,12 +189,15 @@
 			http://hdl.handle.net/2333.1/nzs7h716
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
+	<datafield ind1="0" ind2=" " tag="880">
 		<subfield code="6">
 			100-01/
 		</subfield>
 		<subfield code="a">
-			ياسين بن خير الله الخطيب العمري.
+			ياسين بن خير الله الخطيب العمري،
+		</subfield>
+		<subfield code="d">
+			1745 or 1746-1811.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -177,7 +205,7 @@
 			245-02/
 		</subfield>
 		<subfield code="a">
-			منية الادبدء في تاريخ الموصل الحدباء،
+			منية الادبادء في تاريخ الموصل الحدباء،
 		</subfield>
 		<subfield code="c">
 			تأليف ياسين بن خير الله الخطيب العمري. عنى بتحقيق نشره سعيد الديوهجي.
@@ -188,13 +216,21 @@
 			260-03/
 		</subfield>
 		<subfield code="a">
-			الموصل،
+			الموصل :
 		</subfield>
 		<subfield code="b">
 			مطبعة الهدف،
 		</subfield>
 		<subfield code="c">
-			[1955]
+			1955.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/
+		</subfield>
+		<subfield code="a">
+			ديوهچي، سعيد.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -223,9 +259,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001305
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

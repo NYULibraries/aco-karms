@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02736nam a2200469   4500
+		04048nam a2200637   4500
 	</leader>
 	<controlfield tag="001">
 		001684515
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1908    le      ob    001 0 arard
+		151105s1908    le      ob    001 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -33,7 +36,7 @@
 		<subfield code="a">
 			ara
 		</subfield>
-		<subfield code="a">
+		<subfield code="b">
 			eng
 		</subfield>
 	</datafield>
@@ -42,17 +45,12 @@
 			a-sy---
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			DS99.D3
+			D152
 		</subfield>
 		<subfield code="b">
-			I22
+			.I25 1908
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
@@ -60,10 +58,10 @@
 			880-01
 		</subfield>
 		<subfield code="a">
-			Ibn al-Qalānisī, Abū Yaʻlá Ḥamzah ibn Asad,
+			Ibn al-Qalānisī, Abū Yaʻlá Ḥamzah ibn Asad,
 		</subfield>
 		<subfield code="d">
-			d. 1160.
+			-1160.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
@@ -71,7 +69,7 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			Dhayl tārīkh Dimashq
+			Dhayl tārīkh Dimashq
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
@@ -79,57 +77,74 @@
 			880-03
 		</subfield>
 		<subfield code="a">
-			Tārīkh Abī Yaʻlá Ḥamzah Ibn al-Qalānisī
-		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+			Tārīkh Abī Yaʻlá Ḥamzah ibn al-Qalānisī :
 		</subfield>
 		<subfield code="b">
-			al-maʻruf bi-Dhayl tārīkh Dimashq : tatlūhu nukhab min tawārīkh Ibn al-Azraq al-Fāriqī wa-Sibṭ Ibn al-Jawzī wa-al ḥāfiẓ al-dhahabī.
+			al-maʻruf bi-Dhayl tārīkh Dimashq /
+		</subfield>
+		<subfield code="c">
+			tatalawahu nukhab min tawārīkh Ibn al-Azraq al-Fāriqī wa-al-sibṭ Ibn al-Jawzī wa-al-Ḥāfiẓ al-Dhahabī.
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="260">
+	<datafield ind1="1" ind2="5" tag="246">
+		<subfield code="a">
+			History of Damascus, 363-555 A.H.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2="0" tag="246">
 		<subfield code="6">
 			880-04
 		</subfield>
 		<subfield code="a">
-			Bayrūt :
+			Dhayl tārīkh Dimashq
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Bayrūt :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat al-Ābāʼ al-Yasūʻīyīn,
+			Maṭbaʻat al-Ābāʼ al-Yasūʻīayn,
 		</subfield>
 		<subfield code="c">
-			1908
+			1908.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (397, 48 p.)
+			online resource (397, 48 pages)
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
+	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">
-			Romanized record.
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
+	<datafield ind1=" " ind2=" " tag="337">
 		<subfield code="a">
-			Added title page: History of Damascus, 363-555 a.h. / by Ibn al-Qalânisi from the Bodleian Ms. Hunt.125 ; being a continuation of the history of Hilâl al-Sâbi, edited with extracts from other histories and summary of contents by H.F. Amedroz. Leyden : Brill, 1908.
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
+	<datafield ind1=" " ind2=" " tag="338">
 		<subfield code="a">
-			Introduction and summary of contents in English.
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
 			Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">
-			Includes bibliographical references and index.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -149,6 +164,16 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="546">
+		<subfield code="a">
+			Introduction and summary of contents in English.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="504">
+		<subfield code="a">
+			Includes bibliographical references and index.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">
 			Crusades.
@@ -162,18 +187,73 @@
 			History.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Crusades.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00884401.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Syria
+		</subfield>
+		<subfield code="z">
+			Damascus.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01207112.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			History.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411628.
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-05
+			880-06
 		</subfield>
 		<subfield code="a">
-			Ṣābī, Hilāl ibn al-Muḥassin,
+			Ibn al-Azraq al-Fāriqī, Aḥmad ibn Yūsuf ibn ʻAlī,
 		</subfield>
 		<subfield code="d">
-			970-1056.
+			1116 or 1117-1176.
 		</subfield>
-		<subfield code="t">
-			Tārīkh Dimashq.
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-07
+		</subfield>
+		<subfield code="a">
+			Sibṭ ibn al-Jawzī, Yūsuf ibn Qizughlī,
+		</subfield>
+		<subfield code="d">
+			1186 or 1187-1257.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-08
+		</subfield>
+		<subfield code="a">
+			Dhahabī, Muḥammad ibn Aḥmad,
+		</subfield>
+		<subfield code="d">
+			1274-1348.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
@@ -185,6 +265,20 @@
 		</subfield>
 		<subfield code="d">
 			1855-1917.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-09
+		</subfield>
+		<subfield code="a">
+			Ṣābī, Hilāl ibn al-Muḥassin,
+		</subfield>
+		<subfield code="d">
+			970-1056.
+		</subfield>
+		<subfield code="t">
+			Tārīkh Dimashq.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -200,9 +294,55 @@
 			Arabic Collections Online.
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="740">
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
+			Online version:
+		</subfield>
 		<subfield code="a">
-			History of Damascus, 363-555 a.h.
+			Ibn al-Qalānisī, Abū Yaʻlá Ḥamzah ibn Asad, -1160.
+		</subfield>
+		<subfield code="t">
+			Tārīkh Abī Yaʻlá Ḥamzah ibn al-Qalānisī.
+		</subfield>
+		<subfield code="d">
+			Bayrūt : al-Ābāʼ al-Yasūʻīayn, 1908
+		</subfield>
+		<subfield code="w">
+			(OCoLC)551622776
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Ibn al-Qalānisī, Abū Yaʻlá Ḥamzah ibn Asad, -1160.
+		</subfield>
+		<subfield code="t">
+			Tārīkh Abī Yaʻlá Ḥamzah ibn al-Qalānisī.
+		</subfield>
+		<subfield code="d">
+			Bayrūt : al-Ābāʼ al-Yasūʻīayn, 1908
+		</subfield>
+		<subfield code="w">
+			(OCoLC)606249827
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Ibn al-Qalānisī, Abū Yaʻlá Ḥamzah ibn Asad, -1160.
+		</subfield>
+		<subfield code="t">
+			Tārīkh Abī Yaʻlá Ḥamzah ibn al-Qalānisī.
+		</subfield>
+		<subfield code="d">
+			Bayrūt : al-Ābāʼ al-Yasūʻīayn, 1908
+		</subfield>
+		<subfield code="w">
+			(OCoLC)608641457
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
@@ -210,10 +350,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ibn al-Qalānisī, Abū Yaʻlá Ḥamzah ibn Asad, d. 1160.
+			Ibn al-Qalānisī, Abū Yaʻlá Ḥamzah ibn Asad, -1160.
 		</subfield>
 		<subfield code="t">
-			Tārīkh Abī Yaʻlá Ḥamzah Ibn al-Qalānisī
+			Tārīkh Abī Yaʻlá Ḥamzah ibn al-Qalānisī
 		</subfield>
 		<subfield code="w">
 			(NNU)001684515
@@ -229,7 +369,10 @@
 			100-01/
 		</subfield>
 		<subfield code="a">
-			ابن القلانسي، أبو يعلى حمزة بن أسد.
+			ابن القلانسي، ابو يعلى حمزة بن اسد،
+		</subfield>
+		<subfield code="d">
+			-1160.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -245,21 +388,32 @@
 			245-03/
 		</subfield>
 		<subfield code="a">
-			تاريخ أبي يعلى حمزة ابن القلانسي :
+			تاريخ ابي يعلى حمزة بن القلانسي :
 		</subfield>
 		<subfield code="b">
-			المعروف بذيل تاريخ دمشق : تتلوه نخب من تواريخ ابن الازرق الفارقي وسبط ابن الجوزي والحافظ الذهبي.
+			المعرف بذيل تاريخ دمشق /
+		</subfield>
+		<subfield code="c">
+			تتلوه نخب من تواريخ ابن الازرق الفارقي والسبط ابن الجوزي والحافظ الذهبي.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2="0" tag="880">
+		<subfield code="6">
+			246-04/
+		</subfield>
+		<subfield code="a">
+			ذيل تاريخ دمشق
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-04/
+			260-05/
 		</subfield>
 		<subfield code="a">
 			بيروت :
 		</subfield>
 		<subfield code="b">
-			مطبعة الآباء اليسوعيين،
+			مطبعة الاباء اليسوعيين،
 		</subfield>
 		<subfield code="c">
 			1908.
@@ -267,10 +421,46 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-05/
+			700-06/
 		</subfield>
 		<subfield code="a">
-			صابي، هلال بن المحسن.
+			ابن الازرق الفارقي، احمد بن يوسف بن علي،,
+		</subfield>
+		<subfield code="d">
+			1116 or 1117-1176.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-07/
+		</subfield>
+		<subfield code="a">
+			سبط بن الجوزي، يوسف بن قزغلي،,
+		</subfield>
+		<subfield code="d">
+			1186 or 1187-1257.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-08/
+		</subfield>
+		<subfield code="a">
+			ذهبي، محمد بن احمد،,
+		</subfield>
+		<subfield code="d">
+			1274-1348.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-09/
+		</subfield>
+		<subfield code="a">
+			صابي، هلال بن المحسن،
+		</subfield>
+		<subfield code="d">
+			970-1056.
 		</subfield>
 		<subfield code="t">
 			تاريخ دمشق.

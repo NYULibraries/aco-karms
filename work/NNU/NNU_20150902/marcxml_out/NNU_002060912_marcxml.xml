@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02372nam a2200373   4500
+		02613nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		002060912
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007t19531958sy h    o     000 0 arar 
+		151105t19531958sy h    o     000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,29 +25,24 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">
+			a-sy---
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			DS51.A3
 		</subfield>
 		<subfield code="b">
-			I25 1958
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">
-			DS99.A56
-		</subfield>
-		<subfield code="b">
-			I34 1958
+			I25 1953
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
@@ -55,7 +50,7 @@
 			880-01
 		</subfield>
 		<subfield code="a">
-			Ibn Shaddād, Muḥammad ibn ʻAlī,
+			Ibn Shaddād, Muḥammad ibn ʻAlī,
 		</subfield>
 		<subfield code="d">
 			1217-1285.
@@ -66,16 +61,13 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			al-Aʻlāq al-khaṭīrah fī dhikr umarāʼ al-Shām wa-al-Jazīrah
+			al-Aʻlāq al-khaṭīrah fī dhikr umrāʼ al-Shām wa-al-Jazīrah
 		</subfield>
 		<subfield code="p">
-			al-Juzʼ al-awwal, al-qism al-awwal
-		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+			al-Juzʼ al-awwal, al-qism al-awwal /
 		</subfield>
 		<subfield code="c">
-			Taʼlīf ʻIzz al-Dīn kAbī ʻAbd Allāh Muḥammad ibn ʻAlī ibn Ibrāhīm Ibn Shaddād. ʻUniya bi-nashrihi wa-taḥqīqihi Dūmīnīk Sūrdīl.
+			Taʼlīf ʻIzz al-Dīn kAbī ʻAbd Allāh Muḥammad ibn ʻAlī ibn Ibrāhīm Ibn Shaddād. ʻUniya bi-nashrihi wa-taḥqīqihi Dūmīnīk Sūrdīl.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
@@ -83,26 +75,50 @@
 			880-03
 		</subfield>
 		<subfield code="a">
-			Dimashq,
+			Dimashq :
 		</subfield>
 		<subfield code="b">
-			al-Maʻhad al-Faransī bi-Dimashq lil-Dirāsāt al-ʻArabīyah
+			al-Maʻhad al-Faransī bi-Dimashq lil-Dirāsāt al-ʻArabīyah,
 		</subfield>
 		<subfield code="c">
-			1953 [i. e. 1958].
+			1953.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (231, xxxii p.) :
+			online resource (231, xxxii pages) :
 		</subfield>
 		<subfield code="b">
-			facsims.
+			facsimiles
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			Added t. p.: La description d'Alep d'Ibn Šaddād, éd. critique d'al-Aʻlāq al-ḫaṭīra, tome I, section I.
+			Added t.p.: La description d'Alep d'Ibn Šaddād, éd. critique d'al-Aʻlāq al-ḫaṭīra, tome I, section I.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -140,7 +156,35 @@
 			Description and travel.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Travel.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01155558.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Syria
+		</subfield>
+		<subfield code="z">
+			Aleppo.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01213345.
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Sourdel, Dominique.
 		</subfield>
@@ -160,7 +204,7 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
 		<subfield code="a">
-			Description d'ALep d'Ibn Šaddād.
+			Description d'ALep d'Ibn Šaddād.
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
@@ -168,10 +212,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ibn Shaddād, Muḥammad ibn ʻAlī, 1217-1285.
+			Ibn Shaddād, Muḥammad ibn ʻAlī, 1217-1285.
 		</subfield>
 		<subfield code="t">
-			al-Aʻlāq al-khaṭīrah fī dhikr umarāʼ al-Shām wa-al-Jazīrah
+			al-Aʻlāq al-khaṭīrah fī dhikr umrāʼ al-Shām wa-al-Jazīrah
 		</subfield>
 		<subfield code="w">
 			(NNU)002060912
@@ -198,10 +242,10 @@
 			245-02/
 		</subfield>
 		<subfield code="a">
-			الاعلاق الخطيرة في ذكر امراء الشام والجزيرة.
+			الأعلاق الخطيرة في ذكر امراء الشام والجزيرة.
 		</subfield>
 		<subfield code="p">
-			الحزء الاول، القسم الاولز
+			الحزء الاول، القسم الاول
 		</subfield>
 		<subfield code="c">
 			تأليف عز الدين أبي عبد الله محمد بن ابراهيم ابن شداد. عني بنشره وتحقيق دومينيك سورديل.
@@ -212,13 +256,21 @@
 			260-03/
 		</subfield>
 		<subfield code="a">
-			دمشق،
+			دمشق :
 		</subfield>
 		<subfield code="b">
-			المعهد الفرنسي بدمشق للدراسات العربية
+			المعهد الفرنسي بدمشق للدراسات العربية،
 		</subfield>
 		<subfield code="c">
-			١٩٥٣ [i.e. 1958]
+			1953.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/
+		</subfield>
+		<subfield code="a">
+			سورديل، دومينيك.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -247,9 +299,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001349
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

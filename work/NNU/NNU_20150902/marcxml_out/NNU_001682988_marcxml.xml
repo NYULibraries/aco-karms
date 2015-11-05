@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01295nam a2200277   4500
+		02557nam a2200481   4500
 	</leader>
 	<controlfield tag="001">
 		001682988
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1929    ua      o     00  0 ara  
+		151105s1928    ua abf  ob    001 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,48 +25,102 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="100">
+	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">
-			Ibn al-Khaṭīb,
+			e-sp---
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			DP102
+		</subfield>
+		<subfield code="b">
+			.I2 1928
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Ibn al-Khaṭīb,
 		</subfield>
 		<subfield code="d">
-			d. 1374.
+			1313-1374.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Lamḥah al-badrīyah fī al-dawlah al-Naṣrīyah
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			al-Lamḥah al-badrīyah fī al-dawlah al-Naṣrīyah /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Lisān al-Dīn ibn al-Khaṭīb ; ṣaḥḥaḥahu wa-waḍaʻa fahārisahu Muḥibb al-Dīn al-Khaṭīb.
+			taʼlīf Lisān al-Dīn ibn al-Khaṭīb ; ṣaḥḥaḥahu wa-waḍaʻa fahārisahu nāshiruhu Muḥibb al-Dīn al-Khaṭīb.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Qāhirah :
+			al-Qāhirah :
 		</subfield>
 		<subfield code="b">
-			al-Maṭbaʻah al-Salafīyah,
+			al-Maṭbaʻah al-Salafīyah wa-Maktabatuhā,
 		</subfield>
 		<subfield code="c">
-			1929.
+			1347 [1928 or 1929]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (152 p.)
+			online resource (152 pages, [1] folded leaf of plates) :
+		</subfield>
+		<subfield code="b">
+			illustrations, map
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
 			Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="504">
+		<subfield code="a">
+			Includes bibliographical references and indexes.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -104,10 +158,73 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
 		<subfield code="a">
-			Granada (Kingdom)
+			Granada (Spain)
 		</subfield>
 		<subfield code="x">
 			History.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Nasrides.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01033128.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Spain.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01204303.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Spain
+		</subfield>
+		<subfield code="z">
+			Granada.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01207338.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="648">
+		<subfield code="a">
+			711 - 1516
+		</subfield>
+		<subfield code="2">
+			fast.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			History.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411628.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Khaṭīb, Muḥibb al-Dīn.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -125,13 +242,30 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Ibn al-Khaṭīb, -1374.
+		</subfield>
+		<subfield code="t">
+			Lamḥah al-badrīyah fī al-dawlah al-Naṣrīyah.
+		</subfield>
+		<subfield code="d">
+			al-Qāhirah : al-Maṭbaʻah al-Salafīyah wa-Maktabatuhā, 1347 [1928 or 1929]
+		</subfield>
+		<subfield code="w">
+			(OCoLC)651915751
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ibn al-Khaṭīb, d. 1374.
+			Ibn al-Khaṭīb, 1313-1374.
 		</subfield>
 		<subfield code="t">
-			al-Lamḥah al-badrīyah fī al-dawlah al-Naṣrīyah
+			al-Lamḥah al-badrīyah fī al-dawlah al-Naṣrīyah
 		</subfield>
 		<subfield code="w">
 			(NNU)001682988
@@ -140,6 +274,50 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/z8w9gmwv
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			ابن الخطيب،
+		</subfield>
+		<subfield code="d">
+			1313-1374.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			اللمحة البدرية في الدولة النصرية /
+		</subfield>
+		<subfield code="c">
+			تأليف لسان الدين بن الخطيب ؛ صححه ووضع فهارسه محب الدين الخطيب.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			المطبعة السلفية،
+		</subfield>
+		<subfield code="c">
+			1347 [1928 or 1929]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/
+		</subfield>
+		<subfield code="a">
+			خطيب، محب الدين.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -168,9 +346,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001257
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)(ERROR-MISC)
 		</subfield>
 	</datafield>
 </record>

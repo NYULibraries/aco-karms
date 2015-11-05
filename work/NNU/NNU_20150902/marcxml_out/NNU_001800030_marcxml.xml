@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01525nam a2200337   4500
+		02396nam a2200505   4500
 	</leader>
 	<controlfield tag="001">
 		001800030
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1961    sy a    ob    000 0 ara d
+		151105s1961    sy a    ob    000 0 araod
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -34,33 +37,58 @@
 			a-sy---
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			Yūnus, ʻAbd al-Laṭīf.
+			DS98.3.A43
+		</subfield>
+		<subfield code="b">
+			Y86 1961
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="082">
+		<subfield code="a">
+			956.9103
+		</subfield>
+		<subfield code="2">
+			21
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Yūnus, ʻAbd al-Laṭīf.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Thawrat al-Shaykh Ṣāliḥ al-ʻAlī
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Thawrat al-Shaykh Ṣāliḥ al-ʻAlī /
 		</subfield>
 		<subfield code="c">
-			taʼlīf ʻAbd al-Laṭīf al-Yūnus.
+			taʼlīf ʻAbd al-Laṭīf al-Yūnus.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[al-Ṭabʻah 2]
+			[al-Ṭabʻah 2].
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			[Damascus] :
+			Dimashq :
 		</subfield>
 		<subfield code="b">
-			Dār al-Yaqẓah al-ʻArabīyah,
+			Dār al-Yaqẓah al-ʻArabīyah bi-Dimashq,
 		</subfield>
 		<subfield code="c">
 			[1961?]
@@ -68,15 +96,42 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (234 p.) :
+			online resource (234 pages) :
 		</subfield>
 		<subfield code="b">
-			ill.
+			illustrations
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Silsilat ruwwād al-taḥrīr al-ʻArabī ;
+			Silsilat ruwwād al-taḥrīr al-ʻArabī ;
 		</subfield>
 		<subfield code="v">
 			1
@@ -84,7 +139,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			At head of title: Wizārat al-Thaqāfah wa-al-Irshād al-Qawmī, Mudīrīyat al-Taʼlīf wa-al-Tarjamah.
+			At head of title: Wizārat al-Thaqāfah wa-al-Irshād al-Qawmī, Mudīrīyat al-Taʼlīf wa-al-Tarjamah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -114,12 +169,34 @@
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="600">
+	<datafield ind1="1" ind2="7" tag="600">
 		<subfield code="a">
-			ʻAlī, Ṣāliḥ,
+			ʻAlī, Ṣāliḥ,
 		</subfield>
 		<subfield code="d">
-			1883-1950.
+			1882-1950.
+		</subfield>
+		<subfield code="2">
+			ram.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="a">
+			ʻAlī, Ṣāliḥ,
+		</subfield>
+		<subfield code="d">
+			1882 or 1883-1950.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Syrie
+		</subfield>
+		<subfield code="y">
+			20e siècle.
+		</subfield>
+		<subfield code="2">
+			ram.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
@@ -131,6 +208,14 @@
 		</subfield>
 		<subfield code="y">
 			20th century.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="600">
+		<subfield code="a">
+			Àlĭ, Sālih,
+		</subfield>
+		<subfield code="d">
+			1882 or 1883-1950.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -151,26 +236,92 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Yūnus, ʻAbd al-Laṭīf.
+			Yūnus, ʻAbd al-Laṭīf.
 		</subfield>
 		<subfield code="t">
-			Thawrat al-Shaykh Ṣāliḥ al-ʻAlī
+			Thawrat al-Shaykh Ṣāliḥ al-ʻAlī
 		</subfield>
 		<subfield code="w">
 			(NNU)001800030
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="830">
+	<datafield ind1="4" ind2="0" tag="856">
+		<subfield code="u">
+			http://hdl.handle.net/2333.1/cz8w9kdp
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
 		<subfield code="a">
-			Silsilat ruwwād al-taḥrīr al-ʻArabī ;
+			يونس، عبد اللطيف.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			ثورة الشيخ صالح العلي /
+		</subfield>
+		<subfield code="c">
+			تأليف عبد اللطيف اليونس.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			[الطبعة 2].
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			دمشق :
+		</subfield>
+		<subfield code="b">
+			دار اليقظة العربيةبدمشق،
+		</subfield>
+		<subfield code="c">
+			[1961؟].
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-05/
+		</subfield>
+		<subfield code="a">
+			سلسلة رواد التحرير العربي ؛
+		</subfield>
+		<subfield code="v">
+			1
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			Silsilat ruwwād al-taḥrīr al-ʻArabī ;
 		</subfield>
 		<subfield code="v">
 			1.
 		</subfield>
 	</datafield>
-	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">
-			http://hdl.handle.net/2333.1/cz8w9kdp
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-06/
+		</subfield>
+		<subfield code="a">
+			سلسلة رواد التحرير العربي ;
+		</subfield>
+		<subfield code="v">
+			1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -199,9 +350,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001346
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

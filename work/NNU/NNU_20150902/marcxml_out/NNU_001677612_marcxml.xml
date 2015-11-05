@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01220nam a2200289   4500
+		01898nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		001677612
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1964    iq      ob    000 0 ara d
+		151105s1964    iq      ob    000 0 araod
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,42 +25,86 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			PJ6576
+		</subfield>
+		<subfield code="b">
+			.S18 1964
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Sāmarrāʼī, Ibrāhīm.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Aʻlām al-ʻArabīyah
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource].
+		<subfield code="a">
+			al-Aʻlām al-ʻArabīyah /
+		</subfield>
+		<subfield code="c">
+			Ibrāhīm al-Sāmarrāʼī.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="5" tag="246">
+		<subfield code="a">
+			Aʻlam al-ʻArabiyya: étude de nomes [sic] de personnes
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Baghdād,
+			Baghdād :
 		</subfield>
 		<subfield code="b">
-			al-Maktabah al-Ahlīyah,
+			al-Maktabah al-Ahlīyah,
 		</subfield>
 		<subfield code="c">
-			1964
+			1964.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (94 p.)
+			online resource (94 pages)
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
+	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">
-			Added t.p.: al-Aʻlam al-ʻArabiyya: étude de nomes de personnes, par I. as-Samarraï.
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -70,7 +114,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Includes bibliographical references (p. 94)
+			Includes bibliographical references (page 94).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -100,7 +144,32 @@
 			Names, Personal
 		</subfield>
 		<subfield code="x">
+			Arabic
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Arabic language.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00812287
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Names, Personal
+		</subfield>
+		<subfield code="x">
 			Arabic.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01751766
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -118,13 +187,30 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Sāmarrāʼī, Ibrāhīm.
+		</subfield>
+		<subfield code="t">
+			Aʻlām al-ʻArabīyah.
+		</subfield>
+		<subfield code="d">
+			Baghdād : al-Maktabah al-Ahlīyah, 1964
+		</subfield>
+		<subfield code="w">
+			(OCoLC)580088705
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
 			Sāmarrāʼī, Ibrāhīm.
 		</subfield>
 		<subfield code="t">
-			al-Aʻlām al-ʻArabīyah
+			al-Aʻlām al-ʻArabīyah
 		</subfield>
 		<subfield code="w">
 			(NNU)001677612
@@ -133,6 +219,39 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/79cnp8b4
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			سامرائي، ابراهيم.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			الاعلام العربية /
+		</subfield>
+		<subfield code="c">
+			ابراهيم السامرائي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			المكتبة الاهلية،
+		</subfield>
+		<subfield code="c">
+			1964.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

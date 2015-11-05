@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01255nam a2200277   4500
+		01835nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		001678250
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151007s1931    le c    ob    000 0 arard
+		151105s1931    le cf   ob    000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,8 +25,16 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">
+			a-sy---
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
@@ -38,33 +46,39 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Ḥaddād, Jūrj Marʻī,
+			Ḥaddād, Jūrj Marʻī,
 		</subfield>
 		<subfield code="d">
 			1910-
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Fatḥ al-ʻArab lil-Shām
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="a">
+			Fatḥ al-ʻArab lil-Shām :
 		</subfield>
 		<subfield code="b">
-			baḥth tārīkhī intiqādī taḥlīlī /
+			baḥth tārīkhī intiqādī taḥlīlī /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Jūrj Marʻī Ḥaddād.
+			taʼlīf Jūrj Marʻī Ḥaddād.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Bayrūt :
+			Bayrūt :
 		</subfield>
 		<subfield code="b">
-			al-Maṭbaʻah al-Adabīyah,
+			al-Maṭbaʻah al-Adabīyah,
 		</subfield>
 		<subfield code="c">
 			1931.
@@ -72,10 +86,34 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (113 p., [2] leaves of plates) :
+			online resource (113 pages, [2] leaves of plates) :
 		</subfield>
 		<subfield code="b">
-			ports.
+			portraits
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -85,7 +123,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Includes bibliographical references (p. 16-18)
+			Includes bibliographical references (pages 16-18).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -116,6 +154,36 @@
 			634-750.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Syria.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01208757
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="648">
+		<subfield code="a">
+			634 - 750
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			History.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411628
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -134,10 +202,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ḥaddād, Jūrj Marʻī, 1910-
+			Ḥaddād, Jūrj Marʻī, 1910-
 		</subfield>
 		<subfield code="t">
-			Fatḥ al-ʻArab lil-Shām
+			Fatḥ al-ʻArab lil-Shām
 		</subfield>
 		<subfield code="w">
 			(NNU)001678250
@@ -146,6 +214,45 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/xwdbrz15
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			حداد، جورج مرعي،
+		</subfield>
+		<subfield code="d">
+			1910-
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			فتح العرب للشام :
+		</subfield>
+		<subfield code="b">
+			بحث تاريخي انتقادي تحليلي /
+		</subfield>
+		<subfield code="c">
+			تأليف جورج مرعي حداد.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			بيروت :
+		</subfield>
+		<subfield code="b">
+			المطبعة الأدبية،
+		</subfield>
+		<subfield code="c">
+			1931.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -174,9 +281,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001328
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>
