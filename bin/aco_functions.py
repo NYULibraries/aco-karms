@@ -434,6 +434,10 @@ def convert_2_eres_rec(rec, rda_rec):
 		inst_name = "American University of Beirut's Jafet Memorial Library"
 		inst_710a = 'Jafet Memorial Library.'
 		inst_710b = ''
+	elif rec_003_value == 'UaCaAUL':
+		inst_name = "American University in Cairo Library"
+		inst_710a = 'American University in Cairo.'
+		inst_710b = 'Library.'
 	else:
 		inst_name = ''
 		inst_710a = ''
@@ -933,6 +937,8 @@ def insert_src_entities(rec, bsn_se_lines):
 			se_003 = 'NjP'
 		if se_inst == 'aub':
 			se_003 = 'LeBAU'
+		if se_inst == 'auc';
+			se_003 == 'UaCaAUL'
 		if rec_003 == se_003 and rec_001 == se_001:
 			se_match = True
 			msg += 'Source entities (book IDs): '
