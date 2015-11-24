@@ -937,8 +937,8 @@ def insert_src_entities(rec, bsn_se_lines):
 			se_003 = 'NjP'
 		if se_inst == 'aub':
 			se_003 = 'LeBAU'
-		if se_inst == 'auc';
-			se_003 == 'UaCaAUL'
+		if se_inst == 'auc':
+			se_003 = 'UaCaAUL'
 		if rec_003 == se_003 and rec_001 == se_001:
 			se_match = True
 			msg += 'Source entities (book IDs): '
