@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02103nam a2200385   4500
+		02110nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		2872015
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1974    ir h    o     000 0 ara  
+		151124s1974    ir h    o     000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,13 +41,16 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Ibn al-Khaṭīb. 
+			Ibn al-Khaṭīb.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">
-			880-01
+			880-02
 		</subfield>
 		<subfield code="a">
 			Ḥaqāʼiq thābitah fī al-Islām yuḥāwilu al-munḥarifūn ṭamsahā wa-al-takhallus minhā /
@@ -58,7 +61,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
 		<subfield code="6">
-			880-02
+			880-03
 		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 1.
@@ -66,7 +69,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-03
+			880-04
 		</subfield>
 		<subfield code="a">
 			Ṭihrān :
@@ -208,7 +211,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-00
+			100-01
 		</subfield>
 		<subfield code="a">
 			ابن الخطيب.
@@ -216,7 +219,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-01
+			245-02
 		</subfield>
 		<subfield code="a">
 			حقائق ثابتة في الإسلام يحاول المنحرفون طمسها والتخلص منها /
@@ -227,7 +230,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			250-02
+			250-03
 		</subfield>
 		<subfield code="a">
 			الطبعة 1.
@@ -235,7 +238,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-03
+			260-04
 		</subfield>
 		<subfield code="a">
 			طهران :

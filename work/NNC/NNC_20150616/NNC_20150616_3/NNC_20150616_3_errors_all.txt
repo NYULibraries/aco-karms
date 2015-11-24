@@ -5,7 +5,7 @@ ALL Records containing any type of error - batch NNC_20150616
     --  have an unlinked 880 field
     --  have a series heading error in the 490/800/810/811/830 fields
     --  have one of the various miscellaneous errors, marked with ERROR-MISC
-Report produced: 2015-11-02 15:40:59.237939
+Report produced: 2015-11-24 12:38:40.852455
 ---------------------------------------------------------------------
 FILE: NNC_20150616_3/NNC_20150616_3_updates.mrc
 ---------------------------------------------------------------------
@@ -244,19 +244,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco001102
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm21475176 
-   oclc_rec_035_num: (OCoLC)21475176
-Institution ID: NNC_2872015
-Record 999:  NNC_2872015 (OCoLC)ocm21475176 columbia_aco001097
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   100 - Ibn al-Khaṭīb.
-ERROR-880: Unlinked 880s: YES
-   880 $6 100-00 - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001097
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm39771485 
    oclc_rec_035_num: (OCoLC)39771485
 Institution ID: NNC_2542525
@@ -357,5 +344,5 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco001090
 ---------------------------------------------------------------------
-TOTAL Number of Records containing any type of error: 31
+TOTAL Number of Records containing any type of error: 30
 
