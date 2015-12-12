@@ -14,7 +14,7 @@ class Wip
   private
 
   def validate_path(path)
-    raise "directory does not exist: #{path}"  unless File.exists?(path)
+    raise "directory does not exist: #{path}"  unless File.exist?(path)
     raise "directory is not readable: #{path}" unless File.readable?(path)
     path
   end

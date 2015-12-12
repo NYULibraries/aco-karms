@@ -7,7 +7,9 @@ class Marcxml
   # NNC = Columbia University
   # NIC = Cornell University
   # NjP = Princeton University
-  VALID_003_CODES = %w(NNU NNC NIC NjP)
+  # LeBAU = American University of Beirut
+  # UaCaAUL = The American University in Cairo
+  VALID_003_CODES = %w(NNU NNC NIC NjP LeBAU UaCaAUL)
 
   def initialize(path)
     @path        = path.dup
@@ -41,7 +43,7 @@ class Marcxml
 
   def validate_path!
     # check that marcxml exists and is readable
-    raise "marcxml file does not exist"  unless File.exists?(@path)
+    raise "marcxml file does not exist"  unless File.exist?(@path)
     raise "marcxml file is not readable" unless File.readable?(@path)
   end
 

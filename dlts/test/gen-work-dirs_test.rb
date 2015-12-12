@@ -25,7 +25,7 @@ class GenWorkDirsTest < MiniTest::Unit::TestCase
   DNE_PATH        = 'this-path-does-not-exist'
 
   def create_work_dir
-    FileUtils.mkdir(WORK_DIR) unless File.exists?(WORK_DIR)
+    FileUtils.mkdir(WORK_DIR) unless File.exist?(WORK_DIR)
     FileUtils.touch(File.join(WORK_DIR, '.gitkeep'))
   end
 
@@ -80,7 +80,7 @@ class GenWorkDirsTest < MiniTest::Unit::TestCase
   end
 
   MiniTest::Unit.after_tests do
-    FileUtils.mkdir(WORK_DIR) unless File.exists?(WORK_DIR)
+    FileUtils.mkdir(WORK_DIR) unless File.exist?(WORK_DIR)
     FileUtils.touch(File.join(WORK_DIR, '.gitkeep'))
   end
 
