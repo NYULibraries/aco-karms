@@ -1,5 +1,5 @@
 require 'test_helper'
-class HandleTest < MiniTest::Unit::TestCase
+class HandleTest < MiniTest::Test
 
   VALID_HANDLE_PATH      = 'test/fixtures/handle/valid'
   INVALID_HANDLE_PATH    = 'test/fixtures/handle/invalid'

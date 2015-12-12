@@ -14,7 +14,7 @@ class Handle
   private
   def process_path!
     # check that handle file exists and is readable
-    raise "handle file does not exist: #{@path}"  unless File.exists?(@path)
+    raise "handle file does not exist: #{@path}"  unless File.exist?(@path)
     raise "handle file is not readable: #{@path}" unless File.readable?(@path)
 
     # check that handle file only has one line

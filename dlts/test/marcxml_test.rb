@@ -1,5 +1,5 @@
 require 'test_helper'
-class MarcxmlTest < MiniTest::Unit::TestCase
+class MarcxmlTest < MiniTest::Test
 
   VALID_MARCXML_PATH        = 'test/fixtures/marcxml/valid'
   INVALID_001_PATH          = 'test/fixtures/marcxml/invalid_001'
@@ -13,8 +13,8 @@ class MarcxmlTest < MiniTest::Unit::TestCase
   BADLY_FORMED_XML_PATH     = 'test/fixtures/marcxml/badly_formed'
 
   # restore read/write permissions on test file
-  def teardown 
-    File.chmod( 0644, UNREADABLE_MARCXML_PATH) 
+  def teardown
+    File.chmod( 0644, UNREADABLE_MARCXML_PATH)
   end
 
   def test_class
@@ -22,8 +22,7 @@ class MarcxmlTest < MiniTest::Unit::TestCase
   end
 
   def test_empty_marcxml_file
-    err = assert_raises(RuntimeError) { Marcxml.new(EMPTY_MARCXML_PATH) }
-    assert_match(/marcxml validation error/, err.message)
+    assert_raises(Nokogiri::XML::SyntaxError) { Marcxml.new(EMPTY_MARCXML_PATH) }
   end
 
   def test_nonexistent_marcxml_file
@@ -75,7 +74,6 @@ class MarcxmlTest < MiniTest::Unit::TestCase
   end
 
   def test_badly_formed_xml
-    err = assert_raises(Nokogiri::XML::SyntaxError) { Marcxml.new(BADLY_FORMED_XML_PATH) }
+    assert_raises(Nokogiri::XML::SyntaxError) { Marcxml.new(BADLY_FORMED_XML_PATH) }
   end
-
 end

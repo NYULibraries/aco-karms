@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class WipProcessorTest < MiniTest::Unit::TestCase
+class WipProcessorTest < MiniTest::Test
   NNC_V1    = 'test/fixtures/wip/NNC_valid_1'
   NNC_V2    = 'test/fixtures/wip/NNC_valid_2'
   NIC_V1    = 'test/fixtures/wip/NIC_valid_1'
@@ -15,7 +15,7 @@ class WipProcessorTest < MiniTest::Unit::TestCase
   C_NIC_TWO_CSV = 'test/fixtures/canonical/handles_nic_two.csv'
 
   def create_work_dir
-    FileUtils.mkdir(WORK_DIR) unless File.exists?(WORK_DIR)
+    FileUtils.mkdir(WORK_DIR) unless File.exist?(WORK_DIR)
     FileUtils.touch(File.join(WORK_DIR, '.gitkeep'))
   end
 
@@ -45,9 +45,9 @@ class WipProcessorTest < MiniTest::Unit::TestCase
 
     w = WipProcessor.new(TEST_NNC_ONE)
     w.run
-    assert(File.exists?(File.join(WORK_DIR, 'NNC')), "<003> dir not created")
-    assert(File.exists?(File.join(WORK_DIR, 'NNC', "NNC_#{date_str}")), "<003>_<date_str> dir not created")
-    assert(File.exists?(File.join(WORK_DIR, 'NNC', "NNC_#{date_str}", 'marcxml_in')), "marcxml dir not created")
+    assert(File.exist?(File.join(WORK_DIR, 'NNC')), "<003> dir not created")
+    assert(File.exist?(File.join(WORK_DIR, 'NNC', "NNC_#{date_str}")), "<003>_<date_str> dir not created")
+    assert(File.exist?(File.join(WORK_DIR, 'NNC', "NNC_#{date_str}", 'marcxml_in')), "marcxml dir not created")
   end
 
   def test_run_method_copies_marcxml_file
@@ -56,7 +56,7 @@ class WipProcessorTest < MiniTest::Unit::TestCase
     w = WipProcessor.new(TEST_NNC_ONE)
     w.run
     exp = File.join(WORK_DIR, 'NNC', "NNC_#{date_str}", 'marcxml_in', "NNC_3076855_marcxml.xml")
-    assert(File.exists?(exp), "marcxml file not copied")
+    assert(File.exist?(exp), "marcxml file not copied")
     assert(FileUtils.cmp(exp, File.join(NNC_V1, 'data', 'columbia_CU58888896_marcxml.xml')))
   end
 
@@ -66,7 +66,7 @@ class WipProcessorTest < MiniTest::Unit::TestCase
     w = WipProcessor.new(TEST_NNC_ONE)
     w.run
     exp = File.join(WORK_DIR, 'NNC', "NNC_#{date_str}", 'handles.csv')
-    assert(File.exists?(exp), "csv file not created")
+    assert(File.exist?(exp), "csv file not created")
     assert(FileUtils.cmp(exp, C_NNC_ONE_CSV))
   end
 
@@ -76,7 +76,7 @@ class WipProcessorTest < MiniTest::Unit::TestCase
     w = WipProcessor.new(TEST_NNC_TWO)
     w.run
     exp = File.join(WORK_DIR, 'NNC', "NNC_#{date_str}", 'handles.csv')
-    assert(File.exists?(exp), "csv file not created")
+    assert(File.exist?(exp), "csv file not created")
     assert(FileUtils.cmp(exp, C_NNC_TWO_CSV))
   end
 
@@ -86,18 +86,16 @@ class WipProcessorTest < MiniTest::Unit::TestCase
     w = WipProcessor.new(TEST_FOUR)
     w.run
     exp_nnc = File.join(WORK_DIR, 'NNC', "NNC_#{date_str}", 'handles.csv')
-    assert(File.exists?(exp_nnc), "NNC csv file not created")
+    assert(File.exist?(exp_nnc), "NNC csv file not created")
     assert(FileUtils.cmp(exp_nnc, C_NNC_TWO_CSV))
 
     exp_coo = File.join(WORK_DIR, 'NIC', "NIC_#{date_str}", 'handles.csv')
-    assert(File.exists?(exp_coo), "NIC csv file not created")
+    assert(File.exist?(exp_coo), "NIC csv file not created")
     assert(FileUtils.cmp(exp_coo, C_NIC_TWO_CSV))
   end
 
-
-  MiniTest::Unit.after_tests do
-    FileUtils.mkdir(WORK_DIR) unless File.exists?(WORK_DIR)
+  MiniTest.after_run do
+    FileUtils.mkdir(WORK_DIR) unless File.exist?(WORK_DIR)
     FileUtils.touch(File.join(WORK_DIR, '.gitkeep'))
   end
-
 end
