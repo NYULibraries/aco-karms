@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class WipTest < MiniTest::Unit::TestCase
+class WipTest < MiniTest::Test
   # the directory must exist
   # the directory must be readable
   # it must have a valid handle file

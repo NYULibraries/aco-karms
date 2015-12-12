@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class WipProcessorTest < MiniTest::Unit::TestCase
+class WipProcessorTest < MiniTest::Test
   NNC_V1    = 'test/fixtures/wip/NNC_valid_1'
   NNC_V2    = 'test/fixtures/wip/NNC_valid_2'
   NIC_V1    = 'test/fixtures/wip/NIC_valid_1'
@@ -94,7 +94,7 @@ class WipProcessorTest < MiniTest::Unit::TestCase
     assert(FileUtils.cmp(exp_coo, C_NIC_TWO_CSV))
   end
 
-  MiniTest::Unit.after_tests do
+  MiniTest.after_run do
     FileUtils.mkdir(WORK_DIR) unless File.exist?(WORK_DIR)
     FileUtils.touch(File.join(WORK_DIR, '.gitkeep'))
   end

@@ -1,8 +1,7 @@
 require 'test_helper'
 require 'open3'
 
-#class GenWorkDirsTest < Test::Unit::TestCase
-class ValidateAcoMarcxml < MiniTest::Unit::TestCase
+class ValidateAcoMarcxml < MiniTest::Test
 
   COMMAND = 'ruby bin/validate-aco-marcxml.rb'
 

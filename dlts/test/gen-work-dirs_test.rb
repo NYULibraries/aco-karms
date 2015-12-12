@@ -2,7 +2,7 @@ require 'test_helper'
 require 'open3'
 require 'fileutils'
 
-class GenWorkDirsTest < MiniTest::Unit::TestCase
+class GenWorkDirsTest < MiniTest::Test
 
   COMMAND = 'ruby bin/gen-work-dirs.rb'
 
@@ -79,7 +79,7 @@ class GenWorkDirsTest < MiniTest::Unit::TestCase
     assert_match(/directory does not exist/, e)
   end
 
-  MiniTest::Unit.after_tests do
+  MiniTest.after_run do
     FileUtils.mkdir(WORK_DIR) unless File.exist?(WORK_DIR)
     FileUtils.touch(File.join(WORK_DIR, '.gitkeep'))
   end
