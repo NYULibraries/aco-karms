@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02357nam a2200457   4500
+		02422nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		1142808
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1946    ti ab   ob    000 0 ara  
+		151222s1946    ti ab   ob    000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -50,7 +50,7 @@
 			880-01
 		</subfield>
 		<subfield code="a">
-			Madanī, Aḥmad Tawfīq.
+			Madanī, Aḥmad Tawfīq. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
@@ -65,8 +65,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Tūnis :
+			al-Jazāʼr :
 		</subfield>
 		<subfield code="b">
 			Maktabat al-Istiqāmah,
@@ -287,13 +290,16 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
-			[الجزائر،
+			الجزائر :
+		</subfield>
+		<subfield code="b">
+			مكتبة الاستقامة،
 		</subfield>
 		<subfield code="c">
-			1946]
+			1946.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -341,13 +347,16 @@
 			NNC_1142808
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm09590309 
+			(OCoLC)ocm09590309
 		</subfield>
 		<subfield code="s">
 			columbia_aco001204
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001204
 		</subfield>
 	</datafield>
 </record>

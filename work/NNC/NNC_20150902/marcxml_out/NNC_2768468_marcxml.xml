@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02550nam a2200481   4500
+		02829nam a2200517   4500
 	</leader>
 	<controlfield tag="001">
 		2768468
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102m1953uuuuiq ab   ob    001 0 arard
+		151222m1953uuuuiq ab   ob    001 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -53,7 +53,7 @@
 			880-01
 		</subfield>
 		<subfield code="a">
-			Naqshabandī, Nāṣir al-Sayyid Maḥmūd.
+			Naqshabandī, Nāṣir al-Sayyid Maḥmūd. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
@@ -122,6 +122,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻIrāqī ;
 		</subfield>
@@ -183,6 +186,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Matḥaf al-ʻIrāqī.
 		</subfield>
@@ -238,6 +244,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻIrāqī ;
 		</subfield>
@@ -288,6 +297,36 @@
 			1953-
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-04/r
+		</subfield>
+		<subfield code="a">
+			مطبوعات المجمع العلمي العراقي ؛
+		</subfield>
+		<subfield code="v">
+			11
+		</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="880">
+		<subfield code="6">
+			710-05/r
+		</subfield>
+		<subfield code="a">
+			متحف العراقي. 
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-06/r
+		</subfield>
+		<subfield code="a">
+			مطبوعات المجمع العلمي العراقي ؛
+		</subfield>
+		<subfield code="v">
+			11.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -333,13 +372,16 @@
 			NNC_2768468
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm43931518 
+			(OCoLC)ocm43931518
 		</subfield>
 		<subfield code="s">
 			columbia_aco001251:v.1
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001251:v.1
 		</subfield>
 	</datafield>
 </record>

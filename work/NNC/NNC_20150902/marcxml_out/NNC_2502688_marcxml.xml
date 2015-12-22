@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02118nam a2200397   4500
+		02487nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		2502688
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1966    iq      ob    000 0 ara d
+		151222s1966    iq      ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -46,21 +46,36 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			ʻAlwān, ʻAbd-al-Sāhib.
+			Alwan, Abdul Sahib,
+		</subfield>
+		<subfield code="d">
+			1926-
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			al-Iqtisād al-zirā ʻī maʻa al-taʼ kīd ʻalā al-iqtisad al-zirāʻī al-ʻIrāqī, taʼlīf ʻAbd-al-Sāhib al-ʻAlwān [wa] ʻAbd-Allāh ʻAbbāwī.
+			al-Madkhal fī al-iqtiṣād al-zirāʻī maʻa al-taʼkīd ʻalá al-iqtiṣād al-zirāʻī al-ʻIrāqī /
+		</subfield>
+		<subfield code="c">
+			taʼlīf ʻAbd al-Ṣāḥb ʻAlwān wa ʻAbd Allāh ʻBāwá
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Baghdād :
 		</subfield>
 		<subfield code="b">
-			Matbaʻat al-Mā ʻārif,
+			Maṭbaʻat al-Maʻārif,
 		</subfield>
 		<subfield code="c">
 			1966.
@@ -186,10 +201,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			ʻAlwān, ʻAbd-al-Sāhib.
+			Alwan, Abdul Sahib, 1926-
 		</subfield>
 		<subfield code="t">
-			al-Iqtisād al-zirā ʻī maʻa al-taʼ kīd ʻalā al-iqtisad al-zirāʻī al-ʻIrāqī, taʼlīf ʻAbd-al-Sāhib al-ʻAlwān [wa] ʻAbd-Allāh ʻAbbāwī
+			al-Madkhal fī al-iqtiṣād al-zirāʻī maʻa al-taʼkīd ʻalá al-iqtiṣād al-zirāʻī al-ʻIrāqī
 		</subfield>
 		<subfield code="w">
 			(NNC)2502688
@@ -206,6 +221,42 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/brv15hqm
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			علوان، عبد الصاحب،
+		</subfield>
+		<subfield code="d">
+			1926-
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			المدخل في الاقتصاد الزراعي مع التأكيد على الاقتصاد الزراعي العراقي /
+		</subfield>
+		<subfield code="c">
+			تأليف عبد الصاحب علوان و عبد الله عباوى
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			مطبعة المعارف،
+		</subfield>
+		<subfield code="c">
+			1966.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -253,13 +304,16 @@
 			NNC_2502688
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm43912031 
+			(OCoLC)ocm43912031
 		</subfield>
 		<subfield code="s">
 			columbia_aco001315
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001315
 		</subfield>
 	</datafield>
 </record>

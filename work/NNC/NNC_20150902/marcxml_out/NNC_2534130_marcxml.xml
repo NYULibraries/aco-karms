@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01457nam a2200349   4500
+		01752nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		2534130
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1967    iq      o     000 0 ara d
+		151222s1967    iq      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,11 +41,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			ʻIzz al-Dīn, Yūsuf.
+			ʻIzz al-Dīn, Yūsuf. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Taṭawwur al-fikr al-qawmī.
 		</subfield>
@@ -56,8 +62,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Bagdad,
+			Baghdād :
 		</subfield>
 		<subfield code="b">
 			Maṭbaʻat al-Majmaʻ al-ʻIlmī al-ʻIrāqī,
@@ -127,6 +136,11 @@
 			Offprint from Majallat al-Majmaʻ al-ʻIlmī al-ʻIrāqī, v.15.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Nationalism.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -165,6 +179,36 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/q2bvqc3z
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			عاز الدين، يوسف. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			تطور الفكر القومي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			مطبعة المجمع العلمي العراقي،
+		</subfield>
+		<subfield code="c">
+			1967.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -212,13 +256,16 @@
 			NNC_2534130
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm42873225 
+			(OCoLC)ocm42873225
 		</subfield>
 		<subfield code="s">
 			columbia_aco001372
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001372
 		</subfield>
 	</datafield>
 </record>

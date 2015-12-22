@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01816nam a2200409   4500
+		02414nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		2975506
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1909    xx c    o     000 0 ara  
+		151222s1909    xx c    o     000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -46,6 +46,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Kemal, Namik,
 		</subfield>
@@ -59,18 +62,36 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Kitāb fātibat al futâbat al-Uthmāniyah.
+			Kitāb fātiḥat al-futūḥāt al-ʻUthmāniyah /
+		</subfield>
+		<subfield code="c">
+			al-muʼallif Muḥammad Nāmiq Kamāl ; al-muaʻrib ʻAbd Allāh Mukhliṣ̣.
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Fâtibat al futûbāt al Uthmāniyah
+			Kitāb fātiḥat al-futūḥāt al-ʻUthmāniyah 
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Ḥayfā :
+		</subfield>
+		<subfield code="b">
+			al-Maṭbaʻah al-Waṭanīyah,
+		</subfield>
 		<subfield code="c">
-			1909 #
+			1909.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -209,7 +230,7 @@
 			Kemal, Namik, 1810-1888.
 		</subfield>
 		<subfield code="t">
-			Kitāb fātibat al futâbat al-Uthmāniyah
+			Kitāb fātiḥat al-futūḥāt al-ʻUthmāniyah
 		</subfield>
 		<subfield code="w">
 			(NNC)2975506
@@ -229,6 +250,50 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/qfttf1xc
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			کمال، نامق،
+		</subfield>
+		<subfield code="d">
+			1810-1888.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			كتاب فاتحة الفتوحات العثمانية /
+		</subfield>
+		<subfield code="c">
+			المؤلف محمد نامق كمال ؛ المعرب عبد الله مخلص.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-03/r
+		</subfield>
+		<subfield code="a">
+			كتاب فاتحة الفتوحات العثمانية 
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			حيفا :
+		</subfield>
+		<subfield code="b">
+			المطبعة الوطنية،
+		</subfield>
+		<subfield code="c">
+			1909.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -276,13 +341,16 @@
 			NNC_2975506
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23509269 
+			(OCoLC)ocm23509269
 		</subfield>
 		<subfield code="s">
 			columbia_aco001243
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001243
 		</subfield>
 	</datafield>
 </record>

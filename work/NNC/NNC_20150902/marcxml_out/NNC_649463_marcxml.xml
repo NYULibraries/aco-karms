@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01258nam a2200301   4500
+		01701nam a2200349   4500
 	</leader>
 	<controlfield tag="001">
 		649463
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1921    ua      o     000 0 ara d
+		151222s1921    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,21 +33,33 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Fahmi, Hanna Asʻad.
+			Fahmī, Ḥannā Asʻad.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Tarikh al-falsafah min aqdam ʻusuriha ila al-an.
+			Tārīkh al-falsafah min aqdam ʻuṣūrihā ilá al-ān /
+		</subfield>
+		<subfield code="c">
+			taʼlīf Ḥannā Asʻad Fahmī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Misr :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			Yusuf Tuma al-Bustani,
+			Yūsuf Tūmā al-Būstānī,
 		</subfield>
 		<subfield code="c">
 			1921.
@@ -104,6 +116,14 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Philosophy
+		</subfield>
+		<subfield code="x">
+			History.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -122,10 +142,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Fahmi, Hanna Asʻad.
+			Fahmī, Ḥannā Asʻad.
 		</subfield>
 		<subfield code="t">
-			Tarikh al-falsafah min aqdam ʻusuriha ila al-an
+			Tārīkh al-falsafah min aqdam ʻuṣūrihā ilá al-ān
 		</subfield>
 		<subfield code="w">
 			(NNC)649463
@@ -142,6 +162,39 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/3bk3jdd3
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			فهمي، حنا اسعد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			تاريخ الفلسفة من اقدم عصورها الى الان /
+		</subfield>
+		<subfield code="c">
+			تأليف حنا اسعد فهمي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			يوسف توما البوستاني،
+		</subfield>
+		<subfield code="c">
+			1921.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -189,13 +242,16 @@
 			NNC_649463
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm60601347 
+			(OCoLC)ocm60601347
 		</subfield>
 		<subfield code="s">
 			columbia_aco001367
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001367
 		</subfield>
 	</datafield>
 </record>

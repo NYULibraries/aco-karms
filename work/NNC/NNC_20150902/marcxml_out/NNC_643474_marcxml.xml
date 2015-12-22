@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01297nam a2200313   4500
+		01671nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		643474
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1942    le      o     000 0 ara d
+		151222s1942    le      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,13 +33,22 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Shartuni, Rashid.
+			Shartūnī, Rashīd.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Mabadiʼ al-lughah al-ʻArabiyah fi al-sarf wa-al-nahw.
+			Mabādiʼ al-ʻArabiyah fī al-ṣarf wa-al-naḥw /
+		</subfield>
+		<subfield code="c">
+			Rashīd al-Shartūnī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
@@ -48,11 +57,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Beirut :
+			Bayrūt :
 		</subfield>
 		<subfield code="b">
-			al-Matbaʻah al-Kathulikiyah,
+			al-Maṭbaʻah al-Kāthūlīkiyah,
 		</subfield>
 		<subfield code="c">
 			1942.
@@ -109,6 +121,14 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Arabic language
+		</subfield>
+		<subfield code="x">
+			Grammar.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -127,10 +147,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Shartuni, Rashid.
+			Shartūnī, Rashīd.
 		</subfield>
 		<subfield code="t">
-			Mabadiʼ al-lughah al-ʻArabiyah fi al-sarf wa-al-nahw
+			Mabādiʼ al-ʻArabiyah fī al-ṣarf wa-al-naḥw
 		</subfield>
 		<subfield code="w">
 			(NNC)643474
@@ -147,6 +167,39 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/s4mw6q92
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			شرتوني، رشيد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			مبادئ العربية في الصرف والنحو /
+		</subfield>
+		<subfield code="c">
+			رشيد الشرتوني.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03
+		</subfield>
+		<subfield code="a">
+			بيروت :
+		</subfield>
+		<subfield code="b">
+			المطبعة الكاثوليكية،
+		</subfield>
+		<subfield code="c">
+			1942.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -194,13 +247,16 @@
 			NNC_643474
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm62508258 
+			(OCoLC)ocm62508258
 		</subfield>
 		<subfield code="s">
 			columbia_aco001293
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001293
 		</subfield>
 	</datafield>
 </record>

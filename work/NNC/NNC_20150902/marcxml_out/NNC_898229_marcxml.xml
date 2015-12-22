@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02437nam a2200505   4500
+		02540nam a2200517   4500
 	</leader>
 	<controlfield tag="001">
 		898229
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1928    ua      o     000 0 arao 
+		151222s1928    ua      o     000 0 arao 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -56,7 +56,7 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			Kitāb al-dhakhīrah fī ʻilm al-ṭibb,
+			Kitāb al-dhakhīrah fī ʻilm al-ṭibb /
 		</subfield>
 		<subfield code="c">
 			taʹlīf Thābit ibn Qurrah.
@@ -180,6 +180,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Sobhy, George P. G.
 		</subfield>
@@ -198,6 +201,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Dhakhīrah fī ʻilm al-ṭibb.
 		</subfield>
@@ -259,7 +265,10 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			ثابت بن قرة الحراني.
+			ثابت بن قرة الحراني،
+		</subfield>
+		<subfield code="d">
+			-901.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -289,10 +298,18 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-04/r
 		</subfield>
 		<subfield code="a">
 			صبحي ،جورج.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			740-05/r
+		</subfield>
+		<subfield code="a">
+			ذخيرة في علم الطب.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -340,13 +357,16 @@
 			NNC_898229
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm21685190 
+			(OCoLC)ocm21685190
 		</subfield>
 		<subfield code="s">
 			columbia_aco001273
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001273
 		</subfield>
 	</datafield>
 </record>

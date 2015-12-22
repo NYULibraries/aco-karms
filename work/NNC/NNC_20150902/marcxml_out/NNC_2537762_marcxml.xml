@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02312nam a2200445   4500
+		02424nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		2537762
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1935    ua      o     000 0 ara d
+		151222s1935    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -54,6 +54,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Dasāis wa-al-dimāʼ :
 		</subfield>
@@ -66,7 +69,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-02
+			880-03
 		</subfield>
 		<subfield code="a">
 			[Cairo] :
@@ -146,6 +149,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Muḥammad ʻAlī Bāshā,
 		</subfield>
@@ -248,7 +254,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-01/r
+			100-01
 		</subfield>
 		<subfield code="a">
 			‏سعيد، أحمد خيري.
@@ -256,7 +262,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-00/r
+			245-02
 		</subfield>
 		<subfield code="a">
 			‏الدسائس والدماء :‏
@@ -270,7 +276,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-02/r
+			260-03
 		</subfield>
 		<subfield code="a">
 			‏[القاهرة] :‏
@@ -280,6 +286,20 @@
 		</subfield>
 		<subfield code="c">
 			‏1935.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">
+			600-04
+		</subfield>
+		<subfield code="a">
+			محمد علي باشا،
+		</subfield>
+		<subfield code="c">
+			Governor of Egypt,
+		</subfield>
+		<subfield code="d">
+			1769-1849.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -327,13 +347,16 @@
 			NNC_2537762
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm33966609 
+			(OCoLC)ocm33966609
 		</subfield>
 		<subfield code="s">
 			columbia_aco001352
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001352
 		</subfield>
 	</datafield>
 </record>

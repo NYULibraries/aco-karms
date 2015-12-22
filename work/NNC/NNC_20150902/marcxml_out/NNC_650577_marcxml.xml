@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01614nam a2200373   4500
+		01985nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		650577
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1934    le      o     000 0 ara d
+		151222s1934    le      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -40,7 +40,18 @@
 			.K25
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Nīlsun, Alfrīd.
+		</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Kalimat sawāʼ :
 		</subfield>
@@ -49,6 +60,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Bayrūt :
 		</subfield>
@@ -162,11 +176,6 @@
 			(OCoLC)fst00979776
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">
-			Nīlsun, Alfrīd.
-		</subfield>
-	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -183,6 +192,9 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
 			Print version:
+		</subfield>
+		<subfield code="a">
+			Nīlsun, Alfrīd.
 		</subfield>
 		<subfield code="t">
 			Kalimat sawāʼ
@@ -202,6 +214,39 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/5x69pc8j
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			نيلسن، الفريد.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			كلمة سواء :
+		</subfield>
+		<subfield code="b">
+			مكاتبة بخصوص عقائد واراء بين مفكرين من المسلين والقسيس الفريد نيلسن.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03
+		</subfield>
+		<subfield code="a">
+			بيروت :
+		</subfield>
+		<subfield code="b">
+			المطبعة الاميركانية،
+		</subfield>
+		<subfield code="c">
+			1934.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -249,13 +294,16 @@
 			NNC_650577
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm60601370 
+			(OCoLC)ocm60601370
 		</subfield>
 		<subfield code="s">
 			columbia_aco001350
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001350
 		</subfield>
 	</datafield>
 </record>

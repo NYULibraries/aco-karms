@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01838nam a2200409   4500
+		01969nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		650210
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1901    ua      o     000 0 ara d
+		151222s1901    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -54,11 +54,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Misr :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			al-Matbaʻah al-ʻAmirah al-Sharafiyah,
+			al-Maṭbaʻah al-ʻĀmirah al-Sharafiyah,
 		</subfield>
 		<subfield code="c">
 			1319h [1901]
@@ -231,6 +234,20 @@
 			الطبعة ١.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			المطبعة العامرة الشرفية،
+		</subfield>
+		<subfield code="c">
+			1319ه [1901]
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -276,13 +293,16 @@
 			NNC_650210
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm60601359 
+			(OCoLC)ocm60601359
 		</subfield>
 		<subfield code="s">
 			columbia_aco001224
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001224
 		</subfield>
 	</datafield>
 </record>

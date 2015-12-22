@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01754nam a2200349   4500
+		02200nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		647601
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1925    ua      o     000 0 ara d
+		151222s1925    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Zawzanī, Ḥusayn ibn Aḥmad,
 		</subfield>
@@ -41,24 +44,33 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Muʻallaqāt
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Sharḥ al-Muʻallaqāt al-sabʻ /
 		</subfield>
 		<subfield code="c">
-			lil-Imam Abū ʻAbd Allāh al-Ḥusayn ibn Aḥmad ibn al-Ḥusayn al-Zawzanī.
+			lil-Imām Abū ʻAbd Allāh al-Ḥusayn ibn Aḥmad ibn al-Ḥusayn al-Zawzanī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Misr :
 		</subfield>
 		<subfield code="b">
-			Matbaʻat al-Saʻadah,
+			Maṭbaʻat al-Saʻādah,
 		</subfield>
 		<subfield code="c">
 			1925.
@@ -139,6 +151,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Muʻallaqāt.
 		</subfield>
@@ -168,6 +183,58 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/f1vhhqd0
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			زوزني، حسين بن احمد،
+		</subfield>
+		<subfield code="d">
+			-1093 or 1094.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02
+		</subfield>
+		<subfield code="a">
+			معلقات
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-03
+		</subfield>
+		<subfield code="a">
+			شرح المعلقات السبع /
+		</subfield>
+		<subfield code="c">
+			للامام ابو عبد الله الحسين بن احمد بن الحسين الزوزني.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04
+		</subfield>
+		<subfield code="a">
+			مسر :
+		</subfield>
+		<subfield code="b">
+			مطبعة السعادة،
+		</subfield>
+		<subfield code="c">
+			1925.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			740-05
+		</subfield>
+		<subfield code="a">
+			معلقات.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -215,13 +282,16 @@
 			NNC_647601
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm79294321 
+			(OCoLC)ocm79294321
 		</subfield>
 		<subfield code="s">
 			columbia_aco001333
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001333
 		</subfield>
 	</datafield>
 </record>

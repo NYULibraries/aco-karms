@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02639nam a2200469   4500
+		02975nam a2200493   4500
 	</leader>
 	<controlfield tag="001">
 		4890978
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102m19271929ua      o     000 0 araod
+		151222m19271929ua      o     000 0 araod
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -60,16 +60,25 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Raghbat al-āmil min kitāb al-Kāmil
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			al-Qāhirah :
 		</subfield>
@@ -168,7 +177,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-03
+			880-06
 		</subfield>
 		<subfield code="a">
 			Mubarrad, Muḥammad ibn Yazīd,
@@ -267,26 +276,42 @@
 			تأليف سيد بن علي المرصفي.
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="880">
+	<datafield ind1="3" ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			246-03/r
 		</subfield>
 		<subfield code="a">
-			مصر :
+			رغبة الامل من كتاب الكامل
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-04/r
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-05/r
+		</subfield>
+		<subfield code="a">
+			القاهرة :
 		</subfield>
 		<subfield code="b">
 			مطبعة النهضة،
 		</subfield>
 		<subfield code="c">
-			1930-1927.
+			19271929.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			700-03/r
+			700-06/r
 		</subfield>
 		<subfield code="a">
-			مبرد، محمد بن يزيد،,
+			مبرد، محمد بن يزيد،
 		</subfield>
 		<subfield code="d">
 			898 .d.
@@ -340,7 +365,7 @@
 			NNC_4890978
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm10196791 
+			(OCoLC)ocm10196791
 		</subfield>
 		<subfield code="s">
 			columbia_aco001401:v.1
@@ -368,6 +393,30 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001401:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001402:v.2
+		</subfield>
+		<subfield code="s">
+			columbia_aco001403:v.3
+		</subfield>
+		<subfield code="s">
+			columbia_aco001404:v.4
+		</subfield>
+		<subfield code="s">
+			columbia_aco001405:v.5
+		</subfield>
+		<subfield code="s">
+			columbia_aco001406:v.6
+		</subfield>
+		<subfield code="s">
+			columbia_aco001407:v.7
+		</subfield>
+		<subfield code="s">
+			columbia_aco001408:v.8
 		</subfield>
 	</datafield>
 </record>

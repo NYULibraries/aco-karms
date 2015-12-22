@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01612nam a2200325   4500
+		02215nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		648998
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1893    le      o     000 0 ara d
+		151222s1893    le      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Wortabat, John,
 		</subfield>
@@ -41,11 +44,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Kifayat al-ʻawam fi hifz al-sihhah wa-tadbir al-asqam :
+			Kifāyat al-ʻawām fī ḥifẓ al-ṣiḥḥah wa-tadbīr al-asqām  :
 		</subfield>
 		<subfield code="b">
-			wa-huwa majmuʻ fawaʼid ʻammah tataʻallaq bi-hifz al-sihhah wa-tadbir al-marad ʻinda ghiyab al-tabib.
+			wa-huwa majmūʻ fawāʼid ʻāmmah tataʻallaq bi-ḥifẓ al-ṣiḥḥah wa-tadbīr al-maraḍ ʻinda ghiyāb al-ṭabīb /
+		</subfield>
+		<subfield code="c">
+			taʼlīf Yūḥannā Wartabāt.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
@@ -54,11 +63,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Beirut :
+			Bayrūt :
 		</subfield>
 		<subfield code="b">
-			al-Matbaʻah al-Amirkaniyah,
+			al-Maṭbaʻah al-Amīrkānīyah,
 		</subfield>
 		<subfield code="c">
 			1893.
@@ -115,6 +127,11 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Diseases.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -156,7 +173,7 @@
 			Wortabat, John, 1827-1908.
 		</subfield>
 		<subfield code="t">
-			Kifayat al-ʻawam fi hifz al-sihhah wa-tadbir al-asqam
+			Kifāyat al-ʻawām fī ḥifẓ al-ṣiḥḥah wa-tadbīr al-asqām
 		</subfield>
 		<subfield code="w">
 			(NNC)648998
@@ -173,6 +190,45 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/ttdz0cm6
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ورتبات، يوحنا،
+		</subfield>
+		<subfield code="d">
+			1827-1908.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			كفاية العوام في حفظ الصحة وتدبير الاسقام  :
+		</subfield>
+		<subfield code="b">
+			وهو مجموع فوائد عامة تتعلق بحفظ الصحة وتدبير المرض عند غياب الطبيب /
+		</subfield>
+		<subfield code="c">
+			تأليف يوحنا ورتبات.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			بيروت :
+		</subfield>
+		<subfield code="b">
+			المطبعة الاميركانية،
+		</subfield>
+		<subfield code="c">
+			1893.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -220,13 +276,16 @@
 			NNC_648998
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm81649599 
+			(OCoLC)ocm81649599
 		</subfield>
 		<subfield code="s">
 			columbia_aco001207
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001207
 		</subfield>
 	</datafield>
 </record>

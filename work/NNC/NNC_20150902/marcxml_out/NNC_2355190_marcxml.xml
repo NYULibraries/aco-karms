@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02188nam a2200409   4500
+		02564nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		2355190
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102m19109999le      o     000 0 arard
+		151222m19109999le      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -46,6 +46,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="245">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Majmūʻat al-muḥarrarāt al-siyāsīyah :
 		</subfield>
@@ -57,11 +60,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Jūnayh :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat al-Ṣabr
+			Maṭbaʻat al-Ṣabr,
+		</subfield>
+		<subfield code="c">
+			1910.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -216,6 +225,34 @@
 			http://hdl.handle.net/2333.1/xpnvx3jv
 		</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">
+			245-01
+		</subfield>
+		<subfield code="a">
+			مجموعة المحررات السياسية :
+		</subfield>
+		<subfield code="b">
+			والمفاوضات الدولية عن سوريا ولبنان من سنة 1840-1910 /
+		</subfield>
+		<subfield code="c">
+			تعريب فيليب وفريد الخازن.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-02
+		</subfield>
+		<subfield code="a">
+			جونيه :
+		</subfield>
+		<subfield code="b">
+			مطبعة الصبر،
+		</subfield>
+		<subfield code="c">
+			1910. 
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -261,7 +298,7 @@
 			NNC_2355190
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23501643 
+			(OCoLC)ocm23501643
 		</subfield>
 		<subfield code="s">
 			columbia_aco001208:v.1
@@ -274,6 +311,15 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001208:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001210:v.2
+		</subfield>
+		<subfield code="s">
+			columbia_aco001209:v.3
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01594nam a2200337   4500
+		01944nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		2502240
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1966    iq a    ob    000 0 ara d
+		151222s1966    iq a    ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,21 +41,33 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Qadrī, Louis.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Athar tasnīf al-arādī fī al-istiṣlāh /
+			Athar taṣnīf al-arāḍī fī al-istiṣlāḥ /
 		</subfield>
 		<subfield code="c">
-			[taʼlīf] Louis Quadrī [wa] Ṭarīq al-Ḥarrān.
+			[taʼlīf] Lūʼī Quadrī [wa] Ṭarīq al-Ḥarrān.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[Baghdād],
+			[Baghdād] :
+		</subfield>
+		<subfield code="b">
+			[publisher not identified],
 		</subfield>
 		<subfield code="c">
 			1966.
@@ -146,7 +158,7 @@
 			Qadrī, Louis.
 		</subfield>
 		<subfield code="t">
-			Athar tasnīf al-arādī fī al-istiṣlāh
+			Athar taṣnīf al-arāḍī fī al-istiṣlāḥ
 		</subfield>
 		<subfield code="w">
 			(NNC)2502240
@@ -163,6 +175,39 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/98sf7pwn
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			قدري، لؤي.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			اثر تصنيف الاراضي في الاستصلاح /
+		</subfield>
+		<subfield code="c">
+			[تأليف] لوئي قدري [و] طريق الحران.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03
+		</subfield>
+		<subfield code="a">
+			[بغداد] :
+		</subfield>
+		<subfield code="b">
+			[publisher not identified],
+		</subfield>
+		<subfield code="c">
+			1966.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -210,13 +255,16 @@
 			NNC_2502240
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm43909810 
+			(OCoLC)ocm43909810
 		</subfield>
 		<subfield code="s">
 			columbia_aco001288
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001288
 		</subfield>
 	</datafield>
 </record>

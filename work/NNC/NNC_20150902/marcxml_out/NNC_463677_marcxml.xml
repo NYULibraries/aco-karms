@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02189nam a2200397   4500
+		02996nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		463677
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1980    ir h    ob    000 0caraod
+		151222s1980    ir h    ob    000 0caraod
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,27 +41,36 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Iṣbahānī, ʻAbd Allāh,
+			Afandī, ʻAbd Allāh ibn ʻĪsá,
 		</subfield>
 		<subfield code="d">
-			active 18th century.
+			-approximately 1718.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Riyāḍ al-ʻulamā' wa-ḥiyāḍ al-fuḍalā' /
+			Rīyāḍ al-ʻulamāʼ wa-ḥiyāḍ al-fuḍalāʼ /
 		</subfield>
 		<subfield code="c">
-			al-Mīrzā ʻAbd Allāh Afandī al-Iṣbahānī ; bi-ihtimām al-Sayyid Maḥmūd al-Marʻashī ; taḥqīq al-Sayyid Aḥmad al-Ḥusaynī.
+			Mirzā ʻAbd Allāh Afandī al-Iṣbahānī ; bi-ihtimām Maḥmūd al-Marʻishī ; taḥqīq Aḥmad al-Ḥusaynī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Qum, Īrān :
+			Qum :
 		</subfield>
 		<subfield code="b">
-			[Maktabat Āyat Allāh al-Marʻashī al-ʻĀmmah?],
+			Maṭbaʻat al-Khayyām,
 		</subfield>
 		<subfield code="c">
 			1401 [1980 or 1981]
@@ -100,8 +109,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Min makhṭūṭāt Maktabat Āyat Allāh al-Marʻashī al-ʻĀmmah. ;
+			Min makhṭūṭāt Maktabat Āyat Allāh al-Marʻashī al-ʻĀmmah ;
 		</subfield>
 		<subfield code="v">
 			5
@@ -171,8 +183,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Ḥusaynī, Aḥmad.
+			Ḥusaynī, Aḥmad. 
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -193,10 +208,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Iṣbahānī, ʻAbd Allāh, active 18th century.
+			Afandī, ʻAbd Allāh ibn ʻĪsá, -approximately 1718.
 		</subfield>
 		<subfield code="t">
-			Riyāḍ al-ʻulamā' wa-ḥiyāḍ al-fuḍalā'
+			Rīyāḍ al-ʻulamāʼ wa-ḥiyāḍ al-fuḍalāʼ
 		</subfield>
 		<subfield code="w">
 			(NNC)463677
@@ -206,6 +221,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Min makhṭūṭāt Maktabat Āyat Allāh al-Marʻashī al-ʻĀmmah ;
 		</subfield>
@@ -221,6 +239,72 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/rfj6q85m
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			افندي، عبد الله بن عيسى،
+		</subfield>
+		<subfield code="d">
+			-approximately 1718.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			رياض العلماء وحياض الفضلاء /
+		</subfield>
+		<subfield code="c">
+			مرزا عبد الله افندي الاصبهاني ؛ باهتمام محمود المرعشي ؛ تحقيق احمد الحسيني.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			قم :
+		</subfield>
+		<subfield code="b">
+			مطبعة الخيام،
+		</subfield>
+		<subfield code="c">
+			1401 [1980 or 1981]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-04/r
+		</subfield>
+		<subfield code="a">
+			من مخطوطات مکتبة آىة الله المرعشى العامة ؛
+		</subfield>
+		<subfield code="v">
+			5
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/r
+		</subfield>
+		<subfield code="a">
+			حسيني، احمد. 
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-06/r
+		</subfield>
+		<subfield code="a">
+			من مخطوطات مکتبة آىة الله المرعشى العامة ؛
+		</subfield>
+		<subfield code="v">
+			5.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -290,6 +374,24 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001301:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001302:v.2
+		</subfield>
+		<subfield code="s">
+			columbia_aco001303:v.3
+		</subfield>
+		<subfield code="s">
+			columbia_aco001304:v.4
+		</subfield>
+		<subfield code="s">
+			columbia_aco001305:v.5
+		</subfield>
+		<subfield code="s">
+			columbia_aco001306:v.6
 		</subfield>
 	</datafield>
 </record>

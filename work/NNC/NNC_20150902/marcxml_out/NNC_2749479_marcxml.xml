@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02548nam a2200493   4500
+		02578nam a2200493   4500
 	</leader>
 	<controlfield tag="001">
 		2749479
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1955    le      ob    001 0 arao 
+		151222s1955    le      ob    001 0 arao 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -73,6 +73,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			[Bayrūt] :
 		</subfield>
@@ -170,11 +173,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Ḥurbilī, ʻAbd al-Samīʻ.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Ḥanāniyā, Almās Shahlā.
 		</subfield>
@@ -226,7 +235,7 @@
 			(NNC)2749479
 		</subfield>
 		<subfield code="w">
-			(DLC)   59031890 
+			(DLC)  59031890 
 		</subfield>
 		<subfield code="w">
 			(OCoLC)23504451
@@ -244,7 +253,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-01/r
+			100-01
 		</subfield>
 		<subfield code="a">
 			شهلا، جورج.
@@ -252,7 +261,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-02/r
+			245-02
 		</subfield>
 		<subfield code="a">
 			الوعي التربوي ومستقبل البلاد العربية /
@@ -263,7 +272,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			250-03/r
+			250-03
 		</subfield>
 		<subfield code="a">
 			الطبعة 1.
@@ -271,7 +280,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-04
 		</subfield>
 		<subfield code="a">
 			[بيروت] :
@@ -285,7 +294,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-05
 		</subfield>
 		<subfield code="a">
 			حربلي، عبد السميع.
@@ -293,7 +302,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-06
 		</subfield>
 		<subfield code="a">
 			حنانيا، ألماس شهلا.
@@ -344,13 +353,16 @@
 			NNC_2749479
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23504451 
+			(OCoLC)ocm23504451
 		</subfield>
 		<subfield code="s">
 			columbia_aco001268
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001268
 		</subfield>
 	</datafield>
 </record>

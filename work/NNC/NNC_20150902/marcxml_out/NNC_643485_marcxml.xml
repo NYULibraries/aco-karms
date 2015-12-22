@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02331nam a2200445   4500
+		02916nam a2200481   4500
 	</leader>
 	<controlfield tag="001">
 		643485
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1934    ua      o     000 0 araod
+		151222s1934    ua      o     000 0 araod
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -52,6 +52,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Laʼāliʼ al-maṣnūʻah fī al-aḥādīth al-mawḍūʻah /
 		</subfield>
@@ -61,21 +64,24 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
 		<subfield code="6">
-			880-02
+			880-03
 		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			[Cairo] :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
 			Maktabah al-Ḥusaynīyah al-Miṣrīyah bi-al-Azhar,
 		</subfield>
 		<subfield code="c">
-			1352 [1934]
+			1352 [1933 or 1934]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -176,13 +182,16 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Ibn al-Ṣiddīq, Aḥmad ibn Muḥammad.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-03
+			880-06
 		</subfield>
 		<subfield code="a">
 			Ibn al-Jawzī, Abū al-Faraj ʻAbd al-Raḥmān ibn ʻAlī,
@@ -239,20 +248,56 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			سيوطي.
+			سيوطي،
+		</subfield>
+		<subfield code="d">
+			1445-1505.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			اللآلي المصنوعة في الاحاديث الموضوعة /
+		</subfield>
+		<subfield code="c">
+			لجلال الدين عبد الرحمن السيوطي ؛ قرئت هذه النسخة في المرة الاخيرة على فضيلة الأستاذ الشيخ احمد بن محمد بن الصديق المغربي الحسني.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			250-02/r
+			250-03/r
 		</subfield>
 		<subfield code="a">
 			الطبعة 1.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			مكتبة الحسينية المصرية بالأزهر،
+		</subfield>
+		<subfield code="c">
+			1352 [1933 or 1934]
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-03/r
+			700-05/r
+		</subfield>
+		<subfield code="a">
+			ابن الصديق، احمد بن محمد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-06/r
 		</subfield>
 		<subfield code="a">
 			ابن الجوزي، أبو الفرج عبد الرحمن بن علي.
@@ -313,6 +358,9 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001252
 		</subfield>
 	</datafield>
 </record>

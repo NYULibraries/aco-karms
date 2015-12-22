@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01712nam a2200385   4500
+		01832nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		644521
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102q19111912ua      o     000 0 ara d
+		151222q19111912ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -60,11 +60,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Misr :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			Matbaʻat Miqdad,
+			Maṭbaʻat Miqdād,
 		</subfield>
 		<subfield code="c">
 			1330h [i.e. 1911 or 1912]
@@ -224,6 +227,20 @@
 			علي عبد الرازق.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			مطبعة مقداد،
+		</subfield>
+		<subfield code="c">
+			1330h [i.e. 1911 or 1912]
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -269,13 +286,16 @@
 			NNC_644521
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm60601247 
+			(OCoLC)ocm60601247
 		</subfield>
 		<subfield code="s">
 			columbia_aco001254
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001254
 		</subfield>
 	</datafield>
 </record>

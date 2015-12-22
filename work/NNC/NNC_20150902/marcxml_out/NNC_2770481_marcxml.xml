@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01371nam a2200337   4500
+		01609nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		2770481
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1942    ua f    o     000 0 ara d
+		151222s1942    ua f    o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,16 +33,25 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Saʻīd, Ḥamīd.
+			Saʻīd, Ḥamīd. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Thalāth muḥāḍarāt fī al-fann.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			[Cairo],
 		</subfield>
@@ -168,6 +177,36 @@
 			http://hdl.handle.net/2333.1/5hqbzpb4
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			سعيد، حميد.  
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			ثلاث محاضرات في الفن.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03
+		</subfield>
+		<subfield code="a">
+			[القاهرة]،
+		</subfield>
+		<subfield code="b">
+			[مطبعة الاعتماد]،
+		</subfield>
+		<subfield code="c">
+			[1942]
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -213,13 +252,16 @@
 			NNC_2770481
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm45408057 
+			(OCoLC)ocm45408057
 		</subfield>
 		<subfield code="s">
 			columbia_aco001274
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001274
 		</subfield>
 	</datafield>
 </record>

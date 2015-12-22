@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01940nam a2200373   4500
+		02506nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		9260668
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1939    ua      o     000 0 ara d
+		151222s1939    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -52,27 +52,36 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			al-Tabari,
+			Ṭabarī,
 		</subfield>
 		<subfield code="d">
-			838-923.
+			838?-923.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Tārīkh al-umam wa-al-mulūk,
+			Tārīkh al-umam wa al-mulūk /
 		</subfield>
 		<subfield code="c">
-			li-al-Imām Abī Ja ʻfar Muh̥ammad ibn Jarīr al-T̥abarī; qūbilat hādhihi al-t̥abʻah ʻalá al-nuskhah al-mat̥būʻah bi-mat̮baʻat Birīl bimadīnat Līdin fī sanat 1879.
+			li al-Imām Abī Jaʻfar Muḥammad ibn Jarīr al-Ṭabarī; qūbilat hādhihi al-ṭabʻah ʻalá al-nuskhah al-maṭbūʻah bi-maṭbaʻat Birīl bimadīnat Līdin fī sanat 1879.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Qāhirah,
+			al-Qāhirah :
 		</subfield>
 		<subfield code="b">
-			Mat̥ba ʻat al-Istiqāmah,
+			Maṭbaʻat al-istiqāmah,
 		</subfield>
 		<subfield code="c">
 			1939.
@@ -194,10 +203,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			al-Tabari, 838-923.
+			Ṭabarī, 838?-923.
 		</subfield>
 		<subfield code="t">
-			Tārīkh al-umam wa-al-mulūk
+			Tārīkh al-umam wa al-mulūk
 		</subfield>
 		<subfield code="w">
 			(NNC)9260668
@@ -214,6 +223,42 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/gtht79f6
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			طبري،
+		</subfield>
+		<subfield code="d">
+			838؟923.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			تاريخ الأمم و الملوك /
+		</subfield>
+		<subfield code="c">
+			للامام ابي جعفر محمد بن جرير الطبري؛ قوبلت هذه الطبعة على النسخة المطبوعة بمطبعة بريل بمدينة ليدن في سنة 1879.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			مطبعة الاستقامة،
+		</subfield>
+		<subfield code="c">
+			1939.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -261,7 +306,7 @@
 			NNC_9260668
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23515871 
+			(OCoLC)ocm23515871
 		</subfield>
 		<subfield code="s">
 			columbia_aco001334:v.3
@@ -283,6 +328,24 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001334:v.3
+		</subfield>
+		<subfield code="s">
+			columbia_aco001335:v.4
+		</subfield>
+		<subfield code="s">
+			columbia_aco001336:v.5
+		</subfield>
+		<subfield code="s">
+			columbia_aco001337:v.6
+		</subfield>
+		<subfield code="s">
+			columbia_aco001338:v.7
+		</subfield>
+		<subfield code="s">
+			columbia_aco001339:v.8
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01258nam a2200313   4500
+		01650nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		649210
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1917    ua      o     000 0 ara d
+		151222s1917    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,16 +33,25 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Zanati, Ahmad,
+			Zinātī, Aḥmad,
 		</subfield>
 		<subfield code="d">
 			-1929.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			al-Hidayah ila al-sirat al-mustaqim.
+			al-Hidāyah ilá al-ṣirāṭ al-mustaqīm /
+		</subfield>
+		<subfield code="c">
+			taʼlīf Aḥmad Zanātī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
@@ -51,11 +60,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Misr :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			Maktabat al-Maʻarif,
+			Maktabat al-Maʻārif,
 		</subfield>
 		<subfield code="c">
 			1917.
@@ -112,6 +124,14 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="0" tag="630">
+		<subfield code="a">
+			Qurʼan
+		</subfield>
+		<subfield code="x">
+			Theology.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -130,10 +150,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Zanati, Ahmad, -1929.
+			Zinātī, Aḥmad, -1929.
 		</subfield>
 		<subfield code="t">
-			al-Hidayah ila al-sirat al-mustaqim
+			al-Hidāyah ilá al-ṣirāṭ al-mustaqīm
 		</subfield>
 		<subfield code="w">
 			(NNC)649210
@@ -150,6 +170,42 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/ffbg7d95
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			زناتي، احمد،
+		</subfield>
+		<subfield code="d">
+			-1929.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الهداية الى الصراط المستقيم /
+		</subfield>
+		<subfield code="c">
+			تأليف احمد زناتي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			مكتبة المعارف،
+		</subfield>
+		<subfield code="c">
+			1917.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -197,13 +253,16 @@
 			NNC_649210
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm60601343 
+			(OCoLC)ocm60601343
 		</subfield>
 		<subfield code="s">
 			columbia_aco001221
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001221
 		</subfield>
 	</datafield>
 </record>

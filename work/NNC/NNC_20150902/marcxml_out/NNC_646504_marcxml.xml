@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01761nam a2200361   4500
+		02047nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		646504
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102q19521953ua      o     000 0 ara d
+		151222q19521953ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -53,23 +53,32 @@
 			880-03
 		</subfield>
 		<subfield code="a">
-			Kitab tanwir al-qulub fi muʻamalat ʻallam al-ghuyub.
+			Kitab Tanwīr al-qulūb fī muʻāmalat ʻallām al-ghuyūb /
+		</subfield>
+		<subfield code="c">
+			Muḥammad Amīn ibn Fatḥ Allāh Zāhdah al-Kurdī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			9th ed.
+			al-Ṭabʻah 9.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			[Misr] :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			Matbaʻat al-Saʻadah,
+			Maṭbaʻat al-Saʻādah,
 		</subfield>
 		<subfield code="c">
-			1372h [1952 or 1953]
+			1372 [1952 or 1953]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -123,6 +132,11 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Sufism.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -144,7 +158,7 @@
 			Ibn Fath Allah Zahdah, Muhammad Amin.
 		</subfield>
 		<subfield code="t">
-			Kitab tanwir al-qulub fi muʻamalat ʻallam al-ghuyub
+			Kitab Tanwīr al-qulūb fī muʻāmalat ʻallām al-ghuyūb
 		</subfield>
 		<subfield code="w">
 			(NNC)646504
@@ -184,10 +198,32 @@
 			245-03/r
 		</subfield>
 		<subfield code="a">
-			كتاب تنوير القلوب في معاملة علام الغيوب /
+			كتب تنوير القلوب في معاملة علام الغيوب /
 		</subfield>
 		<subfield code="c">
-			محمد أمين فتح الله زاده الكردي.
+			محمد امين بن فتح الله زاهدة الكردي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-04/r
+		</subfield>
+		<subfield code="a">
+			الطبعة 9.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-05/r
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			مطبعة السعادة،
+		</subfield>
+		<subfield code="c">
+			1372 [1952 or 1953]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -235,13 +271,16 @@
 			NNC_646504
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm60601298 
+			(OCoLC)ocm60601298
 		</subfield>
 		<subfield code="s">
 			columbia_aco001327
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001327
 		</subfield>
 	</datafield>
 </record>

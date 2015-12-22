@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02289nam a2200421   4500
+		03102nam a2200481   4500
 	</leader>
 	<controlfield tag="001">
 		588461
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1950    ua h    o     000 0 ara  
+		151222s1950    ua h    o     000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ibn Taymīyah, ʻAbd al-Salām ibn ʻAbd Allāh,
 		</subfield>
@@ -49,19 +52,25 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Muḥarrar fī al-fiqh ʻalá madhhab al-Imām Aḥmad ibn Ḥanbal /
 		</subfield>
 		<subfield code="c">
-			taʹlif Majd al-Dīn Abī al-Barakāt; [wa] maʻahu al-Nukat wa-al-fawāʹid al-sanīyah ʻalá mushkil al-muḥarrir li-Majd al-Dīn ibn Taymīyah; taʹlīf Shams al-Dīn ibn Mufliḥ al-Ḥanbalī al-Maqdisī.
+			taʼlīf Majd al-Dīn Abī al-Barakāt; [wa] maʻahu al-Nukat wa-al-fawāʹid al-sanīyah ʻalá mushkil al-muḥarrir li-Majd al-Dīn ibn Taymīyah; taʹlīf Shams al-Dīn ibn Mufliḥ al-Ḥanbalī al-Maqdisī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			[al-Qāhirah] :
 		</subfield>
 		<subfield code="b">
-			Maktabat al-Sunnah al-Muḥammadīyah,
+			Maṭbaʻat al-Sunnah al-Muḥammadīyah,
 		</subfield>
 		<subfield code="c">
 			1950.
@@ -181,19 +190,25 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Fiqī, Muḥammad Ḥāmid.
+			Fiqī, Muḥammad Ḥāmid. 
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="2" tag="700">
+	<datafield ind1="1" ind2="2" tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Muḥammad ibn Mufliḥ al-Qāqūnī al-Maqdisī,
+			Ibn Mufliḥ al-Maqdisī, Muḥammad,
 		</subfield>
 		<subfield code="d">
-			-1361.
+			 -1362.
 		</subfield>
 		<subfield code="t">
-			Nukat wa-al-fawāʹid al-sanīyah.
+			Nukat wa-al-fawāʹid al-sanīyah. 
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -237,6 +252,64 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/80gb5qff
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ابن تيمية، عبد السلام بن عبد الله،
+		</subfield>
+		<subfield code="d">
+			1193 or 1194-1254 or 1255.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			محرر في الفقه على مذهب الامام احمد بن حنبل /
+		</subfield>
+		<subfield code="c">
+			تأليف مجد الدين ابي البركات؛ [و] معه النكة والفواد السنية على مشكل المحرر لمجد الدين بن تيمية؛ تليف شمس الدين بن مفله الحنبلي المقدسي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			[القاهرة] :
+		</subfield>
+		<subfield code="b">
+			مطبعة السنة المحمدية،
+		</subfield>
+		<subfield code="c">
+			1950.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/r
+		</subfield>
+		<subfield code="a">
+			فقي، محمد حامد. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			700-05/r
+		</subfield>
+		<subfield code="a">
+			ابن مفلح المقدسي، محمد،
+		</subfield>
+		<subfield code="d">
+			-1362.
+		</subfield>
+		<subfield code="t">
+			نكت والفوائد السنية. 
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -284,7 +357,7 @@
 			NNC_588461
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm26472167 
+			(OCoLC)ocm26472167
 		</subfield>
 		<subfield code="s">
 			columbia_aco001345:v.1
@@ -294,6 +367,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001345:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001344:v.2
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02305nam a2200373   4500
+		03670nam a2200481   4500
 	</leader>
 	<controlfield tag="001">
 		2958284
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1954    ua      o     000 0 araod
+		151222s1954    ua      o     000 0 araod
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Mayyārah, Muḥammad ibn Aḥmad,
 		</subfield>
@@ -49,6 +52,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Durr al-thamīn wa-al-mawrid al-muʻīn /
 		</subfield>
@@ -57,11 +63,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah al-akhīrah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Miṣr :
 		</subfield>
@@ -124,6 +136,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Andalusī, Abū Muḥammad al-Fāsī,
 		</subfield>
@@ -135,6 +150,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Raqaʻī, ʻAbd al-Raḥmān.
 		</subfield>
@@ -142,7 +160,18 @@
 			Naẓm muqaddimat Ibn Rushd.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Islamic law
+		</subfield>
+		<subfield code="v">
+			Early works to 1800.
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-07
+		</subfield>
 		<subfield code="a">
 			Tatāʼī, Muḥammad ibn Ibrāhīm,
 		</subfield>
@@ -167,6 +196,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-08
+		</subfield>
 		<subfield code="a">
 			Sharḥ khiṭaṭ al-sadād.
 		</subfield>
@@ -196,6 +228,97 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/9s4mw9hr
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ميارة، محمد بن احمد،
+		</subfield>
+		<subfield code="d">
+			1590 or 1591-1661 or 1662.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الدر الثمين والمورد المعين /
+		</subfield>
+		<subfield code="c">
+			شرح محمد بن احمد بن محمد المالي الشهير بميارة. وهو الشرح الكبير على نظم المرشد المعين على الضروري من علوم الدين لابي محمد عبد الواحد بن احمد بن علي بن عاشر الاندلسي. وبالهامش شرح خطط السداد والرشد / لمحمد بن ابراهيم التتائي المالي على نظم مقدمة ابن رشد لعبد الرحمن الرقعي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/r
+		</subfield>
+		<subfield code="a">
+			الطبعة الاخيرة.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			مصطفى البابي الحلبي وأولاده،
+		</subfield>
+		<subfield code="c">
+			1954.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			600-05/r
+		</subfield>
+		<subfield code="a">
+			اندلسي، ابو محمد الفاسي،
+		</subfield>
+		<subfield code="d">
+			1630.
+		</subfield>
+		<subfield code="t">
+			مرشد المعين على الضروري من علوم الدين.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			600-06/r
+		</subfield>
+		<subfield code="a">
+			رقعي، عبد الرحمن.
+		</subfield>
+		<subfield code="t">
+			نظم مقدمة ابن رشد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-07/r
+		</subfield>
+		<subfield code="a">
+			تتائي، محمد بن ابراهيم،
+		</subfield>
+		<subfield code="d">
+			-1535 or 1536. 
+		</subfield>
+		<subfield code="t">
+			خطط السداد والرشد.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			740-08/r
+		</subfield>
+		<subfield code="a">
+			شرح خطط السداد.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -243,13 +366,16 @@
 			NNC_2958284
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm39942749 
+			(OCoLC)ocm39942749
 		</subfield>
 		<subfield code="s">
 			columbia_aco001247
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001247
 		</subfield>
 	</datafield>
 </record>

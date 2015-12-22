@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01663nam a2200385   4500
+		01968nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		966506
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1967    iq      ob    000 0 ara d
+		151222s1967    iq      ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,11 +33,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Ṣafwat, Najdat Fatḥī.
+			Ṣafwat, Najdat Fatḥī. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Yahūd wa-al-Ṣihyūnīyah fī ʻalāqāt al-duwal al-kubrá /
 		</subfield>
@@ -46,11 +52,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[Baghdād] :
+			Baghdād :
 		</subfield>
 		<subfield code="b">
-			[Maṭbaʻat al-Ḥukūmah],
+			Maṭbaʻat al-Ḥukūmah,
 		</subfield>
 		<subfield code="c">
 			1967.
@@ -200,6 +209,39 @@
 			http://hdl.handle.net/2333.1/mcvdngg5
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			صفوة، نجدة فتحي. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			اليهود والصهيونية في علاقات الدول الكبرى /
+		</subfield>
+		<subfield code="c">
+			نجدة فتحي صفوة.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			مطبعة الحكومة،
+		</subfield>
+		<subfield code="c">
+			1967.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -245,13 +287,16 @@
 			NNC_966506
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm43088656 
+			(OCoLC)ocm43088656
 		</subfield>
 		<subfield code="s">
 			columbia_aco001358
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001358
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01348nam a2200325   4500
+		01710nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		982462
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1945    ua      ob    000 0 ara d
+		151222s1945    ua      ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,21 +41,33 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Amīn, ʻUthmān.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			al-Falasafat al-rawāqīyat.
+			al-Falsafah al-rawāqīyah /
+		</subfield>
+		<subfield code="c">
+			taʼlīf ʻUthmān Amīn.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Cairo, Maṭb.
+			al-Qāhirah :
 		</subfield>
 		<subfield code="b">
-			Lajnat al-Taʻlīf wa-al-Tarjamat wa-al-Nashr,
+			Maṭbaʻat Lajnat al-Taʼlīf wa-al-Tarjamah wa-al-Nashr,
 		</subfield>
 		<subfield code="c">
 			1945.
@@ -117,6 +129,11 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Stoics.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -138,7 +155,7 @@
 			Amīn, ʻUthmān.
 		</subfield>
 		<subfield code="t">
-			al-Falasafat al-rawāqīyat
+			al-Falsafah al-rawāqīyah
 		</subfield>
 		<subfield code="w">
 			(NNC)982462
@@ -155,6 +172,39 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/cz8w9kfx
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			امين، عثمان.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			الفلسفة الرواقية /
+		</subfield>
+		<subfield code="c">
+			تأليف عثمان امين.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			مطبعة لجنة التأليف والترجمة والنشر،
+		</subfield>
+		<subfield code="c">
+			1945.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -202,13 +252,16 @@
 			NNC_982462
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm22620737 
+			(OCoLC)ocm22620737
 		</subfield>
 		<subfield code="s">
 			columbia_aco001239
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001239
 		</subfield>
 	</datafield>
 </record>

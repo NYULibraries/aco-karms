@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02066nam a2200409   4500
+		02768nam a2200481   4500
 	</leader>
 	<controlfield tag="001">
 		660806
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1977    ir      od    000 0 ara d
+		151222s1977    ir      od    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Adīb Yaʻqūb Kurdī Nīshabūrī,
 		</subfield>
@@ -49,6 +52,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Kitāb al-balaghah :
 		</subfield>
@@ -57,6 +63,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			[Tihrān] :
 		</subfield>
@@ -97,6 +106,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Intishārāt-i Bunyad-i Farhang-i Īrān ;
 		</subfield>
@@ -166,11 +178,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Minuvī, Mujtabā.
+			Mīnuvī, Mujtabá. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Ḥarīrchī, Fīruz̄.
 		</subfield>
@@ -206,6 +224,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-07
+		</subfield>
 		<subfield code="a">
 			Intishārāt-i Bunyād-i Farhang-i Īrān ;
 		</subfield>
@@ -213,25 +234,94 @@
 			244.
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="a">
-			Intishārāt-i Bunyād-i Farhang-i Īrān.
+	<datafield ind1="4" ind2="0" tag="856">
+		<subfield code="u">
+			http://hdl.handle.net/2333.1/kkwh73rn
 		</subfield>
-		<subfield code="p">
-			Farhangʹhā-yi Tāzī bih Pārsī ;
+	</datafield>
+	<datafield ind1="4" ind2="0" tag="856">
+		<subfield code="u">
+			http://hdl.handle.net/2333.1/kkwh73rn
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			اديب يعقوب كردي نيشبوري،
+		</subfield>
+		<subfield code="d">
+			اتڤ 1046.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			کتاب البلغه :
+		</subfield>
+		<subfield code="b">
+			فرهنگ عربى و فارسى، تألىف ادىب ىعقوب کردى نىشابورى. مقابله و تصحىح متن به اهتمام مجتبا منوى و فىروز حرىرچى.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03
+		</subfield>
+		<subfield code="a">
+			[طهران] :
+		</subfield>
+		<subfield code="b">
+			بنىاد فرهنگ ايران [2535 ا..]،
+		</subfield>
+		<subfield code="c">
+			[1977]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-04
+		</subfield>
+		<subfield code="a">
+			انتشارات بنىد فرهنگ ايران ؛
 		</subfield>
 		<subfield code="v">
-			11.
+			244.
+		</subfield>
+		<subfield code="a">
+			فرهنگ‌اى تازى به پارسى ؛
+		</subfield>
+		<subfield code="v">
+			11
 		</subfield>
 	</datafield>
-	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">
-			http://hdl.handle.net/2333.1/kkwh73rn
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05
+		</subfield>
+		<subfield code="a">
+			مىنوى، مجتبى. 
 		</subfield>
 	</datafield>
-	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">
-			http://hdl.handle.net/2333.1/kkwh73rn
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-06
+		</subfield>
+		<subfield code="a">
+			حرىرچى، فىرز.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-07
+		</subfield>
+		<subfield code="a">
+			انتشارات بنىاد فرهنگ ايران ؛
+		</subfield>
+		<subfield code="v">
+			244.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -279,13 +369,16 @@
 			NNC_660806
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm83500355 
+			(OCoLC)ocm83500355
 		</subfield>
 		<subfield code="s">
 			columbia_aco001248
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001248
 		</subfield>
 	</datafield>
 </record>

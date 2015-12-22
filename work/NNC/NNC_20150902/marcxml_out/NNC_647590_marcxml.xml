@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01385nam a2200313   4500
+		02204nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		647590
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1903    ua      o     000 0 ara d
+		151222s1903    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,29 +33,44 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Mashhadi, Hasan Rashid.
+			Khafājī, Ḥasan Rāshid al-Mashhadī.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Nafahat al-Ahmadiyah wa-al-jawahir al-samadaniyah
+			Nafaḥāt al-Aḥmadīyah wa-al-jawāhir al-ṣamdānīyah
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Hadha kitab al-nafahat al-Ahmadiyah wa-al-jawahir al-samadaniyah ...
+			Hādhā kitāb al-Nafaḥāt al-Aḥmadīyah wa-al-jawāhir al-ṣamdānīyah... /
+		</subfield>
+		<subfield code="c">
+			taʼlīf Ḥasan Rāshid al-Mashhadī al-Khafājī ibn Muṣṭafá Rāshid.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Misr :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			Matbaʻat al-Taqaddum al-ʻIlmiyah,
+			Maṭbaʻat al-Taqaddum al-ʻlmiyah,
 		</subfield>
 		<subfield code="c">
-			1321 [1903]
+			1321 [i.e. 1903]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -109,6 +124,17 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Badawī, Aḥmad,
+		</subfield>
+		<subfield code="d">
+			1200?-1276.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -127,10 +153,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Mashhadi, Hasan Rashid.
+			Khafājī, Ḥasan Rāshid al-Mashhadī.
 		</subfield>
 		<subfield code="t">
-			Hadha kitab al-nafahat al-Ahmadiyah wa-al-jawahir al-samadaniyah
+			Hādhā kitāb al-Nafaḥāt al-Aḥmadīyah wa-al-jawāhir al-ṣamdānīyah
 		</subfield>
 		<subfield code="w">
 			(NNC)647590
@@ -147,6 +173,58 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/n2z34xj7
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			خفاجي، حسن راشد المشهدي.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02/r
+		</subfield>
+		<subfield code="a">
+			نفحات الاحمدية والجواهر الصمدانية
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-03/r
+		</subfield>
+		<subfield code="a">
+			هاذا كتاب النفحات الاحمدية والجواهر الصمدانية... /
+		</subfield>
+		<subfield code="c">
+			تأليف حسن راشد المشهدي الخفاجي بن مصطفى راشد.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			مطبعة التقدم العلمية،
+		</subfield>
+		<subfield code="c">
+			1321 [ا.. 1903]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-05/r
+		</subfield>
+		<subfield code="a">
+			بدوي، احمد،
+		</subfield>
+		<subfield code="d">
+			1200؟1276.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -201,6 +279,9 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001341
 		</subfield>
 	</datafield>
 </record>

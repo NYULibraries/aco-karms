@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01429nam a2200301   4500
+		02353nam a2200349   4500
 	</leader>
 	<controlfield tag="001">
 		646287
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1961    iq      o     000 0 ara d
+		151222s1961    iq      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ibn Shahrāshūb, Muḥammad ibn ʻAlī,
 		</subfield>
@@ -41,19 +44,31 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Maʻalim al-ʻulamaʼ fi fihrist kutub al-Shiʻah wa-asmaʼ al-musannafin minhum qadiman wa-hadithan.
+			Maʻālim al-ʻulamāʼ fī fihrist kutub al-Shiʻa wa-asmāʼ al-muṣannifīn minhum qadīman wa-ḥadīthan :
+		</subfield>
+		<subfield code="b">
+			tatimmat kitāb al-fihrist lil-Shaykh Abī Jaʻfar al-Ṭūsī /
+		</subfield>
+		<subfield code="c">
+			taʻlīf Muḥammad ibn ʻAlī Shahrāshūb al-Mazindarānī ; rājaʻahu wa-qaddama lahu Muḥammad Ṣādiq Āl Baḥr al-ʻUlūm.260  
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Najaf :
+			al-Najaf :
 		</subfield>
 		<subfield code="b">
-			al-Matbaʻah al-Haydariyah,
+			Manshūrā̄t al-Maṭbaʻah al-Ḥaydarīyah,
 		</subfield>
 		<subfield code="c">
-			1961.
+			1380 [1961]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -107,6 +122,14 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Shiites
+		</subfield>
+		<subfield code="v">
+			Bibliography.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -128,7 +151,7 @@
 			Ibn Shahrāshūb, Muḥammad ibn ʻAlī, -1192.
 		</subfield>
 		<subfield code="t">
-			Maʻalim al-ʻulamaʼ fi fihrist kutub al-Shiʻah wa-asmaʼ al-musannafin minhum qadiman wa-hadithan
+			Maʻālim al-ʻulamāʼ fī fihrist kutub al-Shiʻa wa-asmāʼ al-muṣannifīn minhum qadīman wa-ḥadīthan
 		</subfield>
 		<subfield code="w">
 			(NNC)646287
@@ -145,6 +168,45 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/jsxksqx3
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ابن شهراشوب، محمد بن علي،
+		</subfield>
+		<subfield code="d">
+			-1192.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			معالم العلماء في فهرست كتب الشيعة واسماء المصنفين منهم قديماً وحديثاً :
+		</subfield>
+		<subfield code="b">
+			تتمة كتاب الفهرست للشيخ ابي جعفر الطوسي /
+		</subfield>
+		<subfield code="c">
+			تعليف محمد بن علي شهراشوب المزندراني ؛ راجعه وقدم له محمد صادق آل بحر العلوم.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			النجف :
+		</subfield>
+		<subfield code="b">
+			منشورات المطبعة الحيدرية،
+		</subfield>
+		<subfield code="c">
+			1380 [1961]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -192,13 +254,16 @@
 			NNC_646287
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm60601295 
+			(OCoLC)ocm60601295
 		</subfield>
 		<subfield code="s">
 			columbia_aco001271
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001271
 		</subfield>
 	</datafield>
 </record>

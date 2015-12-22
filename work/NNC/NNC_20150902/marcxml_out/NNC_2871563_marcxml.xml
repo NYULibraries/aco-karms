@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01390nam a2200325   4500
+		02054nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		2871563
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1952    xx      o     000 0 ara d
+		151222s1951    xx      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Subkī, Taqī al-Dīn ʻAlī ibn ʻAbd al-Kāfī,
 		</subfield>
@@ -49,13 +52,28 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Shifāʼ al-saqām.
+			Shifāʼ al-saqām fī ziyārat khayr al-anām /
+		</subfield>
+		<subfield code="c">
+			taʼlīf Taqī al-Dīn al-Subkī al-Shāfiʻī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			Bayrūt :
+		</subfield>
+		<subfield code="b">
+			al-Markaz al-Dawlī lil-turāth al-ʻArabī,
+		</subfield>
 		<subfield code="c">
-			[1952]
+			[1951]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -110,6 +128,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Muḥammad,
 		</subfield>
@@ -150,7 +171,7 @@
 			Subkī, Taqī al-Dīn ʻAlī ibn ʻAbd al-Kāfī, 1284-1355.
 		</subfield>
 		<subfield code="t">
-			Shifāʼ al-saqām
+			Shifāʼ al-saqām fī ziyārat khayr al-anām
 		</subfield>
 		<subfield code="w">
 			(NNC)2871563
@@ -167,6 +188,65 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/2547dbq0
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			سبكي، تقي الدين علي بن عبد الكافي،
+		</subfield>
+		<subfield code="d">
+			1284-1355.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			شفاء السقام في زيارة خير الانام /
+		</subfield>
+		<subfield code="c">
+			تأليف تقي الدين السبكي الشافعي. 
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03
+		</subfield>
+		<subfield code="a">
+			بيروت :
+		</subfield>
+		<subfield code="b">
+			المركز الدولي للتراث العربي،
+		</subfield>
+		<subfield code="c">
+			[1951]
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">
+			600-04
+		</subfield>
+		<subfield code="a">
+			محمد،
+		</subfield>
+		<subfield code="c">
+			Prophet,
+		</subfield>
+		<subfield code="d">
+			-632
+		</subfield>
+		<subfield code="x">
+			Tomb
+		</subfield>
+		<subfield code="x">
+			Visitation
+		</subfield>
+		<subfield code="v">
+			Early works to 1800.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -214,13 +294,16 @@
 			NNC_2871563
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23483943 
+			(OCoLC)ocm23483943
 		</subfield>
 		<subfield code="s">
 			columbia_aco001242
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001242
 		</subfield>
 	</datafield>
 </record>

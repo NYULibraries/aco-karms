@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02000nam a2200337   4500
+		02866nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		649907
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1890    ua      o     000 0 ara d
+		151222s1890    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,31 +33,49 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Qaysi, Hasan al-ʻAbbasi.
+			Qaysī, Ḥasan al-ʻAbbāsī.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Minhat al-manan fi al-faraʼid ʻala madhhab al-imam al-ʻazim Abi Hanifah al-Nuʻman
+			Mukhtaṣar Nihāyat al-bayān ʻalá al-manẓūmah al-musammāh bi- Minḥat al-mannān 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Hadha mukhtasar nihayat al-bayan ʻala al-manzumah al-musammah bi-Minhat al-manan fi al-faraʼid ʻala madhhab al-imam al-aʻzam Abi Hanifah al-Nuʻman.
+			Hādhā Mukhtaṣar Nihāyat al-bayān ʻalá al-manẓūmah al- musammāh bi-Minḥat al-mannān fī al-farāʼiḍ ʻalá madhhab al-imām al- aʻẓam Abī Ḥanīfah al-Nuʻmān /
+		</subfield>
+		<subfield code="c">
+			taʼlīf Ḥasan al-ʻAbbāsī al-Qaysī al- Ḥanafī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			al-Tabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Misr :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			al-Matbaʻah al-Khayriyah,
+			al-Maṭbaʻah al-Khayrīyah,
 		</subfield>
 		<subfield code="c">
 			1308h [1890]
@@ -114,6 +132,11 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Islamic law.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -155,10 +178,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Qaysi, Hasan al-ʻAbbasi.
+			Qaysī, Ḥasan al-ʻAbbāsī.
 		</subfield>
 		<subfield code="t">
-			Hadha mukhtasar nihayat al-bayan ʻala al-manzumah al-musammah bi-Minhat al-manan fi al-faraʼid ʻala madhhab al-imam al-aʻzam Abi Hanifah al-Nuʻman
+			Hādhā Mukhtaṣar Nihāyat al-bayān ʻalá al-manẓūmah al- musammāh bi-Minḥat al-mannān fī al-farāʼiḍ ʻalá madhhab al-imām al- aʻẓam Abī Ḥanīfah al-Nuʻmān
 		</subfield>
 		<subfield code="w">
 			(NNC)649907
@@ -175,6 +198,55 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/tx95x98r
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			قيسي، حسن العباسي.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02
+		</subfield>
+		<subfield code="a">
+			مختصر نهاية البيان على المنظومة المسماه بمنحة المنان 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-03
+		</subfield>
+		<subfield code="a">
+			هاذا مختصر نهاية البيان على المنظومة المسماه بمنحة المنان في الفرائض على مذهب الامام الاعظم ابي حنيفة النعمان /
+		</subfield>
+		<subfield code="c">
+			تأليف حسن العباسي القيسي الحنفي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-04
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-05
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			المطبعة الخيرية،
+		</subfield>
+		<subfield code="c">
+			1308ه [1890]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -229,6 +301,9 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001279
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01352nam a2200325   4500
+		01970nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		647951
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102q19081909ua      o     000 0 ara d
+		151222q19081909ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,18 +33,33 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Khudari, Muhammad.
+			Khuḍarī, Muḥammad,
+		</subfield>
+		<subfield code="d">
+			1872-1927.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Nur al-yaqin fi sirat Sayyid al-Mursalin
+			Nūr al-yaqīn fī sīrat Sayyid al-Mursalīn
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Kitab nur al-yaqin fi sirat Sayyid al-Mursalin.
+			Kitāb nūr al-yaqīn fī sīrat Sayyid al-Mursalīn /
+		</subfield>
+		<subfield code="c">
+			li-muʼallifih Muḥammad al-Khuḍarī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
@@ -53,14 +68,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Misr :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
 			Maktabat al-Muʼayyid,
 		</subfield>
 		<subfield code="c">
-			1326h [i.e. 1908 or 1909]
+			1326h [1908 or 1909]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -114,6 +132,20 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Muḥammad,
+		</subfield>
+		<subfield code="c">
+			Prophet,
+		</subfield>
+		<subfield code="d">
+			-632.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -132,10 +164,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Khudari, Muhammad.
+			Khuḍarī, Muḥammad, 1872-1927.
 		</subfield>
 		<subfield code="t">
-			Kitab nur al-yaqin fi sirat Sayyid al-Mursalin
+			Kitāb nūr al-yaqīn fī sīrat Sayyid al-Mursalīn
 		</subfield>
 		<subfield code="w">
 			(NNC)647951
@@ -152,6 +184,61 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/7wm37sst
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			خضري، محمد،
+		</subfield>
+		<subfield code="d">
+			1872-1927.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02
+		</subfield>
+		<subfield code="a">
+			نور اليقين في سيرة سيد المرسلين
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-03
+		</subfield>
+		<subfield code="a">
+			كتاب نور اليقين في سيرة سيد المرسلين /
+		</subfield>
+		<subfield code="c">
+			لمؤلفه محمد الخضري.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			مكتبة المؤيد، 1326h [1908 or 1909]
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">
+			600-05
+		</subfield>
+		<subfield code="a">
+			محمد،
+		</subfield>
+		<subfield code="c">
+			Prophet,
+		</subfield>
+		<subfield code="d">
+			-632.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -206,6 +293,9 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001376
 		</subfield>
 	</datafield>
 </record>

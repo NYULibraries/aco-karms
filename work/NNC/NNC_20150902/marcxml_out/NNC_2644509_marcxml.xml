@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02289nam a2200397   4500
+		02639nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		2644509
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1968    iq      ob    000 0 arard
+		151222s1968    iq      ob    000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ibn Bassām, Muḥammad ibn Aḥmad,
 		</subfield>
@@ -49,11 +52,20 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Nihāyat al-rutbah fī ṭalab al-ḥisbah, li-Ibn Bassām al-Muḥtasib. Ḥaqqaqahu wa-ʻallaqa ʻalayhi Ḥusām al-Dīn al-Sāmarrāʼī.
+			Nihāyat al-rutbah fī ṭalab al-ḥisbah /
+		</subfield>
+		<subfield code="c">
+			li-Ibn Bassām al-Muḥtasib ; Ḥaqqaqahu wa-ʻallaqa ʻalayhi Ḥusām al-Dīn al-Sāmarrāʼī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Baghdād,
 		</subfield>
@@ -156,8 +168,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Samarrāʼī, Ḥusām al-Dīn.
+			Sāmarrāʼī, Ḥusām al-Dīn.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -198,13 +213,13 @@
 			Ibn Bassām, Muḥammad ibn Aḥmad, al-Muḥtasib.
 		</subfield>
 		<subfield code="t">
-			Nihāyat al-rutbah fī ṭalab al-ḥisbah, li-Ibn Bassām al-Muḥtasib. Ḥaqqaqahu wa-ʻallaqa ʻalayhi Ḥusām al-Dīn al-Sāmarrāʼī
+			Nihāyat al-rutbah fī ṭalab al-ḥisbah
 		</subfield>
 		<subfield code="w">
 			(NNC)2644509
 		</subfield>
 		<subfield code="w">
-			(DLC)   72203488 
+			(DLC)  72203488 
 		</subfield>
 		<subfield code="w">
 			(OCoLC)21645587
@@ -218,6 +233,50 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/crjdfr00
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			ابن بسام، محمد بن احمد،
+		</subfield>
+		<subfield code="c">
+			المحتسب.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			نهاية الرتبة في طلب الحسبة /
+		</subfield>
+		<subfield code="c">
+			لابن بسام المحتسب ؛ حققه وعلق عليه حسام الدين السامرائي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03
+		</subfield>
+		<subfield code="a">
+			بغداد،
+		</subfield>
+		<subfield code="b">
+			مطبعة المعارف،
+		</subfield>
+		<subfield code="c">
+			1968. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04
+		</subfield>
+		<subfield code="a">
+			سامرائي، حسام الدين.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -265,13 +324,16 @@
 			NNC_2644509
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm21645587 
+			(OCoLC)ocm21645587
 		</subfield>
 		<subfield code="s">
 			columbia_aco001276
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001276
 		</subfield>
 	</datafield>
 </record>

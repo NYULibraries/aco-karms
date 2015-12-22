@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01846nam a2200313   4500
+		02823nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		648916
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1906    ua      o     000 0 ara d
+		151222s1906    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,16 +33,22 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Birmawi, Ibrahim ibn Muhammad,
+			Birmāwī, Ibrāhīm ibn Muḥammad,
 		</subfield>
 		<subfield code="d">
 			-1694.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Hashiyat al-ustadh al-ʻalim al-ʻallamah al-ʻumdah al-fahhamah faqih zamanihi wa-wahid ʻasrihi wa-awanih shaykh al-Islam wa-al-Muslimin ʻumdat al-muhaqqiqin burhan al-din al-shaykh Ibrahim al-Shafiʻi al-Birmawi ʻala sharh al-Ghayah lil-ʻallamah Ibn Qasim al-Ghazzi rahimahuma Allah taʻala amin.
+			Ḥāshiyat al-ūstādh al-ʻalimah al-ʻallāmah al-ʻumdah al-fahhāmah faqīh zamānihi wa-waḥīd ʻaṣrihi wa-awānih shaykh al-Islām wa-al-Muslimīn ʻumdat al-muḥaqqiqīn burhān al-dīn al-shaykh Ibrāhim al-Shafiʻi al-Birmāwī ʻala sharḥ al-Ghayah lil-ʻallāmah Ibn Qasim al-Ghazzi raḥimahuma Allāh taʻālá amīn.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
@@ -51,11 +57,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Misr :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			al-Matbaʻah al-Azhariyah al-Misriyah,
+			al-Maṭbaʻah al-Azhariyah al-Miṣriyah,
 		</subfield>
 		<subfield code="c">
 			1324h [1906]
@@ -112,6 +121,20 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Ghazzī, Muḥammad ibn Qāsim,
+		</subfield>
+		<subfield code="d">
+			1454 or 1455-1512 or 1513.
+		</subfield>
+		<subfield code="t">
+			Sharḥ al-Ghāyah.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -130,10 +153,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Birmawi, Ibrahim ibn Muhammad, -1694.
+			Birmāwī, Ibrāhīm ibn Muḥammad, -1694.
 		</subfield>
 		<subfield code="t">
-			Hashiyat al-ustadh al-ʻalim al-ʻallamah al-ʻumdah al-fahhamah faqih zamanihi wa-wahid ʻasrihi wa-awanih shaykh al-Islam wa-al-Muslimin ʻumdat al-muhaqqiqin burhan al-din al-shaykh Ibrahim al-Shafiʻi al-Birmawi ʻala sharh al-Ghayah lil-ʻallamah Ibn Qasim al-Ghazzi rahimahuma Allah taʻala amin
+			Ḥāshiyat al-ūstādh al-ʻalimah al-ʻallāmah al-ʻumdah al-fahhāmah faqīh zamānihi wa-waḥīd ʻaṣrihi wa-awānih shaykh al-Islām wa-al-Muslimīn ʻumdat al-muḥaqqiqīn burhān al-dīn al-shaykh Ibrāhim al-Shafiʻi al-Birmāwī ʻala sharḥ al-Ghayah lil-ʻallāmah Ibn Qasim al-Ghazzi raḥimahuma Allāh taʻālá amīn
 		</subfield>
 		<subfield code="w">
 			(NNC)648916
@@ -150,6 +173,53 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/rbnzsbgp
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			برماوي، ابراهيم بن محمد،
+		</subfield>
+		<subfield code="d">
+			-1694.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			حاشية الاستاذ العالم العلامة العمدة الفهامة فقيه زمانه ووحيد عصره واوانه شيخ الاسلام والمسلين عمدة المحققين برهان الدين الشيخ ابراهم الشفع البرماوي عل شرح الغية للعلامة ابن قسم الغز رحمهم الله تعالى امين.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			المطبعة الازهرية المصرية،
+		</subfield>
+		<subfield code="c">
+			1324ه [1906]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-04
+		</subfield>
+		<subfield code="a">
+			غزي، محمد بن قاسم،
+		</subfield>
+		<subfield code="d">
+			1454 or 1455-1512 or 1513.
+		</subfield>
+		<subfield code="t">
+			شرح الغاية.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -197,13 +267,16 @@
 			NNC_648916
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm60601338 
+			(OCoLC)ocm60601338
 		</subfield>
 		<subfield code="s">
 			columbia_aco001346
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001346
 		</subfield>
 	</datafield>
 </record>

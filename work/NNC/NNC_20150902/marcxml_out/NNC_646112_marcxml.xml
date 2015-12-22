@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01993nam a2200325   4500
+		03407nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		646112
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1888    ua      o     000 0 ara d
+		151222s1888    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,29 +33,52 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Ibn al-Batanuni, ʻAli ibn ʻUmar,
+			Ibn al-Batanūnī, ʻAlī ibn ʻUmar,
 		</subfield>
 		<subfield code="d">
-			active 1495.
+			-approximately 1494.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Sirr al-safi fi manaqib al-sultan al-Hanafi
+			Sirr al-ṣafī fī manāqib al-Sulṭān al-Ḥanafī
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Kitab al-sirr al-safi fi manaqib al-sultan al-Hanafi Qutb al-Ghawth Shams al-Din sayyidi Muhammad al-Tamimi al-Bakri al-Shadhili al-Sadiqi radiya Allahu taʻala ʻanhu.
+			Kitāb al-Sirr al-ṣafī fī manāqib al-Sulṭān al-Ḥanafī quṭb al-ghawth Shams al-Dīn Sayyidī Muḥammad al-Taymī al-Bakrī al-Shādhilī al-Siddīqī /
+		</subfield>
+		<subfield code="c">
+			taʼlīf ʻAlī ibn ʻUmar al-shahīr bi-al-Batanūnī. Wa-li-ajl tamām al-nafʻ dhayyalnā hādhā al-kitāb bi-ṭabʻ Ḥizb al-nūr / lil-Sulṭān al-madhkūr.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Juzʼ al-awwal min Kitab al-Sirr al-ṣafī fī manāqib al-Sulṭān al-Ḥanafī
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			[Cairo] :
 		</subfield>
 		<subfield code="b">
-			Matbaʻat Muhammad Mustafa,
+			Maṭbaʻt Muḥammad Afandī Muṣṭfá, 
 		</subfield>
 		<subfield code="c">
 			1306h [1888]
@@ -112,6 +135,25 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			Ḥanafī, Muḥammad ibn Ḥasan,
+		</subfield>
+		<subfield code="d">
+			-1443 or 1444.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Sufis
+		</subfield>
+		<subfield code="v">
+			Biography.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -150,10 +192,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ibn al-Batanuni, ʻAli ibn ʻUmar, active 1495.
+			Ibn al-Batanūnī, ʻAlī ibn ʻUmar, -approximately 1494.
 		</subfield>
 		<subfield code="t">
-			Kitab al-sirr al-safi fi manaqib al-sultan al-Hanafi Qutb al-Ghawth Shams al-Din sayyidi Muhammad al-Tamimi al-Bakri al-Shadhili al-Sadiqi radiya Allahu taʻala ʻanhu
+			Kitāb al-Sirr al-ṣafī fī manāqib al-Sulṭān al-Ḥanafī quṭb al-ghawth Shams al-Dīn Sayyidī Muḥammad al-Taymī al-Bakrī al-Shādhilī al-Siddīqī
 		</subfield>
 		<subfield code="w">
 			(NNC)646112
@@ -170,6 +212,69 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/ncjsxprb
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ابن البتنوني، علي بن عمر،
+		</subfield>
+		<subfield code="d">
+			-approximately 1494.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02/r
+		</subfield>
+		<subfield code="a">
+			سر الصفي في مناقب السلطان الحنفي
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-03/r
+		</subfield>
+		<subfield code="a">
+			كتاب السر الصفي في مناقب السلطان الحنفي قطب الغوث شمس الدين سيدي محمد التيمي البكري الشاذلي السديقي /
+		</subfield>
+		<subfield code="c">
+			تأليف علي بن عمر الشهير بالبتنوني. ولاجل تمام النفع ذيلنا هذه الكتاب بطبع حزب النور / للسلطان المذكور.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-04/r
+		</subfield>
+		<subfield code="a">
+			جزء الاول من كتب السر الصفي في مناقب السلطان الحنفي
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-05/r
+		</subfield>
+		<subfield code="a">
+			[القاهرة] :
+		</subfield>
+		<subfield code="b">
+			مطبعة محمد افندي مصطفى، 
+		</subfield>
+		<subfield code="c">
+			1306ه [1888]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-06/r
+		</subfield>
+		<subfield code="a">
+			حنفي، محمد بن حسن،
+		</subfield>
+		<subfield code="d">
+			-1443 or 1444.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -217,13 +322,16 @@
 			NNC_646112
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm60601290 
+			(OCoLC)ocm60601290
 		</subfield>
 		<subfield code="s">
 			columbia_aco001272
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001272
 		</subfield>
 	</datafield>
 </record>

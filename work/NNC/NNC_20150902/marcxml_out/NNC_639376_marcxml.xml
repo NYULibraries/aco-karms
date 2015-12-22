@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01311nam a2200301   4500
+		01664nam a2200349   4500
 	</leader>
 	<controlfield tag="001">
 		639376
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1983    ir      o     000 0 ara d
+		151222s1983    ir      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,24 +33,36 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Muṭahharī, Murtaz̤á.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			al-Hadaf al-sami lil-hayah al-insaniyah.
+			al-Hadaf al-sāmī lil-ḥayāh al-insānīyah /
+		</subfield>
+		<subfield code="c">
+			al-Muṭahharī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Tehran :
+			[Ṭihrān] :
 		</subfield>
 		<subfield code="b">
-			Munazzamat al-ʻAmal al-Islami, Qism al-ʻAlaqat al-Dawliyah,
+			Munaẓẓamat al-Iʻlām al-Islāmī,
 		</subfield>
 		<subfield code="c">
-			1403 [i.e. 1982 or 3]
+			1403 [1983]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -104,6 +116,14 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Religious life
+		</subfield>
+		<subfield code="x">
+			Shīʻah.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -125,7 +145,7 @@
 			Muṭahharī, Murtaz̤á.
 		</subfield>
 		<subfield code="t">
-			al-Hadaf al-sami lil-hayah al-insaniyah
+			al-Hadaf al-sāmī lil-ḥayāh al-insānīyah
 		</subfield>
 		<subfield code="w">
 			(NNC)639376
@@ -142,6 +162,39 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/d7wm3bm0
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			مطهرى، مرتضى.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			الهدف السامي للحياه الانسانية /
+		</subfield>
+		<subfield code="c">
+			المطهري.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03
+		</subfield>
+		<subfield code="a">
+			[طهران] :
+		</subfield>
+		<subfield code="b">
+			منظمة الاعلام الاسلامي،
+		</subfield>
+		<subfield code="c">
+			1403 [1983]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -196,6 +249,9 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001232
 		</subfield>
 	</datafield>
 </record>

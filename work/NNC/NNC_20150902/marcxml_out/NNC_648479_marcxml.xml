@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01256nam a2200301   4500
+		01521nam a2200337   4500
 	</leader>
 	<controlfield tag="001">
 		648479
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1910    ua      o     000 0 ara d
+		151222s1910    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,8 +33,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Rabiʻ ibn Habib ibn ʻUmar al-Azdi.
+			Azdī, al-Rabīʻ ibn Ḥabīb,
+		</subfield>
+		<subfield code="d">
+			active 8th century.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
@@ -43,14 +49,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Bab al-Khalq, Misr :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			Matbaʻat al-Najah,
+			Maṭbaʻat al-Naj̄āḥ,
 		</subfield>
 		<subfield code="c">
-			1328H [1910]
+			1328- [1910- ]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -104,6 +113,14 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Hadith
+		</subfield>
+		<subfield code="v">
+			Texts.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -122,7 +139,7 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Rabiʻ ibn Habib ibn ʻUmar al-Azdi.
+			Azdī, al-Rabīʻ ibn Ḥabīb, active 8th century.
 		</subfield>
 		<subfield code="t">
 			Matn al-Jamiʻ al-sahih
@@ -142,6 +159,31 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/95x69s4j
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ازدي، الربيع بن حبيب،
+		</subfield>
+		<subfield code="d">
+			active 8th century.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-02/r
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			مطبعة النجاح،
+		</subfield>
+		<subfield code="c">
+			1328- [1910 ]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -189,13 +231,16 @@
 			NNC_648479
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm60601329 
+			(OCoLC)ocm60601329
 		</subfield>
 		<subfield code="s">
 			columbia_aco001222
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001222
 		</subfield>
 	</datafield>
 </record>

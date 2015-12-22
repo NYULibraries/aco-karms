@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01431nam a2200301   4500
+		02261nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		647139
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1911    ua      o     000 0 ara d
+		151222s1911    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,21 +33,33 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Kafrawi, Hasan.
+			Kafrāwī, Ḥasan ibn ʻAlī,
+		</subfield>
+		<subfield code="d">
+			-1787 or 1788.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Sharh al-ʻallamah al-shaykh Hasan al-Kafrawi ʻala matn al-Ajrumiyah li-Ibn Ajrum al-Sijhaji fi ʻilm al-ʻArabiyah bi-al-tamam.
+			Sharḥ al-ʻallāmah al-shaykh Ḥasan al-Kafrāwī ʻalá matn al-Ajrūmiyah li-Ibn Ajrūm al-Ṣinhājī fī ʻilm al-ʻArabiyah bi-al-tamām.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Cairo :
+			al-Qāhirah :
 		</subfield>
 		<subfield code="b">
-			al-Matbaʻah al-Kulliyah al-ʻAmirah,
+			al-Maṭbaʻah al-Kulliyah al-ʻĀmirah,
 		</subfield>
 		<subfield code="c">
 			1330h [1911]
@@ -104,6 +116,31 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Ibn Ājurrūm, Muḥammad ibn Muḥammad,
+		</subfield>
+		<subfield code="d">
+			1273 or 1274-1323.
+		</subfield>
+		<subfield code="t">
+			Ajurrūmīyah.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Arabic language
+		</subfield>
+		<subfield code="x">
+			Grammar
+		</subfield>
+		<subfield code="v">
+			Early works to 1800.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -122,10 +159,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Kafrawi, Hasan.
+			Kafrāwī, Ḥasan ibn ʻAlī, -1787 or 1788.
 		</subfield>
 		<subfield code="t">
-			Sharh al-ʻallamah al-shaykh Hasan al-Kafrawi ʻala matn al-Ajrumiyah li-Ibn Ajrum al-Sijhaji fi ʻilm al-ʻArabiyah bi-al-tamam
+			Sharḥ al-ʻallāmah al-shaykh Ḥasan al-Kafrāwī ʻalá matn al-Ajrūmiyah li-Ibn Ajrūm al-Ṣinhājī fī ʻilm al-ʻArabiyah bi-al-tamām
 		</subfield>
 		<subfield code="w">
 			(NNC)647139
@@ -142,6 +179,53 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/1ns1rr45
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			كفراوي، حسن بن علي،
+		</subfield>
+		<subfield code="d">
+			-1787 or 1788.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			شرح العلامة الشيخ حسن الكفراوي على متن الاجرومية لاابن آجروم الصنهاجي في علم العربية بالتمام.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			المطبعة الكلية العامرة،
+		</subfield>
+		<subfield code="c">
+			1330ه [1911]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-04/r
+		</subfield>
+		<subfield code="a">
+			ابن آجروم، محمد بن محمد،
+		</subfield>
+		<subfield code="d">
+			1273 or 1274-1323.
+		</subfield>
+		<subfield code="t">
+			اجرومية.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -189,13 +273,16 @@
 			NNC_647139
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm60601314 
+			(OCoLC)ocm60601314
 		</subfield>
 		<subfield code="s">
 			columbia_aco001228
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001228
 		</subfield>
 	</datafield>
 </record>
