@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02843nam a2200493   4500
+		03114nam a2200517   4500
 	</leader>
 	<controlfield tag="001">
 		2635202
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1963    sy      o     000 0 arar 
+		151222s1963    sy      o     000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -45,10 +45,13 @@
 			880-01
 		</subfield>
 		<subfield code="a">
-			Chihabi, Moustapha.
+			Chihabi, Moustapha. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Akhṭāʼ shāʼiʻah fī alfāẓ al-ʻulūm al-zirāʻīyah wa-al-nabātīyah, wa-kalimāt muwallidah yufīd iqrārahā.
 		</subfield>
@@ -57,8 +60,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Dimashq,
+			Dimashq :
+		</subfield>
+		<subfield code="b">
+			al-Majmaʻ al-ʻIlmī al-ʻArabī,
 		</subfield>
 		<subfield code="c">
 			1963.
@@ -93,7 +102,10 @@
 			rdacarrier
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq
 		</subfield>
@@ -186,6 +198,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq.
+		</subfield>
+		<subfield code="t">
+			Maṭbūʻāt. 
+		</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
 		</subfield>
@@ -235,12 +258,12 @@
 			(OCoLC)10396041
 		</subfield>
 	</datafield>
-	<datafield ind1="2" ind2=" " tag="810">
-		<subfield code="a">
-			Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq.
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-06
 		</subfield>
-		<subfield code="t">
-			Maṭbūʻāt.
+		<subfield code="a">
+			Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq.
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
@@ -263,7 +286,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-00/r
+			245-02/r
 		</subfield>
 		<subfield code="a">
 			أخطاء شائعة في ألفاظ العلوم الزراعية والنباتية، وكلمات مولدة يفيد إقرارها /
@@ -274,7 +297,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			دمشق :
@@ -288,15 +311,26 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			490-00/r
+			490-04/r
 		</subfield>
 		<subfield code="a">
 			مطبوعات المجمع العلمي العربي بدمشق
 		</subfield>
 	</datafield>
+	<datafield ind1="2" ind2=" " tag="880">
+		<subfield code="6">
+			710-05/r
+		</subfield>
+		<subfield code="a">
+			مجمع العلمي العربي بدمشق.
+		</subfield>
+		<subfield code="t">
+			مطبوعات. 
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
 		<subfield code="6">
-			830-00/r
+			830-06/r
 		</subfield>
 		<subfield code="a">
 			مطبوعات المجمع العلمي العربي بدمشق.
@@ -347,13 +381,16 @@
 			NNC_2635202
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm10396041 
+			(OCoLC)ocm10396041
 		</subfield>
 		<subfield code="s">
 			columbia_aco001275
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)(ERROR-SERIES)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001275
 		</subfield>
 	</datafield>
 </record>

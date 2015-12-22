@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02994nam a2200517   4500
+		03160nam a2200541   4500
 	</leader>
 	<controlfield tag="001">
 		661188
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1979    ir      ob    001 0 araod
+		151222s1979    ir      ob    001 0 araod
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -71,18 +71,24 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Aqṭāb al-quṭbīyah
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Bulghah fī al-ḥikmah
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-03
+			880-05
 		</subfield>
 		<subfield code="a">
 			Tihrān :
@@ -124,6 +130,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Intishārāt-i Anjuman-i Falsafah-ʼi Īrān ;
 		</subfield>
@@ -190,10 +199,10 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-04
+			880-07
 		</subfield>
 		<subfield code="a">
-			Dānishʹpazhūh, Muḥammad Taqī.
+			Dānishʹpazhūh, Muḥammad Taqī. 
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -244,6 +253,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-08
+		</subfield>
 		<subfield code="a">
 			Intishārāt-i Anjuman-i Falsafah-ʼi Īrān ;
 		</subfield>
@@ -266,7 +278,10 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			أهري، عبد القادر بن حمزة بن ياقوت.
+			أهري، عبد القادر بن حمزة بن ياقوت، 
+		</subfield>
+		<subfield code="d">
+			-1259.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
@@ -280,9 +295,25 @@
 			عبد القادر بن حمزة بن ياقوت الأهري ؛ با مقدمه وتصحيح محمد تقي دانش پژوه.
 		</subfield>
 	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-03/r
+		</subfield>
+		<subfield code="a">
+			اقطاب القطبية
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-04/r
+		</subfield>
+		<subfield code="a">
+			بلغة في الحكمة
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-03/r
+			260-05/r
 		</subfield>
 		<subfield code="a">
 			تهران :
@@ -296,7 +327,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			490-00/r
+			490-06/r
 		</subfield>
 		<subfield code="a">
 			انتشارات انجمن فلسفۀ ايران ؛
@@ -307,7 +338,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-04/r
+			700-07/r
 		</subfield>
 		<subfield code="a">
 			دانش پژوه، محمد تقى.
@@ -315,10 +346,10 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
 		<subfield code="6">
-			830-00/r
+			830-08/r
 		</subfield>
 		<subfield code="a">
-			انتشارات انجمن فلسفۀ ايران ؛ ;
+			انتشارات انجمن فلسفۀ ايران ؛ 
 		</subfield>
 		<subfield code="v">
 			٥٤.
@@ -369,13 +400,16 @@
 			NNC_661188
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm17382107 
+			(OCoLC)ocm17382107
 		</subfield>
 		<subfield code="s">
 			columbia_aco001260
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001260
 		</subfield>
 	</datafield>
 </record>

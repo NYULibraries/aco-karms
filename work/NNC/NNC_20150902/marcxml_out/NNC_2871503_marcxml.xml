@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02997nam a2200445   4500
+		03209nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		2871503
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1937    ua      o     000 0 arar 
+		151222s1937    ua      o     000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -51,9 +51,17 @@
 			1273?-1334.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="0" tag="240">
 		<subfield code="6">
 			880-02
+		</subfield>
+		<subfield code="a">
+			ʻUyūn al-athar fī funūn al-maghāzī wa-shamāʼil wa-al-siyar
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
 		</subfield>
 		<subfield code="a">
 			ʻUyūn al-athar fī funūn al-maghāzī wa-shamāʼil wa-al-siyar /
@@ -62,9 +70,17 @@
 			li-Ibn Sayyid al-Nās. Wa-maʻahu Iqtibās al-Iqtibās li-ḥall mushkilat Sīrat Ibn Sayyid al-Nās / li-Ibn ʻAbd al-Hādī, ʻan nuskhah al-Amīr Ṭāhir ḥafīd al-Amīr ʻAbd al-Qādir al-Jazāʼirī, maʻa muqābila bi-nuskhat Dār al-Kutub al-Ẓāhirīyah bi-Dimashq wa-murājaʻat al-mushkil fī naskh Dār al-Kutub al-Miṣrīyah.
 		</subfield>
 	</datafield>
+	<datafield ind1="3" ind2="0" tag="246">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			ʻUyūn al-athar fī funūn al-maghāzī wa-shamāʼil wa-al-siyar
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-03
+			880-05
 		</subfield>
 		<subfield code="a">
 			al-Qāhirah :
@@ -73,7 +89,7 @@
 			Maktabat al-Qudsī,
 		</subfield>
 		<subfield code="c">
-			1356 [1937 or 8]
+			1356 [1937 or 1938]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -128,6 +144,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Muḥammad,
 		</subfield>
@@ -171,7 +190,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="700">
 		<subfield code="6">
-			880-04
+			880-07
 		</subfield>
 		<subfield code="a">
 			Ibn al-Mibrad, Yūsuf ibn Ḥasan,
@@ -213,7 +232,7 @@
 			(NNC)2871503
 		</subfield>
 		<subfield code="w">
-			(DLC)   75549803 
+			(DLC)  75549803 
 		</subfield>
 		<subfield code="w">
 			(OCoLC)21986433
@@ -231,10 +250,10 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-01/r
+			100-01
 		</subfield>
 		<subfield code="a">
-			ابن سيد الناس، محمد بن محمد،,
+			ابن سيد الناس، محمد بن محمد،
 		</subfield>
 		<subfield code="d">
 			1273?-1334.
@@ -242,7 +261,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			240-00/r
+			240-02
 		</subfield>
 		<subfield code="a">
 			عيون الاثر في فنون المغازي والشمائل والسير
@@ -250,7 +269,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-02/r
+			245-03
 		</subfield>
 		<subfield code="a">
 			عيون الأثر في فنون المغازي والشمائل والسير /
@@ -261,7 +280,7 @@
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="880">
 		<subfield code="6">
-			246-00/r
+			246-04
 		</subfield>
 		<subfield code="a">
 			عيون الاثر في فنون المغازي والشمائل والسير
@@ -269,32 +288,32 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-03/r
+			260-05
 		</subfield>
 		<subfield code="a">
 			القاهرة :
 		</subfield>
 		<subfield code="b">
-			مكتبة القدسي،
-		</subfield>
-		<subfield code="c">
-			1356 [1937 or 8]
+			مكتبة القدسي، 1356 [1937 or 1938]
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="880">
 		<subfield code="6">
-			600-00/r
+			600-06
 		</subfield>
 		<subfield code="a">
 			محمد،
 		</subfield>
 		<subfield code="c">
-			الرسول.
+			Prophet,
+		</subfield>
+		<subfield code="d">
+			-632.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			700-04/r
+			700-07
 		</subfield>
 		<subfield code="a">
 			ابن المبرد، يوسف بن حسن.
@@ -348,13 +367,16 @@
 			NNC_2871503
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm21986433 
+			(OCoLC)ocm21986433
 		</subfield>
 		<subfield code="s">
 			columbia_aco001378
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001378
 		</subfield>
 	</datafield>
 </record>

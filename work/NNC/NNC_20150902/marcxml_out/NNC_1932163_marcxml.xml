@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01500nam a2200361   4500
+		01843nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		1932163
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1984    ir      o     000 0 ara d
+		151222s1984    ir      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="245">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			4 Sanawāt ḥarb /
 		</subfield>
@@ -49,6 +52,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Ṭihrān :
 		</subfield>
@@ -140,6 +146,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Markaz al-Islāmī lil-Abḥāth al-Siyāsīyah.
 		</subfield>
@@ -179,6 +188,39 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/34tmpk1j
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">
+			245-01/r
+		</subfield>
+		<subfield code="a">
+			4 سنوات حرب /
+		</subfield>
+		<subfield code="c">
+			المركز الاسلامي للأبحاث السياسية.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-02/r
+		</subfield>
+		<subfield code="a">
+			طهران :
+		</subfield>
+		<subfield code="b">
+			المركز، حزب الدعوة الاسلامية،
+		</subfield>
+		<subfield code="c">
+			1984.
+		</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="880">
+		<subfield code="6">
+			710-03/r
+		</subfield>
+		<subfield code="a">
+			مركز الاسلامي للأبحاث السياسية.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -226,13 +268,16 @@
 			NNC_1932163
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm35205327 
+			(OCoLC)ocm35205327
 		</subfield>
 		<subfield code="s">
 			columbia_aco001377
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001377
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01302nam a2200301   4500
+		01855nam a2200349   4500
 	</leader>
 	<controlfield tag="001">
 		648443
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1913    ua      o     000 0 ara d
+		151222s1913    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,24 +33,39 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Aqakarmani, Muhammad ibn Mustafa.
+			Āqkirmānī, Muḥammad ibn Muṣṭafá,
+		</subfield>
+		<subfield code="d">
+			-1760 or 1761.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Nibras al-ʻuqul al-dhakiyah :
+			Nibrās al-ʻuqūl al-dhakīyah :
 		</subfield>
 		<subfield code="b">
-			sharh al-arbaʻin hadithan al-nabawiyah.
+			sharḥ al-arabaʻīn ḥadithan al-nabawīyah /
+		</subfield>
+		<subfield code="c">
+			taʼlīf Muḥammad ibn Muṣṭafá al-Āqkirmānī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Misr :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			Matbaʻat Sharikat al-Tamaddun,
+			al-Maktabah al-Nabawīyah, ,
 		</subfield>
 		<subfield code="c">
 			1332 [1913]
@@ -107,6 +122,11 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Hadith.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -125,10 +145,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Aqakarmani, Muhammad ibn Mustafa.
+			Āqkirmānī, Muḥammad ibn Muṣṭafá, -1760 or 1761.
 		</subfield>
 		<subfield code="t">
-			Nibras al-ʻuqul al-dhakiyah
+			Nibrās al-ʻuqūl al-dhakīyah
 		</subfield>
 		<subfield code="w">
 			(NNC)648443
@@ -145,6 +165,45 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/g1jwsxnx
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			آقكرماني، محمد بن مصطفى،
+		</subfield>
+		<subfield code="d">
+			-1760 or 1761.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			نبراس العقول الذكية :
+		</subfield>
+		<subfield code="b">
+			شرح الاربعين حدثن النبوية /
+		</subfield>
+		<subfield code="c">
+			تأليف محمد بن مصطفى الاقكرماني.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			المكتبة النبوية، ،
+		</subfield>
+		<subfield code="c">
+			1332 [1913]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -192,13 +251,16 @@
 			NNC_648443
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm60601327 
+			(OCoLC)ocm60601327
 		</subfield>
 		<subfield code="s">
 			columbia_aco001223
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001223
 		</subfield>
 	</datafield>
 </record>

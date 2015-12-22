@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01273nam a2200313   4500
+		01658nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		649921
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1917    ua      o     000 0 ara d
+		151222s1917    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Rāfiʻī, Muṣṭafá Ṣādiq,
 		</subfield>
@@ -41,21 +44,33 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Masakin
+			Masākīn
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Kitab al-Masakin.
+			Kitāb al-Masākīn /
+		</subfield>
+		<subfield code="c">
+			Muṣṭafá Ṣādiq al-Rāfiʻī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Misr :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			Muhammad Saʻid al-Rafiʻi,
+			Muḥammad Saʻid al-Rāfiʻī,
 		</subfield>
 		<subfield code="c">
 			1917.
@@ -133,7 +148,7 @@
 			Rāfiʻī, Muṣṭafá Ṣādiq, -1937.
 		</subfield>
 		<subfield code="t">
-			Kitab al-Masakin
+			Kitāb al-Masākīn
 		</subfield>
 		<subfield code="w">
 			(NNC)649921
@@ -150,6 +165,50 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/hhmgqrh4
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			رافعي، مصطفى صادق،
+		</subfield>
+		<subfield code="d">
+			-1937.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02
+		</subfield>
+		<subfield code="a">
+			مساكين
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-03
+		</subfield>
+		<subfield code="a">
+			كتاب المساكين /
+		</subfield>
+		<subfield code="c">
+			مصطفى صادق الرافعي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			محمد سعد الرافعي،
+		</subfield>
+		<subfield code="c">
+			1917.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -204,6 +263,9 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001359
 		</subfield>
 	</datafield>
 </record>

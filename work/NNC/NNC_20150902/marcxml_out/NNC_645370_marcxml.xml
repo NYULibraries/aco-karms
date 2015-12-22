@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01695nam a2200325   4500
+		02184nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		645370
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102q18791880ua      o     000 0 ara d
+		151222q18791880ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			ʻAlī Mubārak,
 		</subfield>
@@ -44,21 +47,33 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Nukhbat al-fikr fi tadbir Nil Misr
+			nukhbat al-fikr fī tadbīr Nīl Miṣr 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Kitab nukhbat al-fikr fi tadbir Nil Misr.
+			Kitāb nukhbat al-fikr fī tadbīr Nīl Miṣr /
+		</subfield>
+		<subfield code="c">
+			taʼlīf ʻAlī Mubārak.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			al-Qahirah al-Mahrusah :
+			al-Qāhirah :
 		</subfield>
 		<subfield code="b">
-			Matbaʻat Wadi al-Nil al-ʻArabiyah wa-al-Ifranjiyah,
+			Maṭbaʻat Wādī al-Nīl,
 		</subfield>
 		<subfield code="c">
 			1297h [i.e. 1879 or 1880]
@@ -115,6 +130,14 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Nile River
+		</subfield>
+		<subfield code="v">
+			Regulations.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -156,7 +179,7 @@
 			ʻAlī Mubārak, Bāshā, 1823 or 1824-1893.
 		</subfield>
 		<subfield code="t">
-			Kitab nukhbat al-fikr fi tadbir Nil Misr
+			Kitāb nukhbat al-fikr fī tadbīr Nīl Miṣr
 		</subfield>
 		<subfield code="w">
 			(NNC)645370
@@ -173,6 +196,53 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/vx0k6hj2
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			علي مبارك،
+		</subfield>
+		<subfield code="c">
+			باشا،
+		</subfield>
+		<subfield code="d">
+			1823 or 1824-1893.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02
+		</subfield>
+		<subfield code="a">
+			نخبة الفكر في تدبير نيل مصر 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-03
+		</subfield>
+		<subfield code="a">
+			كتاب نخبة الفكر في تدبير نيل مصر /
+		</subfield>
+		<subfield code="c">
+			تأليف علي مبارك.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			مطبعة وادي النيل،
+		</subfield>
+		<subfield code="c">
+			1297ه [ا.. 1879 or 1880]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -220,13 +290,16 @@
 			NNC_645370
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm60601268 
+			(OCoLC)ocm60601268
 		</subfield>
 		<subfield code="s">
 			columbia_aco001233
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001233
 		</subfield>
 	</datafield>
 </record>

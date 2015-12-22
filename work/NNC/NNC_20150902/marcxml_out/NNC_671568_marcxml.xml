@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02284nam a2200481   4500
+		02687nam a2200529   4500
 	</leader>
 	<controlfield tag="001">
 		671568
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1966    iq b    ob    000 0 ara d
+		151222s1966    iq b    ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -46,11 +46,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			ʻAzīz, Ḥusayn Qāsim.
+			ʻAzīz, Ḥusayn Qāsim. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Bābakīyah :
 		</subfield>
@@ -67,6 +73,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Baghdād :
 		</subfield>
@@ -152,6 +161,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Bābak Khurramʹdīn,
 		</subfield>
@@ -276,6 +288,53 @@
 			http://hdl.handle.net/2333.1/dfn2z623
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			عزيز، حسين قاسم. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			البابكية :
+		</subfield>
+		<subfield code="b">
+			او انتفاضة الشعب الاذربيجاني ضد الخلافة العباسية /
+		</subfield>
+		<subfield code="c">
+			حسين قاسم العزيز.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			مكتبة النهضة،
+		</subfield>
+		<subfield code="c">
+			1966.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">
+			600-04
+		</subfield>
+		<subfield code="a">
+			بابك خرمدين،
+		</subfield>
+		<subfield code="d">
+			-838.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -321,13 +380,16 @@
 			NNC_671568
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm17213280 
+			(OCoLC)ocm17213280
 		</subfield>
 		<subfield code="s">
 			columbia_aco001380
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001380
 		</subfield>
 	</datafield>
 </record>

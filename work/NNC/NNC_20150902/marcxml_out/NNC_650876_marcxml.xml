@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01844nam a2200361   4500
+		02629nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		650876
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102m19321934ua      o     000 0 ara d
+		151222m19321934ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Qārī al-Harawī, ʻAlī ibn Sulṭān Muḥammad,
 		</subfield>
@@ -41,6 +44,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Sharḥ ʻAyn al-ʻilm wa-zayn al-ḥilm /
 		</subfield>
@@ -49,14 +55,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Misr :
+			Miṣr  :
 		</subfield>
 		<subfield code="b">
-			Idarat al-Tibaʻah al-Muniriyah,
+			Idārat al-Ṭibāʻah al-Muniriyah,
 		</subfield>
 		<subfield code="c">
-			1351-1353h [i.e. 1932 or3-1934]
+			1351-1353 [1932 or 1933-1934 or 1935]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -116,14 +125,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Balkhī, Muḥammad ibn ʻUthmān,
 		</subfield>
 		<subfield code="d">
-			active 14th century.
+			-1426 or 1427.
 		</subfield>
 		<subfield code="t">
-			ʻAyn al-ʻilm.
+			ʻAyn al-ʻilm wa-zayn al-ḥilm.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
@@ -146,14 +158,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Balkhī, Muḥammad ibn ʻUthmān,
 		</subfield>
 		<subfield code="d">
-			active 14th century.
+			-1426 or 1427.
 		</subfield>
 		<subfield code="t">
-			ʻAyn al-ʻilm.
+			ʻAyn al-ʻilm wa-zayn al-ḥilm.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -194,6 +209,70 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/sn02v9vk
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			قاري الهروي، علي بن سلطان محمد،
+		</subfield>
+		<subfield code="d">
+			-1605 or 1606.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			شرح عين العلم وزين الحلم /
+		</subfield>
+		<subfield code="c">
+			للامام نور الدين منلا [س] علي بن سلطان محمد الهروي، المعروف بالقاري.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			مصر  :
+		</subfield>
+		<subfield code="b">
+			ادارة الطباعة المنرية،
+		</subfield>
+		<subfield code="c">
+			1351-1353 [1932 or 1933-1934 or 1935]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-04/r
+		</subfield>
+		<subfield code="a">
+			بلخي، محمد بن عثمان،
+		</subfield>
+		<subfield code="d">
+			-1426 or 1427. 
+		</subfield>
+		<subfield code="t">
+			عين العلم وزين الحلم.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			700-05/r
+		</subfield>
+		<subfield code="a">
+			بلخي، محمد بن عثمان،
+		</subfield>
+		<subfield code="d">
+			-1426 or 1427. 
+		</subfield>
+		<subfield code="t">
+			عين العلم وزين الحلم.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -251,6 +330,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001219:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001220:v.2
 		</subfield>
 	</datafield>
 </record>

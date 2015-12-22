@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02191nam a2200445   4500
+		02568nam a2200481   4500
 	</leader>
 	<controlfield tag="001">
 		2731310
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102m19549999iq      o     000 0 arar 
+		151222m19549999iq      o     000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -54,6 +54,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="110">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Iraq.
 		</subfield>
@@ -62,6 +65,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Iḥṣāʼ al-Sukkān li-Sanat 1947.
 		</subfield>
@@ -72,8 +78,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Baghdād,
+			Baghdād :
+		</subfield>
+		<subfield code="b">
+			[Mudīrīyat al-Nufūs al-ʻĀmmah],
 		</subfield>
 		<subfield code="c">
 			1954.
@@ -231,6 +243,39 @@
 			http://hdl.handle.net/2333.1/m905qjtn
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			110-01/r
+		</subfield>
+		<subfield code="a">
+			العراق.
+		</subfield>
+		<subfield code="b">
+			مديرية النفوس العامة.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			احصاء السكان لسنة 1947.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			[مديرية النفوس العامة]،
+		</subfield>
+		<subfield code="c">
+			1954.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -276,7 +321,7 @@
 			NNC_2731310
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm34877104 
+			(OCoLC)ocm34877104
 		</subfield>
 		<subfield code="s">
 			columbia_aco001382:pt.1
@@ -289,6 +334,15 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001382:pt.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001383:pt.2
+		</subfield>
+		<subfield code="s">
+			columbia_aco001384:pt.3
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01732nam a2200373   4500
+		02144nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		2958141
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1927    ua      o     000 0 ara d
+		151222s1927    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -46,11 +46,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ḥawwārī, ʻAbd al-Qādir ibn Muḥammad.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Kawkab al-maḍī fī ziyārat sayyidinā Muḥammad al-Nabī al-ʻArabī /
 		</subfield>
@@ -59,11 +65,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Būlāq :
 		</subfield>
@@ -201,6 +213,47 @@
 			http://hdl.handle.net/2333.1/zpc869t8
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			حواري، عبد القادر بن محمد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الكوكب المضي في زيارة سيدنا محمد النبي العربي /
+		</subfield>
+		<subfield code="c">
+			تأليف عبد القادر بن محمد الحواري.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/r
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			بولاق :
+		</subfield>
+		<subfield code="b">
+			مطبعة بهنسي،
+		</subfield>
+		<subfield code="c">
+			1927.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -246,13 +299,16 @@
 			NNC_2958141
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm33924924 
+			(OCoLC)ocm33924924
 		</subfield>
 		<subfield code="s">
 			columbia_aco001217
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001217
 		</subfield>
 	</datafield>
 </record>

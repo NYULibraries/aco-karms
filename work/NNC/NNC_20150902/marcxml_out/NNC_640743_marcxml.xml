@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01573nam a2200301   4500
+		02540nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		640743
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1984    ir      o     000 0 ara d
+		151222s1984    ir      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,29 +33,44 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Ibn Fanari, Muhammad ibn Hamzah ibn Muhammad al-Uthmani.
+			Fanārī, Muḥammad ibn Ḥamzah,
+		</subfield>
+		<subfield code="d">
+			1350 or 1351-1430 or 1431.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Misbah al-uns /
+			Miṣbāḥ al-ūns /
 		</subfield>
 		<subfield code="c">
-			Muhammad ibn Hamzah ibn Muhammad al-Uthmani (Ibn Fanari) ; fi sharh Miftah ghayb al-jam wa-al-wujud / Sadr al-Din Muhammad ibn Ishaq Quniwi ; maa taliqat Hashim ibn Hasan ibn Muhammad Ali al-Kilani Ashkuri, Hasan Hasanzadah-i Amuli.
+			Muḥammad ibn Ḥamzah ibn Muḥammad al-ʻUthmānī (Ibn Fanārī). Fī sharḥ Miftāḥ ghayb al-jamʻ wa-al-wujūd / Ṣadr al-Dīn Muḥammad ibn Isḥāq Qūnawī ; maʻa taʻlīqāt Mīrzā Hāshim ibn Ḥasan ibn Muḥammad ʻAlī al-Kīlānī Ishkawarī, Ḥasan Ḥasanzādah-ʼi Āmulī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Chap-i 2.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			[Tehran?] :
 		</subfield>
 		<subfield code="b">
-			Intisharat Fajr, ba hamkari-i Vizarat-i Irshad-i Islami, Idarah-i Kull-i Instisharat va Tablighat,
+			Intishārāt-i Fajr, bā hamkārī-i Vizārat-i Irshād-i Islāmī, Idārah-ʼi Kull-i Intishārāt wa Tablīghāt,
 		</subfield>
 		<subfield code="c">
 			1363 [1984 or 1985]
@@ -107,6 +122,14 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Islamic philosophy
+		</subfield>
+		<subfield code="v">
+			Early works to 1800.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -125,10 +148,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ibn Fanari, Muhammad ibn Hamzah ibn Muhammad al-Uthmani.
+			Fanārī, Muḥammad ibn Ḥamzah, 1350 or 1351-1430 or 1431.
 		</subfield>
 		<subfield code="t">
-			Misbah al-uns
+			Miṣbāḥ al-ūns
 		</subfield>
 		<subfield code="w">
 			(NNC)640743
@@ -145,6 +168,50 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/dr7sqz85
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			فناري، محمد بن حمزة،
+		</subfield>
+		<subfield code="d">
+			1350 or 1351-1430 or 1431.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			مصباح الانس /
+		</subfield>
+		<subfield code="c">
+			محمد بن حمزة بن محمد العثماني (ابن فناري). في شرح مفتاح غيب الجمع والوجود / صدر الدين محمد بن اسحاق قونوي ؛ مع تعليقات ميرزا هاشم بن حسن بن محمد علي الكيلاني اشكوري، حسن حسنزادهئ آملي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/r
+		</subfield>
+		<subfield code="a">
+			چپ 2.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			[تهران؟] :
+		</subfield>
+		<subfield code="b">
+			انتشارات فجر، با همکارى وزارت ارشاد اسلامى، ادارۀ کل انتشارات و تبلىغات،
+		</subfield>
+		<subfield code="c">
+			1363 [1984 or 1985]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -199,6 +266,9 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001365
 		</subfield>
 	</datafield>
 </record>

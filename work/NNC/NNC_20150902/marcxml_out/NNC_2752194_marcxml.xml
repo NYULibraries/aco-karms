@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01973nam a2200421   4500
+		02193nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		2752194
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1939    xx      o     000 0 ara  
+		151222s1939    xx      o     000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,22 +41,34 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">
-			Kayyālī, Sāmī,
-		</subfield>
-		<subfield code="d">
-			1900-
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">
 			880-01
 		</subfield>
 		<subfield code="a">
-			Sayf al-Dawlah wa-ʻaṣr al-Hamdānīyīn.
+			Kayyālī, Sāmī. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
+		<subfield code="a">
+			Sayf al-Dawlah wa-ʻaṣr al-Ḥamdānīyīn /
+		</subfield>
+		<subfield code="c">
+			bi-qalam Sāmī al-Kayyālī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			Ḥalab :
+		</subfield>
+		<subfield code="b">
+			al-Maṭbaʻah al-Ḥadīthah,
+		</subfield>
 		<subfield code="c">
 			1939.
 		</subfield>
@@ -118,6 +130,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Sayf al-Dawlah al-Ḥamdānī, ʻAlī ibn ʻAbd Allāh,
 		</subfield>
@@ -190,10 +205,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Kayyālī, Sāmī, 1900-
+			Kayyālī, Sāmī.
 		</subfield>
 		<subfield code="t">
-			Sayf al-Dawlah wa-ʻaṣr al-Hamdānīyīn
+			Sayf al-Dawlah wa-ʻaṣr al-Ḥamdānīyīn
 		</subfield>
 		<subfield code="w">
 			(NNC)2752194
@@ -217,7 +232,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-00/r
+			100-01/r
 		</subfield>
 		<subfield code="a">
 			كيالي، سامي.
@@ -225,7 +240,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-01/r
+			245-02/r
 		</subfield>
 		<subfield code="a">
 			سيف الدولة وعصر الحمدانيين /
@@ -236,7 +251,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			حلب :
@@ -246,6 +261,17 @@
 		</subfield>
 		<subfield code="c">
 			1939.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-04/r
+		</subfield>
+		<subfield code="a">
+			سيف الدولة الحمداني، علي بن عبد الله،
+		</subfield>
+		<subfield code="d">
+			916-967.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -293,13 +319,16 @@
 			NNC_2752194
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23514881 
+			(OCoLC)ocm23514881
 		</subfield>
 		<subfield code="s">
 			columbia_aco001241
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001241
 		</subfield>
 	</datafield>
 </record>

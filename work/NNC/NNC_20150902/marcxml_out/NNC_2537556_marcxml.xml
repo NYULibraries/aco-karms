@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01620nam a2200325   4500
+		02022nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		2537556
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1932    le a    o     000 0 ara d
+		151222s1932    le a    o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Qarʼalī, Būlus,
 		</subfield>
@@ -49,22 +52,28 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			al-Laʼāliʼ fī ḥayāt al-maṭrān ʻAbd Allāh Qarālī,
+			al-Laʼāliʼ fī ḥayāt al-maṭrān ʻAbd Allāh Qarālī :
 		</subfield>
 		<subfield code="b">
-			muʼassis al-Rahbānīyah al-Lubnānīyah wa Raʼīs Asāqifat Bayrūt, 1672-1742.
+			muʼassis al-Rahbānīyah al-Lubnānīyah wa Raʼīs Asāqifat Bayrūt, 1672-1742. /
 		</subfield>
 		<subfield code="c">
 			Bi-qalam al-khūrī Būlus Qarālī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Bayt Shabāb (Lubnān),
+			Lubnān :
 		</subfield>
 		<subfield code="b">
-			Matbaʻat al-ʻAlam,
+			Maṭbaʻat al-ʻAlam,
 		</subfield>
 		<subfield code="c">
 			1932.
@@ -169,6 +178,45 @@
 			http://hdl.handle.net/2333.1/8w9gj0zf
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			قرالي، بولس،
+		</subfield>
+		<subfield code="d">
+			-1952.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			اللآلئ في حياة المطران عبد الله قرالي :
+		</subfield>
+		<subfield code="b">
+			مؤسس الرهبانية اللبنانية و رئيس اساقفة بيروت، 1672-1742. /
+		</subfield>
+		<subfield code="c">
+			بقلم الخوري بولس قرالي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			لبنان :
+		</subfield>
+		<subfield code="b">
+			مطبعة العلم،
+		</subfield>
+		<subfield code="c">
+			1932.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -214,13 +262,16 @@
 			NNC_2537556
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm43846640 
+			(OCoLC)ocm43846640
 		</subfield>
 		<subfield code="s">
 			columbia_aco001297
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001297
 		</subfield>
 	</datafield>
 </record>

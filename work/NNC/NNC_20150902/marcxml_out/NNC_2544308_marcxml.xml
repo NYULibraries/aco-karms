@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01718nam a2200325   4500
+		02200nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		2544308
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1966    iq      o     000 0 ara d
+		151222s1966    iq      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,24 +41,33 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ghannām, Muḥammad Ahmad.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Mustaqbal al-taʹlīm al-thānawi fī al-ʹIrāq wa-hājātuhū ilā al-mudarrisīn (1965/1966-1974/1975),
+			Mustaqbal al-taʻlīm al-thānawī fī al-ʻIrāq wa-ḥājātuhū ilá al-mudarrisīn (1965/1966-1974/1975) /
 		</subfield>
 		<subfield code="c">
-			iʹdād Muḥammad Aḥmad al-Ghannām [wa] Muḥammad Sayf-al-Dīn Fahmī.
+			iʻdād Muḥammad Aḥmad al-Ghannām [wa] Muḥammad Sayf-al-Dīn Fahmī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Baghdād,
+			Baghdād :
 		</subfield>
 		<subfield code="b">
-			Maṭba ʹat al-Ḥukūmah,
+			Maṭbaʻat al-Ḥukūmah,
 		</subfield>
 		<subfield code="c">
 			1966.
@@ -123,6 +132,19 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Education, Secondary.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Education
+		</subfield>
+		<subfield code="z">
+			Iraq.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -144,7 +166,7 @@
 			Ghannām, Muḥammad Ahmad.
 		</subfield>
 		<subfield code="t">
-			Mustaqbal al-taʹlīm al-thānawi fī al-ʹIrāq wa-hājātuhū ilā al-mudarrisīn (1965/1966-1974/1975)
+			Mustaqbal al-taʻlīm al-thānawī fī al-ʻIrāq wa-ḥājātuhū ilá al-mudarrisīn (1965/1966-1974/1975)
 		</subfield>
 		<subfield code="w">
 			(NNC)2544308
@@ -161,6 +183,39 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/z08kpvpk
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			غنام، محمد احمد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			مستقبل التعليم الثانوي في العراق وحاجاته الى المدرسين (1965/19661974/1975) /
+		</subfield>
+		<subfield code="c">
+			اعداد محمد احمد الغنام [و] محمد سيف الدين فهمي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			مطبعة الحكومة،
+		</subfield>
+		<subfield code="c">
+			1966.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -208,13 +263,16 @@
 			NNC_2544308
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm43933688 
+			(OCoLC)ocm43933688
 		</subfield>
 		<subfield code="s">
 			columbia_aco001317
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001317
 		</subfield>
 	</datafield>
 </record>

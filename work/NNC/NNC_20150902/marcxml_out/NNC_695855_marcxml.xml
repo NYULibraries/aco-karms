@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02090nam a2200397   4500
+		03013nam a2200481   4500
 	</leader>
 	<controlfield tag="001">
 		695855
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1985    ir      ob    001 0 ara d
+		151222s1985    ir      ob    001 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Abū Nuʻaym al-Iṣbahānī, Aḥmad ibn ʻAbd Allāh,
 		</subfield>
@@ -49,6 +52,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Nūr al-mushtaʻil min kitāb Mā nazala min al-Qurʼān fī ʻAlī ʻalayhi al-salām /
 		</subfield>
@@ -57,16 +63,25 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Mā nazala min al-Qurʼān fī ʻAlī ʻalayhi al-salām
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			[Tehran] :
 		</subfield>
@@ -139,6 +154,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			ʻAlī ibn Abī Ṭālib,
 		</subfield>
@@ -146,7 +164,7 @@
 			Caliph,
 		</subfield>
 		<subfield code="d">
-			660 (ca.)-681.
+			approximately 600-661.
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="630">
@@ -155,6 +173,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-07
+		</subfield>
 		<subfield code="a">
 			Maḥmūdī, Muḥammad Bāqir.
 		</subfield>
@@ -197,6 +218,80 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/jh9w0zr6
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ابو نعيم الاصبهاني، احمد بن عبد الله،
+		</subfield>
+		<subfield code="d">
+			948-1038.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			النور المشتعل من كتاب ما نزل من القرآن في علي عليه السلام /
+		</subfield>
+		<subfield code="c">
+			تأليف احمد بن عبد الله بن احمد بن اسحاق المعروف ببي نعيم الاصبهاني ؛ جمعه ورتبه وقدم له وعلق عليه محمد باقر المحمودي.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-03/r
+		</subfield>
+		<subfield code="a">
+			ما نزل من القرآن في علي عليه السلام
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-04/r
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-05/r
+		</subfield>
+		<subfield code="a">
+			[طهران] :
+		</subfield>
+		<subfield code="b">
+			وزارة الارشاد الاسلامي،
+		</subfield>
+		<subfield code="c">
+			1406 [1985 or 1986]
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">
+			600-06/r
+		</subfield>
+		<subfield code="a">
+			علي بن ابي طالب،
+		</subfield>
+		<subfield code="c">
+			Caliph,
+		</subfield>
+		<subfield code="d">
+			approximately 600-661.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-07/r
+		</subfield>
+		<subfield code="a">
+			محمودي، محمد باقر.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -244,13 +339,16 @@
 			NNC_695855
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm22320423 
+			(OCoLC)ocm22320423
 		</subfield>
 		<subfield code="s">
 			columbia_aco001331
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001331
 		</subfield>
 	</datafield>
 </record>

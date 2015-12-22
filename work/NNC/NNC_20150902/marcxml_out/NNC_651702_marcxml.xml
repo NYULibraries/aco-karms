@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02488nam a2200361   4500
+		03032nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		651702
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1984    ir      o     000 0 ara d
+		151222s1984    ir      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -30,6 +30,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ibn al-Muṭahhar al-Ḥillī, al-Ḥasan ibn Yūsuf,
 		</subfield>
@@ -38,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Alfayn fī imāmat mawlānā Amīr al-Muʼminīn ʻAlī ibn Abī Ṭālib
 		</subfield>
@@ -45,15 +51,21 @@
 			[electronic resource] /
 		</subfield>
 		<subfield code="c">
-			taʼlif Jamāl al-Dīn al-Ḥasan ibn Yūsuf al-Muṭahhar al-maʻrūf bi-al-ʻallāmah al-Ḥillī.
+			taʼlīf Jamāl al-Dīn al-Ḥasan ibn Yūsuf al-Muṭahhar al-maʻrūf bi-al-ʻallāmah al-Ḥillī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 3.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Qum, Īrān :
 		</subfield>
@@ -232,6 +244,50 @@
 			http://hdl.handle.net/2333.1/k98sfbkm
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			ابن المطهر الحلي، الحسن بن يوسف،
+		</subfield>
+		<subfield code="d">
+			1250-1325.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			الالفين في امامة مولانا امير المؤمنين علي بن ابي طال /
+		</subfield>
+		<subfield code="c">
+			تأليف جمال الدين الحسن بن يوسف المطهر المعروف بالعلامة الحلي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03
+		</subfield>
+		<subfield code="a">
+			الطبعة 3.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04
+		</subfield>
+		<subfield code="a">
+			قم، ايران :
+		</subfield>
+		<subfield code="b">
+			مؤسسة دين ودانش ودار الهجرة،
+		</subfield>
+		<subfield code="c">
+			1405 [1984 or 1985]
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -277,13 +333,16 @@
 			NNC_651702
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm25725273 
+			(OCoLC)ocm25725273
 		</subfield>
 		<subfield code="s">
 			columbia_aco001257
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001257
 		</subfield>
 	</datafield>
 </record>

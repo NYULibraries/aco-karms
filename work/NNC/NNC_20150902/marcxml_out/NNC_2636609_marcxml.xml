@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01462nam a2200325   4500
+		01881nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		2636609
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1947    ua a    o     000 0 arard
+		151222s1947    ua a    o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,30 +41,42 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			ʻAṭīyat Allāh, Aḥmad.
+			ʻAṭīyat Allāh, Aḥmad,
+		</subfield>
+		<subfield code="d">
+			1906-
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Miṣr fī al-maydān :
 		</subfield>
 		<subfield code="b">
-			suwar min amjād al-Jaysh al-Miṣrī ; min Muḥammad ʻAlī ilā ʻArābī /
+			ṣuwar min amjād al-Jaysh al-Miṣrī ; min Muḥammad ʻAlī ilá ʻArābī /
 		</subfield>
 		<subfield code="c">
-			Aḥmad ʻAṭīyat Allāh.
+			taʼlīf Aḥmad ʻAṭīyat Allāh
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[Cairo] :
+			[al-Qāhirah] :
 		</subfield>
 		<subfield code="b">
 			Dār Iḥyāʼ al-Kutub al-ʻArabīyah,
 		</subfield>
 		<subfield code="c">
-			[1947]
+			1947.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -126,7 +138,7 @@
 			Egypt.
 		</subfield>
 		<subfield code="b">
-			al-Jaysh
+			Jaysh
 		</subfield>
 		<subfield code="x">
 			History.
@@ -150,7 +162,7 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			ʻAṭīyat Allāh, Aḥmad.
+			ʻAṭīyat Allāh, Aḥmad, 1906-
 		</subfield>
 		<subfield code="t">
 			Miṣr fī al-maydān
@@ -170,6 +182,45 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/x0k6dnh4
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			عطية الله، احمد،
+		</subfield>
+		<subfield code="d">
+			1906-
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			مصر في الميدان :
+		</subfield>
+		<subfield code="b">
+			صور من امجاد الجيش المصري ؛ من محمد علي الى عرابي /
+		</subfield>
+		<subfield code="c">
+			تأليف احمد عطية الله
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			[القاهرة] :
+		</subfield>
+		<subfield code="b">
+			دار احياء الكتب العربية،
+		</subfield>
+		<subfield code="c">
+			1947.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -217,13 +268,16 @@
 			NNC_2636609
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm05454814 
+			(OCoLC)ocm05454814
 		</subfield>
 		<subfield code="s">
 			columbia_aco001236
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001236
 		</subfield>
 	</datafield>
 </record>

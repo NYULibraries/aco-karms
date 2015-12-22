@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01708nam a2200361   4500
+		01855nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		3073302
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1952    le      o     000 0 araod
+		151222s1952    le      o     000 0 araod
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -127,7 +127,18 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Arabic poetry
+		</subfield>
+		<subfield code="y">
+			622-750.
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			ʻArābī, Ibrāhīm.
 		</subfield>
@@ -172,12 +183,15 @@
 			http://hdl.handle.net/2333.1/sf7m0gfx
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
+	<datafield ind1="0" ind2=" " tag="880">
 		<subfield code="6">
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			عمر ابن ٱبي ربيعة.
+			عمر ابن ٱبي ربيعة،
+		</subfield>
+		<subfield code="d">
+			643 or 644-711 or 712.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -203,6 +217,14 @@
 		</subfield>
 		<subfield code="c">
 			1952.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/r
+		</subfield>
+		<subfield code="a">
+			عرابي، ابراهيم.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -250,13 +272,16 @@
 			NNC_3073302
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm40972593 
+			(OCoLC)ocm40972593
 		</subfield>
 		<subfield code="s">
 			columbia_aco001206
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001206
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02418nam a2200397   4500
+		03583nam a2200481   4500
 	</leader>
 	<controlfield tag="001">
 		649696
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1908    ua      o     000 0 arard
+		151222s1908    ua      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ibn al-Ḥanbalī, Muḥammad ibn Ibrāhīm,
 		</subfield>
@@ -49,6 +52,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Kitāb qafw al-athar fī ṣafw ʻulūm al-athar :
 		</subfield>
@@ -60,11 +66,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Miṣr :
 		</subfield>
@@ -154,6 +166,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Murtaḍá al-Zabīdī, Muḥammad ibn Muḥammad,
 		</subfield>
@@ -178,11 +193,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Bulghat al-gharīb fī muṣṭalaḥ āthār al-Ḥabīb.
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-07
+		</subfield>
 		<subfield code="a">
 			Risālat bulghat al-gharīb fī muṣṭalaḥ āthār al-Ḥabīb.
 		</subfield>
@@ -212,6 +233,83 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/0gb5mpf2
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			ابن الحنبلي، محمد بن ابراهيم،
+		</subfield>
+		<subfield code="d">
+			1502 or 1503-1563.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			كتاب قفو الاثر في صفو علوم الاثر :
+		</subfield>
+		<subfield code="b">
+			في المصطلح على مذهب السادة الحنفية /
+		</subfield>
+		<subfield code="c">
+			تأليف رضي الدين محمد بن ابراهيم بن يوسف بن عبد الرحمن بن حسن الربعي الحلبي الحنفي الشهير بالتاذفي وبابن الحنبلي ؛ ويليه بلغة الغريب في مصطلح آثار الحبيب / للسيد محمد مرتضى بن محمد الحسيني الزبيدي المصري الحنفي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			مطبعة السعادة،
+		</subfield>
+		<subfield code="c">
+			1326 [1908]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			700-05
+		</subfield>
+		<subfield code="a">
+			مرتضى الزبيدي، محمد بن محمد،
+		</subfield>
+		<subfield code="d">
+			1732 or 1733-1791.
+		</subfield>
+		<subfield code="t">
+			بلغة الغريب في مصطلح آثار الحبيب.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			740-06
+		</subfield>
+		<subfield code="a">
+			بلغة الغريب في مصطلح آثار الحبيب.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			740-07
+		</subfield>
+		<subfield code="a">
+			رسالة بلغة الغريب في مصطلح آثار الحبيب.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -266,6 +364,9 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001227
 		</subfield>
 	</datafield>
 </record>

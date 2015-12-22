@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01812nam a2200397   4500
+		02148nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		2502689
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1966    iq      ob    000 0 ara d
+		151222s1966    iq      ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -46,16 +46,28 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			ʻAtīyah, ʻAbd-al-Husayn Wadāy.
+			ʻAṭīyah, ʻAbd al-Ḥusayn Waddāy.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			al-Islāh al-zirāʻī fī al-ʻIrāq wa-al-tanmiyah al-iqtisādīyah [taʼlīf] ʻAbd-al-Husayn Wadāy al-ʻAtīyah.
+			al-Iṣlāḥ al-zirāʻī fī al-ʻIrāq wa-al-tanmiyah al-iqtiṣādīyah /
+		</subfield>
+		<subfield code="c">
+			[taʼlīf] ʻAbd al-Ḥusayn Waddāy al-ʻAṭīyah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Baghdād :
 		</subfield>
@@ -189,10 +201,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			ʻAtīyah, ʻAbd-al-Husayn Wadāy.
+			ʻAṭīyah, ʻAbd al-Ḥusayn Waddāy.
 		</subfield>
 		<subfield code="t">
-			al-Islāh al-zirāʻī fī al-ʻIrāq wa-al-tanmiyah al-iqtisādīyah [taʼlīf] ʻAbd-al-Husayn Wadāy al-ʻAtīyah
+			al-Iṣlāḥ al-zirāʻī fī al-ʻIrāq wa-al-tanmiyah al-iqtiṣādīyah
 		</subfield>
 		<subfield code="w">
 			(NNC)2502689
@@ -209,6 +221,39 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/vmcvdrcz
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			عطية، عبد الحسين وداي.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الاصلاح الزراعي في العراق والتنمية الاقتصادية /
+		</subfield>
+		<subfield code="c">
+			[تأليف] عبد الحسين وداي العطية.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			مطبعة المعارف،
+		</subfield>
+		<subfield code="c">
+			1966.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -256,13 +301,16 @@
 			NNC_2502689
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm43912034 
+			(OCoLC)ocm43912034
 		</subfield>
 		<subfield code="s">
 			columbia_aco001294
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001294
 		</subfield>
 	</datafield>
 </record>

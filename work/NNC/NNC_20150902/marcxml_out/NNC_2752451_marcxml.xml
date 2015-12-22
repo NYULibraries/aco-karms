@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02710nam a2200517   4500
+		02779nam a2200517   4500
 	</leader>
 	<controlfield tag="001">
 		2752451
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102m19651966iq h    ob    000 0cararc
+		151222m19651966iq h    ob    000 0cararc
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -77,13 +77,13 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="a">
-			Baghdād,
+			Baghdād :
 		</subfield>
 		<subfield code="b">
 			Maktabat al-Andalus.
 		</subfield>
 		<subfield code="c">
-			[1965,1966]
+			[1965 or 1966]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -286,7 +286,10 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			حر العاملي، محمد بن الحسن.
+			حر العاملي، محمد بن الحسن،
+		</subfield>
+		<subfield code="d">
+			1624-1693.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -319,7 +322,7 @@
 			مكتبة الأندلس،
 		</subfield>
 		<subfield code="c">
-			١٩٦٥.
+			[1965 or 1966]
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
@@ -375,7 +378,7 @@
 			NNC_2752451
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm08351637 
+			(OCoLC)ocm08351637
 		</subfield>
 		<subfield code="s">
 			columbia_aco001311:v.1
@@ -385,6 +388,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001311:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001312:v.2
 		</subfield>
 	</datafield>
 </record>

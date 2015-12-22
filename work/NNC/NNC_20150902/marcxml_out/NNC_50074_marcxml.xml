@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02011nam a2200421   4500
+		02525nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		50074
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1937    ua      o     000 0 ara d
+		151222s1937    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -46,6 +46,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Barakāt, Muḥammad Bahī al-Dīn,
 		</subfield>
@@ -54,17 +57,23 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Kalimah ʻan manshaʼ al-imtiyāzāt al-ajnabīyah wa-baʻḍ taṭawwurātihā :
 		</subfield>
 		<subfield code="b">
-			wa-hiya al-muḥāḍarah allatī ulqiyat fī Qāʻat Yūrt al-Tadhkārīyah fī yawm al-jumʻah, 7 Fabrāyir sanat 1936 /
+			wa-hiya al-muḥāḍarah allatī alqiahā fī Qāʻat Yūrt al-Tadhkārīyah fī yawm al-jumʻah, 7 Fabrāyir sanat 1936 /
 		</subfield>
 		<subfield code="c">
 			bi-qalam Muḥammad Bahī al-Dīn Barakāt.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Miṣr :
 		</subfield>
@@ -236,6 +245,45 @@
 			http://hdl.handle.net/2333.1/0zpc893g
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			بركات، محمد بهي الدين،
+		</subfield>
+		<subfield code="d">
+			1888-1974.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			كلمة عن منشأ الامتيازات الاجنبية وبعض تطوراتها :
+		</subfield>
+		<subfield code="b">
+			وهي المحاضرة التي القاها في قاعة يورت التذكارية في يوم الجمعة، 7 فبراير سنة 1936 /
+		</subfield>
+		<subfield code="c">
+			بقلم محمد بهي الدين بركات.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			المطبعة الرحمنية،
+		</subfield>
+		<subfield code="c">
+			[1937؟]
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -281,13 +329,16 @@
 			NNC_50074
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm82261884 
+			(OCoLC)ocm82261884
 		</subfield>
 		<subfield code="s">
 			columbia_aco001230
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001230
 		</subfield>
 	</datafield>
 </record>

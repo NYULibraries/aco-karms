@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01769nam a2200397   4500
+		02395nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		2957455
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1964    iq      ob    000 0bara d
+		151222s1964    iq      ob    000 0bara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,30 +41,42 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Naqdī, Jaʻfar,
 		</subfield>
 		<subfield code="d">
-			1886-1950.
+			1885-1951.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Zaynab al-kubrá :
 		</subfield>
 		<subfield code="b">
-			bint ʻAlī ibn Abī Ṭālib /
+			bint al-Imām Amīr al-Muʼminīn ʻAlī ibn Abī Ṭālib /
 		</subfield>
 		<subfield code="c">
-			Jaʻfar al-Naqdī.
+			taʼlīf Jaʻfar al-Rabʻī al-maʻrūf bi-al-Naqdī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 4.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			al-Najaf :
 		</subfield>
@@ -132,8 +144,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Zaynab bint ʻAlī ibn Abī Ṭālib.
+			Zaynab bint ʻAlī ibn Abī Ṭālib. 
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
@@ -207,7 +222,7 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Naqdī, Jaʻfar, 1886-1950.
+			Naqdī, Jaʻfar, 1885-1951.
 		</subfield>
 		<subfield code="t">
 			Zaynab al-kubrá
@@ -227,6 +242,61 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/000002sz
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			نقدي، جعفر،
+		</subfield>
+		<subfield code="d">
+			1885-1951. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			زينب الكبرى :
+		</subfield>
+		<subfield code="b">
+			بنت الامام امير المؤمنين علي بن ابي طالب /
+		</subfield>
+		<subfield code="c">
+			تأليف جعفر الربعي المعروف بالنقدي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/r
+		</subfield>
+		<subfield code="a">
+			الطبعة 4.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			النجف :
+		</subfield>
+		<subfield code="b">
+			منشورات المكتبة الحيدرية ومطبعتها في النجف،
+		</subfield>
+		<subfield code="c">
+			1964. 
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">
+			600-05/r
+		</subfield>
+		<subfield code="a">
+			زينب بنت علي بن ابي طالب.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -274,13 +344,16 @@
 			NNC_2957455
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm33830862 
+			(OCoLC)ocm33830862
 		</subfield>
 		<subfield code="s">
 			columbia_aco001299
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001299
 		</subfield>
 	</datafield>
 </record>

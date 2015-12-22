@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02491nam a2200469   4500
+		02923nam a2200505   4500
 	</leader>
 	<controlfield tag="001">
 		2627442
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1942    ua      obd   000 0 arard
+		151222s1942    ua      obd   000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,13 +41,16 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Aḥmad ʻĪsá.
+			Aḥmad ʻĪsá. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">
-			880-01
+			880-02
 		</subfield>
 		<subfield code="a">
 			Muʻjam al-aṭibbāʼ :
@@ -61,15 +64,18 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
 		<subfield code="6">
-			880-02
+			880-03
 		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			[Egypt] :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
 			Maṭbaʻat Fatḥ Allāh Ilyās Nūrī wa-Awlādihi,
@@ -108,6 +114,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Jāmiʻat Fuʼād al-Awwal. Kullīyat al-Ṭibb ;
 		</subfield>
@@ -148,6 +157,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Ibn Abī Uṣaybiʻah, Aḥmad ibn al-Qāsim,
 		</subfield>
@@ -155,7 +167,7 @@
 			-1269 or 1270.
 		</subfield>
 		<subfield code="t">
-			ʻUyūn al-anbāʼ fī ṭabaqāt al-aṭibbāʼ.
+			ʻUyūn al-anbāʼ fī ṭabaqāt al-aṭibbāʼ. 
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
@@ -164,6 +176,20 @@
 		</subfield>
 		<subfield code="v">
 			Dictionaries.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-07
+		</subfield>
+		<subfield code="a">
+			Ibn Abī Uṣaybiʻah, Aḥmad ibn al-Qāsim,
+		</subfield>
+		<subfield code="d">
+			-1269 or 1270.
+		</subfield>
+		<subfield code="t">
+			ʻUyūn al-anbāʼ fī ṭabaqāt al-aṭibbāʼ.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -197,11 +223,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-08
+		</subfield>
 		<subfield code="a">
 			Jāmiʻat Fuʼād al-Awwal. Kullīyat al-Ṭibb ;
 		</subfield>
 		<subfield code="v">
-			al-muʼallaf raqm 18.
+			al-muʼallaf raqm 18. 
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
@@ -216,18 +245,15 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-00/r
+			100-01
 		</subfield>
 		<subfield code="a">
-			عيسى، أحمد،
-		</subfield>
-		<subfield code="c">
-			الدكتور.
+			عيسى، أحمد.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-01/r
+			245-02
 		</subfield>
 		<subfield code="a">
 			معجم الأطباء :
@@ -241,7 +267,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			250-02/r
+			250-03
 		</subfield>
 		<subfield code="a">
 			الطبعة 1.
@@ -249,7 +275,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-04
 		</subfield>
 		<subfield code="a">
 			مصر :
@@ -261,9 +287,9 @@
 			1942.
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
+	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			490-00/r
+			490-05
 		</subfield>
 		<subfield code="a">
 			جامعة فؤاد الأول. كلية الطب. المؤلف ؛
@@ -272,15 +298,43 @@
 			رقم 18
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-06
+		</subfield>
+		<subfield code="a">
+			ابن ابي اصيبعة، احمد بن القاسم،
+		</subfield>
+		<subfield code="d">
+			-1269 or 1270.
+		</subfield>
+		<subfield code="t">
+			عيون الانباء في طبقات الاطباء. 
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-07
 		</subfield>
 		<subfield code="a">
 			ابن أبي أصيبعة، أحمد بن القاسم.
 		</subfield>
 		<subfield code="t">
 			عيون الأنباء في طبقات الأطباء.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-08
+		</subfield>
+		<subfield code="a">
+			جامعة فؤاد الاول.
+		</subfield>
+		<subfield code="b">
+			كلية الطب
+		</subfield>
+		<subfield code="v">
+			المؤلف رقم 18. 
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -328,13 +382,16 @@
 			NNC_2627442
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm40570253 
+			(OCoLC)ocm40570253
 		</subfield>
 		<subfield code="s">
 			columbia_aco001280
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001280
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01943nam a2200373   4500
+		02358nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		2523482
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1969    iq ab   ob    000 0 ara  
+		151222s1969    iq ab   ob    000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -32,7 +32,7 @@
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="4" tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			HD9259.D33
 		</subfield>
@@ -41,24 +41,33 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Dabbāgh, ʻAbd al-Wahhāb.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Nakhīl wa-al-tumūr fī al-ʻIrāq,
+			al-Nakhīl wa-al-tumūr fī al-ʻIrāq :
 		</subfield>
 		<subfield code="b">
-			taḥlīl jughrāfī li-zirāʻat al-nakhīl wa-intāj al-tumūr wa-ṣināʻatihā wa-tijāratihā
+			taḥlīl jughrāfī li-zirāʻat al-nakhīl wa-intāj al-tumūr wa-ṣināʻatihā wa-tijāratihā /
 		</subfield>
 		<subfield code="c">
 			[taʼlīf] ʻAbd al-Wahhāb al-Dabbāgh.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Baghdād,
+			Baghdād :
 		</subfield>
 		<subfield code="b">
 			Maṭbaʻat Shafīq,
@@ -173,7 +182,7 @@
 			Dabbāgh, ʻAbd al-Wahhāb.
 		</subfield>
 		<subfield code="t">
-			Nakhīl wa-al-tumūr fī al-ʻIrāq
+			al-Nakhīl wa-al-tumūr fī al-ʻIrāq
 		</subfield>
 		<subfield code="w">
 			(NNC)2523482
@@ -193,6 +202,42 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/r2280kb4
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			دباغ، عبد الوهاب.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			النخيل والتمور في العراق :
+		</subfield>
+		<subfield code="b">
+			تحليل جغرافي لزراعة النخيل وانتاج التمور وصناعتها وتجارتها /
+		</subfield>
+		<subfield code="c">
+			[تأليف] عبد الوهاب الدباغ.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			مطبعة شفيق،
+		</subfield>
+		<subfield code="c">
+			1969.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -240,13 +285,16 @@
 			NNC_2523482
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm14253900 
+			(OCoLC)ocm14253900
 		</subfield>
 		<subfield code="s">
 			columbia_aco001313
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001313
 		</subfield>
 	</datafield>
 </record>

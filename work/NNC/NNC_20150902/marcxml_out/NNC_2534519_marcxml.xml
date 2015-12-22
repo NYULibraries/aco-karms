@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02090nam a2200493   4500
+		02386nam a2200529   4500
 	</leader>
 	<controlfield tag="001">
 		2534519
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1945    ua      ob    000 0 ara d
+		151222s1945    ua      ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -60,27 +60,39 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Kāmil, Maḥmūd.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			al-ʻAmal li-Miṣr:
+			al-ʻAmal li-Miṣr :
 		</subfield>
 		<subfield code="b">
-			baéth dawlah wa ehyyá majd.
+			baʻth dawlah wa-iḥyāʼ majd /
+		</subfield>
+		<subfield code="c">
+			Maḥmūd Kāmil.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Misr,
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			Matbat Al-Eʼitimad
+			Maṭbaʻat al-Iʻtimād,
 		</subfield>
 		<subfield code="c">
-			[approximately 1945]
+			[1945]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -305,6 +317,42 @@
 			http://hdl.handle.net/2333.1/gqnk9cq4
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			كامل، محمود.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			العمل لمصر :
+		</subfield>
+		<subfield code="b">
+			بعث دولة واحياء مجد /
+		</subfield>
+		<subfield code="c">
+			محمود كامل.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			مطبعة الاعتماد،
+		</subfield>
+		<subfield code="c">
+			[1945]
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -350,13 +398,16 @@
 			NNC_2534519
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm20046904 
+			(OCoLC)ocm20046904
 		</subfield>
 		<subfield code="s">
 			columbia_aco001314
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001314
 		</subfield>
 	</datafield>
 </record>

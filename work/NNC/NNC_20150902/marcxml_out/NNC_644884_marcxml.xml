@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02591nam a2200421   4500
+		02542nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		644884
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1968    iq      o     000 0 ara d
+		151222s1968    iq      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -42,18 +42,35 @@
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="a">
-			al-Waqf wa-al-waṣāyā ḍarbān min ṣadaqat al-taṭawwuʻ fī al-sharīʻah al-Islāmīyah maʻa bayān al-aḥkām al-qānūnīyah allatī tunaẓẓimuhā.
+			al-Waqf wa-al-waṣāyā :
+		</subfield>
+		<subfield code="b">
+			ḍarbān min ṣidqat al-taṭawūʻ fī al-sharīʻah al-Islāmīyah maʻ bayān al-aḥkām al-qānūnīyah allatī tunaẓẓimuhā /
+		</subfield>
+		<subfield code="c">
+			taūlīf Aḥmad ʻAlī al-Khaṭīb.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-02
+		</subfield>
+		<subfield code="a">
+			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Bagdad :
+			Baghdād :
 		</subfield>
 		<subfield code="b">
 			Maṭbaʻat al-Maʻārif,
 		</subfield>
 		<subfield code="c">
-			1968 [colophon 1969]
+			1968.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -182,7 +199,7 @@
 			Khaṭīb, Aḥmad ʻAlī.
 		</subfield>
 		<subfield code="t">
-			al-Waqf wa-al-waṣāyā ḍarbān min ṣadaqat al-taṭawwuʻ fī al-sharīʻah al-Islāmīyah maʻa bayān al-aḥkām al-qānūnīyah allatī tunaẓẓimuhā
+			al-Waqf wa-al-waṣāyā
 		</subfield>
 		<subfield code="w">
 			(NNC)644884
@@ -225,7 +242,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			250-00/r
+			250-02/r
 		</subfield>
 		<subfield code="a">
 			الطبعة ١.
@@ -233,7 +250,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			بغداد :
@@ -290,13 +307,16 @@
 			NNC_644884
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm42865661 
+			(OCoLC)ocm42865661
 		</subfield>
 		<subfield code="s">
 			columbia_aco001277
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001277
 		</subfield>
 	</datafield>
 </record>

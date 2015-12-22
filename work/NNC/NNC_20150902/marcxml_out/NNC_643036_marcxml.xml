@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01830nam a2200361   4500
+		02220nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		643036
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1909    ua      o     000 0 araod
+		151222s1909    ua      o     000 0 araod
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Jazāʼirī, Muḥammad Bāshā,
 		</subfield>
@@ -52,6 +55,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Majmūʻ al-rasāʼil al-thalāth /
 		</subfield>
@@ -60,11 +66,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Miṣr :
 		</subfield>
@@ -193,6 +205,53 @@
 			http://hdl.handle.net/2333.1/s1rn8shh
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			جزائري، محمد باشا،
+		</subfield>
+		<subfield code="c">
+			Amir of Mascara,
+		</subfield>
+		<subfield code="d">
+			1840 or 1841-1912 or 1913.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			مجموع الرسائل الثلاث /
+		</subfield>
+		<subfield code="c">
+			من تأليف امير محمد باشا. 
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			مطبعة السعادة،
+		</subfield>
+		<subfield code="c">
+			1327 [1909 or 1910]
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -238,13 +297,16 @@
 			NNC_643036
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm29772760 
+			(OCoLC)ocm29772760
 		</subfield>
 		<subfield code="s">
 			columbia_aco001330
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001330
 		</subfield>
 	</datafield>
 </record>

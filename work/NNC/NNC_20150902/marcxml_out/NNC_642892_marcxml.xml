@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01911nam a2200373   4500
+		02280nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		642892
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1934    ua      o     000 0 ara d
+		151222s1934    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Kāfī, Muḥammad ibn Yūsuf,
 		</subfield>
@@ -49,6 +52,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Masāʼil al-Kāfīyah fī bayān wujūb ṣidq khabar rabb al-barīyah /
 		</subfield>
@@ -57,6 +63,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Qāhirah :
 		</subfield>
@@ -207,6 +216,42 @@
 			http://hdl.handle.net/2333.1/573n5x57
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			كافي، محمد بن يوسف،
+		</subfield>
+		<subfield code="d">
+			1861 or 1960 or 1961.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			المسائل الكافية في بيان وجوب صدق خبر رب البرية /
+		</subfield>
+		<subfield code="c">
+			محمد بن يوسف الكافي التونسي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			مطبعة حجازي،
+		</subfield>
+		<subfield code="c">
+			1934.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -252,13 +297,16 @@
 			NNC_642892
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm36150525 
+			(OCoLC)ocm36150525
 		</subfield>
 		<subfield code="s">
 			columbia_aco001329
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001329
 		</subfield>
 	</datafield>
 </record>

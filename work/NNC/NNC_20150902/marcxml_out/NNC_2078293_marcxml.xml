@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01571nam a2200313   4500
+		01890nam a2200337   4500
 	</leader>
 	<controlfield tag="001">
 		2078293
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1951    ua      o     100 0 ara d
+		151222s1951    ua      o     100 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -47,6 +47,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ḥalqat al-Dirāsāt al-Ijtimāʻīya li-al-Duwal al-ʻArabīya.
 		</subfield>
@@ -55,8 +58,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Al-Qāhira
+			Al-Qāhirah :
 		</subfield>
 		<subfield code="b">
 			[Maṭbaʻat al-Iʻlānāt al-Sharqīya],
@@ -158,6 +164,31 @@
 			http://hdl.handle.net/2333.1/pc866x1z
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-01
+		</subfield>
+		<subfield code="a">
+			حلقة الدراسات الاجتماعية للدول العربية.
+		</subfield>
+		<subfield code="b">
+			الدورة الثانية. المحاضرات والبحوث والتقارير.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-02
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			[مطبعة الاعلانات الشرقي]،
+		</subfield>
+		<subfield code="c">
+			[1951؟]
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -203,13 +234,16 @@
 			NNC_2078293
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm37719587 
+			(OCoLC)ocm37719587
 		</subfield>
 		<subfield code="s">
 			columbia_aco001261
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001261
 		</subfield>
 	</datafield>
 </record>

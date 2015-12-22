@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01307nam a2200313   4500
+		01706nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		1656042
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1968    iq      o     000 0 ara d
+		151222s1968    iq      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -40,17 +40,37 @@
 			S3
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="0" tag="245">
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Baritanya wa-al- Iraq hatta am 1914 /
+			Zakī, Ṣāleḥ,
+		</subfield>
+		<subfield code="d">
+			1914-
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
+		<subfield code="a">
+			Baryṭānyā wa al-ʻIrāq ḥattá ʻām 1914 /
 		</subfield>
 		<subfield code="c">
-			Saleh, Zaki, 1914-
+			Ṣāleḥ Zakī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Baghdad
+			Baghdād :
+		</subfield>
+		<subfield code="b">
+			Maṭbaʻat al-ʻĀnī,
 		</subfield>
 		<subfield code="c">
 			1968.
@@ -138,8 +158,11 @@
 		<subfield code="i">
 			Print version:
 		</subfield>
+		<subfield code="a">
+			Zakī, Ṣāleḥ, 1914-
+		</subfield>
 		<subfield code="t">
-			Baritanya wa-al- Iraq hatta am 1914
+			Baryṭānyā wa al-ʻIrāq ḥattá ʻām 1914
 		</subfield>
 		<subfield code="w">
 			(NNC)1656042
@@ -156,6 +179,42 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/p8cz907g
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			زكي، صالح،
+		</subfield>
+		<subfield code="d">
+			1914-
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			بريطانيا و العراق حتى عام 1914 /
+		</subfield>
+		<subfield code="c">
+			صالح زكي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			مطبعة العاني،
+		</subfield>
+		<subfield code="c">
+			1968.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -203,13 +262,16 @@
 			NNC_1656042
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23496652 
+			(OCoLC)ocm23496652
 		</subfield>
 		<subfield code="s">
 			columbia_aco001289
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001289
 		</subfield>
 	</datafield>
 </record>

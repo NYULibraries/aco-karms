@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01510nam a2200301   4500
+		02653nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		649187
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1913    ua      o     000 0 ara d
+		151222s1913    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Bannānī, Fatḥ Allāh ibn Abī Bakr,
 		</subfield>
@@ -41,16 +44,22 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Hashiyat al-ʻallamah al-Bannani ʻala sharh al-Jalal al-mahalli ʻala jamʻ al-jawamiʻ lil-imam ibn al-Subki.
+			Ḥāshiyat al-ʻallāmah al-Bannānī ʻalá sharḥ al-Jalāl al-Maḥallī ʻalá Jamʻ al-jawāmiʻ lil-Imām Ibn al-Subkī. Wa-ʻalá hāmishihi al-sharḥ al-madhkūr wa-baʻḍ taqrīrāt li-ʻAbd al-Raḥmān al-Shirbīnī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Misr :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			Dar al-Kutub al-ʻArabiyah al-Kubra,
+			Dār al-Kutub al-ʻArabīyah al-Kubrá,
 		</subfield>
 		<subfield code="c">
 			1332h [1913]
@@ -107,6 +116,31 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Maḥallī, Jalāl al-Dīn Muḥammad ibn Aḥmad,
+		</subfield>
+		<subfield code="d">
+			 1389-1459.
+		</subfield>
+		<subfield code="t">
+			Sharḥ Jamʻ al-jawāmiʻ. 
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Islamic law
+		</subfield>
+		<subfield code="x">
+			Interpretation and construction
+		</subfield>
+		<subfield code="v">
+			Early works to 1800.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -128,7 +162,7 @@
 			Bannānī, Fatḥ Allāh ibn Abī Bakr, 1864 or 1865-1934 or 1935.
 		</subfield>
 		<subfield code="t">
-			Hashiyat al-ʻallamah al-Bannani ʻala sharh al-Jalal al-mahalli ʻala jamʻ al-jawamiʻ lil-imam ibn al-Subki
+			Ḥāshiyat al-ʻallāmah al-Bannānī ʻalá sharḥ al-Jalāl al-Maḥallī ʻalá Jamʻ al-jawāmiʻ lil-Imām Ibn al-Subkī. Wa-ʻalá hāmishihi al-sharḥ al-madhkūr wa-baʻḍ taqrīrāt li-ʻAbd al-Raḥmān al-Shirbīnī
 		</subfield>
 		<subfield code="w">
 			(NNC)649187
@@ -145,6 +179,53 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/1rn8pnts
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			بناني، فتح الله بن ابي بكر،
+		</subfield>
+		<subfield code="d">
+			1864 or 1865-1934 or 1935.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			حاشية العلامة البناني على شرح الجلال المحلي على جمع الجوامع للامام ابن السبكي. وعلى هامشه الشرح المذكور وبعض تقريرات لعبد الرحمن الشربيني.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			دار الكتب العربية الكبرى،
+		</subfield>
+		<subfield code="c">
+			1332ه [1913]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-04/r
+		</subfield>
+		<subfield code="a">
+			محلي، جلال الدين محمد بن احمد،
+		</subfield>
+		<subfield code="d">
+			1389-1459.
+		</subfield>
+		<subfield code="t">
+			شرح جمع الجوامع. 
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -192,13 +273,16 @@
 			NNC_649187
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm60601341 
+			(OCoLC)ocm60601341
 		</subfield>
 		<subfield code="s">
 			columbia_aco001347
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001347
 		</subfield>
 	</datafield>
 </record>

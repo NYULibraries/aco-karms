@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01920nam a2200349   4500
+		02897nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		646170
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1930    su      o     000 0 ara d
+		151222s1930    su      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ibn Abī al-ʻIzz, ʻAlī ibn ʻAlī,
 		</subfield>
@@ -41,21 +44,33 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Sharḥ al-Ṭaḥawiyah fi al-ʻaqidah al-salafiyah
+			Sharḥ al-Ṭaḥāwīyah fī al-ʻaqīdah al-salafīyah 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Kitab sharḥ al-Ṭaḥāwīyah fī al-ʻaqīdah al-salafīyah.
+			Kitāb Sharḥ al-Ṭaḥāwīyah fī al-ʻaqīdah al-salafīyah /
+		</subfield>
+		<subfield code="c">
+			ʻaniya bi-taṣḥīḥihā wa-al-ishrāf ʻalá ṭabʻihā lajnah min al-mashāyikh wa-al-ʻulamāʼ taḥta riʼāsat al-Shaykh ʻAbd Allāh ibn Ḥasan ibn Ḥusayn Āl al-Shaykh.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Mecca :
+			Makkah :
 		</subfield>
 		<subfield code="b">
-			al-Matbaʻah al-Salafiyah,
+			al-Maṭbaʻah al-Salafīyah wa-Maktabatuhā,
 		</subfield>
 		<subfield code="c">
 			1349h [1930]
@@ -124,14 +139,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Ṭaḥāwī, Aḥmad ibn Muḥammad,
 		</subfield>
 		<subfield code="d">
-			852?-933.
+			 852?-933.
 		</subfield>
 		<subfield code="t">
-			ʻAqīdah al-Ṭaḥāwīyah.
+			ʻAqīdah al-Ṭaḥāwīyah. 
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -175,7 +193,7 @@
 			Ibn Abī al-ʻIzz, ʻAlī ibn ʻAlī, 1330 or 1331-1389 or 1390.
 		</subfield>
 		<subfield code="t">
-			Kitab sharḥ al-Ṭaḥāwīyah fī al-ʻaqīdah al-salafīyah
+			Kitāb Sharḥ al-Ṭaḥāwīyah fī al-ʻaqīdah al-salafīyah
 		</subfield>
 		<subfield code="w">
 			(NNC)646170
@@ -192,6 +210,64 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/cnp5ht8x
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ابن ابي العز، علي بن علي،
+		</subfield>
+		<subfield code="d">
+			1330 or 1331-1389 or 1390.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02/r
+		</subfield>
+		<subfield code="a">
+			شرح الطحاوية في العقيدة السلفية 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-03/r
+		</subfield>
+		<subfield code="a">
+			كتاب شرح الطحاوية في العقيدة السلفية /
+		</subfield>
+		<subfield code="c">
+			عني بتصحيحها والاشراف على طبعها لجنة من المشايخ والعلماء تحت رئاسة الشيخ عبد الله بن حسن بن حسين آل الشيخ.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			مكة :
+		</subfield>
+		<subfield code="b">
+			المطبعة السلفية ومكتبتها،
+		</subfield>
+		<subfield code="c">
+			1349ه [1930]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-05/r
+		</subfield>
+		<subfield code="a">
+			طحاوي، احمد بن محمد،
+		</subfield>
+		<subfield code="d">
+			852؟933.
+		</subfield>
+		<subfield code="t">
+			عقيدة الطحاوية. 
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -239,13 +315,16 @@
 			NNC_646170
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm60601292 
+			(OCoLC)ocm60601292
 		</subfield>
 		<subfield code="s">
 			columbia_aco001278
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001278
 		</subfield>
 	</datafield>
 </record>

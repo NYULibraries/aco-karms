@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02014nam a2200421   4500
+		02536nam a2200481   4500
 	</leader>
 	<controlfield tag="001">
 		838351
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1987    ir      o     000 0 ara d
+		151222s1987    ir      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Bayḍūn, Labīb,
 		</subfield>
@@ -41,6 +44,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Taṣnīf Nahj al-balāghah /
 		</subfield>
@@ -49,19 +55,25 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 2.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			[Iran] :
+			[Irān] :
 		</subfield>
 		<subfield code="b">
-			Daftar-i Tablīghāt-i Islāmī,
+			Markaz al-Nashr, Maktab al-Iʻlām al-Islāmī,
 		</subfield>
 		<subfield code="c">
-			[1987]
+			1408 [1986 or 1987]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -116,6 +128,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Sharīf al-Raḍī, Muḥammad ibn al-Ḥusayn,
 		</subfield>
@@ -123,7 +138,7 @@
 			969 or 970-1016.
 		</subfield>
 		<subfield code="t">
-			Nahj al-balāghah.
+			Nahj al-balāghah. 
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
@@ -266,6 +281,64 @@
 			http://hdl.handle.net/2333.1/6wwpzkjn
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			بيضون، لبيب،
+		</subfield>
+		<subfield code="d">
+			1938-
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			تصنيف نهج البلاغة /
+		</subfield>
+		<subfield code="c">
+			لبيب بيضون.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/r
+		</subfield>
+		<subfield code="a">
+			الطبعة 2.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			[ايران] :
+		</subfield>
+		<subfield code="b">
+			مركز النشر، مكتب الاعلام الاسلامي، 
+		</subfield>
+		<subfield code="c">
+			1408 [1986 or 1987]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-05/r
+		</subfield>
+		<subfield code="a">
+			شريف الرضي، محمد بن الحسين، 
+		</subfield>
+		<subfield code="d">
+			969 or 970-1016.
+		</subfield>
+		<subfield code="t">
+			نهج البلاغة. 
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -318,6 +391,9 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001379
 		</subfield>
 	</datafield>
 </record>

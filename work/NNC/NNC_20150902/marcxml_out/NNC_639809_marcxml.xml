@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01630nam a2200337   4500
+		02999nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		639809
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151102s1985    ir      o     100 0 ara d
+		151222s1985    ir      o     100 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="111">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Muʼtamar al-ʻĀlamī li-Aʼimmat al-Jumʻah wa-al-Jamāʻah
 		</subfield>
@@ -47,19 +50,28 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			al-Maqālat wa-al-dirasat :
+			al-Maqālāt wa-al-dirāsāt :
 		</subfield>
 		<subfield code="b">
-			taqrir ʻan al-maqalat al-muqaddamah ila al-Muʼtamar al-Thānī li-Aʼimmat al-Jumʻah wa-al-Jamaʻah, al-taqrir al-thalith.
+			taqrīr ʻan al-maqālāt al-muqaddamah ilá al-Muʼtamar al- ʻālamī al-thānī li-aʼimmat al-jumuʻah wa-al-jamāʻah : al-taqrīr al-thālith alladhī ʻuqida fī Ṭihrān fī al-faqdah [i.e. fatrah] bayna 6 ḥattá 16/ayyār ʻām 1984 mīlādī al-muṣādif 4 ḥattá 14 shaʻbān ʻām 1404 hijrī qamarī /
+		</subfield>
+		<subfield code="c">
+			[iʻdād Maktab al-Muʼtamar al-ʻālamī li-aʼimmat al-jumuʻah wa-al-jamāʻah].
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Ṭihrān, al-Jumhūrīyah al-Islāmīyah fī Īrān :
+			Ṭihrān :
 		</subfield>
 		<subfield code="b">
-			Wizarat al-Irshad al-Islamiyah,
+			Maṭbaʻat Wizārat al-Irshād al-Islāmīyah,
 		</subfield>
 		<subfield code="c">
 			1405 [1985?]
@@ -92,6 +104,16 @@
 		</subfield>
 		<subfield code="2">
 			rdacarrier
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">
+			Non-Latin script record
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">
+			Non-Latin script record
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -164,7 +186,7 @@
 			Print version:
 		</subfield>
 		<subfield code="t">
-			al-Maqālat wa-al-dirasat
+			al-Maqālāt wa-al-dirāsāt
 		</subfield>
 		<subfield code="w">
 			(NNC)639809
@@ -181,6 +203,62 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/79cnp8cc
+		</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="880">
+		<subfield code="6">
+			111-01
+		</subfield>
+		<subfield code="a">
+			مؤتمر العالمي لائمة الجمعة والجماعة
+		</subfield>
+		<subfield code="n">
+			(2nd :
+		</subfield>
+		<subfield code="d">
+			1984 :
+		</subfield>
+		<subfield code="c">
+			Tehran, Iran)
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-00
+		</subfield>
+		<subfield code="a">
+			المقالات والدرسات :
+		</subfield>
+		<subfield code="b">
+			تقرر عن المقالات المقدمة الى المؤتمر الثاني لائمة الجمعة والجمعة، التقرر الثله.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-00
+		</subfield>
+		<subfield code="a">
+			المقالات والدراسات :
+		</subfield>
+		<subfield code="b">
+			تقرير عن المقالات المقدمة الى المؤتمر العالمي الثاني لائمة الجمعة والجماعة : التقرير الثالث الذي عقد في طهران في الفقدة [ا.. فترة] بين 6 حتى 16/يار عام 1984 ميلادي المصادف 4 حتى 14 شعبان عام 1404 هجري قمري /
+		</subfield>
+		<subfield code="c">
+			[اعداد مكتب المؤتمر العالمي لاأمة الجمعة والجماعة].
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-02
+		</subfield>
+		<subfield code="a">
+			طهران :
+		</subfield>
+		<subfield code="b">
+			مطبعة وزارة الارشاد الاسلامية،
+		</subfield>
+		<subfield code="c">
+			1405 [1985؟]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -228,13 +306,16 @@
 			NNC_639809
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm60601165 
+			(OCoLC)ocm60601165
 		</subfield>
 		<subfield code="s">
 			columbia_aco001256
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001256
 		</subfield>
 	</datafield>
 </record>
