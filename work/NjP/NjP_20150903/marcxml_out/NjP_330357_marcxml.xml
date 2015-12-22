@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02815nam a2200409   4500
+		03006nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		330357
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s196u    ir      o     000 0 arard
+		151222s196u    ir      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -133,6 +133,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Qazwīnī, Jalāl al-Dīn Muḥammad ibn ʻAbd al-Raḥmān,
 		</subfield>
@@ -140,7 +143,7 @@
 			1267 or 1268-1338.
 		</subfield>
 		<subfield code="t">
-			Talkhīṣ al-Miftāḥ.
+			Talkhīṣ al-Miftāḥ. 
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
@@ -153,7 +156,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-05
+			880-06
 		</subfield>
 		<subfield code="a">
 			Ṣaʻīdī, ʻAbd al-Muttaʻāl.
@@ -210,7 +213,10 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			تفتازاني، مسعود بن عمر.
+			تفتازاني، مسعود بن عمر،
+		</subfield>
+		<subfield code="d">
+			1322-1389؟
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -246,9 +252,23 @@
 			[196-?]
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-05/r
+		</subfield>
+		<subfield code="a">
+			قزويني، جلال الدين محمد بن عبد الرحمن،
+		</subfield>
+		<subfield code="d">
+			1267 or 1268-1338. 
+		</subfield>
+		<subfield code="t">
+			تلخيص المفتاح. 
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-05/r
+			700-06/r
 		</subfield>
 		<subfield code="a">
 			صعيدي، عبد المتعال.
@@ -286,6 +306,9 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000012
 		</subfield>
 	</datafield>
 </record>

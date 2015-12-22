@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01179nam a2200289   4500
+		01540nam a2200337   4500
 	</leader>
 	<controlfield tag="001">
 		2786731
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111m18891890tu      o     000 0 ara d
+		151222m18891890tu      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			İbrahim Hakkı Paşa,
 		</subfield>
@@ -41,16 +44,28 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Taʼrīkh-i ʻumūmī ...
+			Tārikh-i ʻumumî /
+		</subfield>
+		<subfield code="c">
+			İbrahim Hakkı.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Der Saʻādet,
+			Der Saʻādet :
+		</subfield>
+		<subfield code="b">
+			Karabet ve Kasbar Matbaası,
 		</subfield>
 		<subfield code="c">
-			1305-06 [1889?-90?]
+			1305-1306 [1889?-90?]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -109,6 +124,11 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			World history.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Princeton University.
@@ -130,7 +150,7 @@
 			İbrahim Hakkı Paşa, 1862-1918.
 		</subfield>
 		<subfield code="t">
-			Taʼrīkh-i ʻumūmī
+			Tārikh-i ʻumumî
 		</subfield>
 		<subfield code="w">
 			(NjP)2786731
@@ -142,6 +162,42 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/t76hdv7x
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			ابراهيم حقي باشا،
+		</subfield>
+		<subfield code="d">
+			1862-1918.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			تارخ عمومي ã /
+		</subfield>
+		<subfield code="c">
+			ابراهيم حقي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03
+		</subfield>
+		<subfield code="a">
+			در سعادت :
+		</subfield>
+		<subfield code="b">
+			کربت و کسبر متباس¸،
+		</subfield>
+		<subfield code="c">
+			13051306 [1889؟90؟]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -169,13 +225,16 @@
 			NjP_2786731
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm42831494 
+			(OCoLC)ocm42831494
 		</subfield>
 		<subfield code="s">
 			princeton_aco000150
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000150
 		</subfield>
 	</datafield>
 </record>

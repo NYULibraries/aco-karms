@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01401nam a2200313   4500
+		01798nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		501860
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1988    ir      o     000 0 ara d
+		151222s1988    ir      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,11 +33,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Qudayrī, Muḥammad Ḥasan.
+			Qudayrī, Muḥammad Ḥasan. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Risālah fī al-waḍʻ wa-al-istiʻmāl /
 		</subfield>
@@ -46,11 +52,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Qum, Īrān :
 		</subfield>
@@ -169,6 +181,47 @@
 			http://hdl.handle.net/2333.1/dz08kspz
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			قديري، محمد حسن. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			رسالة في الوضع والاستعمال /
+		</subfield>
+		<subfield code="c">
+			بقلم محمد حسن القديري.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/r
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			قم، ايران :
+		</subfield>
+		<subfield code="b">
+			منظمة الحج والوقاف والشؤون الخيرية،
+		</subfield>
+		<subfield code="c">
+			1409 [1988]
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -194,13 +247,16 @@
 			NjP_501860
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm26601087 
+			(OCoLC)ocm26601087
 		</subfield>
 		<subfield code="s">
 			princeton_aco000026
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000026
 		</subfield>
 	</datafield>
 </record>

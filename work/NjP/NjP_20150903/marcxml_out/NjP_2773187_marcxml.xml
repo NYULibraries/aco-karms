@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02977nam a2200481   4500
+		03093nam a2200493   4500
 	</leader>
 	<controlfield tag="001">
 		2773187
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1960    sy h    ob    001 0 ara d
+		151222s1960    sy h    ob    001 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -116,6 +116,14 @@
 			rdacarrier
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
 			Part of the Arabic Collections Online (ACO) project, contributed by Princeton University Libraries.
@@ -180,7 +188,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-05
+			880-06
 		</subfield>
 		<subfield code="a">
 			Tanūkhī, ʻIzz al-Dīn,
@@ -240,6 +248,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-07
+		</subfield>
 		<subfield code="a">
 			Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq.
 		</subfield>
@@ -251,15 +262,18 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-01/r
+			100-01
 		</subfield>
 		<subfield code="a">
-			أبو الطيب اللغوي، عبد الواحد بن علي.
+			ابو الطيب اللغوي، عبد الواحد بن علي،
+		</subfield>
+		<subfield code="d">
+			-962 or 963.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			240-02/r
+			240-02
 		</subfield>
 		<subfield code="a">
 			مثنى
@@ -267,7 +281,7 @@
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="880">
 		<subfield code="6">
-			245-03/r
+			245-03
 		</subfield>
 		<subfield code="a">
 			كتاب المثنى /
@@ -278,7 +292,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-04/r
+			260-04
 		</subfield>
 		<subfield code="a">
 			دمشق ؛
@@ -292,7 +306,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			490-00/r
+			490-05
 		</subfield>
 		<subfield code="a">
 			مطبوعات المجمع العلمي العربي بدمشق
@@ -300,7 +314,7 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
 		<subfield code="6">
-			700-05/r
+			700-06
 		</subfield>
 		<subfield code="a">
 			عز الدين التنوخي.
@@ -308,7 +322,7 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
 		<subfield code="6">
-			830-00/r
+			830-07
 		</subfield>
 		<subfield code="a">
 			مطبوعات المجمع العلمي العربي بدمشق.
@@ -339,13 +353,16 @@
 			NjP_2773187
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm39806759 
+			(OCoLC)ocm39806759
 		</subfield>
 		<subfield code="s">
 			princeton_aco000061
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000061
 		</subfield>
 	</datafield>
 </record>

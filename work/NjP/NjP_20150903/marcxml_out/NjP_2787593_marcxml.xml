@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01632nam a2200349   4500
+		01639nam a2200349   4500
 	</leader>
 	<controlfield tag="001">
 		2787593
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1965    ir      o     000 0 ara d
+		151222s1965    ir      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -37,10 +37,7 @@
 			880-01
 		</subfield>
 		<subfield code="a">
-			al-Bihbihānī, ʻAlī ibn Muḥammad,
-		</subfield>
-		<subfield code="d">
-			1885 or 1886-
+			Bahbahānī, ʻAlī. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
@@ -48,10 +45,16 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			Asās al-naḥw.
+			Asās al-naḥw /
+		</subfield>
+		<subfield code="c">
+			taʼlīf al-Sayyid ʻAlī ibn Muḥammad al-Mūsawī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Tehran,
 		</subfield>
@@ -158,7 +161,7 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			al-Bihbihānī, ʻAlī ibn Muḥammad, 1885 or 1886-
+			Bahbahānī, ʻAlī.
 		</subfield>
 		<subfield code="t">
 			Asās al-naḥw
@@ -188,15 +191,15 @@
 			245-02/r
 		</subfield>
 		<subfield code="a">
-			‏اساس النحو /‏
+			اساس النحو /
 		</subfield>
 		<subfield code="c">
-			‏تأليف على بن محمد الموسوى البهبهانى.
+			تأليف السيد علي بن محمد الموسوي.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			‏‏طهران :‏
@@ -233,13 +236,16 @@
 			NjP_2787593
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm42853737 
+			(OCoLC)ocm42853737
 		</subfield>
 		<subfield code="s">
 			princeton_aco000001
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000001
 		</subfield>
 	</datafield>
 </record>

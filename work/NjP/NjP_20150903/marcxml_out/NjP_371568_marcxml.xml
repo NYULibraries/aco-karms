@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02944nam a2200517   4500
+		03051nam a2200529   4500
 	</leader>
 	<controlfield tag="001">
 		371568
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111m19009999sy      ob    001 0 arar 
+		151222m19009999sy      ob    001 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -246,6 +246,14 @@
 			Arabic Collections Online.
 		</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-07
+		</subfield>
+		<subfield code="a">
+			Sharḥ shawāhid Sībawayh 
+		</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
 			Online version:
@@ -293,7 +301,7 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			سيرافي، يوسف بن الحسن،,
+			سيرافي، يوسف بن الحسن،
 		</subfield>
 		<subfield code="d">
 			941-995.
@@ -356,7 +364,7 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
 		<subfield code="6">
-			740-00/r
+			740-07/r
 		</subfield>
 		<subfield code="a">
 			شرح شواهد سيبويه.
@@ -387,7 +395,7 @@
 			NjP_371568
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm13643439 
+			(OCoLC)ocm13643439
 		</subfield>
 		<subfield code="s">
 			princeton_aco000003:juz.1
@@ -397,6 +405,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000003:juz.1
+		</subfield>
+		<subfield code="s">
+			princeton_aco000004:juz.2
 		</subfield>
 	</datafield>
 </record>

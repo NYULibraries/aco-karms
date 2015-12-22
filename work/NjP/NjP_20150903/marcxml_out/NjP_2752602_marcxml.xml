@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01357nam a2200325   4500
+		01665nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		2752602
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s195u    ua      o     000 0 arard
+		151222s195u    ua      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,18 +41,30 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Hāsimiī, al-Sayyid Aḥmad.
+			Hāshimī, Aḥmad. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			al-Mufrad al-ʻalam fī rasm al-qalam.
+			al-Mufrad al-ʻalam fī rasm al-qalam /
+		</subfield>
+		<subfield code="c">
+			 taʼlīf Aḥmad al-Hāshimī
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Cairo,
+			al-Qāhirah :
 		</subfield>
 		<subfield code="b">
 			Maṭbaʻat Ḥijāzī,
@@ -157,7 +169,7 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Hāsimiī, al-Sayyid Aḥmad.
+			Hāshimī, Aḥmad.
 		</subfield>
 		<subfield code="t">
 			al-Mufrad al-ʻalam fī rasm al-qalam
@@ -172,6 +184,39 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/0vt4bc9x
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			هاشمي، احمد. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			المفرد العلم في رسم القلم /
+		</subfield>
+		<subfield code="c">
+			 تأليف احمد الهاشمي
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			مطبعة حجازي،
+		</subfield>
+		<subfield code="c">
+			[195؟]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -199,13 +244,16 @@
 			NjP_2752602
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm17009029 
+			(OCoLC)ocm17009029
 		</subfield>
 		<subfield code="s">
 			princeton_aco000073
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000073
 		</subfield>
 	</datafield>
 </record>

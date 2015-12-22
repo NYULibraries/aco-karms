@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01774nam a2200337   4500
+		02199nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		415694
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1895    ua      o     000 0 ara d
+		151222s1895    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,11 +33,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Amīn, Shabībʹzādah Muḥammad.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Jawharah al-farīdah al-khālīyah fī madḥ jamāl al-mashyakhah al-Islāmīyah /
 		</subfield>
@@ -46,16 +52,22 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			[Cairo] :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			[publisher not identified],
+			al-Maṭbaʻah al-ʻIlmiyah,
 		</subfield>
 		<subfield code="c">
 			1313 [1895 or 1896]
@@ -197,6 +209,47 @@
 			http://hdl.handle.net/2333.1/r4xgxh1r
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			امين، شبيب زادة محمد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الجوهرة الفريدة الخالية في مدح جمال المشيخة الاسلامية /
+		</subfield>
+		<subfield code="c">
+			تأليف شبيب زادة محمد امين.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/r
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			المطبعة العلمية،
+		</subfield>
+		<subfield code="c">
+			1313 [1895 or 1896]
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -222,13 +275,16 @@
 			NjP_415694
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23695355 
+			(OCoLC)ocm23695355
 		</subfield>
 		<subfield code="s">
 			princeton_aco000069
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000069
 		</subfield>
 	</datafield>
 </record>

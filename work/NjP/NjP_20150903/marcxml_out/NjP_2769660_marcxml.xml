@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01278nam a2200313   4500
+		01516nam a2200349   4500
 	</leader>
 	<controlfield tag="001">
 		2769660
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1947    le a    o     000 0 ara d
+		151222s1947    le a    o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,24 +41,33 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Abū Rīshah, ʻUmar.
+			Abū Rīshah, ʻUmar. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Min ʻUmar Ābū Rīshah :
 		</subfield>
 		<subfield code="b">
-			shāʻir.
+			shaʻir.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Bayrūt :
 		</subfield>
 		<subfield code="b">
-			Dār Majālat al-Ādīb,
+			Dār Majalat al-Ādīb,
 		</subfield>
 		<subfield code="c">
 			1947.
@@ -169,6 +178,39 @@
 			http://hdl.handle.net/2333.1/sbcc2jqv
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ابو ريشة، عمر.  
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			من عمر أبو ريشة :
+		</subfield>
+		<subfield code="b">
+			شعر.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			بيروت :
+		</subfield>
+		<subfield code="b">
+			دار مجلة الاديب،
+		</subfield>
+		<subfield code="c">
+			1947.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -194,13 +236,16 @@
 			NjP_2769660
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm32635163 
+			(OCoLC)ocm32635163
 		</subfield>
 		<subfield code="s">
 			princeton_aco000189
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000189
 		</subfield>
 	</datafield>
 </record>

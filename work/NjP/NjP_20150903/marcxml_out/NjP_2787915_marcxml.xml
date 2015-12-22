@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01165nam a2200289   4500
+		01739nam a2200337   4500
 	</leader>
 	<controlfield tag="001">
 		2787915
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1930    ua      o     000 0 ara d
+		151222s1930    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ḥarīrī,
 		</subfield>
@@ -41,13 +44,19 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Sharḥ ... Mulḥat al-iʻrāb ...
+			Sharḥ al-ʻalāmah al-shaykh abī Muḥammad al-Qāsim bin ʻAlī al-Ḥarīrī al-Baṣrī ʻlá matn Mulḥat al-iʻrāb.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Cairo,
+			Miṣr :
 		</subfield>
 		<subfield code="b">
 			Maṭbaʻat al-Taqaddum,
@@ -112,6 +121,14 @@
 			In Arabic.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Arabic language
+		</subfield>
+		<subfield code="x">
+			Grammar.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Princeton University.
@@ -133,7 +150,7 @@
 			Ḥarīrī, 1054-1122.
 		</subfield>
 		<subfield code="t">
-			Sharḥ ... Mulḥat al-iʻrāb
+			Sharḥ al-ʻalāmah al-shaykh abī Muḥammad al-Qāsim bin ʻAlī al-Ḥarīrī al-Baṣrī ʻlá matn Mulḥat al-iʻrāb
 		</subfield>
 		<subfield code="w">
 			(NjP)2787915
@@ -145,6 +162,39 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/cc2fr249
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			حريري،
+		</subfield>
+		<subfield code="d">
+			1054-1122.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			شرح العلامة الشيخ ابي محمد القاسم بن علي الحريري البصري على متن ملحة الاعراب.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			مطبعة التقدم،
+		</subfield>
+		<subfield code="c">
+			1347 [1930]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -172,13 +222,16 @@
 			NjP_2787915
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm42862652 
+			(OCoLC)ocm42862652
 		</subfield>
 		<subfield code="s">
 			princeton_aco000034
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000034
 		</subfield>
 	</datafield>
 </record>

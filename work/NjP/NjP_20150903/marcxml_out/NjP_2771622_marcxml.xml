@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01967nam a2200421   4500
+		02126nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		2771622
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1970    iq      o     000 0 ara d
+		151222s1970    iq      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -46,13 +46,16 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Wakīl, al-ʻAwḍī.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">
-			880-01
+			880-02
 		</subfield>
 		<subfield code="a">
 			al-Muʼtamar wa-al-mihrajān :
@@ -66,7 +69,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-02
+			880-03
 		</subfield>
 		<subfield code="a">
 			Baghdād :
@@ -109,7 +112,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="6">
-			880-03
+			880-04
 		</subfield>
 		<subfield code="a">
 			Silsilat al-thaqāfah al-ʻāmmah ;
@@ -220,6 +223,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Silsilat al-thaqāfah al-ʻāmmah ;
 		</subfield>
@@ -232,9 +238,17 @@
 			http://hdl.handle.net/2333.1/ksn02z5g
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			وكيل، العوضي.
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2="3" tag="880">
 		<subfield code="6">
-			245-01/r
+			245-02/r
 		</subfield>
 		<subfield code="a">
 			المؤتمر و المهرجان :
@@ -248,7 +262,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-02/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			بغداد :
@@ -262,13 +276,24 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			490-03/r
+			490-04/r
 		</subfield>
 		<subfield code="a">
 			سلسلة الثقافة العامة ؛
 		</subfield>
 		<subfield code="v">
 			٦
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-05/r
+		</subfield>
+		<subfield code="a">
+			سلسلة الثقافة العامة ؛
+		</subfield>
+		<subfield code="v">
+			6.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -296,13 +321,16 @@
 			NjP_2771622
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm36263765 
+			(OCoLC)ocm36263765
 		</subfield>
 		<subfield code="s">
 			princeton_aco000031
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000031
 		</subfield>
 	</datafield>
 </record>

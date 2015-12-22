@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01832nam a2200373   4500
+		01884nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		479289
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1986    ir      ob    000 0 ara d
+		151222s1986    ir      ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -63,6 +63,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Qum, Īrān :
 		</subfield>
@@ -179,15 +182,18 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-01/r
+			100-01
 		</subfield>
 		<subfield code="a">
-			قمي، عباس بن محمد رضا.
+			قمي، عباس بن محمد رضا،
+		</subfield>
+		<subfield code="d">
+			-1941.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-02/r
+			245-02
 		</subfield>
 		<subfield code="a">
 			الدر النظيم في لغات القرآن العظيم /
@@ -198,7 +204,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			250-03/r
+			250-03
 		</subfield>
 		<subfield code="a">
 			الطبعة ١.
@@ -206,16 +212,16 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-04
 		</subfield>
 		<subfield code="a">
-			قم :
+			قم، ايران :
 		</subfield>
 		<subfield code="b">
 			مؤسسة في طريق الحق،
 		</subfield>
 		<subfield code="c">
-			١٤٠٧.
+			1407 [1986 or 1987]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -243,13 +249,16 @@
 			NjP_479289
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm26231923 
+			(OCoLC)ocm26231923
 		</subfield>
 		<subfield code="s">
 			princeton_aco000141
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000141
 		</subfield>
 	</datafield>
 </record>

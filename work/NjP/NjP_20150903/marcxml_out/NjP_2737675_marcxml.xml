@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02803nam a2200445   4500
+		02992nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		2737675
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111m19681969iq      ob    000 0 arar 
+		151222m19681969iq      ob    000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -75,13 +75,13 @@
 			880-04
 		</subfield>
 		<subfield code="a">
-			[Karbalāʼ] :
+			Karbalāʼ :
 		</subfield>
 		<subfield code="b">
-			[Maktabat al-ʻIrfān],
+			Maktabat al-ʻIrfān,
 		</subfield>
 		<subfield code="c">
-			[1968]-69.
+			1968.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -173,6 +173,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Shukr, Shākir Hādī,
 		</subfield>
@@ -243,7 +246,7 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			ابن معصوم، علي بن احمد،,
+			ابن معصوم، علي بن احمد،
 		</subfield>
 		<subfield code="d">
 			1642-approximately 1707.
@@ -273,21 +276,24 @@
 			260-04/r
 		</subfield>
 		<subfield code="a">
-			[كربلاء :
+			كربلاء :
 		</subfield>
 		<subfield code="b">
-			مكتبة العرفان]،
+			مكتبة العرفان،
 		</subfield>
 		<subfield code="c">
-			[1968]-69.
+			1968.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-05/r
 		</subfield>
 		<subfield code="a">
-			شكر، شاكر هادي.
+			شكر، شاكر هادي،
+		</subfield>
+		<subfield code="e">
+			editor.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -315,7 +321,7 @@
 			NjP_2737675
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm08001252 
+			(OCoLC)ocm08001252
 		</subfield>
 		<subfield code="s">
 			princeton_aco000050:vol.1
@@ -340,6 +346,27 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000050:vol.1
+		</subfield>
+		<subfield code="s">
+			princeton_aco000051:vol.2
+		</subfield>
+		<subfield code="s">
+			princeton_aco000052:vol.3
+		</subfield>
+		<subfield code="s">
+			princeton_aco000053:vol.4
+		</subfield>
+		<subfield code="s">
+			princeton_aco000055:vol.5
+		</subfield>
+		<subfield code="s">
+			princeton_aco000056:vol.6
+		</subfield>
+		<subfield code="s">
+			princeton_aco000057:vol.7
 		</subfield>
 	</datafield>
 </record>

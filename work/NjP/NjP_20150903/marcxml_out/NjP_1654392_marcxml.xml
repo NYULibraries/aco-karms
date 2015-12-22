@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01907nam a2200361   4500
+		02270nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		1654392
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1929    ua ah   o     000 0 ara d
+		151222s1929    ua ah   o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ben-Zeev, Israel,
 		</subfield>
@@ -49,19 +52,25 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Tārīkh al-lughāt al-Sāmīya,
+			Tārīkh al-lughāt al-Sāmīya /
 		</subfield>
 		<subfield code="c">
 			taʼlīf al-ductūr Isrāʼīl Wulfinsun (Abū Dhuʼīb) ...
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Miṣr,
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat al-Iʻtimād bi-shāriʻ Ḥasan al-Akbar
+			Maṭbaʻat al-Iʻtimād bi-shāriʻ Ḥasan al-Akbar,
 		</subfield>
 		<subfield code="c">
 			1929.
@@ -213,6 +222,42 @@
 			http://hdl.handle.net/2333.1/bg79crm2
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ولفنسون، اسرائيل، -
+		</subfield>
+		<subfield code="d">
+			1899
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			تاريخ اللغات السامي /
+		</subfield>
+		<subfield code="c">
+			تأليف الدكتور اسرائيل ولفنسون (ابو ذؤيب) ...
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			مطبعة الاعتماد بشارع حسن الاكبر،
+		</subfield>
+		<subfield code="c">
+			1929.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -238,13 +283,16 @@
 			NjP_1654392
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm19475129 
+			(OCoLC)ocm19475129
 		</subfield>
 		<subfield code="s">
 			princeton_aco000008
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000008
 		</subfield>
 	</datafield>
 </record>

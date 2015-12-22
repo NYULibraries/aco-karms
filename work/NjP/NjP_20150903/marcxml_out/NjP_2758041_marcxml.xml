@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02366nam a2200409   4500
+		02519nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		2758041
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1968    iq a    ob    000 0 arar 
+		151222s1968    iq a    ob    000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -49,6 +49,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Sharḥ Tuḥfat al-khalīl fī al-ʻarūḍ wa-al-qāfiyah /
 		</subfield>
@@ -66,7 +69,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-02
+			880-03
 		</subfield>
 		<subfield code="a">
 			Baghdād :
@@ -172,7 +175,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-03
+			880-04
 		</subfield>
 		<subfield code="a">
 			Kayshawān, Muḥammad Ḥusayn ibn Kāẓim,
@@ -228,7 +231,7 @@
 			(NjP)2758041
 		</subfield>
 		<subfield code="w">
-			(DLC)   71218386 
+			(DLC)  71218386 
 		</subfield>
 		<subfield code="w">
 			(OCoLC)21614836
@@ -241,15 +244,26 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-01/r
+			100-01
 		</subfield>
 		<subfield code="a">
 			راضي، عبد الحميد.
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			شرح تحفة الخليل في العروض والقافية /
+		</subfield>
+		<subfield code="c">
+			تأليف عبد الحميد راضي.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-02/r
+			260-03
 		</subfield>
 		<subfield code="a">
 			بغداد،
@@ -263,7 +277,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-03/r
+			700-04
 		</subfield>
 		<subfield code="a">
 			كيشوان، محمد حسين بن كاظم،,
@@ -300,13 +314,16 @@
 			NjP_2758041
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm21614836 
+			(OCoLC)ocm21614836
 		</subfield>
 		<subfield code="s">
 			princeton_aco000070
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000070
 		</subfield>
 	</datafield>
 </record>

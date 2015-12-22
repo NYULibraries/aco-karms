@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02262nam a2200385   4500
+		03072nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		174763
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1929    sy      o     000 0 arard
+		151222s1929    sy      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Suyūṭī,
 		</subfield>
@@ -49,6 +52,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Mutawakkilī fīmā warada fī al-Qurʼān bi-al-lughah al-Ḥabashīyah wa-al-Fārisīyah wa-al-Hindīyah wa-al-Turkīyah wa-al-Zanjīyah wa-al-Nabaṭīyah wa-al-Siryānīyah wa-al-ʻIbrānīyah wa-al-Rūmīyah wa-al-Barbarīyah. /
 		</subfield>
@@ -57,6 +63,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Dimashq :
 		</subfield>
@@ -153,14 +162,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="2" tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Suyūṭī,
 		</subfield>
 		<subfield code="d">
-			1445-1505.
+			 1445-1505.
 		</subfield>
 		<subfield code="t">
-			Masālik.
+			Masālik. 
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -177,11 +189,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Risālah fī uṣūl al-kalimāt.
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Uṣūl.
 		</subfield>
@@ -211,6 +229,72 @@
 			http://hdl.handle.net/2333.1/2280gf1c
 		</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			سيوطي،
+		</subfield>
+		<subfield code="d">
+			1445-1505.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			المتوكلي فيما ورد في القرآن باللغة الحبشية والفارسية والهندية والتركية والزنجية والنبطية والسريانية والعبرانية والرومية والبربرية. /
+		</subfield>
+		<subfield code="c">
+			تأليف جلال الدين عبد الرحمن بن ابي بكر السيوت. ويليه من تأليفه رسالة في اصول الكلات.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			دمشق :
+		</subfield>
+		<subfield code="b">
+			مكتبة القدسي والبدير،
+		</subfield>
+		<subfield code="c">
+			1348 [1929 or 30]
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="2" tag="880">
+		<subfield code="6">
+			700-04/r
+		</subfield>
+		<subfield code="a">
+			سيوطي،
+		</subfield>
+		<subfield code="d">
+			1445-1505.
+		</subfield>
+		<subfield code="t">
+			مسال. 
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			740-05/r
+		</subfield>
+		<subfield code="a">
+			رسالة في اصول الكلات.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			740-06/r
+		</subfield>
+		<subfield code="a">
+			اصول. 
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -236,13 +320,16 @@
 			NjP_174763
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm78644742 
+			(OCoLC)ocm78644742
 		</subfield>
 		<subfield code="s">
 			princeton_aco000139
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000139
 		</subfield>
 	</datafield>
 </record>

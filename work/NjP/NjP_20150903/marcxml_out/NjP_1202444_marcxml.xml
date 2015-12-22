@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01787nam a2200361   4500
+		02166nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		1202444
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1845    ua      o     000 0 ara d
+		151222s1845    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,16 +33,25 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="245">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			[Majmūʻah fī al-ṣarf].
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Marāḥ al-arwāḥ
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Būlāq, Miṣr :
 		</subfield>
@@ -171,6 +180,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Ibn Masʻūd, Aḥmad ibn ʻAlī,
 		</subfield>
@@ -213,6 +225,50 @@
 			http://hdl.handle.net/2333.1/v9s4n08m
 		</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">
+			245-01/r
+		</subfield>
+		<subfield code="a">
+			[مجموعة في الصرف].
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-02/r
+		</subfield>
+		<subfield code="a">
+			مراح الارواح
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			بولاق، مصر :
+		</subfield>
+		<subfield code="b">
+			دار الطباعة الباهرة،
+		</subfield>
+		<subfield code="c">
+			1261 [1845]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			700-04/r
+		</subfield>
+		<subfield code="a">
+			ابن مسعود، احمد بن علي،
+		</subfield>
+		<subfield code="d">
+			active 13th century. 
+		</subfield>
+		<subfield code="t">
+			مراح الارواح.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -238,13 +294,16 @@
 			NjP_1202444
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm39831249 
+			(OCoLC)ocm39831249
 		</subfield>
 		<subfield code="s">
 			princeton_aco000033
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000033
 		</subfield>
 	</datafield>
 </record>

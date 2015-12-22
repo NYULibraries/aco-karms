@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01415nam a2200289   4500
+		01990nam a2200325   4500
 	</leader>
 	<controlfield tag="001">
 		2788163
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111m19281931ti      o     000 0 ara d
+		151222m19281931ti      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,21 +33,33 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			al-Sulṭean, ̄ ʻAbd al-Salām ibn ʻAbd al-Raḥmān.
+			Sulṭanī, ʻAbd al-Salām ibn ʻAbd al-Raḥmān.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Sharḥ shawāhid al-Ushmūnī
+			Sharḥ shawāhid al-Ushmūnī :
 		</subfield>
 		<subfield code="b">
-			[al-musammā bi-Fatḥ al-mālik fī sharḥ shawāhid Manhaj al-sālik ʻalā Alfīyat Ibn Mālik].
+			[al-musammā bi-Fatḥ al-mālik fī sharḥ shawāhid Manhaj al-sālik ʻalā Alfīyat Ibn Mālik] /
+		</subfield>
+		<subfield code="c">
+			ʻAbd al-Salām ibn ʻAbd al-Raḥmān al-Sulṭanī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Tunis,
+			Tunis :
 		</subfield>
 		<subfield code="b">
 			al-Maṭbaʻah al-Ahlīyah,
@@ -130,7 +142,7 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			al-Sulṭean, ̄ ʻAbd al-Salām ibn ʻAbd al-Raḥmān.
+			Sulṭanī, ʻAbd al-Salām ibn ʻAbd al-Raḥmān.
 		</subfield>
 		<subfield code="t">
 			Sharḥ shawāhid al-Ushmūnī
@@ -145,6 +157,42 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/jq2bvt69
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			سلطني، عبد السلام بن عبد الرحمان.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			شرح شواهد الاشموني :
+		</subfield>
+		<subfield code="b">
+			[المسمى بفتح المال في شرح شواهد منهج السالك على الفية ابن مالك] /
+		</subfield>
+		<subfield code="c">
+			عبد السلام بن عبد الرحمن السلطاني.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03
+		</subfield>
+		<subfield code="a">
+			تونس :
+		</subfield>
+		<subfield code="b">
+			المطبعة الاهلية،
+		</subfield>
+		<subfield code="c">
+			1347[49 1928/291931]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -172,7 +220,7 @@
 			NjP_2788163
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm42866620 
+			(OCoLC)ocm42866620
 		</subfield>
 		<subfield code="s">
 			princeton_aco000018:vol.1
@@ -185,6 +233,15 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000018:vol.1
+		</subfield>
+		<subfield code="s">
+			princeton_aco000020:vol.2
+		</subfield>
+		<subfield code="s">
+			princeton_aco000019:vol.3
 		</subfield>
 	</datafield>
 </record>

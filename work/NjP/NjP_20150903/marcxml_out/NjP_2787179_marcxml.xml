@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01397nam a2200337   4500
+		01621nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		2787179
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s195u    sy c    o     000 0 ara d
+		151222s195u    sy c    o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,21 +33,30 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			al-ʻUthmānī, Rāghib,
+			Uthmānī, Rāghib,
 		</subfield>
 		<subfield code="d">
 			1898-
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			al-Qiṣṣah wa-al-qiṣasī.
+			al-Qiṣṣah wa-al-qiṣaṣī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Damascus
+			Dimashaq :
 		</subfield>
 		<subfield code="b">
 			[Maktabat Aṭlas],
@@ -168,10 +177,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			al-ʻUthmānī, Rāghib, 1898-
+			Uthmānī, Rāghib, 1898-
 		</subfield>
 		<subfield code="t">
-			al-Qiṣṣah wa-al-qiṣasī
+			al-Qiṣṣah wa-al-qiṣaṣī
 		</subfield>
 		<subfield code="w">
 			(NjP)2787179
@@ -183,6 +192,39 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/pk0p2rfn
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			عثماني، راغب،
+		</subfield>
+		<subfield code="d">
+			1898-
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			القصة والقصصي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			دمشق :
+		</subfield>
+		<subfield code="b">
+			[مكتبة اطلس]،
+		</subfield>
+		<subfield code="c">
+			[195-؟]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -210,13 +252,16 @@
 			NjP_2787179
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm42844380 
+			(OCoLC)ocm42844380
 		</subfield>
 		<subfield code="s">
 			princeton_aco000173
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000173
 		</subfield>
 	</datafield>
 </record>

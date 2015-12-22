@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01429nam a2200313   4500
+		01822nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		740970
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1854    ua      o     000 0 ara d
+		151222s1854    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,21 +33,33 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="130">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Jumal al-ṣarf.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Hādhā kitāb yashtamilu ʻalá rasāʼil fī ʻilm al-ṣarf wa-yusammá jumal al-ṣarf.
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Rasāʼil fī ʻilm al-ṣarf
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Būlāq, al-Qāhirah, Miṣr :
 		</subfield>
@@ -163,6 +175,44 @@
 			http://hdl.handle.net/2333.1/qjq2bzpm
 		</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			130-01
+		</subfield>
+		<subfield code="a">
+			جمل الصرف.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			هاذا كتاب يشتمل على رسائل في علم الصرف ويسمى جمل الصرف.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-03
+		</subfield>
+		<subfield code="a">
+			رسائل في علم الصرف
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04
+		</subfield>
+		<subfield code="a">
+			بولاق، القاهرة، مصر :
+		</subfield>
+		<subfield code="b">
+			دار الطباعة الباهرة،
+		</subfield>
+		<subfield code="c">
+			1271 [1854]
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -188,13 +238,16 @@
 			NjP_740970
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm26520767 
+			(OCoLC)ocm26520767
 		</subfield>
 		<subfield code="s">
 			princeton_aco000075
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000075
 		</subfield>
 	</datafield>
 </record>

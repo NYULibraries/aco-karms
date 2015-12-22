@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02292nam a2200421   4500
+		02355nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		784942
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s198u    ir      o     000 0 arard
+		151222s198u    ir      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -60,16 +60,25 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Kitāb al-Suyūṭī
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Suyūṭī
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			[Qum?] :
 		</subfield>
@@ -234,15 +243,18 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
 		<subfield code="6">
-			100-01/r
+			100-01
 		</subfield>
 		<subfield code="a">
-			جلال الدين عبد الرحمن بن ابي بكر السيوطي.
+			سيوطي،
+		</subfield>
+		<subfield code="d">
+			1445-1505.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-00/r
+			245-00
 		</subfield>
 		<subfield code="a">
 			البهجة المرضية في شرح الالفية /
@@ -251,18 +263,34 @@
 			لجلال الدين عبد الرحمن بن ابي بكر السيوطي.
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="880">
+	<datafield ind1="3" ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			246-02
 		</subfield>
 		<subfield code="a">
-			[ايران] :
+			كتاب السيوطي
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-03
+		</subfield>
+		<subfield code="a">
+			سيوطي
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04
+		</subfield>
+		<subfield code="a">
+			[قم؟] :
 		</subfield>
 		<subfield code="b">
 			المكتبة الاسلامية،
 		</subfield>
 		<subfield code="c">
-			[-١٩٨؟]
+			[198؟]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -290,13 +318,16 @@
 			NjP_784942
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm21242228 
+			(OCoLC)ocm21242228
 		</subfield>
 		<subfield code="s">
 			princeton_aco000025
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000025
 		</subfield>
 	</datafield>
 </record>

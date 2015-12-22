@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02237nam a2200469   4500
+		02271nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		2768852
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1960    sy      ob    000 0 ara d
+		151222s1960    sy      ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -61,7 +61,7 @@
 			Fī shiʻr al-nakbah :
 		</subfield>
 		<subfield code="b">
-			baḥth takhṭīṭī fī aṣdāʼ nakbat Filasṭīn fī al-shiʻr al-ʻArabī al-muʻāṣir /
+			baḥth takhṭīṭī fī̄ aṣdāʼ nakbat Filasṭīn fī al-shiʻr al-ʻArabī al-muʻāṣir /
 		</subfield>
 		<subfield code="c">
 			[taʼlīf] Ṣāliḥ al-Ashtar.
@@ -76,6 +76,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Dimashq :
 		</subfield>
@@ -272,13 +275,13 @@
 			245-02/r
 		</subfield>
 		<subfield code="a">
-			في شعر النكنة :
+			في شعر النكبة :
 		</subfield>
 		<subfield code="b">
-			بحث تخطيطيفي اصداء نكبة فلسطين في الشعر العربي المعاصر /
+			بحث تخطيطي في اصداء نكبة فلسطين في الشعر العربي المعاصر /
 		</subfield>
 		<subfield code="c">
-			تٱليف صالح الاشتر.
+			[تأليف] صاله الاشتر.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
@@ -286,12 +289,12 @@
 			250-03/r
 		</subfield>
 		<subfield code="a">
-			الطبة ١.
+			الطبعة 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-04/r
 		</subfield>
 		<subfield code="a">
 			دمشق :
@@ -328,13 +331,16 @@
 			NjP_2768852
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm31233151 
+			(OCoLC)ocm31233151
 		</subfield>
 		<subfield code="s">
 			princeton_aco000172
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000172
 		</subfield>
 	</datafield>
 </record>

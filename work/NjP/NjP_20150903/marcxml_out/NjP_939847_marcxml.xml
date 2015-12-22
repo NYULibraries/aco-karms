@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02905nam a2200301   4500
+		03227nam a2200325   4500
 	</leader>
 	<controlfield tag="001">
 		939847
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1885    tu      o     000 0 ara d
+		151222s1885    tu      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="3" tag="245">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			al-Tuḥfah al-bahīyah wa-al-ṭurfah al-shahīyah :
 		</subfield>
@@ -41,6 +44,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Qusṭanṭīnīyah :
 		</subfield>
@@ -155,6 +161,31 @@
 			http://hdl.handle.net/2333.1/2v6wwsv8
 		</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="2" tag="880">
+		<subfield code="6">
+			245-01
+		</subfield>
+		<subfield code="a">
+			التحفة البهية والطرفة الشهية :
+		</subfield>
+		<subfield code="b">
+			فيها سبع عشرت مجموعة منتخبة تشتمل على ادبيات معجبة ونوادر مطربة.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-02
+		</subfield>
+		<subfield code="a">
+			قسطنطينية :
+		</subfield>
+		<subfield code="b">
+			مطبعة الجوائب،
+		</subfield>
+		<subfield code="c">
+			1302 [1885]
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -180,13 +211,16 @@
 			NjP_939847
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm31823671 
+			(OCoLC)ocm31823671
 		</subfield>
 		<subfield code="s">
 			princeton_aco000175
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000175
 		</subfield>
 	</datafield>
 </record>

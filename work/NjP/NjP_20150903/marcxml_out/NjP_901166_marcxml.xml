@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02122nam a2200349   4500
+		03069nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		901166
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111m19909999ir      ob    000 0 ara d
+		151222m19909999ir      ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,11 +33,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Ṣafī, Maḥmūd.
+			Ṣāfī, Maḥmūd. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Jadwal fī iʻrāb al-Qurʼān wa-ṣarfihi wa-bayānih :
 		</subfield>
@@ -45,20 +51,26 @@
 			maʻa fawāʼid naḥwīyah hāmmah /
 		</subfield>
 		<subfield code="c">
-			Maḥmūd Ṣafī.
+			Maḥmūd Ṣāfī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			[Qum] :
 		</subfield>
 		<subfield code="b">
-			Intisharāt Madīn,
+			Intishārāt Madīn,
 		</subfield>
 		<subfield code="c">
 			1990-
@@ -164,7 +176,7 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ṣafī, Maḥmūd.
+			Ṣāfī, Maḥmūd.
 		</subfield>
 		<subfield code="t">
 			al-Jadwal fī iʻrāb al-Qurʼān wa-ṣarfihi wa-bayānih
@@ -179,6 +191,50 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/cfxpnztp
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			صافي، محمود. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			الجدول في اعراب القرآن وصرفه وبيانه :
+		</subfield>
+		<subfield code="b">
+			مع فوائد نحوية هامة /
+		</subfield>
+		<subfield code="c">
+			محمود صافي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04
+		</subfield>
+		<subfield code="a">
+			[قم] :
+		</subfield>
+		<subfield code="b">
+			انتشارات مدىن،
+		</subfield>
+		<subfield code="c">
+			1990-
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -206,7 +262,7 @@
 			NjP_901166
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm30849982 
+			(OCoLC)ocm30849982
 		</subfield>
 		<subfield code="s">
 			princeton_aco000103:mujallad1:juz1-2
@@ -255,6 +311,51 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000103:mujallad1:juz1-2
+		</subfield>
+		<subfield code="s">
+			princeton_aco000104:mujallad2:juz3-4
+		</subfield>
+		<subfield code="s">
+			princeton_aco000105:mujallad3:juz5-6
+		</subfield>
+		<subfield code="s">
+			princeton_aco000106:mujallad4:juz7-8
+		</subfield>
+		<subfield code="s">
+			princeton_aco000107:mujallad5:juz9-10
+		</subfield>
+		<subfield code="s">
+			princeton_aco000108:mujallad6:juz11-12
+		</subfield>
+		<subfield code="s">
+			princeton_aco000109:mujallad7:juz13-14
+		</subfield>
+		<subfield code="s">
+			princeton_aco000110:mujallad8:juz15-16
+		</subfield>
+		<subfield code="s">
+			princeton_aco000111:mujallad9:juz17-18
+		</subfield>
+		<subfield code="s">
+			princeton_aco000112:mujallad10:juz19-20
+		</subfield>
+		<subfield code="s">
+			princeton_aco000113:mujallad11:juz21-22
+		</subfield>
+		<subfield code="s">
+			princeton_aco000114:mujallad12:juz23-24
+		</subfield>
+		<subfield code="s">
+			princeton_aco000115:mujallad13:juz25-26
+		</subfield>
+		<subfield code="s">
+			princeton_aco000116:mujallad14:juz27-28
+		</subfield>
+		<subfield code="s">
+			princeton_aco000117:mujallad15:juz29-30
 		</subfield>
 	</datafield>
 </record>

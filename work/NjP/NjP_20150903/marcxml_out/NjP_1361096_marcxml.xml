@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01360nam a2200325   4500
+		01683nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		1361096
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1888    le      o     000 0 ara d
+		151222s1888    le      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ibn Ājurrūm, Muḥammad ibn Muḥammad,
 		</subfield>
@@ -41,13 +44,22 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Ajurrūmīyah ...
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Beirut,
+			Bayrūt :
+		</subfield>
+		<subfield code="b">
+			Maṭbaʻat al-ābāʼ al-yasūʻyīn,
 		</subfield>
 		<subfield code="c">
 			1888.
@@ -171,6 +183,39 @@
 			http://hdl.handle.net/2333.1/tht76mf6
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ابن آجروم، محمد بن محمد،
+		</subfield>
+		<subfield code="d">
+			1273 or 1274-1323.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الاجرومية ...
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			بيروت :
+		</subfield>
+		<subfield code="b">
+			مطبعة الاباء اليسوعيين،
+		</subfield>
+		<subfield code="c">
+			1888.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -196,13 +241,16 @@
 			NjP_1361096
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm42823954 
+			(OCoLC)ocm42823954
 		</subfield>
 		<subfield code="s">
 			princeton_aco000054
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000054
 		</subfield>
 	</datafield>
 </record>

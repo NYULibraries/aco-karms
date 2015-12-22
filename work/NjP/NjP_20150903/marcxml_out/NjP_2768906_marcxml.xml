@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01788nam a2200337   4500
+		02442nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		2768906
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1930    ua bc   o     000 0darard
+		151222s1930    ua bc   o     000 0darard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,29 +41,41 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ibrāhīm, ʻAbd al-Jawwād Sayyid.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Shadhā al-ṭayyib fī dhikrá Abī al-Ṭayyib :
+			al-Shadhā al-ṭayyib fī dhikrá Abī al-Ṭayyib :
 		</subfield>
 		<subfield code="b">
-			li-ṭalabah al- sanah al-khāmisah al-thānawīyah al-adabīyah /
+			li-ṭalabah al-sanah al-khāmisah al-thānawīyah al-adabīyah /
 		</subfield>
 		<subfield code="c">
 			bi-qalam ʻAbd al-Jawwād ibn Sayyid Ibrāhīm.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			[Egypt] :
+			[Miṣr] :
 		</subfield>
 		<subfield code="b">
 			ʻA. al-J.S. Ibrāhīm,
@@ -75,7 +87,7 @@
 			(Miṣr :
 		</subfield>
 		<subfield code="f">
-			al- Maṭbaʻah al-Ahlīyah al-Kubrá)
+			al-Maṭbaʻah al-Ahlīyah al-Kubrá)
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -133,6 +145,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Mutanabbī, Abū al-Ṭayyib Aḥmad ibn al-Ḥusayn,
 		</subfield>
@@ -189,7 +204,7 @@
 			Ibrāhīm, ʻAbd al-Jawwād Sayyid.
 		</subfield>
 		<subfield code="t">
-			Shadhā al-ṭayyib fī dhikrá Abī al-Ṭayyib
+			al-Shadhā al-ṭayyib fī dhikrá Abī al-Ṭayyib
 		</subfield>
 		<subfield code="w">
 			(NjP)2768906
@@ -201,6 +216,70 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/95x69s5s
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ابراهيم، عبد الجواد سيد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الشذا الطيب في ذكرى ابي الطيب :
+		</subfield>
+		<subfield code="b">
+			لطلبة ل سنة الخامسة الثانوية الادبية /
+		</subfield>
+		<subfield code="c">
+			بقلم عبد الجواد بن سيد ابراهيم.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/r
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			[مصر] :
+		</subfield>
+		<subfield code="b">
+			ع. الج.س. ابراهيم،
+		</subfield>
+		<subfield code="c">
+			1930
+		</subfield>
+		<subfield code="e">
+			(مصر :
+		</subfield>
+		<subfield code="f">
+			المطبعة الاهلية الكبرى)
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-05/r
+		</subfield>
+		<subfield code="a">
+			متنبي، ابو الطيب احمد بن الحسين،
+		</subfield>
+		<subfield code="d">
+			915 or 916-965
+		</subfield>
+		<subfield code="x">
+			Criticism and interpretation.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -228,13 +307,16 @@
 			NjP_2768906
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm31305180 
+			(OCoLC)ocm31305180
 		</subfield>
 		<subfield code="s">
 			princeton_aco000148
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000148
 		</subfield>
 	</datafield>
 </record>

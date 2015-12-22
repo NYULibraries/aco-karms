@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01843nam a2200397   4500
+		02112nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		2754538
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1967    iq      o     000 0 arar 
+		151222s1967    iq      o     000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,24 +41,36 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Khiḍr, ʻAbbās.
+			Khiḍr, ʻAbbās. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Wāqīʻiyah fī al-adab,
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="b">
+		<subfield code="a">
+			al-Wāqiʻiyah fī al-adab /
+		</subfield>
+		<subfield code="c">
 			taʼlīf ʻAbbās Khiḍr.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[Baghdād],
+			Baghdād :
+		</subfield>
+		<subfield code="b">
+			Dār al-Jumhūriyah,
 		</subfield>
 		<subfield code="c">
-			[1967]
+			1967.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -215,7 +227,7 @@
 			Khiḍr, ʻAbbās.
 		</subfield>
 		<subfield code="t">
-			al-Wāqīʻiyah fī al-adab
+			al-Wāqiʻiyah fī al-adab
 		</subfield>
 		<subfield code="w">
 			(NjP)2754538
@@ -238,6 +250,39 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/vhhmgtmn
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			خضر، عباس. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			الواقعية في الادب /
+		</subfield>
+		<subfield code="c">
+			تأليف عباس خضر.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			دار الجمهورية،
+		</subfield>
+		<subfield code="c">
+			1967.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -265,13 +310,16 @@
 			NjP_2754538
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm18582312 
+			(OCoLC)ocm18582312
 		</subfield>
 		<subfield code="s">
 			princeton_aco000149
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000149
 		</subfield>
 	</datafield>
 </record>

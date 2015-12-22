@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01459nam a2200325   4500
+		01774nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		2788566
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1949    sy      od    000 0 ara d
+		151222s1949    sy      od    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,13 +33,19 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Ḥamawī, Maʼmūn.
+			Ḥamawī, Maʼmūn. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Iṣtilāḥāt al-diblūmāsīyah fī'l-Ingilīzīyah wa'l-ʻArabīyah.
+			al-Muṣṭalaḥāt al-diblūmāsīyah fī'l-Ingilīzīyah wa'l-ʻArabīyah.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="246">
@@ -51,8 +57,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Damascus,
+			Dimashq :
+		</subfield>
+		<subfield code="b">
+			[publisher not identified],
 		</subfield>
 		<subfield code="c">
 			1949.
@@ -160,7 +172,7 @@
 			Ḥamawī, Maʼmūn.
 		</subfield>
 		<subfield code="t">
-			Iṣtilāḥāt al-diblūmāsīyah fī'l-Ingilīzīyah wa'l-ʻArabīyah
+			al-Muṣṭalaḥāt al-diblūmāsīyah fī'l-Ingilīzīyah wa'l-ʻArabīyah
 		</subfield>
 		<subfield code="w">
 			(NjP)2788566
@@ -172,6 +184,36 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/x0k6dnjc
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			حموي، مأمون. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			المصطلحات الدبلوماسية في'لانگليزية و'لعربية.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			دمشق :
+		</subfield>
+		<subfield code="b">
+			[publisher not identified], 
+		</subfield>
+		<subfield code="c">
+			1949.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -199,13 +241,16 @@
 			NjP_2788566
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm42883587 
+			(OCoLC)ocm42883587
 		</subfield>
 		<subfield code="s">
 			princeton_aco000066
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000066
 		</subfield>
 	</datafield>
 </record>

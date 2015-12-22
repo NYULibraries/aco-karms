@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02176nam a2200421   4500
+		02268nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		794234
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111r19881897ir      o     001 0darar 
+		151222r19881897ir      o     001 0darar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,13 +41,16 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Van Dyck, Edward Abbott.
+			Van Dyck, Edward Abbott. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">
-			880-01
+			880-02
 		</subfield>
 		<subfield code="a">
 			Iktifāʼ al-qanūʻ bimā huwa maṭbūʻ /
@@ -58,13 +61,16 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
 		<subfield code="6">
-			880-02
+			880-03
 		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 2.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Qum :
 		</subfield>
@@ -226,9 +232,17 @@
 			http://hdl.handle.net/2333.1/b2rbp2q2
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			فند يك، ادوارد. 
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-01/r
+			245-02/r
 		</subfield>
 		<subfield code="a">
 			اكتفاء القنوع بما هو مطبوع /
@@ -239,7 +253,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			250-02/r
+			250-03/r
 		</subfield>
 		<subfield code="a">
 			الطبعة ٢.
@@ -247,7 +261,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-04/r
 		</subfield>
 		<subfield code="a">
 			قم :
@@ -284,13 +298,16 @@
 			NjP_794234
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm24404700 
+			(OCoLC)ocm24404700
 		</subfield>
 		<subfield code="s">
 			princeton_aco000146
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000146
 		</subfield>
 	</datafield>
 </record>

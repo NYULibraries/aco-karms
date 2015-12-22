@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01672nam a2200385   4500
+		01748nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		2963626
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111m19639999sy      o     000 0 ara d
+		151222m19639999sy      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -163,6 +163,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Āl Thānī, ʻAlī.
 		</subfield>
@@ -191,7 +194,7 @@
 			(NjP)2963626
 		</subfield>
 		<subfield code="w">
-			(DLC)   65000857 
+			(DLC)  65000857 
 		</subfield>
 		<subfield code="w">
 			(OCoLC)123002097
@@ -204,7 +207,7 @@
 	</datafield>
 	<datafield ind1="0" ind2="2" tag="880">
 		<subfield code="6">
-			245-01/r
+			245-01
 		</subfield>
 		<subfield code="a">
 			المختارات الشعرية /
@@ -215,7 +218,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			250-02/r
+			250-02
 		</subfield>
 		<subfield code="a">
 			الطبعة 1.
@@ -223,7 +226,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-03/r
+			260-03
 		</subfield>
 		<subfield code="a">
 			دمشق :
@@ -233,6 +236,14 @@
 		</subfield>
 		<subfield code="c">
 			1963-
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04
+		</subfield>
+		<subfield code="a">
+			آل ثاني، علي.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -267,6 +278,9 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000168:vol.1
 		</subfield>
 	</datafield>
 </record>

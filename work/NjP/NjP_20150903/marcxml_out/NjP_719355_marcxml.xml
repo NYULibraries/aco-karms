@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02187nam a2200337   4500
+		03160nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		719355
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1856    ir      o     000 0 ara d
+		151222s1856    ir      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Muṭarrizī, Nāṣir ibn ʻAbd al-Sayyid,
 		</subfield>
@@ -41,11 +44,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Sharḥ laṭīf li-Abī al-Muẓaffar Nāṣir ibn al-Muṭarrizī ʻalá al-Maqāmāt allatī anshaʼahā al-Imām jamāl al-ʻaṣr Abī al-Qāsim ibn ʻAlī al-Ḥarīrī
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Hādhā sharḥ laṭīf li-Abī al-Muẓaffar Nāṣir ibn al-Muṭarrizī ʻalá al-Maqāmāt allatī anshaʼahā al-Imām jamāl al-ʻaṣr Abī al-Qāsim ibn ʻAlī al-Ḥarīrī
 		</subfield>
@@ -54,11 +63,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Sharḥ laṭīf li-Abī al-Muẓaffar Nāṣir ibn al-Muṭarrizī ʻalá al-Maqāmāt allatī anshaʼahā al-Imām jamāl al-ʻaṣr Abī al-Qāsim ibn ʻAlī al-Ḥarīrī
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			[Tehran?] :
 		</subfield>
@@ -121,6 +136,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Ḥarīrī,
 		</subfield>
@@ -185,6 +203,72 @@
 			http://hdl.handle.net/2333.1/5hqbzpcc
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			مطرزي، ناصر بن عبد السيد،
+		</subfield>
+		<subfield code="d">
+			1144-1213.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02
+		</subfield>
+		<subfield code="a">
+			شرح لطيف لابي المظفر ناصر بن المطرزي على المقامات التي انشأها الامام جمال العصر ابي القاسم بن علي الحريري
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-03
+		</subfield>
+		<subfield code="a">
+			هاذا شرح لطيف لابي المظفر ناصر بن المطرزي على المقامات التي انشأها الامام جمال العصر ابي القاسم بن علي الحريري
+		</subfield>
+		<subfield code="h">
+			[مرفرم].
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-04
+		</subfield>
+		<subfield code="a">
+			شرح لطيف لابي المظفر ناصر بن المطرزي على المقامات التي انشأها الامام جمال العصر ابي القاسم بن علي الحريري
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-05
+		</subfield>
+		<subfield code="a">
+			[طهران؟] :
+		</subfield>
+		<subfield code="b">
+			[publisher not identified],
+		</subfield>
+		<subfield code="c">
+			1272 [1856]
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">
+			600-06
+		</subfield>
+		<subfield code="a">
+			حريري،
+		</subfield>
+		<subfield code="d">
+			1054-1122.
+		</subfield>
+		<subfield code="t">
+			مقامات.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -210,13 +294,16 @@
 			NjP_719355
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm25878222 
+			(OCoLC)ocm25878222
 		</subfield>
 		<subfield code="s">
 			princeton_aco000087
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)(ERROR-MISC)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000087
 		</subfield>
 	</datafield>
 </record>

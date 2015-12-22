@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02255nam a2200445   4500
+		02406nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		4133356
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1967    ir      od    000 0 arard
+		151222s1967    ir      od    000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -113,7 +113,7 @@
 			rdacarrier
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="6">
 			880-04
 		</subfield>
@@ -231,6 +231,17 @@
 			15.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-07
+		</subfield>
+		<subfield code="a">
+			Farhangʹhā-yi tāzī bih Pārsī ;
+		</subfield>
+		<subfield code="v">
+			1.
+		</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/q83bk6j0
@@ -238,7 +249,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-01/r
+			100-01
 		</subfield>
 		<subfield code="a">
 			ميداني، احمد بن محمد،,
@@ -249,7 +260,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-02/r
+			245-02
 		</subfield>
 		<subfield code="a">
 			السامى فى الأسامى /
@@ -260,7 +271,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-03/r
+			260-03
 		</subfield>
 		<subfield code="a">
 			[تهران] :
@@ -272,9 +283,9 @@
 			1345 [1967]
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
+	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			490-04/r
+			490-04
 		</subfield>
 		<subfield code="a">
 			فرهنگ‌هاي تازى به پارسى ؛
@@ -285,7 +296,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			490-05/r
+			490-05
 		</subfield>
 		<subfield code="a">
 			انتشارات بنىاد فرهنگ ايران ؛
@@ -296,13 +307,24 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
 		<subfield code="6">
-			830-06/r
+			830-06
 		</subfield>
 		<subfield code="a">
 			انتشارات بنىاد فرهنگ ايران ؛ ;
 		</subfield>
 		<subfield code="v">
 			15.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-07
+		</subfield>
+		<subfield code="a">
+			فرهنگهاي تازي به پارسي ؛
+		</subfield>
+		<subfield code="v">
+			1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -330,13 +352,16 @@
 			NjP_4133356
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm30457491 
+			(OCoLC)ocm30457491
 		</subfield>
 		<subfield code="s">
 			princeton_aco000067
 		</subfield>
 		<subfield code="e">
 			(ERROR-SERIES)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000067
 		</subfield>
 	</datafield>
 </record>

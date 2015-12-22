@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02549nam a2200433   4500
+		03519nam a2200505   4500
 	</leader>
 	<controlfield tag="001">
 		321611
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1984    ir      od    000 0 arard
+		151222s1984    ir      od    000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -49,6 +49,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ibn Manẓūr, Muḥammad ibn Mukarram,
 		</subfield>
@@ -57,6 +60,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Lisān al-ʻArab /
 		</subfield>
@@ -65,11 +71,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Muṣṭalaḥāt al-ʻilmīyah wa-al-fannīyah
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Qum, Īrān :
 		</subfield>
@@ -200,16 +212,22 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Marʻashlī, Nadīm.
+			Marʻashlī, Nadīm. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Khayyāṭ, Yūsuf.
 		</subfield>
 		<subfield code="t">
-			Muṣṭalaḥāt al-ʻilmīyah wa-al-fannīyah.
+			Muṣṭalaḥāt al-ʻilmīyah wa-al-fannīyah. 
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -264,6 +282,69 @@
 			http://hdl.handle.net/2333.1/83bk3n70
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			ابن منظور، محمد بن مكرم،
+		</subfield>
+		<subfield code="d">
+			1232-1311 or 1312.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			لسان العرب /
+		</subfield>
+		<subfield code="c">
+			لابي الفضل جمال الدين محمد بن مكرم بن منظور الافريقي المصري.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-03
+		</subfield>
+		<subfield code="a">
+			مصطلحات العلمية والفنية 
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04
+		</subfield>
+		<subfield code="a">
+			قم، ايران :
+		</subfield>
+		<subfield code="b">
+			ادب الحوزة،
+		</subfield>
+		<subfield code="c">
+			1405 [1984]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05
+		</subfield>
+		<subfield code="a">
+			مرعشلي، نديم.  
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-06
+		</subfield>
+		<subfield code="a">
+			خياط، يوسف.
+		</subfield>
+		<subfield code="t">
+			مصطلحات العلمية والفنية. 
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -289,7 +370,7 @@
 			NjP_321611
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm13541001 
+			(OCoLC)ocm13541001
 		</subfield>
 		<subfield code="s">
 			princeton_aco000153:v.1
@@ -338,6 +419,51 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000153:v.1
+		</subfield>
+		<subfield code="s">
+			princeton_aco000154:v.2
+		</subfield>
+		<subfield code="s">
+			princeton_aco000155:v.3
+		</subfield>
+		<subfield code="s">
+			princeton_aco000156:v.4
+		</subfield>
+		<subfield code="s">
+			princeton_aco000157:v.5
+		</subfield>
+		<subfield code="s">
+			princeton_aco000158:v.6
+		</subfield>
+		<subfield code="s">
+			princeton_aco000159:v.7
+		</subfield>
+		<subfield code="s">
+			princeton_aco000160:v.8
+		</subfield>
+		<subfield code="s">
+			princeton_aco000161:v.9
+		</subfield>
+		<subfield code="s">
+			princeton_aco000162:v.10
+		</subfield>
+		<subfield code="s">
+			princeton_aco000163:v.11
+		</subfield>
+		<subfield code="s">
+			princeton_aco000164:v.12
+		</subfield>
+		<subfield code="s">
+			princeton_aco000165:v.13
+		</subfield>
+		<subfield code="s">
+			princeton_aco000166:v.14
+		</subfield>
+		<subfield code="s">
+			princeton_aco000167:v.15
 		</subfield>
 	</datafield>
 </record>
