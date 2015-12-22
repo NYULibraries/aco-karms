@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02044nam a2200397   4500
+		02234nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		3867177
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111m1937uuuuua      o     000 0 arard
+		151222s1937    ua      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -49,6 +49,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Adab al-ʻArabī wa-tārīkhih /
 		</subfield>
@@ -58,13 +61,16 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
 		<subfield code="6">
-			880-02
+			880-03
 		</subfield>
 		<subfield code="a">
-			al-Ṭabʻah 2.
+			al-Ṭabʻah 2. Bihā ziyādāt kathīrah maʻa sharḥ jamīʻ al-nuṣūs sharḥan lughawiyyan balāghiyan.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Miṣr :
 		</subfield>
@@ -72,7 +78,7 @@
 			Muṣṭafá al-Bābī al-Ḥalabī,
 		</subfield>
 		<subfield code="c">
-			1937-
+			1937.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -198,7 +204,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-01/r
+			100-01
 		</subfield>
 		<subfield code="a">
 			مصطفى، محمود.
@@ -206,7 +212,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-00/r
+			245-02
 		</subfield>
 		<subfield code="a">
 			الأدب العربي وتاريخه /
@@ -217,7 +223,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			250-02/r
+			250-03
 		</subfield>
 		<subfield code="a">
 			الطبعة ٢.، بها زيادات كثيرة مع شرح جميع النصوص شرحا ًلغويا ًبلاغيا.ً.
@@ -225,7 +231,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-04
 		</subfield>
 		<subfield code="a">
 			مصر :
@@ -262,7 +268,7 @@
 			NjP_3867177
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm44796040 
+			(OCoLC)ocm44796040
 		</subfield>
 		<subfield code="s">
 			princeton_aco000130:vol.1
@@ -275,6 +281,15 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000130:vol.1
+		</subfield>
+		<subfield code="s">
+			princeton_aco000131:vol.2
+		</subfield>
+		<subfield code="s">
+			princeton_aco000132:vol.3
 		</subfield>
 	</datafield>
 </record>

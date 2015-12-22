@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02467nam a2200409   4500
+		02679nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		4133115
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1914    ua      o     000 0 arao 
+		151222s1914    ua      o     000 0 arao 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -51,7 +51,18 @@
 			1270 or 1271-approximately 1348.
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
+		<subfield code="a">
+			al-ṭirāz
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Kitāb al-ṭirāz al-mutaḍammin li-asrār al-balāghah wa-ʻulūm ḥaqāʼiq al-aʻjāz /
 		</subfield>
@@ -60,11 +71,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Ṭirāz
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Miṣr :
 		</subfield>
@@ -218,12 +235,15 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			مؤيد، يحيى بن حمزه.
+			مؤيد، يحيى بن حمزه،
+		</subfield>
+		<subfield code="d">
+			1270 or 1271-approximately 1348.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			240-00/r
+			240-02/r
 		</subfield>
 		<subfield code="a">
 			الطراز
@@ -231,7 +251,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-00/r
+			245-03/r
 		</subfield>
 		<subfield code="a">
 			كتاب الطراز المتضمن لأسرار البلاغة وعلوم حقائق الاعجاز /
@@ -240,9 +260,17 @@
 			تأليف يحيى بن حمزه بن على بن ابراهيم العلوى اليمنى.
 		</subfield>
 	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-04/r
+		</subfield>
+		<subfield code="a">
+			طراز 
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-05/r
 		</subfield>
 		<subfield code="a">
 			مصر :
@@ -279,7 +307,7 @@
 			NjP_4133115
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm32577276 
+			(OCoLC)ocm32577276
 		</subfield>
 		<subfield code="s">
 			princeton_aco000009:vol.1
@@ -292,6 +320,15 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000009:vol.1
+		</subfield>
+		<subfield code="s">
+			princeton_aco000010:vol.2
+		</subfield>
+		<subfield code="s">
+			princeton_aco000011:vol.3
 		</subfield>
 	</datafield>
 </record>

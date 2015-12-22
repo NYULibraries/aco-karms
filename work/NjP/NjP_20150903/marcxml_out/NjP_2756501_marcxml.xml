@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02305nam a2200433   4500
+		02392nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		2756501
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1970    iq h    ob    000 0 arar 
+		151222s1970    iq h    ob    000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -66,13 +66,16 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="4" tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			ʻUmda, risala fi ʼl-khatt wa-ʼl-qalam
+			ʻUmda, risalah fi al-khatt wa al-qalam
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
 		<subfield code="6">
-			880-03
+			880-04
 		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 1.
@@ -80,7 +83,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-04
+			880-05
 		</subfield>
 		<subfield code="a">
 			Baghdād :
@@ -169,7 +172,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-05
+			880-06
 		</subfield>
 		<subfield code="a">
 			Nājī, Hilāl.
@@ -222,7 +225,7 @@
 			(NjP)2756501
 		</subfield>
 		<subfield code="w">
-			(DLC)   74962065 
+			(DLC)  74962065 
 		</subfield>
 		<subfield code="w">
 			(OCoLC)20384452
@@ -235,10 +238,10 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-01/r
+			100-01
 		</subfield>
 		<subfield code="a">
-			هيتي، عبد الله بن علي،,
+			هيتي، عبد الله بن علي،
 		</subfield>
 		<subfield code="d">
 			approximately 1413-1486.
@@ -246,7 +249,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-02/r
+			245-02
 		</subfield>
 		<subfield code="a">
 			العمدة :
@@ -258,9 +261,17 @@
 			تصنيف عبد الله بن علي الهيتي ؛ حققه وقدم له هلال ناجي.
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			246-03
+		</subfield>
+		<subfield code="a">
+			عمد، رسالة في الخط و القلم
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			250-03/r
+			250-04
 		</subfield>
 		<subfield code="a">
 			الطبعة 1.
@@ -268,7 +279,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-04/r
+			260-05
 		</subfield>
 		<subfield code="a">
 			بغداد :
@@ -282,7 +293,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-05/r
+			700-06
 		</subfield>
 		<subfield code="a">
 			ناجي، هلال.
@@ -313,13 +324,16 @@
 			NjP_2756501
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm20384452 
+			(OCoLC)ocm20384452
 		</subfield>
 		<subfield code="s">
 			princeton_aco000093
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000093
 		</subfield>
 	</datafield>
 </record>

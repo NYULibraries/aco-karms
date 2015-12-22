@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01624nam a2200337   4500
+		02194nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		497627
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111m19849999ir      o     000 0 ara d
+		151222m19849999ir      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Suyūṭī,
 		</subfield>
@@ -41,6 +44,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Bahjah al-marḍīyah /
 		</subfield>
@@ -49,6 +55,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			[Qum] :
 		</subfield>
@@ -111,6 +120,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Ibn Mālik, Muḥammad ibn ʻAbd Allāh,
 		</subfield>
@@ -155,8 +167,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Ḥusaynī al-Dashtī, Muṣṭafá.
+			Ḥusaynī al-Dashtī, Muṣṭafá. 
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -194,6 +209,64 @@
 			http://hdl.handle.net/2333.1/x95x6dqc
 		</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			سيوطي،
+		</subfield>
+		<subfield code="d">
+			1445-1505.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			البهجة المرضية /
+		</subfield>
+		<subfield code="c">
+			لجلال الدين (لسيوطي) على الفية ابن مالك ؛ بتعليقة مصطفى الحسيني الدشتي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			[قم] :
+		</subfield>
+		<subfield code="b">
+			مكتبة المفيد والفيروزابادي،
+		</subfield>
+		<subfield code="c">
+			63 [ا.. 1984]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-04/r
+		</subfield>
+		<subfield code="a">
+			ابن مالك، محمد بن عبد الله،
+		</subfield>
+		<subfield code="d">
+			1274.
+		</subfield>
+		<subfield code="t">
+			الفية.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/r
+		</subfield>
+		<subfield code="a">
+			حسيني الدشتي، مصطفى.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -219,13 +292,16 @@
 			NjP_497627
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm26453095 
+			(OCoLC)ocm26453095
 		</subfield>
 		<subfield code="s">
 			princeton_aco000021:juz1-2
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000021:juz1-2
 		</subfield>
 	</datafield>
 </record>

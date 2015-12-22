@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02873nam a2200457   4500
+		02950nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		1536387
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111r19641861iq      o     001 0 ara d
+		151222r19641861iq      o     001 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -204,8 +204,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Dieterici, Friedrich.
+			Dieterici, Friedrich. 
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -265,7 +268,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-01/r
+			100-01
 		</subfield>
 		<subfield code="a">
 			متنبي، أبو الطيب أحمد بن الحسين،,
@@ -276,7 +279,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-02/r
+			245-02
 		</subfield>
 		<subfield code="a">
 			ديوان أبي الطيب المتنبي /
@@ -287,7 +290,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-03/r
+			260-03
 		</subfield>
 		<subfield code="a">
 			برلين :
@@ -310,13 +313,21 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-04/r
+			700-04
 		</subfield>
 		<subfield code="a">
 			واحدي نيسابوري، أبو الحسن علي،,
 		</subfield>
 		<subfield code="d">
 			-1075 or 6.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05
+		</subfield>
+		<subfield code="a">
+			ديتريصي، فريدرخ. 
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -344,13 +355,16 @@
 			NjP_1536387
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm18484128 
+			(OCoLC)ocm18484128
 		</subfield>
 		<subfield code="s">
 			princeton_aco000099
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000099
 		</subfield>
 	</datafield>
 </record>

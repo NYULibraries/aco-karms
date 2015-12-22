@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01507nam a2200325   4500
+		01976nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		2786662
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111q19641965ir      o     000 0 ara d
+		151222q19641965ir      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,30 +33,39 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ibn Masʻūd, Aḥmad ibn ʻAlī,
 		</subfield>
 		<subfield code="d">
-			active 14th century.
+			active 13th century.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Marāḥ al-arwaḥ.
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="b">
+		<subfield code="a">
+			Marāḥ al-arwaḥ /
+		</subfield>
+		<subfield code="c">
 			Ṣaḥḥaḥahu wa-ashrafa ʻalā ṭabʻihi Hidāyat Allāh al-Mustarḥimī al-Jarqūʼī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Tehran,
+			Ṭehrān :
 		</subfield>
 		<subfield code="b">
 			Maktabat al-Farāhānī,
 		</subfield>
 		<subfield code="c">
-			1384 [1964 or 5]
+			1384 [1964 or 1965]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -138,8 +147,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			al-Mustarḥimī al-Jarqūʼī, Hidāyat Allāh,
+			Mustarḥimī al-Jarqūʼī, Hidāyat Allāh,
 		</subfield>
 		<subfield code="e">
 			editor.
@@ -163,7 +175,7 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ibn Masʻūd, Aḥmad ibn ʻAlī, active 14th century.
+			Ibn Masʻūd, Aḥmad ibn ʻAlī, active 13th century.
 		</subfield>
 		<subfield code="t">
 			Marāḥ al-arwaḥ
@@ -178,6 +190,53 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/kprr51fg
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			ابن مسعود، احمد بن علي،
+		</subfield>
+		<subfield code="d">
+			active 13th century.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			مراح الاروح /
+		</subfield>
+		<subfield code="c">
+			صححه واشرف على طبعه هداية الله المسترحمي الجرقوئي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03
+		</subfield>
+		<subfield code="a">
+			طهران :
+		</subfield>
+		<subfield code="b">
+			مكتبة الفراهاني،
+		</subfield>
+		<subfield code="c">
+			1384 [1964 or 1965]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04
+		</subfield>
+		<subfield code="a">
+			مسترحمي الجرقوئي، هداية الله،
+		</subfield>
+		<subfield code="e">
+			editor.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -205,13 +264,16 @@
 			NjP_2786662
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm42830149 
+			(OCoLC)ocm42830149
 		</subfield>
 		<subfield code="s">
 			princeton_aco000074
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000074
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01797nam a2200349   4500
+		02442nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		2701950
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1932    mr      o     000 0 ara d
+		151222s1932    mr      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			ʻAlamī, Maḥammad bin Muḥammad,
 		</subfield>
@@ -41,6 +44,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Sirāj al-mawḍūʻ ʻalá al-ʻalam al-marfūʻ /
 		</subfield>
@@ -120,7 +126,10 @@
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="2" tag="600">
+	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			ʻAlamī, Maḥammad bin Muḥammad,
 		</subfield>
@@ -128,7 +137,7 @@
 			1875 or 1876-1953 or 1954.
 		</subfield>
 		<subfield code="t">
-			ʻIlm al-marfūʻ
+			ʻIlm al-marfūʻ. 
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="7" tag="655">
@@ -154,11 +163,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="2" tag="730">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Jadwal al-nisbah al-sittīnīyah.
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="2" tag="730">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Jadwal al-ẓill al-ithná ʻashrī al-maḥlūl.
 		</subfield>
@@ -190,6 +205,58 @@
 			http://hdl.handle.net/2333.1/bvq83fh5
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			علمي، محمد بن محمد،
+		</subfield>
+		<subfield code="d">
+			1875 or 1876-1953 or 1954.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			السراج الموضوع على العلم المرفوع /
+		</subfield>
+		<subfield code="c">
+			كلاهما للفقير ابي عبد الله محمد بن محمد العلمي. ويليه جدول النسبة الستينية.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-03/r
+		</subfield>
+		<subfield code="a">
+			علمي، محمد بن محمد، 
+		</subfield>
+		<subfield code="d">
+			1875 or 1876-1953 or 1954.
+		</subfield>
+		<subfield code="t">
+			عالم المرفوع. 
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="2" tag="880">
+		<subfield code="6">
+			730-04/r
+		</subfield>
+		<subfield code="a">
+			جدول النسبة الستينية.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="2" tag="880">
+		<subfield code="6">
+			730-05/r
+		</subfield>
+		<subfield code="a">
+			جدول الظل الاثنى عشري المحلول.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -215,13 +282,16 @@
 			NjP_2701950
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm79717441 
+			(OCoLC)ocm79717441
 		</subfield>
 		<subfield code="s">
 			princeton_aco000143
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000143
 		</subfield>
 	</datafield>
 </record>

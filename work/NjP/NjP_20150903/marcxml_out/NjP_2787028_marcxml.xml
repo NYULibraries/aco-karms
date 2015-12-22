@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01390nam a2200337   4500
+		01749nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		2787028
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1948    sy      o     000 0 ara d
+		151222s1948    sy      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,21 +33,33 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Nuṣṣ, Iḥsān,
 		</subfield>
 		<subfield code="e">
-			compiler.
+			compiler. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			al-Rāʻid fīʹl-adab al'ʻarabī ...
+			al-Rāʼid fī̄ al-adab al-ʻarabī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Damascus
+			Dimashaq :
+		</subfield>
+		<subfield code="b">
+			al-Maṭbaʻah al-Hāshmiyah,
 		</subfield>
 		<subfield code="c">
 			[1948]
@@ -131,6 +143,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Hindāwī, Khalīl,
 		</subfield>
@@ -159,7 +174,7 @@
 			Nuṣṣ, Iḥsān, compiler.
 		</subfield>
 		<subfield code="t">
-			al-Rāʻid fīʹl-adab al'ʻarabī
+			al-Rāʼid fī̄ al-adab al-ʻarabī
 		</subfield>
 		<subfield code="w">
 			(NjP)2787028
@@ -171,6 +186,50 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/69p8d26x
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			نص، احسان،
+		</subfield>
+		<subfield code="e">
+			compiler. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الرائد في الادب العربي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			دمشق :
+		</subfield>
+		<subfield code="b">
+			المطبعة الهاشمية،
+		</subfield>
+		<subfield code="c">
+			[1948]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/r
+		</subfield>
+		<subfield code="a">
+			هنداوي، خليل،
+		</subfield>
+		<subfield code="e">
+			compiler. 
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -198,13 +257,16 @@
 			NjP_2787028
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm42840723 
+			(OCoLC)ocm42840723
 		</subfield>
 		<subfield code="s">
 			princeton_aco000126
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000126
 		</subfield>
 	</datafield>
 </record>

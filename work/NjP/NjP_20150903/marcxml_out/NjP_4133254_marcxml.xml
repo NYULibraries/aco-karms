@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01773nam a2200361   4500
+		01793nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		4133254
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1963    sy      ob    000 0 araod
+		151222s1963    sy      ob    000 0 araod
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -49,6 +49,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Marjaʻ fī tadrīs al-lughah al-ʻArabīyah :
 		</subfield>
@@ -60,14 +63,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Damascus :
+			Dimashaq :
 		</subfield>
 		<subfield code="b">
-			[publisher not identified],
+			Maktabat AṬlas,
 		</subfield>
 		<subfield code="c">
-			1963.
+			1962-1963.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -193,7 +199,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-00/r
+			245-02/r
 		</subfield>
 		<subfield code="a">
 			المرجع في تدريس اللغة العربية :
@@ -207,16 +213,16 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			دمشق :
 		</subfield>
 		<subfield code="b">
-			مكتبة أطلس،
+			مكتبة اطلس،
 		</subfield>
 		<subfield code="c">
-			1962-1963 [i.e. 1963]
+			1962-1963.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -244,13 +250,16 @@
 			NjP_4133254
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm10194394 
+			(OCoLC)ocm10194394
 		</subfield>
 		<subfield code="s">
 			princeton_aco000038
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000038
 		</subfield>
 	</datafield>
 </record>

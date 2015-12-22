@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02103nam a2200361   4500
+		02222nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		1666600
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1969    iq      ob    000 0barar 
+		151222s1969    iq      ob    000 0barar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,11 +41,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			al-ʻUbaydī, Rashīd ʻAbd al-Raḥmān.
+			ʻUbaydī, Rashīd ʻAbd al-Raḥmān. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Abū ʻUthmān al-Māzinī wa-madhāhibuhu fī al-Ṣarf wa-al-Naḥū
 		</subfield>
@@ -55,7 +61,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-01
+			880-03
 		</subfield>
 		<subfield code="a">
 			Baghdād :
@@ -124,8 +130,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			al-Māzinī, Bakr ibn Muḥammad,
+			Māzinī, Bakr ibn Muḥammad,
 		</subfield>
 		<subfield code="d">
 			active 9th century.
@@ -166,7 +175,7 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			al-ʻUbaydī, Rashīd ʻAbd al-Raḥmān.
+			ʻUbaydī, Rashīd ʻAbd al-Raḥmān.
 		</subfield>
 		<subfield code="t">
 			Abū ʻUthmān al-Māzinī wa-madhāhibuhu fī al-Ṣarf wa-al-Naḥū
@@ -188,7 +197,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-00/r
+			100-01/r
 		</subfield>
 		<subfield code="a">
 			عبيدي، رشيد عبد الرحمن.
@@ -196,7 +205,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-00/r
+			245-02/r
 		</subfield>
 		<subfield code="a">
 			أبو عثمان المازني ومذاهبه في الصرف والنحو /
@@ -207,7 +216,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-01/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			بغداد :
@@ -217,6 +226,17 @@
 		</subfield>
 		<subfield code="c">
 			١٩٦٩.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-04/r
+		</subfield>
+		<subfield code="a">
+			مازني، بكر بن محمد،
+		</subfield>
+		<subfield code="d">
+			active 9th century.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -244,13 +264,16 @@
 			NjP_1666600
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm08534533 
+			(OCoLC)ocm08534533
 		</subfield>
 		<subfield code="s">
 			princeton_aco000042
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000042
 		</subfield>
 	</datafield>
 </record>

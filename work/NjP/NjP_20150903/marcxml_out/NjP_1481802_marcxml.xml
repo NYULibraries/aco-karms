@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02605nam a2200445   4500
+		02653nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		1481802
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1970    iq h    ob    000 0barar 
+		151222s1970    iq h    ob    000 0barar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -62,9 +62,17 @@
 			li-Abī al-Barakāt Kamāl al-Dīn ʻAbd al-Raḥmān ibn Muḥammad al-Anbārī ; qāma bi-taḥqīqihi Ibrāhīm al-Sāmarrāʼī.
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="260">
+	<datafield ind1=" " ind2=" " tag="250">
 		<subfield code="6">
 			880-03
+		</subfield>
+		<subfield code="a">
+			al-Ṭabʻah 2.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
 		</subfield>
 		<subfield code="a">
 			Baghdād :
@@ -186,7 +194,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-04
+			880-05
 		</subfield>
 		<subfield code="a">
 			Sāmarrāʼī, Ibrāhīm,
@@ -239,7 +247,7 @@
 			(NjP)1481802
 		</subfield>
 		<subfield code="w">
-			(DLC)   79297466 
+			(DLC)  79297466 
 		</subfield>
 		<subfield code="w">
 			(OCoLC)19620289
@@ -252,10 +260,10 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-01/r
+			100-01
 		</subfield>
 		<subfield code="a">
-			ابن الانباري، عبد الرحمن بن محمد،,
+			ابن الانباري، عبد الرحمن بن محمد،
 		</subfield>
 		<subfield code="d">
 			1119-1181.
@@ -263,7 +271,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-02/r
+			245-02
 		</subfield>
 		<subfield code="a">
 			نزهة الالباء في طبقات الادباء /
@@ -274,7 +282,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			250-00/r
+			250-03
 		</subfield>
 		<subfield code="a">
 			الطبعة 2.
@@ -282,7 +290,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-03/r
+			260-04
 		</subfield>
 		<subfield code="a">
 			بغداد : مكتبة الاندلس،
@@ -293,7 +301,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-04/r
+			700-05
 		</subfield>
 		<subfield code="a">
 			سامرائي، ابراهيم،.
@@ -324,13 +332,16 @@
 			NjP_1481802
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm19620289 
+			(OCoLC)ocm19620289
 		</subfield>
 		<subfield code="s">
 			princeton_aco000039
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000039
 		</subfield>
 	</datafield>
 </record>

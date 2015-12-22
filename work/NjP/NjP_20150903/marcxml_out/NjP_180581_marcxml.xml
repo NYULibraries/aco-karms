@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02835nam a2200481   4500
+		03340nam a2200565   4500
 	</leader>
 	<controlfield tag="001">
 		180581
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1939    ua      o     000 0 arard
+		151222s1939    ua      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -63,23 +63,35 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			ʻUqūd al-jumān
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Jawāhir al-maknūn
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Ḥilyat al-lubb al-maṣūn
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
-			[Cairo] :
+			[Miṣr] :
 		</subfield>
 		<subfield code="b">
 			Maṭbaʻat Muṣṭafá al-Bābī al-Ḥalabī,
@@ -161,9 +173,20 @@
 			(OCoLC)fst00812415
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-07
+		</subfield>
+		<subfield code="a">
+			Damanhūrī, Aḥmad ibn ʻAbd al-Munʻim.
+		</subfield>
+		<subfield code="t">
+			Ḥilyat al-lubb al-maṣūn. 
+		</subfield>
+	</datafield>
 	<datafield ind1="0" ind2=" " tag="700">
 		<subfield code="6">
-			880-03
+			880-08
 		</subfield>
 		<subfield code="a">
 			Suyūṭī,
@@ -177,7 +200,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-04
+			880-09
 		</subfield>
 		<subfield code="a">
 			Akhḍārī, ʻAbd al-Raḥmān ibn Muḥammad,
@@ -190,6 +213,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-10
+		</subfield>
 		<subfield code="a">
 			Damanhūrī, Aḥmad ibn ʻAbd al-Munʻim.
 		</subfield>
@@ -210,6 +236,22 @@
 			Arabic Collections Online.
 		</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-11
+		</subfield>
+		<subfield code="a">
+			ʻUqūd al-jumān.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="740">
+		<subfield code="6">
+			880-12
+		</subfield>
+		<subfield code="a">
+			Ḥilyat al-lubb al-maṣūn.
+		</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
 			Print version:
@@ -224,7 +266,7 @@
 			(NjP)180581
 		</subfield>
 		<subfield code="w">
-			(DLC)   82960216 
+			(DLC)  82960216 
 		</subfield>
 		<subfield code="w">
 			(OCoLC)11272546
@@ -237,10 +279,10 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-01/r
+			100-01
 		</subfield>
 		<subfield code="a">
-			سيوطى،,
+			سيوطى،
 		</subfield>
 		<subfield code="d">
 			1505-1445.
@@ -248,7 +290,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-02/r
+			245-02
 		</subfield>
 		<subfield code="a">
 			شرح عقود الجمان فى علم المعانى والبيان /
@@ -257,9 +299,33 @@
 			تأليف جلال الدين عبدالرحمن السيوطى. وبهامشه حلية اللب المصون على الجوهر المكنون / أحمد الدمنهورى.
 		</subfield>
 	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-03
+		</subfield>
+		<subfield code="a">
+			عقود الجمان
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-04
+		</subfield>
+		<subfield code="a">
+			جواهر المكنون
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-05
+		</subfield>
+		<subfield code="a">
+			حلية اللب المصون
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-06
 		</subfield>
 		<subfield code="a">
 			مصر :
@@ -273,7 +339,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="4" tag="880">
 		<subfield code="6">
-			600-00/r
+			600-07
 		</subfield>
 		<subfield code="a">
 			دمنهورى، أحمد بن عبدالمنعم.
@@ -284,7 +350,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			700-03/r
+			700-08
 		</subfield>
 		<subfield code="a">
 			سيوطى،,
@@ -298,7 +364,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			700-04/r
+			700-09
 		</subfield>
 		<subfield code="a">
 			أخضرى، عبدالرحمن بن محمد،,
@@ -310,9 +376,20 @@
 			جوهر المكنون.
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-10
+		</subfield>
+		<subfield code="a">
+			دمنهوري، احمد بن عبد المنعم.
+		</subfield>
+		<subfield code="t">
+			حلية اللب المصون.
+		</subfield>
+	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
 		<subfield code="6">
-			740-00/r
+			740-11
 		</subfield>
 		<subfield code="a">
 			عقود الجمان.
@@ -320,7 +397,7 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
 		<subfield code="6">
-			740-00/r
+			740-12
 		</subfield>
 		<subfield code="a">
 			حلية اللب المصون.
@@ -351,13 +428,16 @@
 			NjP_180581
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm11272546 
+			(OCoLC)ocm11272546
 		</subfield>
 		<subfield code="s">
 			princeton_aco000079
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000079
 		</subfield>
 	</datafield>
 </record>

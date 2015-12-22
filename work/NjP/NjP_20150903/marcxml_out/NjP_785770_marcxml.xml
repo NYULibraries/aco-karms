@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		03228nam a2200553   4500
+		03361nam a2200577   4500
 	</leader>
 	<controlfield tag="001">
 		785770
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1978    ir      ob    001 0 arard
+		151222s1978    ir      ob    001 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -123,7 +123,7 @@
 			rdacarrier
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="6">
 			880-05
 		</subfield>
@@ -287,7 +287,7 @@
 			(NjP)785770
 		</subfield>
 		<subfield code="w">
-			(DLC)   99229821 
+			(DLC)  99229821 
 		</subfield>
 		<subfield code="w">
 			(OCoLC)7873277
@@ -304,6 +304,17 @@
 			206.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-08
+		</subfield>
+		<subfield code="a">
+			Zabān-i shināsī Īrānī ;
+		</subfield>
+		<subfield code="v">
+			10.
+		</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/8cz8wdcn
@@ -311,7 +322,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-01/r
+			100-01
 		</subfield>
 		<subfield code="a">
 			منجد، صلاح الدين.
@@ -319,7 +330,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-02/r
+			245-02
 		</subfield>
 		<subfield code="a">
 			المفصل في الألفاظ الفارسية المعربة في الشعر الجاهلي والقرآن الكريم والحديث النبوي والشعر الأموي /
@@ -330,7 +341,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			250-03/r
+			250-03
 		</subfield>
 		<subfield code="a">
 			الطبعة 1.
@@ -338,7 +349,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-04/r
+			260-04
 		</subfield>
 		<subfield code="a">
 			[تهران] :
@@ -350,9 +361,9 @@
 			١٩٧٨.
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
+	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			490-05/r
+			490-05
 		</subfield>
 		<subfield code="a">
 			زبان شناسي ايراني ؛
@@ -363,7 +374,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			490-06/r
+			490-06
 		</subfield>
 		<subfield code="a">
 			انتشارات بنياد فرهنگ ايران ؛
@@ -374,13 +385,24 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
 		<subfield code="6">
-			830-07/r
+			830-07
 		</subfield>
 		<subfield code="a">
-			انتشارات بنياد فرهنگ ايران ؛ ;
+			انتشارات بنياد فرهنگ ايران ؛
 		</subfield>
 		<subfield code="v">
 			206.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-08
+		</subfield>
+		<subfield code="a">
+			زبان شناسى ايرانى ؛
+		</subfield>
+		<subfield code="v">
+			10.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -408,13 +430,16 @@
 			NjP_785770
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm07873277 
+			(OCoLC)ocm07873277
 		</subfield>
 		<subfield code="s">
 			princeton_aco000016
 		</subfield>
 		<subfield code="e">
 			(ERROR-SERIES)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000016
 		</subfield>
 	</datafield>
 </record>

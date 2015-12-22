@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01585nam a2200325   4500
+		02058nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		2787577
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1956    sy a    o     100 0 ara d
+		151222s1956    sy a    o     100 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="111">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Muʼtamar al-Udabāʼ al-ʻArab
 		</subfield>
@@ -43,10 +46,13 @@
 			1956 :
 		</subfield>
 		<subfield code="c">
-			Damascus)
+			Damascus) 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Muʼtamar al-Udabaʼ al-ʻArab al-Thānī al-munʻaqid fī Dimashq bayna 20-27 Aylūl 1956.
 		</subfield>
@@ -55,8 +61,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Damascus,
+			Dimashq :
+		</subfield>
+		<subfield code="b">
+			[publisher not identified],
 		</subfield>
 		<subfield code="c">
 			1956.
@@ -183,6 +195,39 @@
 			http://hdl.handle.net/2333.1/w0vt4f9b
 		</subfield>
 	</datafield>
+	<datafield ind1="2" ind2=" " tag="880">
+		<subfield code="6">
+			111-01/r
+		</subfield>
+		<subfield code="a">
+			مؤتمر الادباء العرب.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			مؤتمر الادباء العرب الثاني المنعقد في دمشق بين 2027 ايلول 1956.
+		</subfield>
+		<subfield code="b">
+			كلمات الافتتاح، المحاضرات، التعليقات، المناقشات، التوصيات، النداء.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			دمشق :
+		</subfield>
+		<subfield code="b">
+			[publisher not identified], 
+		</subfield>
+		<subfield code="c">
+			1956.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -208,13 +253,16 @@
 			NjP_2787577
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm42853641 
+			(OCoLC)ocm42853641
 		</subfield>
 		<subfield code="s">
 			princeton_aco000136
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000136
 		</subfield>
 	</datafield>
 </record>

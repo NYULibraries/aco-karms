@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01184nam a2200289   4500
+		01436nam a2200325   4500
 	</leader>
 	<controlfield tag="001">
 		2788044
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s195u    sy      o     000 0 ara d
+		151222s195u    sy      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ṭanṭāwī, ʻAlī,
 		</subfield>
@@ -41,16 +44,22 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Ṣuwar wa-khawāṭir.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Damascus,
+			Dimashq :
 		</subfield>
 		<subfield code="b">
-			Muʼassasat al-Salām lil-Ṭibāʻah wa-al-Nashr
+			Muʼassasat al-Salām lil-Ṭibāʻah wa-al-Nashr,
 		</subfield>
 		<subfield code="c">
 			[195-?]
@@ -147,6 +156,39 @@
 			http://hdl.handle.net/2333.1/mcvdnghd
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			طنطاوي، علي، -
+		</subfield>
+		<subfield code="d">
+			1909
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			صور وخواطر. 
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			دمشق :
+		</subfield>
+		<subfield code="b">
+			مؤسسة السلام للطباعة والنشر،
+		</subfield>
+		<subfield code="c">
+			[195؟]
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -172,13 +214,16 @@
 			NjP_2788044
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm42865700 
+			(OCoLC)ocm42865700
 		</subfield>
 		<subfield code="s">
 			princeton_aco000102
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000102
 		</subfield>
 	</datafield>
 </record>

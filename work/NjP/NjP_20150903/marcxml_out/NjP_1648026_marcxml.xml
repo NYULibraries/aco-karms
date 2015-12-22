@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02181nam a2200445   4500
+		02231nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		1648026
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1971    iq      obm   000 0 arard
+		151222s1971    iq      obm   000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -49,13 +49,16 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Rāwī, ʻAbd al-Laṭīf ʻAbd al-Raḥmān.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">
-			880-01
+			880-02
 		</subfield>
 		<subfield code="a">
 			al-Mujtamaʻ al-ʻIrāqī fī shiʻr al-qarn al-rābiʻ lil-hijrah /
@@ -65,6 +68,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Baghdād :
 		</subfield>
@@ -247,15 +253,15 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-00/r
+			100-01
 		</subfield>
 		<subfield code="a">
-			راوي، عبد اللطيف.
+			راوي، عبد اللطيف عبد الرحمن.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-01/r
+			245-02
 		</subfield>
 		<subfield code="a">
 			المجتمع المصري في شعر القرن الرابع للهجرة /
@@ -266,7 +272,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03
 		</subfield>
 		<subfield code="a">
 			بغداد :
@@ -303,13 +309,16 @@
 			NjP_1648026
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm14927744 
+			(OCoLC)ocm14927744
 		</subfield>
 		<subfield code="s">
 			princeton_aco000169
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000169
 		</subfield>
 	</datafield>
 </record>

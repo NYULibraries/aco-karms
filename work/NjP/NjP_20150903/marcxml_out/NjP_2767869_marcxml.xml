@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01707nam a2200361   4500
+		02350nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		2767869
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s197u    iq      o     000 0 araod
+		151222s197u    iq      o     000 0 araod
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Yāzijī, Nāṣīf,
 		</subfield>
@@ -49,11 +52,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Jumānah fī sharḥ al-Khizānah
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Kitāb al-jumānah fī sharḥ al-Khizānah /
 		</subfield>
@@ -62,6 +71,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Baghdād :
 		</subfield>
@@ -151,6 +163,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Yāzijī, Nāṣīf,
 		</subfield>
@@ -162,6 +177,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Yāzijī, Ibrāhīm,
 		</subfield>
@@ -207,6 +225,78 @@
 			http://hdl.handle.net/2333.1/9ghx3jc1
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			يازجي، ناصيف،
+		</subfield>
+		<subfield code="d">
+			1800-1871.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02/r
+		</subfield>
+		<subfield code="a">
+			جمانة في شرح الخزانة
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-03/r
+		</subfield>
+		<subfield code="a">
+			كتاب الجمانة في شرح الخزانة /
+		</subfield>
+		<subfield code="c">
+			تأليف ناصيف اليازجي اللبناني. مختصر / بقلم، ابراهيم اليازجي اللبناني.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			مكتبة دار البيان،
+		</subfield>
+		<subfield code="c">
+			[197؟]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/r
+		</subfield>
+		<subfield code="a">
+			يازجي، ناصيف،
+		</subfield>
+		<subfield code="d">
+			1800-1871.
+		</subfield>
+		<subfield code="t">
+			خزانة.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-06/r
+		</subfield>
+		<subfield code="a">
+			يازجي، ابراهيم،
+		</subfield>
+		<subfield code="d">
+			1847-1906.
+		</subfield>
+		<subfield code="t">
+			مختصر.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -232,13 +322,16 @@
 			NjP_2767869
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm29610889 
+			(OCoLC)ocm29610889
 		</subfield>
 		<subfield code="s">
 			princeton_aco000090
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000090
 		</subfield>
 	</datafield>
 </record>

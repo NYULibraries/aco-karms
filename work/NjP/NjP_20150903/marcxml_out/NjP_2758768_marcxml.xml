@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01877nam a2200385   4500
+		01895nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		2758768
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1963    sy      o     000 0 ararc
+		151222s1963    sy      o     000 0 ararc
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -60,13 +60,16 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah al-ūlá.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-03
+			880-04
 		</subfield>
 		<subfield code="a">
 			Dimashq :
@@ -131,7 +134,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
 		<subfield code="6">
-			880-04
+			880-05
 		</subfield>
 		<subfield code="a">
 			Rummānī, ʻAlī ibn ʻĪsá,
@@ -194,7 +197,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-01/r
+			100-01
 		</subfield>
 		<subfield code="a">
 			مبارك، مازن.
@@ -202,7 +205,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-02/r
+			245-02
 		</subfield>
 		<subfield code="a">
 			الرماني النحوي في ضوء شرحه لكتاب سيبويه /
@@ -213,7 +216,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			250-00/r
+			250-03
 		</subfield>
 		<subfield code="a">
 			الطبعة ١.
@@ -221,7 +224,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-03/r
+			260-04
 		</subfield>
 		<subfield code="a">
 			دمشق :
@@ -235,7 +238,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="4" tag="880">
 		<subfield code="6">
-			600-04/r
+			600-05
 		</subfield>
 		<subfield code="a">
 			رماني، علي بن عيسى.
@@ -266,13 +269,16 @@
 			NjP_2758768
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm22065750 
+			(OCoLC)ocm22065750
 		</subfield>
 		<subfield code="s">
 			princeton_aco000007
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000007
 		</subfield>
 	</datafield>
 </record>

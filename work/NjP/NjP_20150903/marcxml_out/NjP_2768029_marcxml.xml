@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01751nam a2200397   4500
+		02075nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		2768029
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1962    iq      o     000 0 arard
+		151222s1962    iq      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -46,11 +46,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Jubūrī, ʻAbd Allāh.
+			Jubūrī, ʻAbd Allāh. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Naqd wa-taʻrīf /
 		</subfield>
@@ -59,11 +65,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			[al-Ṭabʻah 1].
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Baghdād :
 		</subfield>
@@ -234,6 +246,47 @@
 			http://hdl.handle.net/2333.1/g4f4qvdb
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			جبوري، عبد الله. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			نقد وتعريف /
+		</subfield>
+		<subfield code="c">
+			[تأليف] عبد الله الجبوري.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/r
+		</subfield>
+		<subfield code="a">
+			[الطبعة 1].
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			مطبعة المعارف،
+		</subfield>
+		<subfield code="c">
+			[1962]
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -259,13 +312,16 @@
 			NjP_2768029
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm29833928 
+			(OCoLC)ocm29833928
 		</subfield>
 		<subfield code="s">
 			princeton_aco000118
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000118
 		</subfield>
 	</datafield>
 </record>

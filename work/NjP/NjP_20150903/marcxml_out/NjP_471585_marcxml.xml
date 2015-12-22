@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01330nam a2200301   4500
+		01563nam a2200337   4500
 	</leader>
 	<controlfield tag="001">
 		471585
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1933    le      o     000 0 ara d
+		151222s1933    le      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Rihani, Ameen Fares,
 		</subfield>
@@ -49,16 +52,25 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Antum al-shuʻarāʼ.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Beirut (Lebanon),
+			Bayrūt :
 		</subfield>
 		<subfield code="b">
-			Matbaat al Kashshāf wa Matbaʻatuhu
+			Maṭbaʻat al-Kashshāf,
+		</subfield>
+		<subfield code="c">
+			[1933]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -164,6 +176,39 @@
 			http://hdl.handle.net/2333.1/1jwsttgg
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ريحاني، امين فارس،
+		</subfield>
+		<subfield code="d">
+			1876-1940.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			انتم الشعراء. 
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			بيروت :
+		</subfield>
+		<subfield code="b">
+			مطبعة الكشاف،
+		</subfield>
+		<subfield code="c">
+			[1933]
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -189,13 +234,16 @@
 			NjP_471585
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23520117 
+			(OCoLC)ocm23520117
 		</subfield>
 		<subfield code="s">
 			princeton_aco000171
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000171
 		</subfield>
 	</datafield>
 </record>

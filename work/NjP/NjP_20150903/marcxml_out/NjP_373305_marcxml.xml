@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02422nam a2200397   4500
+		02546nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		373305
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1982    ir      obd   000 0 arar 
+		151222s1982    ir      obd   000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -63,6 +63,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Qum, Īrān :
 		</subfield>
@@ -224,7 +227,10 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			سعيد الخوري الشرتوني اللبناني.
+			سعيد الخوري الشرتوني اللبناني،
+		</subfield>
+		<subfield code="d">
+			1849-1912.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -240,16 +246,13 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
-			قم :
+			قم، ايران :
 		</subfield>
 		<subfield code="b">
-			منشورات مكتبة آية الله العظمى المرعشي النجفي،
-		</subfield>
-		<subfield code="c">
-			١٤٠٣.
+			منشورات مكتبة آية الله العظمى المرعشي النجفي،  1403 [1982 or 1983]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -277,7 +280,7 @@
 			NjP_373305
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm15034851 
+			(OCoLC)ocm15034851
 		</subfield>
 		<subfield code="s">
 			princeton_aco000097:juz.1
@@ -290,6 +293,15 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000097:juz.1
+		</subfield>
+		<subfield code="s">
+			princeton_aco000098:juz.2
+		</subfield>
+		<subfield code="s">
+			princeton_aco000096:juz.3
 		</subfield>
 	</datafield>
 </record>

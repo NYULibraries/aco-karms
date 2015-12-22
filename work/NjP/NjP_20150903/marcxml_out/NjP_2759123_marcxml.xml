@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02060nam a2200349   4500
+		02186nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		2759123
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111q19601966su      o     000 0 ararc
+		151222q19601966su      o     000 0 ararc
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -51,9 +51,17 @@
 			approximately 1182-1262.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="0" tag="240">
 		<subfield code="6">
 			880-02
+		</subfield>
+		<subfield code="a">
+			ishārah ilá al-ījāz fī baʻḍ anwạʻ al-majạz
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
 		</subfield>
 		<subfield code="a">
 			Kitāb al-ishārah ilá al-ījāz fī baʻḍ anwạʻ al-majạz /
@@ -64,7 +72,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-03
+			880-04
 		</subfield>
 		<subfield code="a">
 			al-Madīnah al-Munawwarah :
@@ -175,15 +183,18 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-01/r
+			100-01
 		</subfield>
 		<subfield code="a">
-			سلمي، عز الدين عبد العزيز بن عبد السلام.
+			سلمي، عاز الدين عبد العزيز بن عبد السلام،
+		</subfield>
+		<subfield code="d">
+			approximately 1182-1262.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			240-00/r
+			240-02
 		</subfield>
 		<subfield code="a">
 			إشارة إلى الإيجاز في بعض أنواع المجاز
@@ -191,7 +202,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-02/r
+			245-03
 		</subfield>
 		<subfield code="a">
 			کتاب الإشارة إلى الإيجاز في بعض أنواع المجاز /
@@ -202,7 +213,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-03/r
+			260-04
 		</subfield>
 		<subfield code="a">
 			المدينة المنورة :
@@ -239,13 +250,16 @@
 			NjP_2759123
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm22268314 
+			(OCoLC)ocm22268314
 		</subfield>
 		<subfield code="s">
 			princeton_aco000058
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000058
 		</subfield>
 	</datafield>
 </record>

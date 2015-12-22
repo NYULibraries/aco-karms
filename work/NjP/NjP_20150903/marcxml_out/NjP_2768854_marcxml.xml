@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02113nam a2200421   4500
+		02069nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		2768854
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1970    iq      ob    000 0 arar 
+		151222s1970    iq      ob    000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -60,6 +60,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			[Baghdād] :
 		</subfield>
@@ -101,7 +104,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="6">
-			880-03
+			880-04
 		</subfield>
 		<subfield code="a">
 			Silsilat al-kutub al-ḥadīthah ;
@@ -185,7 +188,7 @@
 			(NjP)2768854
 		</subfield>
 		<subfield code="w">
-			(DLC)   72268637 
+			(DLC)  72268637 
 		</subfield>
 		<subfield code="w">
 			(OCoLC)31238858
@@ -193,7 +196,7 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
 		<subfield code="6">
-			880-04
+			880-05
 		</subfield>
 		<subfield code="a">
 			Silsilat al-kutub al-ḥadīthah ;
@@ -209,7 +212,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-01/r
+			100-01
 		</subfield>
 		<subfield code="a">
 			بصري، عبد الجبار داود.
@@ -217,7 +220,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-02/r
+			245-02
 		</subfield>
 		<subfield code="a">
 			الأدب التكاملي /
@@ -228,21 +231,21 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03
 		</subfield>
 		<subfield code="a">
 			[بغداد] :
 		</subfield>
 		<subfield code="b">
-			وزارة الثقافة و الإعلام، مديرية الثقافة العامة،
+			مطبعة الجمهورية،
 		</subfield>
 		<subfield code="c">
-			١٩٧٠.
+			1970.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			490-03/r
+			490-04
 		</subfield>
 		<subfield code="a">
 			سلسلة الكتب الحديثة ؛
@@ -253,7 +256,7 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
 		<subfield code="6">
-			830-04/r
+			830-05
 		</subfield>
 		<subfield code="a">
 			سلسلة الكتب الحديثة ؛ ;
@@ -287,13 +290,16 @@
 			NjP_2768854
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm31238858 
+			(OCoLC)ocm31238858
 		</subfield>
 		<subfield code="s">
 			princeton_aco000147
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000147
 		</subfield>
 	</datafield>
 </record>

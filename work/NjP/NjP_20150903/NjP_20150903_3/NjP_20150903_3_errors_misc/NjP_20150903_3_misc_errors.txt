@@ -15,24 +15,23 @@ Records containing MISCELLANEOUS errors - batch NjP_20150903
     --  a 245 $h GMD field is present in the original record (signifying an alternate format other than print)
     --  the 245 $h GMD field was not added to a non-RDA e-version record during processing
     --  the $6 subfield did not sort to the first position in the field - issue with NYU records
-Report produced: 2015-11-11 09:39:55.117972
+Report produced: 2015-12-22 15:32:44.965103
 ---------------------------------------------------------------------
-FILE: NjP_20150903_2_oclc_recs_batch.mrc
+FILE: NjP_20150903_3/NjP_20150903_3_updates.mrc
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm25878222 
    oclc_rec_035_num: (OCoLC)25878222
 Institution ID: NjP_719355
-Record 999:  NjP_719355 (OCoLC)ocm25878222
-ERROR-880: 880 script fields: NO
+Record 999:  NjP_719355 (OCoLC)ocm25878222 princeton_aco000087
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   830 - Princeton University Arabic collection ; cn. 9201119.01.
 040 $e field: [none]
 RDA fields: YES
 ERROR-MISC: 007  hd bfa013baaa
 ERROR-MISC: 007  hd bfa013baba
 ERROR-MISC: 007  hd afa013baca
 Source entities (book IDs): princeton_aco000087
----------------------------------------------------------------------
----------------------------------------------------------------------
-FILE: NjP_20150903_1/NjP_20150903_1_orig_no_oclc_nums.mrc
 ---------------------------------------------------------------------
 TOTAL Number of Records containing miscellaneous errors: 1
 

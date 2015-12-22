@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01747nam a2200349   4500
+		02176nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		2745325
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1965    iq      o     100 0 araod
+		151222s1965    iq      o     100 0 araod
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="111">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Muʼtamar al-Udabāʼ al-ʻArab
 		</subfield>
@@ -51,10 +54,13 @@
 			1965 :
 		</subfield>
 		<subfield code="c">
-			Baghdad, Iraq)
+			Baghdad, Iraq) 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Dawr al-adab fī maʻrakat al-taḥrīr wa-al-bināʼ :
 		</subfield>
@@ -63,6 +69,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Baghdād :
 		</subfield>
@@ -202,6 +211,48 @@
 			http://hdl.handle.net/2333.1/g79cns4d
 		</subfield>
 	</datafield>
+	<datafield ind1="2" ind2=" " tag="880">
+		<subfield code="6">
+			111-01
+		</subfield>
+		<subfield code="a">
+			مؤتمر الادباء العرب
+		</subfield>
+		<subfield code="n">
+			(5th :
+		</subfield>
+		<subfield code="d">
+			1965 :
+		</subfield>
+		<subfield code="c">
+			Baghdad, Iraq) 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			دور الادب في معركة التحرير والبناء :
+		</subfield>
+		<subfield code="b">
+			مؤتمر الادباء العرب الخامس، 1521 شباط 1965، بغداد.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			عبد الحميد العاني،
+		</subfield>
+		<subfield code="c">
+			1965. 
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -227,7 +278,7 @@
 			NjP_2745325
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm12212362 
+			(OCoLC)ocm12212362
 		</subfield>
 		<subfield code="s">
 			princeton_aco000134:vol.1
@@ -237,6 +288,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000134:vol.1
+		</subfield>
+		<subfield code="s">
+			princeton_aco000135:vol.2
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02218nam a2200409   4500
+		02467nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		2742221
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1913    le      o     000 0 araod
+		151222s1913    le      o     000 0 araod
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -51,9 +51,17 @@
 			1800-1871.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="0" tag="240">
 		<subfield code="6">
 			880-02
+		</subfield>
+		<subfield code="a">
+			faṣl al-khiṭāb 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
 		</subfield>
 		<subfield code="a">
 			Kitāb faṣl al-khiṭāb fī uṣūl lughat al-aʻrāb /
@@ -63,11 +71,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Faṣl al-khiṭāb fī uṣūl lughat al-aʻrāb
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Bayrūt :
 		</subfield>
@@ -219,12 +233,15 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			يازجى، ناصيف.
+			يازجي، ناصيف،
+		</subfield>
+		<subfield code="d">
+			1800-1871.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			240-00/r
+			240-02/r
 		</subfield>
 		<subfield code="a">
 			فصل الخطاب
@@ -232,13 +249,21 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-02/r
+			245-03/r
 		</subfield>
 		<subfield code="a">
 			كتاب فصل الخطاب فى أصول لغة الأعراب /
 		</subfield>
 		<subfield code="c">
 			تأليف ناصيف اليازجى اللبنانى.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-04/r
+		</subfield>
+		<subfield code="a">
+			فصل الخطاب في اصول لغة الاعراب
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
@@ -251,16 +276,22 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-05/r
 		</subfield>
 		<subfield code="a">
 			بيروت :
 		</subfield>
 		<subfield code="b">
-			[د.ن.،
+			[publisher not identified], 
 		</subfield>
 		<subfield code="c">
-			1884].
+			1913
+		</subfield>
+		<subfield code="e">
+			(بيروت :
+		</subfield>
+		<subfield code="f">
+			المطبعة الاميركانية)
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -288,13 +319,16 @@
 			NjP_2742221
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm10388101 
+			(OCoLC)ocm10388101
 		</subfield>
 		<subfield code="s">
 			princeton_aco000091
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000091
 		</subfield>
 	</datafield>
 </record>

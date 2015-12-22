@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02156nam a2200373   4500
+		02957nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		1037447
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1977    ir h    ob    000 0 ara d
+		151222s1977    ir h    ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,11 +33,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Ḥājiyānī, ʻAbbās.
+			Ḥājiyānī, ʻAbbās. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Nukhbat al-maqāl fī tamyīz al-asnād wa-al-rijāl :
 		</subfield>
@@ -49,6 +55,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Qum :
 		</subfield>
@@ -119,6 +128,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Ṭūsī, Muḥammad ibn al-Ḥasan,
 		</subfield>
@@ -130,6 +142,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Ibn Bābawayh al-Qummī, Muḥammad ibn ʻAlī,
 		</subfield>
@@ -236,6 +251,70 @@
 			http://hdl.handle.net/2333.1/2jm641pk
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			حاجياني، عباس. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			نخبة المقال في تمييز الاسناد والرجال :
+		</subfield>
+		<subfield code="b">
+			وهو تحقيق في اسانيد العلمين شيخ الطائفة الشيخ الطوسي والمحدث الكبير الشيخ الصدوق، رحمهما الله، الى الكتب التي يرويان عنها الحديث /
+		</subfield>
+		<subfield code="c">
+			تأليف عباس الحاجياني الدشتي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03
+		</subfield>
+		<subfield code="a">
+			قم :
+		</subfield>
+		<subfield code="b">
+			مطبعة مهر،
+		</subfield>
+		<subfield code="c">
+			[1977؟]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-04
+		</subfield>
+		<subfield code="a">
+			طوسي، محمد بن الحسن،
+		</subfield>
+		<subfield code="d">
+			995-1067?
+		</subfield>
+		<subfield code="x">
+			Criticism and interpretation.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-05
+		</subfield>
+		<subfield code="a">
+			ابن بابويه القمي، محمد بن علي،
+		</subfield>
+		<subfield code="d">
+			918 or 919-991 or 992
+		</subfield>
+		<subfield code="x">
+			Criticism and interpretation.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -261,13 +340,16 @@
 			NjP_1037447
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm34368326 
+			(OCoLC)ocm34368326
 		</subfield>
 		<subfield code="s">
 			princeton_aco000022
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000022
 		</subfield>
 	</datafield>
 </record>

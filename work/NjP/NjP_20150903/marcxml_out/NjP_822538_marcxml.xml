@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01696nam a2200361   4500
+		01983nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		822538
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111q19001993tu      o     000 0 ara d
+		151222q19001993tu      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ibn al-Ḥājib, ʻUthmān ibn ʻUmar,
 		</subfield>
@@ -41,6 +44,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Kāfiyah /
 		</subfield>
@@ -49,6 +55,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			[Istanbul?] :
 		</subfield>
@@ -228,6 +237,42 @@
 			http://hdl.handle.net/2333.1/79cnp8dm
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ابن الحاجب، عثمان بن عمر،
+		</subfield>
+		<subfield code="d">
+			1175-1249.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			كافية /
+		</subfield>
+		<subfield code="c">
+			لاابن الحاجب.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			[استنبول؟] :
+		</subfield>
+		<subfield code="b">
+			دار الطباعة العامرة،
+		</subfield>
+		<subfield code="c">
+			[19]
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -253,13 +298,16 @@
 			NjP_822538
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm28545278 
+			(OCoLC)ocm28545278
 		</subfield>
 		<subfield code="s">
 			princeton_aco000100
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000100
 		</subfield>
 	</datafield>
 </record>

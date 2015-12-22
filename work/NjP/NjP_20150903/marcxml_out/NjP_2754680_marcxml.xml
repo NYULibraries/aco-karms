@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01294nam a2200325   4500
+		01565nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		2754680
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1960    sy      o     000 0 arard
+		151222s1960    sy      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,27 +41,36 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			ʻĪsā, Sulaymān,
+			ʻĪsá, Sulaymān,
 		</subfield>
 		<subfield code="d">
-			1922-
+			1921-
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Ḥubb wa-butūlah;
+			Ḥubb wa-buṭūlah :
 		</subfield>
 		<subfield code="b">
 			mukhtārāt min al-shiʻr al-ʻArabī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Aleppo,
+			Ḥalab :
 		</subfield>
 		<subfield code="b">
-			Maktabat al-Sharq
+			Maktabat al-Sharq,
 		</subfield>
 		<subfield code="c">
 			[1960]
@@ -157,10 +166,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			ʻĪsā, Sulaymān, 1922-
+			ʻĪsá, Sulaymān, 1921-
 		</subfield>
 		<subfield code="t">
-			Ḥubb wa-butūlah;
+			Ḥubb wa-buṭūlah
 		</subfield>
 		<subfield code="w">
 			(NjP)2754680
@@ -172,6 +181,42 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/w3r22c08
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			عيسى، سليمان،
+		</subfield>
+		<subfield code="d">
+			1921-
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			حب وبطولة :
+		</subfield>
+		<subfield code="b">
+			مختارات من الشعر العربي. 
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			حلب :
+		</subfield>
+		<subfield code="b">
+			مكتبة الشرق،
+		</subfield>
+		<subfield code="c">
+			[1960]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -199,13 +244,16 @@
 			NjP_2754680
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm18729226 
+			(OCoLC)ocm18729226
 		</subfield>
 		<subfield code="s">
 			princeton_aco000191
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000191
 		</subfield>
 	</datafield>
 </record>

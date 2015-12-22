@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01756nam a2200397   4500
+		02153nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		2754317
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s195u    ua      o     000 0 arard
+		151222s195u    ua      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -46,19 +46,28 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">
-			Dahhān, Sāmī.
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">
 			880-01
 		</subfield>
 		<subfield code="a">
-			Al-Waṣf.
+			Dahhān, Sāmī. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
+		<subfield code="a">
+			Al-Waṣf  /
+		</subfield>
+		<subfield code="c">
+			yashtariku fī waḍʻ hādhihi al-majmūʻah laḥnah min udabāʼ al-aqṭār al-ʻArabīyah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Miṣr :
 		</subfield>
@@ -66,7 +75,7 @@
 			Dār al-Maʻārif,
 		</subfield>
 		<subfield code="c">
-			[195-?]
+			[1957]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -98,7 +107,10 @@
 			rdacarrier
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Funūn al-adab al-ʻArabī. al-Fann al-ghināʼī ;
 		</subfield>
@@ -158,6 +170,14 @@
 			(OCoLC)fst01411635
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Dahhān, Sāmī. 
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Princeton University.
@@ -188,14 +208,33 @@
 			(OCoLC)18426393
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			Funūn al-adab al-ʻArabī. al-Fann al-ghināʼī ;
+		</subfield>
+		<subfield code="v">
+			3.
+		</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/cz8w9kg5
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			دهان، سامي. 
+		</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="2" tag="880">
 		<subfield code="6">
-			245-01/r
+			245-02
 		</subfield>
 		<subfield code="a">
 			الوصف /
@@ -206,10 +245,10 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03
 		</subfield>
 		<subfield code="a">
-			القاهرة :
+			مصر :
 		</subfield>
 		<subfield code="b">
 			دار المعارف،
@@ -218,9 +257,9 @@
 			[1957]
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
+	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			490-00/r
+			490-04
 		</subfield>
 		<subfield code="a">
 			فنون الأدب العربي،
@@ -234,10 +273,21 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-05
 		</subfield>
 		<subfield code="a">
 			دهان، سامي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-06
+		</subfield>
+		<subfield code="a">
+			فنون الادب العربي. الفن الغنائي ؛
+		</subfield>
+		<subfield code="v">
+			3.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -265,13 +315,16 @@
 			NjP_2754317
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm18426393 
+			(OCoLC)ocm18426393
 		</subfield>
 		<subfield code="s">
 			princeton_aco000129
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)(ERROR-SERIES)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000129
 		</subfield>
 	</datafield>
 </record>

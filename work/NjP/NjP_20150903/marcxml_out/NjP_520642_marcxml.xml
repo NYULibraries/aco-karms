@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01818nam a2200385   4500
+		02467nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		520642
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1985    ir      ob    001 0 ara d
+		151222s1985    ir      ob    001 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -38,6 +38,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="245">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Qiṣaṣ al-ʻArab /
 		</subfield>
@@ -46,11 +49,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 5.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Qum :
 		</subfield>
@@ -147,16 +156,25 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Jād al-Mawlá, Muḥammad Aḥmad.
+			Jād al-Mawlá, Muḥammad Aḥmad. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Bajāwī, ʻAlī Muḥammad.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Ibrāhīm, Muḥammad Abū al-Faḍl.
 		</subfield>
@@ -193,6 +211,63 @@
 			http://hdl.handle.net/2333.1/c59zw6nt
 		</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">
+			245-01/r
+		</subfield>
+		<subfield code="a">
+			قصص العرب /
+		</subfield>
+		<subfield code="c">
+			تأليف محمد احمد جاد المولى، علي محمد البجاوي، محمد ابو الفضل ابراهيم.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-02/r
+		</subfield>
+		<subfield code="a">
+			الطبعة 5. 
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			قم :
+		</subfield>
+		<subfield code="b">
+			الشريف الرضي،
+		</subfield>
+		<subfield code="c">
+			1364 [1985 or 1986]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/r
+		</subfield>
+		<subfield code="a">
+			جاد المولى، محمد احمد. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/r
+		</subfield>
+		<subfield code="a">
+			بجاوي، علي محمد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-06/r
+		</subfield>
+		<subfield code="a">
+			ابراهيم، محمد ابو الفضل.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -218,7 +293,7 @@
 			NjP_520642
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm22321606 
+			(OCoLC)ocm22321606
 		</subfield>
 		<subfield code="s">
 			princeton_aco000182:juz.1
@@ -234,6 +309,18 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000182:juz.1
+		</subfield>
+		<subfield code="s">
+			princeton_aco000183:juz.2
+		</subfield>
+		<subfield code="s">
+			princeton_aco000184:juz.3
+		</subfield>
+		<subfield code="s">
+			princeton_aco000185:juz.4
 		</subfield>
 	</datafield>
 </record>

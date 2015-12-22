@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02122nam a2200421   4500
+		03005nam a2200517   4500
 	</leader>
 	<controlfield tag="001">
 		972111
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1989    ir      ob    000 0 ara d
+		151222s1989    ir      ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -38,11 +38,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Hāshimī, Aḥmad.
+			Hāshimī, Aḥmad.  
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Qawāʻid al-asāsīyah lil-lughah al-ʻArabīyah :
 		</subfield>
@@ -54,11 +60,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 2.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			[Iran] :
 		</subfield>
@@ -184,6 +196,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Ibn ʻAqīl, ʻAbd Allāh ibn ʻAbd al-Raḥmān,
 		</subfield>
@@ -192,6 +207,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Ushmūnī, ʻAlī ibn Muḥammad,
 		</subfield>
@@ -200,6 +218,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-07
+		</subfield>
 		<subfield code="a">
 			Ibn Hishām, ʻAbd Allāh ibn Yūsuf,
 		</subfield>
@@ -208,6 +229,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-08
+		</subfield>
 		<subfield code="a">
 			Ibn Mālik, Muḥammad ibn ʻAbd Allāh,
 		</subfield>
@@ -253,6 +277,94 @@
 			http://hdl.handle.net/2333.1/4mw6mcv9
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			هاشمي، احمد.  
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			القواعد الاساسية لللغة العربية :
+		</subfield>
+		<subfield code="b">
+			حسب منهج &quot;متن الالفية&quot; لاابن مال وخلاصة الشراح لاابن هشام وابن عقيل والاشموني /
+		</subfield>
+		<subfield code="c">
+			تأليف احمد الهاشمي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03
+		</subfield>
+		<subfield code="a">
+			الطبعة 2.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04
+		</subfield>
+		<subfield code="a">
+			[ايران] :
+		</subfield>
+		<subfield code="b">
+			دار الهجرة، 1410 [1989 or 1990]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05
+		</subfield>
+		<subfield code="a">
+			ابن عقيل، عبد الله بن عبد الرحمن،
+		</subfield>
+		<subfield code="d">
+			1294؟1367.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-06
+		</subfield>
+		<subfield code="a">
+			اشموني، علي بن محمد،
+		</subfield>
+		<subfield code="d">
+			1435-1494 or 1495.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-07
+		</subfield>
+		<subfield code="a">
+			ابن هشام، عبد الله بن يوسف،
+		</subfield>
+		<subfield code="d">
+			1309-1360.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-08
+		</subfield>
+		<subfield code="a">
+			ابن مالك، محمد بن عبد الله،
+		</subfield>
+		<subfield code="d">
+			-1274.
+		</subfield>
+		<subfield code="t">
+			الفية.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -278,13 +390,16 @@
 			NjP_972111
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm32540518 
+			(OCoLC)ocm32540518
 		</subfield>
 		<subfield code="s">
 			princeton_aco000036
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000036
 		</subfield>
 	</datafield>
 </record>

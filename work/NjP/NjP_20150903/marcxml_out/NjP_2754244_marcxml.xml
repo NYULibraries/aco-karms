@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02104nam a2200421   4500
+		02502nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		2754244
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1958    ir      ob    001 0 ara d
+		151222s1958    ir      ob    001 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -49,11 +49,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Bīnā, Muḥsin.
+			Bīnā, Muḥsin. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Naḥw al-jāmiʻ :
 		</subfield>
@@ -65,11 +71,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Chāp-i 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Qum [Īrān] :
 		</subfield>
@@ -274,6 +286,50 @@
 			http://hdl.handle.net/2333.1/d7wm3bn7
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01
+		</subfield>
+		<subfield code="a">
+			بينا، محسن. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			النحو الجامع :
+		</subfield>
+		<subfield code="b">
+			شامل کلية مباحث نحو توؤم با ترکىب و توضىح /
+		</subfield>
+		<subfield code="c">
+			تألىف محسن بىنا.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03
+		</subfield>
+		<subfield code="a">
+			چاپ 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04
+		</subfield>
+		<subfield code="a">
+			قم [ايران] :
+		</subfield>
+		<subfield code="b">
+			چاپخانه دار العلم،
+		</subfield>
+		<subfield code="c">
+			1337 [i.e. 1958 or 1959]
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -299,13 +355,16 @@
 			NjP_2754244
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm18400406 
+			(OCoLC)ocm18400406
 		</subfield>
 		<subfield code="s">
 			princeton_aco000152
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000152
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01317nam a2200277   4500
+		01625nam a2200313   4500
 	</leader>
 	<controlfield tag="001">
 		6474742
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111s1955    sy      o     000 0 ara d
+		151222s1955    sy      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -30,11 +30,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Ḥimṣī, Qusṭākī.
+			Ḥimṣī, Qusṭākī. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Manhal al-wurrād fī ʻilm al-intiqād
 		</subfield>
@@ -46,11 +52,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			[Aleppo] :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat al-Ḍād,
+			Maṭbaʻat al-Akhbār,
 		</subfield>
 		<subfield code="c">
 			1955.
@@ -148,6 +157,39 @@
 			http://hdl.handle.net/2333.1/4j0zpg4d
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			حمصي، قسطاكي. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			منهل الوراد في علم الانتقاد /
+		</subfield>
+		<subfield code="c">
+			تأليف قسطاكي بك الحمصي الحلبي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			[حلب] :
+		</subfield>
+		<subfield code="b">
+			مطبعة الاخبار،
+		</subfield>
+		<subfield code="c">
+			1955.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -180,6 +222,9 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000144
 		</subfield>
 	</datafield>
 </record>

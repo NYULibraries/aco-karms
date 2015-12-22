@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01828nam a2200349   4500
+		02122nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		3007651
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151111m19541957le      o     000 0 arard
+		151222m19541957le      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Cheikho, Louis,
 		</subfield>
@@ -50,15 +53,18 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">
-			880-01
+			880-02
 		</subfield>
 		<subfield code="a">
-			Majānī al-adab fī hadāʼiq al-ʻArab.
+			Majānī al-adab fī ḥadāʼiq al-ʻArab /
+		</subfield>
+		<subfield code="c">
+			Luys Shiykhū al-Yasūʻ̄.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-02
+			880-03
 		</subfield>
 		<subfield code="a">
 			Bayrūt :
@@ -175,7 +181,7 @@
 			Cheikho, Louis, 1859-1927.
 		</subfield>
 		<subfield code="t">
-			Majānī al-adab fī hadāʼiq al-ʻArab
+			Majānī al-adab fī ḥadāʼiq al-ʻArab
 		</subfield>
 		<subfield code="w">
 			(NjP)3007651
@@ -189,17 +195,31 @@
 			http://hdl.handle.net/2333.1/3tx9613r
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="880">
+	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			245-01/r
+			100-01
 		</subfield>
 		<subfield code="a">
-			مجاني الادب في هدائق العرب.
+			شيخو، لويس،
+		</subfield>
+		<subfield code="d">
+			1859-1927.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02
+		</subfield>
+		<subfield code="a">
+			مجاني الادب في هدائق العرب /
+		</subfield>
+		<subfield code="c">
+			لويس شيخو اليسوعي.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-02/r
+			260-03
 		</subfield>
 		<subfield code="a">
 			بيروت :
@@ -208,7 +228,7 @@
 			مطبعة الاباء اليسوعين،
 		</subfield>
 		<subfield code="c">
-			[1954-1957]
+			[19541957]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -236,7 +256,7 @@
 			NjP_3007651
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm17983880 
+			(OCoLC)ocm17983880
 		</subfield>
 		<subfield code="s">
 			princeton_aco000176:vol.1
@@ -258,6 +278,24 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			princeton_aco000176:vol.1
+		</subfield>
+		<subfield code="s">
+			princeton_aco000177:vol.2
+		</subfield>
+		<subfield code="s">
+			princeton_aco000178:vol.3
+		</subfield>
+		<subfield code="s">
+			princeton_aco000179:vol.4
+		</subfield>
+		<subfield code="s">
+			princeton_aco000180:vol.5
+		</subfield>
+		<subfield code="s">
+			princeton_aco000181:vol.6
 		</subfield>
 	</datafield>
 </record>
