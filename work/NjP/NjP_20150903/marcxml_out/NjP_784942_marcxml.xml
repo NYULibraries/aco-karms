@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02355nam a2200445   4500
+		02478nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		784942
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151222s198u    ir      o     000 0 arard
+		160104s198u    ir      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -52,6 +52,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Bahjah al-marḍīyah [i.e. al-murḍiyah] fī sharḥ al-Alfīyah /
 		</subfield>
@@ -61,7 +64,7 @@
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
 		<subfield code="6">
-			880-02
+			880-03
 		</subfield>
 		<subfield code="a">
 			Kitāb al-Suyūṭī
@@ -69,7 +72,7 @@
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
 		<subfield code="6">
-			880-03
+			880-04
 		</subfield>
 		<subfield code="a">
 			Suyūṭī
@@ -77,7 +80,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-04
+			880-05
 		</subfield>
 		<subfield code="a">
 			[Qum?] :
@@ -139,13 +142,16 @@
 			New York University,
 		</subfield>
 		<subfield code="d">
-			2015.
+			2016.
 		</subfield>
 		<subfield code="5">
 			NNU
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Ibn Mālik, Muḥammad ibn ʻAbd Allāh,
 		</subfield>
@@ -243,7 +249,7 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
 		<subfield code="6">
-			100-01
+			100-01/r
 		</subfield>
 		<subfield code="a">
 			سيوطي،
@@ -254,7 +260,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-00
+			245-02/r
 		</subfield>
 		<subfield code="a">
 			البهجة المرضية في شرح الالفية /
@@ -265,7 +271,7 @@
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="880">
 		<subfield code="6">
-			246-02
+			246-03/r
 		</subfield>
 		<subfield code="a">
 			كتاب السيوطي
@@ -273,7 +279,7 @@
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="880">
 		<subfield code="6">
-			246-03
+			246-04/r
 		</subfield>
 		<subfield code="a">
 			سيوطي
@@ -281,7 +287,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-04
+			260-05/r
 		</subfield>
 		<subfield code="a">
 			[قم؟] :
@@ -290,7 +296,21 @@
 			المكتبة الاسلامية،
 		</subfield>
 		<subfield code="c">
-			[198؟]
+			[198-؟]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			600-06/r
+		</subfield>
+		<subfield code="a">
+			ابن مالك، محمد بن عبد الله،
+		</subfield>
+		<subfield code="d">
+			1274.
+		</subfield>
+		<subfield code="t">
+			الفية.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
