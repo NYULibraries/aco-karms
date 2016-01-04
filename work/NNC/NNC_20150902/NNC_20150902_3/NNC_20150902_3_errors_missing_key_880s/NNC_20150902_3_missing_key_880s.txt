@@ -7,7 +7,7 @@ Records MISSING KEY 880 script fields - batch NNC_20150902
     440, 490
     700, 710, 711, 730
     800, 810, 811, 830
-Report produced: 2015-12-22 16:41:03.791406
+Report produced: 2016-01-04 14:22:25.438728
 ---------------------------------------------------------------------
 FILE: NNC_20150902_3/NNC_20150902_3_updates.mrc
 ---------------------------------------------------------------------
@@ -63,7 +63,7 @@ Record 999:  NNC_1480024 (OCoLC)ocm23490851 columbia_aco001245:v.1 columbia_aco0
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - Nicomachean ethics. Arabic
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00 - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
+   880 $6 500-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001245:v.1, columbia_aco001246:v.2
@@ -171,17 +171,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco001372
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60601329 
-   oclc_rec_035_num: (OCoLC)60601329
-Institution ID: NNC_648479
-Record 999:  NNC_648479 (OCoLC)ocm60601329 columbia_aco001222
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   245 - Matn al-Jamiʻ al-sahih.
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001222
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm42865661 
    oclc_rec_035_num: (OCoLC)42865661
 Institution ID: NNC_644884
@@ -190,23 +179,10 @@ Record 999:  NNC_644884 (OCoLC)ocm42865661 columbia_aco001277
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    245 - al-Waqf wa-al-waṣāyā : ḍarbān min ṣidqat al-taṭawūʻ fī al-sharīʻah al-Islāmīyah maʻ bayān al-aḥkām al-qānūnīyah allatī tunaẓẓimuhā / taūlīf Aḥmad ʻAlī al-Khaṭīb.
 ERROR-880: Unlinked 880s: YES
-   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 245-00 - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001277
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm08351637 
-   oclc_rec_035_num: (OCoLC)8351637
-   oclc_rec_035_num: (OCoLC)23492878
-Institution ID: NNC_2752451
-Record 999:  NNC_2752451 (OCoLC)ocm08351637 columbia_aco001311:v.1 columbia_aco001312:v.2
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - Baghdād : Maktabat al-Andalus. [1965 or 1966]
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-040 $e field: [none]
-Source entities (book IDs): columbia_aco001311:v.1, columbia_aco001312:v.2
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm22427659 
    oclc_rec_035_num: (OCoLC)22427659
@@ -229,17 +205,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001211
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23509269 
-   oclc_rec_035_num: (OCoLC)23509269
-Institution ID: NNC_2975506
-Record 999:  NNC_2975506 (OCoLC)ocm23509269 columbia_aco001243
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   240 - Fâtibat al futūbat al Uthmâniyah
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): columbia_aco001243
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocn505026273
    oclc_rec_035_num: (OCoLC)505026273
@@ -330,5 +295,5 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco001224
 ---------------------------------------------------------------------
-TOTAL Number of Records missing key 880 script fields: 27
+TOTAL Number of Records missing key 880 script fields: 24
 
