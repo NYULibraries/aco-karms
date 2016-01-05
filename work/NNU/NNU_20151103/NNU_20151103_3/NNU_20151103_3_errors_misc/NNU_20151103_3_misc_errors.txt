@@ -1,0 +1,117 @@
+Records containing MISCELLANEOUS errors - batch NNU_20151103
+--  Each of these records contain at least one of the miscellaneous errors
+    recorded mostly for notice of validation errors or to identify programming issues
+--  List of possible miscellaneous errors:
+    --  the OCLC # in the OCLC batch record did not match on any OCLC #s in the original records
+    --  record contains multiple 999 fields
+    --  zero or multiple $6 subfields in 880s
+    --  record is missing an 040 field
+    --  record contains invalid replacement character (black diamond with question mark) - found in NYU records
+    --  code in the 003 does not match any of the partner institution codes
+    --  the 003/001 fields did not change from the OCLC # to the BSN during processing
+    --  the 003/001 fields in the handles.csv file did not match on any record in the batch
+    --  an 006 or 007 field is present in the original record (signifying an alternate format other than print)
+    --  record is missing a 245 title field, or has multiple 245 fields
+    --  a 245 $h GMD field is present in the original record (signifying an alternate format other than print)
+    --  the 245 $h GMD field was not added to a non-RDA e-version record during processing
+    --  the $6 subfield did not sort to the first position in the field - issue with NYU records
+Report produced: 2016-01-05 13:31:57.316091
+---------------------------------------------------------------------
+FILE: NNU_20151103_1/NNU_20151103_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNU_20151103_1/NNU_20151103_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNU_001496938
+   orig_rec_035 num: =035  9\$aNYUb11957564
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG99-B433
+Record 999:  NNU_001496938
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Glossaire sur le Mansʼuri de Razes
+040 $e field: [none]
+ERROR-MISC: Contains invalid replacement character
+Source entities (book IDs): nyu_aco001574
+---------------------------------------------------------------------
+Institution ID: NNU_001682203
+   orig_rec_035 num: =035  9\$aNYUb12225613
+   orig_rec_035 num: =035  \\$a(CStRLIN)DCGGB15350125-B
+Record 999:  NNU_001682203
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): nyu_aco001581
+---------------------------------------------------------------------
+Institution ID: NNU_001682457
+   orig_rec_035 num: =035  9\$aNYUb12225872
+   orig_rec_035 num: =035  \\$a(CStRLIN)DCGGB15381584-B
+Record 999:  NNU_001682457
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): nyu_aco001475
+---------------------------------------------------------------------
+Institution ID: NNU_001682518
+   orig_rec_035 num: =035  9\$aNYUb12225934
+   orig_rec_035 num: =035  \\$a(CStRLIN)DCGGB15322191-B
+Record 999:  NNU_001682518
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): nyu_aco001445
+---------------------------------------------------------------------
+Institution ID: NNU_001683084
+   orig_rec_035 num: =035  9\$aNYUb12226504
+   orig_rec_035 num: =035  \\$a(CStRLIN)DCGGB15358343-B
+Record 999:  NNU_001683084
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): nyu_aco001539
+---------------------------------------------------------------------
+Institution ID: NNU_001684918
+   orig_rec_035 num: =035  9\$aNYUb12228354
+   orig_rec_035 num: =035  \\$a(NNU)NYUb12228354
+Record 999:  NNU_001684918
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Baghdad oaths
+040 $e field: [none]
+ERROR-MISC: Contains invalid replacement character
+Source entities (book IDs): nyu_aco001528
+---------------------------------------------------------------------
+Institution ID: NNU_001686185
+   orig_rec_035 num: =035  9\$aNYUb12229628
+   orig_rec_035 num: =035  \\$a(NNU)NYUb12229628
+Record 999:  NNU_001686185
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Bibliography of Baghdad
+040 $e field: [none]
+ERROR-MISC: Contains invalid replacement character
+Source entities (book IDs): nyu_aco001594
+---------------------------------------------------------------------
+Institution ID: NNU_001700585
+   orig_rec_035 num: =035  9\$aNYUb12249155
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG01-B689
+Record 999:  NNU_001700585
+880 script fields: YES
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): nyu_aco001500
+---------------------------------------------------------------------
+Institution ID: NNU_001723961
+   orig_rec_035 num: =035  9\$aNYUb12280794
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG01-B1940
+Record 999:  NNU_001723961
+880 script fields: YES
+040 $e field: [none]
+ERROR-MISC: Contains invalid replacement character
+Source entities (book IDs): nyu_aco001628:v.1
+---------------------------------------------------------------------
+Institution ID: NNU_001900188
+   orig_rec_035 num: =035  9\$aNYUb10842271
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG90-B46639
+   orig_rec_035 num: =035  \\$aGLIS008422719
+Record 999:  NNU_001900188
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): nyu_aco001607
+---------------------------------------------------------------------
+TOTAL Number of Records containing miscellaneous errors: 10
+
