@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01295nam a2200265   4500
+		02097nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		002849094
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151105q19801987ir      o     000 0cara d
+		160113q19801987ir      o     000 0cara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,43 +25,89 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">
-			Suwaydī, Muḥammad Amīn,
+			ar-----
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			CS1129.A2
+		</subfield>
+		<subfield code="b">
+			S8 1980
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Suwaydī, Muḥammad Amīn,
 		</subfield>
 		<subfield code="d">
-			d. 1830 or 31.
+			-1830 or 1831.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Sabāʼik al-dhahab fī maʻrifat qabāʼil al-ʻArab
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Sabāʼik al-dhahab fī maʻrifat qabāʼil al-ʻArab /
 		</subfield>
 		<subfield code="c">
-			li-Abī al-Fawz Muḥammad Amīn al-Baghdādī al-shahīr bi-al-Suwaydī.
+			li-Abī al-Fawz Muḥammad Amīn al-Baghdādī al-shahīr bi-al-Suwaydī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Qum :
 		</subfield>
 		<subfield code="b">
-			Raz̤ī,
+			al-Maktabah al-ʻIlmīyah,
 		</subfield>
 		<subfield code="c">
-			[198-]
+			[198-?]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (120 p.)
+			online resource (120 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -80,7 +126,7 @@
 			New York University,
 		</subfield>
 		<subfield code="d">
-			2015.
+			2016.
 		</subfield>
 		<subfield code="5">
 			NNU
@@ -94,15 +140,40 @@
 			Genealogy.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
+	<datafield ind1=" " ind2="7" tag="651">
 		<subfield code="a">
-			Qalqashandī, Aḥmad ibn ʻAlī,
+			Arabian Peninsula.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01240131
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Genealogy.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01423818
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Qalqashandī, Aḥmad ibn ʻAlī,
 		</subfield>
 		<subfield code="d">
-			1355 or 6-1418.
+			1355 or 1356-1418.
 		</subfield>
 		<subfield code="t">
-			Nihāyat al-arab fī maʻrifat ansāb al-ʻArab.
+			Nihāyat al-arab fī maʻrifat ansāb al-ʻArab.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -123,10 +194,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Suwaydī, Muḥammad Amīn, d. 1830 or 31.
+			Suwaydī, Muḥammad Amīn, -1830 or 1831.
 		</subfield>
 		<subfield code="t">
-			Sabāʼik al-dhahab fī maʻrifat qabāʼil al-ʻArab
+			Sabāʼik al-dhahab fī maʻrifat qabāʼil al-ʻArab
 		</subfield>
 		<subfield code="w">
 			(NNU)002849094
@@ -135,6 +206,56 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/866t1jxm
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			سويدي، محمد امين،
+		</subfield>
+		<subfield code="d">
+			-1830 or 1831.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			سبائك الذهب في معرفة قبائل العرب /
+		</subfield>
+		<subfield code="c">
+			لابي الفوز محمد امين البغدادي الشهير بالسويدي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			قم :
+		</subfield>
+		<subfield code="b">
+			المكتبة العلمية،
+		</subfield>
+		<subfield code="c">
+			[198-?]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/
+		</subfield>
+		<subfield code="a">
+			قلقشندي، احمد بن علي،
+		</subfield>
+		<subfield code="d">
+			1355 or 1356-1418.
+		</subfield>
+		<subfield code="t">
+			نهاية الارب في معرفة انساب العرب.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -163,9 +284,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001225
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01376nam a2200325   4500
+		02501nam a2200505   4500
 	</leader>
 	<controlfield tag="001">
 		002773053
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151105s1961    su cf   o     000 0cara d
+		160113s1961    su c    o     000 0carard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -34,33 +37,53 @@
 			a-su---
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			Ibn Hadhlūl, Saʻūd.
+			DS244.52
+		</subfield>
+		<subfield code="b">
+			.I21 1961
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Ibn Hadhlūl, Saʻūd,
+		</subfield>
+		<subfield code="c">
+			Amīr.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Tārīkh mulūk Āl Saʻūd
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Tārīkh mulūk Āl Saʻud /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Saʻūd Ibn Hadhlūl.
+			taʼlīf al-Amīr Saʻūd ibn Hadhlūl ; qaddama lahu wa-ashrafa ʻalá ṭabʻih Muḥammad al-ʻUbūdī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Ṭabʻah 1.
+			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			al-Riyāḍ:
+			[al-Riyāḍ] :
 		</subfield>
 		<subfield code="b">
-			Maṭb̄iʻ al-Riyāḍ,
+			Maṭābiʻ al-Riyāḍ,
 		</subfield>
 		<subfield code="c">
 			1961.
@@ -68,10 +91,34 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (5, 246 p., [4] leaves of plates) :
+			online resource (246 pages) :
 		</subfield>
 		<subfield code="b">
-			ports.
+			portraits
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -90,24 +137,16 @@
 			New York University,
 		</subfield>
 		<subfield code="d">
-			2015.
+			2016.
 		</subfield>
 		<subfield code="5">
 			NNU
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
-		<subfield code="a">
-			Saud,
+		<subfield code="6">
+			880-05
 		</subfield>
-		<subfield code="c">
-			King of Saudi Arabia,
-		</subfield>
-		<subfield code="d">
-			1902-1969.
-		</subfield>
-	</datafield>
-	<datafield ind1="0" ind2="0" tag="600">
 		<subfield code="a">
 			Ibn Saʻūd,
 		</subfield>
@@ -115,34 +154,92 @@
 			King of Saudi Arabia,
 		</subfield>
 		<subfield code="d">
-			1880-1953.
+			1880-195.
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="0" tag="600">
+	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">
-			Faisal,
-		</subfield>
-		<subfield code="c">
-			King of Saudi Arabia,
-		</subfield>
-		<subfield code="d">
-			1906-1975.
+			Wahhābīyah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
 		<subfield code="a">
 			Saudi Arabia
+		</subfield>
+		<subfield code="x">
+			Kings and rulers
 		</subfield>
 		<subfield code="x">
 			History.
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="651">
+	<datafield ind1="0" ind2="7" tag="600">
 		<subfield code="a">
-			Saudi Arabia
+			Ibn Saʻūd,
 		</subfield>
-		<subfield code="x">
+		<subfield code="c">
+			King of Saudi Arabia,
+		</subfield>
+		<subfield code="d">
+			1880-1953
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00061780
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
 			Kings and rulers.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00987694
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Wahhābīyah.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01169912
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Saudi Arabia.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01210372
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			History.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411628
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			ʻUbūdī, Muḥammad ibn Nāṣir.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -160,13 +257,33 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Ibn Hadhlūl, Saʻūd, Amīr.
+		</subfield>
+		<subfield code="t">
+			Tārīkh mulūk Āl Saʻud.
+		</subfield>
+		<subfield code="b">
+			al-Ṭabʻah 1.
+		</subfield>
+		<subfield code="d">
+			[al-Riyāḍ] : Maṭābiʻ al-Riyāḍ, 1961
+		</subfield>
+		<subfield code="w">
+			(OCoLC)654685372
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ibn Hadhlūl, Saʻūd.
+			Ibn Hadhlūl, Saʻūd, Amīr.
 		</subfield>
 		<subfield code="t">
-			Tārīkh mulūk Āl Saʻūd
+			Tārīkh mulūk Āl Saʻud
 		</subfield>
 		<subfield code="w">
 			(NNU)002773053
@@ -175,6 +292,72 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/b5mkm0cn
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			إبن هذلول، سعود،
+		</subfield>
+		<subfield code="c">
+			Amīr.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			تاريخ ملوك آل سعود /
+		</subfield>
+		<subfield code="c">
+			تأليف سعود بن هذلول.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			الطبعة ١.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			الرياض :
+		</subfield>
+		<subfield code="b">
+			مطابع الرياض،
+		</subfield>
+		<subfield code="c">
+			١٩٦١.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">
+			600-05/
+		</subfield>
+		<subfield code="a">
+			ابن سعود،
+		</subfield>
+		<subfield code="c">
+			كنگ ف سد ارب،
+		</subfield>
+		<subfield code="d">
+			1880-1953.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-06/
+		</subfield>
+		<subfield code="a">
+			عبودي، محمد بن ناصر.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -203,9 +386,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001390
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

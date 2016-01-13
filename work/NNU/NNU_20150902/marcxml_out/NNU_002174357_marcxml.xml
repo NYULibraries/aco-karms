@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02953nam a2200457   4500
+		03559nam a2200565   4500
 	</leader>
 	<controlfield tag="001">
 		002174357
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151105s1962    sy fh   ob    001 0 arard
+		160113s1962    sy fh   ob    001 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -39,18 +42,22 @@
 		<subfield code="a">
 			a-jo---
 		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
+		<subfield code="a">
+			a-is---
+		</subfield>
+		<subfield code="a">
+			awba---
+		</subfield>
+		<subfield code="a">
+			awgz---
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			DS124
+			DS116
 		</subfield>
 		<subfield code="b">
-			.I25 1962
+			.I27 1962
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
@@ -58,62 +65,96 @@
 			880-01
 		</subfield>
 		<subfield code="a">
-			Ibn Shaddād, Muḥammad ibn ʻAlī,
+			Ibn Shaddād, Muḥammad ibn ʻAlī,
 		</subfield>
 		<subfield code="d">
 			1217-1285.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
-		<subfield code="a">
-			Aʻlāq al-khaṭīrah fī dhikr umarāʼ al-Shām wa-al-Jazīrah.
-		</subfield>
-		<subfield code="n">
-			Qism 2
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">
 			880-02
 		</subfield>
 		<subfield code="a">
-			al-Aʻlāq al-khaṭīrah fī dhikr umarāʼ al-Shām wa-al-Jazīrah
+			Aʻlāq al-khaṭīrah fī dhikr umarāʼ al-Shām wa-al-Jazīrah.
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="n">
+			Qism 2.
 		</subfield>
-		<subfield code="b">
-			tārīkh Lubnān wa-al-Urdun wa-Filasṭīn /
+	</datafield>
+	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			al-Aʻlāq al-khaṭīrah fī dhikr umarāʼ al-Shām wa-al-Jazīrah /
 		</subfield>
 		<subfield code="c">
-			li-Ibn Shaddād ʻIzz al-Dīn Abī ʻAbd Allāh Muḥammad ibn ʻAlī ibn Ibrāhīm al-Ḥalabī ; ʻuniya bi-nashrihi wa-taḥqīqihi wa-waḍʻa fahārisaihu Sāmī al-Dahhān.
+			li-Ibn Shaddād ʻIzz al-Dīn Abī ʻAbd Allāh Muḥammad ibn ʻAlī ibn Ibrāhīm al-Ḥalabī ; tārīkh Lubnān wa-al-Urdun wa-Filasṭīn ; ʻuniya bi-nashrihi wa-taḥqīqihi wa-waḍʻ fahārisihā Sāmī al-Dahhān.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="a">
+			Liban, Jordanie, Palestine, topographie historique d'Ibn Šaddād
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Tārīkh Lubnān wa-al-Urdun wa-Filasṭīn
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-03
+			880-05
 		</subfield>
 		<subfield code="a">
 			Dimashq :
 		</subfield>
 		<subfield code="b">
-			al-Maʻhad al-Faransī lil-Dirāsāt al-ʻArabīyah,
+			al-Maʻhad al-Faransī lil-Dirāsāt al-ʻArabīyah,
 		</subfield>
 		<subfield code="c">
-			1962 [i.e. 1963]
+			1962.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (35, 347 p., 4 leaves of plates) :
+			online resource (35, 347 pages, 4 leaves of plates) :
 		</subfield>
 		<subfield code="b">
-			facsims.
+			facsimiles
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			Title on added t.p.: Liban, Jordanie, Palestine, topographie historique d'Ibn Šaddād.
+			Title on added t.p.: Liban, Jordanie, Palestine, topographie historique d'Ibn Šaddād.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -123,7 +164,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Includes bibliographical references (p. 335-341) and indexes.
+			Includes bibliographical references (pages 335-341) and indexes.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -137,21 +178,10 @@
 			New York University,
 		</subfield>
 		<subfield code="d">
-			2015.
+			2016.
 		</subfield>
 		<subfield code="5">
 			NNU
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="0" tag="651">
-		<subfield code="a">
-			Palestine
-		</subfield>
-		<subfield code="x">
-			Description and travel
-		</subfield>
-		<subfield code="v">
-			Early works to 1800.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
@@ -187,9 +217,89 @@
 			Early works to 1800.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="a">
+			Palestine
+		</subfield>
+		<subfield code="x">
+			Description and travel
+		</subfield>
+		<subfield code="v">
+			Early works to 1800.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Travel.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01155558
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Jordan.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01205669
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Lebanon.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01206063
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Middle East
+		</subfield>
+		<subfield code="z">
+			Palestine.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01207534
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Syria.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01208757
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Early works.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411636
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-04
+			880-06
 		</subfield>
 		<subfield code="a">
 			Dahhān, Sāmī.
@@ -208,28 +318,15 @@
 			Arabic Collections Online.
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="740">
-		<subfield code="a">
-			Liban, Jordanie, Palestine, topographie historique d'Ibn Šaddād.
-		</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="740">
-		<subfield code="6">
-			880-05
-		</subfield>
-		<subfield code="a">
-			Tārīkh Lubnān wa-al-Urdun wa-Filasṭīn.
-		</subfield>
-	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ibn Shaddād, Muḥammad ibn ʻAlī, 1217-1285.
+			Ibn Shaddād, Muḥammad ibn ʻAlī, 1217-1285.
 		</subfield>
 		<subfield code="t">
-			al-Aʻlāq al-khaṭīrah fī dhikr umarāʼ al-Shām wa-al-Jazīrah
+			al-Aʻlāq al-khaṭīrah fī dhikr umarāʼ al-Shām wa-al-Jazīrah
 		</subfield>
 		<subfield code="w">
 			(NNU)002174357
@@ -243,28 +340,50 @@
 			http://hdl.handle.net/2333.1/pvmcvhj2
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
+	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
 			100-01/
 		</subfield>
 		<subfield code="a">
-			ابن شداد عز الدين أبي عبد الله محمد بن ابراهيم الحلبي.
+			ابن شداد، محمد بن علي،
+		</subfield>
+		<subfield code="d">
+			1217-1285.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02/
+		</subfield>
+		<subfield code="a">
+			اعلاق الخطيرة في ذكر امراء الشام والجزيرة.
+		</subfield>
+		<subfield code="n">
+			قسم 2.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-02/
+			245-03/
 		</subfield>
 		<subfield code="a">
-			الأعلاق الخطيرة ذكر أمراء الشام والجزيرة /
+			الاعلاق الخطيرة في ذكر امراء الشام والجزيرة /
 		</subfield>
 		<subfield code="c">
-			لابن شداد عز الدين أبي عبد الله محمد بن ابراهيم الحلبي ؛ عني بنشره وتحقيقه ووضع فهارسه سامي الدهان.
+			لاابن شداد عاز الدين ابي عبد الله محمد بن علي بن ابراهيم الحلبي ؛ تاريخ لبنان والاردن وفلسطين ؛ عني بنشره وتحقيقه ووضع فهارسها سامي الدهان.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-04/
+		</subfield>
+		<subfield code="a">
+			تاريخ لبنان والاردن وفلسطين
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-03/
+			260-05/
 		</subfield>
 		<subfield code="a">
 			دمشق :
@@ -273,23 +392,15 @@
 			المعهد الفرنسي للدراسات العربية،
 		</subfield>
 		<subfield code="c">
-			١٩٦٢ [i.e. 1963]
+			1962.
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
+	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-04/
+			700-06/
 		</subfield>
 		<subfield code="a">
-			سامي الدهان.
-		</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">
-			740-05/
-		</subfield>
-		<subfield code="a">
-			تاريخ لبنان والاردن وفلسطين.
+			دهان، سامي.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

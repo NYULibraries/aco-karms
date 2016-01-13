@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01170nam a2200301   4500
+		02231nam a2200517   4500
 	</leader>
 	<controlfield tag="001">
 		002774969
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151105s1982    ir      o    f000 0 ara d
+		160113q19821983ir      o    f000 0 per d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -42,38 +45,44 @@
 			a-ir---
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="110">
+	<datafield ind1=" " ind2=" " tag="045">
 		<subfield code="a">
-			Iran.
+			x7x7
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="0" tag="240">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			Qānūn-i Asāsī (1980).
+			JQ178
 		</subfield>
-		<subfield code="l">
-			Arabic
+		<subfield code="b">
+			.A512 1980
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Dustūr Jumhūrīyah Īrān al-Islāmīyah
+	<datafield ind1="0" ind2="0" tag="245">
+		<subfield code="6">
+			880-01
 		</subfield>
-		<subfield code="h">
-			[electronic resource].
+		<subfield code="a">
+			Dustūr Jumhūrīyat Īrān al-Islāmīyah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			al-Ṭabʻah 1.
+			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Ṭihrān :
+			Ṭihrān :
 		</subfield>
 		<subfield code="b">
-			Wizārat al-Irshād al-Islāmī,
+			Wizārat al-Irshād al-Islāmī,
 		</subfield>
 		<subfield code="c">
 			1403 [1982 or 1983]
@@ -81,7 +90,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (109 p.)
+			online resource (109 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -100,18 +133,103 @@
 			New York University,
 		</subfield>
 		<subfield code="d">
-			2015.
+			2016.
 		</subfield>
 		<subfield code="5">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="610">
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Islamic law
+		</subfield>
+		<subfield code="z">
+			Iran.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Constitutions
+		</subfield>
+		<subfield code="z">
+			Iran.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Constitutional law
+		</subfield>
+		<subfield code="z">
+			Iran.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Constitutional law.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00875797
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Constitutions.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00875851
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Islamic law.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00979949
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Iran.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01204889
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="710">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Iran.
+		</subfield>
+		<subfield code="b">
+			Vizārat-i Irshād-i Islāmī.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="710">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Iran.
 		</subfield>
 		<subfield code="t">
-			Constitution.
+			Qānūn-i Asāsī (1979).
+		</subfield>
+		<subfield code="l">
+			Arabic.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -127,15 +245,20 @@
 			Arabic Collections Online.
 		</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			Dastūr Jumhūrīyat Īrān al-Islāmīyah.
+		</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
 			Print version:
 		</subfield>
-		<subfield code="a">
-			Iran.
-		</subfield>
 		<subfield code="t">
-			Dustūr Jumhūrīyah Īrān al-Islāmīyah
+			Dustūr Jumhūrīyat Īrān al-Islāmīyah
 		</subfield>
 		<subfield code="w">
 			(NNU)002774969
@@ -144,6 +267,66 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/kprr51d7
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">
+			245-01/
+		</subfield>
+		<subfield code="a">
+			دستور جمهورية ايران الاسلامية.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-02/
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			طهران :
+		</subfield>
+		<subfield code="b">
+			وزارة الارشاد الاسلامي،
+		</subfield>
+		<subfield code="c">
+			1403 [1982 or 1983]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			710-04/
+		</subfield>
+		<subfield code="a">
+			ايران.
+		</subfield>
+		<subfield code="b">
+			وزارة ارشاد اسلامى.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			710-05/
+		</subfield>
+		<subfield code="a">
+			ايران.
+		</subfield>
+		<subfield code="t">
+			قانون اساسى (1979).
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			740-06/
+		</subfield>
+		<subfield code="a">
+			دستور جمهورية ايران الاسلامية.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -172,9 +355,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001411
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

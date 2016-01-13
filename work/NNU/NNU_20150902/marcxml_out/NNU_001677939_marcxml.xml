@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01898nam a2200373   4500
+		02125nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		001677939
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151105s1962    iq      o     000 0 ara d
+		160113s1962    iq      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -57,6 +57,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Jibāl wa-al-amkinah wa-al-miyāh /
 		</subfield>
@@ -66,7 +69,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-02
+			880-03
 		</subfield>
 		<subfield code="a">
 			Najaf :
@@ -123,7 +126,7 @@
 			New York University,
 		</subfield>
 		<subfield code="d">
-			2015.
+			2016.
 		</subfield>
 		<subfield code="5">
 			NNU
@@ -222,9 +225,20 @@
 			1075-1144.
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			الجبال والامكنة والمياه /
+		</subfield>
+		<subfield code="c">
+			تصنيف ابي القاسم محمود بن عمر الزمخشري ؛ حققه وعلق عليه وقدم له محمد صادق آل بحر العلوم.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-02/
+			260-03/
 		</subfield>
 		<subfield code="a">
 			نجف :
@@ -262,9 +276,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001260
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

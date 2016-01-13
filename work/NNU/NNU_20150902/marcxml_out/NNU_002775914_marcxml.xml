@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01354nam a2200301   4500
+		01998nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		002775914
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151105s1954    le      o     000 1 arar 
+		160113s1954    le      o     000 1 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,59 +25,55 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			PJ7842.A68
 		</subfield>
 		<subfield code="b">
-			A64
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">
-			DS238.M35
-		</subfield>
-		<subfield code="b">
-			K362 1954
+			A64 1954
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">
-			Karam, Karam Milḥim.
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">
 			880-01
 		</subfield>
 		<subfield code="a">
-			Abū Jaʻfar al-Manṣūr
+			Karam, Karam Mulḥim,
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="d">
+			1903-
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
+		<subfield code="a">
+			Abū Jaʻfar al-Manṣūr :
 		</subfield>
 		<subfield code="b">
-			qiṣṣah wa-tārīkh /
+			qiṣṣah wa-tārīkh /
 		</subfield>
 		<subfield code="c">
-			[Taʼlīf] Karam Milḥim Karam.
+			Karam Milḥim Karam.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Bayrūt;
+			Bayrūt :
 		</subfield>
 		<subfield code="b">
-			Manshūrāt al-Jabal al-Akhḍar
+			Manshūrāt al-Jabal al-Akhḍar,
 		</subfield>
 		<subfield code="c">
 			[1954]
@@ -85,7 +81,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (353 p.)
+			online resource (353 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -104,24 +124,55 @@
 			New York University,
 		</subfield>
 		<subfield code="d">
-			2015.
+			2016.
 		</subfield>
 		<subfield code="5">
 			NNU
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Manṣūr, Abū Jaʻfar,
+			Manṣūr, Abū Jaʻfar,
 		</subfield>
 		<subfield code="c">
 			Caliph,
 		</subfield>
 		<subfield code="d">
-			ca. 712-775
+			approximately 712-775
 		</subfield>
 		<subfield code="v">
 			Fiction.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="7" tag="600">
+		<subfield code="a">
+			Manṣūr, Abū Jaʻfar,
+		</subfield>
+		<subfield code="c">
+			Caliph,
+		</subfield>
+		<subfield code="d">
+			approximately 712-775
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01832756
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Fiction.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01423787
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -139,13 +190,30 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Karam, Karam Milḥim, 1903-
+		</subfield>
+		<subfield code="t">
+			Abū Jaʻfar al-Manṣūr.
+		</subfield>
+		<subfield code="d">
+			Bayrūt : Manshūrāt al-Jabal al-Akhḍar, [1954]
+		</subfield>
+		<subfield code="w">
+			(OCoLC)651559059
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Karam, Karam Milḥim.
+			Karam, Karam Mulḥim, 1903-
 		</subfield>
 		<subfield code="t">
-			Abū Jaʻfar al-Manṣūr
+			Abū Jaʻfar al-Manṣūr
 		</subfield>
 		<subfield code="w">
 			(NNU)002775914
@@ -159,9 +227,20 @@
 			http://hdl.handle.net/2333.1/k3j9kh26
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			كرم، كرم ملحم،
+		</subfield>
+		<subfield code="d">
+			1903-
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-01/
+			245-02/
 		</subfield>
 		<subfield code="a">
 			ابو جعفر المنصور ؛
@@ -171,6 +250,37 @@
 		</subfield>
 		<subfield code="c">
 			[تاليف] كرم ملحم كرم.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			بيروت :
+		</subfield>
+		<subfield code="b">
+			منشورات الجبل الاخضر،
+		</subfield>
+		<subfield code="c">
+			[1954]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-04/
+		</subfield>
+		<subfield code="a">
+			منصور، ابو جعفر،
+		</subfield>
+		<subfield code="c">
+			Caliph,
+		</subfield>
+		<subfield code="d">
+			approximately 712-775
+		</subfield>
+		<subfield code="v">
+			Fiction.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -199,9 +309,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001388
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

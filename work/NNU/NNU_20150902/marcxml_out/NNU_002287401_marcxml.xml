@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02380nam a2200385   4500
+		02778nam a2200493   4500
 	</leader>
 	<controlfield tag="001">
 		002287401
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151105s1956    sy fh   ob    001 0 arard
+		160113s1956    sy bfh  ob    001 1 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -34,25 +37,12 @@
 			a-sy---
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			DS99.D3
+			DS38.6
 		</subfield>
 		<subfield code="b">
-			I245 1956
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">
-			DS99.D3
-		</subfield>
-		<subfield code="b">
-			I245 1956
+			.I262 1956
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
@@ -60,46 +50,62 @@
 			880-01
 		</subfield>
 		<subfield code="a">
-			Ibn Shaddād, Muḥammad ibn ʻAlī,
+			Ibn Shaddād, Muḥammad ibn ʻAlī,
 		</subfield>
 		<subfield code="d">
 			1217-1285.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
-		<subfield code="a">
-			Aʻlāq al-khaṭīrah fī dhikr umarāʼ al-Shām wa-al-Jazīrah.
-		</subfield>
-		<subfield code="n">
-			Juzʼ2., qism 1
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">
 			880-02
 		</subfield>
 		<subfield code="a">
-			al-Aʻlāq al-khaṭīrah fī dhikr umarāʼ al-Shām wa-al-Jazīrah
+			Aʻlāq al-khaṭīrah fī dhikr umarāʼ al-Shām wa-al-Jazīrah.
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="k">
+			Selections
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			al-Aʻlāq al-khaṭīrah fī dhikr umarāʼ al-Shām wa-al-Jazīrah :
 		</subfield>
 		<subfield code="b">
-			tārīkh madīnat Dimashq /
+			tārīkh madīnat Dimashq /
 		</subfield>
 		<subfield code="c">
-			li-Ibn Shaddād ʻIzz al-Dīn Abī ʻAbd Allāh Muḥammad ibn ʻAlī ibn Ibrāhīm ; ʻuniya bi-nashrihi wa-taḥqīqihi wa-waḍʻ fahārisahā Sāmī al-Dahhān.
+			li-Ibn Shaddād ; ̣uniyá bi-nashrihi wa-taḥqīqihi wa-waḍaʻa fahārisahu Sāmī al-Dahhān.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Tārīkh madīnat Dimashq
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="246">
+		<subfield code="i">
+			Title on p. [4] of cover:
+		</subfield>
+		<subfield code="a">
+			Description de Damas d'Ibn Šaddad
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-03
+			880-05
 		</subfield>
 		<subfield code="a">
 			Dimashq :
 		</subfield>
 		<subfield code="b">
-			al-Maʻhad al-Faransī lil-Dirāsāt al-ʻArabīyah bi-Dimashq,
+			al-Maʻhad al-Faransī lil-Dirāsāt al-ʻArabīyah,
 		</subfield>
 		<subfield code="c">
 			1956.
@@ -107,10 +113,34 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (56, 473 p., 8 leaves of plates) :
+			online resource (55, 473 pages, [8] leaves of plates) :
 		</subfield>
 		<subfield code="b">
-			facsims.
+			facsimiles
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -134,7 +164,7 @@
 			New York University,
 		</subfield>
 		<subfield code="d">
-			2015.
+			2016.
 		</subfield>
 		<subfield code="5">
 			NNU
@@ -145,15 +175,56 @@
 			Damascus (Syria)
 		</subfield>
 		<subfield code="x">
-			Description and travel
+			History.
 		</subfield>
-		<subfield code="v">
-			Early works to 1800.
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="a">
+			Damascus (Syria)
+		</subfield>
+		<subfield code="x">
+			Description and travel.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Travel.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01155558
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Syria
+		</subfield>
+		<subfield code="z">
+			Damascus.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01207112
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			History.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411628
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-04
+			880-06
 		</subfield>
 		<subfield code="a">
 			Dahhān, Sāmī.
@@ -177,16 +248,13 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ibn Shaddād, Muḥammad ibn ʻAlī, 1217-1285.
+			Ibn Shaddād, Muḥammad ibn ʻAlī, 1217-1285.
 		</subfield>
 		<subfield code="t">
-			al-Aʻlāq al-khaṭīrah fī dhikr umarāʼ al-Shām wa-al-Jazīrah
+			al-Aʻlāq al-khaṭīrah fī dhikr umarāʼ al-Shām wa-al-Jazīrah
 		</subfield>
 		<subfield code="w">
 			(NNU)002287401
-		</subfield>
-		<subfield code="w">
-			(DLC)ne 65002284
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
@@ -199,40 +267,62 @@
 			100-01/
 		</subfield>
 		<subfield code="a">
-			ابن شداد، محمد بن علي.
+			ابن شداد، محمد بن علي،
+		</subfield>
+		<subfield code="d">
+			1217-1285.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02/
+		</subfield>
+		<subfield code="a">
+			اعلاق الخطيرة في ذكر امراء الشام والجزيرة.
+		</subfield>
+		<subfield code="k">
+			Selections
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-02/
+			245-03/
 		</subfield>
 		<subfield code="a">
-			الأعلاق الخطيرة في ذكر أمراء الشام والجزيرة :
+			الاعلاق الخطيرة في ذكر امراء الشام والجزيرة :
 		</subfield>
 		<subfield code="b">
 			تاريخ مدينة دمشق /
 		</subfield>
 		<subfield code="c">
-			لابن شداد عز الدين أبي عبد الله محمد بن علي بن ابراهيم ؛ عنى بنشره وتحقيقه ووضع فهارسه سامي الدهان.
+			لاابن شداد ؛ انيى بنشره وتحقيقه ووضع فهارسه سامي الدهان.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-04/
+		</subfield>
+		<subfield code="a">
+			تاريخ مدينة دمشق
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-03/
+			260-05/
 		</subfield>
 		<subfield code="a">
 			دمشق :
 		</subfield>
 		<subfield code="b">
-			المعهد الفرنسي للدراسات العربية بدمشق،
+			المعهد الفرنسي للدراسات العربية،
 		</subfield>
 		<subfield code="c">
-			١٩٥٦.
+			1956.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-04/
+			700-06/
 		</subfield>
 		<subfield code="a">
 			دهان، سامي.

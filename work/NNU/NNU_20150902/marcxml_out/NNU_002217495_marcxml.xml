@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01250nam a2200301   4500
+		01868nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		002217495
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151105s1982    ir      ob   f000 0 ara d
+		160113s1982    ir      o    f000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,37 +25,49 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="043">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			a-ir---
+			JC49
+		</subfield>
+		<subfield code="b">
+			.K53 1982
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Khomeini, Ruhollah.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Ḥukūmat al-Islāmīyah
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			al-Ḥukūmah al-Islāmīyah /
 		</subfield>
 		<subfield code="c">
-			Rūḥ Allāh al-Khumaynī.
+			Rūḥ Allāh al-Khumaynī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			[Tehran] :
 		</subfield>
 		<subfield code="b">
-			al-Jumhūrīyah al-Islāmīyah al-Īrānīyah, Wizārat al- Irshād,
+			Al-Jumhūrīyah al-Islāmīyah al-Īrānīyah, Wizārat al-Irshād,
 		</subfield>
 		<subfield code="c">
 			[1982?]
@@ -63,17 +75,41 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (154 p.)
+			online resource (154 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">
+			At head of title: al-Ḥarakah al-Islāmīyah fī Īrān.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
 			Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">
-			Includes bibliographical referenes.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -87,7 +123,7 @@
 			New York University,
 		</subfield>
 		<subfield code="d">
-			2015.
+			2016.
 		</subfield>
 		<subfield code="5">
 			NNU
@@ -98,20 +134,15 @@
 			Islam and state.
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="650">
+	<datafield ind1=" " ind2="7" tag="650">
 		<subfield code="a">
-			Islam and state
+			Islam and state.
 		</subfield>
-		<subfield code="z">
-			Iran.
+		<subfield code="2">
+			fast
 		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="0" tag="651">
-		<subfield code="a">
-			Iran
-		</subfield>
-		<subfield code="x">
-			Politics and government.
+		<subfield code="0">
+			(OCoLC)fst00979890
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -129,13 +160,30 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Khomeini, Ruhollah.
+		</subfield>
+		<subfield code="t">
+			Ḥukūmah al-Islāmīyah.
+		</subfield>
+		<subfield code="d">
+			[Tehran] : Al-Jumhūrīyah al-Islāmīyah al-Īrānīyah, Wizārat al-Irshād, [1982?]
+		</subfield>
+		<subfield code="w">
+			(OCoLC)568184127
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
 			Khomeini, Ruhollah.
 		</subfield>
 		<subfield code="t">
-			al-Ḥukūmat al-Islāmīyah
+			al-Ḥukūmah al-Islāmīyah
 		</subfield>
 		<subfield code="w">
 			(NNU)002217495
@@ -144,6 +192,39 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/qnk98wg5
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			روح الله الخميني.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			الحكومة الإسلامية /
+		</subfield>
+		<subfield code="c">
+			روح الله الخميني.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			[طهران] :
+		</subfield>
+		<subfield code="b">
+			الجمهورية الاسلامية الارانية، وزارة الارشاد،
+		</subfield>
+		<subfield code="c">
+			[1982?]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -172,9 +253,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001413
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>
