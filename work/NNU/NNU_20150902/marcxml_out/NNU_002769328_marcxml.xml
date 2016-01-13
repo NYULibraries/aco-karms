@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01167nam a2200265   4500
+		01662nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		002769328
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		151105s1935    le acfh o     000 0 ara d
+		160113s1935    le      o     000 0dara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -34,28 +37,42 @@
 			a-le---
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			DS89.B48
+		</subfield>
+		<subfield code="b">
+			B853 1935
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Bulaybil, Idmūn.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Taqwīm Bikfayā al-kubrá wa-tārīkh usarihā
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Taqwīm Bikfayyā al-kubrá wa-tārīkh usarihā /
 		</subfield>
 		<subfield code="c">
-			allafahu Idmūn Bulaybil.
+			ʼallafahu al-Shaykh Idmūn Bulaybil.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Bikfayā, Lubnān:
+			Bikfayyā :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat al-ʻArāʼis,
+			Maṭbaʻat ʼal-ʻArāʼis,
 		</subfield>
 		<subfield code="c">
 			1935.
@@ -63,10 +80,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (295 p., [6] leaves of plates) :
+			online resource (295 pages)
 		</subfield>
-		<subfield code="b">
-			ill., facsims., port.
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -85,7 +123,7 @@
 			New York University,
 		</subfield>
 		<subfield code="d">
-			2015.
+			2016.
 		</subfield>
 		<subfield code="5">
 			NNU
@@ -93,10 +131,35 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
 		<subfield code="a">
-			Bikfayā (Lebanon)
+			Bikfayyā (Lebanon)
 		</subfield>
-		<subfield code="x">
-			History.
+		<subfield code="v">
+			Biography.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Lebanon
+		</subfield>
+		<subfield code="z">
+			Bikfayyā.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01888471
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Biography.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01423686
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -120,7 +183,7 @@
 			Bulaybil, Idmūn.
 		</subfield>
 		<subfield code="t">
-			Taqwīm Bikfayā al-kubrá wa-tārīkh usarihā
+			Taqwīm Bikfayyā al-kubrá wa-tārīkh usarihā
 		</subfield>
 		<subfield code="w">
 			(NNU)002769328
@@ -129,6 +192,39 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/280gb8g9
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			بليبل، ادمون.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			تقويم بكفيا الكبرى وتاريخ اسرها /
+		</subfield>
+		<subfield code="c">
+			ألفه الشيخ ادمون بليبل.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			بكفيا :
+		</subfield>
+		<subfield code="b">
+			مطبعة ألعرائس،
+		</subfield>
+		<subfield code="c">
+			1935.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -157,9 +253,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001322
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

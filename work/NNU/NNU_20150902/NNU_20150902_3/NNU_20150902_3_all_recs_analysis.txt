@@ -1,20 +1,20 @@
 Total records processed - batch NNU_20150902: 164 records
-Report produced: 2015-11-05 10:06:15.796093
-Input File (orig_with_oclc): 100
-Input File (orig_no_oclc): 64
+Report produced: 2016-01-13 13:54:58.498152
+Input File (orig_with_oclc): 117
+Input File (orig_no_oclc): 47
 
 Records where OCLC nums did not match: 164
-Total records containing any type of error for this round: 33 (20.1%)
-Total records passing to final version for this round: 131 (79.9%)
+Total records containing any type of error for this round: 19 (11.6%)
+Total records passing to final version for this round: 145 (88.4%)
 -----------------------
-Records containing 880 script fields: 150 (91.5%)
-Records with NO 880 script fields: 14 (8.5%)
+Records containing 880 script fields: 164 (100.0%)
+Records with NO 880 script fields: 0 (0.0%)
 Records missing key 880 script fields: 19 (11.6%)
 Records containing unlinked 880 script fields: 0 (0.0%)
 Records containing series errors in 490/800/810/811/830 fields: 0 (0.0%)
 Records containing miscellaneous errors: 0 (0.0%)
 Records containing bad encoding replacement character: 0
-Records containing RDA fields: 93 (56.7%)
+Records containing RDA fields: 109 (66.5%)
 ---------------------------------------------------------------------
 INDIVIDUAL RECORDS ANALYSIS:
 ---------------------------------------------------------------------
@@ -273,8 +273,6 @@ Institution ID: NNU_001677939
    orig_rec_035 num: =035  \\$a(OCoLC)13453675
 Record 999:  NNU_001677939
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   245 - al-Jibāl wa-al-amkinah wa-al-miyāh / taṣnīf Abī al-Qāsim Maḥmūd ibn ʻUmar al-Zamakhsharī ; ḥaqqaqahu wa-ʻallaqa ʻalayhi wa-qaddama la-hu Muḥammad Ṣādiq Āl Baḥr al-ʻUlūm.
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): nyu_aco001260
@@ -420,9 +418,6 @@ Institution ID: NNU_001678280
    orig_rec_035 num: =035  \\$a(OCoLC)23486284
 Record 999:  NNU_001678280
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   490 - Silsilat al-nuṣūṣ al-qadīmah ; 2
-   830 - Silsilat al-nuṣūṣ al-qadīmah ; 2.
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): nyu_aco001354
@@ -731,6 +726,14 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): nyu_aco001318
 ---------------------------------------------------------------------
+Institution ID: NNU_001701074
+   orig_rec_035 num: =035  \\$a(OCoLC)23514600
+Record 999:  NNU_001701074
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): nyu_aco001323
+---------------------------------------------------------------------
 Institution ID: NNU_001701113
    orig_rec_035 num: =035  \\$a(OCoLC)222105425
 Record 999:  NNU_001701113
@@ -851,6 +854,143 @@ Record 999:  NNU_002122134
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): nyu_aco001234
+---------------------------------------------------------------------
+Institution ID: NNU_002174357
+   orig_rec_035 num: =035  \\$a(OCoLC)213528037
+Record 999:  NNU_002174357
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Liban, Jordanie, Palestine, topographie historique d'Ibn Šaddād
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): nyu_aco001438
+---------------------------------------------------------------------
+Institution ID: NNU_002217495
+   orig_rec_035 num: =035  \\$a(OCoLC)12282717
+Record 999:  NNU_002217495
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): nyu_aco001413
+---------------------------------------------------------------------
+Institution ID: NNU_002287401
+   orig_rec_035 num: =035  \\$a(OCoLC)19090897
+Record 999:  NNU_002287401
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Title on p. [4] of cover: Description de Damas d'Ibn Šaddad
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): nyu_aco001353
+---------------------------------------------------------------------
+Institution ID: NNU_002746170
+   orig_rec_035 num: =035  \\$a(OCoLC)12661097
+Record 999:  NNU_002746170
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): nyu_aco001369
+---------------------------------------------------------------------
+Institution ID: NNU_002751935
+   orig_rec_035 num: =035  \\$a(OCoLC)23523188
+Record 999:  NNU_002751935
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): nyu_aco001246
+---------------------------------------------------------------------
+Institution ID: NNU_002769328
+   orig_rec_035 num: =035  \\$a(OCoLC)80219652
+Record 999:  NNU_002769328
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): nyu_aco001322
+---------------------------------------------------------------------
+Institution ID: NNU_002769330
+   orig_rec_035 num: =035  \\$a(OCoLC)79325811
+Record 999:  NNU_002769330
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): nyu_aco001316
+---------------------------------------------------------------------
+Institution ID: NNU_002773053
+   orig_rec_035 num: =035  \\$a(OCoLC)16840216
+Record 999:  NNU_002773053
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): nyu_aco001390
+---------------------------------------------------------------------
+Institution ID: NNU_002774969
+   orig_rec_035 num: =035  \\$a(OCoLC)61619054
+Record 999:  NNU_002774969
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): nyu_aco001411
+---------------------------------------------------------------------
+Institution ID: NNU_002775914
+   orig_rec_035 num: =035  \\$a(OCoLC)30345918
+Record 999:  NNU_002775914
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): nyu_aco001388
+---------------------------------------------------------------------
+Institution ID: NNU_002777316
+   orig_rec_035 num: =035  \\$a(OCoLC)16104708
+Record 999:  NNU_002777316
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   710 - Khoury Collection (Library of Congress) DLC
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): nyu_aco001418
+---------------------------------------------------------------------
+Institution ID: NNU_002803570
+   orig_rec_035 num: =035  \\$a(OCoLC)22896143
+Record 999:  NNU_002803570
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Syria: problems of preservation and presentation of sites and monuments. Arabic
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): nyu_aco001330
+---------------------------------------------------------------------
+Institution ID: NNU_002815937
+   orig_rec_035 num: =035  \\$a(OCoLC)478629691
+Record 999:  NNU_002815937
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): nyu_aco000951:v.1, nyu_aco000952:v.2, nyu_aco000953:v.3, nyu_aco000954:v.4
+---------------------------------------------------------------------
+Institution ID: NNU_002849094
+   orig_rec_035 num: =035  \\$a(OCoLC)58548048
+Record 999:  NNU_002849094
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): nyu_aco001225
+---------------------------------------------------------------------
+Institution ID: NNU_002963393
+   orig_rec_035 num: =035  \\$a(OCoLC)892575711
+Record 999:  NNU_002963393
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   830 - Publications de l'Université de Tehran ; no. 1614.
+040 $e field: [none]
+Source entities (book IDs): nyu_aco001434:v.1
+---------------------------------------------------------------------
+Institution ID: NNU_002966346
+   orig_rec_035 num: =035  \\$a(OCoLC)19939823
+Record 999:  NNU_002966346
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): nyu_aco001410
 ---------------------------------------------------------------------
 Institution ID: NNU_001496933
    orig_rec_035 num: =035  9\$aNYUb11957559
@@ -1100,15 +1240,6 @@ Record 999:  NNU_001700604
 040 $e field: [none]
 Source entities (book IDs): nyu_aco001331
 ---------------------------------------------------------------------
-Institution ID: NNU_001701074
-   orig_rec_035 num: =035  9\$aNYUb12249671
-   orig_rec_035 num: =035  \\$a(MiU)notisAFG6938
-   orig_rec_035 num: =035  \\$a(CStRLIN)MIUGAFG6938-B
-Record 999:  NNU_001701074
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001323
----------------------------------------------------------------------
 Institution ID: NNU_001701259
    orig_rec_035 num: =035  9\$aNYUb12249873
    orig_rec_035 num: =035  \\$a(NNU)NYUb12249873
@@ -1205,16 +1336,6 @@ Record 999:  NNU_002163409
 040 $e field: [none]
 Source entities (book IDs): nyu_aco001391
 ---------------------------------------------------------------------
-Institution ID: NNU_002174357
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG94-B45322
-   orig_rec_035 num: =035  9\$aNYUb11205983
-Record 999:  NNU_002174357
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   240 - Aʻlāq al-khaṭīrah fī dhikr umarāʼ al-Shām wa-al-Jazīrah. Qism 2
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001438
----------------------------------------------------------------------
 Institution ID: NNU_002174883
    orig_rec_035 num: =035  9\$aNYUb11206569
    orig_rec_035 num: =035  \\$a(CStRLIN)NYUG94-B45596
@@ -1239,61 +1360,6 @@ Record 999:  NNU_002186307
 040 $e field: [none]
 Source entities (book IDs): nyu_aco001437
 ---------------------------------------------------------------------
-Institution ID: NNU_002217495
-   orig_rec_035 num: =035  9\$aNYUb11265261
-   orig_rec_035 num: =035  \\$aGLIS004397930
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG86-B3239
-Record 999:  NNU_002217495
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001413
----------------------------------------------------------------------
-Institution ID: NNU_002287401
-   orig_rec_035 num: =035  9\$aNYUb11384662
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG95-B4196
-Record 999:  NNU_002287401
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   240 - Aʻlāq al-khaṭīrah fī dhikr umarāʼ al-Shām wa-al-Jazīrah. Juzʼ2., qism 1
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001353
----------------------------------------------------------------------
-Institution ID: NNU_002746170
-   orig_rec_035 num: =035  9\$aNYUb10445535
-   orig_rec_035 num: =035  \\$aGLIS004455351
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG86-B10394
-Record 999:  NNU_002746170
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001369
----------------------------------------------------------------------
-Institution ID: NNU_002751935
-   orig_rec_035 num: =035  9\$aNYUb10452076
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG86-B14870
-   orig_rec_035 num: =035  \\$aGLIS004520767
-Record 999:  NNU_002751935
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001246
----------------------------------------------------------------------
-Institution ID: NNU_002769328
-   orig_rec_035 num: =035  9\$aNYUb10471450
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG86-B21463
-   orig_rec_035 num: =035  \\$aGLIS004714505
-Record 999:  NNU_002769328
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001322
----------------------------------------------------------------------
-Institution ID: NNU_002769330
-   orig_rec_035 num: =035  9\$aNYUb10471452
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG86-B21465
-   orig_rec_035 num: =035  \\$aGLIS00471452X
-Record 999:  NNU_002769330
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001316
----------------------------------------------------------------------
 Institution ID: NNU_002772033
    orig_rec_035 num: =035  9\$aNYUb10474454
    orig_rec_035 num: =035  \\$a(CStRLIN)NYUG86-B24426
@@ -1301,87 +1367,4 @@ Record 999:  NNU_002772033
 880 script fields: YES
 040 $e field: [none]
 Source entities (book IDs): nyu_aco000957:v.1, nyu_aco000958:v.2, nyu_aco000959:v.3, nyu_aco000960:v.4, nyu_aco000961:v.5, nyu_aco000962:v.6, nyu_aco000963:v.7, nyu_aco000964:v.8, nyu_aco000965:v.9, nyu_aco000966:v.10, nyu_aco000967:v.11, nyu_aco000968:v.12, nyu_aco000969:v.13, nyu_aco000970:v.14, nyu_aco000971:v.15, nyu_aco000972:v.16, nyu_aco000973:v.17, nyu_aco000974:v.18, nyu_aco000975:v.19, nyu_aco000976:v.20, nyu_aco000977:v.21, nyu_aco000978:v.22, nyu_aco000979:v.23, nyu_aco000980:v.24, nyu_aco000981:v.25, nyu_aco000982:v.26
----------------------------------------------------------------------
-Institution ID: NNU_002773053
-   orig_rec_035 num: =035  9\$aNYUb10475592
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG86-B25400
-   orig_rec_035 num: =035  \\$aGLIS004755929
-Record 999:  NNU_002773053
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001390
----------------------------------------------------------------------
-Institution ID: NNU_002774969
-   orig_rec_035 num: =035  9\$aNYUb10477708
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG86-B27305
-   orig_rec_035 num: =035  \\$aGLIS004777085
-Record 999:  NNU_002774969
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001411
----------------------------------------------------------------------
-Institution ID: NNU_002775914
-   orig_rec_035 num: =035  9\$aNYUb10478762
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG86-B28638
-Record 999:  NNU_002775914
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   100 - Karam, Karam Milḥim.
-   260 - Bayrūt; Manshūrāt al-Jabal al-Akhḍar [1954]
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001388
----------------------------------------------------------------------
-Institution ID: NNU_002777316
-   orig_rec_035 num: =035  9\$aNYUb10480340
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG86-B27431
-   orig_rec_035 num: =035  \\$aGLIS004803402
-Record 999:  NNU_002777316
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001418
----------------------------------------------------------------------
-Institution ID: NNU_002803570
-   orig_rec_035 num: =035  9\$aNYUb10509960
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG86-B36478
-   orig_rec_035 num: =035  \\$aGLIS005099602
-Record 999:  NNU_002803570
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001330
----------------------------------------------------------------------
-Institution ID: NNU_002815937
-   orig_rec_035 num: =035  9\$aNYUb10523253
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG87-B12590
-   orig_rec_035 num: =035  \\$aGLIS00523253X
-Record 999:  NNU_002815937
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): nyu_aco000951:v.1, nyu_aco000952:v.2, nyu_aco000953:v.3, nyu_aco000954:v.4
----------------------------------------------------------------------
-Institution ID: NNU_002849094
-   orig_rec_035 num: =035  9\$aNYUb10562789
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG87-B21108
-   orig_rec_035 num: =035  \\$aGLIS00562789X
-Record 999:  NNU_002849094
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001225
----------------------------------------------------------------------
-Institution ID: NNU_002963393
-   orig_rec_035 num: =035  9\$aNYUb10691647
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG89-B6147
-   orig_rec_035 num: =035  \\$aGLIS006916473
-Record 999:  NNU_002963393
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001434:v.1
----------------------------------------------------------------------
-Institution ID: NNU_002966346
-   orig_rec_035 num: =035  9\$aNYUb10694831
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG89-B8773
-   orig_rec_035 num: =035  \\$aGLIS006948318
-Record 999:  NNU_002966346
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001410
 ---------------------------------------------------------------------

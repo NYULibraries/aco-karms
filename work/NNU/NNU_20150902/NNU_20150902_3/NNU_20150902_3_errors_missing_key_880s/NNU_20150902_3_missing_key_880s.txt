@@ -7,7 +7,7 @@ Records MISSING KEY 880 script fields - batch NNU_20150902
     440, 490
     700, 710, 711, 730
     800, 810, 811, 830
-Report produced: 2015-11-05 10:06:15.796093
+Report produced: 2016-01-13 13:54:58.498152
 ---------------------------------------------------------------------
 FILE: NNU_20150902_1/NNU_20150902_1_orig_with_oclc_nums.mrc
 ---------------------------------------------------------------------
@@ -69,27 +69,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): nyu_aco001259
----------------------------------------------------------------------
-Institution ID: NNU_001677939
-   orig_rec_035 num: =035  \\$a(OCoLC)13453675
-Record 999:  NNU_001677939
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   245 - al-Jibāl wa-al-amkinah wa-al-miyāh / taṣnīf Abī al-Qāsim Maḥmūd ibn ʻUmar al-Zamakhsharī ; ḥaqqaqahu wa-ʻallaqa ʻalayhi wa-qaddama la-hu Muḥammad Ṣādiq Āl Baḥr al-ʻUlūm.
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): nyu_aco001260
----------------------------------------------------------------------
-Institution ID: NNU_001678280
-   orig_rec_035 num: =035  \\$a(OCoLC)23486284
-Record 999:  NNU_001678280
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   490 - Silsilat al-nuṣūṣ al-qadīmah ; 2
-   830 - Silsilat al-nuṣūṣ al-qadīmah ; 2.
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): nyu_aco001354
 ---------------------------------------------------------------------
 Institution ID: NNU_001678394
    orig_rec_035 num: =035  \\$a(OCoLC)22694033
@@ -174,39 +153,57 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): nyu_aco001396
 ---------------------------------------------------------------------
----------------------------------------------------------------------
-FILE: NNU_20150902_1/NNU_20150902_1_orig_no_oclc_nums.mrc
----------------------------------------------------------------------
 Institution ID: NNU_002174357
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG94-B45322
-   orig_rec_035 num: =035  9\$aNYUb11205983
+   orig_rec_035 num: =035  \\$a(OCoLC)213528037
 Record 999:  NNU_002174357
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   240 - Aʻlāq al-khaṭīrah fī dhikr umarāʼ al-Shām wa-al-Jazīrah. Qism 2
+   246 - Liban, Jordanie, Palestine, topographie historique d'Ibn Šaddād
 040 $e field: [none]
+RDA fields: YES
 Source entities (book IDs): nyu_aco001438
 ---------------------------------------------------------------------
 Institution ID: NNU_002287401
-   orig_rec_035 num: =035  9\$aNYUb11384662
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG95-B4196
+   orig_rec_035 num: =035  \\$a(OCoLC)19090897
 Record 999:  NNU_002287401
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   240 - Aʻlāq al-khaṭīrah fī dhikr umarāʼ al-Shām wa-al-Jazīrah. Juzʼ2., qism 1
+   246 - Title on p. [4] of cover: Description de Damas d'Ibn Šaddad
 040 $e field: [none]
+RDA fields: YES
 Source entities (book IDs): nyu_aco001353
 ---------------------------------------------------------------------
-Institution ID: NNU_002775914
-   orig_rec_035 num: =035  9\$aNYUb10478762
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG86-B28638
-Record 999:  NNU_002775914
+Institution ID: NNU_002777316
+   orig_rec_035 num: =035  \\$a(OCoLC)16104708
+Record 999:  NNU_002777316
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   100 - Karam, Karam Milḥim.
-   260 - Bayrūt; Manshūrāt al-Jabal al-Akhḍar [1954]
+   710 - Khoury Collection (Library of Congress) DLC
 040 $e field: [none]
-Source entities (book IDs): nyu_aco001388
+RDA fields: YES
+Source entities (book IDs): nyu_aco001418
+---------------------------------------------------------------------
+Institution ID: NNU_002803570
+   orig_rec_035 num: =035  \\$a(OCoLC)22896143
+Record 999:  NNU_002803570
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Syria: problems of preservation and presentation of sites and monuments. Arabic
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): nyu_aco001330
+---------------------------------------------------------------------
+Institution ID: NNU_002963393
+   orig_rec_035 num: =035  \\$a(OCoLC)892575711
+Record 999:  NNU_002963393
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   830 - Publications de l'Université de Tehran ; no. 1614.
+040 $e field: [none]
+Source entities (book IDs): nyu_aco001434:v.1
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNU_20150902_1/NNU_20150902_1_orig_no_oclc_nums.mrc
 ---------------------------------------------------------------------
 TOTAL Number of Records missing key 880 script fields: 19
 
