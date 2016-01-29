@@ -1,72 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     cam a2200241 a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">002177776</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010172313.0</controlfield>
-<controlfield tag="008">940922s1925    ua            000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb11210164</subfield>
-</datafield>
+<controlfield tag="005">20160125161156.0</controlfield>
+<controlfield tag="008">060713s1925    ua            000 0 ara d</controlfield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(NNU)NYUb11210164</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG93-B25051</subfield>
+<subfield code="a">(OCoLC)70801407</subfield>
+<subfield code="z">(OCoLC)20256266</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">"WAU"</subfield>
-<subfield code="c">NNU</subfield>
-<subfield code="d">NNU</subfield>
+<subfield code="a">WAU</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">STF</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">OCLCQ</subfield>
 </datafield>
 <datafield tag="050" ind1=" " ind2="4">
 <subfield code="a">HQ1170</subfield>
 <subfield code="b">.M37 1925</subfield>
 </datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="a">HQ1170</subfield>
-<subfield code="b">.M37 1925</subfield>
-</datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Masʻūd, Muḥammad.</subfield>
+<subfield code="6">880-01</subfield>
+<subfield code="a">Masʻūd, Muḥammad.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="3">
-<subfield code="a">al-Marʼah fī adwārihā al-thalāthah :</subfield>
-<subfield code="b">fatāh wa-zawjan wa-uman : kitāb ʻaṣrī /</subfield>
-<subfield code="c">bi-qalam Muḥammad Masūd.</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">al-Marʼah fī adwārihā al-thalāthah :</subfield>
+<subfield code="b">fatāh wa zawjan wa-uman : kitāb ʻaṣrī /</subfield>
+<subfield code="c">bi-qalam Muḥammad Masʻūd.</subfield>
 </datafield>
 <datafield tag="250" ind1=" " ind2=" ">
-<subfield code="a">al-Ṭabʻah 1.</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">al-Ṭabʻah 1.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
+<subfield code="6">880-04</subfield>
 <subfield code="a">al-Qahirah :</subfield>
-<subfield code="b">[s.n.],</subfield>
+<subfield code="b">[publisher not identified],</subfield>
 <subfield code="c">1925.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">158 p. ;</subfield>
-<subfield code="c">21 cm.</subfield>
+<subfield code="a">158 pages ;</subfield>
+<subfield code="c">21 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="650" ind1=" " ind2="0">
-<subfield code="a">Muslim women.</subfield>
+<subfield code="a">Sex role.</subfield>
 </datafield>
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Sex role</subfield>
 <subfield code="x">Religious aspects</subfield>
-<subfield code="x">Islam</subfield>
+<subfield code="x">Islam.</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="0">
+<subfield code="a">Women</subfield>
+<subfield code="x">Conduct of life.</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Sex role.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01114598</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Sex role</subfield>
+<subfield code="x">Religious aspects</subfield>
+<subfield code="x">Islam.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01114628</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Women</subfield>
+<subfield code="x">Conduct of life.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01176610</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">‏مسعود، محمد.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="2">
+<subfield code="6">245-02/</subfield>
+<subfield code="a">‏المرأة في ادوارها الثلاثة :‏</subfield>
+<subfield code="b">‏فتاة وزوجاً واماُ : كتاب عصري /‏</subfield>
+<subfield code="c">‏بقلم محمد مسعود.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">250-03/</subfield>
+<subfield code="a">‏الطبعة ١.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-04/</subfield>
+<subfield code="a">‏القاهرة :‏</subfield>
+<subfield code="b">[publisher not identified],</subfield>
+<subfield code="c">‏١٩٢٥.</subfield>
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="e">uhol</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">1</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">p</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>

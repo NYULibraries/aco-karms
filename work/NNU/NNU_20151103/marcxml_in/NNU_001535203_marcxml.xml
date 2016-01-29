@@ -1,33 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200313 a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001535203</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010173054.0</controlfield>
+<controlfield tag="005">20160112175435.0</controlfield>
 <controlfield tag="008">990630s1955    le            000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12017724</subfield>
-</datafield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG99-B1634</subfield>
+<subfield code="a">(OCoLC)892545315</subfield>
+<subfield code="z">(OCoLC)23485729</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
 <subfield code="a">NjP</subfield>
-<subfield code="c">NjP</subfield>
-<subfield code="d">MH</subfield>
-<subfield code="d">CStRLIN</subfield>
-<subfield code="d">NNU</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">N15</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">EYM</subfield>
 </datafield>
 <datafield tag="050" ind1=" " ind2="4">
 <subfield code="a">QA32</subfield>
-<subfield code="b">.A6</subfield>
-</datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="a">QA32</subfield>
-<subfield code="b">.A6</subfield>
+<subfield code="b">.A6 1955</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
 <subfield code="6">880-01</subfield>
@@ -35,37 +28,69 @@
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
 <subfield code="6">880-02</subfield>
-<subfield code="a">Iḥyāʼ al-jabr :</subfield>
-<subfield code="b">dars li-kitāb al-Khuwārizmī fī al-Jabr wa-al-muqābalah /</subfield>
-<subfield code="c">bi-qalam ʻĀdil Anbūbā.</subfield>
+<subfield code="a">Iḥyāʼ al-jabr :</subfield>
+<subfield code="b">dars li-kitāb al-Khuwārizmī fī al-Jabr wa-al-muqābalah /</subfield>
+<subfield code="c">bi-qalam ʻĀdil Anbūbā.</subfield>
 </datafield>
 <datafield tag="246" ind1="1" ind2=" ">
-<subfield code="i">Title on p. [4] of cover:</subfield>
-<subfield code="a">Notes sur l'"Algèbre" d'al Ḫwasrizmī</subfield>
+<subfield code="i">Title on page [4] of cover:</subfield>
+<subfield code="a">Notes sur l'"Algèbre" d'al Ḫwasrizmī</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
 <subfield code="6">880-03</subfield>
-<subfield code="a">Bayrūt :</subfield>
-<subfield code="b">al-Jāmiʻah al-Lubnānīyah,</subfield>
+<subfield code="a">Bayrūt :</subfield>
+<subfield code="b">al-Jāmiʻah al-Lubnānīyah,</subfield>
 <subfield code="c">1955.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">28 p. ;</subfield>
+<subfield code="a">28 pages ;</subfield>
 <subfield code="c">25 cm.</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="490" ind1="1" ind2=" ">
 <subfield code="6">880-04</subfield>
-<subfield code="a">Manshūrāt al-Jāmiʻah al-Lubnānīyah. Qism al-Dirāsāt al-Riyāḍīyah ;</subfield>
+<subfield code="a">Manshūrāt al-Jāmiʻah al-Lubnānīyah. Qism al-Dirāsāt al-Riyāḍīyah ;</subfield>
 <subfield code="v">1</subfield>
 </datafield>
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Mathematics, Arab.</subfield>
 </datafield>
 <datafield tag="600" ind1="1" ind2="0">
-<subfield code="a">Khuwārizmī, Muḥammad ibn Mūsá,</subfield>
-<subfield code="d">fl. 813-846.</subfield>
-<subfield code="t">Jabr wa-al-muqābalah.</subfield>
+<subfield code="a">Khuwārizmī, Muḥammad ibn Mūsá,</subfield>
+<subfield code="d">active 813-846.</subfield>
+<subfield code="t">Jabr wa-al-muqābalah.</subfield>
 <subfield code="l">English &amp; Arabic.</subfield>
+</datafield>
+<datafield tag="630" ind1="0" ind2="7">
+<subfield code="a">Jabr wa-al-muqābalah (Khuwārizmī, Muḥammad ibn Mūsá)</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01392273</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Mathematics, Arab.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01012356</subfield>
+</datafield>
+<datafield tag="776" ind1="0" ind2="8">
+<subfield code="i">Online version:</subfield>
+<subfield code="a">Anbūbā, ʻĀdil.</subfield>
+<subfield code="t">Iḥyāʼ al-jabr.</subfield>
+<subfield code="d">Bayrūt, Manshūrāt al-Jāmiʻah al-Lubnānīyah, 1955</subfield>
+<subfield code="w">(OCoLC)558080859</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2=" ">
 <subfield code="6">100-01/</subfield>
@@ -85,33 +110,23 @@
 </datafield>
 <datafield tag="880" ind1="1" ind2=" ">
 <subfield code="6">490-04/</subfield>
-<subfield code="a">منشورات الجامعة اللبنانية.</subfield>
-<subfield code="p">قسم الدراسات الرياضية ؛</subfield>
+<subfield code="a">منشورات الجامعة اللبنانية. قسم الدراسات الرياضية ؛</subfield>
 <subfield code="v">١</subfield>
 </datafield>
 <datafield tag="830" ind1=" " ind2="0">
 <subfield code="6">880-05</subfield>
-<subfield code="a">Manshūrāt al-Jāmiʻah al-Lubnānīyah.</subfield>
-<subfield code="p">Qism al-Dirāsāt al-Riyāḍīyah ;</subfield>
+<subfield code="a">Manshūrāt al-Jāmiʻah al-Lubnānīyah.</subfield>
+<subfield code="p">Qism al-Dirāsāt al-Riyāḍīyah ;</subfield>
 <subfield code="v">1.</subfield>
 </datafield>
 <datafield tag="880" ind1=" " ind2="0">
 <subfield code="6">830-05/</subfield>
 <subfield code="a">منشورات الجامعة اللبنانية.</subfield>
-<subfield code="p">قسم الدراسات الرياضية ؛</subfield>
-<subfield code="v">١</subfield>
+<subfield code="p">قسم الدراسات الرياضية ;</subfield>
+<subfield code="v">١.</subfield>
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">19990630</subfield>
-<subfield code="d">19990630</subfield>
-<subfield code="d">19990630</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">1</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">p</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>

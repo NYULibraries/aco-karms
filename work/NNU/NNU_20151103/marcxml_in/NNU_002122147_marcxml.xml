@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200445 a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">002122147</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010172457.0</controlfield>
-<controlfield tag="008">940202s1964    iq a     b   f001 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb11098281</subfield>
-</datafield>
+<controlfield tag="005">20160125160740.0</controlfield>
+<controlfield tag="008">910107s1964    iq a     b   f001 0 ara d</controlfield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG94-B5036</subfield>
+<subfield code="a">(OCoLC)23120020</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">NN</subfield>
-<subfield code="c">NN</subfield>
-<subfield code="d">NNU</subfield>
+<subfield code="a">NYP</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">NYP</subfield>
+<subfield code="d">OCL</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">ZAP</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">ZCU</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">OCL</subfield>
 </datafield>
 <datafield tag="041" ind1="1" ind2=" ">
 <subfield code="a">ara</subfield>
@@ -23,40 +29,61 @@
 <datafield tag="043" ind1=" " ind2=" ">
 <subfield code="a">ma-----</subfield>
 </datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
+<datafield tag="050" ind1=" " ind2="4">
+<subfield code="a">PJ7832.M85</subfield>
+<subfield code="b">D8 1964</subfield>
 </datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="a">ML189</subfield>
-<subfield code="b">.B25 1964</subfield>
+<datafield tag="082" ind1="0" ind2="4">
+<subfield code="a">780.93949</subfield>
+<subfield code="2">21</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Balkhī, ʻAbd al-Muʼmin.</subfield>
+<subfield code="6">880-01</subfield>
+<subfield code="a">Balkhī, ʻAbd al-Muʼmin.</subfield>
 </datafield>
 <datafield tag="240" ind1="1" ind2="0">
-<subfield code="a">Bayān al-maqāmāt al-ʻalīyah maʻa al-furūʻ wa-al-awzān al-aṣlīyah.</subfield>
-<subfield code="l">Arabic.</subfield>
-<subfield code="f">1964</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">Bayān al-maqāmāt al-ʻalīyah maʻa al-furūʻ wa-al-awzān al-aṣlīyah.</subfield>
+<subfield code="l">Arabic</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="3">
-<subfield code="6">880-01</subfield>
-<subfield code="a">al-Durr al-naqī fī ʻilm al-mūsīqī /</subfield>
-<subfield code="c">taʼlīf Aḥmad ibn ʻAbd al-Raḥmān al-Qādirī al-Rifāʻī al-shahīr bi-al-Musallam al-Mawṣilī ; qaddama lahu wa-ʻallaqa ʻalayhi Jalāl al-Ḥanafī.</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">al-Durr al-naqī fī ʻilm al-mūsīqī /</subfield>
+<subfield code="c">taʼlīf Aḥmad ibn ʻAbd al-Raḥmān al-Qādirī al-Rifāʻī al-shahīr bi-al-Musallam al-Mawṣilī ; qaddama lahu wa-ʻallaqa ʻalayh Jalāl al-Ḥanafī.</subfield>
+</datafield>
+<datafield tag="246" ind1="3" ind2=" ">
+<subfield code="6">880-04</subfield>
+<subfield code="a">Durr al-naki fi ilm al-musiki</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
-<subfield code="6">880-02</subfield>
+<subfield code="6">880-05</subfield>
 <subfield code="a">Baghdad :</subfield>
-<subfield code="b">Wizārat al-Thaqāfah wa-al-Irshād, Mudīrīyat al-Thaqāfah al-ʻĀmmah,</subfield>
+<subfield code="b">Wizārat al-Thaqāfah wa-al-Irshād, Mudīrīyat al-Thaqāfah al-ʻĀmmah,</subfield>
 <subfield code="c">1964.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">37 p. :</subfield>
-<subfield code="b">ill. ;</subfield>
+<subfield code="a">37 pages :</subfield>
+<subfield code="b">illustrations ;</subfield>
 <subfield code="c">24 cm.</subfield>
 </datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
+</datafield>
 <datafield tag="490" ind1="1" ind2=" ">
-<subfield code="6">880-03</subfield>
-<subfield code="a">Silsilat al-kutub al-turāth ;</subfield>
+<subfield code="6">880-06</subfield>
+<subfield code="a">Silsilat al-kutub al-turāth ;</subfield>
 <subfield code="v">1</subfield>
 </datafield>
 <datafield tag="500" ind1=" " ind2=" ">
@@ -66,7 +93,7 @@
 <subfield code="a">Includes bibliographical references and indexes.</subfield>
 </datafield>
 <datafield tag="500" ind1=" " ind2=" ">
-<subfield code="a">Translation of Bayān al-maqāmāt al-ʻalīyah maʻa al-furūʻ wa-al-awzān al-aṣlīyah.</subfield>
+<subfield code="a">Translation of Bayān al-maqāmāt al-ʻalīyah maʻa al-furūʻ wa-al-awzān al-aṣlīyah.</subfield>
 </datafield>
 <datafield tag="500" ind1=" " ind2=" ">
 <subfield code="a">Intro. also in English.</subfield>
@@ -78,70 +105,86 @@
 <subfield code="a">Title on p. [4] of cover: al-Durr al-naki fi ilm al-musiki.</subfield>
 </datafield>
 <datafield tag="500" ind1=" " ind2=" ">
-<subfield code="a">"Ṣadara bi-munāsabat inʻiqād al-Muʼtamar al-Dawlī lil-Mūsīqá al-ʻArabīyah bi-Baghdād, [24 Rajab 1384 H-28 Tishrīn al-Thānī 1964 M]."-- T.p.</subfield>
+<subfield code="a">"Ṣadara bi-munāsabat inʻiqād al-Muʼtamar al-Dawlī lil-Mūsīqá al-ʻArabīyah bi-Baghdād, [24 Rajab 1384 H-28 Tishrīn al-Thānī 1964 M]."</subfield>
 </datafield>
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Music</subfield>
 <subfield code="z">Arab countries</subfield>
 <subfield code="v">Early works to 1800.</subfield>
 </datafield>
-<datafield tag="700" ind1="1" ind2=" ">
-<subfield code="6">880-04</subfield>
-<subfield code="a">Musallam al-Mawṣilī, Aḥmad ibn ʻAbd al-Raḥmān,</subfield>
-<subfield code="d">d. 1708.</subfield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Music.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01030269</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Arab countries.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01240128</subfield>
+</datafield>
+<datafield tag="655" ind1=" " ind2="7">
+<subfield code="a">Early works.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01411636</subfield>
 </datafield>
 <datafield tag="700" ind1="1" ind2=" ">
-<subfield code="6">880-05</subfield>
-<subfield code="a">Ḥanafī, Jalāl.</subfield>
+<subfield code="6">880-07</subfield>
+<subfield code="a">Musallam al-Mawṣilī, Aḥmad ibn ʻAbd al-Raḥmān,</subfield>
+<subfield code="d">-1708.</subfield>
 </datafield>
-<datafield tag="740" ind1="0" ind2=" ">
-<subfield code="a">Durr al-naki fi ilm al-musiki.</subfield>
+<datafield tag="700" ind1="1" ind2=" ">
+<subfield code="6">880-08</subfield>
+<subfield code="a">Baghdādī, Jalāl al-Ḥanafī.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">بلخي، عبد المؤمن.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">240-02/</subfield>
+<subfield code="a">بيان المقامات العلية مع الفروع والاوزان الاصلية.</subfield>
+<subfield code="l">ارب</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2="2">
-<subfield code="6">245-01/</subfield>
+<subfield code="6">245-03/</subfield>
 <subfield code="a">الدر النقي في علم الموسيقي /</subfield>
 <subfield code="c">تأليف احمد بن عبد الرحمن القادرى الرفاعى الشهير بالمسلم الموصلى ؛ قدم له وعلق عليه جلال الحنفى.</subfield>
 </datafield>
+<datafield tag="880" ind1="3" ind2=" ">
+<subfield code="6">246-04/</subfield>
+<subfield code="a">در النك ف الم المسك</subfield>
+</datafield>
 <datafield tag="880" ind1=" " ind2=" ">
-<subfield code="6">260-02/</subfield>
+<subfield code="6">260-05/</subfield>
 <subfield code="a">بغداد :</subfield>
 <subfield code="b">وزارة الثقافة والارشاد، مديرية الثقافة العامة،</subfield>
 <subfield code="c">١٩٦٤.</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2=" ">
-<subfield code="6">490-03/</subfield>
+<subfield code="6">490-06/</subfield>
 <subfield code="a">سلسلة الكتب التراث ؛</subfield>
 <subfield code="v">١</subfield>
 </datafield>
 <datafield tag="880" ind1="0" ind2=" ">
-<subfield code="6">700-04/</subfield>
+<subfield code="6">700-07/</subfield>
 <subfield code="a">احمد بن عبد الرحمن القادرى الرفاعى المسلم الموضلى.</subfield>
 </datafield>
 <datafield tag="880" ind1="0" ind2=" ">
-<subfield code="6">700-05/</subfield>
+<subfield code="6">700-08/</subfield>
 <subfield code="a">جلال الجنفى.</subfield>
 </datafield>
 <datafield tag="830" ind1=" " ind2="0">
-<subfield code="6">880-06</subfield>
-<subfield code="a">Silsilat al-kutub al-turāth ;</subfield>
+<subfield code="6">880-09</subfield>
+<subfield code="a">Silsilat al-kutub al-turāth ;</subfield>
 <subfield code="v">1.</subfield>
 </datafield>
 <datafield tag="880" ind1=" " ind2="0">
-<subfield code="6">830-06/</subfield>
-<subfield code="a">سلسلة الكتب التراث ؛</subfield>
-<subfield code="v">١</subfield>
+<subfield code="6">830-09/</subfield>
+<subfield code="a">سلسلة الكتب التراث ;</subfield>
+<subfield code="v">١.</subfield>
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">19940202</subfield>
-<subfield code="d">19940202</subfield>
-<subfield code="d">20041113</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">1</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">p</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>

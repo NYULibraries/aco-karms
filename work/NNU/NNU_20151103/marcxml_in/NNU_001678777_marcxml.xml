@@ -1,57 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a22002891a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001678777</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20000103051821.0</controlfield>
-<controlfield tag="008">920218s1943    ua fh    b    001 0 araod</controlfield>
+<controlfield tag="005">20160106155713.0</controlfield>
+<controlfield tag="008">920218s1943    ua fh    b    000 0 araod</controlfield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(NIC)notisASY9962</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(OCoLC)ocm28784752</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYCXASY9962-B</subfield>
-</datafield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12222165</subfield>
+<subfield code="a">(OCoLC)28784752</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
 <subfield code="a">CGU</subfield>
+<subfield code="b">eng</subfield>
 <subfield code="c">CGU</subfield>
-<subfield code="d">NIC</subfield>
+<subfield code="d">OCL</subfield>
+<subfield code="d">OCLCG</subfield>
+<subfield code="d">CUY</subfield>
+<subfield code="d">OKU</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">OCLCA</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">ZWZ</subfield>
+<subfield code="d">NNU</subfield>
 </datafield>
 <datafield tag="043" ind1=" " ind2=" ">
 <subfield code="a">f-ua---</subfield>
 </datafield>
+<datafield tag="050" ind1=" " ind2="4">
+<subfield code="a">DT95.5</subfield>
+<subfield code="b">.I13 M26 1943</subfield>
+</datafield>
+<datafield tag="050" ind1=" " ind2="4">
+<subfield code="a">DT95.8</subfield>
+<subfield code="b">.I25 1943</subfield>
+</datafield>
 <datafield tag="100" ind1="1" ind2=" ">
+<subfield code="6">880-01</subfield>
 <subfield code="a">Ibn Mammātī, Asʻad ibn al-Muhadhdhab,</subfield>
 <subfield code="d">1149-1209.</subfield>
 </datafield>
 <datafield tag="240" ind1="1" ind2="0">
-<subfield code="a">Qawānīn al-dawāwīn</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">Qawānīn al-dawāwīn</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
-<subfield code="a">Kitāb Qawānīn al-dawāwīn /</subfield>
-<subfield code="c">li-Asʻad ibn Mammātī ; jamaʻahu wa-ḥaqqaqahu ʻAzīz Sūryāl ʻAṭīyah.</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">Kitāb Qawānīn al-dawāwīn /</subfield>
+<subfield code="c">li-Asʻad ibn Mammātī ; jamaʻahu wa-ḥaqqaqahu ʻAzīz Sūryāl ʻAṭīyah.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
+<subfield code="6">880-04</subfield>
 <subfield code="a">[Cairo] :</subfield>
-<subfield code="b">al-Jamʻīyah al-Zirāʻīyah al-Malakīyah :</subfield>
-<subfield code="b">Maṭbaʻt Miṣr,</subfield>
+<subfield code="b">al-Jamʻīyah al-Zirāʻīyah al-Malakīyah :</subfield>
+<subfield code="b">Maṭbaʻt Miṣr,</subfield>
 <subfield code="c">1943.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">469 p. :</subfield>
-<subfield code="b">facsims. ;</subfield>
-<subfield code="c">24 cm.</subfield>
+<subfield code="a">469 pages :</subfield>
+<subfield code="b">facsimiles ;</subfield>
+<subfield code="c">24 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
+</datafield>
+<datafield tag="504" ind1=" " ind2=" ">
+<subfield code="a">Includes bibliographical references.</subfield>
 </datafield>
 <datafield tag="500" ind1=" " ind2=" ">
 <subfield code="a">Table on one folded leaf in pocket.</subfield>
-</datafield>
-<datafield tag="504" ind1=" " ind2=" ">
-<subfield code="a">Bibliography: p. 45-49.</subfield>
 </datafield>
 <datafield tag="651" ind1=" " ind2="0">
 <subfield code="a">Egypt</subfield>
@@ -61,7 +89,7 @@
 <datafield tag="651" ind1=" " ind2="0">
 <subfield code="a">Egypt</subfield>
 <subfield code="x">Economic conditions</subfield>
-<subfield code="y">640-1798.</subfield>
+<subfield code="y">640-1517.</subfield>
 </datafield>
 <datafield tag="651" ind1=" " ind2="0">
 <subfield code="a">Egypt</subfield>
@@ -70,15 +98,89 @@
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Ayyubids.</subfield>
 </datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Ayyubids.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst00824598</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Economic history.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst00901974</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Employees.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst00909111</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Egypt.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01208755</subfield>
+</datafield>
+<datafield tag="600" ind1="3" ind2="7">
+<subfield code="a">Ayyubīdes (dynastie).</subfield>
+<subfield code="2">ram</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Égypte</subfield>
+<subfield code="x">Politique et gouvernement</subfield>
+<subfield code="y">12e siècle.</subfield>
+<subfield code="2">ram</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Égypte</subfield>
+<subfield code="x">Conditions économiques</subfield>
+<subfield code="y">12e siècle.</subfield>
+<subfield code="2">ram</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Égypte</subfield>
+<subfield code="x">Administration</subfield>
+<subfield code="y">12e siècle.</subfield>
+<subfield code="2">ram</subfield>
+</datafield>
+<datafield tag="648" ind1=" " ind2="7">
+<subfield code="a">640 - 1517.</subfield>
+<subfield code="2">fast</subfield>
+</datafield>
+<datafield tag="655" ind1=" " ind2="7">
+<subfield code="a">History.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01411628</subfield>
+</datafield>
 <datafield tag="700" ind1="1" ind2=" ">
+<subfield code="6">880-05</subfield>
 <subfield code="a">Atiya, Aziz Suryal,</subfield>
 <subfield code="d">1898-1988.</subfield>
 </datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">إبن مماتي، أسعد بن المهذب،</subfield>
+<subfield code="d">1149-1209.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">240-02/</subfield>
+<subfield code="a">قوانين الدواوين</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">245-03/</subfield>
+<subfield code="a">كتاب قوانين الدواوين /</subfield>
+<subfield code="c">للأسعد بن مماتي ؛ جمعه وحققه عزيز سوريال عطية.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-04/</subfield>
+<subfield code="a">[القاهرة] :</subfield>
+<subfield code="b">الجمعية الزراعية الملكية :</subfield>
+<subfield code="b">مطبعة مصر،</subfield>
+<subfield code="c">1943.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">700-05/</subfield>
+<subfield code="a">عطية، عزيز سوريال.</subfield>
+</datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="s">9125</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
