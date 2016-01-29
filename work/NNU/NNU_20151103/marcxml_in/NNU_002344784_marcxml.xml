@@ -1,76 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a22002531  4500</leader>
+<leader>00000cam a22      i 4500</leader>
 <controlfield tag="001">002344784</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">19970422151208.0</controlfield>
-<controlfield tag="008">860610m19581959ir            000 0 arar</controlfield>
+<controlfield tag="005">20160125165534.0</controlfield>
+<controlfield tag="008">890926m19581959ir            000 0 ara</controlfield>
 <datafield tag="010" ind1=" " ind2=" ">
 <subfield code="a">ne 64003291</subfield>
 </datafield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb11475281</subfield>
-</datafield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG86-B19679</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">GLIS004685637</subfield>
+<subfield code="a">(OCoLC)23509007</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="c">NNU</subfield>
+<subfield code="a">DLC</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">EYM</subfield>
+<subfield code="d">OCLCG</subfield>
+<subfield code="d">OCLCQ</subfield>
 <subfield code="d">NNU</subfield>
 </datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="i">06/10/86 CT</subfield>
+<datafield tag="050" ind1=" " ind2="4">
+<subfield code="a">B751</subfield>
+<subfield code="b">.I78 1958</subfield>
 </datafield>
 <datafield tag="100" ind1="0" ind2=" ">
+<subfield code="6">880-01</subfield>
 <subfield code="a">Avicenna,</subfield>
 <subfield code="d">980-1037.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="3">
-<subfield code="a">al-Ishārāt wa-al-tanbīhāt,</subfield>
-<subfield code="c">li-Abī ʻAlī Ḥusayn ibn ʻAbd Allāh ibn Sīnā, maʻa al-sharḥ lil-muḥaqqiq Naṣīr al-Dīn Muḥammad ibn Muḥammad ibn al-Ḥasan al-Ṭūsī wa-sharḥ al-sharḥ lil-ʻallāmah Quṭb al-Dīn Muḥammad ibn Muḥammad ibn Abījaʻfar al-Rāzī.</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">al-Ishārāt wa-al-tanbīhāt,</subfield>
+<subfield code="c">li-Abī ʻAlī Ḥusayn ibn ʻAbd Allāh ibn Sīnā, maʻa al-sharḥ lil-muḥaqqiq Naṣīr al-Dīn Muḥammad ibn Muḥammad ibn al-Ḥasan al-Ṭūsī wa-sharḥ al-sharḥ lil-ʻallāmah Quṭb al-Dīn Muḥammad ibn Muḥammad ibn Abījaʻfar al-Rāzī.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">[Ṭihrān]</subfield>
-<subfield code="b">Maṭbaʻat al-Haydarī,</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">[Ṭihrān]</subfield>
+<subfield code="b">Maṭbaʻat al-Haydarī,</subfield>
 <subfield code="c">1377-1379 [1958-1959]</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">3 v.</subfield>
-<subfield code="c">25 cm.</subfield>
+<subfield code="a">3 volumes ;</subfield>
+<subfield code="c">25 cm</subfield>
 </datafield>
-<datafield tag="505" ind1="0" ind2=" ">
-<subfield code="a">Juzʼ 1. Fī ʻilm al-manṭiq -- juzʼ 2. Fī ʻilm al-ṭabīʻah -- juzʼ 3. Fī ʻilm mā qabla al-ṭabīʻah.</subfield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
+</datafield>
+<datafield tag="530" ind1=" " ind2=" ">
+<subfield code="a">Also issued online.</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="0">
+<subfield code="a">Islamic philosophy</subfield>
+<subfield code="v">Early works to 1800.</subfield>
 </datafield>
 <datafield tag="700" ind1="1" ind2=" ">
-<subfield code="a">Quṭb al-Taḥtānī, Muḥammad ibn Muḥammad,</subfield>
-<subfield code="d">1294 or 5-1364 or 5.</subfield>
-</datafield>
-<datafield tag="700" ind1="1" ind2=" ">
-<subfield code="a">Ṭūsī, Naṣīr al-Dīn Muḥammad ibn Muḥammad,</subfield>
+<subfield code="6">880-04</subfield>
+<subfield code="a">Ṭūsī, Naṣīr al-Dīn Muḥammad ibn Muḥammad,</subfield>
 <subfield code="d">1201-1274.</subfield>
+</datafield>
+<datafield tag="700" ind1="1" ind2=" ">
+<subfield code="6">880-05</subfield>
+<subfield code="a">Rāzī. Quṭb al-Dīn Muḥammad ibn Muḥammad.,</subfield>
+<subfield code="d">-1365.</subfield>
+</datafield>
+<datafield tag="776" ind1="0" ind2="8">
+<subfield code="i">Online version:</subfield>
+<subfield code="a">Avicenna, 980-1037.</subfield>
+<subfield code="t">Ishārāt wa-al-tanbīhāt.</subfield>
+<subfield code="d">[1958-59]</subfield>
+<subfield code="w">(OCoLC)551245344</subfield>
+</datafield>
+<datafield tag="880" ind1="0" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">ابن سينا،</subfield>
+<subfield code="d">980-1037.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="2">
+<subfield code="6">245-02/</subfield>
+<subfield code="a">الإشارات والتنبيهات /</subfield>
+<subfield code="c">لابي علي حسين بن عبد الله بن سينا. مع الشرح / لنصير الدين محمد بن محمد بن الحسن الطوسي. وشرح الشرح / لقطب الدين محمد بن محمد بن ابي جعفر الرازي.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-03/</subfield>
+<subfield code="a">[طهران]</subfield>
+<subfield code="b">مطبعة الحيدري،</subfield>
+<subfield code="c">1377-1379 [19581959]</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">700-04/</subfield>
+<subfield code="a">طوسي، نصير الدين محمد بن محمد.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">700-05/</subfield>
+<subfield code="a">رازي. قطب الدين محمد بن محمد،</subfield>
+<subfield code="d">-1365.</subfield>
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">B751</subfield>
-<subfield code="b">.I6 1958</subfield>
-<subfield code="n">455:sl Unanalyzed</subfield>
-<subfield code="i">06/10/86 C</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1:v.3</subfield>
-<subfield code="i">06/10/86 C</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1:v.2</subfield>
-<subfield code="i">06/10/86 C</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>

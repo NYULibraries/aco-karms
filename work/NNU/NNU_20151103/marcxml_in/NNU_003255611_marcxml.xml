@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>00000cam a22      i 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">003255611</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20140923123636.0</controlfield>
-<controlfield tag="008">811023s1953    sy       b    001 0 ara</controlfield>
+<controlfield tag="005">20160108160512.0</controlfield>
+<controlfield tag="008">811023s1953    sy            000 0 ara</controlfield>
 <datafield tag="010" ind1=" " ind2=" ">
 <subfield code="a">   59050942</subfield>
 </datafield>
@@ -20,12 +20,7 @@
 <subfield code="d">OCLCF</subfield>
 <subfield code="d">OCLCO</subfield>
 <subfield code="d">OCLCQ</subfield>
-<subfield code="e">rda</subfield>
 <subfield code="d">NNU</subfield>
-</datafield>
-<datafield tag="050" ind1=" " ind2="4">
-<subfield code="a">SK321</subfield>
-<subfield code="b">.H37 1953</subfield>
 </datafield>
 <datafield tag="050" ind1="0" ind2="0">
 <subfield code="a">SK321</subfield>
@@ -34,22 +29,22 @@
 <datafield tag="100" ind1="0" ind2=" ">
 <subfield code="6">880-01</subfield>
 <subfield code="a">Ḥasan ibn al-Ḥusayn,</subfield>
-<subfield code="c">bāzyār,</subfield>
-<subfield code="e">author.</subfield>
+<subfield code="c">bāzyār.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="3">
 <subfield code="6">880-02</subfield>
-<subfield code="a">al-Bayzarah</subfield>
-<subfield code="c">taʼlīf Bāzyār al-ʻAzīz bi-Allāh al-Fātimī Abī ʻAbd Allāh al-Ḥasan ibn al-Ḥusayn "Ẓannan". Naẓara fih wa-ʻallaqa ʻalayh Muḥammad Kurd ʻAlī.</subfield>
+<subfield code="a">al-Bayzarah /</subfield>
+<subfield code="c">taʼlīf Bāzyār al-ʻAzīz bi-Allāh al-Fāṭimī Abī ʻAbd Allāh al-Ḥasan ibn al-Ḥusayn "Ẓannan". Naẓara fih wa-ʻallaqa ʻalayh Muḥammad Kurd ʻAlī.</subfield>
 </datafield>
-<datafield tag="264" ind1=" " ind2="1">
+<datafield tag="260" ind1=" " ind2=" ">
 <subfield code="6">880-03</subfield>
-<subfield code="a">[Dimashq],</subfield>
-<subfield code="c">[1953/1372]</subfield>
+<subfield code="a">Dimashq :</subfield>
+<subfield code="b">Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻArabī,</subfield>
+<subfield code="c">1953.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
 <subfield code="a">213 pages</subfield>
-<subfield code="c">25 cm</subfield>
+<subfield code="c">25 cm.</subfield>
 </datafield>
 <datafield tag="336" ind1=" " ind2=" ">
 <subfield code="a">text</subfield>
@@ -66,22 +61,11 @@
 <subfield code="b">nc</subfield>
 <subfield code="2">rdacarrier</subfield>
 </datafield>
-<datafield tag="490" ind1="1" ind2=" ">
-<subfield code="6">880-04</subfield>
-<subfield code="a">Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq.</subfield>
-</datafield>
-<datafield tag="504" ind1=" " ind2=" ">
-<subfield code="a">Includes bibliographical references and index.</subfield>
-</datafield>
 <datafield tag="530" ind1=" " ind2=" ">
 <subfield code="a">Also issued online.</subfield>
 </datafield>
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Falconry.</subfield>
-</datafield>
-<datafield tag="600" ind1="1" ind2="4">
-<subfield code="a">Kurd ʻAli, Muhammad,</subfield>
-<subfield code="d">1876-1953.</subfield>
 </datafield>
 <datafield tag="650" ind1=" " ind2="7">
 <subfield code="a">Falconry.</subfield>
@@ -89,6 +73,7 @@
 <subfield code="0">(OCoLC)fst00919992</subfield>
 </datafield>
 <datafield tag="700" ind1="1" ind2=" ">
+<subfield code="6">880-04</subfield>
 <subfield code="a">Kurd ʻAlī, Muḥammad,</subfield>
 <subfield code="d">1876-1953.</subfield>
 </datafield>
@@ -102,32 +87,23 @@
 <datafield tag="880" ind1="0" ind2=" ">
 <subfield code="6">100-01/</subfield>
 <subfield code="a">حسن بن الحسين،</subfield>
-<subfield code="c">بازيار،</subfield>
-<subfield code="e">author.</subfield>
+<subfield code="c">بازيار.</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2="2">
 <subfield code="6">245-02/</subfield>
-<subfield code="a">البيزرة</subfield>
-<subfield code="c">تأليف بازيار العزيز بالله الفاطمي ابي عبد الله الحسن بن الحسين "ظنا". نظر فيه وعلق عليه محمد كرد علي.</subfield>
+<subfield code="a">البيزرة /</subfield>
+<subfield code="c">تأليف بازيار العزيز بالله الفاطمي ابي عبد الله الحسن بن الحسين "ظنا". نظر فه وعلق عليه محمد كرد علي.</subfield>
 </datafield>
-<datafield tag="880" ind1=" " ind2="1">
-<subfield code="6">264-03/</subfield>
-<subfield code="a">[دمشق]،</subfield>
-<subfield code="c">[1953/1372]</subfield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-03/</subfield>
+<subfield code="a">دمشق :</subfield>
+<subfield code="b">مطبوعات المجمع العلمي العربي،</subfield>
+<subfield code="c">1953.</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2=" ">
-<subfield code="6">490-04/</subfield>
-<subfield code="a">مطبوعات المجمع العلمي العربي بدمشق.</subfield>
-</datafield>
-<datafield tag="810" ind1="2" ind2=" ">
-<subfield code="6">880-05</subfield>
-<subfield code="a">al-Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq.</subfield>
-<subfield code="t">Maṭbūʻāt.</subfield>
-</datafield>
-<datafield tag="880" ind1="2" ind2=" ">
-<subfield code="6">810-05/</subfield>
-<subfield code="a">المجمع العلمي العربي بدمشق.</subfield>
-<subfield code="t">مطبوعات.</subfield>
+<subfield code="6">700-04/</subfield>
+<subfield code="a">كرد علي، محمد،</subfield>
+<subfield code="d">1876-1953.</subfield>
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>

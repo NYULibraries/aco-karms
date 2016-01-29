@@ -1,46 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a22002417a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001682256</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">19961104174532.1</controlfield>
-<controlfield tag="008">961101s1968    iq            000 0 ara</controlfield>
+<controlfield tag="005">20160121151308.0</controlfield>
+<controlfield tag="008">981101s1968    iq       c    000 0 araod</controlfield>
 <datafield tag="010" ind1=" " ind2=" ">
-<subfield code="a">79272897</subfield>
-</datafield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12225666</subfield>
+<subfield code="a">   79272897</subfield>
 </datafield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(MH)MHBIZ84751HU</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)MAHGBIZ84751-B</subfield>
+<subfield code="a">(OCoLC)40208597</subfield>
+<subfield code="z">(OCoLC)55484400</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="d">CStRLIN</subfield>
+<subfield code="a">CGU</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">CGU</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">ZYU</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">NNU</subfield>
 </datafield>
-<datafield tag="110" ind1="1" ind2=" ">
-<subfield code="a">Baghdad (Iraq).</subfield>
-<subfield code="b">Maʻhad al-Dirāsāt al-Islāmīyah al-ʻUlyā.</subfield>
+<datafield tag="043" ind1=" " ind2=" ">
+<subfield code="a">a-iq---</subfield>
+</datafield>
+<datafield tag="050" ind1=" " ind2="4">
+<subfield code="a">Z6621</subfield>
+<subfield code="b">.M2525 1968</subfield>
+</datafield>
+<datafield tag="110" ind1="2" ind2=" ">
+<subfield code="6">880-01</subfield>
+<subfield code="a">Maʻhad al-Dirāsāt al-Islāmīyah al-ʻUlyā.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="3">
-<subfield code="a">al-Makhṭūṭāt al-ʻArabīyah fī maʻhad al-dirāsāt al-Islāmīyah al-ʻulyā.</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">al-Makhṭūṭāt al-ʻArabīyah fī Maʻhad al-Dirāsāt al-Islāmīyah al-ʻUlyā.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">[Baghdād? :</subfield>
-<subfield code="b">al-Muqaddimah,</subfield>
-<subfield code="c">1968]</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">[Baghdād?],</subfield>
+<subfield code="c">[1968]</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">41, 129 p. ;</subfield>
-<subfield code="c">31 cm.</subfield>
+<subfield code="a">4 leavs, 129 pages</subfield>
+<subfield code="c">31 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="505" ind1="0" ind2=" ">
-<subfield code="a">Majmūʻat Kūrkīs ʻAwwād--Majmūʻat Mīkhāʼīl ʻAwwād--Majmūʻat Yūsuf Maskūnī--Majmūʻat Ḥusayn Maḥfūẓ.</subfield>
-</datafield>
-<datafield tag="590" ind1=" " ind2=" ">
-<subfield code="a">L.C. copy imperfect: p. 7-8, 99-100 wanting; p. 104 blank.</subfield>
+<subfield code="a">Majmūʻat Kūrkīs ʻAwwād--Majmūʻat Mīkhāʼīl ʻAwwād--Majmūʻat Yūsuf Maskūnī--Majmūʻat Ḥusayn Maḥfūẓ.</subfield>
 </datafield>
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Manuscripts, Arabic</subfield>
@@ -48,22 +71,37 @@
 <subfield code="z">Baghdad</subfield>
 <subfield code="v">Catalogs.</subfield>
 </datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Manuscripts, Arabic.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01008278</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Iraq</subfield>
+<subfield code="z">Baghdad.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01207444</subfield>
+</datafield>
+<datafield tag="655" ind1=" " ind2="7">
+<subfield code="a">Catalogs.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01423692</subfield>
+</datafield>
+<datafield tag="880" ind1="2" ind2=" ">
+<subfield code="6">110-01/</subfield>
+<subfield code="a">معهد الدراسات الاسلامية العليا.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="2">
+<subfield code="6">245-02/</subfield>
+<subfield code="a">المخطوطات العربية في معهد الدراسات الاسلامية العليا.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-03/</subfield>
+<subfield code="a">[بغداد؟]،</subfield>
+<subfield code="c">[1968]</subfield>
+</datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">Z6621</subfield>
-<subfield code="b">.M2525</subfield>
-<subfield code="d">\Oversize\</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1</subfield>
-<subfield code="r">029150516</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="s">9555</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>

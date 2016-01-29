@@ -1,64 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200289 a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001717272</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010171008.0</controlfield>
+<controlfield tag="005">20160122173813.0</controlfield>
 <controlfield tag="008">010405s1928    ua a          000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12271120</subfield>
-</datafield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG01-B1526</subfield>
+<subfield code="a">(OCoLC)862568225</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
 <subfield code="a">NjP</subfield>
-<subfield code="c">NjP</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">N15</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">OCLCQ</subfield>
 <subfield code="d">NNU</subfield>
 </datafield>
 <datafield tag="050" ind1=" " ind2="4">
 <subfield code="a">NA6083</subfield>
 <subfield code="b">.A4 1928</subfield>
 </datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="a">NA6083</subfield>
-<subfield code="b">.A4 1928</subfield>
-</datafield>
 <datafield tag="100" ind1="1" ind2=" ">
 <subfield code="6">880-01</subfield>
-<subfield code="a">ʻAkkūsh, Maḥmūd.</subfield>
+<subfield code="a">ʻAkkūsh, Maḥmūd.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
 <subfield code="6">880-02</subfield>
-<subfield code="a">Tārīkh wa-waṣf al-Jāmiʻ al-Ṭūlūnī /</subfield>
-<subfield code="c">taʼlīf Maḥmūd ʻAkkūsh.</subfield>
+<subfield code="a">Tārīkh wa-waṣf al-Jāmiʻ al-Ṭūlūnī /</subfield>
+<subfield code="c">taʼlīf Maḥmūd ʻAkkūsh.</subfield>
 </datafield>
 <datafield tag="250" ind1=" " ind2=" ">
 <subfield code="6">880-03</subfield>
-<subfield code="a">al-Ṭabʻah 1.</subfield>
+<subfield code="a">al-Ṭabʻah 1.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
 <subfield code="6">880-04</subfield>
-<subfield code="a">al-Qāhirah :</subfield>
-<subfield code="b">Dār al-Kutub al-Miṣrīyah,</subfield>
+<subfield code="a">al-Qāhirah :</subfield>
+<subfield code="b">Dār al-Kutub al-Miṣrīyah,</subfield>
 <subfield code="c">1928.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">139 p. :</subfield>
-<subfield code="b">ill. ;</subfield>
-<subfield code="c">29 cm.</subfield>
+<subfield code="a">139 pages :</subfield>
+<subfield code="b">illustrations ;</subfield>
+<subfield code="c">29 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="500" ind1=" " ind2=" ">
-<subfield code="a">At head of title: Lajnat Ḥifẓ al-Āthār al-ʻArabīyah, Dār al-Āthār al-ʻArabīyah.</subfield>
+<subfield code="a">At head of title: Lajnat Ḥifẓ al-Āthār al-ʻArabīyah, Dār al-Āthār al-ʻArabīyah.</subfield>
 </datafield>
 <datafield tag="610" ind1="2" ind2="0">
-<subfield code="a">Jāmiʻ Ibn Ṭūlūn.</subfield>
+<subfield code="6">880-05</subfield>
+<subfield code="a">Jāmiʻ Ibn Ṭūlūn.</subfield>
 </datafield>
 <datafield tag="710" ind1="2" ind2=" ">
-<subfield code="a">Matḥaf al-Fann al-Islāmī (Cairo, Egypt)</subfield>
+<subfield code="6">880-06</subfield>
+<subfield code="a">Matḥaf al-Fann al-Islāmī (Cairo, Egypt)</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2=" ">
 <subfield code="6">100-01/</subfield>
@@ -79,17 +89,16 @@
 <subfield code="b">دار الكتب المصرية،</subfield>
 <subfield code="c">١٩٢٨.</subfield>
 </datafield>
+<datafield tag="880" ind1="2" ind2="4">
+<subfield code="6">610-05/</subfield>
+<subfield code="a">جامع ابن طولون.</subfield>
+</datafield>
+<datafield tag="880" ind1="2" ind2=" ">
+<subfield code="6">710-06/</subfield>
+<subfield code="a">متحف الفن الاسلامي (القاهرة، مصر)</subfield>
+</datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">20010405</subfield>
-<subfield code="d">20010405</subfield>
-<subfield code="d">20010405</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">1</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">p</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>

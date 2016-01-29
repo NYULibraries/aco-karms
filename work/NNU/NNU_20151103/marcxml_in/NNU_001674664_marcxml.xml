@@ -1,63 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200325 a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001674664</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010170923.0</controlfield>
-<controlfield tag="008">001204s1894    ua       b    000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12217496</subfield>
-</datafield>
+<controlfield tag="005">20160113172242.0</controlfield>
+<controlfield tag="008">040525s1894    ua       b    000 0 ara d</controlfield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG00-B3962</subfield>
+<subfield code="a">(OCoLC)55482705</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">NNU</subfield>
-<subfield code="c">NNU</subfield>
+<subfield code="a">ZYU</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">ZYU</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">NNU</subfield>
 </datafield>
 <datafield tag="043" ind1=" " ind2=" ">
 <subfield code="a">f-ua---</subfield>
 </datafield>
 <datafield tag="050" ind1=" " ind2="4">
 <subfield code="a">JQ3871</subfield>
-<subfield code="b">.F3</subfield>
-</datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="a">JQ3871</subfield>
-<subfield code="b">.F3</subfield>
+<subfield code="b">.F3 1894</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
 <subfield code="6">880-01</subfield>
 <subfield code="a">Faraj, Murād.</subfield>
 </datafield>
-<datafield tag="240" ind1="1" ind2="3">
-<subfield code="a">al-Majmūʻ fī sharh al-shurūʻ</subfield>
+<datafield tag="240" ind1="1" ind2="0">
+<subfield code="6">880-02</subfield>
+<subfield code="a">Majmūʻ fī sharh al-shurūʻ</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
-<subfield code="6">880-02</subfield>
-<subfield code="a">Kitāb al-Majmūʻ fī sharh al-shurūʻ =</subfield>
-<subfield code="b">De la tentative : ʻalá al-qānūn al-Miṣrī al-ahli /</subfield>
-<subfield code="c">li-Murād Faraj.</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">Kitāb al-Majmūʻ fī sharh al-shurūʻ =</subfield>
+<subfield code="b">De la tentative : ʻalá al-qānūn al-Miṣrī al-ahli /</subfield>
+<subfield code="c">li-Murād Faraj.</subfield>
 </datafield>
 <datafield tag="246" ind1="3" ind2=" ">
 <subfield code="a">De la tentative</subfield>
 </datafield>
 <datafield tag="250" ind1=" " ind2=" ">
-<subfield code="6">880-03</subfield>
-<subfield code="a">al-Ṭabʻah 1.</subfield>
+<subfield code="6">880-04</subfield>
+<subfield code="a">al-Ṭabʻah 1.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
-<subfield code="6">880-04</subfield>
-<subfield code="a">Miṣr :</subfield>
-<subfield code="b">Maṭbaʻat al-Maḥrūsah,</subfield>
+<subfield code="6">880-05</subfield>
+<subfield code="a">Miṣr :</subfield>
+<subfield code="b">Maṭbaʻat al-Maḥrūsah,</subfield>
 <subfield code="c">1894.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">126 p. ;</subfield>
-<subfield code="c">24 cm.</subfield>
+<subfield code="a">126 pages ;</subfield>
+<subfield code="c">24 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="504" ind1=" " ind2=" ">
 <subfield code="a">Includes bibliographical references.</subfield>
@@ -70,37 +81,47 @@
 <subfield code="a">Law</subfield>
 <subfield code="z">Egypt.</subfield>
 </datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Criminal attempt.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst00883164</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Law.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst00993678</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Egypt.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01208755</subfield>
+</datafield>
 <datafield tag="880" ind1="1" ind2=" ">
 <subfield code="6">100-01/</subfield>
 <subfield code="a">فرج، مراد.</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2="0">
-<subfield code="6">245-02/</subfield>
+<subfield code="6">240-02/</subfield>
+<subfield code="a">مجموع في شرح الشروع</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">245-03/</subfield>
 <subfield code="a">كتاب المجموع في شرح الشروع ؛</subfield>
 <subfield code="b">على القانون المصري الاهلي /</subfield>
 <subfield code="c">لمراد فرج.</subfield>
 </datafield>
 <datafield tag="880" ind1=" " ind2=" ">
-<subfield code="6">250-03/</subfield>
+<subfield code="6">250-04/</subfield>
 <subfield code="a">الطبعة ١.</subfield>
 </datafield>
 <datafield tag="880" ind1=" " ind2=" ">
-<subfield code="6">260-04/</subfield>
+<subfield code="6">260-05/</subfield>
 <subfield code="a">مصر :</subfield>
 <subfield code="b">مطبعة المحروسة،</subfield>
 <subfield code="c">١٨٩٤.</subfield>
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">20001204</subfield>
-<subfield code="d">20001204</subfield>
-<subfield code="d">20001204</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">1</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">p</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
