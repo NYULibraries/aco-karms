@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01486nam a2200301   4500
+		02055nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		001682231
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105r19601911iq a    ob    001 0 arard
+		160201r19601911iq a    o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,19 +25,25 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			QB23
 		</subfield>
 		<subfield code="b">
-			.N3
+			.N3 1960z
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Nallino, Carlo Alfonso,
 		</subfield>
@@ -46,22 +52,25 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Ilm al-falak ʻinda al-ʻArab fl̄ al-Qurūn al-Wusṭá
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Ilm al-falak ʻinda al-ʻArab fl̄ al-Qurūn al-Wusṭá /
 		</subfield>
 		<subfield code="c">
-			mulakhkhaṣ al-Muḥāḍarāt allatī alqāhā bil-Jāmiʻah al-Miṣriyah Kārlū Nallīnū.
+			mulakhkhaṣ al-Muḥāḍarāt allatī alqāhā bil-Jāmiʻah al-Miṣriyah Kārlū Nallīnū.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Baghdād :
+			Baghdād :
 		</subfield>
 		<subfield code="b">
-			Maktabat al Mathanná,
+			Maktabat al Mathanná,
 		</subfield>
 		<subfield code="c">
 			[196-]
@@ -69,10 +78,34 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (370 p.) :
+			online resource (370 pages) :
 		</subfield>
 		<subfield code="b">
-			ill.
+			illustrations
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -107,12 +140,23 @@
 			Reprint. Originally published:
 		</subfield>
 		<subfield code="c">
-			Rūmā : al-Jāmiʻah al-Misrīyah, 1911.
+			Rūmā : al-Jāmiʻah al-Misrīyah, 1911.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">
 			Astronomy, Arab.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Astronomy, Arab.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00819764
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -141,7 +185,7 @@
 			Nallino, Carlo Alfonso, 1872-1938.
 		</subfield>
 		<subfield code="t">
-			Ilm al-falak ʻinda al-ʻArab fl̄ al-Qurūn al-Wusṭá
+			Ilm al-falak ʻinda al-ʻArab fl̄ al-Qurūn al-Wusṭá
 		</subfield>
 		<subfield code="w">
 			(NNU)001682231
@@ -153,6 +197,42 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/5hqbzpkt
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			نلينو، كارلو،
+		</subfield>
+		<subfield code="d">
+			1872-1938.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			‏علم الفلك عند العرب في القرون الوسطى /‏
+		</subfield>
+		<subfield code="c">
+			‏ملخص المحاضرات اللتى ألقاها بالجامعة المصرية كارلو نلينو.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			‏بغداد :‏
+		</subfield>
+		<subfield code="b">
+			‏مكتبة المثنى،‏
+		</subfield>
+		<subfield code="c">
+			‏[١٩٦-؟]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -181,9 +261,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001569
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

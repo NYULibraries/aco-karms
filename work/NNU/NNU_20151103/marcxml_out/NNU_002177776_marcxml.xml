@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01267nam a2200313   4500
+		01963nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		002177776
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1925    ua      o     000 0 ara d
+		160201s1925    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -37,49 +40,45 @@
 			.M37 1925
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">
-			HQ1170
-		</subfield>
-		<subfield code="b">
-			.M37 1925
-		</subfield>
-	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Masʻūd, Muḥammad.
+			Masʻūd, Muḥammad.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Marʼah fī adwārihā al-thalāthah
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="a">
+			al-Marʼah fī adwārihā al-thalāthah :
 		</subfield>
 		<subfield code="b">
-			fatāh wa-zawjan wa-uman : kitāb ʻaṣrī /
+			fatāh wa zawjan wa-uman : kitāb ʻaṣrī /
 		</subfield>
 		<subfield code="c">
-			bi-qalam Muḥammad Masūd.
+			bi-qalam Muḥammad Masʻūd.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Ṭabʻah 1.
+			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			al-Qahirah :
 		</subfield>
 		<subfield code="b">
-			[s.n.],
+			[publisher not identified],
 		</subfield>
 		<subfield code="c">
 			1925.
@@ -87,7 +86,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (158 p.)
+			online resource (158 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -114,7 +137,7 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">
-			Muslim women.
+			Sex role.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
@@ -125,7 +148,57 @@
 			Religious aspects
 		</subfield>
 		<subfield code="x">
-			Islam
+			Islam.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Women
+		</subfield>
+		<subfield code="x">
+			Conduct of life.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Sex role.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01114598
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Sex role
+		</subfield>
+		<subfield code="x">
+			Religious aspects
+		</subfield>
+		<subfield code="x">
+			Islam.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01114628
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Women
+		</subfield>
+		<subfield code="x">
+			Conduct of life.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01176610
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -146,10 +219,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Masʻūd, Muḥammad.
+			Masʻūd, Muḥammad.
 		</subfield>
 		<subfield code="t">
-			al-Marʼah fī adwārihā al-thalāthah
+			al-Marʼah fī adwārihā al-thalāthah
 		</subfield>
 		<subfield code="w">
 			(NNU)002177776
@@ -158,6 +231,50 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/79cnp8jk
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			‏مسعود، محمد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			‏المرأة في ادوارها الثلاثة :‏
+		</subfield>
+		<subfield code="b">
+			‏فتاة وزوجاً واماُ : كتاب عصري /‏
+		</subfield>
+		<subfield code="c">
+			‏بقلم محمد مسعود.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			‏الطبعة ١.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			‏القاهرة :‏
+		</subfield>
+		<subfield code="b">
+			[publisher not identified],
+		</subfield>
+		<subfield code="c">
+			‏١٩٢٥.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -186,9 +303,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001543
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

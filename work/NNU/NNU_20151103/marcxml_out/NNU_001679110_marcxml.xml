@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01373nam a2200325   4500
+		02161nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		001679110
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1962    iq a    o     000 0 arao 
+		160201s1962    iq a    o     000 0 arao 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -36,60 +39,99 @@
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			GR295.B3
+			GR295.I7
 		</subfield>
 		<subfield code="b">
-			B34 1962
+			B14 1962
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Baghdādī, Yūnus Saʻīd.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Shaqāwāt Baghdād fī al-ʻaṣr al-māḍī
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Shaqāwāt Baghdād fī al-ʻaṣr al-māḍī /
 		</subfield>
 		<subfield code="c">
-			Yūnus Saʻīd al-Baghdādī.
+			Yūnus Saʻīd al-Baghdādī.
 		</subfield>
 	</datafield>
-	<datafield ind1="3" ind2=" " tag="246">
+	<datafield ind1="1" ind2=" " tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="i">
+			At head of title:
+		</subfield>
 		<subfield code="a">
-			Fūlklūr Baghdād
+			Fūlklūr Baghdād
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			[al-Ṭabʻah al-ūlá]
+			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Baghdād :
+			Baghdād :
 		</subfield>
 		<subfield code="b">
-			Maktabat al-Nahḍah,
+			Maktabat al-Nahḍah,
 		</subfield>
 		<subfield code="c">
-			[1962]
+			1962.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (62 p.) :
+			online resource (62 pages) :
 		</subfield>
 		<subfield code="b">
-			ill.
+			illustrations
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			At head of title: Fūlklūr Baghdād.
+			At head of title: Fūlklūr Baghdād.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -118,16 +160,33 @@
 		<subfield code="a">
 			Baghdad (Iraq)
 		</subfield>
-		<subfield code="x">
+		<subfield code="v">
 			Folklore.
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="651">
+	<datafield ind1=" " ind2="7" tag="651">
 		<subfield code="a">
-			Baghdad (Iraq)
+			Iraq
 		</subfield>
-		<subfield code="x">
-			Social life and customs.
+		<subfield code="z">
+			Baghdad.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01207444
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Folklore.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01423784
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -145,13 +204,33 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			al-Baghdādī, Yūnus Saʻīd.
+		</subfield>
+		<subfield code="t">
+			Shaqāwāt Baghdād fī al-ʻaṣr al-māḍī.
+		</subfield>
+		<subfield code="b">
+			1st ed.
+		</subfield>
+		<subfield code="d">
+			Baghdād : Maktabat al-Nahḍah, 1962
+		</subfield>
+		<subfield code="w">
+			(OCoLC)615694574
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
 			Baghdādī, Yūnus Saʻīd.
 		</subfield>
 		<subfield code="t">
-			Shaqāwāt Baghdād fī al-ʻaṣr al-māḍī
+			Shaqāwāt Baghdād fī al-ʻaṣr al-māḍī
 		</subfield>
 		<subfield code="w">
 			(NNU)001679110
@@ -163,6 +242,58 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/w3r22c5g
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			بغدادي، يونس سعيد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			شقاوات بغداد في العصر الماضي /
+		</subfield>
+		<subfield code="c">
+			بقلم يونس سعيد البغدادي.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			246-03/
+		</subfield>
+		<subfield code="i">
+			في أعلى العنوان:
+		</subfield>
+		<subfield code="a">
+			فولكلور بغداد
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-04/
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-05/
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			مكتبة النهضة،
+		</subfield>
+		<subfield code="c">
+			1962.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -191,9 +322,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001525
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

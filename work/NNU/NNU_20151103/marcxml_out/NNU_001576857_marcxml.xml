@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01952nam a2200361   4500
+		02427nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		001576857
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19511955tu      ob    001 0cara  
+		160201m19511955tu      ob    000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,11 +25,14 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="050">
+	<datafield ind1="0" ind2="0" tag="050">
 		<subfield code="a">
 			Z7052
 		</subfield>
@@ -37,31 +40,15 @@
 			.I8
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">
-			Z7052
-		</subfield>
-		<subfield code="b">
-			.I8
-		</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="100">
+	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="6">
 			880-01
 		</subfield>
 		<subfield code="a">
-			Ismail,
-		</subfield>
-		<subfield code="c">
-			paşa,
+			Bābānī, Ismāʻīl Bāshā,
 		</subfield>
 		<subfield code="d">
-			1839-1920.
+			-1920 or 1921.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
@@ -69,26 +56,13 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			Hadīyat al-ʻārifīn
-		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+			Hadīyat al-ʻārifīn :
 		</subfield>
 		<subfield code="b">
-			asmāʼ al-muʼallifīn wa-athār al-muṣannifīn /
+			asmāʼ al-muʼallifīn wa-athār al-muṣannifīn /
 		</subfield>
 		<subfield code="c">
-			muʼallifuh, Ismāʻīl Bāshā al-Baghdādī.
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2="4" tag="246">
-		<subfield code="a">
-			Hadiyyat al-ʻārifīn, asmāʼ al-muʼallifin va āsār al-muṣannifin
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2="4" tag="246">
-		<subfield code="a">
-			Hediyyetüʼl-ʻārifīn, esmāʼüʼl-müʼellifīn ve ās̲ārüʼl-muṣannifīn
+			Ismāʻīl Bāshā al-Baghdādī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
@@ -96,18 +70,47 @@
 			880-03
 		</subfield>
 		<subfield code="a">
-			Istanbūl :
+			Istānbūl :
 		</subfield>
 		<subfield code="b">
-			ṭubiʻa bi-ʻināyat Wakālat al-Maʻārif fī maṭbaʻatihā,
+			Wikālat al-Maʻārif,
 		</subfield>
 		<subfield code="c">
-			1951-1955.
+			[1951-1955]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
 			online resource (2 v.)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">
+			Added t.p.: Hadiyyat al-ʻārifīn, asmā ̓al-mua̓llifīn va āsār al-muṣannifīn (Hediyyetül̓-ʻārifīn, esmāu̓̈l̓-müe̓llifīn ve ās̲ārül̓-muṣannifīn) Müellifi: Bağdatli İsmail Paşa. Müellif nüshasi esas tutulmak suretiyle istinsah ve tashihleri Kilisli Rifat Bilge ve İbnülemin Mahmud Kemal İnal tarafindan yapilmiştir.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -117,7 +120,12 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Includes bibliographical references (v. 1, leaf following t.p.) and indexes.
+			Includes bibliographical references (v. 1, leaf following t.p).
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="505">
+		<subfield code="a">
+			Al-mujallad al-awwal: Bāb al-alif -- bāb al-alif -- bāb al-lam -- al-mujallad al-thānī: Bāb al-mīm -- bāb al-yāʼ.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -145,6 +153,28 @@
 			Bio-bibliography.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Arabic literature.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00812478
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Bio-bibliography.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01423685
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -163,16 +193,16 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ismail, paşa, 1839-1920.
+			Bābānī, Ismāʻīl Bāshā, -1920 or 1921.
 		</subfield>
 		<subfield code="t">
-			Hadīyat al-ʻārifīn
+			Hadīyat al-ʻārifīn
 		</subfield>
 		<subfield code="w">
 			(NNU)001576857
 		</subfield>
 		<subfield code="w">
-			(DLC)60036652
+			(DLC)   60036652
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
@@ -180,12 +210,12 @@
 			http://hdl.handle.net/2333.1/4f4qrjn1
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
+	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
 			100-01/
 		</subfield>
 		<subfield code="a">
-			اسناعيل، باشا.
+			باباني، اسماعيل باشا.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -196,10 +226,10 @@
 			هدية العارفين :
 		</subfield>
 		<subfield code="b">
-			اسناء المؤلفين واثار المصنفين /
+			اسماء المؤلفين واثار المصنفين /
 		</subfield>
 		<subfield code="c">
-			مؤلفه، اسماعيل باشا البغدادي.
+			اسماعيل باشا البغدادي.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
@@ -210,10 +240,10 @@
 			استانبول :
 		</subfield>
 		<subfield code="b">
-			طبع بعناية وكالة المعارف في مطبعتها،
+			وكالة المعارف،
 		</subfield>
 		<subfield code="c">
-			١٩٥١-١٩٥٥.
+			[1951-1955]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -245,9 +275,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001602:v.2
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

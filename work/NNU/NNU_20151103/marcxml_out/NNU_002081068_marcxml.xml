@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01498nam a2200325   4500
+		01665nam a2200349   4500
 	</leader>
 	<controlfield tag="001">
 		002081068
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19099999ti      oc    000 0 ara d
+		160201s1909    ti      oc    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -29,12 +29,12 @@
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">
+			f-ti---
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			Z965
 		</subfield>
@@ -43,36 +43,39 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="110">
-		<subfield code="a">
-			Maktabah al-ʻAbdalīyah (Tunis, Tunisia)
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">
 			880-01
 		</subfield>
 		<subfield code="a">
-			Barnāmij al-Maktabah al-ʻAbdalīyah
+			Maktabah al-ʻAbdalīyah (Tunis, Tunisia)
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
+		<subfield code="a">
+			Barnāmij al-Maktabah al-ʻAbdalīyah
 		</subfield>
 		<subfield code="h">
 			[electronic resource] /
 		</subfield>
 		<subfield code="c">
-			Jāmiʻ al-Zaytūnah al-Aʻẓam.
+			Jāmiʻ al-Zaytūnah al-Aʻẓam.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-02
+			880-03
 		</subfield>
 		<subfield code="a">
 			Tunis :
 		</subfield>
 		<subfield code="b">
-			Jāmiʻ al-Zaytūnah,
+			Jāmiʻ al-Zaytūnah,
 		</subfield>
 		<subfield code="c">
-			1327- [1909-
+			1909.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -108,8 +111,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2="0" tag="610">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Maktabah al-ʻAbdalīyah (Tunis, Tunisia)
+			Maktabah al-ʻAbdalīyah (Tunis, Tunisia)
 		</subfield>
 		<subfield code="v">
 			Catalogs.
@@ -147,10 +153,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Maktabah al-ʻAbdalīyah (Tunis, Tunisia)
+			Maktabah al-ʻAbdalīyah (Tunis, Tunisia)
 		</subfield>
 		<subfield code="t">
-			Barnāmij al-Maktabah al-ʻAbdalīyah
+			Barnāmij al-Maktabah al-ʻAbdalīyah
 		</subfield>
 		<subfield code="w">
 			(NNU)002081068
@@ -161,9 +167,17 @@
 			http://hdl.handle.net/2333.1/j9kd54hw
 		</subfield>
 	</datafield>
+	<datafield ind1="2" ind2=" " tag="880">
+		<subfield code="6">
+			110-01/
+		</subfield>
+		<subfield code="a">
+			مكتبة العبدلية (تونس، تونس)
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-01/
+			245-02/
 		</subfield>
 		<subfield code="a">
 			برنامج المكتبة العبدلية /
@@ -174,16 +188,27 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-02/
+			260-03/
 		</subfield>
 		<subfield code="a">
-			تونس :
+			تنس :
 		</subfield>
 		<subfield code="b">
 			جامع الزيتونة،
 		</subfield>
 		<subfield code="c">
-			١٣٢٧-
+			1909.
+		</subfield>
+	</datafield>
+	<datafield ind1="2" ind2="0" tag="880">
+		<subfield code="6">
+			610-04/
+		</subfield>
+		<subfield code="a">
+			مكتبة العبدلية (تونس، تونس)
+		</subfield>
+		<subfield code="v">
+			Catalogs.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -212,9 +237,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001619:v.1
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

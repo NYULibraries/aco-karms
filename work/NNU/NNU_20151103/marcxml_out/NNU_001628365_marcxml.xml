@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01927nam a2200385   4500
+		02349nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		001628365
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1940    ir      o     000 0 ara d
+		160201s1940    ir      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -37,25 +40,12 @@
 			.T79 1940
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">
-			BP156
-		</subfield>
-		<subfield code="b">
-			.T79 1940
-		</subfield>
-	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="6">
 			880-01
 		</subfield>
 		<subfield code="a">
-			Tunukābunī, Muḥammad.
+			Tunukābunī, Muḥammad.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
@@ -63,7 +53,7 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			Īḍāḥ al-Farāʼid fī ʻilm al-uṣūl
+			Īḍāḥ al-Farāʼid fī ʻilm al-uṣūl
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
@@ -71,18 +61,15 @@
 			880-03
 		</subfield>
 		<subfield code="a">
-			Hādhā huwa al-kitāb al-mustaṭāb al-musammá bi-Īḍāḥ al-Farāʼid fī ʻilm al-uṣūl
-		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+			Hādhā huwa al-kitāb al-mustaṭāb al-musammá bi-Īḍāḥ al-Farāʼid fī ʻilm al-uṣūl /
 		</subfield>
 		<subfield code="c">
-			Muḥammad al-Tunukābunī.
+			Muḥammad al-Tunukābunī.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="246">
 		<subfield code="a">
-			Īḍāh al-Farāʼid fī ʻilm al-uṣūl
+			Īḍāh al-Farāʼid fī ʻilm al-uṣūl
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
@@ -93,7 +80,7 @@
 			[Tehran] :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat al-Islāmīyah,
+			Maṭbaʻat al-Islāmīyah,
 		</subfield>
 		<subfield code="c">
 			1358 [1940]
@@ -101,7 +88,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (2 v.)
+			online resource (2 volumes)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -137,14 +148,50 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Anṣārī, Murtaḍá ibn Muḥammad Amīn,
+			Anṣārī, Murtaḍá ibn Muḥammad Amīn,
 		</subfield>
 		<subfield code="d">
 			1799 or 1800-1864.
 		</subfield>
 		<subfield code="t">
-			Rasāʼil.
+			Rasāʼil.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Shiites.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01115976
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="7" tag="630">
+		<subfield code="a">
+			Rasāʼil (Anṣārī, Murtaḍá ibn Muḥammad Amīn)
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01378869
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Islamic law.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00979949
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -165,10 +212,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Tunukābunī, Muḥammad.
+			Tunukābunī, Muḥammad.
 		</subfield>
 		<subfield code="t">
-			Hādhā huwa al-kitāb al-mustaṭāb al-musammá bi-Īḍāḥ al-Farāʼid fī ʻilm al-uṣūl
+			Hādhā huwa al-kitāb al-mustaṭāb al-musammá bi-Īḍāḥ al-Farāʼid fī ʻilm al-uṣūl
 		</subfield>
 		<subfield code="w">
 			(NNU)001628365
@@ -211,13 +258,27 @@
 			260-04/
 		</subfield>
 		<subfield code="a">
-			[Tehran] :
+			[طهران] :
 		</subfield>
 		<subfield code="b">
 			مطبعة الاسلامية،
 		</subfield>
 		<subfield code="c">
-			١٣٥٨.
+			1358 [1940]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-05/
+		</subfield>
+		<subfield code="a">
+			انصاري، مرتضى بن محمد امين،
+		</subfield>
+		<subfield code="d">
+			1799 or 1800-1864.
+		</subfield>
+		<subfield code="t">
+			رسائل.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

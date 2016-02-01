@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01821nam a2200313   4500
+		03060nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		001678776
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105r19241964ua h    ob    000 0 ara  
+		160201s1924    ua h    ob    000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,68 +25,104 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			DT95.5
 		</subfield>
 		<subfield code="b">
-			.I1717
+			.I1717 1924
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Ibn al-Ṣayrafī, ʻAlī ibn Munjib,
+			Ibn al-Ṣayrafī, ʻAlī ibn Munjib,
 		</subfield>
 		<subfield code="d">
 			1071-1147.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Ishārah ilā man nāla al-wizārah
+	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Ishārah ilā man nāla al-wizārah
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			al-Ishārah ilā man nāla al-wizārah /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Amīn al-Dīn Tāj al-Riyāsah Abī al-Qāsim ʻAlī ibn Munjib ibn Sulaymān al-shahīr bi-Ibn al-Ṣayrafī al-Miṣrī ; ʻAniya bi-taḥqīqih wa-al-taʻlīq ʻalayh ʻAbd Allāh Mukhliṣ ʻan al-nuskhah al-waḥīdah al-maḥfūẓah fī khazānat al-Kutub al-Khālidīyah bi-Bayt al-Maqdis.
+			taʼlīf Amīn al-Dīn Tāj al-Riyāsah Abī al-Qāsim ʻAlī ibn Munjib ibn Sulaymān al-shahīr bi-Ibn akl-Ṣayrafī al-Miṣrī ; ʻuniya bi-taḥqīqih wa-al-taʻlīq ʻalayh ʻAbd Allāh Mukhliṣ ʻan al-naskhah al-waḥīdah al-maḥfūẓah fī khazānat al-Kutub al-Khālidīyah bi-Bayt al-Maqdis.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			al-Qāhirah :
+			al-Qāhirah :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat al-Maʻhad al-ʻIlmī al-Firinsī,
+			Maṭbaʻat al-Maʻhad al-ʻIlmī al-Firansī,
 		</subfield>
 		<subfield code="c">
 			1924
 		</subfield>
 		<subfield code="a">
-			[Baghdād :
+			[Baghdād] :
 		</subfield>
 		<subfield code="b">
-			Maktabat al-Muthannā,
+			[Maktabat al-Muthanná],
 		</subfield>
 		<subfield code="c">
-			1964?]
+			[1964?]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (86 p.) :
+			online resource (86 pages) :
 		</subfield>
 		<subfield code="b">
-			facsims.
+			facsimiles
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
+	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">
-			Cover title: al-Ishārah ila man nala al-Wizarah, by Abī l-qasim ʻAlī ibn Munjib ibn Sulaiman, Known as Ibn al-Sairafī.
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -101,7 +137,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Bibliography: p. 70-74.
+			Includes bibliographical references (pages 70-74).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -126,9 +162,23 @@
 			Fatimites.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
+	<datafield ind1=" " ind2="7" tag="650">
 		<subfield code="a">
-			Mukhliṣ, ʻAbd Allāh,
+			Fatimites.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00921954
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Mukhliṣ, ʻAbd Allāh,
 		</subfield>
 		<subfield code="d">
 			1878-1947.
@@ -149,13 +199,30 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Ibn al-Ṣayrafī, ʻAlī ibn Munjib, 1071-1147.
+		</subfield>
+		<subfield code="t">
+			Ishārah ilā man nāla al-wizārah.
+		</subfield>
+		<subfield code="d">
+			al-Qāhirah : Maṭbaʻat al-Maʻhad al-ʻIlmī al-Firansī, 1924 [Baghdād : Maktabat al-Muthanná, 1964?]
+		</subfield>
+		<subfield code="w">
+			(OCoLC)603928557
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ibn al-Ṣayrafī, ʻAlī ibn Munjib, 1071-1147.
+			Ibn al-Ṣayrafī, ʻAlī ibn Munjib, 1071-1147.
 		</subfield>
 		<subfield code="t">
-			al-Ishārah ilā man nāla al-wizārah
+			al-Ishārah ilā man nāla al-wizārah
 		</subfield>
 		<subfield code="w">
 			(NNU)001678776
@@ -167,6 +234,70 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/vx0k6hrh
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			ابن الصيرفي، علي بن منجب،
+		</subfield>
+		<subfield code="d">
+			1071-1147.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02/
+		</subfield>
+		<subfield code="a">
+			إشارة إلى من نال الوزارة
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-03/
+		</subfield>
+		<subfield code="a">
+			الإشارة إلى من نال الوزارة /
+		</subfield>
+		<subfield code="c">
+			تأليف أمين الدين تاج الرياسة أبي القاسم علي بن منجب بن سليمان الشهير بابن الصيرفي المصري ؛ عني بتحقيقه والتعليق عليه عبد الله مخلص عن النسخة الوحيدة المحفوظة في خزانة الكتب الخالدية ببيت المقدس.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			مطبعة المعهد العلمي الفرنسي،
+		</subfield>
+		<subfield code="c">
+			1924
+		</subfield>
+		<subfield code="a">
+			[بغداد] :
+		</subfield>
+		<subfield code="b">
+			[مكتبة المثنى]،
+		</subfield>
+		<subfield code="c">
+			[1964؟]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/
+		</subfield>
+		<subfield code="a">
+			مخلص، عبد الله،
+		</subfield>
+		<subfield code="d">
+			1878-1947.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -195,9 +326,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001504
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

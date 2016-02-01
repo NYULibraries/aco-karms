@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01492nam a2200337   4500
+		02193nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		002287368
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1936    ua      o     000 0barar 
+		160201s1936    ua      o     000 0barard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,29 +25,24 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">
+			f-ua---
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			DT107.2.Z2
 		</subfield>
 		<subfield code="b">
-			A7
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">
-			DT107.2.Z2
-		</subfield>
-		<subfield code="b">
-			A7
+			A7 1936
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
@@ -55,7 +50,7 @@
 			880-01
 		</subfield>
 		<subfield code="a">
-			ʻAqqād, ʻAbbās Maḥmūd,
+			ʻAqqād, ʻAbbās Maḥmūd,
 		</subfield>
 		<subfield code="d">
 			1889-1964.
@@ -66,13 +61,13 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			Saʻd Zaghlūl, sīrah wa-taḥīyah
+			Saʻd Zaghlūl :
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="b">
+			sīrah wa-taḥīyah /
 		</subfield>
 		<subfield code="c">
-			ʻAbbās Maḥmūd al-ʻAqqād.
+			ʻAbbās Maḥmūd al-ʻAqqād.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
@@ -80,23 +75,42 @@
 			880-03
 		</subfield>
 		<subfield code="a">
-			al-Qāhirah :
+			al-Qāhirah :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat Ḥijāzī,
+			Maṭbaʻat Ḥijāzī,
 		</subfield>
 		<subfield code="c">
-			[1936]
+			1936.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (628 p.)
+			online resource (628 pages)
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
+	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">
-			In Arabic.
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -122,11 +136,102 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Zaghlūl, Saʻd,
 		</subfield>
 		<subfield code="d">
 			1857-1927.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Statesmen
+		</subfield>
+		<subfield code="z">
+			Egypt
+		</subfield>
+		<subfield code="v">
+			Biography.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="a">
+			Egypt
+		</subfield>
+		<subfield code="x">
+			Politics and government
+		</subfield>
+		<subfield code="y">
+			1882-1952.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="7" tag="600">
+		<subfield code="a">
+			Zaghlūl, Saʻd,
+		</subfield>
+		<subfield code="d">
+			1857-1927.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00117962
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Politics and government.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01919741
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Statesmen.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01131990
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Egypt.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01208755
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="648">
+		<subfield code="a">
+			1882 - 1952.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Biography.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01423686
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -144,19 +249,33 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			ʻAqqād, ʻAbbās Maḥmūd, 1889-1964.
+		</subfield>
+		<subfield code="t">
+			Saʻd Zaghlūl.
+		</subfield>
+		<subfield code="d">
+			al-Qāhirah : Maṭbaʻat Ḥijāzī, 1936
+		</subfield>
+		<subfield code="w">
+			(OCoLC)638557105
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			ʻAqqād, ʻAbbās Maḥmūd, 1889-1964.
+			ʻAqqād, ʻAbbās Maḥmūd, 1889-1964.
 		</subfield>
 		<subfield code="t">
-			Saʻd Zaghlūl, sīrah wa-taḥīyah
+			Saʻd Zaghlūl
 		</subfield>
 		<subfield code="w">
 			(NNU)002287368
-		</subfield>
-		<subfield code="w">
-			(DLC)ne 64002597
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
@@ -169,7 +288,10 @@
 			100-01/
 		</subfield>
 		<subfield code="a">
-			عقاد، عباس محمود.
+			عقاد، عباس محمود،
+		</subfield>
+		<subfield code="d">
+			1889-1964.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -177,7 +299,10 @@
 			245-02/
 		</subfield>
 		<subfield code="a">
-			سعد زغلول، سيرة وتحية /
+			سعد زغلول :
+		</subfield>
+		<subfield code="b">
+			سيرة وتحية /
 		</subfield>
 		<subfield code="c">
 			عباس محمود العقاد.
@@ -188,13 +313,24 @@
 			260-03/
 		</subfield>
 		<subfield code="a">
-			القاهرة ؛
+			القاهرة :
 		</subfield>
 		<subfield code="b">
 			مطبعة حجازي،
 		</subfield>
 		<subfield code="b">
-			[1936]
+			[1936].
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-04/
+		</subfield>
+		<subfield code="a">
+			زغلول، سعد،,
+		</subfield>
+		<subfield code="d">
+			1857-1927.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

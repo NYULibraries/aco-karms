@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01227nam a2200265   4500
+		01748nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		001676371
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19541956ua      o     000 0 ara d
+		160201m19541956ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,32 +25,49 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			Mūsá, Muḥammad Yūsuf.
+			BP175.J5
+		</subfield>
+		<subfield code="b">
+			M8 1954
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Mūsá, Muḥammad Yūsuf.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Muḥāḍarāt fī tārīkh al-fiqh al-Islāmī
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Muḥāḍarāt fī tārīkh al-fiqh al-Islāmī /
 		</subfield>
 		<subfield code="c">
-			alqāhā Muḥammad Yūsuf Mūsá.
+			alqāhā Muḥammad Yūsuf Mūsá.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[Cairo :
+			[Cairo] :
 		</subfield>
 		<subfield code="b">
-			s.n.],
+			[publisher not identified],
 		</subfield>
 		<subfield code="c">
 			1954-1956.
@@ -58,12 +75,36 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (3 v. in 2)
+			online resource (3 volumes in 2)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			At head of title: Jāmiʻat al-Duwal al-ʻArabīyah. Maʻhad al-dirāsāt al-ʻArabīyah al-Āliyah.
+			At head of title: Jāmiʻat al-Duwal al-ʻArabīyah. Maʻhad al-dirāsāt al-ʻArabīyah al-Āliyah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -93,6 +134,17 @@
 			Islamic law.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Islamic law.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00979949
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -111,10 +163,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Mūsá, Muḥammad Yūsuf.
+			Mūsá, Muḥammad Yūsuf.
 		</subfield>
 		<subfield code="t">
-			Muḥāḍarāt fī tārīkh al-fiqh al-Islāmī
+			Muḥāḍarāt fī tārīkh al-fiqh al-Islāmī
 		</subfield>
 		<subfield code="w">
 			(NNU)001676371
@@ -123,6 +175,39 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/905qfz0r
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			موسى، محمد يوسف.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			محاضرات في تاريخ الفقه الاسلامي /
+		</subfield>
+		<subfield code="c">
+			القاها محمد يوسف موسى.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			[القاهرة] :
+		</subfield>
+		<subfield code="b">
+			[publisher not identified]،
+		</subfield>
+		<subfield code="c">
+			1954-1956.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -154,9 +239,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001657:v.2
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

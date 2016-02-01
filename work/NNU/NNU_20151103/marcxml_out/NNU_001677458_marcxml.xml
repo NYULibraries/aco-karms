@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01661nam a2200301   4500
+		02665nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		001677458
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19581959sy      ob    000 0 arar 
+		160201m19581959sy      ob    000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,40 +25,60 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			Samarqandī, ʻAlāʼ al-Dīn Muḥammad ibn Aḥmad,
+			KBP144
+		</subfield>
+		<subfield code="b">
+			.S263 1958
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Samarqandī, ʻAlāʼ al-Dīn Muḥammad ibn Aḥmad,
 		</subfield>
 		<subfield code="d">
-			d. 1144?
+			-1144?
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Tuḥfat al-fuqahāʼ
+			Tuḥfat al-fuqahāʼ,
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
-		</subfield>
-		<subfield code="b">
-			li-ʻAlāʼ al-Dīn Samarqandī. Ḥaqqaqah wa-ʻallaqa ʻalayh wa-yanshuruh li-awwal marrah Muḥammad Zakī ʻAbd al-Barr. Rājaʻa matnahu wa-qaddama lah ʻalā al-khafīf.
+		<subfield code="c">
+			li-ʻAlāʼ al-Dīn Samarqandī. Ḥaqqaqah wa-ʻallaqa ʻalayh wa-yanshuruh li-awwal marrah Muḥammad Zakī ʻAbd al-Barr. Rājaʻa matnahu wa-qaddama lah ʻalā al-khafīf.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Ṭabʻah 1.
+			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			[Dimashq]
+			Dimashq :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat Jāmiʻat Dimashq,
+			Maṭbaʻat Jāmiʻat Dimashq,
 		</subfield>
 		<subfield code="c">
 			1958-1959.
@@ -66,7 +86,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (3 v.)
+			online resource (3 volumes)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -76,12 +120,12 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Bibliography: v. 1, p. 32-34 (1st group)
+			Includes bibliographical references (v. 1, pages 32-34 (1st group)).
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="505">
 		<subfield code="a">
-			juzʼ 1. al-Ṭahārah. al-Ṣalāh. al-Janāʼiz. al-Zakāh. al-Ṣawm. al-Ḥajj.--juzʼ 2. al-Buyūʻ. al-Nikāḥ. al-Ṭalāq. al-ʻItāq. al-Īmān. al-Ijārah.--juzʼ 3. wa-Yashtamil ʻalā baqiyyat kutub al-Fiqh.
+			juzʼ 1. al-Ṭahārah. al-Ṣalāh. al-Janāʼiz. al-Zakāh. al-Ṣawm. al-Ḥajj.--juzʼ 2. al-Buyūʻ. al-Nikāḥ. al-Ṭalāq. al-ʻItāq. al-Īmān. al-Ijārah.--juzʼ 3. wa-Yashtamil ʻalā baqiyyat kutub al-Fiqh.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -106,9 +150,23 @@
 			Islamic law.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
+	<datafield ind1=" " ind2="7" tag="650">
 		<subfield code="a">
-			ʻAbd al-Barr, Muḥammad Zakī.
+			Islamic law.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00979949
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			ʻAbd al-Barr, Muḥammad Zakī.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -126,24 +184,96 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Samarqandī, ʻAlāʼ al-Dīn Muḥammad ibn Aḥmad, -1144?
+		</subfield>
+		<subfield code="t">
+			Tuḥfat al-fuqahāʼ.
+		</subfield>
+		<subfield code="b">
+			al-Ṭabʻah 1.
+		</subfield>
+		<subfield code="d">
+			[Dimashq] Maṭbaʻat Jāmiʻat Dimashq, 1958-1959
+		</subfield>
+		<subfield code="w">
+			(OCoLC)778239955
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Samarqandī, ʻAlāʼ al-Dīn Muḥammad ibn Aḥmad, d. 1144?
+			Samarqandī, ʻAlāʼ al-Dīn Muḥammad ibn Aḥmad, -1144?
 		</subfield>
 		<subfield code="t">
-			Tuḥfat al-fuqahāʼ
+			Tuḥfat al-fuqahāʼ
 		</subfield>
 		<subfield code="w">
 			(NNU)001677458
 		</subfield>
 		<subfield code="w">
-			(DLC)61020368
+			(DLC)   61020368
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/vt4b8m1n
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			سمرقندي، علاء الدين محمد بن أحمد،
+		</subfield>
+		<subfield code="d">
+			-1144?
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			تحفة الفقهاء /
+		</subfield>
+		<subfield code="c">
+			لأبي علاء الدين السمرقندي. حققه وعلق عليه وينشره لأول مرة محمد زكي عبد البر. راجع متنه وقدم له علي الخفيف.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			دمشق :
+		</subfield>
+		<subfield code="b">
+			مطبعة جامعة دمشق،
+		</subfield>
+		<subfield code="c">
+			1958-1959.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/
+		</subfield>
+		<subfield code="a">
+			عبد البار، محمد زكي.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -172,9 +302,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001658:v.1
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

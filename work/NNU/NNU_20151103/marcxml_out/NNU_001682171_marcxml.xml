@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01288nam a2200265   4500
+		02293nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		001682171
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1965    iq      o     000 0 ara d
+		160201s1965    iq      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,32 +25,49 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			Nīsābūrī, ʻAbd Allāh ibn Busṭām.
+			R128.3
+		</subfield>
+		<subfield code="b">
+			.I3 1965
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Nīsābūrī, ʻAbd Allāh ibn Busṭām.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Ṭibb al-aʼimmah
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Ṭibb al-aʼimmah /
 		</subfield>
 		<subfield code="c">
-			bi-riwāyat Abī ʻItāb ʻAbd Allāh ibn Sābūr al-Zayyāt wa-al-Ḥusayn, ibnay Busṭām al-Nīsābūrīyayn ; waḍaʻa al-muqaddimah Muḥammad Mahdī al-Sayyid Ḥasan al-Khurasān.
+			bi-riwāyat Abī ʻItāb ʻAbd Allāh ibn Sābūr al-Zayyāt wa-al-Ḥusayn, ibnay Busṭām al-Nīsābūrīyayn ; waḍaʻa al-muqaddimah Muḥammad Mahdī al-Sayyid Ḥasan al-Khurasān.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Najaf :
 		</subfield>
 		<subfield code="b">
-			al-Maktabah al-Ḥaydarīyah,
+			al-Maktabah al-Ḥaydarīyah,
 		</subfield>
 		<subfield code="c">
 			1965.
@@ -58,7 +75,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (144 p.)
+			online resource (144 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -88,9 +129,31 @@
 			Medicine, Arab.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
+	<datafield ind1=" " ind2="7" tag="650">
 		<subfield code="a">
-			Nīsābūrī, al-Ḥusayn ibn Busṭām.
+			Medicine, Arab.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01015186
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Nīsābūrī, al-Ḥusayn ibn Busṭām.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Khurasān, Muḥammad Mahdī.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -108,13 +171,30 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Nīsābūrī, ʻAbd Allāh ibn Busṭām.
+		</subfield>
+		<subfield code="t">
+			Ṭibb al-aʼimmah.
+		</subfield>
+		<subfield code="d">
+			al-Najaf : al-Maktabah al-Ḥaydarīyah, 1965
+		</subfield>
+		<subfield code="w">
+			(OCoLC)555551178
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Nīsābūrī, ʻAbd Allāh ibn Busṭām.
+			Nīsābūrī, ʻAbd Allāh ibn Busṭām.
 		</subfield>
 		<subfield code="t">
-			Ṭibb al-aʼimmah
+			Ṭibb al-aʼimmah
 		</subfield>
 		<subfield code="w">
 			(NNU)001682171
@@ -123,6 +203,55 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/djh9w3z5
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			نيسابوري، عبد الله بن بسطام.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			طب الأئمة /
+		</subfield>
+		<subfield code="c">
+			برواية أبي عتاب عبد الله بن سابور الزيات والحسين ابني بسطام النيسابوريين ؛ وضع المقدمة محمد مهدي السيد الخرسان.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			النجف :
+		</subfield>
+		<subfield code="b">
+			المکتبة الحيدرية،
+		</subfield>
+		<subfield code="c">
+			١٩٦٥.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/
+		</subfield>
+		<subfield code="a">
+			نيسابوري، الحسين بن بسطام.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/
+		</subfield>
+		<subfield code="a">
+			خرسان، محمد مهدي.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -151,9 +280,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001573
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01842nam a2200301   4500
+		03181nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		001678774
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1879    ua      o     000 0 arard
+		160201s1879    ua      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,8 +25,16 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">
+			f-ua---
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
@@ -34,52 +42,88 @@
 			DT95
 		</subfield>
 		<subfield code="b">
-			.I74
+			.I8 1879
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Isḥāqī, Muḥammad ibn ʻAbd al-Muʻṭī,
+			Isḥāqī, Muḥammad ibn ʻAbd al-Muʻṭī,
 		</subfield>
 		<subfield code="d">
-			d. 1649 or 50.
+			-1649 or 1650.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Akhbār al-uwal fī-man taṣarrafa fī Miṣr min arbāb al-duwal
+			Akhbār al-uwal fī-man taṣarrafa fī Miṣr min arbāb al-duwal
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Kitāb akhbār al-uwal fī-man taṣarrafa fī Miṣr min arbāb al-duwal
+		<subfield code="6">
+			880-03
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Kitāb akhbār al-uwal fī-man taṣarrafa fī Miṣr min arbāb al-duwal /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Muḥammad ʻAbd al-Muʻṭī ibn Abī al-Fatḥ ibn Aḥmad ibn ʻAbd al-Mughnī ibn ʻAlī al-Isḥāqī al-Munūfī. wa-bi-hāmisihi Tuḥfat al-nāẓirīn fī-man waliya Miṣr min al-wulāh wa-al-salāṭīn / taʼlīf ʻAbd Allāh al-Sharqāwī.
+			taʼlīf Muḥammad ʻAbd al-Muʻṭī ibn Abī al-Fatḥ ibn Aḥmad ibn ʻAbd al-Mughnī ibn ʻAlī al-Isḥāqī al-Munūfī. wa-bi-hāmisihi Tuḥfat al-nāẓirīn fī-man waliya Miṣr min al-wulāh wa-al-salāṭīn / taʼlīf ʻAbd Allāh al-Sharqāwī.
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Tuḥfat al-nāẓirīn fī-man waliya Miṣr min al-wulāh wa-al-Salāṭīn
+			Tuḥfat al-nāẓirīn fī-man waliya Miṣr min al-wulāh wa-al-Salāṭīn
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			[Cairo :
+			[Cairo] :
 		</subfield>
 		<subfield code="b">
-			al-Maṭbaʻah al-Ḥusaynīyah,
+			[al-Maṭbaʻah al-Ḥusaynīyah],
 		</subfield>
 		<subfield code="c">
-			1296 [1878-1879]
+			1296 [1879]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (278 p.)
+			online resource (278 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -115,15 +159,48 @@
 			1250-1517.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
+	<datafield ind1=" " ind2="7" tag="651">
 		<subfield code="a">
-			Sharqāwī, ʻAbd Allāh ibn Ḥijāzī,
+			Egypt.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01208755
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="648">
+		<subfield code="a">
+			1250 - 1517.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			History.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411628
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			Sharqāwī, ʻAbd Allāh ibn Ḥijāzī,
 		</subfield>
 		<subfield code="d">
-			1737 or 8-1812 or 13.
+			1737 or 1738-1812 or 1813.
 		</subfield>
 		<subfield code="t">
-			Tuḥfat al-nāẓirīn fī-man Waliya Miṣr min al-Wulāh wa-al-Salāṭīn.
+			Tuḥfat al-nāẓirīn fī-man Waliya Miṣr min al-Wulāh wa-al-Salāṭīn.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -144,10 +221,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Isḥāqī, Muḥammad ibn ʻAbd al-Muʻṭī, d. 1649 or 50.
+			Isḥāqī, Muḥammad ibn ʻAbd al-Muʻṭī, -1649 or 1650.
 		</subfield>
 		<subfield code="t">
-			Kitāb akhbār al-uwal fī-man taṣarrafa fī Miṣr min arbāb al-duwal
+			Kitāb akhbār al-uwal fī-man taṣarrafa fī Miṣr min arbāb al-duwal
 		</subfield>
 		<subfield code="w">
 			(NNU)001678774
@@ -156,6 +233,69 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/3j9kd82p
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			إسحاقي، محمد بن عبد المعطي،
+		</subfield>
+		<subfield code="d">
+			-1649 or 1650.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02/
+		</subfield>
+		<subfield code="a">
+			‏أخبار الأول فيمن تصرف في مصر من أرباب الدول
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-03/
+		</subfield>
+		<subfield code="a">
+			‏كتاب أخبار الأول فيمن تصرف في مصر من أرباب الدول /‏
+		</subfield>
+		<subfield code="c">
+			‏تأليف محمد عبد المعطي بن أبي الفتح بن أحمد بن عبد المغني بن علي الإسحاقي المنوفي. وبهامشه تحفة الناظر فيمن ولي مصر من الولاة والسلاطين / تأليف عبد الله الشرقاوي.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-04/
+		</subfield>
+		<subfield code="a">
+			تحفة الناظر فيمن ولي مصر من الولاة والسلاطين.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-05/
+		</subfield>
+		<subfield code="a">
+			[القاهرة] :
+		</subfield>
+		<subfield code="b">
+			[المطبعة الحسينية]،
+		</subfield>
+		<subfield code="c">
+			1296 [1879]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-06/
+		</subfield>
+		<subfield code="a">
+			‏شرقاوي، عبد الله بن حجازي.‏
+		</subfield>
+		<subfield code="t">
+			‏تحفة الناظر فيمن ولي مصر من الولاة والسلاطين.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -184,9 +324,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001511
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

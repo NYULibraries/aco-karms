@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01235nam a2200289   4500
+		02066nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		001681853
@@ -16,8 +16,13 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1943    ua b    ob    000 0 ara d
+		160201s1943    ua b    ob    000 0 ara d
 	</controlfield>
+	<datafield ind1=" " ind2=" " tag="037">
+		<subfield code="b">
+			George's Bookshop, P.O. Box 220, Cairo, Egypt
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
 			NNU
@@ -25,51 +30,84 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			VK15
 		</subfield>
 		<subfield code="b">
-			.F34
+			.F34 1943
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Fawzī, Ḥusayn.
+			Fawzī, Ḥusayn.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Ḥadīth al-Sindibād al-qadīm
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Ḥadīth al-Sindibād al-qadīm /
 		</subfield>
 		<subfield code="c">
-			[taʹlīf] Ḥusayn Fawzī.
+			[taʹlīf] Ḥusayn Fawzī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[al-Qāhirah,
+			Al-Qāhirah :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat Lajnat al-Taʹlīf wa-al-Tarjamah wa-al-Nashr,
+			Maṭbaʻat Lajnat al-Taʹlīf wa-al-Tarjamah wa-al-Nashr,
 		</subfield>
 		<subfield code="c">
-			1943]
+			1943.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (13, 375 p.) :
+			online resource (13, 375 pages) :
 		</subfield>
 		<subfield code="b">
-			map.
+			maps
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -79,7 +117,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Bibliography: p. [367]-375.
+			Includes bibliographical references (pages 367-375).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -115,6 +153,39 @@
 			History.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Navigation.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01035085
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Voyages and travels.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01169308
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			History.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411628
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -130,24 +201,74 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Fawzī, Ḥusayn.
+		</subfield>
+		<subfield code="t">
+			Ḥadīth al-Sindibād al-qadīm.
+		</subfield>
+		<subfield code="d">
+			[Al-Qāhirah, Maṭbaʻat Lajnat al-Taʹlīf wa-al-Tarjamah wa-al-Nashr, 1943]
+		</subfield>
+		<subfield code="w">
+			(OCoLC)700326401
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Fawzī, Ḥusayn.
+			Fawzī, Ḥusayn.
 		</subfield>
 		<subfield code="t">
-			Ḥadīth al-Sindibād al-qadīm
+			Ḥadīth al-Sindibād al-qadīm
 		</subfield>
 		<subfield code="w">
 			(NNU)001681853
 		</subfield>
 		<subfield code="w">
-			(DLC)76971264 /ne
+			(DLC)   76971264
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/nvx0k9jt
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			فوزي، حسين.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			حديث السندباد القديم /
+		</subfield>
+		<subfield code="c">
+			[تأليف] حسين فوزي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			مطبعة لجنة التأليف والترجمة والنشر،
+		</subfield>
+		<subfield code="c">
+			1943.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -176,9 +297,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001589
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

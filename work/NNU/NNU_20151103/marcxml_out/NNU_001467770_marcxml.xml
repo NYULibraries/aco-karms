@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02198nam a2200373   4500
+		02851nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		001467770
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1952    mr fh   o     000 0 arar 
+		160201s1952    mr fh   obc   000 0 arax 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -33,26 +36,16 @@
 		<subfield code="a">
 			f-mr---
 		</subfield>
+		<subfield code="a">
+			f------
+		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			Z965
 		</subfield>
 		<subfield code="b">
-			.T46
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">
-			Z965
-		</subfield>
-		<subfield code="b">
-			.T46
+			.T46 1952
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="110">
@@ -60,10 +53,10 @@
 			880-01
 		</subfield>
 		<subfield code="a">
-			Tétouan (Morocco).
+			Tétouan (Morocco).
 		</subfield>
 		<subfield code="b">
-			al-Maktabah al-ʻĀmmah.
+			al-Maktabah al-ʻĀmmah.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
@@ -71,18 +64,10 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			Fihris al-muʼallifīn wa-al-ʻanāwīn lil-kutub al-ʻArabīyah al-mawjūdah bi-al-Maktabah al-ʻĀmmah lil-Ḥimāyah
-		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+			Fihris al-muʼallifīn wa-al-ʻanāwīn lil-kutub al-ʻArabīyah al-mawjūdah bi-al-Maktabah al-ʻĀmmah lil-Ḥimāyah,
 		</subfield>
 		<subfield code="c">
-			min waḍʻ Aḥmad Muḥammad al-Miknāsī.
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2="5" tag="246">
-		<subfield code="a">
-			Catálogo de autores y titulos de la Biblioteca General del Protectorado (Sección Árabe)
+			min waḍʻ Aḥmad Muḥammad al-Miknāsī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
@@ -90,10 +75,10 @@
 			880-03
 		</subfield>
 		<subfield code="a">
-			Tiṭwān :
+			Tiṭwān,
 		</subfield>
 		<subfield code="c">
-			Dār al-Ṭibāʻah al-Maghribīyah,
+			Dār al-Ṭibāʻah al-Maghribīyah,
 		</subfield>
 		<subfield code="c">
 			1952.
@@ -101,20 +86,59 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (603 p.) :
+			online resource (603 pages) :
 		</subfield>
 		<subfield code="b">
-			plates, facsims.
+			plates, facsimiles
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			At head of title: al-Iqāmah al-ʻĀmmah li-Isbānyā bi-al-Maghrib. Niyābat al-Tarbiyah wa-al-Thaqāfah. Mudīrīyat al-Maḥāfiẓ wa-al-Makātib lil-Ḥimāyah.
+			In Arabic.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">
+			At head of title: al-Iqāmah al-ʻĀmmah li-Isbānyā bi-al-Maghrib. Niyābat al-Tarbiyah wa-al-Thaqāfah. Mudīrīyat al-Maḥāfiẓ wa-al-Makātib lil-Ḥimāyah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
 			Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">
+			In Arabic.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">
+			Added t.p.: Catálogo de autores y titulos de la Biblioteca General del Protectorado (Sección Árabe) redactado por Ahmed Mohammed Mekinasi.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -134,12 +158,42 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="a">
+			Africa
+		</subfield>
+		<subfield code="v">
+			Bibliography
+		</subfield>
+		<subfield code="v">
+			Catalogs.
+		</subfield>
+	</datafield>
+	<datafield ind1="2" ind2="0" tag="610">
+		<subfield code="a">
+			Biblioteca General del Protectorado (Morocco)
+		</subfield>
+		<subfield code="v">
+			Catalogs.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Islam
+		</subfield>
+		<subfield code="v">
+			Bibliography
+		</subfield>
+		<subfield code="v">
+			Catalogs.
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
 			880-04
 		</subfield>
 		<subfield code="a">
-			Miknāsī, Aḥmad Muḥammad.
+			Miknāsī, Aḥmad Muḥammad.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -157,19 +211,36 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Tétouan (Morocco). al-Maktabah al-ʻĀmmah.
+		</subfield>
+		<subfield code="t">
+			Fihris al-muʼallifīn wa-al-ʻanāwīn lil-kutub al-ʻArabīyah al-mawjūdah bi-al-Maktabah al-ʻĀmmah lil-Ḥimāyah.
+		</subfield>
+		<subfield code="d">
+			Tiṭwān, Dār al-Ṭibāʻah al-Maghribīyah, 1952
+		</subfield>
+		<subfield code="w">
+			(OCoLC)605738104
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Tétouan (Morocco). al-Maktabah al-ʻĀmmah.
+			Tétouan (Morocco). al-Maktabah al-ʻĀmmah.
 		</subfield>
 		<subfield code="t">
-			Fihris al-muʼallifīn wa-al-ʻanāwīn lil-kutub al-ʻArabīyah al-mawjūdah bi-al-Maktabah al-ʻĀmmah lil-Ḥimāyah
+			Fihris al-muʼallifīn wa-al-ʻanāwīn lil-kutub al-ʻArabīyah al-mawjūdah bi-al-Maktabah al-ʻĀmmah lil-Ḥimāyah
 		</subfield>
 		<subfield code="w">
 			(NNU)001467770
 		</subfield>
 		<subfield code="w">
-			(DLC)59039755
+			(DLC)   59039755
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
@@ -247,9 +318,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001618
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01269nam a2200289   4500
+		02143nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		001682533
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1950    ua      ob    001 0 araod
+		160201s1950    ua abf  ob    001 0 araod
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,32 +25,54 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">
+			f-ua---
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			PJ7819.E4
+		</subfield>
+		<subfield code="b">
+			K36 1950
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Kāshif, Sayyidah Ismāʻīl.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Miṣr fī ʻaṣr al-Ikhshīdīyīn
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Miṣr fī ʻaṣr al-Ikhshīdīyīn /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Sayyidah Ismāʻīl Kāshif.
+			taʼlīf Sayyidah Ismāʻīl Kāshif.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Qāhirah :
+			al-Qāhirah :
 		</subfield>
 		<subfield code="b">
-			Jāmiʻat Fūʼād al-Awwal, Kullīyat al-Ādāb,
+			Jāmiʻat Fūʼād al-Awwal, Kullīyat al-Ādāb,
 		</subfield>
 		<subfield code="c">
 			1950.
@@ -58,15 +80,34 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (4, 418 p., [16] leaves of plates) :
+			online resource (4, 418 pages, [16] leaves of plates) :
 		</subfield>
 		<subfield code="b">
-			ill., maps
+			illustrations, maps
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
+	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">
-			Includes indexes.
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -76,7 +117,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Bibliography: p. 379-393.
+			Includes bibliographical references (pages 379-393)-and indexes.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -112,6 +153,47 @@
 			640-1250.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Ikhshidids.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00967101
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Egypt.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01208755
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="648">
+		<subfield code="a">
+			640 - 1250.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			History.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411628
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -127,13 +209,30 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Kāshif, Sayyidah Ismāʻīl.
+		</subfield>
+		<subfield code="t">
+			Miṣr fī ʻaṣr al-Ikhshīdīyīn.
+		</subfield>
+		<subfield code="d">
+			al-Qāhirah : Jāmiʻat Fūʼād al-Awwal, Kullīyat al-Ādāb, 1950
+		</subfield>
+		<subfield code="w">
+			(OCoLC)645331150
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
 			Kāshif, Sayyidah Ismāʻīl.
 		</subfield>
 		<subfield code="t">
-			Miṣr fī ʻaṣr al-Ikhshīdīyīn
+			Miṣr fī ʻaṣr al-Ikhshīdīyīn
 		</subfield>
 		<subfield code="w">
 			(NNU)001682533
@@ -142,6 +241,39 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/x95x6dwk
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			كاشف، سيدة إسماعيل.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			مصر في عهد الاخشيديين /
+		</subfield>
+		<subfield code="c">
+			تأليف سيدة إسماعيل كاشف.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			جامعة فؤاد الأول، كلية الآداب،
+		</subfield>
+		<subfield code="c">
+			1950.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -170,9 +302,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001506
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

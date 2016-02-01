@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01987nam a2200385   4500
+		02510nam a2200481   4500
 	</leader>
 	<controlfield tag="001">
 		001686185
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1962    iq      ob    000 0 ara d
+		160201s1962    iq      ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -37,20 +40,17 @@
 			eng
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-		<subfield code="c">
-			(4
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">
+			a-iq---
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			Z3038.B3
 		</subfield>
 		<subfield code="b">
-			A85
+			A65 1962
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
@@ -66,16 +66,13 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			Jamharat al-marāji al-Baghdādīyah
-		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+			Jamharat al-marājiʻ al-Baghdādīyah :
 		</subfield>
 		<subfield code="b">
-			fihrist shāmil bi-mā kutiba ʻan Baghdād mundhu taʼsīsihā ḥattá al-ān /
+			fihrist shāmil bi-mā kutiba ʻan Baghdād mundhu taʼsīsihā ḥattá al-ān /
 		</subfield>
 		<subfield code="c">
-			jamʻ wa-iʻdād wa-tansīq Kūrkīs ʻAwwād, ʻAbd al-Ḥamīd al-ʻAlwajī.
+			jamʻ wa-iʻdād wa-tansīq Kūrkīs ʻAwwād, ʻAbd al-Ḥamīd al-ʻAlwajī.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="5" tag="246">
@@ -88,10 +85,10 @@
 			880-03
 		</subfield>
 		<subfield code="a">
-			Baghdād :
+			Baghdād :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat al-Rābiṭah,
+			Maṭbaʻat al-Rābiṭah,
 		</subfield>
 		<subfield code="c">
 			[1962]
@@ -99,12 +96,51 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (643, 95 p.)
+			online resource (643, 95 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">
+			Title on added t.p.: Bibliography of Baghdad.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">
+			Includes publications in Arabic and Western languages.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
 			Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="504">
+		<subfield code="a">
+			Includes bibliographical references.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -126,12 +162,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="546">
 		<subfield code="a">
-			In Aabic and English.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Includes publications in Arabic and Western languages.
+			Text in Arabic and English.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
@@ -142,12 +173,37 @@
 			Bibliography.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Iraq
+		</subfield>
+		<subfield code="z">
+			Baghdad.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01207444
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Bibliography.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01423717
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
 			880-04
 		</subfield>
 		<subfield code="a">
-			ʻAlwachī, ʻAbd al-Ḥamīd.
+			ʻAlwachī, ʻAbd al-Ḥamīd.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -165,19 +221,36 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			ʻAwwād, Kūrkīs.
+		</subfield>
+		<subfield code="t">
+			Jamharat al-marājiʻ al-Baghdādīyah.
+		</subfield>
+		<subfield code="d">
+			Baghdād : Maṭbaʻat al-Rābiṭah, [1962]
+		</subfield>
+		<subfield code="w">
+			(OCoLC)651913895
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
 			ʻAwwād, Kūrkīs.
 		</subfield>
 		<subfield code="t">
-			Jamharat al-marāji al-Baghdādīyah
+			Jamharat al-marājiʻ al-Baghdādīyah
 		</subfield>
 		<subfield code="w">
 			(NNU)001686185
 		</subfield>
 		<subfield code="w">
-			(DLC)64001242
+			(DLC)   64001242
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
@@ -218,7 +291,7 @@
 			مطبعة الرابطة،
 		</subfield>
 		<subfield code="c">
-			[1962]
+			±1962Ư
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
@@ -226,7 +299,7 @@
 			700-04/
 		</subfield>
 		<subfield code="a">
-			علو�ي، عبد الحميد.
+			علوجي، عبد الحميد.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -257,7 +330,7 @@
 			nyu_aco001594
 		</subfield>
 		<subfield code="e">
-			(ERROR-880)(ERROR-MISC)
+			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

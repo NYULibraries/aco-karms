@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01320nam a2200325   4500
+		02135nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		001678628
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1967    iq ajh  ob    000 0 arax 
+		160201s1967    iq abj  ob    000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -34,36 +37,42 @@
 			a-ts---
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			DS247.S5
 		</subfield>
 		<subfield code="b">
-			S5
+			S5 1967
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Sinān, Maḥmūd Bahjat.
+			Sinān, Maḥmūd Bahjat.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Imārat al-Shāriqah
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Imārat al-Shāriqah /
 		</subfield>
 		<subfield code="c">
-			taʼlif Maḥmūd Bahjat Sinān.
+			taʼlif Maḥmūd Bahjat Sinān.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Baghdād,
+			Baghdād :
 		</subfield>
 		<subfield code="b">
-			Wizārat al-Thaqāfah wa-al-Irshād,
+			Wizārat al-Thaqāfah wa-al-Irshād,
 		</subfield>
 		<subfield code="c">
 			1967.
@@ -71,23 +80,45 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (103, [6] p.) :
+			online resource (103, [6] pages) :
 		</subfield>
 		<subfield code="b">
-			illus., geneal. table, map.
+			illustrations, genealogical table, maps
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="490">
+	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">
-			al-Silsilah al-siyāsīyah,
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			al-Silsilah al-siyāsīyah,
 		</subfield>
 		<subfield code="v">
 			15
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			In Arabic.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -97,7 +128,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Bibliography: p.[107]
+			Includes bibliographical references (page 107).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -137,13 +168,30 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Sinān, Maḥmūd Bahjat.
+		</subfield>
+		<subfield code="t">
+			Imārat al-Shāriqah.
+		</subfield>
+		<subfield code="d">
+			Baghdād, Wizārat al-Thaqāfah wa-al-Irshād, 1967
+		</subfield>
+		<subfield code="w">
+			(OCoLC)631230718
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Sinān, Maḥmūd Bahjat.
+			Sinān, Maḥmūd Bahjat.
 		</subfield>
 		<subfield code="t">
-			Imārat al-Shāriqah
+			Imārat al-Shāriqah
 		</subfield>
 		<subfield code="w">
 			(NNU)001678628
@@ -152,17 +200,87 @@
 			(DLC)ne 67001996
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="830">
+	<datafield ind1="4" ind2="0" tag="856">
+		<subfield code="u">
+			http://hdl.handle.net/2333.1/7m0cg1rx
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
 		<subfield code="a">
-			Silsilah al-siyāsīyah ;
+			سنان، محمد بهجت.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			إمارة الشارقة /
+		</subfield>
+		<subfield code="c">
+			تأليف محمد بهجت سنان.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			وزارة الثقافة و الإرشاد،
+		</subfield>
+		<subfield code="c">
+			١٩٦٧.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			490-04/
+		</subfield>
+		<subfield code="a">
+			السلسلة السياسية ؛
+		</subfield>
+		<subfield code="v">
+			١٥
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="810">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Iraq.
+		</subfield>
+		<subfield code="b">
+			Wizārat al-Thaqāfah wa-al-Irshād.
+		</subfield>
+		<subfield code="t">
+			Silsilah al-siyāsīyah ;
 		</subfield>
 		<subfield code="v">
 			15.
 		</subfield>
 	</datafield>
-	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">
-			http://hdl.handle.net/2333.1/7m0cg1rx
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			810-05/
+		</subfield>
+		<subfield code="a">
+			العراق.
+		</subfield>
+		<subfield code="b">
+			وزارة الثقافة والارشاد.
+		</subfield>
+		<subfield code="t">
+			سلسلة السياسية ؛
+		</subfield>
+		<subfield code="v">
+			15.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -193,7 +311,7 @@
 			nyu_aco001444
 		</subfield>
 		<subfield code="e">
-			(ERROR-880)
+			(ERROR-SERIES)
 		</subfield>
 	</datafield>
 </record>

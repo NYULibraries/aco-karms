@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01371nam a2200301   4500
+		01988nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		001682220
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1962    iq      o     000 0 ara  
+		160201s1962    iq h    o     000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,43 +25,52 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			PJ 7745
+			PJ7745
 		</subfield>
 		<subfield code="b">
 			.K52 R5
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Kindī,
+			Kindī,
 		</subfield>
 		<subfield code="d">
-			d. ca. 873.
+			-approximately 873.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Risālat al-Kindī fī ʻamal al sāʻāt
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Risālat al-Kindī fī ʻamal al sāʻāt /
 		</subfield>
 		<subfield code="c">
-			nasharahā Zakariyā Yūsuf fī munāsabat iḥtifālāt al-ʻīd al-alfī li-Baghdād wa-faylasūfihā al-Kindī.
+			nasharahā Zakariyā Yūsuf fī munāsabat iḥtifālāt al-ʻīd al-alfī li-Baghdād wa-faylasūfihā al-Kindī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Baghdād :
+			Baghdād :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat Shafīq,
+			Maṭbaʻat Shafīq,
 		</subfield>
 		<subfield code="c">
 			1962.
@@ -69,7 +78,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (6 p. (chiefly facsims.))
+			online resource (6 pages (chiefly facsimiles))
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -109,7 +142,21 @@
 			Clock and watch making.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Clock and watch making.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00864505
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Yūsuf, Zakarīyā.
 		</subfield>
@@ -132,21 +179,65 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Kindī, d. ca. 873.
+			Kindī, -approximately 873.
 		</subfield>
 		<subfield code="t">
-			Risālat al-Kindī fī ʻamal al sāʻāt
+			Risālat al-Kindī fī ʻamal al sāʻāt
 		</subfield>
 		<subfield code="w">
 			(NNU)001682220
 		</subfield>
 		<subfield code="w">
-			(DLC)66001244
+			(DLC)   66001244
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/c2fqz935
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			كندي،
+		</subfield>
+		<subfield code="d">
+			-approximately 873.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			رسالة الكندي في عمل الساعات /
+		</subfield>
+		<subfield code="c">
+			نشرها زكريا يوسف في مناسبة احتفالات العيد الألفي لبغداد وفيلسوفها الكندي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			مطبعة شفيق،
+		</subfield>
+		<subfield code="c">
+			1962.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/
+		</subfield>
+		<subfield code="a">
+			يوسف، زكريا.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -175,9 +266,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001587
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

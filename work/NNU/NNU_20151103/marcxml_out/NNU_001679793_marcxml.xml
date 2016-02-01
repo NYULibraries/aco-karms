@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01369nam a2200301   4500
+		02613nam a2200481   4500
 	</leader>
 	<controlfield tag="001">
 		001679793
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1969    iq ac   ob    000 0carax 
+		160201s1969    iq ac   ob    000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,40 +25,62 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="0" tag="050">
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">
+			a-iq---
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			ML400.A345
 		</subfield>
 		<subfield code="b">
-			Q6
+			Q6 1969
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			al-ʻAllāf, ʻAbd al-Karīm.
+			ʻAllāf, ʻAbd al-Karīm.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Qiyān Baghdād
+			Qiyān Baghdād fī al-ʻaṣr al-ʻAbbāsī wa-al-ʻUthmānī wa-al-akhīr /
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="c">
+			taʼlīf ʻAbd al-Karīm al-ʻAllāf ; qaddama lahu ʻAlī al-Khāqānī.
 		</subfield>
-		<subfield code="b">
-			fī al-ʻaṣr al-ʻAbbāsī wa-al-ʻUthmānī wa-al-akhīr, taʼlīf ʻAbd al-Karīm al-ʻAllāf. Qaddama lahu ʻAlī al-Khāqānī. [al-Ṭabʻah 1]
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			[al-Ṭabʻah 1].
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Baghdād,
+			Baghdād :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat Dār al-Taḍāmun,
+			Maṭbaʻat Dār al-Taḍāmun,
 		</subfield>
 		<subfield code="c">
 			1969.
@@ -66,15 +88,42 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (264 p.) :
+			online resource (264 pages) :
 		</subfield>
 		<subfield code="b">
-			illus., ports.
+			illustrations, portraits
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Manshūrāt Dār al-Bayān,
+			Manshūrāt Dār al-Bayān ;
 		</subfield>
 		<subfield code="v">
 			49
@@ -87,7 +136,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Bibliography: p. 263-264.
+			Includes bibliographical references (pages 263-264).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -109,7 +158,52 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">
-			Singers, Arabic.
+			Women singers
+		</subfield>
+		<subfield code="z">
+			Iraq
+		</subfield>
+		<subfield code="z">
+			Baghdad
+		</subfield>
+		<subfield code="v">
+			Biography.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Women singers.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01178528
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Iraq
+		</subfield>
+		<subfield code="z">
+			Baghdad.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01207444
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Biography.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01423686
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -127,22 +221,102 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			ʻAllāf, ʻAbd al-Karīm.
+		</subfield>
+		<subfield code="t">
+			Qiyān Baghdād fī al-ʻaṣr al-ʻAbbāsī wa-al-ʻUthmānī wa-al-akhīr.
+		</subfield>
+		<subfield code="b">
+			[al-Ṭabʻah 1].
+		</subfield>
+		<subfield code="d">
+			Baghdād, Maṭbaʻat Dār al-Taḍāmun, 1969
+		</subfield>
+		<subfield code="w">
+			(OCoLC)645400015
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			al-ʻAllāf, ʻAbd al-Karīm.
+			ʻAllāf, ʻAbd al-Karīm.
 		</subfield>
 		<subfield code="t">
-			Qiyān Baghdād
+			Qiyān Baghdād fī al-ʻaṣr al-ʻAbbāsī wa-al-ʻUthmānī wa-al-akhīr
 		</subfield>
 		<subfield code="w">
 			(NNU)001679793
 		</subfield>
 		<subfield code="w">
-			(DLC)70961561
+			(DLC)   70961561
+		</subfield>
+	</datafield>
+	<datafield ind1="4" ind2="0" tag="856">
+		<subfield code="u">
+			http://hdl.handle.net/2333.1/sn02vb10
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			علاف، عبد الكريم.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			قيان بغداد في العصر العباسي والعثماني والأخير /
+		</subfield>
+		<subfield code="c">
+			تأليف عبد الكريم العلاف ؛ قدم له علي الخاقاني.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			[الطبعة 1.].
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			مطبعة دار التضامن،
+		</subfield>
+		<subfield code="c">
+			1969.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-05/
+		</subfield>
+		<subfield code="a">
+			منشورات دار البيان ؛
+		</subfield>
+		<subfield code="v">
+			49
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Manshūrāt Dār al-Bayān ;
 		</subfield>
@@ -150,9 +324,15 @@
 			49.
 		</subfield>
 	</datafield>
-	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">
-			http://hdl.handle.net/2333.1/sn02vb10
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-06/
+		</subfield>
+		<subfield code="a">
+			منشورات دار البيان ;
+		</subfield>
+		<subfield code="v">
+			49.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -181,9 +361,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001561
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

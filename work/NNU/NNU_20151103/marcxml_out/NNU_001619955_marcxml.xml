@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02973nam a2200517   4500
+		03940nam a2200589   4500
 	</leader>
 	<controlfield tag="001">
 		001619955
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1914    ua      ob    000 0 ara d
+		160201s1914    ua      ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -50,28 +53,15 @@
 			.I18 1914
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">
-			DT95.55
-		</subfield>
-		<subfield code="b">
-			.I18 1914
-		</subfield>
-	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
 		<subfield code="6">
 			880-01
 		</subfield>
 		<subfield code="a">
-			Ibn ʻAbd al-Ḥakam,
+			Ibn ʻAbd al-Ḥakam,
 		</subfield>
 		<subfield code="d">
-			d. 870 or 71.
+			-870 or 871.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
@@ -79,7 +69,7 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			Kitāb Futūḥ Miṣr wa-al-Maghrib wa-al-Andalus
+			Kitāb Futūḥ Miṣr wa-al-Maghrib wa-al-Andalus
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
@@ -87,13 +77,10 @@
 			880-03
 		</subfield>
 		<subfield code="a">
-			Kitāb Futūḥ Miṣr wa-akhbāruhā
-		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+			Kitāb Futūḥ Miṣr wa-akhbāruhā /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Abī al-Qasam ʻAbd al-Raḥmān ibn ʻAbd Allāh ibn ʻAbd al-Ḥakam ibn Aʻyan al-Qurshī al-Miṣrī :ʻuniya bi-nashrihi wa-taṣḥīḥihi Hinrī Māsayah.
+			taʼlīf Abī al-Qasam ʻAbd al-Raḥmān ibn ʻAbd Allāh ibn ʻAbd al-Ḥakam ibn Aʻyan al-Qurshī al-Miṣrī :ʻuniya bi-nashrihi wa-taṣḥīḥihi Hinrī Māsayah.
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="246">
@@ -101,12 +88,12 @@
 			880-04
 		</subfield>
 		<subfield code="a">
-			Futūḥ Miṣr wa-akhbāruhā
+			Futūḥ Miṣr wa-akhbāruhā
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="5" tag="246">
 		<subfield code="a">
-			Livre de la conquête de l'Égypte du Magreb et de l'Espagne
+			Livre de la conquête de l'Égypte du Magreb et de l'Espagne
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
@@ -114,10 +101,10 @@
 			880-05
 		</subfield>
 		<subfield code="a">
-			al-Qāhirah :
+			al-Qāhirah :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat Majlis al-Maʻārif al-Faransāwī al-Khāṣṣ bi-ʻĀdāt al-Sharqīyah,
+			Maṭbaʻat Majlis al-Maʻārif al-Faransāwī al-Khāṣṣ bi-ʻĀdāt al-Sharqīyah,
 		</subfield>
 		<subfield code="c">
 			1914.
@@ -125,7 +112,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (iv, 82 p.)
+			online resource (iv, 82 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
@@ -133,7 +144,7 @@
 			880-06
 		</subfield>
 		<subfield code="a">
-			Maṭbūʻāt Majlis al-Maʻārif al-Faransāwī al-Khāṣṣ bi-al-ʻĀdāt al-Sharqīyah
+			Maṭbūʻāt Majlis al-Maʻārif al-Faransāwī al-Khāṣṣ bi-al-ʻĀdāt al-Sharqīyah
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -182,6 +193,47 @@
 			Early works to 1800.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Egypt.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01208755
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="648">
+		<subfield code="a">
+			640 - 1250.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Early works.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411636
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			History.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411628
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
 			880-07
@@ -211,7 +263,27 @@
 			880-08
 		</subfield>
 		<subfield code="a">
-			Futūḥ Miṣr wa-al-Maghrib wa-al-Andalus.
+			Futūḥ Miṣr wa-al-Maghrib wa-al-Andalus.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Ibn ʻAbd al-Ḥakam, -870 or 871.
+		</subfield>
+		<subfield code="s">
+			Kitāb Futūḥ Miṣr wa-al-Maghrib wa-al-Andalus.
+		</subfield>
+		<subfield code="t">
+			Kitāb Futūḥ Miṣr wa-akhbāruhā
+		</subfield>
+		<subfield code="d">
+			al-Qāhirah : Maṭbaʻat Majlis al-Maʻārif al-Faransāwī al-Khāṣṣ bi-ʻĀdāt al-Sharqīyah, 1914
+		</subfield>
+		<subfield code="w">
+			(OCoLC)862834530
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
@@ -219,10 +291,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ibn ʻAbd al-Ḥakam, d. 870 or 71.
+			Ibn ʻAbd al-Ḥakam, -870 or 871.
 		</subfield>
 		<subfield code="t">
-			Kitāb Futūḥ Miṣr wa-akhbāruhā
+			Kitāb Futūḥ Miṣr wa-akhbāruhā
 		</subfield>
 		<subfield code="w">
 			(NNU)001619955
@@ -238,7 +310,10 @@
 			100-01/
 		</subfield>
 		<subfield code="a">
-			ابن عبد الحكم.
+			ابن عبد الحكم،
+		</subfield>
+		<subfield code="d">
+			-870 or 871.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -246,7 +321,7 @@
 			240-02/
 		</subfield>
 		<subfield code="a">
-			كتاب فتوح مصر والمغرب والاندلس
+			‏كتاب فتوح مصر والمغرب والاندلس
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -257,7 +332,7 @@
 			كتاب فتوح مصر وأخبارها /
 		</subfield>
 		<subfield code="c">
-			تأليف أبي القسم عبد الرحمن بن عبد الله بن عبد الحكم ابن اعين القرشبي المصري ؛ عنى بنشره وتصحيحه هنري ماسيه.
+			تأليف أبي القسم عبد الرحمن بن عبد الله بن عبد الحكم ابن اعين القرشي المصري ؛ رواية أبي القسم علي بن الحسن بن خلف بن قديد عنه رواية أبي بكر محمد بن أحمد بن الفرج القماح عنه رواية أبي الحسن علي بن منير بن أحمد الخلال عنه رواية أبي صادق مرشد ابن يحيى بن القسم إجازة عنه ؛ عني بنشره وتصحيحه هنري ماسيه.
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="880">
@@ -265,7 +340,7 @@
 			246-04/
 		</subfield>
 		<subfield code="a">
-			فتوح مصر وأخبارها
+			‏فتوح مصر وأخبارها
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
@@ -273,13 +348,13 @@
 			260-05/
 		</subfield>
 		<subfield code="a">
-			القاهرة :
+			‏القاهرة :‏
 		</subfield>
 		<subfield code="b">
-			مطبعة مجلس المعارف الفرنساوي الخاص بالعادات الشرقية،
+			‏مطبعة مجلس المعارف الفرنساوي الخاص بالعادات الشرقية،‏
 		</subfield>
 		<subfield code="c">
-			١٩١٤.
+			‏١٩١٤.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
@@ -287,7 +362,7 @@
 			490-06/
 		</subfield>
 		<subfield code="a">
-			مطبوعات مجلس المعارف الفرمساوي الخاص بالعادات الشرقية
+			مطبوعات مجلس المعارف الفرنساوي الخاص بالعادات الشرقية
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
@@ -295,7 +370,10 @@
 			700-07/
 		</subfield>
 		<subfield code="a">
-			ماسيه، هنري.
+			‏ماسيه، هنري،
+		</subfield>
+		<subfield code="d">
+			1886-1969.
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="2" tag="880">
@@ -303,7 +381,7 @@
 			740-08/
 		</subfield>
 		<subfield code="a">
-			فتوح مصر والمغرب والأندلس.
+			‏فتوح مصر والمغرب والأندلس.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">

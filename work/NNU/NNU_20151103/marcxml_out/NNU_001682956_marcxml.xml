@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01262nam a2200277   4500
+		01670nam a2200349   4500
 	</leader>
 	<controlfield tag="001">
 		001682956
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1936    le      ob    000 0 ara d
+		160201s1936    le a    o     000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,35 +25,60 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			Ḥaddād, Sāmī Ibrāhīm,
+			WZ 80.5.A8
+		</subfield>
+		<subfield code="b">
+			H126m 1936
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Ḥaddād, Sāmī Ibrāhīm,
 		</subfield>
 		<subfield code="d">
 			1890-1957.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Maʼāthir al-ʻArab fī al-ʻulūm al-ṭibbīyah
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Maʼāthir al-ʻArab fī al-ʻulūm al-ṭibbīyah /
 		</subfield>
 		<subfield code="c">
-			lil-Duktūr Sāmī Ḥaddād.
+			lil-Duktūr Sāmī Ḥaddād.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="246">
+		<subfield code="i">
+			Title on p. [4] of cover:
+		</subfield>
+		<subfield code="a">
+			Arab contribution to the medical sciences
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Bayrūt :
+			Bayrūt :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat al-Rīḥānī,
+			Maṭbaʻat al-Rīḥānī,
 		</subfield>
 		<subfield code="c">
 			1936.
@@ -67,19 +92,33 @@
 			ill.
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
+	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">
-			Title on p. [4] of cover: Arab contribution to the medical sciences.
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
 			Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">
-			Bibliography: p. 77-78.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -122,10 +161,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ḥaddād, Sāmī Ibrāhīm, 1890-1957.
+			Ḥaddād, Sāmī Ibrāhīm, 1890-1957.
 		</subfield>
 		<subfield code="t">
-			Maʼāthir al-ʻArab fī al-ʻulūm al-ṭibbīyah
+			Maʼāthir al-ʻArab fī al-ʻulūm al-ṭibbīyah
 		</subfield>
 		<subfield code="w">
 			(NNU)001682956
@@ -134,6 +173,42 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/0000030m
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			حداد، سامي ابراهيم،
+		</subfield>
+		<subfield code="d">
+			1890-1957.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			مأاثر العرب في العلوم الطبية /
+		</subfield>
+		<subfield code="c">
+			للدكتور سامي حداد.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			بيروت :
+		</subfield>
+		<subfield code="b">
+			مطبعة الريحاني،
+		</subfield>
+		<subfield code="c">
+			1936.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

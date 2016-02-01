@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02117nam a2200385   4500
+		02385nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		001684918
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1964    iq      o     000 0 arar 
+		160201s1964    iq      o     000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -34,20 +37,12 @@
 			a-iq---
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-		<subfield code="c">
-			(4
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			GT3080
 		</subfield>
 		<subfield code="b">
-			.H3
+			.H3 1964
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
@@ -55,7 +50,7 @@
 			880-01
 		</subfield>
 		<subfield code="a">
-			Ḥanafī, Jalāl.
+			Ḥanafī, Jalāl.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
@@ -63,16 +58,13 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			al-Aymān al-Baghdādīyah
-		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+			al-Aymān al-Baghdādīyah :
 		</subfield>
 		<subfield code="b">
-			maʻa malāḥiq bi-al-aymān al-Ḥillīyah wa-al-Mawṣilīyah wa-al-ʻImārīyah wa-al-Hītīyah wa-al-Sāmarrāʼīyah wa-al-Karbalāʼīyah wa-al-Nāṣirīyah /
+			maʻa malāḥiq bi-al-aymān al-Ḥillīyah wa-al-Mawṣilīyah wa-al-ʻImārīyah wa-al-Hītīyah wa-al-Sāmarrāʼīyah wa-al-Karbalāʼīyah wa-al-Nāṣirīyah /
 		</subfield>
 		<subfield code="c">
-			taṣnīf Jalāl al-Ḥanafī ; qaddama la-hu wa-ʻallaqa ʻalayhi ʻAbd al-Ḥamīd al-ʻAlwajī.
+			taṣnīf Jalāl al-Ḥanafī ; qaddama la-hu wa-ʻallaqa ʻalayhi ʻAbd al-Ḥamīd al-ʻAlwajī.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="5" tag="246">
@@ -85,10 +77,10 @@
 			880-03
 		</subfield>
 		<subfield code="a">
-			[Baghdād] :
+			[Baghdād] :
 		</subfield>
 		<subfield code="b">
-			Maktabat al-Nahḍah,
+			Maktabat al-Nahḍah,
 		</subfield>
 		<subfield code="c">
 			[1964]
@@ -96,12 +88,36 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (174 p.)
+			online resource (174 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			Title on added t.p.: Baghdad oaths, by Jalal al-Hanafī.
+			Title on added t.p.: Baghdad oaths, by Jalal al-Hanafī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -142,12 +158,48 @@
 			Oaths (Islamic law)
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Oaths.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01042646
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Oaths (Islamic law)
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01042656
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Iraq
+		</subfield>
+		<subfield code="z">
+			Baghdad.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01207444
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
 			880-04
 		</subfield>
 		<subfield code="a">
-			ʻAlwachī, ʻAbd al-Ḥamīd.
+			ʻAlwachī, ʻAbd al-Ḥamīd.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -168,10 +220,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ḥanafī, Jalāl.
+			Ḥanafī, Jalāl.
 		</subfield>
 		<subfield code="t">
-			al-Aymān al-Baghdādīyah
+			al-Aymān al-Baghdādīyah
 		</subfield>
 		<subfield code="w">
 			(NNU)001684918
@@ -226,7 +278,7 @@
 			700-04/
 		</subfield>
 		<subfield code="a">
-			علو�ي، عبد الحميد.
+			علوچي، عبد الحميد.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -257,7 +309,7 @@
 			nyu_aco001528
 		</subfield>
 		<subfield code="e">
-			(ERROR-880)(ERROR-MISC)
+			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

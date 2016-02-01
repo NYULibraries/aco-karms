@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01589nam a2200373   4500
+		02026nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		001467783
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1954    ua ac   o     000 0 arar 
+		160201s1954    ua ac   o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,34 +25,24 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">
-			ma-----
+			aw-----
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			Z843
 		</subfield>
 		<subfield code="b">
-			.K3
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">
-			Z843
-		</subfield>
-		<subfield code="b">
-			.K3
+			.K3 1954
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
@@ -60,7 +50,7 @@
 			880-01
 		</subfield>
 		<subfield code="a">
-			Kāẓim, Midḥat ʻĀdil.
+			Kāẓim, Midḥat.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
@@ -68,21 +58,15 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			Dalīl al-maktabāt
-		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+			Dalīl al-maktabāt /
 		</subfield>
 		<subfield code="c">
-			waḍʻ Midḥat Kāẓim.
+			waḍʻ Midḥat Kāẓim.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="246">
-		<subfield code="i">
-			Title on p. [4]of cover:
-		</subfield>
+	<datafield ind1="3" ind2=" " tag="246">
 		<subfield code="a">
-			Library directory with special reference to the Middle East
+			Library directory, with special reference to the Middle East
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
@@ -90,7 +74,7 @@
 			880-03
 		</subfield>
 		<subfield code="a">
-			al-Ṭabʻah 1.
+			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
@@ -98,10 +82,10 @@
 			880-04
 		</subfield>
 		<subfield code="a">
-			[Cairo] :
+			[al-Qāhirah] :
 		</subfield>
 		<subfield code="b">
-			Maktabat al-Ṣabāḥ al-Jadīdah,
+			Maktabat al-Ṣabāḥ al-Jadīdah,
 		</subfield>
 		<subfield code="c">
 			1954.
@@ -109,10 +93,39 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (187 p.) :
+			online resource (187 pages) :
 		</subfield>
 		<subfield code="b">
-			ill., ports.
+			illustrations, portraits
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">
+			Cover title: Library directory, with special reference to the Middle East by Medhat Kazem.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -145,6 +158,28 @@
 			Middle East.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Libraries.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00997341
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Middle East.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01241586
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -160,16 +195,36 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Kāẓim, Midḥat.
+		</subfield>
+		<subfield code="t">
+			Dalīl al-maktabāt.
+		</subfield>
+		<subfield code="d">
+			[al-Qāhirah] Maktabat al-Ṣabāḥ al-Jadīdah, 1954
+		</subfield>
+		<subfield code="w">
+			(OCoLC)639408219
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Kāẓim, Midḥat ʻĀdil.
+			Kāẓim, Midḥat.
 		</subfield>
 		<subfield code="t">
-			Dalīl al-maktabāt
+			Dalīl al-maktabāt
 		</subfield>
 		<subfield code="w">
 			(NNU)001467783
+		</subfield>
+		<subfield code="w">
+			(DLC)   60024018
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
@@ -209,13 +264,13 @@
 			260-04/
 		</subfield>
 		<subfield code="a">
-			[Cairo] :
+			[القاهرة] :
 		</subfield>
 		<subfield code="b">
 			مكتبة الصباح الجديدة،
 		</subfield>
 		<subfield code="c">
-			١٩٥٤.
+			1954.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
