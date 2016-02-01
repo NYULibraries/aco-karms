@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01173nam a2200277   4500
+		01946nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		001700854
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1938    ua      o     000 0 ara d
+		160201s1938    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,32 +25,60 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">
-			Ghālī, Mirrīt Buṭrus.
+			f-ua---
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			DT107.82
+		</subfield>
+		<subfield code="b">
+			.G45 1938
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Boutros-Ghali, Boutros,
+		</subfield>
+		<subfield code="d">
+			1922-
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Siyāsat al-ghad
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="a">
+			Siyāsat al-ghad :
 		</subfield>
 		<subfield code="b">
-			barnāmaj siyāsī wa-iqtiṣādī wa-ijtimāʹī.
+			barnāmaj siyāsī wa-iqtiṣādī wa-ijtimāʻī /
+		</subfield>
+		<subfield code="c">
+			Mirrīt bik Bụtrus Ghālī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Cairo,
+			al-Qāhirah :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʹat al-risalah,
+			Maṭbaʻat al-risalah,
 		</subfield>
 		<subfield code="c">
 			1938.
@@ -58,7 +86,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (173 p.)
+			online resource (173 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -91,7 +143,7 @@
 			Politics and government
 		</subfield>
 		<subfield code="y">
-			1919-1952.
+			1919-
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
@@ -102,7 +154,7 @@
 			Economic conditions
 		</subfield>
 		<subfield code="y">
-			1919-1952.
+			1918-
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
@@ -111,6 +163,58 @@
 		</subfield>
 		<subfield code="x">
 			Social conditions.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Economic history.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00901974
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Politics and government.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01919741
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Social conditions.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01919811
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Egypt.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01208755
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="648">
+		<subfield code="a">
+			Since 1918.
+		</subfield>
+		<subfield code="2">
+			fast
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -131,10 +235,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ghālī, Mirrīt Buṭrus.
+			Boutros-Ghali, Boutros, 1922-
 		</subfield>
 		<subfield code="t">
-			Siyāsat al-ghad
+			Siyāsat al-ghad
 		</subfield>
 		<subfield code="w">
 			(NNU)001700854
@@ -143,6 +247,45 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/tx95x9g6
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			بطرس- غالى، بطرس،,
+		</subfield>
+		<subfield code="d">
+			1922-
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			سياسة الغد :
+		</subfield>
+		<subfield code="b">
+			برنامج سياسى واقتصادى واجتماعى /
+		</subfield>
+		<subfield code="c">
+			مريت بك بطرس غالى.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			مطبعة الرسالة،
+		</subfield>
+		<subfield code="c">
+			1938.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -171,9 +314,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001471
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

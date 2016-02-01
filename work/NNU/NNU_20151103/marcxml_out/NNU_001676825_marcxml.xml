@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02286nam a2200397   4500
+		02892nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		001676825
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105r19731924ir      ob    000 0 arar 
+		160201s1973    ir      ob    000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,24 +25,14 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="050">
-		<subfield code="a">
-			B430A8
-		</subfield>
-		<subfield code="b">
-			A7
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
 		<subfield code="a">
 			B430.A8
 		</subfield>
@@ -71,18 +61,10 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			ʻIlm al-akhlāq ilá Nīqūmākhūs
-		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+			ʻIlm al-akhlāq ilá Nīqūmākhūs /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Arisṭūṭālīs ; tarjamahu min al-Yūnānīyah ilá al-Faransīyah wa ṣaddarahu bi-muqaddimah mumtiʻah fī ʻilm al-akhlāq wa-taṭawwurātihi wa-ʻallaqa ʻalayhi taʻlīqāt tafsīrīyah Bārtalamī Sāntihlīr ; wa-naqalah ilá al-ʻArabīyah Aḥmad Luṭfī al-Sayyid.
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2="5" tag="246">
-		<subfield code="a">
-			Science of ethics
+			taʼlīf Aristūtālīs ; tarjamah min al-yūnānīyah ilá al-faransīyah wa saddarah bi-muqaddimah mumattaʻah fī ʻilm al-akhlāq wa-taṭawurātuh wa-ʻallaq ʻalayha taʻlīqāt tafsīrīyah Bārtalamy Sāntihlyr ; wa-naqalah ilá al-ʻarabīyah Aḥmad Luṭfī al-Sayyid.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
@@ -90,10 +72,10 @@
 			880-03
 		</subfield>
 		<subfield code="a">
-			Tihrān :
+			Teherān :
 		</subfield>
 		<subfield code="b">
-			Intishārāt-i Āftāb,
+			Intishārāt-i Āftāb,
 		</subfield>
 		<subfield code="c">
 			[1973]
@@ -101,7 +83,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (2 v.)
+			online resource (2 volumes)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -111,7 +117,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			Reprint of the 1924 ed. published by Maṭbaʻat Dār al-Kutub al-Miṣrīyah, Cairo.
+			Reprint of the 1924 ed. published by Maṭbaʻat Dār al-Kutub al-Miṣrīyah, Cairo.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -146,7 +152,21 @@
 			Ethics.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Ethics.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00915833
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Barthélemy Saint-Hilaire, J.
 		</subfield>
@@ -154,7 +174,10 @@
 			(Jules),
 		</subfield>
 		<subfield code="d">
-			1805-1895.
+			1805-1895,
+		</subfield>
+		<subfield code="e">
+			editor.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -170,6 +193,51 @@
 			Arabic Collections Online.
 		</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="a">
+			Science of ethics.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Aristotle.
+		</subfield>
+		<subfield code="s">
+			Nicomachean ethics Arabic.
+		</subfield>
+		<subfield code="t">
+			ʻIlm al-akhlāq ilá Nīqūmākhūs.
+		</subfield>
+		<subfield code="d">
+			Teherān : Intishārāt-i Āftāb, [1973]
+		</subfield>
+		<subfield code="w">
+			(OCoLC)607567581
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Aristotle.
+		</subfield>
+		<subfield code="s">
+			Nicomachean ethics Arabic.
+		</subfield>
+		<subfield code="t">
+			ʻIlm al-akhlāq ilá Nīqūmākhūs.
+		</subfield>
+		<subfield code="d">
+			Teherān : Intishārāt-i Āftāb, [1973]
+		</subfield>
+		<subfield code="w">
+			(OCoLC)608241253
+		</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
 			Print version:
@@ -178,13 +246,13 @@
 			Aristotle.
 		</subfield>
 		<subfield code="t">
-			ʻIlm al-akhlāq ilá Nīqūmākhūs
+			ʻIlm al-akhlāq ilá Nīqūmākhūs
 		</subfield>
 		<subfield code="w">
 			(NNU)001676825
 		</subfield>
 		<subfield code="w">
-			(DLC)74960397
+			(DLC)   74960397
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
@@ -205,10 +273,10 @@
 			245-02/
 		</subfield>
 		<subfield code="a">
-			علم الأخلاق إلى نيقوماخوس /
+			علم الاخلاق الى نيقوماخوس /
 		</subfield>
 		<subfield code="c">
-			تأليف أرسطوطاليس ؛ ترجمه من اليونانية إلى الفرنسية وصدره بمقدمة ممتعة في علم الأخلاق وتطوراته وعلق عليه تعليقات تفسيرية بارتلمي سانتهلير ؛ ونقله إلى العربية أحمد لطفي السيد.
+			تأليف ارسطوطاليس.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
@@ -219,10 +287,26 @@
 			تهران :
 		</subfield>
 		<subfield code="b">
-			انتشارات ٱفتاب،
+			انتشاراتا آفتاب،
 		</subfield>
 		<subfield code="c">
 			[1973]
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			500-00/
+		</subfield>
+		<subfield code="a">
+			&quot;ترجمة من اليونانية الى الفرنسية و صدرة بمقدمة ممتعة في علم الاخلاق وتطوراته وعلق عليه تعليقات تفسيرية بارتلمي سانتهلير ؛ ونقلة الى العربية احمد لطفي السيد.&quot;
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/
+		</subfield>
+		<subfield code="a">
+			بارتلمي سانتهلير.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

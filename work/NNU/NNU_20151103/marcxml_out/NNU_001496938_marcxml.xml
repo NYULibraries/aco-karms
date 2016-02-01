@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02842nam a2200457   4500
+		03258nam a2200481   4500
 	</leader>
 	<controlfield tag="001">
 		001496938
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1941    mr      o     001 0 ara  
+		160201s1941    mr      od    000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,37 +25,19 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="041">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			ara
-		</subfield>
-		<subfield code="a">
-			fre
-		</subfield>
-	</datafield>
-	<datafield ind1="0" ind2="0" tag="050">
-		<subfield code="a">
-			MLCMN 97/945
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-		<subfield code="c">
-			(4
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">
-			R128.3
+			R128.3.R336
 		</subfield>
 		<subfield code="b">
-			.R3363 1941
+			I25 1941
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
@@ -63,7 +45,7 @@
 			880-01
 		</subfield>
 		<subfield code="a">
-			Ibn al-Ḥashshāʼ, Aḥmad ibn Muḥammad.
+			Ibn al-Ḥashshāʼ, Aḥmad ibn Muḥammad.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
@@ -71,16 +53,13 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			Mufīd al-ʻulūm wa-mubīd al-humūm
-		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+			Mufīd al-ʻulūm wa-mubīd al-humūm :
 		</subfield>
 		<subfield code="b">
-			wa-huwa tafsīr al-alfāẓ al-ṭibbīyah wa-al-lughawīyah al-wāqiʻah fī al-Kitāb al-Manṣūrī lil-Rāzī /
+			wa-huwa tafsīr al-alfāẓ al-ṭibbīyah wa-al-lughawīyah al-wāqiʻah fī al-Kitāb al-Manṣūrī lil-Rāzī /
 		</subfield>
 		<subfield code="c">
-			Ibn al-Ḥashshāʼ ; nasharāhu wa-ṣaḥḥaḥāhu ʻan baʻḍ al-nusakh al-makhṭūṭah, Jūrj S. Kūlān wa-H.B.J. Rinū.
+			Ibn al-Ḥashshāʼ ; nasharāh wa-ṣaḥḥaḥāh ʻan baʻḍ al-nusakh al-makhṭūṭah Jūrj S. Kūlān wa-H.B.J. Rinū.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="5" tag="246">
@@ -93,10 +72,10 @@
 			880-03
 		</subfield>
 		<subfield code="a">
-			Rabāṭ :
+			[Rabat] :
 		</subfield>
 		<subfield code="b">
-			Maʻhad al-ʻUlūm al-ʻUlyá al-Maghribīyah,
+			Maʻhad al-ʻUlūm al-ʻUlyá al-Maghribīyah,
 		</subfield>
 		<subfield code="c">
 			1941.
@@ -104,7 +83,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (162, p.)
+			online resource (162, pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
@@ -112,15 +115,10 @@
 			880-04
 		</subfield>
 		<subfield code="a">
-			Maṭbūʻāt Maʻhad al-ʻUlūm al-ʻUlyā al-Maghribīyah ;
+			Maṭbūʻāt Maʻhad al-ʻUlūm al-ʻUlyā al-Maghribīyah ;
 		</subfield>
 		<subfield code="v">
 			al-juzʼ 11
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Intro. in French.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -146,33 +144,47 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Rāzī, Abū Bakr Muḥammad ibn Zakarīyā,
+			Rāzī, Abū Bakr Muḥammad ibn Zakarīyā,
 		</subfield>
 		<subfield code="d">
 			865?-925?
 		</subfield>
 		<subfield code="t">
-			Kitāb al-Manṣūrī.
+			Kitāb al-Manṣūrī.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">
-			880-05
-		</subfield>
+	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">
-			Colin, G. S.
+			Medicine, Arab
 		</subfield>
-		<subfield code="q">
-			(Georges Séraphin),
+		<subfield code="v">
+			Dictionaries
 		</subfield>
-		<subfield code="d">
-			b. 1893.
+		<subfield code="v">
+			Early works to 1800.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
 			880-06
+		</subfield>
+		<subfield code="a">
+			Colin, G. S.
+		</subfield>
+		<subfield code="q">
+			(Georges Séraphin),
+		</subfield>
+		<subfield code="d">
+			1893-1977.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-07
 		</subfield>
 		<subfield code="a">
 			Renaud, Henri-Paul-Joseph,
@@ -196,19 +208,36 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Ibn al-Ḥashshāʼ, Aḥmad ibn Muḥammad.
+		</subfield>
+		<subfield code="t">
+			Mufīd al-ʻulūm wa-mubīd al-humūm.
+		</subfield>
+		<subfield code="d">
+			[Rabat] : Maʻhad al-ʻUlūm al-ʻUlyá al-Maghribīyah, 1941
+		</subfield>
+		<subfield code="w">
+			(OCoLC)680648303
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ibn al-Ḥashshāʼ, Aḥmad ibn Muḥammad.
+			Ibn al-Ḥashshāʼ, Aḥmad ibn Muḥammad.
 		</subfield>
 		<subfield code="t">
-			Mufīd al-ʻulūm wa-mubīd al-humūm
+			Mufīd al-ʻulūm wa-mubīd al-humūm
 		</subfield>
 		<subfield code="w">
 			(NNU)001496938
 		</subfield>
 		<subfield code="w">
-			(DLC)89968294
+			(DLC)   89968294
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
@@ -235,7 +264,7 @@
 			وهو تفسير الالفاظ الطبية واللغوية الواقعة في الكتاب المنصوري للرازي /
 		</subfield>
 		<subfield code="c">
-			ابن الحشاء ؛ نشراه وصححاه عن ��ْ إ�ٰ�� إ�:�وُ،ٍُ جوجَ �. كو�إٰ و�. �. ج. َٰو.
+			ابن الحشاء ؛ نشراه وصححاه عن چورجس. كولان و ه.ب.ج.رنو.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
@@ -263,12 +292,18 @@
 			الجزء ١١
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
+	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			700-05/
+			600-05/
 		</subfield>
 		<subfield code="a">
-			كولانو جوجَ �.
+			رازي، ابو بكر محمد بن زكريا،
+		</subfield>
+		<subfield code="d">
+			865?-925?
+		</subfield>
+		<subfield code="t">
+			كتاب المنصوري.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
@@ -276,15 +311,29 @@
 			700-06/
 		</subfield>
 		<subfield code="a">
-			َٰو، �. �. ج.
+			كولان، جورج،
+		</subfield>
+		<subfield code="d">
+			1893-1977.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-07/
+		</subfield>
+		<subfield code="a">
+			رناود، هنري بول جوسيف،
+		</subfield>
+		<subfield code="d">
+			1881-1945.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
 		<subfield code="6">
-			880-07
+			880-08
 		</subfield>
 		<subfield code="a">
-			Maṭbūʻāt Maʻhad al-ʻUlūm al-ʻUlyā al-Maghribīyah ;
+			Maṭbūʻāt Maʻhad al-ʻUlūm al-ʻUlyā al-Maghribīyah ;
 		</subfield>
 		<subfield code="v">
 			al-juzʼ 11.
@@ -292,13 +341,13 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
 		<subfield code="6">
-			830-07/
+			830-08/
 		</subfield>
 		<subfield code="a">
-			مطبوعات معهد العلوم العليا المغربية ؛
+			مطبوعات معهد العلوم العليا المغربية ;
 		</subfield>
 		<subfield code="v">
-			الجزء ١١
+			الجزء ١١.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -329,7 +378,7 @@
 			nyu_aco001574
 		</subfield>
 		<subfield code="e">
-			(ERROR-880)(ERROR-MISC)
+			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

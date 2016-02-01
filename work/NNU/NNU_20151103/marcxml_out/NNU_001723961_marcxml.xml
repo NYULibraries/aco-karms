@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01463nam a2200325   4500
+		01604nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		001723961
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19551961iq      o     000 0 ara d
+		160201m19551961iq      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -34,23 +37,7 @@
 			BJ1291
 		</subfield>
 		<subfield code="b">
-			.Q26
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-		<subfield code="c">
-			(4
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">
-			BJ1291
-		</subfield>
-		<subfield code="b">
-			.Q26
+			.Q26 1955
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
@@ -58,7 +45,7 @@
 			880-01
 		</subfield>
 		<subfield code="a">
-			Qubānchī, Ḥasan al-Sayyid ʻAlī.
+			al-Qabānjī, Ḥasan ʻAlī.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
@@ -66,13 +53,7 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			al-Jawāhir al-rūḥīyah
-		</subfield>
-		<subfield code="h">
-			[electronic resource] /
-		</subfield>
-		<subfield code="c">
-			taʼlīf Ḥasan al-Sayyid ʻAlī al-Qubānjī.
+			al-Jawāhir al-rūḥīyah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
@@ -83,7 +64,7 @@
 			al-Najaf :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat al-Najaf,
+			Maṭbaʻat al-Najaf,
 		</subfield>
 		<subfield code="c">
 			1955-1961.
@@ -91,7 +72,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (3 v.)
+			online resource (3 volumes)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -118,7 +123,40 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">
-			Islamic ethics.
+			Islam.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Islam
+		</subfield>
+		<subfield code="x">
+			Customs and practices.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Islam.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00979776
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Islam
+		</subfield>
+		<subfield code="x">
+			Customs and practices.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00979785
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -139,10 +177,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Qubānchī, Ḥasan al-Sayyid ʻAlī.
+			al-Qabānjī, Ḥasan ʻAlī.
 		</subfield>
 		<subfield code="t">
-			al-Jawāhir al-rūḥīyah
+			al-Jawāhir al-rūḥīyah
 		</subfield>
 		<subfield code="w">
 			(NNU)001723961
@@ -158,7 +196,7 @@
 			100-01/
 		</subfield>
 		<subfield code="a">
-			قبا�ى، حسن السيد على.
+			قباچى، حسن السيد على.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
@@ -212,9 +250,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001628:v.1
-		</subfield>
-		<subfield code="e">
-			(ERROR-MISC)
 		</subfield>
 	</datafield>
 </record>

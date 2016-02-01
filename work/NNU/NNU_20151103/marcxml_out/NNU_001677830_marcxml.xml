@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01207nam a2200265   4500
+		01934nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		001677830
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1948    ua      ob    000 0 ara d
+		160201s1948    ua      ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,35 +25,57 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">
+			ma-----
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			DS63
+		</subfield>
+		<subfield code="b">
+			.G43 1948
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ghālī, Kamāl.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Mīthāq Jāmiʻat al-Duwal al-ʻArabīyah
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="a">
+			Mīthāq Jamiʻat al-Duwal al-ʻArabīyah :
 		</subfield>
 		<subfield code="b">
-			dirāsah taḥlīlīyah muqāranah fī al-qānūn al-dawlī /
+			dirāsah taḥlīlīyah muqārinah fī al-qānūn al-dawlī /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Kamāl al-Ghālī.
+			taʼlīf Doktōr Kamāl al-Ghālī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Fajjālah :
+			[al-Qāhirah] :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat Nahḍat Miṣr,
+			Maṭbaʻat Nahḍat Miṣr,
 		</subfield>
 		<subfield code="c">
 			1948.
@@ -61,7 +83,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (270 p.)
+			online resource (270, [2] pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -71,7 +117,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Includes bibliographical references (p. 263-267).
+			Includes bibliographical references (pages 263-267).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -93,7 +139,40 @@
 	</datafield>
 	<datafield ind1="2" ind2="0" tag="610">
 		<subfield code="a">
+			League of Arab States
+		</subfield>
+		<subfield code="v">
+			Charters.
+		</subfield>
+	</datafield>
+	<datafield ind1="2" ind2="4" tag="610">
+		<subfield code="a">
+			League of Arab States
+		</subfield>
+		<subfield code="x">
+			Charter.
+		</subfield>
+	</datafield>
+	<datafield ind1="2" ind2="7" tag="610">
+		<subfield code="a">
 			League of Arab States.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00540088
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Charters and articles of incorporation.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01774239
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -117,7 +196,7 @@
 			Ghālī, Kamāl.
 		</subfield>
 		<subfield code="t">
-			Mīthāq Jāmiʻat al-Duwal al-ʻArabīyah
+			Mīthāq Jamiʻat al-Duwal al-ʻArabīyah
 		</subfield>
 		<subfield code="w">
 			(NNU)001677830
@@ -126,6 +205,42 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/k98sfbs2
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			غالي، كمال.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			ميثاق جامعة الدول العربية :
+		</subfield>
+		<subfield code="b">
+			دراسة تحليلية مقارنة في القانون الدولي /
+		</subfield>
+		<subfield code="c">
+			تأليف دكتور كمال الغالي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			[القاهرة] :
+		</subfield>
+		<subfield code="b">
+			مطبعة نهضة مصر،
+		</subfield>
+		<subfield code="c">
+			1948.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -154,9 +269,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001458
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

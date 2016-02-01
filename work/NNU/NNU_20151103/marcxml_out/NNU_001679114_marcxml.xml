@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01331nam a2200277   4500
+		02525nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		001679114
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1965    iq      o     000 0 ara  
+		160201s1965    iq      o     000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,35 +25,54 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">
-			Sāmarrāʼī, Yūnus Ibrāhīm,
+			a-iq---
 		</subfield>
-		<subfield code="d">
-			1934-
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			GV1204.81.I6
+		</subfield>
+		<subfield code="b">
+			S18 1965
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Sāmarrāʼī, Yūnus Ibrāhīm.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Alʻāb al-shaʻbīyah li-ṣibyān Sāmarrāʼ
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			al-Alʻāb al-shaʻbīyah li-ṣibyān Sāmarrāʼ /
 		</subfield>
 		<subfield code="c">
-			[taʼlīf] Yūnus Ibrāhīm al-Sāmarrāʼī.
+			Yūnus al-Shaykh Ibrāhīm al-Sāmarrāʼī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[Baghdad] :
+			Baghdād :
 		</subfield>
 		<subfield code="b">
-			Mudīrīyat al-Funūn wa-al-Thaqāfah al-Shaʻbīyah fī Wizārat a-Thaqāfah wa-al-Irshād,
+			Wizārat al-Thaqāfah wa-al-Irshād, Mudirīyat al-Funūn wa-al-Thaqāfah al-Shaʻbīyah,
 		</subfield>
 		<subfield code="c">
 			1965.
@@ -61,12 +80,39 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (64 p.)
+			online resource (64 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Silsilah al-thaqāfīyah ;
+			Silsilah al-thaqāfīyah ;
 		</subfield>
 		<subfield code="v">
 			9
@@ -102,7 +148,51 @@
 			Iraq
 		</subfield>
 		<subfield code="z">
-			Sāmarrāʼ.
+			Sāmarrāʼ.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="a">
+			Sāmarrāʼ (Iraq)
+		</subfield>
+		<subfield code="x">
+			Social life and customs.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Games.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00937529
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Manners and customs.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01007815
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Iraq
+		</subfield>
+		<subfield code="z">
+			Sāmarrāʼ
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01236860
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -120,13 +210,30 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Sāmarrāʼī, Yūnus Ibrāhīm.
+		</subfield>
+		<subfield code="t">
+			Alʻāb al-shaʻbīyah li-ṣibyān Sāmarrāʼ.
+		</subfield>
+		<subfield code="d">
+			Baghdād : Wizārat al-Thaqāfah wa-al-Irshād, Mudirīyat al-Funūn wa-al-Thaqāfah al-Shaʻbīyah, 1965
+		</subfield>
+		<subfield code="w">
+			(OCoLC)551269964
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Sāmarrāʼī, Yūnus Ibrāhīm, 1934-
+			Sāmarrāʼī, Yūnus Ibrāhīm.
 		</subfield>
 		<subfield code="t">
-			al-Alʻāb al-shaʻbīyah li-ṣibyān Sāmarrāʼ
+			al-Alʻāb al-shaʻbīyah li-ṣibyān Sāmarrāʼ
 		</subfield>
 		<subfield code="w">
 			(NNU)001679114
@@ -135,17 +242,75 @@
 			(DLC)ne 66000541
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="830">
+	<datafield ind1="4" ind2="0" tag="856">
+		<subfield code="u">
+			http://hdl.handle.net/2333.1/4tmpg7gn
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
 		<subfield code="a">
-			Silsilah al-thaqāfīyah ;
+			سامرائي، يونس ابراهيم.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			الالعاب الشعبية لصبيان سامراء /
+		</subfield>
+		<subfield code="c">
+			يونس الشيخ ابراهيم السامرائي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			وزارة الثقافة والارشاد، مدرية الفنون والثقافة الشعبية،
+		</subfield>
+		<subfield code="c">
+			1965.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-04/
+		</subfield>
+		<subfield code="a">
+			سلسلة الثقافية ؛
+		</subfield>
+		<subfield code="v">
+			9
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Silsilah al-thaqāfīyah ; )Iraq) ;
 		</subfield>
 		<subfield code="v">
 			9.
 		</subfield>
 	</datafield>
-	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">
-			http://hdl.handle.net/2333.1/4tmpg7gn
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-05/
+		</subfield>
+		<subfield code="a">
+			سلسلة الثقافية ؛ )العراق) ;
+		</subfield>
+		<subfield code="v">
+			9.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -174,9 +339,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001530
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

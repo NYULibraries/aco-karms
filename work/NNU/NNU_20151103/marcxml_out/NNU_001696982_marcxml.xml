@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01357nam a2200301   4500
+		01691nam a2200349   4500
 	</leader>
 	<controlfield tag="001">
 		001696982
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1915    ua a    o     000 0 ara d
+		160201s1915    ua a    o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,21 +25,19 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			DT107.7
 		</subfield>
 		<subfield code="b">
-			.Q8
+			.Q8 1915
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
@@ -55,21 +53,18 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			al-Laʼliʼ al-sanīyah fī al-tahānī fī al-sulṭānīyah
-		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+			al-Laʼliʼ al-sanīyah fī al-tahānī fī al-sulṭānīyah /
 		</subfield>
 		<subfield code="c">
-			waḍaʻahu Salīm Qubʻayn.
+			waḍaʻahu Salīm Qubʻayn.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="a">
-			[s.l. :
+			[Place of publication not identified] :
 		</subfield>
 		<subfield code="b">
-			s.n.,]
+			[publisher not identified],
 		</subfield>
 		<subfield code="c">
 			1915.
@@ -77,10 +72,34 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (120 p.) :
+			online resource (120 pages) :
 		</subfield>
 		<subfield code="b">
-			ill.
+			illustrations
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -106,14 +125,34 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Ḥusayn Kāmil,
+			Ḥusayn Kāmil,
 		</subfield>
 		<subfield code="c">
 			Sultan of Egypt,
 		</subfield>
 		<subfield code="d">
 			1853-1917.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="7" tag="600">
+		<subfield code="a">
+			Ḥusayn Kāmil,
+		</subfield>
+		<subfield code="c">
+			Sultan of Egypt,
+		</subfield>
+		<subfield code="d">
+			1853-1917.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01512017
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -137,7 +176,7 @@
 			Qubʻayn, Salīm.
 		</subfield>
 		<subfield code="t">
-			al-Laʼliʼ al-sanīyah fī al-tahānī fī al-sulṭānīyah
+			al-Laʼliʼ al-sanīyah fī al-tahānī fī al-sulṭānīyah
 		</subfield>
 		<subfield code="w">
 			(NNU)001696982
@@ -165,6 +204,20 @@
 		</subfield>
 		<subfield code="c">
 			وضعة سليم قبعين.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">
+			600-03/
+		</subfield>
+		<subfield code="a">
+			حسين كامل،
+		</subfield>
+		<subfield code="c">
+			Sultan of Egypt,
+		</subfield>
+		<subfield code="d">
+			1853-1917.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01720nam a2200349   4500
+		02646nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		001682424
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1945    ua      ob    000 0 ara  
+		160201s1945    ua      ob    000 0 araod
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,48 +25,95 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			ʻAbd al-Rāziq, Muṣṭafá,
+			DS38.4.A2
+		</subfield>
+		<subfield code="b">
+			A24 1945
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			ʻAbd al-Rāziq, Muṣṭafá,
 		</subfield>
 		<subfield code="d">
 			1886-1947.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Faylasūf al-ʻArab wa-al-Muʻallim al-Thānī
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Faylasūf al-ʻArab wa-al-muʻallim al-thānī /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Muṣṭafá ʻAbd al-Rāziq Bāshā.
+			taʼlīf Muṣṭafá ʻAbd al-Rāziq.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			[Cairo] :
 		</subfield>
 		<subfield code="b">
-			ʻĪsá al-Bābī al-Ḥalabī,
+			Dār Iḥyāʼ al-Kutub al-ʻArabīyah :
+		</subfield>
+		<subfield code="b">
+			ʻĪsá al-Bābī al-Ḥalabī,
 		</subfield>
 		<subfield code="c">
-			1945.
+			1364 [1945]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (127 p.)
+			online resource (127 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Muʼallafāt al-Jamʻīyah al-Falsafīyah al-Miṣrīyah
+			Muʼallafāt al-Jamʻīyah al-Falsafīyah al-Miṣrīyah
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -81,7 +128,7 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="505">
 		<subfield code="a">
-			Faylasūf al-ʻArab: al-Kindī.--al-Muʻallim al-Thānī: al-Farābī.--al-Shaʻir al-Ḥakīm: al-Mutanabbī.--Baṭalīmūs al-ʻArab: ibn al-Haytham.--Shaykh al-Islām: Ibn Taymīyah.
+			Faylasūf al-ʻArab: al-Kindī.--al-Muʻallim al-Thānī: al-Farābī.--al-Shaʻir al-Ḥakīm: al-Mutanabbī.--Baṭalīmūs al-ʻArab: ibn al-Haytham.--Shaykh al-Islām: Ibn Taymīyah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -102,11 +149,28 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Fārābī.
+			Kindī,
+		</subfield>
+		<subfield code="d">
+			-approximately 873.
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="0" tag="600">
+	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			Fārābī, Muḥammad ibn Muḥammad,
+		</subfield>
+		<subfield code="d">
+			874-950.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="600">
 		<subfield code="a">
 			Alhazen,
 		</subfield>
@@ -114,28 +178,12 @@
 			965-1039.
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="0" tag="600">
+	<datafield ind1="1" ind2="0" tag="600">
 		<subfield code="a">
-			Kindī,
+			ʼIbn Taymīyah, ʼAḥmad ibn ʻAbd ʼal-Ḥalīm,
 		</subfield>
 		<subfield code="d">
-			d. ca. 873.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="0" tag="651">
-		<subfield code="a">
-			Islamic Empire
-		</subfield>
-		<subfield code="v">
-			Biography.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">
-			Muslim scholars
-		</subfield>
-		<subfield code="v">
-			Biography.
+			1263-1328.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -156,26 +204,103 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			ʻAbd al-Rāziq, Muṣṭafá, 1886-1947.
+			ʻAbd al-Rāziq, Muṣṭafá, 1886-1947.
 		</subfield>
 		<subfield code="t">
-			Faylasūf al-ʻArab wa-al-Muʻallim al-Thānī
+			Faylasūf al-ʻArab wa-al-muʻallim al-thānī
 		</subfield>
 		<subfield code="w">
 			(NNU)001682424
-		</subfield>
-		<subfield code="w">
-			(DLC)75972685
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="a">
-			Muʼallafāt al-Jamʻīyah al-Falsafīyah al-Miṣrīyah.
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/x69p8h76
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			عبد الرازق، مصطفى،
+		</subfield>
+		<subfield code="d">
+			1886-1947.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			فيلسوف العرب والمعلم الثاني /
+		</subfield>
+		<subfield code="c">
+			تأليف مصطفى عبد الرازق.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			[القاهرة] :
+		</subfield>
+		<subfield code="b">
+			دار احياء الكتب العربية :
+		</subfield>
+		<subfield code="b">
+			عيسى البابي الحلبي،
+		</subfield>
+		<subfield code="c">
+			1364 [1945]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-04/
+		</subfield>
+		<subfield code="a">
+			مؤلفات الجمعية الفلسفية المصرية
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">
+			600-05/
+		</subfield>
+		<subfield code="a">
+			كندي،
+		</subfield>
+		<subfield code="d">
+			-approximately 873.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			600-06/
+		</subfield>
+		<subfield code="a">
+			فارابي، محمد بن محمد،
+		</subfield>
+		<subfield code="d">
+			874-950.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-07
+		</subfield>
+		<subfield code="a">
+			Muʼallafāt al-Jamʻīyah al-Falsafīyah al-Miṣrīyah.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-07/
+		</subfield>
+		<subfield code="a">
+			مؤلفات الجمعية الفلسفية المصرية.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -204,9 +329,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001461
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

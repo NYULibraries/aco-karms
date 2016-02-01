@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01401nam a2200301   4500
+		02202nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		001680220
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1968    iq      ob    000 0 ara d
+		160201s1968    iq      ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,35 +25,55 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			Āṣafī, Muḥammad Mahdī.
+			HQ32
+		</subfield>
+		<subfield code="b">
+			.A8 1968
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Āṣafī, Muḥammad Mahdī.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-ʻAlāqah al-jinsīyah fī al-Qurʼān al-karīm
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="a">
+			al-ʻAlāqah al-jinsīyah fī al-Qurʼān al-karīm :
 		</subfield>
 		<subfield code="b">
-			dirāsah li-qaḍāyā al-marʼah al-muʻāṣirah ʻalá ḍawʼ al-Qurʼān al-karīm /
+			dirāsah li-qaḍāyā al-marʼah al-muʻāṣirah ʻalá ḍawʼ al-Qurʼān al-karīm /
 		</subfield>
 		<subfield code="c">
-			Muḥammad Mahdī al-Āṣafī.
+			Muḥammad Mahdī al-Āṣafī.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="4" tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Naẓarīyat al-ʻalāqah al-jinsīyah fī al-Qurʼān al-karīm
+			Naẓarīyat al-ʻalāqah al-jinsīyah fī al-Qurʼān al-karīm
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			al-Najaf :
 		</subfield>
@@ -66,7 +86,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (280 p.)
+			online resource (280 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -111,6 +155,39 @@
 			Muslim women.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Marriage (Islamic law)
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01010549
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Muslim women.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01030996
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Sexual ethics.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01114835
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -129,10 +206,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Āṣafī, Muḥammad Mahdī.
+			Āṣafī, Muḥammad Mahdī.
 		</subfield>
 		<subfield code="t">
-			al-ʻAlāqah al-jinsīyah fī al-Qurʼān al-karīm
+			al-ʻAlāqah al-jinsīyah fī al-Qurʼān al-karīm
 		</subfield>
 		<subfield code="w">
 			(NNU)001680220
@@ -141,6 +218,50 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/2fqz644t
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			آصفي، محمد مهدي.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			العلاقة الجنسية في القرآن الكريم :
+		</subfield>
+		<subfield code="b">
+			دراسة لقضايا المرأة المعاصرة على ضوء القرآن الكريم /
+		</subfield>
+		<subfield code="c">
+			محمد مهدي الاصفي.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			246-03/
+		</subfield>
+		<subfield code="a">
+			نظرية العلاقة الجنسية في القرآن الكريم
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			النجف :
+		</subfield>
+		<subfield code="b">
+			مكتبة التربية،
+		</subfield>
+		<subfield code="c">
+			1968.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -169,9 +290,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001546
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

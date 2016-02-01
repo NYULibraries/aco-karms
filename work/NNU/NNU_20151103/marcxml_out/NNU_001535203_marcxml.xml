@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02129nam a2200397   4500
+		02554nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		001535203
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1955    le      o     000 0 ara d
+		160201s1955    le      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -34,20 +37,7 @@
 			QA32
 		</subfield>
 		<subfield code="b">
-			.A6
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">
-			QA32
-		</subfield>
-		<subfield code="b">
-			.A6
+			.A6 1955
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
@@ -63,24 +53,21 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			Iḥyāʼ al-jabr
-		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+			Iḥyāʼ al-jabr :
 		</subfield>
 		<subfield code="b">
-			dars li-kitāb al-Khuwārizmī fī al-Jabr wa-al-muqābalah /
+			dars li-kitāb al-Khuwārizmī fī al-Jabr wa-al-muqābalah /
 		</subfield>
 		<subfield code="c">
-			bi-qalam ʻĀdil Anbūbā.
+			bi-qalam ʻĀdil Anbūbā.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="246">
 		<subfield code="i">
-			Title on p. [4] of cover:
+			Title on page [4] of cover:
 		</subfield>
 		<subfield code="a">
-			Notes sur l'&quot;Algèbre&quot; d'al Ḫwasrizmī
+			Notes sur l'&quot;Algèbre&quot; d'al Ḫwasrizmī
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
@@ -88,10 +75,10 @@
 			880-03
 		</subfield>
 		<subfield code="a">
-			Bayrūt :
+			Bayrūt :
 		</subfield>
 		<subfield code="b">
-			al-Jāmiʻah al-Lubnānīyah,
+			al-Jāmiʻah al-Lubnānīyah,
 		</subfield>
 		<subfield code="c">
 			1955.
@@ -99,7 +86,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (28 p.)
+			online resource (28 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
@@ -107,7 +118,7 @@
 			880-04
 		</subfield>
 		<subfield code="a">
-			Manshūrāt al-Jāmiʻah al-Lubnānīyah. Qism al-Dirāsāt al-Riyāḍīyah ;
+			Manshūrāt al-Jāmiʻah al-Lubnānīyah. Qism al-Dirāsāt al-Riyāḍīyah ;
 		</subfield>
 		<subfield code="v">
 			1
@@ -142,16 +153,38 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
 		<subfield code="a">
-			Khuwārizmī, Muḥammad ibn Mūsá,
+			Khuwārizmī, Muḥammad ibn Mūsá,
 		</subfield>
 		<subfield code="d">
-			fl. 813-846.
+			active 813-846.
 		</subfield>
 		<subfield code="t">
-			Jabr wa-al-muqābalah.
+			Jabr wa-al-muqābalah.
 		</subfield>
 		<subfield code="l">
 			English &amp; Arabic.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="7" tag="630">
+		<subfield code="a">
+			Jabr wa-al-muqābalah (Khuwārizmī, Muḥammad ibn Mūsá)
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01392273
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Mathematics, Arab.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01012356
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -169,13 +202,30 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Anbūbā, ʻĀdil.
+		</subfield>
+		<subfield code="t">
+			Iḥyāʼ al-jabr.
+		</subfield>
+		<subfield code="d">
+			Bayrūt, Manshūrāt al-Jāmiʻah al-Lubnānīyah, 1955
+		</subfield>
+		<subfield code="w">
+			(OCoLC)558080859
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
 			Anbūbā, ʻĀdil.
 		</subfield>
 		<subfield code="t">
-			Iḥyāʼ al-jabr
+			Iḥyāʼ al-jabr
 		</subfield>
 		<subfield code="w">
 			(NNU)001535203
@@ -227,10 +277,7 @@
 			490-04/
 		</subfield>
 		<subfield code="a">
-			منشورات الجامعة اللبنانية.
-		</subfield>
-		<subfield code="p">
-			قسم الدراسات الرياضية ؛
+			منشورات الجامعة اللبنانية. قسم الدراسات الرياضية ؛
 		</subfield>
 		<subfield code="v">
 			١
@@ -241,10 +288,10 @@
 			880-05
 		</subfield>
 		<subfield code="a">
-			Manshūrāt al-Jāmiʻah al-Lubnānīyah.
+			Manshūrāt al-Jāmiʻah al-Lubnānīyah.
 		</subfield>
 		<subfield code="p">
-			Qism al-Dirāsāt al-Riyāḍīyah ;
+			Qism al-Dirāsāt al-Riyāḍīyah ;
 		</subfield>
 		<subfield code="v">
 			1.
@@ -258,10 +305,10 @@
 			منشورات الجامعة اللبنانية.
 		</subfield>
 		<subfield code="p">
-			قسم الدراسات الرياضية ؛
+			قسم الدراسات الرياضية ;
 		</subfield>
 		<subfield code="v">
-			١
+			١.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

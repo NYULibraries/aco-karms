@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01557nam a2200325   4500
+		03020nam a2200505   4500
 	</leader>
 	<controlfield tag="001">
 		001682365
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19671999ir h    ob    000 0 arar 
+		160201m19671972ir h    ob    000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,56 +25,105 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1="0" ind2="0" tag="050">
 		<subfield code="a">
-			Ṭūsī, Muḥammad ibn al-Ḥasan,
+			KBP370.T88
+		</subfield>
+		<subfield code="b">
+			A35 1967
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Ṭūsī, Muḥammad ibn al-Ḥasan,
 		</subfield>
 		<subfield code="d">
 			995-1067?
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Mabṣūt fī fiqh al-Imāmīyah
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			al-Mabsūt fī fiqh al-imāmīyah /
 		</subfield>
 		<subfield code="c">
-			ta'līf Abī Jaʻfar Muḥammad ibn al-Ḥasan ibn ʻAlī al-Ṭūsī ; ṣaḥaḥahu wa-ʻallaqa ʻalayhi Muḥammad Taqī al-Kashfī.
+			taʼlīf Abī Jaʻfar Muḥammad ibn al-Ḥasan ibn ʻAlī al-Ṭūsī ; ṣaḥḥaḥahu wa-ʻallaqa ʻalayhi Muḥammad Taqī al-Kashfī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Ṭabʻah 2.
+			al-Ṭabʻah 2.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Ṭahrān :
+			[Tehran] :
 		</subfield>
 		<subfield code="b">
-			al-Maktabah al-Murtaḍawīyah li-Iḥyā' al-Athār al-Jaʻfarīyah,
+			al-Maktabah al-Murtaḍawīyah li-Iḥyāʼ al-Āthār al-Jaʻfarīyah,
 		</subfield>
 		<subfield code="c">
-			[1387- i.e. 1967 or 8- ]
+			1387 (A.H.)-1351 (A.H.sh.) [1967 or 1968-1972 or 1973]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (v.) :
+			online resource (8 volumes) :
 		</subfield>
 		<subfield code="b">
-			facsim.
+			facsimiles
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			Vols. 3- edited by M.B. al-Bahbūdī.
+			Vols 3-8 edited by Muḥammad Bāqir al-Bahbūdī.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">
+			Printings vary: v. 4 al-Ṭabʻah 2; other vols. lack statement.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -84,7 +133,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Includes bibliograhical references.
+			Includes bibliographical references.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -106,22 +155,67 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">
-			Islamic law.
+			Islamic law
+		</subfield>
+		<subfield code="v">
+			Early works to 1800.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">
+			Shiites
+		</subfield>
+		<subfield code="v">
+			Early works to 1800.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Islamic law.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00979949
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
 			Shiites.
 		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01115976
+		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
+	<datafield ind1=" " ind2="7" tag="655">
 		<subfield code="a">
-			Kashfī, Muḥammad Taqī.
+			Early works.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411636
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Bihbūdī, Muhammad Bāqir.
+			Kashfī, Muḥammad Taqī.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			Bahbūdī, Muḥammad al-Bāqir.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -139,24 +233,104 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Ṭūsī, Muḥammad ibn al-Ḥasan, 995-1067?
+		</subfield>
+		<subfield code="t">
+			Mabsūt fī fiqh al-imāmīyah.
+		</subfield>
+		<subfield code="b">
+			Chāp-i 3.
+		</subfield>
+		<subfield code="d">
+			[Tehran] : al-Maktabah al-Murtaḍawīyah li-Iḥyāʼ al-Āthār al-Jaʻfarīyah, 1387 (A.H.)-1351 (A.H.sh.) [1967 or 1968-1972 or 1973]
+		</subfield>
+		<subfield code="w">
+			(OCoLC)595789067
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ṭūsī, Muḥammad ibn al-Ḥasan, 995-1067?
+			Ṭūsī, Muḥammad ibn al-Ḥasan, 995-1067?
 		</subfield>
 		<subfield code="t">
-			al-Mabṣūt fī fiqh al-Imāmīyah
+			al-Mabsūt fī fiqh al-imāmīyah
 		</subfield>
 		<subfield code="w">
 			(NNU)001682365
 		</subfield>
 		<subfield code="w">
-			(DLC)74219279
+			(DLC)   74219279
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/s4mw6qhh
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			طوسي، محمد بن الحسن،,
+		</subfield>
+		<subfield code="d">
+			995-1067?
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="3" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			المبسوط في فقه الامامية /
+		</subfield>
+		<subfield code="c">
+			تأليف ابي جعفر محمد بن الحسن بن علي الطوسي ؛ صححه وعلق عليه محمد تقي الكشفي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			الطبعة 2.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			[طهران] :
+		</subfield>
+		<subfield code="b">
+			المكتبة المرتضوية لاحياء الاثار الجعفرية،
+		</subfield>
+		<subfield code="c">
+			1387 (.هـ.)1351 (.هـ.ش.) [1967 او 1968-1972 او 1973]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/
+		</subfield>
+		<subfield code="a">
+			كشفي، محمد تقي.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-06/
+		</subfield>
+		<subfield code="a">
+			بهبودي، محمد الباقر.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -185,9 +359,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001662:v.1
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

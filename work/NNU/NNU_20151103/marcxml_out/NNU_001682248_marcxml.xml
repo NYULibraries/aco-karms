@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01342nam a2200301   4500
+		02512nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		001682248
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1966    iq c    o     000 0 araod
+		160201s1966    iq c    o     000 0dararc
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,8 +25,19 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			PJ7503.A12
+		</subfield>
+		<subfield code="b">
+			H5 1966
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="050">
@@ -38,27 +49,33 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Hilālī, ʻAbd al-Razzāq.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Udabāʹ al-muʹtamar
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Udabāʼ al-muʼtamar /
 		</subfield>
 		<subfield code="c">
-			jamaʻa mawādd al-Kitāb wa-rasaqa maʻlūmātih ʻAbd al-Razzāq al-Hilālī.
+			Jamaʻa muwād al-kitāb wa-masaqa maʻlūmātihi ʻAbd al-Razzāq al-Hilālī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Baghdād :
+			Baghdād :
 		</subfield>
 		<subfield code="b">
-			wizārat al-Thaqāfah wa-al-Irshād,
+			Wizārat al-Thaqāfah wa-al-Irshād, Mudīrīyat al-Thaqāfah al-ʻĀmmah,
 		</subfield>
 		<subfield code="c">
 			1966.
@@ -66,15 +83,45 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (206 p.) :
+			online resource (206 pages) :
 		</subfield>
 		<subfield code="b">
-			ports.
+			portraits
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
+	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">
-			In Arabic.
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Silsilat al-kutub al-ḥadīthah,
+		</subfield>
+		<subfield code="v">
+			12
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -112,6 +159,39 @@
 			Bio-bibliography.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Arabic literature.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00812478
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Authors, Arab.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00821793
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Bio-bibliography.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01423685
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -127,13 +207,30 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Hilālī, ʻAbd al-Razzāq.
+		</subfield>
+		<subfield code="t">
+			Udabāʼ al-muʼtamar.
+		</subfield>
+		<subfield code="d">
+			Baghdād, Wizārat al-Thaqāfah wa-al-Irshād, Mudīrīyat al-Thaqāfah al-ʻĀmmah, 1966
+		</subfield>
+		<subfield code="w">
+			(OCoLC)586592609
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
 			Hilālī, ʻAbd al-Razzāq.
 		</subfield>
 		<subfield code="t">
-			Udabāʹ al-muʹtamar
+			Udabāʼ al-muʼtamar
 		</subfield>
 		<subfield code="w">
 			(NNU)001682248
@@ -142,23 +239,87 @@
 			(DLC)ne 67001901
 		</subfield>
 	</datafield>
+	<datafield ind1="4" ind2="0" tag="856">
+		<subfield code="u">
+			http://hdl.handle.net/2333.1/05qftxgd
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			هلالي، عبد الرزاق.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			ادباء المؤتمر /
+		</subfield>
+		<subfield code="c">
+			جمع مواد الكتاب ومسق معلوماته عبد الرزاق الهلالي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			وزارة الثقافة والارشاد، مديرية الثقافة العامة،
+		</subfield>
+		<subfield code="c">
+			1966.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-04/
+		</subfield>
+		<subfield code="a">
+			سلسلة الكتب الحديثة،
+		</subfield>
+		<subfield code="v">
+			12
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="810">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Iraq.
 		</subfield>
 		<subfield code="b">
-			Wizārat al-Thaqāfah wa-al-Irshād.
+			Wizārat al-Thaqāfah wa-al-Irshād.
 		</subfield>
 		<subfield code="t">
-			Silsilat al-kutub al-ḥadīthah ;
+			Silsilat al-kutub al-ḥadīthah ;
 		</subfield>
 		<subfield code="v">
 			12.
 		</subfield>
 	</datafield>
-	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">
-			http://hdl.handle.net/2333.1/05qftxgd
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			810-05/
+		</subfield>
+		<subfield code="a">
+			العراق.
+		</subfield>
+		<subfield code="b">
+			وزارة الثقافة والارشاد.
+		</subfield>
+		<subfield code="t">
+			سلسلة الكتب الحديثة ؛
+		</subfield>
+		<subfield code="v">
+			12.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -187,9 +348,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001600
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

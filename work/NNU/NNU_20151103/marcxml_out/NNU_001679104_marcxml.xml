@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01693nam a2200301   4500
+		02906nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		001679104
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1939    ua b    o     000 0 ara d
+		160201s1939    ua b    o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,35 +25,52 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			Ziyādah, Muḥammad Muṣṭafá.
+			G370
+		</subfield>
+		<subfield code="b">
+			.I3 1939
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Ziyādah, Muḥammad Muṣṭafá.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Riḥlat Ibn Jubayr wa-Riḥlat Ibn Baṭṭūṭah
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="a">
+			Riḥlat Ibn Jubayr wa-Riḥlat Ibn Baṭṭūṭah :
 		</subfield>
 		<subfield code="b">
-			muḥāḍaratān ulqiyatā bi-Dār Maktab al-Tabādul al-Thaqāfī lil-Maghrib bi-Miṣr fī yawmay 12 wa 19 Māyū sanat 1939 /
+			muḥāḍaratān ulqiyatā bi-Dār Maktab al-Tabādul al-Thaqāfī lil-Maghrib bi-Miṣr fī yawmay 12 wa 19 Māyū sanat 1939 /
 		</subfield>
 		<subfield code="c">
-			li-Muḥammad Muṣṭafá Ziyādah.
+			li-Muḥammad Muṣṭafá Ziyādah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Qāhirah :
+			al-Qāhirah :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat Lajnat al-Taʼlīf wa-al-Tarjamah wa-al-Nashr,
+			Maṭbaʻat Lajnat al-Taʼlīf wa-al-Tarjamah wa-al-Nashr,
 		</subfield>
 		<subfield code="c">
 			1939.
@@ -61,10 +78,34 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (22, 22 p.) :
+			online resource (22, 22 pages) :
 		</subfield>
 		<subfield code="b">
 			maps
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -74,7 +115,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			At head of t.p.: al-Maʻhad al-Khalīfī lil-Abḥāth al-Maghribīyah. Bayt al-Maghrib.
+			At head of t.p.: al-Maʻhad al-Khalīfī lil-Abḥāth al-Maghribīyah. Bayt al-Maghrib.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -83,8 +124,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="505">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			pt. 1. Riḥlat Ibn Jubayr -- pt. 2. Riḥlat Ibn Baṭṭūṭah.
+			pt. 1. Riḥlat Ibn Jubayr -- pt. 2. Riḥlat Ibn Baṭṭūṭah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -105,6 +149,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Ibn Batuta,
 		</subfield>
@@ -112,18 +159,43 @@
 			1304-1377.
 		</subfield>
 		<subfield code="t">
-			Tuḥfat al-nuẓẓār fī gharāʼib al-amṣār wa-ʻajāʼib al-asfār.
+			Tuḥfat al-nuẓẓār fī gharāʼib al-amṣār wa-ʻajāʼib al-asfār.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
-			Ibn Jubayr, Muḥammad ibn Aḥmad,
+			Ibn Jubayr, Muḥammad ibn Aḥmad,
 		</subfield>
 		<subfield code="d">
 			1145-1217.
 		</subfield>
 		<subfield code="t">
-			Riḥlat Ibn Jubayr.
+			Riḥlat Ibn Jubayr.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="7" tag="630">
+		<subfield code="a">
+			Riḥlat ibn Jubayr (Ibn Jubayr, Muḥammad ibn Aḥmad)
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01377298
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="7" tag="630">
+		<subfield code="a">
+			Tuḥfat al-nuẓẓār fī gharāʼib al-amṣār wa-ʻajāʼib al-asfār (Ibn Batuta)
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01373851
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -144,10 +216,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ziyādah, Muḥammad Muṣṭafá.
+			Ziyādah, Muḥammad Muṣṭafá.
 		</subfield>
 		<subfield code="t">
-			Riḥlat Ibn Jubayr wa-Riḥlat Ibn Baṭṭūṭah
+			Riḥlat Ibn Jubayr wa-Riḥlat Ibn Baṭṭūṭah
 		</subfield>
 		<subfield code="w">
 			(NNU)001679104
@@ -156,6 +228,78 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/5qfttj1z
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			زيادة، محمد مصطفى.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			رحلة ابن جبير ورحلة ابن بطوطة :
+		</subfield>
+		<subfield code="b">
+			محاضرتان القيتا بدار مكتب التبادل الثقافي للمغرب بمصر في يومي 12 و 19 مايوا سنة 1939 /
+		</subfield>
+		<subfield code="c">
+			لمحمد مصطفى زيادة.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			مطبعة لجنة التأليف والترجمة والنشر،
+		</subfield>
+		<subfield code="c">
+			1939.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			505-04/
+		</subfield>
+		<subfield code="a">
+			پت. 1. رحلة ابن جبير پت. 2. رحلة ابن بطوطة.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">
+			600-05/
+		</subfield>
+		<subfield code="a">
+			ابن بطوطة،
+		</subfield>
+		<subfield code="d">
+			1304-1377.
+		</subfield>
+		<subfield code="t">
+			تحفة النظار في غرائب الامصار وعجائب الاسفار.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-06/
+		</subfield>
+		<subfield code="a">
+			ابن جبير، محمد بن احمد،
+		</subfield>
+		<subfield code="d">
+			1145-1217.
+		</subfield>
+		<subfield code="t">
+			رحلة ابن جبير.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -184,9 +328,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001516
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

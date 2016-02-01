@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01449nam a2200289   4500
+		02072nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		001682655
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1926    ua      ob    000 0 ara  
+		160201s1926    ua c    ob    000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,11 +25,14 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			HS126
 		</subfield>
@@ -38,38 +41,39 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			ʻInān, Muḥammad ʻAbd Allāh,
+			ʻInān, Muḥammad ʻAbd Allāh,
 		</subfield>
 		<subfield code="d">
 			1896-
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Tārīkh al-jamʻīyāt al-sirrīyah wa-al-ḥarakāt al-hudāmah
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="a">
+			Tārīkh al-jamʻīyāt al-sirrīyah wa-al-ḥarakāt al-haddāmah :
 		</subfield>
 		<subfield code="b">
-			mutaḍamminan siyaruhā, wa-naẓmuhā, wa-taʻālīmuhā, wa-wathbātuhā, muḥallan bi-al-ṣuwar al-tārīkhīyah /
+			mutaḍamminan siyaruhā, wa-naẓmuhā, wa-taʻālīmuhā, wa-wathbātuhā, muḥallan bi-al-ṣuwar al-tārīkhīyah /
 		</subfield>
 		<subfield code="c">
-			allifahu Muḥammad ʻAbd Allāh ʻInān.
-		</subfield>
-	</datafield>
-	<datafield ind1="3" ind2=" " tag="246">
-		<subfield code="a">
-			Jamʻīyāt al-sirrīyah
+			allafahu Muḥammad ʻAbd Allāh ʻInān.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Miṣr :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			Idārat al-Hilāl,
+			Idārat al-Hilāl,
 		</subfield>
 		<subfield code="c">
 			1926.
@@ -77,10 +81,34 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (223 p.) :
+			online resource (223 pages) :
 		</subfield>
 		<subfield code="b">
-			ports.
+			portraits
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -118,6 +146,28 @@
 			History.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Secret societies.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01110663
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			History.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411628
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -136,10 +186,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			ʻInān, Muḥammad ʻAbd Allāh, 1896-
+			ʻInān, Muḥammad ʻAbd Allāh, 1896-
 		</subfield>
 		<subfield code="t">
-			Tārīkh al-jamʻīyāt al-sirrīyah wa-al-ḥarakāt al-hudāmah
+			Tārīkh al-jamʻīyāt al-sirrīyah wa-al-ḥarakāt al-haddāmah
 		</subfield>
 		<subfield code="w">
 			(NNU)001682655
@@ -151,6 +201,45 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/9cnp5mt5
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			عنان، محمد عبد الله،
+		</subfield>
+		<subfield code="d">
+			1896-
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			تاريخ الجمعيات السرية والحركات الهدامة :
+		</subfield>
+		<subfield code="b">
+			متضمنا سيرها، ونظمها، وتعاليمها، ووثباتها، محلى بالصور التاريخية /
+		</subfield>
+		<subfield code="c">
+			الفه محمد عبد الله عنان.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			ادارة الهلال،
+		</subfield>
+		<subfield code="c">
+			1926.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -179,9 +268,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001547
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

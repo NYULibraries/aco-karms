@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01644nam a2200325   4500
+		02350nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		001682174
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1942    ua      o     000 0 ara d
+		160201s1942    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,40 +25,65 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="100">
+	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">
-			Aḥmad ʻĪsá.
+			ma-----
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			R134
+		</subfield>
+		<subfield code="b">
+			.A45 1942
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Aḥmad ʻĪsá.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Muʼjam al-ʼaṭibb⁻a
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="a">
+			Muʻjam al-aṭibbāʼ :
 		</subfield>
 		<subfield code="b">
-			min sanat 650 A.H. ʼil⁻a yawmin⁻a h⁻adh⁻a (dhayl ʼUy⁻un al-ʼanb⁻aʼ f⁻i tabaq⁻at al -ʼatibb⁻a li Ibn ʼAb⁻i ʼUsaybiʼah) /
+			min sanat 650 H. ilá yawminā hādhā : dhayl ʻUyūn al-anbāʼ fī ṭabaqāt al-aṭibbāʼ li-Ibn Abī Uṣaybiʻah /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Aḥmad ʼĪsá.
+			taʼlīf Aḥmad ʻĪsá.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Tabʼah 1.
+			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Miṣr,
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			Matbaʼat Fatah-allāh ʼIly⁻as N⁻ur⁻i,
+			Maṭbaʻat Fatḥ Allāh Ilyās Nūrī,
 		</subfield>
 		<subfield code="c">
 			1942.
@@ -66,12 +91,39 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (527 p.)
+			online resource (527 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			al-Muʼallaf Jāmiʻat Fuʼ⁻ad al-Awwal, Kullīyat al-Tibb. ;
+			al-Muʼallif / Jāmiʻat Fuʼād al-Awwal, Kullīyat al-Ṭibb ;
 		</subfield>
 		<subfield code="v">
 			raqm 18
@@ -84,7 +136,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			At head of title: J⁻amiʻah al-Miṣriyah.
+			At head of title: Jāmiʻat Fuʼād al-Awwal, Kullīyat al-Ṭibb.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -111,18 +163,10 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">
-			Physicians, Arab.
+			Physicians
 		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2="0" tag="600">
-		<subfield code="a">
-			Ibn Abī Uṣaybiʻah, Aḥmad ibn al-Qāsim,
-		</subfield>
-		<subfield code="d">
-			d. 1269 or 70.
-		</subfield>
-		<subfield code="t">
-			ʻUyūn al-anbāʼ fī ṭabaqāt al-aṭibbāʼ.
+		<subfield code="z">
+			Arab countries.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -143,26 +187,95 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Aḥmad ʻĪsá.
+			Aḥmad ʻĪsá.
 		</subfield>
 		<subfield code="t">
-			Muʼjam al-ʼaṭibb⁻a
+			Muʻjam al-aṭibbāʼ
 		</subfield>
 		<subfield code="w">
 			(NNU)001682174
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="a">
-			Muʼ-allaf (Jāmiʻat Fuʼād al-Awwal. Kullīyat al-Tibb) ;
-		</subfield>
-		<subfield code="v">
-			raqm 18.
-		</subfield>
-	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/t76hdvd4
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			احمد عيسى.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			معجم الاطباء :
+		</subfield>
+		<subfield code="b">
+			من سنة 650 ه. الى يومنا هذا : ذيل عيون الانباء في طبقات الاطباء لاابن ابي اصيبعة /
+		</subfield>
+		<subfield code="c">
+			تأليف احمد عيسى.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			مطبعة فتح الله الياس نوري،
+		</subfield>
+		<subfield code="c">
+			1942.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-05/
+		</subfield>
+		<subfield code="a">
+			المؤلف / جامعة فؤاد الاول، كلية الطب ؛
+		</subfield>
+		<subfield code="v">
+			رقم 18
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			al-Muʼallif / Jāmiʻat Fuʼād al-Awwal, Kullīyat al-Ṭibb ;
+		</subfield>
+		<subfield code="v">
+			raqm 18
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-06/
+		</subfield>
+		<subfield code="a">
+			المؤلف / جامعة فؤاد الاول، كلية الطب ;
+		</subfield>
+		<subfield code="v">
+			رقم 18
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -191,9 +304,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001576
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

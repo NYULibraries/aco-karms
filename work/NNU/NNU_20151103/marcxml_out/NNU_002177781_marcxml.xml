@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01390nam a2200313   4500
+		01763nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		002177781
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1935    su ab   ob    000 0 ara d
+		160201s1935    su ab   o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -34,7 +37,7 @@
 			a-su---
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			NA1471.M42
 		</subfield>
@@ -43,30 +46,36 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Anṣārī, ʻAbd al-Quddūs,
+			Anṣārī, ʻAbd al-Quddūs,
 		</subfield>
 		<subfield code="d">
-			1906 or 7-1983.
+			1906 or 1907-1983.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Āthār al-Madīnah al-Munawwarah
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Āthār al-Madīnah al-munawwarah /
 		</subfield>
 		<subfield code="c">
-			bi-qalam ʻAbd al-Qaddūs Anṣārī.
+			bi-qalam ʻAbd-al-Quddūs al-Ansārī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Madīnah al-Munawwarah :
+			al-Madīnah :
 		</subfield>
 		<subfield code="b">
-			al-Maktabah al-ʻIlmīyah,
+			al-Maktabah al-ʻIlmīyah,
 		</subfield>
 		<subfield code="c">
 			1935.
@@ -74,25 +83,39 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (188 p.) :
+			online resource (188 pages) :
 		</subfield>
 		<subfield code="b">
-			ill., maps :
+			illustrations, folded map
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
+	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">
-			Title page partially vocalized.
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
 			Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">
-			Includes bibliographical references (p. 4).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -112,23 +135,37 @@
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">
-			Architecture
-		</subfield>
-		<subfield code="z">
-			Saudi Arabia
-		</subfield>
-		<subfield code="z">
-			Medina.
-		</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
 		<subfield code="a">
 			Medina (Saudi Arabia)
 		</subfield>
 		<subfield code="x">
-			Antiquities.
+			Description and travel.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Travel.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01155558
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Saudi Arabia
+		</subfield>
+		<subfield code="z">
+			Medina.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01213531
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -149,10 +186,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Anṣārī, ʻAbd al-Quddūs, 1906 or 7-1983.
+			Anṣārī, ʻAbd al-Quddūs, 1906 or 1907-1983.
 		</subfield>
 		<subfield code="t">
-			Āthār al-Madīnah al-Munawwarah
+			Āthār al-Madīnah al-munawwarah
 		</subfield>
 		<subfield code="w">
 			(NNU)002177781
@@ -161,6 +198,42 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/bzkh1cdf
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			انصاري، عبد القدوس،
+		</subfield>
+		<subfield code="d">
+			1906 or 1907-1983.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			آثار المدينة المنورة /
+		</subfield>
+		<subfield code="c">
+			بقلم عبدالقدوس الانصاري.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			المدينة :
+		</subfield>
+		<subfield code="b">
+			المكتبة العلمية،
+		</subfield>
+		<subfield code="c">
+			1935.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -189,9 +262,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001562
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

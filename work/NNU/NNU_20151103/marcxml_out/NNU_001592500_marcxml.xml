@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02517nam a2200409   4500
+		02885nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		001592500
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1963    iq      ob    001 0 ara d
+		160201s1963    iq      ob    001 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -34,20 +37,7 @@
 			G93
 		</subfield>
 		<subfield code="b">
-			.A14 1840a
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">
-			G93
-		</subfield>
-		<subfield code="b">
-			.A14 1840a
+			.A14 1963
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
@@ -66,7 +56,7 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			Taqwīm al-buldān
+			Taqwīm al-buldān
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
@@ -74,18 +64,15 @@
 			880-03
 		</subfield>
 		<subfield code="a">
-			Kitāb Taqwīm al-buldān
-		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+			Kitāb Taqwīm al-buldān /
 		</subfield>
 		<subfield code="c">
-			taʼlīf ʻImād al-Dīn Ismāʻīl ibn al-Malik al-Afḍal Nūr al-Dīn ʻAlī ibn Jamāl al-Dīn Maḥmūd ibn Muḥammad ibn ʻUmar ibn Shāhinshāh ibn Ayyūb Ṣāḥib Ḥamāh ; qad iʻtaná bi-taṣḥīḥihi wa-ṭabʻih Rīnūd wa-al-bārūn Māk Kūkīn Dīslān.
+			taʼlīf ʻImād al-Dīn Ismāʻīl ibn al-Malik al-Afḍal Nūr al-Dīn ʻAlī ibn Jamāl al-Dīn Maḥmūd ibn Muḥammad ibn ʻUmar ibn Shāhinshāh ibn Ayyūb Ṣāḥib Ḥamāh ; qad iʻtaná bi-taṣḥīḥihi wa-ṭabʻih Rīnūd wa-al-bārūn Māk Kūkīn Dīslān.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="5" tag="246">
 		<subfield code="a">
-			Géographie d'Aboulféda
+			Géographie d'Aboulféda
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
@@ -93,10 +80,10 @@
 			880-04
 		</subfield>
 		<subfield code="a">
-			Baghdād :
+			Baghdād :
 		</subfield>
 		<subfield code="b">
-			yuṭlubu min Maktabat al-Muthanná wa-Muʼassasat al-Khānjī bi-Miṣr,
+			Yuṭlubu min Maktabat al-Muthanná wa-Muʼassasat al-Khānjī bi-Miṣr,
 		</subfield>
 		<subfield code="c">
 			[1963?]
@@ -104,7 +91,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (539, xlvii p.)
+			online resource (539, xlvii pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -147,7 +158,32 @@
 			Early works to 1800.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Geography, Medieval.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00940573
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Early works.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411636
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Reinaud, Joseph Toussaint,
 		</subfield>
@@ -156,6 +192,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Slane, William MacGuckin,
 		</subfield>
@@ -187,7 +226,7 @@
 			Abū al-Fidāʼ Ismāʻīl ibn ʻAlī, 1273-1331.
 		</subfield>
 		<subfield code="t">
-			Kitāb Taqwīm al-buldān
+			Kitāb Taqwīm al-buldān
 		</subfield>
 		<subfield code="w">
 			(NNU)001592500
@@ -203,7 +242,10 @@
 			100-01/
 		</subfield>
 		<subfield code="a">
-			أبو الفداء اسمعيل بن علي.
+			أبو الفداء اسمعيل بن علي،
+		</subfield>
+		<subfield code="d">
+			1273-1331.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -237,6 +279,25 @@
 		</subfield>
 		<subfield code="c">
 			[1963?]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/
+		</subfield>
+		<subfield code="a">
+			رينود، جوزيف توسانت،
+		</subfield>
+		<subfield code="d">
+			1795-1867.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-06/
+		</subfield>
+		<subfield code="a">
+			ديسلان، ماك كوكين.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

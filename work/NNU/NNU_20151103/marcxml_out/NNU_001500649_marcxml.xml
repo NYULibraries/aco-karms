@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02054nam a2200385   4500
+		02559nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		001500649
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1951    ua      ob    000 0 arard
+		160201s1951    ua      ob    001 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,29 +25,35 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			DT 96
+			DT96
+		</subfield>
+		<subfield code="b">
+			.I292 1951
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			DT96
 		</subfield>
 		<subfield code="b">
 			.I13 I96 1951
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
+	<datafield ind1=" " ind2=" " tag="084">
 		<subfield code="a">
-			DT96
+			6,23
 		</subfield>
-		<subfield code="b">
-			.I291 1951
+		<subfield code="2">
+			ssgn
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
@@ -55,24 +61,32 @@
 			880-01
 		</subfield>
 		<subfield code="a">
-			Ibn Iyās,
+			Ibn Iyās,
 		</subfield>
 		<subfield code="d">
-			1448-ca. 1524.
+			1448-approximately 1524.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="0" tag="240">
 		<subfield code="6">
 			880-02
 		</subfield>
 		<subfield code="a">
-			Ṣafahāt lam tunshar min Badāʼiʻ al-zuhūr fī waqāʼiʻ al-duhūr
+			Badāʼiʻ al-zuhūr fī waqāʼiʻ al-duhūr.
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="k">
+			Selections
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			Ṣafahāt lam tunshar min Badāʼiʻ al-zuhūr fī waqāʼiʻ al-duhūr /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Muḥammad ibn Aḥmad ibn Iyās al-Ḥanafī; ḥaqqaqahu wa-kataba muqaddimatahu wa-ḥawāshīhu wa-fahārisahu Muḥammad Muṣṭafá.
+			taʼlīf Muḥammad ibn Aḥmad ibn Iyās al-Ḥanafī ; ḥaqqaqahu wa-kataba muqaddimatahu wa-ḥawāshīhu wa-fahārisahu Muḥammad Muṣṭafá.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="4" tag="246">
@@ -82,13 +96,13 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-03
+			880-04
 		</subfield>
 		<subfield code="a">
-			Miṣr :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			Dār al-Maʻārif,
+			Dār al-Maʻārif,
 		</subfield>
 		<subfield code="c">
 			1951.
@@ -96,12 +110,36 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (22, 327 p.)
+			online resource (32, 327 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			At head of title: al-Jamʻīyah al-Malakīyah lil-Dirāsāt al-Tārīkhīyah.
+			At head of title: al-Jamʻīyah al-Malakīyah lil-Dirāsāt al-Tārīkhīyah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -111,7 +149,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Bibliography: p. 323-327.
+			Includes bibliographical references (pages 323-327) and indexes.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -139,12 +177,34 @@
 			Early works to 1800.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Mamelukes.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01006922
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Early works.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411636
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-04
+			880-05
 		</subfield>
 		<subfield code="a">
-			Muṣṭafá, Muḥammad.
+			Muṣṭafá, Muḥammad.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -165,10 +225,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ibn Iyās, 1448-ca. 1524.
+			Ibn Iyās, 1448-approximately 1524.
 		</subfield>
 		<subfield code="t">
-			Ṣafahāt lam tunshar min Badāʼiʻ al-zuhūr fī waqāʼiʻ al-duhūr
+			Ṣafahāt lam tunshar min Badāʼiʻ al-zuhūr fī waqāʼiʻ al-duhūr
 		</subfield>
 		<subfield code="w">
 			(NNU)001500649
@@ -184,23 +244,37 @@
 			100-01/
 		</subfield>
 		<subfield code="a">
-			ابن إياس.
+			ابن إياس،
+		</subfield>
+		<subfield code="d">
+			1524 approximately-1448.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-02/
+			240-02/
+		</subfield>
+		<subfield code="a">
+			بدائع الزهور في وقائع الدهور.
+		</subfield>
+		<subfield code="k">
+			Selections
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-03/
 		</subfield>
 		<subfield code="a">
 			صفحات لم تنشر من بدائع الزهور في وقائع الدهور /
 		</subfield>
 		<subfield code="c">
-			تأليف محمد بن أحمد بن إياس الحنفي ؛ حققه وكتب مقدمةه وحواشيه وفهارسه محمد مصطفى.
+			تأليف محمد بن أحمد بن إياس الحنفي ؛ حققه وكتب مقدمته وحواشيه وفهارسه محمد مصطفى.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-03/
+			260-04/
 		</subfield>
 		<subfield code="a">
 			مصر :
@@ -209,12 +283,12 @@
 			دار المعارف،
 		</subfield>
 		<subfield code="c">
-			١٩٥١.
+			1951.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-04/
+			700-05/
 		</subfield>
 		<subfield code="a">
 			مصطفى، محمد.

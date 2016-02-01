@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01102nam a2200253   4500
+		01896nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		001682975
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1936    ua      o     000 0 arard
+		160201s1936    ua      o     000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,13 +25,35 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">
-			Ṭūsūn, ʻUmar,
+			fn-----
+		</subfield>
+		<subfield code="a">
+			f-sj---
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="050">
+		<subfield code="a">
+			DT108.15
+		</subfield>
+		<subfield code="b">
+			.U45
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Ṭūsūn, ʻUmar,
 		</subfield>
 		<subfield code="c">
 			Prince,
@@ -41,30 +63,59 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Masʼalah al-Sūdānīyah
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			al-Masʼalah al-Sūdāniyah /
 		</subfield>
 		<subfield code="c">
-			lil-Amīr ʻUmar Ṭūsūn.
+			[lil] ʻUmar Ṭūsūn.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="a">
-			Alexandria :
+			Iskandarīya :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat al-Mustaqbal,
+			Maṭb ʻat al-Mustaqbal,
 		</subfield>
 		<subfield code="c">
-			1355, 1936.
+			1926 [i.e. 1936]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (102, 8 p.)
+			online resource (102, 7 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">
+			Romanized record.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -100,6 +151,36 @@
 			1821-1881.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Sudan.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01204591
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="648">
+		<subfield code="a">
+			1821 - 1881.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			History.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411628
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -115,21 +196,77 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Ṭūsūn, ʻUmar, Prince, 1872-1944.
+		</subfield>
+		<subfield code="t">
+			Masʼalah al-Sūdāniyah.
+		</subfield>
+		<subfield code="d">
+			Iskandarīya : Maṭb ʻat al-Mustaqbal, 1926 [i.e. 1936]
+		</subfield>
+		<subfield code="w">
+			(OCoLC)645318525
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ṭūsūn, ʻUmar, Prince, 1872-1944.
+			Ṭūsūn, ʻUmar, Prince, 1872-1944.
 		</subfield>
 		<subfield code="t">
-			al-Masʼalah al-Sūdānīyah
+			al-Masʼalah al-Sūdāniyah
 		</subfield>
 		<subfield code="w">
 			(NNU)001682975
+		</subfield>
+		<subfield code="w">
+			(DLC)ne 68003433
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/8sf7m3g8
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			طوسون، عمر،
+		</subfield>
+		<subfield code="c">
+			الأمير.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="3" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			المسألة السودانية /
+		</subfield>
+		<subfield code="c">
+			للأمير عمر طوسون.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-00/
+		</subfield>
+		<subfield code="a">
+			اسكندرية :
+		</subfield>
+		<subfield code="b">
+			مطبعة المستقبل،
+		</subfield>
+		<subfield code="c">
+			1936.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01480nam a2200325   4500
+		02744nam a2200505   4500
 	</leader>
 	<controlfield tag="001">
 		001679088
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1961    sy ab   ob    000 0 arax 
+		160201s1961    sy ab   ob    000 0 ararc
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,16 +25,19 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">
-			fs-----
+			fw-----
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1="0" ind2="0" tag="050">
 		<subfield code="a">
 			DT471
 		</subfield>
@@ -43,27 +46,33 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Qaddāḥ, Naʻīm.
+			Qaddāḥ, Naʻīm.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Afrīqīyā al-Gharbīyah fī ẓill al-Islām
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Afrīqīyā al-Gharbīyah fī ẓill al-Islām /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Naʻīm Qaddāḥ. Murājaʻat ʻUmar al-Ḥakīm.
+			taʼlīf Naʻīm Qaddāḥ ; Murājaʻat ʻUmar al-Ḥakīm.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Dimashq,
+			[Dimashq] :
 		</subfield>
 		<subfield code="b">
-			Maktabat Aṭlas
+			[Maktabat Aṭlas],
 		</subfield>
 		<subfield code="c">
 			[1961?]
@@ -71,15 +80,42 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (8, 168 p.) :
+			online resource (8, 168 pages) :
 		</subfield>
 		<subfield code="b">
-			illus., maps
+			illustrations, maps
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">
-			Dirāsāt afrīqīyah. Silsilat al-Thaqāfah al-shaʻbīyah,
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Dirāsāt ʼIfrīqīyah. Silsilat al-Thaqāfah al-shaʻabīyah ;
 		</subfield>
 		<subfield code="v">
 			6
@@ -87,12 +123,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			In Arabic.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			At head of title: Wizārat al-Thaqāfah wa-al-Irshād al-Qawmī. Mudīrīyat al-Taʼlīf wa-al-Tarjamah.
+			At head of title: Wizārat al-thaqāfah wa-al-irshād al-qawmī. Mudīrīyat al-taʼlīf wa-al-tarjamah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -102,7 +133,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Bibliography: p. 167-168.
+			Includes bibliographical references (pages 167-168).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -130,6 +161,36 @@
 			Africa, West.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Muslims.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01031029
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Africa, West.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01239521
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Ḥakīm, ʻUmar.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -143,15 +204,40 @@
 			Arabic Collections Online.
 		</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			Ifrīqīyā al-Gharbīyah fī ẓill al-Islām.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Qaddāḥ, Naʻīm.
+		</subfield>
+		<subfield code="t">
+			Afrīqīyā al-Gharbīyah fī ẓill al-Islām.
+		</subfield>
+		<subfield code="d">
+			[Dimashq, Maktabat Aṭlas, 1961?]
+		</subfield>
+		<subfield code="w">
+			(OCoLC)602180583
+		</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Qaddāḥ, Naʻīm.
+			Qaddāḥ, Naʻīm.
 		</subfield>
 		<subfield code="t">
-			Afrīqīyā al-Gharbīyah fī ẓill al-Islām
+			Afrīqīyā al-Gharbīyah fī ẓill al-Islām
 		</subfield>
 		<subfield code="w">
 			(NNU)001679088
@@ -163,6 +249,94 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/pnvx0pdb
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			قداح، نعيم.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			أفريقيا الغربية في ظل الإسلام /
+		</subfield>
+		<subfield code="c">
+			تأليف نعيم قداح ؛ مراجعة عمر الحكيم.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			[دمشق] :
+		</subfield>
+		<subfield code="b">
+			[مكتبة اطلس]،
+		</subfield>
+		<subfield code="c">
+			[1961؟]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-04/
+		</subfield>
+		<subfield code="a">
+			دراسات افريقية. سلسلة الثقافة الشعبية ؛
+		</subfield>
+		<subfield code="v">
+			6
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/
+		</subfield>
+		<subfield code="a">
+			حكيم، عمر.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			740-06/
+		</subfield>
+		<subfield code="a">
+			افريقيا الغربية في ظل الاسلام.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-07
+		</subfield>
+		<subfield code="a">
+			Silsilat Dirāsāt Ifrīqīyah.
+		</subfield>
+		<subfield code="p">
+			Silsilat ʼal-Thaqāfah ʼal-shaʻabīyah ;
+		</subfield>
+		<subfield code="v">
+			6.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-07/
+		</subfield>
+		<subfield code="a">
+			سلسلة دراسات افريقية.
+		</subfield>
+		<subfield code="p">
+			سلسلة ألثقافة ألشعبية ;
+		</subfield>
+		<subfield code="v">
+			6.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -191,9 +365,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001490
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)(ERROR-SERIES)
 		</subfield>
 	</datafield>
 </record>

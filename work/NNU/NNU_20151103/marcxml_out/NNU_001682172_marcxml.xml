@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01636nam a2200373   4500
+		02355nam a2200493   4500
 	</leader>
 	<controlfield tag="001">
 		001682172
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1928    ua h    o     000 0 arao 
+		160201s1928    ua      o     000 0 arao 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,19 +25,14 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="041">
-		<subfield code="a">
-			ara
-		</subfield>
-		<subfield code="a">
-			eng
-		</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			R128.3
 		</subfield>
@@ -46,30 +41,36 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Thābit ibn Qurrah al-Ḥarrānī,
+			Thābit ibn Qurrah al-Ḥarrānī,
 		</subfield>
 		<subfield code="d">
-			d. 901.
+			-901.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Kitāb al-dhakhīrah fī ʻilm al-ṭibb
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Kitāb al-dhakhīrah fī ʻilm al-ṭibb,
 		</subfield>
 		<subfield code="c">
-			taʹlīf Thābit ibn Qurrah.
+			taʹlīf Thābit ibn Qurrah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Qāhirah,
+			Al-Qāhirah :
 		</subfield>
 		<subfield code="b">
-			al-Maṭbaʻah al-Amīrīyah,
+			al-Maṭbaʻah al-Amīrīyah,
 		</subfield>
 		<subfield code="c">
 			1928.
@@ -77,30 +78,51 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (7, 186, 43, XV p.) :
+			online resource (7, 186, 43, XV pages)
 		</subfield>
-		<subfield code="b">
-			facsims.
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			At head of title: al-Jāmiʻah al-Miṣrīyah.
+			At head of title: al-Jāmiʻah al-Miṣrīyah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			Added t. p.: The book of al-Dakhira, edited by G. Sobhy.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Text in Arabic. Preface, introduction, and glossary in English.
+			Added t.p.: The book of al-Dakhira, edited by G. Sobhy.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
 			Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="504">
+		<subfield code="a">
+			Medicine, Medieval.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -130,9 +152,39 @@
 			Medicine, Arab.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
+	<datafield ind1=" " ind2="7" tag="650">
 		<subfield code="a">
-			Ṣubḥī, Jūrjī.
+			Medicine, Arab.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01015186
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Medicine, Medieval.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01015277
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="2" tag="650">
+		<subfield code="a">
+			Medicine, Arabic.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Ṣubḥī, Jūrjī.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -148,19 +200,34 @@
 			Arabic Collections Online.
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="0" tag="740">
+	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Dhakhīrah fī ʻilm al-ṭibb.
+			Dhakhīrah fī ʻilm al-ṭibb.
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="0" tag="740">
+	<datafield ind1="0" ind2=" " tag="740">
 		<subfield code="a">
 			Book of al-Dakhira.
 		</subfield>
 	</datafield>
-	<datafield ind1="2" ind2=" " tag="710">
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
+			Online version:
+		</subfield>
 		<subfield code="a">
-			Jāmiʻah al-Miṣrīyah.
+			Thābit ibn Qurrah al-Ḥarrānī, -901.
+		</subfield>
+		<subfield code="t">
+			Kitāb al-dhakhīrah fī ʻilm al-ṭibb.
+		</subfield>
+		<subfield code="d">
+			Al-Qāhirah, al-Maṭbaʻah al-Amīrīyah, 1928
+		</subfield>
+		<subfield code="w">
+			(OCoLC)644737718
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
@@ -168,21 +235,73 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Thābit ibn Qurrah al-Ḥarrānī, d. 901.
+			Thābit ibn Qurrah al-Ḥarrānī, -901.
 		</subfield>
 		<subfield code="t">
-			Kitāb al-dhakhīrah fī ʻilm al-ṭibb
+			Kitāb al-dhakhīrah fī ʻilm al-ṭibb
 		</subfield>
 		<subfield code="w">
 			(NNU)001682172
 		</subfield>
 		<subfield code="w">
-			(DLC)60025506 /NE
+			(DLC)   60025506
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/r2280kjk
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			ثابت بن قرة الحراني،
+		</subfield>
+		<subfield code="d">
+			-901.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			كتاب الذخيرة في علم الطب /
+		</subfield>
+		<subfield code="c">
+			ثابت بن قرة.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			المطبعة الأميرية،
+		</subfield>
+		<subfield code="c">
+			1928.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/
+		</subfield>
+		<subfield code="a">
+			صبحي ،جورج.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			740-05/
+		</subfield>
+		<subfield code="a">
+			ذخيرة في علم الطب.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -211,9 +330,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001575
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

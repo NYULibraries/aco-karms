@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02078nam a2200325   4500
+		03152nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		001682247
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1928    ua      o     000 0 ara d
+		160201s1928    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,38 +25,55 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			Sarkīs, Yūsuf Ilyān,
+			Z3026
+		</subfield>
+		<subfield code="b">
+			.S28 1928
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Sarkīs, Yūsuf Ilyān,
 		</subfield>
 		<subfield code="d">
-			1856-1932 or 3.
+			1856-1932 or 1933.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Muʻjam al-maṭbūʻāt al-ʻArabīyah wa-al-muʻarrabah
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="a">
+			Muʻjam al-maṭbūʻāt al-ʻArabīyah wa-al-muʻarrabah
 		</subfield>
 		<subfield code="b">
-			wa-huwa shāmil li-asmāʼ al-kutub al-maṭbūʻah fī al-aqṭār al-sharqīyah wa-al-gharbīyah, maʻa dhikr asmāʼ muʼallifīhā wa-lumʻah min tarjamatihim wa-dhālika min yawm ẓuhūr al-ṭibāʻah ilʹa nihāyat al-sanah al-Hijrīyah 1339 al-muwāfiqah li-sanat 1919 Mīlādīyah
+			wa-huwa shāmil li-asmāʼ al-kutub al-maṭbūʻah fī al-aqṭār al-sharqīyah wa-al-gharbīyah, maʻa dhikr asmāʼ muʼallifīhā wa-lumʻah min tarjamatihim wa-dhālika min yawm ẓuhūr al-ṭibāʻah ilʹa nihāyat al-sanah al-Hijrīyah 1339 al-muwāfiqah li-sanat 1919 Mīlādīyah
 		</subfield>
 		<subfield code="c">
-			jamaʻahu wa-rattabahu Yūsuf Ilyān Sarkīs.
+			jamaʻahu wa-rattabahu Yūsuf Ilyān Sarkīs.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Miṣr :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat Sarkīs,
+			Maṭbaʻat Sarkīs,
 		</subfield>
 		<subfield code="c">
 			1928.
@@ -64,7 +81,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (4 p., 2024 columns, 152, 18 p.)
+			online resource (4 pages, 2024 columns, 152, 18 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -74,7 +115,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			Cover title: Dictionnaire encyclopédique arabe, comprenant 1 ̊le nom de ious les ouvrages imprimés, tant en Orient qu'en Occident et en Amérique, depuis la création de l'imprimerie jusqu'à 1919 inclusivement; 2 ̊une biographie succinte de la plupart des auteurs anciens et modernes; 3 ̊les sources des notes biographiques.
+			Cover title: Dictionnaire encyclopédique arabe, comprenant 1 ̊le nom de ious les ouvrages imprimés, tant en Orient qu'en Occident et en Amérique, depuis la création de l'imprimerie jusqu'à 1919 inclusivement; 2 ̊une biographie succinte de la plupart des auteurs anciens et modernes; 3 ̊les sources des notes biographiques.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -85,11 +126,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
 			Issued in 11 parts, 1928-30.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Added t.p. in English.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -122,6 +158,28 @@
 			Bio-bibliography.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Arabic literature.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00812478
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Bio-bibliography.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01423685
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -137,7 +195,24 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
 		<subfield code="a">
-			Dictionnaire encyclopédique de bibliographie arabe.
+			Dictionnaire encyclopédique de bibliographie arabe.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Sarkīs, Yūsuf Ilyān, 1856-1932 or 3.
+		</subfield>
+		<subfield code="t">
+			Muʻjam al-maṭbūʻāt al-ʻArabīyah wa-al-muʻarrabah.
+		</subfield>
+		<subfield code="d">
+			Miṣr : Maṭbaʻat Sarkīs, 1928
+		</subfield>
+		<subfield code="w">
+			(OCoLC)618896732
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
@@ -145,10 +220,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Sarkīs, Yūsuf Ilyān, 1856-1932 or 3.
+			Sarkīs, Yūsuf Ilyān, 1856-1932 or 1933.
 		</subfield>
 		<subfield code="t">
-			Muʻjam al-maṭbūʻāt al-ʻArabīyah wa-al-muʻarrabah
+			Muʻjam al-maṭbūʻāt al-ʻArabīyah wa-al-muʻarrabah
 		</subfield>
 		<subfield code="w">
 			(NNU)001682247
@@ -157,6 +232,45 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/hx3fffj8
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			سركيس، يوسف اليان،
+		</subfield>
+		<subfield code="d">
+			1856-1932 or 1933.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			معجم المطبوعات العربية والمعربة :
+		</subfield>
+		<subfield code="b">
+			وهو شامل لاسماء الكتب المطبوعة في الاقطار الشرقية والغربية، مع ذكر اسماء مؤلفيها ولمعة من ترجمتهم وذلك من يوم ظهور الطباعة الى نهاية السنة الهجرية 1339 الموافقة لسنة 1919 ميلادية /
+		</subfield>
+		<subfield code="c">
+			جمعه ورتبه يوسف اليان سركيس.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			مطبعة سركيس،
+		</subfield>
+		<subfield code="c">
+			1928.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -185,9 +299,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001590
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01583nam a2200301   4500
+		02285nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		001682249
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19699999iq      ob    000 0 arar 
+		160201m19699999iq      ob    000 0carar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -34,28 +37,47 @@
 			a-iq---
 		</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="0" tag="050">
+		<subfield code="a">
+			Z3036
+		</subfield>
+		<subfield code="b">
+			.A9
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			ʻAwwād, Kūrkīs.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Muʻjam al-muʼallifīn al-ʻ-Irāqīyīn fī al-qarnayn al-tāsiʻ ʻashar wa-al-ʻashrīn, 1800-1969
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Muʻjam al-muʼallifīn al-ʻIrāqīyīn fī al-qarnayn al-tāsiʻ ʻashar wa-al-ʻashrīn, 1800-1969 /
 		</subfield>
 		<subfield code="c">
-			Taʼlīf Kūrkīs ʻAwwād.
+			taʼlīf Kūrkīs ʻAwwād.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="5" tag="246">
+		<subfield code="a">
+			Dictionary of Iraqi authors during the ninetieth [sic] and twentieth centuries, 1800-1969 A.D.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Baghdād,
+			Baghdād :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat al-Irshād
+			Maṭbaʻat al-Irshād,
 		</subfield>
 		<subfield code="c">
 			1969-
@@ -63,12 +85,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (v.)
+			online resource (volumes)
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
+	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">
-			Added t. p.: A dictionary of Iraqi authors during the ninetieth [sic] and twentieth centuries, 1800-1969 A. D., by Gurgis Awwad.
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -78,7 +119,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Bibliography: v. 1, p. 10-24.
+			Includes bibliographical references (v. 1, pages 10-24).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -106,6 +147,28 @@
 			Bio-bibliography.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Authors, Iraqi.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01742075
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Bio-bibliography.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01423685
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -119,9 +182,21 @@
 			Arabic Collections Online.
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="740">
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
+			Online version:
+		</subfield>
 		<subfield code="a">
-			Dictionary of Iraqi authors during the ninetieth [sic] and twentieth centuries, 1800-1969.
+			ʻAwwād, Kūrkīs.
+		</subfield>
+		<subfield code="t">
+			Muʻjam al-muʼallifīn al-ʻIrāqīyīn fī al-qarnayn al-tāsiʻ ʻashar wa-al-ʻashrīn, 1800-1969.
+		</subfield>
+		<subfield code="d">
+			Baghdād : Maṭbaʻat al-Irshād, 1969-
+		</subfield>
+		<subfield code="w">
+			(OCoLC)609800416
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
@@ -132,18 +207,51 @@
 			ʻAwwād, Kūrkīs.
 		</subfield>
 		<subfield code="t">
-			Muʻjam al-muʼallifīn al-ʻ-Irāqīyīn fī al-qarnayn al-tāsiʻ ʻashar wa-al-ʻashrīn, 1800-1969
+			Muʻjam al-muʼallifīn al-ʻIrāqīyīn fī al-qarnayn al-tāsiʻ ʻashar wa-al-ʻashrīn, 1800-1969
 		</subfield>
 		<subfield code="w">
 			(NNU)001682249
 		</subfield>
 		<subfield code="w">
-			(DLC)72232341 /NE
+			(DLC)   72232341
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/h9w0vx65
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			عواد، كوركيس.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			معجم المؤلفين العراقيين في القرنين التاسع عشر والعشرين، 1800-1969 /
+		</subfield>
+		<subfield code="c">
+			تأليف كوركيس عواد.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			مطبعة الارشاد،
+		</subfield>
+		<subfield code="c">
+			1969-
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

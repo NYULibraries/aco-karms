@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01383nam a2200265   4500
+		02208nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		001678986
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1955    su      o     000 0 ara d
+		160201s1955    su      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,40 +25,65 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">
-			Marāghī, Abū Bakr ibn al-Ḥusayn,
+			a-su---
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			DS248.M5
+		</subfield>
+		<subfield code="b">
+			M3 1955
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Marāghī, Abū Bakr ibn al-Ḥusayn,
 		</subfield>
 		<subfield code="d">
-			1326 or 7-1413 or 14.
+			1326 or 1327-1413 or 1414.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Taḥqīq al-nuṣrah bi-talkhīṣ maʻālim Dār al-Hijrah
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Taḥqīq al-nuṣrah bi-talkhīṣ maʻālim Dār al-Hijrah /
 		</subfield>
 		<subfield code="c">
-			li-Zayn al-Dīn Abī Bakr ibn al-Ḥusayn ibn ʻUmar Abī al-Fakhr al-Marāghī ; ṣaḥḥaḥahu wa-ḥaqqaqahu Muḥammad ʻAbd al-Jawwād al-Aṣmaʻī.
+			li-Zayn al-Dīn Abī Bakr ibn al-Ḥusayn ibn ʻUmar Abī al-Fakhr al-Marāghī ; ṣaḥḥaḥahu wa-ḥaqqaqahu Muḥammad ʻAbd al-Jawād al-Aṣmaʻī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Ṭabʻah 1.
+			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			al-Madīnah al-Munawwarah :
+			al-Madīnah al-Munawwarah :
 		</subfield>
 		<subfield code="b">
-			al-Maktabah al-ʻIlmīyah,
+			al-Maktabah al-ʻIlmīyah,
 		</subfield>
 		<subfield code="c">
 			1955.
@@ -66,7 +91,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (276 p.)
+			online resource (276 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -99,6 +148,31 @@
 			History.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Saudi Arabia
+		</subfield>
+		<subfield code="z">
+			Medina.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01213531
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			History.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411628
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -117,10 +191,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Marāghī, Abū Bakr ibn al-Ḥusayn, 1326 or 7-1413 or 14.
+			Marāghī, Abū Bakr ibn al-Ḥusayn, 1326 or 1327-1413 or 1414.
 		</subfield>
 		<subfield code="t">
-			Taḥqīq al-nuṣrah bi-talkhīṣ maʻālim Dār al-Hijrah
+			Taḥqīq al-nuṣrah bi-talkhīṣ maʻālim Dār al-Hijrah
 		</subfield>
 		<subfield code="w">
 			(NNU)001678986
@@ -129,6 +203,50 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/p8cz90fx
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			مراغي، أبو بکر بن الحسين،
+		</subfield>
+		<subfield code="d">
+			1326 or 1327-1413 or 1414.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			تحقيق النصرة بتلخيص معالم دار الهجرة /
+		</subfield>
+		<subfield code="c">
+			لزين الدين أبي بکر بن الحسين بن عمر أبي الفخر المراغي ؛ صححه وحققه محمد عبد الجواد الأصمعي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			الطبعة ١.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			المدينة المنورة :
+		</subfield>
+		<subfield code="b">
+			المکتبة العلمية،
+		</subfield>
+		<subfield code="c">
+			٤٧٣١.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -157,9 +275,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001450
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

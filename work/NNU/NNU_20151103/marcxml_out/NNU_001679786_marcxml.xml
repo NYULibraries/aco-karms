@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01404nam a2200253   4500
+		02495nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		001679786
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1933    ua      o     000 0 ara d
+		160201s1933    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,40 +25,65 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="100">
+	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">
-			Muḥammad Rashīd Riḍā.
+			f-ua---
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			LG511.C45
+		</subfield>
+		<subfield code="b">
+			M8 1933
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Muḥammad Rashīd Riḍā.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Manār wa-al-Azhar
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="a">
+			al-Manār wa-al-Azhar :
 		</subfield>
 		<subfield code="b">
-			kitāb yashtamilu ʻal ́muqaddimah fī māḍī al-Azhar wa-ḥāḍirihi wa-mustaqbalihi wa-maqālāt fī al-radd ʻalá majallat al-Azhar (Nūr al-Islām) fī ṭaʻnihāh ʻalá al-Manār wa-taʼyīdihā al-bidaʻ wa-al-khurāfāt wa-khātimah fī khulāṣat saʻī ṣāḥib al-Manār li-iṣlāḥ al-Azhar fī muddat 35 sanah /
+			kitāb yashtamilu ʻal ́muqaddimah fī māḍī al-Azhar wa-ḥāḍirihi wa-mustaqbalihi wa-maqālāt fī al-radd ʻalá majallat al-Azhar (Nūr al-Islām) fī ṭaʻnihāh ʻalá al-Manār wa-taʼyīdihā al-bidaʻ wa-al-khurāfāt wa-khātimah fī khulāṣat saʻī ṣāḥib al-Manār li-iṣlāḥ al-Azhar fī muddat 35 sanah /
 		</subfield>
 		<subfield code="c">
-			bi-qalam Muḥammad Rashīd Riḍā.
+			bi-qalam Muḥammad Rashīd Riḍā.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Ṭabʻah 1.
+			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Miṣr :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat al-Manār,
+			Maṭbaʻat al-Manār,
 		</subfield>
 		<subfield code="c">
 			1352 [1933 or 1934]
@@ -66,7 +91,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (15, 296 p.)
+			online resource (15, 296 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -91,6 +140,44 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1="2" ind2="0" tag="610">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Jāmiʻat al-Azhar.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="a">
+			Egypt
+		</subfield>
+		<subfield code="x">
+			Intellectual life
+		</subfield>
+		<subfield code="y">
+			20th century.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="a">
+			Egypt
+		</subfield>
+		<subfield code="x">
+			Intellectual life
+		</subfield>
+		<subfield code="y">
+			19th century.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Islamic education
+		</subfield>
+		<subfield code="z">
+			Egypt.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -109,10 +196,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Muḥammad Rashīd Riḍā.
+			Muḥammad Rashīd Riḍā.
 		</subfield>
 		<subfield code="t">
-			al-Manār wa-al-Azhar
+			al-Manār wa-al-Azhar
 		</subfield>
 		<subfield code="w">
 			(NNU)001679786
@@ -121,6 +208,58 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/98sf7q4j
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			محمد رشيد رضا.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			المنار والأزهر :
+		</subfield>
+		<subfield code="b">
+			كتاب يشتمل عل مقدمة في ماضي الازهر وحاضره ومستقبله ومقالات في الرد على مجلة الازهر (نور الاسلام) في طعنها على المنار وتأييدها البدع والخرافات وخاتمة في خلاصة سعي صاحب المنار لاصلاح الازهر في مدة 35 سنة /
+		</subfield>
+		<subfield code="c">
+			بقلم محمد رشيد رضا.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			مطبعة المنار،
+		</subfield>
+		<subfield code="c">
+			1352 [1933 or 1934]
+		</subfield>
+	</datafield>
+	<datafield ind1="2" ind2="0" tag="880">
+		<subfield code="6">
+			610-05/
+		</subfield>
+		<subfield code="a">
+			جامعة الازهر.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -149,9 +288,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001556
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

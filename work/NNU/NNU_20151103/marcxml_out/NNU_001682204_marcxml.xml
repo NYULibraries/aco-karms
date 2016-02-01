@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01666nam a2200349   4500
+		02290nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		001682204
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1956    iq a    ob    000 0 ara d
+		160201s1956    iq a    ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -34,31 +37,45 @@
 			a-iq---
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			SB364
+		</subfield>
+		<subfield code="b">
+			.D3 1956
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Dabbāgh, ʻAbd al-Wahhāb.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Nakhīl wa-al-tumūr fī al-ʻIrāq
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="a">
+			al-Nakhīl wa-al-tumūr fī al-ʻIrāq :
 		</subfield>
 		<subfield code="b">
-			taḥlīl jughrāfī li-zirāʻat al-nakhīl wa-intāj al-tumūr wa-ṣināʻatihā wa-tijāratihā /
+			taḥlīl jughrāfī li-zirāʻat al-nakhīl wa-intāj al-tumūr wa-ṣināʻatihā wa-tijāratihā /
 		</subfield>
 		<subfield code="c">
-			ʻAbd al-Wahhāb al-Dabbāgh.
+			ʻAbd al-Wahhāb al-Dabbāgh.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Baghdād :
+			Baghdād :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat al-Ummah,
+			Maṭbaʻat al-Ummah,
 		</subfield>
 		<subfield code="c">
 			1956.
@@ -66,15 +83,39 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (324 p.) :
+			online resource (324 pages) :
 		</subfield>
 		<subfield code="b">
-			ill.
+			illustrations
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			&quot;Risālat al-mājistīr allatī qaddamahā al-muʼallif ilá Jāmiʻat Birminkh́ām bi-Inkiltirā sanat 1948 wa-taʻdīlātuhā hattá sanat 1956.&quot;
+			&quot;Risālat al-mājistīr allatī qaddamahā al-muʼallif ilá Jāmiʻat Birminkh́ām bi-Inkiltirā sanat 1948 wa-taʻdīlātuhā hattá sanat 1956.&quot;
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -89,17 +130,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Bibliography: p. 319-322.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Added cover title in English.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Table of contents in English.
+			Includes bibliographical references (pages 319-322).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -135,6 +166,39 @@
 			Iraq.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Date palm.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00888080
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Dates (Fruit)
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01430161
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Iraq.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01205757
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -148,7 +212,7 @@
 			Arabic Collections Online.
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="1" tag="740">
+	<datafield ind1="0" ind2=" " tag="740">
 		<subfield code="a">
 			Date palms and dates of Iraq.
 		</subfield>
@@ -161,7 +225,7 @@
 			Dabbāgh, ʻAbd al-Wahhāb.
 		</subfield>
 		<subfield code="t">
-			al-Nakhīl wa-al-tumūr fī al-ʻIrāq
+			al-Nakhīl wa-al-tumūr fī al-ʻIrāq
 		</subfield>
 		<subfield code="w">
 			(NNU)001682204
@@ -170,6 +234,42 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/8gthtb95
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			دباغ، عبد الوهاب.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			النخيل والتمور في العراق :
+		</subfield>
+		<subfield code="b">
+			تحليل جغرافي لزراعة النخيل وإنتاج التمور وصناعتها وتجارتها /
+		</subfield>
+		<subfield code="c">
+			عبد الوهاب الدباغ.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			مطبعة الأمة،
+		</subfield>
+		<subfield code="c">
+			1956.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -198,9 +298,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001582
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

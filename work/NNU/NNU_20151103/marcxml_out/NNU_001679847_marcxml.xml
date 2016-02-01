@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01585nam a2200337   4500
+		02360nam a2200481   4500
 	</leader>
 	<controlfield tag="001">
 		001679847
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1939    ua      ob    001 0 ara d
+		160201s1939    ua      ob    001 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -37,7 +40,18 @@
 			fre
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			HG1316
+		</subfield>
+		<subfield code="b">
+			.A6 1939
+		</subfield>
+	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Anistās Mārī,
 		</subfield>
@@ -49,19 +63,27 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Nuqūd al-ʻArabīyah wa-ʻilm al-nummayāt
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource].
+		<subfield code="a">
+			al-Nuqūd al-ʻArabīyah wa-ʻilm al-nummayāt.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="5" tag="246">
+		<subfield code="a">
+			Nuqud al-ʻArabiyeh wa ʻilm an-Nummiyat
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Qāhirah :
+			al-Qāhirah :
 		</subfield>
 		<subfield code="b">
-			al-Maktabah al-ʻAṣrīyah,
+			al-Maktabah al-ʻAṣrīyah,
 		</subfield>
 		<subfield code="c">
 			1939.
@@ -69,27 +91,36 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (259 p.)
+			online resource (259 pages)
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
+	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">
-			Title on added t.p.: An-Nuqud al-ʻArabiyeh wa ʻilm an-Nummiyat, ou, Monnaies Arabes et Numismatique d'après les Meilleurs Auteurs de Langue Arabe.
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
+	<datafield ind1=" " ind2=" " tag="337">
 		<subfield code="a">
-			Summary in French.
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
 			Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">
-			Includes bibliographical references and indexes.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -109,6 +140,26 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="561">
+		<subfield code="a">
+			From Mahmoud Saba's personal library collection at the American University in Cairo.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">
+			Title on added t.p.: An-Nuqud al-ʻArabiyeh wa ʻilm an-Nummiyat, ou, Monnaies Arabes et Numismatique d'après les Meilleurs Auteurs de Langue Arabe.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">
+			Summary in French.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="504">
+		<subfield code="a">
+			Includes bibliographical references and indexes.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">
 			Islamic numismatics.
@@ -117,6 +168,44 @@
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">
 			Coins, Arab.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Coins, Arab.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00866694
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Islamic numismatics.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01730353
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="700">
+		<subfield code="a">
+			Saba, Mahmoud.
+		</subfield>
+		<subfield code="t">
+			Saba Personal Library Collection.
+		</subfield>
+	</datafield>
+	<datafield ind1="2" ind2="2" tag="710">
+		<subfield code="a">
+			American University in Cairo.
+		</subfield>
+		<subfield code="t">
+			Saba Personal Library Collection.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -134,12 +223,7 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
 		<subfield code="a">
-			Monnaies arabes et numismatique d'après les meilleurs auteurs de langue arabe.
-		</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="740">
-		<subfield code="a">
-			Nuqud al-ʻArabiyeh wa ʻilm an-Nummiyat.
+			Monnaies arabes et numismatique d'après les meilleurs auteurs de langue arabe.
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
@@ -150,7 +234,7 @@
 			Anistās Mārī, al-Karmilī, ab, 1866-1947.
 		</subfield>
 		<subfield code="t">
-			al-Nuqūd al-ʻArabīyah wa-ʻilm al-nummayāt
+			al-Nuqūd al-ʻArabīyah wa-ʻilm al-nummayāt
 		</subfield>
 		<subfield code="w">
 			(NNU)001679847
@@ -159,6 +243,42 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/x0k6dnqk
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			أنستاس ماري،
+		</subfield>
+		<subfield code="c">
+			الكرملي، أب،
+		</subfield>
+		<subfield code="d">
+			1866-1947.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			النقود العربية وعلم النميات.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			المكتبة العصرية،
+		</subfield>
+		<subfield code="c">
+			1939.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
