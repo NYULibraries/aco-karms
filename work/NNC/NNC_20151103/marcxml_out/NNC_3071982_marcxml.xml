@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01276nam a2200325   4500
+		01776nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		3071982
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1935    ua b    o     000 0dara d
+		160223s1935    ua b    o     000 0dara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,18 +33,36 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Riḍā, Muḥammad.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Abū Bekr al-sadīq.
+			Abū Bakr al-Ṣiddīq :
+		</subfield>
+		<subfield code="b">
+			awwal al-khulafāʼ al-Rāshidīn /
+		</subfield>
+		<subfield code="c">
+			taʼlīf Muḥammad Riḍā.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Cairo,
+			Miṣr :
+		</subfield>
+		<subfield code="b">
+			Maṭbaʻat ʻIsá al-Bābī al-Ḥalabī,
 		</subfield>
 		<subfield code="c">
 			1935.
@@ -105,6 +123,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Abū Bakr,
 		</subfield>
@@ -169,7 +190,7 @@
 			Riḍā, Muḥammad.
 		</subfield>
 		<subfield code="t">
-			Abū Bekr al-sadīq
+			Abū Bakr al-Ṣiddīq
 		</subfield>
 		<subfield code="w">
 			(NNC)3071982
@@ -181,6 +202,56 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/tmpg4j97
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			رضا، محمد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			ابو بكر الصديق :
+		</subfield>
+		<subfield code="b">
+			اول الخلفاء الراشدين /
+		</subfield>
+		<subfield code="c">
+			تأليف محمد رضا.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			مطبعة عيسى البابي الحلبي،
+		</subfield>
+		<subfield code="c">
+			1935.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">
+			600-04/r
+		</subfield>
+		<subfield code="a">
+			ابو بكر،
+		</subfield>
+		<subfield code="c">
+			Caliph,
+		</subfield>
+		<subfield code="d">
+			-634.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -208,13 +279,16 @@
 			NNC_3071982
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm47827255 
+			(OCoLC)ocm47827255
 		</subfield>
 		<subfield code="s">
 			columbia_aco001467
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001467
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02303nam a2200433   4500
+		02795nam a2200481   4500
 	</leader>
 	<controlfield tag="001">
 		3369611
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19571959iq      oc    000 0 arard
+		160223m19571959iq      oc    000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -46,11 +46,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			ʻAwwād, Kūrkīs.
+			ʻAwwād, Kūrkīs. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Makhṭūṭāt al-tārīkhīyah fī khizānat kutub al-Matḥaf al-ʻIrāqī bi-Baghdād /
 		</subfield>
@@ -64,6 +70,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="i">
 			Title from v. 2-3, t.p.:
 		</subfield>
@@ -80,6 +89,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Baghdād :
 		</subfield>
@@ -261,6 +273,50 @@
 			http://hdl.handle.net/2333.1/12jm6711
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			عواد، كوركيس. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			المخطوطات التاريخية في خزانة كتب المتحف العراقي ببغداد /
+		</subfield>
+		<subfield code="c">
+			بقلم كوركيس عواد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			246-03/r
+		</subfield>
+		<subfield code="i">
+			Title from v. 2-3, t.p.:
+		</subfield>
+		<subfield code="a">
+			مخطوطاب العربية في مكتبة المتحف العراقي ببغداد
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			مطبعة الرابطة،
+		</subfield>
+		<subfield code="c">
+			1957-1959.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -286,13 +342,16 @@
 			NNC_3369611
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm39835018 
+			(OCoLC)ocm39835018
 		</subfield>
 		<subfield code="s">
 			columbia_aco001517:v.1-3
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001517:v.1-3
 		</subfield>
 	</datafield>
 </record>

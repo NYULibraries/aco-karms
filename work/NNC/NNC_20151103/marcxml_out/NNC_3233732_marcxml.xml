@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01236nam a2200289   4500
+		01938nam a2200337   4500
 	</leader>
 	<controlfield tag="001">
 		3233732
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1928    xx      o     000 0 ara d
+		160223s1928    xx      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ibn al-Jawzī, Abū al-Faraj ʻAbd al-Raḥmān ibn ʻAlī,
 		</subfield>
@@ -49,13 +52,28 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Akhbār al-Ẓirāf.
+			Akhbār al-ẓirāf wa-al-mutamājinīn /
+		</subfield>
+		<subfield code="c">
+			taʼlīf Abī al-Faraj ʻAbd al-Raḥmān ibn al-Jawzī ; ʻAn nuskhat al-Khizānah al-Taymūrīyah al-Qayyimah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			Dimashq :
+		</subfield>
+		<subfield code="b">
+			Maṭbaʻat al-Tawfīq,
+		</subfield>
 		<subfield code="c">
-			[1928]
+			1347 [1928]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -109,6 +127,11 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Arabic wit and humor.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -130,7 +153,7 @@
 			Ibn al-Jawzī, Abū al-Faraj ʻAbd al-Raḥmān ibn ʻAlī, approximately 1116-1201.
 		</subfield>
 		<subfield code="t">
-			Akhbār al-Ẓirāf
+			Akhbār al-ẓirāf wa-al-mutamājinīn
 		</subfield>
 		<subfield code="w">
 			(NNC)3233732
@@ -142,6 +165,42 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/cfxpp02r
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ابن الجوزي، ابو الفرج عبد الرحمن بن علي،
+		</subfield>
+		<subfield code="d">
+			approximately 1116-1201.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			اخبار الظراف والمتماجنين /
+		</subfield>
+		<subfield code="c">
+			تأليف ابي الفرج عبد الرحمن بن الجوزي ؛ عن نسخة الخزانة التيمورية القيمة.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			دمشق :
+		</subfield>
+		<subfield code="b">
+			مطبعة التوفيق،
+		</subfield>
+		<subfield code="c">
+			1347 [1928]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -169,13 +228,16 @@
 			NNC_3233732
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23489730 
+			(OCoLC)ocm23489730
 		</subfield>
 		<subfield code="s">
 			columbia_aco001521
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001521
 		</subfield>
 	</datafield>
 </record>

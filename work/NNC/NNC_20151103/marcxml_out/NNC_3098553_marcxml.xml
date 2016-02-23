@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02355nam a2200445   4500
+		02382nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		3098553
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1898    le      od    000 0 ara d
+		160223s1898    le      od    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -48,7 +48,7 @@
 			ʻAṭīyah, Rashīd,
 		</subfield>
 		<subfield code="e">
-			author.
+			author. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
@@ -63,6 +63,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="264">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			[Bayrūt] :
 		</subfield>
@@ -75,7 +78,7 @@
 	</datafield>
 	<datafield ind1=" " ind2="3" tag="264">
 		<subfield code="6">
-			880-03
+			880-04
 		</subfield>
 		<subfield code="a">
 			Bayrūt :
@@ -294,7 +297,7 @@
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
 		<subfield code="6">
-			264-00/r
+			264-03/r
 		</subfield>
 		<subfield code="a">
 			[بيروت] :
@@ -308,13 +311,13 @@
 	</datafield>
 	<datafield ind1=" " ind2="3" tag="880">
 		<subfield code="6">
-			264-03/r
+			264-04/r
 		</subfield>
 		<subfield code="a">
 			بيروت :
 		</subfield>
 		<subfield code="b">
-			مطبعة ال فوائد،
+			مطبعة الفوائد،
 		</subfield>
 		<subfield code="c">
 			1898.
@@ -345,13 +348,16 @@
 			NNC_3098553
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm34702757 
+			(OCoLC)ocm34702757
 		</subfield>
 		<subfield code="s">
 			columbia_aco001531
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001531
 		</subfield>
 	</datafield>
 </record>

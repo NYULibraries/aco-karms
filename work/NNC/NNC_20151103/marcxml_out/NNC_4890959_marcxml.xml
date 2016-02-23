@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02029nam a2200373   4500
+		02572nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		4890959
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1875    ua      od    000 0 ara d
+		160223s1875    ua      od    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Jawharī, Ismāʻīl ibn Ḥammād,
 		</subfield>
@@ -41,21 +44,30 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Tāj al-lughah wa-ṣiḥāḥ al-ʻArabīyah
+			Tāj al-lughah wa-ṣiḥāḥ al-ʻArabīyah.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Al-Ṣiḥāḥ fi al-lughah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			[Bulāq] :
+			[Būlāq] :
 		</subfield>
 		<subfield code="b">
-			Bulāq,
+			Būlāq,
 		</subfield>
 		<subfield code="c">
 			1292 A.H. [1875 A.D.]
@@ -148,6 +160,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Hūrīnī, Naṣr,
 		</subfield>
@@ -156,8 +171,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
-			Maghribī, ʻAbd al-Rahmān ibn ʻAbd al-Azīz.
+			Maghribī, ʻAbd al-Rahmān ibn ʻAbd al-ʻAzīz.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -215,6 +233,66 @@
 			http://hdl.handle.net/2333.1/rjdfn65m
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			جوهري، اسماعيل بن حماد،
+		</subfield>
+		<subfield code="d">
+			-1003؟
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02/r
+		</subfield>
+		<subfield code="a">
+			تاج اللغة وصحاح العربية.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-03/r
+		</subfield>
+		<subfield code="a">
+			الصحاح في اللغة.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			[بولاق] :
+		</subfield>
+		<subfield code="b">
+			بولاق،
+		</subfield>
+		<subfield code="c">
+			1292 ا.ه. [1875 ا.د.]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/r
+		</subfield>
+		<subfield code="a">
+			هوريني، نصر،
+		</subfield>
+		<subfield code="d">
+			-1874 or 1875.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-06/r
+		</subfield>
+		<subfield code="a">
+			مغربي، عبد الرحمان بن عبد العزيز.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -240,7 +318,7 @@
 			NNC_4890959
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm56933737 
+			(OCoLC)ocm56933737
 		</subfield>
 		<subfield code="s">
 			columbia_aco001502:v.1
@@ -250,6 +328,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001502:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001503:v.2
 		</subfield>
 	</datafield>
 </record>

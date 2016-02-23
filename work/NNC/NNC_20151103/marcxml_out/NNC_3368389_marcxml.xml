@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		03107nam a2200481   4500
+		03197nam a2200493   4500
 	</leader>
 	<controlfield tag="001">
 		3368389
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19511968sy afj  ob    001 0 arao 
+		160223m19511968sy afj  ob    001 0 arao 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -56,9 +56,17 @@
 			1192-1262.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="0" tag="240">
 		<subfield code="6">
 			880-02
+		</subfield>
+		<subfield code="a">
+			tārīkh Ḥalab 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
 		</subfield>
 		<subfield code="a">
 			Zubdat al-ḥalab min tārīkh Ḥalab /
@@ -74,7 +82,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-03
+			880-04
 		</subfield>
 		<subfield code="a">
 			[Dimashq] :
@@ -135,7 +143,7 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="505">
 		<subfield code="6">
-			880-04
+			880-05
 		</subfield>
 		<subfield code="a">
 			al-juzʼ1. 1 H.-457 H. [622-1064] -- al-juzʼ 2. 457 H.-569 H. [1064-1173] -- al-juzʼ 3. 569 H.-641 H. [1173-1243].
@@ -193,7 +201,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-05
+			880-06
 		</subfield>
 		<subfield code="a">
 			Dahhān, Sāmī.
@@ -259,7 +267,7 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			ابن العديم، كمال الدين عمر بن أحمد،,
+			ابن العديم، كمال الدين عمر بن أحمد،
 		</subfield>
 		<subfield code="d">
 			1192-1262.
@@ -267,7 +275,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			240-00/r
+			240-02/r
 		</subfield>
 		<subfield code="a">
 			تاريخ حلب
@@ -275,7 +283,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-02/r
+			245-03/r
 		</subfield>
 		<subfield code="a">
 			زبدة الحلب من تاريخ حلب /
@@ -286,7 +294,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-03/r
+			260-04/r
 		</subfield>
 		<subfield code="a">
 			دمشق :
@@ -300,7 +308,7 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
 		<subfield code="6">
-			505-04/r
+			505-05/r
 		</subfield>
 		<subfield code="a">
 			الجزء1. 1 ه.-457 ه. -- الجزء 2. 457 ه.-569 ه. -- الجزء 3. 569 ه.-641 ه.
@@ -308,7 +316,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-05/r
+			700-06/r
 		</subfield>
 		<subfield code="a">
 			سامي الدهان.
@@ -339,7 +347,7 @@
 			NNC_3368389
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm15730187 
+			(OCoLC)ocm15730187
 		</subfield>
 		<subfield code="s">
 			columbia_aco001432:v.1
@@ -349,6 +357,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001432:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001433:v.2
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02245nam a2200457   4500
+		02405nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		3063351
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19489999ua      o     000 0 arar 
+		160223m19489999ua      o     000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -53,7 +53,7 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			Manṭiq Arisṭū.
+			Manṭiq Arisṭū /
 		</subfield>
 		<subfield code="c">
 			ḥaqqaqahu wa-qaddama lahu ʻAbd al-Raḥmān Badawī.
@@ -213,6 +213,20 @@
 			(OCoLC)17403278
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="800">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Badawī, ʻAbd al-Raḥmān.
+		</subfield>
+		<subfield code="t">
+			Dirāsāt Islāmīyah ;
+		</subfield>
+		<subfield code="v">
+			7.
+		</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/vmcvdrkd
@@ -245,7 +259,7 @@
 			منطق ارسطو /
 		</subfield>
 		<subfield code="c">
-			حققه وقدم له عبدالرحمن بدوي.
+			حققه وقدم له عبد الرحمن بدوي.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
@@ -283,13 +297,13 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			800-00/r
+			800-05/r
 		</subfield>
 		<subfield code="a">
 			بدوي، عبد الرحمن.
 		</subfield>
 		<subfield code="t">
-			دراسات اسلامية ؛ ;
+			دراسات اسلامية ؛ 
 		</subfield>
 		<subfield code="v">
 			٧.
@@ -320,7 +334,7 @@
 			NNC_3063351
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm17403278 
+			(OCoLC)ocm17403278
 		</subfield>
 		<subfield code="s">
 			columbia_aco001541:v.1
@@ -333,6 +347,15 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)(ERROR-SERIES)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001541:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001542:v.2
+		</subfield>
+		<subfield code="s">
+			columbia_aco001543:v.3
 		</subfield>
 	</datafield>
 </record>

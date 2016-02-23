@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01693nam a2200337   4500
+		02332nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		650274
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1925    sj      o     000 0 ara d
+		160223s1925    sj      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="245">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Mukhtārāt al-sāʼigh :
 		</subfield>
@@ -44,11 +47,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Umm Durmān :
 		</subfield>
@@ -146,6 +155,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Hindī, ʻAwaḍ al-Karīm Muḥammad.
 		</subfield>
@@ -180,6 +192,50 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/tb2rbs5f
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">
+			245-01/r
+		</subfield>
+		<subfield code="a">
+			مختارات الصائغ :
+		</subfield>
+		<subfield code="b">
+			من كتب الدنيا والدين وهي 360 كتاب في التوحيد والفقه والقرآن والحديث والتصوف والطب الحديث والطب القديم والطب الاهلي وحكم والفوائد والادب /
+		</subfield>
+		<subfield code="c">
+			جمعه عوض الكريم محمد هندي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-02/r
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			ام درمان :
+		</subfield>
+		<subfield code="b">
+			مطبعة التوفيق الادبية،
+		</subfield>
+		<subfield code="c">
+			1925.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/r
+		</subfield>
+		<subfield code="a">
+			هندي، عوض الكريم محمد.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -217,6 +273,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001399:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001400:v.2
 		</subfield>
 	</datafield>
 </record>

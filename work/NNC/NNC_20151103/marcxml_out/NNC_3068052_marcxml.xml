@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02037nam a2200433   4500
+		02751nam a2200505   4500
 	</leader>
 	<controlfield tag="001">
 		3068052
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1956    sy h    ob    000 0 ara d
+		160223s1956    sy h    ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -46,6 +46,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ibn Ṭūlūn, Shams al-Dīn Muḥammad ibn ʻAlī,
 		</subfield>
@@ -54,6 +57,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Quḍāt Dimashq :
 		</subfield>
@@ -65,6 +71,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Dimashq :
 		</subfield>
@@ -206,22 +215,28 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Munajjid, Ṣalāḥ al-Dīn,
 		</subfield>
 		<subfield code="e">
-			editor.
+			editor. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Nuʻaymī, ʻAbd al-Qādir ibn Muḥammad,
 		</subfield>
 		<subfield code="d">
-			1442-1521.
+			 1442-1521.
 		</subfield>
 		<subfield code="t">
-			Quḍāt al-Shāfi 'īyah.
+			Quḍāt al-Shāfi 'īyah. 
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -238,6 +253,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Thaghr al-bassum.
 		</subfield>
@@ -262,6 +280,78 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/nvx0k9k2
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ابن طولون، شمس الدين محمد بن علي،
+		</subfield>
+		<subfield code="d">
+			1485؟1546.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			قضاة دمشق :
+		</subfield>
+		<subfield code="b">
+			الثغر البسام في ذكر من وُلّي قضاء الشام /
+		</subfield>
+		<subfield code="c">
+			تأليف شمس الدين ابن طولون ؛ تحقيق صلاح الدين منجد.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			دمشق :
+		</subfield>
+		<subfield code="b">
+			مطبوعات المجمع العلمي العربي،
+		</subfield>
+		<subfield code="c">
+			1956.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/r
+		</subfield>
+		<subfield code="a">
+			منجد، صلاح الدين،
+		</subfield>
+		<subfield code="e">
+			editor. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/r
+		</subfield>
+		<subfield code="a">
+			نعيمي، عبد القادر بن محمد،
+		</subfield>
+		<subfield code="d">
+			1442-1521.
+		</subfield>
+		<subfield code="t">
+			قضات الشافعية. 
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			740-06/r
+		</subfield>
+		<subfield code="a">
+			ثغر البسم.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -289,13 +379,16 @@
 			NNC_3068052
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm41597021 
+			(OCoLC)ocm41597021
 		</subfield>
 		<subfield code="s">
 			columbia_aco001445
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001445
 		</subfield>
 	</datafield>
 </record>

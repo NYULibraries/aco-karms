@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01768nam a2200325   4500
+		02624nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		3123181
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19281931ua      o     000 0 ara d
+		160223m19281931ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,35 +33,47 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Sayyāghī, Ḥusayn ibn Aḥmad.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Rawḍ al-naḍīr sharḥ Majmūʻ al-fiqh al-kabīr
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Kitāb al-Rawd al-naḍīr;
+			Kitāb al-Rawḍ al-naḍīr :
 		</subfield>
 		<subfield code="b">
-			sharḥ Majmū al-fiqh al-kabīr,
+			sharḥ Majmūʻ al-fiqh al-kabīr /
 		</subfield>
 		<subfield code="c">
-			taʼ līf Sharaf al-Dīn al-Ḥusayn ibn Aḥmad ibn al-Husaun ibn Ahmad ibn Alī ibn Muhammad ibn Sulaymān ibn Ṣāliḥ al-Sayyāghī al-Ḥaymī al-Ṣanʻānī (al-mutawaffā bi- Sanʻā al-Yaman fī jumādā-al-ūlā sanata 1221 h. ʻan arbaʻīn sanah).
+			taʼlīf Sharaf al-Dīn al-Ḥusayn ibn Aḥmad ibn al-Ḥusayn ibn Aḥmad ibn ʻAlī ibn Muḥammad ibn Sulaymān ibn Ṣāliḥ al-Sayyāghī al-Ḥaymī al-Ṣanʻānī. (al-mutawaffā bi-Sanʻā al-Yaman fī jumādā-al-ūlá sanata 1221 h. ʻan arbaʻīn sanah).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Miṣr,
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			Maṭb. al-Saʻādah,
+			Maṭbʻat al-Saʻādah,
 		</subfield>
 		<subfield code="c">
-			1347-49 [i.e. 1350] h. [1928-31]
+			1347-1349 h. [1928-1931]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -132,6 +144,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Abū Ḥanīfah,
 		</subfield>
@@ -160,7 +175,7 @@
 			Sayyāghī, Ḥusayn ibn Aḥmad.
 		</subfield>
 		<subfield code="t">
-			Kitāb al-Rawd al-naḍīr;
+			Kitāb al-Rawḍ al-naḍīr
 		</subfield>
 		<subfield code="w">
 			(NNC)3123181
@@ -172,6 +187,61 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/hx3fffkh
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			سياغي، حسين بن احمد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02/r
+		</subfield>
+		<subfield code="a">
+			روض النضير شرح مجموع الفقه الكبير
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-03/r
+		</subfield>
+		<subfield code="a">
+			كتاب الروض النضير :
+		</subfield>
+		<subfield code="b">
+			شرح مجموع الفقه الكبير /
+		</subfield>
+		<subfield code="c">
+			تأليف شرف الدين الحسين بن احمد بن الحسين بن احمد بن علي بن محمد بن سليمان بن صالح السياغي الحيمي الصنعاني. (لمتوفى بصنعاء اليمن في جمادى الاولى سنت 1221 ه. عن اربعين سنه).
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			مطبعة السعادة،
+		</subfield>
+		<subfield code="c">
+			1347-1349 ه. [1928-1931]
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/r
+		</subfield>
+		<subfield code="a">
+			ابو حنيفة،
+		</subfield>
+		<subfield code="d">
+			-767 or 768.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -199,7 +269,7 @@
 			NNC_3123181
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm48228778 
+			(OCoLC)ocm48228778
 		</subfield>
 		<subfield code="s">
 			columbia_aco001544:v.1
@@ -215,6 +285,18 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001544:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001545:v.2
+		</subfield>
+		<subfield code="s">
+			columbia_aco001546:v.3
+		</subfield>
+		<subfield code="s">
+			columbia_aco001547:v.4
 		</subfield>
 	</datafield>
 </record>

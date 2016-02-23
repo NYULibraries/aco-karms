@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02637nam a2200433   4500
+		02864nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		3368381
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19369999ua      o     000 0 ara d
+		160223m19369999ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -52,6 +52,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Tārīkh Ibn Khaldūn fī ayyām al-ʻArab wa-al-ʻajam ...
 		</subfield>
@@ -60,8 +63,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Cairo,
+			Miṣr :
 		</subfield>
 		<subfield code="c">
 			Maṭbaʻat al-Nahḍah,
@@ -161,6 +167,36 @@
 			(OCoLC)fst01411636
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Fāsī, ʻAllāl.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			ʻAbd al-ʻAzīz ibn Idrīs.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			Arslān, Shakīb,
+		</subfield>
+		<subfield code="c">
+			Amīr,
+		</subfield>
+		<subfield code="d">
+			1869-1946.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -223,7 +259,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-00/r
+			245-02/r
 		</subfield>
 		<subfield code="a">
 			تاريخ ابن خلدون في ايام العرب والعجم والبربر :
@@ -232,26 +268,26 @@
 			ومن عاصرهم من ذوي السلطان الاكبر المسمى بكتاب العبر وديوان المبتدأ والخبر /
 		</subfield>
 		<subfield code="c">
-			تأليف عبد الرحمم بن خلدون. مصحح الاصول ومضبوط الاعلام بعناية علال الفاسي وعبد العزيز بن ادريس، ومعلقا عليه الامير شكيب ارسلان.
+			تأليف عبد الرحمن بن خلدون. مصحح الاصول ومضبوط الاعلام بعناية علال الفاسي وعبد العزيز بن ادريس، ومعلقا عليه الامير شكيب ارسلان.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
-			القاهرة :
-		</subfield>
-		<subfield code="b">
-			محمد المهدي الحبابي،
+			مصر :
 		</subfield>
 		<subfield code="c">
-			1355-
+			مطبعة النهضة،
+		</subfield>
+		<subfield code="c">
+			1936
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-04/r
 		</subfield>
 		<subfield code="a">
 			فاسي، علال.
@@ -259,7 +295,7 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-05/r
 		</subfield>
 		<subfield code="a">
 			عبد العزيز بن ادريس.
@@ -267,10 +303,16 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-06/r
 		</subfield>
 		<subfield code="a">
-			ارسلان، شكيب،
+			ارسلان، شكيب
+		</subfield>
+		<subfield code="c">
+			Amīr,
+		</subfield>
+		<subfield code="d">
+			1869-1946.
 		</subfield>
 		<subfield code="c">
 			امير.
@@ -301,7 +343,7 @@
 			NNC_3368381
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm42819482 
+			(OCoLC)ocm42819482
 		</subfield>
 		<subfield code="s">
 			columbia_aco001561:v.1
@@ -311,6 +353,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001561:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001562:v.2
 		</subfield>
 	</datafield>
 </record>

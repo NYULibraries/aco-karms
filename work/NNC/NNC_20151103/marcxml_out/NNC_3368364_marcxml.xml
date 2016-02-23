@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02618nam a2200457   4500
+		02672nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		3368364
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1961    sy a    o     000 0 arard
+		160223s1961    sy a    o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -63,8 +63,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Dimashq,
+			Dimashq :
+		</subfield>
+		<subfield code="b">
+			Maṭbūʻāt Majmaʻ al-Lughah al-ʻArabīyah, 
 		</subfield>
 		<subfield code="c">
 			1961.
@@ -104,7 +110,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="6">
-			880-03
+			880-04
 		</subfield>
 		<subfield code="a">
 			Majmaʻ al-Lughah al-ʻArabīyah bi-Dimashq. Maṭbūʻāt
@@ -164,7 +170,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-04
+			880-05
 		</subfield>
 		<subfield code="a">
 			Ḥasan, ʻIzzat.
@@ -218,6 +224,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="810">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Majmaʻ al-Lughah al-ʻArabīyah bi-Dimashq.
 		</subfield>
@@ -235,7 +244,10 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			أبو مسهل العربي، عبد الوهاب بن حريش.
+			أبو مسحل العربي، عبد الوهاب بن حريش،
+		</subfield>
+		<subfield code="d">
+			active 9th century.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -246,12 +258,12 @@
 			كتاب النوادر /
 		</subfield>
 		<subfield code="c">
-			تأليف أبي مسهل العربي عبد الوهاب بن حريش ؛ عني بتحقيقه عزت حسن.
+			تأليف أبي مسحل العربي عبد الوهاب بن حريش ؛ عني بتحقيقه عزة حسن.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			دمشق :
@@ -265,7 +277,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			490-00/r
+			490-04/r
 		</subfield>
 		<subfield code="a">
 			مطبوعات مجمع اللغة العربية بدمشق
@@ -273,26 +285,21 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
 		<subfield code="6">
-			490-03/r
-		</subfield>
-		<subfield code="a">
-			مطبوعات مجمع اللغة العربية بدمشق
-		</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">
-			700-04/r
+			700-05/r
 		</subfield>
 		<subfield code="a">
 			عزة حسن.
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="880">
+	<datafield ind1="2" ind2=" " tag="880">
 		<subfield code="6">
-			830-00/r
+			810-06/r
 		</subfield>
 		<subfield code="a">
-			مطبوعات مجمع اللغة العربية بدمشق.
+			مجمع اللغة العربية بدمشق.
+		</subfield>
+		<subfield code="t">
+			مطبوعات.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -320,7 +327,7 @@
 			NNC_3368364
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm18769412 
+			(OCoLC)ocm18769412
 		</subfield>
 		<subfield code="s">
 			columbia_aco001506:v.1
@@ -330,6 +337,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001506:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001507:v.2
 		</subfield>
 	</datafield>
 </record>

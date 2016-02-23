@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02444nam a2200433   4500
+		02555nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		3068443
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1924    ua      ob    000 0 arard
+		160223s1924    ua      ob    000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -79,6 +79,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Miṣr :
 		</subfield>
@@ -175,6 +178,14 @@
 			(OCoLC)fst01411628
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Atharī, Muḥammad Bahjah.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -235,7 +246,10 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			آلوسي، محمود شكري.
+			آلوسي، محمود شكري،
+		</subfield>
+		<subfield code="d">
+			1857-1924.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -259,21 +273,21 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-04/r
 		</subfield>
 		<subfield code="a">
-			مصر [القاهرة] :
+			مصر :
 		</subfield>
 		<subfield code="b">
-			المطبعة الرحمانية،
+			مطبعة الرحمانية،
 		</subfield>
 		<subfield code="c">
-			١٩٢٤-١٩٢٥.
+			1924.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-05/r
 		</subfield>
 		<subfield code="a">
 			أثري، محمد بهجة.
@@ -304,7 +318,7 @@
 			NNC_3068443
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm40219697 
+			(OCoLC)ocm40219697
 		</subfield>
 		<subfield code="s">
 			columbia_aco001488:v.1
@@ -317,6 +331,15 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001488:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001489:v.2
+		</subfield>
+		<subfield code="s">
+			columbia_aco001490:v.3
 		</subfield>
 	</datafield>
 </record>

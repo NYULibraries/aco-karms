@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02026nam a2200349   4500
+		02646nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		3087679
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19251927ua      o     000 0 ara d
+		160223m19251927ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Qarāfī, Aḥmad ibn Idrīs,
 		</subfield>
@@ -41,19 +44,25 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Furūq :
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="b">
-			li-Shihāb-al-Dīn Abī al-ʻAbbās Aḥmad ibn Idrīs al-Ṣanhājī al-mashhūr bi-al-Qarāfī. Wa-al-itamām al-nafʻ ... waḍaʻnā biʼ aʻlā al-ṣaḥāʼif kitāb al-Furūq wabiʻ asfalihā Ḥāshiyat Sirāj-al Dīn Abī al-Qāsim ibn ʻAbd-Allāh al-Anṣārī al-maʻrūf bi Ibn al-Shāṭṭ, al-musammāh Idrār al-shurūq ʻalā anwāʼ al-Furūq ...
+		<subfield code="a">
+			al-Furūq /
+		</subfield>
+		<subfield code="c">
+			li-Shihāb al-Dīn Abī al-ʻAbbās Aḥmad ibn Idrīs bin ʻAbd al-Raḥṃan al-Ṣinhājī al-mashhūr bi-al-Qarāfī. Wa-bi-hāmishihi al-Kitābayn Tahdhīb al Furūq wa-al-Qawāʻid al-Sanīyah fī al-asrār al-fiqhiyah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			[Miṣr]
 		</subfield>
 		<subfield code="b">
-			Maṭb. Dār Iḥyāʼ al-Kutub al-ʻArabīyah,
+			Maṭbaʻat Dār Iḥyāʼ al-Kutub al-ʻArabīyah,
 		</subfield>
 		<subfield code="c">
 			1344-46 [1925-27]
@@ -160,6 +169,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Ibn al-Shāṭṭ, Qāsim ibn ʻAbd Allāh,
 		</subfield>
@@ -167,7 +179,7 @@
 			1245 or 1246-1323.
 		</subfield>
 		<subfield code="t">
-			Idrār al-shurūq ʻalʹa anwāʼ al-Furūq.
+			Idrār al-shurūq ʻalʹa anwāʼ al-Furūq. 
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -205,6 +217,56 @@
 			http://hdl.handle.net/2333.1/f4qrfnbh
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			قرافي، احمد بن ادريس،
+		</subfield>
+		<subfield code="d">
+			1285.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الفروق /
+		</subfield>
+		<subfield code="c">
+			لشهاب الدين ابي العباس احمد بن ادريس بن عبد الرحمن الصنهاجي المشهور بالقرافي. وبهامش الكتابين تهذيب الفروق والقواعد السنية في الاسرار الفقهية.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			[مصر]
+		</subfield>
+		<subfield code="b">
+			مطبعة دار احياء الكتب العربية،
+		</subfield>
+		<subfield code="c">
+			1344-46 [1925-27]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/r
+		</subfield>
+		<subfield code="a">
+			ابن الشاط، قاسم بن عبد الله،
+		</subfield>
+		<subfield code="d">
+			1245 or 1246-1323..
+		</subfield>
+		<subfield code="t">
+			ادرار الشروق عل انواء الفروق. 
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -230,7 +292,7 @@
 			NNC_3087679
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm47978182 
+			(OCoLC)ocm47978182
 		</subfield>
 		<subfield code="s">
 			columbia_aco001579:v.1
@@ -246,6 +308,18 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001579:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001580:v.2
+		</subfield>
+		<subfield code="s">
+			columbia_aco001581:v.3
+		</subfield>
+		<subfield code="s">
+			columbia_aco001582:v.4
 		</subfield>
 	</datafield>
 </record>

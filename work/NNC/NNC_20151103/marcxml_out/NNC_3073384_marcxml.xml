@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02586nam a2200433   4500
+		02767nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		3073384
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105r19631893iq      od    000 0 ara d
+		160223r19631893iq      od    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -56,7 +56,7 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			Fihrist mā rawāhu ʻan shuyūkhihi min al-dawāwīn al-muṣannafah fī ḍurūb /
+			Fihrist mā rawāhu ʻan shuyūkhihi min al-dawāwīn al-muṣannafah fī ḍurūb al-ʻilm wa anwāʻ al-maʻarif /
 		</subfield>
 		<subfield code="c">
 			al-Shaykh Abū Bakr Muḥammad ibn Khayr ibn ʻUmar ibn Khalīfah al-Amawī al-Ishbīlī.
@@ -118,7 +118,7 @@
 			rdacarrier
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="a">
 			Bibliotheca arabico-hispana ;
 		</subfield>
@@ -207,13 +207,21 @@
 			Ibn Khayr, Muḥammad, 1108 or 1109-1179 or 1180.
 		</subfield>
 		<subfield code="t">
-			Fihrist mā rawāhu ʻan shuyūkhihi min al-dawāwīn al-muṣannafah fī ḍurūb
+			Fihrist mā rawāhu ʻan shuyūkhihi min al-dawāwīn al-muṣannafah fī ḍurūb al-ʻilm wa anwāʻ al-maʻarif
 		</subfield>
 		<subfield code="w">
 			(NNC)3073384
 		</subfield>
 		<subfield code="w">
 			(OCoLC)42588825
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="a">
+			Bibliotheca arabico-hispana ;
+		</subfield>
+		<subfield code="v">
+			t. [9]-10
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
@@ -226,7 +234,7 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			إبن خير، محمد،,
+			إبن خير، محمد،
 		</subfield>
 		<subfield code="d">
 			1108 or 1109-1179 or 1180.
@@ -237,7 +245,7 @@
 			245-02/r
 		</subfield>
 		<subfield code="a">
-			فهرست ما رواه عن شيوخه من الدواوين المصنفة في ضروب /
+			فهرسة ما رواه عن شيوخه من الدواوين المصنفة في ضروب العلم و انواع المعارف /
 		</subfield>
 		<subfield code="c">
 			الشيخ ابو بكر محمد بن خير بن عمر بن خليفة الاموي الاشبيلي.
@@ -298,13 +306,16 @@
 			NNC_3073384
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm42588825 
+			(OCoLC)ocm42588825
 		</subfield>
 		<subfield code="s">
 			columbia_aco001485
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)(ERROR-SERIES)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001485
 		</subfield>
 	</datafield>
 </record>

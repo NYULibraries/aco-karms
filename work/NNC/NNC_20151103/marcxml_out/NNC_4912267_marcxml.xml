@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01804nam a2200349   4500
+		02430nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		4912267
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19291956ua      o     000 0 arard
+		160223m19291956ua      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -38,6 +38,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ibn Taghrībirdī, Abū al-Maḥāsin Yūsuf,
 		</subfield>
@@ -46,6 +49,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Nujūm al-zāhirah fī mulūk Miṣr wa-al-Qāhirah /
 		</subfield>
@@ -54,14 +60,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[al-Qāhirah]
+			al-Qāhirah :
 		</subfield>
 		<subfield code="b">
 			Dār al-Kutub al-Miṣrīyah,
 		</subfield>
 		<subfield code="c">
-			1929-56.
+			1929-1956.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -196,6 +205,42 @@
 			http://hdl.handle.net/2333.1/qjq2bzw2
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ابن تغريبردي، ابو المحاسن يوسف،
+		</subfield>
+		<subfield code="d">
+			1411-1470.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			النجوم الزاهرة في ملوك مصر والقاهرة /
+		</subfield>
+		<subfield code="c">
+			تأليف جمال الدين ابي المحاسن يوسف بن تغريبردي الاتابكي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			دار الكتب المصرية،
+		</subfield>
+		<subfield code="c">
+			1929-1956.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -221,7 +266,7 @@
 			NNC_4912267
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm57018377 
+			(OCoLC)ocm57018377
 		</subfield>
 		<subfield code="s">
 			columbia_aco001435:v.1
@@ -252,6 +297,33 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001435:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001436:v.2
+		</subfield>
+		<subfield code="s">
+			columbia_aco001437:v.3
+		</subfield>
+		<subfield code="s">
+			columbia_aco001438:v.4
+		</subfield>
+		<subfield code="s">
+			columbia_aco001439:v.5
+		</subfield>
+		<subfield code="s">
+			columbia_aco001440:v.6
+		</subfield>
+		<subfield code="s">
+			columbia_aco001441:v.7
+		</subfield>
+		<subfield code="s">
+			columbia_aco001442:v.8
+		</subfield>
+		<subfield code="s">
+			columbia_aco001443:v.9
 		</subfield>
 	</datafield>
 </record>
