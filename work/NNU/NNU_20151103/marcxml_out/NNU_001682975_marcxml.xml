@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01896nam a2200409   4500
+		01880nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		001682975
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160201s1936    ua      o     000 0 arar 
+		160223s1936    ua      o     000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -74,6 +74,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Iskandarīya :
 		</subfield>
@@ -81,7 +84,7 @@
 			Maṭb ʻat al-Mustaqbal,
 		</subfield>
 		<subfield code="c">
-			1926 [i.e. 1936]
+			1936.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -257,7 +260,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/
+			260-03/
 		</subfield>
 		<subfield code="a">
 			اسكندرية :
@@ -295,9 +298,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001498
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

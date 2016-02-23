@@ -7,7 +7,7 @@ Records MISSING KEY 880 script fields - batch NNU_20151103
     440, 490
     700, 710, 711, 730
     800, 810, 811, 830
-Report produced: 2016-02-01 08:33:17.065038
+Report produced: 2016-02-23 11:36:57.412017
 ---------------------------------------------------------------------
 FILE: NNU_20151103_1/NNU_20151103_1_orig_with_oclc_nums.mrc
 ---------------------------------------------------------------------
@@ -71,16 +71,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): nyu_aco001508
----------------------------------------------------------------------
-Institution ID: NNU_001628365
-   orig_rec_035 num: =035  \\$a(OCoLC)123021413
-Record 999:  NNU_001628365
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Īḍāh al-Farāʼid fī ʻilm al-uṣūl
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): nyu_aco001649:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_001674664
    orig_rec_035 num: =035  \\$a(OCoLC)55482705
@@ -196,18 +186,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): nyu_aco001577
 ---------------------------------------------------------------------
-Institution ID: NNU_001682975
-   orig_rec_035 num: =035  \\$a(OCoLC)23495047$z(OCoLC)5463003
-Record 999:  NNU_001682975
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - Iskandarīya : Maṭb ʻat al-Mustaqbal, 1926 [i.e. 1936]
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/ - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): nyu_aco001498
----------------------------------------------------------------------
 Institution ID: NNU_001684918
    orig_rec_035 num: =035  \\$a(OCoLC)504989715
 Record 999:  NNU_001684918
@@ -258,19 +236,62 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): nyu_aco001603
 ---------------------------------------------------------------------
----------------------------------------------------------------------
-FILE: NNU_20151103_1/NNU_20151103_1_orig_no_oclc_nums.mrc
+Institution ID: NNU_002657162
+   orig_rec_035 num: =035  \\$a(OCoLC)839776076
+Record 999:  NNU_002657162
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Les opuscules d'Ibn Sina
+   246 - Ibn Sina risâleleri
+   830 - İstanbul Üniversitesi Edebiyat Fakültesi yayınları ; no. 552.
+040 $e field: rda
+RDA fields: YES
+Source entities (book IDs): nyu_aco001622:v.1, nyu_aco001623:v.2
 ---------------------------------------------------------------------
 Institution ID: NNU_002750133
-   orig_rec_035 num: =035  9\$aNYUb10450001
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG86-B13372
+   orig_rec_035 num: =035  \\$a(OCoLC)13885046
 Record 999:  NNU_002750133
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Title on p. [4] of cover: Kawakib-us-sayyarah fi tartib-iz-ziyarah
+   246 - Kawakib-us-sayyarah fi tartib-iz-ziyarah
 040 $e field: [none]
-020s: YES
+RDA fields: YES
 Source entities (book IDs): nyu_aco001473
 ---------------------------------------------------------------------
-TOTAL Number of Records missing key 880 script fields: 25
+Institution ID: NNU_002933714
+   orig_rec_035 num: =035  \\$a(OCoLC)48385123
+Record 999:  NNU_002933714
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Maqama fi qawaʼid Baghdad fi ad-dawlat-il-ʻAbbasyyah
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): nyu_aco001460
+---------------------------------------------------------------------
+Institution ID: NNU_002961396
+   orig_rec_035 num: =035  \\$a(OCoLC)30000392
+Record 999:  NNU_002961396
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Sumerian costumes
+   700 - Sulyok, Gabriella.
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): nyu_aco001529
+---------------------------------------------------------------------
+Institution ID: NNU_002974256
+   orig_rec_035 num: =035  \\$a(OCoLC)79781962
+Record 999:  NNU_002974256
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - Gouin, Edouard.
+   240 - Égypte au XIXe siècle. Arabic
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): nyu_aco001463
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNU_20151103_1/NNU_20151103_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records missing key 880 script fields: 27
 
