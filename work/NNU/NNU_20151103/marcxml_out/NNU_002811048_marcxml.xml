@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01610nam a2200313   4500
+		02420nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		002811048
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160201r19851900ir      o     000 0 ara d
+		160223r19851900ir      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,53 +25,97 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			Damīrī, Muḥammad ibn Mūsá,
+			QL41
+		</subfield>
+		<subfield code="b">
+			.D3 1985
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Damīrī, Muḥammad ibn Mūsá,
 		</subfield>
 		<subfield code="d">
 			1341?-1405.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Ḥayāt al-ḥayawān al-kubrá
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Ḥayāt al-ḥayawān al-kubrá /
 		</subfield>
 		<subfield code="c">
-			li-Kamāl al-Dīn Muḥammad ibn Mūsá al-Damīrī. Wa-yalīhi ʻAjāʼib al-makhlūqāt wa-gharāʼib al-mawjūdāt /li-Zakarīyā Muḥammad ibn Maḥmūd al-Qazwīnī.
+			li-Kamāl al-Dīn Muḥammad ibn Mūsá al-Damīrī. Wa-yalīhi ʻAjāʼib al-makhlūqāt wa-gharāʼib al-mawjūdāt /li-Zakarīyā Muḥammad ibn Maḥmūd al-Qazwīnī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Ṭabʻah 2.
+			al-Ṭabʻah 2.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Qum :
 		</subfield>
 		<subfield code="b">
-			Manshūrāt al-Raz̤ī,
+			Manshūrāt al-Raz̤ī,
 		</subfield>
 		<subfield code="c">
-			1364 [1985 or 86]
+			1364 [1985 or 1986]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (2 v.)
+			online resource (2 volumes)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			Reprint. Originally published: [Cairo] :Maktabat wa-Maṭbaʻat Muṣṭafʹa al-Bābī al-Ḥalabī, [19--]
+			Reprint. Originally published: [Cairo] :Maktabat wa-Maṭbaʻat Muṣṭafʹa al-Bābī al-Ḥalabī, [19--].
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -106,7 +150,10 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">
-			Science, Medieval.
+			Science, Medieval
+		</subfield>
+		<subfield code="v">
+			Early works to 1800.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
@@ -115,14 +162,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Qazwīnī, Zakarīyā ibn Muḥammad,
+			Qazwīnī, Zakarīyā ibn Muḥammad,
 		</subfield>
 		<subfield code="d">
-			1208 or 9-1283 or 4.
+			approximately 1203-1283.
 		</subfield>
 		<subfield code="t">
-			ʻAjāʼib al-makhlūqāt.
+			ʻAjāʼib al-makhlūqāt.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -143,10 +193,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Damīrī, Muḥammad ibn Mūsá, 1341?-1405.
+			Damīrī, Muḥammad ibn Mūsá, 1341?-1405.
 		</subfield>
 		<subfield code="t">
-			Ḥayāt al-ḥayawān al-kubrá
+			Ḥayāt al-ḥayawān al-kubrá
 		</subfield>
 		<subfield code="w">
 			(NNU)002811048
@@ -155,6 +205,64 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/c866t4kf
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			دميري، محمد بن موسى،
+		</subfield>
+		<subfield code="d">
+			1341?-1405.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			حياة الحيوان الكبرى /
+		</subfield>
+		<subfield code="c">
+			لكمال الدين محمد بن موسى الدميري. ويليه عجائب المخلوقات وغرائب الموجودات /لزكريا محمد بن محمود القزويني.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			الطبعة 2.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			قم :
+		</subfield>
+		<subfield code="b">
+			منشورات الرضى،
+		</subfield>
+		<subfield code="c">
+			1364 [1985 or 1986]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/
+		</subfield>
+		<subfield code="a">
+			قزويني، زكريا بن محمد،
+		</subfield>
+		<subfield code="d">
+			approximately 1203-1283.
+		</subfield>
+		<subfield code="t">
+			عجائب المخلوقات.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -186,9 +294,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001571:v.2
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

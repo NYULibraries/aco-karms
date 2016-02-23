@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01492nam a2200313   4500
+		02540nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		002961449
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160201s1968    iq h    ob    000 0 arar 
+		160223s1968    iq h    ob    000 0 arax 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,59 +25,100 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1="0" ind2="0" tag="050">
 		<subfield code="a">
-			BJ129
+			BJ1291
 		</subfield>
 		<subfield code="b">
 			.N5 1968
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Narāqī, Muḥammad Mahdī ibn Abī Ẕarr,
+			Narāqī, Muḥammad Mahdī ibn Abī Z̲arr,
 		</subfield>
 		<subfield code="d">
-			d. 1794 or 5.
+			-1794 or 1795.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Jāmiʻ al-saʻādāt
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			Jāmiʻ al-saʻādāt,
 		</subfield>
 		<subfield code="c">
-			li-Muḥammad Mahdī al-Nirāqī. Ḥaqqaqahu wa-ʻallaqa ʻalayhi al-Sayyid Muḥammad Kalāntar. Qaddama la-hu Muḥammad Riḍā al-Muẓaffar.
+			li-Muḥammad Mahdī al-Nirāqī. Ḥaqqaqahu wa-ʻallaqa ʻalayhi al-Sayyid Muḥammad Kalāntar. Qaddama lahu Muḥammad Riḍā al-Muẓaffar.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[al-Ṭabʻah 4]
+			[al-Ṭabʻah4].
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			[al-Najaf]
+			[al-Najaf] :
 		</subfield>
 		<subfield code="b">
-			Dār al-Nuʻmān lil-Ṭibāʻah wa-al-Nashr,
+			Dār al-Nuʻmān lil-Ṭibāʻah wa-al-Nashr,
 		</subfield>
 		<subfield code="c">
 			[1968?]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="c">
-			25 cm.
-		</subfield>
 		<subfield code="a">
-			online resource (3 v.)
+			online resource (3 volumes) :
+		</subfield>
+		<subfield code="b">
+			facsimiles
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">
+			In Arabic.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -92,7 +133,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Bibliography: v. 1, p. 22-24.
+			Includes bibliographical references (v. 1, pages 22-24).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -120,9 +161,37 @@
 			Early works to 1800.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
+	<datafield ind1=" " ind2="7" tag="650">
 		<subfield code="a">
-			Kalāntar, Muḥammad.
+			Islamic ethics.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00979936
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Early works.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411636
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Kalāntar, Muḥammad,
+		</subfield>
+		<subfield code="e">
+			editor.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -140,24 +209,96 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Narāqī, Muḥammad Mahdī ibn Abī Z̲arr, -1794 or 5.
+		</subfield>
+		<subfield code="t">
+			Jāmiʻ al-saʻādāt.
+		</subfield>
+		<subfield code="b">
+			[al-Ṭabʻah4].
+		</subfield>
+		<subfield code="d">
+			[al-Najaf] Dār al-Nuʻmān lil-Ṭibāʻah wa-al-Nashr, [1968?]
+		</subfield>
+		<subfield code="w">
+			(OCoLC)639382237
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Narāqī, Muḥammad Mahdī ibn Abī Ẕarr, d. 1794 or 5.
+			Narāqī, Muḥammad Mahdī ibn Abī Z̲arr, -1794 or 1795.
 		</subfield>
 		<subfield code="t">
-			Jāmiʻ al-saʻādāt
+			Jāmiʻ al-saʻādāt
 		</subfield>
 		<subfield code="w">
 			(NNU)002961449
 		</subfield>
 		<subfield code="w">
-			(DLC)74961581
+			(DLC)   74961581
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/z08kpvw1
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			نراقي، محمد مهدي بن أبي ذر،
+		</subfield>
+		<subfield code="d">
+			-1794 or 1795.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			جامع السعادات /
+		</subfield>
+		<subfield code="c">
+			لمحمد مهدي النراقي ؛ حققه وعلق عليه السيد محمد كلانتر ؛ قدم له محمد رضا المظفر.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/
+		</subfield>
+		<subfield code="a">
+			[الطبعة 4.].
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/
+		</subfield>
+		<subfield code="a">
+			[النجف] :
+		</subfield>
+		<subfield code="b">
+			دار النعمان للطباعة والنشر،
+		</subfield>
+		<subfield code="c">
+			[1968؟]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/
+		</subfield>
+		<subfield code="a">
+			كلانتر، محمد.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -186,9 +327,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001627:v.2
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

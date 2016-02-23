@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02013nam a2200373   4500
+		02454nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		002750133
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160201r19681907iq      o     000 0carar 
+		160223r19681907iq      o     000 0carax 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -34,7 +37,7 @@
 			f-ua---
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1="0" ind2="0" tag="050">
 		<subfield code="a">
 			DT142.A2
 		</subfield>
@@ -42,28 +45,15 @@
 			I23
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">
-			DT142.A2
-		</subfield>
-		<subfield code="b">
-			I23 1968
-		</subfield>
-	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="6">
 			880-01
 		</subfield>
 		<subfield code="a">
-			Ibn al-Zayyāt, Muḥammad ibn Muḥammad,
+			Ibn al-Zayyāt, Muḥammad ibn Muḥammad,
 		</subfield>
 		<subfield code="d">
-			14th/15th cent.
+			active 14th century-15th century.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
@@ -71,19 +61,13 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			al-Kawākib al-sayyārah fī tartīb al-ziyārah
-		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+			al-Kawākib al-sayyārah fī tartīb al-ziyārah /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Shams al-Dīn Abū ʻAbd Allāh Muḥammad ibn Nāṣir al-Dīn al-Anṣārī al-maʻrūf bi-Ibn al-Zayyāt.
+			taʼlīf Shams al-Dīn Abū ʻAbd Allāh Muḥammad ibn Nāṣir al-Dīn al-Anṣārī al-maʻrūf bi-Ibn al-Zayyāt.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="246">
-		<subfield code="i">
-			Title on p. [4] of cover:
-		</subfield>
+	<datafield ind1="1" ind2="4" tag="246">
 		<subfield code="a">
 			Kawakib-us-sayyarah fi tartib-iz-ziyarah
 		</subfield>
@@ -93,10 +77,10 @@
 			880-03
 		</subfield>
 		<subfield code="a">
-			Baghdād :
+			Baghdād :
 		</subfield>
 		<subfield code="b">
-			Maktabat al-Muthanná,
+			Maktabat al-Muthanná,
 		</subfield>
 		<subfield code="c">
 			[1968?]
@@ -104,7 +88,31 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (3, 410 p.)
+			online resource (3, 410 pages)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -139,10 +147,7 @@
 			Cairo (Egypt)
 		</subfield>
 		<subfield code="v">
-			Biography
-		</subfield>
-		<subfield code="v">
-			Early works to 1800.
+			Biography.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
@@ -153,10 +158,43 @@
 			Egypt
 		</subfield>
 		<subfield code="z">
-			Cairo
+			Cairo.
 		</subfield>
-		<subfield code="v">
-			Early works to 1800.
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Cemeteries.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00850521
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Egypt
+		</subfield>
+		<subfield code="z">
+			Cairo.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01205204
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Biography.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01423686
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -174,19 +212,36 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
+			Online version:
+		</subfield>
+		<subfield code="a">
+			Ibn al-Zayyāt, Muḥammad ibn Muḥammad, active 1401.
+		</subfield>
+		<subfield code="t">
+			Kawākib al-sayyārah fī tartīb al-ziyārah.
+		</subfield>
+		<subfield code="d">
+			Baghdād, Maktabat al-Muthanná [1968?]
+		</subfield>
+		<subfield code="w">
+			(OCoLC)654480701
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ibn al-Zayyāt, Muḥammad ibn Muḥammad, 14th/15th cent.
+			Ibn al-Zayyāt, Muḥammad ibn Muḥammad, active 14th century-15th century.
 		</subfield>
 		<subfield code="t">
-			al-Kawākib al-sayyārah fī tartīb al-ziyārah
+			al-Kawākib al-sayyārah fī tartīb al-ziyārah
 		</subfield>
 		<subfield code="w">
 			(NNU)002750133
 		</subfield>
 		<subfield code="w">
-			(DLC)75961253
+			(DLC)   75961253
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
@@ -199,7 +254,10 @@
 			100-01/
 		</subfield>
 		<subfield code="a">
-			ابن الزيات، محمد بن محمد.
+			ابن الزيات، محمد بن محمد،
+		</subfield>
+		<subfield code="d">
+			active 14th century-15th century.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
@@ -210,7 +268,7 @@
 			الكواكب السيارة في ترتيب الزيارة /
 		</subfield>
 		<subfield code="c">
-			تأليف شمس الدين أبو عبد الله محمد بن ناصر الدين الأنصاري المعروف بابن الزيات
+			تأليف شمس الدين ابو عبد الله محمد بن ناصر الدين الانصاري المعروف بابن الزيات.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">

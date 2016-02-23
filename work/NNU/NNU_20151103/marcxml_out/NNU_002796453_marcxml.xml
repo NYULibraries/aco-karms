@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01599nam a2200301   4500
+		02434nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		002796453
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160201q19801986ir      o     000 0 ara d
+		160223q19801986ir      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,58 +25,105 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			Rāzī, Fakhr al-Dīn Muḥammad ibn ʻUmar,
+			BP130.4
+		</subfield>
+		<subfield code="b">
+			.R32 1980
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Rāzī, Fakhr al-Dīn Muḥammad ibn ʻUmar,
 		</subfield>
 		<subfield code="d">
-			1149 or 50-1210.
+			1149 or 1150-1210.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Tafsīr al-kabīr
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="a">
+			al-Tafsīr al-kabīr /
 		</subfield>
 		<subfield code="c">
-			li-al-Fakhr al-Rāzī.
+			al-Fakhr al-Rāzī.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			Mafātīḥ al-ghayb
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			al-Ṭabʻah 3.
+			al-Tabʻah 3.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			[Tehran? :
+			[Tehran] :
 		</subfield>
 		<subfield code="b">
-			s.n.,
+			[Shirkat Ṣaḥāfī Nawīn],
 		</subfield>
 		<subfield code="c">
-			198-]
+			[1980?]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (32 v. in 16)
+			online resource (32 volumes in 16)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			Known also by title: Mafātīḥ al-ghayb.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Editions vary.
+			Known also by title: Mafātīḥ al-Ghayb.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -103,13 +150,32 @@
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="630">
 		<subfield code="a">
-			Koran
+			Qurʼan
 		</subfield>
 		<subfield code="v">
-			Commentaries
+			Commentaries.
 		</subfield>
-		<subfield code="v">
-			Early works to 1800.
+	</datafield>
+	<datafield ind1="0" ind2="7" tag="630">
+		<subfield code="a">
+			Qurʼan.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01842877
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Commentaries.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01423723
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -125,9 +191,24 @@
 			Arabic Collections Online.
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="740">
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">
+			Online version:
+		</subfield>
 		<subfield code="a">
-			Mafātīḥ al-ghayb.
+			Rāzī, Fakhr al-Dīn Muḥammad ibn ʻUmar, 1149 or 50-1210.
+		</subfield>
+		<subfield code="t">
+			Tafsīr al-kabīr.
+		</subfield>
+		<subfield code="b">
+			al-Tabʻah 3.
+		</subfield>
+		<subfield code="d">
+			[Tehran : Shirkat Ṣaḥāfī Nawīn, 1980?]
+		</subfield>
+		<subfield code="w">
+			(OCoLC)612910741
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
@@ -135,18 +216,73 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Rāzī, Fakhr al-Dīn Muḥammad ibn ʻUmar, 1149 or 50-1210.
+			Rāzī, Fakhr al-Dīn Muḥammad ibn ʻUmar, 1149 or 1150-1210.
 		</subfield>
 		<subfield code="t">
-			al-Tafsīr al-kabīr
+			al-Tafsīr al-kabīr
 		</subfield>
 		<subfield code="w">
 			(NNU)002796453
+		</subfield>
+		<subfield code="w">
+			(DLC)   85931419
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/8kprr800
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			رازي، فخر الدين محمد بن عمر،
+		</subfield>
+		<subfield code="d">
+			1149 or 1150-1210.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			التفسير الكبير /
+		</subfield>
+		<subfield code="c">
+			الفخر الرازي.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-03/
+		</subfield>
+		<subfield code="a">
+			مفاتيح الغيب
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-04/
+		</subfield>
+		<subfield code="a">
+			الطبعة 3.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-05/
+		</subfield>
+		<subfield code="a">
+			[طهران] :
+		</subfield>
+		<subfield code="b">
+			[شرکة صحافى نوىن]،
+		</subfield>
+		<subfield code="c">
+			[1980؟]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -217,9 +353,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001643:v.31-32
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

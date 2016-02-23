@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01443nam a2200349   4500
+		01899nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		002961396
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160201s1967    iq a    ob   f000 0 ara d
+		160223s1967    iq a    o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,48 +25,51 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="041">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			ara
-		</subfield>
-		<subfield code="a">
-			eng
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="043">
-		<subfield code="a">
-			a-iq---
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="110">
-		<subfield code="a">
-			Iraq.
+			GT535
 		</subfield>
 		<subfield code="b">
-			Mudīrīyat al-Āthār al-ʻĀmmah.
+			.I77 1967
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="245">
+	<datafield ind1=" " ind2=" " tag="084">
 		<subfield code="a">
-			al-Azyāʼ al-Sūmarīyah
+			383.1
 		</subfield>
-		<subfield code="h">
-			[electronic resource] /
+		<subfield code="2">
+			njb/9
 		</subfield>
-		<subfield code="c">
-			Mudīrīyat al-Āthār al-ʻĀmmah.
+	</datafield>
+	<datafield ind1="0" ind2="3" tag="245">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			al-Azyāʼ al-Sūmarīyah.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="5" tag="246">
+		<subfield code="a">
+			Sumerian costumes
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Baghdād :
+			Baghdad :
 		</subfield>
 		<subfield code="b">
-			Mudīrīyat al-Āthār al-ʻĀmmah,
+			Mudiriyat al-Athar al-Qadimah al-ʻAmmah,
 		</subfield>
 		<subfield code="c">
 			1967.
@@ -74,15 +77,42 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource ([59] leaves) :
+			online resource (1 v. (unpaged)) :
 		</subfield>
 		<subfield code="b">
 			ill.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="490">
+	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">
-			al-Azyāʼ al-ʻIrāqīyah ;
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			al-Azyāʼ al-ʻIrāqīyah ;
 		</subfield>
 		<subfield code="v">
 			1
@@ -90,22 +120,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			Arabic or English.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Title on added t.p.: Sumerian costumes.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
 			Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">
-			Includes bibliographical references.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -125,15 +140,41 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="546">
+		<subfield code="a">
+			Text in Arabic and English.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">
-			Costume
+			Sumerians
 		</subfield>
-		<subfield code="z">
-			Iraq
+		<subfield code="x">
+			Clothing.
 		</subfield>
-		<subfield code="z">
-			Sumer.
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Rashid, Subhi Anwar.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="a">
+			Sulyok, Gabriella.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="710">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Iraq.
+		</subfield>
+		<subfield code="b">
+			Mudīrīyat al-Āthār al-ʻĀmmah.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -149,36 +190,94 @@
 			Arabic Collections Online.
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="740">
-		<subfield code="a">
-			Sumerian costumes.
-		</subfield>
-	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
 			Print version:
 		</subfield>
-		<subfield code="a">
-			Iraq. Mudīrīyat al-Āthār al-ʻĀmmah.
-		</subfield>
 		<subfield code="t">
-			al-Azyāʼ al-Sūmarīyah
+			al-Azyāʼ al-Sūmarīyah
 		</subfield>
 		<subfield code="w">
 			(NNU)002961396
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="3" tag="830">
+	<datafield ind1="4" ind2="0" tag="856">
+		<subfield code="u">
+			http://hdl.handle.net/2333.1/sf7m0gnc
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="2" tag="880">
+		<subfield code="6">
+			245-01/
+		</subfield>
 		<subfield code="a">
-			al-Azyāʼ al-ʻIrāqīyah ;
+			الأزياء السومرية.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-02/
+		</subfield>
+		<subfield code="a">
+			بعداد :
+		</subfield>
+		<subfield code="b">
+			مديرية الآثار العامة,
+		</subfield>
+		<subfield code="c">
+			1967.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-03/
+		</subfield>
+		<subfield code="a">
+			الأزياء العراقية ;
+		</subfield>
+		<subfield code="v">
+			1
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/
+		</subfield>
+		<subfield code="a">
+			رشيد، صبحي أنور.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			710-05/
+		</subfield>
+		<subfield code="a">
+			Iraq.
+		</subfield>
+		<subfield code="b">
+			مديرية الأثار العامة.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			Azyāʼ al-ʻIrāqīyah ;
 		</subfield>
 		<subfield code="v">
 			1.
 		</subfield>
 	</datafield>
-	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">
-			http://hdl.handle.net/2333.1/sf7m0gnc
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-06/
+		</subfield>
+		<subfield code="a">
+			الأزياء العراقية ;
+		</subfield>
+		<subfield code="v">
+			1
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

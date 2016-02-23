@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01629nam a2200325   4500
+		02860nam a2200493   4500
 	</leader>
 	<controlfield tag="001">
 		002974256
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160201s1931    ua af   o     000 0 ara d
+		160223s1931    ua af   o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -24,6 +24,9 @@
 		</subfield>
 		<subfield code="b">
 			eng
+		</subfield>
+		<subfield code="e">
+			rda
 		</subfield>
 		<subfield code="c">
 			NNU
@@ -42,6 +45,14 @@
 			f-ua---
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">
+			DT104
+		</subfield>
+		<subfield code="b">
+			.G6912 1931
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="a">
 			Gouin, Edouard.
@@ -49,37 +60,43 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
 		<subfield code="a">
-			Égypte au XIXe siècle.
+			Égypte au XIXe siècle.
 		</subfield>
 		<subfield code="l">
 			Arabic
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Miṣr fī al-qarn al-tāsiʻ ʻashara
+		<subfield code="6">
+			880-01
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="a">
+			Miṣr fī al-qarn al-tāsiʻ ʻashara :
 		</subfield>
 		<subfield code="b">
-			sīrah jāmiʻah li-ḥawādith sākinī al-Jinān Muḥammad ʻAlī Bāshā wa-Ibrāhīm Bāshā wa-al-maghfūr la-hu Sulaymān Bāshā al-Faransī min al-nawāḥī al-ḥarbīyah wa-al-siyāsīyah wa-al-qiṣaṣīyah /
+			sīrah jāmiʻah li-ḥawādith sākinī al-Jinān Muḥammad ʻAlī Bāshā wa-Ibrāhīm Bāshā wa-al-maghfūr la-hu Sulaymān Bāshā al-Faransī min al-nawāḥī al-ḥarbīyah wa-al-siyāsīyah wa-al-qiṣaṣīyah /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Idwār Jawān ; naqalahu ilá al-lughah al-ʻArabīyah Muḥammad Masʻūd.
+			taʼlīf Idwār Jawān ; naqalahu ilá al-lughah al-ʻArabīyah Muḥammad Masʻūd.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			al-Ṭabʻah 3.
+			al-Ṭabʻah 3.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			al-Qāhirah :
+			al-Qāhirah :
 		</subfield>
 		<subfield code="b">
-			[s.n.],
+			[publisher not identified],
 		</subfield>
 		<subfield code="c">
 			1931.
@@ -87,10 +104,34 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (798 p., [17] leaves of plates) :
+			online resource (798 pages, [17] leaves of plates) :
 		</subfield>
 		<subfield code="b">
-			ill. (some col.)
+			illustrations (some color)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -127,8 +168,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Muḥammad ʻAlī Bāshā,
+			Muḥammad ʻAlī Bāshā,
 		</subfield>
 		<subfield code="c">
 			Governor of Egypt,
@@ -138,6 +182,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Ibrāhīm,
 		</subfield>
@@ -146,6 +193,70 @@
 		</subfield>
 		<subfield code="d">
 			1789-1848.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="7" tag="600">
+		<subfield code="a">
+			Ibrāhīm,
+		</subfield>
+		<subfield code="c">
+			Pasha,
+		</subfield>
+		<subfield code="d">
+			1789-1848.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00109393
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="7" tag="600">
+		<subfield code="a">
+			Muḥammad ʻAlī Bāshā,
+		</subfield>
+		<subfield code="c">
+			Governor of Egypt,
+		</subfield>
+		<subfield code="d">
+			1769-1849.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00210721
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">
+			Egypt.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01208755
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="648">
+		<subfield code="a">
+			1800 - 1899.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			History.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01411628
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -169,7 +280,7 @@
 			Gouin, Edouard.
 		</subfield>
 		<subfield code="t">
-			Miṣr fī al-qarn al-tāsiʻ ʻashara
+			Miṣr fī al-qarn al-tāsiʻ ʻashara
 		</subfield>
 		<subfield code="w">
 			(NNU)002974256
@@ -178,6 +289,70 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/ht76hhxx
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-01/
+		</subfield>
+		<subfield code="a">
+			مصر في القرن التاسع عشر :
+		</subfield>
+		<subfield code="b">
+			سيرة جامعة لحوادث ساكني الجنان محمد علي باشا وابراهيم باشا والمغفور له سليمان باشا الفرنسي من النواحي الحربية والسياسية والقصصية /
+		</subfield>
+		<subfield code="c">
+			تأليف ادوار جوان ؛ نقله الى اللغة العربية محمد مسعود.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-02/
+		</subfield>
+		<subfield code="a">
+			الطبعة 3.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			[publisher not identified]،
+		</subfield>
+		<subfield code="c">
+			1931.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">
+			600-04/
+		</subfield>
+		<subfield code="a">
+			محمد علي باشا،
+		</subfield>
+		<subfield code="c">
+			Governor of Egypt,
+		</subfield>
+		<subfield code="d">
+			1769-1849.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">
+			600-05/
+		</subfield>
+		<subfield code="a">
+			ابراهيم،
+		</subfield>
+		<subfield code="c">
+			Pasha,
+		</subfield>
+		<subfield code="d">
+			1789-1848.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">

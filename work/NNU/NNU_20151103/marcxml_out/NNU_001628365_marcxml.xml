@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02349nam a2200445   4500
+		02299nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		001628365
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160201s1940    ir      o     000 0 ara d
+		160223s1940    ir      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -68,13 +68,16 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="246">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Īḍāh al-Farāʼid fī ʻilm al-uṣūl
+			Īḍāḥ al-Farāʼid fī ʻilm al-uṣūl
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-04
+			880-05
 		</subfield>
 		<subfield code="a">
 			[Tehran] :
@@ -148,9 +151,6 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
-		<subfield code="6">
-			880-05
-		</subfield>
 		<subfield code="a">
 			Anṣārī, Murtaḍá ibn Muḥammad Amīn,
 		</subfield>
@@ -159,17 +159,6 @@
 		</subfield>
 		<subfield code="t">
 			Rasāʼil.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="7" tag="650">
-		<subfield code="a">
-			Shiites.
-		</subfield>
-		<subfield code="2">
-			fast
-		</subfield>
-		<subfield code="0">
-			(OCoLC)fst01115976
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="7" tag="630">
@@ -192,6 +181,17 @@
 		</subfield>
 		<subfield code="0">
 			(OCoLC)fst00979949
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Shiites.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01115976
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -253,32 +253,26 @@
 			محمد التنكابنى.
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="880">
+	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			260-04/
+			246-04/
 		</subfield>
 		<subfield code="a">
-			[طهران] :
+			ايضاح الفرائد في علم الصول
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-05/
+		</subfield>
+		<subfield code="a">
+			[Tehran] :
 		</subfield>
 		<subfield code="b">
 			مطبعة الاسلامية،
 		</subfield>
 		<subfield code="c">
 			1358 [1940]
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2="4" tag="880">
-		<subfield code="6">
-			600-05/
-		</subfield>
-		<subfield code="a">
-			انصاري، مرتضى بن محمد امين،
-		</subfield>
-		<subfield code="d">
-			1799 or 1800-1864.
-		</subfield>
-		<subfield code="t">
-			رسائل.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -307,9 +301,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001649:v.1
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

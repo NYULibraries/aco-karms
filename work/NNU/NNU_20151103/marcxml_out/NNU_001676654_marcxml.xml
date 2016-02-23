@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01274nam a2200289   4500
+		02516nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		001676654
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160201s1951    ua a    ob    000 0 arard
+		160223s1951    ua a    ob    000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,37 +25,95 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			Zakī, ʻAbd al-Raḥmān.
+			PJ6680
+		</subfield>
+		<subfield code="b">
+			.Z35 1951
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Zakī, ʻAbd al-Raḥmān.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">
-			al-Silāḥ fi al-Islām
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource].
+		<subfield code="a">
+			al-Silāḥ fi al-Islām /
+		</subfield>
+		<subfield code="c">
+			ʻAbd al-Raḥmām Zakī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[Cairo,
+			Miṣr :
+		</subfield>
+		<subfield code="b">
+			Dār al-Maʻārif,
 		</subfield>
 		<subfield code="c">
-			1951]
+			[1951]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (69 p.) :
+			online resource (69 pages) :
 		</subfield>
 		<subfield code="b">
-			illus.
+			illustrations
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Maktabat adawāt al-baḥth al-tārīkhī wa-al-wathāʼiq wa al-nuṣūṣ / al-Jamʻīyah al-Malakīyah lil-Dirāsāt al-tārīkhīyah ;
+		</subfield>
+		<subfield code="v">
+			1
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -65,7 +123,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			Cover-title: Royal society of historical researches. Instruments and documents of research. Vocabulary relating to arms and armour in Islam...
+			Cover title: Royal society of historical researches. Instruments and documents of research. Vocabulary relating to arms and armour in Islam ...
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -75,7 +133,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Bibliography: p.62-63.
+			Includes bibliographical references (pages 62-63).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -103,6 +161,28 @@
 			Glossaries, vocabularies, etc.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">
+			Arabic language.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst00812287
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Glossaries, vocabularies, etc.
+		</subfield>
+		<subfield code="2">
+			fast
+		</subfield>
+		<subfield code="0">
+			(OCoLC)fst01423786
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			New York University.
@@ -121,10 +201,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Zakī, ʻAbd al-Raḥmān.
+			Zakī, ʻAbd al-Raḥmān.
 		</subfield>
 		<subfield code="t">
-			al-Silāḥ fi al-Islām
+			al-Silāḥ fi al-Islām
 		</subfield>
 		<subfield code="w">
 			(NNU)001676654
@@ -133,6 +213,72 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/w6m908xk
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			زكي، عبد الرحمن.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			السلاح في الإسلام /
+		</subfield>
+		<subfield code="c">
+			عبد الرحمن زكي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			دار المعارف،
+		</subfield>
+		<subfield code="c">
+			[١٩٥١]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-04/
+		</subfield>
+		<subfield code="a">
+			مكتبة أدوات البحث التاريخي والوثائق والنصوص / الجمعية الملكية للدراسات التاريخية ؛
+		</subfield>
+		<subfield code="v">
+			١
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Maktabat adawāt al-baḥth al-tārīkhī wa-al-wathāʼiq wa al-nuṣūṣ / al-Jamʻīyah al-Malakīyah lil-Dirāsāt al-tārīkhīyah ;
+		</subfield>
+		<subfield code="v">
+			1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-05/
+		</subfield>
+		<subfield code="a">
+			مكتبة أدوات البحث التاريخي والوثائق والنصوص ;
+		</subfield>
+		<subfield code="v">
+			١.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -161,9 +307,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001588
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

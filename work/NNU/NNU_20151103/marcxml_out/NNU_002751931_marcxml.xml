@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01628nam a2200313   4500
+		02760nam a2200481   4500
 	</leader>
 	<controlfield tag="001">
 		002751931
@@ -16,8 +16,13 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160201s1961    sy h    ob    000 0 arar 
+		160223s1961    sy h    ob    001 0 araod
 	</controlfield>
+	<datafield ind1=" " ind2=" " tag="037">
+		<subfield code="a">
+			PM060067:4
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
 			NNU
@@ -25,70 +30,100 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">
-			DS288.6
-		</subfield>
-		<subfield code="b">
-			.A2
+			a-ir---
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			DS288.6
 		</subfield>
 		<subfield code="b">
-			.A2
+			.A2 1961
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Abū Ḥayyān al-Tawḥīdī, ʻAlī ibn Muḥammad,
+			Abū Ḥayyān al-Tawḥīdī, ʻAlī ibn Muḥammad,
 		</subfield>
 		<subfield code="d">
-			10th cent.
+			active 10th century.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Mathālib al-wazīrayn
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource] :
+		<subfield code="a">
+			Mathālib al-wazīrayn :
 		</subfield>
 		<subfield code="b">
-			akhlāq al-Ṣāḥib Ibn ʻAbbād wa-Ibn al-ʻAmīd.
+			akhlāq al-Ṣāḥib ibn ʻAbbād wa-Ibn al-ʻAmīd /
 		</subfield>
 		<subfield code="c">
-			Li-Abī Ḥayyān al-Tawḥīdī. ʻAniya bi-taḥqīqih Ibrāhīm al-Kīlānī.
+			li-Abī Ḥayyān al-Tawḥīdī ; ʻuniya bi-taḥqīqihi Ibrāhīm al-Kīlānī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Dimashq,
+			Dimashq :
 		</subfield>
 		<subfield code="b">
-			Dār al-Fikr
+			Dār al-Fikr,
 		</subfield>
 		<subfield code="c">
-			[1961]
+			1961.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (11, 400 p.) :
+			online resource (11, [2], 400 pages) :
 		</subfield>
 		<subfield code="b">
-			facsims.
+			facsimiles
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			Added t.p.: Épitre Matālib al wazīrein (Les défauts des deux ministres) par Abū Ḥayyān at-Tawḥīdī (leaf inserted)
+			Title on back cover: Épître mat̲ālib al wazīrein : les défauts des deux ministres.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -98,7 +133,17 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
 		<subfield code="a">
-			Bibliography: p. 389-390.
+			Includes bibliographical references and indexes.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">
+			Title on added t.p.: Epitre Matālib al wazīrein (Les défauts des deux ministres).
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="504">
+		<subfield code="a">
+			Includes bibliographical references (pages 389-390)-and indexes.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -119,8 +164,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Ṣāḥib al-Ṭālqānī, Abū al-Qāsim Ismāʻīl ibn ʻAbbād,
+			Ṣāḥib al-Ṭālqānī, Abū al-Qāsim Ismāʻīl ibn ʻAbbād,
 		</subfield>
 		<subfield code="d">
 			936-995.
@@ -128,10 +176,37 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
 		<subfield code="a">
-			Ibn al-ʻAmīd, Muḥammad ibn al-Ḥusayn,
+			Ibn al-ʻAmīd, Muḥammad ibn al-Ḥusayn,
 		</subfield>
 		<subfield code="d">
-			d. 970 or 71.
+			-970 or 971.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="a">
+			Ibn al-ʻAmīd, Abū al-Fatḥ ʻAlī ibn Muḥammad,
+		</subfield>
+		<subfield code="d">
+			948 or 949-976 or 977.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="a">
+			Iran
+		</subfield>
+		<subfield code="x">
+			History
+		</subfield>
+		<subfield code="y">
+			640-1256.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Kīlānī, Ibrāhīm.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -152,21 +227,73 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Abū Ḥayyān al-Tawḥīdī, ʻAlī ibn Muḥammad, 10th cent.
+			Abū Ḥayyān al-Tawḥīdī, ʻAlī ibn Muḥammad, active 10th century.
 		</subfield>
 		<subfield code="t">
-			Mathālib al-wazīrayn
+			Mathālib al-wazīrayn
 		</subfield>
 		<subfield code="w">
 			(NNU)002751931
-		</subfield>
-		<subfield code="w">
-			(DLC)ne 64002661
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/wm37pztf
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			‏أبو حيان التوحيدي، علي بن محمد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			‏مثالب الوزيرين ‏ ‏‏‏‏
+		</subfield>
+		<subfield code="b">
+			‏أخلاق الصاحب بن عباد وابن العميد /‏
+		</subfield>
+		<subfield code="c">
+			‏لأبي حيان التوحيدي ؛ عني بتحقيقه إبراهيم الكيلاني.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			‏دمشق :‏
+		</subfield>
+		<subfield code="b">
+			‏دار الفكر،‏
+		</subfield>
+		<subfield code="c">
+			‏1961.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-04/
+		</subfield>
+		<subfield code="a">
+			صاحب الطالقاني، ابو القاسم اسماعيل بن عباد،
+		</subfield>
+		<subfield code="d">
+			936-995.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/
+		</subfield>
+		<subfield code="a">
+			‏كيلاني، إبراهيم.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -195,9 +322,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001454
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01922nam a2200337   4500
+		03135nam a2200481   4500
 	</leader>
 	<controlfield tag="001">
 		002775601
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160201s1924    ua      o     000 0 ara d
+		160223s1924    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -25,32 +25,49 @@
 		<subfield code="b">
 			eng
 		</subfield>
+		<subfield code="e">
+			rda
+		</subfield>
 		<subfield code="c">
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
-			Bājūrī, Ibrāhīm ibn Muḥammad,
+			BP153
+		</subfield>
+		<subfield code="b">
+			.B3 1924
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
+		<subfield code="a">
+			Bājūrī, Ibrāhīm ibn Muḥammad,
 		</subfield>
 		<subfield code="d">
-			1783 or 4-1860.
+			1783 or 1784-1860.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Ḥāshīyat al-Shaykh Ibrāhīm al-Bājūrī ʻalá Sharḥ Ibn Qāsim al-Ghazzī ʻalá matn al-Shaykh Abī Shujāʻ fī madhhab al-Imām al-Shāfiʻī
+		<subfield code="6">
+			880-02
 		</subfield>
-		<subfield code="h">
-			[electronic resource].
+		<subfield code="a">
+			Ḥāshīyat al-Shaykh Ibrāhīm al-Bājūrī ʻalá Sharḥ Ibn Qāsim al-Ghazzī ʻalá matn al-Shaykh Abī Shujāʻ fī madhhab al-Imām al-Shāfiʻī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Miṣr :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			Muṣṭafá al-Bābī al-Ḥalabī,
+			Muṣṭafá al-Bābī al-Ḥalabī,
 		</subfield>
 		<subfield code="c">
 			1343 [1924]
@@ -58,12 +75,36 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">
-			online resource (2 v.)
+			online resource (2 volumes)
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">
+			text
+		</subfield>
+		<subfield code="2">
+			rdacontent
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">
+			computer
+		</subfield>
+		<subfield code="2">
+			rdamedia
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">
+			online resource
+		</subfield>
+		<subfield code="2">
+			rdacarrier
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			Includes texts of Ibn al-Qāsim al-Ghazzī's Fatḥ al-qarīb al-mujīb and Abū Shujāʻ al-Iṣfahānī's Ghāyat al-ikhtiṣār.
+			Includes texts of Ibn al-Qāsim al-Ghazzī's Fatḥ al-qarīb al-mujīb and Abū Shujāʻ al-Iṣfahānī's Ghāyat al-ikhtiṣār.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -89,14 +130,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Ghazzī, Muḥammad ibn Qāsim,
+			Ghazzī, Muḥammad ibn Qāsim,
 		</subfield>
 		<subfield code="d">
-			1454 or 5-1512 or 13.
+			1454 or 1455-1512 or 1513.
 		</subfield>
 		<subfield code="t">
-			Fatḥ al-qarīb al-mujīb.
+			Fatḥ al-qarīb al-mujīb.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
@@ -110,28 +154,31 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Abū Shujāʻ al-Iṣfahānī, Aḥmad ibn al-Ḥusayn,
+			Abū Shujāʻ al-Iṣfahānī, Aḥmad ibn al-Ḥusayn,
 		</subfield>
 		<subfield code="d">
-			b. ca. 1042.
+			approximately 1042-
 		</subfield>
 		<subfield code="t">
-			Ghāyat alʼ-ikhtiṣār.
-		</subfield>
-		<subfield code="f">
-			1881.
+			Mukhtaṣar fī al-fiqh ʻalá madhhab al-Shāfiʻī.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
-			Ghazzī, Muḥammad ibn Qāsim,
+			Ghazzī, Muḥammad ibn Qāsim,
 		</subfield>
 		<subfield code="d">
-			1454 or 5-1512 or 13.
+			1454 or 1455-1512 or 1513.
 		</subfield>
 		<subfield code="t">
-			Fatḥ al-qarīb al-mujīb.
+			Fatḥ al-qarīb al-mujīb.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -148,13 +195,19 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-07
+		</subfield>
 		<subfield code="a">
-			Ghāyat al-ikhtiṣār.
+			Ghāyat al-ikhtiṣār.
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-08
+		</subfield>
 		<subfield code="a">
-			Fatḥ al-qarīb al-mujīb.
+			Fatḥ al-qarīb al-mujīb.
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
@@ -162,10 +215,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Bājūrī, Ibrāhīm ibn Muḥammad, 1783 or 4-1860.
+			Bājūrī, Ibrāhīm ibn Muḥammad, 1783 or 1784-1860.
 		</subfield>
 		<subfield code="t">
-			Ḥāshīyat al-Shaykh Ibrāhīm al-Bājūrī ʻalá Sharḥ Ibn Qāsim al-Ghazzī ʻalá matn al-Shaykh Abī Shujāʻ fī madhhab al-Imām al-Shāfiʻī
+			Ḥāshīyat al-Shaykh Ibrāhīm al-Bājūrī ʻalá Sharḥ Ibn Qāsim al-Ghazzī ʻalá matn al-Shaykh Abī Shujāʻ fī madhhab al-Imām al-Shāfiʻī
 		</subfield>
 		<subfield code="w">
 			(NNU)002775601
@@ -174,6 +227,97 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/h44j12v1
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/
+		</subfield>
+		<subfield code="a">
+			باجوري، ابراهيم بن محمد،
+		</subfield>
+		<subfield code="d">
+			1783 or 1784-1860.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/
+		</subfield>
+		<subfield code="a">
+			حاشية الشيخ ابراهيم الباجوري على شرح ابن قاسم الغزي على متن الشيخ ابي شجاع في مذهب الامام الشافعي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			مصطفى البابي الحلبي،
+		</subfield>
+		<subfield code="c">
+			1343 [1924]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-04/
+		</subfield>
+		<subfield code="a">
+			غزي، محمد بن قاسم،
+		</subfield>
+		<subfield code="d">
+			1454 or 1455-1512 or 1513.
+		</subfield>
+		<subfield code="t">
+			فتح القريب المجيب.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/
+		</subfield>
+		<subfield code="a">
+			ابو شجاع الاصفهاني، احمد بن الحسين،
+		</subfield>
+		<subfield code="d">
+			approximately 1042-
+		</subfield>
+		<subfield code="t">
+			مختصر في الفقه على مذهب الشافعي.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-06/
+		</subfield>
+		<subfield code="a">
+			غزي، محمد بن قاسم،
+		</subfield>
+		<subfield code="d">
+			1454 or 1455-1512 or 1513.
+		</subfield>
+		<subfield code="t">
+			فتح القريب المجيب.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			740-07/
+		</subfield>
+		<subfield code="a">
+			غاية الاختصار.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			740-08/
+		</subfield>
+		<subfield code="a">
+			فتح القريب المجيب.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -202,9 +346,6 @@
 		</subfield>
 		<subfield code="s">
 			nyu_aco001648:v.2
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
 		</subfield>
 	</datafield>
 </record>
