@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01800nam a2200361   4500
+		02103nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		2695207
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19679999iq      o     000 0 ara d
+		160223m19639999iq      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -38,27 +38,36 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ḥakīm, ʻAbd al-Majīd.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			al-Mūjaz fī sharḥ al-qānūn al-madanī al-Irāqī /
+			al-Mūjaz fī sharḥ al-qānūn al-madanī /
 		</subfield>
 		<subfield code="c">
-			taʼlīf ʻAbd al-Majīd al-Ḥakīm ; maʻa kalimah lil-ustādh al-kabīr al-Sanhūrī.
+			taʼlīf ʻAbd al-Majīd al-Ḥakīm.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
-		<subfield code="a">
-			al-Ṭabʻah 2. /
+		<subfield code="6">
+			880-03
 		</subfield>
-		<subfield code="b">
-			munaqqaḥah wa-mazīdah wa-muḍāf ilayhā aḥkām al-maḥākim al-ʻIrāqīyah.
+		<subfield code="a">
+			Ṭabʻah 2, munaqqaḥah wa-muḍāf ilayhā aḥkām Maḥkamat Tamyīz al-ʻIrāq.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Baghdād :
 		</subfield>
@@ -66,7 +75,7 @@
 			Sharikat al-Ṭabʻ wa-al-Nashr al-Ahlīyah,
 		</subfield>
 		<subfield code="c">
-			&lt;1967&gt;-
+			1963-
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -105,7 +114,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="505">
 		<subfield code="a">
-			al-juzʼ 2. Fī aḥkām al-iltizām maʻa al-muqāranah bi-al-fiqh al-Islāmī
+			juzʼ 1. Maṣādir al-iltizām maʻa al-muqāranah bi-al-fiqh al-Islāmī
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -155,14 +164,6 @@
 			(OCoLC)fst01205757
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">
-			Sanhūrī, ʻAbd al-Razzāq Aḥmad,
-		</subfield>
-		<subfield code="d">
-			1895-1971.
-		</subfield>
-	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -184,7 +185,7 @@
 			Ḥakīm, ʻAbd al-Majīd.
 		</subfield>
 		<subfield code="t">
-			al-Mūjaz fī sharḥ al-qānūn al-madanī al-Irāqī
+			al-Mūjaz fī sharḥ al-qānūn al-madanī
 		</subfield>
 		<subfield code="w">
 			(NNC)2695207
@@ -196,6 +197,47 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/tht76mnn
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			حكيم، عبد المجيد. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الموجز في شرح القانون المدني /
+		</subfield>
+		<subfield code="c">
+			تأليف عبد المجيد الحكيم.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/r
+		</subfield>
+		<subfield code="a">
+			طبعة 2، منقحة ومضاف اليها احكام محكمة تمييز العراق.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			شركة الطبع والنشر الاهلية،
+		</subfield>
+		<subfield code="c">
+			1963
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -223,7 +265,7 @@
 			NNC_2695207
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm22675442 
+			(OCoLC)ocm22675442
 		</subfield>
 		<subfield code="s">
 			columbia_aco001563:v.1
@@ -233,6 +275,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001563:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001564:v.2
 		</subfield>
 	</datafield>
 </record>

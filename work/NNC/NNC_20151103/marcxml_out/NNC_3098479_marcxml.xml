@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02043nam a2200385   4500
+		02233nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		3098479
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1928    le      o     000 0 arar 
+		160223s1928    le      o     000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -57,6 +57,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Nakabāt,
 		</subfield>
@@ -68,13 +71,16 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Khulāṣat tārīkh Sūrīyah mundhu al-ʻahd al-awwal baʻda al-ṭūfān ilá ʻahd al-jumhūrīyah bi-Lubnān
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-02
+			880-04
 		</subfield>
 		<subfield code="a">
 			Bayrūt,
@@ -210,7 +216,7 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			‏ريحاني، أمين فارس،‏,
+			‏ريحاني، أمين فارس،‏
 		</subfield>
 		<subfield code="d">
 			‏1876-1940.
@@ -218,7 +224,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-00/r
+			245-02/r
 		</subfield>
 		<subfield code="a">
 			‏النكبات أو خلاصة تاريخ سورية منذ العهد الأول بعد الطوفان إلى عهد الجمهورية بلبنان /‏
@@ -227,9 +233,17 @@
 			‏تأليف أمين الريحاني.
 		</subfield>
 	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-03/r
+		</subfield>
+		<subfield code="a">
+			خلاصة تاريخ سورية منذ العهد الاول بعد الطوفان الى عهد الجمهورية بلبنان
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-02/r
+			260-04/r
 		</subfield>
 		<subfield code="a">
 			‏بيروت :‏
@@ -266,13 +280,16 @@
 			NNC_3098479
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm22287648 
+			(OCoLC)ocm22287648
 		</subfield>
 		<subfield code="s">
 			columbia_aco001483
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001483
 		</subfield>
 	</datafield>
 </record>

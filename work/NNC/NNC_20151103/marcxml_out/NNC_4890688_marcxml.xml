@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02171nam a2200361   4500
+		02957nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		4890688
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19051907ua      o     000 0 arard
+		160223m19051907ua      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ibn Ḥajar al-ʻAsqalānī, Aḥmad ibn ʻAlī,
 		</subfield>
@@ -49,11 +52,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Iṣābah fī tamyīz al-Ṣaḥābah
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Kitāb al-iṣābah fī tamyīz al-Ṣaḥābah /
 		</subfield>
@@ -62,11 +71,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Iṣābah fī tamyīz al-Ṣaḥābah
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			al-Qāhirah :
 		</subfield>
@@ -210,6 +225,58 @@
 			http://hdl.handle.net/2333.1/1vhhmksj
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ابن حجر العسقلاني، احمد بن علي،
+		</subfield>
+		<subfield code="d">
+			1372-1449.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02/r
+		</subfield>
+		<subfield code="a">
+			اصابة في تمييز الصحابة
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-03/r
+		</subfield>
+		<subfield code="a">
+			كتاب الاصابة في تمييز الصحابة /
+		</subfield>
+		<subfield code="c">
+			تأليف شيخ الاسلام شهاب الدين ابي الفضل احمد بن علي بن محمد بن محمد بن علي الكناني العسقلاني ثم المصري الشافعي المعروف بابن حجر. 
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-04/r
+		</subfield>
+		<subfield code="a">
+			اصابة في تمييز الصحابة
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-05/r
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			مطبعة السعادة،
+		</subfield>
+		<subfield code="c">
+			1323-1325 [1905-1907]
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -235,7 +302,7 @@
 			NNC_4890688
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm28925620 
+			(OCoLC)ocm28925620
 		</subfield>
 		<subfield code="s">
 			columbia_aco001472:v.1-2
@@ -251,6 +318,18 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001472:v.1-2
+		</subfield>
+		<subfield code="s">
+			columbia_aco001473:v.3-4
+		</subfield>
+		<subfield code="s">
+			columbia_aco001474:v.5-6
+		</subfield>
+		<subfield code="s">
+			columbia_aco001475:v.7-8
 		</subfield>
 	</datafield>
 </record>

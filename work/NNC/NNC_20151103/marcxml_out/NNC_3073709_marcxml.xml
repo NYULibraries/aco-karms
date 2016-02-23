@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01757nam a2200361   4500
+		02592nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		3073709
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1888    xx      o     000 0 ara d
+		160223s1888    xx      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ṣabbān, Muḥammad ibn ʻAlī,
 		</subfield>
@@ -49,11 +52,23 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Ḥāshiyat al-Ṣabbān.
+			Ḥāshīyat al-Ṣabbān ʻalá sharḥ al-Ushmūnī ʻalá alfīyat Ibn Mālik fī fan al-ʻArabiyah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			Miṣr :
+		</subfield>
+		<subfield code="b">
+			al-Maṭbaʻah al-Azhariyah,
+		</subfield>
 		<subfield code="c">
 			[1888]
 		</subfield>
@@ -110,6 +125,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Ibn Mālik, Muḥammad ibn ʻAbd Allāh,
 		</subfield>
@@ -154,6 +172,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Ushmūnī, ʻAlī ibn Muḥammad,
 		</subfield>
@@ -202,7 +223,7 @@
 			Ṣabbān, Muḥammad ibn ʻAlī, -1791 or 1792.
 		</subfield>
 		<subfield code="t">
-			Ḥāshiyat al-Ṣabbān
+			Ḥāshīyat al-Ṣabbān ʻalá sharḥ al-Ushmūnī ʻalá alfīyat Ibn Mālik fī fan al-ʻArabiyah
 		</subfield>
 		<subfield code="w">
 			(NNC)3073709
@@ -214,6 +235,67 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/ffbg7dgc
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			صبان، محمد بن علي،
+		</subfield>
+		<subfield code="d">
+			-1791 or 1792.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			حاشية الصبان على شرح الاشموني على الفية ابن مالك في فن العربية.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			المطبعة الازهرية،
+		</subfield>
+		<subfield code="c">
+			[1888]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			600-04/r
+		</subfield>
+		<subfield code="a">
+			ابن مالك، محمد بن عبد الله،
+		</subfield>
+		<subfield code="d">
+			1274.
+		</subfield>
+		<subfield code="t">
+			الفية.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/r
+		</subfield>
+		<subfield code="a">
+			اشموني، علي بن محمد،
+		</subfield>
+		<subfield code="d">
+			1435-1494 or 1495. 
+		</subfield>
+		<subfield code="t">
+			منهج السال الى الفية ابن مالك.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -241,7 +323,7 @@
 			NNC_3073709
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23488210 
+			(OCoLC)ocm23488210
 		</subfield>
 		<subfield code="s">
 			columbia_aco001554:v.1-2
@@ -251,6 +333,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001554:v.1-2
+		</subfield>
+		<subfield code="s">
+			columbia_aco001555:v.3-4
 		</subfield>
 	</datafield>
 </record>

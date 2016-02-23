@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02005nam a2200421   4500
+		02045nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		2679388
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1954    le      o     000 0 araod
+		160223s1954    le      o     000 0 araod
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -84,6 +84,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Bayrūt :
 		</subfield>
@@ -215,7 +218,10 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			تويني، غسان.
+			تويني، غسان،
+		</subfield>
+		<subfield code="d">
+			1926-2012.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -247,7 +253,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-05/r
 		</subfield>
 		<subfield code="a">
 			بيروت :
@@ -284,13 +290,16 @@
 			NNC_2679388
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23512345 
+			(OCoLC)ocm23512345
 		</subfield>
 		<subfield code="s">
 			columbia_aco001536
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001536
 		</subfield>
 	</datafield>
 </record>

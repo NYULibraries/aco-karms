@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01527nam a2200301   4500
+		01986nam a2200337   4500
 	</leader>
 	<controlfield tag="001">
 		3367899
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1882    ua      o     000 0 ara d
+		160223s1882    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ibn ʻAbidīn, Muḥammad ibn Muḥammad Amīn,
 		</subfield>
@@ -41,6 +44,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Qurrat ʻuyūn al-akhyār li-takmilat Radd al-muḥtār ʻalá al-Durr al-mukhtār :
 		</subfield>
@@ -52,6 +58,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			[Bulaq] :
 		</subfield>
@@ -164,6 +173,45 @@
 			http://hdl.handle.net/2333.1/7wm37sz1
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ابن عبدين، محمد بن محمد امين،
+		</subfield>
+		<subfield code="d">
+			-1888 or 1889.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			قرة عيون الاخيار لتكملة رد المحتار على الدر المختار :
+		</subfield>
+		<subfield code="b">
+			شرح تنوير الابصار /
+		</subfield>
+		<subfield code="c">
+			لمحمد علاء الدين عابدين.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			[بولاق] :
+		</subfield>
+		<subfield code="b">
+			[مطبعة بولاق]،
+		</subfield>
+		<subfield code="c">
+			[1299 ا.. 1882]
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -199,6 +247,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001534:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001535:v.2
 		</subfield>
 	</datafield>
 </record>

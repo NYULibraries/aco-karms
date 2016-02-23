@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01553nam a2200325   4500
+		02312nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		3177501
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1884    ua      o     000 0 ara d
+		160223s1884    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Diyārbakrī, Ḥusayn ibn Muḥammad,
 		</subfield>
@@ -41,21 +44,36 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Tārīkh al-khamīs fī aḥwāl anfas nafīs
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Al-khamīs ...
+			Tārīkh al-khamīs fī aḥwāl anfas nafīs /
+		</subfield>
+		<subfield code="c">
+			taʼlīf Ḥusayn ibn Muḥammad ibn al-Ḥasan al-Diyārbakrī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Cairo,
+			[Cairo?] :
+		</subfield>
+		<subfield code="b">
+			Maṭbaʻat ʻUthmān ʻAbd al-Razzāq,
 		</subfield>
 		<subfield code="c">
-			1302 A.H. [1884 A.D.]
+			1302 [1884]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -110,6 +128,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Muḥammad,
 		</subfield>
@@ -178,7 +199,7 @@
 			Diyārbakrī, Ḥusayn ibn Muḥammad, -1558 or 1559.
 		</subfield>
 		<subfield code="t">
-			Al-khamīs
+			Tārīkh al-khamīs fī aḥwāl anfas nafīs
 		</subfield>
 		<subfield code="w">
 			(NNC)3177501
@@ -190,6 +211,64 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/nk98sjf8
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			دياربكري، حسين بن محمد،
+		</subfield>
+		<subfield code="d">
+			-1558 or 1559.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02/r
+		</subfield>
+		<subfield code="a">
+			تاريخ الخميس في احوال انفس نفيس
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-03/r
+		</subfield>
+		<subfield code="a">
+			تاريخ الخميس في احوال انفس نفيس /
+		</subfield>
+		<subfield code="c">
+			تأليف حسين بن محمد بن الحسن الدياربكري.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			[القاهرة؟] :
+		</subfield>
+		<subfield code="b">
+			مطبعة عثمان عبد الرزاق،
+		</subfield>
+		<subfield code="c">
+			1302 [1884]
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">
+			600-05/r
+		</subfield>
+		<subfield code="a">
+			محمد،
+		</subfield>
+		<subfield code="c">
+			Prophet,
+		</subfield>
+		<subfield code="d">
+			-632.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -217,7 +296,7 @@
 			NNC_3177501
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm48839217 
+			(OCoLC)ocm48839217
 		</subfield>
 		<subfield code="s">
 			columbia_aco001524:v.1
@@ -227,6 +306,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001524:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001525:v.2
 		</subfield>
 	</datafield>
 </record>

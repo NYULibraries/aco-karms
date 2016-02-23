@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01775nam a2200373   4500
+		01993nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		3073797
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1954    le      o     000 0 ara d
+		160223s1954    le      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -53,15 +53,18 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			Akhbār al-aʻyān fī jabal Lubnān,
+			Akhbār al-aʻyān fī jabal Lubnān /
 		</subfield>
 		<subfield code="c">
 			taʼlīf Ṭannūs ibn Yūsuf al-Shidyāḳ al-Ḥadathī al-Mārūnī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Bayrūt,
+			Bayrūt :
 		</subfield>
 		<subfield code="b">
 			Maktabat al-ʻIrfān,
@@ -157,8 +160,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Khāzin, Munīr Wuhaybah.
+			Khāzin, Munīr Wuhaybah. 
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -201,7 +207,10 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			شدياق، طنوس بن يوسف.
+			شدياق، طنوس بن يوسف، 
+		</subfield>
+		<subfield code="d">
+			-1861 or 1862.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -209,10 +218,32 @@
 			245-02/r
 		</subfield>
 		<subfield code="a">
-			أخبار الأخيان في جبل لبنان /
+			أخبار الأعيان في جبل لبنان /
 		</subfield>
 		<subfield code="c">
 			تأليف طنوس بن يوسف الشدياق.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			بيروت :
+		</subfield>
+		<subfield code="b">
+			مكتبة العرفان،
+		</subfield>
+		<subfield code="c">
+			1954.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/r
+		</subfield>
+		<subfield code="a">
+			خازن، منير وهيبة. 
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -240,7 +271,7 @@
 			NNC_3073797
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm47849848 
+			(OCoLC)ocm47849848
 		</subfield>
 		<subfield code="s">
 			columbia_aco001481:v.1
@@ -250,6 +281,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001481:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001482:v.2
 		</subfield>
 	</datafield>
 </record>

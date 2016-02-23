@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01613nam a2200337   4500
+		01747nam a2200349   4500
 	</leader>
 	<controlfield tag="001">
 		3072276
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1936    ua      o     000 0 araod
+		160223s1936    ua      o     000 0 araod
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,22 +41,28 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Raffāʼ, al-Sarī ibn Aḥmad,
+			Sarī al-Raffāʼ, Abū al-Ḥasan ibn Aḥmad,
 		</subfield>
 		<subfield code="d">
-			-976.
+			active 10th century.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">
-			880-01
+			880-02
 		</subfield>
 		<subfield code="a">
 			Dīwān al-Sarī al-Raffāʼ.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Qāhirah :
 		</subfield>
@@ -123,6 +129,14 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">
+			Poetry.
+		</subfield>
+		<subfield code="2">
+			lcgft
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -141,7 +155,7 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Raffāʼ, al-Sarī ibn Aḥmad, -976.
+			Sarī al-Raffāʼ, Abū al-Ḥasan ibn Aḥmad, active 10th century.
 		</subfield>
 		<subfield code="t">
 			Dīwān al-Sarī al-Raffāʼ
@@ -160,15 +174,18 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-00/r
+			100-01/r
 		</subfield>
 		<subfield code="a">
-			سري الرفاء، ٱبو الحسن بن ٱحمد.
+			سري الرفاء، ابو الحسن بن احمد،
+		</subfield>
+		<subfield code="d">
+			active 10th century.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-01/r
+			245-02/r
 		</subfield>
 		<subfield code="a">
 			ديوان السري الرفاء.
@@ -176,7 +193,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			القاهرة :
@@ -185,7 +202,7 @@
 			مكتبة القدسي،
 		</subfield>
 		<subfield code="c">
-			١٣٥٥ [١٩٣٦ ٱو ١٩٣٧]
+			[1355 H./1936]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -213,13 +230,16 @@
 			NNC_3072276
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23511676 
+			(OCoLC)ocm23511676
 		</subfield>
 		<subfield code="s">
 			columbia_aco001603
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001603
 		</subfield>
 	</datafield>
 </record>

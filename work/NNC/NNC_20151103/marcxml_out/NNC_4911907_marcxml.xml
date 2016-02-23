@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02924nam a2200553   4500
+		03685nam a2200601   4500
 	</leader>
 	<controlfield tag="001">
 		4911907
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19451949ua      ob    001 0 araod
+		160223m19451949ua      ob    001 0 araod
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -56,36 +56,45 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			Shurūḥ Siqṭ al-zand.
+			Shurūḥ Siqṭ al-zand /
+		</subfield>
+		<subfield code="c">
+			Lajnat Iḥyāʼ Āthār Abī al-ʻAlāʼ al-Maʻarrī.
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Shurūḥ Saqṭ al-zand
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="246">
 		<subfield code="6">
-			880-03
+			880-04
 		</subfield>
 		<subfield code="a">
 			Siqṭ al-zand
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="246">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Saqṭ al-zand
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-04
+			880-06
 		</subfield>
 		<subfield code="a">
 			al-Qāhirah :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat Dār al-Kutub al-Misrīyah,
+			Maṭbaʻat Dār al-Kutub al-Miṣrīyah,
 		</subfield>
 		<subfield code="c">
 			1945-1949.
@@ -122,7 +131,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="6">
-			880-05
+			880-07
 		</subfield>
 		<subfield code="a">
 			Lajnat Iḥyāʼ Athār Abī al-ʻAlāʼ al-Maʻarrī ;
@@ -133,7 +142,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="6">
-			880-06
+			880-08
 		</subfield>
 		<subfield code="a">
 			At head of title: al-Mamlakah al-Miṣrīyah. Wizārat al-Maʻārif al-ʻUmūmīyah.
@@ -166,9 +175,59 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-09
+		</subfield>
+		<subfield code="a">
+			Tibrīzī, Yaḥyá ibn ʻAlī,
+		</subfield>
+		<subfield code="d">
+			-1109.
+		</subfield>
+		<subfield code="t">
+			Sharḥ Saqt al-zand.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-10
+		</subfield>
+		<subfield code="a">
+			Baṭalyawsī, ʻAbd Allāh ibn Muḥammad,
+		</subfield>
+		<subfield code="d">
+			1052 or 3-1127.tSharḥ Saqt al-zand.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-11
+		</subfield>
+		<subfield code="a">
+			Ṣadr al-Afāḍīl, al-Qāsim ibn al-Ḥusayn,
+		</subfield>
+		<subfield code="d">
+			1160-1220.tSharḥ Saqt al-zand.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="2" tag="700">
+		<subfield code="6">
+			880-12
+		</subfield>
+		<subfield code="a">
+			Abū al-ʻAlāʼ al-Maʻarrī,
+		</subfield>
+		<subfield code="d">
+			973-1057.
+		</subfield>
+		<subfield code="t">
+			Saqṭ al-zand.
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="710">
 		<subfield code="6">
-			880-07
+			880-13
 		</subfield>
 		<subfield code="a">
 			Egypt.
@@ -209,7 +268,7 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
 		<subfield code="6">
-			880-08
+			880-14
 		</subfield>
 		<subfield code="a">
 			Āthār Abī al-ʻAlāʼ al-Maʻarrī ;
@@ -228,7 +287,7 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			ابو العلاء المعري،,
+			ابو العلاء المعري،
 		</subfield>
 		<subfield code="d">
 			973-1057.
@@ -239,12 +298,31 @@
 			245-02/r
 		</subfield>
 		<subfield code="a">
-			شروح سقط الزند.
+			شروح سقط الزند /
+		</subfield>
+		<subfield code="c">
+			لجنة احياء آثار ابي العلاء المعري.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-03/r
+		</subfield>
+		<subfield code="a">
+			شروح سقط الزند
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="880">
 		<subfield code="6">
-			246-03/r
+			246-04/r
+		</subfield>
+		<subfield code="a">
+			سقط الزند
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2="0" tag="880">
+		<subfield code="6">
+			246-05/r
 		</subfield>
 		<subfield code="a">
 			سقط الزند
@@ -252,7 +330,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-04/r
+			260-06/r
 		</subfield>
 		<subfield code="a">
 			القاهرة :
@@ -261,12 +339,12 @@
 			مطبعة دار الكتب المصرية،
 		</subfield>
 		<subfield code="c">
-			[-١٩٤]-[؟--١٩]
+			1945-1949.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			490-05/r
+			490-07/r
 		</subfield>
 		<subfield code="a">
 			لجنة احياء اثار ابي العلاء المعري ؛
@@ -277,7 +355,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			500-06/r
+			500-08/r
 		</subfield>
 		<subfield code="a">
 			At head of title: المملكة المصرية. وزارة المعارف العمومية.
@@ -285,47 +363,43 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-09/r
 		</subfield>
 		<subfield code="a">
-			حسين، طه.
+			تبريزي، يحيى بن علي،
+		</subfield>
+		<subfield code="d">
+			-1109. .
+		</subfield>
+		<subfield code="t">
+			شرح سقط الزند.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-10/r
 		</subfield>
 		<subfield code="a">
-			سقا، مصطفى.
+			بطليوسي، عبد الله بن محمد،
+		</subfield>
+		<subfield code="d">
+			1052 or 3-1127.تشرح سقط الزند.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-11/r
 		</subfield>
 		<subfield code="a">
-			تبريزي، يحيى بن علي.
+			صدر الافاضيل، القاسم بن الحسين،
 		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
-			700-00/r
-		</subfield>
-		<subfield code="a">
-			بطليوسي، عبد الله بن محمد.
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
-			700-00/r
-		</subfield>
-		<subfield code="a">
-			صدر الأفاضل، القسام بن الحسين.
+		<subfield code="d">
+			1160-1220.تشرح سقط الزند.
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="2" tag="880">
 		<subfield code="6">
-			700-00/r
+			700-12/r
 		</subfield>
 		<subfield code="a">
 			أبو العلاء المعري.
@@ -336,7 +410,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			710-07/r
+			710-13/r
 		</subfield>
 		<subfield code="a">
 			مملكة المصرية.
@@ -347,7 +421,7 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
 		<subfield code="6">
-			830-08/r
+			830-14/r
 		</subfield>
 		<subfield code="a">
 			آثار ابي العلاء المعري ؛ ;
@@ -381,7 +455,7 @@
 			NNC_4911907
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm22958660 
+			(OCoLC)ocm22958660
 		</subfield>
 		<subfield code="s">
 			columbia_aco001462:v.1
@@ -397,6 +471,18 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001462:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001463:v.2
+		</subfield>
+		<subfield code="s">
+			columbia_aco001464:v.3
+		</subfield>
+		<subfield code="s">
+			columbia_aco001465:v.4-5
 		</subfield>
 	</datafield>
 </record>

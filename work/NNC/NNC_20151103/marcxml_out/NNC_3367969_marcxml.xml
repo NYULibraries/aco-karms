@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01561nam a2200325   4500
+		02449nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		3367969
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1955    xx      o     000 0 ara  
+		160223s1945    xx      o     000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ibn al-Anbārī, ʻAbd al-Raḥmān ibn Muḥammad,
 		</subfield>
@@ -49,13 +52,31 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			al-Inṣāf fi masāʻil al-khilāf.
+			al-Inṣāf fī masāʼil al-khilāf :
+		</subfield>
+		<subfield code="b">
+			bayna al-naḥwīyīn al-Baṣrīyīn wa-al-Kūfīyīn /
+		</subfield>
+		<subfield code="c">
+			ta ʼlīf Kamāl al-Dīn Abī al-Barakāt ʻAbd al-Raḥmān ibn Muḥammad ibn Abī Saʻīd al-Anbārī al-Nahwḥwī ; taḥqīq Muḥammad Muḥyī al-Dīn ʻAbd al-Ḥamīd.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			[Cairo] :
+		</subfield>
+		<subfield code="b">
+			ʻUniya bi-Nashrihi M. Tawfīq,
+		</subfield>
 		<subfield code="c">
-			1955.
+			1945.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -169,7 +190,7 @@
 			Ibn al-Anbārī, ʻAbd al-Raḥmān ibn Muḥammad, 1119-1181.
 		</subfield>
 		<subfield code="t">
-			al-Inṣāf fi masāʻil al-khilāf
+			al-Inṣāf fī masāʼil al-khilāf
 		</subfield>
 		<subfield code="w">
 			(NNC)3367969
@@ -184,6 +205,45 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/4xgxd586
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ابن الانباري، عبد الرحمن بن محمد،
+		</subfield>
+		<subfield code="d">
+			1119-1181.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الانصاف في مسائل الخلاف :
+		</subfield>
+		<subfield code="b">
+			بين النحويين البصريين والكوفيين /
+		</subfield>
+		<subfield code="c">
+			تأليف كمال الدين ابي البركات عبد الرحمن بن محمد بن ابي سعيد الانباري النهوحوي ؛ تحقيق محمد محيي الدين عبد الحميد.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			[القاهرة] :
+		</subfield>
+		<subfield code="b">
+			عني بنشره م. توفيق،
+		</subfield>
+		<subfield code="c">
+			1945.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -211,13 +271,16 @@
 			NNC_3367969
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23486738 
+			(OCoLC)ocm23486738
 		</subfield>
 		<subfield code="s">
 			columbia_aco001492:v.1-2
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001492:v.1-2
 		</subfield>
 	</datafield>
 </record>

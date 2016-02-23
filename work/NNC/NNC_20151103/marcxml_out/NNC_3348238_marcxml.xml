@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01274nam a2200325   4500
+		02430nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		3348238
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19489999xx      od    000 0 ara d
+		160223m19489999xx      od    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,18 +41,47 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			al-Miṣrī, ʻAbd al-Raʼūf.
+			Miṣrī, ʻAbd al-Raʼūf.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Muʻjam al-Qurʼān.
+			Muʻjam al-Qurʼān, wa-huwa, Qāmūs mufradāt al-Qurʼān wa-gharībih :
+		</subfield>
+		<subfield code="b">
+			fī-hi tafsīr, lughah, adab, ʻilm, ijtimāʻ, falsafah, uṣūl al-kalimāt wa-dalālātihā, wa-tārīkh al-kutub al-samāwīyah wa-al-adyān, wa-baʻḍ al-aʻlām /
+		</subfield>
+		<subfield code="c">
+			allafa hādhā al-muʻjam wa-rattaba wa-fassarahu wa-ʻallaqa ʻalayhi ʻAbd al-Raʼūf al-Miṣrī &quot;Abū Rizq.&quot;
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			al-Ṭabʻah 2.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			al-Qāhirah :
+		</subfield>
+		<subfield code="b">
+			Maṭbaʻat Ḥijāzī,
+		</subfield>
 		<subfield code="c">
-			1948-
+			1948.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -154,10 +183,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			al-Miṣrī, ʻAbd al-Raʼūf.
+			Miṣrī, ʻAbd al-Raʼūf.
 		</subfield>
 		<subfield code="t">
-			Muʻjam al-Qurʼān
+			Muʻjam al-Qurʼān, wa-huwa, Qāmūs mufradāt al-Qurʼān wa-gharībih
 		</subfield>
 		<subfield code="w">
 			(NNC)3348238
@@ -169,6 +198,50 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/4tmpg7hw
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			مصري، عبد الرؤوف.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			معجم القرآن، وهو، قاموس مفردات القرآن وغريبه :
+		</subfield>
+		<subfield code="b">
+			فيه تفسير، لغة، ادب، علم، اجتماع، فلسفة، اصول الكلمات ودلالاتها، وتاريخ الكتب السماوية والاديان، وبعض الاعلام /
+		</subfield>
+		<subfield code="c">
+			الف هذه المعجم ورتب وفسره وعلق عليه عبد الرؤوف المصري &quot;ابو رزق.&quot;
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/r
+		</subfield>
+		<subfield code="a">
+			الطبعة 2.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			مطبعة حجازي،
+		</subfield>
+		<subfield code="c">
+			1948.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -196,13 +269,16 @@
 			NNC_3348238
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23495140 
+			(OCoLC)ocm23495140
 		</subfield>
 		<subfield code="s">
 			columbia_aco001556:v.1-2
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001556:v.1-2
 		</subfield>
 	</datafield>
 </record>

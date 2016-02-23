@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01872nam a2200373   4500
+		02148nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		3054856
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1930    xx      o     000 0 ara d
+		160223s1930    xx      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -60,11 +60,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[Place of publication not identified],
+			Cairo :
+		</subfield>
+		<subfield code="b">
+			Maṭbaʻah Ḥijāzī,
 		</subfield>
 		<subfield code="c">
-			[1349H/1930 or 31]
+			1349 i.e. 1930.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -135,6 +141,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Nawawī,
 		</subfield>
@@ -148,11 +157,6 @@
 		</subfield>
 		<subfield code="b">
 			Libraries.
-		</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="730">
-		<subfield code="a">
-			Hadith.
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="730">
@@ -182,7 +186,7 @@
 			http://hdl.handle.net/2333.1/w9ghx6pr
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
+	<datafield ind1="0" ind2=" " tag="880">
 		<subfield code="6">
 			100-01/r
 		</subfield>
@@ -200,7 +204,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			القاهرة :
@@ -210,6 +214,17 @@
 		</subfield>
 		<subfield code="c">
 			1349 ا.ي. 1930.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/r
+		</subfield>
+		<subfield code="a">
+			نووي،
+		</subfield>
+		<subfield code="d">
+			1233-1277.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -237,7 +252,7 @@
 			NNC_3054856
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm16995543 
+			(OCoLC)ocm16995543
 		</subfield>
 		<subfield code="s">
 			columbia_aco001409:v.1-2
@@ -268,6 +283,33 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001409:v.1-2
+		</subfield>
+		<subfield code="s">
+			columbia_aco001410:v.3-4
+		</subfield>
+		<subfield code="s">
+			columbia_aco001411:v.5-6
+		</subfield>
+		<subfield code="s">
+			columbia_aco001412:v.7-8
+		</subfield>
+		<subfield code="s">
+			columbia_aco001413:v.9-10
+		</subfield>
+		<subfield code="s">
+			columbia_aco001414:v.11-12
+		</subfield>
+		<subfield code="s">
+			columbia_aco001415:v.13-14
+		</subfield>
+		<subfield code="s">
+			columbia_aco001416:v.15-16
+		</subfield>
+		<subfield code="s">
+			columbia_aco001417:v.17-18
 		</subfield>
 	</datafield>
 </record>

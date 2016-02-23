@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01517nam a2200373   4500
+		01825nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		2686761
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1954    sy      o     000 0 ara d
+		160223s1954    sy      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -46,18 +46,30 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Jīfī, Taysīr.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Thawrāt wa-al-inqilābāt fī dhākirat al-ʻālam al-ʻArabī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[Dimashq],
+			[Dimashq] :
+		</subfield>
+		<subfield code="b">
+			[publsiher not identified],
 		</subfield>
 		<subfield code="c">
 			[1954?]
@@ -203,6 +215,36 @@
 			http://hdl.handle.net/2333.1/5x69pcg0
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			جيفي، تيسير.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الثورات والانقلابات في ذاكرة العالم العربي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			[دمشق] :
+		</subfield>
+		<subfield code="b">
+			[publsiher not identified]،
+		</subfield>
+		<subfield code="c">
+			[1954؟]
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -228,13 +270,16 @@
 			NNC_2686761
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm45088351 
+			(OCoLC)ocm45088351
 		</subfield>
 		<subfield code="s">
 			columbia_aco001599
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001599
 		</subfield>
 	</datafield>
 </record>

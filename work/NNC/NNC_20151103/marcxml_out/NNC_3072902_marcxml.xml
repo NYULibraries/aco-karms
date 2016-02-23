@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		03047nam a2200493   4500
+		03013nam a2200481   4500
 	</leader>
 	<controlfield tag="001">
 		3072902
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19601961sy h    o     000 0 arard
+		160223m19601961sy h    o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -251,7 +251,10 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			‏أبو الطيب اللغوي، عبد الواحد بن علي.
+			‏أبو الطيب اللغوي، عبد الواحد بن علي،
+		</subfield>
+		<subfield code="d">
+			-962 or 963.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -285,14 +288,6 @@
 		</subfield>
 		<subfield code="c">
 			1960-1961.
-		</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">
-			490-00/r
-		</subfield>
-		<subfield code="a">
-			المجمع العلمي العربي بدمشق. المطبوعات
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
@@ -344,7 +339,7 @@
 			NNC_3072902
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23491843 
+			(OCoLC)ocm23491843
 		</subfield>
 		<subfield code="s">
 			columbia_aco001504:v.1
@@ -354,6 +349,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001504:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001505:v.2
 		</subfield>
 	</datafield>
 </record>

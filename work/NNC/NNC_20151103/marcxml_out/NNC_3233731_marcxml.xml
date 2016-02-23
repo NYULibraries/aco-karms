@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		03366nam a2200481   4500
+		03565nam a2200481   4500
 	</leader>
 	<controlfield tag="001">
 		3233731
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19311933ua h    o     000 0dara  
+		160223m19311933ua h    o     000 0dara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -79,6 +79,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			[al-Qāhirah] :
 		</subfield>
@@ -314,7 +317,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			[القاهرة] :
@@ -351,7 +354,7 @@
 			NNC_3233731
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm22865694 
+			(OCoLC)ocm22865694
 		</subfield>
 		<subfield code="s">
 			columbia_aco001454:v.1
@@ -379,6 +382,30 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001454:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001455:v.2
+		</subfield>
+		<subfield code="s">
+			columbia_aco001456:v.3
+		</subfield>
+		<subfield code="s">
+			columbia_aco001457:v.4
+		</subfield>
+		<subfield code="s">
+			columbia_aco001458:v.5
+		</subfield>
+		<subfield code="s">
+			columbia_aco001459:v.6
+		</subfield>
+		<subfield code="s">
+			columbia_aco001460:v.7
+		</subfield>
+		<subfield code="s">
+			columbia_aco001461:v.8
 		</subfield>
 	</datafield>
 </record>

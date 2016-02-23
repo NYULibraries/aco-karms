@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01455nam a2200313   4500
+		02136nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		3076366
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1939    ua      ob    001 0 ara d
+		160223s1939    ua      ob    001 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -32,17 +32,42 @@
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="0" tag="245">
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Qiṣaṣ al-ʻarab.
+			Jād al-Mawlá, Muḥammad Aḥmad. 
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
+		<subfield code="a">
+			Qiṣaṣ al-ʻArab /
 		</subfield>
 		<subfield code="c">
-			Taʻlif Muhammad Ahmad Jād al-Mawlī Bek ... ʻAlī Muhammad al-Bajāwī ... Muhammad Abū al-Faḍl Ibrāhīm ...
+			taʼlīf Muḥammad Aḥmad Jād al-Mawlā, ʻAlī Muḥammad al-Bajāwī, Muḥammad Abū al-Faḍl Ibrāhīm.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Cairo,
+			[al-Qāhirah] :
+		</subfield>
+		<subfield code="b">
+			ʻĪsá al-Bābī al-Ḥalabī,
 		</subfield>
 		<subfield code="c">
 			1939.
@@ -106,7 +131,10 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">
-			Arabic literature.
+			Anecdotes
+		</subfield>
+		<subfield code="z">
+			Arab countries.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="7" tag="650">
@@ -151,8 +179,11 @@
 		<subfield code="i">
 			Print version:
 		</subfield>
+		<subfield code="a">
+			Jād al-Mawlá, Muḥammad Aḥmad.
+		</subfield>
 		<subfield code="t">
-			Qiṣaṣ al-ʻarab
+			Qiṣaṣ al-ʻArab
 		</subfield>
 		<subfield code="w">
 			(NNC)3076366
@@ -164,6 +195,47 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/m0cfxsw7
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			جاد المولى، محمد احمد. 
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			قصص العرب /
+		</subfield>
+		<subfield code="c">
+			تأليف محمد احمد جاد المولى، علي محمد البجاوي، محمد ابو الفضل ابراهيم.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/r
+		</subfield>
+		<subfield code="a">
+			الطبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			[القاهرة] :
+		</subfield>
+		<subfield code="b">
+			عيسى البابي الحلبي،
+		</subfield>
+		<subfield code="c">
+			1939.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -191,7 +263,7 @@
 			NNC_3076366
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm47858113 
+			(OCoLC)ocm47858113
 		</subfield>
 		<subfield code="s">
 			columbia_aco001537:v.1
@@ -207,6 +279,18 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001537:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001538:v.2
+		</subfield>
+		<subfield code="s">
+			columbia_aco001539:v.3
+		</subfield>
+		<subfield code="s">
+			columbia_aco001540:v.4
 		</subfield>
 	</datafield>
 </record>

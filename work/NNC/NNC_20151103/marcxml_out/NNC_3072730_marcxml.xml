@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01762nam a2200361   4500
+		01799nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		3072730
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s194u    ua      ob    000 0 arard
+		160223s194u    ua      ob    000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -45,10 +45,13 @@
 			880-01
 		</subfield>
 		<subfield code="a">
-			ʻAlāyilī, ʻAbd Allāh.
+			ʻAlāyilī, ʻAbd Allāh. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Muqaddimah li-dars lughat al-ʻArab wa-kayfa naḍaʻu al-muʻjam al-jadīd /
 		</subfield>
@@ -57,8 +60,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[Egypt] :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
 			al-Maṭbaʻah al-ʻAṣrīyah,
@@ -185,12 +191,12 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			علايلى، عبدالله.
+			علايلي، عبد الله. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-00/r
+			245-02/r
 		</subfield>
 		<subfield code="a">
 			مقدمة لدرس لغة العرب وكيف نضع المعجم الجديد /
@@ -201,7 +207,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			مصر :
@@ -238,13 +244,16 @@
 			NNC_3072730
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm45139756 
+			(OCoLC)ocm45139756
 		</subfield>
 		<subfield code="s">
 			columbia_aco001449
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001449
 		</subfield>
 	</datafield>
 </record>

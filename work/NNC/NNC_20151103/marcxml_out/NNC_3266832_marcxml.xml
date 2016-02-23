@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02035nam a2200397   4500
+		02126nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		3266832
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m18911895ua      o     000 0 arard
+		160223m18911895ua      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -52,11 +52,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Luzūmīyāt
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Luzūmīyāt, aw, Luzūm mā lā yalzam /
 		</subfield>
@@ -66,13 +72,16 @@
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="246">
 		<subfield code="6">
-			880-02
+			880-04
 		</subfield>
 		<subfield code="a">
 			Luzūm mā lā yalzam
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Miṣr :
 		</subfield>
@@ -135,6 +144,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Zand, ʻAzīz.
 		</subfield>
@@ -179,12 +191,15 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			أبو العلاء المعري.
+			أبو العلاء المعري،
+		</subfield>
+		<subfield code="d">
+			973-1057.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			240-00/r
+			240-02/r
 		</subfield>
 		<subfield code="a">
 			لزوميات
@@ -192,7 +207,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-00/r
+			245-03/r
 		</subfield>
 		<subfield code="a">
 			اللزوميات، أو، لزوم ما لا يلزم /
@@ -203,7 +218,7 @@
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="880">
 		<subfield code="6">
-			246-02/r
+			246-04/r
 		</subfield>
 		<subfield code="a">
 			لزوم ما لا يلزم
@@ -211,7 +226,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-05/r
 		</subfield>
 		<subfield code="a">
 			مصر :
@@ -225,7 +240,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-06/r
 		</subfield>
 		<subfield code="a">
 			زند، عزيز.
@@ -256,7 +271,7 @@
 			NNC_3266832
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm44846110 
+			(OCoLC)ocm44846110
 		</subfield>
 		<subfield code="s">
 			columbia_aco001557:v.1
@@ -266,6 +281,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001557:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001558:v.2
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01226nam a2200289   4500
+		01699nam a2200337   4500
 	</leader>
 	<controlfield tag="001">
 		3089711
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1944    ua f    o     000 0 ara d
+		160223s1944    ua f    o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,27 +33,36 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Marzouk, Mohammad Abd el-Aziz.
+			Marzūq, Muḥammad ʻAbd al-ʻAzīz. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Islam and fine arts,
+			al-Islām wa-al-Funūn al-jamīlah /
 		</subfield>
 		<subfield code="c">
-			by Moh. Abd el Aziz Marz Ouk.
+			[taʼlīf] Muḥammad ʻAbd al-ʻAzīz Marzūq.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[Cairo]
+			al-Qāhirah :
 		</subfield>
 		<subfield code="b">
-			Egyptian Library Press,
+			Maṭbaʻat Dār al-kutub al-Miṣrīyah,
 		</subfield>
 		<subfield code="c">
-			1944.
+			[1944]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -115,6 +124,11 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Islamic art.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Columbia University.
@@ -133,10 +147,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Marzouk, Mohammad Abd el-Aziz.
+			Marzūq, Muḥammad ʻAbd al-ʻAzīz.
 		</subfield>
 		<subfield code="t">
-			Islam and fine arts
+			al-Islām wa-al-Funūn al-jamīlah
 		</subfield>
 		<subfield code="w">
 			(NNC)3089711
@@ -148,6 +162,39 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/9p8czd0b
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			مرزوق، محمد عبد العزيز. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الاسلام والفنون الجميلة /
+		</subfield>
+		<subfield code="c">
+			[تأليف] محمد عبد العزيز مرزوق.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			مطبعة دار الكتب المصرية،
+		</subfield>
+		<subfield code="c">
+			[1944]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -175,13 +222,16 @@
 			NNC_3089711
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm48019790 
+			(OCoLC)ocm48019790
 		</subfield>
 		<subfield code="s">
 			columbia_aco001526
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001526
 		</subfield>
 	</datafield>
 </record>

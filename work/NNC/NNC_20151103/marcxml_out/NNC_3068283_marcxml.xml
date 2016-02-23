@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01315nam a2200289   4500
+		01675nam a2200325   4500
 	</leader>
 	<controlfield tag="001">
 		3068283
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19421944ua      o     000 e ara d
+		160223m19421944ua      o     000 e ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Amīn, Aḥmad,
 		</subfield>
@@ -41,13 +44,19 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Fayḍ al-khātir wa-huwa majmūʻ maqālāt adabīyah wa-ijtimāʻīyah.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Cairo,
+			al-Qāhirah :
 		</subfield>
 		<subfield code="b">
 			Lajnat al-Taʼlīf wa-al-Tarjamah wa-al-Nashr,
@@ -87,11 +96,6 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
-			Essays.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
 			Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.
 		</subfield>
 	</datafield>
@@ -110,6 +114,11 @@
 		</subfield>
 		<subfield code="5">
 			NNU
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Essays.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -147,6 +156,39 @@
 			http://hdl.handle.net/2333.1/qv9s4r11
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			امين، احمد،
+		</subfield>
+		<subfield code="d">
+			1886-1954.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			فيض الخاطر وهو مجموع مقالات ادبية واجتماعية.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			لجنة التأليف والترجمة والنشر،
+		</subfield>
+		<subfield code="c">
+			194244.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -172,7 +214,7 @@
 			NNC_3068283
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm78009798 
+			(OCoLC)ocm78009798
 		</subfield>
 		<subfield code="s">
 			columbia_aco001559:v.1-2
@@ -182,6 +224,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001559:v.1-2
+		</subfield>
+		<subfield code="s">
+			columbia_aco001560:v.3-5
 		</subfield>
 	</datafield>
 </record>

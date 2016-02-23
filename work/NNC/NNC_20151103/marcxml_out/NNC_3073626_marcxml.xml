@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01540nam a2200313   4500
+		02147nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		3073626
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19501955ua h    ob    000 0 ara d
+		160223m19501955ua h    ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Qifṭī, ʻAlī ibn Yūsuf,
 		</subfield>
@@ -49,19 +52,28 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Inbāh al-ruwāh àlā anbāh al-nuḥāh bi-taḥqīq Muḥammad Abū al-Faḍl Ibrāhīm.
+			Inbāh al-ruwāh ʻalá anbāh al-nuḥāh /
+		</subfield>
+		<subfield code="c">
+			taʼlīf Jamāl al-Dīn Abī al-Ḥasan ʻAlī ibn Yūsuf al-Qifṭī ; bi-taḥqīq Muḥammad Abū al-Faḍl Ibrāhīm.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Cairo,
+			al-Qāhirah :
 		</subfield>
 		<subfield code="b">
 			Dār al-Kutub al-Miṣrīyah,
 		</subfield>
 		<subfield code="c">
-			1950-1955.
+			1950-73.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -127,6 +139,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Ibrāhīm, Muḥammad Abū al-Faḍl.
 		</subfield>
@@ -152,7 +167,7 @@
 			Qifṭī, ʻAlī ibn Yūsuf, 1172 or 1173-1248.
 		</subfield>
 		<subfield code="t">
-			Inbāh al-ruwāh àlā anbāh al-nuḥāh bi-taḥqīq Muḥammad Abū al-Faḍl Ibrāhīm
+			Inbāh al-ruwāh ʻalá anbāh al-nuḥāh
 		</subfield>
 		<subfield code="w">
 			(NNC)3073626
@@ -164,6 +179,50 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/z8w9gn4r
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			قفطي، علي بن يوسف،
+		</subfield>
+		<subfield code="d">
+			1172 or 1173-1248.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			إنباه الرُّواة على أنباه النحاة /
+		</subfield>
+		<subfield code="c">
+			تأليف جمال الدين ابي الحسن علي بن يوسف القفطي ؛ بتحقيق محمد ابو الفضل ابراهيم.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			دار الكتب المصرية،
+		</subfield>
+		<subfield code="c">
+			195073.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/r
+		</subfield>
+		<subfield code="a">
+			ابراهيم، محمد ابو الفضل.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -191,7 +250,7 @@
 			NNC_3073626
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm10958476 
+			(OCoLC)ocm10958476
 		</subfield>
 		<subfield code="s">
 			columbia_aco001518:v.1
@@ -204,6 +263,15 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001518:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001519:v.2
+		</subfield>
+		<subfield code="s">
+			columbia_aco001520:v.3
 		</subfield>
 	</datafield>
 </record>

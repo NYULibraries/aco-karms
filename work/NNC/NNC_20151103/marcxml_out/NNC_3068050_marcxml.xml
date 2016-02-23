@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02133nam a2200433   4500
+		02834nam a2200505   4500
 	</leader>
 	<controlfield tag="001">
 		3068050
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105s1951    ua      ob    001 0barard
+		160223s1951    ua      ob    001 0barard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -46,6 +46,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Kātib al-Iṣfahānī, ʻImād al-Dīn Muḥammad ibn Muḥammad,
 		</subfield>
@@ -54,6 +57,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Kharīdat al-qaṣr wa-jarīdat al-ʻaṣr, qism shuʻarāʼ Miṣr /
 		</subfield>
@@ -62,6 +68,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Qāhirah :
 		</subfield>
@@ -209,6 +218,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Amīn, Aḥmad,
 		</subfield>
@@ -217,11 +229,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Ḍayf, Shawqī.
+			Ḍayf, Shawqī. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			ʻAbbās, Iḥsān.
 		</subfield>
@@ -261,6 +279,69 @@
 			http://hdl.handle.net/2333.1/ns1rncxf
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			كاتب الاصفهاني، عاماد الدين محمد بن محمد،
+		</subfield>
+		<subfield code="d">
+			1125-1201.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			خريدة القصر وجريدة العصر، قسم شعراء مصر /
+		</subfield>
+		<subfield code="c">
+			تأليف العماد الاصفهاني الكاتب ؛ نشره احمد امين، شوقي ضيف، احسن عباس.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			لجنة التأليف والترجمة والنشر،
+		</subfield>
+		<subfield code="c">
+			1951.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/r
+		</subfield>
+		<subfield code="a">
+			امين، احمد،
+		</subfield>
+		<subfield code="d">
+			1886-1954.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/r
+		</subfield>
+		<subfield code="a">
+			ضيف، شوقي.  
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-06/r
+		</subfield>
+		<subfield code="a">
+			عباس، احسان.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -286,7 +367,7 @@
 			NNC_3068050
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm45301345 
+			(OCoLC)ocm45301345
 		</subfield>
 		<subfield code="s">
 			columbia_aco001486:v.1
@@ -296,6 +377,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001486:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001487:v.2
 		</subfield>
 	</datafield>
 </record>

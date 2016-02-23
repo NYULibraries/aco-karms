@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02007nam a2200373   4500
+		02572nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		4894404
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160105m19321934sy      o     000 0 ara d
+		160223m19321934sy      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -32,7 +32,7 @@
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="4" tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			BP135.A138
 		</subfield>
@@ -52,22 +52,28 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Maʻālim al-sunan wa-huwa sharḥ sunan al-Imām Abī Dāwūd /
 		</subfield>
 		<subfield code="c">
-			li-Abī Sulaymān Aḥmad ibn Muḥammad al-Khaṭṭābī al-Bastī.
+			li-Abī Sulaymān Aḥmad ibn Muḥammad al-Khaṭṭābī al-Bastī ; ṭabaʻahu wa-ṣaḥḥaḥahu Muḥammad Rāghib al-Ṭabbākh.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
 		<subfield code="6">
-			880-02
+			880-03
 		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Ḥalab :
 		</subfield>
@@ -134,18 +140,15 @@
 			NNU
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="0" tag="600">
-		<subfield code="6">
-			880-03
-		</subfield>
+	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">
-			AbuÌ DaÌÊ¼uÌd SulaymaÌn ibn al-AshÊ»ath al-SijistaÌniÌ,
+			Hadith
 		</subfield>
-		<subfield code="d">
-			817 or 818-889.
+		<subfield code="x">
+			Criticism, interpretation, etc.
 		</subfield>
-		<subfield code="t">
-			Sunan.
+		<subfield code="v">
+			Early works to 1800.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
@@ -154,6 +157,17 @@
 		</subfield>
 		<subfield code="x">
 			Traditions.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Abū Dāʼūd Sulaymān ibn al-Ashʻath al-Sijistānī,
+		</subfield>
+		<subfield code="d">
+			817 or 818-889.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -196,20 +210,48 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			‏خطابي، حمد بن محمد.
+			خطابي، حمد بن محمد،
+		</subfield>
+		<subfield code="d">
+			931-996.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			معال السنن وهو شرح سنن الامام ابي داوود /
+		</subfield>
+		<subfield code="c">
+			لابي سليمان احمد بن محمد الخطابي البستي ؛ طبعه وصححه محمد راغب الطباخ.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			250-02/r
+			250-03/r
 		</subfield>
 		<subfield code="a">
 			‏الطبعة 1.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			حلب :
+		</subfield>
+		<subfield code="b">
+			طبعه وصححه محمد راغب الطباخ،
+		</subfield>
+		<subfield code="c">
+			1932-1934.
+		</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="4" tag="880">
 		<subfield code="6">
-			600-03/r
+			600-05/r
 		</subfield>
 		<subfield code="a">
 			‏أبو داؤد سليمان بن الأشعث السجستاني،‏,
@@ -246,7 +288,7 @@
 			NNC_4894404
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm57021976 
+			(OCoLC)ocm57021976
 		</subfield>
 		<subfield code="s">
 			columbia_aco001468:v.1
@@ -262,6 +304,18 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			columbia_aco001468:v.1
+		</subfield>
+		<subfield code="s">
+			columbia_aco001469:v.2
+		</subfield>
+		<subfield code="s">
+			columbia_aco001470:v.3
+		</subfield>
+		<subfield code="s">
+			columbia_aco001471:v.4
 		</subfield>
 	</datafield>
 </record>
