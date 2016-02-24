@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01978nam a2200361   4500
+		02376nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		1654432
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1954    iq a    ob    000 0 arar 
+		160224s1954    iq a    ob    000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Kushājim, Maḥmūd ibn al-Ḥusayn,
 		</subfield>
@@ -49,19 +52,25 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Maṣāyid wa-al-maṭārid /
 		</subfield>
 		<subfield code="c">
-			taʼlīf Abī al-Faṭh Maḥmūd ibn al-Ḥasan al-Kātib al-maʻrūf bi-Kushājm; Haqqaqahu wa-ʻallaqa ʻalayh Muḥamad Asʻad Ṭalas.
+			taʼlīf Abī al-Fatḥ Maḥmūd ibn al-Ḥasan al-Kātib al-maʻrūf bi-Kushājm; Ḥaqqaqahu wa-ʻallaqa ʻalayh Muḥamad Asʻad Ṭalas.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Baghdād,
+			Baghdād :
 		</subfield>
 		<subfield code="b">
-			Dār al-Yaqdhah [Tavikh al-muqaddimah],
+			Dār al-Yaqdhah,
 		</subfield>
 		<subfield code="c">
 			[1954]
@@ -216,6 +225,42 @@
 			http://hdl.handle.net/2333.1/v15dv7dr
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			كشاجم، محمود بن الحسين،
+		</subfield>
+		<subfield code="d">
+			active 10th century.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			المصايد والمطارد /
+		</subfield>
+		<subfield code="c">
+			تأليف ابي الفتح محمود بن الحسن الكاتب المعروف بكشاجم؛ حققه وعلق عليه محمد اسعد طلس.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			دار اليقظة،
+		</subfield>
+		<subfield code="c">
+			[1954] 
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -241,13 +286,16 @@
 			NIC_1654432
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm07872521 
+			(OCoLC)ocm07872521
 		</subfield>
 		<subfield code="s">
 			cornell_aco000472
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000472
 		</subfield>
 	</datafield>
 </record>

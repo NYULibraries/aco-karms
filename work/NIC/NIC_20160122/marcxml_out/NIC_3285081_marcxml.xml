@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		03447nam a2200469   4500
+		03581nam a2200493   4500
 	</leader>
 	<controlfield tag="001">
 		3285081
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1950    ua      o     000 0 arard
+		160224s1950    ua      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -66,13 +66,16 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Akhṣar al-mukhtaṣarāt
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-03
+			880-04
 		</subfield>
 		<subfield code="a">
 			[Cairo] :
@@ -142,7 +145,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
 		<subfield code="6">
-			880-04
+			880-05
 		</subfield>
 		<subfield code="a">
 			Ibn Balabān, Muḥammad ibn Badr al-Dīn,
@@ -156,7 +159,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
 		<subfield code="6">
-			880-05
+			880-06
 		</subfield>
 		<subfield code="a">
 			Ibn Balabān, Muḥammad ibn Badr al-Dīn,
@@ -180,7 +183,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-06
+			880-07
 		</subfield>
 		<subfield code="a">
 			Ibn Balabān, Muḥammad ibn Badr al-Dīn,
@@ -203,6 +206,14 @@
 	<datafield ind1="0" ind2=" " tag="730">
 		<subfield code="a">
 			Arabic Collections Online.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-08
+		</subfield>
+		<subfield code="a">
+			Akhṣar al-mukhtaṣarāt
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
@@ -252,7 +263,7 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			بعلي، عبد الرحمن بن عبد الله،,
+			بعلي، عبد الرحمن بن عبد الله،
 		</subfield>
 		<subfield code="d">
 			1698 or 1699-1778 or 1779.
@@ -272,32 +283,26 @@
 			تأليف زين الدين عبد الرحمن بن عبد الله بن أحمد البعلي ثم الدمشقي.
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="880">
+	<datafield ind1="3" ind2=" " tag="880">
 		<subfield code="6">
-			260-03/r
+			246-03/r
 		</subfield>
 		<subfield code="a">
-			القاهرة :
-		</subfield>
-		<subfield code="b">
-			المطبعة السلفية و مكتبتها،
-		</subfield>
-		<subfield code="c">
-			[196-?]
+			اخصر المختصرات 
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="4" tag="880">
+	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			600-04/r
+			260-04/r
 		</subfield>
 		<subfield code="a">
-			ابن بلبان، محمد بن بدر الدين،,
+			[القاهرة] :
 		</subfield>
-		<subfield code="d">
-			1597 or 1598-1672 or 1673.
+		<subfield code="b">
+			المطبعة السلفية ومكتبتها،
 		</subfield>
-		<subfield code="t">
-			كافي المبتدا'
+		<subfield code="c">
+			[195-؟]
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="4" tag="880">
@@ -311,12 +316,26 @@
 			1597 or 1598-1672 or 1673.
 		</subfield>
 		<subfield code="t">
+			كافي المبتدا'
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-06/r
+		</subfield>
+		<subfield code="a">
+			ابن بلبان، محمد بن بدر الدين،,
+		</subfield>
+		<subfield code="d">
+			1597 or 1598-1672 or 1673.
+		</subfield>
+		<subfield code="t">
 			اخصر المختصرات.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-06/r
+			700-07/r
 		</subfield>
 		<subfield code="a">
 			ابن بلبان، محمد بن بدر الدين،,
@@ -330,7 +349,7 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
 		<subfield code="6">
-			740-00/r
+			740-08/r
 		</subfield>
 		<subfield code="a">
 			أخصر المختصرات.
@@ -361,13 +380,16 @@
 			NIC_3285081
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm09921731 
+			(OCoLC)ocm09921731
 		</subfield>
 		<subfield code="s">
 			cornell_aco000530
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000530
 		</subfield>
 	</datafield>
 </record>

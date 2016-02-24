@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01721nam a2200361   4500
+		02136nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		1686263
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1951    ua      o     000 0 ara d
+		160224s1951    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="110">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Egypt.
 		</subfield>
@@ -49,6 +52,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Maḥāḍir :
 		</subfield>
@@ -57,6 +63,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Qāhirah :
 		</subfield>
@@ -213,6 +222,42 @@
 			http://hdl.handle.net/2333.1/rn8pk41n
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			110-01/r
+		</subfield>
+		<subfield code="a">
+			مصر.
+		</subfield>
+		<subfield code="b">
+			وزارة الخارجية الملكية. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			محاضر :
+		</subfield>
+		<subfield code="b">
+			المحادثات السياسية والمذكرات المتبادلة بين الحكومة المصرية وحكومة المملكة المتحدة.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			[وزارة الخارجية الملكية]،
+		</subfield>
+		<subfield code="c">
+			1951.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -238,13 +283,16 @@
 			NIC_1686263
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm63980054 
+			(OCoLC)ocm63980054
 		</subfield>
 		<subfield code="s">
 			cornell_aco000465
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000465
 		</subfield>
 	</datafield>
 </record>

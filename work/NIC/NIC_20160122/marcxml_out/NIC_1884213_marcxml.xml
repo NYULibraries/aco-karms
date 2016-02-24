@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02393nam a2200469   4500
+		02502nam a2200481   4500
 	</leader>
 	<controlfield tag="001">
 		1884213
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1947    ua      ob    001 0 ara d
+		160224s1947    ua      ob    001 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -60,6 +60,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Jamāmīz, Miṣr :
 		</subfield>
@@ -101,7 +104,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="6">
-			880-03
+			880-04
 		</subfield>
 		<subfield code="a">
 			Silailat al-falsafah wa-al-ijtimāʻ ;
@@ -164,8 +167,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Lajnat al-Jamiʻīyīn li-Nashr al-ʻIlm.
+			Lajnat al-Jāmiʻīyīn li-Nashr al-ʻIlm.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -178,7 +184,7 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="730">
 		<subfield code="6">
-			880-04
+			880-06
 		</subfield>
 		<subfield code="a">
 			Qiṣṣat al-ṣirāʻ bayna al-dīn wa-al-falsafah.
@@ -208,7 +214,7 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
 		<subfield code="6">
-			880-05
+			880-07
 		</subfield>
 		<subfield code="a">
 			Silailat al-falsafah wa-al-ijtimāʻ ;
@@ -243,7 +249,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			الجماميز، مصر :
@@ -257,7 +263,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			490-03/r
+			490-04/r
 		</subfield>
 		<subfield code="a">
 			سلسلة الفلسفة و الاجتماع ؛
@@ -266,9 +272,17 @@
 			٤
 		</subfield>
 	</datafield>
+	<datafield ind1="2" ind2=" " tag="880">
+		<subfield code="6">
+			710-05/r
+		</subfield>
+		<subfield code="a">
+			لجنة الجامعيين لنشر العلم.
+		</subfield>
+	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
 		<subfield code="6">
-			730-04/r
+			730-06/r
 		</subfield>
 		<subfield code="a">
 			قصة الصراع بين الدين و الفلسفة.
@@ -276,10 +290,10 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
 		<subfield code="6">
-			830-05/r
+			830-07/r
 		</subfield>
 		<subfield code="a">
-			سلسلة الفلسفة و الاجتماع ؛ ;
+			سلسلة الفلسفة و الاجتماع ؛
 		</subfield>
 		<subfield code="v">
 			٤.
@@ -310,13 +324,16 @@
 			NIC_1884213
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm64677447 
+			(OCoLC)ocm64677447
 		</subfield>
 		<subfield code="s">
 			cornell_aco000522
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000522
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02023nam a2200457   4500
+		02209nam a2200481   4500
 	</leader>
 	<controlfield tag="001">
 		3771658
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1950    le      o     000 0 arard
+		160224s1950    le      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -40,7 +40,7 @@
 			e-sp---
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="4" tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			DT173
 		</subfield>
@@ -84,18 +84,24 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Akhbār al-Maghrib
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Akhbār al-Andalus
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-03
+			880-05
 		</subfield>
 		<subfield code="a">
 			Bayrūt :
@@ -252,7 +258,10 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			ابن عذاري, محمد.
+			ابن عذاري, محمد،
+		</subfield>
+		<subfield code="d">
+			-approximately 1295.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
@@ -266,9 +275,25 @@
 			ابن عذاري المراكشي.
 		</subfield>
 	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-03/r
+		</subfield>
+		<subfield code="a">
+			اخبار المغرب
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-04/r
+		</subfield>
+		<subfield code="a">
+			اخبار الاندلس
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-03/r
+			260-05/r
 		</subfield>
 		<subfield code="a">
 			بيروت :
@@ -305,7 +330,7 @@
 			NIC_3771658
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm29266822 
+			(OCoLC)ocm29266822
 		</subfield>
 		<subfield code="s">
 			cornell_aco000407:v.1
@@ -315,6 +340,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000407:v.1
+		</subfield>
+		<subfield code="s">
+			cornell_aco000406:v.2
 		</subfield>
 	</datafield>
 </record>

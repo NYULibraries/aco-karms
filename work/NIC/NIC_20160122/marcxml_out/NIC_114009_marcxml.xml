@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01622nam a2200385   4500
+		01922nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		114009
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1952    le a    o     000 0 ara d
+		160224s1952    le a    o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -38,24 +38,30 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Malouf, Timothy Philip.
+			Maʻlūf, Timūthy Phīlip.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Fruiting trees.
-		</subfield>
-		<subfield code="n">
-			I.
-		</subfield>
-		<subfield code="p">
-			Apples.
+			Al-Tufāḥ.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Beirut,
+			Bayrūt :
+		</subfield>
+		<subfield code="b">
+			Idārat al-Taʻāwun al-Fany al-Amīrikiyah,
 		</subfield>
 		<subfield code="c">
 			1952.
@@ -209,10 +215,10 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Malouf, Timothy Philip.
+			Maʻlūf, Timūthy Phīlip.
 		</subfield>
 		<subfield code="t">
-			Fruiting trees
+			Al-Tufāḥ
 		</subfield>
 		<subfield code="w">
 			(NIC)114009
@@ -224,6 +230,36 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/cjsxkwvx
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			معلوف، تيموثي فيليب.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			التفاح.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			بيروت :
+		</subfield>
+		<subfield code="b">
+			ادارة التعاون الفني الاميركية،
+		</subfield>
+		<subfield code="c">
+			1952.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -251,13 +287,16 @@
 			NIC_114009
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm63220617 
+			(OCoLC)ocm63220617
 		</subfield>
 		<subfield code="s">
 			cornell_aco000417
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000417
 		</subfield>
 	</datafield>
 </record>

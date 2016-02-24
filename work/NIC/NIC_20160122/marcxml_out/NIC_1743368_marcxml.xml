@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01293nam a2200301   4500
+		01660nam a2200349   4500
 	</leader>
 	<controlfield tag="001">
 		1743368
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1953    le      ob    000 0 ara d
+		160224s1953    le      ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,11 +33,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Kāmil, Sulaymān.
+			Kāmil, Sulaymān. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Ḥasan ibn ʻAlī :
 		</subfield>
@@ -49,6 +55,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Bayrūt :
 		</subfield>
@@ -116,8 +125,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Ḥassan ibn ʻAlī,
+			Ḥasan ibn ʻAlī,
 		</subfield>
 		<subfield code="d">
 			-approximately 669.
@@ -158,6 +170,53 @@
 			http://hdl.handle.net/2333.1/zcrjdk28
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			كامل، سليمان. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الحسن بن علي :
+		</subfield>
+		<subfield code="b">
+			[دراسة وتحليل] /
+		</subfield>
+		<subfield code="c">
+			تأليف كامل سليمان.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			بيروت :
+		</subfield>
+		<subfield code="b">
+			منشورات دار الفكر،
+		</subfield>
+		<subfield code="c">
+			1953.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">
+			600-04/r
+		</subfield>
+		<subfield code="a">
+			حسن بن علي،
+		</subfield>
+		<subfield code="d">
+			-approximately 669.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -183,13 +242,16 @@
 			NIC_1743368
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm64017195 
+			(OCoLC)ocm64017195
 		</subfield>
 		<subfield code="s">
 			cornell_aco000504
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000504
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02767nam a2200445   4500
+		02989nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		4889711
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1940    ua      o     000 0 ara d
+		160224s1940    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -136,6 +136,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Abū Shujāʻ al-Iṣfahānī, Aḥmad ibn al-Ḥusayn,
 		</subfield>
@@ -157,13 +160,16 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
-			Iwaḍ, al-Shaykh.
+			ʻAwaḍ, al-Shaykh.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-05
+			880-07
 		</subfield>
 		<subfield code="a">
 			Bājūrī, Ibrāhīm ibn Muḥammad,
@@ -174,13 +180,13 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-06
+			880-08
 		</subfield>
 		<subfield code="a">
 			Abū Shujāʻ al-Iṣfahānī, Aḥmad ibn al-Ḥusayn,
 		</subfield>
 		<subfield code="d">
-			1725 or 1726-1782 or 1783.
+			approximately 1042-
 		</subfield>
 		<subfield code="t">
 			Ghāyat al-ikhtiṣār.
@@ -226,7 +232,7 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			شربيني، محمد بن أحمد،,
+			شربيني، محمد بن أحمد،
 		</subfield>
 		<subfield code="d">
 			-1570.
@@ -265,9 +271,31 @@
 			1940.
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			600-05/r
+		</subfield>
+		<subfield code="a">
+			ابو شجاع الاصفهاني، احمد بن الحسين،
+		</subfield>
+		<subfield code="d">
+			1725 ر 17261782 ر 1783.
+		</subfield>
+		<subfield code="t">
+			غاية الاختصار.
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-05/r
+			700-06/r
+		</subfield>
+		<subfield code="a">
+			عوض، الشيخ.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-07/r
 		</subfield>
 		<subfield code="a">
 			باجوري، إبراهيم بن محمد،,
@@ -278,7 +306,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-06/r
+			700-08/r
 		</subfield>
 		<subfield code="a">
 			أبو شجاع الإصفهاني، أحمد بن الحسين،,
@@ -315,13 +343,16 @@
 			NIC_4889711
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm53507670 
+			(OCoLC)ocm53507670
 		</subfield>
 		<subfield code="s">
 			cornell_aco000546
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000546
 		</subfield>
 	</datafield>
 </record>

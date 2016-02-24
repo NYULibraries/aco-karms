@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02557nam a2200457   4500
+		02635nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		1818808
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129q19831984ir h    ob    000 0 ara  
+		160224q19831984ir h    ob    000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -79,6 +79,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Tihrān :
 		</subfield>
@@ -189,6 +192,14 @@
 			commentaries
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			Maḥmmud, ʻAbd al-Raḥim.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Cornell University.
@@ -232,7 +243,7 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			ابن خالويه، حسين بن احمد،,
+			ابن خالويه، حسين بن احمد،
 		</subfield>
 		<subfield code="d">
 			-980 or 981.
@@ -275,7 +286,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-05/r
 		</subfield>
 		<subfield code="a">
 			تهران :
@@ -284,12 +295,12 @@
 			انتشاراتي ناصري خسرو،
 		</subfield>
 		<subfield code="c">
-			1362 [1983 ر 1984]
+			1362 [1983 or 1984]
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-06/r
 		</subfield>
 		<subfield code="a">
 			محمود، عبد الرحيم.
@@ -320,13 +331,16 @@
 			NIC_1818808
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm16653933 
+			(OCoLC)ocm16653933
 		</subfield>
 		<subfield code="s">
 			cornell_aco000480
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000480
 		</subfield>
 	</datafield>
 </record>

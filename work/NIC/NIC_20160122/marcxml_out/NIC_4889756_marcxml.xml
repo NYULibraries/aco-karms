@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02819nam a2200469   4500
+		03005nam a2200505   4500
 	</leader>
 	<controlfield tag="001">
 		4889756
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s195u    ua      o     000 0 arard
+		160224s195u    ua      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -63,16 +63,25 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Fatḥ al-qarīb al-mujīb
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Ghāyat al-ikhtiṣār
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Miṣr :
 		</subfield>
@@ -150,17 +159,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
-		<subfield code="a">
-			Ibn Qāsim al-Ghazzī, Muḥammad,
+		<subfield code="6">
+			880-06
 		</subfield>
-		<subfield code="d">
-			-1512.
-		</subfield>
-		<subfield code="t">
-			Fatḥ al-qarīb al-mujīb.
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="a">
 			Ibn Qāsim al-Ghazzī, Muḥammad,
 		</subfield>
@@ -173,7 +174,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-03
+			880-07
 		</subfield>
 		<subfield code="a">
 			Abū Shujāʻ al-Iṣfahānī, Aḥmad ibn al-Ḥusayn,
@@ -196,6 +197,22 @@
 	<datafield ind1="0" ind2=" " tag="730">
 		<subfield code="a">
 			Arabic Collections Online.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="2" tag="740">
+		<subfield code="6">
+			880-08
+		</subfield>
+		<subfield code="a">
+			Fatḥ al-qarīb al-mujīb.
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="2" tag="740">
+		<subfield code="6">
+			880-09
+		</subfield>
+		<subfield code="a">
+			Ghāyat al-ikhtiṣār.
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
@@ -225,7 +242,10 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			باجوري، ابراهيم بن محمد.
+			باجوري، ابراهيم بن محمد، 
+		</subfield>
+		<subfield code="d">
+			1783 or 1784-1860.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -239,23 +259,39 @@
 			للشيخ ابراهيم الباجوري على شرح العلامة ابن قاسم الغزي على متن الشيخ ابي شجاع في مذهب الامام الشافعي.
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="880">
+	<datafield ind1="3" ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			246-03/r
 		</subfield>
 		<subfield code="a">
-			[Beirut :
+			فتح القريب المجيب
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">
+			246-04/r
+		</subfield>
+		<subfield code="a">
+			غاية الاختصار
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-05/r
+		</subfield>
+		<subfield code="a">
+			مصر :
 		</subfield>
 		<subfield code="b">
-			دار إحياء التراث العربي،
+			عيسى البابي الحلبي،
 		</subfield>
 		<subfield code="c">
-			1990?]
+			[195؟]
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="4" tag="880">
 		<subfield code="6">
-			600-00/r
+			600-06/r
 		</subfield>
 		<subfield code="a">
 			ابن قاسم الغزي، محمد.
@@ -266,7 +302,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-03/r
+			700-07/r
 		</subfield>
 		<subfield code="a">
 			أبو شجاع الاصفهاني، أحمد بن الحسين.
@@ -277,7 +313,7 @@
 	</datafield>
 	<datafield ind1="0" ind2="2" tag="880">
 		<subfield code="6">
-			740-00/r
+			740-08/r
 		</subfield>
 		<subfield code="a">
 			فتح القريب المجيب.
@@ -285,7 +321,7 @@
 	</datafield>
 	<datafield ind1="0" ind2="2" tag="880">
 		<subfield code="6">
-			740-00/r
+			740-09/r
 		</subfield>
 		<subfield code="a">
 			غاية الاختصار.
@@ -316,13 +352,16 @@
 			NIC_4889756
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm22164999 
+			(OCoLC)ocm22164999
 		</subfield>
 		<subfield code="s">
 			cornell_aco000561
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000561
 		</subfield>
 	</datafield>
 </record>

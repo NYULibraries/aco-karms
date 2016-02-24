@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02842nam a2200457   4500
+		03190nam a2200505   4500
 	</leader>
 	<controlfield tag="001">
 		1927971
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1926    ua      o     000 0 ara d
+		160224s1926    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ṭaraṣūṣī, Ibrāhīm ibn ʻAlī,
 		</subfield>
@@ -49,6 +52,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Fatāwá al-Ṭarasūsīyah, aw, Anfaʻ al-wasāʼil ilá taḥrīr al-masāʼil /
 		</subfield>
@@ -57,18 +63,24 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Fatāwá al-Ṭarasūsīyah
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="246">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Anfaʻ al-wasāʼil ilá taḥrīr al-masāʼil
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-01
+			880-05
 		</subfield>
 		<subfield code="a">
 			Miṣr :
@@ -199,6 +211,14 @@
 			(OCoLC)fst01411636
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			Khafājī, Muṣṭafá Muḥammad.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Cornell University.
@@ -271,9 +291,20 @@
 			http://hdl.handle.net/2333.1/qbzkh4md
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			طرسوسي، ابراهيم بن علي،
+		</subfield>
+		<subfield code="d">
+			1320-approximately 1356.
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-00/r
+			245-02/r
 		</subfield>
 		<subfield code="a">
 			الفتاوى الطرسوسية او انفع الوسائل الى تحرير المسائل /
@@ -282,9 +313,25 @@
 			لنجم الدين ابراهيم ابن على بن احمد بن عبدالواحد بن عبدالمنعم بن عبدالصمد الطرسوسى ; صححه وراجع نقوله مصطفى محمد خفاجى و محمود ابراهيم.
 		</subfield>
 	</datafield>
+	<datafield ind1="3" ind2="0" tag="880">
+		<subfield code="6">
+			246-03/r
+		</subfield>
+		<subfield code="a">
+			فتاوى الطرسوسية
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2="0" tag="880">
+		<subfield code="6">
+			246-04/r
+		</subfield>
+		<subfield code="a">
+			انفع الوسائل الى تحرير المسائل
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-01/r
+			260-05/r
 		</subfield>
 		<subfield code="a">
 			مصر :
@@ -298,7 +345,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-06/r
 		</subfield>
 		<subfield code="a">
 			خفاجى، مصطفى محمد،.
@@ -329,13 +376,16 @@
 			NIC_1927971
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23503010 
+			(OCoLC)ocm23503010
 		</subfield>
 		<subfield code="s">
 			cornell_aco000476
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000476
 		</subfield>
 	</datafield>
 </record>

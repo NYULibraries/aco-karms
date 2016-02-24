@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02552nam a2200421   4500
+		02679nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		1918784
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129m19561957iq h    ob    000 0 ara  
+		160224m19561957iq h    ob    000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ṭūsī, Muḥammad ibn al-Ḥasan,
 		</subfield>
@@ -50,7 +53,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">
-			880-01
+			880-02
 		</subfield>
 		<subfield code="a">
 			al-Istibṣār fi-mā ikhtalafa min al-akhbār /
@@ -61,7 +64,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
 		<subfield code="6">
-			880-02
+			880-03
 		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 2.
@@ -69,7 +72,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-03
+			880-04
 		</subfield>
 		<subfield code="a">
 			Najaf :
@@ -158,7 +161,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-04
+			880-05
 		</subfield>
 		<subfield code="a">
 			Kharsān, Ḥasan al-Mūsawī.
@@ -224,15 +227,18 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-00/r
+			100-01/r
 		</subfield>
 		<subfield code="a">
-			طوسي، محمد بن الحسن.
+			طوسي، محمد بن الحسن،
+		</subfield>
+		<subfield code="d">
+			955-1067?
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-01/r
+			245-02/r
 		</subfield>
 		<subfield code="a">
 			الاستبصار فيما اختلف من الأخبار /
@@ -243,7 +249,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			250-02/r
+			250-03/r
 		</subfield>
 		<subfield code="a">
 			الطبعة ٢.
@@ -251,7 +257,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-03/r
+			260-04/r
 		</subfield>
 		<subfield code="a">
 			نجف :
@@ -265,7 +271,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-04/r
+			700-05/r
 		</subfield>
 		<subfield code="a">
 			خرسان، حسن الموسوي.
@@ -296,7 +302,7 @@
 			NIC_1918784
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm21127087 
+			(OCoLC)ocm21127087
 		</subfield>
 		<subfield code="s">
 			cornell_aco000446:juz1
@@ -312,6 +318,18 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000446:juz1
+		</subfield>
+		<subfield code="s">
+			cornell_aco000445:juz2
+		</subfield>
+		<subfield code="s">
+			cornell_aco000458:juz3:qism1
+		</subfield>
+		<subfield code="s">
+			cornell_aco000457:juz3:qism2
 		</subfield>
 	</datafield>
 </record>

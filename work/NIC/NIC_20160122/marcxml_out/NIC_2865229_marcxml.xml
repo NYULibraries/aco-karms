@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02304nam a2200397   4500
+		02535nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		2865229
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1965    xx      o     000 0 ara  
+		160224s1965    xx      o     000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -107,7 +107,10 @@
 			rdacarrier
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Silsilat al-kutub al-ḥadīthah ;
 		</subfield>
@@ -217,6 +220,17 @@
 			(OCoLC)23501654
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Silsilat al-kutub al-ḥadīthah ;
+		</subfield>
+		<subfield code="v">
+			7.
+		</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/hhmgqrws
@@ -249,10 +263,32 @@
 			بغداد :
 		</subfield>
 		<subfield code="b">
-			وزارة الثقافة والارشاد، مديرية الثقافة العمة
+			وزارة الثقافة والارشاد، مديرية الثقافة العامة
 		</subfield>
 		<subfield code="c">
 			1965.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-04/r
+		</subfield>
+		<subfield code="a">
+			سلسلة الكتب الحديثة ؛
+		</subfield>
+		<subfield code="v">
+			7
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-05/r
+		</subfield>
+		<subfield code="a">
+			سلسلة الكتب الحديثة ؛
+		</subfield>
+		<subfield code="v">
+			7.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -280,13 +316,16 @@
 			NIC_2865229
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23501654 
+			(OCoLC)ocm23501654
 		</subfield>
 		<subfield code="s">
 			cornell_aco000385
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)(ERROR-SERIES)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000385
 		</subfield>
 	</datafield>
 </record>

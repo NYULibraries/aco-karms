@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01830nam a2200421   4500
+		01835nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		1686473
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s195u    ku      ob    000 0 ara d
+		160224s195u    ku      ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ghazālī, Muḥammad,
 		</subfield>
@@ -50,7 +53,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">
-			880-01
+			880-02
 		</subfield>
 		<subfield code="a">
 			Kifāḥ dīn /
@@ -60,20 +63,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[Cairo] :
+			Miṣr :
 		</subfield>
 		<subfield code="b">
-			[publisher not identified],
+			Maṭabiʻ Dār al-Kitāb al-ʻArabī,
 		</subfield>
 		<subfield code="c">
-			[195-]
-		</subfield>
-		<subfield code="e">
-			([Cairo] :
-		</subfield>
-		<subfield code="f">
-			Maṭābiʻ al-Kitāb al-ʻArabī)
+			[195-] 
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -237,7 +237,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-00/r
+			100-01/r
 		</subfield>
 		<subfield code="a">
 			غزالي، محمد.
@@ -245,7 +245,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-01/r
+			245-02/r
 		</subfield>
 		<subfield code="a">
 			كفاح دين /
@@ -256,16 +256,16 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			مصر :
 		</subfield>
 		<subfield code="b">
-			دار الكاتب العربي،
+			مطبع دار الكتاب العربي،
 		</subfield>
 		<subfield code="c">
-			[--١٩]
+			[195-] 
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -293,13 +293,16 @@
 			NIC_1686473
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm63980088 
+			(OCoLC)ocm63980088
 		</subfield>
 		<subfield code="s">
 			cornell_aco000502
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000502
 		</subfield>
 	</datafield>
 </record>

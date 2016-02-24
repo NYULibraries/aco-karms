@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		03098nam a2200517   4500
+		03200nam a2200529   4500
 	</leader>
 	<controlfield tag="001">
 		3780471
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1954    iq a    o     000 0 ara d
+		160224s1954    iq a    o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -64,8 +64,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Lestrange, Guy,
+			Le Strange, G.
+		</subfield>
+		<subfield code="q">
+			(Guy),
 		</subfield>
 		<subfield code="d">
 			1854-1933.
@@ -73,7 +79,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">
-			880-01
+			880-02
 		</subfield>
 		<subfield code="a">
 			Buldān al-khilāfah al-sharqīyah :
@@ -87,7 +93,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-02
+			880-03
 		</subfield>
 		<subfield code="a">
 			Baghdād :
@@ -133,7 +139,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="6">
-			880-03
+			880-04
 		</subfield>
 		<subfield code="a">
 			At head of title: Maṭbūʻāt al-Jamʻ al-ʻIlmī al-ʻIrāqī
@@ -280,7 +286,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-04
+			880-05
 		</subfield>
 		<subfield code="a">
 			ʻAwwād, Kūrkīs.
@@ -304,7 +310,7 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Lestrange, Guy, 1854-1933.
+			Le Strange, G. (Guy), 1854-1933.
 		</subfield>
 		<subfield code="t">
 			Buldān al-khilāfah al-sharqīyah
@@ -321,12 +327,26 @@
 			http://hdl.handle.net/2333.1/905qfz5z
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="880">
+	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			245-01/r
+			100-01/r
 		</subfield>
 		<subfield code="a">
-			‏لدان الخلافة الشرقية :‏
+			لسترنج،
+		</subfield>
+		<subfield code="q">
+			(Guy),
+		</subfield>
+		<subfield code="d">
+			1854-1933.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			‏بلدان الخلافة الشرقية :‏
 		</subfield>
 		<subfield code="b">
 			‏يتناول صفة العراق والجزيرة وإيران وأقاليم آسيا الوسطى منذ الفتح الإسلامي حتى أيام تيمور /‏
@@ -337,7 +357,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-02/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			‏بغداد :‏
@@ -351,7 +371,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			500-03/r
+			500-04/r
 		</subfield>
 		<subfield code="a">
 			At head of title: مطبوعاة الجمع العلمي العراقي.
@@ -359,7 +379,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-04/r
+			700-05/r
 		</subfield>
 		<subfield code="a">
 			‏عواد، كوركيس.
@@ -390,13 +410,16 @@
 			NIC_3780471
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm64753312 
+			(OCoLC)ocm64753312
 		</subfield>
 		<subfield code="s">
 			cornell_aco000492
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000492
 		</subfield>
 	</datafield>
 </record>

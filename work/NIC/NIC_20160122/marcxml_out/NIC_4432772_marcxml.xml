@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02306nam a2200493   4500
+		02359nam a2200505   4500
 	</leader>
 	<controlfield tag="001">
 		4432772
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1957    sy      ob    000 0 arard
+		160224s1957    sy      ob    000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -92,11 +92,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Dimashq :
 		</subfield>
 		<subfield code="b">
-			al-Maʻhad al-Faransī lil-Dirāsat al-ʻArabīyah,
+			al-Maʻhad al-Faransī lil-Dirāsāt al-ʻArabīyah,
 		</subfield>
 		<subfield code="c">
 			1957.
@@ -211,6 +214,14 @@
 			(OCoLC)fst00980134
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Mirza, Wahid. 
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Cornell University.
@@ -278,7 +289,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-04/r
 		</subfield>
 		<subfield code="a">
 			دمشق :
@@ -287,12 +298,12 @@
 			المعهد الفرنسي للدراسات العربية،
 		</subfield>
 		<subfield code="c">
-			١٣٧٦ [١٩٥٧]
+			1957.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-05/r
 		</subfield>
 		<subfield code="a">
 			ميرزا، وحيد.
@@ -323,13 +334,16 @@
 			NIC_4432772
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm17894585 
+			(OCoLC)ocm17894585
 		</subfield>
 		<subfield code="s">
 			cornell_aco000547
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000547
 		</subfield>
 	</datafield>
 </record>

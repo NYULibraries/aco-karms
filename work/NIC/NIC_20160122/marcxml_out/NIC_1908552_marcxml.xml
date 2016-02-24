@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02584nam a2200481   4500
+		02613nam a2200481   4500
 	</leader>
 	<controlfield tag="001">
 		1908552
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1928    ua abf  ob    001 0 ara d
+		160224s1928    ua abf  ob    001 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -281,7 +281,10 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			ابن الخطيب.
+			ابن الخطيب،
+		</subfield>
+		<subfield code="d">
+			1313-1374.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
@@ -306,7 +309,7 @@
 			المطبعة السلفية،
 		</subfield>
 		<subfield code="c">
-			1347 [1928 أو 1929]
+			1347 [1928 or 1929]
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
@@ -342,13 +345,16 @@
 			NIC_1908552
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm31086282 
+			(OCoLC)ocm31086282
 		</subfield>
 		<subfield code="s">
 			cornell_aco000484
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000484
 		</subfield>
 	</datafield>
 </record>

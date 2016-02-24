@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		03161nam a2200505   4500
+		03496nam a2200541   4500
 	</leader>
 	<controlfield tag="001">
 		3750414
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1955    sy fh   ob    001 0dara  
+		160224s1955    sy fh   ob    001 0dara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -53,7 +53,7 @@
 			Ṣafadī, Khalīl ibn Aybak,
 		</subfield>
 		<subfield code="d">
-			1297 (ca.)-1363.
+			approximately 1297-1363.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
@@ -71,11 +71,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Dimashq :
 		</subfield>
 		<subfield code="b">
-			[publisher not identified],
+			al-Mujmaʻ al-ʻilmī al-ʻArabī,
 		</subfield>
 		<subfield code="c">
 			1955.
@@ -114,6 +117,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq
 		</subfield>
@@ -224,10 +230,21 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-03
+			880-05
 		</subfield>
 		<subfield code="a">
 			Munajjid, Ṣalāḥ al-Dīn.
+		</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="710">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq.
+		</subfield>
+		<subfield code="t">
+			Maṭbūʻāt. 
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -248,7 +265,7 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ṣafadī, Khalīl ibn Aybak, 1297 (ca.)-1363.
+			Ṣafadī, Khalīl ibn Aybak, approximately 1297-1363.
 		</subfield>
 		<subfield code="t">
 			Umarāʼ Dimashq fī al-Islām
@@ -263,12 +280,12 @@
 			(OCoLC)11831066
 		</subfield>
 	</datafield>
-	<datafield ind1="2" ind2=" " tag="810">
-		<subfield code="a">
-			Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq.
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-07
 		</subfield>
-		<subfield code="t">
-			Maṭbūʻāt.
+		<subfield code="a">
+			Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq.
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
@@ -278,10 +295,21 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-01/r
+			100-00/r
 		</subfield>
 		<subfield code="a">
 			صفدي، خليل بن ايبك.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			صفدي، خليل بن ايبك،
+		</subfield>
+		<subfield code="d">
+			approximately 1297-1363.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -292,7 +320,7 @@
 			أمراء دمشق في الاسلام :
 		</subfield>
 		<subfield code="b">
-			وهو يتضمن ذكر من وليا امر دمشق في الاسلام او دخلها من خلفاء مرتبين على حروف المعجم، وارجوزة تحفة ذوى الالباب في من حكم بدمشق من خلفاء والملوك والمواب /
+			وهو يتضمن ذكر من ولي امرة دمشق في الاسلام او دخلها من خلفاء مرتبين على حروف المعجم، وارجوزة تحفة ذوى الالباب في من حكم بدمشق من خلفاء والملوك والمواب /
 		</subfield>
 		<subfield code="c">
 			تأليف صلاح الدين الصفدي ؛ تحقيق صلاح الدين المنجد.
@@ -300,7 +328,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			دمشق :
@@ -314,7 +342,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			490-00/r
+			490-04/r
 		</subfield>
 		<subfield code="a">
 			مطبوعات المجمع العلمي العربي بدمشق
@@ -322,15 +350,26 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-03/r
+			700-05/r
 		</subfield>
 		<subfield code="a">
 			منجد، صلاح الدين.
 		</subfield>
 	</datafield>
+	<datafield ind1="2" ind2=" " tag="880">
+		<subfield code="6">
+			710-06/r
+		</subfield>
+		<subfield code="a">
+			مجمع العلمي العربي بدمشق.
+		</subfield>
+		<subfield code="t">
+			مطبوعات. 
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
 		<subfield code="6">
-			830-00/r
+			830-07/r
 		</subfield>
 		<subfield code="a">
 			مطبوعات المجمع العلمي العربي بدمشق.
@@ -361,13 +400,16 @@
 			NIC_3750414
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm11831066 
+			(OCoLC)ocm11831066
 		</subfield>
 		<subfield code="s">
 			cornell_aco000552
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000552
 		</subfield>
 	</datafield>
 </record>

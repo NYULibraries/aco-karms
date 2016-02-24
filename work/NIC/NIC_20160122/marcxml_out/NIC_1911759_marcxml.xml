@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01414nam a2200337   4500
+		01869nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		1911759
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1960    xx c    o     000 0 ara d
+		160224s1960    xx c    o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -46,6 +46,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Āl Kāshif al-Ghiṭā, Muḥammad al-Ḥusayn,
 		</subfield>
@@ -54,11 +57,26 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			al-Arḍ wa-al-turbah al-Ḥusaynīyah.
+			al-Arḍ wa-al-turbah al-Ḥusaynīyah /
+		</subfield>
+		<subfield code="c">
+			taʼlīf Muḥammad al-Husayn Āl-Kashif al-Ghiṭāʼ.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			al-Najaf :
+		</subfield>
+		<subfield code="b">
+			al-Maṭbaʻah al-Ḥaydarīyah,
+		</subfield>
 		<subfield code="c">
 			1960.
 		</subfield>
@@ -185,6 +203,42 @@
 			http://hdl.handle.net/2333.1/15dv44wv
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			آل كاشف الغطاء، محمد الحسين،
+		</subfield>
+		<subfield code="d">
+			1877-1954.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الارض والتربة الحسينية /
+		</subfield>
+		<subfield code="c">
+			تأليف محمد الحسين آل كاشف الغطاء.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			النجف :
+		</subfield>
+		<subfield code="b">
+			المطبعة الحيدرية،
+		</subfield>
+		<subfield code="c">
+			1960.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -210,13 +264,16 @@
 			NIC_1911759
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23516333 
+			(OCoLC)ocm23516333
 		</subfield>
 		<subfield code="s">
 			cornell_aco000498
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000498
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02749nam a2200505   4500
+		02760nam a2200505   4500
 	</leader>
 	<controlfield tag="001">
 		1910611
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129m1956uuuusy      oi    000 0 ararc
+		160224m1956uuuusy      oi    000 0 ararc
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -65,6 +65,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Dimashq :
 		</subfield>
@@ -106,7 +109,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="6">
-			880-03
+			880-04
 		</subfield>
 		<subfield code="a">
 			Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq
@@ -219,7 +222,7 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
 		<subfield code="6">
-			880-04
+			880-05
 		</subfield>
 		<subfield code="a">
 			Majallat al-Majmaʻ al-ʻIlmī al-ʻArabī
@@ -244,7 +247,7 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
 		<subfield code="6">
-			880-05
+			880-06
 		</subfield>
 		<subfield code="a">
 			Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq.
@@ -276,27 +279,21 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
-			‏دمشق :‏
+			دمشق :
 		</subfield>
 		<subfield code="b">
-			‏المجمع،‏
+			مطبعة الترقي،
 		</subfield>
 		<subfield code="c">
-			‏١٩٥٦-١٩٧١‏
-		</subfield>
-		<subfield code="e">
-			‏(دمشق :‏
-		</subfield>
-		<subfield code="f">
-			‏مطبعة الترقي)
+			1956
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			490-03/r
+			490-04/r
 		</subfield>
 		<subfield code="a">
 			‏مطبوهات المجمع العلمي العربي بدمشق
@@ -304,7 +301,7 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
 		<subfield code="6">
-			740-04/r
+			740-05/r
 		</subfield>
 		<subfield code="a">
 			مجلة المجمع العلمي العربي.
@@ -312,7 +309,7 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
 		<subfield code="6">
-			830-05/r
+			830-06/r
 		</subfield>
 		<subfield code="a">
 			‏مطبوهات المجمع العلمي العربي بدمشق.
@@ -343,7 +340,7 @@
 			NIC_1910611
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm21788133 
+			(OCoLC)ocm21788133
 		</subfield>
 		<subfield code="s">
 			cornell_aco000448:juz1
@@ -356,6 +353,15 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000448:juz1
+		</subfield>
+		<subfield code="s">
+			cornell_aco000441:juz2
+		</subfield>
+		<subfield code="s">
+			cornell_aco000449:juz2
 		</subfield>
 	</datafield>
 </record>

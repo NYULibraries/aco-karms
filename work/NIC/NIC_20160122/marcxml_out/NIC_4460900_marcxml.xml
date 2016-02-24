@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01485nam a2200361   4500
+		01647nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		4460900
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1932    ua      o     000 0 ara d
+		160224s1932    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,21 +33,27 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Sbath, Paul.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Al-Machra'
+			Al-mashraʻ /
 		</subfield>
 		<subfield code="c">
-			par le P. Paul Sbath.
+			allafahu Būlus Sabāṭ.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="a">
-			[Cairo],
+			[Cairo] :
 		</subfield>
 		<subfield code="b">
 			[Cairo Printing Press],
@@ -196,7 +202,7 @@
 			Sbath, Paul.
 		</subfield>
 		<subfield code="t">
-			Al-Machra'
+			Al-mashraʻ
 		</subfield>
 		<subfield code="w">
 			(NIC)4460900
@@ -208,6 +214,25 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/k98sfbz8
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			سباط، بولس.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			المشرع /
+		</subfield>
+		<subfield code="c">
+			الفه بولس سباط.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -235,13 +260,16 @@
 			NIC_4460900
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm50903872 
+			(OCoLC)ocm50903872
 		</subfield>
 		<subfield code="s">
 			cornell_aco000494
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000494
 		</subfield>
 	</datafield>
 </record>

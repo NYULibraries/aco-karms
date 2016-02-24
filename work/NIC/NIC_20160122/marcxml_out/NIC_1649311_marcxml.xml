@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02429nam a2200469   4500
+		02391nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		1649311
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1966    iq      ob   f000 0 ara c
+		160224s1966    iq      ob   f000 0 ara c
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -234,6 +234,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Silsilah al-siyāsīyah ;
 		</subfield>
@@ -281,17 +284,6 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			490-00/r
-		</subfield>
-		<subfield code="a">
-			سلسلة السياسية ؛
-		</subfield>
-		<subfield code="v">
-			١٢
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
 			490-04/r
 		</subfield>
 		<subfield code="a">
@@ -303,10 +295,10 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
 		<subfield code="6">
-			830-00/r
+			830-05/r
 		</subfield>
 		<subfield code="a">
-			سلسلة السياسية ؛ ;
+			سلسلة السياسية ؛ 
 		</subfield>
 		<subfield code="v">
 			١٢.
@@ -337,13 +329,16 @@
 			NIC_1649311
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm08962151 
+			(OCoLC)ocm08962151
 		</subfield>
 		<subfield code="s">
 			cornell_aco000511
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000511
 		</subfield>
 	</datafield>
 </record>

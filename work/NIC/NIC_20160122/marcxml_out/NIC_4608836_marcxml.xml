@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02840nam a2200505   4500
+		02949nam a2200517   4500
 	</leader>
 	<controlfield tag="001">
 		4608836
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1968    iq ac   obc   001 0 araod
+		160224s1968    iq ac   obc   001 0 araod
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -268,6 +268,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻIrāqī.
 		</subfield>
@@ -318,6 +321,14 @@
 			‏عز الدين، يوسف.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-05/r
+		</subfield>
+		<subfield code="a">
+			مطبوعات المجمع العلمي العراقي.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -343,13 +354,16 @@
 			NIC_4608836
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm44662815 
+			(OCoLC)ocm44662815
 		</subfield>
 		<subfield code="s">
 			cornell_aco000576
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000576
 		</subfield>
 	</datafield>
 </record>

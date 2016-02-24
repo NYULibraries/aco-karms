@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01665nam a2200349   4500
+		02136nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		4680143
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129m19669999iq      oc    000 0 ara d
+		160224m19669999iq      oc    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -46,11 +46,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ḥaddaw, Ḥamīd Majīd.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Makhṭūṭāt Maktabat al-ʻAlāmat al-Ḥijjat al-Sayid ʻAbbās al-Ḥusaynī al-Kāthānī fī Karbalāʼ /
 		</subfield>
@@ -59,11 +65,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Makhṭūṭāt
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Karbalāʼ :
 		</subfield>
@@ -104,6 +116,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			&quot;Min makhṭūṭāt Karbalāʼ.&quot;
 		</subfield>
@@ -187,6 +202,55 @@
 			http://hdl.handle.net/2333.1/0rxwdfzd
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			حدو، حميد مجيد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			مخطوطات مكتبة العلامة الحجة السيد عباس الحسيني الكاثاني في كربلاء /
+		</subfield>
+		<subfield code="c">
+			حميد مجيد هدو.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2="0" tag="880">
+		<subfield code="6">
+			246-03/r
+		</subfield>
+		<subfield code="a">
+			مخطوطات
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			كربلاء :
+		</subfield>
+		<subfield code="b">
+			مطبعة اهل البيت،
+		</subfield>
+		<subfield code="c">
+			1966
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			500-05/r
+		</subfield>
+		<subfield code="a">
+			&quot;من مخطوطات كربلاء.&quot;
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -212,13 +276,16 @@
 			NIC_4680143
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm37122480 
+			(OCoLC)ocm37122480
 		</subfield>
 		<subfield code="s">
 			cornell_aco000579
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000579
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02976nam a2200529   4500
+		02737nam a2200505   4500
 	</leader>
 	<controlfield tag="001">
 		7111264
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1975    ir      o     000 0 arard
+		160224s1975    ir      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -258,7 +258,10 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			طبري، علي بن سهل ربان.
+			طبري، علي بن سهل ربان،
+		</subfield>
+		<subfield code="d">
+			active 9th century.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -277,24 +280,13 @@
 			260-03/r
 		</subfield>
 		<subfield code="a">
-			[بغداد :
+			[بغداد] :
 		</subfield>
 		<subfield code="b">
-			مكتبة المتنبي،
+			[مكتبة المتنبي]،
 		</subfield>
 		<subfield code="c">
-			1975?]
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
-			490-00/r
-		</subfield>
-		<subfield code="a">
-			منشورات معهد تاريخ العلوم العربية والإسلامية. طب الاسلامي ؛
-		</subfield>
-		<subfield code="v">
-			29
+			[1975؟]
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
@@ -303,20 +295,6 @@
 		</subfield>
 		<subfield code="a">
 			صديقي، محمد زبير.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="0" tag="880">
-		<subfield code="6">
-			830-00/r
-		</subfield>
-		<subfield code="a">
-			منشورات معهد تاريخ العلوم العربية والإسلامية.
-		</subfield>
-		<subfield code="p">
-			طب الاسلامي ؛ ;
-		</subfield>
-		<subfield code="v">
-			29.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -344,13 +322,16 @@
 			NIC_7111264
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm06156598 
+			(OCoLC)ocm06156598
 		</subfield>
 		<subfield code="s">
 			cornell_aco000566
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000566
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02294nam a2200397   4500
+		03215nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		1651551
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1952    le a    o     001 0 ara d
+		160224s1952    le a    o     001 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -38,6 +38,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Abū Shaqrā, Ḥusayn Ghadbān,
 		</subfield>
@@ -46,6 +49,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Ḥarakāt fī Lubnān ilá ʻahd al-mutaṣarrifīyah :
 		</subfield>
@@ -57,6 +63,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Bayrūt :
 		</subfield>
@@ -173,6 +182,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Abū Shaqrā, Yūsuf Khaṭṭār,
 		</subfield>
@@ -181,8 +193,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Abū Shaqrā, ʻĀrif.
+			Abū Shaqrā, ʻĀrif. 
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -225,6 +240,64 @@
 			http://hdl.handle.net/2333.1/xpnvx3xh
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ابو شقرا، حسين غدبان،
+		</subfield>
+		<subfield code="d">
+			1903. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الحركات في لبنان الى عهد المتصرفية :
+		</subfield>
+		<subfield code="b">
+			وهي شهادة درزية صريحة في مخطوطة تلم بحوادث لبنان واحوال يدلي بها من روات الدروز شاهد عيان ويساهم بها واحد منهم لاول مرة في تارخ لبنان /
+		</subfield>
+		<subfield code="c">
+			الراوي حسين غضبان ابو شقرا ؛ المؤلف يوسف خطار ابو شقرا ؛ تحرى نصها وعلق حواشيها وملاحقها ووضع مقدمتها وفهارسها عارف ابو شقرا.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			بيروت :
+		</subfield>
+		<subfield code="b">
+			[publisher not identified]،
+		</subfield>
+		<subfield code="c">
+			1952.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/r
+		</subfield>
+		<subfield code="a">
+			ابو شقرا، يوسف خطار،
+		</subfield>
+		<subfield code="d">
+			 approximately 1875-1904.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/r
+		</subfield>
+		<subfield code="a">
+			ابو شقرا، عارف. 
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -250,13 +323,16 @@
 			NIC_1651551
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm64016936 
+			(OCoLC)ocm64016936
 		</subfield>
 		<subfield code="s">
 			cornell_aco000556
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000556
 		</subfield>
 	</datafield>
 </record>

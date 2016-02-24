@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01625nam a2200337   4500
+		02180nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		2853443
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129q19651966ir      o     000 0 ara d
+		160224q19651966ir      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -49,6 +49,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Masʻūdī,
 		</subfield>
@@ -57,6 +60,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Ithbāt al-waṣīyah li-ʻAlī ibn Abī Ṭālib.
 		</subfield>
@@ -65,6 +71,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Tarjamh-ʼi Kitāb ithbāt al-waṣīyah li-ʻAlī ibn Abī Ṭālib /
 		</subfield>
@@ -73,6 +82,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Tihrān :
 		</subfield>
@@ -135,6 +147,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			ʻAlī ibn Abī Ṭālib,
 		</subfield>
@@ -197,6 +212,67 @@
 			http://hdl.handle.net/2333.1/gtht79tv
 		</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			مسعودي،
+		</subfield>
+		<subfield code="d">
+			-956؟
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02/r
+		</subfield>
+		<subfield code="a">
+			اثبات الوصية لعلي بن ابي طالب.
+		</subfield>
+		<subfield code="l">
+			Arabic
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-03/r
+		</subfield>
+		<subfield code="a">
+			ترجمۀ کتاب اثبات الوصية لعلى بن ابى طالب /
+		</subfield>
+		<subfield code="c">
+			مؤلف على مسعودى ؛ مترجم محمد جواد نجفى.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			تهران :
+		</subfield>
+		<subfield code="b">
+			کتابفروش اسلامية،
+		</subfield>
+		<subfield code="c">
+			1343 [1965 or 1966]
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">
+			600-05/r
+		</subfield>
+		<subfield code="a">
+			علي بن ابي طالب،
+		</subfield>
+		<subfield code="c">
+			 Caliph,
+		</subfield>
+		<subfield code="d">
+			approximately 600-661.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -222,13 +298,16 @@
 			NIC_2853443
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm74920770 
+			(OCoLC)ocm74920770
 		</subfield>
 		<subfield code="s">
 			cornell_aco000499
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000499
 		</subfield>
 	</datafield>
 </record>

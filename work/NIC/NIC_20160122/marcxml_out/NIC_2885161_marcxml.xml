@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02328nam a2200445   4500
+		02338nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		2885161
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1969    iq      ol   f000 0 arard
+		160224s1969    iq      ol   f000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -208,6 +208,14 @@
 			(OCoLC)27546767
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			Majmuʻah al-dāʼimah lil-qawānīn wa-al-anẓimah al-ʻIrāqīyah al-muwaḥḥadah
+		</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/xsj3v1q5
@@ -246,14 +254,6 @@
 			1969.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
-			490-00/r
-		</subfield>
-		<subfield code="a">
-			المجموعة الدائمة للقوانين والانظمة العراقية الموحدة
-		</subfield>
-	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
 		<subfield code="6">
 			490-04/r
@@ -272,7 +272,7 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
 		<subfield code="6">
-			830-00/r
+			830-06/r
 		</subfield>
 		<subfield code="a">
 			المجموعة الدائمة للقوانين والانظمة العراقية الموحدة.
@@ -303,13 +303,16 @@
 			NIC_2885161
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm27546767 
+			(OCoLC)ocm27546767
 		</subfield>
 		<subfield code="s">
 			cornell_aco000397
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)(ERROR-SERIES)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000397
 		</subfield>
 	</datafield>
 </record>

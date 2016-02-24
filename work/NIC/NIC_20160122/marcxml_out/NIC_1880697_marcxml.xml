@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02455nam a2200433   4500
+		02620nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		1880697
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1981    ir      od    000 0 ara  
+		160224s1981    ir      od    000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -45,7 +45,7 @@
 			880-01
 		</subfield>
 		<subfield code="a">
-			Ibn al-Muṭahhar al-Ḥillī, ḥasan ibn Yūsuf,
+			Ibn al-Muṭahhar al-Ḥillī, al-Ḥasan ibn Yūsuf,
 		</subfield>
 		<subfield code="d">
 			1250-1325.
@@ -63,11 +63,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 2.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Qum :
 		</subfield>
@@ -183,6 +189,14 @@
 			(OCoLC)fst01423826
 		</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Baḥr al-ʻUlūm, Muḥammad Ṣādiq.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Cornell University.
@@ -221,7 +235,7 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ibn al-Muṭahhar al-Ḥillī, ḥasan ibn Yūsuf, 1250-1325.
+			Ibn al-Muṭahhar al-Ḥillī, al-Ḥasan ibn Yūsuf, 1250-1325.
 		</subfield>
 		<subfield code="t">
 			Rijāl al-ʻAllāmah al-Ḥillī
@@ -241,12 +255,15 @@
 			http://hdl.handle.net/2333.1/brv15j3g
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
+	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			الحسن بن يوسف بن علي بن المطهر الحلي.
+			ابن المطهر الحلي، الحسن بن يوسف،
+		</subfield>
+		<subfield code="d">
+			1250-1325.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -262,24 +279,32 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			250-03/r
+		</subfield>
+		<subfield code="a">
+			الطبعة 2.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
 		</subfield>
 		<subfield code="a">
 			قم :
 		</subfield>
 		<subfield code="b">
-			مكتبة الرضى،
+			مكتبة الرضي،
 		</subfield>
 		<subfield code="c">
-			١٤٠٢.
+			1402 [1981 or 1982]
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-05/r
 		</subfield>
 		<subfield code="a">
-			محمد صادق بحر العلوم.
+			بحر العلوم، محمد صادق.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -307,13 +332,16 @@
 			NIC_1880697
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23140412 
+			(OCoLC)ocm23140412
 		</subfield>
 		<subfield code="s">
 			cornell_aco000505
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000505
 		</subfield>
 	</datafield>
 </record>

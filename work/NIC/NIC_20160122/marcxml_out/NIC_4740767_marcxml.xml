@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02383nam a2200433   4500
+		02646nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		4740767
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1939    le a    ob    000 0 aras 
+		160224s1939    le a    ob    000 0 aras 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -37,7 +37,7 @@
 			a-is---
 		</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			HC497.P2
 		</subfield>
@@ -46,6 +46,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Himadeh, Saʼid B.,
 		</subfield>
@@ -66,7 +69,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">
-			880-01
+			880-02
 		</subfield>
 		<subfield code="a">
 			al-Niẓām al-iqtiṣādī fī Filasṭīn.
@@ -76,6 +79,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Bayrūt :
 		</subfield>
@@ -120,7 +126,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="6">
-			880-02
+			880-04
 		</subfield>
 		<subfield code="a">
 			Jāmiʻat Bayrūt al-Amīrkīyah. Manshūrāt Kullīyat al-ʻUlūm wa-al-Ādāb. Silsilat al-ʻUlūm al-Ijtimāʻīyah ;
@@ -223,6 +229,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="810">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			American University of Beirut.
 		</subfield>
@@ -249,9 +258,23 @@
 			حمادة، سعيد.
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			حمادة، سعيد،
+		</subfield>
+		<subfield code="d">
+			1894-
+		</subfield>
+		<subfield code="e">
+			editor.
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-01/r
+			245-02/r
 		</subfield>
 		<subfield code="a">
 			النظام الاقتصادي في فلسطين /
@@ -262,7 +285,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			بيروت :
@@ -274,15 +297,32 @@
 			1939.
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
+	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			490-02/r
+			490-04/r
 		</subfield>
 		<subfield code="a">
 			جامعة بيروت الأميركية. منشورات كلية العلوم والآداب. سلسلة العلوم الاجتماعية ؛
 		</subfield>
 		<subfield code="v">
 			الحلقة 11
+		</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="880">
+		<subfield code="6">
+			810-05/r
+		</subfield>
+		<subfield code="a">
+			American University of Beirut.
+		</subfield>
+		<subfield code="b">
+			Faculty of Arts and Sciences.
+		</subfield>
+		<subfield code="t">
+			سلسلة العلوم الاجتماعية ؛
+		</subfield>
+		<subfield code="v">
+			الحلقة 11.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -310,13 +350,16 @@
 			NIC_4740767
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm11853213 
+			(OCoLC)ocm11853213
 		</subfield>
 		<subfield code="s">
 			cornell_aco000550
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000550
 		</subfield>
 	</datafield>
 </record>

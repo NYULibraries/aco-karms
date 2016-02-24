@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02313nam a2200433   4500
+		02577nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		4472539
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129m19331935ua      o     000 0 arar 
+		160224m19321935ua      o     000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ibn al-Jazarī, Muḥammad ibn Muḥammad,
 		</subfield>
@@ -49,19 +52,28 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Kitāb ghāyat al-nihāyah fī ṭabaqāt al-qurrāʼ,
+			Ghāyat al-nihāyah fī ṭabaqāt al-qurrāʼ /
 		</subfield>
 		<subfield code="c">
 			taʼlīf Shams al-Dīn Muḥammad ibn Muḥammad ibn al-Jazarī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Miṣr,
+			Miṣr :
+		</subfield>
+		<subfield code="b">
+			Maktabat al-Khānjī,
 		</subfield>
 		<subfield code="c">
-			[1933-35]
+			[1932-1935]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -91,19 +103,6 @@
 		</subfield>
 		<subfield code="2">
 			rdacarrier
-		</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
-		<subfield code="a">
-			al-Nashriyāt al-Islāmiyah li-jamʻiyat al-mustashriqīn al-Almānah,
-		</subfield>
-		<subfield code="v">
-			8
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="490">
-		<subfield code="a">
-			Bibliotheca Islamica 8
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -233,7 +232,7 @@
 			Ibn al-Jazarī, Muḥammad ibn Muḥammad, 1350-1429.
 		</subfield>
 		<subfield code="t">
-			Kitāb ghāyat al-nihāyah fī ṭabaqāt al-qurrāʼ
+			Ghāyat al-nihāyah fī ṭabaqāt al-qurrāʼ
 		</subfield>
 		<subfield code="w">
 			(NIC)4472539
@@ -253,6 +252,42 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/dv41nw9h
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ابن الجزري، محمد بن محمد،
+		</subfield>
+		<subfield code="d">
+			1350-1429.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			غاية النهاية في طبقات القراء /
+		</subfield>
+		<subfield code="c">
+			تأليف شمس الدين محمد بن محمد بن الجزري.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			مكتبة الخانجي،
+		</subfield>
+		<subfield code="c">
+			[1932-1935]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -280,7 +315,7 @@
 			NIC_4472539
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm08985376 
+			(OCoLC)ocm08985376
 		</subfield>
 		<subfield code="s">
 			cornell_aco000443:v.1
@@ -290,6 +325,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)(ERROR-SERIES)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000443:v.1
+		</subfield>
+		<subfield code="s">
+			cornell_aco000444:v.2
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01420nam a2200325   4500
+		01814nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		1926610
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s195u    ua      o     000 0 ara d
+		160224s195u    ua      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,6 +41,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Maudoodi, Syed Abul ʻAla,
 		</subfield>
@@ -49,6 +52,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Minhāj al-inqilāb al-Islāmī /
 		</subfield>
@@ -57,6 +63,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			[Cairo] :
 		</subfield>
@@ -180,6 +189,48 @@
 			http://hdl.handle.net/2333.1/r4xgxhdd
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			مودودي، سيد ابو الأعلى،
+		</subfield>
+		<subfield code="d">
+			1903-1979.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			منهاج الانقلاب الاسلامي /
+		</subfield>
+		<subfield code="c">
+			ابو الاعلى المودودي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			[القاهرة] :
+		</subfield>
+		<subfield code="b">
+			[لجنة الشباب المسلم]،
+		</subfield>
+		<subfield code="c">
+			[195-]
+		</subfield>
+		<subfield code="e">
+			([القاهرة] :
+		</subfield>
+		<subfield code="f">
+			مطبعة دار الكتاب العرب)
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -205,13 +256,16 @@
 			NIC_1926610
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm64025468 
+			(OCoLC)ocm64025468
 		</subfield>
 		<subfield code="s">
 			cornell_aco000470
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000470
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01569nam a2200397   4500
+		01897nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		29702
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129m19601962iq a    o     000 0 eng d
+		160224m19601962iq a    o     000 0 eng d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -54,27 +54,41 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Allūs, Bashīr.
+			Allūs, Bashīr. 
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			Birds of Iraq
+			Al-Ṭuyūr al-ʻIraqīyah /
 		</subfield>
 		<subfield code="c">
-			by Bashir E. Allouse.
+			Bashīr al-Allūs.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="a">
+			Birds of Iraq 
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Baghdad,
+			Baghdād :
 		</subfield>
 		<subfield code="b">
-			Av-Rabitta Press,
+			Maṭbaʻat al-Rābiṭah,
 		</subfield>
 		<subfield code="c">
-			1960-62.
+			1960-1962.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -223,7 +237,7 @@
 			Allūs, Bashīr.
 		</subfield>
 		<subfield code="t">
-			Birds of Iraq
+			Al-Ṭuyūr al-ʻIraqīyah
 		</subfield>
 		<subfield code="w">
 			(NIC)29702
@@ -235,6 +249,39 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/zs7h47wr
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			اللوس، بشير.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الطيور العراقية /
+		</subfield>
+		<subfield code="c">
+			بشير اللوس.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			مطبعة الرابطة،
+		</subfield>
+		<subfield code="c">
+			19601962.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -262,13 +309,16 @@
 			NIC_29702
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm03190482 
+			(OCoLC)ocm03190482
 		</subfield>
 		<subfield code="s">
 			cornell_aco000419
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000419
 		</subfield>
 	</datafield>
 </record>

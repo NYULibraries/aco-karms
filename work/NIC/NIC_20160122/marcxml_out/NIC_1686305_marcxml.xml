@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01597nam a2200361   4500
+		01706nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		1686305
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1953    ua a    o     000 e ara d
+		160224s1953    ua a    o     000 e ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -108,7 +108,7 @@
 			rdacarrier
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="6">
 			880-04
 		</subfield>
@@ -173,6 +173,14 @@
 			(OCoLC)15541321
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Kutub lil-jamīʻ.
+		</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/mcvdngvt
@@ -214,12 +222,20 @@
 			[1953]
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
+	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
 			490-04/r
 		</subfield>
 		<subfield code="a">
 			كتب للجميع
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-05/r
+		</subfield>
+		<subfield code="a">
+			كتب للجميع.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -247,13 +263,16 @@
 			NIC_1686305
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm15541321 
+			(OCoLC)ocm15541321
 		</subfield>
 		<subfield code="s">
 			cornell_aco000517
 		</subfield>
 		<subfield code="e">
 			(ERROR-SERIES)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000517
 		</subfield>
 	</datafield>
 </record>
