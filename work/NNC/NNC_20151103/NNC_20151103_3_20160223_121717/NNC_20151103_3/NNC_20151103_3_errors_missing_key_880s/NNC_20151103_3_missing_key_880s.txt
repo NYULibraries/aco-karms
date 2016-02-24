@@ -1,11 +1,13 @@
-ALL Records containing any type of error - batch NNC_20151103
---  Each of these records have one or more of the following errors:
-    --  no 880 fields
-    --  missing a key 880 field
-    --  have an unlinked 880 field
-    --  have a series heading error in the 490/800/810/811/830 fields
-    --  have one of the various miscellaneous errors, marked with ERROR-MISC
-Report produced: 2016-02-24 16:30:17.807538
+Records MISSING KEY 880 script fields - batch NNC_20151103
+--  At least one of the key fields is missing subfield $6,
+    so the corresponding 880 script field is missing or unlinked
+--  Key fields:
+    100, 110, 111, 130
+    240, 245, 246, 250, 260, 264
+    440, 490
+    700, 710, 711, 730
+    800, 810, 811, 830
+Report produced: 2016-02-23 12:08:02.621554
 ---------------------------------------------------------------------
 FILE: NNC_20151103_3/NNC_20151103_3_updates.mrc
 ---------------------------------------------------------------------
@@ -56,6 +58,21 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco001517:v.1-3
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm17403278 
+   oclc_rec_035_num: (OCoLC)17403278
+Institution ID: NNC_3063351
+Record 999:  NNC_3063351 (OCoLC)ocm17403278 columbia_aco001541:v.1 columbia_aco001542:v.2 columbia_aco001543:v.3
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - al-Qāhirah : Maṭbaʻat Dār al-Kutub al-Miṣrīyah, 1948-
+ERROR-880: Unlinked 880s: YES
+   880 $6 240-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-03 Dirāsāt Islāmīyah ; 7
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): columbia_aco001541:v.1, columbia_aco001542:v.2, columbia_aco001543:v.3
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm28187670 
    oclc_rec_035_num: (OCoLC)28187670
@@ -141,5 +158,5 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco001491
 ---------------------------------------------------------------------
-TOTAL Number of Records containing any type of error: 11
+TOTAL Number of Records missing key 880 script fields: 12
 
