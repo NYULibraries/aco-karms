@@ -5,7 +5,7 @@ ALL Records containing any type of error - batch NNU_20151103
     --  have an unlinked 880 field
     --  have a series heading error in the 490/800/810/811/830 fields
     --  have one of the various miscellaneous errors, marked with ERROR-MISC
-Report produced: 2016-02-23 11:36:57.412017
+Report produced: 2016-02-24 17:26:29.446035
 ---------------------------------------------------------------------
 FILE: NNU_20151103_1/NNU_20151103_1_orig_with_oclc_nums.mrc
 ---------------------------------------------------------------------
@@ -101,15 +101,6 @@ ERROR-880: Unlinked 880s: YES
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): nyu_aco001620:v.2
----------------------------------------------------------------------
-Institution ID: NNU_001678628
-   orig_rec_035 num: =035  \\$a(OCoLC)15266029
-Record 999:  NNU_001678628
-880 script fields: YES
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 al-Silsilah al-siyāsīyah, 15
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): nyu_aco001444
 ---------------------------------------------------------------------
 Institution ID: NNU_001678642
    orig_rec_035 num: =035  \\$a(OCoLC)222241674
@@ -300,5 +291,5 @@ Source entities (book IDs): nyu_aco001463
 ---------------------------------------------------------------------
 FILE: NNU_20151103_1/NNU_20151103_1_orig_no_oclc_nums.mrc
 ---------------------------------------------------------------------
-TOTAL Number of Records containing any type of error: 28
+TOTAL Number of Records containing any type of error: 27
 
