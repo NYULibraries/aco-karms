@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		03720nam a2200445   4500
+		03614nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		3760816
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1939    ua      ob    000 0 arar 
+		160224s1939    ua      ob    000 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -70,11 +70,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Qāhirah :
 		</subfield>
 		<subfield code="b">
-			Ṭubiʻa fī Maṭbaʻat al-Birtīrī, yubāʻu fī Maktabat Lūwīs Sarkīs,
+			Ṭubiʻa fī Maṭbaʻat al-Birtīrī,
 		</subfield>
 		<subfield code="c">
 			1939.
@@ -172,14 +175,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Anastās Mārī, al-Kirmilī,
+			Anistās Mārī,
+		</subfield>
+		<subfield code="c">
+			al-Karmilī, ab,
 		</subfield>
 		<subfield code="d">
-			d. 1947,
-		</subfield>
-		<subfield code="e">
-			editor.
+			1866-1947.
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -258,36 +264,30 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			القاهرة :
 		</subfield>
 		<subfield code="b">
-			طبع في مطبعة البرتيري؛
-		</subfield>
-		<subfield code="b">
-			يباع في مكتبة لويس سركيس؛
-		</subfield>
-		<subfield code="a">
-			بغداد :
-		</subfield>
-		<subfield code="b">
-			دير الآباء الكرمليين،
+			طبع في مطبعة البرتيري،
 		</subfield>
 		<subfield code="c">
-			١٩٣٩.
+			1939. 
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
+	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-04/r
 		</subfield>
 		<subfield code="a">
-			أنستاس ماري،
+			انستاس ماري،
 		</subfield>
 		<subfield code="c">
-			الكرملي، أب.
+			الكرملي، اب،
+		</subfield>
+		<subfield code="d">
+			1866-1947.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -315,13 +315,16 @@
 			NIC_3760816
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm22365985 
+			(OCoLC)ocm22365985
 		</subfield>
 		<subfield code="s">
 			cornell_aco000408
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000408
 		</subfield>
 	</datafield>
 </record>

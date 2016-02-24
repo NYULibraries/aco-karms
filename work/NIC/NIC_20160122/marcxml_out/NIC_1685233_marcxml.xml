@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01325nam a2200301   4500
+		01705nam a2200349   4500
 	</leader>
 	<controlfield tag="001">
 		1685233
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1952    ua b    o     000 0 ara d
+		160224s1952    ua b    o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,11 +33,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Rāfiʻī, ʻAbd al-Raḥmān.
+			Rāfiʻī, ʻAbd al-Raḥmān. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			ʻUrābī :
 		</subfield>
@@ -49,8 +55,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[Cairo] :
+			[al-Qāhirah] :
 		</subfield>
 		<subfield code="b">
 			Dār al-Hilāl,
@@ -114,6 +123,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			ʻUrābī, Aḥmad,
 		</subfield>
@@ -170,6 +182,53 @@
 			http://hdl.handle.net/2333.1/7h44j47h
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			رافعي، عبد الرحمن. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			عرابي :
+		</subfield>
+		<subfield code="b">
+			الزعيم الثائر /
+		</subfield>
+		<subfield code="c">
+			تأليف عبد الرحمن الرافعي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			[القاهرة] :
+		</subfield>
+		<subfield code="b">
+			دار الهلال،
+		</subfield>
+		<subfield code="c">
+			1952.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-04/r
+		</subfield>
+		<subfield code="a">
+			عرابي، احمد،
+		</subfield>
+		<subfield code="d">
+			1840 or 1841-1911.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -195,13 +254,16 @@
 			NIC_1685233
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm63979956 
+			(OCoLC)ocm63979956
 		</subfield>
 		<subfield code="s">
 			cornell_aco000508
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000508
 		</subfield>
 	</datafield>
 </record>

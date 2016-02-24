@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01787nam a2200373   4500
+		02405nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		2878280
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129m19709999iq      ob    001 0 arar 
+		160224m19709999iq      ob    001 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -46,11 +46,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			ʻAllām, ʻAbd al-Raḥmān.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Sharḥ qānūn al-murāfaʻāt al-madanīyah raqm 83 li-sanat 1969 :
 		</subfield>
@@ -62,6 +68,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Baghdād :
 		</subfield>
@@ -159,6 +168,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="710">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Iraq.
 		</subfield>
@@ -167,6 +179,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="710">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Iraq.
 		</subfield>
@@ -212,6 +227,64 @@
 			http://hdl.handle.net/2333.1/vq83bpfj
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			علام، عبد الرحمن.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			شرح قانون المرافعات المدنية رقم 83 لسنة 1969 :
+		</subfield>
+		<subfield code="b">
+			مع المبادئ القانونية لقرارات محكمة تمييز العراق مرتبتة على مواد القانون /
+		</subfield>
+		<subfield code="c">
+			عبد الرحمن العلام.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			مطبعة العاني،
+		</subfield>
+		<subfield code="c">
+			1970
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			710-04/r
+		</subfield>
+		<subfield code="a">
+			العراق.
+		</subfield>
+		<subfield code="b">
+			محكمة التمييز.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			710-05/r
+		</subfield>
+		<subfield code="a">
+			العراق.
+		</subfield>
+		<subfield code="t">
+			قانون المرافعات المدنية.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -237,13 +310,16 @@
 			NIC_2878280
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm11450647 
+			(OCoLC)ocm11450647
 		</subfield>
 		<subfield code="s">
 			cornell_aco000400
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000400
 		</subfield>
 	</datafield>
 </record>

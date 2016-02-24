@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02052nam a2200373   4500
+		02872nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		1908593
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1955    ua      o     000 0 ara  
+		160224s1955    ua      o     000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,11 +41,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Barakāt, ʻUmar.
+			Barakāt, ʻUmar. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Fayḍ al-Ilāh al-Mālik fī ḥall alfāẓ ʻUmdat al-sālik wa-ʻuddat al-nāsik /
 		</subfield>
@@ -54,6 +60,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Miṣr :
 		</subfield>
@@ -153,6 +162,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Mālikī, Muḥammad ʻAlī ibn Ḥusayn,
 		</subfield>
@@ -161,6 +173,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Ibn al-Naqīb, Aḥmad ibn Luʼluʼ,
 		</subfield>
@@ -209,6 +224,64 @@
 			http://hdl.handle.net/2333.1/3r2283rd
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			بركات، عمر. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			فيض الاله المالك في حل الفاظ عمدة السالك وعدة الناسك /
+		</subfield>
+		<subfield code="c">
+			لعمر بركات بن محمد بركات الشامي البقاعي المكي. وبهامشه متن عمدة السالك وعدة الناسك. وباسفل الصلب والهامش تقريرات قيمة لمحمد علي بن حسين المالي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			مصر :
+		</subfield>
+		<subfield code="b">
+			يطلب من المكتبة التجارية الكبرى،
+		</subfield>
+		<subfield code="c">
+			1955.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/r
+		</subfield>
+		<subfield code="a">
+			مالكي، محمد علي بن حسين،
+		</subfield>
+		<subfield code="d">
+			1870 or 1871-1947 or 1948.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			700-05/r
+		</subfield>
+		<subfield code="a">
+			ابن النقيب، احمد بن لؤلؤ،
+		</subfield>
+		<subfield code="d">
+			1368.
+		</subfield>
+		<subfield code="t">
+			عمدة السال وعدة الناسك.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -234,13 +307,16 @@
 			NIC_1908593
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm34088078 
+			(OCoLC)ocm34088078
 		</subfield>
 		<subfield code="s">
 			cornell_aco000562
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000562
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01582nam a2200361   4500
+		01886nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		1743749
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1909    ua a    o     000 0 ara d
+		160224s1909    ua a    o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -38,11 +38,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Rustum, Muṣṭafà Rāshid.
+			Rustum, Muṣṭafá Rāshid.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Mā narāh :
 		</subfield>
@@ -54,6 +60,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			[al-Qāhirah?] :
 		</subfield>
@@ -199,7 +208,7 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Rustum, Muṣṭafà Rāshid.
+			Rustum, Muṣṭafá Rāshid.
 		</subfield>
 		<subfield code="t">
 			Mā narāh
@@ -214,6 +223,42 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/80gb5qvb
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			رستم، مصطفى راشد.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			ما نراه :
+		</subfield>
+		<subfield code="b">
+			في بحارنا وثغورنا /
+		</subfield>
+		<subfield code="c">
+			تأليف مصطفى راشد رستم.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			[القاهره؟] :
+		</subfield>
+		<subfield code="b">
+			[publisher not identified]،
+		</subfield>
+		<subfield code="c">
+			1909.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -241,13 +286,16 @@
 			NIC_1743749
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm64017240 
+			(OCoLC)ocm64017240
 		</subfield>
 		<subfield code="s">
 			cornell_aco000481
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000481
 		</subfield>
 	</datafield>
 </record>

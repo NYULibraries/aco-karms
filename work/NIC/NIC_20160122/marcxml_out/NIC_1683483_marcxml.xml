@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01985nam a2200445   4500
+		02222nam a2200481   4500
 	</leader>
 	<controlfield tag="001">
 		1683483
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1948    ua      o     000 0 arard
+		160224s1948    ua      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -67,14 +67,33 @@
 			bi-qalam Aḥmad Taymūr.
 		</subfield>
 	</datafield>
+	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			Laʻib al-ʻArab
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Tārīkh al-Usrah al-Taymūrīyah
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">
-			880-03
+			880-06
 		</subfield>
 		<subfield code="a">
 			al-Qāhirah :
@@ -160,6 +179,23 @@
 			Classical Arab games
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="2" tag="700">
+		<subfield code="6">
+			880-07
+		</subfield>
+		<subfield code="a">
+			Taymūr, Aḥmad,
+		</subfield>
+		<subfield code="d">
+			1871-1930.
+		</subfield>
+		<subfield code="t">
+			Tārīkh al-Usrah al-Taymūrīyah.
+		</subfield>
+		<subfield code="f">
+			1948.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Cornell University.
@@ -219,7 +255,7 @@
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="880">
 		<subfield code="6">
-			246-00/r
+			246-03/r
 		</subfield>
 		<subfield code="a">
 			لعب العرب
@@ -227,7 +263,7 @@
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="880">
 		<subfield code="6">
-			246-00/r
+			246-04/r
 		</subfield>
 		<subfield code="a">
 			تاريخ الأسرة التيمورية
@@ -235,7 +271,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			250-00/r
+			250-05/r
 		</subfield>
 		<subfield code="a">
 			الطبعة 1.
@@ -243,7 +279,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-03/r
+			260-06/r
 		</subfield>
 		<subfield code="a">
 			القاهرة :
@@ -257,16 +293,19 @@
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			700-00/r
+			700-07/r
 		</subfield>
 		<subfield code="a">
-			تيمور، أحمد،,
+			تيمور، احمد،
 		</subfield>
 		<subfield code="d">
-			1930-1871.
+			1871-1930.
 		</subfield>
 		<subfield code="t">
-			تاريخ الأسرة التيمورية.
+			تاريخ الاسرة التيمورية.
+		</subfield>
+		<subfield code="f">
+			1948.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -294,13 +333,16 @@
 			NIC_1683483
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm18273174 
+			(OCoLC)ocm18273174
 		</subfield>
 		<subfield code="s">
 			cornell_aco000469
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000469
 		</subfield>
 	</datafield>
 </record>

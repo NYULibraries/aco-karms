@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01736nam a2200373   4500
+		02076nam a2200409   4500
 	</leader>
 	<controlfield tag="001">
 		1651147
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129m19599999iq a    o    f000 0 ara d
+		160224m19599999iq a    o    f000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -37,7 +37,7 @@
 			a-iq---
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			DS79.65
 		</subfield>
@@ -46,6 +46,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Qāsim, ʻAbd al-Karīm,
 		</subfield>
@@ -62,11 +65,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Mabādiʼ thawrat 14 Tammūz fī khuṭab ʻAbd al-Karīm Qāsim.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			[Baghdād?] :
 		</subfield>
@@ -215,6 +224,45 @@
 			http://hdl.handle.net/2333.1/37pvmh1j
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			قاسم، عبد الكريم،
+		</subfield>
+		<subfield code="d">
+			1914-1963.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			مبادئ ثورة 14 تموز في خطب عبد الكريم قاسم.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			[بغداد؟] :
+		</subfield>
+		<subfield code="b">
+			[publisher not identified]،
+		</subfield>
+		<subfield code="c">
+			1959
+		</subfield>
+		<subfield code="e">
+			(بغداد :
+		</subfield>
+		<subfield code="f">
+			مطبعة الحكومه)
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -240,13 +288,16 @@
 			NIC_1651147
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm64016904 
+			(OCoLC)ocm64016904
 		</subfield>
 		<subfield code="s">
 			cornell_aco000447:juz2
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000447:juz2
 		</subfield>
 	</datafield>
 </record>

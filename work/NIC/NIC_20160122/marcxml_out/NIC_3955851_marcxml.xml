@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02646nam a2200421   4500
+		03177nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		3955851
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129m19459999le h    ob    000 0carard
+		160224m19459999le h    ob    000 0carard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -46,6 +46,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Ghazzī, Najm al-Dīn Muḥammad ibn Muḥammad,
 		</subfield>
@@ -54,6 +57,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Kawākib al-sāʼirah bi-aʻyān al-miʼah al-ʻāshirah /
 		</subfield>
@@ -62,6 +68,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Bayrūt :
 		</subfield>
@@ -105,8 +114,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Manshūrāt Kullīyat ʼal-ʻUlūm wa-ʼal-ʼĀdāb / Jāmiʻah ʼal-ʼAmīrikīyah fī Bayrūt ;
+			Manshūrāt Kullīyat al-ʻUlūm wa al-Ādāb / Jāmiʻah al-Amīrikīyah fī Bayrūt ;
 		</subfield>
 		<subfield code="v">
 			18, 20, 29
@@ -170,8 +182,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Jabbūr, Jibrāʼīl Sulaymān.
+			Jabbūr, Jibrāʼīl Sulaymān. 
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -225,41 +240,91 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
-			Manshūrāt Kullīyat ʼal-ʻUlūm wa-ʼal-ʼĀdāb (Jāmiʻah ʼal-ʼAmīrikīyah fī Bayrut).
+			Manshūrāt Kullīyat al-ʻUlūm wa al-Ādāb (Jāmiʻah al-ʼAmīrikīyah fī Bayrūt).
 		</subfield>
 		<subfield code="p">
-			Silsilat ʼal-ʻUlūm ʼal-Sharqīyah ;
+			Silsilat al-ʻUlūm al-Sharqīyah ;
 		</subfield>
 		<subfield code="v">
-			18.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="a">
-			Manshūrāt Kullīyat ʼal-ʻUlūm wa-ʼal-ʼĀdāb (Jāmiʻah ʼal-ʼAmīrikīyah fī Bayrut).
-		</subfield>
-		<subfield code="p">
-			Silsilat ʼal-ʻUlūm ʼal-Sharqīyah ;
-		</subfield>
-		<subfield code="v">
-			20.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="a">
-			Manshūrāt Kullīyat ʼal-ʻUlūm wa-ʼal-ʼĀdāb (Jāmiʻah ʼal-ʼAmīrikīyah fī Bayrut).
-		</subfield>
-		<subfield code="p">
-			Silsilat ʼal-ʻUlūm ʼal-Sharqīyah ;
-		</subfield>
-		<subfield code="v">
-			29.
+			18, 20, 29.
 		</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/rxwdbw58
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			غزي، نجم الدين محمد بن محمد،
+		</subfield>
+		<subfield code="d">
+			1570-1651.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الكواكب السائرة باعيان المئة العاشرة /
+		</subfield>
+		<subfield code="c">
+			نجم الدين الغزي ؛ حققه وضبط نصه جبرائيل سليمان جبور.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			بيروت :
+		</subfield>
+		<subfield code="b">
+			المطبعة الاميركانية،
+		</subfield>
+		<subfield code="c">
+			1945
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-04/r
+		</subfield>
+		<subfield code="a">
+			منشورات كلية العلوم و الاداب / جامعة الاميركية في بيروت ؛
+		</subfield>
+		<subfield code="v">
+			18، 20، 29
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/r
+		</subfield>
+		<subfield code="a">
+			جبور، جبرائيل سليمان. 
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-06/r
+		</subfield>
+		<subfield code="a">
+			منشورات كلية العلوم و الاداب (جامعة الأميركية في بيروت).
+		</subfield>
+		<subfield code="p">
+			سلسلة العلوم الشرقية ؛
+		</subfield>
+		<subfield code="v">
+			18، 20، 29.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -287,7 +352,7 @@
 			NIC_3955851
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm10970967 
+			(OCoLC)ocm10970967
 		</subfield>
 		<subfield code="s">
 			cornell_aco000440:v.1
@@ -300,6 +365,15 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000440:v.1
+		</subfield>
+		<subfield code="s">
+			cornell_aco000456:v.2
+		</subfield>
+		<subfield code="s">
+			cornell_aco000455:v.3
 		</subfield>
 	</datafield>
 </record>

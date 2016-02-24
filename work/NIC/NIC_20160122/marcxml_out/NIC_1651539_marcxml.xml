@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01616nam a2200325   4500
+		02135nam a2200337   4500
 	</leader>
 	<controlfield tag="001">
 		1651539
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1932    le af   o     000 0bara d
+		160224s1932    le af   o     000 0bara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -38,14 +38,20 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="245">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Dhikrá al-ʻallāmah al-jalīl al-shaykh Muṣṭafá Najā Muftī Bayrūt al-akbar baʻd ʻām :
+			Dhikrá baʻda ʻām li-faqīd al-waṭan wa-al-Islām al-ʻallāmah al-jalīl al-shaykh Muṣṭafá Najā Muftī Bayrūt al-akbar :
 		</subfield>
 		<subfield code="b">
 			1350-23 Ramaḍān wa-31 Kānūn al-Thāni 1932 fī 1351-23 Ramaḍān wa-31 Kānūn al-Thānī 1933.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			[Place of publication not identified] :
 		</subfield>
@@ -117,6 +123,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Najā, Muṣṭafá
 		</subfield>
@@ -132,11 +141,6 @@
 			Biography.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">
-			Najā, Muṣṭafá.
-		</subfield>
-	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Cornell University.
@@ -150,17 +154,12 @@
 			Arabic Collections Online.
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="740">
-		<subfield code="a">
-			Dhikrá baʻda ʻām.
-		</subfield>
-	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">
 			Print version:
 		</subfield>
 		<subfield code="t">
-			Dhikrá al-ʻallāmah al-jalīl al-shaykh Muṣṭafá Najā Muftī Bayrūt al-akbar baʻd ʻām
+			Dhikrá baʻda ʻām li-faqīd al-waṭan wa-al-Islām al-ʻallāmah al-jalīl al-shaykh Muṣṭafá Najā Muftī Bayrūt al-akbar
 		</subfield>
 		<subfield code="w">
 			(NIC)1651539
@@ -172,6 +171,42 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/x0k6dnvj
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">
+			245-01/r
+		</subfield>
+		<subfield code="a">
+			ذكرى بعد عام لفقيد الوطن والاسلام العلامة الجليل الشيخ مصطفى نجا مفتي بيروت الاكبر  :
+		</subfield>
+		<subfield code="b">
+			1350-23 رمضان و31 كانون الثان 1932 في 1351-23 رمضان و31 كانون الثاني 1933.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-02/r
+		</subfield>
+		<subfield code="a">
+			[Place of publication not identified] :
+		</subfield>
+		<subfield code="b">
+			[publisher not identified],
+		</subfield>
+		<subfield code="c">
+			1932  ([بيروت] :
+		</subfield>
+		<subfield code="f">
+			مطبعة الدبور)
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-03/r
+		</subfield>
+		<subfield code="a">
+			نجا، مصطفى
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -199,13 +234,16 @@
 			NIC_1651539
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm64016934 
+			(OCoLC)ocm64016934
 		</subfield>
 		<subfield code="s">
 			cornell_aco000509
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000509
 		</subfield>
 	</datafield>
 </record>

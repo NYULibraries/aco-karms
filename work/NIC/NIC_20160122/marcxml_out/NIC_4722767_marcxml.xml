@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01381nam a2200349   4500
+		02335nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		4722767
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129m19481949xx h    o     000 0 ara d
+		160224m19481949xx h    o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -46,6 +46,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Hamdānī, al-Ḥasan ibn Aḥmad,
 		</subfield>
@@ -54,13 +57,31 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			al-Iklīl.
+			al-Iklīl :
+		</subfield>
+		<subfield code="b">
+			min akhbār al-Yaman wa-insāb ḥamīr, al-kitāb al-ʻāshir /
+		</subfield>
+		<subfield code="c">
+			taṣnīf lisān al-Yaman Abī Muḥammad al-Ḥasan ibn Aḥmad ibn Yaʻqūb al-Hamdānī ; ḥaqqaqahu wa-ʻallaqa ḥawāshīh wa-waqafa ʻalá ṭabʻih Muḥibb al-Dīn al-Khaṭīb.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			al-Qāhirah :
+		</subfield>
+		<subfield code="b">
+			al-Maṭbaʻah al-Salfīyah wa-Maktabatuhā,
+		</subfield>
 		<subfield code="c">
-			1948-9.
+			1948-1949.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -148,11 +169,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Khaṭīb, Muḥibb al-Dīn,
 		</subfield>
 		<subfield code="e">
-			editor.
+			editor. 
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -190,6 +214,56 @@
 			http://hdl.handle.net/2333.1/h9w0vxcc
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			همداني، الحسن بن احمد،
+		</subfield>
+		<subfield code="d">
+			945.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الاكليل :
+		</subfield>
+		<subfield code="b">
+			من اخبار اليمن وانساب حمير، الكتاب العاشر /
+		</subfield>
+		<subfield code="c">
+			تصنيف لان اليمن ابي محمد الحسن بن احمد بن يعقوب الهمداني ؛ حققه وعلق حواشيه ووقف على طبعه محب الدين الخطيب.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			المطبعة السلفية ومكتبتها،
+		</subfield>
+		<subfield code="c">
+			19481949.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/r
+		</subfield>
+		<subfield code="a">
+			خطيب، محب الدين، 
+		</subfield>
+		<subfield code="e">
+			editor. 
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -215,13 +289,16 @@
 			NIC_4722767
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23487238 
+			(OCoLC)ocm23487238
 		</subfield>
 		<subfield code="s">
 			cornell_aco000537
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000537
 		</subfield>
 	</datafield>
 </record>

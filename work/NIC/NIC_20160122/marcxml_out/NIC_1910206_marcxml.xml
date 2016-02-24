@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01695nam a2200385   4500
+		01843nam a2200397   4500
 	</leader>
 	<controlfield tag="001">
 		1910206
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1955    xx      o     000 0 ara d
+		160224s1955    xx      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -49,16 +49,33 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="a">
+			al-Zamān al-wujūdī /
+		</subfield>
+		<subfield code="c">
+			taʼlīf ʻAbd al-Raḥmān Badawī
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="250">
 		<subfield code="6">
 			880-02
 		</subfield>
 		<subfield code="a">
-			al-Zamān al-wujūdī.
+			al-Tabʼah 2.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			al-Qāhirah,
+		</subfield>
+		<subfield code="b">
+			Maktabat al-Nahḍah al-ʻArabiyah,
+		</subfield>
 		<subfield code="c">
-			[1955]
+			1955.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -195,7 +212,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-02/r
+			245-00/r
 		</subfield>
 		<subfield code="a">
 			الزمان الوجودى /
@@ -206,7 +223,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			250-00/r
+			250-02/r
 		</subfield>
 		<subfield code="a">
 			الطبعة ٢.
@@ -214,7 +231,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			القاهرة :
@@ -251,13 +268,16 @@
 			NIC_1910206
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23514592 
+			(OCoLC)ocm23514592
 		</subfield>
 		<subfield code="s">
 			cornell_aco000411
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000411
 		</subfield>
 	</datafield>
 </record>

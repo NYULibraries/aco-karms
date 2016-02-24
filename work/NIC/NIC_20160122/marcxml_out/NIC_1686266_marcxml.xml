@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01454nam a2200349   4500
+		01748nam a2200385   4500
 	</leader>
 	<controlfield tag="001">
 		1686266
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1951    ua      o     000 0 arard
+		160224s1951    ua      o     000 0 arard
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,27 +41,36 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Khallāf, ʻAbd al-Munʻim Muḥammad.
+			Khallāf, ʻAbd al-Munʻim Muḥammad. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			al-ʻAql al-muʼmin,
+			al-ʻAql al-muʼmin :
 		</subfield>
 		<subfield code="b">
 			aw al-dīn min ṭarīq al-fikr.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[Cairo]
+			[Cairo] :
 		</subfield>
 		<subfield code="b">
 			Dār al-Kitāb al-ʻArabī
 		</subfield>
 		<subfield code="c">
-			[1951]
+			1951.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -196,6 +205,39 @@
 			http://hdl.handle.net/2333.1/tqjq2g6h
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			خلاف، عبد المنعم محمد. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			العقل المؤمن :
+		</subfield>
+		<subfield code="b">
+			او الدين من طريق الفكر.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			[القاهرة] :
+		</subfield>
+		<subfield code="b">
+			دار الكتاب العربي
+		</subfield>
+		<subfield code="c">
+			1951.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -221,13 +263,16 @@
 			NIC_1686266
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm18539426 
+			(OCoLC)ocm18539426
 		</subfield>
 		<subfield code="s">
 			cornell_aco000496
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000496
 		</subfield>
 	</datafield>
 </record>

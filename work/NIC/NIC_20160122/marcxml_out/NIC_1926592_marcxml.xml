@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02567nam a2200457   4500
+		03250nam a2200517   4500
 	</leader>
 	<controlfield tag="001">
 		1926592
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1911    ua a    ob    000 0 ara d
+		160224s1911    ua a    ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -40,7 +40,7 @@
 			f-ua---
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			BP187.3
 		</subfield>
@@ -49,11 +49,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Batanūnī, Muḥammad Labīb.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Riḥlah al-Ḥijāzīyah :
 		</subfield>
@@ -65,11 +71,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			al-Ṭabʻah 2 (baʻda tanqīḥihā wa-tahdhībihā wa-ziyādat ashyāʼ kathīrah muhimmah ʻalayhā).
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			[Place of publication not identified] :
 		</subfield>
@@ -146,6 +158,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			ʻAbbās
 		</subfield>
@@ -316,6 +331,73 @@
 			http://hdl.handle.net/2333.1/s7h44nbd
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			بتنوني، محمد لبيب.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الرحلة الحجازية :
+		</subfield>
+		<subfield code="b">
+			لولي النعم الحاج عباس حلمي باشا الثاني خديوي مصر /
+		</subfield>
+		<subfield code="c">
+			بقلم محمد لبيب البتنوني.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/r
+		</subfield>
+		<subfield code="a">
+			الطبعة 2 (بعد تنقيحها وتهذيبها وزيادة اشياء كثيرة مهمة عليها).
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			[Place of publication not identified] :
+		</subfield>
+		<subfield code="b">
+			[publisher not identified]،
+		</subfield>
+		<subfield code="c">
+			[1911]
+		</subfield>
+		<subfield code="e">
+			(لقاهرة :
+		</subfield>
+		<subfield code="f">
+			طبع بمطبعة الجمالية)
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">
+			600-05/r
+		</subfield>
+		<subfield code="a">
+			عباس
+		</subfield>
+		<subfield code="b">
+			II,
+		</subfield>
+		<subfield code="c">
+			Khedive of Egypt,
+		</subfield>
+		<subfield code="d">
+			1874-1944.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -341,13 +423,16 @@
 			NIC_1926592
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm64025465 
+			(OCoLC)ocm64025465
 		</subfield>
 		<subfield code="s">
 			cornell_aco000426
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000426
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		03027nam a2200505   4500
+		03311nam a2200541   4500
 	</leader>
 	<controlfield tag="001">
 		3334637
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129m19681969iq      ow    000 0 ara d
+		160224m19681969iq      ow    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -216,6 +216,39 @@
 			Sāmarrāʼī, Kamāl.
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="710">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			Iraq.
+		</subfield>
+		<subfield code="b">
+			Maḥkamat al-Tamyīz.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="710">
+		<subfield code="6">
+			880-07
+		</subfield>
+		<subfield code="a">
+			Iraq.
+		</subfield>
+		<subfield code="b">
+			Maḥkamat al-Tamyīz al-ʻAskarīyah.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="710">
+		<subfield code="6">
+			880-08
+		</subfield>
+		<subfield code="a">
+			Iraq.
+		</subfield>
+		<subfield code="b">
+			Maḥkamat Tamyīz Amn al-Dawlah.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Cornell University.
@@ -308,7 +341,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			710-00/r
+			710-06/r
 		</subfield>
 		<subfield code="a">
 			Iraq.
@@ -319,7 +352,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			710-00/r
+			710-07/r
 		</subfield>
 		<subfield code="a">
 			Iraq.
@@ -330,7 +363,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			710-00/r
+			710-08/r
 		</subfield>
 		<subfield code="a">
 			Iraq.
@@ -364,7 +397,7 @@
 			NIC_3334637
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm12246575 
+			(OCoLC)ocm12246575
 		</subfield>
 		<subfield code="s">
 			cornell_aco000387:v.1
@@ -380,6 +413,18 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000387:v.1
+		</subfield>
+		<subfield code="s">
+			cornell_aco000392:v.2
+		</subfield>
+		<subfield code="s">
+			cornell_aco000393:v.3
+		</subfield>
+		<subfield code="s">
+			cornell_aco000394:v.4
 		</subfield>
 	</datafield>
 </record>

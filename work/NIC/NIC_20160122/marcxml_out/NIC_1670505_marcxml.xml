@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01843nam a2200409   4500
+		02199nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		1670505
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1964    xx h    o     000 0 ara  
+		160224s1964    xx h    o     000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -56,12 +56,24 @@
 			880-02
 		</subfield>
 		<subfield code="a">
-			al-Bukhalāʼ.
+			ʼal-Bukhalāʼ /
+		</subfield>
+		<subfield code="c">
+			lil-Khaṭīb ʼal-Baghdādī ; taḥqīq ʼAḥmad Maṭlūb, Khadījah ʼal-Ḥadīthī [wa-]ʼAḥmad Nājī ʼal-Qaysī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
+		<subfield code="a">
+			Baghdād :
+		</subfield>
+		<subfield code="b">
+			[publisher not identified],
+		</subfield>
 		<subfield code="c">
-			[1964.]
+			1964.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -139,12 +151,31 @@
 			(OCoLC)fst00824296
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="700">
-		<subfield code="a">
-			Maṭlūb,
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
 		</subfield>
-		<subfield code="e">
-			editor.
+		<subfield code="a">
+			Maṭlūb, Aḥmad.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Ḥadīthī, Khadījah.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			Qaysī, Aḥmad Nājī,
+		</subfield>
+		<subfield code="d">
+			1919-
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -168,7 +199,7 @@
 			Khaṭīb al-Baghdādī, Abū Bakr Aḥmad ibn ʻAlī, 1002-1071.
 		</subfield>
 		<subfield code="t">
-			al-Bukhalāʼ
+			ʼal-Bukhalāʼ
 		</subfield>
 		<subfield code="w">
 			(NIC)1670505
@@ -190,7 +221,10 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			خطيب البغدادي، أبو بكر أحمد بن علي.
+			خطيب البغدادي، أبو بكر أحمد بن علي،
+		</subfield>
+		<subfield code="d">
+			1002-1071.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="880">
@@ -206,13 +240,13 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			بغداد :
 		</subfield>
 		<subfield code="b">
-			[د.ن.]،
+			[publisher not identified]،
 		</subfield>
 		<subfield code="c">
 			1964.
@@ -220,7 +254,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-04/r
 		</subfield>
 		<subfield code="a">
 			مطلوب، أحمد.
@@ -228,7 +262,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-05/r
 		</subfield>
 		<subfield code="a">
 			حديثي، خديجة.
@@ -236,7 +270,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-06/r
 		</subfield>
 		<subfield code="a">
 			قيسي، أحمد ناجي.
@@ -267,13 +301,16 @@
 			NIC_1670505
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm23493775 
+			(OCoLC)ocm23493775
 		</subfield>
 		<subfield code="s">
 			cornell_aco000521
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000521
 		</subfield>
 	</datafield>
 </record>

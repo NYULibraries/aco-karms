@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01595nam a2200361   4500
+		02151nam a2200433   4500
 	</leader>
 	<controlfield tag="001">
 		1933410
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s195u    ua      ob    000 0 ara d
+		160224s195u    ua      ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,22 +33,31 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Ẉāfī, ʻAlī ʻAbd al-Wāḥid.
+			Wāfī, ʻAlī ʻAbd al-Wāḥid. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Ibn Khaldūn :
 		</subfield>
 		<subfield code="b">
-			munshiʼ ʻilm al-ijtijmāʻ /
+			munshiʼ ʻilm al-ijtimāʻ /
 		</subfield>
 		<subfield code="c">
 			taʼlīf ʻAlī ʻAbd al-Wāhid Wāfī.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Fajjālah :
 		</subfield>
@@ -89,6 +98,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Qādat al-fikr fī al-sharq wa-al-gharb ;
 		</subfield>
@@ -124,6 +136,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Ibn Khaldūn,
 		</subfield>
@@ -185,7 +200,7 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ẉāfī, ʻAlī ʻAbd al-Wāḥid.
+			Wāfī, ʻAlī ʻAbd al-Wāḥid.
 		</subfield>
 		<subfield code="t">
 			Ibn Khaldūn
@@ -198,6 +213,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Qādat al-fikr fī al-sharq wa-al-gharb ;
 		</subfield>
@@ -208,6 +226,75 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/ht76hj23
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			وافي، علي عبد الواحد. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			ابن خلدون :
+		</subfield>
+		<subfield code="b">
+			منشئ علم الاجتماع /
+		</subfield>
+		<subfield code="c">
+			تأليف علي عبد الواحد وافي.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			فجالة :
+		</subfield>
+		<subfield code="b">
+			مكتبة نهضة مصر،
+		</subfield>
+		<subfield code="c">
+			[195]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-04/r
+		</subfield>
+		<subfield code="a">
+			قادة الفكر في الشرق والغرب ؛
+		</subfield>
+		<subfield code="v">
+			3
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">
+			600-05/r
+		</subfield>
+		<subfield code="a">
+			ابن خلدون،
+		</subfield>
+		<subfield code="d">
+			1332-1406.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-06/r
+		</subfield>
+		<subfield code="a">
+			قادة الفكر في الشرق والغرب ؛
+		</subfield>
+		<subfield code="v">
+			3.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -235,13 +322,16 @@
 			NIC_1933410
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm33109557 
+			(OCoLC)ocm33109557
 		</subfield>
 		<subfield code="s">
 			cornell_aco000464
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000464
 		</subfield>
 	</datafield>
 </record>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02729nam a2200445   4500
+		02998nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		1747776
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129q19001991mr a    o     000 0 ara d
+		160224q19001991mr a    o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -159,6 +159,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Ibn Ghāzī, Muḥammad ibn Aḥmad,
 		</subfield>
@@ -171,7 +174,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">
-			880-05
+			880-06
 		</subfield>
 		<subfield code="a">
 			Basṭī, ʻAlī ibn Muḥammad ibn ʻAlī.
@@ -228,7 +231,10 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			ابن غازي، محمد بن أحمد.
+			ابن غازي، محمد بن أحمد،
+		</subfield>
+		<subfield code="d">
+			1437 or 1438-1513.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -252,7 +258,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-04/r
+			260-00/r
 		</subfield>
 		<subfield code="a">
 			[فاس؟،
@@ -261,9 +267,37 @@
 			--١٩؟]
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			[[فاس؟] :
+		</subfield>
+		<subfield code="b">
+			[publisher not identified]،
+		</subfield>
+		<subfield code="c">
+			[19--؟]
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">
+			600-05/r
+		</subfield>
+		<subfield code="a">
+			ابن غازي، محمد بن احمد،
+		</subfield>
+		<subfield code="d">
+			1437 or 1438-1513.
+		</subfield>
+		<subfield code="t">
+			بغية الطلاب على منية الحساب.
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-05/r
+			700-06/r
 		</subfield>
 		<subfield code="a">
 			بسطي، علي بن محمد بن علي.
@@ -294,13 +328,16 @@
 			NIC_1747776
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm24085420 
+			(OCoLC)ocm24085420
 		</subfield>
 		<subfield code="s">
 			cornell_aco000519
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000519
 		</subfield>
 	</datafield>
 </record>

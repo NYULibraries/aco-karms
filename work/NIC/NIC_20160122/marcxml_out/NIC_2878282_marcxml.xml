@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02789nam a2200493   4500
+		03048nam a2200517   4500
 	</leader>
 	<controlfield tag="001">
 		2878282
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129m19691970iq      ob    001 0 arar 
+		160224m19691970iq      ob    001 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -94,7 +94,7 @@
 			Maṭbaʻat al-Azhar,
 		</subfield>
 		<subfield code="c">
-			[cover 1969-1970]-
+			[1969-1970]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -142,6 +142,22 @@
 		</subfield>
 		<subfield code="a">
 			1. al-Qism al-ʻāmm -- 2. al-Qism al-khāṣṣ.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			Cover title: Sharḥ qānūn al-ʻuqūbāt.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="6">
+			880-07
+		</subfield>
+		<subfield code="a">
+			Vol. 2, published by Maṭbaʻat al-Irshād, has cover title: Sharḥ qānūn al-ʻuqūbāt al-ʻIrāqī al-jadīd.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -193,7 +209,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="710">
 		<subfield code="6">
-			880-06
+			880-08
 		</subfield>
 		<subfield code="a">
 			Iraq.
@@ -281,7 +297,7 @@
 			مطبعة الازهر،
 		</subfield>
 		<subfield code="c">
-			1969-1970-
+			[1969-1970]
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
@@ -294,7 +310,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			500-00/r
+			500-06/r
 		</subfield>
 		<subfield code="a">
 			Cover title: شرح قانون العقوبات.
@@ -302,7 +318,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			500-00/r
+			500-07/r
 		</subfield>
 		<subfield code="a">
 			Vol. 2, published by مطبعة الارشاد, has cover title: شرح قانون العقوبات العراقي الجديد.
@@ -310,7 +326,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			710-06/r
+			710-08/r
 		</subfield>
 		<subfield code="a">
 			عراق.
@@ -344,7 +360,7 @@
 			NIC_2878282
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm11789625 
+			(OCoLC)ocm11789625
 		</subfield>
 		<subfield code="s">
 			cornell_aco000395:v.1
@@ -354,6 +370,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000395:v.1
+		</subfield>
+		<subfield code="s">
+			cornell_aco000396:v.2
 		</subfield>
 	</datafield>
 </record>

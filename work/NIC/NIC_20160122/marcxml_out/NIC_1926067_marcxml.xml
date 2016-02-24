@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		03148nam a2200541   4500
+		03545nam a2200589   4500
 	</leader>
 	<controlfield tag="001">
 		1926067
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1940    ua h    obd   001 0 ara d
+		160224s1940    ua h    obd   001 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -49,6 +49,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Maimonides, Moses,
 		</subfield>
@@ -58,7 +61,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">
-			880-01
+			880-02
 		</subfield>
 		<subfield code="a">
 			Sharḥ asmāʼ al-ʻuqqār /
@@ -259,6 +262,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Meyerhof, Max,
 		</subfield>
@@ -267,6 +273,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Maimonides, Moses,
 		</subfield>
@@ -274,10 +283,13 @@
 			1135-1204.
 		</subfield>
 		<subfield code="t">
-			Glossaire de matière médicale de Maïmonide.
+			Glossaire de matière médicale de Maïmonide. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Maimonides, Moses,
 		</subfield>
@@ -343,15 +355,68 @@
 			http://hdl.handle.net/2333.1/kkwh744h
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			قرطبي، موسى،
+		</subfield>
+		<subfield code="d">
+			1135-1204.
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">
-			245-01/r
+			245-02/r
 		</subfield>
 		<subfield code="a">
 			شرح أسماء العقار /
 		</subfield>
 		<subfield code="c">
 			تأليف الشيخ الرئيس أبي عمران موسى بن عبيد الله الإسرائيلي القرطبي ؛ نشره وصححه وراجعه على النسخة الوحيدة المحفوظة باستنبول ماكس مايرهوف.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-03/r
+		</subfield>
+		<subfield code="a">
+			مايرهوف، ماكس،
+		</subfield>
+		<subfield code="d">
+			1874-1945.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-04/r
+		</subfield>
+		<subfield code="a">
+			قرطبي، موسى،
+		</subfield>
+		<subfield code="d">
+			1135-1204.
+		</subfield>
+		<subfield code="t">
+			Glossaire de matière médicale de Maïmonide. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/r
+		</subfield>
+		<subfield code="a">
+			قرطبي، موسى،
+		</subfield>
+		<subfield code="d">
+			1135-1204.
+		</subfield>
+		<subfield code="t">
+			شرح اسماء العقار.
+		</subfield>
+		<subfield code="l">
+			French.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -379,13 +444,16 @@
 			NIC_1926067
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm30940502 
+			(OCoLC)ocm30940502
 		</subfield>
 		<subfield code="s">
 			cornell_aco000524
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000524
 		</subfield>
 	</datafield>
 </record>

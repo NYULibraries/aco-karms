@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		03929nam a2200505   4500
+		04042nam a2200505   4500
 	</leader>
 	<controlfield tag="001">
 		4437516
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1947    le      o     000 0 ara d
+		160224s1947    le      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -52,6 +52,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Kashshāf ʻan ḥaqāʼiq ghawāmiḍ al-tanzīl wa-ʻuyūn al-aqāwīl fī wujūh al-taʼwīl /
 		</subfield>
@@ -60,6 +63,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Bayrūt :
 		</subfield>
@@ -192,29 +198,38 @@
 			(OCoLC)fst01411636
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
+	<datafield ind1="1" ind2="2" tag="700">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Munayyir, Aḥmad ibn Muḥammad,
+			Ibn ʻAṭāʼ Allāh, Aḥmad ibn Muḥammad,
 		</subfield>
 		<subfield code="d">
-			1223-1284.
+			 -1309.
 		</subfield>
 		<subfield code="t">
-			Intiṣāf.
+			Intiṣāf. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
+		<subfield code="a">
+			Ibn Ḥajar al-ʻAsqalānī, Aḥmad ibn ʻAlī,
+		</subfield>
+		<subfield code="d">
+			 1372-1449.
+		</subfield>
+		<subfield code="t">
+			Al-Kāfī al-shf̄ī. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">
-			Ibn Ḥajar al-ʻAsqaln̄ī, Aḥmad ibn ʻAlī,
+		<subfield code="6">
+			880-06
 		</subfield>
-		<subfield code="d">
-			1372-1449.
-		</subfield>
-		<subfield code="t">
-			Al-Kāfī al-shf̄ī.
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="a">
 			Marzūqī, Muḥammad ʻIlyān.
 		</subfield>
@@ -223,6 +238,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-07
+		</subfield>
 		<subfield code="a">
 			Marzūqī, Muḥammad ʻIlyān.
 		</subfield>
@@ -270,12 +288,15 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			زمخشري، محمود بن عمر.
+			زمخشري، محمود بن عمر،
+		</subfield>
+		<subfield code="d">
+			1075-1144.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-00/r
+			245-02/r
 		</subfield>
 		<subfield code="a">
 			الكشاف عن حقائق غوامض التنزيل وعيون الأقاويل في وجوه التأويل :
@@ -289,7 +310,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			بيروت :
@@ -298,51 +319,57 @@
 			دار الكتاب العربي،
 		</subfield>
 		<subfield code="c">
-			[-١٩٦؟]
+			[1947]
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			700-00/r
+			700-04/r
 		</subfield>
 		<subfield code="a">
-			إسكندري، أحمد بن المنير.
+			ابن عطاء الله، احمد بن محمد،
+		</subfield>
+		<subfield code="d">
+			1309.
 		</subfield>
 		<subfield code="t">
-			إنتصاف.
+			انتصاف. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			700-00/r
+			700-05/r
 		</subfield>
 		<subfield code="a">
-			ابن حجر العسقلاني، أحمد بن علي.
+			ابن حجر العسقلاني، احمد بن علي،
+		</subfield>
+		<subfield code="d">
+			1372-1449.
 		</subfield>
 		<subfield code="t">
-			كافي الشاف في تخريج أحاديث الكشاف.
+			الكافي الشاف. 
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="2" tag="880">
+	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-06/r
 		</subfield>
 		<subfield code="a">
-			شافعي، محمد أبو عليان.
+			مرزوقي، محمد عليان.
 		</subfield>
 		<subfield code="t">
 			حاشية.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="2" tag="880">
+	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-00/r
+			700-07/r
 		</subfield>
 		<subfield code="a">
-			شافعي، محمد أبو عليان.
+			مرزوقي، محمد عليان.
 		</subfield>
 		<subfield code="t">
-			مشاهد الإنصاف على شواهد الكشاف.
+			مشاهد الانصاف.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -370,7 +397,7 @@
 			NIC_4437516
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm32475587 
+			(OCoLC)ocm32475587
 		</subfield>
 		<subfield code="s">
 			cornell_aco000461:v.1
@@ -386,6 +413,18 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000461:v.1
+		</subfield>
+		<subfield code="s">
+			cornell_aco000439:v.2
+		</subfield>
+		<subfield code="s">
+			cornell_aco000438:v.3
+		</subfield>
+		<subfield code="s">
+			cornell_aco000435:v.4
 		</subfield>
 	</datafield>
 </record>

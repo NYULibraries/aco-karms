@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01587nam a2200277   4500
+		02731nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		6319561
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s199u    le      o     000 0 ara d
+		160224m18351858enk     o2    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -34,29 +34,48 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="a">
-			Ibn ʻAbd Allāh, Ḥajī Khalīfah Muṣṭafá.
+			Kâtip Çelebi,
+		</subfield>
+		<subfield code="d">
+			1609-1657.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="a">
+			Kashf al-ẓunūn ʻan asāmī al-kutub wa-al-funūn.
+		</subfield>
+		<subfield code="l">
+			Latin &amp; Arabic
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Kashf al-ẓunūn ʻan asāmī al-kutub wa-al-funūn =
 		</subfield>
 		<subfield code="b">
-			Lexicon bibliographicum et encylopaedicum /
+			Lexicon bibliographicum et encyclopaedicum a Mustafa ben Abdallah Katib Jelebi dicto et nomine Haji Khalfa celebrato compositum /
 		</subfield>
 		<subfield code="c">
-			Ḥajī Khalīfah Muṣṭafá ibn ʻAbd Allāh ; ḥarraruh maʻa tarjamah ilá al-Lātīnīyah Ghūstāf Filūghal.
+			ad codicum Vindobonensium, Parisiensium et Berolinensis fidem primum edidit, Latine vertit et commentario indicibusque instruxit Gustavus Fluegel.
+		</subfield>
+	</datafield>
+	<datafield ind1="3" ind2="1" tag="246">
+		<subfield code="a">
+			Lexicon bibliographicum et encyclopaedicum a Mustafa ben Abdallah Katib Jelebi dicto et nomine Haji Khalfa celebrato compositum
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="a">
-			Bayrūt :
+			London :
 		</subfield>
 		<subfield code="b">
-			Dār Ṣādir,
+			R. Bentley for the Oriental Translation Fund of Great Britain and Ireland,
 		</subfield>
 		<subfield code="c">
-			[199-?]
+			1835-1858.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -88,6 +107,14 @@
 			rdacarrier
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="a">
+			Publication ;
+		</subfield>
+		<subfield code="v">
+			42
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">
 			Part of the Arabic Collections Online (ACO) project, contributed by Cornell University Libraries.
@@ -110,6 +137,28 @@
 			NNU
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">
+			Arabic literature
+		</subfield>
+		<subfield code="v">
+			Bibliography
+		</subfield>
+		<subfield code="v">
+			Early works to 1800.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-02
+		</subfield>
+		<subfield code="a">
+			Flügel, Gustav,
+		</subfield>
+		<subfield code="d">
+			1802-1870.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Cornell University.
@@ -128,7 +177,7 @@
 			Print version:
 		</subfield>
 		<subfield code="a">
-			Ibn ʻAbd Allāh, Ḥajī Khalīfah Muṣṭafá.
+			Kâtip Çelebi, 1609-1657.
 		</subfield>
 		<subfield code="t">
 			Kashf al-ẓunūn ʻan asāmī al-kutub wa-al-funūn =
@@ -143,6 +192,31 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/stqjq5qj
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-01/r
+		</subfield>
+		<subfield code="a">
+			كشف الظنون عن اسامي الكتب والفنون =
+		</subfield>
+		<subfield code="b">
+			Lexicon bibliographicum et encyclopaedicum a Mustafa ben Abdallah Katib Jelebi dicto et nomine Haji Khalfa celebrato compositum /
+		</subfield>
+		<subfield code="c">
+			ad codicum Vindobonensium, Parisiensium et Berolinensis fidem primum edidit, Latine vertit et commentario indicibusque instruxit Gustavus Fluegel..
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-02/r
+		</subfield>
+		<subfield code="a">
+			فلوغل، غوستاف،
+		</subfield>
+		<subfield code="d">
+			1802-1870.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -198,6 +272,30 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000574:v.5
+		</subfield>
+		<subfield code="s">
+			cornell_aco000583:v.6
+		</subfield>
+		<subfield code="s">
+			cornell_aco000584:v.7:pt.1
+		</subfield>
+		<subfield code="s">
+			cornell_aco000585:v.7:pt.2
+		</subfield>
+		<subfield code="s">
+			cornell_aco000586:v.1
+		</subfield>
+		<subfield code="s">
+			cornell_aco000587:v.2
+		</subfield>
+		<subfield code="s">
+			cornell_aco000588:v.3
+		</subfield>
+		<subfield code="s">
+			cornell_aco000589:v.4
 		</subfield>
 	</datafield>
 </record>

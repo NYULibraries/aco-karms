@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01988nam a2200385   4500
+		02688nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		1910691
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129m19279999ua      o     001 0 ara d
+		160224m19279999ua      o     001 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Muḥammad ʻAbduh,
 		</subfield>
@@ -41,6 +44,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Tafsīr al-Qurʼān al-ḥakīm :
 		</subfield>
@@ -52,11 +58,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Ṭabʻah 1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			al-Qāhirah :
 		</subfield>
@@ -159,8 +171,11 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
-			Muḥammad Rashīd Riḍā.
+			Muḥammad Rashīd Riḍā. 
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -177,6 +192,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Tafsīr al-Manār.
 		</subfield>
@@ -223,6 +241,66 @@
 			http://hdl.handle.net/2333.1/bk3j9ppj
 		</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			محمد عبده،
+		</subfield>
+		<subfield code="d">
+			1849-1905.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			تفسىر القرآن الحکىم :
+		</subfield>
+		<subfield code="b">
+			[المشتهر باسم تفسىر المنار] /
+		</subfield>
+		<subfield code="c">
+			محمد عبده ؛ ت‌ىف محمد رشىد رضا.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			250-03/r
+		</subfield>
+		<subfield code="a">
+			طبعة 1.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			مطبعة المنار، 1324-1346 [i.e. 1906 or 7-1927 or 8]
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/r
+		</subfield>
+		<subfield code="a">
+			محمد رشيد رضا. 
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			740-06/r
+		</subfield>
+		<subfield code="a">
+			تفسير المنار.
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -248,7 +326,7 @@
 			NIC_1910691
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm64680594 
+			(OCoLC)ocm64680594
 		</subfield>
 		<subfield code="s">
 			cornell_aco000423:juz1
@@ -273,6 +351,27 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000423:juz1
+		</subfield>
+		<subfield code="s">
+			cornell_aco000459:juz3
+		</subfield>
+		<subfield code="s">
+			cornell_aco000460:juz4
+		</subfield>
+		<subfield code="s">
+			cornell_aco000425:juz7
+		</subfield>
+		<subfield code="s">
+			cornell_aco000422:juz8
+		</subfield>
+		<subfield code="s">
+			cornell_aco000424:juz9
+		</subfield>
+		<subfield code="s">
+			cornell_aco000421:juz10
 		</subfield>
 	</datafield>
 </record>

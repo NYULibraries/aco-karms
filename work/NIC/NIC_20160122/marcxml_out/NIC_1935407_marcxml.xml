@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01831nam a2200325   4500
+		02329nam a2200373   4500
 	</leader>
 	<controlfield tag="001">
 		1935407
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129q18991900le      o     000 0 ara d
+		160224q18991900le      o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -33,6 +33,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Afghānī, Muḥammad ʻAbd al-Bāqī,
 		</subfield>
@@ -41,11 +44,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Qawl al-wāthiq fī uṣūl ḥadīth al-Nabī la-ṣādiq
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Kitāb al-Qawl al-wāthiq fī uṣūl ḥadīth al-Nabī la-ṣādiq /
 		</subfield>
@@ -54,6 +63,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			[Beirut?] :
 		</subfield>
@@ -186,6 +198,50 @@
 			http://hdl.handle.net/2333.1/189322n8
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			افغاني، محمد عبد الباقي،
+		</subfield>
+		<subfield code="d">
+			active 19th century.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			240-02/r
+		</subfield>
+		<subfield code="a">
+			قول الواثق في اصول حديث النبي لصادق
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-03/r
+		</subfield>
+		<subfield code="a">
+			كتاب القول الواثق في اصول حديث النبي لصادق /
+		</subfield>
+		<subfield code="c">
+			تأليف محمد عبد الباقي الافغاني.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
+		</subfield>
+		<subfield code="a">
+			[بيروت؟] :
+		</subfield>
+		<subfield code="b">
+			[publisher not identified],
+		</subfield>
+		<subfield code="c">
+			1317 [i.e. 1899 or 1900]
+		</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">
 			NNU
@@ -211,13 +267,16 @@
 			NIC_1935407
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm64026535 
+			(OCoLC)ocm64026535
 		</subfield>
 		<subfield code="s">
 			cornell_aco000477
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000477
 		</subfield>
 	</datafield>
 </record>

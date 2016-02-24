@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02636nam a2200445   4500
+		02645nam a2200445   4500
 	</leader>
 	<controlfield tag="001">
 		4608337
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1969    iq fh   obc  f001 0 arar 
+		160224s1969    iq fh   obc  f001 0 arar 
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -241,7 +241,7 @@
 			(NIC)4608337
 		</subfield>
 		<subfield code="w">
-			(DLC)   70962246 
+			(DLC)  70962246 
 		</subfield>
 		<subfield code="w">
 			(OCoLC)13657124
@@ -254,7 +254,7 @@
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="880">
 		<subfield code="6">
-			110-01/r
+			110-01
 		</subfield>
 		<subfield code="a">
 			متحف العراقي.
@@ -265,7 +265,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-02/r
+			245-02
 		</subfield>
 		<subfield code="a">
 			المخطوطات اللغوية في مكتبة المتحف العراقي /
@@ -276,7 +276,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-03/r
+			260-03
 		</subfield>
 		<subfield code="a">
 			بغداد :
@@ -290,7 +290,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			700-04/r
+			700-04
 		</subfield>
 		<subfield code="a">
 			نقشبندي، أسامة ناصر.
@@ -321,13 +321,16 @@
 			NIC_4608337
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm13657124 
+			(OCoLC)ocm13657124
 		</subfield>
 		<subfield code="s">
 			cornell_aco000577
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000577
 		</subfield>
 	</datafield>
 </record>

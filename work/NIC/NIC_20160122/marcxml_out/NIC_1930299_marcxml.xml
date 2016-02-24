@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02103nam a2200421   4500
+		02125nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		1930299
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1949    mr b    ob    000 0 ara  
+		160224s1949    mr b    ob    000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -37,7 +37,7 @@
 			e-sp---
 		</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">
 			DP302.S59
 		</subfield>
@@ -65,11 +65,14 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Tiṭwān,
+			Tiṭwān:
 		</subfield>
 		<subfield code="b">
-			Maʻhad Mawlāyá al-Ḥasan
+			Maʻhad Mawlāyá al-Ḥasan,
 		</subfield>
 		<subfield code="c">
 			1946 [i.e. 1949]
@@ -247,16 +250,16 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
-			تطوان،
+			تطوان:
 		</subfield>
 		<subfield code="b">
 			معهد مولاي الحسن،
 		</subfield>
 		<subfield code="c">
-			1946 [يعني 1949]
+			1946 [i.e. 1949]
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -284,13 +287,16 @@
 			NIC_1930299
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm21502418 
+			(OCoLC)ocm21502418
 		</subfield>
 		<subfield code="s">
 			cornell_aco000485
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000485
 		</subfield>
 	</datafield>
 </record>

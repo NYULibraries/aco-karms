@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02128nam a2200409   4500
+		02204nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		4915152
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s196u    iq      ob    000 0 ara d
+		160224s196u    iq      ob    000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -45,7 +45,7 @@
 			880-01
 		</subfield>
 		<subfield code="a">
-			Shūbāshī, Muḥammad Mufīd.
+			Shūbāshī, Muḥammad Mufīd. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
@@ -201,6 +201,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Kitāb al-jayb.
 		</subfield>
@@ -237,10 +240,13 @@
 			بغداد :
 		</subfield>
 		<subfield code="b">
-			دار الشؤون الثقافية العامةو آفاق عربية ؛القاهرة :
+			دار الشؤون الثقافية العامة، آفاق عربية ؛
+		</subfield>
+		<subfield code="a">
+			القاهرة :
 		</subfield>
 		<subfield code="b">
-			الهيئة المصرية العامة للكتاب،
+			الهيئه المصرية العامة للكتاب،
 		</subfield>
 		<subfield code="c">
 			[196-?]
@@ -252,6 +258,14 @@
 		</subfield>
 		<subfield code="a">
 			كتاب الجيب
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-05/r
+		</subfield>
+		<subfield code="a">
+			كتاب الجيب.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -279,13 +293,16 @@
 			NIC_4915152
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm41371191 
+			(OCoLC)ocm41371191
 		</subfield>
 		<subfield code="s">
 			cornell_aco000540
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000540
 		</subfield>
 	</datafield>
 </record>

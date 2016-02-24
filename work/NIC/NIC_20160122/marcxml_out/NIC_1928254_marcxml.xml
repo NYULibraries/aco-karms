@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01430nam a2200337   4500
+		01637nam a2200361   4500
 	</leader>
 	<controlfield tag="001">
 		1928254
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1953    ua a    o     000 0 ara d
+		160224s1953    ua a    o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -45,17 +45,23 @@
 			880-01
 		</subfield>
 		<subfield code="a">
-			Marzūq, Muḥammad ʻAbd al-ʻAzīz.
+			Marzūq, Muḥammad ʻAbd al-ʻAzīz. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Bayn al-āthār al-islāmīyah fī al-ʻālam.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Alexandria,
+			al-Iskandariyah,
 		</subfield>
 		<subfield code="b">
 			Maṭābiʻ Ramsīs,
@@ -176,10 +182,32 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">
-			100-01
+			100-01/r
 		</subfield>
 		<subfield code="a">
 			مرزوق، محمد عبد العزيز.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			بين الآثار الاسلامية في العالم.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			الاسكندرية،
+		</subfield>
+		<subfield code="b">
+			مطابع رمسيس،
+		</subfield>
+		<subfield code="c">
+			1953.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -207,13 +235,16 @@
 			NIC_1928254
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm42847279 
+			(OCoLC)ocm42847279
 		</subfield>
 		<subfield code="s">
 			cornell_aco000468
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000468
 		</subfield>
 	</datafield>
 </record>

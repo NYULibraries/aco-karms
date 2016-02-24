@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01851nam a2200397   4500
+		02479nam a2200457   4500
 	</leader>
 	<controlfield tag="001">
 		1676331
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1965    ir ab   o     000 0 ara d
+		160224s1965    ir ab   o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -49,11 +49,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
-			Sāʻidī, Ghulām Ḥusayn.
+			Sāʻidī, Ghulām Ḥusayn. 
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Khīyāv, yā Mishgīn shahr :
 		</subfield>
@@ -65,6 +71,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			[Tehran] :
 		</subfield>
@@ -116,6 +125,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Intishārāt-i muʼasasah-ʼi muṭāliʻāt va taḥqīqāt-i ijtimāʻī ;
 		</subfield>
@@ -210,6 +222,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Intishārāt-i Muʼassasah-i Muṭālaʻāt va Taḥqīqāt-i Ijtimāʻī ;
 		</subfield>
@@ -220,6 +235,64 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/9p8czd49
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			ساعدى، غلام حسىن. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			خياو، ىا مشگىن شهر :
+		</subfield>
+		<subfield code="b">
+			کعبۀ ىىلاقات شاهسون /
+		</subfield>
+		<subfield code="c">
+			طرحها از محمد حسىن آرىا، و سىروس افخمى.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			[تهران] :
+		</subfield>
+		<subfield code="b">
+			مؤسسه مطالعات و تحقىقات اجتماعى،
+		</subfield>
+		<subfield code="c">
+			1344 [1965] 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-04/r
+		</subfield>
+		<subfield code="a">
+			انتشارات مؤسسۀ مطالعات و تحقىقات اجتماعى ؛
+		</subfield>
+		<subfield code="v">
+			30
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-05/r
+		</subfield>
+		<subfield code="a">
+			انتشارات مؤسسه مطالعات و تحقىقات اجتماعى ؛
+		</subfield>
+		<subfield code="v">
+			30.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -247,13 +320,16 @@
 			NIC_1676331
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm47115629 
+			(OCoLC)ocm47115629
 		</subfield>
 		<subfield code="s">
 			cornell_aco000482
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000482
 		</subfield>
 	</datafield>
 </record>

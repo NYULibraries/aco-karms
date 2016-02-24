@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01697nam a2200349   4500
+		02300nam a2200421   4500
 	</leader>
 	<controlfield tag="001">
 		1680621
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1952    iq af   o     000 0 ara d
+		160224s1952    iq af   o     000 0 ara d
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -41,11 +41,17 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Waṭarī, Hāshim.
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			Mulakhkhaṣ kitāb al-dirāsāt fī dawrat al-kilyah al-damawīyah /
 		</subfield>
@@ -54,6 +60,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
 			Baghdād :
 		</subfield>
@@ -97,6 +106,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
 			Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻIrāqī ;
 		</subfield>
@@ -133,13 +145,13 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="a">
-			Tureta, Josep,
+			Trueta, Josep,
 		</subfield>
 		<subfield code="d">
-			1897-
+			 1897-1977.
 		</subfield>
 		<subfield code="t">
-			Studies of the renal circulation.
+			Studies of the renal circulation. 
 		</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -156,6 +168,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Dirāsāt fī dawrat al-kilyah.
 		</subfield>
@@ -178,6 +193,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-06
+		</subfield>
 		<subfield code="a">
 			Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻIrāqī ;
 		</subfield>
@@ -188,6 +206,69 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/6wwpzkw2
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			وتري، هاشم.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			ملخص كتاب الدراسات في دورة الكلية الدموية /
+		</subfield>
+		<subfield code="c">
+			تلخيص الدكتر هاشم الوطري.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			بغداد :
+		</subfield>
+		<subfield code="b">
+			مجمع العلمي العراقي،
+		</subfield>
+		<subfield code="c">
+			1952.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-04/r
+		</subfield>
+		<subfield code="a">
+			مطبوعات المجمع العلمي العراقي ؛
+		</subfield>
+		<subfield code="v">
+			2
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">
+			740-05/r
+		</subfield>
+		<subfield code="a">
+			دراسات في دورة الكلية.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-06/r
+		</subfield>
+		<subfield code="a">
+			مطبوعات المجمع العلمي العراقي ؛
+		</subfield>
+		<subfield code="v">
+			2.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -215,13 +296,16 @@
 			NIC_1680621
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm63979399 
+			(OCoLC)ocm63979399
 		</subfield>
 		<subfield code="s">
 			cornell_aco000474
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000474
 		</subfield>
 	</datafield>
 </record>

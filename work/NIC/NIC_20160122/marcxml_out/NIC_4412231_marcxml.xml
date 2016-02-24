@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01943nam a2200409   4500
+		02642nam a2200505   4500
 	</leader>
 	<controlfield tag="001">
 		4412231
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1952    ua      o     000 0 ara  
+		160224s1952    ua      o     000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -49,21 +49,33 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Mūsā, Muḥammad Yūsuf.
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
-			[al-Nāḥiyah al-ijtimāʻīyah wa-al-siyāsīyah fī falsafat Ibn Sīnā (romanized form)].
+			al-Nāḥīyah al-ijtimāʻīyah wa-al-siyāsīyah fī falsafat Ibn Sīnā /
+		</subfield>
+		<subfield code="c">
+			Muḥammad Yūsuf Mūsá.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Cairo,
+			al-Qāhirah :
 		</subfield>
 		<subfield code="b">
-			Institut Franc̜ais d'Archéologie,
+			al-Maʻhad al-ʻIlmī al-Faransī lil-Āthār al-Sharqīyah,
 		</subfield>
 		<subfield code="c">
 			1952.
@@ -96,6 +108,17 @@
 		</subfield>
 		<subfield code="2">
 			rdacarrier
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">
+			880-04
+		</subfield>
+		<subfield code="a">
+			Dhikrá Ibn Sīnā ;
+		</subfield>
+		<subfield code="v">
+			1
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
@@ -144,6 +167,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Avicenna,
 		</subfield>
@@ -191,7 +217,7 @@
 			Mūsā, Muḥammad Yūsuf.
 		</subfield>
 		<subfield code="t">
-			[al-Nāḥiyah al-ijtimāʻīyah wa-al-siyāsīyah fī falsafat Ibn Sīnā (romanized form)]
+			al-Nāḥīyah al-ijtimāʻīyah wa-al-siyāsīyah fī falsafat Ibn Sīnā
 		</subfield>
 		<subfield code="w">
 			(NIC)4412231
@@ -211,6 +237,17 @@
 			1.
 		</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">
+			880-06
+		</subfield>
+		<subfield code="a">
+			Dhikrá Ibn Sīnā ;
+		</subfield>
+		<subfield code="v">
+			1.
+		</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="810">
 		<subfield code="a">
 			Institut français d'archéologie orientale du Caire.
@@ -222,6 +259,72 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">
 			http://hdl.handle.net/2333.1/0p2ngj93
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			100-01/r
+		</subfield>
+		<subfield code="a">
+			موسى، محمد يوسف.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">
+			245-02/r
+		</subfield>
+		<subfield code="a">
+			الناحية الاجتماعية والسياسية في فلسفة ابن سينا /
+		</subfield>
+		<subfield code="c">
+			محمد يوسف موسى.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-03/r
+		</subfield>
+		<subfield code="a">
+			القاهرة :
+		</subfield>
+		<subfield code="b">
+			المعهد العلمي الفرنسي للآثار الشرقية،
+		</subfield>
+		<subfield code="c">
+			1952.
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			490-04/r
+		</subfield>
+		<subfield code="a">
+			ذكرى ابن سينا ؛
+		</subfield>
+		<subfield code="v">
+			1 
+		</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">
+			600-05/r
+		</subfield>
+		<subfield code="a">
+			ابن سينا،
+		</subfield>
+		<subfield code="d">
+			980-1037.
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">
+			830-06/r
+		</subfield>
+		<subfield code="a">
+			ذكرى ابن سينا ؛
+		</subfield>
+		<subfield code="v">
+			1.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -249,7 +352,7 @@
 			NIC_4412231
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm04107211 
+			(OCoLC)ocm04107211
 		</subfield>
 		<subfield code="s">
 			cornell_aco000221
@@ -259,6 +362,12 @@
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000221
+		</subfield>
+		<subfield code="s">
+			cornell_aco000442
 		</subfield>
 	</datafield>
 </record>

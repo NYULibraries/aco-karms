@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		02485nam a2200481   4500
+		02435nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		1933364
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1900    ua      o     000 0 ara  
+		160224s1900    ua      o     000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -82,17 +82,23 @@
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			Miṣr :
+			[Cairo] :
 		</subfield>
 		<subfield code="b">
-			Maṭbaʻat al-Taqaddum al-Ḥadīthah :
-		</subfield>
-		<subfield code="b">
-			Tuṭlabu min Maḥmūd ʻAlī Ṣubayḥ ṣāḥib wa-mudīr al-Maktabah al-Maḥmūdīyah al-Tijārīyah,
+			Tuṭlab min M.ʻA. Ṣubayḥ, ṣāḥib wa-mudīr al-Maktabah al-Maḥmūdīyah al-Tijārīyah,
 		</subfield>
 		<subfield code="c">
-			[ca. 1900]
+			[19--]
+		</subfield>
+		<subfield code="e">
+			([Cairo] :
+		</subfield>
+		<subfield code="f">
+			Maṭbaʻat al-Taqaddum)
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -238,17 +244,6 @@
 			(OCoLC)fst01411628
 		</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">
-			Saʻdi, Lutfi M.,
-		</subfield>
-		<subfield code="e">
-			former owner.
-		</subfield>
-		<subfield code="5">
-			DNLM
-		</subfield>
-	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">
 			Cornell University.
@@ -289,7 +284,7 @@
 			100-01/r
 		</subfield>
 		<subfield code="a">
-			‏اندلسي، سعيد بن أحمد،‏,
+			‏اندلسي، سعيد بن أحمد،‏
 		</subfield>
 		<subfield code="d">
 			‏1070-1029.
@@ -308,7 +303,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			260-03/r
 		</subfield>
 		<subfield code="a">
 			‏[القاهرة] :‏
@@ -351,13 +346,16 @@
 			NIC_1933364
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm51009224 
+			(OCoLC)ocm51009224
 		</subfield>
 		<subfield code="s">
 			cornell_aco000582
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000582
 		</subfield>
 	</datafield>
 </record>

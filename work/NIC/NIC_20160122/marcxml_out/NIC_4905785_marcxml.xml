@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
 	<leader>
-		01985nam a2200433   4500
+		02226nam a2200469   4500
 	</leader>
 	<controlfield tag="001">
 		4905785
@@ -16,7 +16,7 @@
 		cr cn |||m|||a
 	</controlfield>
 	<controlfield tag="008">
-		160129s1955    le      oz    000 0 ara  
+		160224s1955    le      oz    000 0 ara  
 	</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">
@@ -51,6 +51,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="110">
+		<subfield code="6">
+			880-01
+		</subfield>
 		<subfield code="a">
 			Syria.
 		</subfield>
@@ -61,21 +64,33 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">
+			880-02
+		</subfield>
 		<subfield code="a">
 			al-Muʻāhadāt al-Duwalīyah al-Sūrīyah al-Thunāʼīyah min ʻĀm 1923 li-ʻĀm 1955.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">
+			880-03
+		</subfield>
 		<subfield code="a">
-			[al-Ṭabʻah al-ʼūlā].
+			[al-Ṭabʻah al-ūlá].
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">
+			880-04
+		</subfield>
 		<subfield code="a">
-			Bayrūt,
+			Bayrūt :
+		</subfield>
+		<subfield code="b">
+			[Maṭābiʻ al-Ādāb],
 		</subfield>
 		<subfield code="c">
-			[1955]
+			1955.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -179,6 +194,9 @@
 		</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">
+			880-05
+		</subfield>
 		<subfield code="a">
 			Nashshābah, ʻAdnān,
 		</subfield>
@@ -224,9 +242,17 @@
 			http://hdl.handle.net/2333.1/q573n949
 		</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			110-01/r
+		</subfield>
+		<subfield code="a">
+			سوريا.
+		</subfield>
+	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">
-			245-00/r
+			245-02/r
 		</subfield>
 		<subfield code="a">
 			المعاهدات الدولية السورية الثنائية من عام 1923 لعام 1955.
@@ -234,16 +260,35 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">
-			260-00/r
+			250-03/r
+		</subfield>
+		<subfield code="a">
+			[الطبعة الأولى].
+		</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">
+			260-04/r
 		</subfield>
 		<subfield code="a">
 			بيروت :
 		</subfield>
 		<subfield code="b">
-			[مطابع الآداب]؛
+			[مطابع الاداب]،
 		</subfield>
 		<subfield code="c">
-			1955.
+			1955. 
+		</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">
+			700-05/r
+		</subfield>
+		<subfield code="a">
+			نشابة، عدنان،
+		</subfield>
+		<subfield code="e">
+			 editor.
 		</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -271,13 +316,16 @@
 			NIC_4905785
 		</subfield>
 		<subfield code="o">
-			(OCoLC)ocm09306008 
+			(OCoLC)ocm09306008
 		</subfield>
 		<subfield code="s">
 			cornell_aco000539
 		</subfield>
 		<subfield code="e">
 			(ERROR-880)
+		</subfield>
+		<subfield code="s">
+			cornell_aco000539
 		</subfield>
 	</datafield>
 </record>
