@@ -1142,9 +1142,11 @@ def process_rec(rec, type):
 		
 		################################################
 		# Convert MARC to MARCXML and write out individual MARCXML record
-		rec_xml = pymarc.record_to_xml(rec, namespace=True)
-		pretty_rec_xml = xml.dom.minidom.parseString(rec_xml)
-		pretty_rec_xml = pretty_rec_xml.toprettyxml(encoding='utf-8')
+		rec_xml = pymarc.record_to_xml(rec, namespace=True)					# creates marcxml but all tags in a single line with no line breaks
+		pretty_rec_xml = xml.dom.minidom.parseString(rec_xml)				# parses the single line of xml
+		pretty_rec_xml = pretty_rec_xml.toprettyxml(encoding='utf-8')		# creates the correct indentations and line breaks, but adds extra line breaks within content tags
+		pretty_xml_re = re.compile('>\n\s+([^<>\s].*?)\n\s+</', re.DOTALL)	# regular expression for removing extra line breaks in content
+		pretty_rec_xml = pretty_xml_re.sub('>\g<1></', pretty_rec_xml)		# applying the reg ex to remove extra line breaks in content
 		try: os.makedirs(aco_globals.batch_folder+'/marcxml_out')
 		except OSError as exception:
 			if exception.errno != errno.EEXIST:
