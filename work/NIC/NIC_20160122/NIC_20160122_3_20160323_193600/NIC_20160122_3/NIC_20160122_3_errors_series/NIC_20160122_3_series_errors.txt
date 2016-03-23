@@ -1,0 +1,27 @@
+Records containing SERIES errors - batch NIC_20160122
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2016-03-23 19:35:52.834712
+---------------------------------------------------------------------
+FILE: NIC_20160122_3/NIC_20160122_3_updates.mrc
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocn228700409
+   oclc_rec_035_num: (OCoLC)228700409
+Institution ID: NIC_6319561
+Record 999:  NIC_6319561 (OCoLC)ocn228700409 cornell_aco000574:v.5 cornell_aco000583:v.6 cornell_aco000584:v.7:pt.1 cornell_aco000585:v.7:pt.2 cornell_aco000586:v.1 cornell_aco000587:v.2 cornell_aco000588:v.3 cornell_aco000589:v.4
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - Kâtip Çelebi, 1609-1657.
+   240 - Kashf al-ẓunūn ʻan asāmī al-kutub wa-al-funūn. Latin & Arabic
+   246 - Lexicon bibliographicum et encyclopaedicum a Mustafa ben Abdallah Katib Jelebi dicto et nomine Haji Khalfa celebrato compositum
+   260 - London : R. Bentley for the Oriental Translation Fund of Great Britain and Ireland, 1835-1858.
+   490 - Publication ; 42
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): cornell_aco000574:v.5, cornell_aco000583:v.6, cornell_aco000584:v.7:pt.1, cornell_aco000585:v.7:pt.2, cornell_aco000586:v.1, cornell_aco000587:v.2, cornell_aco000588:v.3, cornell_aco000589:v.4
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 1
+
