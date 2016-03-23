@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>01775nam a2200397   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">2684727</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301m19451946ua a    ob    000 0 ara  </controlfield>
+	<controlfield tag="008">160323m19451946ua a    ob    000 0 ara  </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -20,16 +20,21 @@
 		<subfield code="b">.L19</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Leheta, M. F.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Lahīṭah, Muḥammad Fahmī. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Tārīkh Fuʼād al-awwal al-iqtiṣādī /</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Tārīkh Fūʼād al-Awwal al-iqtiṣādī :</subfield>
+		<subfield code="b">Miṣr fī ṭarīq al-tawjīh al-kāmil /</subfield>
 		<subfield code="c">taʼlīf Muḥammad Fahmī Lahīṭah.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">al-Ṭabʻah 1.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">al-Qāhirah :</subfield>
 		<subfield code="b">Maktabat al-Nahḍah al-Miṣrīyah,</subfield>
 		<subfield code="c">[1945-1946]</subfield>
@@ -67,6 +72,7 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Fuʼād</subfield>
 		<subfield code="b">I,</subfield>
 		<subfield code="c">King of Egypt,</subfield>
@@ -103,14 +109,41 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Leheta, M. F.</subfield>
-		<subfield code="t">Tārīkh Fuʼād al-awwal al-iqtiṣādī</subfield>
+		<subfield code="a">Lahīṭah, Muḥammad Fahmī.</subfield>
+		<subfield code="t">Tārīkh Fūʼād al-Awwal al-iqtiṣādī</subfield>
 		<subfield code="w">(NNC)2684727</subfield>
 		<subfield code="w">(DLC)   74207576 </subfield>
 		<subfield code="w">(OCoLC)80232085</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/0k6djmjs</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">لهيطة، محمد فهمي.  </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">تاريخ فؤاد الأول الاقتصادي :</subfield>
+		<subfield code="b">مصر في طريق التوجيه الكامل /</subfield>
+		<subfield code="c">تأليف محمد فهمي لهيطة.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">250-03/r</subfield>
+		<subfield code="a">الطبعة 1.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/r</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">مكتبة النهضة المصرية،</subfield>
+		<subfield code="c">[19451946]</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">600-05/r</subfield>
+		<subfield code="a">فؤاد</subfield>
+		<subfield code="b">I,</subfield>
+		<subfield code="c">King of Egypt,</subfield>
+		<subfield code="d">1868-1936.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -122,8 +155,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_2684727</subfield>
-		<subfield code="o">(OCoLC)ocm80232085 </subfield>
+		<subfield code="o">(OCoLC)ocm80232085</subfield>
 		<subfield code="s">columbia_aco001708:v.1</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001708:v.1</subfield>
 	</datafield>
 </record>

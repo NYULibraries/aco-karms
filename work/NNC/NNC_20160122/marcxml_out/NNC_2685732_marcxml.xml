@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>02271nam a2200445   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">2685732</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301s1963    iq      ob    000 0 ararc</controlfield>
+	<controlfield tag="008">160323s1963    iq      ob    000 0 ararc</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -114,22 +114,22 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/9w0vt7nq</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">حسين، فاضل.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">تاريخ الحزب الوطني الدمقراطي، 1946-1958 /</subfield>
 		<subfield code="c">تأليف فاضل حسين.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-03/r</subfield>
+		<subfield code="6">260-03</subfield>
 		<subfield code="a">بغداد :</subfield>
 		<subfield code="b">مطبعة الشعب،</subfield>
 		<subfield code="c">1963.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2="4" tag="880">
-		<subfield code="6">610-04/r</subfield>
+		<subfield code="6">610-04</subfield>
 		<subfield code="a">حزب الوطني الديمقراطي (عراق)</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -142,8 +142,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_2685732</subfield>
-		<subfield code="o">(OCoLC)ocm22425978 </subfield>
+		<subfield code="o">(OCoLC)ocm22425978</subfield>
 		<subfield code="s">columbia_aco001686</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001686</subfield>
 	</datafield>
 </record>

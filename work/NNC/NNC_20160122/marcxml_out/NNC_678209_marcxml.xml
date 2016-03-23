@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>01638nam a2200337   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">678209</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301m19811982ir      od    000 0 ara d</controlfield>
+	<controlfield tag="008">160323m19811982ir      od    000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,14 +17,17 @@
 		<subfield code="a">per</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Shahābī, ʻAlī Akbar.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Shahābī, ʻAlī Akbar. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Farhang-i ishtiqāqī-i ʻArabī bi-Fārsī :</subfield>
 		<subfield code="b">mushtamil bar maʻānī-i qarīb-i hasht hizār lughat-i ʻArabī mutidāvil dar zabān-i Fārsī dar ṭayy-i qurūn-i mutimādī bā z̲ikr-i digargunīhā dar lafẓ va maʻnī /</subfield>
 		<subfield code="c">taʼlīf-i ʻAlī Akbar Shahābī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Tihrān :</subfield>
 		<subfield code="b">Iqbāl,</subfield>
 		<subfield code="c">1360 [1981 or 1982]</subfield>
@@ -89,6 +92,22 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/73n5tfdt</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">شهابي، علي اكبر. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">فرهنگ اشتقاقى عربى بفارسى :</subfield>
+		<subfield code="b">مشتمل بر معانى قرىب هشت هزار لغت عربى متداول در زبان فارسى در طي قرون متمادى با ذکر دگرگنىها در لفظ و معنى /</subfield>
+		<subfield code="c">تاءلىف على اکبر شهابى.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">تهران :</subfield>
+		<subfield code="b">اقبال،</subfield>
+		<subfield code="c">1360 [1981 or 1982]</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -99,8 +118,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_678209</subfield>
-		<subfield code="o">(OCoLC)ocm13888747 </subfield>
+		<subfield code="o">(OCoLC)ocm13888747</subfield>
 		<subfield code="s">columbia_aco001611</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001611</subfield>
 	</datafield>
 </record>

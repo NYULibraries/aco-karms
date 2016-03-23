@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>01756nam a2200349   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">1489266</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301s1987    ir      ob    000 0 ara d</controlfield>
+	<controlfield tag="008">160323s1987    ir      ob    000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,17 +17,21 @@
 		<subfield code="b">H352 1987</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Hamadānī, Aḥmad al-Raḥmānī.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Raḥmānī al-Hamadānī, Aḥmad. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Imām ʻAlī ibn Abī Ṭālib, ʻalayhi al-salām :</subfield>
 		<subfield code="b">man ḥubbuhu ʻunwān al-ṣaḥīfah, li-aqalla al-ʻibād, turāb aqdām al-mutamassikīn bi-ḥabl al-wilāʼ al-ʻalawī /</subfield>
 		<subfield code="c">Aḥmad al-Raḥmānī al-Hamadānī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Chāp-i 1.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Tihrān :</subfield>
 		<subfield code="b">Maktabat al-Ṣadūq,</subfield>
 		<subfield code="c">1366 [1987]</subfield>
@@ -61,6 +65,7 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">ʻAlī ibn Abī Ṭālib,</subfield>
 		<subfield code="c">Caliph,</subfield>
 		<subfield code="d">approximately 600-661</subfield>
@@ -87,13 +92,40 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Hamadānī, Aḥmad al-Raḥmānī.</subfield>
+		<subfield code="a">Raḥmānī al-Hamadānī, Aḥmad.</subfield>
 		<subfield code="t">al-Imām ʻAlī ibn Abī Ṭālib, ʻalayhi al-salām</subfield>
 		<subfield code="w">(NNC)1489266</subfield>
 		<subfield code="w">(OCoLC)26453197</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/jdfn32fd</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">رحماني الهمداني، احمد. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">الامام علي بن ابي طالب عليه السلام :</subfield>
+		<subfield code="b">من حبه عنوان الصحيفة، لاقل العباد، تراب اقدام المتمسكين بحبل الولاء العلوي /</subfield>
+		<subfield code="c">احمد الرحمني الهمداني.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">250-03/r</subfield>
+		<subfield code="a">چاپ 1.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/r</subfield>
+		<subfield code="a">تهران :</subfield>
+		<subfield code="b">مکتبة الصدوق،</subfield>
+		<subfield code="c">1366 [1987]</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">600-05/r</subfield>
+		<subfield code="a">علي بن ابي طالب،</subfield>
+		<subfield code="c">Caliph,</subfield>
+		<subfield code="d">approximately 600-661</subfield>
+		<subfield code="x">Hadith.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -105,8 +137,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_1489266</subfield>
-		<subfield code="o">(OCoLC)ocm26453197 </subfield>
+		<subfield code="o">(OCoLC)ocm26453197</subfield>
 		<subfield code="s">columbia_aco001700</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001700</subfield>
 	</datafield>
 </record>

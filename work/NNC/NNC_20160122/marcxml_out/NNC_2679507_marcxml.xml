@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>01816nam a2200361   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">2679507</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301s1946    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">160323s1946    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -20,17 +20,20 @@
 		<subfield code="b">.L977s</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Sayyid, Aḥmad Luṭfī,</subfield>
 		<subfield code="d">1872-1963.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Safaḥāt maṭwīyah min taʼrīkh al-ḥarakah al-istiqlālīyah fī Miṣr min mārs sanat 1907 ilā mārs sanat 1909,</subfield>
-		<subfield code="b">ʻaṣr al-inqilāb al-fikrī fī al-siyāsah al-waṭanīyah</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Ṣafaḥāt maṭwīyah min tārīkh al-ḥarakah al-istiqlālīyah fī Miṣr min mārs sanat 1907 ilá mārs sanat 1909 :</subfield>
+		<subfield code="b">ʻaṣr al-inqilāb al-fikrī fī al-siyāsah al-waṭanīyah /</subfield>
 		<subfield code="c">[li] Aḥmad Luṭfī al-Sayyid Bāshā.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Miṣr,</subfield>
-		<subfield code="b">Maṭbaʻat al-Muqtataf wa al-Muqaṭṭam,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Maṭbaʻat al-Muqṭataf wa al-Muqaṭṭam,</subfield>
 		<subfield code="c">1946.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -50,6 +53,12 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">At bottom of t.p.: al-Mukhtārāt al-siyāsīyah.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Non-Latin script record</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Non-Latin script record</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
@@ -90,12 +99,29 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Sayyid, Aḥmad Luṭfī, 1872-1963.</subfield>
-		<subfield code="t">Safaḥāt maṭwīyah min taʼrīkh al-ḥarakah al-istiqlālīyah fī Miṣr min mārs sanat 1907 ilā mārs sanat 1909</subfield>
+		<subfield code="t">Ṣafaḥāt maṭwīyah min tārīkh al-ḥarakah al-istiqlālīyah fī Miṣr min mārs sanat 1907 ilá mārs sanat 1909</subfield>
 		<subfield code="w">(NNC)2679507</subfield>
 		<subfield code="w">(OCoLC)45066927</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/cnp5htnk</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">سيد، احمد لطفي،</subfield>
+		<subfield code="d">1872-1963.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">صفحات مطوية من تاريخ الحركة الاستقلالية في مصر من مارس سنة 1907 الى مارس سنة 1909 :</subfield>
+		<subfield code="b">عصر الانقلاب الفكري في السياسة الوطنية /</subfield>
+		<subfield code="c">[ل[ احمد لطفي السيد باشا.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مطبعة المقطتف و المقطم،</subfield>
+		<subfield code="c">1946.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -107,8 +133,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_2679507</subfield>
-		<subfield code="o">(OCoLC)ocm45066927 </subfield>
+		<subfield code="o">(OCoLC)ocm45066927</subfield>
 		<subfield code="s">columbia_aco001609</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001609</subfield>
 	</datafield>
 </record>

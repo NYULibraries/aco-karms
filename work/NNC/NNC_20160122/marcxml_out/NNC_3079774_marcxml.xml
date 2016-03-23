@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>01382nam a2200325   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">3079774</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301q19451946ir      o     000 0 ara d</controlfield>
+	<controlfield tag="008">160323q19451946ir a    o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,17 +17,20 @@
 		<subfield code="a">per</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Mufīd, Muḥammad ibn Muḥammad,</subfield>
 		<subfield code="d">-1022.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Nukat al-iʻtiqādīyah,</subfield>
-		<subfield code="b">bā tarjameh-yi Fārsī ba-qalam-i Muḥammad Taqī Danish-Pazhūh.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Nukat al-iʻtiqādīyah /</subfield>
+		<subfield code="c">bā tarjameh-yi Fārsī ba-qalam-i Muḥammad Taqī Danish-Pazhūh.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Tehran,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Tehran :</subfield>
 		<subfield code="b">Chāpkhāneh-yi Iqbāl,</subfield>
-		<subfield code="c">1324 [1945 or 6]</subfield>
+		<subfield code="c">1324 [1945 or 1946]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (7, 40 pages)</subfield>
@@ -82,6 +85,22 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/4b8gtn3c</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">مفيد، محمد بن محمد،</subfield>
+		<subfield code="d">-1022.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">النکت الاعتقادية /</subfield>
+		<subfield code="c">با ترجمهى فارسى بقلم محمد تقى دنشپژوه.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">تهران :</subfield>
+		<subfield code="b">چاپخانهي اقبال،</subfield>
+		<subfield code="c">1324 [1945 or 1946]</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -92,8 +111,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3079774</subfield>
-		<subfield code="o">(OCoLC)ocm42967627 </subfield>
+		<subfield code="o">(OCoLC)ocm42967627</subfield>
 		<subfield code="s">columbia_aco001804</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001804</subfield>
 	</datafield>
 </record>

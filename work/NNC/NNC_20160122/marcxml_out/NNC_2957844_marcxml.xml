@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>02663nam a2200433   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">2957844</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301s1967    iq h    o     000 0 arax </controlfield>
+	<controlfield tag="008">160323s1967    iq h    o     000 0 arax </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -21,16 +21,21 @@
 		<subfield code="a">Ibn Khālawayh, Ḥusayn ibn Aḥmad,</subfield>
 		<subfield code="d">-980 or 981.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="0" tag="240">
 		<subfield code="6">880-02</subfield>
+		<subfield code="a">iʻrāb thalāthīn sūrah min al-Qurʼān al-Karīm</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Kitāb iʻrāb thalāthīn sūrah min al-Qurʼān al-Karīm,</subfield>
 		<subfield code="c">taʼlīf Abī ʻAbd allāh al-Ḥusayn ibn Aḥmad al-maʻrūf bi-Ibn Khālawayh.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Iʻrāb thalāthīn sūrah min al-Qurʼān al-Karīm</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">880-03</subfield>
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Baghdād :</subfield>
 		<subfield code="b">Maktabat al-Muthanná,</subfield>
 		<subfield code="c">1967.</subfield>
@@ -111,19 +116,24 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01/r</subfield>
-		<subfield code="a">ابن خالويه، حسين بن أحمد.</subfield>
+		<subfield code="a">ابن خالويه، حسين بن أحمد،</subfield>
+		<subfield code="d">-980 or 981.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">240-00/r</subfield>
+		<subfield code="6">240-02/r</subfield>
 		<subfield code="a">إعراب ثلاثين سورة من القرآن الكريم</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/r</subfield>
+		<subfield code="6">245-03/r</subfield>
 		<subfield code="a">كتاب إعراب ثلاثين سورة من القرآن الكريم /</subfield>
 		<subfield code="c">تأليف ابي عبد الله الحسين بن أحمد المعروف بابن خالويه.</subfield>
 	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">246-04/r</subfield>
+		<subfield code="a">اعراب ثلاثين سورة من القرآن الكريم</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-03/r</subfield>
+		<subfield code="6">260-05/r</subfield>
 		<subfield code="a">بغداد :</subfield>
 		<subfield code="b">مكتبة المثنى،</subfield>
 		<subfield code="c">1967.</subfield>
@@ -138,8 +148,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_2957844</subfield>
-		<subfield code="o">(OCoLC)ocm19940904 </subfield>
+		<subfield code="o">(OCoLC)ocm19940904</subfield>
 		<subfield code="s">columbia_aco001614</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001614</subfield>
 	</datafield>
 </record>

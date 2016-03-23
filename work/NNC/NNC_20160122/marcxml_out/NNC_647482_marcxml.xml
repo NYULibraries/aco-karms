@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>01463nam a2200325   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">647482</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301s1929    ua      o     000 0 araod</controlfield>
+	<controlfield tag="008">160323s1929    ua      o     000 0 araod</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,16 +17,20 @@
 		<subfield code="b">A17 1929</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Madanī, Muḥammad Aḥmad Ramaḍān.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Madanī, Muḥammad Aḥmad Ramaḍān. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Ṣafwat al-adab /</subfield>
 		<subfield code="c">biqalam Muḥammad Aḥmad Ramaḍān al-Madanī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">al-Ṭabʻah 7.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">[Cairo] :</subfield>
 		<subfield code="b">al-Maṭbaʻah al-Saʻīdīyah,</subfield>
 		<subfield code="c">1929.</subfield>
@@ -59,6 +63,17 @@
 		<subfield code="d">2016.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Muḥammad,</subfield>
+		<subfield code="c">Prophet,</subfield>
+		<subfield code="d">-632</subfield>
+		<subfield code="v">Poetry.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">Poetry.</subfield>
+		<subfield code="2">lcgft</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -84,6 +99,32 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/k6djhf5x</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">مدني، محمد احمد رمضان. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">صفوة الادب /</subfield>
+		<subfield code="c">بقلم محمد احمد رمضان المدني.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">250-03/r</subfield>
+		<subfield code="a">الطبعة 7.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/r</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">المطبعة السعيدية،</subfield>
+		<subfield code="c">1929.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">600-05/r</subfield>
+		<subfield code="a">محمد،</subfield>
+		<subfield code="c">Prophet,</subfield>
+		<subfield code="d">-632</subfield>
+		<subfield code="v">Poetry.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -94,8 +135,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_647482</subfield>
-		<subfield code="o">(OCoLC)ocm23499504 </subfield>
+		<subfield code="o">(OCoLC)ocm23499504</subfield>
 		<subfield code="s">columbia_aco001682</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001682</subfield>
 	</datafield>
 </record>

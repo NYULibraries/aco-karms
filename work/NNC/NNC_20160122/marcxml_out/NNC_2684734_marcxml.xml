@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>01660nam a2200385   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">2684734</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301s1952    xx      o     000 0 ara d</controlfield>
+	<controlfield tag="008">160323s1952    xx      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -25,10 +25,14 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">880-02</subfield>
-		<subfield code="a">Misr fī khārij Misr.</subfield>
+		<subfield code="a">Miṣr fī khārij Miṣr /</subfield>
+		<subfield code="c">Maḥmūd Kāmil.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="c">[1952]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
+		<subfield code="b">Maṭbaʻat Miṣr Shirkah Musāhamah Miṣrīyah,</subfield>
+		<subfield code="c">1952.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (92 pages)</subfield>
@@ -86,7 +90,7 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Kāmil, Maḥmūd.</subfield>
-		<subfield code="t">Misr fī khārij Misr</subfield>
+		<subfield code="t">Miṣr fī khārij Miṣr</subfield>
 		<subfield code="w">(NNC)2684734</subfield>
 		<subfield code="w">(OCoLC)23490232</subfield>
 	</datafield>
@@ -103,7 +107,7 @@
 		<subfield code="c">‏محمود كامل.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-00/r</subfield>
+		<subfield code="6">260-03/r</subfield>
 		<subfield code="a">‏القاهرة :‏</subfield>
 		<subfield code="b">‏مطبعة مصر شركة مساهمة مصرية،‏</subfield>
 		<subfield code="c">‏1952.</subfield>
@@ -118,8 +122,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_2684734</subfield>
-		<subfield code="o">(OCoLC)ocm23490232 </subfield>
+		<subfield code="o">(OCoLC)ocm23490232</subfield>
 		<subfield code="s">columbia_aco001711</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001711</subfield>
 	</datafield>
 </record>

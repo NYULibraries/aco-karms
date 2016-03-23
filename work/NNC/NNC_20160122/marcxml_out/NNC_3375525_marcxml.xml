@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>01873nam a2200325   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">3375525</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301m19579999ir      ob    000 0bara d</controlfield>
+	<controlfield tag="008">160323m19579999ir      ob    000 0bara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -13,15 +13,18 @@
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Shushtarī, Nūr Allāh ibn ʻAbd Allāh,</subfield>
 		<subfield code="d">-1610 or 1611.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Iḥqāq al-ḥaqq wa-izhāq al-bāṭil,</subfield>
-		<subfield code="c">taʻlīf Nūr Allāh al-Ḥusaynī al-Marʻashī al-Tustarī. Maʻa taʻlīqāt bi-qalam Āyatu Allāh Shihāb al-Dīn al-Najafī, bi-ihtimām al-Ḥasan al-Ghaffārī.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Iḥqāq al-ḥaqq wa-izhāq al-bāṭil /</subfield>
+		<subfield code="c">taʼlīf Nūr Allāh al-Ḥusaynī al-Marʻashī al-Tustarī. Maʻa taʻlīqāt bi-qalam Āyatu Allāh Shihāb al-Dīn al-Najafī, bi-ihtimām al-Ḥasan al-Ghaffārī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Ṭihrān,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Ṭihrān :</subfield>
 		<subfield code="b">al-Maṭbaʻah al-Islāmīyah</subfield>
 		<subfield code="c">[1957-]</subfield>
 	</datafield>
@@ -54,6 +57,7 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">ʻAlī ibn Abī Ṭālib,</subfield>
 		<subfield code="c">Caliph,</subfield>
 		<subfield code="d">approximately 600-661</subfield>
@@ -88,6 +92,29 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/189322ph</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">ششتري، نور الله بن عبد الله،</subfield>
+		<subfield code="d">-1610 or 1611.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">احقاق الحق وازهاق الباطل /</subfield>
+		<subfield code="c">تأليف نور الله الحسيني المرعشي التستري. مع تعليقات بقلم آيت الله شهاب الدين النجفي، باهتمام الحسن الغفاري.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">طهران :</subfield>
+		<subfield code="b">المطبعة الاسلامية</subfield>
+		<subfield code="c">[1957]</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">600-04/r</subfield>
+		<subfield code="a">علي بن ابي طالب،</subfield>
+		<subfield code="c">Caliph,</subfield>
+		<subfield code="d">approximately 600-661</subfield>
+		<subfield code="x">Hadith.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -98,7 +125,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3375525</subfield>
-		<subfield code="o">(OCoLC)ocm22229411 </subfield>
+		<subfield code="o">(OCoLC)ocm22229411</subfield>
 		<subfield code="s">columbia_aco001674:v.1</subfield>
 		<subfield code="s">columbia_aco001675:v.2</subfield>
 		<subfield code="s">columbia_aco001676:v.3</subfield>
@@ -107,5 +134,12 @@
 		<subfield code="s">columbia_aco001679:v.6</subfield>
 		<subfield code="s">columbia_aco001680:v.8</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001674:v.1</subfield>
+		<subfield code="s">columbia_aco001675:v.2</subfield>
+		<subfield code="s">columbia_aco001676:v.3</subfield>
+		<subfield code="s">columbia_aco001677:v.4</subfield>
+		<subfield code="s">columbia_aco001678:v.5</subfield>
+		<subfield code="s">columbia_aco001679:v.6</subfield>
+		<subfield code="s">columbia_aco001680:v.8</subfield>
 	</datafield>
 </record>

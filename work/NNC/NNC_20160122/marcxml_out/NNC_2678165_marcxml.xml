@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>01461nam a2200337   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">2678165</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301s1932    ua      ob    000 0 ara d</controlfield>
+	<controlfield tag="008">160323s1932    ua      ob    000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -16,16 +16,19 @@
 		<subfield code="a">aw-----</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Jumʻah, Muḥammad Luṭfī.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Jumʻah, Muḥammad Luṭfī. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Ḥayāt al-Sharq :</subfield>
-		<subfield code="b">duwalih wa-shuʻubih wa-māḍīh wa-ḥāḍirih /</subfield>
+		<subfield code="b">duwalih wa-shuʻu︡bih wa-māḍīh wa-ḥāḍirih /</subfield>
 		<subfield code="c">Muḥammad Luṭfī Jumʻah.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">[Cairo] :</subfield>
-		<subfield code="b">Dār al-Iḥyāʼ al-Kutub al-ʻArabīyah,</subfield>
+		<subfield code="b">Dār Iḥyāʼ al-Kutub al-ʻArabīyah,</subfield>
 		<subfield code="c">[1932]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -87,6 +90,22 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/wh70s296</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">جمعة، محمد لطفي. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">حياة الشرق :</subfield>
+		<subfield code="b">دوله وشعوبه وماضيه وحاضره /</subfield>
+		<subfield code="c">محمد لطفي جمعة.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">دار احياء الكتب العربية،</subfield>
+		<subfield code="c">[1932]</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -97,8 +116,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_2678165</subfield>
-		<subfield code="o">(OCoLC)ocm34166041 </subfield>
+		<subfield code="o">(OCoLC)ocm34166041</subfield>
 		<subfield code="s">columbia_aco001772</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001772</subfield>
 	</datafield>
 </record>

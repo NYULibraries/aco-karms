@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>01349nam a2200337   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">2686427</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301s1954    sy      o     000 0 ara d</controlfield>
+	<controlfield tag="008">160323s1954    sy      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -19,12 +19,19 @@
 		<subfield code="a">DS98.3</subfield>
 		<subfield code="b">.A862</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Atāsī, ʻAdnān. </subfield>
+	</datafield>
 	<datafield ind1="0" ind2="0" tag="245">
-		<subfield code="a">Azmat al-hukm fi Suriyah /</subfield>
-		<subfield code="c">al-Atasi, 'Adnan, 1905-</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Azmat al-ḥukm fī Sūriyah /</subfield>
+		<subfield code="c">ʻAdnān al-Atāsī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Hims,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Ḥimṣ :</subfield>
+		<subfield code="b">Maṭbaʻat wa zinkūghrāf al-maytam al-islāmī,</subfield>
 		<subfield code="c">1954.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -81,12 +88,28 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="t">Azmat al-hukm fi Suriyah</subfield>
+		<subfield code="a">Atāsī, ʻAdnān.</subfield>
+		<subfield code="t">Azmat al-ḥukm fī Sūriyah</subfield>
 		<subfield code="w">(NNC)2686427</subfield>
 		<subfield code="w">(OCoLC)23519119</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/280gb8vz</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">اتاسي، عدنان. </subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">ازمة الحكم في سورية /</subfield>
+		<subfield code="c">عدنان الاتاسي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">حمص :</subfield>
+		<subfield code="b">مطبعة و زنكوغراف الميتم الاسلامي،</subfield>
+		<subfield code="c">1954.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -98,8 +121,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_2686427</subfield>
-		<subfield code="o">(OCoLC)ocm23519119 </subfield>
+		<subfield code="o">(OCoLC)ocm23519119</subfield>
 		<subfield code="s">columbia_aco001704</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001704</subfield>
 	</datafield>
 </record>

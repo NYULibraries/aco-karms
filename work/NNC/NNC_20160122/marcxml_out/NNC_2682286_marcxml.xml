@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>01835nam a2200361   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">2682286</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301m19451947iq      ob    000 0 ara d</controlfield>
+	<controlfield tag="008">160323m19451947iq      ob    000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -13,13 +13,16 @@
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Zakī, Muḥammad Amīn.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Zakī, Muḥammad Amīn. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Mashāhīr al-Kurd wa-Kurdistīn fī al-ʻahd al-Islāmī :</subfield>
-		<subfield code="b">waḍaʻahū bi-al-lughah al-Kurdīyah: Muḥammad-Amīn Zakī, naqalat-hu ilā al-ʻArabīyah: al-Ānisah Karīmatuhū, rājaʻahū wa-naqqaḥahū wa-aḍāfa ilayhi al-ustādh Muḥammad ʻAlī ʻAwnī.</subfield>
+		<subfield code="b">waḍaʻahu bi-al-lughah al-Kurdīyah: Muḥammad-Amīn Zakī, naqalat-hu ilā al-ʻArabīyah: al-Ānisah Karīmatuhū, rājaʻahū wa-naqqaḥahū wa-aḍāfa ilayhi al-ustādh Muḥammad ʻAlī ʻAwnī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Baghdād :</subfield>
 		<subfield code="b">Maṭbaʻat al-Tafīḍ al-Ahlīyah,</subfield>
 		<subfield code="c">1945-1947.</subfield>
@@ -95,6 +98,21 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/6t1g1p6n</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">زكي، محمد امين. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">مشاهير الكرد وكردستان في العهد الاسلامي :</subfield>
+		<subfield code="b">وضعه باللغة الكردية: محمدامين زكي، نقلته الى العربية: الانسة كريمتهوا، راجعه ونقحه واضاف اليه الأستاذ محمد علي عوني.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">بغداد :</subfield>
+		<subfield code="b">مطبعة التفيض الاهلية،</subfield>
+		<subfield code="c">19451947.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -109,5 +127,7 @@
 		<subfield code="s">columbia_aco001705:v.1</subfield>
 		<subfield code="s">columbia_aco001706:v.2</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001705:v.1</subfield>
+		<subfield code="s">columbia_aco001706:v.2</subfield>
 	</datafield>
 </record>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>02362nam a2200481   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">2686660</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301m19251928sy acf  ob    000 0 arard</controlfield>
+	<controlfield tag="008">160323m19251928sy acf  ob    000 0 arard</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -28,13 +28,17 @@
 		<subfield code="a">Kurd ʻAlī, Muḥammad,</subfield>
 		<subfield code="d">1876-1953.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="0" tag="240">
 		<subfield code="6">880-02</subfield>
+		<subfield code="a">khiṭaṭ al-Shām </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Kitāb khiṭaṭ al-Shām /</subfield>
 		<subfield code="c">taʼlīf Muḥammad Kurd ʻAlī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">880-03</subfield>
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Dimashq :</subfield>
 		<subfield code="b">al-Maṭbaʻah al-Ḥadīthah,</subfield>
 		<subfield code="c">1925-1928.</subfield>
@@ -127,23 +131,23 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01/r</subfield>
-		<subfield code="a">كرد علي، محمد،,</subfield>
+		<subfield code="a">كرد علي، محمد،</subfield>
 		<subfield code="d">1876-1953.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">240-00/r</subfield>
+		<subfield code="6">240-02/r</subfield>
 		<subfield code="a">خطط الشام</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/r</subfield>
+		<subfield code="6">245-03/r</subfield>
 		<subfield code="a">كتاب خطط الشام /</subfield>
 		<subfield code="c">تأليف محمد كرد علي.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-03/r</subfield>
+		<subfield code="6">260-04/r</subfield>
 		<subfield code="a">دمشق :</subfield>
-		<subfield code="b">لمطبعة الحديثة،</subfield>
-		<subfield code="c">19251928.</subfield>
+		<subfield code="b">المطبعة الحديثة،</subfield>
+		<subfield code="c">1925-1928.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -155,7 +159,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_2686660</subfield>
-		<subfield code="o">(OCoLC)ocm23517869 </subfield>
+		<subfield code="o">(OCoLC)ocm23517869</subfield>
 		<subfield code="s">columbia_aco001787:v.1</subfield>
 		<subfield code="s">columbia_aco001801:v.5</subfield>
 		<subfield code="s">columbia_aco001788:v.2</subfield>
@@ -163,5 +167,11 @@
 		<subfield code="s">columbia_aco001789:v.3</subfield>
 		<subfield code="s">columbia_aco001790:v.4</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001787:v.1</subfield>
+		<subfield code="s">columbia_aco001801:v.5</subfield>
+		<subfield code="s">columbia_aco001788:v.2</subfield>
+		<subfield code="s">columbia_aco001802:v.6</subfield>
+		<subfield code="s">columbia_aco001789:v.3</subfield>
+		<subfield code="s">columbia_aco001790:v.4</subfield>
 	</datafield>
 </record>
