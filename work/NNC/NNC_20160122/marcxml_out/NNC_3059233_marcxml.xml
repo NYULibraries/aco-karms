@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>03051nam a2200469   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">3059233</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301s1938    ua      o     000 0 arar </controlfield>
+	<controlfield tag="008">160323s1938    ua      o     000 0 arar </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -23,10 +23,11 @@
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
-		<subfield code="a">al-Fatāwá al-kubrá al-fiqhīyah,</subfield>
+		<subfield code="a">al-Fatāwá al-kubrá al-fiqhīyah /</subfield>
 		<subfield code="c">li-Ibn Ḥajar al-Makkī al-Haythamī. Wa-bi-hāmishihī fatāwá Shams al-Dīn Muḥammad ibn Shihāb al-Dīn Aḥmad ibn Aḥmad ibn Ḥamzah al-Ramlī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Miṣr :</subfield>
 		<subfield code="b">Multazim al-Ṭabʻ wa-al-Nashr ʻAbd al-Ḥamīd Aḥmad Ḥanafī,</subfield>
 		<subfield code="c">[1938]</subfield>
@@ -90,11 +91,7 @@
 		<subfield code="0">(OCoLC)fst01411636</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">Ramlī, Muḥammad ibn Aḥmad,</subfield>
-		<subfield code="d">-1596.</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-03</subfield>
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Ramlī, Aḥmad ibn Aḥmad,</subfield>
 		<subfield code="d">1513-1550.</subfield>
 		<subfield code="t">Fatāwá.</subfield>
@@ -126,7 +123,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01/r</subfield>
-		<subfield code="a">ابن حجر الهيثمي، أحمد بن محمد،,</subfield>
+		<subfield code="a">ابن حجر الهيثمي، أحمد بن محمد،</subfield>
 		<subfield code="d">approximately 1503-approximately 1566.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="880">
@@ -135,13 +132,13 @@
 		<subfield code="c">لابن حجر المكي الهيثمي ؛ وبهامشه فتاوى العلامة شمس الدين محمد بن علامة شهاب الدين أحمد بن أحمد بن حمزة الرملي.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-00/r</subfield>
+		<subfield code="6">260-03/r</subfield>
 		<subfield code="a">مصر :</subfield>
-		<subfield code="b">عبد الحميد أحمد حنفي،</subfield>
-		<subfield code="c">1357 [1938]</subfield>
+		<subfield code="b">ملتزم الطبع والنشر عبد الحميد احمد حنفي،</subfield>
+		<subfield code="c">[1938]</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
-		<subfield code="6">700-03/r</subfield>
+		<subfield code="6">700-04/r</subfield>
 		<subfield code="a">شملي، محمد بن أحمد،,</subfield>
 		<subfield code="d">1513-1596.</subfield>
 		<subfield code="t">فتاوى.</subfield>
@@ -156,11 +153,15 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3059233</subfield>
-		<subfield code="o">(OCoLC)ocm20240331 </subfield>
+		<subfield code="o">(OCoLC)ocm20240331</subfield>
 		<subfield code="s">columbia_aco001775:v.1</subfield>
 		<subfield code="s">columbia_aco001778:v.2</subfield>
 		<subfield code="s">columbia_aco001777:v.3</subfield>
 		<subfield code="s">columbia_aco001776:v.4</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001775:v.1</subfield>
+		<subfield code="s">columbia_aco001778:v.2</subfield>
+		<subfield code="s">columbia_aco001777:v.3</subfield>
+		<subfield code="s">columbia_aco001776:v.4</subfield>
 	</datafield>
 </record>

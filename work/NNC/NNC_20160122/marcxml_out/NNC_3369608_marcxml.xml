@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>01793nam a2200325   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">3369608</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301m19361938ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">160323m19361938ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,17 +17,20 @@
 		<subfield code="b">.Y25 1936</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Yāqūt ibn ʻAbd Allāh al-Ḥamawī,</subfield>
 		<subfield code="d">1179?-1229.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Muʻ jam al-udabāʼ</subfield>
-		<subfield code="b">[Dictionary of learned men, ed. by Ahmad Farīd Rifāʻī].</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Muʻ jam al-udabāʼ /</subfield>
+		<subfield code="c">li-Yāqūt ; rājaʻathu Wizārat al-Maʻārif al-ʻUmūmīyah ; [taḥrīr] Aḥmad Farīd Rifāʻī. </subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo,</subfield>
-		<subfield code="b">Maktabat ʻIṣa al-bābī al-Ḥalabī,</subfield>
-		<subfield code="c">[1936-38]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">ʻĪsá al-Bābī al-Ḥalabī,</subfield>
+		<subfield code="c">[1936-1938]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (20 volumes in 10.)</subfield>
@@ -60,6 +63,11 @@
 		<subfield code="d">2016.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Authors, Arab</subfield>
+		<subfield code="v">Biography</subfield>
+		<subfield code="v">Early works to 1800.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -84,6 +92,22 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/7sqv9wd8</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">ياقوت بن عبد الله الحموي،</subfield>
+		<subfield code="d">1179?-1229.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">مع جم الدباء /</subfield>
+		<subfield code="c">لياقوت ؛ راجعته وزارة المعارف العمومية ؛ [تحرير] احمد فريد رفاعي. [دتنري ف لرند من، ط. بي اهمد فريد رفاعي].</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">عيسى البابي الحلبي،</subfield>
+		<subfield code="c">[1936-1938]</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -94,7 +118,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3369608</subfield>
-		<subfield code="o">(OCoLC)ocm23497469 </subfield>
+		<subfield code="o">(OCoLC)ocm23497469</subfield>
 		<subfield code="s">columbia_aco001756:v.1-2</subfield>
 		<subfield code="s">columbia_aco001757:v.3-4</subfield>
 		<subfield code="s">columbia_aco001758:v.5-6</subfield>
@@ -106,5 +130,15 @@
 		<subfield code="s">columbia_aco001764:v.17-18</subfield>
 		<subfield code="s">columbia_aco001765:v.19-20</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001756:v.1-2</subfield>
+		<subfield code="s">columbia_aco001757:v.3-4</subfield>
+		<subfield code="s">columbia_aco001758:v.5-6</subfield>
+		<subfield code="s">columbia_aco001759:v.7-8</subfield>
+		<subfield code="s">columbia_aco001760:v.9-10</subfield>
+		<subfield code="s">columbia_aco001761:v.11-12</subfield>
+		<subfield code="s">columbia_aco001762:v.13-14</subfield>
+		<subfield code="s">columbia_aco001763:v.15-16</subfield>
+		<subfield code="s">columbia_aco001764:v.17-18</subfield>
+		<subfield code="s">columbia_aco001765:v.19-20</subfield>
 	</datafield>
 </record>

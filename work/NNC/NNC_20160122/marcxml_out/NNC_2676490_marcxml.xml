@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>01851nam a2200385   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">2676490</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301s1927    iq      o     000 0 ara d</controlfield>
+	<controlfield tag="008">160323s1927    iq      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -21,7 +21,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="6">880-01</subfield>
-		<subfield code="a">Aʻẓamī, ʻAlī Ẓarīf.</subfield>
+		<subfield code="a">Aʻẓamī, ʻAlī Ẓarīf. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">880-02</subfield>
@@ -29,6 +29,7 @@
 		<subfield code="c">bi-qalam ʻAlī Ẓarīf al-Aʻẓamī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Baghdād :</subfield>
 		<subfield code="b">al-Maktabah al-ʻArabīyah,</subfield>
 		<subfield code="c">1927.</subfield>
@@ -96,9 +97,9 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/m905qk6h</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
+	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01/r</subfield>
-		<subfield code="a">على ظريف الاعظمى.</subfield>
+		<subfield code="a">اعظمي، علي ظريف. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">245-02/r</subfield>
@@ -106,7 +107,7 @@
 		<subfield code="c">بقلم على ظريف الاعظمى.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-00/r</subfield>
+		<subfield code="6">260-03/r</subfield>
 		<subfield code="a">بغداد :</subfield>
 		<subfield code="b">المكتبة العربية،</subfield>
 		<subfield code="c">١٩٢٧.</subfield>
@@ -121,8 +122,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_2676490</subfield>
-		<subfield code="o">(OCoLC)ocm23515458 </subfield>
+		<subfield code="o">(OCoLC)ocm23515458</subfield>
 		<subfield code="s">columbia_aco001714</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001714</subfield>
 	</datafield>
 </record>

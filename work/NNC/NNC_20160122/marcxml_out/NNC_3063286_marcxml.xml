@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>01995nam a2200433   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">3063286</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301s1913    ua      ob    000 0 ara d</controlfield>
+	<controlfield tag="008">160323s1913    ua      ob    000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,14 +17,17 @@
 		<subfield code="b">.I85 1913</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Shāṭibī, Ibrāhīm ibn Mūsá,</subfield>
 		<subfield code="d">-1388.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Iʻtiṣām /</subfield>
 		<subfield code="c">li-Abī Isḥāq Ibrāhīm ibn Mūsá ibn Muḥammad al-Lakhmī al-Shāṭibī al-Ghirnāṭī ; wa-bihi taʻrīf Muḥammad Rashīd Riḍā.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Miṣr :</subfield>
 		<subfield code="b">Maktabat al-Tijārīyah al-Kubrā,</subfield>
 		<subfield code="c">1332 [1913]</subfield>
@@ -123,6 +126,22 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/vhhmgv1r</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">شاطبي، ابراهيم بن موسى،</subfield>
+		<subfield code="d">-1388.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">الاعتصام /</subfield>
+		<subfield code="c">لابي اسحاق ابراهيم بن موسى بن محمد اللخمي الشاطبي الغرناطي ؛ وبه تعريف محمد رشيد رضا.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مكتبة التجارية الكبرى،</subfield>
+		<subfield code="c">1332 [1913]</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -136,5 +155,6 @@
 		<subfield code="o">(OCoLC)ocn427844387</subfield>
 		<subfield code="s">columbia_aco001805</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001805</subfield>
 	</datafield>
 </record>

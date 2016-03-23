@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>02494nam a2200349   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">3122405</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301m19231930ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">160323m19231930ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -13,17 +13,20 @@
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ibn Qudāmah, Muwaffaq al-Dīn ʻAbd Allāh ibn Aḥmad,</subfield>
 		<subfield code="d">1147-1223.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="6">880-01</subfield>
-		<subfield code="a">al-Mughnī,</subfield>
-		<subfield code="c">taʼlīf ... Abū Muḥammad ʻAbd Allāh ibn Aḥmad ibn Muḥammad ibn Qudāmah ... ʻalā Mukhtaṣar ... ʻUmar ibn al-Ḥusayn ... al-Khiraqī ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Mughnī /</subfield>
+		<subfield code="c">taʼlīf Muwaffaq al-Dīn Abī Muḥammad ʻAbd Allāh ibn Aḥmad ibn Muḥammad ibn Qudāmah ; ʻalā Mukhtaṣar Abī al-Qāsim ʻUmar ibn al-Ḥusayn ibn ʻAbd Allāh ibn Aḥmad al-Khiraqī. Wa-yalīhi, al-Sharḥ al-kabīr ʻalā matn al-Muqniʻ / taʼlīf Shams al-Dīn Abī al-Faraj ʻAbd al-Raḥman ibn Abī ʻUmar Muḥammad ibn Aḥmad ibn Qudāmah al-Maqdisī, kilāhumā ʻalā madhhab Abī ʻAbd Allāh Aḥmad ibn Muḥammad ibn Ḥanbal al-Shaybānī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo,</subfield>
-		<subfield code="c">1341-48 A.H. [1923-1930]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Maṭbaʻat al-Manār,</subfield>
+		<subfield code="c">1341-1348 [1922 or 1923-1929 or 1930]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (12 volumes)</subfield>
@@ -62,6 +65,7 @@
 		<subfield code="0">(OCoLC)fst00979949</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Khiraqī, ʻUmar ibn al-Ḥusayn,</subfield>
 		<subfield code="d">-945 or 946.</subfield>
 	</datafield>
@@ -73,6 +77,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Tarjamāt ṣāḥib al-Mughnī ...</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
@@ -85,10 +90,30 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/n5tb2vqf</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">ابن قدامة، موفق الدين عبد الله بن احمد،</subfield>
+		<subfield code="d">1147-1223.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2="3" tag="880">
-		<subfield code="6">245-01/r</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">‏المغني /‏</subfield>
 		<subfield code="c">‏تأليف أبي محمد عبد الله بن أحمد بن محمد بن قدامة ؛ على مختصر أبي القاسم عمر بن الحسين بن عبد الله بن أحمد الخرقي. ويليه الشرح الكبير على متن المقنع / تأليف شمس الدين أبي الفرج عبد الرحمن بن أبي عمر محمد بن أحمد بن قدامة المقدسي، كلاهما على مذهب أبي عبد الله أحمد بن محمد بن حنبل الشيباني.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مطبعة المنار،</subfield>
+		<subfield code="c">1341-1348 [1922 or 1923-1929 or 1930]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-04/r</subfield>
+		<subfield code="a">خرقي، عمر بن الحسين،</subfield>
+		<subfield code="d">-945 or 946.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">740-05/r</subfield>
+		<subfield code="a">ترجمات صاحب المغني ...</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -100,7 +125,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3122405</subfield>
-		<subfield code="o">(OCoLC)ocm48210376 </subfield>
+		<subfield code="o">(OCoLC)ocm48210376</subfield>
 		<subfield code="s">columbia_aco001726:v.1</subfield>
 		<subfield code="s">columbia_aco001727:v.2</subfield>
 		<subfield code="s">columbia_aco001728:v.3</subfield>
@@ -114,5 +139,17 @@
 		<subfield code="s">columbia_aco001736:v.11</subfield>
 		<subfield code="s">columbia_aco001737:v.12</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001726:v.1</subfield>
+		<subfield code="s">columbia_aco001727:v.2</subfield>
+		<subfield code="s">columbia_aco001728:v.3</subfield>
+		<subfield code="s">columbia_aco001729:v.4</subfield>
+		<subfield code="s">columbia_aco001730:v.5</subfield>
+		<subfield code="s">columbia_aco001731:v.6</subfield>
+		<subfield code="s">columbia_aco001732:v.7</subfield>
+		<subfield code="s">columbia_aco001733:v.8</subfield>
+		<subfield code="s">columbia_aco001734:v.9</subfield>
+		<subfield code="s">columbia_aco001735:v.10</subfield>
+		<subfield code="s">columbia_aco001736:v.11</subfield>
+		<subfield code="s">columbia_aco001737:v.12</subfield>
 	</datafield>
 </record>

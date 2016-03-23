@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>01494nam a2200361   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">2686551</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301s1944    xx      o     000 0 ara d</controlfield>
+	<controlfield tag="008">160323s1944    xx      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -25,10 +25,16 @@
 		<subfield code="d">1896-1946.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Ḥaqīqah al-Lubnānīyah.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Ḥaqīqah al-Lubnānīyah :</subfield>
+		<subfield code="b">khawāṭir wa aḥādīth /</subfield>
+		<subfield code="c">ʻUmar Fākhūrī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="c">[1944]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[Bayrūt] :</subfield>
+		<subfield code="b">Dār al-Makshūf,</subfield>
+		<subfield code="c">1944.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (174 pages)</subfield>
@@ -96,6 +102,18 @@
 		<subfield code="a">فاخوري، عمر،</subfield>
 		<subfield code="d">1896-1946.</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">الحقيقة اللبنانية :</subfield>
+		<subfield code="b">خواطر و احاديث /</subfield>
+		<subfield code="c">عمر فاخوري.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[بيروت] :</subfield>
+		<subfield code="b">دار المكشوف،</subfield>
+		<subfield code="c">1944.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -106,8 +124,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_2686551</subfield>
-		<subfield code="o">(OCoLC)ocm23514143 </subfield>
+		<subfield code="o">(OCoLC)ocm23514143</subfield>
 		<subfield code="s">columbia_aco001712</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001712</subfield>
 	</datafield>
 </record>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>02743nam a2200433   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">2635078</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301s1964    iq h    ob    000 0 ara  </controlfield>
+	<controlfield tag="008">160323s1964    iq h    ob    000 0 ara  </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,18 +17,19 @@
 		<subfield code="b">.M65 1940a</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Maimonides, Moses,</subfield>
 		<subfield code="d">1135-1204.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="6">880-01</subfield>
-		<subfield code="a">Sharḥ asmāʼ al-ʻuqqār,</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Sharḥ asmāʼ al-ʻuqqār /</subfield>
 		<subfield code="c">taʼlīf al-shaykh al-raʼīs Abī ʻUmrān Mụsá ibn ʻUbayd Allāh al-Isrāʼīlī al-Qurṭubī. Nasharahu wa-ṣaḥḥaḥahu wa-rājaʻahu ʻalá al-nuskhah al-waḥīdah al-maḥfūẓah bi-Istānbūl Māks Māyirhūf.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">880-02</subfield>
-		<subfield code="a">Baghdād,</subfield>
-		<subfield code="b">yuṭlabu min Maktabat al-Muthanná</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Baghdād :</subfield>
+		<subfield code="b">yuṭlabu min Maktabat al-Muthanná,</subfield>
 		<subfield code="c">[1964?]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -81,6 +82,7 @@
 		<subfield code="0">(OCoLC)fst01411636</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Meyerhof, Max,</subfield>
 		<subfield code="d">1874-1945.</subfield>
 	</datafield>
@@ -92,7 +94,8 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
-		<subfield code="a">Šarḥ asmāʼ al-ʻuqqār.</subfield>
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Sharḥ asmāʼ al-ʻuqqār.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
 		<subfield code="a">Explication des noms de drogues.</subfield>
@@ -115,16 +118,30 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/fbg79h06</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">ميمونيدس, موسى،</subfield>
+		<subfield code="d">1135-1204.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-01/r</subfield>
-		<subfield code="a">شرح أسماء العقار،</subfield>
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">شرح أسماء العقار /</subfield>
 		<subfield code="c">تأليف الشيخ الرئيس أبي عمران موسى بن عبيد الله الإسرائيلي القرطبي. نشره وصححه وراجعه على النسخة الوحيدة المحفوظة باستنبول ماكس مايرهوف.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-02/r</subfield>
+		<subfield code="6">260-03/r</subfield>
 		<subfield code="a">بغداد،</subfield>
 		<subfield code="b">يطلب من مكتبة المثنى</subfield>
 		<subfield code="c">[1964؟]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-04/r</subfield>
+		<subfield code="a">مايرهوف، ماكس،</subfield>
+		<subfield code="d">1874-1945.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">740-05/r</subfield>
+		<subfield code="a">شرح اسماء العقار.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -136,8 +153,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_2635078</subfield>
-		<subfield code="o">(OCoLC)ocm18882848 </subfield>
+		<subfield code="o">(OCoLC)ocm18882848</subfield>
 		<subfield code="s">columbia_aco001619</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001619</subfield>
 	</datafield>
 </record>

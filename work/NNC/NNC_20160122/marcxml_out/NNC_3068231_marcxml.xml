@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>01754nam a2200289   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">3068231</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301s1865    ua      o     000 0aara d</controlfield>
+	<controlfield tag="008">160323s1865    ua      o     000 0aara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -13,14 +13,17 @@
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="130">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Fatāwá al-ʻĀlamgīrīyah.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Fatāwī al-ʻĀlamgīrīyah,</subfield>
-		<subfield code="b">al-maʻrūfah bayna al-nās bi al-Fatāwī al-Hindīyah, fī madhhab al-Imām ... Abī Ḥanīfah al-Nuʻmān ...</subfield>
+		<subfield code="b">al-maʻrūfah bayna al-nās bi al-Fatāwī al-Hindīyah, fī madhhab al-Imām ... Abī Ḥanīfah al-Nuʻmān ...  /</subfield>
 		<subfield code="c">taʼlīf jamāʻah min ʻulamāʼ al-Hind ... wakāna raʼīsuhum fī taʼlīfihā ... Mawlānā al-Shaykh Niẓām, wadhālika biʼamr al-Sulṭān Abī al-Muẓaffar Muḥyi-al-Dīn Muḥammad Awrangzeb Bahādur ʻĀlamgīr.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">[al-Qāhirah],</subfield>
 		<subfield code="c">[1282, 1865]</subfield>
 	</datafield>
@@ -49,6 +52,9 @@
 		<subfield code="d">2016.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Fatwas.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -72,6 +78,21 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/prr4xm9k</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">130-01/r</subfield>
+		<subfield code="a">فتاوى العالمكيرية.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">الفتاوي العالمكيرية،</subfield>
+		<subfield code="b">المعروفة بين الناس بالفتاوي الهندية، في مذهب الامام ... ابي حنيفة النعمان ...  /</subfield>
+		<subfield code="c">تأليف جماعة من علماء الهند ... وكان رئيسهم في تأليفها ... مولانا الشيخ نظام، وذلك بئمر السلطان ابي المظفر محي الدين محمد اورنك زيب بهادر عالم كير.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[القاهرة]،</subfield>
+		<subfield code="c">[1282، 1865]</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -82,7 +103,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3068231</subfield>
-		<subfield code="o">(OCoLC)ocm47806262 </subfield>
+		<subfield code="o">(OCoLC)ocm47806262</subfield>
 		<subfield code="s">columbia_aco001720:v.1</subfield>
 		<subfield code="s">columbia_aco001721:v.2</subfield>
 		<subfield code="s">columbia_aco001722:v.3</subfield>
@@ -90,5 +111,11 @@
 		<subfield code="s">columbia_aco001724:v.5</subfield>
 		<subfield code="s">columbia_aco001725:v.6</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001720:v.1</subfield>
+		<subfield code="s">columbia_aco001721:v.2</subfield>
+		<subfield code="s">columbia_aco001722:v.3</subfield>
+		<subfield code="s">columbia_aco001723:v.4</subfield>
+		<subfield code="s">columbia_aco001724:v.5</subfield>
+		<subfield code="s">columbia_aco001725:v.6</subfield>
 	</datafield>
 </record>

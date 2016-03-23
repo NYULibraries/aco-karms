@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>01863nam a2200445   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">2686393</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301s1952    le c    ob    001 0 ara d</controlfield>
+	<controlfield tag="008">160323s1952    le c    ob    001 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -24,17 +24,21 @@
 		<subfield code="b">Ab918t</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Abū Shaqrā, Ḥusayn Ghadbān,</subfield>
 		<subfield code="d">-1903.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Troubles in Lebanon;</subfield>
-		<subfield code="b">an account of political events in Lebanon from 1785 to 1865 by a Druz eye-witness;</subfield>
-		<subfield code="c">recorded and annotated by Yussuf Abu-Shacra, ed. by Arif Abu-Shacra.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Ḥarakāt fī Lubnān ilá ʻahd al-mutaṣarrifīyah :</subfield>
+		<subfield code="b">wa-hiya shahādah Durzīyah ṣarīḥah fī makhṭūṭah tulimmu bi-ḥawādith Lubnān wa-aḥwālihi yudlī bi-hā min ruwāt al-Durūz shāhid ʻiyān wa-yusāhimu bihā wāḥid minhum li-awwal marrah fī tārk̄h Lubnān /</subfield>
+		<subfield code="c">al-rāwī Ḥusayn Ghaḍbān Abū Shaqrā ; al-muʼallif Yūsuf Khaṭṭār Abū Shaqrā ; ta-ḥarrá naṣṣahā wa-ʻallaqa ḥawāshīhā wa-malāḥiqahā wa-waḍaʻa muqaddimatahā wa-fahārisahā ʻĀrif Abū Shaqrā</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Beirut,</subfield>
-		<subfield code="c">[1952]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Bayrūt :</subfield>
+		<subfield code="b">[publisher not identified],</subfield>
+		<subfield code="c">1952.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (244 pages,) :</subfield>
@@ -100,10 +104,13 @@
 		<subfield code="2">fast</subfield>
 		<subfield code="0">(OCoLC)fst01411628</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="700">
-		<subfield code="a">Yūsuf Khatār Abū Shakrā.</subfield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Abū Shaqrā, Yūsuf Khaṭṭār,</subfield>
+		<subfield code="d">approximately 1875-1904.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="700">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">ʻĀrif Abū Shakrā.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -116,12 +123,38 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Abū Shaqrā, Ḥusayn Ghadbān, -1903.</subfield>
-		<subfield code="t">Troubles in Lebanon;</subfield>
+		<subfield code="t">al-Ḥarakāt fī Lubnān ilá ʻahd al-mutaṣarrifīyah</subfield>
 		<subfield code="w">(NNC)2686393</subfield>
 		<subfield code="w">(OCoLC)4392300</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/kd51c8n6</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">ابو شقرا، حسين غضبان،</subfield>
+		<subfield code="d">-1903.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">الحركات في لبنان الى عهد المتصرفية :</subfield>
+		<subfield code="b">وهي شهادة درزية صريحة في مخطوطة تلم بحوادث لبنان واحوال يدلي بها من روات الدروز شاهد عيان ويساهم بها واحد منهم لاول مرة في تارخ لبنان /</subfield>
+		<subfield code="c">الراوي حسين غضبان ابو شقرا ؛ المؤلف يوسف خطار ابو شقرا ؛ تحرى نصها وعلق حواشيها وملاحقها ووضع مقدمتها وفهارسها عارف ابو شقرا</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">بيروت :</subfield>
+		<subfield code="b">[publisher not identified]،</subfield>
+		<subfield code="c">1952.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-04/r</subfield>
+		<subfield code="a">ابو شقرا، يوسف خطار،</subfield>
+		<subfield code="d">approximately 1875-1904.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">700-05/r</subfield>
+		<subfield code="a">عارف ابو شقرا.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -133,8 +166,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_2686393</subfield>
-		<subfield code="o">(OCoLC)ocm04392300 </subfield>
+		<subfield code="o">(OCoLC)ocm04392300</subfield>
 		<subfield code="s">columbia_aco001688</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001688</subfield>
 	</datafield>
 </record>

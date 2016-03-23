@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>01631nam a2200361   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">3059250</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301m19081911xx      o     000 0 ara d</controlfield>
+	<controlfield tag="008">160323m19081911xx      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -13,20 +13,27 @@
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ibn Taymīyah, Aḥmad ibn ʻAbd al-Ḥalīm,</subfield>
 		<subfield code="d">1263-1328.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
-		<subfield code="a">Fatāwʹa al-kubrʹa</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Fatāwá al-kubrá</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Kitāb majmūʻat fatāwī Ibn Taymīyah.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="246">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Majmūʻat fatāwī Ibn Taymīyah</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="c">[1908-11]</subfield>
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">[al-Qāhirah] :</subfield>
+		<subfield code="b">[Maṭbaʻat Kurdistān al-ʻilmiyah],</subfield>
+		<subfield code="c">[1908-1911]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (5 volumes)</subfield>
@@ -89,6 +96,29 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/n8pk0sd8</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">ابن تيمية، احمد بن عبد الحليم،</subfield>
+		<subfield code="d">1263-1328.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">240-02/r</subfield>
+		<subfield code="a">فتاوى الكبرى</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-03/r</subfield>
+		<subfield code="a">كتاب مجموعة فتاوي ابن تيمية.</subfield>
+	</datafield>
+	<datafield ind1="3" ind2="0" tag="880">
+		<subfield code="6">246-04/r</subfield>
+		<subfield code="a">مجموعة فتاوي ابن تيمية</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-05/r</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">[مطبعة كردستان العلمية]،</subfield>
+		<subfield code="c">[1908-1911]</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -99,12 +129,17 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3059250</subfield>
-		<subfield code="o">(OCoLC)ocm78855061 </subfield>
+		<subfield code="o">(OCoLC)ocm78855061</subfield>
 		<subfield code="s">columbia_aco001745:v.1</subfield>
 		<subfield code="s">columbia_aco001746:v.2</subfield>
 		<subfield code="s">columbia_aco001747:v.3</subfield>
 		<subfield code="s">columbia_aco001748:v.4</subfield>
 		<subfield code="s">columbia_aco001749:v.5</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001745:v.1</subfield>
+		<subfield code="s">columbia_aco001746:v.2</subfield>
+		<subfield code="s">columbia_aco001747:v.3</subfield>
+		<subfield code="s">columbia_aco001748:v.4</subfield>
+		<subfield code="s">columbia_aco001749:v.5</subfield>
 	</datafield>
 </record>

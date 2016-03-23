@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>01670nam a2200361   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">657837</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301r19771899ir      ob    000 0 arard</controlfield>
+	<controlfield tag="008">160323r19771899ir      ob    000 0 arard</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,17 +17,21 @@
 		<subfield code="b">.N34 1977</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Najāshī, Aḥmad ibn ʻAlī,</subfield>
 		<subfield code="d">982-1058.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Fihrist asmāʼ muṣannifī al-Shīʼah /</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Fihrist asmāʼ muṣannifī al-Shīʻah /</subfield>
 		<subfield code="c">taṣnīf Abū al-ʻAbbās Aḥmad ibn ʻAlī ibn al-ʻAbbās al-Najāshī.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Rijāl al-Najāshī</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Qum, Īrān :</subfield>
 		<subfield code="b">Manshūrāt Maktabat al-Dāwarī,</subfield>
 		<subfield code="c">[1977]</subfield>
@@ -86,12 +90,32 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Najāshī, Aḥmad ibn ʻAlī, 982-1058.</subfield>
-		<subfield code="t">Fihrist asmāʼ muṣannifī al-Shīʼah</subfield>
+		<subfield code="t">Fihrist asmāʼ muṣannifī al-Shīʻah</subfield>
 		<subfield code="w">(NNC)657837</subfield>
 		<subfield code="w">(OCoLC)19225752</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/2280gfd1</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">نجاشي، احمد بن علي،</subfield>
+		<subfield code="d">982-1058.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">فهرست اسماء مصنفي الشيعة /</subfield>
+		<subfield code="c">تصنيف ابو العباس احمد بن علي بن العباس النجاشي.</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">246-03/r</subfield>
+		<subfield code="a">رجال النجاشي</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/r</subfield>
+		<subfield code="a">قم، ايران :</subfield>
+		<subfield code="b">منشورات مكتبة الداوري،</subfield>
+		<subfield code="c">[1977]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -103,8 +127,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_657837</subfield>
-		<subfield code="o">(OCoLC)ocm19225752 </subfield>
+		<subfield code="o">(OCoLC)ocm19225752</subfield>
 		<subfield code="s">columbia_aco001692</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001692</subfield>
 	</datafield>
 </record>

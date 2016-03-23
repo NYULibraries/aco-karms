@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>01710nam a2200385   4500</leader>
+	<leader>     nam a22        4500</leader>
 	<controlfield tag="001">2696486</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160301s1954    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">160323s1954    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -16,17 +16,20 @@
 		<subfield code="a">a-is---</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">ʻAllūbah, Muḥammad ʻAlī,</subfield>
 		<subfield code="d">1875-1956.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="6">880-01</subfield>
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Filasṭīn wa-jārātuhā;</subfield>
-		<subfield code="b">asbāb wa-natāʼij.</subfield>
+		<subfield code="b">asbāb wa-natāʼij /</subfield>
+		<subfield code="c">Muḥammad ʻAlī ʻAllūbah.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[al-Qāhirah]</subfield>
-		<subfield code="b">Maṭb. Lajnat al-Bayān al-ʻArabī,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[al-Qāhirah] :</subfield>
+		<subfield code="b">Maṭbaʻat Lajnat al-Bayān al-ʻArabī,</subfield>
 		<subfield code="c">1954.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -102,11 +105,22 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/31zcrnnw</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">علوبة، محمد علي،</subfield>
+		<subfield code="d">1875-1956.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-01/r</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">‏فلسطين وجاراتها :‏</subfield>
 		<subfield code="b">‏أسباب ونتائج /‏</subfield>
 		<subfield code="c">‏محمد علي علوبة.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">مطبعة لجنة البيان العربي،</subfield>
+		<subfield code="c">1954.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -118,8 +132,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_2696486</subfield>
-		<subfield code="o">(OCoLC)ocm45123570 </subfield>
+		<subfield code="o">(OCoLC)ocm45123570</subfield>
 		<subfield code="s">columbia_aco001693</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001693</subfield>
 	</datafield>
 </record>
