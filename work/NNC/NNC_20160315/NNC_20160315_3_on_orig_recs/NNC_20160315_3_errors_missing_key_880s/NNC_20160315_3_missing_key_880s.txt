@@ -1,0 +1,87 @@
+Records MISSING KEY 880 script fields - batch NNC_20160315
+--  At least one of the key fields is missing subfield $6,
+    so the corresponding 880 script field is missing or unlinked
+--  Key fields:
+    100, 110, 111, 130
+    240, 245, 246, 250, 260, 264
+    440, 490
+    700, 710, 711, 730
+    800, 810, 811, 830
+Report produced: 2016-04-08 15:49:28.179469
+---------------------------------------------------------------------
+FILE: NNC_20160315_1/NNC_20160315_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNC_3059242
+   orig_rec_035 num: =035  \\$a(OCoLC)13095897
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm13095897
+   orig_rec_035 num: =035  \\$9ATM7852CU
+   orig_rec_035 num: =035  \\$a(NNC)3059242
+Record 999:  NNC_3059242
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - [S.l. : s.n.], 1952-1953 (al-Qāhirah : Maṭbaʻat al-Sunnah al-Muḥammadīyah)
+040 $e field: [none]
+Source entities (book IDs): columbia_aco001973:v.1, columbia_aco001974:v.2
+---------------------------------------------------------------------
+Institution ID: NNC_638900
+   orig_rec_035 num: =035  \\$a(OCoLC)40256892
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm40256892
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYPN98-B957
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B24589
+   orig_rec_035 num: =035  \\$a(NNC)638900
+   orig_rec_035 num: =035  \\$a638900
+Record 999:  NNC_638900
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Sharh al-Ilâhiyyat min kitâb al-Shifâʾ ; Commentary on Metaphysics of Avicenna's kitâb al-Shifâʾ
+040 $e field: [none]
+Source entities (book IDs): columbia_aco001880
+---------------------------------------------------------------------
+Institution ID: NNC_682879
+   orig_rec_035 num: =035  \\$a(OCoLC)187453973
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn187453973
+   orig_rec_035 num: =035  \\$a(NNC)682879
+Record 999:  NNC_682879
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Mabdaʾ wa al-maʻād
+   246 - Beginning and the end
+040 $e field: [none]
+Source entities (book IDs): columbia_aco001882
+---------------------------------------------------------------------
+Institution ID: NNC_683874
+   orig_rec_035 num: =035  \\$a(CStRLIN)CTYN02-B12241
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm17018129
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B70212
+   orig_rec_035 num: =035  \\$9ACZ3224CU
+   orig_rec_035 num: =035  \\$a(NNC)683874
+Record 999:  NNC_683874
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Mafātiḥ-al-ghayb : Keys of the invisible world
+040 $e field: [none]
+Source entities (book IDs): columbia_aco001879
+---------------------------------------------------------------------
+Institution ID: NNC_790372
+   orig_rec_035 num: =035  \\$a(NNC)790372
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm21242228
+   orig_rec_035 num: =035  \\$a(OCoLC)21242228$z(OCoLC)27440473$z(OCoLC)60775590
+Record 999:  NNC_790372
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   245 - al-Bahjah al-marḍīyah [i.e. al-murḍiyah] fī sharḥ al-Alfīyah / li-Jalāl al-Dīn ʻAbd al-Raḥmān ibn Abī Bakr al-Suyūṭī.
+   246 - Kitāb al-Suyūṭī
+   246 - Suyūṭī
+   260 - [Qum?] : al-Maktabah al-Islāmīyah, [198-?]
+ERROR-880: Unlinked 880s: YES
+   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): columbia_aco001807
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNC_20160315_1/NNC_20160315_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records missing key 880 script fields: 5
+
