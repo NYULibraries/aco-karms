@@ -1,68 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     cam a2200277 a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001685700</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010173307.0</controlfield>
-<controlfield tag="008">981103s1909    ua            000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12229139</subfield>
-</datafield>
+<controlfield tag="005">20160229174453.0</controlfield>
+<controlfield tag="008">930615s1909    ua            000 0 arard</controlfield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(NNU)NYUb12229139</subfield>
+<subfield code="a">(OCoLC)54306955</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">CU-SB</subfield>
-<subfield code="c">CU-SB</subfield>
-<subfield code="d">UaCaAUL</subfield>
+<subfield code="a">YUS</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">YUS</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCG</subfield>
+<subfield code="d">OCLCA</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">N15</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">OCLCO</subfield>
 </datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
+<datafield tag="050" ind1=" " ind2="4">
 <subfield code="a">PJ7642</subfield>
-<subfield code="b">.A1</subfield>
+<subfield code="b">.A1 1909</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
 <subfield code="6">880-01</subfield>
-<subfield code="a">Zawzanī, Ḥusayn ibn Aḥmad,</subfield>
-<subfield code="d">d. 1093 or 4.</subfield>
+<subfield code="a">Zawzanī, Ḥusayn ibn Aḥmad,</subfield>
+<subfield code="d">-1093 or 1094.</subfield>
 </datafield>
 <datafield tag="240" ind1="1" ind2="0">
 <subfield code="6">880-02</subfield>
-<subfield code="a">Sharḥ al-Muʻallaqāt al-sabʻ</subfield>
+<subfield code="a">Sharḥ al-Muʻallaqāt al-sabʻ</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
 <subfield code="6">880-03</subfield>
-<subfield code="a">Kitāb Sharḥ al-Muʻallaqāt al-sabʻ /</subfield>
-<subfield code="c">li-Abī ʻAbd Allāh al-Ḥusayn ibn Aḥmad ibn al-Ḥusayn al-Zawzanī.</subfield>
+<subfield code="a">Kitāb Sharḥ al-Muʻallaqāt al-sabʻ /</subfield>
+<subfield code="c">li-Abī ʻAbd Allāh al-Ḥusayn ibn Aḥmad ibn al-Ḥusayn al-Zawzanī.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
 <subfield code="6">880-04</subfield>
-<subfield code="a">Miṣr :</subfield>
-<subfield code="b">Maṭbaʻat Dār al-Kutub al-ʻArabīyah al-Kubrá,</subfield>
+<subfield code="a">Miṣr :</subfield>
+<subfield code="b">Maṭbaʻat Dār al-Kutub al-ʻArabīyah al-Kubrá,</subfield>
 <subfield code="c">1327 [1909]</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">204 p. ;</subfield>
-<subfield code="c">21 cm.</subfield>
+<subfield code="a">204 pages ;</subfield>
+<subfield code="c">21 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="630" ind1="0" ind2="0">
+<subfield code="6">880-05</subfield>
 <subfield code="a">Muʻallaqāt.</subfield>
-<subfield code="l">English &amp; Arabic.</subfield>
 </datafield>
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Arabic poetry</subfield>
 <subfield code="y">To 622</subfield>
 <subfield code="x">History and criticism.</subfield>
 </datafield>
+<datafield tag="630" ind1="0" ind2="7">
+<subfield code="a">Muʻallaqāt.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01356614</subfield>
+</datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Arabic poetry.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst00812533</subfield>
+</datafield>
+<datafield tag="648" ind1=" " ind2="7">
+<subfield code="a">To 622.</subfield>
+<subfield code="2">fast</subfield>
+</datafield>
+<datafield tag="655" ind1=" " ind2="7">
+<subfield code="a">Criticism, interpretation, etc.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01411635</subfield>
+</datafield>
 <datafield tag="730" ind1="0" ind2="2">
+<subfield code="6">880-06</subfield>
 <subfield code="a">Muʻallaqāt.</subfield>
-<subfield code="f">1909.</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2=" ">
 <subfield code="6">100-01/</subfield>
-<subfield code="a">زوزنى، الحسين بن أحمد.</subfield>
+<subfield code="a">زوزني، حسين بن أحمد،</subfield>
+<subfield code="d">-1093 or 1094.</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2="0">
 <subfield code="6">240-02/</subfield>
@@ -71,7 +108,7 @@
 <datafield tag="880" ind1="1" ind2="0">
 <subfield code="6">245-03/</subfield>
 <subfield code="a">كتاب شرح المعلقات السبع /</subfield>
-<subfield code="c">لأبى عبد الله بن الحسين الزوزنى.</subfield>
+<subfield code="c">لأبى عبد الله بن الحسين الزوزني.</subfield>
 </datafield>
 <datafield tag="880" ind1=" " ind2=" ">
 <subfield code="6">260-04/</subfield>
@@ -79,17 +116,16 @@
 <subfield code="b">مطبعة دار الكتب العلمية الكبرى،</subfield>
 <subfield code="c">1327 [1909]</subfield>
 </datafield>
+<datafield tag="880" ind1="0" ind2="0">
+<subfield code="6">630-05/</subfield>
+<subfield code="a">معلقات.</subfield>
+</datafield>
+<datafield tag="880" ind1="0" ind2="2">
+<subfield code="6">730-06/</subfield>
+<subfield code="a">معلقات.</subfield>
+</datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">20010822</subfield>
-<subfield code="d">20010429</subfield>
-<subfield code="d">20021006</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">6</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">p</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>

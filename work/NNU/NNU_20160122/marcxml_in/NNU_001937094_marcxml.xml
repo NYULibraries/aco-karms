@@ -1,44 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200277 a 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">001937094</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">19940713181853.0</controlfield>
+<controlfield tag="005">20160302162727.0</controlfield>
 <controlfield tag="008">910620s1903    ua       b    000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb10881442</subfield>
-</datafield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG91-B38143</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">GLIS008814428</subfield>
+<subfield code="a">(OCoLC)82240728</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
 <subfield code="a">NNU</subfield>
-<subfield code="c">NNU</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">ZYU</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">OCLCQ</subfield>
 </datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="i">06/20/91 CT</subfield>
+<datafield tag="050" ind1=" " ind2="4">
+<subfield code="a">PJ6075</subfield>
+<subfield code="b">.S35 1903</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Ṣāliḥ, ʻIzz al-Dīn.</subfield>
+<subfield code="6">880-01</subfield>
+<subfield code="a">Ṣāliḥ, ʻIzz al-Dīn.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
-<subfield code="a">Kitāb thimār al-adab fī balāghat al-ʻArab /</subfield>
-<subfield code="c">taʼlīf ʻIzz al-Dīn Ṣāliḥ.</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">Kitāb thimār al-adab fī balāghat al-ʻArab /</subfield>
+<subfield code="c">taʼlīf ʻIzz al-Dīn Ṣāliḥ.</subfield>
 </datafield>
 <datafield tag="250" ind1=" " ind2=" ">
-<subfield code="a">al-Ṭabʻah 2.</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">al-Ṭabʻah 2.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">Miṣr :</subfield>
-<subfield code="b">[s.n.],</subfield>
+<subfield code="6">880-04</subfield>
+<subfield code="a">Miṣr :</subfield>
+<subfield code="b">[publisher not identified],</subfield>
 <subfield code="c">1903.</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">256 p. ;</subfield>
-<subfield code="c">20 cm.</subfield>
+<subfield code="a">256 pages ;</subfield>
+<subfield code="c">20 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="504" ind1=" " ind2=" ">
 <subfield code="a">Includes bibliographical references.</subfield>
@@ -52,36 +69,34 @@
 <subfield code="x">Medical Arabic.</subfield>
 </datafield>
 <datafield tag="740" ind1="0" ind2=" ">
-<subfield code="a">Thimār al-adab fī balāghat al-ʻArab.</subfield>
+<subfield code="6">880-05</subfield>
+<subfield code="a">Thimār al-adab fī balāghat al-ʻArab.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">صالح، عز الدين.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">245-02/</subfield>
+<subfield code="a">كتاب ثمار الادب في بلاغة العرب /</subfield>
+<subfield code="c">تأليف عز الدين صالح.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">250-03/</subfield>
+<subfield code="a">الطبعة 2.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-04/</subfield>
+<subfield code="a">مصر :</subfield>
+<subfield code="b">[publisher not identified]،</subfield>
+<subfield code="c">1903.</subfield>
+</datafield>
+<datafield tag="880" ind1="0" ind2=" ">
+<subfield code="6">740-05/</subfield>
+<subfield code="a">ثمار الادب في بلاغة العرب.</subfield>
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="903" ind1=" " ind2=" ">
-<subfield code="a">OLD</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">PJ6075</subfield>
-<subfield code="b">.S35 1903</subfield>
-<subfield code="i">06/20/91 C</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1</subfield>
-<subfield code="r">001832966</subfield>
-<subfield code="i">06/20/91 C</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">06/20/91</subfield>
-<subfield code="t">c</subfield>
-<subfield code="s">9114</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="d">06/20/91</subfield>
-<subfield code="c">MG</subfield>
-<subfield code="b">MG</subfield>
-<subfield code="i">910620</subfield>
-<subfield code="l">NYUG</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
