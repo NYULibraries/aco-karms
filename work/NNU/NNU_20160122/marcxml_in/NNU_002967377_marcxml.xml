@@ -1,45 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>00000cam a22      i 4500</leader>
+<leader>00000cam a22      a 4500</leader>
 <controlfield tag="001">002967377</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20150223134128.0</controlfield>
-<controlfield tag="008">821102s1981    le            001 0 araod</controlfield>
+<controlfield tag="005">20160304175343.0</controlfield>
+<controlfield tag="008">911121m19609999ua       b    000 0 ara d</controlfield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(OCoLC)23517666</subfield>
+<subfield code="a">(OCoLC)708706341</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">EYM</subfield>
+<subfield code="a">CtY</subfield>
 <subfield code="b">eng</subfield>
-<subfield code="c">EYM</subfield>
-<subfield code="d">OCLCG</subfield>
+<subfield code="c">YUS</subfield>
+<subfield code="d">OCLCO</subfield>
 <subfield code="d">OCLCQ</subfield>
-<subfield code="d">NNU</subfield>
 </datafield>
 <datafield tag="050" ind1=" " ind2="4">
 <subfield code="a">PJ7750.I25</subfield>
-<subfield code="b">R3 1981</subfield>
+<subfield code="b">R3 1960</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
 <subfield code="6">880-01</subfield>
 <subfield code="a">Ibn Ḥazm, ʻAlī ibn Aḥmad,</subfield>
-<subfield code="d">994-1064,</subfield>
-<subfield code="e">author.</subfield>
+<subfield code="d">994-1064.</subfield>
+</datafield>
+<datafield tag="240" ind1="1" ind2="0">
+<subfield code="6">880-02</subfield>
+<subfield code="a">Essays</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
-<subfield code="6">880-02</subfield>
-<subfield code="a">Rasāʾil Ibn Ḥazm al-Andalusī /</subfield>
-<subfield code="c">taḥqīq Iḥsān ʻAbbās.</subfield>
-</datafield>
-<datafield tag="250" ind1=" " ind2=" ">
 <subfield code="6">880-03</subfield>
-<subfield code="a">al-Ṭabʻah 1.</subfield>
+<subfield code="a">Rasāʼil Ibn Ḥazm al-Andalusī /</subfield>
+<subfield code="c">ḥaqqaqahā wa-ʻallaqa ʻalayhā wa-qaddama la-hā Iḥsān Rashīd ʻAbbās.</subfield>
 </datafield>
-<datafield tag="264" ind1=" " ind2="1">
+<datafield tag="260" ind1=" " ind2=" ">
 <subfield code="6">880-04</subfield>
-<subfield code="a">Bayrūt :</subfield>
-<subfield code="b">al-Muʾassasah al-ʻArabīyah lil-Dirāsāt wa-al-Nashr,</subfield>
-<subfield code="c">1981.</subfield>
+<subfield code="a">Miṣr :</subfield>
+<subfield code="b">Maktabat al-Khānjī,</subfield>
+<subfield code="c">[1960?]-</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
 <subfield code="a">volumes ;</subfield>
@@ -60,64 +58,38 @@
 <subfield code="b">nc</subfield>
 <subfield code="2">rdacarrier</subfield>
 </datafield>
-<datafield tag="530" ind1=" " ind2=" ">
-<subfield code="a">Also issued online.</subfield>
+<datafield tag="504" ind1=" " ind2=" ">
+<subfield code="a">Includes bibliographical references.</subfield>
 </datafield>
 <datafield tag="700" ind1="1" ind2=" ">
+<subfield code="6">880-05</subfield>
 <subfield code="a">ʻAbbās, Iḥsān.</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2=" ">
 <subfield code="6">100-01/</subfield>
-<subfield code="a">ابن حزم، علي بن احمد.</subfield>
+<subfield code="a">ابن حزم، علي بن أحمد.</subfield>
 </datafield>
 <datafield tag="880" ind1="1" ind2="0">
-<subfield code="6">245-02/</subfield>
-<subfield code="a">رسائل ابن حزم الاندلسي /</subfield>
-<subfield code="c">تحقيق احسان عباس.</subfield>
+<subfield code="6">240-02/</subfield>
+<subfield code="a">رسائل</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">245-03/</subfield>
+<subfield code="a">رسائل ابن حزم الأندلسي /</subfield>
+<subfield code="c">حققها وعلق عليها وقدم لها إحسان رشيد عباس.</subfield>
 </datafield>
 <datafield tag="880" ind1=" " ind2=" ">
-<subfield code="6">250-03/</subfield>
-<subfield code="a">الطبعة 1.</subfield>
+<subfield code="6">260-04/</subfield>
+<subfield code="a">مصر :</subfield>
+<subfield code="b">مكتبة الخانجي،</subfield>
+<subfield code="c">[1960?]-</subfield>
 </datafield>
-<datafield tag="880" ind1=" " ind2="1">
-<subfield code="6">264-04/</subfield>
-<subfield code="a">بيروت :</subfield>
-<subfield code="b">المئسسة العربية للدراسات والنشر،</subfield>
-<subfield code="c">1981.</subfield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">700-05/</subfield>
+<subfield code="a">عباس، إحسان.</subfield>
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">PJ7750.I25</subfield>
-<subfield code="b">R3 1954</subfield>
-<subfield code="n">455:sl\Unanalyzed\</subfield>
-<subfield code="i">03/23/89 C</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1:v.3</subfield>
-<subfield code="r">007521803</subfield>
-<subfield code="i">03/23/89 C</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1:v.1</subfield>
-<subfield code="r">013817864</subfield>
-<subfield code="i">03/23/89 C</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">03/23/89</subfield>
-<subfield code="t">c</subfield>
-<subfield code="s">9114</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="w">MIUG84B23413</subfield>
-<subfield code="d">03/17/89</subfield>
-<subfield code="c">MG</subfield>
-<subfield code="b">PJV</subfield>
-<subfield code="i">890323</subfield>
-<subfield code="l">NYUG</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>

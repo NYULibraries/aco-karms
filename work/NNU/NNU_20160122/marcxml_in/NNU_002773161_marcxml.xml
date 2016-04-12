@@ -1,52 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>00000cam a22002531  4500</leader>
+<leader>00000cam a22      i 4500</leader>
 <controlfield tag="001">002773161</controlfield>
 <controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20001222130856.0</controlfield>
-<controlfield tag="008">860724s1901    ua            000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb10475718</subfield>
-</datafield>
+<controlfield tag="005">20160303161859.0</controlfield>
+<controlfield tag="008">860724s1901    ua            000 0dara d</controlfield>
 <datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG86-B25826</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">GLIS004757182</subfield>
+<subfield code="a">(OCoLC)78175360</subfield>
 </datafield>
 <datafield tag="040" ind1=" " ind2=" ">
 <subfield code="a">NNU</subfield>
-<subfield code="c">NNU</subfield>
+<subfield code="b">eng</subfield>
+<subfield code="c">ZYU</subfield>
+<subfield code="d">OCLCQ</subfield>
+<subfield code="d">OCLCO</subfield>
+<subfield code="d">OCLCF</subfield>
+<subfield code="d">NNU</subfield>
 </datafield>
 <datafield tag="043" ind1=" " ind2=" ">
 <subfield code="a">ff-----</subfield>
 <subfield code="a">aw-----</subfield>
+<subfield code="a">e-sp---</subfield>
 </datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="i">08/29/86 CT</subfield>
-<subfield code="h">08/13/86 CT</subfield>
-<subfield code="h">07/31/86 CT</subfield>
-<subfield code="h">07/24/86 CT</subfield>
+<datafield tag="050" ind1=" " ind2="4">
+<subfield code="a">DS222</subfield>
+<subfield code="b">.A9 1901</subfield>
 </datafield>
 <datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">ʻAẓm, Rāfiq ibn Maḥmūd,</subfield>
-<subfield code="d">1865 or 6-1925.</subfield>
+<subfield code="6">880-01</subfield>
+<subfield code="a">ʻAẓm, Rafīq.</subfield>
 </datafield>
 <datafield tag="245" ind1="1" ind2="0">
-<subfield code="a">Kitāb ashhar mashāhīr al-Islām fī al-ḥurūb al-siyāsīyah /</subfield>
-<subfield code="c">taʼlīf Rafīq al-ʻAẓm.</subfield>
+<subfield code="6">880-02</subfield>
+<subfield code="a">Kitāb ashhar mashāhīr al-Islām fī al-ḥurūb al-siyāsīyah /</subfield>
+<subfield code="c">taʼlīf Rafīq al-ʻAẓm.</subfield>
 </datafield>
 <datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">Miṣr :</subfield>
-<subfield code="b">Maṭbaʻat al-Mawsūʻāt,</subfield>
-<subfield code="c">1319 [1901 or 2].</subfield>
+<subfield code="6">880-03</subfield>
+<subfield code="a">Miṣr :</subfield>
+<subfield code="b">Maṭbaʻat al-Mawsūʻāt,</subfield>
+<subfield code="c">1319 [1901 or 1902]</subfield>
 </datafield>
 <datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">2 v. in 4 ;</subfield>
-<subfield code="c">25 cm.</subfield>
+<subfield code="a">2 volumes in 4 ;</subfield>
+<subfield code="c">25 cm</subfield>
+</datafield>
+<datafield tag="336" ind1=" " ind2=" ">
+<subfield code="a">text</subfield>
+<subfield code="b">txt</subfield>
+<subfield code="2">rdacontent</subfield>
+</datafield>
+<datafield tag="337" ind1=" " ind2=" ">
+<subfield code="a">unmediated</subfield>
+<subfield code="b">n</subfield>
+<subfield code="2">rdamedia</subfield>
+</datafield>
+<datafield tag="338" ind1=" " ind2=" ">
+<subfield code="a">volume</subfield>
+<subfield code="b">nc</subfield>
+<subfield code="2">rdacarrier</subfield>
 </datafield>
 <datafield tag="505" ind1="1" ind2=" ">
-<subfield code="a">al-mujallad 1, al-juzʼ 2. Sīrat al-khulafāʼ al-Rāshidīn. Sīrat ʻUmar ibn al-Khaṭṭāb wa man ishtahar fī dawlatih</subfield>
+<subfield code="a">al-mujallad 1, al-juzʼ 2. Sīrat al-khulafāʼ al-Rāshidīn. Sīrat ʻUmar ibn al-Khaṭṭāb wa man ishtahar fī dawlatih.</subfield>
 </datafield>
 <datafield tag="650" ind1=" " ind2="0">
 <subfield code="a">Pharaohs.</subfield>
@@ -55,24 +70,46 @@
 <subfield code="a">Islamic Empire</subfield>
 <subfield code="v">Biography.</subfield>
 </datafield>
+<datafield tag="650" ind1=" " ind2="7">
+<subfield code="a">Pharaohs.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01060090</subfield>
+</datafield>
+<datafield tag="651" ind1=" " ind2="7">
+<subfield code="a">Islamic Empire.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01244134</subfield>
+</datafield>
+<datafield tag="655" ind1=" " ind2="7">
+<subfield code="a">Biography.</subfield>
+<subfield code="2">fast</subfield>
+<subfield code="0">(OCoLC)fst01423686</subfield>
+</datafield>
 <datafield tag="740" ind1="0" ind2=" ">
-<subfield code="a">Ashhar mashāhīr al-Islām fī al-ḥurūb al-siyāsīyah.</subfield>
+<subfield code="6">880-04</subfield>
+<subfield code="a">Ashhar mashāhīr al-Islām fī al-ḥurūb al-siyāsīyah.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2=" ">
+<subfield code="6">100-01/</subfield>
+<subfield code="a">عظم، رفيق.</subfield>
+</datafield>
+<datafield tag="880" ind1="1" ind2="0">
+<subfield code="6">245-02/</subfield>
+<subfield code="a">كتاب اشهر مشاهير الاسلام في الحروب السياسية /</subfield>
+<subfield code="c">تأليف رفيق العظم.</subfield>
+</datafield>
+<datafield tag="880" ind1=" " ind2=" ">
+<subfield code="6">260-03/</subfield>
+<subfield code="a">مصر :</subfield>
+<subfield code="b">مطبعة الموسوعات،</subfield>
+<subfield code="c">1319 [1901 ر 1902]</subfield>
+</datafield>
+<datafield tag="880" ind1="0" ind2=" ">
+<subfield code="6">740-04/</subfield>
+<subfield code="a">اشهر مشاهير الاسلام في الحروب السياسية.</subfield>
 </datafield>
 <datafield tag="OWN" ind1=" " ind2=" ">
 <subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">DS222</subfield>
-<subfield code="b">.A9 1901</subfield>
-<subfield code="n">455:sl Unanalyzed</subfield>
-<subfield code="i">08/29/86 C</subfield>
-<subfield code="h">07/24/86 C</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1:v.1, pt.2</subfield>
-<subfield code="h">07/24/86 C</subfield>
 </datafield>
 <datafield tag="AVA" ind1=" " ind2=" ">
 <subfield code="a">NYU50</subfield>
