@@ -1,248 +1,172 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>
-		02203nam a2200385   4500
-	</leader>
-	<controlfield tag="001">
-		001684809
-	</controlfield>
-	<controlfield tag="003">
-		NNU
-	</controlfield>
-	<controlfield tag="006">
-		m        d        
-	</controlfield>
-	<controlfield tag="007">
-		cr cn |||m|||a
-	</controlfield>
-	<controlfield tag="008">
-		160223s1933    ir      o     001 0bara d
-	</controlfield>
+	<leader>     nam a22        4500</leader>
+	<controlfield tag="001">001684809</controlfield>
+	<controlfield tag="003">NNU</controlfield>
+	<controlfield tag="006">m        d        </controlfield>
+	<controlfield tag="007">cr cn |||m|||a</controlfield>
+	<controlfield tag="008">160426s1933    ir      o     001 0bara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			eng
-		</subfield>
-		<subfield code="c">
-			NNU
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
+		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">a-ir---</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">
-			DS325.I6
-		</subfield>
-		<subfield code="b">
-			M8
-		</subfield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS325.I6</subfield>
+		<subfield code="b">M8 1933</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">
-			Māfarrūkhī, Mufaḍḍal ibn Saʻd ibn Ḥusayn,
-		</subfield>
-		<subfield code="d">
-			fl. 1030.
-		</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Māfarrūkhī, al-Mufaḍḍal ibn Saʻd,</subfield>
+		<subfield code="d">-approximately 1082.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="6">
-			880-01
-		</subfield>
-		<subfield code="a">
-			Kitāb maḥāsin Iṣfahān
-		</subfield>
-		<subfield code="h">
-			[electronic resource] /
-		</subfield>
-		<subfield code="c">
-			taʼlīf Mufaḍḍal ibn Saʻd ibn Ḥusayn al-Māfarrūkhī al-Iṣfahānī. Risālat al-irshād fī aḥwāl al-ṣāḥib ibn ʻAbbād / li-Abī al-Qāsim Aḥmad ibn Muḥammad al-Ḥasanī al-Ḥusaynī al-Qūbāʼī al-Iṣfahānī.
-		</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb maḥāsin Iṣfahān /</subfield>
+		<subfield code="c">taʼlīf Mufaḍḍal ibn Saʻd ibn Ḥusayn al-Māfarrūkhī al-Iṣfahānī. Risālat al-irshād fī aḥwāl al-ṣāḥib ibn ʻAbbād / li-Abī al-Qāsim Aḥmad ibn Muḥammad al-Ḥasanī al-Ḥusaynī al-Qūbāʼī al-Iṣfahānī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">
-			880-02
-		</subfield>
-		<subfield code="a">
-			[S.l. :
-		</subfield>
-		<subfield code="b">
-			s.n],
-		</subfield>
-		<subfield code="c">
-			1933
-		</subfield>
-		<subfield code="e">
-			(Tehrān :
-		</subfield>
-		<subfield code="f">
-			Maṭbaʻat Majlis)
-		</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[Place of publication not identified] :</subfield>
+		<subfield code="b">[publisher not identified],</subfield>
+		<subfield code="c">1933</subfield>
+		<subfield code="e">(Tehrān :</subfield>
+		<subfield code="f">Maṭbaʻat Majlis al-Mullá)</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">
-			online resource (141, 56 p.)
-		</subfield>
+		<subfield code="a">online resource (141, 56 pages)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Titles on p. [4] of cover: Ketabe mahassene Isphahan ... Ressalat-ol-Arshad in the history of Sahib ibn Abbad.
-		</subfield>
+		<subfield code="a">Titles on p. [4] of cover: Ketabe mahassene Isphahan ... Ressalat-ol-Arshad in the history of Sahib ibn Abbad.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Includes indexes.
-		</subfield>
+		<subfield code="a">Includes indexes.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.
-		</subfield>
+		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
-		<subfield code="a">
-			Electronic reproduction.
-		</subfield>
-		<subfield code="b">
-			New York, N.Y. :
-		</subfield>
-		<subfield code="c">
-			New York University,
-		</subfield>
-		<subfield code="d">
-			2016.
-		</subfield>
-		<subfield code="5">
-			NNU
-		</subfield>
+		<subfield code="a">Electronic reproduction.</subfield>
+		<subfield code="b">New York, N.Y. :</subfield>
+		<subfield code="c">New York University,</subfield>
+		<subfield code="d">2016.</subfield>
+		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
-		<subfield code="a">
-			Ṣāḥib al-Ṭālqānī, Abū al-Qāsim Ismāʻīl ibn ʻAbbād,
-		</subfield>
-		<subfield code="d">
-			936-995.
-		</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Ṣāḥib al-Ṭālqānī, Abū al-Qāsim Ismāʻīl ibn ʻAbbād,</subfield>
+		<subfield code="d">936-995.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
-		<subfield code="a">
-			Iṣfahān (Iran)
-		</subfield>
-		<subfield code="v">
-			Biography.
-		</subfield>
+		<subfield code="a">Iṣfahān (Iran)</subfield>
+		<subfield code="v">Biography.</subfield>
 	</datafield>
-	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="a">
-			New York University.
-		</subfield>
-		<subfield code="b">
-			Libraries.
-		</subfield>
+	<datafield ind1="1" ind2="7" tag="600">
+		<subfield code="a">Ṣāḥib al-Ṭālqānī, Abū al-Qāsim Ismāʻīl ibn ʻAbbād,</subfield>
+		<subfield code="d">936-995.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst00108573</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="730">
-		<subfield code="a">
-			Arabic Collections Online.
-		</subfield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">Iran</subfield>
+		<subfield code="z">Iṣfahān.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01220534</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="740">
-		<subfield code="a">
-			Maḥāsin Iṣfahān.
-		</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="740">
-		<subfield code="a">
-			Ketabe mahassene Isphahan.
-		</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="740">
-		<subfield code="a">
-			Ressalat-ol-Arshad in the history of Sahib ibn Abbad.
-		</subfield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">Biography.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01423686</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">
-			Qūbāʼī al-Isfahānī, Abū al-Qāsim Aḥmad ibn Muḥammad.
-		</subfield>
-		<subfield code="t">
-			Risālat al-Irshād fī aḥwāl al-ṣāḥib al-kāfī Ismāʻīl ibn ʻAbbād.
-		</subfield>
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Qūbāʼī al-Isfahānī, Abū al-Qāsim Aḥmad ibn Muḥammad.</subfield>
+		<subfield code="t">Risālat al-Irshād fī aḥwāl al-ṣāḥib al-kāfī Ismāʻīl ibn ʻAbbād.</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="710">
+		<subfield code="a">New York University.</subfield>
+		<subfield code="b">Libraries.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="730">
+		<subfield code="a">Arabic Collections Online.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">880-06</subfield>
+		<subfield code="a">Maḥāsin Iṣfahān.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="a">Ketabe mahassene Isphahan.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="a">Ressalat-ol-Arshad in the history of Sahib ibn Abbad.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
-		<subfield code="i">
-			Print version:
-		</subfield>
-		<subfield code="a">
-			Māfarrūkhī, Mufaḍḍal ibn Saʻd ibn Ḥusayn, fl. 1030.
-		</subfield>
-		<subfield code="t">
-			Kitāb maḥāsin Iṣfahān
-		</subfield>
-		<subfield code="w">
-			(NNU)001684809
-		</subfield>
+		<subfield code="i">Print version:</subfield>
+		<subfield code="a">Māfarrūkhī, al-Mufaḍḍal ibn Saʻd, -approximately 1082.</subfield>
+		<subfield code="t">Kitāb maḥāsin Iṣfahān</subfield>
+		<subfield code="w">(NNU)001684809</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">
-			http://hdl.handle.net/2333.1/xsj3v1rd
-		</subfield>
+		<subfield code="u">http://hdl.handle.net/2333.1/xsj3v1rd</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/</subfield>
+		<subfield code="a">مافروخي، المفضل بن سعد،</subfield>
+		<subfield code="d">-approximately 1082.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">
-			245-01/
-		</subfield>
-		<subfield code="a">
-			كتاب محاسن اصصفهان /
-		</subfield>
-		<subfield code="c">
-			تأليف مفضل بن سعد بن حسين العافروخى الاصفهاني.
-		</subfield>
+		<subfield code="6">245-02/</subfield>
+		<subfield code="a">كتاب محاسن اصصفهان /</subfield>
+		<subfield code="c">تأليف مفضل بن سعد بن حسين العافروخى الاصفهاني.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">
-			260-02/
-		</subfield>
-		<subfield code="a">
-			التهرانى,
-		</subfield>
-		<subfield code="c">
-			١٩٣٣.
-		</subfield>
+		<subfield code="6">260-03/</subfield>
+		<subfield code="a">[Place of publication not identified] :</subfield>
+		<subfield code="b">[publisher not identified],</subfield>
+		<subfield code="c">1933</subfield>
+		<subfield code="e">(تهران :</subfield>
+		<subfield code="f">مطبعة مجلس الملّى)</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">600-04/</subfield>
+		<subfield code="a">صاحب الطالقاني، ابو القاسم اسماعيل بن عباد،</subfield>
+		<subfield code="d">936995.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-05/</subfield>
+		<subfield code="a">قوبائي الاصفهاني، ابو القاسم احمد بن محمد.</subfield>
+		<subfield code="t">رسالة الارشاد في احوال الصاحب الكافي اسماعيل بن عباد.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">740-06/</subfield>
+		<subfield code="a">محاسن اصفهان.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			WEB
-		</subfield>
-		<subfield code="c">
-			GENI
-		</subfield>
-		<subfield code="t">
-			0
-		</subfield>
-		<subfield code="m">
-			Electronic access
-		</subfield>
-		<subfield code="s">
-			01
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">WEB</subfield>
+		<subfield code="c">GENI</subfield>
+		<subfield code="t">0</subfield>
+		<subfield code="m">Electronic access</subfield>
+		<subfield code="s">01</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
-		<subfield code="i">
-			NNU_001684809
-		</subfield>
-		<subfield code="s">
-			nyu_aco001791
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
-		</subfield>
+		<subfield code="i">NNU_001684809</subfield>
+		<subfield code="s">nyu_aco001791</subfield>
 	</datafield>
 </record>

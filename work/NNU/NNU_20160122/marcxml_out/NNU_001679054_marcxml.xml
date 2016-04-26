@@ -1,188 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>
-		01481nam a2200313   4500
-	</leader>
-	<controlfield tag="001">
-		001679054
-	</controlfield>
-	<controlfield tag="003">
-		NNU
-	</controlfield>
-	<controlfield tag="006">
-		m        d        
-	</controlfield>
-	<controlfield tag="007">
-		cr cn |||m|||a
-	</controlfield>
-	<controlfield tag="008">
-		160223m19359999ua ab   ob    000 0 ara d
-	</controlfield>
+	<leader>     nam a22        4500</leader>
+	<controlfield tag="001">001679054</controlfield>
+	<controlfield tag="003">NNU</controlfield>
+	<controlfield tag="006">m        d        </controlfield>
+	<controlfield tag="007">cr cn |||m|||a</controlfield>
+	<controlfield tag="008">160426m19359999ua bj   ob    001 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			eng
-		</subfield>
-		<subfield code="c">
-			NNU
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
+		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">aw-----</subfield>
+		<subfield code="a">ff-----</subfield>
+		<subfield code="a">e-sp---</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS223</subfield>
+		<subfield code="b">.H34 1935</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">
-			Ḥasan, Ḥasan Ibrāhīm.
-		</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Ḥasan, Ḥasan Ibrāhīm.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Tārikh al-Islām al-siyāsī</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Tārīkh al-Islām al-siyāsī
-		</subfield>
-		<subfield code="h">
-			[electronic resource] /
-		</subfield>
-		<subfield code="c">
-			taʼlīf Ḥasan Ibrāhīm Ḥasan.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="250">
-		<subfield code="a">
-			al-Ṭabʻah al-thānīyah.
-		</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Tārīkh al-Islām al-siyāsī wa-al-dīnī wa-al-thaqāfī wa-al-ijtimāʻī /</subfield>
+		<subfield code="c">taʼlīf Ḥasan Ibrāhīm Ḥasan.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">
-			al-Qāhirah :
-		</subfield>
-		<subfield code="b">
-			Maktabah al-Tijāriyah al Kubrá,
-		</subfield>
-		<subfield code="c">
-			1935-
-		</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
+		<subfield code="b">Maktabat al-Nahḍah al-Miṣrīyah,</subfield>
+		<subfield code="c">1935-</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">
-			online resource (v.) :
-		</subfield>
-		<subfield code="b">
-			ill., maps
-		</subfield>
+		<subfield code="a">online resource (volumes) :</subfield>
+		<subfield code="b">maps, genealogical tables</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.
-		</subfield>
+		<subfield code="a">Vols. 2-3 published by: Maktabat al-Nahḍah al-Miṣrīyah.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">
-			Includes bibliographical references.
-		</subfield>
+		<subfield code="a">Includes bibliographical references and indexes.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="505">
-		<subfield code="a">
-			juzʼ 1. Tarikh al-ʻArab qabla al-Islam. -- juzʻ 2. al-ʻAṣr al- ʻAbbāsī al-awwal, 132-232 H. -- juzʼ 3. al-ʻAṣr al-ʻAbbāsī al-thānī, 232-447 H.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Added cover title: in English.
-		</subfield>
+	<datafield ind1="0" ind2=" " tag="505">
+		<subfield code="a">al-Juzʼ 1. Tārīkh al-ʻArab qabla al-Islām, wa-al-baʻthah al-Nabawīyah, wa-al-khulafāʼ al-rāsidīn, wa-al-Dawlah al-Umawīyah, wa-al-Ḥaḍārah, wa-al-Ḥaḍārah al-ʻArabīyah fī ʻahd al-khulafāʼ al-rāshidīn wa-al-Umawīyyin -- al-juzʼ 2. al-ʻaṣr al-ʻAbbāsū al-alwwal, 750-847 m -- al-juzʼ 3. al-ʻaṣr al-ʻAbbāsū al-thānī, 847-1055 m.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
-		<subfield code="a">
-			Electronic reproduction.
-		</subfield>
-		<subfield code="b">
-			New York, N.Y. :
-		</subfield>
-		<subfield code="c">
-			New York University,
-		</subfield>
-		<subfield code="d">
-			2016.
-		</subfield>
-		<subfield code="5">
-			NNU
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">
-			Islamic civilization.
-		</subfield>
+		<subfield code="a">Electronic reproduction.</subfield>
+		<subfield code="b">New York, N.Y. :</subfield>
+		<subfield code="c">New York University,</subfield>
+		<subfield code="d">2016.</subfield>
+		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
-		<subfield code="a">
-			Islamic Empire
-		</subfield>
-		<subfield code="x">
-			History
-		</subfield>
+		<subfield code="a">Islamic Empire</subfield>
+		<subfield code="x">History.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Islamic civilization.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Islamic civilization.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01730294</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">Islamic Empire.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01244134</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">History.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01411628</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="a">
-			New York University.
-		</subfield>
-		<subfield code="b">
-			Libraries.
-		</subfield>
+		<subfield code="a">New York University.</subfield>
+		<subfield code="b">Libraries.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="730">
-		<subfield code="a">
-			Arabic Collections Online.
-		</subfield>
+		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
-		<subfield code="i">
-			Print version:
-		</subfield>
-		<subfield code="a">
-			Ḥasan, Ḥasan Ibrāhīm.
-		</subfield>
-		<subfield code="t">
-			Tārīkh al-Islām al-siyāsī
-		</subfield>
-		<subfield code="w">
-			(NNU)001679054
-		</subfield>
+		<subfield code="i">Print version:</subfield>
+		<subfield code="a">Ḥasan, Ḥasan Ibrāhīm.</subfield>
+		<subfield code="t">Tārīkh al-Islām al-siyāsī wa-al-dīnī wa-al-thaqāfī wa-al-ijtimāʻī</subfield>
+		<subfield code="w">(NNU)001679054</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">
-			http://hdl.handle.net/2333.1/mgqnkdnc
-		</subfield>
+		<subfield code="u">http://hdl.handle.net/2333.1/mgqnkdnc</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/</subfield>
+		<subfield code="a">حسن، حسن ابراهيم.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">240-02/</subfield>
+		<subfield code="a">تاريخ الإسلام السياسي</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-03/</subfield>
+		<subfield code="a">تاريخ الإسلام السياسي والديني والثقافي والاجتماعي /</subfield>
+		<subfield code="c">تأليف حسن ابراهيم حسن.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">مكتبة النهضة المصرية،</subfield>
+		<subfield code="c">1935-</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			WEB
-		</subfield>
-		<subfield code="c">
-			GENI
-		</subfield>
-		<subfield code="t">
-			0
-		</subfield>
-		<subfield code="m">
-			Electronic access
-		</subfield>
-		<subfield code="s">
-			01
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">WEB</subfield>
+		<subfield code="c">GENI</subfield>
+		<subfield code="t">0</subfield>
+		<subfield code="m">Electronic access</subfield>
+		<subfield code="s">01</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
-		<subfield code="i">
-			NNU_001679054
-		</subfield>
-		<subfield code="s">
-			nyu_aco001781:v.3
-		</subfield>
-		<subfield code="s">
-			nyu_aco001782:v.4
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
-		</subfield>
+		<subfield code="i">NNU_001679054</subfield>
+		<subfield code="s">nyu_aco001781:v.3</subfield>
+		<subfield code="s">nyu_aco001782:v.4</subfield>
 	</datafield>
 </record>

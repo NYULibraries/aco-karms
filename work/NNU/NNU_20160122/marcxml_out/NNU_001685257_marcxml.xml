@@ -1,301 +1,151 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>
-		02553nam a2200433   4500
-	</leader>
-	<controlfield tag="001">
-		001685257
-	</controlfield>
-	<controlfield tag="003">
-		NNU
-	</controlfield>
-	<controlfield tag="006">
-		m        d        
-	</controlfield>
-	<controlfield tag="007">
-		cr cn |||m|||a
-	</controlfield>
-	<controlfield tag="008">
-		160223s1965    le      ob    000 0 ara d
-	</controlfield>
+	<leader>     nam a22        4500</leader>
+	<controlfield tag="001">001685257</controlfield>
+	<controlfield tag="003">NNU</controlfield>
+	<controlfield tag="006">m        d        </controlfield>
+	<controlfield tag="007">cr cn |||m|||a</controlfield>
+	<controlfield tag="008">160426s1965    le      ob    000 0 ara  </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			eng
-		</subfield>
-		<subfield code="c">
-			NNU
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
+		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="041">
-		<subfield code="a">
-			ara
-		</subfield>
-		<subfield code="a">
-			eng
-		</subfield>
-		<subfield code="a">
-			fre
-		</subfield>
+	<datafield ind1="0" ind2="0" tag="050">
+		<subfield code="a">PJ25</subfield>
+		<subfield code="b">.A6 1965</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="043">
-		<subfield code="a">
-			ma-----
-		</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
-		<subfield code="a">
-			PJ25.
-		</subfield>
-		<subfield code="b">
-			A6 no.43
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">
-			PJ25
-		</subfield>
-		<subfield code="b">
-			.A6 no.43
-		</subfield>
+	<datafield ind1="0" ind2="4" tag="082">
+		<subfield code="a">300.16</subfield>
+		<subfield code="b">N253</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="245">
-		<subfield code="6">
-			880-01
-		</subfield>
-		<subfield code="a">
-			Nashāṭ al-ʻArab fī al-ʻulūm al-ijtimāʻīyah fī miʼat sanah
-		</subfield>
-		<subfield code="h">
-			[electronic resource] /
-		</subfield>
-		<subfield code="c">
-			bi-qalam Amīn al-Ḥāfiẓ ... [et al.] ; ashrafat ʻalá ikhrājihi Hayʼat al-Dirāsāt al-ʻArabīyah fī al-Jāmiʻah al-Amīrikīyah.
-		</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Nashāt al-Àrab fī al-ùlūm al-ijtimāì̄yah fī mi'at sanah,</subfield>
+		<subfield code="c">bi-qalam Amīn al-H̥āfiz̥ [wa-Ākharīn].</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">
-			880-02
-		</subfield>
-		<subfield code="a">
-			Bayrūt :
-		</subfield>
-		<subfield code="b">
-			Hayʼat al-Dirāsāt al-ʻArabīyah fī al-Jāmiʻah al-Amīrkīyah,
-		</subfield>
-		<subfield code="c">
-			1965.
-		</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Beirut :</subfield>
+		<subfield code="b">Hayʼat al-Dirāsāt al-ʻArabīyah fī al-Jāmiʻah al-Amīrkīyah,</subfield>
+		<subfield code="c">1965.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">
-			online resource (795 p.)
-		</subfield>
+		<subfield code="a">online resource (795 pages)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
-		<subfield code="6">
-			880-03
-		</subfield>
-		<subfield code="a">
-			Jāmiʻat Bayrūt al-Amīrikīyah. Manshūrāt Kullīyat al-ʻUlūm wa-al-Ādāb. Silsilat al-ʻulūm al-Sharqīyah ;
-		</subfield>
-		<subfield code="v">
-			ḥalqah 43
-		</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Jāma-ah Beirut al-àmīrkīah. Manshurāt kolīah al-ùlūm val-àdāb. Sel-sīlah al-ùlūm al-s̀harghīah ;</subfield>
+		<subfield code="v">hālghah 43</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.
-		</subfield>
+		<subfield code="a">Title transliterated: Nashāt̥ al-Àrab fī al-ùlūm al-ijtimāì̄yah fī mi'at sanah.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
-		<subfield code="a">
-			Electronic reproduction.
-		</subfield>
-		<subfield code="b">
-			New York, N.Y. :
-		</subfield>
-		<subfield code="c">
-			New York University,
-		</subfield>
-		<subfield code="d">
-			2016.
-		</subfield>
-		<subfield code="5">
-			NNU
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="546">
-		<subfield code="a">
-			In Arabic, English and French.
-		</subfield>
+		<subfield code="a">Electronic reproduction.</subfield>
+		<subfield code="b">New York, N.Y. :</subfield>
+		<subfield code="c">New York University,</subfield>
+		<subfield code="d">2016.</subfield>
+		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">
-			Social sciences
-		</subfield>
-		<subfield code="z">
-			Arab countries
-		</subfield>
-		<subfield code="v">
-			Bibliography.
-		</subfield>
+		<subfield code="a">Social sciences</subfield>
+		<subfield code="v">Bibliography.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="651">
-		<subfield code="a">
-			Arab countries
-		</subfield>
-		<subfield code="v">
-			Bibliography.
-		</subfield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Social sciences.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01122877</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">Bibliography.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01423717</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">
-			880-04
-		</subfield>
-		<subfield code="a">
-			Ḥafīẕ, Amīn.
-		</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Ḥāfiẓ, Amīn.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="6">
-			880-05
-		</subfield>
-		<subfield code="a">
-			American University of Beirut.
-		</subfield>
+		<subfield code="a">American University of Beirut.</subfield>
+		<subfield code="b">Faculty of Arts and Sciences.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="a">
-			New York University.
-		</subfield>
-		<subfield code="b">
-			Libraries.
-		</subfield>
+		<subfield code="a">New York University.</subfield>
+		<subfield code="b">Libraries.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="730">
-		<subfield code="a">
-			Arabic Collections Online.
-		</subfield>
+		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
-		<subfield code="i">
-			Print version:
-		</subfield>
-		<subfield code="t">
-			Nashāṭ al-ʻArab fī al-ʻulūm al-ijtimāʻīyah fī miʼat sanah
-		</subfield>
-		<subfield code="w">
-			(NNU)001685257
-		</subfield>
-		<subfield code="w">
-			(DLC)ne 66000443
-		</subfield>
+		<subfield code="i">Online version:</subfield>
+		<subfield code="t">Nashāt al-Àrab fī al-ùlūm al-ijtimāì̄yah fī mi'at sanah.</subfield>
+		<subfield code="d">Beirut, Ashrafat Ali īkhrajah hiāt al-dīrasāt al-ārabīah fī al-jāma-ah al-àmīrkīah, 1965</subfield>
+		<subfield code="w">(OCoLC)579924769</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Print version:</subfield>
+		<subfield code="t">Nashāt al-Àrab fī al-ùlūm al-ijtimāì̄yah fī mi'at sanah</subfield>
+		<subfield code="w">(NNU)001685257</subfield>
+		<subfield code="w">(DLC)ne 66000443</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">
-			http://hdl.handle.net/2333.1/ht76hj3b
-		</subfield>
+		<subfield code="u">http://hdl.handle.net/2333.1/ht76hj3b</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="880">
-		<subfield code="6">
-			245-01/
-		</subfield>
-		<subfield code="a">
-			نشاط العرب في العلوم الاجتماعية في مئة سنة /
-		</subfield>
-		<subfield code="c">
-			بقلم أمين الحافظ ... [وآخرين] ؛ أشرف على إخراجه هيئة الدراسات العربية في الجامعة الأميركية.
-		</subfield>
+		<subfield code="6">245-01/</subfield>
+		<subfield code="a">نشاط العرب في العلوم الاجتماعية في مئة سنة /</subfield>
+		<subfield code="c">بقلم أمين الحافظ ... [وآخرين] ؛ أشرف على إخراجه هيئة الدراسات العربية في الجامعة الأميركية.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">
-			260-02/
-		</subfield>
-		<subfield code="a">
-			بيروت :
-		</subfield>
-		<subfield code="b">
-			هيئة الدراسات العربية في الجامعة الأميركية،
-		</subfield>
-		<subfield code="c">
-			1965.
-		</subfield>
+		<subfield code="6">260-02/</subfield>
+		<subfield code="a">بيروت :</subfield>
+		<subfield code="b">هيئة الدراسات العربية في الجامعة الأميركية،</subfield>
+		<subfield code="c">1965.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
-			490-03/
-		</subfield>
-		<subfield code="a">
-			جامعة بيروت الأميركية. منشورات كلية العلوم والآداب. سلسلة العلوم الشرقية ؛
-		</subfield>
-		<subfield code="v">
-			حلقة 43
-		</subfield>
+		<subfield code="6">490-03/</subfield>
+		<subfield code="a">جامعة بيروت الأميركية. منشورات كلية العلوم والآداب. سلسلة العلوم الشرقية ؛</subfield>
+		<subfield code="v">حلقة 43</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
-			700-04/
-		</subfield>
-		<subfield code="a">
-			حافظ، أمين.
-		</subfield>
+		<subfield code="6">700-04/</subfield>
+		<subfield code="a">حافظ، أمين.</subfield>
 	</datafield>
-	<datafield ind1="2" ind2=" " tag="880">
-		<subfield code="6">
-			710-05/
-		</subfield>
-		<subfield code="a">
-			جامعة الأميركية في بيروت.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="a">
-			Publication of the Faculty of Arts and Sciences.
-		</subfield>
-		<subfield code="p">
-			Oriental series ;
-		</subfield>
-		<subfield code="v">
-			no. 43.
-		</subfield>
+	<datafield ind1="2" ind2=" " tag="810">
+		<subfield code="a">American University of Beirut.</subfield>
+		<subfield code="b">Faculty of Arts and Sciences.</subfield>
+		<subfield code="t">Publications.</subfield>
+		<subfield code="p">Oriental series ;</subfield>
+		<subfield code="v">no. 43.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			WEB
-		</subfield>
-		<subfield code="c">
-			GENI
-		</subfield>
-		<subfield code="t">
-			0
-		</subfield>
-		<subfield code="m">
-			Electronic access
-		</subfield>
-		<subfield code="s">
-			01
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">WEB</subfield>
+		<subfield code="c">GENI</subfield>
+		<subfield code="t">0</subfield>
+		<subfield code="m">Electronic access</subfield>
+		<subfield code="s">01</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
-		<subfield code="i">
-			NNU_001685257
-		</subfield>
-		<subfield code="s">
-			nyu_aco001823
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
-		</subfield>
+		<subfield code="i">NNU_001685257</subfield>
+		<subfield code="s">nyu_aco001823</subfield>
+		<subfield code="e">(ERROR-880)</subfield>
 	</datafield>
 </record>

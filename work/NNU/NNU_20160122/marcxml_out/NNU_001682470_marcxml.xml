@@ -1,189 +1,181 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>
-		01757nam a2200301   4500
-	</leader>
-	<controlfield tag="001">
-		001682470
-	</controlfield>
-	<controlfield tag="003">
-		NNU
-	</controlfield>
-	<controlfield tag="006">
-		m        d        
-	</controlfield>
-	<controlfield tag="007">
-		cr cn |||m|||a
-	</controlfield>
-	<controlfield tag="008">
-		160223m18931905le      ob    00  0 ara  
-	</controlfield>
+	<leader>     nam a22        4500</leader>
+	<controlfield tag="001">001682470</controlfield>
+	<controlfield tag="003">NNU</controlfield>
+	<controlfield tag="006">m        d        </controlfield>
+	<controlfield tag="007">cr cn |||m|||a</controlfield>
+	<controlfield tag="008">160426m18931905le a    ob    000 0 ara  </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			eng
-		</subfield>
-		<subfield code="c">
-			NNU
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
+		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">a-sy---</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="050">
+		<subfield code="a">DS95</subfield>
+		<subfield code="b">.D52</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">
-			Dibs, Yūsuf ibn Ilyās,
-		</subfield>
-		<subfield code="d">
-			1833-1907.
-		</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Dibs, Yūsuf ibn Ilyās,</subfield>
+		<subfield code="d">1833-1907.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Tārīkh Sūrīyah</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">
-			Kitāb tārīkh Sūrīyah
-		</subfield>
-		<subfield code="h">
-			[electronic resource] /
-		</subfield>
-		<subfield code="c">
-			li-Yūsuf al-Dibs.
-		</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Kitāb tārīkh Sūrīyah /</subfield>
+		<subfield code="c">li-Yūsuf al-Dibs.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="246">
+		<subfield code="6">880-04</subfield>
+		<subfield code="i">Vols. 3-4 have title:</subfield>
+		<subfield code="a">Min tārk̄h Sūrīyah al-dunyawī wa-al-dīnī</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">
-			Bayrūt :
-		</subfield>
-		<subfield code="b">
-			al-Maṭbaʻah al-ʻUmūmīyah,
-		</subfield>
-		<subfield code="c">
-			1893-1905.
-		</subfield>
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Bayrūt :</subfield>
+		<subfield code="b">al-Maṭbaʻah al-ʻUmūmīyah al-Kāthūlīkīyah,</subfield>
+		<subfield code="c">1893-1905. [reprint 2009]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">
-			online resource (4 pts. in 8 v.) :
-		</subfield>
-		<subfield code="b">
-			illus.
-		</subfield>
+		<subfield code="a">online resource (8 volumes) :</subfield>
+		<subfield code="b">illustrations</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Vols. 3-4, 6 have title: Tārīkh Sūrīyah al-dīnyawī wa-al-dīnī.
-		</subfield>
+		<subfield code="a">Text in Arabic, cover and added title page in English.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.
-		</subfield>
+		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">
-			Includes bibliographical references.
-		</subfield>
+		<subfield code="a">Includes bibliographical references.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="505">
-		<subfield code="a">
-			Juzʼ 1, mujallad 1-2. Tārīkh shuʻūh Sūrīyah al-qudamāʼ. -- Juzʼ 2, mujallad 3. Ilá ākhir al-qarn al-thānī al-Mīlādī. -- Jusʼ 2, mujallad 4. Ilá fatḥ al-khulafāʼ al-Rāshidīn fī al-qarn al-sābiʻ. -- Juzʼ 3, mujallad 5. Ilá nihāyat al-qarn al-ḥādī ʻashar. -- Jusʼ 3, mujallad 6. Ilá awāʼl al-qarn al-sādis ʻashar. -- Juzʼ 4, mujallad 7-8. Ayyām al-salāṭīn al-ʻUthmānīyīn.
-		</subfield>
+		<subfield code="6">880-06</subfield>
+		<subfield code="a">juzʼ 1., mujallad 1-2. Tārīkh shuʻūb Sūrīyah al-qudamāʼ.--juzʼ 2., mujallad 3. Ilá ākhir al-qarn al-thānī al-mīlādī. mujallad 4. Ilá fatḥ al-Khulafāʼ al-Rāshidīn fī al-qarn al-sābiʻ.--juzʼ 3., mujallad 5. Ilá nihāyat al-qarn al-ḥādī ʻashar. mujallad 6. Ilá awāʼil al-qarn al-sādis ʻashar.--juzʼ 4., mujallad 7-8. Ayyām al-Sālṭ̄īn al-ʻUthmāniyīn.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
-		<subfield code="a">
-			Electronic reproduction.
-		</subfield>
-		<subfield code="b">
-			New York, N.Y. :
-		</subfield>
-		<subfield code="c">
-			New York University,
-		</subfield>
-		<subfield code="d">
-			2016.
-		</subfield>
-		<subfield code="5">
-			NNU
-		</subfield>
+		<subfield code="a">Electronic reproduction.</subfield>
+		<subfield code="b">New York, N.Y. :</subfield>
+		<subfield code="c">New York University,</subfield>
+		<subfield code="d">2016.</subfield>
+		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
-		<subfield code="a">
-			Syria
-		</subfield>
-		<subfield code="x">
-			History.
-		</subfield>
+		<subfield code="a">Syria</subfield>
+		<subfield code="x">History.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="a">Syria</subfield>
+		<subfield code="x">Politics and government.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="a">Syria</subfield>
+		<subfield code="x">Religion.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Politics and government.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01919741</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Religion.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01093763</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">Syria.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01208757</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">History.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01411628</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="a">
-			New York University.
-		</subfield>
-		<subfield code="b">
-			Libraries.
-		</subfield>
+		<subfield code="a">New York University.</subfield>
+		<subfield code="b">Libraries.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="730">
-		<subfield code="a">
-			Arabic Collections Online.
-		</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="740">
-		<subfield code="a">
-			Tārīkh Sūrīyah.
-		</subfield>
+		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
-		<subfield code="i">
-			Print version:
-		</subfield>
-		<subfield code="a">
-			Dibs, Yūsuf ibn Ilyās, 1833-1907.
-		</subfield>
-		<subfield code="t">
-			Kitāb tārīkh Sūrīyah
-		</subfield>
-		<subfield code="w">
-			(NNU)001682470
-		</subfield>
-		<subfield code="w">
-			(DLC)78238037
-		</subfield>
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">Dibs, Yūsuf, 1833-1907.</subfield>
+		<subfield code="s">Tārīkh Sūrīyah.</subfield>
+		<subfield code="t">Kitāb tārīkh Sūrīyah.</subfield>
+		<subfield code="d">Bayrūt : al-Maṭbaʻah al-Kāthūlīkīyah, 1893-1905</subfield>
+		<subfield code="w">(OCoLC)700340053</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Print version:</subfield>
+		<subfield code="a">Dibs, Yūsuf ibn Ilyās, 1833-1907.</subfield>
+		<subfield code="t">Kitāb tārīkh Sūrīyah</subfield>
+		<subfield code="w">(NNU)001682470</subfield>
+		<subfield code="w">(DLC)   78238037</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">
-			http://hdl.handle.net/2333.1/mkkwhbb6
-		</subfield>
+		<subfield code="u">http://hdl.handle.net/2333.1/mkkwhbb6</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/</subfield>
+		<subfield code="a">دبس، يوسف بن الياس،,</subfield>
+		<subfield code="d">1833-1907.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">240-02/</subfield>
+		<subfield code="a">تاريخ سورية</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-03/</subfield>
+		<subfield code="a">‏كتاب تاريخ سورية /‏</subfield>
+		<subfield code="c">‏ليوسف الدبس.</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">246-04/</subfield>
+		<subfield code="a">من تارخ سورية الدنيوي والديني</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-05/</subfield>
+		<subfield code="a">بيروت :</subfield>
+		<subfield code="b">المطبعة العمومية الكاثوليكية،</subfield>
+		<subfield code="c">1893-1907.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">505-06/</subfield>
+		<subfield code="a">جزء 1.، مجلد 1-2. تاريخ شعوب سورية القدماء.--جزء 2.، مجلد 3. الى آخر القرن الثاني الميلادي. مجلد 4. الى فتح الخلفاء الراشدين في القرن السابع.--جزء 3.، مجلد 5. الى نهاية القرن الحادي عشر. مجلد 6. الى اوائل القرن السادس عشر.--جزء 4.، مجلد 7-8. ايام السالطين العثمانيين.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			WEB
-		</subfield>
-		<subfield code="c">
-			GENI
-		</subfield>
-		<subfield code="t">
-			0
-		</subfield>
-		<subfield code="m">
-			Electronic access
-		</subfield>
-		<subfield code="s">
-			01
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">WEB</subfield>
+		<subfield code="c">GENI</subfield>
+		<subfield code="t">0</subfield>
+		<subfield code="m">Electronic access</subfield>
+		<subfield code="s">01</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
-		<subfield code="i">
-			NNU_001682470
-		</subfield>
-		<subfield code="s">
-			nyu_aco001729:v.1
-		</subfield>
-		<subfield code="s">
-			nyu_aco001730:v.2: pt.4
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)(ERROR-MISC)
-		</subfield>
+		<subfield code="i">NNU_001682470</subfield>
+		<subfield code="s">nyu_aco001729:v.1</subfield>
+		<subfield code="s">nyu_aco001730:v.2: pt.4</subfield>
 	</datafield>
 </record>
