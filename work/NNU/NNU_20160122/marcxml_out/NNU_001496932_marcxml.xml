@@ -1,325 +1,171 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>
-		02851nam a2200433   4500
-	</leader>
-	<controlfield tag="001">
-		001496932
-	</controlfield>
-	<controlfield tag="003">
-		NNU
-	</controlfield>
-	<controlfield tag="006">
-		m        d        
-	</controlfield>
-	<controlfield tag="007">
-		cr cn |||m|||a
-	</controlfield>
-	<controlfield tag="008">
-		160223m19451958le h    o     000 0 arar 
-	</controlfield>
+	<leader>     nam a22        4500</leader>
+	<controlfield tag="001">001496932</controlfield>
+	<controlfield tag="003">NNU</controlfield>
+	<controlfield tag="006">m        d        </controlfield>
+	<controlfield tag="007">cr cn |||m|||a</controlfield>
+	<controlfield tag="008">160426m19451959le h    ob    000 0dara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			eng
-		</subfield>
-		<subfield code="c">
-			NNU
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
+		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
-		<subfield code="a">
-			PJ25
-		</subfield>
-		<subfield code="b">
-			.A6 no.18,etc.
-		</subfield>
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">aw-----</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">
-			(3
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">
-			PJ25
-		</subfield>
-		<subfield code="b">
-			.A6
-		</subfield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ25</subfield>
+		<subfield code="b">.A6 1945</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="6">
-			880-01
-		</subfield>
-		<subfield code="a">
-			Ghazzī, Najm al-Dīn Muḥammad ibn Muḥammad,
-		</subfield>
-		<subfield code="d">
-			1570-1651.
-		</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Ghazzī, Najm al-Dīn Muḥammad ibn Muḥammad,</subfield>
+		<subfield code="d">1570-1651.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="6">
-			880-02
-		</subfield>
-		<subfield code="a">
-			al-Kawākib al-sāʼirah bi-aʻyān al-miʼah al-ʻashirah
-		</subfield>
-		<subfield code="h">
-			[electronic resource] /
-		</subfield>
-		<subfield code="c">
-			li-Najm al-īn al-Ghazzī ; ḥaqqaqahu wa-ḍabaṭa naṣṣah Jubrāʼīl Sulaymān Jabbūr.
-		</subfield>
-	</datafield>
-	<datafield ind1="1" ind2="5" tag="246">
-		<subfield code="a">
-			Biographical dictionary of the notable men and women in the Moslem world in the sixteenth Christian century
-		</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Kawākib al-sāʼirah /</subfield>
+		<subfield code="c">li-Najm al-īn al-Ghazzī ; ḥaqqaqahu wa-ḍabaṭa naṣṣah Jubrāʼīl Sulaymān Jabbūr.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">
-			880-03
-		</subfield>
-		<subfield code="a">
-			[Beirut] :
-		</subfield>
-		<subfield code="b">
-			Jāmiʻat Bayrūt al-Amīrikīyah, Kullīyat al-ʻUlūm wa-al-Ādāb,
-		</subfield>
-		<subfield code="c">
-			[1945-1958]
-		</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[Beirut] :</subfield>
+		<subfield code="b">Jāmiʻat Bayrūt al-Amīrikīyah, Kullīyat al-ʻUlūm wa-al-Ādāb,</subfield>
+		<subfield code="c">[1945-1958]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">
-			online resource (3 v.) :
-		</subfield>
-		<subfield code="b">
-			facsim.
-		</subfield>
+		<subfield code="a">online resource (3 volumes) :</subfield>
+		<subfield code="b">facsimile</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
-		<subfield code="6">
-			880-04
-		</subfield>
-		<subfield code="a">
-			Jāmiʻat Bayrūt al-amīrikīyah. Manshūrāt Kullīyat al-ʻUlūm wa-al-Ādāb. Silsilat al-ʻulūm al-Sharqīyah ;
-		</subfield>
-		<subfield code="v">
-			al-ḥalqah 18, 20, 29
-		</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">American University of Beirut. Publications of the Faculty of Arts and Sciences. oriental series ;</subfield>
+		<subfield code="v">no. 18, 20, 29</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.
-		</subfield>
+		<subfield code="a">Added t.p.: al-Kawakib al-sāʼirah bi-aʻyān al-miʼah al-ʻāshirah, a biographical dictionary of notable men and women in the Moslem world in the sixteenth Christian century, by Najm-al-Dīn al-Ghazzi.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">In Arabic.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="504">
+		<subfield code="a">Bibliography of the author: v. 1, pages 11-20 of introductory text.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="504">
+		<subfield code="a">Includes bibliographical references.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
-		<subfield code="a">
-			Electronic reproduction.
-		</subfield>
-		<subfield code="b">
-			New York, N.Y. :
-		</subfield>
-		<subfield code="c">
-			New York University,
-		</subfield>
-		<subfield code="d">
-			2016.
-		</subfield>
-		<subfield code="5">
-			NNU
-		</subfield>
+		<subfield code="a">Electronic reproduction.</subfield>
+		<subfield code="b">New York, N.Y. :</subfield>
+		<subfield code="c">New York University,</subfield>
+		<subfield code="d">2016.</subfield>
+		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
-		<subfield code="a">
-			Middle East
-		</subfield>
-		<subfield code="v">
-			Biography
-		</subfield>
-		<subfield code="v">
-			Early works to 1800.
-		</subfield>
+		<subfield code="a">Middle East</subfield>
+		<subfield code="v">Biography.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">
-			Muslims
-		</subfield>
-		<subfield code="v">
-			Biography
-		</subfield>
-		<subfield code="v">
-			Early works to 1800.
-		</subfield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">Middle East.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01241586</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">Biography.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01423686</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">
-			880-05
-		</subfield>
-		<subfield code="a">
-			Jabbūr, Jibrāʼīl Sulaymān.
-		</subfield>
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Jabbūr, Jibrāʼīl Sulaymān,</subfield>
+		<subfield code="e">editor.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="a">
-			New York University.
-		</subfield>
-		<subfield code="b">
-			Libraries.
-		</subfield>
+		<subfield code="a">New York University.</subfield>
+		<subfield code="b">Libraries.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="730">
-		<subfield code="a">
-			Arabic Collections Online.
-		</subfield>
+		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
-		<subfield code="i">
-			Print version:
-		</subfield>
-		<subfield code="a">
-			Ghazzī, Najm al-Dīn Muḥammad ibn Muḥammad, 1570-1651.
-		</subfield>
-		<subfield code="t">
-			al-Kawākib al-sāʼirah bi-aʻyān al-miʼah al-ʻashirah
-		</subfield>
-		<subfield code="w">
-			(NNU)001496932
-		</subfield>
-		<subfield code="w">
-			(DLC)ne 62000582
-		</subfield>
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">Ghazzī, Najm al-Dīn Muḥammad ibn Muḥammad, 1570-1651.</subfield>
+		<subfield code="t">Kawākib al-sāʼirah.</subfield>
+		<subfield code="d">[1945-1959</subfield>
+		<subfield code="w">(OCoLC)655086149</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Print version:</subfield>
+		<subfield code="a">Ghazzī, Najm al-Dīn Muḥammad ibn Muḥammad, 1570-1651.</subfield>
+		<subfield code="t">al-Kawākib al-sāʼirah</subfield>
+		<subfield code="w">(NNU)001496932</subfield>
+		<subfield code="w">(DLC)ne 62000582</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">
-			http://hdl.handle.net/2333.1/7h44j48r
-		</subfield>
+		<subfield code="u">http://hdl.handle.net/2333.1/7h44j48r</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
-			100-01/
-		</subfield>
-		<subfield code="a">
-			غزي، نجم الدين محمد بن محمد.
-		</subfield>
+		<subfield code="6">100-01/</subfield>
+		<subfield code="a">غزي، نجم الدين محمد بن محمد،</subfield>
+		<subfield code="d">1570-1651.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
-		<subfield code="6">
-			245-02/
-		</subfield>
-		<subfield code="a">
-			الكواكب السائرة باعيان المئة العاشرة /
-		</subfield>
-		<subfield code="c">
-			لنجم الدين الغزي ؛ حققه وضبط نصه جبرائيل سليمان جبور.
-		</subfield>
+		<subfield code="6">245-02/</subfield>
+		<subfield code="a">الكواكب السائرة بأعيان المئة العاشرة /</subfield>
+		<subfield code="c">لنجم الدين الغزي ؛ حققه وضبط نصه جبرائيل سليمان جبور.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">
-			260-03/
-		</subfield>
-		<subfield code="a">
-			[بيروت] :
-		</subfield>
-		<subfield code="b">
-			جامعة بيروت الاميركية، كلية العلوم والآداب،
-		</subfield>
-		<subfield code="c">
-			[1945-1958]
-		</subfield>
+		<subfield code="6">260-03/</subfield>
+		<subfield code="a">[بيروت] :</subfield>
+		<subfield code="b">جامعة بيروت الاميركية، كلية العلوم والآداب،</subfield>
+		<subfield code="c">[1945-1958]</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
-			490-04/
-		</subfield>
-		<subfield code="a">
-			جامعة بيروت الاميركية. منشورات كلية العلوم والآداب. سلسلة العلوم الشرقية ؛
-		</subfield>
-		<subfield code="v">
-			الحلقة 18, 20, 29
-		</subfield>
+		<subfield code="6">490-04/</subfield>
+		<subfield code="a">جامعة بيروت الاميركية. منشورات كلية العلوم والآداب. سلسلة العلوم الشرقية ؛</subfield>
+		<subfield code="v">الحلقة 18, 20, 29</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
-			700-05/
-		</subfield>
-		<subfield code="a">
-			جبور، جبرائيل سليمان.
-		</subfield>
+		<subfield code="6">700-05/</subfield>
+		<subfield code="a">جبور، جبرائيل سليمان.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="a">
-			Publication of the Faculty of Arts and Sciences.
-		</subfield>
-		<subfield code="p">
-			Oriental series ;
-		</subfield>
-		<subfield code="v">
-			no. 18.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="a">
-			Publication of the Faculty of Arts and Sciences.
-		</subfield>
-		<subfield code="p">
-			Oriental series ;
-		</subfield>
-		<subfield code="v">
-			no. 20.
-		</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="a">
-			Publication of the Faculty of Arts and Sciences.
-		</subfield>
-		<subfield code="p">
-			Oriental series ;
-		</subfield>
-		<subfield code="v">
-			no. 29.
-		</subfield>
+	<datafield ind1="2" ind2=" " tag="810">
+		<subfield code="a">American University of Beirut.</subfield>
+		<subfield code="b">Faculty of Arts and Sciences.</subfield>
+		<subfield code="t">Publications.</subfield>
+		<subfield code="p">Oriental series ;</subfield>
+		<subfield code="v">no. 18 etc.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			WEB
-		</subfield>
-		<subfield code="c">
-			GENI
-		</subfield>
-		<subfield code="t">
-			0
-		</subfield>
-		<subfield code="m">
-			Electronic access
-		</subfield>
-		<subfield code="s">
-			01
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">WEB</subfield>
+		<subfield code="c">GENI</subfield>
+		<subfield code="t">0</subfield>
+		<subfield code="m">Electronic access</subfield>
+		<subfield code="s">01</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
-		<subfield code="i">
-			NNU_001496932
-		</subfield>
-		<subfield code="s">
-			nyu_aco001828:no.18
-		</subfield>
-		<subfield code="s">
-			nyu_aco001829:no.20
-		</subfield>
-		<subfield code="s">
-			nyu_aco001830:no.29
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
-		</subfield>
+		<subfield code="i">NNU_001496932</subfield>
+		<subfield code="s">nyu_aco001828:no.18</subfield>
+		<subfield code="s">nyu_aco001829:no.20</subfield>
+		<subfield code="s">nyu_aco001830:no.29</subfield>
+		<subfield code="e">(ERROR-880)</subfield>
 	</datafield>
 </record>
