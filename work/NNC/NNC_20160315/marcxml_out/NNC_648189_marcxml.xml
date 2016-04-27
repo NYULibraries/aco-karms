@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160408s1871    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">160426s1871    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,19 +17,23 @@
 		<subfield code="a">per</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">ʻĀmilī, Bahāʼ al-Dīn Muḥammad ibn Ḥusayn,</subfield>
 		<subfield code="d">1547-1621.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Kashkūl</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Kitāb ʼal-Kashkūl /</subfield>
-		<subfield code="c">li-Muḥammad Bahāʼ ʼal-Dīn ʻĀmilī.</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Kitāb al-Kashkūl /</subfield>
+		<subfield code="c">li-Muḥammad Bahāʼ al-Dīn ʻĀmilī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Miṣr :</subfield>
-		<subfield code="b">ʼal-Maṭbaʻah ʼal-Kubrá ʼal-ʼIbrāhīmīyah,</subfield>
+		<subfield code="b">al-Maṭbaʻah al-Kubrá al-Ibrāhīmīyah,</subfield>
 		<subfield code="c">1288 [1871]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -81,12 +85,32 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">ʻĀmilī, Bahāʼ al-Dīn Muḥammad ibn Ḥusayn, 1547-1621.</subfield>
-		<subfield code="t">Kitāb ʼal-Kashkūl</subfield>
+		<subfield code="t">Kitāb al-Kashkūl</subfield>
 		<subfield code="w">(NNC)648189</subfield>
 		<subfield code="w">(OCoLC)264966791</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/2v6wwth2</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">عاملي، بهاء الدين محمد بن حسين،</subfield>
+		<subfield code="d">1547-1621.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">240-02/r</subfield>
+		<subfield code="a">كشكول </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-03/r</subfield>
+		<subfield code="a">كتاب الكشكول /</subfield>
+		<subfield code="c">لمحمد بهاء الدين عاملي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/r</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">المطبعة الكبرى الابراهيمية،</subfield>
+		<subfield code="c">1288 [1871]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -101,5 +125,6 @@
 		<subfield code="o">(OCoLC)ocn264966791</subfield>
 		<subfield code="s">columbia_aco001889</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001889</subfield>
 	</datafield>
 </record>

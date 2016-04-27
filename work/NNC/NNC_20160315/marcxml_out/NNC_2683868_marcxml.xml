@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160408m19541955ae a    o     000 0 ara d</controlfield>
+	<controlfield tag="008">160426m19541955ae a    o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -20,14 +20,20 @@
 		<subfield code="b">.J56t</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Jilālī, ʻAbd al-Raḥmān ibn Muḥammad.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Tarikh al-Jazair al-ʹam.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Tārīkh al-Jazāʼir al-ʻāmm :</subfield>
+		<subfield code="b">yashtamilu ʻalá ījāzin wāfin mufaṣṣal li-tārīkh al-quṭr al-Jazāʼirī fī jamīʻ aṭwārihi wa-ḥarakātihi al-siyāsīyah wa-al-ijtimāʻīyah wa-al-ʻilmīyah wa-al-dīnīyah wa-al-adabīyah wa-al-fannīyah wa-al-iqtiṣādīyah wa-al-ʻumrānīyah wa-al-ṣināʻīyah ... /</subfield>
+		<subfield code="c">ʻAbd al-Raḥmān ibn Muḥammad al-Jīlālī. </subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[Algiers]</subfield>
-		<subfield code="c">1954-55.</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Al-Jazāʼir :</subfield>
+		<subfield code="b">al-Maṭbaʻah al-ʻArabīyah,</subfield>
+		<subfield code="c">1954-</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (2 volumes) :</subfield>
@@ -86,12 +92,28 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Jilālī, ʻAbd al-Raḥmān ibn Muḥammad.</subfield>
-		<subfield code="t">Tarikh al-Jazair al-ʹam</subfield>
+		<subfield code="t">Tārīkh al-Jazāʼir al-ʻāmm</subfield>
 		<subfield code="w">(NNC)2683868</subfield>
 		<subfield code="w">(OCoLC)16411769</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/w9ghx73v</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">جلالي، عبد الرحمن بن محمد.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">تاريخ الجزائر العام :</subfield>
+		<subfield code="b">يشتمل على ايجاز واف مفصل لتاريخ القطر الجزائري في جميع اطواره وحركاته السياسية والاجتماعية والعلمية والدينية والادبية والفنية والاقتصادية والعمرانية والصناعية ... /</subfield>
+		<subfield code="c">عبد الرحمن بن محمد الجيلالي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">الجزائر :</subfield>
+		<subfield code="b">المطبعة العربية،</subfield>
+		<subfield code="c">1954</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -103,9 +125,11 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_2683868</subfield>
-		<subfield code="o">(OCoLC)ocm16411769 </subfield>
+		<subfield code="o">(OCoLC)ocm16411769</subfield>
 		<subfield code="s">columbia_aco001979:v.1</subfield>
 		<subfield code="s">columbia_aco001980:v.2</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001979:v.1</subfield>
+		<subfield code="s">columbia_aco001980:v.2</subfield>
 	</datafield>
 </record>
