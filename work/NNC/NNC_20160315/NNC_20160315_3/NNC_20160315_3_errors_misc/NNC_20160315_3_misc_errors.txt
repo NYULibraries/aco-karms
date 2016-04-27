@@ -15,16 +15,18 @@ Records containing MISCELLANEOUS errors - batch NNC_20160315
     --  a 245 $h GMD field is present in the original record (signifying an alternate format other than print)
     --  the 245 $h GMD field was not added to a non-RDA e-version record during processing
     --  the $6 subfield did not sort to the first position in the field - issue with NYU records
-Report produced: 2016-04-08 15:50:16.502687
+Report produced: 2016-04-26 11:12:06.028759
 ---------------------------------------------------------------------
-FILE: NNC_20160315_2_oclc_recs_batch.mrc
+FILE: NNC_20160315_3/NNC_20160315_3_updates.mrc
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocn507575063
    oclc_rec_035_num: (OCoLC)507575063
    oclc_rec_035_num: (OCoLC)25817812
 Institution ID: NNC_4975249
-Record 999:  NNC_4975249 (OCoLC)ocn507575063
-ERROR-880: 880 script fields: NO
+Record 999:  NNC_4975249 (OCoLC)ocn507575063 columbia_aco001899:v.1-2
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   830 - Princeton University Arabic collection ; cn. 9201137.03.
 040 $e field: [none]
 RDA fields: YES
 ERROR-MISC: 007  hd bfa013baaa
@@ -35,20 +37,13 @@ Source entities (book IDs): columbia_aco001899:v.1-2
 OCLC ID: (OCoLC)ocm56176556 
    oclc_rec_035_num: (OCoLC)56176556
 Institution ID: NNC_3348224
-Record 999:  NNC_3348224 (OCoLC)ocm56176556
+Record 999:  NNC_3348224 (OCoLC)ocm56176556 columbia_aco001975:v.1 columbia_aco001976:v.2 columbia_aco001977:v.3 columbia_aco001978:v.4
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - [Bulāq] : [Maṭbaʻat Bulāq], [1299 [i.e. 1881]
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 ERROR-MISC: 007  hd afb---buca
 ERROR-MISC: 007  hd bfb---baaa
 Source entities (book IDs): columbia_aco001975:v.1, columbia_aco001976:v.2, columbia_aco001977:v.3, columbia_aco001978:v.4
----------------------------------------------------------------------
----------------------------------------------------------------------
-FILE: NNC_20160315_1/NNC_20160315_1_orig_no_oclc_nums.mrc
 ---------------------------------------------------------------------
 TOTAL Number of Records containing miscellaneous errors: 2
 

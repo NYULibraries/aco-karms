@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160408r19571897ir      o     000 0 ara d</controlfield>
+	<controlfield tag="008">160426r19571897ir      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -13,15 +13,18 @@
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Suyūṭī,</subfield>
 		<subfield code="d">1445-1505.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Durr al-manthūr fī al-tafsīr bi-al-maʼthūr ...</subfield>
-		<subfield code="b">wa-bi-hāmishihi al-Qurʼān al-sharīf maʻa kitāb Tanwīr al-miqbās tafsīr ... ʻAbd Allāh ibn ʻAbbās.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Durr al-manthūr fī al-tafsīr al-maʼthūr /</subfield>
+		<subfield code="c">li-Jalāl al-Dīn al-Suyūṭī ; wa-bi-hāmishih al-Qurʼān al-karīm maʻa tafsīr Ibn ʻAbbas.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Tehran,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Ṭehrān :</subfield>
 		<subfield code="b">al-Maktabah al-Islāmīyah,</subfield>
 		<subfield code="c">1377 [1957]</subfield>
 	</datafield>
@@ -56,6 +59,11 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Offset reprint of ed. Cairo, 1314 [1897].</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="0" tag="630">
+		<subfield code="a">Qurʼan</subfield>
+		<subfield code="x">Commentaries</subfield>
+		<subfield code="v">Early works to 1800.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -66,12 +74,28 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Suyūṭī, 1445-1505.</subfield>
-		<subfield code="t">al-Durr al-manthūr fī al-tafsīr bi-al-maʼthūr</subfield>
+		<subfield code="t">al-Durr al-manthūr fī al-tafsīr al-maʼthūr</subfield>
 		<subfield code="w">(NNC)3076449</subfield>
 		<subfield code="w">(OCoLC)43110726</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/stqjq60p</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">سيوطي،</subfield>
+		<subfield code="d">1445-1505.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">الدر المنثور في التفسير المأثور /</subfield>
+		<subfield code="c">لجلال الدين السيوطي ؛ وبهامشه القرآن الكريم مع تفسير ابن عبس.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">طهران :</subfield>
+		<subfield code="b">المكتبة الاسلامية،</subfield>
+		<subfield code="c">1377 [1957]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -83,7 +107,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3076449</subfield>
-		<subfield code="o">(OCoLC)ocm43110726 </subfield>
+		<subfield code="o">(OCoLC)ocm43110726</subfield>
 		<subfield code="s">columbia_aco001924:v.1</subfield>
 		<subfield code="s">columbia_aco001925:v.2</subfield>
 		<subfield code="s">columbia_aco001926:v.3</subfield>
@@ -91,5 +115,11 @@
 		<subfield code="s">columbia_aco001928:v.5</subfield>
 		<subfield code="s">columbia_aco001929:v.6</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001924:v.1</subfield>
+		<subfield code="s">columbia_aco001925:v.2</subfield>
+		<subfield code="s">columbia_aco001926:v.3</subfield>
+		<subfield code="s">columbia_aco001927:v.4</subfield>
+		<subfield code="s">columbia_aco001928:v.5</subfield>
+		<subfield code="s">columbia_aco001929:v.6</subfield>
 	</datafield>
 </record>

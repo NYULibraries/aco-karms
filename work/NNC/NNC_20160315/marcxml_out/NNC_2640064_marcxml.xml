@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160408s1907    ua      ode   000 0 ara d</controlfield>
+	<controlfield tag="008">160426s1907    ua      ode   000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,18 +17,26 @@
 		<subfield code="b">S4</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Shāfiʻiī, Muḥammad Abū ʻUlyān.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Shāfiʻī, Muḥammad Abū ʻAlyān,</subfield>
+		<subfield code="d">-1936 or 1937.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Kitāb al-Luʼlʼu al-manẓūm fī mabādiʼ al-ʻulūm, taʼlīf Muḥammad Abī ʻUlyān al-Shāfiʻī.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb al-Luʼlʼu al-manẓūm fī mabādiʼ al-ʻulūm /</subfield>
+		<subfield code="c">taʼlīf Muḥammad Abī ʻUlyān al-Shāfiʻī.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
-		<subfield code="a">Luʼluʼ al-maẓūm fī mabādiʼ al-ʻulūm</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Luʼluʼ al-manẓūm fī mabādiʼ al-ʻulūm</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Mişr,</subfield>
-		<subfield code="b">al-Maṭbʻah al-Ḥusaynīyah al-Mişrīyah</subfield>
-		<subfield code="c">[1325 h., 1907 m.]</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">[Egypt] :</subfield>
+		<subfield code="b">Farīd al-Ḍarghāmī al-Azharī,</subfield>
+		<subfield code="c">1325 [1907]</subfield>
+		<subfield code="e">(Kafr al-Ṭamāʻīn, Miṣr :</subfield>
+		<subfield code="f">al-Maṭbaʻah al-Ḥusaynīyah)</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (264 pages 3)</subfield>
@@ -72,13 +80,35 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Shāfiʻiī, Muḥammad Abū ʻUlyān.</subfield>
-		<subfield code="t">Kitāb al-Luʼlʼu al-manẓūm fī mabādiʼ al-ʻulūm, taʼlīf Muḥammad Abī ʻUlyān al-Shāfiʻī</subfield>
+		<subfield code="a">Shāfiʻī, Muḥammad Abū ʻAlyān, -1936 or 1937.</subfield>
+		<subfield code="t">Kitāb al-Luʼlʼu al-manẓūm fī mabādiʼ al-ʻulūm</subfield>
 		<subfield code="w">(NNC)2640064</subfield>
 		<subfield code="w">(OCoLC)44842129</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/x95x6f9p</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">شافعي، محمد ابو عليان،</subfield>
+		<subfield code="d">-1936 or 1937.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">كتاب اللؤلؤ المنظوم في مبادئ العلوم /</subfield>
+		<subfield code="c">تأليف محمد ابي عليان الشافعي.</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">246-03/r</subfield>
+		<subfield code="a">لؤلؤ المنظوم في مبادئ العلوم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/r</subfield>
+		<subfield code="a">[مصر] :</subfield>
+		<subfield code="b">فريد الضرغامي الازهري،</subfield>
+		<subfield code="c">1325 [1907]</subfield>
+		<subfield code="e">(كفر الطماعين، مصر :</subfield>
+		<subfield code="f">المطبعة الحسينية)</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -90,8 +120,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_2640064</subfield>
-		<subfield code="o">(OCoLC)ocm44842129 </subfield>
+		<subfield code="o">(OCoLC)ocm44842129</subfield>
 		<subfield code="s">columbia_aco001886</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001886</subfield>
 	</datafield>
 </record>
