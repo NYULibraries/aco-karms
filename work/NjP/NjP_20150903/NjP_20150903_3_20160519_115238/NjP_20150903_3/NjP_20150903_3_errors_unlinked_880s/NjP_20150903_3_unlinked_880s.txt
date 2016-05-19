@@ -1,0 +1,49 @@
+Records containing UNLINKED 880 script fields - batch NjP_20150903
+--  At least one 880 field has sequence number -00 in subfield $6,
+    meaning it is not linked to the corresponding parallel field
+Report produced: 2016-05-19 11:52:28.598435
+---------------------------------------------------------------------
+FILE: NjP_20150903_3/NjP_20150903_3_updates.mrc
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm21242228 
+   oclc_rec_035_num: (OCoLC)21242228
+   oclc_rec_035_num: (OCoLC)27440473
+   oclc_rec_035_num: (OCoLC)60775590
+Institution ID: NjP_784942
+Institution ID: NjP_784942
+Record 999:  NjP_784942 (OCoLC)ocm21242228 princeton_aco000025
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   245 - al-Bahjah al-marḍīyah [i.e. al-murḍiyah] fī sharḥ al-Alfīyah / li-Jalāl al-Dīn ʻAbd al-Raḥmān ibn Abī Bakr al-Suyūṭī.
+ERROR-880: Unlinked 880s: YES
+   880 $6 245-00 - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): princeton_aco000025
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm36249950 
+   oclc_rec_035_num: (OCoLC)36249950
+Institution ID: NjP_331926
+Record 999:  NjP_331926 (OCoLC)ocm36249950 princeton_aco000076
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - Saghānī, Ḥasan Ibn Muḥammad, 1181-1252.
+ERROR-880: Unlinked 880s: YES
+   880 $6 100-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): princeton_aco000076
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm10388101 
+   oclc_rec_035_num: (OCoLC)10388101
+Institution ID: NjP_2742221
+Record 999:  NjP_2742221 (OCoLC)ocm10388101 princeton_aco000091
+880 script fields: YES
+ERROR-880: Unlinked 880s: YES
+   880 $6 250-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): princeton_aco000091
+---------------------------------------------------------------------
+TOTAL Number of Records containing unlinked 880 script fields: 3
+

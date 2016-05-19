@@ -1,273 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>
-		02206nam a2200373   4500
-	</leader>
-	<controlfield tag="001">
-		462842
-	</controlfield>
-	<controlfield tag="003">
-		NjP
-	</controlfield>
-	<controlfield tag="006">
-		m        d        
-	</controlfield>
-	<controlfield tag="007">
-		cr cn |||m|||a
-	</controlfield>
-	<controlfield tag="008">
-		151222s1947    ua      o     000 0 ara d
-	</controlfield>
+	<leader>     nam a22        4500</leader>
+	<controlfield tag="001">462842</controlfield>
+	<controlfield tag="003">NjP</controlfield>
+	<controlfield tag="006">m        d        </controlfield>
+	<controlfield tag="007">cr cn |||m|||a</controlfield>
+	<controlfield tag="008">160519s1947    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			eng
-		</subfield>
-		<subfield code="e">
-			rda
-		</subfield>
-		<subfield code="c">
-			NNU
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
+		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="6">
-			880-01
-		</subfield>
-		<subfield code="a">
-			Tibrīzī, Yaḥyá ibn ʻAlī,
-		</subfield>
-		<subfield code="d">
-			-1109.
-		</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Tibrīzī, Yaḥyá ibn ʻAlī,</subfield>
+		<subfield code="d">-1109.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="6">
-			880-02
-		</subfield>
-		<subfield code="a">
-			al-Muʻallaqāt al-ʻashr wa-akhbār qāʼilīhā /
-		</subfield>
-		<subfield code="c">
-			lil-Imām Abī Zakarīyā Yaḥyá ibn ʻAlī al-Tibrīzī ; ʻuniyat bi-taṣḥīḥihā wa-ḍabṭihā wa-al-taʻlīq ʻalayhā Idārat al-Ṭibāʻah al-Munīrīyah.
-		</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Muʻallaqāt al-ʻashr wa-akhbār qāʼilīhā /</subfield>
+		<subfield code="c">lil-Imām Abī Zakarīyā Yaḥyá ibn ʻAlī al-Tibrīzī ; ʻuniyat bi-taṣḥīḥihā wa-ḍabṭihā wa-al-taʻlīq ʻalayhā Idārat al-Ṭibāʻah al-Munīrīyah.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">
-			880-03
-		</subfield>
-		<subfield code="a">
-			Miṣr :
-		</subfield>
-		<subfield code="b">
-			Yuṭlabu min Maktabat wa-Maṭbaʻat Muḥammad ʻAlī Ṣubayh,
-		</subfield>
-		<subfield code="c">
-			[1947?]
-		</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Yuṭlabu min Maktabat wa-Maṭbaʻat Muḥammad ʻAlī Ṣubayh,</subfield>
+		<subfield code="c">[1947?]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">
-			online resource (335 pages)
-		</subfield>
+		<subfield code="a">online resource (335 pages)</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="336">
-		<subfield code="a">
-			text
-		</subfield>
-		<subfield code="2">
-			rdacontent
-		</subfield>
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="337">
-		<subfield code="a">
-			computer
-		</subfield>
-		<subfield code="2">
-			rdamedia
-		</subfield>
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="338">
-		<subfield code="a">
-			online resource
-		</subfield>
-		<subfield code="2">
-			rdacarrier
-		</subfield>
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Part of the Arabic Collections Online (ACO) project, contributed by Princeton University Libraries.
-		</subfield>
+		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Princeton University Libraries.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
-		<subfield code="a">
-			Electronic reproduction.
-		</subfield>
-		<subfield code="b">
-			New York, N.Y. :
-		</subfield>
-		<subfield code="c">
-			New York University,
-		</subfield>
-		<subfield code="d">
-			2015.
-		</subfield>
-		<subfield code="5">
-			NNU
-		</subfield>
+		<subfield code="a">Electronic reproduction.</subfield>
+		<subfield code="b">New York, N.Y. :</subfield>
+		<subfield code="c">New York University,</subfield>
+		<subfield code="d">2016.</subfield>
+		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">
-			Arabic poetry
-		</subfield>
-		<subfield code="y">
-			To 622.
-		</subfield>
+		<subfield code="a">Arabic poetry</subfield>
+		<subfield code="y">To 622.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="7" tag="650">
-		<subfield code="a">
-			Arabic poetry.
-		</subfield>
-		<subfield code="2">
-			fast
-		</subfield>
-		<subfield code="0">
-			(OCoLC)fst00812533
-		</subfield>
+		<subfield code="a">Arabic poetry.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst00812533</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="7" tag="648">
-		<subfield code="a">
-			To 622
-		</subfield>
-		<subfield code="2">
-			fast
-		</subfield>
+		<subfield code="a">To 622</subfield>
+		<subfield code="2">fast</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="6">
-			880-04
-		</subfield>
-		<subfield code="a">
-			Idārat al-Ṭibāʻah al-Munīrīyah (Egypt)
-		</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Idārat al-Ṭibāʻah al-Munīrīyah (Egypt)</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="a">
-			Princeton University.
-		</subfield>
-		<subfield code="b">
-			Library.
-		</subfield>
+		<subfield code="a">Princeton University.</subfield>
+		<subfield code="b">Library.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="730">
-		<subfield code="a">
-			Arabic Collections Online.
-		</subfield>
+		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
-		<subfield code="i">
-			Print version:
-		</subfield>
-		<subfield code="a">
-			Tibrīzī, Yaḥyá ibn ʻAlī, -1109.
-		</subfield>
-		<subfield code="t">
-			al-Muʻallaqāt al-ʻashr wa-akhbār qāʼilīhā
-		</subfield>
-		<subfield code="w">
-			(NjP)462842
-		</subfield>
-		<subfield code="w">
-			(OCoLC)26629601
-		</subfield>
+		<subfield code="i">Print version:</subfield>
+		<subfield code="a">Tibrīzī, Yaḥyá ibn ʻAlī, -1109.</subfield>
+		<subfield code="t">al-Muʻallaqāt al-ʻashr wa-akhbār qāʼilīhā</subfield>
+		<subfield code="w">(NjP)462842</subfield>
+		<subfield code="w">(OCoLC)26629601</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">
-			http://hdl.handle.net/2333.1/6m905tcv
-		</subfield>
+		<subfield code="u">http://hdl.handle.net/2333.1/6m905tcv</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
-			100-01
-		</subfield>
-		<subfield code="a">
-			تبريزي، يحيى بن علي،
-		</subfield>
-		<subfield code="d">
-			-1109.
-		</subfield>
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">تبريزي، يحيى بن علي،</subfield>
+		<subfield code="d">-1109.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
-		<subfield code="6">
-			245-02
-		</subfield>
-		<subfield code="a">
-			المعلقات العشر واخبار قائليها /
-		</subfield>
-		<subfield code="c">
-			للامام ابي زكريا يحيى بن علي التبريزي ؛ عنيت بتصحيحها وضبطها والتعليق عليها ادارة الطباعة المنيرية.
-		</subfield>
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">المعلقات العشر واخبار قائليها /</subfield>
+		<subfield code="c">للامام ابي زكريا يحيى بن علي التبريزي ؛ عنيت بتصحيحها وضبطها والتعليق عليها ادارة الطباعة المنيرية.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">
-			260-03
-		</subfield>
-		<subfield code="a">
-			مصر :
-		</subfield>
-		<subfield code="b">
-			يطلب من مكتبة ومطبعة محمد علي صبيح،
-		</subfield>
-		<subfield code="c">
-			[1947؟]
-		</subfield>
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">يطلب من مكتبة ومطبعة محمد علي صبيح،</subfield>
+		<subfield code="c">[1947؟]</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="880">
-		<subfield code="6">
-			710-04
-		</subfield>
-		<subfield code="a">
-			ادارة الطباعة المنيرية (مصر)
-		</subfield>
+		<subfield code="6">710-04</subfield>
+		<subfield code="a">ادارة الطباعة المنيرية (مصر)</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			WEB
-		</subfield>
-		<subfield code="c">
-			GENI
-		</subfield>
-		<subfield code="t">
-			0
-		</subfield>
-		<subfield code="m">
-			Electronic access
-		</subfield>
-		<subfield code="s">
-			01
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">WEB</subfield>
+		<subfield code="c">GENI</subfield>
+		<subfield code="t">0</subfield>
+		<subfield code="m">Electronic access</subfield>
+		<subfield code="s">01</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
-		<subfield code="i">
-			NjP_462842
-		</subfield>
-		<subfield code="o">
-			(OCoLC)ocm26629601
-		</subfield>
-		<subfield code="s">
-			princeton_aco000192
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
-		</subfield>
-		<subfield code="s">
-			princeton_aco000192
-		</subfield>
+		<subfield code="i">NjP_462842</subfield>
+		<subfield code="o">(OCoLC)ocm26629601</subfield>
+		<subfield code="s">princeton_aco000192</subfield>
+		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">princeton_aco000192</subfield>
 	</datafield>
 </record>
