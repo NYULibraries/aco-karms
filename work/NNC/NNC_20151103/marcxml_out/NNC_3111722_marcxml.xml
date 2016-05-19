@@ -1,433 +1,201 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>
-		04074nam a2200577   4500
-	</leader>
-	<controlfield tag="001">
-		3111722
-	</controlfield>
-	<controlfield tag="003">
-		NNC
-	</controlfield>
-	<controlfield tag="006">
-		m        d        
-	</controlfield>
-	<controlfield tag="007">
-		cr cn |||m|||a
-	</controlfield>
-	<controlfield tag="008">
-		160224m19349999ua h    obc  f000 0 ara  
-	</controlfield>
+	<leader>     nam a22        4500</leader>
+	<controlfield tag="001">3111722</controlfield>
+	<controlfield tag="003">NNC</controlfield>
+	<controlfield tag="006">m        d        </controlfield>
+	<controlfield tag="007">cr cn |||m|||a</controlfield>
+	<controlfield tag="008">160519m19349999ua h    obc  f000 0 ara  </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			eng
-		</subfield>
-		<subfield code="e">
-			rda
-		</subfield>
-		<subfield code="c">
-			NNU
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
+		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="041">
-		<subfield code="a">
-			ara
-		</subfield>
-		<subfield code="h">
-			eng
-		</subfield>
+		<subfield code="a">ara</subfield>
+		<subfield code="h">eng</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
-		<subfield code="a">
-			f-ua---
-		</subfield>
+		<subfield code="a">f-ua---</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="050">
-		<subfield code="a">
-			PJ7596
-		</subfield>
-		<subfield code="b">
-			.D3712 1934
-		</subfield>
+		<subfield code="a">PJ7596</subfield>
+		<subfield code="b">.D3712 1934</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="082">
-		<subfield code="a">
-			011.31
-		</subfield>
-		<subfield code="b">
-			D213, A967, 1934
-		</subfield>
+		<subfield code="a">011.31</subfield>
+		<subfield code="b">D213, A967, 1934</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="110">
-		<subfield code="6">
-			880-01
-		</subfield>
-		<subfield code="a">
-			Dār al-Kutub al-Miṣrīyah.
-		</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Dār al-Kutub al-Miṣrīyah.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
-		<subfield code="a">
-			Arabic papri in the Egyptian Library.
-		</subfield>
-		<subfield code="l">
-			Arabic
-		</subfield>
+		<subfield code="a">Arabic papri in the Egyptian Library.</subfield>
+		<subfield code="l">Arabic</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="6">
-			880-02
-		</subfield>
-		<subfield code="a">
-			Awrāq al-bardī al-ʻArabīyah bi-Dār al-Kutub al-Miṣrīyah /jamaʻahāh wa-ʻallaqa ʻalayhā wa-waḍaʻahā bi-al-Injilīzīyah Adūlf Jrūhmān ; ishtaraka maʻa al-muʼallif fī naql al-kitāb ilá al-ʻArabīyah Ḥasan Ibrāhīm Ḥasan ; rājaʻa al-tarjamah ʻAbd al-Ḥamīd Ḥasan.
-		</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Awrāq al-bardī al-ʻArabīyah bi-Dār al-Kutub al-Miṣrīyah /jamaʻahāh wa-ʻallaqa ʻalayhā wa-waḍaʻahā bi-al-Injilīzīyah Adūlf Jrūhmān ; ishtaraka maʻa al-muʼallif fī naql al-kitāb ilá al-ʻArabīyah Ḥasan Ibrāhīm Ḥasan ; rājaʻa al-tarjamah ʻAbd al-Ḥamīd Ḥasan.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
-		<subfield code="6">
-			880-03
-		</subfield>
-		<subfield code="a">
-			al-Ṭabʻah 1.
-		</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Ṭabʻah 1.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">
-			880-04
-		</subfield>
-		<subfield code="a">
-			al-Qāhirah :
-		</subfield>
-		<subfield code="b">
-			Maṭbaʻat Dār al-Kutub al-Miṣrīyah,
-		</subfield>
-		<subfield code="c">
-			1934-&lt;1974&gt;
-		</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
+		<subfield code="b">Maṭbaʻat Dār al-Kutub al-Miṣrīyah,</subfield>
+		<subfield code="c">1934-&lt;1974&gt;</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="f">
-			acsims. ;
-		</subfield>
-		<subfield code="a">
-			online resource (volumes &lt;1-4, 6&gt;)
-		</subfield>
+		<subfield code="f">acsims. ;</subfield>
+		<subfield code="a">online resource (volumes &lt;1-4, 6&gt;)</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="336">
-		<subfield code="a">
-			text
-		</subfield>
-		<subfield code="2">
-			rdacontent
-		</subfield>
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="337">
-		<subfield code="a">
-			computer
-		</subfield>
-		<subfield code="2">
-			rdamedia
-		</subfield>
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="338">
-		<subfield code="a">
-			online resource
-		</subfield>
-		<subfield code="2">
-			rdacarrier
-		</subfield>
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.
-		</subfield>
+		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">
-			Includes bibliographical references.
-		</subfield>
+		<subfield code="a">Includes bibliographical references.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="505">
-		<subfield code="a">
-			Sifr 1. Baʻd al-ṭarz wa-al-wathāʼiq al-fiqhīyah -- sifr 2-3. Wathāʼiq fiqhīyah (2 v. ) -- sifr 4. Wathāʼiq idārīyah -- sifr 6. Yashtamilu ʻalá wathāʼiq iqtiṣādīyah.
-		</subfield>
+		<subfield code="a">Sifr 1. Baʻd al-ṭarz wa-al-wathāʼiq al-fiqhīyah -- sifr 2-3. Wathāʼiq fiqhīyah (2 v. ) -- sifr 4. Wathāʼiq idārīyah -- sifr 6. Yashtamilu ʻalá wathāʼiq iqtiṣādīyah.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
-		<subfield code="a">
-			Electronic reproduction.
-		</subfield>
-		<subfield code="b">
-			New York, N.Y. :
-		</subfield>
-		<subfield code="c">
-			New York University,
-		</subfield>
-		<subfield code="d">
-			2016.
-		</subfield>
-		<subfield code="5">
-			NNU
-		</subfield>
+		<subfield code="a">Electronic reproduction.</subfield>
+		<subfield code="b">New York, N.Y. :</subfield>
+		<subfield code="c">New York University,</subfield>
+		<subfield code="d">2016.</subfield>
+		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">
-			Manuscripts, Arabic (Papyri)
-		</subfield>
-		<subfield code="v">
-			Catalogs.
-		</subfield>
+		<subfield code="a">Manuscripts, Arabic (Papyri)</subfield>
+		<subfield code="v">Catalogs.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">
-			Manuscripts, Arabic (Papyri)
-		</subfield>
-		<subfield code="v">
-			Facsimiles.
-		</subfield>
+		<subfield code="a">Manuscripts, Arabic (Papyri)</subfield>
+		<subfield code="v">Facsimiles.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">
-			Manuscripts
-		</subfield>
-		<subfield code="z">
-			Egypt
-		</subfield>
-		<subfield code="v">
-			Catalogs.
-		</subfield>
+		<subfield code="a">Manuscripts</subfield>
+		<subfield code="z">Egypt</subfield>
+		<subfield code="v">Catalogs.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="7" tag="650">
-		<subfield code="a">
-			Manuscripts.
-		</subfield>
-		<subfield code="2">
-			fast
-		</subfield>
-		<subfield code="0">
-			(OCoLC)fst01008230
-		</subfield>
+		<subfield code="a">Manuscripts.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01008230</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="7" tag="650">
-		<subfield code="a">
-			Manuscripts, Arabic (Papyri)
-		</subfield>
-		<subfield code="2">
-			fast
-		</subfield>
-		<subfield code="0">
-			(OCoLC)fst01008285
-		</subfield>
+		<subfield code="a">Manuscripts, Arabic (Papyri)</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01008285</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="7" tag="651">
-		<subfield code="a">
-			Egypt.
-		</subfield>
-		<subfield code="2">
-			fast
-		</subfield>
-		<subfield code="0">
-			(OCoLC)fst01208755
-		</subfield>
+		<subfield code="a">Egypt.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01208755</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="7" tag="655">
-		<subfield code="a">
-			Catalogs.
-		</subfield>
-		<subfield code="2">
-			fast
-		</subfield>
-		<subfield code="0">
-			(OCoLC)fst01423692
-		</subfield>
+		<subfield code="a">Catalogs.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01423692</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="7" tag="655">
-		<subfield code="a">
-			Facsimiles.
-		</subfield>
-		<subfield code="2">
-			fast
-		</subfield>
-		<subfield code="0">
-			(OCoLC)fst01411642
-		</subfield>
+		<subfield code="a">Facsimiles.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01411642</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">
-			880-05
-		</subfield>
-		<subfield code="a">
-			Grohmann, Adolf,
-		</subfield>
-		<subfield code="d">
-			1887-
-		</subfield>
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Grohmann, Adolf,</subfield>
+		<subfield code="d">1887-</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">
-			880-06
-		</subfield>
-		<subfield code="a">
-			Ḥasan, Ḥasan Ibrāhīm.
-		</subfield>
+		<subfield code="6">880-06</subfield>
+		<subfield code="a">Ḥasan, Ḥasan Ibrāhīm.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="a">
-			Columbia University.
-		</subfield>
-		<subfield code="b">
-			Libraries.
-		</subfield>
+		<subfield code="a">Columbia University.</subfield>
+		<subfield code="b">Libraries.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="730">
-		<subfield code="a">
-			Arabic Collections Online.
-		</subfield>
+		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
-		<subfield code="i">
-			Online version:
-		</subfield>
-		<subfield code="a">
-			Dār al-Kutub al-Miṣrīyah.
-		</subfield>
-		<subfield code="s">
-			Arabic papri in the Egyptian Library. Arabic.
-		</subfield>
-		<subfield code="t">
-			Awrāq al-bardī al-ʻArabīyah bi-Dār al-Kutub al-Miṣrīyah /jamaʻahāh wa-ʻallaqa ʻalayhā wa-waḍaʻahā bi-al-Injilīzīyah Adūlf Jrūhmān ; ishtaraka maʻa al-muʼallif fī naql al-kitāb ilá al-ʻArabīyah Ḥasan Ibrāhīm Ḥasan ; rājaʻa al-tarjamah ʻAbd al-Ḥamīd Ḥasan.
-		</subfield>
-		<subfield code="b">
-			al-Ṭabʻah 1.
-		</subfield>
-		<subfield code="d">
-			al-Qāhirah : Maṭbaʻat Dār al-Kutub al-Miṣrīyah, 1934-&lt;1974&gt;
-		</subfield>
-		<subfield code="w">
-			(OCoLC)682391616
-		</subfield>
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">Dār al-Kutub al-Miṣrīyah.</subfield>
+		<subfield code="s">Arabic papri in the Egyptian Library. Arabic.</subfield>
+		<subfield code="t">Awrāq al-bardī al-ʻArabīyah bi-Dār al-Kutub al-Miṣrīyah /jamaʻahāh wa-ʻallaqa ʻalayhā wa-waḍaʻahā bi-al-Injilīzīyah Adūlf Jrūhmān ; ishtaraka maʻa al-muʼallif fī naql al-kitāb ilá al-ʻArabīyah Ḥasan Ibrāhīm Ḥasan ; rājaʻa al-tarjamah ʻAbd al-Ḥamīd Ḥasan.</subfield>
+		<subfield code="b">al-Ṭabʻah 1.</subfield>
+		<subfield code="d">al-Qāhirah : Maṭbaʻat Dār al-Kutub al-Miṣrīyah, 1934-&lt;1974&gt;</subfield>
+		<subfield code="w">(OCoLC)682391616</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
-		<subfield code="i">
-			Print version:
-		</subfield>
-		<subfield code="a">
-			Dār al-Kutub al-Miṣrīyah.
-		</subfield>
-		<subfield code="t">
-			Awrāq al-bardī al-ʻArabīyah bi-Dār al-Kutub al-Miṣrīyah /jamaʻahāh wa-ʻallaqa ʻalayhā wa-waḍaʻahā bi-al-Injilīzīyah Adūlf Jrūhmān ; ishtaraka maʻa al-muʼallif fī naql al-kitāb ilá al-ʻArabīyah Ḥasan Ibrāhīm Ḥasan ; rājaʻa al-tarjamah ʻAbd al-Ḥamīd Ḥasan
-		</subfield>
-		<subfield code="w">
-			(NNC)3111722
-		</subfield>
-		<subfield code="w">
-			(DLC)ne 68002072 
-		</subfield>
-		<subfield code="w">
-			(OCoLC)35743157
-		</subfield>
+		<subfield code="i">Print version:</subfield>
+		<subfield code="a">Dār al-Kutub al-Miṣrīyah.</subfield>
+		<subfield code="t">Awrāq al-bardī al-ʻArabīyah bi-Dār al-Kutub al-Miṣrīyah /jamaʻahāh wa-ʻallaqa ʻalayhā wa-waḍaʻahā bi-al-Injilīzīyah Adūlf Jrūhmān ; ishtaraka maʻa al-muʼallif fī naql al-kitāb ilá al-ʻArabīyah Ḥasan Ibrāhīm Ḥasan ; rājaʻa al-tarjamah ʻAbd al-Ḥamīd Ḥasan</subfield>
+		<subfield code="w">(NNC)3111722</subfield>
+		<subfield code="w">(DLC)ne 68002072 </subfield>
+		<subfield code="w">(OCoLC)35743157</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">
-			http://hdl.handle.net/2333.1/x95x6dxt
-		</subfield>
+		<subfield code="u">http://hdl.handle.net/2333.1/x95x6dxt</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="880">
-		<subfield code="6">
-			110-01
-		</subfield>
-		<subfield code="a">
-			دار الكتب المصرية.
-		</subfield>
+		<subfield code="6">110-01</subfield>
+		<subfield code="a">دار الكتب المصرية.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">
-			245-02
-		</subfield>
-		<subfield code="a">
-			أوراق البردى العربية بدار الكتب المصرية /
-		</subfield>
-		<subfield code="c">
-			جمعها وعلق عليها ووضعها بالانجليزية أدولف جروهمان ؛ اشترك مع المؤلف في نقل الكتاب الى العربية حسن ابراهيم حسن ؛ راجع الترجمة عبد الحميد حسن.
-		</subfield>
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">أوراق البردى العربية بدار الكتب المصرية /</subfield>
+		<subfield code="c">جمعها وعلق عليها ووضعها بالانجليزية أدولف جروهمان ؛ اشترك مع المؤلف في نقل الكتاب الى العربية حسن ابراهيم حسن ؛ راجع الترجمة عبد الحميد حسن.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">
-			250-03
-		</subfield>
-		<subfield code="a">
-			الطبعة 1.
-		</subfield>
+		<subfield code="6">250-03</subfield>
+		<subfield code="a">الطبعة 1.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">
-			260-04
-		</subfield>
-		<subfield code="a">
-			القاهرة :
-		</subfield>
-		<subfield code="b">
-			مطبعة دار الكتب المصرية،
-		</subfield>
-		<subfield code="c">
-			1934-&lt;1974&gt;.
-		</subfield>
+		<subfield code="6">260-04</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">مطبعة دار الكتب المصرية،</subfield>
+		<subfield code="c">1934-&lt;1974&gt;.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
-			700-05
-		</subfield>
-		<subfield code="a">
-			جروهمان، ادولف،
-		</subfield>
-		<subfield code="d">
-			1887-
-		</subfield>
+		<subfield code="6">700-05</subfield>
+		<subfield code="a">جروهمان، ادولف،</subfield>
+		<subfield code="d">1887-</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
-			700-06
-		</subfield>
-		<subfield code="a">
-			حسن، حسن ابراهيم.
-		</subfield>
+		<subfield code="6">700-06</subfield>
+		<subfield code="a">حسن، حسن ابراهيم.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			WEB
-		</subfield>
-		<subfield code="c">
-			GENI
-		</subfield>
-		<subfield code="t">
-			0
-		</subfield>
-		<subfield code="m">
-			Electronic access
-		</subfield>
-		<subfield code="s">
-			01
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">WEB</subfield>
+		<subfield code="c">GENI</subfield>
+		<subfield code="t">0</subfield>
+		<subfield code="m">Electronic access</subfield>
+		<subfield code="s">01</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
-		<subfield code="i">
-			NNC_3111722
-		</subfield>
-		<subfield code="o">
-			(OCoLC)ocm35743157
-		</subfield>
-		<subfield code="s">
-			columbia_aco001448
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
-		</subfield>
-		<subfield code="s">
-			columbia_aco001448
-		</subfield>
+		<subfield code="i">NNC_3111722</subfield>
+		<subfield code="o">(OCoLC)ocm35743157</subfield>
+		<subfield code="s">columbia_aco001448</subfield>
+		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001448</subfield>
 	</datafield>
 </record>

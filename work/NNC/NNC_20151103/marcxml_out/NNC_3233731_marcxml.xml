@@ -1,411 +1,183 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>
-		03565nam a2200481   4500
-	</leader>
-	<controlfield tag="001">
-		3233731
-	</controlfield>
-	<controlfield tag="003">
-		NNC
-	</controlfield>
-	<controlfield tag="006">
-		m        d        
-	</controlfield>
-	<controlfield tag="007">
-		cr cn |||m|||a
-	</controlfield>
-	<controlfield tag="008">
-		160223m19311933ua h    o     000 0dara  
-	</controlfield>
+	<leader>     nam a22        4500</leader>
+	<controlfield tag="001">3233731</controlfield>
+	<controlfield tag="003">NNC</controlfield>
+	<controlfield tag="006">m        d        </controlfield>
+	<controlfield tag="007">cr cn |||m|||a</controlfield>
+	<controlfield tag="008">160519m19311933ua h    o     000 0dara  </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			eng
-		</subfield>
-		<subfield code="e">
-			rda
-		</subfield>
-		<subfield code="c">
-			NNU
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
+		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
-		<subfield code="a">
-			a------
-		</subfield>
-		<subfield code="a">
-			f------
-		</subfield>
+		<subfield code="a">a------</subfield>
+		<subfield code="a">f------</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="050">
-		<subfield code="a">
-			DS234
-		</subfield>
-		<subfield code="b">
-			.I116
-		</subfield>
+		<subfield code="a">DS234</subfield>
+		<subfield code="b">.I116</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="060">
-		<subfield code="a">
-			WZ 290
-		</subfield>
-		<subfield code="b">
-			I126s 1931
-		</subfield>
+		<subfield code="a">WZ 290</subfield>
+		<subfield code="b">I126s 1931</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="6">
-			880-01
-		</subfield>
-		<subfield code="a">
-			Ibn al-ʻImād, ʻAbd al-Ḥayy ibn Aḥmad,
-		</subfield>
-		<subfield code="d">
-			1623-1679.
-		</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Ibn al-ʻImād, ʻAbd al-Ḥayy ibn Aḥmad,</subfield>
+		<subfield code="d">1623-1679.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="6">
-			880-02
-		</subfield>
-		<subfield code="a">
-			Shadharāt al-dhahab fī akhbār man dhahab /
-		</subfield>
-		<subfield code="c">
-			li-Abī al-Fallāḥ ʻAbd al-Ḥayy ibn al-ʻImād al-Ḥanbalī ; ʻan nuskhat al-muṣannaf al-maḥfūẓah fī Dār al-Kutub al-Miṣrīyah al-ʻĀmirah, maʻa muqābilah baʻḍuhā bi-nuskhatayn fī al-Dār ayḍan, baʻduhā bi-nuskhat al-Amīr ʻAbd al-Qādir al-Jazāʼirī.
-		</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Shadharāt al-dhahab fī akhbār man dhahab /</subfield>
+		<subfield code="c">li-Abī al-Fallāḥ ʻAbd al-Ḥayy ibn al-ʻImād al-Ḥanbalī ; ʻan nuskhat al-muṣannaf al-maḥfūẓah fī Dār al-Kutub al-Miṣrīyah al-ʻĀmirah, maʻa muqābilah baʻḍuhā bi-nuskhatayn fī al-Dār ayḍan, baʻduhā bi-nuskhat al-Amīr ʻAbd al-Qādir al-Jazāʼirī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">
-			880-03
-		</subfield>
-		<subfield code="a">
-			[al-Qāhirah] :
-		</subfield>
-		<subfield code="b">
-			Maktabat al-Qudsī,
-		</subfield>
-		<subfield code="c">
-			1350-1351 [1931 or 1932-1932 or 33]
-		</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[al-Qāhirah] :</subfield>
+		<subfield code="b">Maktabat al-Qudsī,</subfield>
+		<subfield code="c">1350-1351 [1931 or 1932-1932 or 33]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">
-			online resource (8 v. in 4)
-		</subfield>
+		<subfield code="a">online resource (8 v. in 4)</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="336">
-		<subfield code="a">
-			text
-		</subfield>
-		<subfield code="2">
-			rdacontent
-		</subfield>
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="337">
-		<subfield code="a">
-			computer
-		</subfield>
-		<subfield code="2">
-			rdamedia
-		</subfield>
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="338">
-		<subfield code="a">
-			online resource
-		</subfield>
-		<subfield code="2">
-			rdacarrier
-		</subfield>
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.
-		</subfield>
+		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="505">
-		<subfield code="a">
-			juzʼ 1. Sanat 1-200 H. -- juzʼ 2. Sanat 201-349 H. -- juzʼ 3. Sanat 350-500 H. -- juzʼ 4. Sanat 501-600 H. -- juzʼ 5. Sanat 601-700 H. --juzʼ 6. Sanat 701-800 H. -- juzʼ 7. Sanat 801-900 H. -- juzʼ 8. Sanat 901-1000 H.
-		</subfield>
+		<subfield code="a">juzʼ 1. Sanat 1-200 H. -- juzʼ 2. Sanat 201-349 H. -- juzʼ 3. Sanat 350-500 H. -- juzʼ 4. Sanat 501-600 H. -- juzʼ 5. Sanat 601-700 H. --juzʼ 6. Sanat 701-800 H. -- juzʼ 7. Sanat 801-900 H. -- juzʼ 8. Sanat 901-1000 H.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
-		<subfield code="a">
-			Electronic reproduction.
-		</subfield>
-		<subfield code="b">
-			New York, N.Y. :
-		</subfield>
-		<subfield code="c">
-			New York University,
-		</subfield>
-		<subfield code="d">
-			2016.
-		</subfield>
-		<subfield code="5">
-			NNU
-		</subfield>
+		<subfield code="a">Electronic reproduction.</subfield>
+		<subfield code="b">New York, N.Y. :</subfield>
+		<subfield code="c">New York University,</subfield>
+		<subfield code="d">2016.</subfield>
+		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="650">
-		<subfield code="a">
-			Islam
-		</subfield>
-		<subfield code="v">
-			Biography.
-		</subfield>
+		<subfield code="a">Islam</subfield>
+		<subfield code="v">Biography.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2="2" tag="650">
-		<subfield code="a">
-			Arab World
-		</subfield>
-		<subfield code="v">
-			Biography.
-		</subfield>
+		<subfield code="a">Arab World</subfield>
+		<subfield code="v">Biography.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">
-			Muslims
-		</subfield>
-		<subfield code="v">
-			Biography.
-		</subfield>
+		<subfield code="a">Muslims</subfield>
+		<subfield code="v">Biography.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
-		<subfield code="a">
-			Islamic countries
-		</subfield>
-		<subfield code="x">
-			History
-		</subfield>
-		<subfield code="v">
-			Chronology.
-		</subfield>
+		<subfield code="a">Islamic countries</subfield>
+		<subfield code="x">History</subfield>
+		<subfield code="v">Chronology.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="7" tag="650">
-		<subfield code="a">
-			Muslims.
-		</subfield>
-		<subfield code="2">
-			fast
-		</subfield>
-		<subfield code="0">
-			(OCoLC)fst01031029
-		</subfield>
+		<subfield code="a">Muslims.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01031029</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="7" tag="651">
-		<subfield code="a">
-			Islamic countries.
-		</subfield>
-		<subfield code="2">
-			fast
-		</subfield>
-		<subfield code="0">
-			(OCoLC)fst01244130
-		</subfield>
+		<subfield code="a">Islamic countries.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01244130</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="7" tag="655">
-		<subfield code="a">
-			Biography.
-		</subfield>
-		<subfield code="2">
-			fast
-		</subfield>
-		<subfield code="0">
-			(OCoLC)fst01423686
-		</subfield>
+		<subfield code="a">Biography.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01423686</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="7" tag="655">
-		<subfield code="a">
-			Chronologies.
-		</subfield>
-		<subfield code="2">
-			fast
-		</subfield>
-		<subfield code="0">
-			(OCoLC)fst01423901
-		</subfield>
+		<subfield code="a">Chronologies.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01423901</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="7" tag="655">
-		<subfield code="a">
-			History.
-		</subfield>
-		<subfield code="2">
-			fast
-		</subfield>
-		<subfield code="0">
-			(OCoLC)fst01411628
-		</subfield>
+		<subfield code="a">History.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01411628</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="a">
-			Columbia University.
-		</subfield>
-		<subfield code="b">
-			Libraries.
-		</subfield>
+		<subfield code="a">Columbia University.</subfield>
+		<subfield code="b">Libraries.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="730">
-		<subfield code="a">
-			Arabic Collections Online.
-		</subfield>
+		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
-		<subfield code="i">
-			Online version:
-		</subfield>
-		<subfield code="a">
-			Ibn al-ʻImād, ʻAbd al-Ḥayy ibn Aḥmad, 1623-1679.
-		</subfield>
-		<subfield code="t">
-			Shadharāt al-dhahab fī akhbār man dhahab.
-		</subfield>
-		<subfield code="d">
-			al-Qāhirah, Maktabat al-Qudsī, 1350-1351 [1931/32-32/33]
-		</subfield>
-		<subfield code="w">
-			(OCoLC)654429780
-		</subfield>
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">Ibn al-ʻImād, ʻAbd al-Ḥayy ibn Aḥmad, 1623-1679.</subfield>
+		<subfield code="t">Shadharāt al-dhahab fī akhbār man dhahab.</subfield>
+		<subfield code="d">al-Qāhirah, Maktabat al-Qudsī, 1350-1351 [1931/32-32/33]</subfield>
+		<subfield code="w">(OCoLC)654429780</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
-		<subfield code="i">
-			Print version:
-		</subfield>
-		<subfield code="a">
-			Ibn al-ʻImād, ʻAbd al-Ḥayy ibn Aḥmad, 1623-1679.
-		</subfield>
-		<subfield code="t">
-			Shadharāt al-dhahab fī akhbār man dhahab
-		</subfield>
-		<subfield code="w">
-			(NNC)3233731
-		</subfield>
-		<subfield code="w">
-			(DLC)ne 66001659 
-		</subfield>
-		<subfield code="w">
-			(OCoLC)22865694
-		</subfield>
+		<subfield code="i">Print version:</subfield>
+		<subfield code="a">Ibn al-ʻImād, ʻAbd al-Ḥayy ibn Aḥmad, 1623-1679.</subfield>
+		<subfield code="t">Shadharāt al-dhahab fī akhbār man dhahab</subfield>
+		<subfield code="w">(NNC)3233731</subfield>
+		<subfield code="w">(DLC)ne 66001659 </subfield>
+		<subfield code="w">(OCoLC)22865694</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">
-			http://hdl.handle.net/2333.1/34tmpk70
-		</subfield>
+		<subfield code="u">http://hdl.handle.net/2333.1/34tmpk70</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
-			100-01/r
-		</subfield>
-		<subfield code="a">
-			ابن العماد، عبد الحي بن احمد،,
-		</subfield>
-		<subfield code="d">
-			1623-1679.
-		</subfield>
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">ابن العماد، عبد الحي بن احمد،,</subfield>
+		<subfield code="d">1623-1679.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">
-			245-02/r
-		</subfield>
-		<subfield code="a">
-			شذرات الذهب في اخبار من ذهب /
-		</subfield>
-		<subfield code="c">
-			لابي الفلاح عبد الحي بن العماد الحنبلي ؛ عن نسخة المصنف المحفوظة في دار الكتب المصرية العامرة، مع مقابلة بعضها بنسختين في الدار ايضن، بعدها بنسخة الامير عبد القادر الجزائري.
-		</subfield>
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">شذرات الذهب في اخبار من ذهب /</subfield>
+		<subfield code="c">لابي الفلاح عبد الحي بن العماد الحنبلي ؛ عن نسخة المصنف المحفوظة في دار الكتب المصرية العامرة، مع مقابلة بعضها بنسختين في الدار ايضن، بعدها بنسخة الامير عبد القادر الجزائري.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">
-			260-03/r
-		</subfield>
-		<subfield code="a">
-			[القاهرة] :
-		</subfield>
-		<subfield code="b">
-			مكتبة القدسي،
-		</subfield>
-		<subfield code="c">
-			1350-1351 [1931 او 1932-1932 او 33]
-		</subfield>
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">مكتبة القدسي،</subfield>
+		<subfield code="c">1350-1351 [1931 او 1932-1932 او 33]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			WEB
-		</subfield>
-		<subfield code="c">
-			GENI
-		</subfield>
-		<subfield code="t">
-			0
-		</subfield>
-		<subfield code="m">
-			Electronic access
-		</subfield>
-		<subfield code="s">
-			01
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">WEB</subfield>
+		<subfield code="c">GENI</subfield>
+		<subfield code="t">0</subfield>
+		<subfield code="m">Electronic access</subfield>
+		<subfield code="s">01</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
-		<subfield code="i">
-			NNC_3233731
-		</subfield>
-		<subfield code="o">
-			(OCoLC)ocm22865694
-		</subfield>
-		<subfield code="s">
-			columbia_aco001454:v.1
-		</subfield>
-		<subfield code="s">
-			columbia_aco001455:v.2
-		</subfield>
-		<subfield code="s">
-			columbia_aco001456:v.3
-		</subfield>
-		<subfield code="s">
-			columbia_aco001457:v.4
-		</subfield>
-		<subfield code="s">
-			columbia_aco001458:v.5
-		</subfield>
-		<subfield code="s">
-			columbia_aco001459:v.6
-		</subfield>
-		<subfield code="s">
-			columbia_aco001460:v.7
-		</subfield>
-		<subfield code="s">
-			columbia_aco001461:v.8
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
-		</subfield>
-		<subfield code="s">
-			columbia_aco001454:v.1
-		</subfield>
-		<subfield code="s">
-			columbia_aco001455:v.2
-		</subfield>
-		<subfield code="s">
-			columbia_aco001456:v.3
-		</subfield>
-		<subfield code="s">
-			columbia_aco001457:v.4
-		</subfield>
-		<subfield code="s">
-			columbia_aco001458:v.5
-		</subfield>
-		<subfield code="s">
-			columbia_aco001459:v.6
-		</subfield>
-		<subfield code="s">
-			columbia_aco001460:v.7
-		</subfield>
-		<subfield code="s">
-			columbia_aco001461:v.8
-		</subfield>
+		<subfield code="i">NNC_3233731</subfield>
+		<subfield code="o">(OCoLC)ocm22865694</subfield>
+		<subfield code="s">columbia_aco001454:v.1</subfield>
+		<subfield code="s">columbia_aco001455:v.2</subfield>
+		<subfield code="s">columbia_aco001456:v.3</subfield>
+		<subfield code="s">columbia_aco001457:v.4</subfield>
+		<subfield code="s">columbia_aco001458:v.5</subfield>
+		<subfield code="s">columbia_aco001459:v.6</subfield>
+		<subfield code="s">columbia_aco001460:v.7</subfield>
+		<subfield code="s">columbia_aco001461:v.8</subfield>
+		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001454:v.1</subfield>
+		<subfield code="s">columbia_aco001455:v.2</subfield>
+		<subfield code="s">columbia_aco001456:v.3</subfield>
+		<subfield code="s">columbia_aco001457:v.4</subfield>
+		<subfield code="s">columbia_aco001458:v.5</subfield>
+		<subfield code="s">columbia_aco001459:v.6</subfield>
+		<subfield code="s">columbia_aco001460:v.7</subfield>
+		<subfield code="s">columbia_aco001461:v.8</subfield>
 	</datafield>
 </record>
