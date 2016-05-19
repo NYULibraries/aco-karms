@@ -1,0 +1,123 @@
+Records containing SERIES errors - batch NjP_20160504
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2016-05-19 19:35:43.665849
+---------------------------------------------------------------------
+FILE: NjP_20160504_1/NjP_20160504_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NjP_1474823
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn176849811
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm42899488
+   orig_rec_035 num: =035  \\$a(OCoLC)176849811
+   orig_rec_035 num: =035  \\$9CEN0112TS
+   orig_rec_035 num: =035  \\$a(NjP)1474823
+Record 999:  1474823
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - Feraoun, Mouloud.
+   246 - Fils du pauvre
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-03 Wizārat al-Thaqāfah wa-al-Irshād al-Qawmī. Mudīrīyat al-Taʼlīf wa-al-Tarjamah. Silsilat al-adab al-Jazāʼirī, 6
+040 $e field: [none]
+Source entities (book IDs): princeton_aco000460
+---------------------------------------------------------------------
+Institution ID: NjP_1480355
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn782071118
+   orig_rec_035 num: =035  \\$a(CStRLIN)RLINGEAC00570792-B
+   orig_rec_035 num: =035  \\$9CEN5730TS
+   orig_rec_035 num: =035  \\$a(OCoLC)782071118
+Record 999:  1480355
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Psychologie d'Avicenne et ses analogies dans la psychologie moderne.
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Intishārāt-i Dānishgāh-i Tihrān ; 203
+040 $e field: [none]
+Source entities (book IDs): princeton_aco000471
+---------------------------------------------------------------------
+Institution ID: NjP_2739821
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn178035135
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm09108338
+   orig_rec_035 num: =035  \\$a(OCoLC)178035135
+   orig_rec_035 num: =035  \\$9CNC9022TS
+   orig_rec_035 num: =035  \\$a(NjP)2739821
+Record 999:  2739821
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Jāmiʻat Fuʼād al-Awwal.  Kullīyat al-Ādāb. Maṭbūʻ, raqm 26
+040 $e field: [none]
+Source entities (book IDs): princeton_aco000493:pt.1, princeton_aco000494:pt.4, princeton_aco000495:pt.1
+---------------------------------------------------------------------
+Institution ID: NjP_2740018
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn178037174
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm09181329
+   orig_rec_035 num: =035  \\$a(OCoLC)178037174
+   orig_rec_035 num: =035  \\$9CNC9277TS
+   orig_rec_035 num: =035  \\$a(NjP)2740018
+Record 999:  2740018
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 fī sabīl fahm al-falsafah al-Islāmīyah, Mushkilat al-Wujūd, 1
+040 $e field: [none]
+Source entities (book IDs): princeton_aco000557:vol.1
+---------------------------------------------------------------------
+Institution ID: NjP_2768604
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm30770226
+   orig_rec_035 num: =035  \\$9CNG4954TS
+Record 999:  NjP_2768604
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Khulāṣat al-fikr al-Ūrubbī. Silsilat al-falāsifah
+040 $e field: [none]
+Source entities (book IDs): princeton_aco000561
+---------------------------------------------------------------------
+Institution ID: NjP_2924261
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm22753500
+   orig_rec_035 num: =035  \\$9CPF1466TS
+Record 999:  NjP_2924261
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Silsilat rawāʾiʻ al-adab al-sharqī, 2
+040 $e field: [none]
+Source entities (book IDs): princeton_aco000503
+---------------------------------------------------------------------
+Institution ID: NjP_401359
+   orig_rec_035 num: =035  \\$a(OCoLC)22321514
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG87-B48348
+   orig_rec_035 num: =035  \\$9ABX6858TS
+Record 999:  NjP_401359
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Ḥadīth al-shahr ; 10
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): princeton_aco000549
+---------------------------------------------------------------------
+Institution ID: NjP_470265
+   orig_rec_035 num: =035  \\$a(OCoLC)40556227
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG88-B49169
+   orig_rec_035 num: =035  \\$9ACE5934TS
+Record 999:  NjP_470265
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): al-Silsilah al-masraḥīyah, 4
+040 $e field: [none]
+Source entities (book IDs): princeton_aco000459
+---------------------------------------------------------------------
+Institution ID: NjP_984356
+   orig_rec_035 num: =035  \\$a(OCoLC)32861564
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG95-B39091
+   orig_rec_035 num: =035  \\$9CBV2684TS
+Record 999:  NjP_984356
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): ʻAlá mustawá al-naqd al-muqāran ; 1
+040 $e field: [none]
+Source entities (book IDs): princeton_aco000498
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NjP_20160504_1/NjP_20160504_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 9
+
