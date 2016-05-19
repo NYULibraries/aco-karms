@@ -1,322 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>
-		02473nam a2200469   4500
-	</leader>
-	<controlfield tag="001">
-		783834
-	</controlfield>
-	<controlfield tag="003">
-		NNC
-	</controlfield>
-	<controlfield tag="006">
-		m        d        
-	</controlfield>
-	<controlfield tag="007">
-		cr cn |||m|||a
-	</controlfield>
-	<controlfield tag="008">
-		151124s1983    ir fh   ob    000 0 araod
-	</controlfield>
+	<leader>     nam a22        4500</leader>
+	<controlfield tag="001">783834</controlfield>
+	<controlfield tag="003">NNC</controlfield>
+	<controlfield tag="006">m        d        </controlfield>
+	<controlfield tag="007">cr cn |||m|||a</controlfield>
+	<controlfield tag="008">160519s1983    ir fh   ob    000 0 araod</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			eng
-		</subfield>
-		<subfield code="e">
-			rda
-		</subfield>
-		<subfield code="c">
-			NNU
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
+		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="041">
-		<subfield code="a">
-			ara
-		</subfield>
-		<subfield code="a">
-			per
-		</subfield>
+		<subfield code="a">ara</subfield>
+		<subfield code="a">per</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="245">
-		<subfield code="6">
-			880-01
-		</subfield>
-		<subfield code="a">
-			Lisān al-tanzīl :
-		</subfield>
-		<subfield code="b">
-			zabān-i Qurʼān : taʼlīf-i qarn-i chahārum yā panjum-i Hijrī : bi-inz̤imām-i farhang-i lughāt /
-		</subfield>
-		<subfield code="c">
-			bi-ihtimām-i Mahdī Muḥaqqiq.
-		</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Lisān al-tanzīl :</subfield>
+		<subfield code="b">zabān-i Qurʼān : taʼlīf-i qarn-i chahārum yā panjum-i Hijrī : bi-inz̤imām-i farhang-i lughāt /</subfield>
+		<subfield code="c">bi-ihtimām-i Mahdī Muḥaqqiq.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
-		<subfield code="a">
-			Lesan āl-tanzil
-		</subfield>
+		<subfield code="a">Lesan āl-tanzil</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
-		<subfield code="6">
-			880-02
-		</subfield>
-		<subfield code="a">
-			Chāp-i 2. [i.e. 3].
-		</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Chāp-i 2. [i.e. 3].</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">
-			880-03
-		</subfield>
-		<subfield code="a">
-			[Tehran] :
-		</subfield>
-		<subfield code="b">
-			Markaz-i Intishārāt-i ʻIlmī va Farhangī, vābastah bih Vizārat-i Farhang va Āmūzish-i ʻĀlī,
-		</subfield>
-		<subfield code="c">
-			1983.
-		</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[Tehran] :</subfield>
+		<subfield code="b">Markaz-i Intishārāt-i ʻIlmī va Farhangī, vābastah bih Vizārat-i Farhang va Āmūzish-i ʻĀlī,</subfield>
+		<subfield code="c">1983.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">
-			online resource (35, 389, [2] pages of plates) :
-		</subfield>
-		<subfield code="b">
-			facsimiles
-		</subfield>
+		<subfield code="a">online resource (35, 389, [2] pages of plates) :</subfield>
+		<subfield code="b">facsimiles</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="336">
-		<subfield code="a">
-			text
-		</subfield>
-		<subfield code="2">
-			rdacontent
-		</subfield>
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="337">
-		<subfield code="a">
-			computer
-		</subfield>
-		<subfield code="2">
-			rdamedia
-		</subfield>
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="338">
-		<subfield code="a">
-			online resource
-		</subfield>
-		<subfield code="2">
-			rdacarrier
-		</subfield>
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
-		<subfield code="6">
-			880-04
-		</subfield>
-		<subfield code="a">
-			Majmūʻah-ʼi mīrās̲-i Īrān va Islām
-		</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Majmūʻah-ʼi mīrās̲-i Īrān va Islām</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Arabic and Persian.
-		</subfield>
+		<subfield code="a">Arabic and Persian.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Title on added t.p.: Lesan āl-tanzil.
-		</subfield>
+		<subfield code="a">Title on added t.p.: Lesan āl-tanzil.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.
-		</subfield>
+		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">
-			Includes bibliographical references.
-		</subfield>
+		<subfield code="a">Includes bibliographical references.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
-		<subfield code="a">
-			Electronic reproduction.
-		</subfield>
-		<subfield code="b">
-			New York, N.Y. :
-		</subfield>
-		<subfield code="c">
-			New York University,
-		</subfield>
-		<subfield code="d">
-			2015.
-		</subfield>
-		<subfield code="5">
-			NNU
-		</subfield>
+		<subfield code="a">Electronic reproduction.</subfield>
+		<subfield code="b">New York, N.Y. :</subfield>
+		<subfield code="c">New York University,</subfield>
+		<subfield code="d">2016.</subfield>
+		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="630">
-		<subfield code="a">
-			Qurʼan.
-		</subfield>
+		<subfield code="a">Qurʼan.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="7" tag="630">
-		<subfield code="a">
-			Qurʼan.
-		</subfield>
-		<subfield code="2">
-			fast
-		</subfield>
-		<subfield code="0">
-			(OCoLC)fst01842877
-		</subfield>
+		<subfield code="a">Qurʼan.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01842877</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">
-			880-05
-		</subfield>
-		<subfield code="a">
-			Muḥaqqiq, Mahdī.
-		</subfield>
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Muḥaqqiq, Mahdī.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="a">
-			Columbia University.
-		</subfield>
-		<subfield code="b">
-			Libraries.
-		</subfield>
+		<subfield code="a">Columbia University.</subfield>
+		<subfield code="b">Libraries.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="730">
-		<subfield code="a">
-			Arabic Collections Online.
-		</subfield>
+		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
-		<subfield code="i">
-			Print version:
-		</subfield>
-		<subfield code="t">
-			Lisān al-tanzīl
-		</subfield>
-		<subfield code="w">
-			(NNC)783834
-		</subfield>
-		<subfield code="w">
-			(OCoLC)21241062
-		</subfield>
+		<subfield code="i">Print version:</subfield>
+		<subfield code="t">Lisān al-tanzīl</subfield>
+		<subfield code="w">(NNC)783834</subfield>
+		<subfield code="w">(OCoLC)21241062</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="6">
-			880-06
-		</subfield>
-		<subfield code="a">
-			Majmūʻah-ʼi mīrās̲-i Īrān va Islām.
-		</subfield>
+		<subfield code="6">880-06</subfield>
+		<subfield code="a">Majmūʻah-ʼi mīrās̲-i Īrān va Islām.</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">
-			http://hdl.handle.net/2333.1/z612jpwx
-		</subfield>
+		<subfield code="u">http://hdl.handle.net/2333.1/z612jpwx</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="880">
-		<subfield code="6">
-			245-01/r
-		</subfield>
-		<subfield code="a">
-			لسان التنزىل :
-		</subfield>
-		<subfield code="b">
-			زبان قرآن : تألىف قرن چهارم ىا پنجم هجرى : بانضمام فرهنگ لغات /
-		</subfield>
-		<subfield code="c">
-			باهتمام مهدى محقق.
-		</subfield>
+		<subfield code="6">245-01/r</subfield>
+		<subfield code="a">لسان التنزىل :</subfield>
+		<subfield code="b">زبان قرآن : تألىف قرن چهارم ىا پنجم هجرى : بانضمام فرهنگ لغات /</subfield>
+		<subfield code="c">باهتمام مهدى محقق.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">
-			250-02/r
-		</subfield>
-		<subfield code="a">
-			چاپ 2. [ا.. 3].
-		</subfield>
+		<subfield code="6">250-02/r</subfield>
+		<subfield code="a">چاپ 2. [ا.. 3].</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">
-			260-03/r
-		</subfield>
-		<subfield code="a">
-			[طهران] :
-		</subfield>
-		<subfield code="b">
-			مرکز انتشارات علمى و فرهنگى، وابسته به وزارت فرهنگ و آموزش عالى،
-		</subfield>
-		<subfield code="c">
-			1983.
-		</subfield>
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[طهران] :</subfield>
+		<subfield code="b">مرکز انتشارات علمى و فرهنگى، وابسته به وزارت فرهنگ و آموزش عالى،</subfield>
+		<subfield code="c">1983.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
-			490-04/r
-		</subfield>
-		<subfield code="a">
-			مجموعه ميراث ايران و اسلام
-		</subfield>
+		<subfield code="6">490-04/r</subfield>
+		<subfield code="a">مجموعه ميراث ايران و اسلام</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
-			700-05/r
-		</subfield>
-		<subfield code="a">
-			محقق، مهدى.
-		</subfield>
+		<subfield code="6">700-05/r</subfield>
+		<subfield code="a">محقق، مهدى.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
-		<subfield code="6">
-			830-06/r
-		</subfield>
-		<subfield code="a">
-			مجموعه ميراث ايران و اسلام.
-		</subfield>
+		<subfield code="6">830-06/r</subfield>
+		<subfield code="a">مجموعه ميراث ايران و اسلام.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			WEB
-		</subfield>
-		<subfield code="c">
-			GENI
-		</subfield>
-		<subfield code="t">
-			0
-		</subfield>
-		<subfield code="m">
-			Electronic access
-		</subfield>
-		<subfield code="s">
-			01
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">WEB</subfield>
+		<subfield code="c">GENI</subfield>
+		<subfield code="t">0</subfield>
+		<subfield code="m">Electronic access</subfield>
+		<subfield code="s">01</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
-		<subfield code="i">
-			NNC_783834
-		</subfield>
-		<subfield code="o">
-			(OCoLC)ocm21241062
-		</subfield>
-		<subfield code="s">
-			columbia_aco001008
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
-		</subfield>
-		<subfield code="s">
-			columbia_aco001008
-		</subfield>
+		<subfield code="i">NNC_783834</subfield>
+		<subfield code="o">(OCoLC)ocm21241062</subfield>
+		<subfield code="s">columbia_aco001008</subfield>
+		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco001008</subfield>
 	</datafield>
 </record>
