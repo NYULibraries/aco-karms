@@ -1,268 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>
-		02083nam a2200361   4500
-	</leader>
-	<controlfield tag="001">
-		836443
-	</controlfield>
-	<controlfield tag="003">
-		NjP
-	</controlfield>
-	<controlfield tag="006">
-		m        d        
-	</controlfield>
-	<controlfield tag="007">
-		cr cn |||m|||a
-	</controlfield>
-	<controlfield tag="008">
-		151111s1923    ua      o     001 0 ara d
-	</controlfield>
+	<leader>     nam a22        4500</leader>
+	<controlfield tag="001">836443</controlfield>
+	<controlfield tag="003">NjP</controlfield>
+	<controlfield tag="006">m        d        </controlfield>
+	<controlfield tag="007">cr cn |||m|||a</controlfield>
+	<controlfield tag="008">160519s1923    ua      o     001 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			eng
-		</subfield>
-		<subfield code="e">
-			rda
-		</subfield>
-		<subfield code="c">
-			NNU
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
+		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="6">
-			880-01
-		</subfield>
-		<subfield code="a">
-			Dāghir, Asʻad Khalīl.
-		</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Dāghir, Asʻad Khalīl.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="6">
-			880-02
-		</subfield>
-		<subfield code="a">
-			Tadhkirat al-kātib :
-		</subfield>
-		<subfield code="b">
-			kitāb yataḍammanu al-tanbīh ʻalá ahamm al-ghalaṭāt al-lughawīyah al-dāʼirah fī alsinat al-khuṭabāʼ wa-aqlām al-kuttāb fī hādhihi al-ayyām /
-		</subfield>
-		<subfield code="c">
-			taʼlīf Asʻad Khalīl Dāghir.
-		</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Tadhkirat al-kātib :</subfield>
+		<subfield code="b">kitāb yataḍammanu al-tanbīh ʻalá ahamm al-ghalaṭāt al-lughawīyah al-dāʼirah fī alsinat al-khuṭabāʼ wa-aqlām al-kuttāb fī hādhihi al-ayyām /</subfield>
+		<subfield code="c">taʼlīf Asʻad Khalīl Dāghir.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">
-			880-03
-		</subfield>
-		<subfield code="a">
-			Miṣr :
-		</subfield>
-		<subfield code="b">
-			Maṭbaʻat al-Muqtaṭaf wa-al-Muqaṭṭam,
-		</subfield>
-		<subfield code="c">
-			1923.
-		</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Maṭbaʻat al-Muqtaṭaf wa-al-Muqaṭṭam,</subfield>
+		<subfield code="c">1923.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">
-			online resource (150, 10 pages)
-		</subfield>
+		<subfield code="a">online resource (150, 10 pages)</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="336">
-		<subfield code="a">
-			text
-		</subfield>
-		<subfield code="2">
-			rdacontent
-		</subfield>
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="337">
-		<subfield code="a">
-			computer
-		</subfield>
-		<subfield code="2">
-			rdamedia
-		</subfield>
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="338">
-		<subfield code="a">
-			online resource
-		</subfield>
-		<subfield code="2">
-			rdacarrier
-		</subfield>
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Includes index.
-		</subfield>
+		<subfield code="a">Includes index.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Part of the Arabic Collections Online (ACO) project, contributed by Princeton University Libraries.
-		</subfield>
+		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Princeton University Libraries.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
-		<subfield code="a">
-			Electronic reproduction.
-		</subfield>
-		<subfield code="b">
-			New York, N.Y. :
-		</subfield>
-		<subfield code="c">
-			New York University,
-		</subfield>
-		<subfield code="d">
-			2015.
-		</subfield>
-		<subfield code="5">
-			NNU
-		</subfield>
+		<subfield code="a">Electronic reproduction.</subfield>
+		<subfield code="b">New York, N.Y. :</subfield>
+		<subfield code="c">New York University,</subfield>
+		<subfield code="d">2016.</subfield>
+		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">
-			Arabic language
-		</subfield>
-		<subfield code="x">
-			Errors of usage.
-		</subfield>
+		<subfield code="a">Arabic language</subfield>
+		<subfield code="x">Errors of usage.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="7" tag="650">
-		<subfield code="a">
-			Arabic language
-		</subfield>
-		<subfield code="x">
-			Errors of usage.
-		</subfield>
-		<subfield code="2">
-			fast
-		</subfield>
-		<subfield code="0">
-			(OCoLC)fst00812325
-		</subfield>
+		<subfield code="a">Arabic language</subfield>
+		<subfield code="x">Errors of usage.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst00812325</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="a">
-			Princeton University.
-		</subfield>
-		<subfield code="b">
-			Library.
-		</subfield>
+		<subfield code="a">Princeton University.</subfield>
+		<subfield code="b">Library.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="730">
-		<subfield code="a">
-			Arabic Collections Online.
-		</subfield>
+		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
-		<subfield code="i">
-			Online version:
-		</subfield>
-		<subfield code="a">
-			Dāghir, Asʻad Khalīl.
-		</subfield>
-		<subfield code="t">
-			Tadhkirat al-kātib.
-		</subfield>
-		<subfield code="d">
-			Miṣr : Maṭbaʻat al-Muqtaṭaf wa-al-Muqaṭṭam, 1923
-		</subfield>
-		<subfield code="w">
-			(OCoLC)657169644
-		</subfield>
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">Dāghir, Asʻad Khalīl.</subfield>
+		<subfield code="t">Tadhkirat al-kātib.</subfield>
+		<subfield code="d">Miṣr : Maṭbaʻat al-Muqtaṭaf wa-al-Muqaṭṭam, 1923</subfield>
+		<subfield code="w">(OCoLC)657169644</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
-		<subfield code="i">
-			Print version:
-		</subfield>
-		<subfield code="a">
-			Dāghir, Asʻad Khalīl.
-		</subfield>
-		<subfield code="t">
-			Tadhkirat al-kātib
-		</subfield>
-		<subfield code="w">
-			(NjP)836443
-		</subfield>
-		<subfield code="w">
-			(OCoLC)28930986
-		</subfield>
+		<subfield code="i">Print version:</subfield>
+		<subfield code="a">Dāghir, Asʻad Khalīl.</subfield>
+		<subfield code="t">Tadhkirat al-kātib</subfield>
+		<subfield code="w">(NjP)836443</subfield>
+		<subfield code="w">(OCoLC)28930986</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">
-			http://hdl.handle.net/2333.1/1rn8pnv1
-		</subfield>
+		<subfield code="u">http://hdl.handle.net/2333.1/1rn8pnv1</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
-			100-01/r
-		</subfield>
-		<subfield code="a">
-			‏داغر، أسعد خليل.
-		</subfield>
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">‏داغر، أسعد خليل.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">
-			245-02/r
-		</subfield>
-		<subfield code="a">
-			تذكرة الكاتب :
-		</subfield>
-		<subfield code="b">
-			كتاب يتضمن التنبيه على أهم الغلطات اللغوية الدائرة فى ألسنة الخطباء وأقلام الكتاب /
-		</subfield>
-		<subfield code="c">
-			تأليف أسعد خليل داغر.
-		</subfield>
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">تذكرة الكاتب :</subfield>
+		<subfield code="b">كتاب يتضمن التنبيه على أهم الغلطات اللغوية الدائرة فى ألسنة الخطباء وأقلام الكتاب /</subfield>
+		<subfield code="c">تأليف أسعد خليل داغر.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">
-			260-03/r
-		</subfield>
-		<subfield code="a">
-			‏مصر :‏
-		</subfield>
-		<subfield code="b">
-			‏مطبعة المقتطف والمقطم،‏
-		</subfield>
-		<subfield code="c">
-			‏1923.
-		</subfield>
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">‏مصر :‏</subfield>
+		<subfield code="b">‏مطبعة المقتطف والمقطم،‏</subfield>
+		<subfield code="c">‏1923.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			WEB
-		</subfield>
-		<subfield code="c">
-			GENI
-		</subfield>
-		<subfield code="t">
-			0
-		</subfield>
-		<subfield code="m">
-			Electronic access
-		</subfield>
-		<subfield code="s">
-			01
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">WEB</subfield>
+		<subfield code="c">GENI</subfield>
+		<subfield code="t">0</subfield>
+		<subfield code="m">Electronic access</subfield>
+		<subfield code="s">01</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
-		<subfield code="i">
-			NjP_836443
-		</subfield>
-		<subfield code="o">
-			(OCoLC)ocm28930986 
-		</subfield>
-		<subfield code="s">
-			princeton_aco000032
-		</subfield>
+		<subfield code="i">NjP_836443</subfield>
+		<subfield code="o">(OCoLC)ocm28930986 </subfield>
+		<subfield code="s">princeton_aco000032</subfield>
 	</datafield>
 </record>
