@@ -1,0 +1,24 @@
+Records containing SERIES errors - batch NIC_20160420
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2016-05-20 08:42:10.580640
+---------------------------------------------------------------------
+FILE: NIC_20160420_1/NIC_20160420_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NIC_1882541
+   orig_rec_035 num: =035  \\$a(NIC)notisAJU2495
+   orig_rec_035 num: =035  \\$a(OCoLC)64677304
+   orig_rec_035 num: =035  \\$a1882541
+Record 999:  NIC_1882541
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+040 $e field: [none]
+Source entities (book IDs): cornell_aco000659
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NIC_20160420_1/NIC_20160420_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 1
+
