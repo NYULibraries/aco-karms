@@ -5,9 +5,20 @@ ALL Records containing any type of error - batch NNC_20160315
     --  have an unlinked 880 field
     --  have a series heading error in the 490/800/810/811/830 fields
     --  have one of the various miscellaneous errors, marked with ERROR-MISC
-Report produced: 2016-05-20 09:00:34.654659
+Report produced: 2016-04-26 11:12:06.028759
 ---------------------------------------------------------------------
 FILE: NNC_20160315_3/NNC_20160315_3_updates.mrc
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm28859343 
+   oclc_rec_035_num: (OCoLC)28859343
+Institution ID: NNC_639088
+Record 999:  NNC_639088 (OCoLC)ocm28859343 columbia_aco001964:v.1 columbia_aco001965:v.2
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   250 - al-Ṭabʻah 2.
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): columbia_aco001964:v.1, columbia_aco001965:v.2
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm10535723 
    oclc_rec_035_num: (OCoLC)10535723
@@ -17,7 +28,6 @@ Record 999:  NNC_662302 (OCoLC)ocm10535723 columbia_aco002001
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    490 - Wisdom of Persia series ; 24
    710 - McGill University. Institute of Islamic Studies. Tehran Branch.
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): columbia_aco002001
@@ -45,6 +55,18 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco001882
 ---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm54747484 
+   oclc_rec_035_num: (OCoLC)54747484
+   oclc_rec_035_num: (OCoLC)21750352
+Institution ID: NNC_3063230
+Record 999:  NNC_3063230 (OCoLC)ocm54747484 columbia_aco001827:v.1-2 columbia_aco001828:v.3-4 columbia_aco001829:v.5-6 columbia_aco001830:v.7-8 columbia_aco001831:v.9-10 columbia_aco001832:v.11-12 columbia_aco001833:v.13-14 columbia_aco001834:v.15-16 columbia_aco001835:v.17-18 columbia_aco001836:v.19-20 columbia_aco001837:v.21-22 columbia_aco001838:v.23-24 columbia_aco001839:v.25-26 columbia_aco001840:v.27-28 columbia_aco001841:v.29-30
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Mabsūṭ
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): columbia_aco001827:v.1-2, columbia_aco001828:v.3-4, columbia_aco001829:v.5-6, columbia_aco001830:v.7-8, columbia_aco001831:v.9-10, columbia_aco001832:v.11-12, columbia_aco001833:v.13-14, columbia_aco001834:v.15-16, columbia_aco001835:v.17-18, columbia_aco001836:v.19-20, columbia_aco001837:v.21-22, columbia_aco001838:v.23-24, columbia_aco001839:v.25-26, columbia_aco001840:v.27-28, columbia_aco001841:v.29-30
+---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm82038621 
    oclc_rec_035_num: (OCoLC)82038621
 Institution ID: NNC_1081674
@@ -70,6 +92,18 @@ ERROR-MISC: 007  hd bfa013baaa
 ERROR-MISC: 007  hd bfa013baba
 ERROR-MISC: 007  hd afa013baca
 Source entities (book IDs): columbia_aco001899:v.1-2
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm21691843 
+   oclc_rec_035_num: (OCoLC)21691843
+Institution ID: NNC_3073219
+Record 999:  NNC_3073219 (OCoLC)ocm21691843 columbia_aco001853
+880 script fields: YES
+ERROR-880: Unlinked 880s: YES
+   880 $6 610-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 650-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): columbia_aco001853
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm22326022 
    oclc_rec_035_num: (OCoLC)22326022
@@ -134,5 +168,5 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): columbia_aco001998:v.1, columbia_aco001999:v.2, columbia_aco002000:v.3
 ---------------------------------------------------------------------
-TOTAL Number of Records containing any type of error: 10
+TOTAL Number of Records containing any type of error: 13
 
