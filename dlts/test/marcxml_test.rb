@@ -11,6 +11,9 @@ class MarcxmlTest < MiniTest::Test
   DNE_MARCXML_PATH          = 'this/path/does/not/exist'
   UNREADABLE_MARCXML_PATH   = 'test/fixtures/marcxml/unreadable'
   BADLY_FORMED_XML_PATH     = 'test/fixtures/marcxml/badly_formed'
+  MISSING_050               = 'test/fixtures/marcxml/missing_050'
+  MISSING_090               = 'test/fixtures/marcxml/missing_090'
+  HAS_050_090               = 'test/fixtures/marcxml/has_050_090'
 
   # restore read/write permissions on test file
   def teardown
@@ -59,6 +62,11 @@ class MarcxmlTest < MiniTest::Test
   def test_marcxml_missing_001
     err = assert_raises(RuntimeError) { Marcxml.new(INVALID_001_PATH) }
     assert_match(/missing controlfield 001/, err.message)
+  end
+
+  def test_marcxml_get_050
+    h = Marcxml.new(HAS_050_090)
+    assert(h.get_050 == "\n    BP 160\n    .I13 T26 1951\n  ")
   end
 
   def test_marcxml_with_namespace

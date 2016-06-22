@@ -17,6 +17,8 @@ class Marcxml
     @doc         = nil
     @ctrl_003    = nil
     @ctrl_001    = nil
+    @datafield_050    = nil
+    @datafield_090    = nil
 
     get_schema_path
     validate_path!
@@ -30,6 +32,10 @@ class Marcxml
 
   def get_003
     @ctrl_003
+  end
+
+  def get_050
+    @datafield_050
   end
 
   private
@@ -99,9 +105,14 @@ class Marcxml
     @ctrl_001 = @doc.xpath("#{xpath_prefix}[@tag='001']").text
     @ctrl_003 = @doc.xpath("#{xpath_prefix}[@tag='003']").text
 
+    xpath_prefix_datafield = "//#{ns}:record/#{ns}:datafield"
+
+    @datafield_050 = @doc.xpath("#{xpath_prefix_datafield}[@tag='050']").text
+    @datafield_090 = @doc.xpath("#{xpath_prefix_datafield}[@tag='090']").text
+
     # assert that controlfields are not missing or empty
-    raise "missing controlfield 001" if @ctrl_001 == ''
-    raise "missing controlfield 003" if @ctrl_003 == ''
+    raise 'missing controlfield 001' if @ctrl_001 == ''
+    raise 'missing controlfield 003' if @ctrl_003 == ''
     raise "unrecognized controlfield 003 : #{@ctrl_003}" unless VALID_003_CODES.include?(@ctrl_003)
   end
 end
