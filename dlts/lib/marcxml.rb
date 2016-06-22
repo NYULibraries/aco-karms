@@ -42,6 +42,14 @@ class Marcxml
     @datafield_050 == ''
   end
 
+  def get_090
+    @datafield_090
+  end
+
+  def is_090_empty?
+    @datafield_090 == ''
+  end
+
   private
   def get_schema_path
     this_file_path = File.dirname(File.expand_path(__FILE__))

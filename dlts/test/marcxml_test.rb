@@ -79,6 +79,21 @@ class MarcxmlTest < MiniTest::Test
     refute(h.is_050_empty?)
   end
 
+  def test_marcxml_get_090
+    h = Marcxml.new(HAS_050_090)
+    assert(h.get_090 == "\n    BP160\n    .I25\n  ")
+  end
+
+  def test_marcxml_090_empty
+    h = Marcxml.new(MISSING_090)
+    assert(h.is_090_empty?)
+  end
+
+  def test_marcxml_090_not_empty
+    h = Marcxml.new(HAS_050_090)
+    refute(h.is_090_empty?)
+  end
+
   def test_marcxml_with_namespace
     h = Marcxml.new(VALID_DEFAULT_NS_PATH)
     assert(h.get_003 == "NIC")
