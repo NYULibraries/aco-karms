@@ -17,8 +17,8 @@ class Marcxml
     @doc         = nil
     @ctrl_003    = nil
     @ctrl_001    = nil
-    @datafield_050    = nil
-    @datafield_090    = nil
+    @datafield_050 = nil
+    @datafield_090 = nil
 
     get_schema_path
     validate_path!
@@ -36,6 +36,10 @@ class Marcxml
 
   def get_050
     @datafield_050
+  end
+
+  def is_050_empty?
+    @datafield_050 == ''
   end
 
   private
