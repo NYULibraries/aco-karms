@@ -3,77 +3,14 @@ Records containing SERIES errors - batch NjP_20160315
 --  Either the 490 field has 1st indicator=0 (untraced)
 --  Or there are more 490 fields than there are 800/810/811/830 fields,
     so the corresponding 8XX heading needs added
-Report produced: 2016-03-23 20:06:03.318684
+Report produced: 2016-06-23 09:27:06.394459
 ---------------------------------------------------------------------
-FILE: NjP_20160315_2_oclc_recs_batch.mrc
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm25584061 
-   oclc_rec_035_num: (OCoLC)25584061
-Institution ID: NjP_390372
-Record 999:  NjP_390372 (OCoLC)ocm25584061
-ERROR-880: 880 script fields: NO
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Ḥadīth al-shahr ; 3
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): princeton_aco000218
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm40972823 
-   oclc_rec_035_num: (OCoLC)40972823
-Institution ID: NjP_374673
-Record 999:  NjP_374673 (OCoLC)ocm40972823
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   245 - Awj al-taḥarrī ʻan ḥaythīyat Abī al-ʻAlāʼ al-Maʻrrī / taʼlīf Yūsuf al-Badīʻī.
-   260 - Dimashq : Maṭbaʻat al-Turqī, 1944.
-ERROR-880: Unlinked 880s: YES
-   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-02 al-Maʻhad al-Ifransī bi-Dimashq. Majmūʻat al-Nuṣūṣ al-Sharqīyah ; al-juzʼ al-rābiʻ
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): princeton_aco000238
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm30612029 
-   oclc_rec_035_num: (OCoLC)30612029
-Institution ID: NjP_2768504
-Record 999:  NjP_2768504 (OCoLC)ocm30612029
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   490 - Maṭbūʻāt Maʻhad al-ʻUlūm al-ʻUlyá al-Maghribīyah ; al-juzʼ 7 = Collection de textes Arabes publée par l'Institut des Hautes Études Marocaines ; v. vii
-   700 - Pérès, Henri.
-   830 - Collection de textes Arabes publée par l'Institut des Hautes Études Marocaines ; v. vii.
-   830 - Maṭbūʻāt Maʻhad al-ʻUlūm al-ʻUlyá al-Maghribīyah ; al-juzʼ 7.
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Maṭbūʻāt Maʻhad al-ʻUlūm al-ʻUlyá al-Maghribīyah ; al-juzʼ 7 = Collection de textes Arabes publée par l'Institut des Hautes Études Marocaines ; v. vii
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): princeton_aco000245
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm13115487 
-   oclc_rec_035_num: (OCoLC)13115487
-Institution ID: NjP_353241
-Record 999:  NjP_353241 (OCoLC)ocm13115487
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   490 - Kitāb al-yawm ; al-ʻadad 240
-ERROR-880: Unlinked 880s: YES
-   880 $6 490-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 830-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Kitāb al-yawm ; al-ʻadad 240
-040 $e field: [none]
-RDA fields: YES
-020s: YES
-020a: 9771240986
-020s: YES
-020a: 9789771240983
-Source entities (book IDs): princeton_aco000318
+FILE: NjP_20160315_3/NjP_20160315_3_updates.mrc
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm15218555 
    oclc_rec_035_num: (OCoLC)15218555
 Institution ID: NjP_1607513
-Record 999:  NjP_1607513 (OCoLC)ocm15218555
+Record 999:  NjP_1607513 (OCoLC)ocm15218555 princeton_aco000197
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Diwan Abil Asuad, al-Dualy
@@ -83,22 +20,5 @@ ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-06 Nafāʼi
 RDA fields: YES
 Source entities (book IDs): princeton_aco000197
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23519949 
-   oclc_rec_035_num: (OCoLC)23519949
-Institution ID: NjP_4149365
-Record 999:  NjP_4149365 (OCoLC)ocm23519949
-880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 246-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 700-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Min turāth al-Andalus ; 4
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): princeton_aco000257:vol.1, princeton_aco000256:vol.2
----------------------------------------------------------------------
----------------------------------------------------------------------
-FILE: NjP_20160315_1/NjP_20160315_1_orig_no_oclc_nums.mrc
----------------------------------------------------------------------
-TOTAL Number of Records containing series errors: 6
+TOTAL Number of Records containing series errors: 1
 

@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160323s1876    tu      o     000 0 ara d</controlfield>
+	<controlfield tag="008">160623s1876    tu      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -13,14 +13,19 @@
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">al-Farghānī, Muḥammad ibn Aḥmad,</subfield>
 		<subfield code="d">-approximately 1300.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Muntahā al-madārik, sharḥ al qaṣīdah al-tāʼīyah ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Muntahá al-madārik, sharḥ al-qaṣīdah al-tāʼīyah /</subfield>
+		<subfield code="c">Sharaf al-Dīn Abī Ḥafṣ ʻUmar ibn ʻAlī al-Saʻdī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[Istanbul]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[Istanbul] :</subfield>
+		<subfield code="b">[publisher not identified],</subfield>
 		<subfield code="c">1293 [1876]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -52,6 +57,7 @@
 		<subfield code="a">In Arabic.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Ibn al-Fāriḍ, ʻUmar ibn ʻAlī,</subfield>
 		<subfield code="d">1181 or 1182-1235.</subfield>
 		<subfield code="t">Naẓm al-sulūk.</subfield>
@@ -71,12 +77,34 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">al-Farghānī, Muḥammad ibn Aḥmad, -approximately 1300.</subfield>
-		<subfield code="t">Muntahā al-madārik, sharḥ al qaṣīdah al-tāʼīyah</subfield>
+		<subfield code="t">Muntahá al-madārik, sharḥ al-qaṣīdah al-tāʼīyah</subfield>
 		<subfield code="w">(NjP)2835237</subfield>
 		<subfield code="w">(OCoLC)42932774</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/ffbg7dw8</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">الفرغاني، محمد بن احمد،</subfield>
+		<subfield code="d">-approximately 1300.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">منتهى المدارك، شرح القصيدة التائية /</subfield>
+		<subfield code="c">شرف الدين ابي حفص عمر بن علي السعدي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[استانبول] :</subfield>
+		<subfield code="b">[publisher not identified]،</subfield>
+		<subfield code="c">1293 [1876]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">600-04/r</subfield>
+		<subfield code="a">ابن الفارض، عمر بن علي،</subfield>
+		<subfield code="d">1181 or 1182-1235.</subfield>
+		<subfield code="t">نظم السلوك.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -88,9 +116,11 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2835237</subfield>
-		<subfield code="o">(OCoLC)ocm42932774 </subfield>
+		<subfield code="o">(OCoLC)ocm42932774</subfield>
 		<subfield code="s">princeton_aco000264:v.1</subfield>
 		<subfield code="s">princeton_aco000265:v.2</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">princeton_aco000264:v.1</subfield>
+		<subfield code="s">princeton_aco000265:v.2</subfield>
 	</datafield>
 </record>

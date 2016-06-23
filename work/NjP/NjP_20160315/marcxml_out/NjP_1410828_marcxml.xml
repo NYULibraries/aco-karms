@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160323r19681901iq      o     000 0 arax </controlfield>
+	<controlfield tag="008">160623r19681901iq      o     000 0 arax </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,14 +17,18 @@
 		<subfield code="b">A6</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ṭarafah ibn al-ʻAbd.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Dīwān</subfield>
-		<subfield code="c">Ṭarafah ibn al-ʻAbd al-Bakrī, maʻa sharḥ Yūsuf al-Aʻlam al-Shantamarī.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Dīwān Ṭarafah ibn al-ʻAbd al-Bakrī :</subfield>
+		<subfield code="b">maʻa sharḥ Yūsuf al-Aʻlam al-Shantamarī ... /</subfield>
+		<subfield code="c">wa-qad iʻtaná bi-taṣḥīḥihi wa-naqalahu ilá al-lughah al-Faransāwīyah Maks Silighsūn.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[Baghdād],</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[Baghdād] :</subfield>
 		<subfield code="b">[Maktabat al-Muthanná],</subfield>
 		<subfield code="c">[1968?]</subfield>
 	</datafield>
@@ -65,11 +69,17 @@
 		<subfield code="d">2016.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">Poetry.</subfield>
+		<subfield code="2">lcgft</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Aʻlam al-Shantamarī, Yūsuf ibn Sulaymān,</subfield>
 		<subfield code="d">1019 or 1020-1083 or 1084.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Seligsohn, Max,</subfield>
 		<subfield code="d">1865-</subfield>
 	</datafield>
@@ -90,13 +100,39 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Ṭarafah ibn al-ʻAbd.</subfield>
-		<subfield code="t">Dīwān</subfield>
+		<subfield code="t">Dīwān Ṭarafah ibn al-ʻAbd al-Bakrī</subfield>
 		<subfield code="w">(NjP)1410828</subfield>
 		<subfield code="w">(DLC)   74961269 </subfield>
 		<subfield code="w">(OCoLC)13884137</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/51c5b3c2</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">طرفة بن العبد.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">ديوان طرفة بن العبد البكري :</subfield>
+		<subfield code="b">مع شرح يوسف الاعلم الشنتمري ... /</subfield>
+		<subfield code="c">وقد اعتنى بتصحيحه ونقله الى اللغة الفرنساوية مكس سلفسون.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[بغداد] :</subfield>
+		<subfield code="b">[مكتبة المثنى]،</subfield>
+		<subfield code="c">[1968؟]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-04/r</subfield>
+		<subfield code="a">اعلم الشنتمري، يوسف بن سليمان،</subfield>
+		<subfield code="d">1019 or 1020-1083 or 1084.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-05/r</subfield>
+		<subfield code="a">سلفسون، مكسx،</subfield>
+		<subfield code="d">1865-</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -108,8 +144,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_1410828</subfield>
-		<subfield code="o">(OCoLC)ocm13884137 </subfield>
+		<subfield code="o">(OCoLC)ocm13884137</subfield>
 		<subfield code="s">princeton_aco000196</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">princeton_aco000196</subfield>
 	</datafield>
 </record>

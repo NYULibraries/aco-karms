@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160323m19491965ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">160623m19659999ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -13,16 +13,20 @@
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ibn ʻAbd Rabbih, Aḥmad ibn Muḥammad,</subfield>
 		<subfield code="d">860-940.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-ʻIqd al-farīd.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb al-ʻiqd al-farīd /</subfield>
+		<subfield code="c">taʼlīf Abī ʻUmar Aḥmad ibn Muḥammad ibn ʻAbd Rabbih al-Andalusī ; sharaḥahu wa-ḍabaṭahu wa-.sa.ḥhaḥahu wa-ʻanwana mawḍūʻātihi wa-rattaba fahārisahu Aḥmad Amīn, Aḥmad al-Zayn, Ibrāhīm al-Ibyārī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Qāhirah:</subfield>
 		<subfield code="b">Lajnat al-Taʼlīf wa-al-Tarjamah wa-al-Nashr,</subfield>
-		<subfield code="c">1949-1965.</subfield>
+		<subfield code="c">1965-</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (7 volumes)</subfield>
@@ -55,6 +59,15 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Ed. by Aḥmad Amīn, Aḥmad al-Zayn and Ibrāhīm al-Abyārī.</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Arabic language</subfield>
+		<subfield code="x">Versification</subfield>
+		<subfield code="v">Early works to 1800.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Amīn, Aḥmad. </subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
 		<subfield code="b">Library.</subfield>
@@ -65,12 +78,32 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Ibn ʻAbd Rabbih, Aḥmad ibn Muḥammad, 860-940.</subfield>
-		<subfield code="t">al-ʻIqd al-farīd</subfield>
+		<subfield code="t">Kitāb al-ʻiqd al-farīd</subfield>
 		<subfield code="w">(NjP)2786019</subfield>
 		<subfield code="w">(OCoLC)42819228</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/w0vt4fwf</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">ابن عبد ربه، احمد بن محمد،</subfield>
+		<subfield code="d">860-940.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">كتاب العقد الفريد /</subfield>
+		<subfield code="c">تأليف ابي عمر احمد بن محمد بن عبد ربه الاندلسي ؛ شرحه وضبطه و.صحهحه وعنون موضوعاته ورتب فهارسه احمد امين، احمد الزين، ابراهيم الابياري.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">القاهرة:</subfield>
+		<subfield code="b">لجنة التأليف والترجمة والنشر،</subfield>
+		<subfield code="c">1965-</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-04/r</subfield>
+		<subfield code="a">امين، احمد. </subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -82,12 +115,17 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2786019</subfield>
-		<subfield code="o">(OCoLC)ocm42819228 </subfield>
+		<subfield code="o">(OCoLC)ocm42819228</subfield>
 		<subfield code="s">princeton_aco000225:vol.1</subfield>
 		<subfield code="s">princeton_aco000226:vol.2</subfield>
 		<subfield code="s">princeton_aco000227:vol.5</subfield>
 		<subfield code="s">princeton_aco000228:vol.6</subfield>
 		<subfield code="s">princeton_aco000349:vol.7</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">princeton_aco000225:vol.1</subfield>
+		<subfield code="s">princeton_aco000226:vol.2</subfield>
+		<subfield code="s">princeton_aco000227:vol.5</subfield>
+		<subfield code="s">princeton_aco000228:vol.6</subfield>
+		<subfield code="s">princeton_aco000349:vol.7</subfield>
 	</datafield>
 </record>
