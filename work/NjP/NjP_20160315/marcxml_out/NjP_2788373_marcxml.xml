@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160323m19481950ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">160623m19481950ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,14 +17,19 @@
 		<subfield code="b">.Z45</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Jāḥiẓ,</subfield>
 		<subfield code="d">-868 or 869.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Bayān waʹl-tabyīn ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Bayān wa-al-tabyīn /</subfield>
+		<subfield code="c">[taʼlīf Abī ʻUthmān ʻAmr ibn Baḥr al-Jāḥiẓ] ; bi-taḥqīq wa-sharḥ ʻAbd al-Salām Muḥammad Hārūn.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
+		<subfield code="b">Maṭbaʻat Lajnat al-Taʼlīf wa-al-Tarjama wa-al-Nashr,</subfield>
 		<subfield code="c">1948-1950.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -58,9 +63,14 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Edited by ʻAbd al-Salām Hārūn.</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Arabic language</subfield>
+		<subfield code="x">Style.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Hārūn, ʻAbd al-Salām Muḥammad,</subfield>
-		<subfield code="e">editor.</subfield>
+		<subfield code="e">editor. </subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
@@ -72,12 +82,33 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Jāḥiẓ, -868 or 869.</subfield>
-		<subfield code="t">al-Bayān waʹl-tabyīn</subfield>
+		<subfield code="t">al-Bayān wa-al-tabyīn</subfield>
 		<subfield code="w">(NjP)2788373</subfield>
 		<subfield code="w">(OCoLC)42874285</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/rjdfn6kh</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">جاحظ،</subfield>
+		<subfield code="d">-868 or 869.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">البيان والتبيين /</subfield>
+		<subfield code="c">[تأليف ابي عثمان عمرو بن بحر الجاحظ] ؛ بتحقيق وشرح عبد السلام محمد هارون.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">مطبعة لجنة التأليف والترجم والنشر،</subfield>
+		<subfield code="c">1948-1950.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-04/r</subfield>
+		<subfield code="a">هارون، عبد السلام محمد،</subfield>
+		<subfield code="e">editor. </subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -89,9 +120,11 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2788373</subfield>
-		<subfield code="o">(OCoLC)ocm42874285 </subfield>
+		<subfield code="o">(OCoLC)ocm42874285</subfield>
 		<subfield code="s">princeton_aco000232:v.1-2</subfield>
 		<subfield code="s">princeton_aco000231:v.3-4</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">princeton_aco000232:v.1-2</subfield>
+		<subfield code="s">princeton_aco000231:v.3-4</subfield>
 	</datafield>
 </record>

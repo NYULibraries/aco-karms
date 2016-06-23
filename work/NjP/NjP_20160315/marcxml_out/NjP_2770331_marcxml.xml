@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160323s1964    iq      ob    000 0 ara d</controlfield>
+	<controlfield tag="008">160623s1964    iq      ob    000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -42,6 +42,11 @@
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Makhṭūṭāt Maktabat al-Yaʻqūbī ; qism al-dawāwīn</subfield>
+		<subfield code="v">6</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Princeton University Libraries.</subfield>
 	</datafield>
@@ -56,10 +61,11 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-04</subfield>
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Yaʻqūbī, Muḥammad ʻAlī.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Kawwāz, Ṣālih ibn Mahdī,</subfield>
 		<subfield code="d">1817 or 1818-1873.</subfield>
 	</datafield>
@@ -75,6 +81,11 @@
 		<subfield code="t">Dīwān al-shaykh Ṣāliḥ al-Kawwāz al-Ḥillī</subfield>
 		<subfield code="w">(NjP)2770331</subfield>
 		<subfield code="w">(OCoLC)33923496</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-07</subfield>
+		<subfield code="a">Makhṭūṭāt Maktabat al-Yaʻqūbī ; qism al-dawāwīn</subfield>
+		<subfield code="v">6</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/ns1rndbj</subfield>
@@ -94,15 +105,24 @@
 		<subfield code="b">مطبعة النجف،</subfield>
 		<subfield code="c">١٣٨٤.</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">490-00/r</subfield>
-		<subfield code="a">مخطوطات مکتبة اليعقوبي.</subfield>
-		<subfield code="a">قسم الدواوين ؛</subfield>
-		<subfield code="v">٦</subfield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">490-04/r</subfield>
+		<subfield code="a">مخطوطات مكتبة اليعقوبي ؛ قسم الدواوين</subfield>
+		<subfield code="v">6</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-04/r</subfield>
+		<subfield code="6">700-05/r</subfield>
 		<subfield code="a">يعقوبي، محمد علي.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-06/r</subfield>
+		<subfield code="a">كواز، صالح بن مهدي،</subfield>
+		<subfield code="d">1817 or 1818-1873.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">830-07/r</subfield>
+		<subfield code="a">مخطوطات مكتبة اليعقوبي ؛ قسم الدواوين</subfield>
+		<subfield code="v">6</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -114,8 +134,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2770331</subfield>
-		<subfield code="o">(OCoLC)ocm33923496 </subfield>
+		<subfield code="o">(OCoLC)ocm33923496</subfield>
 		<subfield code="s">princeton_aco000310</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">princeton_aco000310</subfield>
 	</datafield>
 </record>
