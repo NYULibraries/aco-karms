@@ -5,7 +5,7 @@
 	<controlfield tag="003">NIC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160520s195u    xx      o     000 0 ara d</controlfield>
+	<controlfield tag="008">160623s195u    xx      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -29,10 +29,18 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">880-02</subfield>
-		<subfield code="a">Falsafat al-thawrah.</subfield>
+		<subfield code="a">Falsafat al-thawrah /</subfield>
+		<subfield code="c">bi-qalam Jamāl ʻAbd al-Nāṣir.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Ṭabʻah 6.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="c">195-</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Dār al-Maʻārif,</subfield>
+		<subfield code="c">[19--]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (80 pages)</subfield>
@@ -49,8 +57,10 @@
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
-		<subfield code="a">#</subfield>
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Ikhtarnā laka ;</subfield>
+		<subfield code="v">3</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Cornell University Libraries.</subfield>
@@ -117,12 +127,18 @@
 		<subfield code="w">(NIC)1682172</subfield>
 		<subfield code="w">(OCoLC)23494110</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-06</subfield>
+		<subfield code="a">Ikhtarnā laka ;</subfield>
+		<subfield code="v">3.</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/pvmcvj9k</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01/r</subfield>
-		<subfield code="a">ناصر، جمال عبدال.</subfield>
+		<subfield code="a">جمال عبد الناصر،</subfield>
+		<subfield code="d">1970-1918</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">245-02/r</subfield>
@@ -130,23 +146,23 @@
 		<subfield code="c">بقلم جمال عبد الناصر.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-00/r</subfield>
+		<subfield code="6">250-03/r</subfield>
+		<subfield code="a">الطيعة 6.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/r</subfield>
 		<subfield code="a">مصر :</subfield>
 		<subfield code="b">دار المعارف،</subfield>
 		<subfield code="c">[19--]</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-00/r</subfield>
-		<subfield code="a">الطيعة 6.</subfield>
-	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">490-00/r</subfield>
+		<subfield code="6">490-05/r</subfield>
 		<subfield code="a">اخترنا لك ؛</subfield>
 		<subfield code="v">3</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
-		<subfield code="6">830-00/r</subfield>
-		<subfield code="a">اخترنا لك ؛ ;</subfield>
+		<subfield code="6">830-06/r</subfield>
+		<subfield code="a">اخترنا لك ؛</subfield>
 		<subfield code="v">3.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -159,8 +175,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NIC_1682172</subfield>
-		<subfield code="o">(OCoLC)ocm23494110 </subfield>
+		<subfield code="o">(OCoLC)ocm23494110</subfield>
 		<subfield code="s">cornell_aco000650</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-SERIES)</subfield>
+		<subfield code="s">cornell_aco000650</subfield>
 	</datafield>
 </record>

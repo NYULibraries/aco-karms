@@ -5,7 +5,7 @@
 	<controlfield tag="003">NIC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160520s1969    iq ab   ob    000 0 araxc</controlfield>
+	<controlfield tag="008">160623s1969    iq ab   ob    000 0 araxc</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -21,14 +21,22 @@
 		<subfield code="b">M36i</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Maʻrūf, Nājī.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">[Isālat al-hadārah al-'Arabīyah (romanized form)].</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Aṣālat al-ḥaḍārah al-ʻArabīyah /</subfield>
+		<subfield code="c">taʼlīf Nājī Maʻrūf.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Ṭabʻah 2, munaqqaḥah wa-mazīdah.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[Baghdad],</subfield>
-		<subfield code="b">[Attathamun Press],</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Baghdād :</subfield>
+		<subfield code="b">Maṭbuʻat al-Taḍāmun,</subfield>
 		<subfield code="c">[1969]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -88,13 +96,32 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Maʻrūf, Nājī.</subfield>
-		<subfield code="t">[Isālat al-hadārah al-'Arabīyah (romanized form)]</subfield>
+		<subfield code="t">Aṣālat al-ḥaḍārah al-ʻArabīyah</subfield>
 		<subfield code="w">(NIC)3639428</subfield>
 		<subfield code="w">(DLC)   75961612 </subfield>
 		<subfield code="w">(OCoLC)909881</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/k0p2nm3n</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">معروف، ناجي.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">اصالة الحضارة العربية /</subfield>
+		<subfield code="c">تأليف ناجي معروف.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">250-03/r</subfield>
+		<subfield code="a">الطبعة 2، منقحة ومزيدة.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/r</subfield>
+		<subfield code="a">بغداد :</subfield>
+		<subfield code="b">مطبعة التضامن،</subfield>
+		<subfield code="c">[1969]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -106,8 +133,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NIC_3639428</subfield>
-		<subfield code="o">(OCoLC)ocm00909881 </subfield>
+		<subfield code="o">(OCoLC)ocm00909881</subfield>
 		<subfield code="s">cornell_aco000718</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">cornell_aco000718</subfield>
 	</datafield>
 </record>

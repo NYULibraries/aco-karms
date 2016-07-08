@@ -5,7 +5,7 @@
 	<controlfield tag="003">NIC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160520s1931    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">160623s1931    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -13,12 +13,20 @@
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Dasūqī, ʻUmar.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Fatwah ʻind al-ʻArab aw aḥādīth al-furūsīyah wa-al-mathal al-ʻulyā.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Futuwah ʻind al-ʻArab aw aḥādīth al-furūsīyah wa-al-mathal al-ʻulyā /</subfield>
+		<subfield code="c">taʼlīf ʻUmar al-Dasūqī.</subfield>
+	</datafield>
+	<datafield ind1="3" ind2="0" tag="246">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Aḥādīth al-furūsīyah wa-al-mathal al-ʻulyā</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">[Cairo] :</subfield>
 		<subfield code="b">Maktabat Nahḍat Miṣr,</subfield>
 		<subfield code="c">[1931]</subfield>
@@ -67,10 +75,6 @@
 		<subfield code="2">fast</subfield>
 		<subfield code="0">(OCoLC)fst01730294</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">Dasūqī, ʻUmar.</subfield>
-		<subfield code="t">Aḥādīth al-furūsīyah wa-al-mathal al-ʻulyā.</subfield>
-	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Cornell University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -81,12 +85,31 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Dasūqī, ʻUmar.</subfield>
-		<subfield code="t">al-Fatwah ʻind al-ʻArab aw aḥādīth al-furūsīyah wa-al-mathal al-ʻulyā</subfield>
+		<subfield code="t">al-Futuwah ʻind al-ʻArab aw aḥādīth al-furūsīyah wa-al-mathal al-ʻulyā</subfield>
 		<subfield code="w">(NIC)4755497</subfield>
 		<subfield code="w">(OCoLC)64033802</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/x95x6ffn</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">دسوقي، عمر.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">الفُتُوة عند العرب أو أحاديث الفروسية والمثل العُليا /</subfield>
+		<subfield code="c">تأليف عمر الدسوقي.</subfield>
+	</datafield>
+	<datafield ind1="3" ind2="0" tag="880">
+		<subfield code="6">246-03/r</subfield>
+		<subfield code="a">0احاديث الفروسية والمثل العليا</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/r</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">مكتبة نهضة مصر،</subfield>
+		<subfield code="c">[1931]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -98,8 +121,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NIC_4755497</subfield>
-		<subfield code="o">(OCoLC)ocm64033802 </subfield>
+		<subfield code="o">(OCoLC)ocm64033802</subfield>
 		<subfield code="s">cornell_aco000536</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">cornell_aco000536</subfield>
 	</datafield>
 </record>
