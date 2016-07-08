@@ -5,7 +5,7 @@
 	<controlfield tag="003">NIC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160520s1970    iq ac   ob    000 0 arao </controlfield>
+	<controlfield tag="008">160623s1970    iq ac   ob    000 0 arao </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -21,7 +21,7 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="6">880-01</subfield>
-		<subfield code="a">Ālūsī, Jamāl al-Dīn.</subfield>
+		<subfield code="a">Ālūsī, Jamāl al-Dīn. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
@@ -29,6 +29,7 @@
 		<subfield code="c">taʼlīf Jamāl al-Dīn al-Ālūsī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">[Baghdad] :</subfield>
 		<subfield code="b">Mudīrīyah al-Iʻlām al-ʻĀmmah,</subfield>
 		<subfield code="c">1970.</subfield>
@@ -49,7 +50,8 @@
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Silsilah al-iʻlāmīyah ;</subfield>
 		<subfield code="v">12</subfield>
 	</datafield>
@@ -107,6 +109,11 @@
 		<subfield code="w">(DLC)   71962197 </subfield>
 		<subfield code="w">(OCoLC)23498006</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Silsilah al-iʻlāmīyah ;</subfield>
+		<subfield code="v">12.</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/44j0zszd</subfield>
 	</datafield>
@@ -120,18 +127,19 @@
 		<subfield code="c">تاليف جمال الدين الآلوسي.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-00/r</subfield>
+		<subfield code="6">260-03/r</subfield>
 		<subfield code="a">[بغداد] :</subfield>
-		<subfield code="c">مديرية الاعلام العامة،1970.</subfield>
+		<subfield code="b">مديرية الاعلام العامة،</subfield>
+		<subfield code="c">1970.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">490-00/r</subfield>
+		<subfield code="6">490-04/r</subfield>
 		<subfield code="a">السلسلة الاعلامية ؛</subfield>
 		<subfield code="v">12</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
-		<subfield code="6">830-00/r</subfield>
-		<subfield code="a">السلسلة الاعلامية ؛ ;</subfield>
+		<subfield code="6">830-05/r</subfield>
+		<subfield code="a">السلسلة الاعلامية ؛ </subfield>
 		<subfield code="v">12.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -144,8 +152,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NIC_3758355</subfield>
-		<subfield code="o">(OCoLC)ocm23498006 </subfield>
+		<subfield code="o">(OCoLC)ocm23498006</subfield>
 		<subfield code="s">cornell_aco000637</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-SERIES)</subfield>
+		<subfield code="s">cornell_aco000637</subfield>
 	</datafield>
 </record>

@@ -3,80 +3,15 @@ Records containing SERIES errors - batch NIC_20160420
 --  Either the 490 field has 1st indicator=0 (untraced)
 --  Or there are more 490 fields than there are 800/810/811/830 fields,
     so the corresponding 8XX heading needs added
-Report produced: 2016-05-20 08:43:25.276401
+Report produced: 2016-06-23 11:33:14.387705
 ---------------------------------------------------------------------
-FILE: NIC_20160420_2_oclc_recs_batch.mrc
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23494110 
-   oclc_rec_035_num: (OCoLC)23494110
-Institution ID: NIC_1682172
-Record 999:  NIC_1682172 (OCoLC)ocm23494110
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - 195-
-   490 - #
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 250-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 490-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 830-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): #
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000650
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23499334 
-   oclc_rec_035_num: (OCoLC)23499334
-   oclc_rec_035_num: (OCoLC)215441004
-Institution ID: NIC_4741199
-Record 999:  NIC_4741199 (OCoLC)ocm23499334
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   111 - Muʼtamar al-Iqtiṣādīyīn al-ʻArab (2nd : 1969 : Bagdad)
-ERROR-880: Unlinked 880s: YES
-   880 $6 710-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-03 Manshūrāt Ittiḥād al-Iqtiṣādīyīn al-ʻArab.
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000639
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm20517946 
-   oclc_rec_035_num: (OCoLC)20517946
-   oclc_rec_035_num: (OCoLC)29506681
-Institution ID: NIC_3638625
-Record 999:  NIC_3638625 (OCoLC)ocm20517946
-880 script fields: YES
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 al-Maktabah al-tārīkhīyah
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000694
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23498006 
-   oclc_rec_035_num: (OCoLC)23498006
-   oclc_rec_035_num: (OCoLC)29241680
-Institution ID: NIC_3758355
-Record 999:  NIC_3758355 (OCoLC)ocm23498006
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - [Baghdad] : Mudīrīyah al-Iʻlām al-ʻĀmmah, 1970.
-   490 - Silsilah al-iʻlāmīyah ; 12
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 490-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 830-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Silsilah al-iʻlāmīyah ; 12
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000637
+FILE: NIC_20160420_3/NIC_20160420_3_updates.mrc
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm26141013 
    oclc_rec_035_num: (OCoLC)26141013
+   oclc_rec_035_num: (OCoLC)26141013 
 Institution ID: NIC_3774594
-Record 999:  NIC_3774594 (OCoLC)ocm26141013
+Record 999:  NIC_3774594 (OCoLC)ocm26141013 cornell_aco000658:v.2
 ERROR-880: 880 script fields: NO
 ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
 ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Service des antiquités de l'Egypte
@@ -86,45 +21,13 @@ Source entities (book IDs): cornell_aco000658:v.2
 OCLC ID: (OCoLC)ocm64677304 
    oclc_rec_035_num: (OCoLC)64677304
 Institution ID: NIC_1882541
-Record 999:  NIC_1882541 (OCoLC)ocm64677304
-ERROR-880: 880 script fields: NO
+Record 999:  NIC_1882541 (OCoLC)ocm64677304 cornell_aco000659
+880 script fields: YES
 ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Azyāʼ al-ʻIrāqīyah = Costumes of Iraq ; 2
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Azyāʼ al-ʻIrāqīyah = Costumes of Iraq ; 2
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): cornell_aco000659
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm09007275 
-   oclc_rec_035_num: (OCoLC)9007275
-   oclc_rec_035_num: (OCoLC)16625699
-   oclc_rec_035_num: (OCoLC)23498360
-Institution ID: NIC_3754796
-Record 999:  NIC_3754796 (OCoLC)ocm09007275
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Basrah during the Ottoman period
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Min al-tārīkh wa-lil-tārīkh
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000616:v.1
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm13656823 
-   oclc_rec_035_num: (OCoLC)13656823
-   oclc_rec_035_num: (OCoLC)264996033
-Institution ID: NIC_4608106
-Record 999:  NIC_4608106 (OCoLC)ocm13656823
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Catalogue of the Arabic, Turkish, Persian and Syriac manuscripts in the Yaʻqub Sarkis collection of the Library of al-Hikma University
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Maṭbūʻāt Jāmiʻat al-Ḥikmah
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000573
----------------------------------------------------------------------
----------------------------------------------------------------------
-FILE: NIC_20160420_1/NIC_20160420_1_orig_no_oclc_nums.mrc
----------------------------------------------------------------------
-TOTAL Number of Records containing series errors: 8
+TOTAL Number of Records containing series errors: 2
 
