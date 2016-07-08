@@ -7,7 +7,7 @@ Records MISSING KEY 880 script fields - batch NjP_20160315
     440, 490
     700, 710, 711, 730
     800, 810, 811, 830
-Report produced: 2016-06-23 09:27:06.394459
+Report produced: 2016-07-08 12:55:17.198776
 ---------------------------------------------------------------------
 FILE: NjP_20160315_3/NjP_20160315_3_updates.mrc
 ---------------------------------------------------------------------
@@ -77,7 +77,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Popular proverbs from al-Mutanabbi's poetry
    246 - Memoranda
 ERROR-880: Unlinked 880s: YES
-   880 $6 650-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 650-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): princeton_aco000250
@@ -147,6 +147,7 @@ Institution ID: NjP_2768504
 Record 999:  NjP_2768504 (OCoLC)ocm30612029 princeton_aco000245
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   490 - Collection de textes Arabes publée par l'Institut des Hautes Études Marocaines ; v. vii
    830 - Collection de textes Arabes publée par l'Institut des Hautes Études Marocaines ; v. vii.
 040 $e field: [none]
 RDA fields: YES
@@ -211,8 +212,6 @@ Record 999:  NjP_1607513 (OCoLC)ocm15218555 princeton_aco000197
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Diwan Abil Asuad, al-Dualy
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-06 Nafāʼis al-makhṭūṭāt ; 2
 040 $e field: [none]
 RDA fields: YES
 Source entities (book IDs): princeton_aco000197
@@ -241,17 +240,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): princeton_aco000361
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm42865747 
-   oclc_rec_035_num: (OCoLC)42865747
-Institution ID: NjP_2788079
-Record 999:  NjP_2788079 (OCoLC)ocm42865747 princeton_aco000357
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   100 - Muʻawwaḍ, Ilyās, al-maṭrān, translator.
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): princeton_aco000357
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm23488873 
    oclc_rec_035_num: (OCoLC)23488873
 Institution ID: NjP_1481801
@@ -275,16 +263,5 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 Source entities (book IDs): princeton_aco000224
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm42847067 
-   oclc_rec_035_num: (OCoLC)42847067
-Institution ID: NjP_2787281
-Record 999:  NjP_2787281 (OCoLC)ocm42847067 princeton_aco000380
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   100 - Maghribī, Mubārak.
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): princeton_aco000380
----------------------------------------------------------------------
-TOTAL Number of Records missing key 880 script fields: 23
+TOTAL Number of Records missing key 880 script fields: 21
 
