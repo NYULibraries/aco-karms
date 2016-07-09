@@ -170,6 +170,7 @@ aco_globals.recs_misc_errors_txt.write('    --  record is missing a 245 title fi
 aco_globals.recs_misc_errors_txt.write('    --  a 245 $h GMD field is present in the original record (signifying an alternate format other than print)\n')
 aco_globals.recs_misc_errors_txt.write('    --  the 245 $h GMD field was not added to a non-RDA e-version record during processing\n')
 aco_globals.recs_misc_errors_txt.write('    --  the $6 subfield did not sort to the first position in the field - issue with NYU records\n')
+aco_globals.recs_misc_errors_txt.write('    --  record is missing a call number - no 050 or 090 field\n')
 aco_globals.recs_misc_errors_txt.write('Report produced: '+aco_globals.curr_time+'\n')
 
 aco_globals.marcRecsOut_errors_all = pymarc.MARCWriter(file(output_folder+'/'+batch_name+'_3_errors_all.mrc', 'w'))
@@ -181,6 +182,7 @@ aco_globals.recs_errors_all_txt.write('    --  missing a key 880 field\n')
 aco_globals.recs_errors_all_txt.write('    --  have an unlinked 880 field\n')
 aco_globals.recs_errors_all_txt.write('    --  have a series heading error in the 490/800/810/811/830 fields\n')
 aco_globals.recs_errors_all_txt.write('    --  have one of the various miscellaneous errors, marked with ERROR-MISC\n')
+aco_globals.recs_errors_all_txt.write('    --  missing a call number - no 050 or 090 field\n')
 aco_globals.recs_errors_all_txt.write('Report produced: '+aco_globals.curr_time+'\n')
 
 all_recs_analysis_txt = codecs.open(output_folder+'/'+batch_name+'_3_all_recs_analysis.txt', 'w', encoding='utf8')
@@ -252,6 +254,7 @@ perc_unlinked_880s = aco_functions.calculate_percentage(aco_globals.recs_unlinke
 perc_series_errors = aco_functions.calculate_percentage(aco_globals.recs_series_errors_count,rec_count_tot)
 perc_misc_errors = aco_functions.calculate_percentage(aco_globals.recs_misc_errors_count,rec_count_tot)
 perc_rda = aco_functions.calculate_percentage(aco_globals.recs_rda_count,rec_count_tot)
+perc_no_call_num = aco_functions.calculate_percentage(aco_globals.recs_no_call_num_count,rec_count_tot)
 
 aco_globals.all_recs_analysis_msg += 'Records where OCLC nums did not match: '+str(aco_globals.recs_no_oclc_match_count)+'\n'
 aco_globals.all_recs_analysis_msg += 'Total records containing any type of error for this round: '+str(aco_globals.recs_errors_all_count)+' ('+perc_errors_all+'%)\n'
@@ -265,6 +268,7 @@ aco_globals.all_recs_analysis_msg += 'Records containing series errors in 490/80
 aco_globals.all_recs_analysis_msg += 'Records containing miscellaneous errors: '+str(aco_globals.recs_misc_errors_count)+' ('+perc_misc_errors+'%)\n'
 aco_globals.all_recs_analysis_msg += 'Records containing bad encoding replacement character: '+str(aco_globals.recs_repl_char_count)+'\n'
 aco_globals.all_recs_analysis_msg += 'Records containing RDA fields: '+str(aco_globals.recs_rda_count)+' ('+perc_rda+'%)\n'
+aco_globals.all_recs_analysis_msg += 'Records with NO 050 or 090 call number fields: '+str(aco_globals.recs_no_call_num_count)+' ('+perc_no_call_num+'%)\n'
 aco_globals.all_recs_analysis_msg += '---------------------------------------------------------------------\nINDIVIDUAL RECORDS ANALYSIS:\n---------------------------------------------------------------------\n'
 
 all_recs_analysis_txt.write(aco_globals.all_recs_analysis_msg)

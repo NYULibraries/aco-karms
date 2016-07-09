@@ -362,6 +362,27 @@ def check_if_rda(rec):
 	return (rda_rec, msg)
 
 ######################################################################
+##  Method:  check_if_call_num()
+##  -  check if record has 050 or 090 field with LC call number
+######################################################################
+def check_if_call_num(rec):
+	msg = ''
+	no_call_num = False
+	rec_050s = rec.get_fields('050')
+	if len(rec_050s)==0:
+		rec_090s = rec.get_fields('090')
+		if len(rec_090s)==0:
+			no_call_num = True
+			msg += 'ERROR-MISC: No 050 or 090 call number\n'
+		else:
+			msg += '090 call number: '+rec_090s[0]
+	else:
+		msg += '050 call number: '+rec_050s[0]
+	
+	return (no_call_num, msg)
+
+
+######################################################################
 ##  Method:  check_repl_char()
 ##  -  check if record has bad encoding replacement character - u"\uFFFD"
 ##     (i.e., black diamond with question mark in the center)
@@ -1016,37 +1037,44 @@ def process_rec(rec, type):
 		rda_rec, msg_5 = check_if_rda(rec)
 		indiv_rec_analysis_msg += msg_5
 		if rda_rec:
-			aco_globals.recs_rda_count += 1	
+			aco_globals.recs_rda_count += 1
 		
+		################################################
+		# Check if record lacks an LC call number - no 050 or 090 field
+		no_call_num, msg_6 = check_if_call_num(rec)
+		indiv_rec_analysis_msg += msg_6
+		if no_call_num:
+			aco_globals.recs_no_call_num_count += 1	
+				
 		################################################
 		# Check if record contains bad encoding script character (black diamond around question-mark)
 		# Evidenced by presence of Python source code u"\uFFFD" (See: http://www.fileformat.info/info/unicode/char/0fffd/index.htm)
-		repl_char, msg_6 = check_repl_char(rec)
-		indiv_rec_analysis_msg += msg_6
+		repl_char, msg_7 = check_repl_char(rec)
+		indiv_rec_analysis_msg += msg_7
 		if repl_char:
 			aco_globals.recs_repl_char_count += 1
 		
 		################################################
 		# Add/Delete/Modify MARC fields in print record to convert to an e-resource record
-		rec, msg_7 = convert_2_eres_rec(rec, rda_rec)
-		indiv_rec_analysis_msg += msg_7
+		rec, msg_8 = convert_2_eres_rec(rec, rda_rec)
+		indiv_rec_analysis_msg += msg_8
 		
 		################################################
 		# Sort any $6 subfields that do not appear first in the field
 		rec = sort_6_subs(rec)
 		
-		rec, msg_8 = second_sort_6_check(rec)
-		indiv_rec_analysis_msg += msg_8
+		rec, msg_9 = second_sort_6_check(rec)
+		indiv_rec_analysis_msg += msg_9
 				
 		################################################
 		# Match the 001/003 fields and insert the corresponding URL handle in an 856 field
-		rec, msg_9 = insert_url(rec, aco_globals.handles_lines)
-		indiv_rec_analysis_msg += msg_9
+		rec, msg_10 = insert_url(rec, aco_globals.handles_lines)
+		indiv_rec_analysis_msg += msg_10
 		
 		################################################
 		# Match the BSNs and insert the corresponding SE (source entity) book IDs into the 999 field
-		rec, msg_10 = insert_src_entities(rec, aco_globals.bsn_se_lines)
-		indiv_rec_analysis_msg += msg_10
+		rec, msg_11 = insert_src_entities(rec, aco_globals.bsn_se_lines)
+		indiv_rec_analysis_msg += msg_11
 		
 		################################################
 		# Change LDR values

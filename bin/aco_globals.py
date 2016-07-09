@@ -28,6 +28,7 @@ recs_series_errors_count = 0		# total records having series errors for 490 + 800
 recs_misc_errors_count = 0			# total records having miscellaneous errors (unrelated to 880 fields)
 recs_repl_char_count = 0			# total records containing the bad encoding replacement character
 recs_rda_count = 0					# total records having RDA 3XX or 040e fields
+recs_no_call_num_count = 0			# total records missing an LC call number - no 050 or 090 field
 
 
 # OUTPUT FILES from aco_process scripts
