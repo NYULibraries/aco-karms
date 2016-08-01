@@ -5,7 +5,8 @@ ALL Records containing any type of error - batch NNU_20150615
     --  have an unlinked 880 field
     --  have a series heading error in the 490/800/810/811/830 fields
     --  have one of the various miscellaneous errors, marked with ERROR-MISC
-Report produced: 2015-09-23 08:09:11.526586
+    --  missing a call number - no 050 or 090 field
+Report produced: 2016-08-01 11:38:15.428059
 ---------------------------------------------------------------------
 FILE: NNU_20150615_1/NNU_20150615_1_orig_with_oclc_nums.mrc
 ---------------------------------------------------------------------
@@ -18,6 +19,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Kindi's treatise on melodies
 040 $e field: [none]
 RDA fields: YES
+050 call number: M142.O9 K56 1965
 Source entities (book IDs): nyu_aco001176
 ---------------------------------------------------------------------
 Institution ID: NNU_001356825
@@ -25,9 +27,10 @@ Institution ID: NNU_001356825
 Record 999:  NNU_001356825
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Report on the monuments of Nubia likely to be submerged by Sudd-el-ʻĀlī water
+   246 - Report on the monuments of Nubia likely to be submerged by Sudd-el-ʻĀlī water
 040 $e field: [none]
 RDA fields: YES
+050 call number: DT159.6.N83 E392 1955
 Source entities (book IDs): nyu_aco001129
 ---------------------------------------------------------------------
 Institution ID: NNU_001379353
@@ -35,8 +38,9 @@ Institution ID: NNU_001379353
 Record 999:  NNU_001379353
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   240 - Relation d'un séjour de plusieurs années 'a Beyrouth et dans le Liban Arabic 1949.
+   240 - Relation d'un séjour de plusieurs années 'a Beyrouth et dans le Liban Arabic 1949.
 040 $e field: [none]
+050 call number: DS80.2 .G9919 1949
 Source entities (book IDs): nyu_aco001079:v.1, nyu_aco001080:v.2
 ---------------------------------------------------------------------
 Institution ID: NNU_001506515
@@ -44,9 +48,10 @@ Institution ID: NNU_001506515
 Record 999:  NNU_001506515
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   240 - Manuel de généalogie et de chronologie pour l'histoire de l'Islam. Arabic
+   240 - Manuel de généalogie et de chronologie pour l'histoire de l'Islam. Arabic
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS223 Z312 1951x
 Source entities (book IDs): nyu_aco001090:v.1, nyu_aco001091:v.2
 ---------------------------------------------------------------------
 Institution ID: NNU_001627210
@@ -58,6 +63,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Study in Anglo-Iraqi-Turkish diplomacy and public opinion
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS79.9.M6 H87 1967
 Source entities (book IDs): nyu_aco001304
 ---------------------------------------------------------------------
 Institution ID: NNU_001628344
@@ -68,6 +74,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Title on p. [4] of cover: Bedouins and wandering tribes of Iraq
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS70.8.B4 J36 1956
 Source entities (book IDs): nyu_aco001062
 ---------------------------------------------------------------------
 Institution ID: NNU_001673573
@@ -75,8 +82,9 @@ Institution ID: NNU_001673573
 Record 999:  NNU_001673573
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   710 - Khoury Collection (Library of Congress) DLC
+   710 - Khoury Collection (Library of Congress). DLC
 040 $e field: [none]
+050 call number: HC497.S8 A4 1960
 Source entities (book IDs): nyu_aco001146
 ---------------------------------------------------------------------
 Institution ID: NNU_001674747
@@ -88,6 +96,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Development of national government in Iraq
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS70.96.G7 S3 1951
 Source entities (book IDs): nyu_aco001285
 ---------------------------------------------------------------------
 Institution ID: NNU_001676404
@@ -98,6 +107,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    700 - Margoliouth, D. S. (David Samuel), 1858-1940.
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS272 .I241 1914
 Source entities (book IDs): nyu_aco001064:v.1/4
 ---------------------------------------------------------------------
 Institution ID: NNU_001678090
@@ -108,6 +118,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    830 - Princeton University Arabic collection ; cn. 9302088.07.
    830 - Princeton University Arabic collection. Phase II.
 040 $e field: [none]
+050 call number: DS63.7 .N3 1955
 Source entities (book IDs): nyu_aco001281
 ---------------------------------------------------------------------
 Institution ID: NNU_001678151
@@ -118,6 +129,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Iraq under the Mongol Ilkhanids (1258-1335)
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS76 .K55 1968
 Source entities (book IDs): nyu_aco001288
 ---------------------------------------------------------------------
 Institution ID: NNU_001678153
@@ -128,6 +140,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Iraq in the Umayyad period, political, social and adminisral [sic] aspects
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS76 .R35 1965
 Source entities (book IDs): nyu_aco001289
 ---------------------------------------------------------------------
 Institution ID: NNU_001678156
@@ -138,6 +151,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Political life and governmental organizations in Irak during the fifth century of al-Hijree
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS76.4 .K465 1969
 Source entities (book IDs): nyu_aco001290
 ---------------------------------------------------------------------
 Institution ID: NNU_001678164
@@ -148,6 +162,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Iraqi revolution of 1920
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS79 .F36 1963
 Source entities (book IDs): nyu_aco001292
 ---------------------------------------------------------------------
 Institution ID: NNU_001678188
@@ -158,6 +173,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Basrah during the Ottoman period
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS79.9.B2 B38
 Source entities (book IDs): nyu_aco001069:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_001679556
@@ -165,10 +181,11 @@ Institution ID: NNU_001679556
 Record 999:  NNU_001679556
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Title on cover p. [4]: Livre de la couronne = Kitāb al-Tadj
-   246 - Kitāb al-Tadj
+   246 - Title on cover p. [4]: Livre de la couronne = Kitāb al-Tadj
+   246 - Kitāb al-Tadj
 040 $e field: [none]
 RDA fields: YES
+050 call number: D199.3 .J33 1968
 Source entities (book IDs): nyu_aco001159
 ---------------------------------------------------------------------
 Institution ID: NNU_001679574
@@ -176,10 +193,11 @@ Institution ID: NNU_001679574
 Record 999:  NNU_001679574
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Histoire de juges d'Andalousie intitulée Kitab al-Markaba al-ʻUlya
+   246 - Histoire de juges d'Andalousie intitulée Kitab al-Markaba al-ʻUlya
    700 - Lévi-Provençal, Evariste, 1894-1956.
 040 $e field: [none]
 RDA fields: YES
+050 call number: KBP4.3 .N83 1948
 Source entities (book IDs): nyu_aco001163
 ---------------------------------------------------------------------
 Institution ID: NNU_001679581
@@ -190,6 +208,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - History of the National Democratic Party
 040 $e field: [none]
 RDA fields: YES
+050 call number: JQ1825.I7 H88 1963
 Source entities (book IDs): nyu_aco001165
 ---------------------------------------------------------------------
 Institution ID: NNU_001684637
@@ -197,9 +216,10 @@ Institution ID: NNU_001684637
 Record 999:  NNU_001684637
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Description de lÉgypte
+   246 - Description de lÉgypte
 040 $e field: [none]
 RDA fields: YES
+050 call number: DT51 .I2 1893
 Source entities (book IDs): nyu_aco001105
 ---------------------------------------------------------------------
 Institution ID: NNU_001684894
@@ -211,6 +231,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    830 - Collectio editinum rariorum orientalium noviter impressarum ; 2.
 040 $e field: [none]
 RDA fields: YES
+050 call number: G93 .D5 1923a
 Source entities (book IDs): nyu_aco001136
 ---------------------------------------------------------------------
 Institution ID: NNU_001689254
@@ -221,6 +242,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    260 - [Hadhramawt] : [publisher not identified], 1948-
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS247.H35 I3 1948
 Source entities (book IDs): nyu_aco001095:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_001689307
@@ -231,6 +253,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    260 - [Tehran?] : [publisher not identified], [1890?]
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS38 .N26 1890
 Source entities (book IDs): nyu_aco001266
 ---------------------------------------------------------------------
 Institution ID: NNU_001689395
@@ -241,6 +264,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    260 - [Place of publication not identified] : [publisher not identified], [1954?]-
 040 $e field: [none]
 RDA fields: YES
+050 call number: DT329F4 F38 1954
 Source entities (book IDs): nyu_aco001135:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_001689400
@@ -251,6 +275,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Description de l'Afrique septentrionale
 040 $e field: [none]
 RDA fields: YES
+050 call number: DT194 .B3 1968
 Source entities (book IDs): nyu_aco001134
 ---------------------------------------------------------------------
 Institution ID: NNU_001700786
@@ -262,6 +287,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Irak, la terre et les hommes
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS70.6 .R27
 Source entities (book IDs): nyu_aco001284
 ---------------------------------------------------------------------
 Institution ID: NNU_001701280
@@ -269,9 +295,10 @@ Institution ID: NNU_001701280
 Record 999:  NNU_001701280
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Art musulman en Égypte
+   246 - Art musulman en Égypte
 040 $e field: [none]
 RDA fields: YES
+050 call number: N7381 .H37 1935
 Source entities (book IDs): nyu_aco001183:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_001904909
@@ -283,6 +310,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    830 - Bibliotheca Arabica (Algiers, Algeria) ; 6.
 040 $e field: [none]
 RDA fields: YES
+050 call number: BP77.7.K35 k5 1931
 Source entities (book IDs): nyu_aco001093:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_002203944
@@ -290,13 +318,14 @@ Institution ID: NNU_002203944
 Record 999:  NNU_002203944
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Générations des médecins et des sages
+   246 - Générations des médecins et des sages
    490 - Textes et traductions d'auteurs orientaux ; t. 10
-   490 - Publications de l'Institut français d'archéologie orientale du Caire
+   490 - Publications de l'Institut français d'archéologie orientale du Caire
    830 - Textes et traductions d'auteurs orientaux ; t. 10.
    830 - Publications de l'Institut français d'archéologie orientale du Caire.
 040 $e field: [none]
 RDA fields: YES
+050 call number: R128.3 .I17 1955
 Source entities (book IDs): nyu_aco001199
 ---------------------------------------------------------------------
 Institution ID: NNU_002234730
@@ -304,9 +333,10 @@ Institution ID: NNU_002234730
 Record 999:  NNU_002234730
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - Bayrūt, Lubnān : Dār al-Makshūf, 1949-
+   260 - Bayrūt, Lubnān : Dār al-Makshūf, 1949-
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS107 .R6 1949
 Source entities (book IDs): nyu_aco001083:v.1, nyu_aco001084:v.2, nyu_aco001085:v.3
 ---------------------------------------------------------------------
 Institution ID: NNU_002747039
@@ -314,9 +344,10 @@ Institution ID: NNU_002747039
 Record 999:  NNU_002747039
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Baghdad fi tarikh él khilefa él-Abbassia
+   246 - Baghdad fi tarikh él khilefa él-Abbassia
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS51.B3 I17 1968
 Source entities (book IDs): nyu_aco001297
 ---------------------------------------------------------------------
 Institution ID: NNU_002966465
@@ -327,37 +358,20 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Oil of Kuwait, present and future
 040 $e field: [none]
 RDA fields: YES
+050 call number: HD9576.K82 S5 1958
 Source entities (book IDs): nyu_aco001157:v.1
 ---------------------------------------------------------------------
 ---------------------------------------------------------------------
 FILE: NNU_20150615_1/NNU_20150615_1_orig_no_oclc_nums.mrc
 ---------------------------------------------------------------------
-Institution ID: NNU_001678084
-   orig_rec_035 num: =035  9\$aNYUb12221469
-   orig_rec_035 num: =035  \\$a(MiU)notisAHZ4140
-   orig_rec_035 num: =035  \\$a(CStRLIN)MIUGAHZ4140-B
-Record 999:  NNU_001678084
-ERROR-880: 880 script fields: NO
+Institution ID: NNU_000397895
+   orig_rec_035 num: =035  9\$aNYUb13381590
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG06-B2453
+Record 999:  NNU_000397895
+880 script fields: YES
 040 $e field: [none]
-Source entities (book IDs): nyu_aco001276
----------------------------------------------------------------------
-Institution ID: NNU_001682694
-   orig_rec_035 num: =035  9\$aNYUb12226111
-   orig_rec_035 num: =035  \\$a(MH)MHAUP56108HU
-   orig_rec_035 num: =035  \\$a(CStRLIN)MAHGAUP56108-B
-Record 999:  NNU_001682694
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001162
----------------------------------------------------------------------
-Institution ID: NNU_001820905
-   orig_rec_035 num: =035  9\$aNYUb10755331
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG89-B41782
-   orig_rec_035 num: =035  \\$aGLIS007553313
-Record 999:  NNU_001820905
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-Source entities (book IDs): nyu_aco001130
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): nyu_aco001188:v.1, nyu_aco001189:v.2, nyu_aco001190:v.3, nyu_aco001191:v.4, nyu_aco001192:v.5, nyu_aco001193:v.6, nyu_aco001194:v.7, nyu_aco001195:v.8
 ---------------------------------------------------------------------
 Institution ID: NNU_002050025
    orig_rec_035 num: =035  9\$aNYUb11002933
@@ -368,7 +382,8 @@ Record 999:  NNU_002050025
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    260 - [Cairo : s.n., 1929]
 040 $e field: [none]
+050 call number: HC830 .B35 1929
 Source entities (book IDs): nyu_aco001152
 ---------------------------------------------------------------------
-TOTAL Number of Records containing any type of error: 35
+TOTAL Number of Records containing any type of error: 33
 

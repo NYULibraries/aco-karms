@@ -1,324 +1,154 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>
-		02281nam a2200481   4500
-	</leader>
-	<controlfield tag="001">
-		001701280
-	</controlfield>
-	<controlfield tag="003">
-		NNU
-	</controlfield>
-	<controlfield tag="006">
-		m        d        
-	</controlfield>
-	<controlfield tag="007">
-		cr cn |||m|||a
-	</controlfield>
-	<controlfield tag="008">
-		150923m19359999ua af   ob    001 0 araod
-	</controlfield>
+	<leader>     nam a22        4500</leader>
+	<controlfield tag="001">001701280</controlfield>
+	<controlfield tag="003">NNU</controlfield>
+	<controlfield tag="006">m        d        </controlfield>
+	<controlfield tag="007">cr cn |||m|||a</controlfield>
+	<controlfield tag="008">160801m19359999ua af   ob    001 0 araod</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			eng
-		</subfield>
-		<subfield code="e">
-			rda
-		</subfield>
-		<subfield code="c">
-			NNU
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
+		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
-		<subfield code="a">
-			f-ua---
-		</subfield>
+		<subfield code="a">f-ua---</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
-		<subfield code="a">
-			N7381
-		</subfield>
-		<subfield code="b">
-			.H37 1935
-		</subfield>
+		<subfield code="a">N7381</subfield>
+		<subfield code="b">.H37 1935</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="6">
-			880-01
-		</subfield>
-		<subfield code="a">
-			Ḥasan, Zakī Muḥammad.
-		</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Ḥasan, Zakī Muḥammad.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="6">
-			880-02
-		</subfield>
-		<subfield code="a">
-			al-Fann al-Islāmī fī Miṣr /
-		</subfield>
-		<subfield code="c">
-			Zakī Muḥammad Ḥasan.
-		</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Fann al-Islāmī fī Miṣr /</subfield>
+		<subfield code="c">Zakī Muḥammad Ḥasan.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="4" tag="246">
-		<subfield code="a">
-			Art musulman en Égypte
-		</subfield>
+		<subfield code="a">Art musulman en Égypte</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">
-			880-03
-		</subfield>
-		<subfield code="a">
-			al-Qāhirah :
-		</subfield>
-		<subfield code="b">
-			Maṭbaʻat Dār al-Kutūb al-Miṣrīyah,
-		</subfield>
-		<subfield code="c">
-			1935-
-		</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
+		<subfield code="b">Maṭbaʻat Dār al-Kutūb al-Miṣrīyah,</subfield>
+		<subfield code="c">1935-</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">
-			online resource (volumes) :
-		</subfield>
-		<subfield code="b">
-			plates
-		</subfield>
+		<subfield code="a">online resource (volumes) :</subfield>
+		<subfield code="b">plates</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="336">
-		<subfield code="a">
-			text
-		</subfield>
-		<subfield code="2">
-			rdacontent
-		</subfield>
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="337">
-		<subfield code="a">
-			computer
-		</subfield>
-		<subfield code="2">
-			rdamedia
-		</subfield>
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="338">
-		<subfield code="a">
-			online resource
-		</subfield>
-		<subfield code="2">
-			rdacarrier
-		</subfield>
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			At head of title: Dār al-Āthār al-ʻArabīyah.
-		</subfield>
+		<subfield code="a">At head of title: Dār al-Āthār al-ʻArabīyah.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.
-		</subfield>
+		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="505">
-		<subfield code="6">
-			880-04
-		</subfield>
-		<subfield code="a">
-			Juz' 1. Min al-fatḥ al-ʻArabī ilá nihāyat al-ʻaṣr al-Ṭūlūnī
-		</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Juz' 1. Min al-fatḥ al-ʻArabī ilá nihāyat al-ʻaṣr al-Ṭūlūnī</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">
-			Includes bibliographical references (v. 1, pages 120-125) and index.
-		</subfield>
+		<subfield code="a">Includes bibliographical references (v. 1, pages 120-125) and index.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
-		<subfield code="a">
-			Electronic reproduction.
-		</subfield>
-		<subfield code="b">
-			New York, N.Y. :
-		</subfield>
-		<subfield code="c">
-			New York University,
-		</subfield>
-		<subfield code="d">
-			2015.
-		</subfield>
-		<subfield code="5">
-			NNU
-		</subfield>
+		<subfield code="a">Electronic reproduction.</subfield>
+		<subfield code="b">New York, N.Y. :</subfield>
+		<subfield code="c">New York University,</subfield>
+		<subfield code="d">2016.</subfield>
+		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">
-			Islamic art
-		</subfield>
-		<subfield code="z">
-			Egypt.
-		</subfield>
+		<subfield code="a">Islamic art</subfield>
+		<subfield code="z">Egypt.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">
-			Art, Egyptian.
-		</subfield>
+		<subfield code="a">Art, Egyptian.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="7" tag="650">
-		<subfield code="a">
-			Art, Egyptian.
-		</subfield>
-		<subfield code="2">
-			fast
-		</subfield>
-		<subfield code="0">
-			(OCoLC)fst00816211
-		</subfield>
+		<subfield code="a">Art, Egyptian.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst00816211</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="7" tag="650">
-		<subfield code="a">
-			Islamic art.
-		</subfield>
-		<subfield code="2">
-			fast
-		</subfield>
-		<subfield code="0">
-			(OCoLC)fst01730275
-		</subfield>
+		<subfield code="a">Islamic art.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01730275</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="7" tag="651">
-		<subfield code="a">
-			Egypt.
-		</subfield>
-		<subfield code="2">
-			fast
-		</subfield>
-		<subfield code="0">
-			(OCoLC)fst01208755
-		</subfield>
+		<subfield code="a">Egypt.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01208755</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="6">
-			880-05
-		</subfield>
-		<subfield code="a">
-			Matḥaf al-Fann al-Islāmī (Cairo, Egypt)
-		</subfield>
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Matḥaf al-Fann al-Islāmī (Cairo, Egypt)</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="a">
-			New York University.
-		</subfield>
-		<subfield code="b">
-			Libraries.
-		</subfield>
+		<subfield code="a">New York University.</subfield>
+		<subfield code="b">Libraries.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="730">
-		<subfield code="a">
-			Arabic Collections Online.
-		</subfield>
+		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
-		<subfield code="i">
-			Print version:
-		</subfield>
-		<subfield code="a">
-			Ḥasan, Zakī Muḥammad.
-		</subfield>
-		<subfield code="t">
-			al-Fann al-Islāmī fī Miṣr
-		</subfield>
-		<subfield code="w">
-			(NNU)001701280
-		</subfield>
+		<subfield code="i">Print version:</subfield>
+		<subfield code="a">Ḥasan, Zakī Muḥammad.</subfield>
+		<subfield code="t">al-Fann al-Islāmī fī Miṣr</subfield>
+		<subfield code="w">(NNU)001701280</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">
-			http://hdl.handle.net/2333.1/kwh70vjx
-		</subfield>
+		<subfield code="u">http://hdl.handle.net/2333.1/kwh70vjx</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
-			100-01/
-		</subfield>
-		<subfield code="a">
-			حسن، زكى محمد.
-		</subfield>
+		<subfield code="6">100-01/</subfield>
+		<subfield code="a">حسن، زكى محمد.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
-		<subfield code="6">
-			245-02/
-		</subfield>
-		<subfield code="a">
-			الفن الاسلامي في مصر /
-		</subfield>
-		<subfield code="c">
-			زكي محمد حسن.
-		</subfield>
+		<subfield code="6">245-02/</subfield>
+		<subfield code="a">الفن الاسلامي في مصر /</subfield>
+		<subfield code="c">زكي محمد حسن.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">
-			260-03/
-		</subfield>
-		<subfield code="a">
-			القاهرة :
-		</subfield>
-		<subfield code="b">
-			مطبعة دار الكتب المصرية،
-		</subfield>
-		<subfield code="c">
-			.1935-
-		</subfield>
+		<subfield code="6">260-03/</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">مطبعة دار الكتب المصرية،</subfield>
+		<subfield code="c">.1935-</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
-			505-04/
-		</subfield>
-		<subfield code="a">
-			جزء .1 من الفتح العربى إلى نهاية العصرالطولونى.
-		</subfield>
+		<subfield code="6">505-04/</subfield>
+		<subfield code="a">جزء .1 من الفتح العربى إلى نهاية العصرالطولونى.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
-			710-05/
-		</subfield>
-		<subfield code="a">
-			القاهرة، مصر. متحف الفن الإسلامى.
-		</subfield>
+		<subfield code="6">710-05/</subfield>
+		<subfield code="a">القاهرة، مصر. متحف الفن الإسلامى.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			WEB
-		</subfield>
-		<subfield code="c">
-			GENI
-		</subfield>
-		<subfield code="t">
-			0
-		</subfield>
-		<subfield code="m">
-			Electronic access
-		</subfield>
-		<subfield code="s">
-			01
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">WEB</subfield>
+		<subfield code="c">GENI</subfield>
+		<subfield code="t">0</subfield>
+		<subfield code="m">Electronic access</subfield>
+		<subfield code="s">01</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
-		<subfield code="i">
-			NNU_001701280
-		</subfield>
-		<subfield code="s">
-			nyu_aco001183:v.1
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
-		</subfield>
+		<subfield code="i">NNU_001701280</subfield>
+		<subfield code="s">nyu_aco001183:v.1</subfield>
+		<subfield code="e">(ERROR-880)</subfield>
 	</datafield>
 </record>
