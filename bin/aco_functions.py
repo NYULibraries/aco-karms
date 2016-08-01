@@ -377,11 +377,11 @@ def check_if_call_num(rec):
 		else:
 			rec_090_a = rec_090s[0].get_subfields('a')[0]
 			rec_090_b = rec_090s[0].get_subfields('b')[0]
-			msg += '090 call number: '+rec_090_a+' '+rec_090_b
+			msg += '090 call number: '+rec_090_a+' '+rec_090_b+'\n'
 	else:
 		rec_050_a = rec_050s[0].get_subfields('a')[0]
 		rec_050_b = rec_050s[0].get_subfields('b')[0]
-		msg += '050 call number: '+rec_050_a+' '+rec_050_b
+		msg += '050 call number: '+rec_050_a+' '+rec_050_b+'\n'
 	
 	return (no_call_num, msg)
 
