@@ -1,330 +1,152 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>
-		02712nam a2200445   4500
-	</leader>
-	<controlfield tag="001">
-		002747039
-	</controlfield>
-	<controlfield tag="003">
-		NNU
-	</controlfield>
-	<controlfield tag="006">
-		m        d        
-	</controlfield>
-	<controlfield tag="007">
-		cr cn |||m|||a
-	</controlfield>
-	<controlfield tag="008">
-		150923s1968    iq      o     000 0 arar 
-	</controlfield>
+	<leader>     nam a22        4500</leader>
+	<controlfield tag="001">002747039</controlfield>
+	<controlfield tag="003">NNU</controlfield>
+	<controlfield tag="006">m        d        </controlfield>
+	<controlfield tag="007">cr cn |||m|||a</controlfield>
+	<controlfield tag="008">160801s1968    iq      o     000 0 arar </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			eng
-		</subfield>
-		<subfield code="e">
-			rda
-		</subfield>
-		<subfield code="c">
-			NNU
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
+		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
-		<subfield code="a">
-			a-iq---
-		</subfield>
+		<subfield code="a">a-iq---</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
-		<subfield code="a">
-			DS51.B3
-		</subfield>
-		<subfield code="b">
-			I17 1968
-		</subfield>
+		<subfield code="a">DS51.B3</subfield>
+		<subfield code="b">I17 1968</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="6">
-			880-01
-		</subfield>
-		<subfield code="a">
-			Ibn Abī Ṭāhir Ṭayfūr, Aḥmad,
-		</subfield>
-		<subfield code="d">
-			819 or 820-893.
-		</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Ibn Abī Ṭāhir Ṭayfūr, Aḥmad,</subfield>
+		<subfield code="d">819 or 820-893.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="6">
-			880-02
-		</subfield>
-		<subfield code="a">
-			Baghdād fī tārīkh al-khilāfah al-ʻAbbāsīyah :
-		</subfield>
-		<subfield code="b">
-			aqdam mā kutiba fī tārīkh al-khalīfah al-Maʼmūn wa-ʻaṣrihi al-dhahabī /
-		</subfield>
-		<subfield code="c">
-			taʼlīf Abī al-Faḍl Aḥmad ibn Ṭāhir al-kātib al-maʻrūf bi-Ibn Ṭayfūr.
-		</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Baghdād fī tārīkh al-khilāfah al-ʻAbbāsīyah :</subfield>
+		<subfield code="b">aqdam mā kutiba fī tārīkh al-khalīfah al-Maʼmūn wa-ʻaṣrihi al-dhahabī /</subfield>
+		<subfield code="c">taʼlīf Abī al-Faḍl Aḥmad ibn Ṭāhir al-kātib al-maʻrūf bi-Ibn Ṭayfūr.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="5" tag="246">
-		<subfield code="6">
-			880-03
-		</subfield>
-		<subfield code="a">
-			Kitāb baghdād
-		</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Kitāb baghdād</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="4" tag="246">
-		<subfield code="a">
-			Baghdad fi tarikh él khilefa él-Abbassia
-		</subfield>
+		<subfield code="a">Baghdad fi tarikh él khilefa él-Abbassia</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">
-			880-04
-		</subfield>
-		<subfield code="a">
-			Baghdād :
-		</subfield>
-		<subfield code="b">
-			Maktabat al-Muthanná,
-		</subfield>
-		<subfield code="c">
-			1968.
-		</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Baghdād :</subfield>
+		<subfield code="b">Maktabat al-Muthanná,</subfield>
+		<subfield code="c">1968.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">
-			online resource (7, 232 pages)
-		</subfield>
+		<subfield code="a">online resource (7, 232 pages)</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="336">
-		<subfield code="a">
-			text
-		</subfield>
-		<subfield code="2">
-			rdacontent
-		</subfield>
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="337">
-		<subfield code="a">
-			computer
-		</subfield>
-		<subfield code="2">
-			rdamedia
-		</subfield>
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="338">
-		<subfield code="a">
-			online resource
-		</subfield>
-		<subfield code="2">
-			rdacarrier
-		</subfield>
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="6">
-			880-05
-		</subfield>
-		<subfield code="a">
-			&quot;Hādhā huwa al-juzʼ al-sādis min Kitāb Baghdād, li-Aḥmad ibn Abī Ṭāhir Ṭayfūr.&quot;
-		</subfield>
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">&quot;Hādhā huwa al-juzʼ al-sādis min Kitāb Baghdād, li-Aḥmad ibn Abī Ṭāhir Ṭayfūr.&quot;</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">
-			Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.
-		</subfield>
+		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
-		<subfield code="a">
-			Electronic reproduction.
-		</subfield>
-		<subfield code="b">
-			New York, N.Y. :
-		</subfield>
-		<subfield code="c">
-			New York University,
-		</subfield>
-		<subfield code="d">
-			2015.
-		</subfield>
-		<subfield code="5">
-			NNU
-		</subfield>
+		<subfield code="a">Electronic reproduction.</subfield>
+		<subfield code="b">New York, N.Y. :</subfield>
+		<subfield code="c">New York University,</subfield>
+		<subfield code="d">2016.</subfield>
+		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
-		<subfield code="a">
-			Baghdad (Iraq)
-		</subfield>
-		<subfield code="x">
-			History.
-		</subfield>
+		<subfield code="a">Baghdad (Iraq)</subfield>
+		<subfield code="x">History.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="7" tag="651">
-		<subfield code="a">
-			Iraq
-		</subfield>
-		<subfield code="z">
-			Baghdad.
-		</subfield>
-		<subfield code="2">
-			fast
-		</subfield>
-		<subfield code="0">
-			(OCoLC)fst01207444
-		</subfield>
+		<subfield code="a">Iraq</subfield>
+		<subfield code="z">Baghdad.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01207444</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="7" tag="655">
-		<subfield code="a">
-			History.
-		</subfield>
-		<subfield code="2">
-			fast
-		</subfield>
-		<subfield code="0">
-			(OCoLC)fst01411628
-		</subfield>
+		<subfield code="a">History.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01411628</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="a">
-			New York University.
-		</subfield>
-		<subfield code="b">
-			Libraries.
-		</subfield>
+		<subfield code="a">New York University.</subfield>
+		<subfield code="b">Libraries.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="730">
-		<subfield code="a">
-			Arabic Collections Online.
-		</subfield>
+		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
-		<subfield code="i">
-			Online version:
-		</subfield>
-		<subfield code="a">
-			Ibn Abī Ṭāhir Ṭayfūr, Aḥmad, 819 or 20-893.
-		</subfield>
-		<subfield code="t">
-			Baghdād fī tārīkh al-khilāfah al-ʻAbbāsīyah.
-		</subfield>
-		<subfield code="d">
-			Baghdād : Maktabat al-Muthanná, 1968
-		</subfield>
-		<subfield code="w">
-			(OCoLC)586075656
-		</subfield>
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">Ibn Abī Ṭāhir Ṭayfūr, Aḥmad, 819 or 20-893.</subfield>
+		<subfield code="t">Baghdād fī tārīkh al-khilāfah al-ʻAbbāsīyah.</subfield>
+		<subfield code="d">Baghdād : Maktabat al-Muthanná, 1968</subfield>
+		<subfield code="w">(OCoLC)586075656</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
-		<subfield code="i">
-			Print version:
-		</subfield>
-		<subfield code="a">
-			Ibn Abī Ṭāhir Ṭayfūr, Aḥmad, 819 or 820-893.
-		</subfield>
-		<subfield code="t">
-			Baghdād fī tārīkh al-khilāfah al-ʻAbbāsīyah
-		</subfield>
-		<subfield code="w">
-			(NNU)002747039
-		</subfield>
-		<subfield code="w">
-			(DLC)   72960152
-		</subfield>
+		<subfield code="i">Print version:</subfield>
+		<subfield code="a">Ibn Abī Ṭāhir Ṭayfūr, Aḥmad, 819 or 820-893.</subfield>
+		<subfield code="t">Baghdād fī tārīkh al-khilāfah al-ʻAbbāsīyah</subfield>
+		<subfield code="w">(NNU)002747039</subfield>
+		<subfield code="w">(DLC)   72960152</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">
-			http://hdl.handle.net/2333.1/80gb5q31
-		</subfield>
+		<subfield code="u">http://hdl.handle.net/2333.1/80gb5q31</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">
-			100-01/
-		</subfield>
-		<subfield code="a">
-			ابن ابي طاهر طيفور، احمد،
-		</subfield>
-		<subfield code="d">
-			819 or 820-893.
-		</subfield>
+		<subfield code="6">100-01/</subfield>
+		<subfield code="a">ابن ابي طاهر طيفور، احمد،</subfield>
+		<subfield code="d">819 or 820-893.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">
-			245-02/
-		</subfield>
-		<subfield code="a">
-			بغداد في تاريخ الخلافة العباسية :
-		</subfield>
-		<subfield code="b">
-			اقدم ما كتب في تاريخ الخليفة المأمون وعصره الذهبي /
-		</subfield>
-		<subfield code="c">
-			تأليف ابي الفضل احمد بن طاهر الكاتب المعروف بابن طيفور.
-		</subfield>
+		<subfield code="6">245-02/</subfield>
+		<subfield code="a">بغداد في تاريخ الخلافة العباسية :</subfield>
+		<subfield code="b">اقدم ما كتب في تاريخ الخليفة المأمون وعصره الذهبي /</subfield>
+		<subfield code="c">تأليف ابي الفضل احمد بن طاهر الكاتب المعروف بابن طيفور.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="5" tag="880">
-		<subfield code="6">
-			246-03/
-		</subfield>
-		<subfield code="a">
-			‏كتاب بغداد
-		</subfield>
+		<subfield code="6">246-03/</subfield>
+		<subfield code="a">‏كتاب بغداد</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">
-			260-04/
-		</subfield>
-		<subfield code="a">
-			بغداد :
-		</subfield>
-		<subfield code="b">
-			مكتبة المثنى،
-		</subfield>
-		<subfield code="c">
-			1968.
-		</subfield>
+		<subfield code="6">260-04/</subfield>
+		<subfield code="a">بغداد :</subfield>
+		<subfield code="b">مكتبة المثنى،</subfield>
+		<subfield code="c">1968.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">
-			500-05/
-		</subfield>
-		<subfield code="a">
-			&quot;هذا هو الجزء السادس من كتاب بغداد، لاحمد بن ابي طاهر طيفور.&quot;
-		</subfield>
+		<subfield code="6">500-05/</subfield>
+		<subfield code="a">&quot;هذا هو الجزء السادس من كتاب بغداد، لاحمد بن ابي طاهر طيفور.&quot;</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
-		<subfield code="a">
-			NNU
-		</subfield>
-		<subfield code="b">
-			WEB
-		</subfield>
-		<subfield code="c">
-			GENI
-		</subfield>
-		<subfield code="t">
-			0
-		</subfield>
-		<subfield code="m">
-			Electronic access
-		</subfield>
-		<subfield code="s">
-			01
-		</subfield>
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">WEB</subfield>
+		<subfield code="c">GENI</subfield>
+		<subfield code="t">0</subfield>
+		<subfield code="m">Electronic access</subfield>
+		<subfield code="s">01</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
-		<subfield code="i">
-			NNU_002747039
-		</subfield>
-		<subfield code="s">
-			nyu_aco001297
-		</subfield>
-		<subfield code="e">
-			(ERROR-880)
-		</subfield>
+		<subfield code="i">NNU_002747039</subfield>
+		<subfield code="s">nyu_aco001297</subfield>
+		<subfield code="e">(ERROR-880)</subfield>
 	</datafield>
 </record>
