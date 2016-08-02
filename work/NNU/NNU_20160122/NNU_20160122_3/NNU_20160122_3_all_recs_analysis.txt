@@ -1,20 +1,21 @@
 Total records processed - batch NNU_20160122: 115 records
-Report produced: 2016-04-26 09:13:22.422582
+Report produced: 2016-08-02 09:21:31.170831
 Input File (orig_with_oclc): 71
 Input File (orig_no_oclc): 44
 
 Records where OCLC nums did not match: 115
-Total records containing any type of error for this round: 21 (18.3%)
-Total records passing to final version for this round: 94 (81.7%)
+Total records containing any type of error for this round: 20 (17.4%)
+Total records passing to final version for this round: 95 (82.6%)
 -----------------------
 Records containing 880 script fields: 109 (94.8%)
 Records with NO 880 script fields: 6 (5.2%)
-Records missing key 880 script fields: 14 (12.2%)
-Records containing unlinked 880 script fields: 1 (0.9%)
+Records missing key 880 script fields: 13 (11.3%)
+Records containing unlinked 880 script fields: 0 (0.0%)
 Records containing series errors in 490/800/810/811/830 fields: 1 (0.9%)
-Records containing miscellaneous errors: 0 (0.0%)
+Records containing miscellaneous errors: 1 (0.9%)
 Records containing bad encoding replacement character: 0
 Records containing RDA fields: 69 (60.0%)
+Records with NO 050 or 090 call number fields: 1 (0.9%)
 ---------------------------------------------------------------------
 INDIVIDUAL RECORDS ANALYSIS:
 ---------------------------------------------------------------------
@@ -26,6 +27,7 @@ Institution ID: NNU_000751723
 Record 999:  NNU_000751723
 880 script fields: YES
 040 $e field: [none]
+050 call number: PJ7745.J3 M3 1950
 Source entities (book IDs): nyu_aco001858
 ---------------------------------------------------------------------
 Institution ID: NNU_000765349
@@ -34,6 +36,7 @@ Record 999:  NNU_000765349
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ7737 .A9 1962
 Source entities (book IDs): nyu_aco001857
 ---------------------------------------------------------------------
 Institution ID: NNU_000995113
@@ -42,6 +45,7 @@ Record 999:  NNU_000995113
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: DT107 .H55 1942
 Source entities (book IDs): nyu_aco001123
 ---------------------------------------------------------------------
 Institution ID: NNU_001496932
@@ -52,6 +56,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    810 - American University of Beirut. Faculty of Arts and Sciences. Publications. Oriental series ; no. 18 etc.
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ25 .A6 1945
 Source entities (book IDs): nyu_aco001828:no.18, nyu_aco001829:no.20, nyu_aco001830:no.29
 ---------------------------------------------------------------------
 Institution ID: NNU_001648882
@@ -60,6 +65,7 @@ Record 999:  NNU_001648882
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS70.8 .A9 1947
 Source entities (book IDs): nyu_aco001717:v.2
 ---------------------------------------------------------------------
 Institution ID: NNU_001658777
@@ -68,6 +74,7 @@ Record 999:  NNU_001658777
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS234 .A148 1968
 Source entities (book IDs): nyu_aco001784:v.1/2
 ---------------------------------------------------------------------
 Institution ID: NNU_001658779
@@ -76,6 +83,7 @@ Record 999:  NNU_001658779
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS69.5 .B3 1962
 Source entities (book IDs): nyu_aco001718:v.2, nyu_aco001719:v.4, nyu_aco001720:v.5
 ---------------------------------------------------------------------
 Institution ID: NNU_001658793
@@ -83,19 +91,19 @@ Institution ID: NNU_001658793
 Record 999:  NNU_001658793
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Documents inédits pour servir à l'histoire du Patriarchate melkite d'Antioche
+   246 - Documents inédits pour servir à l'histoire du Patriarchate melkite d'Antioche
 040 $e field: [none]
 RDA fields: YES
+050 call number: BX4711.32 .W37 1926
 Source entities (book IDs): nyu_aco001698:v.3
 ---------------------------------------------------------------------
 Institution ID: NNU_001676334
    orig_rec_035 num: =035  \\$a(OCoLC)33996161
 Record 999:  NNU_001676334
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   250 - al-Ṭabʻah 1.
 040 $e field: [none]
 RDA fields: YES
+050 call number: BC59 .M3 1907
 Source entities (book IDs): nyu_aco001772
 ---------------------------------------------------------------------
 Institution ID: NNU_001676380
@@ -104,6 +112,7 @@ Record 999:  NNU_001676380
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: BP187.3 .M8 1896
 Source entities (book IDs): nyu_aco001775
 ---------------------------------------------------------------------
 Institution ID: NNU_001676510
@@ -114,6 +123,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    830 - Publication of the Faculty of Arts and Sciences. Oriental series ; no. 28.
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS80.4 .F85 1957
 Source entities (book IDs): nyu_aco001815
 ---------------------------------------------------------------------
 Institution ID: NNU_001676884
@@ -121,10 +131,11 @@ Institution ID: NNU_001676884
 Record 999:  NNU_001676884
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Title on p. [4] of cover: Muslim ibn el-Walīd
+   246 - Title on p. [4] of cover: Muslim ibn el-Walīd
    830 - Publication of the Faculty of Arts and Sciences. Oriental series ; no. 36.
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ7741.M83 Z93 1961
 Source entities (book IDs): nyu_aco001819
 ---------------------------------------------------------------------
 Institution ID: NNU_001676885
@@ -135,6 +146,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    830 - Publications of the Faculty of Arts and Sciences. Oriental series ; 39.
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ25 .A6 no. 39
 Source entities (book IDs): nyu_aco001821
 ---------------------------------------------------------------------
 Institution ID: NNU_001676949
@@ -143,6 +155,7 @@ Record 999:  NNU_001676949
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: BP70 .A9 1906
 Source entities (book IDs): nyu_aco001779:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_001677006
@@ -151,6 +164,7 @@ Record 999:  NNU_001677006
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: AC106 .W35 1897
 Source entities (book IDs): nyu_aco001700:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_001677027
@@ -159,6 +173,7 @@ Record 999:  NNU_001677027
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: B746 .A35 1900
 Source entities (book IDs): nyu_aco001768
 ---------------------------------------------------------------------
 Institution ID: NNU_001677045
@@ -167,6 +182,7 @@ Record 999:  NNU_001677045
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: B753.G33 K5 1907
 Source entities (book IDs): nyu_aco001770
 ---------------------------------------------------------------------
 Institution ID: NNU_001677277
@@ -175,6 +191,7 @@ Record 999:  NNU_001677277
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: BP369 .M35 1955
 Source entities (book IDs): nyu_aco001778:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_001677327
@@ -183,6 +200,7 @@ Record 999:  NNU_001677327
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: BP50 .K3 1947
 Source entities (book IDs): nyu_aco001695:v.3
 ---------------------------------------------------------------------
 Institution ID: NNU_001677957
@@ -191,6 +209,7 @@ Record 999:  NNU_001677957
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: BP189.6 .A23 1864
 Source entities (book IDs): nyu_aco001776
 ---------------------------------------------------------------------
 Institution ID: NNU_001678152
@@ -199,6 +218,7 @@ Record 999:  NNU_001678152
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS79.6.I25 S4 1950
 Source entities (book IDs): nyu_aco001735:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_001678512
@@ -210,6 +230,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Auns al-Jalil for Jeruslem and Khlil's history
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS124 .U41 1968
 Source entities (book IDs): nyu_aco001743:v.2
 ---------------------------------------------------------------------
 Institution ID: NNU_001678873
@@ -218,6 +239,7 @@ Record 999:  NNU_001678873
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: DT107.8 .R14 1946
 Source entities (book IDs): nyu_aco001796:v.2
 ---------------------------------------------------------------------
 Institution ID: NNU_001678962
@@ -226,6 +248,7 @@ Record 999:  NNU_001678962
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ7819.E4 A14 1953
 Source entities (book IDs): nyu_aco001752
 ---------------------------------------------------------------------
 Institution ID: NNU_001679054
@@ -234,16 +257,16 @@ Record 999:  NNU_001679054
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS223 .H34 1935
 Source entities (book IDs): nyu_aco001781:v.3, nyu_aco001782:v.4
 ---------------------------------------------------------------------
 Institution ID: NNU_001679663
    orig_rec_035 num: =035  \\$a(OCoLC)23518888
 Record 999:  NNU_001679663
 880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 700-00/ - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: [none]
 RDA fields: YES
+050 call number: LA1459.D3 N81948
 Source entities (book IDs): nyu_aco001811:v.2, nyu_aco001812:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_001679802
@@ -252,6 +275,7 @@ Record 999:  NNU_001679802
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS80.A5 F8 1956
 Source entities (book IDs): nyu_aco001814
 ---------------------------------------------------------------------
 Institution ID: NNU_001679829
@@ -260,6 +284,7 @@ Record 999:  NNU_001679829
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ25 .A6 1963
 Source entities (book IDs): nyu_aco001822
 ---------------------------------------------------------------------
 Institution ID: NNU_001679871
@@ -268,6 +293,7 @@ Record 999:  NNU_001679871
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ6161 .Z3 1964
 Source entities (book IDs): nyu_aco000257, nyu_aco001846
 ---------------------------------------------------------------------
 Institution ID: NNU_001680984
@@ -276,6 +302,7 @@ Record 999:  NNU_001680984
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ6106 .R5 1961
 Source entities (book IDs): nyu_aco001841:v.2
 ---------------------------------------------------------------------
 Institution ID: NNU_001682470
@@ -284,6 +311,7 @@ Record 999:  NNU_001682470
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS95 .D52
 Source entities (book IDs): nyu_aco001729:v.1, nyu_aco001730:v.2: pt.4
 ---------------------------------------------------------------------
 Institution ID: NNU_001684809
@@ -292,6 +320,7 @@ Record 999:  NNU_001684809
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS325.I6 M8 1933
 Source entities (book IDs): nyu_aco001791
 ---------------------------------------------------------------------
 Institution ID: NNU_001685212
@@ -300,6 +329,7 @@ Record 999:  NNU_001685212
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ6190 .H16 1960
 Source entities (book IDs): nyu_aco001845:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_001685253
@@ -307,11 +337,12 @@ Institution ID: NNU_001685253
 Record 999:  NNU_001685253
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Title on added t.p.: History of Ibn al-Furāt
+   246 - Title on added t.p.: History of Ibn al-Furāt
    490 - Publications of the Faculty of arts and sciences. Oriental series ; no. 9-10, 14, 17
    830 - Publications of the Faculty of arts and sciences. Oriental series ; no. 9, etc.
 040 $e field: [none]
 RDA fields: YES
+050 call number: DT96 .I25 1936
 Source entities (book IDs): nyu_aco001834:no.9: pt.1, nyu_aco001835:no.9: pt.2, nyu_aco001836:no.10, nyu_aco001837:no.14, nyu_aco001838:no.17
 ---------------------------------------------------------------------
 Institution ID: NNU_001685257
@@ -323,6 +354,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    810 - American University of Beirut. Faculty of Arts and Sciences. Publications. Oriental series ; no. 43.
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ25 .A6 1965
 Source entities (book IDs): nyu_aco001823
 ---------------------------------------------------------------------
 Institution ID: NNU_001685700
@@ -331,6 +363,7 @@ Record 999:  NNU_001685700
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ7642 .A1 1909
 Source entities (book IDs): nyu_aco001856
 ---------------------------------------------------------------------
 Institution ID: NNU_001689340
@@ -339,6 +372,7 @@ Record 999:  NNU_001689340
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: BP174 .Z8 1892
 Source entities (book IDs): nyu_aco001724:v.1, nyu_aco001725:v.2, nyu_aco001726:v.4
 ---------------------------------------------------------------------
 Institution ID: NNU_001696948
@@ -347,6 +381,7 @@ Record 999:  NNU_001696948
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: BP175.J5 .I32 1928
 Source entities (book IDs): nyu_aco001742:v.4
 ---------------------------------------------------------------------
 Institution ID: NNU_001699457
@@ -355,6 +390,7 @@ Record 999:  NNU_001699457
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ7745 .T5 1960
 Source entities (book IDs): nyu_aco001849:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_001700635
@@ -363,6 +399,7 @@ Record 999:  NNU_001700635
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: BP193 .H8 1963
 Source entities (book IDs): nyu_aco001741:v.7:pt.5
 ---------------------------------------------------------------------
 Institution ID: NNU_001700697
@@ -371,6 +408,7 @@ Record 999:  NNU_001700697
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS98 .K3 1958
 Source entities (book IDs): nyu_aco001732:v.1, nyu_aco001733:v.2, nyu_aco001734:v.3
 ---------------------------------------------------------------------
 Institution ID: NNU_001701340
@@ -379,6 +417,7 @@ Record 999:  NNU_001701340
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: QD25 .J351 1935
 Source entities (book IDs): nyu_aco001753
 ---------------------------------------------------------------------
 Institution ID: NNU_001725799
@@ -386,7 +425,8 @@ Institution ID: NNU_001725799
 Record 999:  NNU_001725799
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   245 - al-Bīrūni on transits; a study of an Arabic treatise entitled Tamhīd al-mustaqarr li-taḥqīq maʻná al-mamarr [romanized form] / by Abū al-Rayḥān Muḥammad ibn Aḥmad al-Bīrūni ; translated by Mohammad Saffouri & Adnan Ifram ; with a commentary by E.S. Kennedy.
+   100 - Bīrūnī, Muḥammad ibn Aḥmad, 973?-1048.
+   245 - al-Bīrūni on transits; a study of an Arabic treatise entitled Tamhīd al-mustaqarr li-taḥqīq maʻná al-mamarr [romanized form] / by Abū al-Rayḥān Muḥammad ibn Aḥmad al-Bīrūni ; translated by Mohammad Saffouri & Adnan Ifram ; with a commentary by E.S. Kennedy.
    260 - [Beirut] : [American University of Beirut], 1959.
    490 - Sources and studies in the history of the exact sciences ; 1
    490 - American University of Beirut. Publication of the Faculty of Arts and Sciences. Oriental series ; no. 32
@@ -397,6 +437,7 @@ ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
 ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Sources and studies in the history of the exact sciences ; 1
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ25 .A6 no. 32
 Source entities (book IDs): nyu_aco001816
 ---------------------------------------------------------------------
 Institution ID: NNU_001741811
@@ -405,6 +446,7 @@ Record 999:  NNU_001741811
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: BP193 .M25 1950
 Source entities (book IDs): nyu_aco001721:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_001812106
@@ -413,6 +455,7 @@ Record 999:  NNU_001812106
 ERROR-880: 880 script fields: NO
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ25 .A6 no. 33
 Source entities (book IDs): nyu_aco001817
 ---------------------------------------------------------------------
 Institution ID: NNU_001812107
@@ -421,6 +464,7 @@ Record 999:  NNU_001812107
 ERROR-880: 880 script fields: NO
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ25 .A6 no. 34
 Source entities (book IDs): nyu_aco001818
 ---------------------------------------------------------------------
 Institution ID: NNU_001812108
@@ -429,6 +473,7 @@ Record 999:  NNU_001812108
 ERROR-880: 880 script fields: NO
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ25 .A6 no. 38
 Source entities (book IDs): nyu_aco001820
 ---------------------------------------------------------------------
 Institution ID: NNU_001820906
@@ -437,6 +482,7 @@ Record 999:  NNU_001820906
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: DT314 .S252
 Source entities (book IDs): nyu_aco001797:v.1, nyu_aco001798:v.2, nyu_aco001799:v.4
 ---------------------------------------------------------------------
 Institution ID: NNU_001845234
@@ -445,6 +491,7 @@ Record 999:  NNU_001845234
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: BP194 .S92 1985
 Source entities (book IDs): nyu_aco001693:v.2, nyu_aco001694:v.3
 ---------------------------------------------------------------------
 Institution ID: NNU_001937094
@@ -453,6 +500,7 @@ Record 999:  NNU_001937094
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ6075 .S35 1903
 Source entities (book IDs): nyu_aco001839
 ---------------------------------------------------------------------
 Institution ID: NNU_001976556
@@ -461,6 +509,7 @@ Record 999:  NNU_001976556
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS38.6 .K453 1955
 Source entities (book IDs): nyu_aco001715:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_002023867
@@ -468,15 +517,16 @@ Institution ID: NNU_002023867
 Record 999:  NNU_002023867
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   245 - Ash-Shâfiya : the healer : an Ismâ'îlî poem attributed to Shihâb Ad-dîn Abû Firâs / edited and translated with introduction and commentary by Sami Nassib Makarem.
+   245 - Ash-Shâfiya : the healer : an Ismâ'îlî poem attributed to Shihâb Ad-dîn Abû Firâs / edited and translated with introduction and commentary by Sami Nassib Makarem.
    246 - Ash-Shafiya an Isma'ili treatise
-   246 - Shâfiya
+   246 - Shâfiya
    246 - Healer
    260 - Beirut : American University of Beirut, 1966, ©1963.
    490 - American University of Beirut publication of the Faculty of the Arts and Sciences. Oriental series ; no. 48
    830 - Publication of the Faculty of Arts and Sciences. Oriental series ; no. 48.
 040 $e field: [none]
 RDA fields: YES
+050 call number: BP195.I8 A28 1966
 Source entities (book IDs): nyu_aco001826
 ---------------------------------------------------------------------
 Institution ID: NNU_002044881
@@ -484,9 +534,10 @@ Institution ID: NNU_002044881
 Record 999:  NNU_002044881
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   240 - Naycharīyah. Arabic
+   240 - Naycharīyah. Arabic
 040 $e field: [none]
 RDA fields: YES
+050 call number: B825 .A3212 1935
 Source entities (book IDs): nyu_aco001771
 ---------------------------------------------------------------------
 Institution ID: NNU_002052310
@@ -495,6 +546,7 @@ Record 999:  NNU_002052310
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ6111 .S54 1872
 Source entities (book IDs): nyu_aco001842
 ---------------------------------------------------------------------
 Institution ID: NNU_002129256
@@ -503,6 +555,7 @@ Record 999:  NNU_002129256
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ25 .A6 1934
 Source entities (book IDs): nyu_aco001833
 ---------------------------------------------------------------------
 Institution ID: NNU_002230397
@@ -511,6 +564,7 @@ Record 999:  NNU_002230397
 ERROR-880: 880 script fields: NO
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ25 .A6 1936
 Source entities (book IDs): nyu_aco001827
 ---------------------------------------------------------------------
 Institution ID: NNU_002230398
@@ -519,6 +573,7 @@ Record 999:  NNU_002230398
 ERROR-880: 880 script fields: NO
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ25 .A6 1936
 Source entities (book IDs): nyu_aco001813
 ---------------------------------------------------------------------
 Institution ID: NNU_002297714
@@ -527,6 +582,7 @@ Record 999:  NNU_002297714
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: BP193.27 .F537 1987
 Source entities (book IDs): nyu_aco001690:v.8, nyu_aco001691:v.19-21, nyu_aco001692:v.24-25
 ---------------------------------------------------------------------
 Institution ID: NNU_002298499
@@ -535,6 +591,7 @@ Record 999:  NNU_002298499
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: DT173 .Q16 1913
 Source entities (book IDs): nyu_aco001701:v.2, nyu_aco001702:v.3, nyu_aco001703:v.4, nyu_aco001704:v.5, nyu_aco001705:v.6, nyu_aco001706:v.8, nyu_aco001707:v.9, nyu_aco001708:v.10, nyu_aco001709:v.11, nyu_aco001710:v.12, nyu_aco001711:v.13, nyu_aco001712:v.14
 ---------------------------------------------------------------------
 Institution ID: NNU_002299919
@@ -543,6 +600,7 @@ Record 999:  NNU_002299919
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS42 .M33 1910
 Source entities (book IDs): nyu_aco001723:v.1/2
 ---------------------------------------------------------------------
 Institution ID: NNU_002313967
@@ -554,6 +612,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    260 - [Beirut] : [American Press], [1940-1943]
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS97.5 .R971 1940
 Source entities (book IDs): nyu_aco001727:v.3, nyu_aco001728:v.4
 ---------------------------------------------------------------------
 Institution ID: NNU_002773161
@@ -562,6 +621,7 @@ Record 999:  NNU_002773161
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS222 .A9 1901
 Source entities (book IDs): nyu_aco001780:"v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_002773174
@@ -570,6 +630,7 @@ Record 999:  NNU_002773174
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: HC535 .T27 1930
 Source entities (book IDs): nyu_aco001806:v.1, nyu_aco001807:v.2
 ---------------------------------------------------------------------
 Institution ID: NNU_002801396
@@ -578,6 +639,7 @@ Record 999:  NNU_002801396
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: BP193.25.K8416 M34 1984
 Source entities (book IDs): nyu_aco001665:Intro
 ---------------------------------------------------------------------
 Institution ID: NNU_002854085
@@ -586,6 +648,7 @@ Record 999:  NNU_002854085
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ7816 .A688 1908
 Source entities (book IDs): nyu_aco001863
 ---------------------------------------------------------------------
 Institution ID: NNU_002886464
@@ -600,6 +663,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    830 - Publication of the Faculty of Arts and Sciences. Oriental series ; no. 47.
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ25 .A6 no. 47
 Source entities (book IDs): nyu_aco001825
 ---------------------------------------------------------------------
 Institution ID: NNU_002886470
@@ -608,6 +672,7 @@ Record 999:  NNU_002886470
 ERROR-880: 880 script fields: NO
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ25 .A6 no. 44
 Source entities (book IDs): nyu_aco001824
 ---------------------------------------------------------------------
 Institution ID: NNU_002933545
@@ -616,6 +681,7 @@ Record 999:  NNU_002933545
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ7510 .T29 1952
 Source entities (book IDs): nyu_aco001850:v.1, nyu_aco001851:v.2
 ---------------------------------------------------------------------
 Institution ID: NNU_002965625
@@ -624,6 +690,7 @@ Record 999:  NNU_002965625
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: DT74 .S3 1915
 Source entities (book IDs): nyu_aco001800:v.1, nyu_aco001801:v.2
 ---------------------------------------------------------------------
 Institution ID: NNU_002967377
@@ -632,6 +699,7 @@ Record 999:  NNU_002967377
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
+050 call number: PJ7750.I25 R3 1960
 Source entities (book IDs): nyu_aco001860:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_003085257
@@ -640,6 +708,7 @@ Institution ID: NNU_003085257
 Record 999:  NNU_003085257
 880 script fields: YES
 040 $e field: [none]
+050 call number: PJ7750.A25 Z7
 Source entities (book IDs): nyu_aco001859:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_001274168
@@ -648,6 +717,7 @@ Institution ID: NNU_001274168
 Record 999:  NNU_001274168
 880 script fields: YES
 040 $e field: [none]
+090 call number: PJ7631 .N89 1960
 Source entities (book IDs): nyu_aco001855:v.2
 ---------------------------------------------------------------------
 Institution ID: NNU_001619952
@@ -656,6 +726,7 @@ Institution ID: NNU_001619952
 Record 999:  NNU_001619952
 880 script fields: YES
 040 $e field: [none]
+050 call number: PJ7760.S48 A6 1967
 Source entities (book IDs): nyu_aco001861
 ---------------------------------------------------------------------
 Institution ID: NNU_001670898
@@ -664,6 +735,7 @@ Institution ID: NNU_001670898
 Record 999:  NNU_001670898
 880 script fields: YES
 040 $e field: [none]
+050 call number: DS248.M4 A949
 Source entities (book IDs): nyu_aco001787:v.1, nyu_aco001788:v.2, nyu_aco001789:v.3, nyu_aco001790:v.4
 ---------------------------------------------------------------------
 Institution ID: NNU_001673567
@@ -672,6 +744,7 @@ Institution ID: NNU_001673567
 Record 999:  NNU_001673567
 880 script fields: YES
 040 $e field: [none]
+050 call number: PJ7816.A47 L8
 Source entities (book IDs): nyu_aco001862
 ---------------------------------------------------------------------
 Institution ID: NNU_001674725
@@ -680,6 +753,7 @@ Institution ID: NNU_001674725
 Record 999:  NNU_001674725
 880 script fields: YES
 040 $e field: [none]
+050 call number: DS76 .I35 1910
 Source entities (book IDs): nyu_aco001792:v.5, nyu_aco001793:v.6
 ---------------------------------------------------------------------
 Institution ID: NNU_001676848
@@ -688,6 +762,7 @@ Institution ID: NNU_001676848
 Record 999:  NNU_001676848
 880 script fields: YES
 040 $e field: [none]
+090 call number: BP135 .A14 1915
 Source entities (book IDs): nyu_aco001762:v.1/2, nyu_aco001763:v.3/4, nyu_aco001764:v.5/6, nyu_aco001765:v.7/8
 ---------------------------------------------------------------------
 Institution ID: NNU_001676870
@@ -696,6 +771,7 @@ Institution ID: NNU_001676870
 Record 999:  NNU_001676870
 880 script fields: YES
 040 $e field: [none]
+050 call number: DS231 .A574
 Source entities (book IDs): nyu_aco001783:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_001684089
@@ -704,6 +780,7 @@ Institution ID: NNU_001684089
 Record 999:  NNU_001684089
 880 script fields: YES
 040 $e field: [none]
+050 call number: BP88.I24 A68
 Source entities (book IDs): nyu_aco001758
 ---------------------------------------------------------------------
 Institution ID: NNU_001684376
@@ -712,6 +789,7 @@ Institution ID: NNU_001684376
 Record 999:  NNU_001684376
 880 script fields: YES
 040 $e field: [none]
+090 call number: BP189 .A35
 Source entities (book IDs): nyu_aco001777
 ---------------------------------------------------------------------
 Institution ID: NNU_001684466
@@ -720,6 +798,7 @@ Institution ID: NNU_001684466
 Record 999:  NNU_001684466
 880 script fields: YES
 040 $e field: [none]
+050 call number: BP194.6.A2K43 1965 <AMED Arab> 
 Source entities (book IDs): nyu_aco001722:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_001684618
@@ -728,6 +807,7 @@ Institution ID: NNU_001684618
 Record 999:  NNU_001684618
 880 script fields: YES
 040 $e field: [none]
+050 call number: BX385.A1 S5 1966
 Source entities (book IDs): nyu_aco001744
 ---------------------------------------------------------------------
 Institution ID: NNU_001684684
@@ -736,6 +816,7 @@ Institution ID: NNU_001684684
 Record 999:  NNU_001684684
 880 script fields: YES
 040 $e field: [none]
+050 call number: DS247.M88 S29
 Source entities (book IDs): nyu_aco001785:v.1, nyu_aco001786:v.2
 ---------------------------------------------------------------------
 Institution ID: NNU_001684760
@@ -744,6 +825,7 @@ Institution ID: NNU_001684760
 Record 999:  NNU_001684760
 880 script fields: YES
 040 $e field: [none]
+090 call number: DT95.5 .I174
 Source entities (book IDs): nyu_aco001802:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_001685089
@@ -752,6 +834,7 @@ Institution ID: NNU_001685089
 Record 999:  NNU_001685089
 880 script fields: YES
 040 $e field: [none]
+090 call number: HE543 .H53
 Source entities (book IDs): nyu_aco001808:v.1, nyu_aco001809:v.2, nyu_aco001810:v.4
 ---------------------------------------------------------------------
 Institution ID: NNU_001685185
@@ -760,6 +843,7 @@ Institution ID: NNU_001685185
 Record 999:  NNU_001685185
 880 script fields: YES
 040 $e field: [none]
+090 call number: PJ6121 .M3
 Source entities (book IDs): nyu_aco001843
 ---------------------------------------------------------------------
 Institution ID: NNU_001685255
@@ -768,6 +852,7 @@ Institution ID: NNU_001685255
 Record 999:  NNU_001685255
 880 script fields: YES
 040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
 Source entities (book IDs): nyu_aco001831:"no.12, nyu_aco001832:"no.12
 ---------------------------------------------------------------------
 Institution ID: NNU_001685288
@@ -776,6 +861,7 @@ Institution ID: NNU_001685288
 Record 999:  NNU_001685288
 880 script fields: YES
 040 $e field: [none]
+090 call number: PJ6190 .H28
 Source entities (book IDs): nyu_aco001847:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_001686112
@@ -784,6 +870,7 @@ Institution ID: NNU_001686112
 Record 999:  NNU_001686112
 880 script fields: YES
 040 $e field: [none]
+050 call number: PK6434 .F8
 Source entities (book IDs): nyu_aco001755
 ---------------------------------------------------------------------
 Institution ID: NNU_001686562
@@ -792,6 +879,7 @@ Institution ID: NNU_001686562
 Record 999:  NNU_001686562
 880 script fields: YES
 040 $e field: [none]
+090 call number: DS231 .A74
 Source entities (book IDs): nyu_aco001754
 ---------------------------------------------------------------------
 Institution ID: NNU_001689252
@@ -800,6 +888,7 @@ Institution ID: NNU_001689252
 Record 999:  NNU_001689252
 880 script fields: YES
 040 $e field: [none]
+050 call number: BJ1291 .I3
 Source entities (book IDs): nyu_aco001773
 ---------------------------------------------------------------------
 Institution ID: NNU_001689260
@@ -808,6 +897,7 @@ Institution ID: NNU_001689260
 Record 999:  NNU_001689260
 880 script fields: YES
 040 $e field: [none]
+050 call number: BP50 .S3
 Source entities (book IDs): nyu_aco001696:v.3
 ---------------------------------------------------------------------
 Institution ID: NNU_001689325
@@ -816,6 +906,7 @@ Institution ID: NNU_001689325
 Record 999:  NNU_001689325
 880 script fields: YES
 040 $e field: [none]
+050 call number: PJ6151 .I166 1954
 Source entities (book IDs): nyu_aco001844
 ---------------------------------------------------------------------
 Institution ID: NNU_001689364
@@ -824,6 +915,7 @@ Institution ID: NNU_001689364
 Record 999:  NNU_001689364
 880 script fields: YES
 040 $e field: [none]
+050 call number: BP165.5 .N34 1902
 Source entities (book IDs): nyu_aco001774
 ---------------------------------------------------------------------
 Institution ID: NNU_001689365
@@ -832,6 +924,7 @@ Institution ID: NNU_001689365
 Record 999:  NNU_001689365
 880 script fields: YES
 040 $e field: [none]
+050 call number: BP192 .M8
 Source entities (book IDs): nyu_aco001745:v.1, nyu_aco001746:v.2, nyu_aco001747:v.3
 ---------------------------------------------------------------------
 Institution ID: NNU_001692989
@@ -840,6 +933,7 @@ Institution ID: NNU_001692989
 Record 999:  NNU_001692989
 880 script fields: YES
 040 $e field: [none]
+050 call number: BP75.2 .N87 1890
 Source entities (book IDs): nyu_aco001759:v.1, nyu_aco001760:v.2, nyu_aco001761:v.3
 ---------------------------------------------------------------------
 Institution ID: NNU_001694147
@@ -848,6 +942,7 @@ Institution ID: NNU_001694147
 Record 999:  NNU_001694147
 880 script fields: YES
 040 $e field: [none]
+090 call number: B741 .A2
 Source entities (book IDs): nyu_aco001767
 ---------------------------------------------------------------------
 Institution ID: NNU_001696932
@@ -856,6 +951,7 @@ Institution ID: NNU_001696932
 Record 999:  NNU_001696932
 880 script fields: YES
 040 $e field: [none]
+050 call number: BP70 .B272 1965
 Source entities (book IDs): nyu_aco001697:v.4
 ---------------------------------------------------------------------
 Institution ID: NNU_001699443
@@ -864,6 +960,7 @@ Institution ID: NNU_001699443
 Record 999:  NNU_001699443
 880 script fields: YES
 040 $e field: [none]
+090 call number: AC106 .S14 1914
 Source entities (book IDs): nyu_aco001766:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_001700632
@@ -872,6 +969,7 @@ Institution ID: NNU_001700632
 Record 999:  NNU_001700632
 880 script fields: YES
 040 $e field: [none]
+090 call number: BP193.16.A3 H39 1956
 Source entities (book IDs): nyu_aco001663:v.1, nyu_aco001664:v.2
 ---------------------------------------------------------------------
 Institution ID: NNU_001703124
@@ -880,6 +978,7 @@ Institution ID: NNU_001703124
 Record 999:  NNU_001703124
 880 script fields: YES
 040 $e field: [none]
+050 call number: DS99.B2 A47 1908
 Source entities (book IDs): nyu_aco001795
 ---------------------------------------------------------------------
 Institution ID: NNU_001750277
@@ -889,6 +988,7 @@ Institution ID: NNU_001750277
 Record 999:  NNU_001750277
 880 script fields: YES
 040 $e field: [none]
+090 call number: PJ6075 .W3 1951
 Source entities (book IDs): nyu_aco001840
 ---------------------------------------------------------------------
 Institution ID: NNU_001768009
@@ -897,6 +997,7 @@ Institution ID: NNU_001768009
 Record 999:  NNU_001768009
 880 script fields: YES
 040 $e field: [none]
+050 call number: G93 .Y195
 Source entities (book IDs): nyu_aco001803:v.1/2, nyu_aco001804:v.5/6, nyu_aco001805:v.7/8
 ---------------------------------------------------------------------
 Institution ID: NNU_001904904
@@ -905,6 +1006,7 @@ Institution ID: NNU_001904904
 Record 999:  NNU_001904904
 880 script fields: YES
 040 $e field: [none]
+090 call number: PJ6599 .B37 1963
 Source entities (book IDs): nyu_aco001848
 ---------------------------------------------------------------------
 Institution ID: NNU_001976470
@@ -913,6 +1015,7 @@ Institution ID: NNU_001976470
 Record 999:  NNU_001976470
 880 script fields: YES
 040 $e field: [none]
+090 call number: PJ7631 .A2 1888
 Source entities (book IDs): nyu_aco001854:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_002065605
@@ -921,6 +1024,7 @@ Institution ID: NNU_002065605
 Record 999:  NNU_002065605
 880 script fields: YES
 040 $e field: [none]
+050 call number: DS51.B3 M84
 Source entities (book IDs): nyu_aco001736:v.1, nyu_aco001737:v.2, nyu_aco001738:v.5, nyu_aco001739:v.6
 ---------------------------------------------------------------------
 Institution ID: NNU_002098928
@@ -929,6 +1033,7 @@ Institution ID: NNU_002098928
 Record 999:  NNU_002098928
 880 script fields: YES
 040 $e field: [none]
+090 call number: DS79.9.B25 I23 1949
 Source entities (book IDs): nyu_aco001794
 ---------------------------------------------------------------------
 Institution ID: NNU_002114872
@@ -937,6 +1042,7 @@ Institution ID: NNU_002114872
 Record 999:  NNU_002114872
 880 script fields: YES
 040 $e field: [none]
+090 call number: PJ7580 .Q27 1900z
 Source entities (book IDs): nyu_aco001853, nyu_aco000305
 ---------------------------------------------------------------------
 Institution ID: NNU_002120560
@@ -945,6 +1051,7 @@ Institution ID: NNU_002120560
 Record 999:  NNU_002120560
 880 script fields: YES
 040 $e field: [none]
+050 call number: DS99.D3 I23
 Source entities (book IDs): nyu_aco001713:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_002186300
@@ -953,6 +1060,7 @@ Institution ID: NNU_002186300
 Record 999:  NNU_002186300
 880 script fields: YES
 040 $e field: [none]
+090 call number: BP154 .I15 1929
 Source entities (book IDs): nyu_aco001748:v.1, nyu_aco001749:v.2, nyu_aco001750:v.3, nyu_aco001751:v.4
 ---------------------------------------------------------------------
 Institution ID: NNU_002202188
@@ -961,6 +1069,7 @@ Institution ID: NNU_002202188
 Record 999:  NNU_002202188
 880 script fields: YES
 040 $e field: [none]
+050 call number: B751 .Z7M86
 020s: YES
 Source entities (book IDs): nyu_aco001769
 ---------------------------------------------------------------------
@@ -970,6 +1079,7 @@ Institution ID: NNU_002354664
 Record 999:  NNU_002354664
 880 script fields: YES
 040 $e field: [none]
+090 call number: BP130.4 .I285 1933
 Source entities (book IDs): nyu_aco001756
 ---------------------------------------------------------------------
 Institution ID: NNU_002771249
@@ -978,6 +1088,7 @@ Institution ID: NNU_002771249
 Record 999:  NNU_002771249
 880 script fields: YES
 040 $e field: [none]
+050 call number: DS38 .M32
 Source entities (book IDs): nyu_aco001714:v.1
 ---------------------------------------------------------------------
 Institution ID: NNU_002803428
@@ -987,6 +1098,7 @@ Institution ID: NNU_002803428
 Record 999:  NNU_002803428
 880 script fields: YES
 040 $e field: [none]
+050 call number: DS38.2 .D45 1948
 Source entities (book IDs): nyu_aco001716:v.3/4
 ---------------------------------------------------------------------
 Institution ID: NNU_002821640
@@ -995,6 +1107,7 @@ Institution ID: NNU_002821640
 Record 999:  NNU_002821640
 880 script fields: YES
 040 $e field: [none]
+050 call number: DS79.65 .W37
 020s: YES
 Source entities (book IDs): nyu_aco001740:v.5
 ---------------------------------------------------------------------
