@@ -1,23 +1,32 @@
 Total records processed - batch NNU_20150615: 141 records
-Report produced: 2016-08-01 11:38:15.428059
-Input File (orig_with_oclc): 100
-Input File (orig_no_oclc): 41
+Report produced: 2016-08-02 08:22:42.613797
+Input File (orig_with_oclc): 101
+Input File (orig_no_oclc): 40
 
 Records where OCLC nums did not match: 141
-Total records containing any type of error for this round: 33 (23.4%)
-Total records passing to final version for this round: 108 (76.6%)
+Total records containing any type of error for this round: 32 (22.7%)
+Total records passing to final version for this round: 109 (77.3%)
 -----------------------
 Records containing 880 script fields: 141 (100.0%)
 Records with NO 880 script fields: 0 (0.0%)
 Records missing key 880 script fields: 32 (22.7%)
 Records containing unlinked 880 script fields: 0 (0.0%)
 Records containing series errors in 490/800/810/811/830 fields: 0 (0.0%)
-Records containing miscellaneous errors: 1 (0.7%)
+Records containing miscellaneous errors: 0 (0.0%)
 Records containing bad encoding replacement character: 0
-Records containing RDA fields: 88 (62.4%)
-Records with NO 050 or 090 call number fields: 1 (0.7%)
+Records containing RDA fields: 89 (63.1%)
+Records with NO 050 or 090 call number fields: 0 (0.0%)
 ---------------------------------------------------------------------
 INDIVIDUAL RECORDS ANALYSIS:
+---------------------------------------------------------------------
+Institution ID: NNU_000397895
+   orig_rec_035 num: =035  \\$a(OCoLC)475049614
+Record 999:  NNU_000397895
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+050 call number: PJ7745 .I15 1951
+Source entities (book IDs): nyu_aco001188:v.1, nyu_aco001189:v.2, nyu_aco001190:v.3, nyu_aco001191:v.4, nyu_aco001192:v.5, nyu_aco001193:v.6, nyu_aco001194:v.7, nyu_aco001195:v.8
 ---------------------------------------------------------------------
 Institution ID: NNU_000907783
    orig_rec_035 num: =035  \\$a(OCoLC)862560055
@@ -980,15 +989,6 @@ Record 999:  NNU_003434850
 RDA fields: YES
 050 call number: ML332 .K48 1962
 Source entities (book IDs): nyu_aco001175
----------------------------------------------------------------------
-Institution ID: NNU_000397895
-   orig_rec_035 num: =035  9\$aNYUb13381590
-   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG06-B2453
-Record 999:  NNU_000397895
-880 script fields: YES
-040 $e field: [none]
-ERROR-MISC: No 050 or 090 call number
-Source entities (book IDs): nyu_aco001188:v.1, nyu_aco001189:v.2, nyu_aco001190:v.3, nyu_aco001191:v.4, nyu_aco001192:v.5, nyu_aco001193:v.6, nyu_aco001194:v.7, nyu_aco001195:v.8
 ---------------------------------------------------------------------
 Institution ID: NNU_000595101
    orig_rec_035 num: =035  9\$aNYUb12368835
