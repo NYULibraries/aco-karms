@@ -375,12 +375,24 @@ def check_if_call_num(rec):
 			no_call_num = True
 			msg += 'ERROR-MISC: No 050 or 090 call number\n'
 		else:
-			rec_090_a = rec_090s[0].get_subfields('a')[0]
-			rec_090_b = rec_090s[0].get_subfields('b')[0]
+			if len(rec_090s[0].get_subfields('a')) > 0:
+				rec_090_a = rec_090s[0].get_subfields('a')[0]
+			else:
+				rec_090_a = ''
+			if len(rec_090s[0].get_subfields('b')) > 0:
+				rec_090_b = rec_090s[0].get_subfields('b')[0]
+			else:
+				rec_090_b = ''
 			msg += '090 call number: '+rec_090_a+' '+rec_090_b+'\n'
 	else:
-		rec_050_a = rec_050s[0].get_subfields('a')[0]
-		rec_050_b = rec_050s[0].get_subfields('b')[0]
+		if len(rec_050s[0].get_subfields('a')) > 0:
+			rec_050_a = rec_050s[0].get_subfields('a')[0]
+		else:
+			rec_050_a = ''
+		if len(rec_050s[0].get_subfields('b')) > 0:
+			rec_050_b = rec_050s[0].get_subfields('b')[0]
+		else:
+			rec_050_b = ''
 		msg += '050 call number: '+rec_050_a+' '+rec_050_b+'\n'
 	
 	return (no_call_num, msg)
