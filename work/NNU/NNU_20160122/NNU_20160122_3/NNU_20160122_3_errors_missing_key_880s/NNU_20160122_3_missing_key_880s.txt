@@ -7,7 +7,7 @@ Records MISSING KEY 880 script fields - batch NNU_20160122
     440, 490
     700, 710, 711, 730
     800, 810, 811, 830
-Report produced: 2016-08-02 09:21:31.170831
+Report produced: 2016-08-03 10:44:27.509467
 ---------------------------------------------------------------------
 FILE: NNU_20160122_1/NNU_20160122_1_orig_with_oclc_nums.mrc
 ---------------------------------------------------------------------
@@ -91,6 +91,20 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 050 call number: DT96 .I25 1936
 Source entities (book IDs): nyu_aco001834:no.9: pt.1, nyu_aco001835:no.9: pt.2, nyu_aco001836:no.10, nyu_aco001837:no.14, nyu_aco001838:no.17
+---------------------------------------------------------------------
+Institution ID: NNU_001685255
+   orig_rec_035 num: =035  \\$a(OCoLC)264988733$z(OCoLC)221803969
+Record 999:  NNU_001685255
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   700 - Zwettler, Michael.
+   710 - Ohio State University. Department of Near Eastern Languages and Cultures.
+   830 - Publication of the Faculty of Arts and Sciences. Oriental series ; 12.
+   830 - Publication of the Faculty of Arts and Sciences. Oriental series ; 16.
+040 $e field: rda
+RDA fields: YES
+050 call number: PJ7755 .I194 1938
+Source entities (book IDs): nyu_aco001831:"no.12, nyu_aco001832:"no.12
 ---------------------------------------------------------------------
 Institution ID: NNU_001685257
    orig_rec_035 num: =035  \\$a(OCoLC)8752392
@@ -182,5 +196,5 @@ Source entities (book IDs): nyu_aco001825
 ---------------------------------------------------------------------
 FILE: NNU_20160122_1/NNU_20160122_1_orig_no_oclc_nums.mrc
 ---------------------------------------------------------------------
-TOTAL Number of Records missing key 880 script fields: 13
+TOTAL Number of Records missing key 880 script fields: 14
 
