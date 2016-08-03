@@ -1,0 +1,135 @@
+Records containing SERIES errors - batch NjP_20160504
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2016-08-03 11:12:09.279146
+---------------------------------------------------------------------
+FILE: NjP_20160504_2_oclc_recs_batch.mrc
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm22753500 
+   oclc_rec_035_num: (OCoLC)22753500
+Institution ID: NjP_2924261
+Record 999:  NjP_2924261 (OCoLC)ocm22753500
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - Furātī, Muḥammad, 1880-1978.
+   245 - Rawāʼiʻ min al-shiʻr al-Fārsī [taʼlīf] Jalāl al-Dīn al-Rūmī [wa-]Saʻdī al-Shīrāzī [wa-]Ḥāfiẓ al-Shīrāzī. Tarjimah Muḥammad al-Furātī.
+   260 - [Dimashq] : Wizārat al-Thaqāfah al-Qawmī, Mudīrīyat al-Taʼlīf wa-al-Tarjimah, [1963]
+   490 - Silsilat rawāʼiʻ al-adab al-sharqī ; 2
+ERROR-880: Unlinked 880s: YES
+   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 490-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 700-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 830-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Silsilat rawāʼiʻ al-adab al-sharqī ; 2
+040 $e field: [none]
+RDA fields: YES
+050 call number: PK6434 .F8
+Source entities (book IDs): princeton_aco000481
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm09181329 
+   oclc_rec_035_num: (OCoLC)9181329
+Institution ID: NjP_2740018
+Record 999:  NjP_2740018 (OCoLC)ocm09181329
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Fī sabīl fahm al-falsafah al-Islāmīyah, Mushkilat al-Wujūd ; 1
+040 $e field: [none]
+RDA fields: YES
+050 call number: B741 .A4
+Source entities (book IDs): princeton_aco000557:vol.1
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm42882156 
+   oclc_rec_035_num: (OCoLC)42882156
+Institution ID: NjP_1650586
+Record 999:  NjP_1650586 (OCoLC)ocm42882156
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Īrān kūdah ; shumārah-i 17
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000479
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm23509136 
+   oclc_rec_035_num: (OCoLC)23509136
+Institution ID: NjP_1480355
+Record 999:  NjP_1480355 (OCoLC)ocm23509136
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   245 - ʻIlm al-nafs-i Ibn Sīnā.
+   260 - Tihrān, Dānishgāh-i Tihrān, 1333 [1954]
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-02 Intishārāt-i Dānishgāh-i Tihrān ; 203
+040 $e field: [none]
+RDA fields: YES
+050 call number: B751.S6 S5
+Source entities (book IDs): princeton_aco000549
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm32861564 
+   oclc_rec_035_num: (OCoLC)32861564
+Institution ID: NjP_984356
+Record 999:  NjP_984356 (OCoLC)ocm32861564
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - [Tehran] : Muʼassasat al-Hudá lil-Nashr wa-al-Tawzīʻ, 1990.
+ERROR-880: Unlinked 880s: YES
+   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 ʻAlá mustawá al-naqd al-muqāran ; 1
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000476
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm42899488 
+   oclc_rec_035_num: (OCoLC)42899488
+Institution ID: NjP_1474823
+Record 999:  NjP_1474823 (OCoLC)ocm42899488
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - Feraoun, Mouloud.
+   246 - Fils du pauvre
+   490 - Wizārat al-Thaqāfah wa-al-Irshād al-Qawmī. Mudīrīyat al-Taʼlīf wa-al-Tarjamah. Silsilat al-adab al-Jazāʼirī ; 6
+ERROR-880: Unlinked 880s: YES
+   880 $6 490-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 700-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Wizārat al-Thaqāfah wa-al-Irshād al-Qawmī. Mudīrīyat al-Taʼlīf wa-al-Tarjamah. Silsilat al-adab al-Jazāʼirī ; 6
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000538
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm22321514 
+   oclc_rec_035_num: (OCoLC)22321514
+Institution ID: NjP_401359
+Record 999:  NjP_401359 (OCoLC)ocm22321514
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Ḥadīth al-shahr ; 10
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000527
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm30770226 
+   oclc_rec_035_num: (OCoLC)30770226
+Institution ID: NjP_2768604
+Record 999:  NjP_2768604 (OCoLC)ocm30770226
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Khulāṣat al-fikr al-Ūrubbī. Silsilat al-falāsifah
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000561
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NjP_20160504_1/NjP_20160504_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 8
+
