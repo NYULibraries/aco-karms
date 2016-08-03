@@ -1,7 +1,7 @@
 Total records processed - batch NNU_20160122: 115 records
-Report produced: 2016-08-02 09:21:31.170831
-Input File (orig_with_oclc): 71
-Input File (orig_no_oclc): 44
+Report produced: 2016-08-03 10:44:27.509467
+Input File (orig_with_oclc): 72
+Input File (orig_no_oclc): 43
 
 Records where OCLC nums did not match: 115
 Total records containing any type of error for this round: 20 (17.4%)
@@ -9,13 +9,13 @@ Total records passing to final version for this round: 95 (82.6%)
 -----------------------
 Records containing 880 script fields: 109 (94.8%)
 Records with NO 880 script fields: 6 (5.2%)
-Records missing key 880 script fields: 13 (11.3%)
+Records missing key 880 script fields: 14 (12.2%)
 Records containing unlinked 880 script fields: 0 (0.0%)
 Records containing series errors in 490/800/810/811/830 fields: 1 (0.9%)
-Records containing miscellaneous errors: 1 (0.9%)
+Records containing miscellaneous errors: 0 (0.0%)
 Records containing bad encoding replacement character: 0
-Records containing RDA fields: 69 (60.0%)
-Records with NO 050 or 090 call number fields: 1 (0.9%)
+Records containing RDA fields: 70 (60.9%)
+Records with NO 050 or 090 call number fields: 0 (0.0%)
 ---------------------------------------------------------------------
 INDIVIDUAL RECORDS ANALYSIS:
 ---------------------------------------------------------------------
@@ -344,6 +344,20 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 050 call number: DT96 .I25 1936
 Source entities (book IDs): nyu_aco001834:no.9: pt.1, nyu_aco001835:no.9: pt.2, nyu_aco001836:no.10, nyu_aco001837:no.14, nyu_aco001838:no.17
+---------------------------------------------------------------------
+Institution ID: NNU_001685255
+   orig_rec_035 num: =035  \\$a(OCoLC)264988733$z(OCoLC)221803969
+Record 999:  NNU_001685255
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   700 - Zwettler, Michael.
+   710 - Ohio State University. Department of Near Eastern Languages and Cultures.
+   830 - Publication of the Faculty of Arts and Sciences. Oriental series ; 12.
+   830 - Publication of the Faculty of Arts and Sciences. Oriental series ; 16.
+040 $e field: rda
+RDA fields: YES
+050 call number: PJ7755 .I194 1938
+Source entities (book IDs): nyu_aco001831:"no.12, nyu_aco001832:"no.12
 ---------------------------------------------------------------------
 Institution ID: NNU_001685257
    orig_rec_035 num: =035  \\$a(OCoLC)8752392
@@ -845,15 +859,6 @@ Record 999:  NNU_001685185
 040 $e field: [none]
 090 call number: PJ6121 .M3
 Source entities (book IDs): nyu_aco001843
----------------------------------------------------------------------
-Institution ID: NNU_001685255
-   orig_rec_035 num: =035  9\$aNYUb12228692
-   orig_rec_035 num: =035  \\$a(CStRLIN)MIUH94-B778
-Record 999:  NNU_001685255
-880 script fields: YES
-040 $e field: [none]
-ERROR-MISC: No 050 or 090 call number
-Source entities (book IDs): nyu_aco001831:"no.12, nyu_aco001832:"no.12
 ---------------------------------------------------------------------
 Institution ID: NNU_001685288
    orig_rec_035 num: =035  9\$aNYUb12228725
