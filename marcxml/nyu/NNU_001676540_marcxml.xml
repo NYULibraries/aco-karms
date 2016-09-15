@@ -1,67 +1,115 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200193 a 4500</leader>
-<controlfield tag="001">001676540</controlfield>
-<controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20001218185432.0</controlfield>
-<controlfield tag="008">920821s1952    le            000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12219896</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NJPG92-B46212</subfield>
-</datafield>
-<datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">NjP</subfield>
-<subfield code="c">NjP</subfield>
-</datafield>
-<datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Ibn Hānī al-Andalusī, Abū al-Qāsim Muḥammad,</subfield>
-<subfield code="d">937?-973.</subfield>
-</datafield>
-<datafield tag="245" ind1="1" ind2="0">
-<subfield code="a">Dīwān Ibn Hānī /</subfield>
-<subfield code="c">taḥqīq wa-sharḥ Karam al-Bustānī.</subfield>
-</datafield>
-<datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">Bayrūt :</subfield>
-<subfield code="b">Maktabat Ṣādir,</subfield>
-<subfield code="c">1952.</subfield>
-</datafield>
-<datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">435 p. ;</subfield>
-<subfield code="c">22 cm.</subfield>
-</datafield>
-<datafield tag="OWN" ind1=" " ind2=" ">
-<subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">PJ7750.I2</subfield>
-<subfield code="b">A6</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1</subfield>
-<subfield code="r">012862879</subfield>
-</datafield>
-<datafield tag="987" ind1=" " ind2=" ">
-<subfield code="a">tracings : missing?</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="s">9124</subfield>
-</datafield>
-<datafield tag="AVA" ind1=" " ind2=" ">
-<subfield code="a">NYU50</subfield>
-<subfield code="b">BOBST</subfield>
-<subfield code="c">Main Collection</subfield>
-<subfield code="d">PJ7750.I2 A6</subfield>
-<subfield code="e">unavailable</subfield>
-<subfield code="t">Unavailable</subfield>
-<subfield code="f">1</subfield>
-<subfield code="g">1</subfield>
-<subfield code="h">N</subfield>
-<subfield code="i">0</subfield>
-<subfield code="j">MAIN</subfield>
-</datafield>
+	<leader>     nam a22        4500</leader>
+	<controlfield tag="001">001676540</controlfield>
+	<controlfield tag="003">NNU</controlfield>
+	<controlfield tag="006">m        d        </controlfield>
+	<controlfield tag="007">cr cn |||m|||a</controlfield>
+	<controlfield tag="008">150505s1952    le      o     000 0 ara d</controlfield>
+	<datafield ind1=" " ind2=" " tag="040">
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">eng</subfield>
+		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ7750.I2</subfield>
+		<subfield code="b">A17 1952</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Ibn Hānī al-Andalusī, Abū al-Qāsim Muḥammad,</subfield>
+		<subfield code="d">937?-973.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Dīwān Ibn Hānī</subfield>
+		<subfield code="h">[electronic resource] :</subfield>
+		<subfield code="b">taḥqīq wa-sharḥ Karam al-Bustānī.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Bayrūt,</subfield>
+		<subfield code="b">Maktabat Ṣādir,</subfield>
+		<subfield code="c">[1952]</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="300">
+		<subfield code="a">online resource (437 p.)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="533">
+		<subfield code="a">Electronic reproduction.</subfield>
+		<subfield code="b">New York, N.Y. :</subfield>
+		<subfield code="c">New York University,</subfield>
+		<subfield code="d">2015.</subfield>
+		<subfield code="5">NNU</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="a">Bustānī, Karam</subfield>
+		<subfield code="e">ed.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="7" tag="600">
+		<subfield code="a">Bustānī, Karam.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst00273490</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Bustānī, Karam</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="710">
+		<subfield code="a">New York University.</subfield>
+		<subfield code="b">Libraries.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="730">
+		<subfield code="a">Arabic Collections Online.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">Ibn Hānī al-Andalusī, Abū al-Qāsim Muḥammad, 937?-973.</subfield>
+		<subfield code="t">Dīwān Ibn Hānī</subfield>
+		<subfield code="d">Bayrūt, Maktabat Ṣādir, [1952]</subfield>
+		<subfield code="w">(OCoLC)584019570</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Print version:</subfield>
+		<subfield code="a">Ibn Hānī al-Andalusī, Abū al-Qāsim Muḥammad, 937?-973.</subfield>
+		<subfield code="t">Dīwān Ibn Hānī</subfield>
+		<subfield code="w">(NNU)001676540</subfield>
+	</datafield>
+	<datafield ind1="4" ind2="0" tag="856">
+		<subfield code="u">http://hdl.handle.net/2333.1/tb2rbqvv</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/</subfield>
+		<subfield code="a">ابن هاني الاندلسي, ابو القاسم محمد.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/</subfield>
+		<subfield code="a">ديوان ابن هاني /</subfield>
+		<subfield code="c">تحقيق وشرح كرم البستاني.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/</subfield>
+		<subfield code="a">بيروت :</subfield>
+		<subfield code="b">مكتبة صادر,</subfield>
+		<subfield code="c">[1952]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-04/</subfield>
+		<subfield code="a">بستاني, كرم.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="959">
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">WEB</subfield>
+		<subfield code="c">GENI</subfield>
+		<subfield code="t">0</subfield>
+		<subfield code="m">Electronic access</subfield>
+		<subfield code="s">01</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="999">
+		<subfield code="i">NNU_001676540</subfield>
+		<subfield code="s">nyu_aco000359</subfield>
+	</datafield>
 </record>

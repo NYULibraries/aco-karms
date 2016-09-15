@@ -1,74 +1,179 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     cam a2200217 a 4500</leader>
-<controlfield tag="001">001679726</controlfield>
-<controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20001218220038.0</controlfield>
-<controlfield tag="008">950522s1939    ua ach   b    000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12223118</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NJPG95-B32000</subfield>
-</datafield>
-<datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">NjP</subfield>
-<subfield code="c">NjP</subfield>
-</datafield>
-<datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Kurdī, Muḥammad Ṭāhir ibn ʻAbd al-Qādir.</subfield>
-</datafield>
-<datafield tag="245" ind1="1" ind2="0">
-<subfield code="a">Tārīkh al-khaṭṭ al-ʻArabī wa-ādābuh :</subfield>
-<subfield code="b">huwa kitāb tārīkhī ijtimāʻī adabī, muzayyan bi-al-ṣuwar al-khaṭṭīyah wa-al-rusūm al-fūtughrāfīyah /</subfield>
-<subfield code="c">taʼlīf Muḥammad Ṭāhir ibn ʻAbd al-Qādir al-Kurdī al-Makkī al-Khaṭṭāṭ.</subfield>
-</datafield>
-<datafield tag="250" ind1=" " ind2=" ">
-<subfield code="a">al-Ṭabʻah 1.</subfield>
-</datafield>
-<datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">al-Fajjālah, Miṣr :</subfield>
-<subfield code="b">Maktabat al-Hilāl,</subfield>
-<subfield code="c">1939.</subfield>
-</datafield>
-<datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">470 p. :</subfield>
-<subfield code="b">ill., ports., facsims. ;</subfield>
-<subfield code="c">25 cm.</subfield>
-</datafield>
-<datafield tag="504" ind1=" " ind2=" ">
-<subfield code="a">Includes bibliographical references (p. 148-149).</subfield>
-</datafield>
-<datafield tag="650" ind1=" " ind2="0">
-<subfield code="a">Calligraphy, Arabic.</subfield>
-</datafield>
-<datafield tag="OWN" ind1=" " ind2=" ">
-<subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">PJ6126</subfield>
-<subfield code="b">.K8</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1</subfield>
-<subfield code="r">001770406</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="s">9124</subfield>
-</datafield>
-<datafield tag="AVA" ind1=" " ind2=" ">
-<subfield code="a">NYU50</subfield>
-<subfield code="b">BOBST</subfield>
-<subfield code="c">Main Collection</subfield>
-<subfield code="d">PJ6126 .K8</subfield>
-<subfield code="e">unavailable</subfield>
-<subfield code="t">Unavailable</subfield>
-<subfield code="f">1</subfield>
-<subfield code="g">1</subfield>
-<subfield code="h">N</subfield>
-<subfield code="i">0</subfield>
-<subfield code="j">MAIN</subfield>
-</datafield>
+	<leader>     nam a22        4500</leader>
+	<controlfield tag="001">001679726</controlfield>
+	<controlfield tag="003">NNU</controlfield>
+	<controlfield tag="006">m        d        </controlfield>
+	<controlfield tag="007">cr cn |||m|||a</controlfield>
+	<controlfield tag="008">150505s1939    au ach  o     000 0dara d</controlfield>
+	<datafield ind1=" " ind2=" " tag="040">
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">eng</subfield>
+		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ6126</subfield>
+		<subfield code="b">.K8</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ6124</subfield>
+		<subfield code="b">.K83</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Kurdī, Muḥammad Ṭāhir ibn ʻAbd al-Qādir.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Tārīkh al-khaṭṭ al-ʻArabī wa adābih</subfield>
+		<subfield code="h">[electronic resource] :</subfield>
+		<subfield code="b">huwa kitāb tārīkhī ijtimāʻī adabī, muzayyan bi-al-ṣuwar al-khaṭṭīyah wa-al-rusūm al-futūghrāfīyah /</subfield>
+		<subfield code="c">taʼlīf Muḥammad Ṭāhir ibn ʻAbd al-Qādir al-Kurdī al-Makkī al-Khaṭṭāṭ.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Ṭabʻah 1.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">[Miṣr]</subfield>
+		<subfield code="b">Maktabat al-Hilāl,</subfield>
+		<subfield code="c">1939</subfield>
+		<subfield code="f">(al-Maṭbaʻah al-Tijārīyah al-Ḥadīthah bi-al-Sakākīnī)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="300">
+		<subfield code="a">online resource (470 p.) :</subfield>
+		<subfield code="b">ill., ports., facsims.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="533">
+		<subfield code="a">Electronic reproduction.</subfield>
+		<subfield code="b">New York, N.Y. :</subfield>
+		<subfield code="c">New York University,</subfield>
+		<subfield code="d">2015.</subfield>
+		<subfield code="5">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="546">
+		<subfield code="a">In Arabic characters.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Writing, Arabic</subfield>
+		<subfield code="x">History.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Writing</subfield>
+		<subfield code="x">History.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Calligraphy, Arabic</subfield>
+		<subfield code="x">History.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Calligraphers</subfield>
+		<subfield code="z">Arab countries</subfield>
+		<subfield code="v">Biography.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Muslim calligraphers</subfield>
+		<subfield code="v">Biography.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Calligraphers.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst00844363</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Calligraphy, Arabic.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst00844384</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Muslim calligraphers.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01030942</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Writing.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01181638</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Writing, Arabic.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01181678</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">Arab countries.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01240128</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">Biography.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01423686</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">History.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01411628</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="710">
+		<subfield code="a">New York University.</subfield>
+		<subfield code="b">Libraries.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="730">
+		<subfield code="a">Arabic Collections Online.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">Kurdī, Muḥammad Ṭāhir ibn ʻAbd al-Qādir.</subfield>
+		<subfield code="t">Tārīkh al-khaṭṭ al-ʻArabī wa adābih.</subfield>
+		<subfield code="b">al-Ṭabʻah 1.</subfield>
+		<subfield code="d">[Miṣr] Maktabat al-Hilāl, 1939 (al-Maṭbaʻah al-Tijārīyah al-Ḥadīthah bi-al-Sakākīnī)</subfield>
+		<subfield code="w">(OCoLC)852767134</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Print version:</subfield>
+		<subfield code="a">Kurdī, Muḥammad Ṭāhir ibn ʻAbd al-Qādir.</subfield>
+		<subfield code="t">Tārīkh al-khaṭṭ al-ʻArabī wa adābih</subfield>
+		<subfield code="w">(NNU)001679726</subfield>
+	</datafield>
+	<datafield ind1="4" ind2="0" tag="856">
+		<subfield code="u">http://hdl.handle.net/2333.1/sbcc2hmx</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/</subfield>
+		<subfield code="a">كردي، محمد طاهر بن عبد القادر.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/</subfield>
+		<subfield code="a">تاريخ الخط العربي و ادابه :</subfield>
+		<subfield code="b">هو كتاب تاريخي اجتماعي ادبي، مزين بالصور الخطية والرسوم الفتوغرافية /</subfield>
+		<subfield code="c">تأليف محمد طاهر بن عبد القادر الكردي المكي الخطاط.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">250-03/</subfield>
+		<subfield code="a">الطبعة 1.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/</subfield>
+		<subfield code="a">[مصر]</subfield>
+		<subfield code="b">مكتبة الهلال،</subfield>
+		<subfield code="c">1939</subfield>
+		<subfield code="f">(المطبعة التجارية الحديثة بالسكاكيني)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="959">
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">WEB</subfield>
+		<subfield code="c">GENI</subfield>
+		<subfield code="t">0</subfield>
+		<subfield code="m">Electronic access</subfield>
+		<subfield code="s">01</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="999">
+		<subfield code="i">NNU_001679726</subfield>
+		<subfield code="s">nyu_aco000239</subfield>
+	</datafield>
 </record>

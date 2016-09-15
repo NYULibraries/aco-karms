@@ -1,70 +1,144 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     cam a2200205ua 4500</leader>
-<controlfield tag="001">001680960</controlfield>
-<controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20001218230145.0</controlfield>
-<controlfield tag="008">850402m19569999ir            000 0 arard</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12224364</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)MIUG85-B28268</subfield>
-</datafield>
-<datafield tag="040" ind1=" " ind2=" ">
-<subfield code="c">MiU</subfield>
-<subfield code="d">MiU</subfield>
-</datafield>
-<datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Muḥammadī, Muḥammad.</subfield>
-</datafield>
-<datafield tag="245" ind1="1" ind2="0">
-<subfield code="a">Durūs fī ādāb al-lughah al-ʻArabīyah wa-tārīkhihā /</subfield>
-<subfield code="c">[taʼlīf] Muḥammad Muḥammdī.</subfield>
-</datafield>
-<datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">Ṭahrān :</subfield>
-<subfield code="b">Maṭbaʻat al-Jāmiʻah,</subfield>
-<subfield code="c">[1956-</subfield>
-</datafield>
-<datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">v. ;</subfield>
-<subfield code="c">25 cm.</subfield>
-</datafield>
-<datafield tag="490" ind1="0" ind2=" ">
-<subfield code="a">Intishārāt Dānishkāh Ṭahrān,</subfield>
-<subfield code="v">340</subfield>
-</datafield>
-<datafield tag="650" ind1=" " ind2="0">
-<subfield code="a">Arabic literature.</subfield>
-</datafield>
-<datafield tag="OWN" ind1=" " ind2=" ">
-<subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">PJ6075</subfield>
-<subfield code="b">.M8</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1:v.1</subfield>
-<subfield code="r">028242470</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="s">9114</subfield>
-</datafield>
-<datafield tag="AVA" ind1=" " ind2=" ">
-<subfield code="a">NYU50</subfield>
-<subfield code="b">BOBST</subfield>
-<subfield code="c">Main Collection</subfield>
-<subfield code="d">PJ6075 .M8</subfield>
-<subfield code="e">unavailable</subfield>
-<subfield code="t">Unavailable</subfield>
-<subfield code="f">1</subfield>
-<subfield code="g">1</subfield>
-<subfield code="h">Y</subfield>
-<subfield code="i">0</subfield>
-<subfield code="j">MAIN</subfield>
-</datafield>
+	<leader>     nam a22        4500</leader>
+	<controlfield tag="001">001680960</controlfield>
+	<controlfield tag="003">NNU</controlfield>
+	<controlfield tag="006">m        d        </controlfield>
+	<controlfield tag="007">cr cn |||m|||a</controlfield>
+	<controlfield tag="008">150505m19569999ir      o     000 m ara d</controlfield>
+	<datafield ind1=" " ind2=" " tag="040">
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
+		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="050">
+		<subfield code="a">PJ7601</subfield>
+		<subfield code="b">.M84 1956</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Muḥammadī Malāyirī, Muḥammad.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Durūs fī ādāb al-lughah al-ʻArabīyah wa-tārīkhihā /</subfield>
+		<subfield code="c">Muḥammad Muḥammadī.</subfield>
+	</datafield>
+	<datafield ind1="3" ind2="0" tag="246">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Ādāb al-lughah al-ʻArabīyah wa-tārīkhuhā</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Ṭihrān :</subfield>
+		<subfield code="b">Maṭbaʻat al-Jāmiʻah,</subfield>
+		<subfield code="c">1335- [1956 or 1957-]</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="300">
+		<subfield code="a">online resource (volumes &lt;1&gt;)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Intishārāt-i Dānishgāh-i Tihrān ;</subfield>
+		<subfield code="v">340</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="505">
+		<subfield code="a">Al-juzʼ 1. Min Imrīʼ al-Qays ilá ʻAbd al-Ḥamīd al-Kātib.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="533">
+		<subfield code="a">Electronic reproduction.</subfield>
+		<subfield code="b">New York, N.Y. :</subfield>
+		<subfield code="c">New York University,</subfield>
+		<subfield code="d">2015.</subfield>
+		<subfield code="5">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Arabic literature.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Arabic literature.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst00812478</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="710">
+		<subfield code="a">New York University.</subfield>
+		<subfield code="b">Libraries.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="730">
+		<subfield code="a">Arabic Collections Online.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">Muḥammadī, Muḥammad.</subfield>
+		<subfield code="t">Durūs fī ādāb al-lughah al-ʻArabīyah wa-tārīkhihā.</subfield>
+		<subfield code="d">Ṭihrān : Maṭbaʻat al-Jāmiʻah, 1335- [1956 or 1957-]</subfield>
+		<subfield code="w">(OCoLC)560866087</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Print version:</subfield>
+		<subfield code="a">Muḥammadī Malāyirī, Muḥammad.</subfield>
+		<subfield code="t">Durūs fī ādāb al-lughah al-ʻArabīyah wa-tārīkhihā</subfield>
+		<subfield code="w">(NNU)001680960</subfield>
+		<subfield code="w">(DLC)  2007550019</subfield>
+	</datafield>
+	<datafield ind1="4" ind2="0" tag="856">
+		<subfield code="u">http://hdl.handle.net/2333.1/c866t3sp</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/</subfield>
+		<subfield code="a">محمدى ملايرى، محمد.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/</subfield>
+		<subfield code="a">دروس في أدب اللغة العربية وتاريخها /</subfield>
+		<subfield code="c">محمد محمدي.</subfield>
+	</datafield>
+	<datafield ind1="3" ind2="0" tag="880">
+		<subfield code="6">246-03/</subfield>
+		<subfield code="a">آداب اللغة العربية وتاريخها</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/</subfield>
+		<subfield code="a">طهران :</subfield>
+		<subfield code="b">مطبعة الجامعة،</subfield>
+		<subfield code="c">1335- [1956 or 1957-].</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">490-05/</subfield>
+		<subfield code="a">انتشارات دانشگاه تهران ؛</subfield>
+		<subfield code="v">340</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="a">Publications de l'Université de Tehran ;</subfield>
+		<subfield code="v">340.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="959">
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">WEB</subfield>
+		<subfield code="c">GENI</subfield>
+		<subfield code="t">0</subfield>
+		<subfield code="m">Electronic access</subfield>
+		<subfield code="s">01</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="999">
+		<subfield code="i">NNU_001680960</subfield>
+		<subfield code="s">nyu_aco000004:v.1</subfield>
+		<subfield code="e">(ERROR-880)</subfield>
+	</datafield>
 </record>

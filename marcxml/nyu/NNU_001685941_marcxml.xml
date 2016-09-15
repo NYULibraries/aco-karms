@@ -1,104 +1,114 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200277 a 4500</leader>
-<controlfield tag="001">001685941</controlfield>
-<controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010173314.0</controlfield>
-<controlfield tag="008">981005s1951    ua       b    001 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12229382</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(NNU)NYUb12229382</subfield>
-</datafield>
-<datafield tag="040" ind1=" " ind2=" ">
-<subfield code="d">UaCaAUL</subfield>
-</datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="a">PJ6075</subfield>
-<subfield code="b">.F812</subfield>
-</datafield>
-<datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Fück, Johann,</subfield>
-<subfield code="d">1894-1974</subfield>
-<subfield code="6">880-01</subfield>
-</datafield>
-<datafield tag="245" ind1="1" ind2="3">
-<subfield code="6">880-02</subfield>
-<subfield code="a">al-ʻArabīyah :</subfield>
-<subfield code="b">dirāsāt fī al-lughah wa-al-lahajāt wa-al-asālīb /</subfield>
-<subfield code="c">min ʻamal Yūhān Fik ; naqqalahu ilá al-ʻArabīyah wa-ḥaqqaqahu wa-fahrasa lahu ʻAbd al-Ḥalīm al-Najjār ; bi-taṣdīr Aḥmad Amīn Bik ; wa-taqdīm Muḥammad Yūsuf Mūsá.</subfield>
-</datafield>
-<datafield tag="260" ind1=" " ind2=" ">
-<subfield code="6">880-03</subfield>
-<subfield code="a">al-Qāhirah :</subfield>
-<subfield code="b">Maktabat al-Khānjī bi-Miṣr,</subfield>
-<subfield code="c">1951.</subfield>
-</datafield>
-<datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">290 p. ;</subfield>
-<subfield code="c">24 cm.</subfield>
-</datafield>
-<datafield tag="500" ind1=" " ind2=" ">
-<subfield code="a">At head of title: Jamāʻat al-Azhar lil-Nashr wa-al-Taʼlīf.</subfield>
-</datafield>
-<datafield tag="504" ind1=" " ind2=" ">
-<subfield code="a">Includes bibliographical references and index.</subfield>
-</datafield>
-<datafield tag="650" ind1=" " ind2="0">
-<subfield code="a">Arabic language</subfield>
-<subfield code="x">Grammar.</subfield>
-</datafield>
-<datafield tag="700" ind1="1" ind2=" ">
-<subfield code="a">Najjār, ʻAbd al-Ḥalīm</subfield>
-<subfield code="6">880-04</subfield>
-</datafield>
-<datafield tag="880" ind1="1" ind2=" ">
-<subfield code="6">100-01/</subfield>
-<subfield code="a">فك، يوهان.</subfield>
-</datafield>
-<datafield tag="880" ind1="1" ind2="2">
-<subfield code="6">245-02/</subfield>
-<subfield code="a">العربية :</subfield>
-<subfield code="b">دراسات فى اللغة واللهجات والأساليب /</subfield>
-<subfield code="c">من عمل يوهان فك ؛ نقله إلى العربية وحققه وفهرس له عبد الحليم النجار ؛ بتصدير أحمد أمين بك ؛ وتقديم محمد يوسف موسى.</subfield>
-</datafield>
-<datafield tag="880" ind1=" " ind2=" ">
-<subfield code="6">260-03/</subfield>
-<subfield code="a">القاهرة :</subfield>
-<subfield code="b">مكتبة الخانجى بمصر،</subfield>
-<subfield code="c">1951.</subfield>
-</datafield>
-<datafield tag="880" ind1="1" ind2=" ">
-<subfield code="6">700-04/</subfield>
-<subfield code="a">نجار، عبد الحليم.</subfield>
-</datafield>
-<datafield tag="OWN" ind1=" " ind2=" ">
-<subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">20010429</subfield>
-<subfield code="d">20010429</subfield>
-<subfield code="d">20010429</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">6</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">p</subfield>
-</datafield>
-<datafield tag="AVA" ind1=" " ind2=" ">
-<subfield code="a">NYU50</subfield>
-<subfield code="b">BOBST</subfield>
-<subfield code="c">Main Collection</subfield>
-<subfield code="d">PJ6075 .F812</subfield>
-<subfield code="e">unavailable</subfield>
-<subfield code="t">Unavailable</subfield>
-<subfield code="f">1</subfield>
-<subfield code="g">1</subfield>
-<subfield code="h">N</subfield>
-<subfield code="i">1</subfield>
-<subfield code="j">MAIN</subfield>
-</datafield>
+	<leader>     nam a22        4500</leader>
+	<controlfield tag="001">001685941</controlfield>
+	<controlfield tag="003">NNU</controlfield>
+	<controlfield tag="006">m        d        </controlfield>
+	<controlfield tag="007">cr cn |||m|||a</controlfield>
+	<controlfield tag="008">150505s1951    ua      ob    001 0 ara d</controlfield>
+	<datafield ind1=" " ind2=" " tag="040">
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">eng</subfield>
+		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="066">
+		<subfield code="c">(3</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="090">
+		<subfield code="a">PJ6075</subfield>
+		<subfield code="b">.F812</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Fück, Johann,</subfield>
+		<subfield code="d">1894-1974</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-ʻArabīyah</subfield>
+		<subfield code="h">[electronic resource] :</subfield>
+		<subfield code="b">dirāsāt fī al-lughah wa-al-lahajāt wa-al-asālīb /</subfield>
+		<subfield code="c">min ʻamal Yūhān Fik ; naqqalahu ilá al-ʻArabīyah wa-ḥaqqaqahu wa-fahrasa lahu ʻAbd al-Ḥalīm al-Najjār ; bi-taṣdīr Aḥmad Amīn Bik ; wa-taqdīm Muḥammad Yūsuf Mūsá.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
+		<subfield code="b">Maktabat al-Khānjī bi-Miṣr,</subfield>
+		<subfield code="c">1951.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="300">
+		<subfield code="a">online resource (290 p.)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">At head of title: Jamāʻat al-Azhar lil-Nashr wa-al-Taʼlīf.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="504">
+		<subfield code="a">Includes bibliographical references and index.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="533">
+		<subfield code="a">Electronic reproduction.</subfield>
+		<subfield code="b">New York, N.Y. :</subfield>
+		<subfield code="c">New York University,</subfield>
+		<subfield code="d">2015.</subfield>
+		<subfield code="5">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Arabic language</subfield>
+		<subfield code="x">Grammar.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Najjār, ʻAbd al-Ḥalīm</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="710">
+		<subfield code="a">New York University.</subfield>
+		<subfield code="b">Libraries.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="730">
+		<subfield code="a">Arabic Collections Online.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Print version:</subfield>
+		<subfield code="a">Fück, Johann, 1894-1974 880-01</subfield>
+		<subfield code="t">al-ʻArabīyah</subfield>
+		<subfield code="w">(NNU)001685941</subfield>
+	</datafield>
+	<datafield ind1="4" ind2="0" tag="856">
+		<subfield code="u">http://hdl.handle.net/2333.1/k98sf9d6</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/</subfield>
+		<subfield code="a">فك، يوهان.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/</subfield>
+		<subfield code="a">العربية :</subfield>
+		<subfield code="b">دراسات فى اللغة واللهجات والأساليب /</subfield>
+		<subfield code="c">من عمل يوهان فك ؛ نقله إلى العربية وحققه وفهرس له عبد الحليم النجار ؛ بتصدير أحمد أمين بك ؛ وتقديم محمد يوسف موسى.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">مكتبة الخانجى بمصر،</subfield>
+		<subfield code="c">1951.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-04/</subfield>
+		<subfield code="a">نجار، عبد الحليم.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="959">
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">WEB</subfield>
+		<subfield code="c">GENI</subfield>
+		<subfield code="t">0</subfield>
+		<subfield code="m">Electronic access</subfield>
+		<subfield code="s">01</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="999">
+		<subfield code="i">NNU_001685941</subfield>
+		<subfield code="s">nyu_aco000218</subfield>
+	</datafield>
 </record>

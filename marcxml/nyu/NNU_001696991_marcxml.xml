@@ -1,89 +1,97 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     cam a2200229 a 4500</leader>
-<controlfield tag="001">001696991</controlfield>
-<controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010171142.0</controlfield>
-<controlfield tag="008">010125q19501965ua            000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12244030</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG01-B495</subfield>
-</datafield>
-<datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">RPB</subfield>
-<subfield code="c">RPB</subfield>
-<subfield code="d">NNU</subfield>
-</datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="a">PJ7571</subfield>
-<subfield code="b">.K5</subfield>
-</datafield>
-<datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Khūrshīd, Fārūq</subfield>
-<subfield code="6">880-01</subfield>
-</datafield>
-<datafield tag="245" ind1="1" ind2="0">
-<subfield code="6">880-02</subfield>
-<subfield code="a">Fī al-riwāyah al-ʻArabīyah, ʻaṣr al-tajmīʻ /</subfield>
-<subfield code="c">Fārūq Khūrshīd.</subfield>
-</datafield>
-<datafield tag="260" ind1=" " ind2=" ">
-<subfield code="6">880-03</subfield>
-<subfield code="a">al-Iskandarīyah :</subfield>
-<subfield code="b">al-Dār al-Miṣrīyah lil-Ṭibāʻah wa-al-Nashr,</subfield>
-<subfield code="c">[1965?]</subfield>
-</datafield>
-<datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">216 p. ;</subfield>
-<subfield code="c">20 cm.</subfield>
-</datafield>
-<datafield tag="650" ind1=" " ind2="0">
-<subfield code="a">Arabic fiction</subfield>
-<subfield code="x">History and criticism.</subfield>
-</datafield>
-<datafield tag="880" ind1="1" ind2=" ">
-<subfield code="6">100-01/</subfield>
-<subfield code="a">خورشيد، فاروق.</subfield>
-</datafield>
-<datafield tag="880" ind1="1" ind2="0">
-<subfield code="6">245-02/</subfield>
-<subfield code="a">في الرواية العربية، عصر التحميع /</subfield>
-<subfield code="b">فاروف خورشيد.</subfield>
-</datafield>
-<datafield tag="880" ind1=" " ind2=" ">
-<subfield code="6">260-03/</subfield>
-<subfield code="a">الاسكندرية :</subfield>
-<subfield code="b">الدار المصرية للطباعة والنشر،</subfield>
-<subfield code="c">[١٩٦٥؟]</subfield>
-</datafield>
-<datafield tag="OWN" ind1=" " ind2=" ">
-<subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">20010830</subfield>
-<subfield code="d">20010125</subfield>
-<subfield code="d">20010830</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">1</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">p</subfield>
-</datafield>
-<datafield tag="AVA" ind1=" " ind2=" ">
-<subfield code="a">NYU50</subfield>
-<subfield code="b">BOBST</subfield>
-<subfield code="c">Main Collection</subfield>
-<subfield code="d">PJ7571 .K5</subfield>
-<subfield code="e">unavailable</subfield>
-<subfield code="t">Unavailable</subfield>
-<subfield code="f">1</subfield>
-<subfield code="g">1</subfield>
-<subfield code="h">N</subfield>
-<subfield code="i">0</subfield>
-<subfield code="j">MAIN</subfield>
-</datafield>
+	<leader>     nam a22        4500</leader>
+	<controlfield tag="001">001696991</controlfield>
+	<controlfield tag="003">NNU</controlfield>
+	<controlfield tag="006">m        d        </controlfield>
+	<controlfield tag="007">cr cn |||m|||a</controlfield>
+	<controlfield tag="008">150505q19501965ua      o     000 0 ara d</controlfield>
+	<datafield ind1=" " ind2=" " tag="040">
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">eng</subfield>
+		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="066">
+		<subfield code="c">(3</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="090">
+		<subfield code="a">PJ7571</subfield>
+		<subfield code="b">.K5</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Khūrshīd, Fārūq</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Fī al-riwāyah al-ʻArabīyah, ʻaṣr al-tajmīʻ</subfield>
+		<subfield code="h">[electronic resource] /</subfield>
+		<subfield code="c">Fārūq Khūrshīd.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Iskandarīyah :</subfield>
+		<subfield code="b">al-Dār al-Miṣrīyah lil-Ṭibāʻah wa-al-Nashr,</subfield>
+		<subfield code="c">[1965?]</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="300">
+		<subfield code="a">online resource (216 p.)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="533">
+		<subfield code="a">Electronic reproduction.</subfield>
+		<subfield code="b">New York, N.Y. :</subfield>
+		<subfield code="c">New York University,</subfield>
+		<subfield code="d">2015.</subfield>
+		<subfield code="5">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Arabic fiction</subfield>
+		<subfield code="x">History and criticism.</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="710">
+		<subfield code="a">New York University.</subfield>
+		<subfield code="b">Libraries.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="730">
+		<subfield code="a">Arabic Collections Online.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Print version:</subfield>
+		<subfield code="a">Khūrshīd, Fārūq 880-01</subfield>
+		<subfield code="t">Fī al-riwāyah al-ʻArabīyah, ʻaṣr al-tajmīʻ</subfield>
+		<subfield code="w">(NNU)001696991</subfield>
+	</datafield>
+	<datafield ind1="4" ind2="0" tag="856">
+		<subfield code="u">http://hdl.handle.net/2333.1/n2z34wgj</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/</subfield>
+		<subfield code="a">خورشيد، فاروق.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/</subfield>
+		<subfield code="a">في الرواية العربية، عصر التحميع /</subfield>
+		<subfield code="b">فاروف خورشيد.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/</subfield>
+		<subfield code="a">الاسكندرية :</subfield>
+		<subfield code="b">الدار المصرية للطباعة والنشر،</subfield>
+		<subfield code="c">[١٩٦٥؟]</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="959">
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">WEB</subfield>
+		<subfield code="c">GENI</subfield>
+		<subfield code="t">0</subfield>
+		<subfield code="m">Electronic access</subfield>
+		<subfield code="s">01</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="999">
+		<subfield code="i">NNU_001696991</subfield>
+		<subfield code="s">nyu_aco000304</subfield>
+	</datafield>
 </record>
