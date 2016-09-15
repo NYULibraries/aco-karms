@@ -1,96 +1,104 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200253 a 4500</leader>
-<controlfield tag="001">001746917</controlfield>
-<controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20061010171032.0</controlfield>
-<controlfield tag="008">010628s1951    ua      ab    000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb12309193</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG01-B2518</subfield>
-</datafield>
-<datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">NjP</subfield>
-<subfield code="c">NjP</subfield>
-<subfield code="d">NNU</subfield>
-</datafield>
-<datafield tag="050" ind1=" " ind2="4">
-<subfield code="a">PJ6075</subfield>
-<subfield code="b">.H3</subfield>
-</datafield>
-<datafield tag="066" ind1=" " ind2=" ">
-<subfield code="c">(3</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="a">PJ6075</subfield>
-<subfield code="b">.H3</subfield>
-</datafield>
-<datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Ḥasan, ʻAbbās</subfield>
-<subfield code="6">880-01</subfield>
-</datafield>
-<datafield tag="245" ind1="1" ind2="0">
-<subfield code="6">880-02</subfield>
-<subfield code="a">Raʼy fī baʻḍ al-uṣūl lughawīyah wa-al-naḥwīyah /</subfield>
-<subfield code="c">taʼlīf ʻAbbās Ḥasan.</subfield>
-</datafield>
-<datafield tag="260" ind1=" " ind2=" ">
-<subfield code="6">880-03</subfield>
-<subfield code="a">al-Qāhirah :</subfield>
-<subfield code="b">Maṭbaʻat al-ʻĀlam al-ʻArabī,</subfield>
-<subfield code="c">1951.</subfield>
-</datafield>
-<datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">100 p. ;</subfield>
-<subfield code="c">23 cm.</subfield>
-</datafield>
-<datafield tag="504" ind1=" " ind2=" ">
-<subfield code="a">Includes bibliographical references.</subfield>
-</datafield>
-<datafield tag="650" ind1=" " ind2="0">
-<subfield code="a">Arabic language</subfield>
-<subfield code="x">History.</subfield>
-</datafield>
-<datafield tag="880" ind1="1" ind2=" ">
-<subfield code="6">100-01/</subfield>
-<subfield code="a">حسن، عباس.</subfield>
-</datafield>
-<datafield tag="880" ind1="1" ind2="0">
-<subfield code="6">245-02/</subfield>
-<subfield code="a">رأى في بعض الأصول اللغوية والنحوية /</subfield>
-<subfield code="c">تأليف عباس حسن.</subfield>
-</datafield>
-<datafield tag="880" ind1=" " ind2=" ">
-<subfield code="6">260-03/</subfield>
-<subfield code="a">القاهرة :</subfield>
-<subfield code="b">مطبعة العالم العربي،</subfield>
-<subfield code="c">١٩٥١.</subfield>
-</datafield>
-<datafield tag="OWN" ind1=" " ind2=" ">
-<subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">20010628</subfield>
-<subfield code="d">20010628</subfield>
-<subfield code="d">20010628</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="s">1</subfield>
-<subfield code="t">c</subfield>
-<subfield code="z">p</subfield>
-</datafield>
-<datafield tag="AVA" ind1=" " ind2=" ">
-<subfield code="a">NYU50</subfield>
-<subfield code="b">BOBST</subfield>
-<subfield code="c">Main Collection</subfield>
-<subfield code="d">PJ6075 .H3</subfield>
-<subfield code="e">unavailable</subfield>
-<subfield code="t">Unavailable</subfield>
-<subfield code="f">1</subfield>
-<subfield code="g">1</subfield>
-<subfield code="h">N</subfield>
-<subfield code="i">0</subfield>
-<subfield code="j">MAIN</subfield>
-</datafield>
+	<leader>     nam a22        4500</leader>
+	<controlfield tag="001">001746917</controlfield>
+	<controlfield tag="003">NNU</controlfield>
+	<controlfield tag="006">m        d        </controlfield>
+	<controlfield tag="007">cr cn |||m|||a</controlfield>
+	<controlfield tag="008">150505s1951    ua      ob    000 0 ara d</controlfield>
+	<datafield ind1=" " ind2=" " tag="040">
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">eng</subfield>
+		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ6075</subfield>
+		<subfield code="b">.H3</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="066">
+		<subfield code="c">(3</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="090">
+		<subfield code="a">PJ6075</subfield>
+		<subfield code="b">.H3</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Ḥasan, ʻAbbās</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Raʼy fī baʻḍ al-uṣūl lughawīyah wa-al-naḥwīyah</subfield>
+		<subfield code="h">[electronic resource] /</subfield>
+		<subfield code="c">taʼlīf ʻAbbās Ḥasan.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
+		<subfield code="b">Maṭbaʻat al-ʻĀlam al-ʻArabī,</subfield>
+		<subfield code="c">1951.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="300">
+		<subfield code="a">online resource (100 p.)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="504">
+		<subfield code="a">Includes bibliographical references.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="533">
+		<subfield code="a">Electronic reproduction.</subfield>
+		<subfield code="b">New York, N.Y. :</subfield>
+		<subfield code="c">New York University,</subfield>
+		<subfield code="d">2015.</subfield>
+		<subfield code="5">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Arabic language</subfield>
+		<subfield code="x">History.</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="710">
+		<subfield code="a">New York University.</subfield>
+		<subfield code="b">Libraries.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="730">
+		<subfield code="a">Arabic Collections Online.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Print version:</subfield>
+		<subfield code="a">Ḥasan, ʻAbbās 880-01</subfield>
+		<subfield code="t">Raʼy fī baʻḍ al-uṣūl lughawīyah wa-al-naḥwīyah</subfield>
+		<subfield code="w">(NNU)001746917</subfield>
+	</datafield>
+	<datafield ind1="4" ind2="0" tag="856">
+		<subfield code="u">http://hdl.handle.net/2333.1/ffbg7c67</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/</subfield>
+		<subfield code="a">حسن، عباس.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/</subfield>
+		<subfield code="a">رأى في بعض الأصول اللغوية والنحوية /</subfield>
+		<subfield code="c">تأليف عباس حسن.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">مطبعة العالم العربي،</subfield>
+		<subfield code="c">١٩٥١.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="959">
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">WEB</subfield>
+		<subfield code="c">GENI</subfield>
+		<subfield code="t">0</subfield>
+		<subfield code="m">Electronic access</subfield>
+		<subfield code="s">01</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="999">
+		<subfield code="i">NNU_001746917</subfield>
+		<subfield code="s">nyu_aco000219</subfield>
+	</datafield>
 </record>

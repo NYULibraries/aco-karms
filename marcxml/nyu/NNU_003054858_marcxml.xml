@@ -1,92 +1,111 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>00000cam a22      a 4500</leader>
-<controlfield tag="001">003054858</controlfield>
-<controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">20080716115045.0</controlfield>
-<controlfield tag="008">040901s1912    le            000 0 ara d</controlfield>
-<datafield tag="020" ind1=" " ind2=" ">
-<subfield code="a">2745133020</subfield>
-</datafield>
-<datafield tag="020" ind1=" " ind2=" ">
-<subfield code="a">9782745133021</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(OCoLC)56401672</subfield>
-</datafield>
-<datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">MUQ</subfield>
-<subfield code="c">MUQ</subfield>
-<subfield code="d">OCLCQ</subfield>
-</datafield>
-<datafield tag="050" ind1=" " ind2="4">
-<subfield code="a">PJ6106</subfield>
-</datafield>
-<datafield tag="100" ind1="1" ind2=" ">
-<subfield code="6">880-01</subfield>
-<subfield code="a">Ghalāyīnī, Muṣṭafá.</subfield>
-</datafield>
-<datafield tag="245" ind1="1" ind2="3">
-<subfield code="6">880-02</subfield>
-<subfield code="a">Al-durūs al-ʻArabīyah :</subfield>
-<subfield code="b">lil-madāris al-ibtidāʼiyah /</subfield>
-<subfield code="c">taʼlif al-Shaykh Mustafá al-Ghalāyīni.</subfield>
-</datafield>
-<datafield tag="260" ind1=" " ind2=" ">
-<subfield code="6">880-03</subfield>
-<subfield code="a">Bayrūt :</subfield>
-<subfield code="b">Dār al-Kutub al-Ilmiyah,</subfield>
-<subfield code="c">1912.</subfield>
-</datafield>
-<datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">4 t. en 1 v.</subfield>
-</datafield>
-<datafield tag="500" ind1=" " ind2=" ">
-<subfield code="a">"Al-Silsilah al-Ula."</subfield>
-</datafield>
-<datafield tag="650" ind1=" " ind2="0">
-<subfield code="a">Arabic language</subfield>
-<subfield code="x">Grammar.</subfield>
-</datafield>
-<datafield tag="650" ind1=" " ind2="0">
-<subfield code="a">Arabic language</subfield>
-<subfield code="x">Study and teaching</subfield>
-<subfield code="z">Lebanon.</subfield>
-</datafield>
-<datafield tag="880" ind1="1" ind2=" ">
-<subfield code="6">100-01/</subfield>
-<subfield code="a">غلاييني، مصطفى.</subfield>
-</datafield>
-<datafield tag="880" ind1="1" ind2="2">
-<subfield code="6">245-02/</subfield>
-<subfield code="a">الدروس العربية :</subfield>
-<subfield code="b">للمدارس الابتدائية /</subfield>
-<subfield code="c">تأل الشيخ مستفى الغلايين.</subfield>
-</datafield>
-<datafield tag="880" ind1=" " ind2=" ">
-<subfield code="6">260-03/</subfield>
-<subfield code="a">بيروت :</subfield>
-<subfield code="b">دار الكتب الالمية،</subfield>
-<subfield code="c">1912</subfield>
-</datafield>
-<datafield tag="994" ind1=" " ind2=" ">
-<subfield code="a">C0</subfield>
-<subfield code="b">ZYU</subfield>
-</datafield>
-<datafield tag="OWN" ind1=" " ind2=" ">
-<subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="AVA" ind1=" " ind2=" ">
-<subfield code="a">NYU50</subfield>
-<subfield code="b">BOBST</subfield>
-<subfield code="c">Main Collection</subfield>
-<subfield code="d">PJ6611 .G425 1912</subfield>
-<subfield code="e">unavailable</subfield>
-<subfield code="t">Unavailable</subfield>
-<subfield code="f">1</subfield>
-<subfield code="g">1</subfield>
-<subfield code="h">N</subfield>
-<subfield code="i">0</subfield>
-<subfield code="j">MAIN</subfield>
-</datafield>
+	<leader>     nam a22        4500</leader>
+	<controlfield tag="001">003054858</controlfield>
+	<controlfield tag="003">NNU</controlfield>
+	<controlfield tag="006">m        d        </controlfield>
+	<controlfield tag="007">cr cn |||m|||a</controlfield>
+	<controlfield tag="008">150505s1912    le      o     000 0 ara d</controlfield>
+	<datafield ind1=" " ind2=" " tag="020">
+		<subfield code="z">2745133020</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="020">
+		<subfield code="z">9782745133021</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="040">
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">eng</subfield>
+		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ6106</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Ghalāyīnī, Muṣṭafá.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Al-durūs al-ʻArabīyah</subfield>
+		<subfield code="h">[electronic resource] :</subfield>
+		<subfield code="b">lil-madāris al-ibtidāʼiyah /</subfield>
+		<subfield code="c">taʼlif al-Shaykh Mustafá al-Ghalāyīni.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Bayrūt :</subfield>
+		<subfield code="b">Dār al-Kutub al-Ilmiyah,</subfield>
+		<subfield code="c">1912.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="300">
+		<subfield code="a">online resource (4 t. en 1 v.)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">&quot;Al-Silsilah al-Ula.&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="533">
+		<subfield code="a">Electronic reproduction.</subfield>
+		<subfield code="b">New York, N.Y. :</subfield>
+		<subfield code="c">New York University,</subfield>
+		<subfield code="d">2015.</subfield>
+		<subfield code="5">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Arabic language</subfield>
+		<subfield code="x">Grammar.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Arabic language</subfield>
+		<subfield code="x">Study and teaching</subfield>
+		<subfield code="z">Lebanon.</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="710">
+		<subfield code="a">New York University.</subfield>
+		<subfield code="b">Libraries.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="730">
+		<subfield code="a">Arabic Collections Online.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Print version:</subfield>
+		<subfield code="a">Ghalāyīnī, Muṣṭafá.</subfield>
+		<subfield code="t">Al-durūs al-ʻArabīyah</subfield>
+		<subfield code="w">(NNU)003054858</subfield>
+		<subfield code="z">2745133020</subfield>
+		<subfield code="z">9782745133021</subfield>
+	</datafield>
+	<datafield ind1="4" ind2="0" tag="856">
+		<subfield code="u">http://hdl.handle.net/2333.1/x69p8gcz</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/</subfield>
+		<subfield code="a">غلاييني، مصطفى.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/</subfield>
+		<subfield code="a">الدروس العربية :</subfield>
+		<subfield code="b">للمدارس الابتدائية /</subfield>
+		<subfield code="c">تأل الشيخ مستفى الغلايين.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/</subfield>
+		<subfield code="a">بيروت :</subfield>
+		<subfield code="b">دار الكتب الالمية،</subfield>
+		<subfield code="c">1912</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="959">
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">WEB</subfield>
+		<subfield code="c">GENI</subfield>
+		<subfield code="t">0</subfield>
+		<subfield code="m">Electronic access</subfield>
+		<subfield code="s">01</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="999">
+		<subfield code="i">NNU_003054858</subfield>
+		<subfield code="s">nyu_aco000036</subfield>
+	</datafield>
 </record>

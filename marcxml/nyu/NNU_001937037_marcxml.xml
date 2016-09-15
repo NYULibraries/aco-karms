@@ -1,101 +1,153 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-<leader>     nam a2200265 a 4500</leader>
-<controlfield tag="001">001937037</controlfield>
-<controlfield tag="003">NNU</controlfield>
-<controlfield tag="005">19940713181853.0</controlfield>
-<controlfield tag="008">910619m19861988ir       b    000 0 ara d</controlfield>
-<datafield tag="035" ind1="9" ind2=" ">
-<subfield code="a">NYUb10881383</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">(CStRLIN)NYUG91-B37971</subfield>
-</datafield>
-<datafield tag="035" ind1=" " ind2=" ">
-<subfield code="a">GLIS008813835</subfield>
-</datafield>
-<datafield tag="040" ind1=" " ind2=" ">
-<subfield code="a">NjP</subfield>
-<subfield code="c">NjP</subfield>
-<subfield code="d">NNU</subfield>
-</datafield>
-<datafield tag="090" ind1=" " ind2=" ">
-<subfield code="i">06/19/91 CT</subfield>
-</datafield>
-<datafield tag="100" ind1="1" ind2=" ">
-<subfield code="a">Miṣbāḥ Yazdī, Muḥammad Taqī.</subfield>
-</datafield>
-<datafield tag="240" ind1="1" ind2="0">
-<subfield code="a">Āmūzish-i falsafah.</subfield>
-<subfield code="l">Arabic</subfield>
-</datafield>
-<datafield tag="245" ind1="1" ind2="3">
-<subfield code="a">al-Manhaj al-jadīd fī taʻlīm al-falsafah /</subfield>
-<subfield code="c">taʼlīf Muḥammad Taqī Miṣbāḥ al-Yazdī ; tarjamat Muḥammad ʻAbd al-Munʻim al-Khāqānī.</subfield>
-</datafield>
-<datafield tag="260" ind1=" " ind2=" ">
-<subfield code="a">Qum :</subfield>
-<subfield code="b">Muʼassasat al-Nashr al-Islāmī al-Ṭābiʻah li-Jamāʻat al-Mudarrisīn,</subfield>
-<subfield code="c">1407-1409 [1986-1988 or 89]</subfield>
-</datafield>
-<datafield tag="300" ind1=" " ind2=" ">
-<subfield code="a">2 v. ;</subfield>
-<subfield code="c">25 cm.</subfield>
-</datafield>
-<datafield tag="500" ind1=" " ind2=" ">
-<subfield code="a">"415."</subfield>
-</datafield>
-<datafield tag="504" ind1=" " ind2=" ">
-<subfield code="a">Includes bibliographical references.</subfield>
-</datafield>
-<datafield tag="650" ind1=" " ind2="0">
-<subfield code="a">Philosophy, Islamic.</subfield>
-</datafield>
-<datafield tag="OWN" ind1=" " ind2=" ">
-<subfield code="a">GENERAL</subfield>
-</datafield>
-<datafield tag="950" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="a">B741</subfield>
-<subfield code="b">.M69 1986</subfield>
-<subfield code="n">455:sl\Unanalyzed\</subfield>
-<subfield code="i">06/19/91 C</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1:v.2</subfield>
-<subfield code="r">015365631</subfield>
-<subfield code="i">06/19/91 C</subfield>
-</datafield>
-<datafield tag="955" ind1=" " ind2=" ">
-<subfield code="l">BMAIN</subfield>
-<subfield code="c">1:v.1</subfield>
-<subfield code="r">015365516</subfield>
-<subfield code="i">06/19/91 C</subfield>
-</datafield>
-<datafield tag="998" ind1=" " ind2=" ">
-<subfield code="a">06/19/91</subfield>
-<subfield code="t">c</subfield>
-<subfield code="s">9118</subfield>
-<subfield code="n">NNU</subfield>
-<subfield code="w">NJPG88B19922</subfield>
-<subfield code="d">06/19/91</subfield>
-<subfield code="c">MG</subfield>
-<subfield code="b">MG</subfield>
-<subfield code="i">910619</subfield>
-<subfield code="l">NYUG</subfield>
-</datafield>
-<datafield tag="AVA" ind1=" " ind2=" ">
-<subfield code="a">NYU50</subfield>
-<subfield code="b">BOBST</subfield>
-<subfield code="c">Main Collection</subfield>
-<subfield code="d">B741 .M69 1986</subfield>
-<subfield code="e">unavailable</subfield>
-<subfield code="t">Unavailable</subfield>
-<subfield code="f">2</subfield>
-<subfield code="g">2</subfield>
-<subfield code="h">Y</subfield>
-<subfield code="i">0</subfield>
-<subfield code="j">MAIN</subfield>
-</datafield>
+	<leader>     nam a22        4500</leader>
+	<controlfield tag="001">001937037</controlfield>
+	<controlfield tag="003">NNU</controlfield>
+	<controlfield tag="006">m        d        </controlfield>
+	<controlfield tag="007">cr cn |||m|||a</controlfield>
+	<controlfield tag="008">150505m19869999ir      o     000 0 arard</controlfield>
+	<datafield ind1=" " ind2=" " tag="040">
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
+		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="041">
+		<subfield code="a">ara</subfield>
+		<subfield code="h">per</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">B29</subfield>
+		<subfield code="b">.M58 1986</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Miṣbāḥ Yazdī, Muḥammad Taqī.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Āmūzish-i falsafah.</subfield>
+		<subfield code="l">Arabic</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Manhaj al-jadīd fī taʻlīm al-falsafah /</subfield>
+		<subfield code="c">taʼlīf Muḥammad Taqī Miṣbāḥ al-Yazdī ; tarjamat Muḥammad ʻAbd al-Munʻim al-Khāqānī.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Qum :</subfield>
+		<subfield code="b">Muʼassasat al-Nashr al-Islāmī al-Ṭābiʻah li-Jamāʻat al-Mudarrisīn,</subfield>
+		<subfield code="c">1407- [1986-]</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="300">
+		<subfield code="a">online resource (volumes)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">&quot;415-416.&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Translation of: Āmūzish-i falsafah.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by New York Univeristy Libraries.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="533">
+		<subfield code="a">Electronic reproduction.</subfield>
+		<subfield code="b">New York, N.Y. :</subfield>
+		<subfield code="c">New York University,</subfield>
+		<subfield code="d">2015.</subfield>
+		<subfield code="5">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Philosophy</subfield>
+		<subfield code="v">Textbooks.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Philosophy.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01060777</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">Textbooks.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01423863</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Khāqānī, Muḥammad ʻAbd al-Munʻim.</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="710">
+		<subfield code="a">New York University.</subfield>
+		<subfield code="b">Libraries.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="730">
+		<subfield code="a">Arabic Collections Online.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">Miṣbāḥ Yazdī, Muḥammad Taqī.</subfield>
+		<subfield code="s">Āmūzish-i falsafah. Arabic.</subfield>
+		<subfield code="t">Manhaj al-jadīd fī taʻlīm al-falsafah.</subfield>
+		<subfield code="d">Qum : Muʼassasat al-Nashr al-Islāmī al-Ṭābiʻah li-Jamāʻat al-Mudarrisīn, 1407- [1986-]</subfield>
+		<subfield code="w">(OCoLC)709524963</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Print version:</subfield>
+		<subfield code="a">Miṣbāḥ Yazdī, Muḥammad Taqī.</subfield>
+		<subfield code="t">al-Manhaj al-jadīd fī taʻlīm al-falsafah</subfield>
+		<subfield code="w">(NNU)001937037</subfield>
+	</datafield>
+	<datafield ind1="4" ind2="0" tag="856">
+		<subfield code="u">http://hdl.handle.net/2333.1/b8gthwg0</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/</subfield>
+		<subfield code="a">مصباح يزدى، محمد تقى.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">240-02/</subfield>
+		<subfield code="a">آموزش فلسفه.</subfield>
+		<subfield code="l">عربي</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-03/</subfield>
+		<subfield code="a">المنهج الجديد في تعليم الفلسفة /</subfield>
+		<subfield code="c">تأليف محمد تقي مصباح اليزدي ؛ ترجمة محمد عبد المنعم الخاقاني.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/</subfield>
+		<subfield code="a">قم :</subfield>
+		<subfield code="b">مؤسسة النشر الإسلامي التابعة لجماعة المدرسين،</subfield>
+		<subfield code="c">1407-1409 [1986-1988]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-05/</subfield>
+		<subfield code="a">خاقاني، محمد عبد المنعم.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="959">
+		<subfield code="a">NNU</subfield>
+		<subfield code="b">WEB</subfield>
+		<subfield code="c">GENI</subfield>
+		<subfield code="t">0</subfield>
+		<subfield code="m">Electronic access</subfield>
+		<subfield code="s">01</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="999">
+		<subfield code="i">NNU_001937037</subfield>
+		<subfield code="s">nyu_aco000138:v.1</subfield>
+		<subfield code="s">nyu_aco000139:v.2</subfield>
+	</datafield>
 </record>
