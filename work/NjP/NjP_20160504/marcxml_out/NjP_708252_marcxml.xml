@@ -5,24 +5,34 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160803s1953    le      od    000 0 ara d</controlfield>
+	<controlfield tag="008">161025s1953    le      od    000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ6640</subfield>
+		<subfield code="b">.S52 1953</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="4" tag="245">
-		<subfield code="a">The First thousand words.</subfield>
-		<subfield code="b">A basic vocabulary for foreigners to accompany the vowelled Arabic reader issued by the Middle East Centre for Arab Studies, Shemlan, Lebanon.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Awwal alf kalimah fī al-lughah al-ʻArabīyah lil-ṭullāb al-ajānib li-ajl al-mukālamah :</subfield>
+		<subfield code="b">wa-tarjamat Kitāb al-qirāʼah al-mushakkal alladhī qāma bi-ṭabʻih Maʻhad al-Dirāsāt al-ʻArabīyah fī al-Sharq al-Awsaṭ, Shamlān, Lubnān.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="5" tag="246">
+		<subfield code="a">First thousand words : a basic vocabulary for foreigners to accompany the vowelled Arabic reader issued by the Middle East Centre for Arab Studies, Shemlan, Lebanon</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
-		<subfield code="a">2nd ed.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Ṭabʻah 2.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Beirut,</subfield>
-		<subfield code="b">American Press,</subfield>
-		<subfield code="c">1953.</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Bayrūt :</subfield>
+		<subfield code="b">al-Maṭbaʻah al-Amīrkānīyah,</subfield>
+		<subfield code="c">1950.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (27 pages)</subfield>
@@ -65,6 +75,7 @@
 		<subfield code="0">(OCoLC)fst01423826</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Maʻhad al-Sharq al-Awsaṭ lil-Dirāsāt al-ʻArabīyah (Lebanon)</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -76,12 +87,31 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="t">The First thousand words</subfield>
+		<subfield code="t">Awwal alf kalimah fī al-lughah al-ʻArabīyah lil-ṭullāb al-ajānib li-ajl al-mukālamah</subfield>
 		<subfield code="w">(NjP)708252</subfield>
 		<subfield code="w">(OCoLC)25606636</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/crjdfrts</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="2" tag="880">
+		<subfield code="6">245-01/r</subfield>
+		<subfield code="a">اول الف كلة في اللغة العربية للطلاب الاجانب لاجل المكالمة :</subfield>
+		<subfield code="b">وترجمة كتاب القراءه المشكل الذي قام بطبعه معهد الدراسات العربية في الشرق الاوسط، شملان، لبنان.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">250-02/r</subfield>
+		<subfield code="a">الطبعة 2.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">بيروت :</subfield>
+		<subfield code="b">المطبعة الاميركانية،</subfield>
+		<subfield code="c">1950.</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="880">
+		<subfield code="6">710-04/r</subfield>
+		<subfield code="a">معهد الشرق الاوسط للدراسات العربية (لبنان)</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -93,8 +123,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_708252</subfield>
-		<subfield code="o">(OCoLC)ocm25606636 </subfield>
+		<subfield code="o">(OCoLC)ocm25606636</subfield>
 		<subfield code="s">princeton_aco000516</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco000516</subfield>
 	</datafield>
 </record>

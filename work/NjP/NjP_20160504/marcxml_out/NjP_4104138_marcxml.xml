@@ -5,22 +5,29 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160803s1960    sy      o     000 0 ara d</controlfield>
+	<controlfield tag="008">161025s1960    sy      o     000 p ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ7828.M496</subfield>
+		<subfield code="b">A35 1960</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Hamid Hasan.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Ḥamīd, Ḥasan. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">ʻAbiq :</subfield>
 		<subfield code="b">shiʻr /</subfield>
 		<subfield code="c">Ḥāmid Ḥasan.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Dimashq :</subfield>
 		<subfield code="b">Dār al-Thaqāfah,</subfield>
 		<subfield code="c">[1960]</subfield>
@@ -50,6 +57,10 @@
 		<subfield code="d">2016.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">Poetry.</subfield>
+		<subfield code="2">lcgft</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
 		<subfield code="b">Library.</subfield>
@@ -59,13 +70,29 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Hamid Hasan.</subfield>
+		<subfield code="a">Ḥamīd, Ḥasan.</subfield>
 		<subfield code="t">ʻAbiq</subfield>
 		<subfield code="w">(NjP)4104138</subfield>
 		<subfield code="w">(OCoLC)54631254</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/hhmgqs9w</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">حميد، حسن. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">عبق :</subfield>
+		<subfield code="b">شعر /</subfield>
+		<subfield code="c">حامد حسن.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">دمشق :</subfield>
+		<subfield code="b">دار الثقافة،</subfield>
+		<subfield code="c">[1960]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -77,8 +104,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_4104138</subfield>
-		<subfield code="o">(OCoLC)ocm54631254 </subfield>
+		<subfield code="o">(OCoLC)ocm54631254</subfield>
 		<subfield code="s">princeton_aco000466</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco000466</subfield>
 	</datafield>
 </record>

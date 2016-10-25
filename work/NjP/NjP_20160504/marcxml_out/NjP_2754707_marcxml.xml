@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160803s1960    sy      o     000 0barard</controlfield>
+	<controlfield tag="008">161025s1960    sy      o     000 0barard</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -23,7 +23,9 @@
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
-		<subfield code="a">Al-Shābbī, al-nabī al-majhūl.</subfield>
+		<subfield code="a">al-Shābbī :</subfield>
+		<subfield code="b">al-nabī al-majhūl /</subfield>
+		<subfield code="c">Muṣṭafá al-Ḥabīb Baḥrī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">880-03</subfield>
@@ -47,6 +49,11 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Silsilat ʼal-thaqāfah ʼal-shaʻbīyah ;</subfield>
+		<subfield code="v">1</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="a">Syria. al-Thaqāfah wa-al-Irshād al-Qawmī, Wizārat. Mudīrīyat al-Taʼlīf wa-al-tarjamah. Silsilat al-thaqāfah al-shaʻbīyah ;</subfield>
 		<subfield code="v">1</subfield>
 	</datafield>
@@ -61,7 +68,7 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
-		<subfield code="6">880-04</subfield>
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Shābbī, Abū al-Qāsim.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="7" tag="600">
@@ -79,15 +86,13 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Baḥrī, Muṣṭafá al-Ḥabīb, 1932-</subfield>
-		<subfield code="t">Al-Shābbī, al-nabī al-majhūl</subfield>
+		<subfield code="t">al-Shābbī</subfield>
 		<subfield code="w">(NjP)2754707</subfield>
 		<subfield code="w">(OCoLC)18759887</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="810">
-		<subfield code="a">Syria.</subfield>
-		<subfield code="b">al-Thaqāfah wa-al-Irshād al-Qawmī, Wizārat.</subfield>
-		<subfield code="b">Mudīrīyat al-Taʼlīf wa-al-tarjamah.</subfield>
-		<subfield code="t">Silsilat al-thaqāfah al-shaʻbīyah ;</subfield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-06</subfield>
+		<subfield code="a">Silsilat al-Thaqāfah al-shaʻbīyah )Damascus, Syria( ;</subfield>
 		<subfield code="v">1.</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
@@ -108,23 +113,18 @@
 		<subfield code="b">دار اليقظة العربية،</subfield>
 		<subfield code="c">[1960]</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">490-00/r</subfield>
-		<subfield code="a">سلسلة الثقافة الشعبية ؛</subfield>
-		<subfield code="v">1</subfield>
-	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">490-00/r</subfield>
+		<subfield code="6">490-04/r</subfield>
 		<subfield code="a">سلسلة الثقافة الشعبية ؛</subfield>
 		<subfield code="v">1</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="4" tag="880">
-		<subfield code="6">600-04/r</subfield>
+		<subfield code="6">600-05/r</subfield>
 		<subfield code="a">شابي، أبو القاسم.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
-		<subfield code="6">830-00/r</subfield>
-		<subfield code="a">سلسلة الثقافة الشعبية ؛ ;</subfield>
+		<subfield code="6">830-06/r</subfield>
+		<subfield code="a">سلسلة الثقافة الشعبية )Damascus, Syria(  ؛ </subfield>
 		<subfield code="v">1.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -137,8 +137,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2754707</subfield>
-		<subfield code="o">(OCoLC)ocm18759887 </subfield>
+		<subfield code="o">(OCoLC)ocm18759887</subfield>
 		<subfield code="s">princeton_aco000411</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">princeton_aco000411</subfield>
 	</datafield>
 </record>
