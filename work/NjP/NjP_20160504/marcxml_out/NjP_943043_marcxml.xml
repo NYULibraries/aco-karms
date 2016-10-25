@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160803s1944    ua      ob    000 0 ara d</controlfield>
+	<controlfield tag="008">161025s1944    ua      ob    000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -15,16 +15,23 @@
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">f-ua---</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ7864.A5</subfield>
+		<subfield code="b">.Z62 1944</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Ḥak⁻im, Naz⁻ih.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Ḥakīm, Nazīh. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Maḥm⁻ud Taym⁻ur r⁻aʼid al-qiṣṣah al-ʻArab⁻iyah /</subfield>
-		<subfield code="c">dir⁻asah taḥl⁻il⁻iyah bi-qalam Naz⁻ih al-Ḥak⁻im.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Maḥmūd Taymūr rāʼid al-qiṣṣah al-ʻArab̄iyah /</subfield>
+		<subfield code="c">dir̄āsah taḥl̄il̄iyah bi-qalam Naz̄īh al-Ḥakīm.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[Cairo] :</subfield>
-		<subfield code="b">N. al-Ḥak⁻im,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[al-Qāhirah] :</subfield>
+		<subfield code="b">N. al-Ḥakīm,</subfield>
 		<subfield code="c">1944.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -56,6 +63,7 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Taymūr, Maḥmūd,</subfield>
 		<subfield code="d">1894-1973.</subfield>
 	</datafield>
@@ -97,13 +105,33 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Ḥak⁻im, Naz⁻ih.</subfield>
-		<subfield code="t">Maḥm⁻ud Taym⁻ur r⁻aʼid al-qiṣṣah al-ʻArab⁻iyah</subfield>
+		<subfield code="a">Ḥakīm, Nazīh.</subfield>
+		<subfield code="t">Maḥmūd Taymūr rāʼid al-qiṣṣah al-ʻArab̄iyah</subfield>
 		<subfield code="w">(NjP)943043</subfield>
 		<subfield code="w">(OCoLC)31858821</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/wstqjtwv</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">حكيم، نزيه. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">محمود تيمور رائد القصة العربية /</subfield>
+		<subfield code="c">درسة تحليلية بقلم نزيه الحكيم.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">ن. الحكيم،</subfield>
+		<subfield code="c">1944.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">600-04/r</subfield>
+		<subfield code="a">تىمور، محمود،</subfield>
+		<subfield code="d">1894-1973.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -115,8 +143,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_943043</subfield>
-		<subfield code="o">(OCoLC)ocm31858821 </subfield>
+		<subfield code="o">(OCoLC)ocm31858821</subfield>
 		<subfield code="s">princeton_aco000441</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco000441</subfield>
 	</datafield>
 </record>

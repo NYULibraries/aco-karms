@@ -5,21 +5,28 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160803s1942    ua c    o     000 0 ara d</controlfield>
+	<controlfield tag="008">161025s1942    ua c    o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">B3149</subfield>
+		<subfield code="b">.B33 1842</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Badawī, ʻAbd al-Raḥmān.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Shūpinhawir /</subfield>
 		<subfield code="c">ʻAbd al-Raḥmān Badawī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Miṣr :</subfield>
 		<subfield code="b">Maktabat al-Nahḍah al-Miṣrīyah,</subfield>
 		<subfield code="c">1942.</subfield>
@@ -40,7 +47,8 @@
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Khulāṣat al-fikr al-Ūrubbī. Silsilat al-falāsifah</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -77,8 +85,35 @@
 		<subfield code="w">(NjP)2768604</subfield>
 		<subfield code="w">(OCoLC)30770226</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Khulāṣat al-fikr al-Ūrubbī. Silsilat al-falāsifah.</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/9w0vt82t</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">بدوي، عبد الرحمن.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">شوپنهور /</subfield>
+		<subfield code="c">عبد الرحمن بدوي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مكتبة النهضة المصرية،</subfield>
+		<subfield code="c">1942.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">490-04/r</subfield>
+		<subfield code="a">خلاصة الفكر الاوربي. سلسلة الفلاسفة</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">830-05/r</subfield>
+		<subfield code="a">خلاصة الفكر الاوربي. سلسلة الفلاسفة.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -90,8 +125,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2768604</subfield>
-		<subfield code="o">(OCoLC)ocm30770226 </subfield>
+		<subfield code="o">(OCoLC)ocm30770226</subfield>
 		<subfield code="s">princeton_aco000561</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-SERIES)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco000561</subfield>
 	</datafield>
 </record>

@@ -5,24 +5,32 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160803m18891891ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">161025m18891891ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ7810.A43</subfield>
+		<subfield code="b">K58 1889</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">al-Ālātī, Ḥasan,</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Ālātī, Ḥasan,</subfield>
 		<subfield code="d">-1889.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Tarwīḥ al-nufūs wa-muḍḥik al-ʻabūs.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb tarwīḥ al-nufūs wa-muḍḥik al-ʻabūs /</subfield>
+		<subfield code="c">taʼlīf Ḥasan al-Ālātī. </subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[al-Qāhirah] :</subfield>
 		<subfield code="b">Maṭbaʻat jarīdat al-Maḥrūsah,</subfield>
-		<subfield code="c">1889-91.</subfield>
+		<subfield code="c">1889.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (3 volumes in 2.)</subfield>
@@ -61,13 +69,29 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">al-Ālātī, Ḥasan, -1889.</subfield>
-		<subfield code="t">Tarwīḥ al-nufūs wa-muḍḥik al-ʻabūs</subfield>
+		<subfield code="a">Ālātī, Ḥasan, -1889.</subfield>
+		<subfield code="t">Kitāb tarwīḥ al-nufūs wa-muḍḥik al-ʻabūs</subfield>
 		<subfield code="w">(NjP)2787401</subfield>
 		<subfield code="w">(OCoLC)42847355</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/zpc86bn8</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">آلاتي، حسن،</subfield>
+		<subfield code="d">1889.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">كتاب ترويح النفوس ومضحك العبوس /</subfield>
+		<subfield code="c">تأليف حسن الالاتي. </subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">مطبعة جريدة المحروسة،</subfield>
+		<subfield code="c">1889.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -79,9 +103,11 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2787401</subfield>
-		<subfield code="o">(OCoLC)ocm42847355 </subfield>
+		<subfield code="o">(OCoLC)ocm42847355</subfield>
 		<subfield code="s">princeton_aco000519:v.1-2</subfield>
 		<subfield code="s">princeton_aco000520:v.3</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco000519:v.1-2</subfield>
+		<subfield code="s">princeton_aco000520:v.3</subfield>
 	</datafield>
 </record>
