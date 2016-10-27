@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160709s1940    le      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">161025s1940    le      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
@@ -15,6 +15,10 @@
 	<datafield ind1="1" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
 		<subfield code="h">eng</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">GN24</subfield>
+		<subfield code="b">.C3125 1940</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">572</subfield>
@@ -30,14 +34,14 @@
 		<subfield code="a">Man the unknown.</subfield>
 		<subfield code="l">Arabic</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Insān, dhālika al-majhūl /</subfield>
 		<subfield code="c">lil-Duktūr Kārīl ; ma‘a naẓarāt wa-durūs bi-qalam al-Ab Būlus Suwayd al-Mukhalliṣī, ustādh al-adab al-‘Arabī fī al-Madrasah al-Baṭrīyarqīyah - Bayrūt ; wa-‘alyhi muqaddimah ‘Arabīyah bi-qalam al-Ustādh Amīn Bik Nakhlah.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
 		<subfield code="6">880-03</subfield>
-		<subfield code="a">First edition.</subfield>
+		<subfield code="a">al-Ṭabʻah al-ūlá.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="264">
 		<subfield code="6">880-04</subfield>
@@ -71,24 +75,20 @@
 		<subfield code="d">2016.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الإنسان.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">Human beings.</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">880-06</subfield>
-		<subfield code="a">Suwayd, Būlus,</subfield>
-		<subfield code="e">compiler.</subfield>
-		<subfield code="d">1907-1955,</subfield>
+		<subfield code="a">Human beings.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="6">880-07</subfield>
 		<subfield code="a">Nakhlah, Amīn,</subfield>
-		<subfield code="d">1901-1976،</subfield>
 		<subfield code="e">author of introduction.</subfield>
-		<subfield code="4">aui.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-08</subfield>
+		<subfield code="a">Suwayd, Būlus,</subfield>
+		<subfield code="e">compiler.</subfield>
+		<subfield code="d">1907-1955,</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Jafet Memorial Library.</subfield>
@@ -97,12 +97,10 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="765">
-		<subfield code="6">880-08</subfield>
-		<subfield code="i">ترجمة كتاب:</subfield>
-		<subfield code="t">Man, the unknown</subfield>
-		<subfield code="w">(OCoLC)00843392</subfield>
-		<subfield code="w">(OCoLC)00843392</subfield>
 		<subfield code="a">Translation of:</subfield>
+		<subfield code="t">Man, the unknown</subfield>
+		<subfield code="w">b1157429x</subfield>
+		<subfield code="w">(OCoLC)00843392</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
@@ -114,50 +112,54 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/5mkkwn15</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01/r</subfield>
 		<subfield code="a">كاريل، ألكسيس،</subfield>
 		<subfield code="d">1873-1944،</subfield>
-		<subfield code="e">مؤلف. </subfield>
-		<subfield code="4">aut.</subfield>
+		<subfield code="e">author.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">الإنسان، ذلك المجهول /</subfield>
 		<subfield code="c">للدكتور كاريل ؛ مع نظرات ودروس بقلم الأب بولس سويد المخلصي، أستاذ الأدب العربي في المدرسة البطريركية - بيروت ؛ وعليه مقدمة عربية بقلم الأستاذ أمين بك نخلة.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-03/(3/r</subfield>
+		<subfield code="6">250-03/r</subfield>
 		<subfield code="a">الطبعة الأولى.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-04/(3/r</subfield>
+		<subfield code="6">264-04/r</subfield>
 		<subfield code="a">صيدا، لبنان :</subfield>
 		<subfield code="b">مطبعة الرهبانية المخلصية،</subfield>
 		<subfield code="c">1940.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-05/(3/r</subfield>
+		<subfield code="6">300-05/r</subfield>
 		<subfield code="a">189 صفحة ؛</subfield>
 		<subfield code="c">24 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06/r</subfield>
+		<subfield code="a">الإنسان.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-06/(3/r</subfield>
+		<subfield code="6">700-07/r</subfield>
+		<subfield code="a">نخلة، امين،</subfield>
+		<subfield code="e">مؤلف مقدمة.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-08/r</subfield>
 		<subfield code="a">سويد، بولس،</subfield>
 		<subfield code="d">1907-1955,</subfield>
-		<subfield code="e">معد. </subfield>
+		<subfield code="e">معد.</subfield>
 		<subfield code="4">com.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-07/(3/r</subfield>
-		<subfield code="a">نخلة، امين،</subfield>
-		<subfield code="e">مؤلف مقدمة. </subfield>
-	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">765-08/(3/r</subfield>
-		<subfield code="a">Translation of:</subfield>
+		<subfield code="6">765-00/r</subfield>
+		<subfield code="i">ترجمة كتاب:</subfield>
 		<subfield code="t">Man, the unknown</subfield>
-		<subfield code="w">b1157429x</subfield>
 		<subfield code="w">(OCoLC)00843392</subfield>
+		<subfield code="w">(OCoLC)00843392</subfield>
+		<subfield code="a">Translation of:</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -171,5 +173,6 @@
 		<subfield code="i">LeBAU_b12485779</subfield>
 		<subfield code="s">aub_aco000038</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco000038</subfield>
 	</datafield>
 </record>
