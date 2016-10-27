@@ -1,0 +1,24 @@
+Records containing SERIES errors - batch NjP_20160504
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2016-10-25 11:11:36.903607
+---------------------------------------------------------------------
+FILE: NjP_20160504_3/NjP_20160504_3_updates.mrc
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm18759887 
+   oclc_rec_035_num: (OCoLC)18759887
+Institution ID: NjP_2754707
+Record 999:  NjP_2754707 (OCoLC)ocm18759887 princeton_aco000411
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   490 - Syria. al-Thaqāfah wa-al-Irshād al-Qawmī, Wizārat. Mudīrīyat al-Taʼlīf wa-al-tarjamah. Silsilat al-thaqāfah al-shaʻbīyah ; 1
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+040 $e field: [none]
+RDA fields: YES
+050 call number: PJ7862.H15 Z75
+Source entities (book IDs): princeton_aco000411
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 1
+
