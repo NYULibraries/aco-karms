@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">160709s1952    ua      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">161025s1952    ua      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ7864.A35</subfield>
+		<subfield code="b">J3 1952</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">892.78</subfield>
@@ -59,11 +63,8 @@
 		<subfield code="d">2016.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الادب العربي</subfield>
-		<subfield code="y">القرن العشرون.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Arabic literature</subfield>
 		<subfield code="y">20th century.</subfield>
 	</datafield>
@@ -72,14 +73,6 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="730">
 		<subfield code="a">Arabic Collections Online.</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="775">
-		<subfield code="6">880-05</subfield>
-		<subfield code="t">جنة الشوك</subfield>
-		<subfield code="d">[al-Qāhirah] : Dār al-Maʻārif, 1945</subfield>
-		<subfield code="w">(OCoLC)784423310</subfield>
-		<subfield code="w">(OCoLC)784423310</subfield>
-		<subfield code="a">Jannat al-shawk</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
@@ -91,34 +84,46 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/dz08ktkf</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01/r</subfield>
 		<subfield code="a">حسين، طه،</subfield>
 		<subfield code="d">1889-1973،</subfield>
-		<subfield code="e">مؤلف. </subfield>
-		<subfield code="4">aut.</subfield>
+		<subfield code="e">author.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">جنة الشوك /</subfield>
 		<subfield code="c">طه حسين.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03/r</subfield>
 		<subfield code="a">مصر :</subfield>
 		<subfield code="b">دار المعارف،</subfield>
 		<subfield code="c">1952.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04/r</subfield>
 		<subfield code="a">271 صفحة ؛</subfield>
 		<subfield code="c">19 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05/r</subfield>
+		<subfield code="a">الادب العربي</subfield>
+		<subfield code="y">القرن العشرون.</subfield>
+	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">775-05/(3/r</subfield>
+		<subfield code="6">775-00/r</subfield>
 		<subfield code="a">Jannat al-shawk</subfield>
 		<subfield code="d">[القاهرة] : دار المعارف،  1945</subfield>
 		<subfield code="w">b12597636</subfield>
 		<subfield code="w">(OCoLC)784423310</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">775-00/r</subfield>
+		<subfield code="t">جنة الشوك</subfield>
+		<subfield code="d">[al-Qāhirah] : Dār al-Maʻārif, 1945</subfield>
+		<subfield code="w">(OCoLC)784423310</subfield>
+		<subfield code="w">(OCoLC)784423310</subfield>
+		<subfield code="a">Jannat al-shawk</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -132,5 +137,6 @@
 		<subfield code="i">LeBAU_b17666703</subfield>
 		<subfield code="s">aub_aco000143</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco000143</subfield>
 	</datafield>
 </record>
