@@ -1,0 +1,43 @@
+Records containing UNLINKED 880 script fields - batch NjP_20161025
+--  At least one 880 field has sequence number -00 in subfield $6,
+    meaning it is not linked to the corresponding parallel field
+Report produced: 2016-11-18 00:28:21.355258
+---------------------------------------------------------------------
+FILE: NjP_20161025_1/NjP_20161025_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NjP_2700500
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn178299936
+   orig_rec_035 num: =035  \\$a(OCoLC)178299936
+   orig_rec_035 num: =035  \\$9CMW3318TS
+   orig_rec_035 num: =035  \\$a(NjP)2700500
+Record 999:  2700500
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Colophon title: Shamāyil al-Muṣṭafá
+ERROR-880: Unlinked 880s: YES
+   880 $6 246-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000728
+---------------------------------------------------------------------
+Institution ID: NjP_2788030
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn178694406
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm42865662
+   orig_rec_035 num: =035  \\$a(OCoLC)178694406
+   orig_rec_035 num: =035  \\$9CNJ7063TS
+   orig_rec_035 num: =035  \\$a(NjP)2788030
+Record 999:  2788030
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - Bagdad, Maṭbaʻat al-Maʻārif [1958]
+ERROR-880: Unlinked 880s: YES
+   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000668
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NjP_20161025_1/NjP_20161025_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing unlinked 880 script fields: 2
+
