@@ -1,0 +1,103 @@
+Records containing SERIES errors - batch NjP_20161025
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2016-11-18 00:28:21.355258
+---------------------------------------------------------------------
+FILE: NjP_20161025_1/NjP_20161025_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NjP_1024071
+   orig_rec_035 num: =035  \\$a(OCoLC)33960248
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG95-B79052
+   orig_rec_035 num: =035  \\$9CBZ8119TS
+Record 999:  NjP_1024071
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): al-Maktabah al-falsafīyah ; 1
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000777
+---------------------------------------------------------------------
+Institution ID: NjP_1040931
+   orig_rec_035 num: =035  \\$a(OCoLC)34437528
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG96-B1095
+   orig_rec_035 num: =035  \\$9CCB7316TS
+Record 999:  NjP_1040931
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Muʾassasat al-Imām al-Mahdī ; 37
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000770
+---------------------------------------------------------------------
+Institution ID: NjP_2788181
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm42866669
+   orig_rec_035 num: =035  \\$9CNJ7218TS
+Record 999:  NjP_2788181
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Jāmiʻat Fuʾād al-Awwal, Kullīyat al-Ādāb. al-Muʾallaf, 22
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000618
+---------------------------------------------------------------------
+Institution ID: NjP_2909965
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm16838911
+   orig_rec_035 num: =035  \\$9CPD4174TS
+Record 999:  NjP_2909965
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Silsilat al-makhṭūṭāt; al-Juzʾ 2/5
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000769
+---------------------------------------------------------------------
+Institution ID: NjP_3341197
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn178229063
+   orig_rec_035 num: =035  \\$a(OCoLC)178229063
+   orig_rec_035 num: =035  \\$a(NjP)3341197
+Record 999:  3341197
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Min aḥādīth al-daʻwah ; 3
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000766
+---------------------------------------------------------------------
+Institution ID: NjP_454804
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn175376915
+   orig_rec_035 num: =035  \\$a(OCoLC)175376915
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG88-B34929
+   orig_rec_035 num: =035  \\$9ACD0449TS
+   orig_rec_035 num: =035  \\$a(NjP)454804
+Record 999:  454804
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Bayânu al-ḥaqq biḍimâni al-c̣idq
+   250 - Chāp-i 1.
+   260 - Ṭihrān : Muʼassasah-i Intishārāt-i Amīr Kabīr, 1364- [1986- ]
+   490 - Majmūʻah-i andishah-i Islāmī
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Majmūʻah-i andishah-i Islāmī
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000621:juz 2
+---------------------------------------------------------------------
+Institution ID: NjP_981843
+   orig_rec_035 num: =035  \\$a(OCoLC)32787943
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG95-B34359
+   orig_rec_035 num: =035  \\$9CBU8908TS
+Record 999:  NjP_981843
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Silsilat al-thaqāfah al-shaʻbīyah ; 50
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000625
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NjP_20161025_1/NjP_20161025_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 7
+
