@@ -5,22 +5,29 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">161027s1938    ua      o     000 0 ara  </controlfield>
+	<controlfield tag="008">161117s1938    ua      o     000 0 ara  </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP135.A2</subfield>
+		<subfield code="b">B259 1938</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Qazwīnī, ʻUmar ibn ʻAbd al-Raḥmān,</subfield>
 		<subfield code="d">1255 or 1256-1299 or 1300.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Mukhtaṣar Shuʻab al-īmān /</subfield>
-		<subfield code="c">li-Abū Jaʻfar ʻUmar al-Qazwīnī ; ṣaḥḥaḥahu wa-ʻallaqa ʻalayhi Muḥammad Munīr al-Dimashqī.</subfield>
+		<subfield code="c">li-Abī Jaʻfar ʻUmar al-Qazwīnī ; ṣaḥḥaḥahu wa-ʻallaqa ʻalayhi Muḥammad Munīr al-Dimashqī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">al-Ṭabʻah 2.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
@@ -54,9 +61,11 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">Dimashqī, Muḥammad Munīr.</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Dimashqī, Muḥammad Munīr. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Bayhaqī, Aḥmad ibn al-Ḥusayn,</subfield>
 		<subfield code="d">994-1066.</subfield>
 		<subfield code="t">Jāmiʻ li-shuʻab al-īmān.</subfield>
@@ -79,6 +88,30 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/cnp5hvk9</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">قزويني، عمر بن عبد الرحمن،</subfield>
+		<subfield code="d">1255 or 1256-1299 or 1300.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">مختصر شعب الايمان /</subfield>
+		<subfield code="c">لابي جعفر عمر القزويني ؛ صححه وعلق عليه محمد منير الدمشقي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">250-03/r</subfield>
+		<subfield code="a">الطبعة 2.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-04/r</subfield>
+		<subfield code="a">دمشقي، محمد منير. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-05/r</subfield>
+		<subfield code="a">بيهقي، احمد بن الحسين،</subfield>
+		<subfield code="d">994-1066.</subfield>
+		<subfield code="t">جامع لشعب الايمان.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -89,8 +122,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_585607</subfield>
-		<subfield code="o">(OCoLC)ocm38286374 </subfield>
+		<subfield code="o">(OCoLC)ocm38286374</subfield>
 		<subfield code="s">columbia_aco002046</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco002046</subfield>
 	</datafield>
 </record>
