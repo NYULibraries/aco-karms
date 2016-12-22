@@ -5,22 +5,28 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">161118s1930    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">161222s1930    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP100.3</subfield>
+		<subfield code="b">1930</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="0" tag="245">
-		<subfield code="a">Koran.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Qurʼān.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
 		<subfield code="a">School ed.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo,</subfield>
-		<subfield code="b">Amīrīyah Press</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">[al-Qāhirah} :</subfield>
+		<subfield code="b">al-Maṭbaʻah al-Amīrīyah,</subfield>
 		<subfield code="c">[1930]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -51,6 +57,9 @@
 	<datafield ind1=" " ind2=" " tag="546">
 		<subfield code="a">Title-page and text in Arabic.</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="0" tag="630">
+		<subfield code="a">Qurʼan.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
 		<subfield code="b">Library.</subfield>
@@ -60,12 +69,22 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="t">Koran</subfield>
+		<subfield code="t">Qurʼān</subfield>
 		<subfield code="w">(NjP)1738054</subfield>
 		<subfield code="w">(OCoLC)41827270</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/5dv41t1h</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">245-01</subfield>
+		<subfield code="a">قرآن.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-02</subfield>
+		<subfield code="a">[القاهره} :</subfield>
+		<subfield code="b">المطبعة الاميرية،</subfield>
+		<subfield code="c">[1930]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -77,8 +96,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_1738054</subfield>
-		<subfield code="o">(OCoLC)ocm41827270 </subfield>
+		<subfield code="o">(OCoLC)ocm41827270</subfield>
 		<subfield code="s">princeton_aco000786</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco000786</subfield>
 	</datafield>
 </record>

@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">161118s1970    ir      ob    000 0 ara d</controlfield>
+	<controlfield tag="008">161222s1970    ir      ob    000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -16,19 +16,27 @@
 		<subfield code="a">ara</subfield>
 		<subfield code="h">und</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP80</subfield>
+		<subfield code="b">.A16 F22 1970</subfield>
+	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Abū al-Faraj al-Iṣbahānī,</subfield>
 		<subfield code="d">897 or 898-967.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Sarguzasht-i kushtah-i shudagān az farzandān-i Abū Ṭālib :</subfield>
 		<subfield code="b">tarjamah-i Maqātil alŢālibīyīn /</subfield>
 		<subfield code="c">taʼlīf-i Abū al-Faraj Iṣfahānī ; tarjamah az Hāshim Rasūlī Maḥallātī ; muqaddimah va taṣḥīḥ az ʻAlī Akbar Ghaffārī.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Tarjamah-i Maqātil al-Ṭālibīyīn</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Tihrān :</subfield>
 		<subfield code="b">Kitābfurūshī-i Ṣadūq,</subfield>
 		<subfield code="c">1349 [1970 or 1971]</subfield>
@@ -68,12 +76,14 @@
 		<subfield code="a">Alids.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Rasūlī Maḥallātī, Hāshim,</subfield>
-		<subfield code="e">translator.</subfield>
+		<subfield code="e">translator. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Ghaffārī, ʻAlī Akbar,</subfield>
-		<subfield code="e">editor.</subfield>
+		<subfield code="e">editor. </subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
@@ -92,6 +102,37 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/pvmcvjz5</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">ابو الفرج الاصبهاني،</subfield>
+		<subfield code="d">897 or 898-967.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">سرگزشت كشتها شدگان از فرزندانا ابو طالب :</subfield>
+		<subfield code="b">ترجمها مقاتل الطاليين /</subfield>
+		<subfield code="c">تأليف ابو الفرج اصفهاني ؛ ترجمة از هاشم رسولي محلاتي ؛ مقدمة ڤ تصحيح از علي اكبر غفاري.</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">246-03</subfield>
+		<subfield code="a">ترجمه مقاتل الطالبيىن</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04</subfield>
+		<subfield code="a">تهران :</subfield>
+		<subfield code="b">کتابفروشى صدوق،</subfield>
+		<subfield code="c">1349 [1970 or 1971]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-05</subfield>
+		<subfield code="a">رسولي محلاتي، هاشم،</subfield>
+		<subfield code="e">translator. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-06</subfield>
+		<subfield code="a">غفاري، علي اكبر،</subfield>
+		<subfield code="e">editor. </subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -102,8 +143,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2788266</subfield>
-		<subfield code="o">(OCoLC)ocm42867086 </subfield>
+		<subfield code="o">(OCoLC)ocm42867086</subfield>
 		<subfield code="s">princeton_aco000739</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco000739</subfield>
 	</datafield>
 </record>

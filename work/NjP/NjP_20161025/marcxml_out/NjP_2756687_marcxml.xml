@@ -5,14 +5,14 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">161118s1968    iq      ob    000 0 arar </controlfield>
+	<controlfield tag="008">161222s1968    iq      ob    000 0 arar </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1="0" ind2="0" tag="050">
 		<subfield code="a">BJ1291</subfield>
 		<subfield code="b">.G38</subfield>
 	</datafield>
@@ -22,7 +22,7 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">880-02</subfield>
-		<subfield code="a">Āfāt al-lisān,</subfield>
+		<subfield code="a">Āfāt al-lisān :</subfield>
 		<subfield code="b">kitāb dīnī, akhlāqī, ijtimāʻī adabī.</subfield>
 		<subfield code="c">Bi-qalam ʻIzz al-Dīn al-Mūsawī al-Gharīfī.</subfield>
 	</datafield>
@@ -51,7 +51,7 @@
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="6">880-05</subfield>
 		<subfield code="a">Manshūrāt al-Maktabah al-Dīnīyah al-ʻĀmmah</subfield>
 	</datafield>
@@ -88,35 +88,43 @@
 		<subfield code="a">Gharīfī, ʻIzz al-Dīn al-Mūsawī.</subfield>
 		<subfield code="t">Āfāt al-lisān</subfield>
 		<subfield code="w">(NjP)2756687</subfield>
-		<subfield code="w">(DLC)   74217348 </subfield>
+		<subfield code="w">(DLC)  74217348 </subfield>
 		<subfield code="w">(OCoLC)20553006</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-06</subfield>
+		<subfield code="a">Manshūrāt al-Maktabah al-Dīnīyah al-ʻĀmmah</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/59zw3wd2</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">غريفي، عز الدين الموسوي.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">آفات اللسان :</subfield>
 		<subfield code="b">کتاب ديني، أخلاقي، اجتماعي، أدبي /</subfield>
 		<subfield code="c">بقلم عز الدين الموسوي الغريفي.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-03/r</subfield>
+		<subfield code="6">250-03</subfield>
 		<subfield code="a">الطبعة ١.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-04/r</subfield>
-		<subfield code="a">بغداد :</subfield>
+		<subfield code="6">260-04</subfield>
+		<subfield code="a">[بغداد] :</subfield>
 		<subfield code="b">مطبعة المعارف،</subfield>
-		<subfield code="c">١٩٦٨.</subfield>
+		<subfield code="c">[1968]</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">490-05/r</subfield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">490-05</subfield>
 		<subfield code="a">منشورات المکتبة الدينية العامة</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">830-06</subfield>
+		<subfield code="a">منشورات المكتبة الدينية العامة</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -128,8 +136,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2756687</subfield>
-		<subfield code="o">(OCoLC)ocm20553006 </subfield>
+		<subfield code="o">(OCoLC)ocm20553006</subfield>
 		<subfield code="s">princeton_aco000603</subfield>
 		<subfield code="e">(ERROR-SERIES)</subfield>
+		<subfield code="s">princeton_aco000603</subfield>
 	</datafield>
 </record>
