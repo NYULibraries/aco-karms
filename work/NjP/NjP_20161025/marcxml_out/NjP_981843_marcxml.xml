@@ -5,12 +5,16 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">161118s1962    iq      ob    010 0bara d</controlfield>
+	<controlfield tag="008">161222s1962    iq      ob    010 0bara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">B753 K54</subfield>
+		<subfield code="b">A8 1962</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
 		<subfield code="6">880-01</subfield>
@@ -24,9 +28,11 @@
 		<subfield code="c">taʼlīf Kūrkīs ʻAwwād.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="4" tag="246">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Kindī</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Baghdād :</subfield>
 		<subfield code="b">Dār Maṭbaʻat al-Tamaddun,</subfield>
 		<subfield code="c">1962.</subfield>
@@ -46,7 +52,8 @@
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Silsilat al-thaqāfah al-shaʻbīyah ;</subfield>
 		<subfield code="v">50</subfield>
 	</datafield>
@@ -67,7 +74,7 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
-		<subfield code="6">880-03</subfield>
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Kindī,</subfield>
 		<subfield code="d">-approximately 873.</subfield>
 	</datafield>
@@ -92,7 +99,8 @@
 		<subfield code="0">(OCoLC)fst01423686</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">ʻAwwād, Kūrkīs.</subfield>
+		<subfield code="6">880-07</subfield>
+		<subfield code="a">ʻAwwād, Kūrkīs. </subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
@@ -115,37 +123,51 @@
 		<subfield code="w">(NjP)981843</subfield>
 		<subfield code="w">(OCoLC)32787943</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-08</subfield>
+		<subfield code="a">Silsilat al-Thaqāfah al-shaʻbīyah ;</subfield>
+		<subfield code="v">50.</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/69p8d3ks</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/r</subfield>
-		<subfield code="a">كندي.</subfield>
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">كندي،</subfield>
+		<subfield code="d">-approximately 873.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">يعقوب بن إسحاق الكندي :</subfield>
 		<subfield code="b">حياته وآثاره /</subfield>
 		<subfield code="c">تأليف كوركيس عواد.</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">246-03</subfield>
+		<subfield code="a">كندي</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-00/r</subfield>
+		<subfield code="6">260-04</subfield>
 		<subfield code="a">بغداد :</subfield>
 		<subfield code="b">وزارة الإرشاد، مديرية الفنون والثقافة الشعبية،</subfield>
 		<subfield code="c">١٩٦٢.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">490-00/r</subfield>
+		<subfield code="6">490-05</subfield>
 		<subfield code="a">سلسلة الثقافة الشعبية ؛</subfield>
 		<subfield code="v">٥٠</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="880">
-		<subfield code="6">600-03/r</subfield>
+		<subfield code="6">600-06</subfield>
 		<subfield code="a">كندي.</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-07</subfield>
+		<subfield code="a">عواد، كوركيس. </subfield>
+	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
-		<subfield code="6">830-00/r</subfield>
-		<subfield code="a">سلسلة الثقافة الشعبية ؛ ;</subfield>
+		<subfield code="6">830-08</subfield>
+		<subfield code="a">سلسلة الثقافة الشعبية ؛</subfield>
 		<subfield code="v">٥٠.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -158,8 +180,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_981843</subfield>
-		<subfield code="o">(OCoLC)ocm32787943 </subfield>
+		<subfield code="o">(OCoLC)ocm32787943</subfield>
 		<subfield code="s">princeton_aco000625</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-SERIES)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco000625</subfield>
 	</datafield>
 </record>
