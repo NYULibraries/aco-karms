@@ -1,0 +1,504 @@
+ALL Records containing any type of error - batch NNC_20170109
+--  Each of these records have one or more of the following errors:
+    --  no 880 fields
+    --  missing a key 880 field
+    --  have an unlinked 880 field
+    --  have a series heading error in the 490/800/810/811/830 fields
+    --  have one of the various miscellaneous errors, marked with ERROR-MISC
+    --  missing a call number - no 050 or 090 field
+Report produced: 2017-01-17 14:03:38.292633
+---------------------------------------------------------------------
+FILE: NNC_20170109_1/NNC_20170109_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNC_113531
+   orig_rec_035 num: =035  \\$a(OCoLC)13552414
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm13552414
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG82-B56219
+   orig_rec_035 num: =035  \\$9AAN0784CU
+   orig_rec_035 num: =035  \\$a(NNC)113531
+Record 999:  NNC_113531
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+090 call number: \KBL\ \ \.I253\1970\
+Source entities (book IDs): columbia_aco002226:v.1, columbia_aco002227:v.2, columbia_aco002229:v.3, columbia_aco002228:v.4
+---------------------------------------------------------------------
+Institution ID: NNC_1142802
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm16151649
+   orig_rec_035 num: =035  \\$9AGJ8662CU
+   orig_rec_035 num: =035  \\$a(NNC)1142802
+Record 999:  NNC_1142802
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+090 call number: DG867.11 .A42
+Source entities (book IDs): columbia_aco002298
+---------------------------------------------------------------------
+Institution ID: NNC_161914
+   orig_rec_035 num: =035  \\$a(OCoLC)27700285
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm27700285
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG83-B37165
+   orig_rec_035 num: =035  \\$9AAT2020CU
+   orig_rec_035 num: =035  \\$a(NNC)161914
+   orig_rec_035 num: =035  \\$a161914
+Record 999:  NNC_161914
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+090 call number: BP193.13.A3 Q29
+Source entities (book IDs): columbia_aco002240
+---------------------------------------------------------------------
+Institution ID: NNC_2483433
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm23506049
+   orig_rec_035 num: =035  \\$9AQD4585CU
+   orig_rec_035 num: =035  \\$a(NNC)2483433
+Record 999:  NNC_2483433
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+050 call number: CJ3415 .N35
+Source entities (book IDs): columbia_aco002231:v.1
+---------------------------------------------------------------------
+Institution ID: NNC_2488918
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm06781171
+   orig_rec_035 num: =035  \\$a(OCoLC)6781171
+   orig_rec_035 num: =035  \\$a(NNC)2488918
+   orig_rec_035 num: =035  \\$a2488918
+Record 999:  NNC_2488918
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   700 - Khs-Burmester, O. H. E. (Oswald Hugh Ewart)
+   700 - Khater, Antoine.
+   830 - Maṭbūʻāt Jamʻīyat al-Āthār al-Qibṭīyah. Qism al-nuṣūṣ wa-al-wathāʼiq.
+ERROR-880: Unlinked 880s: YES
+   880 $6 240-00/(3/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+040 $e field: [none]
+050 call number: BX132 .S3
+Source entities (book IDs): columbia_aco002239:v.2:pt.1
+---------------------------------------------------------------------
+Institution ID: NNC_2488991
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm16110512
+   orig_rec_035 num: =035  \\$9AQE0391CU
+   orig_rec_035 num: =035  \\$a(NNC)2488991
+Record 999:  NNC_2488991
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+050 call number: BX137.A5 A7 1969b
+Source entities (book IDs): columbia_aco002230:v.2
+---------------------------------------------------------------------
+Institution ID: NNC_2520968
+   orig_rec_035 num: =035  \\$a(OCoLC)4249885
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm04249885
+   orig_rec_035 num: =035  \\$9AQH3903CU
+   orig_rec_035 num: =035  \\$a(NNC)2520968
+Record 999:  NNC_2520968
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+050 call number: HC532.5 .T141m
+Source entities (book IDs): columbia_aco002217:v.1
+---------------------------------------------------------------------
+Institution ID: NNC_2664350
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm37613831
+   orig_rec_035 num: =035  \\$9ARB1869CU
+   orig_rec_035 num: =035  \\$a(NNC)2664350
+Record 999:  NNC_2664350
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+090 call number: KBL0 .S89
+Source entities (book IDs): columbia_aco002304:v.1-2
+---------------------------------------------------------------------
+Institution ID: NNC_2664653
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm10697164
+   orig_rec_035 num: =035  \\$9ARB2174CU
+   orig_rec_035 num: =035  \\$a(NNC)2664653
+Record 999:  NNC_2664653
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+050 call number: LAW 
+Source entities (book IDs): columbia_aco002303:v.2
+---------------------------------------------------------------------
+Institution ID: NNC_2664894
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm10396166
+   orig_rec_035 num: =035  \\$9ARB2429CU
+   orig_rec_035 num: =035  \\$a(NNC)2664894
+Record 999:  NNC_2664894
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+090 call number: K0 
+Source entities (book IDs): columbia_aco002302:v.1
+---------------------------------------------------------------------
+Institution ID: NNC_2670771
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm16170218
+   orig_rec_035 num: =035  \\$9ARB9342CU
+   orig_rec_035 num: =035  \\$a(NNC)2670771
+Record 999:  NNC_2670771
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+090 call number: KBL0 .G48
+Source entities (book IDs): columbia_aco002220:v.1, columbia_aco002219:v.2
+---------------------------------------------------------------------
+Institution ID: NNC_2674218
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm45047078
+   orig_rec_035 num: =035  \\$9ARC2862CU
+Record 999:  NNC_2674218
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002234
+---------------------------------------------------------------------
+Institution ID: NNC_2678064
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm08944786
+   orig_rec_035 num: =035  \\$9ARC6823CU
+Record 999:  NNC_2678064
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+050 call number: DT45 .R3
+Source entities (book IDs): columbia_aco002232:v.1
+---------------------------------------------------------------------
+Institution ID: NNC_2685774
+   orig_rec_035 num: =035  \\$a(OCoLC)122778368
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn122778368
+   orig_rec_035 num: =035  \\$9ARD5376CU
+   orig_rec_035 num: =035  \\$a(NNC)2685774
+Record 999:  NNC_2685774
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002233
+---------------------------------------------------------------------
+Institution ID: NNC_2752670
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm13979436
+   orig_rec_035 num: =035  \\$9ARL7874CU
+Record 999:  NNC_2752670
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+090 call number: DS38 .K33 1958
+Source entities (book IDs): columbia_aco001343:v.1, columbia_aco001342:v.2
+---------------------------------------------------------------------
+Institution ID: NNC_2871236
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm23495606
+   orig_rec_035 num: =035  \\$9ASA5817CU
+   orig_rec_035 num: =035  \\$a(NNC)2871236
+Record 999:  NNC_2871236
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+090 call number: BP75 .I2 1955
+Source entities (book IDs): columbia_aco002266:v.1, columbia_aco002267:v.2
+---------------------------------------------------------------------
+Institution ID: NNC_2958729
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm31193887
+   orig_rec_035 num: =035  \\$9ASK3852CU
+   orig_rec_035 num: =035  \\$a(NNC)2958729
+Record 999:  NNC_2958729
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+050 call number: BP193.18.A2 A82
+Source entities (book IDs): columbia_aco002265:v.1, columbia_aco002264:v.2
+---------------------------------------------------------------------
+Institution ID: NNC_2959404
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm20413588
+   orig_rec_035 num: =035  \\$9ASK4541CU
+Record 999:  NNC_2959404
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+050 call number: BP193 .M27 1965
+Source entities (book IDs): columbia_aco002243
+---------------------------------------------------------------------
+Institution ID: NNC_2959571
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm45903873
+   orig_rec_035 num: =035  \\$9ASK4725CU
+   orig_rec_035 num: =035  \\$a(NNC)2959571
+Record 999:  NNC_2959571
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+090 call number: BP131.6 .Q37
+Source entities (book IDs): columbia_aco002200
+---------------------------------------------------------------------
+Institution ID: NNC_2960343
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm31101504
+   orig_rec_035 num: =035  \\$9ASK5548CU
+Record 999:  NNC_2960343
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+090 call number: BP193 .M7
+Source entities (book IDs): columbia_aco002297:v.1, columbia_aco002296:v.2
+---------------------------------------------------------------------
+Institution ID: NNC_2960364
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm28084053
+   orig_rec_035 num: =035  \\$9ASK5569CU
+   orig_rec_035 num: =035  \\$a(NNC)2960364
+Record 999:  NNC_2960364
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+050 call number: BP193.1.A2 M3
+Source entities (book IDs): columbia_aco002245:v.2
+---------------------------------------------------------------------
+Institution ID: NNC_2960380
+   orig_rec_035 num: =035  \\$a(OCoLC)234389516
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn234389516
+   orig_rec_035 num: =035  \\$9ASK5585CU
+   orig_rec_035 num: =035  \\$a(NNC)2960380
+Record 999:  NNC_2960380
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002268
+---------------------------------------------------------------------
+Institution ID: NNC_2988139
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm46344558
+   orig_rec_035 num: =035  \\$9ASN5447CU
+Record 999:  NNC_2988139
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+090 call number: BP75 .D35
+Source entities (book IDs): columbia_aco002270
+---------------------------------------------------------------------
+Institution ID: NNC_3076806
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm43195451
+   orig_rec_035 num: =035  \\$9ATQ0417CU
+Record 999:  NNC_3076806
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco000477
+---------------------------------------------------------------------
+Institution ID: NNC_3349253
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm50726875
+   orig_rec_035 num: =035  \\$9AVA4025CU
+   orig_rec_035 num: =035  \\$a(NNC)3349253
+Record 999:  NNC_3349253
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+050 call number: BJ1291 .I27 1881
+Source entities (book IDs): columbia_aco002256
+---------------------------------------------------------------------
+Institution ID: NNC_342424
+   orig_rec_035 num: =035  \\$a(OCoLC)15092820
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm15092820
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG85-B45777
+   orig_rec_035 num: =035  \\$9ABM8782CU
+   orig_rec_035 num: =035  \\$a(NNC)342424
+Record 999:  NNC_342424
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+050 call number: BP193.25 .K842 1968
+Source entities (book IDs): columbia_aco002253:v.2, columbia_aco002252:v.3, columbia_aco002251:v.4, columbia_aco002250:v.5, columbia_aco002249:v.6, columbia_aco002248:v.7
+---------------------------------------------------------------------
+Institution ID: NNC_395851
+   orig_rec_035 num: =035  \\$a(OCoLC)217264208
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn217264208
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG85-B98
+   orig_rec_035 num: =035  \\$9ABT4007CU
+   orig_rec_035 num: =035  \\$a(NNC)395851
+Record 999:  NNC_395851
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+090 call number: BP88.S5 A42 1982
+Source entities (book IDs): columbia_aco002260:v.1, columbia_aco002261:v.2
+---------------------------------------------------------------------
+Institution ID: NNC_4089980
+   orig_rec_035 num: =035  \\$a(OCoLC)56186287
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm56186287
+   orig_rec_035 num: =035  \\$a(NNC)4089980
+   orig_rec_035 num: =035  \\$a4089980
+Record 999:  NNC_4089980
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002326
+---------------------------------------------------------------------
+Institution ID: NNC_413780
+   orig_rec_035 num: =035  \\$a(OCoLC)13158553
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm13158553
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG86-B109137
+   orig_rec_035 num: =035  \\$9ABV2306CU
+   orig_rec_035 num: =035  \\$a(NNC)413780
+Record 999:  NNC_413780
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+050 call number: LAW 
+Source entities (book IDs): columbia_aco002309:v.1, columbia_aco002308:v.2, columbia_aco002307:v.3, columbia_aco002306:v.4
+---------------------------------------------------------------------
+Institution ID: NNC_4774005
+   orig_rec_035 num: =035  \\$a(OCoLC)30515537
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm30515537
+   orig_rec_035 num: =035  \\$a(NNC)4774005
+Record 999:  NNC_4774005
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   830 - Muʼassasat Āl al-Bayt li-Iḥyāʼ al-Turāth (Series) ; 7-8.
+040 $e field: [none]
+050 call number: LAW <ISLAM 7 Ibn.M 1990> 
+Source entities (book IDs): columbia_aco002324:v.1, columbia_aco002325:v.2
+---------------------------------------------------------------------
+Institution ID: NNC_4896447
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm22692583
+   orig_rec_035 num: =035  \\$a(NNC)4896447
+Record 999:  NNC_4896447
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+090 call number: DS36.85 .Z39 1902x
+Source entities (book IDs): columbia_aco002236:v.1, columbia_aco002235:v.3
+---------------------------------------------------------------------
+Institution ID: NNC_4970427
+   orig_rec_035 num: =035  \\$a(OCoLC)507479343
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn507479343
+   orig_rec_035 num: =035  \\$a(NNC)4970427
+Record 999:  NNC_4970427
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   250 - al-Ṭabʻah 6.
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002218:v.7
+---------------------------------------------------------------------
+Institution ID: NNC_500477
+   orig_rec_035 num: =035  \\$a(OCoLC)44625621
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm44625621
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG86-B79818
+   orig_rec_035 num: =035  \\$9ACE1717CU
+   orig_rec_035 num: =035  \\$a(NNC)500477
+Record 999:  NNC_500477
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+050 call number: G93 .I35 1960z
+Source entities (book IDs): columbia_aco002238
+---------------------------------------------------------------------
+Institution ID: NNC_513902
+   orig_rec_035 num: =035  \\$a(OCoLC)506173566
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn506173566
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG86-B94486
+   orig_rec_035 num: =035  \\$9ACF5487CU
+   orig_rec_035 num: =035  \\$a(NNC)513902
+Record 999:  NNC_513902
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+050 call number: G93 .M94 1962
+Source entities (book IDs): columbia_aco002237
+---------------------------------------------------------------------
+Institution ID: NNC_548212
+   orig_rec_035 num: =035  \\$a(OCoLC)506222150
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn506222150
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG87-B28355
+   orig_rec_035 num: =035  \\$9ACK0750CU
+   orig_rec_035 num: =035  \\$a(NNC)548212
+Record 999:  NNC_548212
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+090 call number: BP193.25.K842 M34 1981
+Source entities (book IDs): columbia_aco002271:v.1
+---------------------------------------------------------------------
+Institution ID: NNC_602945
+   orig_rec_035 num: =035  \\$a(OCoLC)58548048
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm58548048
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG87-B83004
+   orig_rec_035 num: =035  \\$a(NNC)602945
+Record 999:  NNC_602945
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002259
+---------------------------------------------------------------------
+Institution ID: NNC_618202
+   orig_rec_035 num: =035  \\$a(OCoLC)18284396
+   orig_rec_035 num: =035  \\$9ACS3757CU
+   orig_rec_035 num: =035  \\$a(NNC)618202
+Record 999:  NNC_618202
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+050 call number: BP193.25 .J35
+Source entities (book IDs): columbia_aco002241:v.1, columbia_aco002242:v.2
+---------------------------------------------------------------------
+Institution ID: NNC_638914
+   orig_rec_035 num: =035  \\$a(OCoLC)58646209
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm58646209
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B24601
+   orig_rec_035 num: =035  \\$a(NNC)638914
+   orig_rec_035 num: =035  \\$a638914
+Record 999:  NNC_638914
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - al-Bab al-hadi'ashar lil-'Allama al-Hilli
+040 $e field: [none]
+090 call number: Arab. d.8382
+Source entities (book IDs): columbia_aco002257
+---------------------------------------------------------------------
+Institution ID: NNC_640856
+   orig_rec_035 num: =035  \\$a(OCoLC)21393577
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm21393577
+   orig_rec_035 num: =035  \\$a(CStRLIN)PAUG90-B17620
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B26604
+   orig_rec_035 num: =035  \\$a(NNC)640856
+Record 999:  NNC_640856
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+090 call number: BP75.4 .Z36 1984
+Source entities (book IDs): columbia_aco002262:v.1, columbia_aco002263:v.2
+---------------------------------------------------------------------
+Institution ID: NNC_643000
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm25342694
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B28709
+   orig_rec_035 num: =035  \\$9ACU9817CU
+   orig_rec_035 num: =035  \\$a(NNC)643000
+Record 999:  NNC_643000
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+090 call number:  
+Source entities (book IDs): columbia_aco002269:v. 32
+---------------------------------------------------------------------
+Institution ID: NNC_646172
+   orig_rec_035 num: =035  \\$a(OCoLC)507007806
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn507007806
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B31788
+   orig_rec_035 num: =035  \\$9ACV3167CU
+   orig_rec_035 num: =035  \\$a(NNC)646172
+Record 999:  NNC_646172
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+020s: YES
+020a: 9770227641
+Source entities (book IDs): columbia_aco002191
+---------------------------------------------------------------------
+Institution ID: NNC_711366
+   orig_rec_035 num: =035  \\$a(OCoLC)507288347
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn507288347
+   orig_rec_035 num: =035  \\$9ADC2258CU
+   orig_rec_035 num: =035  \\$a(NNC)711366
+   orig_rec_035 num: =035  \\$a711366
+Record 999:  NNC_711366
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002300:v.1, columbia_aco002301:v.2
+---------------------------------------------------------------------
+Institution ID: NNC_799172
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm23521770
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG89-B84965
+   orig_rec_035 num: =035  \\$9AED8661CU
+Record 999:  NNC_799172
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+050 call number: BF1758.A7 T39
+Source entities (book IDs): columbia_aco002254
+---------------------------------------------------------------------
+Institution ID: NNC_8906852
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn234672507
+   orig_rec_035 num: =035  \\$a(OCoLC)234672507
+   orig_rec_035 num: =035  \\$a(NNC)8906852
+Record 999:  NNC_8906852
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+050 call number: HQ1793 .N37 1925
+Source entities (book IDs): columbia_aco002305
+---------------------------------------------------------------------
+Institution ID: NNC_988720
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm22783513
+   orig_rec_035 num: =035  \\$9AFK4460CU
+Record 999:  NNC_988720
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+090 call number: BJ1291 .J33
+Source entities (book IDs): columbia_aco002255
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNC_20170109_1/NNC_20170109_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing any type of error: 45
+
