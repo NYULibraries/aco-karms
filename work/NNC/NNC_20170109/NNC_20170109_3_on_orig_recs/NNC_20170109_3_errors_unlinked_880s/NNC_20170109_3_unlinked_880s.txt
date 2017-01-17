@@ -1,0 +1,29 @@
+Records containing UNLINKED 880 script fields - batch NNC_20170109
+--  At least one 880 field has sequence number -00 in subfield $6,
+    meaning it is not linked to the corresponding parallel field
+Report produced: 2017-01-17 14:03:38.292633
+---------------------------------------------------------------------
+FILE: NNC_20170109_1/NNC_20170109_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNC_2488918
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm06781171
+   orig_rec_035 num: =035  \\$a(OCoLC)6781171
+   orig_rec_035 num: =035  \\$a(NNC)2488918
+   orig_rec_035 num: =035  \\$a2488918
+Record 999:  NNC_2488918
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   700 - Khs-Burmester, O. H. E. (Oswald Hugh Ewart)
+   700 - Khater, Antoine.
+   830 - Maṭbūʻāt Jamʻīyat al-Āthār al-Qibṭīyah. Qism al-nuṣūṣ wa-al-wathāʼiq.
+ERROR-880: Unlinked 880s: YES
+   880 $6 240-00/(3/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+040 $e field: [none]
+050 call number: BX132 .S3
+Source entities (book IDs): columbia_aco002239:v.2:pt.1
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNC_20170109_1/NNC_20170109_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing unlinked 880 script fields: 1
+
