@@ -3,20 +3,9 @@ Records containing SERIES errors - batch NIC_20160420
 --  Either the 490 field has 1st indicator=0 (untraced)
 --  Or there are more 490 fields than there are 800/810/811/830 fields,
     so the corresponding 8XX heading needs added
-Report produced: 2016-06-23 11:33:14.387705
+Report produced: 2017-01-19 13:14:31.585365
 ---------------------------------------------------------------------
 FILE: NIC_20160420_3/NIC_20160420_3_updates.mrc
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm26141013 
-   oclc_rec_035_num: (OCoLC)26141013
-   oclc_rec_035_num: (OCoLC)26141013 
-Institution ID: NIC_3774594
-Record 999:  NIC_3774594 (OCoLC)ocm26141013 cornell_aco000658:v.2
-ERROR-880: 880 script fields: NO
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Service des antiquités de l'Egypte
-040 $e field: [none]
-Source entities (book IDs): cornell_aco000658:v.2
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm64677304 
    oclc_rec_035_num: (OCoLC)64677304
@@ -27,7 +16,8 @@ ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
 ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Azyāʼ al-ʻIrāqīyah = Costumes of Iraq ; 2
 040 $e field: [none]
 RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
 Source entities (book IDs): cornell_aco000659
 ---------------------------------------------------------------------
-TOTAL Number of Records containing series errors: 2
+TOTAL Number of Records containing series errors: 1
 

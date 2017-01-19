@@ -1,20 +1,21 @@
-Total records processed - batch NIC_20160420: 82 records
-Report produced: 2016-06-23 11:33:14.387705
-Input File (updates): 67
-Input File (final subset): 15
+Total records processed - batch NIC_20160420: 81 records
+Report produced: 2017-01-19 13:14:31.585365
+Input File (updates): 29
+Input File (final subset): 52
 
 Records where OCLC nums did not match: 0
-Total records containing any type of error for this round: 30 (36.6%)
-Total records passing to final version for this round: 52 (63.4%)
+Total records containing any type of error for this round: 28 (34.6%)
+Total records passing to final version for this round: 53 (65.4%)
 -----------------------
-Records containing 880 script fields: 66 (80.5%)
-Records with NO 880 script fields: 1 (1.2%)
-Records missing key 880 script fields: 28 (34.1%)
+Records containing 880 script fields: 29 (35.8%)
+Records with NO 880 script fields: 0 (0.0%)
+Records missing key 880 script fields: 27 (33.3%)
 Records containing unlinked 880 script fields: 0 (0.0%)
-Records containing series errors in 490/800/810/811/830 fields: 2 (2.4%)
-Records containing miscellaneous errors: 0 (0.0%)
+Records containing series errors in 490/800/810/811/830 fields: 1 (1.2%)
+Records containing miscellaneous errors: 5 (6.2%)
 Records containing bad encoding replacement character: 0
-Records containing RDA fields: 81 (98.8%)
+Records containing RDA fields: 81 (100.0%)
+Records with NO 050 or 090 call number fields: 5 (6.2%)
 ---------------------------------------------------------------------
 INDIVIDUAL RECORDS ANALYSIS:
 ---------------------------------------------------------------------
@@ -28,6 +29,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    700 - Margoliouth, D. S. (David Samuel), 1858-1940.
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS272 .I241 1914
 Source entities (book IDs): cornell_aco000592:v.1-2, cornell_aco000593:v.3-4
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm13079051 
@@ -41,16 +43,8 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Islamic coins during the Atabik period
 040 $e field: [none]
 RDA fields: YES
+050 call number: CJ3421 .H87 1966
 Source entities (book IDs): cornell_aco000689
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm41100241 
-   oclc_rec_035_num: (OCoLC)41100241
-Institution ID: NIC_1927463
-Record 999:  NIC_1927463 (OCoLC)ocm41100241 cornell_aco000655
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000655
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocn643629946
    oclc_rec_035_num: (OCoLC)643629946
@@ -61,25 +55,8 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    700 - Wüstenfeld, Ferdinand, 1808-1899.
 040 $e field: [none]
 RDA fields: YES
+050 call number: G101 .Y37 1970
 Source entities (book IDs): cornell_aco000623
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm21540347 
-   oclc_rec_035_num: (OCoLC)21540347
-Institution ID: NIC_5122370
-Record 999:  NIC_5122370 (OCoLC)ocm21540347 cornell_aco000598
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000598
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm35790811 
-   oclc_rec_035_num: (OCoLC)35790811
-Institution ID: NIC_3640351
-Record 999:  NIC_3640351 (OCoLC)ocm35790811 cornell_aco000696:v.2 cornell_aco000697:v.1 cornell_aco000698:v.3
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000696:v.2, cornell_aco000697:v.1, cornell_aco000698:v.3
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm12107982 
    oclc_rec_035_num: (OCoLC)12107982
@@ -90,6 +67,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Ansāb al-ašrāf
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS38.5 .B34 1978
 020s: YES
 020a: 3515028501
 020s: YES
@@ -112,15 +90,6 @@ RDA fields: YES
 020a: 9783879971312
 Source entities (book IDs): cornell_aco000669:juz 28:qism 3, cornell_aco000674:juz 28:qism 4, cornell_aco000675:juz 28:qism 7/1, cornell_aco000676:juz 28:qism 7/2, cornell_aco000677:juz 28:qism 2
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23494110 
-   oclc_rec_035_num: (OCoLC)23494110
-Institution ID: NIC_1682172
-Record 999:  NIC_1682172 (OCoLC)ocm23494110 cornell_aco000650
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000650
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm09332240 
    oclc_rec_035_num: (OCoLC)9332240
    oclc_rec_035_num: (OCoLC)874991367
@@ -131,26 +100,8 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Takmilah liwafayat an-naqlah
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS51.B3 M84
 Source entities (book IDs): cornell_aco000622:v.2, cornell_aco000626:v.1
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23499334 
-   oclc_rec_035_num: (OCoLC)23499334
-   oclc_rec_035_num: (OCoLC)215441004
-Institution ID: NIC_4741199
-Record 999:  NIC_4741199 (OCoLC)ocm23499334 cornell_aco000639
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000639
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn740283334
-   oclc_rec_035_num: (OCoLC)740283334
-Institution ID: NIC_7288627
-Record 999:  NIC_7288627 (OCoLC)ocn740283334 cornell_aco000629
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000629
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm23513311 
    oclc_rec_035_num: (OCoLC)23513311
@@ -162,54 +113,8 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Political life and governmental organizations in Irak during the fifth century of al-Hijree
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS76.4 .K465 (Orien Arab)
 Source entities (book IDs): cornell_aco000643
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm20517946 
-   oclc_rec_035_num: (OCoLC)20517946
-   oclc_rec_035_num: (OCoLC)29506681
-Institution ID: NIC_3638625
-Record 999:  NIC_3638625 (OCoLC)ocm20517946 cornell_aco000694
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000694
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm42961815 
-   oclc_rec_035_num: (OCoLC)42961815
-Institution ID: NIC_3748740
-Record 999:  NIC_3748740 (OCoLC)ocm42961815 cornell_aco000661:v.1 cornell_aco000662:v.2
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000661:v.1, cornell_aco000662:v.2
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23498006 
-   oclc_rec_035_num: (OCoLC)23498006
-   oclc_rec_035_num: (OCoLC)29241680
-Institution ID: NIC_3758355
-Record 999:  NIC_3758355 (OCoLC)ocm23498006 cornell_aco000637
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000637
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm00909881 
-   oclc_rec_035_num: (OCoLC)909881
-Institution ID: NIC_3639428
-Record 999:  NIC_3639428 (OCoLC)ocm00909881 cornell_aco000718
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000718
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm16464598 
-   oclc_rec_035_num: (OCoLC)16464598
-Institution ID: NIC_1931821
-Record 999:  NIC_1931821 (OCoLC)ocm16464598 cornell_aco000649
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000649
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm64025549 
    oclc_rec_035_num: (OCoLC)64025549
@@ -220,43 +125,8 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    260 - [Cairo] : [publisher not identified], [195-]
 040 $e field: [none]
 RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
 Source entities (book IDs): cornell_aco000651
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm64033802 
-   oclc_rec_035_num: (OCoLC)64033802
-Institution ID: NIC_4755497
-Record 999:  NIC_4755497 (OCoLC)ocm64033802 cornell_aco000536
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000536
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm64025444 
-   oclc_rec_035_num: (OCoLC)64025444
-Institution ID: NIC_1926481
-Record 999:  NIC_1926481 (OCoLC)ocm64025444 cornell_aco000663
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000663
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm22674399 
-   oclc_rec_035_num: (OCoLC)22674399
-Institution ID: NIC_1743381
-Record 999:  NIC_1743381 (OCoLC)ocm22674399 cornell_aco000516
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000516
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm64026165 
-   oclc_rec_035_num: (OCoLC)64026165
-Institution ID: NIC_1932518
-Record 999:  NIC_1932518 (OCoLC)ocm64026165 cornell_aco000510
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000510
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm22379950 
    oclc_rec_035_num: (OCoLC)22379950
@@ -269,27 +139,8 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Kuwait, past and present
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS247.K85 M33
 Source entities (book IDs): cornell_aco000670
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm11789148 
-   oclc_rec_035_num: (OCoLC)11789148
-Institution ID: NIC_3621135
-Record 999:  NIC_3621135 (OCoLC)ocm11789148 cornell_aco000733
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000733
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm26141013 
-   oclc_rec_035_num: (OCoLC)26141013
-   oclc_rec_035_num: (OCoLC)26141013 
-Institution ID: NIC_3774594
-Record 999:  NIC_3774594 (OCoLC)ocm26141013 cornell_aco000658:v.2
-ERROR-880: 880 script fields: NO
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Service des antiquités de l'Egypte
-040 $e field: [none]
-Source entities (book IDs): cornell_aco000658:v.2
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm23506049 
    oclc_rec_035_num: (OCoLC)23506049
@@ -301,6 +152,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Islamic dirham
 040 $e field: [none]
 RDA fields: YES
+050 call number: CJ3415 .N35
 Source entities (book IDs): cornell_aco000690:v.1
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm55537821 
@@ -312,6 +164,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Description de l'Afrique septentrionale
 040 $e field: [none]
 RDA fields: YES
+050 call number: DT194 .B3 1968
 Source entities (book IDs): cornell_aco000653
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm12016649 
@@ -324,6 +177,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    260 - Cairo : Government Press, 1939-
 040 $e field: [none]
 RDA fields: YES
+050 call number: Z106.2.C6 S5
 Source entities (book IDs): cornell_aco000571:v.2:fasc.1, cornell_aco000572:v.1
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm64677304 
@@ -335,28 +189,17 @@ ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
 ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Azyāʼ al-ʻIrāqīyah = Costumes of Iraq ; 2
 040 $e field: [none]
 RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
 Source entities (book IDs): cornell_aco000659
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm18330499 
-   oclc_rec_035_num: (OCoLC)18330499
-   oclc_rec_035_num: (OCoLC)22260836
-Institution ID: NIC_2021911
-Record 999:  NIC_2021911 (OCoLC)ocm18330499 cornell_aco000606:v.22 cornell_aco000607:v.21 cornell_aco000608:v.20 cornell_aco000609:v.5 cornell_aco000610:v.4 cornell_aco000611:v.3 cornell_aco000612:v.2 cornell_aco000613:v.1
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-020s: YES
-Source entities (book IDs): cornell_aco000606:v.22, cornell_aco000607:v.21, cornell_aco000608:v.20, cornell_aco000609:v.5, cornell_aco000610:v.4, cornell_aco000611:v.3, cornell_aco000612:v.2, cornell_aco000613:v.1
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm61553541 
    oclc_rec_035_num: (OCoLC)61553541
 Institution ID: NIC_1930350
 Record 999:  NIC_1930350 (OCoLC)ocm61553541 cornell_aco000731
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   700 - Ibn Khaldūn, 1332-1406. Muqaddimat Ibn Khaldūn li-Kitāb al-ʻibar wa-dīwān al-mubtadaʼ wa-al-khabar fī ayyām al-ʻArab wa-al-ʻAjam wa-al-Barbar, wa-man ʻāṣarahum min dhawī al-sulṭān al-akbar. 1900.
 040 $e field: [none]
 RDA fields: YES
+050 call number: D16.7 .I236 1900z
 Source entities (book IDs): cornell_aco000731
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm64017528 
@@ -368,16 +211,8 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    260 - [Place of publication not identified] : [publisher not identified], [19--]
 040 $e field: [none]
 RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
 Source entities (book IDs): cornell_aco000627:v.2, cornell_aco000636:v.1
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm22324785 
-   oclc_rec_035_num: (OCoLC)22324785
-Institution ID: NIC_1879941
-Record 999:  NIC_1879941 (OCoLC)ocm22324785 cornell_aco000664:juz1-2 cornell_aco000682:juz17-18 cornell_aco000683:juz19-20 cornell_aco000665:juz3-4 cornell_aco000684:juz7-8 cornell_aco000666:juz5-6 cornell_aco000685:juz9-10 cornell_aco000686:juz11-12 cornell_aco000687:juz13-14 cornell_aco000688:juz15-16
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000664:juz1-2, cornell_aco000682:juz17-18, cornell_aco000683:juz19-20, cornell_aco000665:juz3-4, cornell_aco000684:juz7-8, cornell_aco000666:juz5-6, cornell_aco000685:juz9-10, cornell_aco000686:juz11-12, cornell_aco000687:juz13-14, cornell_aco000688:juz15-16
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm19372870 
    oclc_rec_035_num: (OCoLC)19372870
@@ -390,6 +225,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Anthropological study of a marsh village in Iraq
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS70.7 .S29 1970
 Source entities (book IDs): cornell_aco000642
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm08272044 
@@ -401,16 +237,8 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Jahiliah: pre-Islamic age
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS215 .J82
 Source entities (book IDs): cornell_aco000667
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm63977416 
-   oclc_rec_035_num: (OCoLC)63977416
-Institution ID: NIC_1662569
-Record 999:  NIC_1662569 (OCoLC)ocm63977416 cornell_aco000599
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000599
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm08556953 
    oclc_rec_035_num: (OCoLC)8556953
@@ -421,16 +249,8 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    700 - Lafuente y Alcʻantara, Emilio, d. 1868, editor.
 040 $e field: [none]
 RDA fields: YES
+050 call number: DP98 .C62
 Source entities (book IDs): cornell_aco000635
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm64013233 
-   oclc_rec_035_num: (OCoLC)64013233
-Institution ID: NIC_1606259
-Record 999:  NIC_1606259 (OCoLC)ocm64013233 cornell_aco000671
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000671
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm63979355 
    oclc_rec_035_num: (OCoLC)63979355
@@ -441,6 +261,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    100 - M. A. H.
 040 $e field: [none]
 RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
 Source entities (book IDs): cornell_aco000654:juz2
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm13885046 
@@ -452,45 +273,8 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Kawakib-us-sayyarah fi tartib-iz-ziyarah
 040 $e field: [none]
 RDA fields: YES
+050 call number: DT142.A2 I23
 Source entities (book IDs): cornell_aco000652
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23515909 
-   oclc_rec_035_num: (OCoLC)23515909
-Institution ID: NIC_3763919
-Record 999:  NIC_3763919 (OCoLC)ocm23515909 cornell_aco000678:v.1-2 cornell_aco000679:v.3-4
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000678:v.1-2, cornell_aco000679:v.3-4
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn847711789
-   oclc_rec_035_num: (OCoLC)847711789
-   oclc_rec_035_num: (OCoLC)42875542
-Institution ID: NIC_1932120
-Record 999:  NIC_1932120 (OCoLC)ocn847711789 cornell_aco000668
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000668
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm17298980 
-   oclc_rec_035_num: (OCoLC)17298980
-   oclc_rec_035_num: (OCoLC)15178986
-Institution ID: NIC_5867969
-Record 999:  NIC_5867969 (OCoLC)ocm17298980 cornell_aco000596:juz'1 cornell_aco000597:juz'2
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000596:juz'1, cornell_aco000597:juz'2
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm30715799 
-   oclc_rec_035_num: (OCoLC)30715799
-Institution ID: NIC_3754392
-Record 999:  NIC_3754392 (OCoLC)ocm30715799 cornell_aco000624
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000624
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm15246246 
    oclc_rec_035_num: (OCoLC)15246246
@@ -501,16 +285,8 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Irak, the land and the people
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS70.6 .R27
 Source entities (book IDs): cornell_aco000628
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm31925281 
-   oclc_rec_035_num: (OCoLC)31925281
-Institution ID: NIC_1683145
-Record 999:  NIC_1683145 (OCoLC)ocm31925281 cornell_aco000640
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000640
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm23485088 
    oclc_rec_035_num: (OCoLC)23485088
@@ -522,62 +298,8 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Omdat al-taleb
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS238 .A6 I13 I35 1961
 Source entities (book IDs): cornell_aco000673
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm26344990 
-   oclc_rec_035_num: (OCoLC)26344990
-Institution ID: NIC_1926062
-Record 999:  NIC_1926062 (OCoLC)ocm26344990 cornell_aco000715:v.8 cornell_aco000721:v.5 cornell_aco000734:v.1 cornell_aco000749:al-juz5-6 cornell_aco000751:juz3-4 cornell_aco000716:v.9 cornell_aco000722:v.6 cornell_aco000723:v.7 cornell_aco000717:v.10 cornell_aco000724:v.2 cornell_aco000725:v.3 cornell_aco000726:v.4
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000715:v.8, cornell_aco000721:v.5, cornell_aco000734:v.1, cornell_aco000749:al-juz5-6, cornell_aco000751:juz3-4, cornell_aco000716:v.9, cornell_aco000722:v.6, cornell_aco000723:v.7, cornell_aco000717:v.10, cornell_aco000724:v.2, cornell_aco000725:v.3, cornell_aco000726:v.4
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm21376418 
-   oclc_rec_035_num: (OCoLC)21376418
-Institution ID: NIC_1679845
-Record 999:  NIC_1679845 (OCoLC)ocm21376418 cornell_aco000605
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000605
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm64025416 
-   oclc_rec_035_num: (OCoLC)64025416
-Institution ID: NIC_1926281
-Record 999:  NIC_1926281 (OCoLC)ocm64025416 cornell_aco000617:juz8
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000617:juz8
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm40971657 
-   oclc_rec_035_num: (OCoLC)40971657
-   oclc_rec_035_num: (OCoLC)18688988
-Institution ID: NIC_1923744
-Record 999:  NIC_1923744 (OCoLC)ocm40971657 cornell_aco000590:juz2 cornell_aco000591:juz1
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000590:juz2, cornell_aco000591:juz1
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn276982079
-   oclc_rec_035_num: (OCoLC)276982079
-Institution ID: NIC_6392327
-Record 999:  NIC_6392327 (OCoLC)ocn276982079 cornell_aco000618
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000618
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23515010 
-   oclc_rec_035_num: (OCoLC)23515010
-Institution ID: NIC_3763148
-Record 999:  NIC_3763148 (OCoLC)ocm23515010 cornell_aco000656
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000656
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm29780235 
    oclc_rec_035_num: (OCoLC)29780235
@@ -589,6 +311,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Common people in Baghdad during the 5th century A.H./11th A.D.
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS51.B3 F3
 Source entities (book IDs): cornell_aco000625
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm09007275 
@@ -602,6 +325,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Basrah during the Ottoman period
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS79.9.B2 B38
 Source entities (book IDs): cornell_aco000616:v.1
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm13656823 
@@ -614,6 +338,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Catalogue of the Arabic, Turkish, Persian and Syriac manuscripts in the Yaʻqub Sarkis collection of the Library of al-Hikma University
 040 $e field: [none]
 RDA fields: YES
+050 call number: Z6605.A6 B3
 Source entities (book IDs): cornell_aco000573
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm09267970 
@@ -627,16 +352,8 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Political and aspects of the cultural life in Samarra in the third century of Hejra
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS51.S2 Q3 1969
 Source entities (book IDs): cornell_aco000641
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47063745 
-   oclc_rec_035_num: (OCoLC)47063745
-Institution ID: NIC_1681974
-Record 999:  NIC_1681974 (OCoLC)ocm47063745 cornell_aco000691:juz 1 cornell_aco000732:juz 3 cornell_aco000692:juz 2
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000691:juz 1, cornell_aco000732:juz 3, cornell_aco000692:juz 2
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm13090940 
    oclc_rec_035_num: (OCoLC)13090940
@@ -648,6 +365,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Auns al-Jalil for Jeruslem and Khlil's history
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS124 .U41 1968
 Source entities (book IDs): cornell_aco000680:v.1, cornell_aco000681:v.2
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm09887777 
@@ -663,6 +381,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    700 - Gronke, Monika.
 040 $e field: [none]
 RDA fields: YES
+050 call number: DS38.4.A2 S23 1931
 020s: YES
 020a: 3515031790
 020s: YES
@@ -779,53 +498,8 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    700 - Lévi-Provençal, Evariste, 1894-1956.
 040 $e field: [none]
 RDA fields: YES
+050 call number: KBP4.3 .N83x 1948
 Source entities (book IDs): cornell_aco000634
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm10938765 
-   oclc_rec_035_num: (OCoLC)10938765
-   oclc_rec_035_num: (OCoLC)35286612
-Institution ID: NIC_4905821
-Record 999:  NIC_4905821 (OCoLC)ocm10938765 cornell_aco000601:v.4 cornell_aco000602:v.3 cornell_aco000603:v.2 cornell_aco000604:v.1
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000601:v.4, cornell_aco000602:v.3, cornell_aco000603:v.2, cornell_aco000604:v.1
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23519916 
-   oclc_rec_035_num: (OCoLC)23519916
-Institution ID: NIC_1649256
-Record 999:  NIC_1649256 (OCoLC)ocm23519916 cornell_aco000633:juz4
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000633:juz4
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm64680545 
-   oclc_rec_035_num: (OCoLC)64680545
-Institution ID: NIC_1910203
-Record 999:  NIC_1910203 (OCoLC)ocm64680545 cornell_aco000413:muj.1 cornell_aco000414:muj.2
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000413:muj.1, cornell_aco000414:muj.2
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm12748361 
-   oclc_rec_035_num: (OCoLC)12748361
-Institution ID: NIC_1683479
-Record 999:  NIC_1683479 (OCoLC)ocm12748361 cornell_aco000699
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000699
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn185042725
-   oclc_rec_035_num: (OCoLC)185042725
-Institution ID: NIC_6365261
-Record 999:  NIC_6365261 (OCoLC)ocn185042725 cornell_aco000672
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-Source entities (book IDs): cornell_aco000672
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm64021045 
    oclc_rec_035_num: (OCoLC)64021045
@@ -836,5 +510,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    260 - [Fez, Morocco?] : [publisher not identified], 1317 [i.e. 1899 or 1900]
 040 $e field: [none]
 RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
 Source entities (book IDs): cornell_aco000632
 ---------------------------------------------------------------------
