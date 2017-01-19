@@ -15,9 +15,70 @@ Records containing MISCELLANEOUS errors - batch NIC_20160420
     --  a 245 $h GMD field is present in the original record (signifying an alternate format other than print)
     --  the 245 $h GMD field was not added to a non-RDA e-version record during processing
     --  the $6 subfield did not sort to the first position in the field - issue with NYU records
-Report produced: 2016-06-23 11:33:14.387705
+    --  record is missing a call number - no 050 or 090 field
+Report produced: 2017-01-19 13:14:31.585365
 ---------------------------------------------------------------------
 FILE: NIC_20160420_3/NIC_20160420_3_updates.mrc
 ---------------------------------------------------------------------
-TOTAL Number of Records containing miscellaneous errors: 0
+OCLC ID: (OCoLC)ocm64025549 
+   oclc_rec_035_num: (OCoLC)64025549
+Institution ID: NIC_1927499
+Record 999:  NIC_1927499 (OCoLC)ocm64025549 cornell_aco000651
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - [Cairo] : [publisher not identified], [195-]
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): cornell_aco000651
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm64677304 
+   oclc_rec_035_num: (OCoLC)64677304
+Institution ID: NIC_1882541
+Record 999:  NIC_1882541 (OCoLC)ocm64677304 cornell_aco000659
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Azyāʼ al-ʻIrāqīyah = Costumes of Iraq ; 2
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): cornell_aco000659
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm64017528 
+   oclc_rec_035_num: (OCoLC)64017528
+Institution ID: NIC_1747792
+Record 999:  NIC_1747792 (OCoLC)ocm64017528 cornell_aco000627:v.2 cornell_aco000636:v.1
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - [Place of publication not identified] : [publisher not identified], [19--]
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): cornell_aco000627:v.2, cornell_aco000636:v.1
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm63979355 
+   oclc_rec_035_num: (OCoLC)63979355
+Institution ID: NIC_1680112
+Record 999:  NIC_1680112 (OCoLC)ocm63979355 cornell_aco000654:juz2
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - M. A. H.
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): cornell_aco000654:juz2
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm64021045 
+   oclc_rec_035_num: (OCoLC)64021045
+Institution ID: NIC_1786982
+Record 999:  NIC_1786982 (OCoLC)ocm64021045 cornell_aco000632
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - [Fez, Morocco?] : [publisher not identified], 1317 [i.e. 1899 or 1900]
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): cornell_aco000632
+---------------------------------------------------------------------
+TOTAL Number of Records containing miscellaneous errors: 5
 
