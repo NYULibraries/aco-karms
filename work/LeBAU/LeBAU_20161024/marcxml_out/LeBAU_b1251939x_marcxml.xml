@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">161219s1900    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">170120s1900    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ6161</subfield>
+		<subfield code="b">.S158 1900</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">808</subfield>
@@ -18,8 +22,8 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="6">880-01</subfield>
-		<subfield code="a">Sakkākī, Abū Ya‘qūb Yūsuf ibn Abī Bakr,</subfield>
-		<subfield code="d">1160-1229,</subfield>
+		<subfield code="a">Sakkākī, Yūsuf ibn Abī Bakr,</subfield>
+		<subfield code="d">1160-,</subfield>
 		<subfield code="e">author.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
@@ -28,16 +32,17 @@
 		<subfield code="c">lil-Imām sirāj al-millah wa-al-dīn Abī Ya‘qūb Yūsuf ibn Abī Bakr Muḥammad ibn ‘Alī al-Sakkākī, al-mutawaffá sanat 626 ; [Wa-bi-hāmishihi] kitāb Itmām al-Dirāyah li-qurrā’ al-nuqāyah al-jāmi‘ li-arba‘ata ‘ashar ‘ilman / lil-Imām Jalāl al-Dīn ‘Abd al-Raḥmān al-Suyūṭī, al-mutawaffá sanat 911.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="246">
-		<subfield code="a">مفتاح العلوم</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">miftāḥ al-‘ulūm </subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="264">
-		<subfield code="6">880-03</subfield>
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Miṣr :</subfield>
 		<subfield code="b">al-Maṭba‘ah al-Maymanīyah,</subfield>
 		<subfield code="c">1318 H., [1900? M.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="6">880-04</subfield>
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">online resource (246,2 pages)</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="336">
@@ -59,22 +64,19 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2016.</subfield>
+		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">اللغة العربية</subfield>
-		<subfield code="x">البلاغة.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Arabic language</subfield>
 		<subfield code="x">Rhetoric.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="2" tag="700">
-		<subfield code="6">880-05</subfield>
-		<subfield code="a">Suyūṭī, Jalāl al-Dīn ʻAbd al-Raḥmān ibn Abī Bakr,</subfield>
+	<datafield ind1="0" ind2="2" tag="700">
+		<subfield code="6">880-07</subfield>
+		<subfield code="a">Suyūṭī,</subfield>
 		<subfield code="d">1445-1505.</subfield>
-		<subfield code="t">tmām al-Dirāyah li-qurrā’ al-nuqāyah.</subfield>
+		<subfield code="t">Itmām al-dirāyah li-qurrāʼ al-Nuqāyah.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Jafet Memorial Library.</subfield>
@@ -84,7 +86,7 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Sakkākī, Abū Ya‘qūb Yūsuf ibn Abī Bakr, 1160-1229, author.</subfield>
+		<subfield code="a">Sakkākī, Yūsuf ibn Abī Bakr, 1160-, author.</subfield>
 		<subfield code="t">Kitāb miftāḥ al-‘ulūm</subfield>
 		<subfield code="w">(LeBAU)b1251939x</subfield>
 	</datafield>
@@ -92,33 +94,41 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/hmgqnqkt</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
-		<subfield code="a">السكاكي، أبو يعقوب يوسف بن أبي بكر،</subfield>
-		<subfield code="d">1160-1229،</subfield>
-		<subfield code="e">مؤلف. </subfield>
-		<subfield code="4">aut.</subfield>
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">سكاكي، يوسف بن ابي بكر،</subfield>
+		<subfield code="d">1160-,</subfield>
+		<subfield code="e">author.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">كتاب مفتاح العلوم /</subfield>
 		<subfield code="c">للإمام سراج الملة والدين أبي يعقوب يوسف بن أبي بكر محمد بن علي السكاكي، المتوفى سنة 626 ؛ [وبهامشه] كتاب إتمام الدراية لقراء النقاية الجامع لأربعة عشر علماً / للإمام جلال الدين عبد الرحمن السيوطي، المتوفى سنة 911.</subfield>
 	</datafield>
+	<datafield ind1="3" ind2="0" tag="880">
+		<subfield code="6">246-03/r</subfield>
+		<subfield code="a">مفتاح العلوم</subfield>
+	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-04/r</subfield>
 		<subfield code="a">مصر :</subfield>
 		<subfield code="b">المطبعة الميمنية،</subfield>
 		<subfield code="c">1318 هـ.، [1900؟ م.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-05/r</subfield>
 		<subfield code="a">246, 2 صفحة ؛</subfield>
 		<subfield code="c">27 سم</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-05/(3/r</subfield>
-		<subfield code="a">السيوطي، جلال الدين عبد الرحمن بن ابي بكر،</subfield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06/r</subfield>
+		<subfield code="a">اللغة العربية</subfield>
+		<subfield code="x">البلاغة.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="2" tag="880">
+		<subfield code="6">700-07/r</subfield>
+		<subfield code="a">سيوطي،</subfield>
 		<subfield code="d">1445-1505.</subfield>
-		<subfield code="t">إتمام الدراية لقراء النقاية.</subfield>
+		<subfield code="t">اتمام الدراية لقراء النقاية.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -132,5 +142,6 @@
 		<subfield code="i">LeBAU_b1251939x</subfield>
 		<subfield code="s">aub_aco000290</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco000290</subfield>
 	</datafield>
 </record>

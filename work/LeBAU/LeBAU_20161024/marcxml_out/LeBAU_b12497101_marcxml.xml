@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">161219s1938    ua      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">170120s1938    ua      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">HC533</subfield>
+		<subfield code="b">A4 1938 </subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">614</subfield>
@@ -56,30 +60,21 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2016.</subfield>
+		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">التربية</subfield>
-		<subfield code="z">مصر.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الصحة العامة</subfield>
-		<subfield code="z">مصر.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Education</subfield>
 		<subfield code="z">Egypt.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Public health</subfield>
-		<subfield code="z">Egypt.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">مصر</subfield>
-		<subfield code="x">الاحوال الاقتصادية.</subfield>
+		<subfield code="z">Egypt. </subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Egypt</subfield>
 		<subfield code="x">Economic conditions.</subfield>
 	</datafield>
@@ -99,27 +94,41 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/jm63xxwb</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01/r</subfield>
 		<subfield code="a">عفيفي، حافظ،</subfield>
-		<subfield code="e">مؤلف. </subfield>
-		<subfield code="4">aut.</subfield>
+		<subfield code="e">author.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">على هامش السياسة :</subfield>
 		<subfield code="b">بعض مسائلنا القومية /</subfield>
 		<subfield code="c">دكتور حافظ غفيفي باشا.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03/r</subfield>
 		<subfield code="a">القاهرة :</subfield>
 		<subfield code="b">مطبعة دار الكتب المصرية،</subfield>
 		<subfield code="c">1938.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04/r</subfield>
 		<subfield code="a">225 صفحة ؛</subfield>
 		<subfield code="c">24 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05/r</subfield>
+		<subfield code="a">التربية</subfield>
+		<subfield code="z">مصر.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06/r</subfield>
+		<subfield code="a">الصحة العامة</subfield>
+		<subfield code="z">مصر.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-07/r</subfield>
+		<subfield code="a">مصر</subfield>
+		<subfield code="x">الاحوال الاقتصادية.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -133,5 +142,6 @@
 		<subfield code="i">LeBAU_b12497101</subfield>
 		<subfield code="s">aub_aco000288</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco000288</subfield>
 	</datafield>
 </record>

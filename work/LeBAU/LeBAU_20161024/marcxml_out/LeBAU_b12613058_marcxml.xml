@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">161219s1938    iq af   o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">170120s1938    iq af   o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS69.B3</subfield>
+		<subfield code="b">M33 1938</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">913.358</subfield>
@@ -61,20 +65,15 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2016.</subfield>
+		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">خان مرجان (بغداد)</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">العراق</subfield>
-		<subfield code="x">الآثار.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Khān Marjān (Baghdad)</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Iraq</subfield>
 		<subfield code="x">Antiquities.</subfield>
 	</datafield>
@@ -94,32 +93,40 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/6hdr7z0h</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">110-01/(3/r</subfield>
+		<subfield code="6">110-01/r</subfield>
 		<subfield code="a">العراق.</subfield>
 		<subfield code="b">مديرية الآثار القديمة العامة،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
-		<subfield code="4">isb.</subfield>
+		<subfield code="e">issuing body.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">دليل متحف الآثار العربية في خان مرجان ببغداد /</subfield>
 		<subfield code="c">مديرية الآثاء القديمة.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="880">
-		<subfield code="6">246-03/(3/r</subfield>
+		<subfield code="6">246-03/r</subfield>
 		<subfield code="a">خان مرجان</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-04/(3/r</subfield>
+		<subfield code="6">264-04/r</subfield>
 		<subfield code="a">بغداد :</subfield>
 		<subfield code="b">مطبعة الحكومة،</subfield>
 		<subfield code="c">1938.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-05/(3/r</subfield>
+		<subfield code="6">300-05/r</subfield>
 		<subfield code="a">47 صفحة، 38 ورقة لوحات :</subfield>
 		<subfield code="b">مصورات ؛</subfield>
 		<subfield code="c">21 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-06/r</subfield>
+		<subfield code="a">خان مرجان (بغداد)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-07/r</subfield>
+		<subfield code="a">العراق</subfield>
+		<subfield code="x">الآثار.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -133,5 +140,6 @@
 		<subfield code="i">LeBAU_b12613058</subfield>
 		<subfield code="s">aub_aco000313</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco000313</subfield>
 	</datafield>
 </record>

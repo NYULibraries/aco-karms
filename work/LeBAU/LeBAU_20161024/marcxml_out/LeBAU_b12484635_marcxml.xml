@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">161219m19021903le      o     000 0 ara d</controlfield>
+	<controlfield tag="008">170120m19021903le      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">QA135</subfield>
+		<subfield code="b">.B34 1902</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">511</subfield>
@@ -55,28 +59,15 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="0" tag="505">
-		<subfield code="t">كتاب الإسهاب في مراقي الحساب:</subfield>
-		<subfield code="g">المرقاة الثانية.</subfield>
-		<subfield code="t">المشهور في حساب الكسور لدرس السنة الثانية --</subfield>
-		<subfield code="g">المرقاة الثالثة.</subfield>
-		<subfield code="t">المرتب في العدد المركب لدرس السنة الثالثة.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2016.</subfield>
+		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="590">
-		<subfield code="a">في المكتبة: الأجزاء 1-3.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الحساب</subfield>
-		<subfield code="x">الدرس والتدريس.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Arithmetic</subfield>
 		<subfield code="x">Study and teaching.</subfield>
 	</datafield>
@@ -96,30 +87,46 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/vx0k6jxx</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01/r</subfield>
 		<subfield code="a">بهنا، إلياس جرجس،</subfield>
-		<subfield code="e">مؤلف. </subfield>
-		<subfield code="4">aut.</subfield>
+		<subfield code="e">author.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">كتاب الإسهاب في مراقي الحساب /</subfield>
 		<subfield code="c">تأليف إلياس جرجس بهنا.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="880">
-		<subfield code="6">246-03/(3/r</subfield>
+		<subfield code="6">246-03/r</subfield>
 		<subfield code="a">الإسهاب في مراقي الحساب</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-04/(3/r</subfield>
+		<subfield code="6">264-04/r</subfield>
 		<subfield code="a">بيروت :</subfield>
 		<subfield code="b">المطبعة الأدبية،</subfield>
 		<subfield code="c">1902-1903.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-05/(3/r</subfield>
+		<subfield code="6">300-05/r</subfield>
 		<subfield code="a">4 أجزاء ؛</subfield>
 		<subfield code="c">21 سم</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">505-00/r</subfield>
+		<subfield code="t">كتاب الإسهاب في مراقي الحساب:</subfield>
+		<subfield code="g">المرقاة الثانية.</subfield>
+		<subfield code="t">المشهور في حساب الكسور لدرس السنة الثانية --</subfield>
+		<subfield code="g">المرقاة الثالثة.</subfield>
+		<subfield code="t">المرتب في العدد المركب لدرس السنة الثالثة.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">590-00/r</subfield>
+		<subfield code="a">في المكتبة: الأجزاء 1-3.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06/r</subfield>
+		<subfield code="a">الحساب</subfield>
+		<subfield code="x">الدرس والتدريس.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -135,5 +142,8 @@
 		<subfield code="s">aub_aco000399:v.2</subfield>
 		<subfield code="s">aub_aco000400:v.3</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco000398:v.1</subfield>
+		<subfield code="s">aub_aco000399:v.2</subfield>
+		<subfield code="s">aub_aco000400:v.3</subfield>
 	</datafield>
 </record>

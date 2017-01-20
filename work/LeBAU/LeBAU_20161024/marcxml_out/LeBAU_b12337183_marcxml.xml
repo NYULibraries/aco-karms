@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">161219s1903    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">170120s1903    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP154</subfield>
+		<subfield code="b">.A94 1903</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">297.08</subfield>
@@ -63,22 +67,16 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2016.</subfield>
+		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الحديث</subfield>
-		<subfield code="x">رواية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الحديث</subfield>
-		<subfield code="x">تلفيق.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Hadith</subfield>
 		<subfield code="x">Authorities.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Hadith</subfield>
 		<subfield code="x">Forgeries.</subfield>
 	</datafield>
@@ -98,34 +96,43 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/dr7sr0n6</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
-		<subfield code="a">الأزهري، محمد البشير ظافر،</subfield>
-		<subfield code="e">مؤلف. </subfield>
-		<subfield code="4">aut.</subfield>
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">أزهري، محمد البشير ظافر،</subfield>
+		<subfield code="e">author.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">كتاب تحذير المسلمين من الأحاديث الموضوعة على سيد المرسلين /</subfield>
 		<subfield code="c">&quot;تأليف&quot; محمد البشير ظافر الأزهري.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="880">
-		<subfield code="6">246-03/(3/r</subfield>
+		<subfield code="6">246-03/r</subfield>
 		<subfield code="a">تحذير المسلمين من الأحاديث الموضوعة على سيد المرسلين</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-04/(3/r</subfield>
+		<subfield code="6">250-04/r</subfield>
 		<subfield code="a">الطبعة الأولى.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-05/(3/r</subfield>
+		<subfield code="6">264-05/r</subfield>
 		<subfield code="a">مصر :</subfield>
 		<subfield code="b">مطبعة جريدة الراوي،</subfield>
 		<subfield code="c">1321 هـ. = 1903 م.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-06/(3/r</subfield>
+		<subfield code="6">300-06/r</subfield>
 		<subfield code="a">94 صفحة ؛</subfield>
 		<subfield code="c">23 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07/r</subfield>
+		<subfield code="a">الحديث</subfield>
+		<subfield code="x">رواية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-08/r</subfield>
+		<subfield code="a">الحديث</subfield>
+		<subfield code="x">تلفيق.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -139,5 +146,6 @@
 		<subfield code="i">LeBAU_b12337183</subfield>
 		<subfield code="s">aub_aco000356</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco000356</subfield>
 	</datafield>
 </record>
