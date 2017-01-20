@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">161219s1948    ua cfh  o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">170120s1948    ua cfh  o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS39.2.A2</subfield>
+		<subfield code="b">H86 1948</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">892.78</subfield>
@@ -19,7 +23,6 @@
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ḥūmānī, Muḥammad ʻAlī,</subfield>
-		<subfield code="d">1898-1964,</subfield>
 		<subfield code="e">author.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
@@ -51,23 +54,17 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">في رأس العنوان: العروبة.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2016.</subfield>
+		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">البلدان العربية</subfield>
-		<subfield code="v">تراجم.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Arab countries</subfield>
 		<subfield code="v">Biography.</subfield>
 	</datafield>
@@ -79,7 +76,7 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Ḥūmānī, Muḥammad ʻAlī, 1898-1964, author.</subfield>
+		<subfield code="a">Ḥūmānī, Muḥammad ʻAlī, author.</subfield>
 		<subfield code="t">Ma‘a al-nās</subfield>
 		<subfield code="w">(LeBAU)b12597466</subfield>
 	</datafield>
@@ -87,28 +84,35 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/t4b8gzz6</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
-		<subfield code="a">الحوماني، محمد علي،</subfield>
-		<subfield code="d">1898-1964،</subfield>
-		<subfield code="e">مؤلف. </subfield>
-		<subfield code="4">aut.</subfield>
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">حوماني، محمد علي،</subfield>
+		<subfield code="e">author.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">مع الناس /</subfield>
 		<subfield code="c">محمد على الحوماني.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03/r</subfield>
 		<subfield code="a">القاهرة :</subfield>
 		<subfield code="b">مطبعة كوستاتسوماس وشركاه،</subfield>
 		<subfield code="c">1948.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04/r</subfield>
 		<subfield code="a">346 صفحة، 44 ورقة لوحات غير مرقمة :</subfield>
 		<subfield code="b">صور شخصانية، صورة طبق الأصل ؛</subfield>
 		<subfield code="c">23 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00/r</subfield>
+		<subfield code="a">في رأس العنوان: العروبة.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05/r</subfield>
+		<subfield code="a">البلدان العربية</subfield>
+		<subfield code="v">تراجم.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -122,5 +126,6 @@
 		<subfield code="i">LeBAU_b12597466</subfield>
 		<subfield code="s">aub_aco000310</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco000310</subfield>
 	</datafield>
 </record>

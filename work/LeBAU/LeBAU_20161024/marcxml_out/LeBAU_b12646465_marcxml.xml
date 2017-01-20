@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">161219s1938    ua abc  o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">170120s1938    ua abc  o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS80.2</subfield>
+		<subfield code="b">.S25 1938</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">914</subfield>
@@ -23,9 +27,8 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">880-02</subfield>
-		<subfield code="a">Riḥlāt al-Ṣaḥāfī al-ʻAjūz :</subfield>
-		<subfield code="b">shahrān fī Lubnān wa-bilād al-Yūnān wa-Īṭāliyā wa-Ṭarābulus al-Gharb : ṣayf sanat 1938.</subfield>
-		<subfield code="c">توفيق حبيب.</subfield>
+		<subfield code="a">Riḥlāt al-Ṣaḥāfī al-ʻAjūz :</subfield>
+		<subfield code="b">shahrān fī Lubnān wa-bilād al-Yūnān wa-Īṭāliyā wa-Ṭarābulus al-Gharb : ṣayf sanat 1938.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="264">
 		<subfield code="6">880-03</subfield>
@@ -51,44 +54,38 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Non-Latin script record</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Non-Latin script record</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2016.</subfield>
+		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">لبنان</subfield>
-		<subfield code="x">وصف ورحلات.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">اليونان</subfield>
-		<subfield code="x">وصف ورحلات.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">إيطاليا</subfield>
-		<subfield code="x">وصف ورحلات.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">طرابلس الغرب (ليبيا)</subfield>
-		<subfield code="x">وصف ورحلات.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Lebanon</subfield>
 		<subfield code="x">Description and travel.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Greece</subfield>
 		<subfield code="x">Description and travel.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Italy</subfield>
 		<subfield code="x">Description and travel.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Tripoli (Libya)</subfield>
 		<subfield code="x">Description and travel.</subfield>
 	</datafield>
@@ -101,34 +98,53 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Ṣaḥāfī al-ʻAjūz, author.</subfield>
-		<subfield code="t">Riḥlāt al-Ṣaḥāfī al-ʻAjūz</subfield>
+		<subfield code="t">Riḥlāt al-Ṣaḥāfī al-ʻAjūz</subfield>
 		<subfield code="w">(LeBAU)b12646465</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/fqz616v2</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
-		<subfield code="a">الصحافي العجوز،</subfield>
-		<subfield code="e">مؤلف. </subfield>
-		<subfield code="4">aut.</subfield>
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">صحافي العجوز،</subfield>
+		<subfield code="e">author.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">رحلات الصحافي العجوز :</subfield>
-		<subfield code="b">شهران في لبنان وبلاد اليونان وإيطاليا وطرابلس الغرب صيف سنة 1938 /</subfield>
+		<subfield code="b">شهران في لبنان وبلاد اليونان وإيطاليا وطرابلس الغرب : صيف سنة 1938.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03/r</subfield>
 		<subfield code="a">[القاهرة] :</subfield>
 		<subfield code="b">مطبعة الأمانة،</subfield>
 		<subfield code="c">1938.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04/r</subfield>
 		<subfield code="a">ح، 268 صفحة :</subfield>
 		<subfield code="b">مصورات، خرائط، صور شخصانية ؛</subfield>
 		<subfield code="c">20 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-05/r</subfield>
+		<subfield code="a">لبنان</subfield>
+		<subfield code="x">وصف ورحلات.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-06/r</subfield>
+		<subfield code="a">اليونان</subfield>
+		<subfield code="x">وصف ورحلات.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-07/r</subfield>
+		<subfield code="a">إيطاليا</subfield>
+		<subfield code="x">وصف ورحلات.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-08/r</subfield>
+		<subfield code="a">طرابلس الغرب (ليبيا)</subfield>
+		<subfield code="x">وصف ورحلات.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -142,5 +158,6 @@
 		<subfield code="i">LeBAU_b12646465</subfield>
 		<subfield code="s">aub_aco000321</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco000321</subfield>
 	</datafield>
 </record>
