@@ -1,0 +1,408 @@
+Records containing MISCELLANEOUS errors - batch NjP_20170110
+--  Each of these records contain at least one of the miscellaneous errors
+    recorded mostly for notice of validation errors or to identify programming issues
+--  List of possible miscellaneous errors:
+    --  the OCLC # in the OCLC batch record did not match on any OCLC #s in the original records
+    --  record contains multiple 999 fields
+    --  zero or multiple $6 subfields in 880s
+    --  record is missing an 040 field
+    --  record contains invalid replacement character (black diamond with question mark) - found in NYU records
+    --  code in the 003 does not match any of the partner institution codes
+    --  the 003/001 fields did not change from the OCLC # to the BSN during processing
+    --  the 003/001 fields in the handles.csv file did not match on any record in the batch
+    --  an 006 or 007 field is present in the original record (signifying an alternate format other than print)
+    --  record is missing a 245 title field, or has multiple 245 fields
+    --  a 245 $h GMD field is present in the original record (signifying an alternate format other than print)
+    --  the 245 $h GMD field was not added to a non-RDA e-version record during processing
+    --  the $6 subfield did not sort to the first position in the field - issue with NYU records
+    --  record is missing a call number - no 050 or 090 field
+Report produced: 2017-01-23 14:19:05.283323
+---------------------------------------------------------------------
+FILE: NjP_20170110_1/NjP_20170110_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NjP_1069405
+   orig_rec_035 num: =035  \\$a(OCoLC)35114229
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn176528079
+   orig_rec_035 num: =035  \\$a(OCoLC)176528079
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG96-B38977
+   orig_rec_035 num: =035  \\$9CCE8626TS
+   orig_rec_035 num: =035  \\$a(NjP)1069405
+Record 999:  1069405
+880 script fields: YES
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000831, princeton_aco000832
+---------------------------------------------------------------------
+Institution ID: NjP_1303681
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn177040069
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm42840923
+   orig_rec_035 num: =035  \\$a(OCoLC)177040069
+   orig_rec_035 num: =035  \\$9CDU6525TS
+   orig_rec_035 num: =035  \\$a(NjP)1303681
+Record 999:  1303681
+880 script fields: YES
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000839
+---------------------------------------------------------------------
+Institution ID: NjP_1523212
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm42915522
+   orig_rec_035 num: =035  \\$9CES9701TS
+Record 999:  NjP_1523212
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000816
+---------------------------------------------------------------------
+Institution ID: NjP_1540257
+   orig_rec_035 num: =035  \\$a(OCoLC)41005971
+   orig_rec_035 num: =035  \\$a(CStRLIN)RLINGEAC00759216-B
+   orig_rec_035 num: =035  \\$9CEU7091TS
+Record 999:  NjP_1540257
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000850
+---------------------------------------------------------------------
+Institution ID: NjP_169800
+   orig_rec_035 num: =035  \\$a(OCoLC)80266808
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn175866548
+   orig_rec_035 num: =035  \\$a(OCoLC)175866548
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG83-B56622
+   orig_rec_035 num: =035  \\$9AAY4668TS
+   orig_rec_035 num: =035  \\$a(NjP)169800
+Record 999:  169800
+880 script fields: YES
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000868:al-juz 1, princeton_aco000867:al-juz 2
+---------------------------------------------------------------------
+Institution ID: NjP_1733674
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm42885920
+   orig_rec_035 num: =035  \\$9CFR8963TS
+Record 999:  NjP_1733674
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000632, princeton_aco000550
+---------------------------------------------------------------------
+Institution ID: NjP_255329
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn175929671
+   orig_rec_035 num: =035  \\$a(OCoLC)79203787
+   orig_rec_035 num: =035  \\$a(OCoLC)175929671
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG84-B9529
+   orig_rec_035 num: =035  \\$9ABH0444TS
+   orig_rec_035 num: =035  \\$a(NjP)255329
+Record 999:  255329
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   130 - Koran.
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000848
+---------------------------------------------------------------------
+Institution ID: NjP_2750765
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm15242855
+   orig_rec_035 num: =035  \\$9CNE2916TS
+Record 999:  NjP_2750765
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000863
+---------------------------------------------------------------------
+Institution ID: NjP_2753517
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm17990469
+   orig_rec_035 num: =035  \\$9CNE6422TS
+Record 999:  NjP_2753517
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000843
+---------------------------------------------------------------------
+Institution ID: NjP_2766734
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm28237422
+   orig_rec_035 num: =035  \\$9CNG2653TS
+Record 999:  NjP_2766734
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000860:vol.2
+---------------------------------------------------------------------
+Institution ID: NjP_2785558
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn178661185
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm42811669
+   orig_rec_035 num: =035  \\$a(OCoLC)178661185
+   orig_rec_035 num: =035  \\$9CNJ4298TS
+   orig_rec_035 num: =035  \\$a(NjP)2785558
+Record 999:  2785558
+880 script fields: YES
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000847
+---------------------------------------------------------------------
+Institution ID: NjP_2788540
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm42882440
+   orig_rec_035 num: =035  \\$9CNJ7672TS
+Record 999:  NjP_2788540
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000845
+---------------------------------------------------------------------
+Institution ID: NjP_2790098
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn178711818
+   orig_rec_035 num: =035  \\$a(OCoLC)178711818
+   orig_rec_035 num: =035  \\$9CNJ9278TS
+   orig_rec_035 num: =035  \\$a(NjP)2790098
+Record 999:  2790098
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - [Morocco : s.n.], 1305 [1887 or 1888]
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000864
+---------------------------------------------------------------------
+Institution ID: NjP_2826166
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn178012224
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm21822630
+   orig_rec_035 num: =035  \\$a(OCoLC)178012224
+   orig_rec_035 num: =035  \\$9CNQ6522TS
+   orig_rec_035 num: =035  \\$a(NjP)2826166
+Record 999:  2826166
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   130 - Koran. Persian & Arabic. Selections.
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000851
+---------------------------------------------------------------------
+Institution ID: NjP_2834159
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm42892961
+   orig_rec_035 num: =035  \\$9CNR6481TS
+Record 999:  NjP_2834159
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000802:v.1
+---------------------------------------------------------------------
+Institution ID: NjP_2834553
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm42906132
+   orig_rec_035 num: =035  \\$9CNR6965TS
+Record 999:  NjP_2834553
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000838
+---------------------------------------------------------------------
+Institution ID: NjP_2834571
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn178122370
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm42906203
+   orig_rec_035 num: =035  \\$a(OCoLC)178122370
+   orig_rec_035 num: =035  \\$9CNR6983TS
+   orig_rec_035 num: =035  \\$a(NjP)2834571
+Record 999:  2834571
+880 script fields: YES
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000869
+---------------------------------------------------------------------
+Institution ID: NjP_2834969
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn178128452
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm42915180
+   orig_rec_035 num: =035  \\$a(OCoLC)178128452
+   orig_rec_035 num: =035  \\$9CNR7398TS
+   orig_rec_035 num: =035  \\$a(NjP)2834969
+Record 999:  2834969
+880 script fields: YES
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000830:v.1-2
+---------------------------------------------------------------------
+Institution ID: NjP_396287
+   orig_rec_035 num: =035  \\$a(OCoLC)19244822
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn175613011
+   orig_rec_035 num: =035  \\$a(OCoLC)175613011
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG87-B4371
+   orig_rec_035 num: =035  \\$9ABX1777TS
+   orig_rec_035 num: =035  \\$a(NjP)396287
+Record 999:  396287
+880 script fields: YES
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000810:juz 1, princeton_aco000811:juz 2, princeton_aco000812, princeton_aco000813, princeton_aco000814
+---------------------------------------------------------------------
+Institution ID: NjP_399738
+   orig_rec_035 num: =035  \\$a(OCoLC)26580099
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn175640598
+   orig_rec_035 num: =035  \\$a(OCoLC)175640598
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG87-B46865
+   orig_rec_035 num: =035  \\$9ABX5234TS
+   orig_rec_035 num: =035  \\$a(NjP)399738
+Record 999:  399738
+880 script fields: YES
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000844
+---------------------------------------------------------------------
+Institution ID: NjP_406457
+   orig_rec_035 num: =035  \\$a(OCoLC)20968459
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG87-B53040
+   orig_rec_035 num: =035  \\$9ABY1970TS
+Record 999:  NjP_406457
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000805, princeton_aco000806, princeton_aco000807, princeton_aco000808, princeton_aco000809
+---------------------------------------------------------------------
+Institution ID: NjP_418022
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn175795320
+   orig_rec_035 num: =035  \\$a(OCoLC)27033239
+   orig_rec_035 num: =035  \\$a(OCoLC)175795320
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG87-B63778
+   orig_rec_035 num: =035  \\$9ABZ3565TS
+   orig_rec_035 num: =035  \\$a(NjP)418022
+Record 999:  418022
+880 script fields: YES
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000866
+---------------------------------------------------------------------
+Institution ID: NjP_435862
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn175931051
+   orig_rec_035 num: =035  \\$a(OCoLC)25296578
+   orig_rec_035 num: =035  \\$a(OCoLC)175931051
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG88-B17229
+   orig_rec_035 num: =035  \\$9ACB1468TS
+   orig_rec_035 num: =035  \\$a(NjP)435862
+Record 999:  435862
+880 script fields: YES
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000840
+---------------------------------------------------------------------
+Institution ID: NjP_441874
+   orig_rec_035 num: =035  \\$a(OCoLC)25817539
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG88-B22871
+   orig_rec_035 num: =035  \\$9ACB7490TS
+Record 999:  NjP_441874
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000803
+---------------------------------------------------------------------
+Institution ID: NjP_442438
+   orig_rec_035 num: =035  \\$a(OCoLC)25829427
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG88-B23391
+   orig_rec_035 num: =035  \\$9ACB8056TS
+Record 999:  NjP_442438
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000833
+---------------------------------------------------------------------
+Institution ID: NjP_500993
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn175739681
+   orig_rec_035 num: =035  \\$a(OCoLC)26957002
+   orig_rec_035 num: =035  \\$a(OCoLC)175739681
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG89-B14248
+   orig_rec_035 num: =035  \\$9ACH6769TS
+   orig_rec_035 num: =035  \\$a(NjP)500993
+Record 999:  500993
+880 script fields: YES
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000841:juz 1, princeton_aco000842:juz 2
+---------------------------------------------------------------------
+Institution ID: NjP_501408
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn175742858
+   orig_rec_035 num: =035  \\$a(OCoLC)22896678
+   orig_rec_035 num: =035  \\$a(OCoLC)175742858
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG89-B14635
+   orig_rec_035 num: =035  \\$9ACH7185TS
+   orig_rec_035 num: =035  \\$a(NjP)501408
+Record 999:  501408
+880 script fields: YES
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000849
+---------------------------------------------------------------------
+Institution ID: NjP_537581
+   orig_rec_035 num: =035  \\$a(OCoLC)22324684
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG89-B48486
+   orig_rec_035 num: =035  \\$9ACM3449TS
+Record 999:  NjP_537581
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000871
+---------------------------------------------------------------------
+Institution ID: NjP_614537
+   orig_rec_035 num: =035  \\$a(OCoLC)28422416
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG90-B53974
+   orig_rec_035 num: =035  \\$9ACV0652TS
+Record 999:  NjP_614537
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000801
+---------------------------------------------------------------------
+Institution ID: NjP_774474
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn176689059
+   orig_rec_035 num: =035  \\$a(OCoLC)27152030
+   orig_rec_035 num: =035  \\$a774474
+   orig_rec_035 num: =035  \\$a(OCoLC)176689059
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG92-B67774
+   orig_rec_035 num: =035  \\$9ADQ8813TS
+   orig_rec_035 num: =035  \\$z774474
+   orig_rec_035 num: =035  \\$a(NjP)774474
+Record 999:  774474
+880 script fields: YES
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000872
+---------------------------------------------------------------------
+Institution ID: NjP_863702
+   orig_rec_035 num: =035  \\$a(OCoLC)26206522
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG94-B6638
+   orig_rec_035 num: =035  \\$9CAY7404TS
+Record 999:  NjP_863702
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000815
+---------------------------------------------------------------------
+Institution ID: NjP_950097
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn176372331
+   orig_rec_035 num: =035  \\$a(OCoLC)176372331
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG95-B9344
+   orig_rec_035 num: =035  \\$9CBQ4220TS
+   orig_rec_035 num: =035  \\$a(NjP)950097
+Record 999:  950097
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Şehzade tevsiri.
+   830 - Princeton University Arabic collection ; cn. 9403045.01.
+   830 - Princeton University Arabic collection. Phase II.
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+ERROR-MISC: 007  hd bfb018baaa
+ERROR-MISC: 007  hd bfb018baba
+ERROR-MISC: 007  hd afb018baca
+ERROR-MISC: Original record for the print contains a 245$h GMD: [microform]
+Source entities (book IDs): princeton_aco000852:v. 1, princeton_aco000853:v. 2, princeton_aco000854:v. 3
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NjP_20170110_1/NjP_20170110_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NjP_2958592
+   orig_rec_035 num: =035  \\$a(CStRLIN)MAHGBNR71124-B
+   orig_rec_035 num: =035  \\$a(MH)MHBNR71124HU
+   orig_rec_035 num: =035  \\$9CPK1053TS
+Record 999:  NjP_2958592
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): princeton_aco000859:juz 1, princeton_aco000858:juz 2, princeton_aco000857:juz 3, princeton_aco000856:juz 4, princeton_aco000855:juz 5
+---------------------------------------------------------------------
+TOTAL Number of Records containing miscellaneous errors: 33
+

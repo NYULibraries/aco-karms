@@ -1,0 +1,26 @@
+Records containing SERIES errors - batch NjP_20170110
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2017-01-23 14:41:02.793854
+---------------------------------------------------------------------
+FILE: NjP_20170110_2_oclc_recs_batch.mrc
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm28879441 
+   oclc_rec_035_num: (OCoLC)28879441
+Institution ID: NjP_1443337
+Record 999:  NjP_1443337 (OCoLC)ocm28879441
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Muqawwimāt al-falsafah al-bāṭinīyah ; 1
+040 $e field: [none]
+RDA fields: YES
+050 call number: BP87.5 .A85
+Source entities (book IDs): princeton_aco000862
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NjP_20170110_1/NjP_20170110_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 1
+
