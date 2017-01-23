@@ -5,22 +5,28 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170117s1967    iq      o     000 0 ara d</controlfield>
+	<controlfield tag="008">170123s1967    iq      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="100">
-		<subfield code="a">Zayn al-ʻĀbidīn ʻAlī ibn al-Ḥusayn,</subfield>
-		<subfield code="d">-710?</subfield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP183.3</subfield>
+		<subfield code="b">.S56 1967</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Shīrāzī, Muḥammad al-Mahdī al-Ḥusaynī.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Sharḥ al-ṣaḥīfah al-sajjādīyah /</subfield>
 		<subfield code="c">taʼlīf Muḥammad al- Shīrāzī</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">al-Najaf :</subfield>
 		<subfield code="b">Maṭbaʻat al-Naʻmān,</subfield>
 		<subfield code="c">[1967]</subfield>
@@ -58,15 +64,14 @@
 		<subfield code="2">fast</subfield>
 		<subfield code="0">(OCoLC)fst01074737</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
+	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">ʻAlī ibn Abī Ṭālib,</subfield>
 		<subfield code="c">Caliph,</subfield>
-		<subfield code="d">600 (ca.)-661.</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">Shīrāzī, Muḥammad al-Mahdī al-Ḥusaynī.</subfield>
+		<subfield code="d">approximately 600-661.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="700">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Zayn al-ʻĀbidīn ʻAlī ibn al-Ḥusayn,</subfield>
 		<subfield code="d">-710?</subfield>
 		<subfield code="t">Ṣaḥīfah al-kāmilah al-sajjādīyah.</subfield>
@@ -80,13 +85,40 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Zayn al-ʻĀbidīn ʻAlī ibn al-Ḥusayn, -710?</subfield>
+		<subfield code="a">Shīrāzī, Muḥammad al-Mahdī al-Ḥusaynī.</subfield>
 		<subfield code="t">Sharḥ al-ṣaḥīfah al-sajjādīyah</subfield>
 		<subfield code="w">(NNC)2960380</subfield>
 		<subfield code="w">(OCoLC)234389516</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/rbnzsd3f</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">شيرازي، محمد المهدي الحسيني.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">شرح الصحيفة السجادية /</subfield>
+		<subfield code="c">تأليف محمد الشيرازي</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">النجف :</subfield>
+		<subfield code="b">مطبعة النعمان،</subfield>
+		<subfield code="c">[1967]</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">600-04/r</subfield>
+		<subfield code="a">علي بن ابي طالب،</subfield>
+		<subfield code="c">Caliph,</subfield>
+		<subfield code="d">approximately 600-661.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">700-05/r</subfield>
+		<subfield code="a">زين العابدين علي بن الحسين،</subfield>
+		<subfield code="d">-710؟</subfield>
+		<subfield code="t">صحيفة الكاملة السجادية.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -101,5 +133,6 @@
 		<subfield code="o">(OCoLC)ocn234389516</subfield>
 		<subfield code="s">columbia_aco002268</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco002268</subfield>
 	</datafield>
 </record>
