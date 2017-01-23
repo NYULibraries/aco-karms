@@ -1,0 +1,130 @@
+#!/bin/bash 
+
+# Overview
+# This script counts the number of MARCXML files marked "done" in the tkts file
+# this script assumes it is run from the work/ directory of the aco-karms git repo.
+export TMPDIR='/tmp'
+TMPFILE="$(mktemp)"
+
+# this function initializes SCRIPT_DIR or fails
+set_readlink() {
+    readlink=''
+
+    case $(uname) in
+	Linux)
+            readlink=/usr/bin/readlink
+            ;;
+	
+	Darwin)
+            readlink=/usr/local/bin/greadlink
+            ;;
+	
+	*)
+            echo "ERROR: script only supported on Linux and Darwin (OS X)"
+            exit 1
+            ;;
+    esac
+
+    if [[ ! -x "$readlink" ]]
+    then
+	echo "ERROR: $READLINK executable is required, but not found, or not executable by this user."
+	exit 1
+    fi
+}
+
+initialize() {
+    dirname=/usr/bin/dirname
+    set_readlink
+    BIN_DIR="$("$dirname" $("$readlink" -f $0))"
+    WORK_DIR="${BIN_DIR}/../../work"
+    TKTS_FILE="batch-jira-tkts.csv"
+    TKTS_PATH="${WORK_DIR}/${TKTS_FILE}"
+    PARTNERS=$(ls -1 "$WORK_DIR" | grep -v "$TKTS_FILE")
+}
+
+ok_exit() {
+    exit 0
+}
+
+err_exit() {
+    exit 1
+}
+
+print_usage() {
+    echo "$0"
+}
+
+print_error_msg() {
+    echo "ERROR: $1" >&2
+}
+
+cleanup() {
+    if [[ -e "$TMPFILE" ]]; then
+        rm "$TMPFILE"
+    fi
+}   
+
+print_horizontal_line() {
+    echo "-------------------------------"
+}
+
+print_double_line() {
+    echo "==============================="
+}
+
+print_header() {
+    print_double_line
+    echo "  DMD KARMS Completion Report"
+    echo "  $(/bin/date '+%Y-%m-%d %H:%M')"
+    print_horizontal_line
+}
+
+print_key() {
+    print_horizontal_line
+    echo " Key:"
+    print_horizontal_line
+    echo " LeBAU : AUB "
+    echo " NIC   : Cornell"
+    echo " NNC   : Columbia"
+    echo " NNU   : NYU"
+    echo " NjP   : Princeton"
+    print_double_line
+}
+
+trap cleanup INT TERM EXIT
+
+#------------------------------------------------------------------------------
+# MAIN ROUTINE
+#------------------------------------------------------------------------------
+initialize
+
+if [[ ! -e "$TKTS_PATH" ]]; then
+    print_error_msg "$TKTS_PATH does not exist"
+    exit 1
+fi
+
+# extract directories that are marked "Done"
+# sample line in csv file:
+# Columbia-11,NNC_20161024,DLTSACO-440,52,Done,N/A
+DIRS=`cat "$TKTS_PATH" | grep -i done | cut -d ',' -f2`
+
+for d in $DIRS ; do
+    partner=$(echo $d | cut -d'_' -f1)
+    ls -1 ${WORK_DIR}/${partner}/${d}/marcxml_out/*.xml >> "$TMPFILE"
+done
+
+print_header
+
+for partner in $PARTNERS; do
+    printf "%6s : " "$partner"
+    grep "$partner" "$TMPFILE" | wc -l
+done
+
+print_horizontal_line
+printf " TOTAL : " 
+cat "$TMPFILE" | wc -l
+
+echo "  "
+print_key
+exit 0
+
