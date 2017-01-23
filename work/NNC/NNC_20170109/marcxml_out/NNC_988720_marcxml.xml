@@ -5,30 +5,33 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170117s1931    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">170123s1931    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="4" tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">BJ1291</subfield>
 		<subfield code="b">.J33</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Shams al-Khilāfah, Jaʻfar ibn Muḥammad,</subfield>
 		<subfield code="d">1148-1225.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Ādāb al-nāfiʻah bi-al-alfāẓ al-mukhtārah al-jāmiʻah</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="6">880-01</subfield>
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Kitāb al-Ādāb /</subfield>
 		<subfield code="c">li-Jaʻfar ibn Shams al-Khilāfah Majd al-Mulk ; ʻuniya bi-taṣḥīḥihī wa-ḍabṭ alfāẓi-hī wa-tafsīrihā Maḥammad Amīn al-Khānjī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Miṣr :</subfield>
 		<subfield code="b">Maktabat al-Khānjī,</subfield>
 		<subfield code="c">1349 h., 1931 m.</subfield>
@@ -97,10 +100,25 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/kprr5327</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">شمس الخلافة، جعفر بن محمد،</subfield>
+		<subfield code="d">1148-1225.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-01/r</subfield>
+		<subfield code="6">240-02</subfield>
+		<subfield code="a">آداب النافعة بالالفاظ المختارة الجامعة</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-03</subfield>
 		<subfield code="a">كتاب الآداب /</subfield>
 		<subfield code="c">لجعفر بن شمس الخلافة مجد الملك ؛ عنى بتصحيحه وضبط ألفاظه وتفسيرها محمد أمين الخانجي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مكتبة الخانجي،</subfield>
+		<subfield code="c">1349 ه.، 1931 م.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -112,8 +130,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_988720</subfield>
-		<subfield code="o">(OCoLC)ocm22783513 </subfield>
+		<subfield code="o">(OCoLC)ocm22783513</subfield>
 		<subfield code="s">columbia_aco002255</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002255</subfield>
 	</datafield>
 </record>
