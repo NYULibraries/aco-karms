@@ -5,27 +5,35 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170123s195u    su      o     000 0 ara d</controlfield>
+	<controlfield tag="008">170203s195u    su      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP88.M7825</subfield>
+		<subfield code="b">K3 1950</subfield>
+	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Muḥammad ibn ʻAbd al-Wahhāb,</subfield>
 		<subfield code="d">1703 or 1704-1792.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Kashf al-shubuhāt ...</subfield>
-		<subfield code="b">Dhayyalahu ʻAbd al-Raḥmān al-Muḥammad al-Dawsarī.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kashf al-shubuhāt min kitābāt Muḥammad ibn ʻAbd al-Wahhāb /</subfield>
+		<subfield code="c">qāma bi-tafṣīlihi ...ʻAlī al-Ḥamad al-Ṣāliḥī wa dhayyalahu ʻAbd al-Raḥmān al-Muḥammad al-Dawsarī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">al-Ṭabʻah 2.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">al-Riyāḍ,</subfield>
-		<subfield code="b">Muʼassasat al-Nūr</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">al-Riyāḍ :</subfield>
+		<subfield code="b">Muʼassasat al-Nūr,</subfield>
 		<subfield code="c">[195-?]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -59,6 +67,10 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Edited by ʻAlī al-Ḥamd al-Ṣāliḥī.</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Islam</subfield>
+		<subfield code="x">Essence, genius, nature.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
 		<subfield code="b">Library.</subfield>
@@ -69,12 +81,32 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Muḥammad ibn ʻAbd al-Wahhāb, 1703 or 1704-1792.</subfield>
-		<subfield code="t">Kashf al-shubuhāt</subfield>
+		<subfield code="t">Kashf al-shubuhāt min kitābāt Muḥammad ibn ʻAbd al-Wahhāb</subfield>
 		<subfield code="w">(NjP)2788117</subfield>
 		<subfield code="w">(OCoLC)42865807</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/573n5zss</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">محمد بن عبد الوهاب،</subfield>
+		<subfield code="d">1703 or 1704-1792.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">كشف الشبهات من كتابات محمد بن عبد الوهاب /</subfield>
+		<subfield code="c">قام بتفصيله ...علي الحمد الصالحي  و ذيله عبد الرحمن المحمد الدوسري.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">250-03/r</subfield>
+		<subfield code="a">الطبعة 2.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/r</subfield>
+		<subfield code="a">الرياض :</subfield>
+		<subfield code="b">مؤسسة النور،</subfield>
+		<subfield code="c">[195-?]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -86,8 +118,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2788117</subfield>
-		<subfield code="o">(OCoLC)ocm42865807 </subfield>
+		<subfield code="o">(OCoLC)ocm42865807</subfield>
 		<subfield code="s">princeton_aco000865</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco000865</subfield>
 	</datafield>
 </record>

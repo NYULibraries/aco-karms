@@ -5,27 +5,35 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170123s187u    sy      o     000 0 ara d</controlfield>
+	<controlfield tag="008">170203s187u    sy      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP189</subfield>
+		<subfield code="b">.A78 </subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">ʻArūsī, Muṣṭafá ibn Muḥammad,</subfield>
 		<subfield code="d">1798 or 1799-1876.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Ḥāshiyat Muṣṭafā al-ʻArūsī al-musammāh bi-Natāʼij al-afkār al-qudsīyah fī bayān maʻānī Sharḥ al-Risālah al-Qushayrīyah li-Zakarīyā al-Anṣārī.</subfield>
 		<subfield code="b">Wa-bi-hāmishihā al-sharḥ al-madhkūr.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Natāʼij al-afkār al-qudsīyah fī bayān maʻānī Sharḥ al-Risālah al-Qushayrīyah</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Damascus,</subfield>
-		<subfield code="b">ʻAbd al-Wakīl al-Darūbī</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">[Dimashq] :</subfield>
+		<subfield code="b">ʻAbd al-Wakīl al-Darūbī,</subfield>
 		<subfield code="c">[197-?]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -57,6 +65,7 @@
 		<subfield code="a">In Arabic.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Qushayrī, ʻAbd al-Karīm ibn Hawāzin,</subfield>
 		<subfield code="d">986-1072.</subfield>
 		<subfield code="t">Risālah al-Qushayrīyah.</subfield>
@@ -102,6 +111,32 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/905qg0cs</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">عروسي، مصطفى بن محمد،</subfield>
+		<subfield code="d">1798 or 1799-1876.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">حاشية مصطفى العروسي المسماة بنتائج الافكار القدسية في بيان معاني شرح الرسالة القشيرية لزكريا الانصاري.</subfield>
+		<subfield code="b">وبهامشها الشرح المذكور.</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">246-03/r</subfield>
+		<subfield code="a">نتائج الافكار القدسية في بيان معاني شرح الرسالة القشيرية</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/r</subfield>
+		<subfield code="a">[دمشق] :</subfield>
+		<subfield code="b">عبد الوكيل الدروبي،</subfield>
+		<subfield code="c">[197؟]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">600-05/r</subfield>
+		<subfield code="a">قشيري، عبد الكريم بن هوازن،</subfield>
+		<subfield code="d">986-1072.</subfield>
+		<subfield code="t">رسالة القشيرية.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -112,8 +147,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2834969</subfield>
-		<subfield code="o">(OCoLC)ocm42915180 </subfield>
+		<subfield code="o">(OCoLC)ocm42915180</subfield>
 		<subfield code="s">princeton_aco000830:v.1-2</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco000830:v.1-2</subfield>
 	</datafield>
 </record>

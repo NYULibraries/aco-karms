@@ -5,25 +5,32 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170123s1904    ti      o     000 0bara d</controlfield>
+	<controlfield tag="008">170203s1904    ti      o     000 0bara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP70.S58</subfield>
+		<subfield code="b">T86 1904</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Tūnisī, Aḥmad Jamāl al-Dīn,</subfield>
-		<subfield code="d">active 1885.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Tūnisī, Aḥmad Jamāl al-Dīn. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Bulūgh al-arab</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Kitāb bulūgh al-arab fī maʼāthir Shaykh al-Dhahab /</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Kitāb bulūgh al-arab fī maʼāthir al-Shaykh al-Dhahab /</subfield>
 		<subfield code="c">taʼlīf Aḥmad Jamāl al-Dīn bi-yadihi fī al-dārayn.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Tūnis :</subfield>
 		<subfield code="b">Maṭbaʻat Bīkār,</subfield>
 		<subfield code="c">1904.</subfield>
@@ -54,6 +61,7 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Shaykh al-Dhahab.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
@@ -77,13 +85,36 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Tūnisī, Aḥmad Jamāl al-Dīn, active 1885.</subfield>
-		<subfield code="t">Kitāb bulūgh al-arab fī maʼāthir Shaykh al-Dhahab</subfield>
+		<subfield code="a">Tūnisī, Aḥmad Jamāl al-Dīn.</subfield>
+		<subfield code="t">Kitāb bulūgh al-arab fī maʼāthir al-Shaykh al-Dhahab</subfield>
 		<subfield code="w">(NjP)169800</subfield>
 		<subfield code="w">(OCoLC)80266808</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/vx0k6k5t</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">تونسي، احمد جمال الدين.  </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">240-02</subfield>
+		<subfield code="a">بلوغ الارب </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-03</subfield>
+		<subfield code="a">كتاب بلوغ الارب في مئاثر الشيخ الذهب /</subfield>
+		<subfield code="c">تأليف احمد جمال الدين بيده في الدارين.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04</subfield>
+		<subfield code="a">تونس :</subfield>
+		<subfield code="b">مطبعة بيكار،</subfield>
+		<subfield code="c">1904.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">600-05</subfield>
+		<subfield code="a">شيخ الذهب.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -95,9 +126,11 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_169800</subfield>
-		<subfield code="o">(OCoLC)ocm80266808 </subfield>
+		<subfield code="o">(OCoLC)ocm80266808</subfield>
 		<subfield code="s">princeton_aco000868:al-juz 1</subfield>
 		<subfield code="s">princeton_aco000867:al-juz 2</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco000868:al-juz 1</subfield>
+		<subfield code="s">princeton_aco000867:al-juz 2</subfield>
 	</datafield>
 </record>
