@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170131s1925    sj acf  o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">170308s1925    sj acf  o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">Z1035.A1</subfield>
+		<subfield code="b">M85 1925</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">028.1</subfield>
@@ -34,8 +38,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="6">880-04</subfield>
-		<subfield code="a">online resource (2 volumes) :</subfield>
-		<subfield code="b">مصورات، صورة شخصانية ؛</subfield>
+		<subfield code="a">online resource (2 volumes)</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">text</subfield>
@@ -59,16 +62,13 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الكتب</subfield>
-		<subfield code="x">مراجعات.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Books</subfield>
 		<subfield code="v">Reviews.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Hindī, ‘Awaḍ al-Karīm Muḥammad,</subfield>
 		<subfield code="e">collector.</subfield>
 	</datafield>
@@ -87,30 +87,35 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/xd254d0t</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="880">
-		<subfield code="6">245-01/(3/r</subfield>
+		<subfield code="6">245-01/r</subfield>
 		<subfield code="a">مختارات الصائغ من كتب الدنيا و الدين :</subfield>
 		<subfield code="b">وهي 360 كتاب في التوحيد و الفقه و القرآن و الحديث و التصوف و الطب الحديث و الطب القديم و الطب الأهلي و الحكم و الفوائد و الأدب /</subfield>
 		<subfield code="c">جمعه الفقير إلى مولاه الكريم عوض الكريم محمد هندي الصائغ بأم درمان.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-02/(3/r</subfield>
+		<subfield code="6">250-02/r</subfield>
 		<subfield code="a">الطبعة الأولى.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03/r</subfield>
 		<subfield code="a">أم درمان :</subfield>
 		<subfield code="b">مطبعة التوفيق الأدبية،</subfield>
 		<subfield code="c">1344 هـ. = 1925 م.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04/r</subfield>
 		<subfield code="a">2 جزء :</subfield>
 		<subfield code="c">24 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05/r</subfield>
+		<subfield code="a">الكتب</subfield>
+		<subfield code="x">مراجعات.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-05/(3/r</subfield>
+		<subfield code="6">700-06/r</subfield>
 		<subfield code="a">هندي، عوض الكريم محمد،</subfield>
-		<subfield code="e">جامع. </subfield>
+		<subfield code="e">جامع.</subfield>
 		<subfield code="4">col.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -126,5 +131,7 @@
 		<subfield code="s">aub_aco000446:v.1</subfield>
 		<subfield code="s">aub_aco000447:v.2</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco000446:v.1</subfield>
+		<subfield code="s">aub_aco000447:v.2</subfield>
 	</datafield>
 </record>

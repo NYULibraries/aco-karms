@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170131s1942    iq      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">170308s1942    iq      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">TC513.I7</subfield>
+		<subfield code="b">.S87 </subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">016.6317</subfield>
@@ -21,7 +25,7 @@
 		<subfield code="a">Sūsah, Aḥmad,</subfield>
 		<subfield code="e">compiler.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Maṣādir ‘an rayy al-‘Irāq /</subfield>
 		<subfield code="c">‘uniya bi-jam‘ihā wa-taṣnīfihā wa-talkhīṣ muḥtawayātihā wa-al-ta‘līq ‘alayhā al-Duktūr Aḥmad Sūsah.</subfield>
@@ -49,9 +53,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;طبع على نفقة مديرية الري العامة.&quot;--صفحة العنوان.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -61,11 +62,8 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الري</subfield>
-		<subfield code="z">العراق.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Irrigation</subfield>
 		<subfield code="z">Iraq.</subfield>
 	</datafield>
@@ -85,26 +83,35 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/qjq2c19j</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01/r</subfield>
 		<subfield code="a">سوسه، احمد،</subfield>
-		<subfield code="e">معد. </subfield>
+		<subfield code="e">معد.</subfield>
 		<subfield code="4">com.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">المصادر عن ري العراق /</subfield>
 		<subfield code="c">عني بجمعها وتصنيفها وتلخيص محتوياتها والتعليق عليها الدكتور أحمد سوسه.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03/r</subfield>
 		<subfield code="a">بغداد، [العراق] :</subfield>
 		<subfield code="b">مطبعة الحكومة،</subfield>
 		<subfield code="c">1942.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04/r</subfield>
 		<subfield code="a">182 صفحة ؛</subfield>
 		<subfield code="c">24 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00/r</subfield>
+		<subfield code="a">&quot;طبع على نفقة مديرية الري العامة.&quot;--صفحة العنوان.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05/r</subfield>
+		<subfield code="a">الري</subfield>
+		<subfield code="z">العراق.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -118,5 +125,6 @@
 		<subfield code="i">LeBAU_b12308328</subfield>
 		<subfield code="s">aub_aco000432</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco000432</subfield>
 	</datafield>
 </record>

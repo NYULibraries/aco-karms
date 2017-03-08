@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170131s1931    ua      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">170308s1931    ua      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BT303.2</subfield>
+		<subfield code="b">.K58 1931</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">226.1</subfield>
@@ -61,11 +65,7 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
-		<subfield code="a">يسوع المسيح</subfield>
-		<subfield code="v">تراجم</subfield>
-		<subfield code="v">مصادر.</subfield>
-	</datafield>
-	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Jesus Christ</subfield>
 		<subfield code="v">Biography</subfield>
 		<subfield code="v">Sources.</subfield>
@@ -85,27 +85,33 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/v41ns6dz</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">130-01/(3/r</subfield>
+		<subfield code="6">130-01/r</subfield>
 		<subfield code="a">الكتاب المقدس.</subfield>
 		<subfield code="p">الأناجيل.</subfield>
 		<subfield code="l">عربي.</subfield>
 		<subfield code="f">1931.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">إتفاق البشائر :</subfield>
 		<subfield code="b">وهو متون البشائر الأربع مرتبة حسب المواضيع.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03/r</subfield>
 		<subfield code="a">مصر :</subfield>
 		<subfield code="b">جمعية نشر المعارف المسيحية،</subfield>
 		<subfield code="c">1931.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04/r</subfield>
 		<subfield code="a">24 م، 154 صفحة ؛</subfield>
 		<subfield code="c">25 سم</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">600-05/r</subfield>
+		<subfield code="a">يسوع المسيح</subfield>
+		<subfield code="v">تراجم</subfield>
+		<subfield code="v">مصادر.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -119,5 +125,6 @@
 		<subfield code="i">LeBAU_b12310189</subfield>
 		<subfield code="s">aub_aco000473</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco000473</subfield>
 	</datafield>
 </record>
