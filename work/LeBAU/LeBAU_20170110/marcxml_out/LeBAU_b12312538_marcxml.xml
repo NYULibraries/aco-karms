@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170131s1911    le      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">170308s1911    le      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BR118</subfield>
+		<subfield code="b">.K33 1911</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">239</subfield>
@@ -19,7 +23,6 @@
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="6">880-01</subfield>
 		<subfield code="a">Khabbāz, Ḥannā,</subfield>
-		<subfield code="d">1871-1955,</subfield>
 		<subfield code="e">author.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
@@ -29,7 +32,7 @@
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="246">
 		<subfield code="6">880-03</subfield>
-		<subfield code="a">al-adillah al-bahīyah fī ithbāt daʻwá al-naṣrānīyah</subfield>
+		<subfield code="a">adillah al-bahīyah fī ithbāt daʻwá al-naṣrānīyah</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="264">
 		<subfield code="6">880-04</subfield>
@@ -54,9 +57,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">عنوان موازي: Christian evidences.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -66,10 +66,8 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">المسيحية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Christianity.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -80,7 +78,7 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Khabbāz, Ḥannā, 1871-1955, author.</subfield>
+		<subfield code="a">Khabbāz, Ḥannā, author.</subfield>
 		<subfield code="t">kitab al-adillah al-bahīyah fī ithbāt da‘wá al-naṣrānīyah</subfield>
 		<subfield code="w">(LeBAU)b12312538</subfield>
 	</datafield>
@@ -88,31 +86,38 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/xksn07h5</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01/r</subfield>
 		<subfield code="a">خباز، حنا،</subfield>
-		<subfield code="d">1871-1955،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">كتاب الأدلة البهية في إثبات دعوى النصرانية /</subfield>
 		<subfield code="c">تأليف حنا خباز الحمصي رئيس المدرسة الإنجيلية الوطنية في حمص.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="880">
-		<subfield code="6">246-03/(3/r</subfield>
-		<subfield code="a">الأدلة البهية في إثبات دعوى النصرانية</subfield>
+		<subfield code="6">246-03/r</subfield>
+		<subfield code="a">أدلة البهية في إثبات دعوى النصرانية</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-04/(3/r</subfield>
+		<subfield code="6">264-04/r</subfield>
 		<subfield code="a">بيروت :</subfield>
 		<subfield code="b">المطبعة الأميركانية،</subfield>
 		<subfield code="c">1911.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-05/(3/r</subfield>
+		<subfield code="6">300-05/r</subfield>
 		<subfield code="a">144 صفحة ؛</subfield>
 		<subfield code="c">18 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00/r</subfield>
+		<subfield code="a">عنوان موازي: Christian evidences.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06/r</subfield>
+		<subfield code="a">المسيحية.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -126,5 +131,6 @@
 		<subfield code="i">LeBAU_b12312538</subfield>
 		<subfield code="s">aub_aco000493</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco000493</subfield>
 	</datafield>
 </record>

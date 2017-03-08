@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170131s1936    le acf  o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">170308s1936    le acf  o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BJ1258.A7</subfield>
+		<subfield code="b">M83 1936</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">252.6</subfield>
@@ -21,7 +25,7 @@
 		<subfield code="a">Mubārak, Ighnāṭyūs,</subfield>
 		<subfield code="e">author.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Thamar al-mubārak min nafā’s wa-rawāʼiʻ :</subfield>
 		<subfield code="b">al-mawāʻiẓ al-dīnīyah wa-al-taṣrīḥāt wa-al-khuṭab al-sīyāsīyah wa-al-adabīyah /</subfield>
@@ -60,20 +64,16 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الأخلاق المسيحية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">مواعظ عربية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Christian ethics.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Sermons, Arabic.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Ḥubayqah, Buṭrus,</subfield>
 		<subfield code="e">collector.</subfield>
 	</datafield>
@@ -93,33 +93,41 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/mpg4f981</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01/r</subfield>
 		<subfield code="a">مبارك، اغناطيوس،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">الثمر المبارك من نفائس وروائع :</subfield>
 		<subfield code="b">المواعظ الدينية و الإجتماعية و التصريحات و الخطب السياسية و الأدبية /</subfield>
 		<subfield code="c">ألقاها بين عامي 1929-1936 العلامة الخطيب المفوه صاحب السيادة المطران إغناطيوس مبارك رئيس أساقفة بيروت الماروني ؛ جمعها ونسقها وطبعها على نفقته الخوراسقف بطرس حبيقة رئيس مدرسة مار بطرس بسكنتا - لبنان.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03/r</subfield>
 		<subfield code="a">جونية، لبنان :</subfield>
 		<subfield code="b">مطبعة المرسلين اللبنانيين،</subfield>
 		<subfield code="c">1936.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04/r</subfield>
 		<subfield code="a">454 صفحة :</subfield>
 		<subfield code="b">مصورات، صورة شخصانية ؛</subfield>
 		<subfield code="c">24 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05/r</subfield>
+		<subfield code="a">الأخلاق المسيحية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06/r</subfield>
+		<subfield code="a">مواعظ عربية.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-05/(3/r</subfield>
+		<subfield code="6">700-07/r</subfield>
 		<subfield code="a">حبيقة، بطرس،</subfield>
-		<subfield code="e">جامع. </subfield>
+		<subfield code="e">جامع.</subfield>
 		<subfield code="4">col.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -134,5 +142,6 @@
 		<subfield code="i">LeBAU_b12313889</subfield>
 		<subfield code="s">aub_aco000500</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco000500</subfield>
 	</datafield>
 </record>

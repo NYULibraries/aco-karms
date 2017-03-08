@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170131s1935    ua af   o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">170308s1935    ua af   o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">Z675.S3</subfield>
+		<subfield code="b">M35 1935</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">027</subfield>
@@ -21,7 +25,7 @@
 		<subfield code="a">Majallat al-Tarbiyah al-Ḥadīthah,</subfield>
 		<subfield code="e">issuing body.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Maktabāt al-Madrasīyah :</subfield>
 		<subfield code="b">mulḥaq li-majallat al-tarbiyah al-ḥadīthah, Yūnyū sanat 1935.</subfield>
@@ -63,16 +67,12 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">المكتبات المدرسية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">التربية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">School libraries.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Education.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -82,7 +82,6 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="772">
-		<subfield code="6">880-04</subfield>
 		<subfield code="t">Majallat al-Tarbiyah al-Ḥadīthah</subfield>
 		<subfield code="d">al-Qāhirah : al-Jāmi‘ah al-Amīrikīyah bi-al-Qāhirah, 1928-1973</subfield>
 		<subfield code="w">b1283032x</subfield>
@@ -98,30 +97,37 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/h18936j8</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="880">
-		<subfield code="6">110-01/(3/r</subfield>
+		<subfield code="6">110-01/r</subfield>
 		<subfield code="a">مجلة التربية الحديثة،</subfield>
-		<subfield code="e">هيئة اصدار. </subfield>
-		<subfield code="4">isb.</subfield>
+		<subfield code="e">هيئة اصدار.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">المكتبات المدرسية :</subfield>
 		<subfield code="b">ملحق لمجلة التربية الحديثة، يونيو سنة 1935.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03/r</subfield>
 		<subfield code="a">القاهرة، [مصر] :</subfield>
 		<subfield code="b">مجلة التربية الحديثة،</subfield>
 		<subfield code="c">1935.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04/r</subfield>
 		<subfield code="a">صفحة 338-424، 5 ورقات لوحات غير مرقمة :</subfield>
 		<subfield code="b">مصورات ؛</subfield>
 		<subfield code="c">24 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05/r</subfield>
+		<subfield code="a">المكتبات المدرسية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06/r</subfield>
+		<subfield code="a">التربية.</subfield>
+	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">772-05/(3/r</subfield>
+		<subfield code="6">772-00/r</subfield>
 		<subfield code="t">مجلة التربية الحديثة</subfield>
 		<subfield code="d">القاهرة : الجامعة الأميركية بالقاهرة، 1928-1973</subfield>
 		<subfield code="w">(OCoLC)792756056</subfield>
@@ -139,5 +145,6 @@
 		<subfield code="i">LeBAU_b12309795</subfield>
 		<subfield code="s">aub_aco000512</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco000512</subfield>
 	</datafield>
 </record>

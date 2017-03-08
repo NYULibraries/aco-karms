@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170131s1948    le      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">170308s1948    le      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">Z3466</subfield>
+		<subfield code="b">.I85 1948</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">015.5692</subfield>
@@ -59,11 +63,8 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">لبنان</subfield>
-		<subfield code="x">مطبوعات.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Lebanon</subfield>
 		<subfield code="x">Imprints.</subfield>
 	</datafield>
@@ -83,27 +84,31 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/m0cfxvbs</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="880">
-		<subfield code="6">110-01/(3/r</subfield>
+		<subfield code="6">110-01/r</subfield>
 		<subfield code="a">اتحاد الناشرين في لبنان،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
-		<subfield code="4">isb.</subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">نتاج الفكر في لبنان :</subfield>
 		<subfield code="b">وفيه إحصاء بالكتب التي ظهرت عن دور النشر المشتركة في إتحاد الناشرين في لبنان خلال العام 1947 /</subfield>
 		<subfield code="c">إتحاد الناشرين في لبنان.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03/r</subfield>
 		<subfield code="a">بيروت، [لبنان] :</subfield>
 		<subfield code="b">اتحاد الناشرين في لبنان،</subfield>
 		<subfield code="c">1948.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04/r</subfield>
 		<subfield code="a">80 صفحة ؛</subfield>
 		<subfield code="c">20 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-05/r</subfield>
+		<subfield code="a">لبنان</subfield>
+		<subfield code="x">مطبوعات.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -117,5 +122,6 @@
 		<subfield code="i">LeBAU_b1230783x</subfield>
 		<subfield code="s">aub_aco000428</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco000428</subfield>
 	</datafield>
 </record>

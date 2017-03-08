@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170131s1947    le acf  ob    ||0 0 ara d</controlfield>
+	<controlfield tag="008">170308s1947    le acf  ob    ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BX4711.32 </subfield>
+		<subfield code="b">.M37 1947</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">282</subfield>
@@ -52,9 +56,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -62,23 +63,15 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1="2" ind2="4" tag="610">
-		<subfield code="a">الكنيسة الكاثوليكية</subfield>
-		<subfield code="x">الطقوس البيزنطية الملكية</subfield>
-		<subfield code="z">الشرق الاوسط</subfield>
-		<subfield code="x">تاريخ.</subfield>
-	</datafield>
 	<datafield ind1="2" ind2="0" tag="610">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Catholic Church</subfield>
 		<subfield code="x">Byzantine rite, Melchite</subfield>
 		<subfield code="z">Middle east</subfield>
 		<subfield code="x">History.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">الشرق الاوسط</subfield>
-		<subfield code="x">التاريخ الكنسي.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Middle East</subfield>
 		<subfield code="x">Church history.</subfield>
 	</datafield>
@@ -98,27 +91,43 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/6q573sqg</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">110-01/(3/r</subfield>
+		<subfield code="6">110-01/r</subfield>
 		<subfield code="a">المسرة.</subfield>
 		<subfield code="b">مجلة بطريركية الروم الكاثوليك،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">دليل المسرة.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03/r</subfield>
 		<subfield code="a">حريصا، لبنان :</subfield>
 		<subfield code="b">مطبعة القديس بولس،</subfield>
 		<subfield code="c">1947.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04/r</subfield>
 		<subfield code="a">192 صفحة :</subfield>
 		<subfield code="b">مصورات، صور شخصانية ؛</subfield>
 		<subfield code="c">21 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00/r</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
+	</datafield>
+	<datafield ind1="2" ind2="4" tag="880">
+		<subfield code="6">610-05/r</subfield>
+		<subfield code="a">الكنيسة الكاثوليكية</subfield>
+		<subfield code="x">الطقوس البيزنطية الملكية</subfield>
+		<subfield code="z">الشرق الاوسط</subfield>
+		<subfield code="x">تاريخ.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-06/r</subfield>
+		<subfield code="a">الشرق الاوسط</subfield>
+		<subfield code="x">التاريخ الكنسي.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -132,5 +141,6 @@
 		<subfield code="i">LeBAU_b12320018</subfield>
 		<subfield code="s">aub_aco000589</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco000589</subfield>
 	</datafield>
 </record>
