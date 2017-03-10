@@ -3,6 +3,8 @@ Procedures for processing MARC files for ACO:
 -  (Once Only) Set up clone of git repository for "aco-karms" on local computer
 -  For a NEW batch of Columbia, Cornell, or Princeton records:
     -  Create a new branch on local git clone using command:  git checkout -b [BATCH NAME]  --> git checkout -b NNC_20170109
+    -  Navigate to the "bin" folder:  cd bin
+    -  View the files in bin:  ls
     -  Run Python script to process xml and OCLC numbers:  python aco-1-xml2mrc-oclc-nums.py
     -  Run Python script to check and convert records based on original partner's records:  python aco-3-process.py
     -  Rename new folder of processed records in the batch folder, adding suffix "_on_orig_recs" (e.g., NNC_20170109_3_on_orig_recs)
@@ -38,6 +40,17 @@ Procedures for processing MARC files for ACO:
            Records containing bad encoding replacement character: 0
            Records containing RDA fields: 48 (100.0%)
            Records with NO 050 or 090 call number fields: 8 (16.7%)
-    -  
+    -  Navigate to the top folder of the git repo:  cd ..
+    -  Update github with feature branch and changes on clone:
+        -  git status                                        // to check which files have been changed on branch
+        -  git add work/[INST CODE]/[BRANCH NAME]*           // to add the files to be committed (e.g., git add work/NNC/NNC_20170109*)
+        -  git commit -am 'Process new - Columbia-12 - NNC_20170109 - DLTSACO-464'      // to commit the changed/added files
+        -  git push origin [FEATURE BRANCH NAME]            // to push the committed files to github (e.g., git push origin NNC_20170109)
+        -  Go to the aco-karms repo on github.com and process the pull request, then delete the feature branch on github.com
+        -  Move to the master branch on your local clone:  git checkout master
+        -  Update the master branch on your local clone:  git fetch     THEN    git pull origin master
+        -  View branches on local clone:  git branch
+        -  Delete the feature branch on local clone:  git branch -d NNC_20170109
+    -  a
 
 
