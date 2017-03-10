@@ -1,0 +1,435 @@
+ALL Records containing any type of error - batch LeBAU_20160505
+--  Each of these records have one or more of the following errors:
+    --  no 880 fields
+    --  missing a key 880 field
+    --  have an unlinked 880 field
+    --  have a series heading error in the 490/800/810/811/830 fields
+    --  have one of the various miscellaneous errors, marked with ERROR-MISC
+    --  missing a call number - no 050 or 090 field
+Report produced: 2016-10-25 13:06:27.462372
+---------------------------------------------------------------------
+FILE: LeBAU_20160505_3/LeBAU_20160505_3_updates.mrc
+---------------------------------------------------------------------
+Institution ID: LeBAU_b1231173x
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+   orig_rec_035 num: =035  \\$aocn784182123
+Record 999:  LeBAU_b1231173x aub_aco000019 aub_aco000252
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Vie de Jésus. Arabic
+040 $e field: rda
+RDA fields: YES
+050 call number: BT301 .R56 1904
+Source entities (book IDs): aub_aco000019, aub_aco000252
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12485779
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+   orig_rec_035 num: =035  \\$aocn784342756
+Record 999:  LeBAU_b12485779 aub_aco000038
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Man the unknown. Arabic
+ERROR-880: Unlinked 880s: YES
+   880 $6 765-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: rda
+RDA fields: YES
+050 call number: GN24 .C3125 1940
+Source entities (book IDs): aub_aco000038
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12519285
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+   orig_rec_035 num: =035  \\$aocn784375716
+Record 999:  LeBAU_b12519285 aub_aco000043
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - The merchant of Venice. Arabic
+ERROR-880: Unlinked 880s: YES
+   880 $6 765-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: rda
+RDA fields: YES
+050 call number: PR2796.A7 M45 1922
+Source entities (book IDs): aub_aco000043
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12523550
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+   orig_rec_035 num: =035  \\$aocn784381066
+Record 999:  LeBAU_b12523550 aub_aco000177:v.1 aub_aco000178:v.2
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Nicomachean ethics. Arabic
+ERROR-880: Unlinked 880s: YES
+   880 $6 765-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: rda
+RDA fields: YES
+050 call number: B430.A8 A7 1924
+Source entities (book IDs): aub_aco000177:v.1, aub_aco000178:v.2
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12532046
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+   orig_rec_035 num: =035  \\$aocn784390376
+Record 999:  LeBAU_b12532046 aub_aco000046
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - ʻAbbūd, Mārūn, author.
+ERROR-880: Unlinked 880s: YES
+   880 $6 100-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: rda
+RDA fields: YES
+050 call number: PJ7521 .A3 1952
+Source entities (book IDs): aub_aco000046
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12545016
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+   orig_rec_035 num: =035  \\$aocn784400293
+Record 999:  LeBAU_b12545016 aub_aco000052
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Zahr-ur-Ruba "Highland Flowers", a book of Arabic Poetry
+040 $e field: rda
+RDA fields: YES
+050 call number: ML348 .A54 1954
+Source entities (book IDs): aub_aco000052
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12572068
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+   orig_rec_035 num: =035  \\$aocn784409879
+Record 999:  LeBAU_b12572068 aub_aco000066:v.1 aub_aco000067:v.2 aub_aco000068:v.3
+880 script fields: YES
+ERROR-880: Unlinked 880s: YES
+   880 $6 300-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 880-00 - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
+040 $e field: rda
+RDA fields: YES
+050 call number: PJ7510 .T29 1953
+Source entities (book IDs): aub_aco000066:v.1, aub_aco000067:v.2, aub_aco000068:v.3
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12647548
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+   orig_rec_035 num: =035  \\$aocn784449030
+Record 999:  LeBAU_b12647548 aub_aco000084:v.1
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Voyage en Syrie et en Egypte pendant les années 1783, 1784 et 1785. Arabic
+040 $e field: rda
+RDA fields: YES
+050 call number: D223.5 .V9289 1949
+Source entities (book IDs): aub_aco000084:v.1
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12667183
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+   orig_rec_035 num: =035  \\$aocn784454864
+Record 999:  LeBAU_b12667183 aub_aco000093
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Rommel, the desert fox. Arabic
+040 $e field: rda
+RDA fields: YES
+050 call number: DD247.R57 Y68  1951
+Source entities (book IDs): aub_aco000093
+---------------------------------------------------------------------
+Institution ID: LeBAU_b1267042x
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+   orig_rec_035 num: =035  \\$aocn784456380
+Record 999:  LeBAU_b1267042x aub_aco000186
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Les mémoires de 'Abd Allah, dernier roi ziride de grenade
+040 $e field: rda
+RDA fields: YES
+050 call number: DP302.A47 A33 1955
+Source entities (book IDs): aub_aco000186
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12670650
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+   orig_rec_035 num: =035  \\$aocn784456406
+Record 999:  LeBAU_b12670650 aub_aco000096
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Moors in Spain. Arabic
+040 $e field: rda
+RDA fields: YES
+050 call number: DP102 .L3125  1944 
+Source entities (book IDs): aub_aco000096
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12679690
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+   orig_rec_035 num: =035  \\$aocn784459451
+Record 999:  LeBAU_b12679690 aub_aco000182
+880 script fields: YES
+ERROR-880: Unlinked 880s: YES
+   880 $6 651-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
+040 $e field: rda
+RDA fields: YES
+050 call number: DS63 .J33 1955
+Source entities (book IDs): aub_aco000182
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12700381
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+   orig_rec_035 num: =035  \\$aocn784468280
+Record 999:  LeBAU_b12700381 aub_aco000184
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - History of Turco-Iraqi Friendship
+040 $e field: rda
+RDA fields: YES
+050 call number: DS70.96.T8 D11 1955
+Source entities (book IDs): aub_aco000184
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12766926
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+   orig_rec_035 num: =035  \\$aocn936117091
+Record 999:  LeBAU_b12766926 aub_aco000109:v.1 aub_aco000110:v.2
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Relation d'un sejour de plusieurs années à Beyrouth et dans le Liban. Arabic
+ERROR-880: Unlinked 880s: YES
+   880 $6 300-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 775-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 787-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+040 $e field: rda
+RDA fields: YES
+050 call number: DS80.4 .G89 1949
+Source entities (book IDs): aub_aco000109:v.1, aub_aco000110:v.2
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12841092
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+   orig_rec_035 num: =035  \\$aocn784521766
+Record 999:  LeBAU_b12841092 aub_aco000194
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Inventario provisional de la Hemeroteca del Protectorado (Sección Árabe)
+040 $e field: rda
+RDA fields: YES
+050 call number: Z6945 .K42 1953
+Source entities (book IDs): aub_aco000194
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12889921
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+   orig_rec_035 num: =035  \\$aocn784526278
+Record 999:  LeBAU_b12889921 aub_aco000115
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Syria, the Holy Land, Asia Minor, &c. illustrated. Arabic
+ERROR-880: Unlinked 880s: YES
+   880 $6 765-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: rda
+RDA fields: YES
+050 call number: DS80.2 .C3 1948
+Source entities (book IDs): aub_aco000115
+---------------------------------------------------------------------
+Institution ID: LeBAU_b13076784
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+   orig_rec_035 num: =035  \\$aocn784534671
+Record 999:  LeBAU_b13076784 aub_aco000174
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Problems of preservation and presentation of sites and monuments. Arabic
+040 $e field: rda
+RDA fields: YES
+050 call number: DS94.5 .U512 1955
+Source entities (book IDs): aub_aco000174
+---------------------------------------------------------------------
+Institution ID: LeBAU_b17514472
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+Record 999:  LeBAU_b17514472 aub_aco000123
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Hero as prophet Mahomet : Islam. Arabic
+040 $e field: rda
+RDA fields: YES
+050 call number: BP75 .C37125 1934
+Source entities (book IDs): aub_aco000123
+---------------------------------------------------------------------
+Institution ID: LeBAU_b17515282
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+Record 999:  LeBAU_b17515282 aub_aco000125
+880 script fields: YES
+ERROR-880: Unlinked 880s: YES
+   880 $6 300-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 300-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+040 $e field: rda
+RDA fields: YES
+050 call number: BJ1291 .W38 1912
+Source entities (book IDs): aub_aco000125
+---------------------------------------------------------------------
+Institution ID: LeBAU_b17587578
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+Record 999:  LeBAU_b17587578 aub_aco000128
+880 script fields: YES
+ERROR-880: Unlinked 880s: YES
+   880 $6 787-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 787-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+040 $e field: rda
+RDA fields: YES
+050 call number: DS248.M5 M37 1952
+Source entities (book IDs): aub_aco000128
+---------------------------------------------------------------------
+Institution ID: LeBAU_b17590462
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+Record 999:  LeBAU_b17590462 aub_aco000129
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Title on page 4 of cover: Between literature and Journalism
+040 $e field: rda
+RDA fields: YES
+050 call number: PN4759 .W35 1954
+Source entities (book IDs): aub_aco000129
+---------------------------------------------------------------------
+Institution ID: LeBAU_b17609112
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+Record 999:  LeBAU_b17609112 aub_aco000132:v.1
+880 script fields: YES
+ERROR-880: Unlinked 880s: YES
+   880 $6 650-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
+040 $e field: rda
+RDA fields: YES
+050 call number: LA1491 .S25 1914
+Source entities (book IDs): aub_aco000132:v.1
+---------------------------------------------------------------------
+Institution ID: LeBAU_b17623728
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+Record 999:  LeBAU_b17623728 aub_aco000120
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Feudalism in Egypt, Syria, Palestine, and the Lebanon, 1250-1900. Arabic
+040 $e field: rda
+RDA fields: YES
+050 call number: D225 .P7669 1948
+Source entities (book IDs): aub_aco000120
+---------------------------------------------------------------------
+Institution ID: LeBAU_b17665607
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+Record 999:  LeBAU_b17665607 aub_aco000176
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Old man and the sea. Arabic
+ERROR-880: Unlinked 880s: YES
+   880 $6 765-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: rda
+RDA fields: YES
+050 call number: PS3515.E37 O4125 1954
+Source entities (book IDs): aub_aco000176
+---------------------------------------------------------------------
+Institution ID: LeBAU_b17666405
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+Record 999:  LeBAU_b17666405 aub_aco000146
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Bases scientifiques d'une philosophie de l'histoire. Arabic
+040 $e field: rda
+RDA fields: YES
+050 call number: D16.8 .L35125 1954
+Source entities (book IDs): aub_aco000146
+---------------------------------------------------------------------
+Institution ID: LeBAU_b17666661
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+Record 999:  LeBAU_b17666661 aub_aco000147
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Comte de Monte-Cristo. Arabic
+ERROR-880: Unlinked 880s: YES
+   880 $6 765-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: rda
+RDA fields: YES
+050 call number: PQ2221 .C6 1925
+Source entities (book IDs): aub_aco000147
+---------------------------------------------------------------------
+Institution ID: LeBAU_b17666703
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+Record 999:  LeBAU_b17666703 aub_aco000143
+880 script fields: YES
+ERROR-880: Unlinked 880s: YES
+   880 $6 775-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 775-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+040 $e field: rda
+RDA fields: YES
+050 call number: PJ7864.A35 J3 1952
+Source entities (book IDs): aub_aco000143
+---------------------------------------------------------------------
+Institution ID: LeBAU_b18270104
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+Record 999:  LeBAU_b18270104 aub_aco000200
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Chaumière Indienne. Arabic
+040 $e field: rda
+RDA fields: YES
+050 call number: PQ2065.C4 A6 1901
+Source entities (book IDs): aub_aco000200
+---------------------------------------------------------------------
+Institution ID: LeBAU_b18270736
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+Record 999:  LeBAU_b18270736 aub_aco000164
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Sexual side of marriage. Arabic.
+040 $e field: rda
+RDA fields: YES
+050 call number: HQ31 .E95125 1946
+Source entities (book IDs): aub_aco000164
+---------------------------------------------------------------------
+Institution ID: LeBAU_b18271455
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+Record 999:  LeBAU_b18271455 aub_aco000154
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Ten days to die. Arabic
+040 $e field: rda
+RDA fields: YES
+050 call number: DD247.H5 M82125 1951
+Source entities (book IDs): aub_aco000154
+---------------------------------------------------------------------
+Institution ID: LeBAU_b18271480
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+Record 999:  LeBAU_b18271480 aub_aco000162
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Secrets de la guerre dévoilés par Nuremberg. Arabic
+040 $e field: rda
+RDA fields: YES
+050 call number: D757 .C3125 1947
+Source entities (book IDs): aub_aco000162
+---------------------------------------------------------------------
+Institution ID: LeBAU_b18271509
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+Record 999:  LeBAU_b18271509 aub_aco000163
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Mawaqif and Mukhatabat of Muhammad Ibn ‘Abdi ‘l-Jabbar al-Niffari
+   490 - "E. J.W. Gibb Memorial" Series ; 9
+   830 - "E. J.W. Gibb Memorial" Series ; 9.
+040 $e field: rda
+RDA fields: YES
+050 call number: BP188.9 .N533 1934
+Source entities (book IDs): aub_aco000163
+---------------------------------------------------------------------
+Institution ID: LeBAU_b1827156x
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+   orig_rec_035 num: =035  \\$ab1827156x
+Record 999:  LeBAU_b1827156x aub_aco000127
+880 script fields: YES
+ERROR-880: Unlinked 880s: YES
+   880 $6 775-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 775-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+040 $e field: rda
+RDA fields: YES
+050 call number: BP163 .S53 1955
+Source entities (book IDs): aub_aco000127
+---------------------------------------------------------------------
+Institution ID: LeBAU_b18271698
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
+Record 999:  LeBAU_b18271698 aub_aco000165
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   490 - Maktabat al-jīl al-jadīd, silsilat al-‘ulūm al-mubassaṭah
+   830 - Maktabat al-jīl al-jadīd, silsilat al-‘ulūm al-mubassaṭah
+ERROR-880: Unlinked 880s: YES
+   880 $6 490-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 830-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: rda
+RDA fields: YES
+050 call number: Q171 .A23 1945
+Source entities (book IDs): aub_aco000165
+---------------------------------------------------------------------
+TOTAL Number of Records containing any type of error: 34
+

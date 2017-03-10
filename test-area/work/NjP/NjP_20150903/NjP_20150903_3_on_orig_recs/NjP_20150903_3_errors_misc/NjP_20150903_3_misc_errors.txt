@@ -1,0 +1,53 @@
+Records containing MISCELLANEOUS errors - batch NjP_20150903
+--  Each of these records contain at least one of the miscellaneous errors
+    recorded mostly for notice of validation errors or to identify programming issues
+--  List of possible miscellaneous errors:
+    --  the OCLC # in the OCLC batch record did not match on any OCLC #s in the original records
+    --  record contains multiple 999 fields
+    --  zero or multiple $6 subfields in 880s
+    --  record is missing an 040 field
+    --  record contains invalid replacement character (black diamond with question mark) - found in NYU records
+    --  code in the 003 does not match any of the partner institution codes
+    --  the 003/001 fields did not change from the OCLC # to the BSN during processing
+    --  the 003/001 fields in the handles.csv file did not match on any record in the batch
+    --  an 006 or 007 field is present in the original record (signifying an alternate format other than print)
+    --  record is missing a 245 title field, or has multiple 245 fields
+    --  a 245 $h GMD field is present in the original record (signifying an alternate format other than print)
+    --  the 245 $h GMD field was not added to a non-RDA e-version record during processing
+    --  the $6 subfield did not sort to the first position in the field - issue with NYU records
+Report produced: 2015-11-11 09:38:32.871172
+---------------------------------------------------------------------
+FILE: NjP_20150903_1/NjP_20150903_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NjP_2963626
+   orig_rec_035 num: =035  \\$a(OCoLC)123002097
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCGANW8114-B
+   orig_rec_035 num: =035  \\$a(NNC)notisANW8114
+   orig_rec_035 num: =035  \\$9CPK7329TS
+Record 999:  NjP_2963626
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): princeton_aco000168:vol.1
+---------------------------------------------------------------------
+Institution ID: NjP_719355
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn175988247
+   orig_rec_035 num: =035  \\$a(OCoLC)175988247
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG92-B26365
+   orig_rec_035 num: =035  \\$9ADF5905TS
+   orig_rec_035 num: =035  \\$a(NjP)719355
+Record 999:  719355
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   830 - Princeton University Arabic collection ; cn. 9201119.01.
+040 $e field: [none]
+ERROR-MISC: 007  hd bfa013baaa
+ERROR-MISC: 007  hd bfa013baba
+ERROR-MISC: 007  hd afa013baca
+ERROR-MISC: Original record for the print contains a 245$h GMD: [microform].
+Source entities (book IDs): princeton_aco000087
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NjP_20150903_1/NjP_20150903_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing miscellaneous errors: 2
+

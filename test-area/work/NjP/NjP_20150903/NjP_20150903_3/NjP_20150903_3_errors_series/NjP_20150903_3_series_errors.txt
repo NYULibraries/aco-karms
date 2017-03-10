@@ -1,0 +1,11 @@
+Records containing SERIES errors - batch NjP_20150903
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2016-05-19 11:53:11.156365
+---------------------------------------------------------------------
+FILE: NjP_20150903_3/NjP_20150903_3_updates.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 0
+

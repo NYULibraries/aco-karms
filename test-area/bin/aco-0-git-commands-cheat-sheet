@@ -1,0 +1,90 @@
+ACO git commands:
+
+1)  Synch the master branch on the local clone with the git master branch
+--  navigate in Terminal to:  cd Documents/hpf-work/ACO/aco-karms
+--  make sure you are on the clone's master branch:  git branch  (*master should have the asterisk)
+--  if not on master, switch to it:  git checkout master
+--  synch the master branches:
+		git fetch
+	then,
+		git pull origin master
+	
+	versus
+		git fetch --all
+	or
+		git merge origin/master
+	* not sure how to get the clone master branch fully in synch with the remote/origin master branch, 
+	so that git status doesn't report:
+		"Your branch is [ahead/behind] origin/master by # commits and can be fast forwarded...
+		nothing to commit (working directory clean)"
+	* git fetch doesn't seem to retrieve any new files in origin/master, but git pull origin master does
+	* git pull origin master sometimes results in the git status message:
+		"Your branch is ahead of 'origin/master' by # commits..."
+
+2)  Once the master branch is synched, create a feature branch for the batch to be processed
+--  create the feature branch using the institutional code and the date of the batch:
+		git checkout -b [institutional code]_[batch date]
+		git checkout -b NNC_20140805
+
+3)  Run the Python scripts and analysis on the batch files
+
+4)  Before ever switching branches, Add and Commit the changes made to the current feature branch
+--  check the status of the branch:  git status
+--  add the files to be tracked for commit:
+		to track *all* files in the list:  git add .
+		to track *only* the particular batch files:
+			git add work/[inst.code]/[inst.code]_[batch date]*
+			git add work/NNC/NNC_20140805*
+--  use the following command to check what changes were made to files:
+		git diff
+		git diff <filename>
+--  use the following command to remove any untracked files and/or directories:
+		git clean -f -d
+	OR you can specify a particular directory:
+		git clean -f -d work/NNU/NNU_20140304
+--  use the following command to remove any tracked files and/or directories:
+		git checkout -- [file/directory]
+	use an asterisk for truncation:
+		git checkout -- work//NNC/NNC_20140805*
+--  commit the changes to the tracked files
+		git commit -am 'Process updates - [inst.name] - [inst.code]_[batch date] - [Jira Tkt #] - [STATUS]
+	Examples:
+		git commit -am 'Process new - Columbia-1 - NNC_20140805 - DLTSACO-45'
+		git commit -am 'Process 1st updates - Columbia-1 - NNC_20140805 - DLTSACO-45'
+		git commit -am 'Process 2nd updates - Columbia-1 - NNC_20140805 - DLTSACO-45 - FINAL SET'
+		git commit -am 'Process new - NYU-1 - NNU_20140527 - DLTSACO-32 - WILL NEED REPULLED'
+		git commit -am 'Process 1st updates - NYU-1 - NNU_20140527 - DLTSACO-32 - WILL NEED REPULLED'
+		git commit -am 'Process 2nd updates - NYU-1 - NNU_20140527 - DLTSACO-32 - FINAL SET'
+	NOTE: the -a parameter signifies to include deleted files in the commit without having to separately run the "rm" command
+
+5)  Once all updates are finished for the batch and the final records are complete:
+--  push the feature branch to git:
+		git push origin [feature_branch_name]
+		git push origin [inst.code]_[batch date]
+		git push origin NNC_20140805
+		[enter your git username/password]
+--  log into www.github.com and navigate to the aco-karms repo
+--  the pushed feature branch should appear with an option to Compare and Pull Request for the feature branch
+--  for the Pull Request, use:  base: master  and  compare: feature branch
+--  process the Pull Request to merge the feature branch into the master branch, confirm the merge, and once successful, delete the feature branch
+
+6)  After the Pull Request is completed:
+--  re-synch the master branch on the local clone with the git master branch (step 1 above)
+--  delete the feature branch on the local clone:
+		git branch -d [feature_branch_name]
+		git branch -d [inst.code]_[batch date]
+		git branch -d NNC_20140805
+	NOTE: you must *not* be active on the feature branch in order to be able to delete the feature branch
+	NOTE: use a capital -D if you get a message the the branch is not fully merged and you are sure you want to delete it
+
+7)  If for some reason, the master branch on the local clone is extremely different from the master branch on git,
+and there are files and/or directories on the local clone that you do *not* want to keep, you can completely overwrite the master branch on the local clone
+by doing the following:
+	switch to the master branch on the clone:  git checkout master
+	download the latest version of the aco-karms repo from git:  git fetch --all
+	overwrite the clone master branch with the git master branch:  git reset --hard origin/master
+OR, if that doesn't work:
+	remove any untracked *files* on the local clone's master branch:  git clean -f
+	remove any untracked *directories* on the local clone's master branch:  git clean -d --force
+	NOTE:  --force must be used when removing untracked directories
+	NOTE:  these processes are not undoable so make sure the files you are overwriting on the local clone are indeed trash

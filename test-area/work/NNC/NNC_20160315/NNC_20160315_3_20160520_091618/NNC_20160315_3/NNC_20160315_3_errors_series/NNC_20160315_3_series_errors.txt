@@ -1,0 +1,24 @@
+Records containing SERIES errors - batch NNC_20160315
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2016-05-20 09:00:34.654659
+---------------------------------------------------------------------
+FILE: NNC_20160315_3/NNC_20160315_3_updates.mrc
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm10535723 
+   oclc_rec_035_num: (OCoLC)10535723
+Institution ID: NNC_662302
+Record 999:  NNC_662302 (OCoLC)ocm10535723 columbia_aco002001
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   490 - Wisdom of Persia series ; 24
+   710 - McGill University. Institute of Islamic Studies. Tehran Branch.
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): columbia_aco002001
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 1
+

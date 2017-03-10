@@ -1,0 +1,81 @@
+Records containing MISCELLANEOUS errors - batch NNC_20160122
+--  Each of these records contain at least one of the miscellaneous errors
+    recorded mostly for notice of validation errors or to identify programming issues
+--  List of possible miscellaneous errors:
+    --  the OCLC # in the OCLC batch record did not match on any OCLC #s in the original records
+    --  record contains multiple 999 fields
+    --  zero or multiple $6 subfields in 880s
+    --  record is missing an 040 field
+    --  record contains invalid replacement character (black diamond with question mark) - found in NYU records
+    --  code in the 003 does not match any of the partner institution codes
+    --  the 003/001 fields did not change from the OCLC # to the BSN during processing
+    --  the 003/001 fields in the handles.csv file did not match on any record in the batch
+    --  an 006 or 007 field is present in the original record (signifying an alternate format other than print)
+    --  record is missing a 245 title field, or has multiple 245 fields
+    --  a 245 $h GMD field is present in the original record (signifying an alternate format other than print)
+    --  the 245 $h GMD field was not added to a non-RDA e-version record during processing
+    --  the $6 subfield did not sort to the first position in the field - issue with NYU records
+Report produced: 2016-02-23 08:56:55.676353
+---------------------------------------------------------------------
+FILE: NNC_20160122_1/NNC_20160122_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNC_646916
+   orig_rec_035 num: =035  \\$a(OCoLC)507083218
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn507083218
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B32501
+   orig_rec_035 num: =035  \\$9ACV3939CU
+   orig_rec_035 num: =035  \\$a(NNC)646916
+Record 999:  NNC_646916
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): columbia_aco001683
+---------------------------------------------------------------------
+Institution ID: NNC_647140
+   orig_rec_035 num: =035  \\$a(OCoLC)60601315
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm60601315
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B32724
+   orig_rec_035 num: =035  \\$9ACV4183CU
+   orig_rec_035 num: =035  \\$a(NNC)647140
+Record 999:  NNC_647140
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): columbia_aco001699
+---------------------------------------------------------------------
+Institution ID: NNC_647482
+   orig_rec_035 num: =035  \\$a(OCoLC)23499504
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm23499504
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B33058
+   orig_rec_035 num: =035  \\$9ACV4546CU
+   orig_rec_035 num: =035  \\$a(NNC)647482
+Record 999:  NNC_647482
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): columbia_aco001682
+---------------------------------------------------------------------
+Institution ID: NNC_647937
+   orig_rec_035 num: =035  \\$a(OCoLC)60601323
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm60601323
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B33512
+   orig_rec_035 num: =035  \\$9ACV5036CU
+   orig_rec_035 num: =035  \\$a(NNC)647937
+Record 999:  NNC_647937
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): columbia_aco001695
+---------------------------------------------------------------------
+Institution ID: NNC_650217
+   orig_rec_035 num: =035  \\$a(OCoLC)60601360
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm60601360
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B35775
+   orig_rec_035 num: =035  \\$9ACV7422CU
+   orig_rec_035 num: =035  \\$a(NNC)650217
+Record 999:  NNC_650217
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): columbia_aco001681
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNC_20160122_1/NNC_20160122_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing miscellaneous errors: 5
+

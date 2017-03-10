@@ -1,0 +1,30 @@
+Records containing UNLINKED 880 script fields - batch NNC_20160315
+--  At least one 880 field has sequence number -00 in subfield $6,
+    meaning it is not linked to the corresponding parallel field
+Report produced: 2016-04-08 15:49:28.179469
+---------------------------------------------------------------------
+FILE: NNC_20160315_1/NNC_20160315_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNC_790372
+   orig_rec_035 num: =035  \\$a(NNC)790372
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm21242228
+   orig_rec_035 num: =035  \\$a(OCoLC)21242228$z(OCoLC)27440473$z(OCoLC)60775590
+Record 999:  NNC_790372
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   245 - al-Bahjah al-marḍīyah [i.e. al-murḍiyah] fī sharḥ al-Alfīyah / li-Jalāl al-Dīn ʻAbd al-Raḥmān ibn Abī Bakr al-Suyūṭī.
+   246 - Kitāb al-Suyūṭī
+   246 - Suyūṭī
+   260 - [Qum?] : al-Maktabah al-Islāmīyah, [198-?]
+ERROR-880: Unlinked 880s: YES
+   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): columbia_aco001807
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNC_20160315_1/NNC_20160315_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing unlinked 880 script fields: 1
+

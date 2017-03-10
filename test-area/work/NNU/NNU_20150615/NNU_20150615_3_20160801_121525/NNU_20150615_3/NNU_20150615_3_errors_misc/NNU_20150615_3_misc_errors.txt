@@ -1,0 +1,36 @@
+Records containing MISCELLANEOUS errors - batch NNU_20150615
+--  Each of these records contain at least one of the miscellaneous errors
+    recorded mostly for notice of validation errors or to identify programming issues
+--  List of possible miscellaneous errors:
+    --  the OCLC # in the OCLC batch record did not match on any OCLC #s in the original records
+    --  record contains multiple 999 fields
+    --  zero or multiple $6 subfields in 880s
+    --  record is missing an 040 field
+    --  record contains invalid replacement character (black diamond with question mark) - found in NYU records
+    --  code in the 003 does not match any of the partner institution codes
+    --  the 003/001 fields did not change from the OCLC # to the BSN during processing
+    --  the 003/001 fields in the handles.csv file did not match on any record in the batch
+    --  an 006 or 007 field is present in the original record (signifying an alternate format other than print)
+    --  record is missing a 245 title field, or has multiple 245 fields
+    --  a 245 $h GMD field is present in the original record (signifying an alternate format other than print)
+    --  the 245 $h GMD field was not added to a non-RDA e-version record during processing
+    --  the $6 subfield did not sort to the first position in the field - issue with NYU records
+    --  record is missing a call number - no 050 or 090 field
+Report produced: 2016-08-01 11:38:15.428059
+---------------------------------------------------------------------
+FILE: NNU_20150615_1/NNU_20150615_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNU_20150615_1/NNU_20150615_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNU_000397895
+   orig_rec_035 num: =035  9\$aNYUb13381590
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYUG06-B2453
+Record 999:  NNU_000397895
+880 script fields: YES
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): nyu_aco001188:v.1, nyu_aco001189:v.2, nyu_aco001190:v.3, nyu_aco001191:v.4, nyu_aco001192:v.5, nyu_aco001193:v.6, nyu_aco001194:v.7, nyu_aco001195:v.8
+---------------------------------------------------------------------
+TOTAL Number of Records containing miscellaneous errors: 1
+

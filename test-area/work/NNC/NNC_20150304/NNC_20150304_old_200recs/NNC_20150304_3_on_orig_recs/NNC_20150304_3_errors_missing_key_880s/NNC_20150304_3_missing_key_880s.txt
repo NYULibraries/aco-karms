@@ -1,0 +1,54 @@
+Records MISSING KEY 880 script fields - batch NNC_20150304
+--  At least one of the key fields is missing subfield $6,
+    so the corresponding 880 script field is missing or unlinked
+--  Key fields:
+    100, 110, 111, 130
+    240, 245, 246, 250, 260, 264
+    440, 490
+    700, 710, 711, 730
+    800, 810, 811, 830
+Report produced: 2015-03-13 15:13:49.587227
+---------------------------------------------------------------------
+FILE: NNC_20150304_1/NNC_20150304_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNC_2019492
+   orig_rec_035 num: =035  \\$a(OCoLC)30329971
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm30329971
+   orig_rec_035 num: =035  \\$9AMP8103CU
+   orig_rec_035 num: =035  \\$a(NNC)2019492
+Record 999:  NNC_2019492
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Qesal
+040 $e field: [none]
+Source entities (book IDs): columbia_aco000547
+---------------------------------------------------------------------
+Institution ID: NNC_3068047
+   orig_rec_035 num: =035  \\$a(OCoLC)453139628
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn453139628
+   orig_rec_035 num: =035  \\$9ATP0471CU
+   orig_rec_035 num: =035  \\$a(NNC)3068047
+Record 999:  NNC_3068047
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Nihayat-ul-arab fi maʻrifat ansab al-Arab
+040 $e field: [none]
+Source entities (book IDs): columbia_aco000445
+---------------------------------------------------------------------
+Institution ID: NNC_3076905
+   orig_rec_035 num: =035  \\$a(OCoLC)21789239
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm21789239
+   orig_rec_035 num: =035  \\$9ATQ0520CU
+   orig_rec_035 num: =035  \\$a(NNC)3076905
+Record 999:  NNC_3076905
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Iraqi political poetry in the nineteenth century
+040 $e field: [none]
+Source entities (book IDs): columbia_aco000472
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNC_20150304_1/NNC_20150304_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records missing key 880 script fields: 3
+
