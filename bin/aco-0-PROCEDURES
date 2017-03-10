@@ -1,6 +1,7 @@
 Procedures for processing MARC files for ACO:
 
 -  (Once Only) Set up clone of git repository for "aco-karms" on local computer
+
 -  For a NEW batch of Columbia, Cornell, or Princeton records:
     -  Create a new branch on local git clone using command:  git checkout -b [BATCH NAME]  --> git checkout -b NNC_20170109
     -  Navigate to the "bin" folder:  cd bin
@@ -51,6 +52,11 @@ Procedures for processing MARC files for ACO:
         -  Update the master branch on your local clone:  git fetch     THEN    git pull origin master
         -  View branches on local clone:  git branch
         -  Delete the feature branch on local clone:  git branch -d NNC_20170109
-    -  a
+    -  Update the batch queue table - change "Cataloging Status" column to "QC1-37r" (i.e., noting the number of records in the errors file) and the "Owner" column to "AA" for Adham Alok
+
+-  Once Adham has finished his QC, he will place his updates file onto the Box drive
+
+-  To process QC UPDATES:
+
 
 
