@@ -1,0 +1,77 @@
+Records containing SERIES errors - batch NjP_20150903
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2015-11-11 09:38:32.871172
+---------------------------------------------------------------------
+FILE: NjP_20150903_1/NjP_20150903_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NjP_2754538
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn178212890
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm18582312
+   orig_rec_035 num: =035  \\$a(OCoLC)178212890
+   orig_rec_035 num: =035  \\$9CNE7696TS
+   orig_rec_035 num: =035  \\$a(NjP)2754538
+Record 999:  2754538
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Silsilat al-kutub al-ḥadīthah ; 15
+040 $e field: [none]
+Source entities (book IDs): princeton_aco000149
+---------------------------------------------------------------------
+Institution ID: NjP_2768672
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn178404736
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm30928442
+   orig_rec_035 num: =035  \\$a(OCoLC)178404736
+   orig_rec_035 num: =035  \\$9CNG5033TS
+   orig_rec_035 num: =035  \\$a(NjP)2768672
+Record 999:  2768672
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Dawāwīn ṣaghīrah ; 1
+040 $e field: [none]
+Source entities (book IDs): princeton_aco000194
+---------------------------------------------------------------------
+Institution ID: NjP_2771622
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn178455238
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm36263765
+   orig_rec_035 num: =035  \\$a(OCoLC)178455238
+   orig_rec_035 num: =035  \\$9CNG8586TS
+   orig_rec_035 num: =035  \\$a(NjP)2771622
+Record 999:  2771622
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Silsilat al-thaqāfah al-ʻāmmah ; 6
+040 $e field: [none]
+Source entities (book IDs): princeton_aco000031
+---------------------------------------------------------------------
+Institution ID: NjP_2787649
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn178689150
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm42853993
+   orig_rec_035 num: =035  \\$a(OCoLC)178689150
+   orig_rec_035 num: =035  \\$9CNJ6659TS
+   orig_rec_035 num: =035  \\$a(NjP)2787649
+Record 999:  2787649
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-03 Intishārāt-i Dānis. gāh-i Tihrān, 1320
+040 $e field: [none]
+Source entities (book IDs): princeton_aco000035
+---------------------------------------------------------------------
+Institution ID: NjP_4139668
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn179654688
+   orig_rec_035 num: =035  \\$a(OCoLC)179654688
+   orig_rec_035 num: =035  \\$a(NjP)4139668
+Record 999:  4139668
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Silsilah adabīyah tārīkhīyah naḥwīyah
+040 $e field: [none]
+Source entities (book IDs): princeton_aco000072
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NjP_20150903_1/NjP_20150903_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 5
+

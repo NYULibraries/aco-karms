@@ -1,0 +1,60 @@
+Records containing MISCELLANEOUS errors - batch NIC_20141113
+--  Each of these records contain at least one of the miscellaneous errors
+    recorded mostly for notice of validation errors or to identify programming issues
+--  List of possible miscellaneous errors:
+    --  the OCLC # in the OCLC batch record did not match on any OCLC #s in the original records
+    --  record contains multiple 999 fields
+    --  zero or multiple $6 subfields in 880s
+    --  record is missing an 040 field
+    --  record contains invalid replacement character (black diamond with question mark) - found in NYU records
+    --  code in the 003 does not match any of the partner institution codes
+    --  the 003/001 fields did not change from the OCLC # to the BSN during processing
+    --  the 003/001 fields in the handles.csv file did not match on any record in the batch
+    --  an 006 or 007 field is present in the original record (signifying an alternate format other than print)
+    --  record is missing a 245 title field, or has multiple 245 fields
+    --  a 245 $h GMD field is present in the original record (signifying an alternate format other than print)
+    --  the 245 $h GMD field was not added to a non-RDA e-version record during processing
+    --  the $6 subfield did not sort to the first position in the field - issue with NYU records
+Report produced: 2015-05-05 13:28:17.658962
+---------------------------------------------------------------------
+FILE: NIC_20141113_2_oclc_recs_batch.mrc
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm25583557 
+   oclc_rec_035_num: (OCoLC)25583557
+Institution ID: NIC_3146337
+Record 999:  NIC_3146337 (OCoLC)ocm25583557
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: 007  hd bfa010baaa
+ERROR-MISC: 007  hd bfa010baba
+ERROR-MISC: 007  hd afa010baca
+Source entities (book IDs): cornell_aco000132
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm60467165 
+   oclc_rec_035_num: (OCoLC)60467165
+Institution ID: NIC_1924073
+Record 999:  NIC_1924073 (OCoLC)ocm60467165
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+ERROR-MISC: 007  hd afa---buca
+ERROR-MISC: Original record for the print contains a 245$h GMD: [microform], li-Luwīs Shaykhū.
+Source entities (book IDs): cornell_aco000082
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm33873693 
+   oclc_rec_035_num: (OCoLC)33873693
+Institution ID: NIC_3533688
+Record 999:  NIC_3533688 (OCoLC)ocm33873693
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: 007  hd bfa011baaa
+ERROR-MISC: 007  hd bfa011baba
+ERROR-MISC: 007  hd afa011baca
+Source entities (book IDs): cornell_aco000164
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NIC_20141113_1/NIC_20141113_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing miscellaneous errors: 3
+

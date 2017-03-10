@@ -1,0 +1,14 @@
+Records containing SERIES errors - batch NNU_20150501
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2015-06-22 10:32:35.075460
+---------------------------------------------------------------------
+FILE: NNU_20150501_1/NNU_20150501_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNU_20150501_1/NNU_20150501_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 0
+

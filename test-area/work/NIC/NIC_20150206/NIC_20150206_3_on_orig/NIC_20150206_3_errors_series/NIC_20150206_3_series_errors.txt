@@ -1,0 +1,34 @@
+Records containing SERIES errors - batch NIC_20150206
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2015-03-16 11:19:42.336268
+---------------------------------------------------------------------
+FILE: NIC_20150206_1/NIC_20150206_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NIC_4412713
+   orig_rec_035 num: =035  \\$a(OCoLC)9181329
+   orig_rec_035 num: =035  \\$a4412713
+Record 999:  NIC_4412713
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): fī sabīl fahm al-falsafah al-Islāmīyah, Mushkilat al-Wujūd, 1
+040 $e field: [none]
+Source entities (book IDs): cornell_aco000208:v.1
+---------------------------------------------------------------------
+Institution ID: NIC_4431264
+   orig_rec_035 num: =035  \\$a(OCoLC)8223241
+   orig_rec_035 num: =035  \\$a4431264
+Record 999:  NIC_4431264
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Maktabat al-ʻilmay al-ʻāmmah, 14
+040 $e field: [none]
+Source entities (book IDs): cornell_aco000334
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NIC_20150206_1/NIC_20150206_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 2
+

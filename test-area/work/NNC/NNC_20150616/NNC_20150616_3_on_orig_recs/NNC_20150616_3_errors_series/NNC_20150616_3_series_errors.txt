@@ -1,0 +1,26 @@
+Records containing SERIES errors - batch NNC_20150616
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2015-07-23 07:21:01.185647
+---------------------------------------------------------------------
+FILE: NNC_20150616_1/NNC_20150616_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNC_783834
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm21241062
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG89-B69875
+   orig_rec_035 num: =035  \\$9ADZ9814CU
+Record 999:  NNC_783834
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Majmūʻah-ʾi mīrās̲-i Īrān va Islām
+040 $e field: [none]
+020s: YES
+Source entities (book IDs): columbia_aco001008
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNC_20150616_1/NNC_20150616_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 1
+

@@ -1,0 +1,117 @@
+Records containing SERIES errors - batch NjP_20160315
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2016-03-23 19:49:34.837101
+---------------------------------------------------------------------
+FILE: NjP_20160315_1/NjP_20160315_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NjP_1607513
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn177365525
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm15218555
+   orig_rec_035 num: =035  \\$a(OCoLC)177365525
+   orig_rec_035 num: =035  \\$9CFB6641TS
+   orig_rec_035 num: =035  \\$a(NjP)1607513
+Record 999:  1607513
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Poems
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Nafāʼis al-makhṭūṭāt, 2
+040 $e field: [none]
+Source entities (book IDs): princeton_aco000197
+---------------------------------------------------------------------
+Institution ID: NjP_2736924
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn177999066
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm07579307
+   orig_rec_035 num: =035  \\$a(OCoLC)177999066
+   orig_rec_035 num: =035  \\$9CNC5200TS
+   orig_rec_035 num: =035  \\$a(NjP)2736924
+Record 999:  2736924
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Nafāʼis al-makhṭụṭat, 3
+040 $e field: [none]
+Source entities (book IDs): princeton_aco000247
+---------------------------------------------------------------------
+Institution ID: NjP_2738838
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn178024314
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm08598918
+   orig_rec_035 num: =035  \\$a(OCoLC)178024314
+   orig_rec_035 num: =035  \\$9CNC7743TS
+   orig_rec_035 num: =035  \\$a(NjP)2738838
+Record 999:  2738838
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - Abū al-Hindī, 8th Century.
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Dawāwīn ṣaghīrah, 3
+040 $e field: [none]
+Source entities (book IDs): princeton_aco000290
+---------------------------------------------------------------------
+Institution ID: NjP_2768504
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn178401544
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm30612029
+   orig_rec_035 num: =035  \\$a(OCoLC)178401544
+   orig_rec_035 num: =035  \\$9CNG4834TS
+   orig_rec_035 num: =035  \\$a(NjP)2768504
+Record 999:  2768504
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   490 - Maṭbūʻāt Maʻhad al-ʻUlūm al-ʻUlyá al-Maghribīyah ; al-juzʼ 7 = Collection de textes Arabes publée par l'Institut des Hautes Études Marocaines ; v. vii
+   700 - Pérès, Henri.
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Maṭbūʻāt Maʻhad al-ʻUlūm al-ʻUlyá al-Maghribīyah ; al-juzʼ 7 = Collection de textes Arabes publée par l'Institut des Hautes Études Marocaines ; v. vii
+040 $e field: [none]
+Source entities (book IDs): princeton_aco000245
+---------------------------------------------------------------------
+Institution ID: NjP_353241
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn175995714
+   orig_rec_035 num: =035  \\$a(OCoLC)175995714
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG86-B9556
+   orig_rec_035 num: =035  \\$9ABS8615TS
+   orig_rec_035 num: =035  \\$a(NjP)353241
+Record 999:  353241
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Kitāb al-yawm ; al-ʻadad 240
+040 $e field: [none]
+020s: YES
+020a: 9771240986
+020s: YES
+020a: 9789771240983
+Source entities (book IDs): princeton_aco000318
+---------------------------------------------------------------------
+Institution ID: NjP_390372
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn175565464
+   orig_rec_035 num: =035  \\$a(OCoLC)175565464
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG87-B38312
+   orig_rec_035 num: =035  \\$9ABW5844TS
+   orig_rec_035 num: =035  \\$a(NjP)390372
+Record 999:  390372
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Ḥadīth al-shahr ; 3
+040 $e field: [none]
+Source entities (book IDs): princeton_aco000218
+---------------------------------------------------------------------
+Institution ID: NjP_464978
+   orig_rec_035 num: =035  \\$a(OCoLC)43151285
+   orig_rec_035 num: =035  \\$a(OCoLC)ocn175450061
+   orig_rec_035 num: =035  \\$a(OCoLC)175450061
+   orig_rec_035 num: =035  \\$a(CStRLIN)NJPG88-B44282
+   orig_rec_035 num: =035  \\$9ACE0637TS
+   orig_rec_035 num: =035  \\$a(NjP)464978
+Record 999:  464978
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 al-Kitāb al-dhahabī ; al-ʻadad 2 (Yūliyū 1952)
+040 $e field: [none]
+Source entities (book IDs): princeton_aco000331
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NjP_20160315_1/NjP_20160315_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 7
+

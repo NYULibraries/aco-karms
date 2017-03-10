@@ -1,0 +1,146 @@
+Records containing MISCELLANEOUS errors - batch NNC_20150616
+--  Each of these records contain at least one of the miscellaneous errors
+    recorded mostly for notice of validation errors or to identify programming issues
+--  List of possible miscellaneous errors:
+    --  the OCLC # in the OCLC batch record did not match on any OCLC #s in the original records
+    --  record contains multiple 999 fields
+    --  zero or multiple $6 subfields in 880s
+    --  record is missing an 040 field
+    --  record contains invalid replacement character (black diamond with question mark) - found in NYU records
+    --  code in the 003 does not match any of the partner institution codes
+    --  the 003/001 fields did not change from the OCLC # to the BSN during processing
+    --  the 003/001 fields in the handles.csv file did not match on any record in the batch
+    --  an 006 or 007 field is present in the original record (signifying an alternate format other than print)
+    --  record is missing a 245 title field, or has multiple 245 fields
+    --  a 245 $h GMD field is present in the original record (signifying an alternate format other than print)
+    --  the 245 $h GMD field was not added to a non-RDA e-version record during processing
+    --  the $6 subfield did not sort to the first position in the field - issue with NYU records
+Report produced: 2015-07-23 07:21:01.185647
+---------------------------------------------------------------------
+FILE: NNC_20150616_1/NNC_20150616_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNC_1098976
+   orig_rec_035 num: =035  \\$a(OCoLC)29277236
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm29277236
+   orig_rec_035 num: =035  \\$9AGE2678CU
+   orig_rec_035 num: =035  \\$a(NNC)1098976
+Record 999:  NNC_1098976
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): columbia_aco001171
+---------------------------------------------------------------------
+Institution ID: NNC_627563
+   orig_rec_035 num: =035  \\$a(OCoLC)40975467
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm40975467
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B13269
+   orig_rec_035 num: =035  \\$9ACT3480CU
+   orig_rec_035 num: =035  \\$a(NNC)627563
+Record 999:  NNC_627563
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): columbia_aco001188
+---------------------------------------------------------------------
+Institution ID: NNC_636557
+   orig_rec_035 num: =035  \\$a(OCoLC)15129361
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm15129361
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B22189
+   orig_rec_035 num: =035  \\$9ACU2969CU
+   orig_rec_035 num: =035  \\$a(NNC)636557
+Record 999:  NNC_636557
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): columbia_aco001003
+---------------------------------------------------------------------
+Institution ID: NNC_636692
+   orig_rec_035 num: =035  \\$a(OCoLC)60601125
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm60601125
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B22324
+   orig_rec_035 num: =035  \\$9ACU3113CU
+   orig_rec_035 num: =035  \\$a(NNC)636692
+Record 999:  NNC_636692
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): columbia_aco001004
+---------------------------------------------------------------------
+Institution ID: NNC_643424
+   orig_rec_035 num: =035  \\$a(OCoLC)60601227
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm60601227
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B29131
+   orig_rec_035 num: =035  \\$9ACV0267CU
+   orig_rec_035 num: =035  \\$a(NNC)643424
+Record 999:  NNC_643424
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): columbia_aco001178
+---------------------------------------------------------------------
+Institution ID: NNC_644857
+   orig_rec_035 num: =035  \\$a(OCoLC)60601248
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm60601248
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B30519
+   orig_rec_035 num: =035  \\$9ACV1781CU
+   orig_rec_035 num: =035  \\$a(NNC)644857
+Record 999:  NNC_644857
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): columbia_aco001006
+---------------------------------------------------------------------
+Institution ID: NNC_646872
+   orig_rec_035 num: =035  \\$a(OCoLC)60601307
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm60601307
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B32457
+   orig_rec_035 num: =035  \\$9ACV3895CU
+   orig_rec_035 num: =035  \\$a(NNC)646872
+Record 999:  NNC_646872
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): columbia_aco001175
+---------------------------------------------------------------------
+Institution ID: NNC_647272
+   orig_rec_035 num: =035  \\$a(OCoLC)80238181
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm80238181
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B32855
+   orig_rec_035 num: =035  \\$9ACV4324CU
+   orig_rec_035 num: =035  \\$a(NNC)647272
+Record 999:  NNC_647272
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): columbia_aco001005
+---------------------------------------------------------------------
+Institution ID: NNC_647577
+   orig_rec_035 num: =035  \\$a(OCoLC)60601318
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm60601318
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B33149
+   orig_rec_035 num: =035  \\$9ACV4647CU
+   orig_rec_035 num: =035  \\$a(NNC)647577
+Record 999:  NNC_647577
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): columbia_aco001182
+---------------------------------------------------------------------
+Institution ID: NNC_657851
+   orig_rec_035 num: =035  \\$a(OCoLC)60601416
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm60601416
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B43861
+   orig_rec_035 num: =035  \\$9ACW5474CU
+   orig_rec_035 num: =035  \\$a(NNC)657851
+Record 999:  NNC_657851
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): columbia_aco001177
+---------------------------------------------------------------------
+Institution ID: NNC_695951
+   orig_rec_035 num: =035  \\$a(OCoLC)60775389
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm60775389
+   orig_rec_035 num: =035  \\$a(CStRLIN)NYCG88-B82325
+   orig_rec_035 num: =035  \\$9ADA6168CU
+   orig_rec_035 num: =035  \\$a(NNC)695951
+Record 999:  NNC_695951
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+Source entities (book IDs): columbia_aco001193
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNC_20150616_1/NNC_20150616_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing miscellaneous errors: 11
+

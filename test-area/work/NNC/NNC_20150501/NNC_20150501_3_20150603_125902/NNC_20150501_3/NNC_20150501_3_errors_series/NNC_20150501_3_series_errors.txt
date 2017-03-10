@@ -1,0 +1,51 @@
+Records containing SERIES errors - batch NNC_20150501
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2015-06-03 12:53:09.330700
+---------------------------------------------------------------------
+FILE: NNC_20150501_2_oclc_recs_batch.mrc
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm13587186 
+   oclc_rec_035_num: (OCoLC)13587186
+   oclc_rec_035_num: (OCoLC)29784840
+Institution ID: NNC_3071414
+Record 999:  NNC_3071414 (OCoLC)ocm13587186
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Livre des mulets
+   490 - Bibliothèque Jàhizienne
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Bibliothèque Jàhizienne
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): columbia_aco000671
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm38164539 
+   oclc_rec_035_num: (OCoLC)38164539
+   oclc_rec_035_num: (OCoLC)85077480
+   oclc_rec_035_num: (OCoLC)886705514
+Institution ID: NNC_3071405
+Record 999:  NNC_3071405 (OCoLC)ocm38164539
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - Wiet, Gaston, 1887-1971.
+   245 - Fihris ʻAjāʼib al-āthār fī al-tarājim wa-al-akhbār : ʻan al-naskhah al-maṭbūʻah fī 4 ajzāʼ fī Maṭbaʻat Būlāq sanat 1297 H. / ʻAbd al-Raḥmān al-Jabartī ; qāma bi-ʻamalihi Jāstūn Vīyit ; rājaʻahu wa-nassaqahu wa-ashrafa ʻalá ṭabʻihi ʻAbd al-Raḥmān Zakī.
+   246 - Index de Djabarti Merveilles biographiques et historiques
+   490 - Jāmʻiyah Miṣrīyah. ʼal-Dirāsāt ʼal-Tārīkhīyah
+   710 - Jamʻīyah al-Miṣrīyah lil-Dirāsāt al-Tārīkhīyah.
+ERROR-880: Unlinked 880s: YES
+   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 246-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Jāmʻiyah Miṣrīyah. ʼal-Dirāsāt ʼal-Tārīkhīyah
+040 $e field: [none]
+RDA fields: YES
+Source entities (book IDs): columbia_aco000670
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNC_20150501_1/NNC_20150501_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 2
+

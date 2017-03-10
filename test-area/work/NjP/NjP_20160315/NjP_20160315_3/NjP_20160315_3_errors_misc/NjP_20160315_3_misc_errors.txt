@@ -1,0 +1,38 @@
+Records containing MISCELLANEOUS errors - batch NjP_20160315
+--  Each of these records contain at least one of the miscellaneous errors
+    recorded mostly for notice of validation errors or to identify programming issues
+--  List of possible miscellaneous errors:
+    --  the OCLC # in the OCLC batch record did not match on any OCLC #s in the original records
+    --  record contains multiple 999 fields
+    --  zero or multiple $6 subfields in 880s
+    --  record is missing an 040 field
+    --  record contains invalid replacement character (black diamond with question mark) - found in NYU records
+    --  code in the 003 does not match any of the partner institution codes
+    --  the 003/001 fields did not change from the OCLC # to the BSN during processing
+    --  the 003/001 fields in the handles.csv file did not match on any record in the batch
+    --  an 006 or 007 field is present in the original record (signifying an alternate format other than print)
+    --  record is missing a 245 title field, or has multiple 245 fields
+    --  a 245 $h GMD field is present in the original record (signifying an alternate format other than print)
+    --  the 245 $h GMD field was not added to a non-RDA e-version record during processing
+    --  the $6 subfield did not sort to the first position in the field - issue with NYU records
+Report produced: 2016-07-08 12:55:17.198776
+---------------------------------------------------------------------
+FILE: NjP_20160315_3/NjP_20160315_3_updates.mrc
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm28105554 
+   oclc_rec_035_num: (OCoLC)28105554
+Institution ID: NjP_805755
+Record 999:  NjP_805755 (OCoLC)ocm28105554 princeton_aco000248
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   830 - Princeton University Arabic collection ; cn. 9201668.06.
+   830 - Princeton University Arabic collection. Phase II.
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: 007  hd bfa011baaa
+ERROR-MISC: 007  hd bfa011baba
+ERROR-MISC: 007  hd afa011baca
+Source entities (book IDs): princeton_aco000248
+---------------------------------------------------------------------
+TOTAL Number of Records containing miscellaneous errors: 1
+

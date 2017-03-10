@@ -1,0 +1,67 @@
+Procedures for processing MARC files for ACO:
+
+-  (Once Only) Set up clone of git repository for "aco-karms" on local computer:  git clone https://github.com/NYULibraries/aco-karms.git
+
+-  For a NEW batch of Columbia, Cornell, or Princeton records:
+    1)  Update the master branch on your local clone:  git fetch     THEN    git pull origin master
+    2)  Create a new branch on local git clone using command:  git checkout -b [BATCH NAME]  --> git checkout -b NNC_20170109
+    3)  Navigate to the "bin" folder:  cd bin
+    4)  View the files in bin:  ls
+    5)  Run Python script to process xml and OCLC numbers:  python aco-1-xml2mrc-oclc-nums.py
+    6)  Run Python script to check and convert records based on original partner's records:  python aco-3-process.py
+    7)  Rename new folder of processed records in the batch folder, adding suffix "_on_orig_recs" (e.g., NNC_20170109_3_on_orig_recs)
+    8)  Manually export OCLC records from Connexion for those print records containing an OCLC number (see file: aco-2-export-oclc-recs-MANUAL.docx)
+    9)  Name the file of OCLC records using this pattern:  [BATCH NAME]_2_oclc_recs_batch.mrc  --> NNC_20170109_3_oclc_recs_batch.mrc
+    10) Place file of OCLC records into batch folder
+    11) Re-Run Python script to check and convert records based on OCLC records:  python aco-3-process.py
+    12) Review the errors files found in the folder: [BATCH NAME]_3  --> NNC_20170109/NNC_20170109_3
+        -  Check the file named "[BATCH NAME]_3_all_recs_analysis.txt" to see how many records were logged with errors
+        -  Copy the 2 files named "[BATCH NAME]_3_errors_all.mrc" and "[BATCH NAME]_3_errors_all.txt" onto Box so Adham can retrieve them for QC
+    13) Assign the Jira ticket to Adham with a message similar to this:
+        -  Adham, This new batch has been processed - Columbia-12 (NNC_20170109) - and is ready for your 1st round of QC.
+           There are 37 records in the errors file, which have been copied to Box.  Please let me know if you've any questions or problems.
+           Thanks!
+           
+           For everyone, here are the stats for this 1st round of QC:
+           ----------------------------------------------------------
+           Total records processed - batch NNC_20170109: 48 records
+           Report produced: 2017-01-17 14:04:13.376957
+           Input File (oclc_batch): 48
+           Input File (orig_no_oclc): 0
+           
+           Records where OCLC nums did not match: 0
+           Total records containing any type of error for this round: 37 (77.1%)
+           Total records passing to final version for this round: 11 (22.9%)
+           -----------------------
+           Records containing 880 script fields: 27 (56.3%)
+           Records with NO 880 script fields: 21 (43.8%)
+           Records missing key 880 script fields: 15 (31.3%)
+           Records containing unlinked 880 script fields: 10 (20.8%)
+           Records containing series errors in 490/800/810/811/830 fields: 0 (0.0%)
+           Records containing miscellaneous errors: 8 (16.7%)
+           Records containing bad encoding replacement character: 0
+           Records containing RDA fields: 48 (100.0%)
+           Records with NO 050 or 090 call number fields: 8 (16.7%)
+    14) Navigate to the top folder of the git repo:  cd ..
+    15) Update github with feature branch and changes on clone:
+        -  git status                                        // to check which files have been changed on branch
+        -  git add work/[INST CODE]/[BRANCH NAME]*           // to add the files to be committed (e.g., git add work/NNC/NNC_20170109*)
+        -  git commit -am 'Process new - Columbia-12 - NNC_20170109 - DLTSACO-464'      // to commit the changed/added files
+        -  git push origin [FEATURE BRANCH NAME]            // to push the committed files to github (e.g., git push origin NNC_20170109)
+        -  Go to the aco-karms repo on github.com and process the pull request, then delete the feature branch on github.com
+        -  Move to the master branch on your local clone:  git checkout master
+        -  Update the master branch on your local clone:  git fetch     THEN    git pull origin master
+        -  View branches on local clone:  git branch
+        -  Delete the feature branch on local clone:  git branch -d NNC_20170109
+    16) Update the batch queue table - change "Cataloging Status" column to "QC1-37r" (i.e., noting the number of records in the errors file) and the "Owner" column to "AA" for Adham Alok
+
+-  For a NEW batch of AUB or NYU records:
+    -  The only difference is you do NOT retrieve the OCLC records and the processing is solely based on the original partner's records
+    -  i.e., SKIP steps 7-11
+    
+-  Once Adham has finished his QC, he will place his updates file onto the Box drive
+
+-  To process QC UPDATES:
+
+
+
