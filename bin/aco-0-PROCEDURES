@@ -8,6 +8,13 @@ Procedures for processing MARC files for ACO:
     3)  Navigate to the "bin" folder:  cd bin
     4)  View the files in bin:  ls
     5)  Run Python script to process xml and OCLC numbers:  python aco-1-xml2mrc-oclc-nums.py
+        -  Enter the institutional code:
+            AUB = LeBAU
+            Cornell = NIC
+            Columbia = NNC
+            New York Univ = NNU
+            Princeton = NjP
+         -  Enter the batch date in the form YYYYMMDD
     6)  Run Python script to check and convert records based on original partner's records:  python aco-3-process.py
     7)  Rename new folder of processed records in the batch folder, adding suffix "_on_orig_recs" (e.g., NNC_20170109_3_on_orig_recs)
     8)  Manually export OCLC records from Connexion for those print records containing an OCLC number (see file: aco-2-export-oclc-recs-MANUAL.docx)
