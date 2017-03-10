@@ -1,0 +1,1030 @@
+Records containing MISCELLANEOUS errors - batch LeBAU_20170203
+--  Each of these records contain at least one of the miscellaneous errors
+    recorded mostly for notice of validation errors or to identify programming issues
+--  List of possible miscellaneous errors:
+    --  the OCLC # in the OCLC batch record did not match on any OCLC #s in the original records
+    --  record contains multiple 999 fields
+    --  zero or multiple $6 subfields in 880s
+    --  record is missing an 040 field
+    --  record contains invalid replacement character (black diamond with question mark) - found in NYU records
+    --  code in the 003 does not match any of the partner institution codes
+    --  the 003/001 fields did not change from the OCLC # to the BSN during processing
+    --  the 003/001 fields in the handles.csv file did not match on any record in the batch
+    --  an 006 or 007 field is present in the original record (signifying an alternate format other than print)
+    --  record is missing a 245 title field, or has multiple 245 fields
+    --  a 245 $h GMD field is present in the original record (signifying an alternate format other than print)
+    --  the 245 $h GMD field was not added to a non-RDA e-version record during processing
+    --  the $6 subfield did not sort to the first position in the field - issue with NYU records
+    --  record is missing a call number - no 050 or 090 field
+Report produced: 2017-03-10 16:37:51.107912
+---------------------------------------------------------------------
+FILE: LeBAU_20170203_1/LeBAU_20170203_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12309849
+   orig_rec_035 num: =035  \\$aocn784181260
+Record 999:  LeBAU_b12309849
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - School library : the English & Arabic alphabetical index for its decimal classification Added title page title of volume 2:
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000943:v.1, aub_aco000944:v.2
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12314456
+   orig_rec_035 num: =035  \\$aocn784184668
+Record 999:  LeBAU_b12314456
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000824
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12330450
+   orig_rec_035 num: =035  \\$aocn784206269
+Record 999:  LeBAU_b12330450
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000808
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12330978
+   orig_rec_035 num: =035  \\$aocn784206352
+Record 999:  LeBAU_b12330978
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000801
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12331508
+   orig_rec_035 num: =035  \\$aocn784206902
+Record 999:  LeBAU_b12331508
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000805:v.1, aub_aco000806:v.2
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12331624
+   orig_rec_035 num: =035  \\$aocn784206919
+Record 999:  LeBAU_b12331624
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000802
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12331648
+   orig_rec_035 num: =035  \\$aocn784206921
+Record 999:  LeBAU_b12331648
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000807
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12331880
+   orig_rec_035 num: =035  \\$aocn784206950
+Record 999:  LeBAU_b12331880
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Western awakening to Islam. Arabic.
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000803
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12332033
+   orig_rec_035 num: =035  \\$aocn784206968
+Record 999:  LeBAU_b12332033
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000804
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12332112
+   orig_rec_035 num: =035  \\$aocn784206976
+Record 999:  LeBAU_b12332112
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000868
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12332161
+   orig_rec_035 num: =035  \\$aocn784206981
+Record 999:  LeBAU_b12332161
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000869
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12332288
+   orig_rec_035 num: =035  \\$aocn784206995
+Record 999:  LeBAU_b12332288
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000810
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12332380
+   orig_rec_035 num: =035  \\$aocn784207005
+Record 999:  LeBAU_b12332380
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Thus spoke Zarathustra. Arabic
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000814
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12332495
+   orig_rec_035 num: =035  \\$aocm83083793 
+Record 999:  LeBAU_b12332495
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000873
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12332501
+   orig_rec_035 num: =035  \\$aocn784207017
+Record 999:  LeBAU_b12332501
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000811
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12332550
+   orig_rec_035 num: =035  \\$aocn784207022
+Record 999:  LeBAU_b12332550
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000874
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12332689
+   orig_rec_035 num: =035  \\$aocn784207044
+Record 999:  LeBAU_b12332689
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000875
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12332719
+   orig_rec_035 num: =035  \\$aocn784207055
+Record 999:  LeBAU_b12332719
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000815
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12332756
+   orig_rec_035 num: =035  \\$aocn784207066
+Record 999:  LeBAU_b12332756
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000816
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12332768
+   orig_rec_035 num: =035  \\$aocn784207068
+Record 999:  LeBAU_b12332768
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Philosophie d'Auguste Comte. Arabic
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000818
+---------------------------------------------------------------------
+Institution ID: LeBAU_b1233277x
+   orig_rec_035 num: =035  \\$aocn784207074
+Record 999:  LeBAU_b1233277x
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Essai sur les données immédiates de la conscience. Arabic
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000817
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12332781
+   orig_rec_035 num: =035  \\$aocn784207079
+Record 999:  LeBAU_b12332781
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Contributions to the history of Islamic Civilization. Arabic
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000879
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12333013
+   orig_rec_035 num: =035  \\$aocn784207912
+Record 999:  LeBAU_b12333013
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000870
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12333207
+   orig_rec_035 num: =035  \\$aocn784208172
+Record 999:  LeBAU_b12333207
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000812
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12333372
+   orig_rec_035 num: =035  \\$aocn784208891
+Record 999:  LeBAU_b12333372
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000813
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12333839
+   orig_rec_035 num: =035  \\$aocn784209099
+Record 999:  LeBAU_b12333839
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000837
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12333888
+   orig_rec_035 num: =035  \\$aocn784209114
+Record 999:  LeBAU_b12333888
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000871
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12333955
+   orig_rec_035 num: =035  \\$aocn784209127
+Record 999:  LeBAU_b12333955
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Wiḥdat al-wujūd wa- bayān buṭlānuh bi-al-barāhīn al-naqlīyah wa-al-‘aqlīyah
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000819:v.4
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12333967
+   orig_rec_035 num: =035  \\$aocn784209129
+Record 999:  LeBAU_b12333967
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000820
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12333979
+   orig_rec_035 num: =035  \\$aocn784209134
+Record 999:  LeBAU_b12333979
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - al-Taqaṣṣi li-ḥadīth al-muwaṭṭa’ wa-shuyūkh al-Imām Mālik
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000850
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12334364
+   orig_rec_035 num: =035  \\$aocn784209262
+Record 999:  LeBAU_b12334364
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000876:v.1
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12334406
+   orig_rec_035 num: =035  \\$aocm85059994 
+Record 999:  LeBAU_b12334406
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - al-Tāj ʼal-muraṣṣaʻ bi-jawāhir al-Qurʼān wa-al-ʻulūm
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000877
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12334455
+   orig_rec_035 num: =035  \\$aocm85060703 
+Record 999:  LeBAU_b12334455
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000825:v.1, aub_aco000826:v.2
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12334546
+   orig_rec_035 num: =035  \\$aocn784210271
+Record 999:  LeBAU_b12334546
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000821
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12334558
+   orig_rec_035 num: =035  \\$aocn784210275
+Record 999:  LeBAU_b12334558
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Title on page [4] of cover: HOMELIAE IN EVANGELIA DOMINICALIA ET FESTIVA YUXTA ALEXANDRINAE ECCLESIAE RITUM
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000822
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12334571
+   orig_rec_035 num: =035  \\$aocn784210280
+Record 999:  LeBAU_b12334571
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000823
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12334753
+   orig_rec_035 num: =035  \\$aocn784210319
+Record 999:  LeBAU_b12334753
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000891
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12334765
+   orig_rec_035 num: =035  \\$aocm11139444 
+Record 999:  LeBAU_b12334765
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000892
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12334777
+   orig_rec_035 num: =035  \\$aocn784210324
+Record 999:  LeBAU_b12334777
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000893:v.1
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12334832
+   orig_rec_035 num: =035  \\$aocn784210332
+Record 999:  LeBAU_b12334832
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000881
+---------------------------------------------------------------------
+Institution ID: LeBAU_b1233490x
+   orig_rec_035 num: =035  \\$aocn784210345
+Record 999:  LeBAU_b1233490x
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000904:v.1-2, aub_aco000905:v.3-4, aub_aco000906:v.5-6, aub_aco000907:v.7-8
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12334911
+   orig_rec_035 num: =035  \\$aocn784210347
+Record 999:  LeBAU_b12334911
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000882:v.1, aub_aco000883:v.2, aub_aco000884:v.3, aub_aco000885:v.4
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12334960
+   orig_rec_035 num: =035  \\$aocn784210357
+Record 999:  LeBAU_b12334960
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000880
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12334996
+   orig_rec_035 num: =035  \\$aocn784210360
+Record 999:  LeBAU_b12334996
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000894:v.1
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12335046
+   orig_rec_035 num: =035  \\$aocn784210368
+Record 999:  LeBAU_b12335046
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000933:v.5, aub_aco000934:v.6, aub_aco000935:v.7, aub_aco000936:v.8, aub_aco000937:v.9
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12335150
+   orig_rec_035 num: =035  \\$aocn784210386
+Record 999:  LeBAU_b12335150
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000886
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12335277
+   orig_rec_035 num: =035  \\$aocn784210403
+Record 999:  LeBAU_b12335277
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000908
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12335721
+   orig_rec_035 num: =035  \\$aocn784210451
+Record 999:  LeBAU_b12335721
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000911
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12335770
+   orig_rec_035 num: =035  \\$aocn784210456
+Record 999:  LeBAU_b12335770
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000909:v.1-3
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12335794
+   orig_rec_035 num: =035  \\$aocn784210458
+Record 999:  LeBAU_b12335794
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000910:v.1-3
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12335824
+   orig_rec_035 num: =035  \\$aocn784210461
+Record 999:  LeBAU_b12335824
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000913
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12335848
+   orig_rec_035 num: =035  \\$aocn784210463
+Record 999:  LeBAU_b12335848
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000912
+---------------------------------------------------------------------
+Institution ID: LeBAU_b1233599x
+   orig_rec_035 num: =035  \\$aocn784210480
+Record 999:  LeBAU_b1233599x
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000914:v.1-2
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12336087
+   orig_rec_035 num: =035  \\$aocn784210489
+Record 999:  LeBAU_b12336087
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000915:v.1, aub_aco000916:v.2
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12336099
+   orig_rec_035 num: =035  \\$aocn784210490
+Record 999:  LeBAU_b12336099
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000887
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12336178
+   orig_rec_035 num: =035  \\$aocn784210498
+Record 999:  LeBAU_b12336178
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000888
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12336269
+   orig_rec_035 num: =035  \\$aocn784210508
+Record 999:  LeBAU_b12336269
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000917:v.1-2, aub_aco000918:v.3-4, aub_aco000919:v.5-6, aub_aco000920:v.7-8, aub_aco000921:v.9-10, aub_aco000922:v.11-12, aub_aco000923:v.13
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12336671
+   orig_rec_035 num: =035  \\$aocn784210551
+Record 999:  LeBAU_b12336671
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000940
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12336701
+   orig_rec_035 num: =035  \\$aocn784210554
+Record 999:  LeBAU_b12336701
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000939
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12337109
+   orig_rec_035 num: =035  \\$aocn784210599
+Record 999:  LeBAU_b12337109
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000924
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12337122
+   orig_rec_035 num: =035  \\$aocn784210601
+Record 999:  LeBAU_b12337122
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Handbook of early Muhammadan tradition. Arabic
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000925
+---------------------------------------------------------------------
+Institution ID: LeBAU_b1233716x
+   orig_rec_035 num: =035  \\$aocm60601366 
+Record 999:  LeBAU_b1233716x
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000938:v.1-2
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12337171
+   orig_rec_035 num: =035  \\$aocn784210606
+Record 999:  LeBAU_b12337171
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000889:v.1, aub_aco000890:v.2
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12337213
+   orig_rec_035 num: =035  \\$aocn784210611
+Record 999:  LeBAU_b12337213
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000926:v.1, aub_aco000927:v.2, aub_aco000928:v.3
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12337377
+   orig_rec_035 num: =035  \\$aocn784210627
+Record 999:  LeBAU_b12337377
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000929
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12337407
+   orig_rec_035 num: =035  \\$aocn784210630
+Record 999:  LeBAU_b12337407
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000930
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12337456
+   orig_rec_035 num: =035  \\$aocm29685377 
+Record 999:  LeBAU_b12337456
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000895
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12337535
+   orig_rec_035 num: =035  \\$aocn784210650
+Record 999:  LeBAU_b12337535
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000896
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12337547
+   orig_rec_035 num: =035  \\$aocn784210652
+Record 999:  LeBAU_b12337547
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000897:v.1
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12337560
+   orig_rec_035 num: =035  \\$aocn784210655
+Record 999:  LeBAU_b12337560
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000901
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12337626
+   orig_rec_035 num: =035  \\$aocn784210664
+Record 999:  LeBAU_b12337626
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000899
+---------------------------------------------------------------------
+Institution ID: LeBAU_b1233764x
+   orig_rec_035 num: =035  \\$aocn784210667
+Record 999:  LeBAU_b1233764x
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000900
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12337730
+   orig_rec_035 num: =035  \\$aocn784210681
+Record 999:  LeBAU_b12337730
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000931
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12337754
+   orig_rec_035 num: =035  \\$aocn784210684
+Record 999:  LeBAU_b12337754
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000932
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12337833
+   orig_rec_035 num: =035  \\$aocn784210694
+Record 999:  LeBAU_b12337833
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000898
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12337845
+   orig_rec_035 num: =035  \\$aocn784210696
+Record 999:  LeBAU_b12337845
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000902
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12337870
+   orig_rec_035 num: =035  \\$aocn784210699
+Record 999:  LeBAU_b12337870
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000903
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12337900
+   orig_rec_035 num: =035  \\$aocn784210707
+Record 999:  LeBAU_b12337900
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000960
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12337985
+   orig_rec_035 num: =035  \\$aocn784210718
+Record 999:  LeBAU_b12337985
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Omayyads & Byzantines : the Mediterranean and Islamic Lake
+   246 - Omayyads and Byzantines : the Mediterranean and Islamic Lake
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000966
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12338503
+   orig_rec_035 num: =035  \\$aocn784211753
+Record 999:  LeBAU_b12338503
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000951
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12338606
+   orig_rec_035 num: =035  \\$aocn784211769
+Record 999:  LeBAU_b12338606
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000952:v.1, aub_aco000953:v.2
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12338813
+   orig_rec_035 num: =035  \\$aocn784211796
+Record 999:  LeBAU_b12338813
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000954:v.1-2, aub_aco000955:v.3-4
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12338953
+   orig_rec_035 num: =035  \\$aocn784211811
+Record 999:  LeBAU_b12338953
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000967
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12338989
+   orig_rec_035 num: =035  \\$aocn784211814
+Record 999:  LeBAU_b12338989
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000962
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12338990
+   orig_rec_035 num: =035  \\$aocn784211815
+Record 999:  LeBAU_b12338990
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000963
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12339180
+   orig_rec_035 num: =035  \\$aocn784211838
+Record 999:  LeBAU_b12339180
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000956
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12340236
+   orig_rec_035 num: =035  \\$aocn784211981
+Record 999:  LeBAU_b12340236
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000959
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12340273
+   orig_rec_035 num: =035  \\$aocn784211985
+Record 999:  LeBAU_b12340273
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000961:v.2-3
+---------------------------------------------------------------------
+Institution ID: LeBAU_b1234039x
+   orig_rec_035 num: =035  \\$aocn784212005
+Record 999:  LeBAU_b1234039x
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000964
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12340406
+   orig_rec_035 num: =035  \\$aocn784212006
+Record 999:  LeBAU_b12340406
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000957
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12340455
+   orig_rec_035 num: =035  \\$aocn784212014
+Record 999:  LeBAU_b12340455
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000965
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12340479
+   orig_rec_035 num: =035  \\$aocm30494633 
+Record 999:  LeBAU_b12340479
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000827:v.1, aub_aco000828:v.2, aub_aco000829:v.3, aub_aco000830:v.4, aub_aco000831:v.5, aub_aco000832:v.6, aub_aco000833:v.7, aub_aco000834:v.8, aub_aco000835:v.9, aub_aco000836:v.10
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12340662
+   orig_rec_035 num: =035  \\$aocn784212065
+Record 999:  LeBAU_b12340662
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000878
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12340704
+   orig_rec_035 num: =035  \\$aocn784212085
+Record 999:  LeBAU_b12340704
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000941
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12341563
+   orig_rec_035 num: =035  \\$aocn784214206
+Record 999:  LeBAU_b12341563
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000867
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12341976
+   orig_rec_035 num: =035  \\$aocn784214427
+Record 999:  LeBAU_b12341976
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000852:v.1, aub_aco000853:v.2, aub_aco000854:v.3, aub_aco000855:v.4, aub_aco000856:v.5, aub_aco000857:v.6, aub_aco000858:v.7, aub_aco000859:v.8, aub_aco000860:v.9, aub_aco000861:v.10, aub_aco000862:v.11, aub_aco000863:v.12, aub_aco000864:v.13, aub_aco000865:v.14, aub_aco000866:v.15
+---------------------------------------------------------------------
+Institution ID: LeBAU_b1234249x
+   orig_rec_035 num: =035  \\$aocn784215380
+Record 999:  LeBAU_b1234249x
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000838:v.1, aub_aco000839:v.2, aub_aco000840:v.3, aub_aco000841:v.4, aub_aco000842:v.5, aub_aco000843:v.6, aub_aco000844:v.7, aub_aco000845:v.8, aub_aco000846:v.9, aub_aco000847:v.10, aub_aco000848:v.11, aub_aco000849:v.12
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12342634
+   orig_rec_035 num: =035  \\$aocn784215468
+Record 999:  LeBAU_b12342634
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Ibn Ḫālawaih's Sammlung nichtkanonischer Koranlesarten
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000872
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12344151
+   orig_rec_035 num: =035  \\$aocn784218158
+Record 999:  LeBAU_b12344151
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000958:v.10
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12344692
+   orig_rec_035 num: =035  \\$aocn784218409
+Record 999:  LeBAU_b12344692
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000950
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12345209
+   orig_rec_035 num: =035  \\$aocm05111109 
+Record 999:  LeBAU_b12345209
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000968
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12345775
+   orig_rec_035 num: =035  \\$aocn784220579
+Record 999:  LeBAU_b12345775
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000969
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12346536
+   orig_rec_035 num: =035  \\$aocn784222057
+Record 999:  LeBAU_b12346536
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000949
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12547256
+   orig_rec_035 num: =035  \\$aocn784401295
+Record 999:  LeBAU_b12547256
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000851
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12662641
+   orig_rec_035 num: =035  \\$aocn784453267
+Record 999:  LeBAU_b12662641
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000970:v.1-2
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12662690
+   orig_rec_035 num: =035  \\$aocn784453272
+Record 999:  LeBAU_b12662690
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000942
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12722121
+   orig_rec_035 num: =035  \\$aocn688642978
+Record 999:  LeBAU_b12722121
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Story of the Church of Egypt. Arabic
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000945:v.1, aub_aco000946:v.2, aub_aco000947:v.3, aub_aco000948:v.4
+---------------------------------------------------------------------
+Institution ID: LeBAU_b1278042x
+   orig_rec_035 num: =035  \\$aocn784511808
+Record 999:  LeBAU_b1278042x
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Atlas of Islamic History. Arabic
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco000809
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: LeBAU_20170203_1/LeBAU_20170203_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing miscellaneous errors: 108
+
