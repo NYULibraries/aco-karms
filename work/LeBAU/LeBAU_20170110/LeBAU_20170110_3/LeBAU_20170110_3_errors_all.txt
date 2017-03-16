@@ -6,7 +6,7 @@ ALL Records containing any type of error - batch LeBAU_20170110
     --  have a series heading error in the 490/800/810/811/830 fields
     --  have one of the various miscellaneous errors, marked with ERROR-MISC
     --  missing a call number - no 050 or 090 field
-Report produced: 2017-03-08 16:39:17.296233
+Report produced: 2017-03-16 13:57:50.828966
 ---------------------------------------------------------------------
 FILE: LeBAU_20170110_3/LeBAU_20170110_3_updates.mrc
 ---------------------------------------------------------------------
@@ -15,7 +15,7 @@ Institution ID: LeBAU_b12306915
 Record 999:  LeBAU_b12306915 aub_aco000508
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: HG5836.A3 B54 1953
@@ -26,7 +26,7 @@ Institution ID: LeBAU_b12307130
 Record 999:  LeBAU_b12307130 aub_aco000510
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: KRM937.A351999 A4 1950
@@ -37,8 +37,8 @@ Institution ID: LeBAU_b12307154
 Record 999:  LeBAU_b12307154 aub_aco000511
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: HB539 .H33 1923
@@ -49,7 +49,7 @@ Institution ID: LeBAU_b12307725
 Record 999:  LeBAU_b12307725 aub_aco000425
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: Z7835.M6 S25
@@ -60,7 +60,7 @@ Institution ID: LeBAU_b12307750
 Record 999:  LeBAU_b12307750 aub_aco000426
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 546-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 546-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: PJ7601 .S55 1925
@@ -71,8 +71,8 @@ Institution ID: LeBAU_b12307828
 Record 999:  LeBAU_b12307828 aub_aco000427
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 651-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 651-00 - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
 040 $e field: rda
 RDA fields: YES
 050 call number: DS70.7 .T38 1953
@@ -83,7 +83,7 @@ Institution ID: LeBAU_b12307956
 Record 999:  LeBAU_b12307956 aub_aco000431
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: Z7835.M6 K32 1913
@@ -94,7 +94,7 @@ Institution ID: LeBAU_b12308067
 Record 999:  LeBAU_b12308067 aub_aco000433
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: PN6119.A73 D34 1948
@@ -107,8 +107,8 @@ Record 999:  LeBAU_b12308274 aub_aco000429
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Bibliographie des ouvrages arabes imprimés en Egypte en 1942,1943 et 1944
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 546-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 546-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: Z3651 .A83 1949
@@ -119,7 +119,7 @@ Institution ID: LeBAU_b12308328
 Record 999:  LeBAU_b12308328 aub_aco000432
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: TC513.I7 .S87 
@@ -130,7 +130,7 @@ Institution ID: LeBAU_b12308602
 Record 999:  LeBAU_b12308602 aub_aco000436
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: D5 .H87 1954
@@ -141,7 +141,7 @@ Institution ID: LeBAU_b1230878x
 Record 999:  LeBAU_b1230878x aub_aco000470
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: Z8048.77 .A55
@@ -152,8 +152,8 @@ Institution ID: LeBAU_b12309126
 Record 999:  LeBAU_b12309126 aub_aco000437
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 505-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 505-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: Z665 .D34 1947
@@ -175,7 +175,7 @@ Institution ID: LeBAU_b1230928x
 Record 999:  LeBAU_b1230928x aub_aco000471
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BS658 .M39 1929
@@ -186,11 +186,10 @@ Institution ID: LeBAU_b12309618
 Record 999:  LeBAU_b12309618 aub_aco000472
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 246-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
    880 $6 546-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
-050 call number: PN6414 .F26 1938 
+050 call number: PN6414 .F26 1938
 Source entities (book IDs): aub_aco000472
 ---------------------------------------------------------------------
 Institution ID: LeBAU_b12309795
@@ -200,7 +199,7 @@ Record 999:  LeBAU_b12309795 aub_aco000512
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - School libraries : Journal of modern Education summer supplement (1935)
 ERROR-880: Unlinked 880s: YES
-   880 $6 772-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 772-00 - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: rda
 RDA fields: YES
 050 call number: Z675.S3 M35 1935
@@ -211,7 +210,7 @@ Institution ID: LeBAU_b12309837
 Record 999:  LeBAU_b12309837 aub_aco000442:v.1 aub_aco000443:v.2 aub_aco000444:v.3 aub_aco000445:v.4
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: Z675 A82 T37 1947
@@ -233,10 +232,10 @@ Institution ID: LeBAU_b12310396
 Record 999:  LeBAU_b12310396 aub_aco000474
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BR50 .A77 1953
@@ -258,7 +257,7 @@ Institution ID: LeBAU_b12310451
 Record 999:  LeBAU_b12310451 aub_aco000476
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BP170 .H375 1929
@@ -269,8 +268,8 @@ Institution ID: LeBAU_b12310530
 Record 999:  LeBAU_b12310530 aub_aco000478
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 505-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 505-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BV4211.2 .L33 1930
@@ -283,8 +282,8 @@ Record 999:  LeBAU_b12310682 aub_aco000467:v.1
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - Experimental Psychology. Arabic
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 590-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 590-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BF 181 W912 1955
@@ -295,7 +294,7 @@ Institution ID: LeBAU_b12310797
 Record 999:  LeBAU_b12310797 aub_aco000468
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BF431 .B37 1954
@@ -306,8 +305,8 @@ Institution ID: LeBAU_b12310852
 Record 999:  LeBAU_b12310852 aub_aco000469
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: B751.Z7 N34 1946
@@ -318,7 +317,7 @@ Institution ID: LeBAU_b12311157
 Record 999:  LeBAU_b12311157 aub_aco000479
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 546-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 546-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BV4637 .F58 1914
@@ -329,7 +328,7 @@ Institution ID: LeBAU_b12311169
 Record 999:  LeBAU_b12311169 aub_aco000480
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: B175.A7 G34 1947
@@ -353,8 +352,8 @@ Record 999:  LeBAU_b12311418 aub_aco000484
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - life of Christ. Arabic
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 765-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 765-00 - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BT301 .F2125 1949
@@ -365,7 +364,7 @@ Institution ID: LeBAU_b12311455
 Record 999:  LeBAU_b12311455 aub_aco000485:v.1
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BT203 .F55 1913
@@ -378,8 +377,8 @@ Record 999:  LeBAU_b12311595 aub_aco000487
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - Der Menschensohn geschichte eines propheten. Arabic
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BT301 .L812 1947
@@ -390,7 +389,7 @@ Institution ID: LeBAU_b12311704
 Record 999:  LeBAU_b12311704 aub_aco000460
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: PN5462 .H87 1948
@@ -403,8 +402,8 @@ Record 999:  LeBAU_b12311716 aub_aco000488:v.1
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - Storia de Cristo. Arabic
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BT301 .P36 1929
@@ -415,8 +414,8 @@ Institution ID: LeBAU_b12312204
 Record 999:  LeBAU_b12312204 aub_aco000489
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BT453 .M84 1912
@@ -427,7 +426,7 @@ Institution ID: LeBAU_b12312344
 Record 999:  LeBAU_b12312344 aub_aco000492
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: KBR3090 .K88 1948
@@ -438,7 +437,7 @@ Institution ID: LeBAU_b12312538
 Record 999:  LeBAU_b12312538 aub_aco000493
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BR118 .K33 1911
@@ -449,8 +448,8 @@ Institution ID: LeBAU_b12312563
 Record 999:  LeBAU_b12312563 aub_aco000494
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 505-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 505-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BJ43 .L55 1929
@@ -461,8 +460,8 @@ Institution ID: LeBAU_b12312800
 Record 999:  LeBAU_b12312800 aub_aco000461
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 541-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 541-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 541-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 541-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: PN5449.L4 N58 1943
@@ -473,11 +472,11 @@ Institution ID: LeBAU_b12312873
 Record 999:  LeBAU_b12312873 aub_aco000448:v.1-2 aub_aco000449:v.3-4
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 505-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 588-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 650-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 505-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 588-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 650-00 - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
 040 $e field: rda
 RDA fields: YES
 050 call number: AE90.A7 A32 1954
@@ -488,8 +487,8 @@ Institution ID: LeBAU_b1231299x
 Record 999:  LeBAU_b1231299x aub_aco000450:v.1 aub_aco000451:v.2 aub_aco000452:v.3 aub_aco000453:v.4 aub_aco000454:v.5 aub_aco000455:v.6 aub_aco000456:v.7 aub_aco000457:v.8 aub_aco000458:v.9 aub_aco000459:v.10
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: PJ7870 .W136 1923 
@@ -500,7 +499,7 @@ Institution ID: LeBAU_b12313129
 Record 999:  LeBAU_b12313129 aub_aco000463
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: PN5465.A35 A2 1951
@@ -511,7 +510,7 @@ Institution ID: LeBAU_b12313130
 Record 999:  LeBAU_b12313130 aub_aco000464
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: PN5462 .A25 1945
@@ -522,7 +521,7 @@ Institution ID: LeBAU_b12313592
 Record 999:  LeBAU_b12313592 aub_aco000495
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: PG3415.R4 S25 1929
@@ -533,7 +532,7 @@ Institution ID: LeBAU_b12313609
 Record 999:  LeBAU_b12313609 aub_aco000496
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 546-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 546-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BJ59 .L55 1934
@@ -544,7 +543,7 @@ Institution ID: LeBAU_b12313646
 Record 999:  LeBAU_b12313646 aub_aco000497
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BJ1291 .Y33  1913
@@ -557,7 +556,7 @@ Record 999:  LeBAU_b12313762 aub_aco000499
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - La Croix dans l’Islam : étude littéraire, rituelle et historique d'après les sources islamiques
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BP172 .Z399 1935
@@ -570,10 +569,10 @@ Record 999:  LeBAU_b12313865 aub_aco000502
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - L’exaltation de la Sainte Croix homélie attribuée à Saint Cyrille de Jérusalem 313-387
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 541-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 546-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 541-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 546-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BV4249.A7 C97 1934
@@ -584,7 +583,7 @@ Institution ID: LeBAU_b12314043
 Record 999:  LeBAU_b12314043 aub_aco000507
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BP50 .A96 1925
@@ -595,7 +594,7 @@ Institution ID: LeBAU_b12314134
 Record 999:  LeBAU_b12314134 aub_aco000513
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: Q125 .M9 1930
@@ -606,9 +605,9 @@ Institution ID: LeBAU_b12314274
 Record 999:  LeBAU_b12314274 aub_aco000505:v.2 aub_aco000506:v.3
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 505-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 546-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 590-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 505-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 546-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 590-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BM669 .M34 1924
@@ -619,7 +618,7 @@ Institution ID: LeBAU_b12314389
 Record 999:  LeBAU_b12314389 aub_aco000504
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BV3160 .K45 1953
@@ -632,9 +631,9 @@ Record 999:  LeBAU_b12314432 aub_aco000503
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - Christ of the Indian road. Arabic
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 765-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 765-00 - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BV3265 .J65125 1928
@@ -645,7 +644,7 @@ Institution ID: LeBAU_b12316507
 Record 999:  LeBAU_b12316507 aub_aco000549
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BX173.2 .A76 1934
@@ -656,8 +655,8 @@ Institution ID: LeBAU_b12316611
 Record 999:  LeBAU_b12316611 aub_aco000519
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: B72 .K43 1933
@@ -668,7 +667,7 @@ Institution ID: LeBAU_b12316787
 Record 999:  LeBAU_b12316787 aub_aco000550
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 650-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
+   880 $6 650-00 - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BX183 .D5 1905
@@ -679,7 +678,7 @@ Institution ID: LeBAU_b12316878
 Record 999:  LeBAU_b12316878 aub_aco000522
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: B72 .W65 1944
@@ -690,11 +689,11 @@ Institution ID: LeBAU_b12317020
 Record 999:  LeBAU_b12317020 aub_aco000523
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
-050 call number: B740  .S25 1955
+050 call number: B740 .S25 1955
 Source entities (book IDs): aub_aco000523
 ---------------------------------------------------------------------
 Institution ID: LeBAU_b12317433
@@ -702,7 +701,7 @@ Institution ID: LeBAU_b12317433
 Record 999:  LeBAU_b12317433 aub_aco000524
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: QB44 .M34 1930
@@ -715,7 +714,7 @@ Record 999:  LeBAU_b12317743 aub_aco000516
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Pour lire la presse Arabe : vocabulaire des principaux neologismes usites dans l'arabe moderne
 ERROR-880: Unlinked 880s: YES
-   880 $6 546-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 546-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: PN5359 .C6 1937
@@ -726,8 +725,8 @@ Institution ID: LeBAU_b12317846
 Record 999:  LeBAU_b12317846 aub_aco000518
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 541-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 541-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: Z7052 .I216 1929
@@ -740,7 +739,7 @@ Record 999:  LeBAU_b1231822x aub_aco000527
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Traité sur L'ame
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BF118.C5 B35 1928
@@ -751,7 +750,7 @@ Institution ID: LeBAU_b12318632
 Record 999:  LeBAU_b12318632 aub_aco000548
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BR1105 .I79 1948
@@ -762,8 +761,8 @@ Institution ID: LeBAU_b12318759
 Record 999:  LeBAU_b12318759 aub_aco000551
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 610-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 610-00 - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BX945 .S43 1933
@@ -774,7 +773,7 @@ Institution ID: LeBAU_b12318772
 Record 999:  LeBAU_b12318772 aub_aco000552
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: DS59.S94 T37 1946
@@ -785,7 +784,6 @@ Institution ID: LeBAU_b12318796
 Record 999:  LeBAU_b12318796 aub_aco000553:v.1
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 246-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
    880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
    880 $6 590-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
@@ -797,11 +795,7 @@ Institution ID: LeBAU_b12318863
    orig_rec_035 num: =035  \\$aocn784193057
 Record 999:  LeBAU_b12318863 aub_aco000555:v.1
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - tārīkh al-’ummah al-Qubṭīyah fī ‘aṣr al-Wathanīyah wa-al-Masīḥīyah
-   246 - tārīkh al-’ummah al-Qubṭīyah fī ‘aṣr al-Wathanīyah wa-al-Masīḥīyah
 ERROR-880: Unlinked 880s: YES
-   880 $6 246-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
    880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
    880 $6 505-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
    880 $6 590-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
@@ -815,11 +809,11 @@ Institution ID: LeBAU_b12319004
 Record 999:  LeBAU_b12319004 aub_aco000528
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
-050 call number: RC480  .H36 1947
+050 call number: RC480 .H36 1947
 Source entities (book IDs): aub_aco000528
 ---------------------------------------------------------------------
 Institution ID: LeBAU_b12319065
@@ -827,7 +821,7 @@ Institution ID: LeBAU_b12319065
 Record 999:  LeBAU_b12319065 aub_aco000539
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BF721 .B87 1955
@@ -838,7 +832,7 @@ Institution ID: LeBAU_b12319077
 Record 999:  LeBAU_b12319077 aub_aco000530
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: RJ111 .Q87 1948
@@ -849,7 +843,7 @@ Institution ID: LeBAU_b12319107
 Record 999:  LeBAU_b12319107 aub_aco000546
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: B832.2 .F36 1926
@@ -860,7 +854,7 @@ Institution ID: LeBAU_b12319120
 Record 999:  LeBAU_b12319120 aub_aco000558
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 775-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 775-00 - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BD431 .H175 1955 
@@ -871,7 +865,7 @@ Institution ID: LeBAU_b12319168
 Record 999:  LeBAU_b12319168 aub_aco000533
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BF173.A25 S43 1948
@@ -884,8 +878,8 @@ Record 999:  LeBAU_b1231920x aub_aco000535
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - How to stop worrying and start living. Arabic
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 765-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 765-00 - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BF575.W8 C3125 1950
@@ -898,9 +892,9 @@ Record 999:  LeBAU_b12319351 aub_aco000540
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - Children we teach : seven to eleven years. Arabic
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: LB1115 .I7125 1945
@@ -911,7 +905,7 @@ Institution ID: LeBAU_b12319387
 Record 999:  LeBAU_b12319387 aub_aco000541
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BF721 .I75 1947
@@ -922,8 +916,8 @@ Institution ID: LeBAU_b12319442
 Record 999:  LeBAU_b12319442 aub_aco000543
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BL625.5 .M35 1955
@@ -934,8 +928,8 @@ Institution ID: LeBAU_b12319491
 Record 999:  LeBAU_b12319491 aub_aco000544
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: HQ772 .S43 1955
@@ -950,7 +944,7 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    490 - Etudes orientales (Institut francais d'archeologie de Stamboul) ; VI
    830 - Etudes orientales (Institut francais d'archeologie de Stamboul) ; 6
 ERROR-880: Unlinked 880s: YES
-   880 $6 546-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 546-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: QA32 .T87 1940
@@ -961,7 +955,7 @@ Institution ID: LeBAU_b12319612
 Record 999:  LeBAU_b12319612 aub_aco000547
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BF203 .N34 1947
@@ -972,7 +966,7 @@ Institution ID: LeBAU_b12319715
 Record 999:  LeBAU_b12319715 aub_aco000556
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BX133 . L3 1932 
@@ -983,10 +977,10 @@ Institution ID: LeBAU_b12319995
 Record 999:  LeBAU_b12319995 aub_aco000588:v.1
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 505-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 590-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 505-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 590-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BX4711.32 .B32 1938
@@ -997,10 +991,10 @@ Institution ID: LeBAU_b12320018
 Record 999:  LeBAU_b12320018 aub_aco000589
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
-050 call number: BX4711.32  .M37 1947
+050 call number: BX4711.32 .M37 1947
 Source entities (book IDs): aub_aco000589
 ---------------------------------------------------------------------
 Institution ID: LeBAU_b12320043
@@ -1008,7 +1002,7 @@ Institution ID: LeBAU_b12320043
 Record 999:  LeBAU_b12320043 aub_aco000590
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BX4669 .M39 1907
@@ -1019,7 +1013,7 @@ Institution ID: LeBAU_b12320079
 Record 999:  LeBAU_b12320079 aub_aco000579
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BF378.F7 P45 1948
@@ -1030,7 +1024,7 @@ Institution ID: LeBAU_b12320158
 Record 999:  LeBAU_b12320158 aub_aco000559
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: HQ772 .T66 1948
@@ -1041,7 +1035,7 @@ Institution ID: LeBAU_b12320675
 Record 999:  LeBAU_b12320675 aub_aco000562
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BF173 .B2 1954
@@ -1054,8 +1048,8 @@ Record 999:  LeBAU_b12320699 aub_aco000563
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - Self Understanding. Arabic
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BF67 .M45125 1954
@@ -1066,9 +1060,9 @@ Institution ID: LeBAU_b12320821
 Record 999:  LeBAU_b12320821 aub_aco000569:v.1 aub_aco000570:v.2 aub_aco000571:v.3
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BF149 .A33 1936
@@ -1079,7 +1073,7 @@ Institution ID: LeBAU_b12320845
 Record 999:  LeBAU_b12320845 aub_aco000568
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BF149 .A85 1945
@@ -1090,9 +1084,9 @@ Institution ID: LeBAU_b12320857
 Record 999:  LeBAU_b12320857 aub_aco000566:v.1 aub_aco000567:v.2
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 505-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 583-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 505-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 583-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BF149 .A86 1955
@@ -1105,9 +1099,9 @@ Record 999:  LeBAU_b12320882 aub_aco000572
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - Psychology : The Changing Outlook. Arabic
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BF105 .A83 1949
@@ -1118,7 +1112,7 @@ Institution ID: LeBAU_b12320924
 Record 999:  LeBAU_b12320924 aub_aco000573
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 505-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 505-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BF173 .F37 1945
@@ -1129,10 +1123,10 @@ Institution ID: LeBAU_b1232095x
 Record 999:  LeBAU_b1232095x aub_aco000591:v.1 aub_aco000592:v.2 aub_aco000593:v.3
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 505-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 505-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BX4711.32 .S53 1947
@@ -1143,11 +1137,11 @@ Institution ID: LeBAU_b12320961
 Record 999:  LeBAU_b12320961 aub_aco000594:v.1
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 590-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 590-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
-050 call number: BX4711.32  .Z38 1953
+050 call number: BX4711.32 .Z38 1953
 Source entities (book IDs): aub_aco000594:v.1
 ---------------------------------------------------------------------
 Institution ID: LeBAU_b12320973
@@ -1166,7 +1160,7 @@ Institution ID: LeBAU_b1232100x
 Record 999:  LeBAU_b1232100x aub_aco000586
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BX4713.52 .A88 1950 
@@ -1177,7 +1171,7 @@ Institution ID: LeBAU_b12321102
 Record 999:  LeBAU_b12321102 aub_aco000595
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BL48 D37 1952
@@ -1188,7 +1182,7 @@ Institution ID: LeBAU_b1232114x
 Record 999:  LeBAU_b1232114x aub_aco000596
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 505-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 505-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BL51 .F29 1951
@@ -1199,7 +1193,7 @@ Institution ID: LeBAU_b12321266
 Record 999:  LeBAU_b12321266 aub_aco000599
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BP172 .S23 1924
@@ -1212,8 +1206,8 @@ Record 999:  LeBAU_b12321497 aub_aco000564
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - Systemes Philosophiques. Arabic
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: B79 .C7 1952
@@ -1226,8 +1220,8 @@ Record 999:  LeBAU_b12321540 aub_aco000565
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - Einleitung in die Philosophie Arabic
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 546-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 546-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BD33 .K8 1942
@@ -1240,7 +1234,7 @@ Record 999:  LeBAU_b12321801 aub_aco000581
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - An iron will Arabic.
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BF632 .M3125 1951
@@ -1251,10 +1245,10 @@ Institution ID: LeBAU_b12321825
 Record 999:  LeBAU_b12321825 aub_aco000583
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
-050 call number: BF632  .S43 1946
+050 call number: BF632 .S43 1946
 Source entities (book IDs): aub_aco000583
 ---------------------------------------------------------------------
 Institution ID: LeBAU_b12321862
@@ -1262,7 +1256,7 @@ Institution ID: LeBAU_b12321862
 Record 999:  LeBAU_b12321862 aub_aco000582
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BF632 .S43 1948
@@ -1273,9 +1267,9 @@ Institution ID: LeBAU_b12321953
 Record 999:  LeBAU_b12321953 aub_aco000575
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BF121 .Q87 1954
@@ -1286,7 +1280,7 @@ Institution ID: LeBAU_b12321989
 Record 999:  LeBAU_b12321989 aub_aco000584
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BJ1185.A7 A35 1953
@@ -1297,9 +1291,9 @@ Institution ID: LeBAU_b12321990
 Record 999:  LeBAU_b12321990 aub_aco000576:v.1
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 590-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 590-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BF128.A7 Q87 1950
@@ -1310,8 +1304,8 @@ Institution ID: LeBAU_b12322040
 Record 999:  LeBAU_b12322040 aub_aco000577
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BF128.A7 M86 1948
@@ -1322,8 +1316,8 @@ Institution ID: LeBAU_b12485706
 Record 999:  LeBAU_b12485706 aub_aco000401:v.1 aub_aco000402:v.2
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 505-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 505-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: QA135 .W47 1903
@@ -1334,7 +1328,7 @@ Institution ID: LeBAU_b12514378
 Record 999:  LeBAU_b12514378 aub_aco000404
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: PJ6161 .A8 1902
@@ -1345,10 +1339,10 @@ Institution ID: LeBAU_b12535928
 Record 999:  LeBAU_b12535928 aub_aco000410
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
-050 call number: PJ7840.A63  I85 1900
+050 call number: PJ7840.A63 I85 1900
 Source entities (book IDs): aub_aco000410
 ---------------------------------------------------------------------
 Institution ID: LeBAU_b12536428
@@ -1358,8 +1352,8 @@ Record 999:  LeBAU_b12536428 aub_aco000412
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Ballades et Romances Andalouses
 ERROR-880: Unlinked 880s: YES
-   880 $6 775-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 775-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 775-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 775-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: PJ8742.H39 A34 1902
@@ -1370,7 +1364,7 @@ Institution ID: LeBAU_b12537846
 Record 999:  LeBAU_b12537846 aub_aco000413
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: PJ7750.A25 R5 1903
@@ -1381,10 +1375,10 @@ Institution ID: LeBAU_b12549435
 Record 999:  LeBAU_b12549435 aub_aco000600:v.1 aub_aco000601:v.2 aub_aco000602:v.3
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 583-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 590-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 583-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 590-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: PJ7860 .A34 1903
@@ -1395,7 +1389,7 @@ Institution ID: LeBAU_b12573930
 Record 999:  LeBAU_b12573930 aub_aco000414
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BP161 .M63 1902
@@ -1406,7 +1400,7 @@ Institution ID: LeBAU_b12615055
 Record 999:  LeBAU_b12615055 aub_aco000411
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BP130.4 .J38 1901
@@ -1417,8 +1411,8 @@ Institution ID: LeBAU_b12620221
 Record 999:  LeBAU_b12620221 aub_aco000417
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 520-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 520-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: PJ7876.A9 G5 1901
@@ -1429,11 +1423,11 @@ Institution ID: LeBAU_b12642897
 Record 999:  LeBAU_b12642897 aub_aco000526
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
-050 call number: DS238.M95  D871955
+050 call number: DS238.M95 D871955
 Source entities (book IDs): aub_aco000526
 ---------------------------------------------------------------------
 Institution ID: LeBAU_b12649892
@@ -1441,7 +1435,7 @@ Institution ID: LeBAU_b12649892
 Record 999:  LeBAU_b12649892 aub_aco000419
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: DT107.6 .U45 1902
@@ -1452,7 +1446,7 @@ Institution ID: LeBAU_b12656367
 Record 999:  LeBAU_b12656367 aub_aco000420
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: DS246.3 .A286 1903
@@ -1463,8 +1457,8 @@ Institution ID: LeBAU_b12765831
 Record 999:  LeBAU_b12765831 aub_aco000418
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: DS106 .N23 1902
@@ -1477,8 +1471,8 @@ Record 999:  LeBAU_b12778916 aub_aco000403
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - Child's health primer. Arabic
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 500-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: QP37 .A558125 1900
@@ -1489,10 +1483,10 @@ Institution ID: LeBAU_b12784898
 Record 999:  LeBAU_b12784898 aub_aco000422
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 500-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
-   880 $6 500-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
-   880 $6 500-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
-   880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 500-00 - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
+   880 $6 500-00 - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
+   880 $6 500-00 - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
+   880 $6 504-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BX1970 .K36 1900
@@ -1502,7 +1496,7 @@ Institution ID: LeBAU_b17608260
 Record 999:  LeBAU_b17608260 aub_aco000423
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 546-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 546-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: PR1179 A7 J3 1921
@@ -1512,7 +1506,6 @@ Institution ID: LeBAU_b18463897
 Record 999:  LeBAU_b18463897 aub_aco000521
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 300-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
    880 $6 504-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
