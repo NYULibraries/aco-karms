@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170310s1927    sy      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">170508s1927    sy      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP136.4</subfield>
+		<subfield code="b">.I251 1927</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">297.08</subfield>
@@ -51,9 +55,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;عن نسخة مصححها والمعلق عليها محمد زاهد الكوثري.&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -63,22 +64,14 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الحديث</subfield>
-		<subfield code="x">إسناد</subfield>
-		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الحديث</subfield>
-		<subfield code="x">نقد وتأويل</subfield>
-		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Hadith</subfield>
 		<subfield code="x">Authorities</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Hadith</subfield>
 		<subfield code="x">Evidences, authority, etc.</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
@@ -99,28 +92,44 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/zpc86cjr</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01/r</subfield>
 		<subfield code="a">الحازمي، محمد بن موسى،</subfield>
 		<subfield code="d">1154؟-1188 او 1189،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">شروط الأئمة الخمسة :</subfield>
 		<subfield code="b">البخاري ومسلم وأبي داود و الترمذي و النسوي /</subfield>
 		<subfield code="c">تأليف الحافظ البارع أبي بكر محمد بن موسى الحازمي صاحب التصانيف المحررة النافعة المتوفى سنة 584.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03/r</subfield>
 		<subfield code="a">دمشق الشام :</subfield>
 		<subfield code="b">القدسي،</subfield>
 		<subfield code="c">1346 هـ.، [1927؟ م.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04/r</subfield>
 		<subfield code="a">60 صفحة ؛</subfield>
 		<subfield code="c">22 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00/r</subfield>
+		<subfield code="a">&quot;عن نسخة مصححها والمعلق عليها محمد زاهد الكوثري.&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05/r</subfield>
+		<subfield code="a">الحديث</subfield>
+		<subfield code="x">إسناد</subfield>
+		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06/r</subfield>
+		<subfield code="a">الحديث</subfield>
+		<subfield code="x">نقد وتأويل</subfield>
+		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -134,5 +143,6 @@
 		<subfield code="i">LeBAU_b12340406</subfield>
 		<subfield code="s">aub_aco000957</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco000957</subfield>
 	</datafield>
 </record>
