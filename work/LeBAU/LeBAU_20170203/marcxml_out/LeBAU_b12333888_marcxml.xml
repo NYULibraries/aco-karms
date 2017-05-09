@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170310s1914    ua      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">170508s1914    ua      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS38.6</subfield>
+		<subfield code="b">.W34 1914</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">297.09</subfield>
@@ -34,7 +38,7 @@
 		<subfield code="6">880-04</subfield>
 		<subfield code="a">Miṣr :</subfield>
 		<subfield code="b">al-Maṭba‘ah al-Jamālīyah,</subfield>
-		<subfield code="c">1332 [هـ.] = 1914 [م.]</subfield>
+		<subfield code="c">1332 [h.] = 1914 [m.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="6">880-05</subfield>
@@ -62,22 +66,14 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="4" tag="600">
-		<subfield code="a">هارون الرشيد،</subfield>
-		<subfield code="c">الخليفة،</subfield>
-		<subfield code="d">حوالى 763-809.</subfield>
-	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Hārūn al-Rashīd,</subfield>
 		<subfield code="c">Caliph,</subfield>
 		<subfield code="d">approximately 763-809.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">الامبراطورية الاسلامية</subfield>
-		<subfield code="x">تاريخ</subfield>
-		<subfield code="y">750-1258.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Islamic Empire</subfield>
 		<subfield code="x">History</subfield>
 		<subfield code="y">750-1258.</subfield>
@@ -98,30 +94,42 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/fqz6176p</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01/r</subfield>
 		<subfield code="a">الوكيل، حسن خطاب،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">عبرة من التاريخ في أيام الرشيد /</subfield>
 		<subfield code="c">بقلم حسن خطاب الوكيل، الإمام بالمدرسة الخديوية الأميرية</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-03/(3/r</subfield>
+		<subfield code="6">250-03/r</subfield>
 		<subfield code="a">الطبعة الأولى.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-04/(3/r</subfield>
+		<subfield code="6">264-04/r</subfield>
 		<subfield code="a">مصر :</subfield>
 		<subfield code="b">المطبعة الجمالية،</subfield>
 		<subfield code="c">1332 [هـ.] = 1914 [م.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-05/(3/r</subfield>
+		<subfield code="6">300-05/r</subfield>
 		<subfield code="a">67 صفحة ؛</subfield>
 		<subfield code="c">19 سم</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">600-06/r</subfield>
+		<subfield code="a">هارون الرشيد،</subfield>
+		<subfield code="c">الخليفة،</subfield>
+		<subfield code="d">حوالى 763-809.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-07/r</subfield>
+		<subfield code="a">الامبراطورية الاسلامية</subfield>
+		<subfield code="x">تاريخ</subfield>
+		<subfield code="y">750-1258.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -135,5 +143,6 @@
 		<subfield code="i">LeBAU_b12333888</subfield>
 		<subfield code="s">aub_aco000871</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco000871</subfield>
 	</datafield>
 </record>
