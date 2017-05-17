@@ -1,0 +1,26 @@
+ALL Records containing any type of error - batch NNU_20170110
+--  Each of these records have one or more of the following errors:
+    --  no 880 fields
+    --  missing a key 880 field
+    --  have an unlinked 880 field
+    --  have a series heading error in the 490/800/810/811/830 fields
+    --  have one of the various miscellaneous errors, marked with ERROR-MISC
+    --  missing a call number - no 050 or 090 field
+Report produced: 2017-05-17 14:15:06.152169
+---------------------------------------------------------------------
+FILE: NNU_20170110_1/NNU_20170110_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNU_20170110_1/NNU_20170110_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNU_001680170
+   orig_rec_035 num: =035  9\$aNYUb12223570
+   orig_rec_035 num: =035  \\$a(CStRLIN)DCGGB14992528-B
+Record 999:  NNU_001680170
+ERROR-880: 880 script fields: NO
+ERROR-MISC: No 040 field exists
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): nyu_aco000303:
+---------------------------------------------------------------------
+TOTAL Number of Records containing any type of error: 1
+
