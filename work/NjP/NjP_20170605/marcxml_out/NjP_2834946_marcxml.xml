@@ -5,24 +5,31 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170804m19581962ir      o     000 0 ara d</controlfield>
+	<controlfield tag="008">170815m19581962ir      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP130.4</subfield>
+		<subfield code="b">.H34 1958</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">al-Ṭihrānī, ʻAlī ibn Ḥusayn al-Mūsawī al-Ḥāʼirī,</subfield>
-		<subfield code="d">-approximately 1935.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Ḥāʼirī al-Ṭihrānī, ʻAlī,</subfield>
+		<subfield code="d">1853 or 1854-1934 or 1935.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Muqtanayāt al-durar [wa-multaqaṭāt al-thamar].</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Muqtanayāt al-durar /  taʼlīf al-Sayyid Mīr ʻAlī al-Ḥāʼirī al-Ṭihrānī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Tehran,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Tihrān :</subfield>
 		<subfield code="b">Akhundī,</subfield>
-		<subfield code="c">1337-41 [1958/9-62/3]</subfield>
+		<subfield code="c">1337-1341 [1958/9-1962/3]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (12 volumes in 6.)</subfield>
@@ -75,13 +82,28 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">al-Ṭihrānī, ʻAlī ibn Ḥusayn al-Mūsawī al-Ḥāʼirī, -approximately 1935.</subfield>
-		<subfield code="t">Muqtanayāt al-durar [wa-multaqaṭāt al-thamar]</subfield>
+		<subfield code="a">Ḥāʼirī al-Ṭihrānī, ʻAlī, 1853 or 1854-1934 or 1935.</subfield>
+		<subfield code="t">Muqtanayāt al-durar /  taʼlīf al-Sayyid Mīr ʻAlī al-Ḥāʼirī al-Ṭihrānī</subfield>
 		<subfield code="w">(NjP)2834946</subfield>
 		<subfield code="w">(OCoLC)42915108</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/5dv41tj4</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">حائري الطهراني، علي،</subfield>
+		<subfield code="d">1853 or 1854-1934 or 1935.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">مقتنيات الدرر /  تأليف السيد مير علي الحائري الطهراني.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">طهران :</subfield>
+		<subfield code="b">اخوندي،</subfield>
+		<subfield code="c">1337-1341 [1958/9-1962/3]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -93,7 +115,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2834946</subfield>
-		<subfield code="o">(OCoLC)ocm42915108 </subfield>
+		<subfield code="o">(OCoLC)ocm42915108</subfield>
 		<subfield code="s">princeton_aco000934:vol.1-2</subfield>
 		<subfield code="s">princeton_aco000935:vol.3-4</subfield>
 		<subfield code="s">princeton_aco000936:vol.5-6</subfield>
@@ -101,5 +123,11 @@
 		<subfield code="s">princeton_aco000933:vol.9-10</subfield>
 		<subfield code="s">princeton_aco000938:vol.11-12</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco000934:vol.1-2</subfield>
+		<subfield code="s">princeton_aco000935:vol.3-4</subfield>
+		<subfield code="s">princeton_aco000936:vol.5-6</subfield>
+		<subfield code="s">princeton_aco000937:vol.7-8</subfield>
+		<subfield code="s">princeton_aco000933:vol.9-10</subfield>
+		<subfield code="s">princeton_aco000938:vol.11-12</subfield>
 	</datafield>
 </record>

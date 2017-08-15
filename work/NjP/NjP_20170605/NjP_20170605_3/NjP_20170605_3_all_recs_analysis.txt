@@ -1,41 +1,39 @@
 Total records processed - batch NjP_20170605: 24 records
-Report produced: 2017-08-04 13:25:43.074046
-Input File (oclc_batch): 23
-Input File (orig_no_oclc): 1
+Report produced: 2017-08-15 09:06:07.311270
+Input File (updates): 22
+Input File (final subset): 2
 
 Records where OCLC nums did not match: 1
-Total records containing any type of error for this round: 22 (91.7%)
-Total records passing to final version for this round: 2 (8.3%)
+Total records containing any type of error for this round: 1 (4.2%)
+Total records passing to final version for this round: 23 (95.8%)
 -----------------------
-Records containing 880 script fields: 13 (54.2%)
-Records with NO 880 script fields: 11 (45.8%)
-Records missing key 880 script fields: 9 (37.5%)
-Records containing unlinked 880 script fields: 6 (25.0%)
+Records containing 880 script fields: 22 (91.7%)
+Records with NO 880 script fields: 0 (0.0%)
+Records missing key 880 script fields: 1 (4.2%)
+Records containing unlinked 880 script fields: 0 (0.0%)
 Records containing series errors in 490/800/810/811/830 fields: 0 (0.0%)
-Records containing miscellaneous errors: 13 (54.2%)
+Records containing miscellaneous errors: 0 (0.0%)
 Records containing bad encoding replacement character: 0
 Records containing RDA fields: 23 (95.8%)
-Records with NO 050 or 090 call number fields: 13 (54.2%)
+Records with NO 050 or 090 call number fields: 0 (0.0%)
 ---------------------------------------------------------------------
 INDIVIDUAL RECORDS ANALYSIS:
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm25688453 
    oclc_rec_035_num: (OCoLC)25688453
 Institution ID: NjP_614562
-Record 999:  NjP_614562 (OCoLC)ocm25688453
-ERROR-880: 880 script fields: NO
+Record 999:  NjP_614562 (OCoLC)ocm25688453 princeton_aco000914:juz 1 princeton_aco000915:juz 2 princeton_aco000916:juz 3
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
-ERROR-MISC: No 050 or 090 call number
+050 call number: BP130.4 .Q59 1988
 Source entities (book IDs): princeton_aco000914:juz 1, princeton_aco000915:juz 2, princeton_aco000916:juz 3
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm16139677 
    oclc_rec_035_num: (OCoLC)16139677
 Institution ID: NjP_2751710
-Record 999:  NjP_2751710 (OCoLC)ocm16139677
+Record 999:  NjP_2751710 (OCoLC)ocm16139677 princeton_aco000913:vol.1
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   100 - Vaḥīd al-Zamān Qazvīnī, Muḥammad Ṭāhir, -approximately 1708 or 1709.
 040 $e field: [none]
 RDA fields: YES
 050 call number: BP130.4.T338 T3
@@ -44,43 +42,28 @@ Source entities (book IDs): princeton_aco000913:vol.1
 OCLC ID: (OCoLC)ocn175307162
    oclc_rec_035_num: (OCoLC)175307162
 Institution ID: NjP_316750
-Record 999:  NjP_316750 (OCoLC)ocn175307162
+Record 999:  NjP_316750 (OCoLC)ocn175307162 princeton_aco000918:juz 1-2 princeton_aco000919:juz 3-4 princeton_aco000920:juz 5-6 princeton_aco000922:juz 13-14 princeton_aco000921:juz 15-16 princeton_aco000924:juz 19-20 princeton_aco000923:juz 21-22 princeton_aco000926:juz 23-24 princeton_aco000927:juz 25-26 princeton_aco000928:juz 27-28 princeton_aco000925:juz 29-30 princeton_aco000929:juz 31-32
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   100 - Rāzī, Fakhr al-Dīn Muḥammad ibn ʻUmar, 1149 or 1150-1210.
-   246 - Mafātīḥ al-ghayb
-   250 - al-Ṭabʻah 2.
-   260 - [Tehran?] : [publisher not identified], [198-]
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
-ERROR-MISC: No 050 or 090 call number
+050 call number: BP130.4 .R32 1980
 Source entities (book IDs): princeton_aco000918:juz 1-2, princeton_aco000919:juz 3-4, princeton_aco000920:juz 5-6, princeton_aco000922:juz 13-14, princeton_aco000921:juz 15-16, princeton_aco000924:juz 19-20, princeton_aco000923:juz 21-22, princeton_aco000926:juz 23-24, princeton_aco000927:juz 25-26, princeton_aco000928:juz 27-28, princeton_aco000925:juz 29-30, princeton_aco000929:juz 31-32
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm37169444 
    oclc_rec_035_num: (OCoLC)37169444
 Institution ID: NjP_1149126
-Record 999:  NjP_1149126 (OCoLC)ocm37169444
+Record 999:  NjP_1149126 (OCoLC)ocm37169444 princeton_aco000989
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
-ERROR-MISC: No 050 or 090 call number
+050 call number: BP176 .N3 1866
 Source entities (book IDs): princeton_aco000989
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm25296616 
    oclc_rec_035_num: (OCoLC)25296616
 Institution ID: NjP_460817
-Record 999:  NjP_460817 (OCoLC)ocm25296616
+Record 999:  NjP_460817 (OCoLC)ocm25296616 princeton_aco000893:juz 1 princeton_aco000894:juz 2 princeton_aco000895:juz 3 princeton_aco000896:juz 4 princeton_aco000897:juz 5 princeton_aco000898:juz 6
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Kanz al-daqāʼiq wa-baḥr al-gharāʼib
-   260 - Qum : Muʼassasat al-Nashr al-Islāmī al-Tābiʻah li-Jamāʻat al-Mudarrisīn, 1407- [1987-]
-ERROR-880: Unlinked 880s: YES
-   880 $6 240-00/(3/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 260-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 490-00/(3/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 700-00/(3/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: [none]
 RDA fields: YES
 050 call number: BP130.4 .Q72 1987x
@@ -89,28 +72,18 @@ Source entities (book IDs): princeton_aco000893:juz 1, princeton_aco000894:juz 2
 OCLC ID: (OCoLC)ocm42915108 
    oclc_rec_035_num: (OCoLC)42915108
 Institution ID: NjP_2834946
-Record 999:  NjP_2834946 (OCoLC)ocm42915108
-ERROR-880: 880 script fields: NO
-040 $e field: [none]
-RDA fields: YES
-ERROR-MISC: No 050 or 090 call number
-Source entities (book IDs): princeton_aco000934:vol.1-2, princeton_aco000935:vol.3-4, princeton_aco000936:vol.5-6, princeton_aco000937:vol.7-8, princeton_aco000933:vol.9-10, princeton_aco000938:vol.11-12
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm42915120 
-   oclc_rec_035_num: (OCoLC)42915120
-Institution ID: NjP_2834953
-Record 999:  NjP_2834953 (OCoLC)ocm42915120
+Record 999:  NjP_2834946 (OCoLC)ocm42915108 princeton_aco000934:vol.1-2 princeton_aco000935:vol.3-4 princeton_aco000936:vol.5-6 princeton_aco000937:vol.7-8 princeton_aco000933:vol.9-10 princeton_aco000938:vol.11-12
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
-050 call number: BP135.A2 S3 1961
-Source entities (book IDs): princeton_aco001015:vol.1, princeton_aco001016:vol.2
+050 call number: BP130.4 .H34 1958
+Source entities (book IDs): princeton_aco000934:vol.1-2, princeton_aco000935:vol.3-4, princeton_aco000936:vol.5-6, princeton_aco000937:vol.7-8, princeton_aco000933:vol.9-10, princeton_aco000938:vol.11-12
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm31155314 
    oclc_rec_035_num: (OCoLC)31155314
 Institution ID: NjP_193135
-Record 999:  NjP_193135 (OCoLC)ocm31155314
-ERROR-880: 880 script fields: NO
+Record 999:  NjP_193135 (OCoLC)ocm31155314 princeton_aco000987
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 050 call number: BP136.74 .T88 1980
@@ -119,8 +92,8 @@ Source entities (book IDs): princeton_aco000987
 OCLC ID: (OCoLC)ocm77900386 
    oclc_rec_035_num: (OCoLC)77900386
 Institution ID: NjP_2969154
-Record 999:  NjP_2969154 (OCoLC)ocm77900386
-ERROR-880: 880 script fields: NO
+Record 999:  NjP_2969154 (OCoLC)ocm77900386 princeton_aco000931
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 050 call number: BP130.4 .S85 1959
@@ -129,12 +102,8 @@ Source entities (book IDs): princeton_aco000931
 OCLC ID: (OCoLC)ocm07650811 
    oclc_rec_035_num: (OCoLC)7650811
 Institution ID: NjP_2737103
-Record 999:  NjP_2737103 (OCoLC)ocm07650811
+Record 999:  NjP_2737103 (OCoLC)ocm07650811 princeton_aco000990:vol.1
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   100 - al-Khūʼī, Abū al-Qāsim ibn ʻAlī Akbar, 1899-
-ERROR-880: Unlinked 880s: YES
-   880 $6 100-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
 050 call number: BP136.48 .K45
@@ -144,8 +113,10 @@ OCLC ID: (OCoLC)ocm22317490
    oclc_rec_035_num: (OCoLC)22317490
    oclc_rec_035_num: (OCoLC)651072665
 Institution ID: NjP_393162
-Record 999:  NjP_393162 (OCoLC)ocm22317490
-ERROR-880: 880 script fields: NO
+Record 999:  NjP_393162 (OCoLC)ocm22317490 princeton_aco000982:majmuah 1 princeton_aco000983:majmuah 2 princeton_aco000984:majmuah 3 princeton_aco000985:majmuah 4
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   240 - Works. Selections. 1984
 040 $e field: [none]
 RDA fields: YES
 050 call number: BP194 .S46x 1984
@@ -154,103 +125,79 @@ Source entities (book IDs): princeton_aco000982:majmuah 1, princeton_aco000983:m
 OCLC ID: (OCoLC)ocm34368317 
    oclc_rec_035_num: (OCoLC)34368317
 Institution ID: NjP_1037446
-Record 999:  NjP_1037446 (OCoLC)ocm34368317
+Record 999:  NjP_1037446 (OCoLC)ocm34368317 princeton_aco001000
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - [Najaf] : M.K. al-Ṭurayḥī, [1953?]
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
-ERROR-MISC: No 050 or 090 call number
+050 call number: BP130.4 .T87 1953
 Source entities (book IDs): princeton_aco001000
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm42036405 
    oclc_rec_035_num: (OCoLC)42036405
 Institution ID: NjP_2433170
-Record 999:  NjP_2433170 (OCoLC)ocm42036405
+Record 999:  NjP_2433170 (OCoLC)ocm42036405 princeton_aco000932
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - [Iran?] : Dār al-Tarbiyah, [199-?]
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: [none]
 RDA fields: YES
-ERROR-MISC: No 050 or 090 call number
+050 call number: BP128.18 .S88 1990
 Source entities (book IDs): princeton_aco000932
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm42917848 
    oclc_rec_035_num: (OCoLC)42917848
 Institution ID: NjP_1563139
-Record 999:  NjP_1563139 (OCoLC)ocm42917848
-ERROR-880: 880 script fields: NO
+Record 999:  NjP_1563139 (OCoLC)ocm42917848 princeton_aco000930
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
-ERROR-MISC: No 050 or 090 call number
+050 call number: BP130.4 .R29 1969
 Source entities (book IDs): princeton_aco000930
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm26275737 
    oclc_rec_035_num: (OCoLC)26275737
 Institution ID: NjP_478868
-Record 999:  NjP_478868 (OCoLC)ocm26275737
-ERROR-880: 880 script fields: NO
+Record 999:  NjP_478868 (OCoLC)ocm26275737 princeton_aco001017
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 050 call number: BP193.25 .A38x 1983
 Source entities (book IDs): princeton_aco001017
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn122997441
-   oclc_rec_035_num: (OCoLC)122997441
-   oclc_rec_035_num: (OCoLC)643652322
-Institution ID: NjP_2963737
-Record 999:  NjP_2963737 (OCoLC)ocn122997441
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-050 call number: BP130.4 .K4
-Source entities (book IDs): princeton_aco000917:vol.1
----------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm79081022 
    oclc_rec_035_num: (OCoLC)79081022
 Institution ID: NjP_329767
-Record 999:  NjP_329767 (OCoLC)ocm79081022
-ERROR-880: 880 script fields: NO
+Record 999:  NjP_329767 (OCoLC)ocm79081022 princeton_aco000992:juz 1 princeton_aco000991 princeton_aco000993
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
-ERROR-MISC: No 050 or 090 call number
+050 call number: BP136.5 .T84 1976
 Source entities (book IDs): princeton_aco000992:juz 1, princeton_aco000991, princeton_aco000993
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm27178457 
    oclc_rec_035_num: (OCoLC)27178457
 Institution ID: NjP_775776
-Record 999:  NjP_775776 (OCoLC)ocm27178457
+Record 999:  NjP_775776 (OCoLC)ocm27178457 princeton_aco000986
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Majālis al-sanīyah fī al-kalām ʻalá al-Arbaʻīn al-Nawawīyah
-   260 - al-Qāhirah : Maṭbaʻat al-Kastalīyah, 1278 [between 1861 and1862]
 040 $e field: [none]
 RDA fields: YES
-ERROR-MISC: No 050 or 090 call number
+050 call number: BP135.A3 N324 1861
 Source entities (book IDs): princeton_aco000986
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm50331675 
    oclc_rec_035_num: (OCoLC)50331675
    oclc_rec_035_num: (OCoLC)50331676
 Institution ID: NjP_3193977
-Record 999:  NjP_3193977 (OCoLC)ocm50331675
+Record 999:  NjP_3193977 (OCoLC)ocm50331675 princeton_aco000883:vol.2 princeton_aco000884:vol.3 princeton_aco000885:vol.4 princeton_aco000886:v.5 princeton_aco000887:v. 6 princeton_aco000888:vol.7 princeton_aco000889:vol.8 princeton_aco000890:vol.9
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
-ERROR-MISC: No 050 or 090 call number
+050 call number: BP130.4 .T28 1958
 Source entities (book IDs): princeton_aco000883:vol.2, princeton_aco000884:vol.3, princeton_aco000885:vol.4, princeton_aco000886:v.5, princeton_aco000887:v. 6, princeton_aco000888:vol.7, princeton_aco000889:vol.8, princeton_aco000890:vol.9
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm25400300 
    oclc_rec_035_num: (OCoLC)25400300
 Institution ID: NjP_757345
-Record 999:  NjP_757345 (OCoLC)ocm25400300
+Record 999:  NjP_757345 (OCoLC)ocm25400300 princeton_aco000956:juz 1 princeton_aco000957:juz 2 princeton_aco000958:juz 3
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   830 - Muʼassasat Āl al-Bayt li-Iḥyāʼ al-Turāth (Series) ; 120, etc.
 040 $e field: [none]
 RDA fields: YES
 050 call number: BP136.4 .M36 1990
@@ -259,8 +206,8 @@ Source entities (book IDs): princeton_aco000956:juz 1, princeton_aco000957:juz 2
 OCLC ID: (OCoLC)ocm50130382 
    oclc_rec_035_num: (OCoLC)50130382
 Institution ID: NjP_6392195
-Record 999:  NjP_6392195 (OCoLC)ocm50130382
-ERROR-880: 880 script fields: NO
+Record 999:  NjP_6392195 (OCoLC)ocm50130382 princeton_aco000988
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 050 call number: BP144 .G43 1956
@@ -269,34 +216,30 @@ Source entities (book IDs): princeton_aco000988
 OCLC ID: (OCoLC)ocm43110726 
    oclc_rec_035_num: (OCoLC)43110726
 Institution ID: NjP_1127528
-Record 999:  NjP_1127528 (OCoLC)ocm43110726
-ERROR-880: 880 script fields: NO
+Record 999:  NjP_1127528 (OCoLC)ocm43110726 princeton_aco000940:v.1 princeton_aco000943:v. 2 princeton_aco000994:v. 3 princeton_aco000942:v. 4 princeton_aco000939:v.5
+880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
-ERROR-MISC: No 050 or 090 call number
+050 call number: BP130.4 .S815 1957
 Source entities (book IDs): princeton_aco000940:v.1, princeton_aco000943:v. 2, princeton_aco000994:v. 3, princeton_aco000942:v. 4, princeton_aco000939:v.5
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm25296842 
    oclc_rec_035_num: (OCoLC)25296842
 Institution ID: NjP_614557
-Record 999:  NjP_614557 (OCoLC)ocm25296842
+Record 999:  NjP_614557 (OCoLC)ocm25296842 princeton_aco000899:mujallad 1 princeton_aco000900:mujallad 2 princeton_aco000901:mujallad 3 princeton_aco000902:mujallad 4 princeton_aco000903:mujallad 5 princeton_aco000904:mujallad 6 princeton_aco000905:mujallad 7 princeton_aco000906:mujallad 8 princeton_aco000907:mujallad 9 princeton_aco000908:mujallad 10 princeton_aco000909:mujallad 11 princeton_aco000910:mujallad 12 princeton_aco000911:mujallad 13 princeton_aco000912:mujallad 14
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - [Qum] : Muʼassasat al-Ṭabʻ wa-al-Nashr, Wizārat al-Thaqāfah wa-al-Irshād al-Islāmī, 1366- [1987 or 1988-]
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 240-00/(3/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: [none]
 RDA fields: YES
-ERROR-MISC: No 050 or 090 call number
+050 call number: BP130.4 .Q59 1987
 Source entities (book IDs): princeton_aco000899:mujallad 1, princeton_aco000900:mujallad 2, princeton_aco000901:mujallad 3, princeton_aco000902:mujallad 4, princeton_aco000903:mujallad 5, princeton_aco000904:mujallad 6, princeton_aco000905:mujallad 7, princeton_aco000906:mujallad 8, princeton_aco000907:mujallad 9, princeton_aco000908:mujallad 10, princeton_aco000909:mujallad 11, princeton_aco000910:mujallad 12, princeton_aco000911:mujallad 13, princeton_aco000912:mujallad 14
 ---------------------------------------------------------------------
 Institution ID: NjP_1785180
+   orig_rec_035 num: =035  \\$a(OCoLC)NEW
    orig_rec_035 num: =035  \\$a(CStRLIN)NJPG98-B30008
    orig_rec_035 num: =035  \\$9CFZ8252TS
-Record 999:  NjP_1785180
-ERROR-880: 880 script fields: NO
+Record 999:  NjP_1785180 princeton_aco000892:(juz  1)
+880 script fields: YES
 040 $e field: [none]
-ERROR-MISC: No 050 or 090 call number
+050 call number: BP130.4.T338 T3 1977
 Source entities (book IDs): princeton_aco000892:(juz  1)
 ---------------------------------------------------------------------

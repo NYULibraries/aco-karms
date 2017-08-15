@@ -5,23 +5,30 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170804r19571897ir      o     000 0 ara d</controlfield>
+	<controlfield tag="008">170815r19571897ir      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP130.4</subfield>
+		<subfield code="b">.S815 1957</subfield>
+	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Suyūṭī,</subfield>
 		<subfield code="d">1445-1505.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Durr al-manthūr fī al-tafsīr bi-al-maʼthūr ...</subfield>
-		<subfield code="b">wa-bi-hāmishihi al-Qurʼān al-sharīf maʻa kitāb Tanwīr al-miqbās tafsīr ... ʻAbd Allāh ibn ʻAbbās.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Durr al-manthūr fī al-tafsīr bi-al-maʼthūr /</subfield>
+		<subfield code="c">li-Jalāl al-Dīn al-Suyūṭī ; wa-bi-hāmishih al-Qurʼān al-sharīf maʻa kitāb Tanwīr al-miqbās tafsīr ʻAbd Allāh Ibn ʻAbbās.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Tehran,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Ṭihrān :</subfield>
 		<subfield code="b">al-Maktabah al-Islāmīyah,</subfield>
 		<subfield code="c">1377 [1957]</subfield>
 	</datafield>
@@ -56,6 +63,16 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Offset reprint of ed. Cairo, 1314 [1897].</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="0" tag="630">
+		<subfield code="a">Qurʼan</subfield>
+		<subfield code="v">Commentaries.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="2" tag="700">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">ʻAbd Allāh ibn al-ʻAbbās,</subfield>
+		<subfield code="d">-688?</subfield>
+		<subfield code="t">Tanwīr al-muqbās. </subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
 		<subfield code="b">Library.</subfield>
@@ -73,6 +90,28 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/kprr53b5</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">سيوطي،</subfield>
+		<subfield code="d">1445-1505. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">الدر المنثور في التفسير بالمأثور /</subfield>
+		<subfield code="c">لجلال الدين السيوطي ؛ وبهامشه القرآن الشريف مع كتاب تنوير المقباس تفسير عبد الله ابن عباس.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">طهران :</subfield>
+		<subfield code="b">المكتبة الاسلامية،</subfield>
+		<subfield code="c">1377 [1957]</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="2" tag="880">
+		<subfield code="6">700-04/r</subfield>
+		<subfield code="a">عبد الله بن العباس،</subfield>
+		<subfield code="d">-688؟</subfield>
+		<subfield code="t">تنوير المقباس. </subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -83,12 +122,17 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_1127528</subfield>
-		<subfield code="o">(OCoLC)ocm43110726 </subfield>
+		<subfield code="o">(OCoLC)ocm43110726</subfield>
 		<subfield code="s">princeton_aco000940:v.1</subfield>
 		<subfield code="s">princeton_aco000943:v. 2</subfield>
 		<subfield code="s">princeton_aco000994:v. 3</subfield>
 		<subfield code="s">princeton_aco000942:v. 4</subfield>
 		<subfield code="s">princeton_aco000939:v.5</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco000940:v.1</subfield>
+		<subfield code="s">princeton_aco000943:v. 2</subfield>
+		<subfield code="s">princeton_aco000994:v. 3</subfield>
+		<subfield code="s">princeton_aco000942:v. 4</subfield>
+		<subfield code="s">princeton_aco000939:v.5</subfield>
 	</datafield>
 </record>
