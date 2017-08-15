@@ -5,33 +5,46 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170607s1925    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">170815s1928    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">BJ1291</subfield>
-		<subfield code="b">.M33 1925</subfield>
+		<subfield code="b">.M33</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="a">Māwardī, ʻAlī ibn Muḥammad,</subfield>
 		<subfield code="d">974?-1058.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="240">
-		<subfield code="a">Adab al-dunyā wa-al-dīn</subfield>
-	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Kitāb adab al-dunyā wa-al-dīn</subfield>
-		<subfield code="h">[electronic resource].</subfield>
+		<subfield code="a">Kitab adab al-dunya wa al-din.</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="a">Adab al-dunya wa al-din</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">al-Qāhirah : al-Maṭbaʻah al-Amīrīyah,</subfield>
-		<subfield code="c">1925</subfield>
+		<subfield code="a">Al-qahirah,</subfield>
+		<subfield code="b">Al-Matba Al-amiriyyah</subfield>
+		<subfield code="c">[1928]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (iv, 330 p.)</subfield>
+		<subfield code="a">online resource (iv, 330 pages)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
@@ -49,6 +62,16 @@
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">Islamic etiquette.</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Islamic ethics.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst00979936</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Islamic etiquette.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst00979940</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -59,9 +82,9 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Māwardī, ʻAlī ibn Muḥammad, 974?-1058.</subfield>
-		<subfield code="t">Kitāb adab al-dunyā wa-al-dīn</subfield>
+		<subfield code="t">Kitab adab al-dunya wa al-din</subfield>
 		<subfield code="w">(NNC)981547</subfield>
-		<subfield code="w">(DLC)ne 67000585 </subfield>
+		<subfield code="w">(OCoLC)20036953</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/qfttf3t2</subfield>
@@ -76,6 +99,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_981547</subfield>
+		<subfield code="o">(OCoLC)ocm20036953</subfield>
 		<subfield code="s">columbia_aco002444</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
 	</datafield>

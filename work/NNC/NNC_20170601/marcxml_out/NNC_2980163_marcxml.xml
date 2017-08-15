@@ -5,11 +5,15 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170607s1968    iq      ob    000 0barard</controlfield>
+	<controlfield tag="008">170815s1968    iq      ob    000 0barard</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="066">
+		<subfield code="c">(3</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
@@ -18,25 +22,39 @@
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">a-iq---</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">PJ6064.S5</subfield>
-		<subfield code="b">R3</subfield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ6064.A22</subfield>
+		<subfield code="b">R39 1968</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Razzūq, Razzūq Faraj.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Abū ʻAmr al-Shaybānī</subfield>
-		<subfield code="h">[electronic resource] /</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Abū ʻAmr al-Shaybānī /</subfield>
 		<subfield code="c">Razzūq Faraj Razzūq.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Baghdād :</subfield>
 		<subfield code="b">Maṭbaʻat al-Maʻārif,</subfield>
 		<subfield code="c">1968.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (32 p.)</subfield>
+		<subfield code="a">online resource (32 pages)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Added t.p. in English has title: Abu ʻAmr al-Shaibani.</subfield>
@@ -45,7 +63,7 @@
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">Includes bibliographical references (p. 29-32)</subfield>
+		<subfield code="a">Includes bibliographical references (pages 29-32).</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
@@ -59,7 +77,7 @@
 		<subfield code="d">-approximately 821.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">Grammarians</subfield>
+		<subfield code="a">Grammarians, Arab</subfield>
 		<subfield code="z">Iraq</subfield>
 		<subfield code="z">Kūfah</subfield>
 		<subfield code="v">Biography.</subfield>
@@ -76,9 +94,25 @@
 		<subfield code="a">Razzūq, Razzūq Faraj.</subfield>
 		<subfield code="t">Abū ʻAmr al-Shaybānī</subfield>
 		<subfield code="w">(NNC)2980163</subfield>
+		<subfield code="w">(OCoLC)38983623</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/jm63xzcx</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="a">رزوق، رزوق فرج.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="a">أبو عمرو الشيباني /</subfield>
+		<subfield code="c">رزوق فرج رزوق.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/(3/r</subfield>
+		<subfield code="a">بغداد :</subfield>
+		<subfield code="b">مطبعة المعارف،</subfield>
+		<subfield code="c">١٩٦٨.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -90,7 +124,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_2980163</subfield>
+		<subfield code="o">(OCoLC)ocm38983623</subfield>
 		<subfield code="s">columbia_aco002488</subfield>
-		<subfield code="e">(ERROR-880)</subfield>
 	</datafield>
 </record>

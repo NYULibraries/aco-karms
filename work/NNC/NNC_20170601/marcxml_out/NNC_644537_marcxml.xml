@@ -5,22 +5,22 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170607s1925    ua |||||o||| |||||||ara |</controlfield>
+	<controlfield tag="008">170815s1925    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1="2" ind2="0" tag="100">
-		<subfield code="a">Abu Shujaʻ al-Isfahani, Ahmad ibn al-Husayn,</subfield>
-		<subfield code="d">b. ca. 1042.</subfield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="a">Abū Shujāʻ al-Iṣfahānī, Aḥmad ibn al-Ḥusayn,</subfield>
+		<subfield code="d">approximately 1042-</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="240">
+	<datafield ind1="1" ind2="0" tag="240">
 		<subfield code="a">Ghayah wa-al-taqrib</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Hadha matn al-ghayah wa-al-taqrib</subfield>
-		<subfield code="h">[electronic resource].</subfield>
+		<subfield code="a">Hadha matn al-ghayah wa-al-taqrib.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="a">Misr :</subfield>
@@ -28,7 +28,19 @@
 		<subfield code="c">1925.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (48 p.)</subfield>
+		<subfield code="a">online resource (48 pages)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
@@ -49,9 +61,10 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Abu Shujaʻ al-Isfahani, Ahmad ibn al-Husayn, b. ca. 1042.</subfield>
+		<subfield code="a">Abū Shujāʻ al-Iṣfahānī, Aḥmad ibn al-Ḥusayn, approximately 1042-</subfield>
 		<subfield code="t">Hadha matn al-ghayah wa-al-taqrib</subfield>
 		<subfield code="w">(NNC)644537</subfield>
+		<subfield code="w">(OCoLC)506941623</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/5tb2rhcp</subfield>
@@ -66,6 +79,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_644537</subfield>
+		<subfield code="o">(OCoLC)ocn506941623</subfield>
 		<subfield code="s">columbia_aco002505</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
 	</datafield>

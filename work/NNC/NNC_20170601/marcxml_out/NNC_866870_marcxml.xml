@@ -5,27 +5,23 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170607m19289999xx      o     000 0 arar </controlfield>
+	<controlfield tag="008">170815m19289999ua      o     000 0 arar </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="050">
+	<datafield ind1="0" ind2="0" tag="050">
 		<subfield code="a">BC38</subfield>
-		<subfield code="b">.A23 1928</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">BC73</subfield>
 		<subfield code="b">.A23 1928</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="a">ʻAbd al-Rāziq, Muḥammad Ḥasanayn.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">ʻIlm al-manṭiq al-ḥadīth</subfield>
-		<subfield code="h">[electronic resource] /</subfield>
-		<subfield code="c">taʾlīf Muḥammad Ḥasanayn ʻAbd al-Rāziq.</subfield>
+		<subfield code="a">ʻIlm al-manṭiq al-ḥadīth /</subfield>
+		<subfield code="c">taʼlīf Muḥammad Ḥasanayn ʻAbd al-Rāziq.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
 		<subfield code="a">al-Ṭabʻah 2.</subfield>
@@ -36,7 +32,19 @@
 		<subfield code="c">1928-</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (v. &lt;1   &gt;)</subfield>
+		<subfield code="a">online resource (volumes &lt;1&gt;)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">&quot;Qarrarat Wizārat al-Maʻārif al-ʻUmūmīyah tadrīs hādhā al-kitāb bi-Madrasat al-Muʻallimīn al-ʻUlya.&quot;</subfield>
@@ -54,6 +62,11 @@
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">Logic, Modern.</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Logic, Modern.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01002066</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -66,7 +79,8 @@
 		<subfield code="a">ʻAbd al-Rāziq, Muḥammad Ḥasanayn.</subfield>
 		<subfield code="t">ʻIlm al-manṭiq al-ḥadīth</subfield>
 		<subfield code="w">(NNC)866870</subfield>
-		<subfield code="w">(DLC)   83961525 /NE</subfield>
+		<subfield code="w">(DLC)   83961525 </subfield>
+		<subfield code="w">(OCoLC)11469111</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/x0k6dqck</subfield>
@@ -81,6 +95,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_866870</subfield>
+		<subfield code="o">(OCoLC)ocm11469111</subfield>
 		<subfield code="s">columbia_aco002333</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
 	</datafield>
