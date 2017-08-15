@@ -222,6 +222,8 @@ for file_type in input_files:
 	write_filename(filename)
 	rec_count_file = 0
 	for mrc_rec in mrc_file:
+		mrc_rec_001 = mrc_rec.get_fields('001')[0]
+		print mrc_rec_001
 		dup_rec = aco_functions.process_rec(mrc_rec, rec_type)
 		if not dup_rec:
 			rec_count_file +=1
