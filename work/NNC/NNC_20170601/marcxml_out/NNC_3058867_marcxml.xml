@@ -5,27 +5,27 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170607s1937    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">170815s1937    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="099">
-		<subfield code="a">893.795</subfield>
-		<subfield code="a">T5163</subfield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP135</subfield>
+		<subfield code="b">.A15 1937</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="a">Tirmidhī, Muḥammad ibn ʻĪsá,</subfield>
 		<subfield code="d">-892.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Jāmiʻ al-ṣaḥīḥ wa-huwa Sunan al-Tirmidhī</subfield>
-		<subfield code="h">[electronic resource] /</subfield>
+		<subfield code="a">al-Jāmiʻ al-ṣaḥīḥ wa-huwa Sunan al-Tirmidhī /</subfield>
 		<subfield code="c">li-Abī ʻĪsá Muḥammad ibn ʻĪsá ibn Sawrah ; bi-taḥqīq wa-sharḥ Aḥmad Muḥammad Shākir.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
-		<subfield code="a">[al-Ṭabʻah al-ūlá]</subfield>
+		<subfield code="a">[al-Ṭabʻah al-ūlá].</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="a">al-Qāhirah :</subfield>
@@ -33,7 +33,19 @@
 		<subfield code="c">1937.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (3 v.)</subfield>
+		<subfield code="a">online resource (3 volumes)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
@@ -47,6 +59,11 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">Hadith.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Hadith.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst00950112</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="a">Shākir, Aḥmad Muḥammad.</subfield>
@@ -63,6 +80,7 @@
 		<subfield code="a">Tirmidhī, Muḥammad ibn ʻĪsá, -892.</subfield>
 		<subfield code="t">al-Jāmiʻ al-ṣaḥīḥ wa-huwa Sunan al-Tirmidhī</subfield>
 		<subfield code="w">(NNC)3058867</subfield>
+		<subfield code="w">(OCoLC)26321730</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/98sf7rsb</subfield>
@@ -77,9 +95,10 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3058867</subfield>
+		<subfield code="o">(OCoLC)ocm26321730</subfield>
 		<subfield code="s">columbia_aco002527:v.1</subfield>
 		<subfield code="s">columbia_aco002528:v.2</subfield>
 		<subfield code="s">columbia_aco002529:v.3</subfield>
-		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="e">(ERROR-880)</subfield>
 	</datafield>
 </record>

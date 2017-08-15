@@ -5,36 +5,51 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170607s1949    ir a    ob    001 0 ara d</controlfield>
+	<controlfield tag="008">170815s1949    ir a    ob    001 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">a-ir---</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="099">
-		<subfield code="a">955Sh65</subfield>
-		<subfield code="a">Um53</subfield>
+	<datafield ind1="1" ind2="4" tag="050">
+		<subfield code="a">DS325.S52</subfield>
+		<subfield code="b">J8</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="a">Junayd Shīrāzī, Muʻīn al-Dīn Abū al-Qāsim,</subfield>
 		<subfield code="d">active 1300-1388.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Shadd al-izār fī ḥaṭṭ al-awzār ʻan zavvār al-mazār</subfield>
-		<subfield code="h">[electronic resource] /</subfield>
-		<subfield code="c">taʾlīf-i Muʻīn al-Dīn Abū al-Qāsim Junayd Shīrāzī ; bih taṣḥīḥ va taḥshiyah-ʾi Muḥammad Qazvīnī va ʾAbbās Iqbāl.</subfield>
+		<subfield code="a">Shadd al-izār fī ḥaṭṭ al-awzār ʻan zavvār al-mazār /</subfield>
+		<subfield code="c">taʼlīf-i Muʻīn al-Dīn Abū al-Qāsim Junayd Shīrāzī ; bih taṣḥīḥ va taḥshiyah-ʼi Muḥammad Qazvīnī va ʼAbbās Iqbāl.</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="a">Mazārāt-i Shīrāz</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="a">Tihrān :</subfield>
-		<subfield code="b">[s.n.],</subfield>
+		<subfield code="b">[publisher not identified],</subfield>
 		<subfield code="c">1328 [1949 or 1950]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource ([10],621 p.) :</subfield>
-		<subfield code="b">ill.</subfield>
+		<subfield code="a">online resource ([10], 621 pages) :</subfield>
+		<subfield code="b">illustrations</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
@@ -53,6 +68,17 @@
 		<subfield code="a">Shīrāz (Iran)</subfield>
 		<subfield code="v">Biography.</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">Iran</subfield>
+		<subfield code="z">Shīrāz.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01208873</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">Biography.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01423686</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="a">Qazvīnī, Muḥammad,</subfield>
 		<subfield code="d">1877-1949.</subfield>
@@ -68,14 +94,12 @@
 	<datafield ind1="0" ind2=" " tag="730">
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="1" tag="740">
-		<subfield code="a">Mazārāt-i Shīrāz.</subfield>
-	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Junayd Shīrāzī, Muʻīn al-Dīn Abū al-Qāsim, active 1300-1388.</subfield>
 		<subfield code="t">Shadd al-izār fī ḥaṭṭ al-awzār ʻan zavvār al-mazār</subfield>
 		<subfield code="w">(NNC)2677179</subfield>
+		<subfield code="w">(OCoLC)25700677</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/mw6m951b</subfield>
@@ -90,7 +114,8 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_2677179</subfield>
+		<subfield code="o">(OCoLC)ocm25700677</subfield>
 		<subfield code="s">columbia_aco002440</subfield>
-		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="e">(ERROR-880)</subfield>
 	</datafield>
 </record>

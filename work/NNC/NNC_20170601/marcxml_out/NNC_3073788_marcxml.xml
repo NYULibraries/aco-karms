@@ -5,23 +5,23 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170607m19111912ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">170815m19111912ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="099">
-		<subfield code="a">893.74</subfield>
-		<subfield code="a">Sa234</subfield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ6161.Q343</subfield>
+		<subfield code="b">T4346 1911</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="a">Anbābī, Muḥammad ibn Muḥammad,</subfield>
 		<subfield code="d">1824 or 1825-1895 or 1896.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Taqrīr al-Shams al-Anbābī ʻalā Sharḥ Saʻd-al-Dīn al-Taftazānī li Talkhīṣ al-Miftāḥ</subfield>
-		<subfield code="h">[electronic resource] :</subfield>
+		<subfield code="a">Taqrīr al-Shams al-Anbābī ʻalā Sharḥ Saʻd-al-Dīn al-Taftazānī li Talkhīṣ al-Miftāḥ,</subfield>
 		<subfield code="b">wa Ḥashiyatuhū al-shahīrah bi al-Tajrīd fī ʻilm al-maʻānī wa-al-bayān wa-al-badīʻ.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
@@ -30,7 +30,19 @@
 		<subfield code="c">1330-31 h. [1911-12]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (4 v.)</subfield>
+		<subfield code="a">online resource (4 volumes)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
@@ -42,6 +54,26 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="a">Qazwīnī, Jalāl al-Dīn Muḥammad ibn ʻAbd al-Raḥmān,</subfield>
+		<subfield code="d">1267 or 1268-1338.</subfield>
+		<subfield code="t">Talkhīṣ al-Miftāḥ.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="a">Taftāzānī, Masʻūd ibn ʻUmar,</subfield>
+		<subfield code="d">1322-1389?</subfield>
+		<subfield code="t">Mukhtaṣar al-Maʻānī.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Arabic language</subfield>
+		<subfield code="x">Rhetoric</subfield>
+		<subfield code="v">Early works to 1800.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Arabic language</subfield>
+		<subfield code="x">Grammar</subfield>
+		<subfield code="v">Early works to 1800.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -50,10 +82,18 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">Anbābī, Muḥammad ibn Muḥammad, 1824 or 1825-1895 or 1896.</subfield>
+		<subfield code="t">Taqrīr al-Shams al-Anbābī ʻalā Sharḥ Saʻd-al-Dīn al-Taftazānī li Talkhīṣ al-Miftāḥ.</subfield>
+		<subfield code="d">Miṣr, Maṭbaʻat al-Saʻādah, 1330-31 h. [1911-12]</subfield>
+		<subfield code="w">(OCoLC)858011539</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Anbābī, Muḥammad ibn Muḥammad, 1824 or 1825-1895 or 1896.</subfield>
 		<subfield code="t">Taqrīr al-Shams al-Anbābī ʻalā Sharḥ Saʻd-al-Dīn al-Taftazānī li Talkhīṣ al-Miftāḥ</subfield>
 		<subfield code="w">(NNC)3073788</subfield>
+		<subfield code="w">(OCoLC)47849541</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/c866t68p</subfield>
@@ -68,9 +108,10 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3073788</subfield>
+		<subfield code="o">(OCoLC)ocm47849541</subfield>
 		<subfield code="s">columbia_aco002524:v.1</subfield>
 		<subfield code="s">columbia_aco002525:v.2</subfield>
 		<subfield code="s">columbia_aco002526:v.4</subfield>
-		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="e">(ERROR-880)</subfield>
 	</datafield>
 </record>

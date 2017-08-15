@@ -5,23 +5,23 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170607s1923    sy      o     000 0 araod</controlfield>
+	<controlfield tag="008">170815s1923    sy      o     000 0 araod</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="090">
-		<subfield code="a">PJ6696.Z8</subfield>
-		<subfield code="b">K33</subfield>
+		<subfield code="a">BP130.4</subfield>
+		<subfield code="b">.K33 1923</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="a">Khānī, Muḥyī al-Dīn.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Ḥusn al-bayān fī tafsīr mufradāt al-Qurʾān</subfield>
-		<subfield code="h">[electronic resource] /</subfield>
-		<subfield code="c">taʾlīf Muḥyī al-Dīn al-Khānī.</subfield>
+		<subfield code="a">Ḥusn al-bayān fī tafsīr mufradāt al-Qurʼān /</subfield>
+		<subfield code="c">taʼlīf Muḥyī al-Dīn al-Khānī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="a">Dimashq :</subfield>
@@ -29,7 +29,19 @@
 		<subfield code="c">1342 [1923]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (378 p.)</subfield>
+		<subfield code="a">online resource (378 pages)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
@@ -45,6 +57,16 @@
 		<subfield code="a">Qurʼan</subfield>
 		<subfield code="v">Commentaries.</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="7" tag="630">
+		<subfield code="a">Qurʼan.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01842877</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">Commentaries.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01423723</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -55,8 +77,9 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Khānī, Muḥyī al-Dīn.</subfield>
-		<subfield code="t">Ḥusn al-bayān fī tafsīr mufradāt al-Qurʾān</subfield>
+		<subfield code="t">Ḥusn al-bayān fī tafsīr mufradāt al-Qurʼān</subfield>
 		<subfield code="w">(NNC)2984494</subfield>
+		<subfield code="w">(OCoLC)10187751</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/31zcrq3f</subfield>
@@ -71,6 +94,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_2984494</subfield>
+		<subfield code="o">(OCoLC)ocm10187751</subfield>
 		<subfield code="s">columbia_aco002476</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
 	</datafield>

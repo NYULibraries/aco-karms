@@ -5,10 +5,11 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170607s1875    le      o     000 0 ara|d</controlfield>
+	<controlfield tag="008">170815s1875    le      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
@@ -22,20 +23,31 @@
 		<subfield code="a">Hadīyat al-aḥbāb fī ʻilm al-ḥisāb</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Kitāb Hadīyat al-aḥbāb fī ʻilm al-ḥisāb</subfield>
-		<subfield code="h">[electronic resource] /</subfield>
-		<subfield code="c">ʻAbd al-Faqīr al-Jānī Mīkhāʾīl ibn Ibrāhīm Aṣāf al-Lubnānī.</subfield>
+		<subfield code="a">Kitāb Hadīyat al-aḥbāb fī ʻilm al-ḥisāb /</subfield>
+		<subfield code="c">ʻAbd al-Faqīr al-Jānī Mīkhāʼīl ibn Ibrāhīm Aṣāf al-Lubnānī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
 		<subfield code="a">al-Tabʻah 2.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="a">Bayrūt :</subfield>
-		<subfield code="b">Maṭbaʻat al-Ābāʾ al-Yasūʻyīn,</subfield>
+		<subfield code="b">Maṭbaʻat al-Ābāʼ al-Yasūʻyīn,</subfield>
 		<subfield code="c">1875.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (172 p.)</subfield>
+		<subfield code="a">online resource (172 pages)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
@@ -50,6 +62,11 @@
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">Mathematics, Arab.</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Mathematics, Arab.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01012356</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -62,6 +79,7 @@
 		<subfield code="a">Aṣāf, Mīkhāʼīl ibn Ibrāhīm.</subfield>
 		<subfield code="t">Kitāb Hadīyat al-aḥbāb fī ʻilm al-ḥisāb</subfield>
 		<subfield code="w">(NNC)1761820</subfield>
+		<subfield code="w">(OCoLC)60817980</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/sbcc2mk9</subfield>
@@ -76,6 +94,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_1761820</subfield>
+		<subfield code="o">(OCoLC)ocm60817980</subfield>
 		<subfield code="s">columbia_aco002509</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
 	</datafield>

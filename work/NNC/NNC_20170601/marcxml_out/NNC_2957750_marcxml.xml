@@ -5,42 +5,68 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170607m19541962ua h    ob    000 0 arar </controlfield>
+	<controlfield tag="008">170815m19541962ua h    ob    000 0 ara  </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="050">
+	<datafield ind1=" " ind2=" " tag="066">
+		<subfield code="c">(3</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="050">
 		<subfield code="a">BP131.3</subfield>
 		<subfield code="b">.A22</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ6696</subfield>
+		<subfield code="b">.A29x 1954</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="082">
+		<subfield code="a">297.1226</subfield>
+	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Abū ʻUbaydah Maʻmar ibn al-Muthanná al-Taymī,</subfield>
-		<subfield code="d">728?-824?</subfield>
+		<subfield code="d">728?-824.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Majāz al-Qurʾān</subfield>
-		<subfield code="h">[electronic resource] /</subfield>
-		<subfield code="c">ṣanʻat Abī ʻUbaydahʾ Maʻmar ibn al-Muthannā al-Taymī. ʻĀraḍahu bi-ʾuṣūlihi wa-ʻallaqa ʻalayhi Muḥammad Fuʾād Sazgīn.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Majāz al-Qurʼān /</subfield>
+		<subfield code="c">ṣanʻat Abī ʻUbaydah Maʻmar ibn al-Muthanná al-Taymī ; ʻāraḍahu bi-uṣūlihi wa-ʻallaqa ʻalayhi Muḥammad Fuʼād Sazgīn.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">al-Ṭabʻah 1.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Miṣr,</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Miṣr :</subfield>
 		<subfield code="b">al-Khānjī,</subfield>
 		<subfield code="c">[1954-62]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (2 v.) :</subfield>
-		<subfield code="b">facsims.</subfield>
+		<subfield code="a">online resource (2 volumes) :</subfield>
+		<subfield code="b">facsimiles</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">Bibliography: v. 1, p. 29-45 (1st group)</subfield>
+		<subfield code="a">Includes bibliographical references (v. 1, pages 29-45 (1st group)).</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
@@ -50,11 +76,18 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">Figures of speech.</subfield>
+		<subfield code="a">Figures of speech</subfield>
+		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="630">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Qurʼan</subfield>
-		<subfield code="x">Language, style.</subfield>
+		<subfield code="x">Language, style</subfield>
+		<subfield code="v">Early works to 1800.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-06</subfield>
+		<subfield code="a">Sezgin, Fuat.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
@@ -64,14 +97,75 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
-		<subfield code="i">Print version:</subfield>
+		<subfield code="i">Online version:</subfield>
 		<subfield code="a">Abū ʻUbaydah Maʻmar ibn al-Muthanná al-Taymī, 728?-824?</subfield>
-		<subfield code="t">Majāz al-Qurʾān</subfield>
+		<subfield code="t">Majāz al-Qurʼān.</subfield>
+		<subfield code="b">al-Ṭabʻah 1.</subfield>
+		<subfield code="d">Miṣr, al-Khānjī, [1954-62]</subfield>
+		<subfield code="w">(OCoLC)607795537</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">Abū ʻUbaydah Maʻmar ibn al-Muthanná al-Taymī, 728?-824?</subfield>
+		<subfield code="t">Majāz al-Qurʼān.</subfield>
+		<subfield code="b">al-Ṭabʻah 1.</subfield>
+		<subfield code="d">Miṣr, al-Khānjī, [1954-62]</subfield>
+		<subfield code="w">(OCoLC)622767847</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Print version:</subfield>
+		<subfield code="a">Abū ʻUbaydah Maʻmar ibn al-Muthanná al-Taymī, 728?-824.</subfield>
+		<subfield code="t">Majāz al-Qurʼān</subfield>
 		<subfield code="w">(NNC)2957750</subfield>
 		<subfield code="w">(DLC)ne 63001999 </subfield>
+		<subfield code="w">(OCoLC)11264402</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/z8w9gpr9</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="a">ابو عبيدة معمر بن المثنى التيمي،,</subfield>
+		<subfield code="d">728?-824?</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="a">مجاز القرآن /</subfield>
+		<subfield code="c">صنعة ابي عبيدة معمر بن المثنى التيمي ؛ عارضه بأصوله وعلق عليه محمد فؤاد سزكين.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">250-03/(3/r</subfield>
+		<subfield code="a">الطبعة 1.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/(3/r</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">الخانجي،</subfield>
+		<subfield code="c">[1954-62]</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">630-00/(3/r</subfield>
+		<subfield code="a">القرآن</subfield>
+		<subfield code="x">بلاغة.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">630-00/(3/r</subfield>
+		<subfield code="a">القرآن</subfield>
+		<subfield code="x">تفاسير.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">630-00/(3/r</subfield>
+		<subfield code="a">القرآن</subfield>
+		<subfield code="x">بديع.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">630-05/(3/r</subfield>
+		<subfield code="a">القرآن</subfield>
+		<subfield code="x">اعراب.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-06/(3/r</subfield>
+		<subfield code="a">سزكين، فؤاد.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -83,6 +177,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_2957750</subfield>
+		<subfield code="o">(OCoLC)ocm11264402</subfield>
 		<subfield code="s">columbia_aco002388:v.1</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
 	</datafield>

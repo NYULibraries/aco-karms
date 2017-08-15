@@ -5,13 +5,14 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170607s1937    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">170815s1937    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="090">
+	<datafield ind1="1" ind2="4" tag="050">
 		<subfield code="a">BJ1291</subfield>
 		<subfield code="b">.B37</subfield>
 	</datafield>
@@ -20,9 +21,8 @@
 		<subfield code="d">1522-1573.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Tarīqah al-Muḥammadīyah wa-al-sīrah al-Aḥmadīyah</subfield>
-		<subfield code="h">[electronic resource] /</subfield>
-		<subfield code="c">taʾlīf Zayn al-Dīn Muḥammad ibn Bīr ʻȦlī Muḥyī al-Dīn al-Barakawī.</subfield>
+		<subfield code="a">al-Tarīqah al-Muḥammadīyah wa-al-sīrah al-Aḥmadīyah /</subfield>
+		<subfield code="c">taʼlīf Zayn al-Dīn Muḥammad ibn Bīr ʻȦlī Muḥyī al-Dīn al-Barakawī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="a">Miṣr :</subfield>
@@ -30,7 +30,19 @@
 		<subfield code="c">1937.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (222 p.)</subfield>
+		<subfield code="a">online resource (222 pages)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
@@ -48,6 +60,16 @@
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">Conduct of life.</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Conduct of life.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst00874563</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Islamic ethics.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst00979936</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -60,6 +82,7 @@
 		<subfield code="a">Barakwī, Zayn al-Dīn Muḥammad ibn Bīr ʻAlī Muḥyī al-Dīn, 1522-1573.</subfield>
 		<subfield code="t">al-Tarīqah al-Muḥammadīyah wa-al-sīrah al-Aḥmadīyah</subfield>
 		<subfield code="w">(NNC)988717</subfield>
+		<subfield code="w">(OCoLC)22783461</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/dbrv1b80</subfield>
@@ -74,6 +97,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_988717</subfield>
+		<subfield code="o">(OCoLC)ocm22783461</subfield>
 		<subfield code="s">columbia_aco002339</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
 	</datafield>
