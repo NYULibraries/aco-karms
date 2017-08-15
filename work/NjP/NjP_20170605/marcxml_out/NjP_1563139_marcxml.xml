@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170804s1969    ir      o     000 0 ara d</controlfield>
+	<controlfield tag="008">170815s1969    ir      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -16,16 +16,24 @@
 		<subfield code="a">ara</subfield>
 		<subfield code="a">per</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP130.4</subfield>
+		<subfield code="b">.R29 1969</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Rāzī, Muḥammad ibn Abī Bakr,</subfield>
 		<subfield code="d">active 1261.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Asʼilat al-Qurʼān al-majīd wa-ajwibatuhā.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Asʼilat al-Qurʼān al-majīd wa-ajwibatuhā /</subfield>
 		<subfield code="c">Bā muqaddimeh va iṣlāḥāt-i Muḥammad ʻAlī Anṣārī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[Tehran?]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[Tehran?] :</subfield>
+		<subfield code="b">[publisher not identified],</subfield>
 		<subfield code="c">[1389 [1969]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -93,6 +101,22 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/z08kpxmh</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">رازي، محمد بن ابي بكر،</subfield>
+		<subfield code="d">active 1261.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">اسئلة القرآن المجيد واجوبتها /</subfield>
+		<subfield code="c">با مقدمه و اصلاحات محمد علي انصاري.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[تهران؟] :</subfield>
+		<subfield code="b">[publisher not identified]، </subfield>
+		<subfield code="c">[1389 [1969]</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -103,8 +127,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_1563139</subfield>
-		<subfield code="o">(OCoLC)ocm42917848 </subfield>
+		<subfield code="o">(OCoLC)ocm42917848</subfield>
 		<subfield code="s">princeton_aco000930</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco000930</subfield>
 	</datafield>
 </record>
