@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170815s1970    iq a    ob    000 0 arax </controlfield>
+	<controlfield tag="008">170829s1970    iq a    ob    000 0 arax </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -16,19 +16,22 @@
 		<subfield code="a">a-iq---</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="050">
-		<subfield code="a">NK1039.I 72</subfield>
-		<subfield code="b">M673</subfield>
+		<subfield code="a">NK1039.I72</subfield>
+		<subfield code="b">M673 1970</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Dayuachī, Sa'īd.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Aʻlām al-ṣunnāʻ al-Mawāṣilah,</subfield>
-		<subfield code="b">Yabḥath ʻan ṣināʻāt al-Mawṣil wa-aʻlām al-ṣunnāʻ fīhā.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Aʻlām al-ṣunnāʻ al-Mawāṣilah :</subfield>
+		<subfield code="b">Yabḥath ʻan ṣināʻāt al-Mawṣil wa-aʻlām al-ṣunnāʻ fīhā /</subfield>
 		<subfield code="c">taʼlīf Saʻīd al-Daywajī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">al-Mawṣil,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Mawṣil :</subfield>
 		<subfield code="b">Maṭbaʻat al-Jumhūr,</subfield>
 		<subfield code="c">1970.</subfield>
 	</datafield>
@@ -115,6 +118,22 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/rfj6qb12</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">ديوه چي، سعيد.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">اعلام الصناع المواصلة :</subfield>
+		<subfield code="b">يبحث عن صناعات الموصل واعلام الصناع فيها /</subfield>
+		<subfield code="c">تأليف سعيد الديوجي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">الموصل :</subfield>
+		<subfield code="b">مطبعة الجمهور،</subfield>
+		<subfield code="c">1970.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -128,5 +147,6 @@
 		<subfield code="o">(OCoLC)ocm22230909</subfield>
 		<subfield code="s">columbia_aco002471</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002471</subfield>
 	</datafield>
 </record>

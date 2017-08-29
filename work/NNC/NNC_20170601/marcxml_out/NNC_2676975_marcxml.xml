@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170815s1953    ua b    o     000 0 ara d</controlfield>
+	<controlfield tag="008">170829s1953    ua b    o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -15,15 +15,22 @@
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">aw-----</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">TN876.N4</subfield>
+		<subfield code="b">B35 1953</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Barrāwī, Rāshid.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Ḥarb al-batrūl fī al-Sharq al-Awsaṭ;</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Ḥarb al-batrūl fī al-Sharq al-Awsaṭ :</subfield>
 		<subfield code="b">dirāsāt fī al-siyāsah al-istiʻmārīyah.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">al-Qāhirah,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
 		<subfield code="b">Maktabat al-Nahḍah al-Miṣrīyah,</subfield>
 		<subfield code="c">1953.</subfield>
 	</datafield>
@@ -80,12 +87,27 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Barrāwī, Rāshid.</subfield>
-		<subfield code="t">Ḥarb al-batrūl fī al-Sharq al-Awsaṭ;</subfield>
+		<subfield code="t">Ḥarb al-batrūl fī al-Sharq al-Awsaṭ</subfield>
 		<subfield code="w">(NNC)2676975</subfield>
 		<subfield code="w">(OCoLC)505724714</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/t76hdx3c</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">براوي، راشد.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">حرب البترول في الشرق الاوسط :</subfield>
+		<subfield code="b">دراسات في السياسة الاستعمارية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">مكتبة النهضة المصرية،</subfield>
+		<subfield code="c">1953.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -100,5 +122,6 @@
 		<subfield code="o">(OCoLC)ocn505724714</subfield>
 		<subfield code="s">columbia_aco002501</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco002501</subfield>
 	</datafield>
 </record>

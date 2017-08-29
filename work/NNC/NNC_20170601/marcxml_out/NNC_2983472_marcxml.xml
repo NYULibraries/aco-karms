@@ -5,28 +5,31 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170815s1929    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">170829s1929    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="4" tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">PJ6075</subfield>
-		<subfield code="b">.B47</subfield>
+		<subfield code="b">.B47 1929</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Bergsträsser, Gotthelf,</subfield>
 		<subfield code="d">1886-1933.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Tatawwur al-nahwī lil-lughah al-ʻArabīyah /</subfield>
 		<subfield code="c">Silsilat muḥādarāt alqāhā fī al-Jāmiʻah al-miṣrīyah al-ustādh Bergstraesser.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">AlQāhirah :</subfield>
-		<subfield code="b">Maṭbaʻat al-Samāh,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
+		<subfield code="b">Maṭbaʻat al-Samāḥ,</subfield>
 		<subfield code="c">1929.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -54,6 +57,11 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Arabic language</subfield>
+		<subfield code="x">Grammar</subfield>
+		<subfield code="x">History.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -71,6 +79,22 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/2z34tsfw</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">برجستراسر، جوتهلف،</subfield>
+		<subfield code="d">1886-1933.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">التطور النحوي لللغة العربية  /</subfield>
+		<subfield code="c">سلسلة محاضرات القاها في الجامعة المصرية الاستاذ برجسترسر.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">مطبعة السماح،</subfield>
+		<subfield code="c">1929.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -84,5 +108,6 @@
 		<subfield code="o">(OCoLC)ocm46321995</subfield>
 		<subfield code="s">columbia_aco002465</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002465</subfield>
 	</datafield>
 </record>

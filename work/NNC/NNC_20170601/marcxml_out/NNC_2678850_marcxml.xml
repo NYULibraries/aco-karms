@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170815s1952    sy a    o     000 0 ara d</controlfield>
+	<controlfield tag="008">170829s1952    sy a    o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -16,11 +16,18 @@
 		<subfield code="a">aw-----</subfield>
 		<subfield code="a">e-uk---</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS62.8</subfield>
+		<subfield code="b">.I78 1952</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="3" tag="245">
-		<subfield code="a">al-Istiʻmār al-Brīṭānī fī al-Sharq al-Awsaṭ huwa al-istiʻbād wa-al-faqr wa-al-jahl wa-al-marad.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">al-Istiʻmār al-Brīṭānī fī al-Sharq al-Awsaṭ huwa al-istiʻbād wa-al-faqr wa-al-jahl wa-al-maraḍ.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[Dimashq?]</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">[Dimashq?] :</subfield>
+		<subfield code="b">[publisher not identified],</subfield>
 		<subfield code="c">[1952?]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -86,12 +93,22 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="t">al-Istiʻmār al-Brīṭānī fī al-Sharq al-Awsaṭ huwa al-istiʻbād wa-al-faqr wa-al-jahl wa-al-marad</subfield>
+		<subfield code="t">al-Istiʻmār al-Brīṭānī fī al-Sharq al-Awsaṭ huwa al-istiʻbād wa-al-faqr wa-al-jahl wa-al-maraḍ</subfield>
 		<subfield code="w">(NNC)2678850</subfield>
 		<subfield code="w">(OCoLC)83628141</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/bk3j9r6k</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="2" tag="880">
+		<subfield code="6">245-01/r</subfield>
+		<subfield code="a">الاستعمار البريطاني في الشرق الاوسط هو الاستعباد والفقر والجهل والمرض.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-02/r</subfield>
+		<subfield code="a">[دمشق؟] :</subfield>
+		<subfield code="b">[publisher not identified]،</subfield>
+		<subfield code="c">[1952؟]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -106,5 +123,6 @@
 		<subfield code="o">(OCoLC)ocm83628141</subfield>
 		<subfield code="s">columbia_aco002498</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco002498</subfield>
 	</datafield>
 </record>

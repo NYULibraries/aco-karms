@@ -5,25 +5,32 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170815s1891    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">170829s1891    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">QL41</subfield>
+		<subfield code="b">.D31 1891</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Damīrī, Muḥammad ibn Mūsá,</subfield>
 		<subfield code="d">1341?-1405.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Ḥayāt al-ḥayawān al-kubrā, li-Kamāl al-Dīn al-Damīrī.</subfield>
 		<subfield code="b">Wa-bi-hāmishihī baqīyat kitāb ʻAjāʼib al-makhlūqāt wa-al-ḥayawānāt wa-gharāʼib al-mawjūdāt, li-Zakarīyā ibn Muḥammad ibn Maḥmūd al-Qazwīnī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[al-Qāhirah],</subfield>
-		<subfield code="b">[al-Maṭbaʻah al-Khayrīyah],</subfield>
-		<subfield code="c">[1309 h., 1891]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[al-Qāhirah] :</subfield>
+		<subfield code="b">al-Maṭbaʻah al-Khayrīyah,</subfield>
+		<subfield code="c">1309 h., [1891]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (2 volumes)</subfield>
@@ -72,6 +79,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">ʻAjāʼib al-ḥayawān.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
@@ -91,6 +99,26 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/np5hqhrn</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">دميري، محمد بن موسى،</subfield>
+		<subfield code="d">1341?-1405.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">كتاب حياة الحيوان الكبرى /</subfield>
+		<subfield code="c">للاستاذ ... كمال الدين الدميري ؛ وبهامشه كتاب عجائب المخلوقات والحيوانات وغرائب الموجودات للامام العالم زكريا بن محمد بن محمود القزويني.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">المطبعة الخيرية،</subfield>
+		<subfield code="c">1309 ه.، [1891]</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">740-04/r</subfield>
+		<subfield code="a">عجائب الحيوان.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -104,5 +132,6 @@
 		<subfield code="o">(OCoLC)ocm47809252</subfield>
 		<subfield code="s">columbia_aco002536:v.1</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco002536:v.1</subfield>
 	</datafield>
 </record>

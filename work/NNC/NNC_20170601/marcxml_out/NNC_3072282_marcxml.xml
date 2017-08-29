@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170815m19421943ua a    o     000 0 araod</controlfield>
+	<controlfield tag="008">170829m19421943ua a    o     000 0 araod</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -14,20 +14,23 @@
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">QC353</subfield>
-		<subfield code="b">.N32</subfield>
+		<subfield code="b">.N32 1942</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Naẓīf, Muṣṭafá.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Ḥasan ibn al-Haytham :</subfield>
 		<subfield code="b">buḥūthuh wa-kushūfuh al-baṣrīyah /</subfield>
 		<subfield code="c">taʼlf̄ Muṣṭafá Naẓīf.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Miṣr :</subfield>
-		<subfield code="b">Maṭbaʻat Nūrī,</subfield>
-		<subfield code="c">1942-3.</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[al-Qāhirah] :</subfield>
+		<subfield code="b">Maṭbaʻat al-Iʻtimād,</subfield>
+		<subfield code="c">1943.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (2 volumes) :</subfield>
@@ -45,7 +48,8 @@
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Jāmiʻat Fuʼād al-Awwal. Kullīyat al-Handasah ;</subfield>
 		<subfield code="v">al-muʼallaf, raqm 3</subfield>
 	</datafield>
@@ -60,6 +64,7 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Alhazen,</subfield>
 		<subfield code="d">965-1039.</subfield>
 	</datafield>
@@ -97,8 +102,44 @@
 		<subfield code="w">(NNC)3072282</subfield>
 		<subfield code="w">(OCoLC)23509810</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-06</subfield>
+		<subfield code="a">Jāmiʻat Fuʼād al-Awwal. Kullīyat al-Handasah ;</subfield>
+		<subfield code="v">al-muʼallaf, raqm 3.</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/fbg79jfj</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">نظيف، مصطفى.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">الحسن بن الهيثم :</subfield>
+		<subfield code="b">بحوثه وكشوفه البصرية /</subfield>
+		<subfield code="c">تأليف مصطفى نظيف.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">مطبعة الاعتماد،</subfield>
+		<subfield code="c">1943.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">490-04/r</subfield>
+		<subfield code="a">جامعة فؤاد الاول. كلية الهندسة ؛</subfield>
+		<subfield code="v">المؤلف، رقم 3</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">600-05/r</subfield>
+		<subfield code="a">ابن الهيثم،</subfield>
+		<subfield code="d">‪1039-965‬</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">830-06/r</subfield>
+		<subfield code="a">جامعة فؤاد الاول. كلية الهندسة ؛</subfield>
+		<subfield code="v">المؤلف، رقم 3.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -113,5 +154,6 @@
 		<subfield code="o">(OCoLC)ocm23509810</subfield>
 		<subfield code="s">columbia_aco002503:v.2</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-SERIES)</subfield>
+		<subfield code="s">columbia_aco002503:v.2</subfield>
 	</datafield>
 </record>
