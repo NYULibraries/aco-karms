@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170815s1913    xx a    o     000 0 ara  </controlfield>
+	<controlfield tag="008">170829s1913    xx a    o     000 0 ara  </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -20,12 +20,18 @@
 		<subfield code="b">Z38</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Zayn, Aḥmad ʻĀrif.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Tārīkh Ṣīdā.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Tārīkh Ṣīdā :</subfield>
+		<subfield code="b">yaḥwī tārikhā wa sāʼir shūʼnahā mundh ʻumrānahā ilá waqtinā al-ḥāḍir.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Ṣaydā :</subfield>
+		<subfield code="b">Maṭbaʻat al-ʻurfān,</subfield>
 		<subfield code="c">1913.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -90,6 +96,21 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/nk98sm38</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">زين، احمد عارف.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">تاريخ صيدا :</subfield>
+		<subfield code="b">يحوي تاريخها و سائر شؤونها منذ عمرانها الى وقتنا الحاضر.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">صيدا  :</subfield>
+		<subfield code="b">مطبعة العرفان،</subfield>
+		<subfield code="c">1913.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -103,5 +124,6 @@
 		<subfield code="o">(OCoLC)ocm80859230</subfield>
 		<subfield code="s">columbia_aco002415</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002415</subfield>
 	</datafield>
 </record>

@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170815s193u    ua     do     000 0 ara d</controlfield>
+	<controlfield tag="008">170829s193u    ua     do     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,14 +17,18 @@
 		<subfield code="b">.M89</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Muwayliḥī, Muḥammad.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">ʼIlāj al-nafs, li-munshiʼihī: Muhammad al-Muwaylih ̄Bek.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">ʻIlāj al-nafs /</subfield>
+		<subfield code="c">Muḥammad Bak al-Muwayliḥī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[al-Qāhirah]</subfield>
-		<subfield code="b">Matbaa̧t Fuʼād</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[al-Qāhirah] :</subfield>
+		<subfield code="b">Matbaa̧t Fuʼād,</subfield>
 		<subfield code="c">[193-?]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -73,12 +77,27 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Muwayliḥī, Muḥammad.</subfield>
-		<subfield code="t">ʼIlāj al-nafs, li-munshiʼihī: Muhammad al-Muwaylih ̄Bek</subfield>
+		<subfield code="t">ʻIlāj al-nafs</subfield>
 		<subfield code="w">(NNC)2026330</subfield>
 		<subfield code="w">(OCoLC)37394236</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/6hdr7zh4</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">مويلحي، محمد.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">علاج النفس /</subfield>
+		<subfield code="c">محمد بك المويلحي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">مطبعة فؤاد،</subfield>
+		<subfield code="c">[193-?]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -93,5 +112,6 @@
 		<subfield code="o">(OCoLC)ocm37394236</subfield>
 		<subfield code="s">columbia_aco002337</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002337</subfield>
 	</datafield>
 </record>

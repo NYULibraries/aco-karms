@@ -5,22 +5,27 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170815m18881893ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">170829m18881893ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="130">
-		<subfield code="a">Åntar.</subfield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ7702</subfield>
+		<subfield code="b">.A1 1888</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Sīrat al-fāris ...</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Sīrat al-fāris al-humām wa-al-baṭal al-miqdām :</subfield>
+		<subfield code="b">Man intasharat shuhrat furūsīyatihi fī kulli wād layth al-nizāl al-Amīr ʻAntarah ibn Shaddād wa-hiya al-sīrah al-fāʼiqah al-ḥijāzīyah al-mushtamilah ʻalá al-akhbār al-ʻajībah wa-al-anbāʼ al-jalīyah.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo,</subfield>
-		<subfield code="c">1306-11 A.H. [A.D. 1888-93]</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">al-Maṭbaʻah al-ʻĀmirah al-Sharfīyah,</subfield>
+		<subfield code="c">1888-1893.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (32 volumes in 4.)</subfield>
@@ -47,6 +52,11 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">ʻAntarah ibn Shaddād,</subfield>
+		<subfield code="d">active 6th century.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -63,12 +73,28 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="t">Sīrat al-fāris</subfield>
+		<subfield code="t">Sīrat al-fāris al-humām wa-al-baṭal al-miqdām</subfield>
 		<subfield code="w">(NNC)3179452</subfield>
 		<subfield code="w">(OCoLC)48862557</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/hmgqnr3n</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-01/r</subfield>
+		<subfield code="a">سيرة الفارس الهمام والبطل المقدام :</subfield>
+		<subfield code="b">من انتشرت شهرة فروسيته في كل واد ليث النزال الامير عنترة بن شداد وهي السيرة الفائقة الحجازية المشتملة على الاخبار العجيبة والانباء الجلية..</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-02/r</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">المطبعة العامرة الشرفية،</subfield>
+		<subfield code="c">1888-1893.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">600-03/r</subfield>
+		<subfield code="a">عنترة بن شداد،</subfield>
+		<subfield code="d">active 6th century.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -86,5 +112,9 @@
 		<subfield code="s">columbia_aco002549:v.17-24</subfield>
 		<subfield code="s">columbia_aco002550:v.25-32</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco002547:v.1-8</subfield>
+		<subfield code="s">columbia_aco002548:v.9-16</subfield>
+		<subfield code="s">columbia_aco002549:v.17-24</subfield>
+		<subfield code="s">columbia_aco002550:v.25-32</subfield>
 	</datafield>
 </record>

@@ -1,0 +1,82 @@
+Records containing SERIES errors - batch NNC_20170601
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2017-08-15 17:12:27.277480
+---------------------------------------------------------------------
+FILE: NNC_20170601_2_oclc_recs_batch.mrc
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm07873277
+   oclc_rec_035_num: (OCoLC)7873277
+   oclc_rec_035_num: (OCoLC)19013663
+   oclc_rec_035_num: (OCoLC)23099335
+   oclc_rec_035_num: (OCoLC)27443928
+   oclc_rec_035_num: (OCoLC)34094626
+   oclc_rec_035_num: (OCoLC)41967370
+Institution ID: NNC_679950
+Record 999:  NNC_679950 (OCoLC)ocm07873277
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Zabān-i shināsī Īrānī ; 10
+040 $e field: [none]
+RDA fields: YES
+050 call number: PJ6074 .M78 1978
+Source entities (book IDs): columbia_aco002496
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm08966368
+   oclc_rec_035_num: (OCoLC)8966368
+Institution ID: NNC_2670696
+Record 999:  NNC_2670696 (OCoLC)ocm08966368
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - Baḥr al-ʻUlūm, Muḥammad, 1845-1908.
+   245 - Bulghat al-faqīh : majmūʻat buḥūth. wa-rasāʼil wa-qawāʻid fiqhīyah--tasud ḍarūrat al-faragh fi al-tashrīʻ al-islāmī wa-al-fiqh al-istidlālī-- / taṣnīf Muḥammad Āl Baḥr al-ʻUlūm. Sharḥ wa-taʻlīq Muḥammad Taqī Baḥr al-ʻUlūm.
+   490 - Maktabat al-ʻalamayn al-ʻāmmah,9
+   700 - Baḥr al-ʻUlūm, Muḥammad Taqī, 1900 or 1901- editor.
+ERROR-880: Unlinked 880s: YES
+   880 $6 100-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 245-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 490-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 700-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 830-00/(3/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Maktabat al-ʻalamayn al-ʻāmmah,9
+040 $e field: [none]
+RDA fields: YES
+050 call number: KBL0 .B34
+Source entities (book IDs): columbia_aco002360:v.1
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm23509810
+   oclc_rec_035_num: (OCoLC)23509810
+Institution ID: NNC_3072282
+Record 999:  NNC_3072282 (OCoLC)ocm23509810
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Jāmiʻat Fuʼād al-Awwal. Kullīyat al-Handasah ; al-muʼallaf, raqm 3
+040 $e field: [none]
+RDA fields: YES
+050 call number: QC353 .N32
+Source entities (book IDs): columbia_aco002503:v.2
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm09007275
+   oclc_rec_035_num: (OCoLC)9007275
+   oclc_rec_035_num: (OCoLC)16625699
+   oclc_rec_035_num: (OCoLC)23498360
+Institution ID: NNC_2752256
+Record 999:  NNC_2752256 (OCoLC)ocm09007275
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Basrah during the Ottoman period
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Min al-tārīkh wa-lil-tārīkh
+040 $e field: [none]
+RDA fields: YES
+050 call number: DS79.9.B2 B38
+Source entities (book IDs): columbia_aco002413:v.1
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNC_20170601_1/NNC_20170601_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 4
+
