@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170718s1908    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">170830s1908    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
@@ -15,6 +15,10 @@
 	<datafield ind1="0" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
 		<subfield code="a">fre</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">LA1646</subfield>
+		<subfield code="b">.J36  1908</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">378.62</subfield>
@@ -65,19 +69,12 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="546">
-		<subfield code="a">النص بالعربية والفرنسية.</subfield>
-	</datafield>
-	<datafield ind1="2" ind2="4" tag="610">
-		<subfield code="a">الجامعة المصرية.</subfield>
-	</datafield>
 	<datafield ind1="2" ind2="0" tag="610">
-		<subfield code="a">Jāmiʻah al-Miṣrīyah</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="655">
-		<subfield code="a">كلمات.</subfield>
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Jāmiʻah al-Miṣrīyah.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="655">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Speeches.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -96,26 +93,38 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/ksn03113</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="880">
-		<subfield code="6">110-01/(3/r</subfield>
+		<subfield code="6">110-01</subfield>
 		<subfield code="a">الجامعة المصرية،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">مجموعة الخطب التي ألقيت في حفلة الإفتتاح الرسمية بالقاعة الكبرى بمجلس شورى القوانين في صباح يوم الإثنين  27 ذي القعدة سنة 1326 (21 ديسمبر سنة 1908) /</subfield>
 		<subfield code="c">الجامعة المصرية = DISCOURS PRONONCÉS À LA CÉRÉMONIE DE L'OUVERTURE SOLENNELLE DANS LA GRANDE SALLE DU CONSEIL LÉGISLATIF, Lundi 21 Décembre 1908 (27 Zilkadeh 1326) / UNIVERSITÉ ÉGYPTIENNE.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03</subfield>
 		<subfield code="a">مصر :</subfield>
 		<subfield code="b">المطبعة الأميرية،</subfield>
 		<subfield code="c">1908.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04</subfield>
 		<subfield code="a">12، 21 صفحة ؛</subfield>
 		<subfield code="c">31 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">546-00</subfield>
+		<subfield code="a">النص بالعربية والفرنسية.</subfield>
+	</datafield>
+	<datafield ind1="2" ind2="4" tag="880">
+		<subfield code="6">610-05</subfield>
+		<subfield code="a">الجامعة المصرية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">655-06</subfield>
+		<subfield code="a">كلمات.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -129,5 +138,6 @@
 		<subfield code="i">LeBAU_b12766215</subfield>
 		<subfield code="s">aub_aco001167</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001167</subfield>
 	</datafield>
 </record>

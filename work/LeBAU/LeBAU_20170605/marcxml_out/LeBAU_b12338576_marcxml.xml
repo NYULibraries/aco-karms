@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170718s1955    ua      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">170830s1955    ua      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP135.A122</subfield>
+		<subfield code="b">A3 1955</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">297.124</subfield>
@@ -22,7 +26,7 @@
 		<subfield code="d">810-870,</subfield>
 		<subfield code="e">author.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Adab al-mufrad /</subfield>
 		<subfield code="c">li-Abī ʻAbd Allāh Muḥammad ibn Ismāʻīl al-Bukhārī, 194-256 ; ḥaqqaqa nuṣūṣahu wa-raqqama abwābahu wa-aḥādīthahu wa-ʻallaqa ʻalayhi Muḥammad Fuʼād ‘Abd al-Bāqī.</subfield>
@@ -59,36 +63,25 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الحديث</subfield>
-		<subfield code="x">نصوص</subfield>
-		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الحياة الدينية</subfield>
-		<subfield code="x">الاسلام</subfield>
-		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الاخلاق الاسلامية</subfield>
-		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Hadith</subfield>
 		<subfield code="v">Texts</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Religious life</subfield>
 		<subfield code="x">Islam</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Islamic ethics</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">ʻAbd al-Bāqī, Muḥammad Fuʼād,</subfield>
 		<subfield code="e">compiler.</subfield>
 	</datafield>
@@ -108,32 +101,49 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/brv15km9</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
-		<subfield code="a">البخاري، محمد بن إسماعيل،</subfield>
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">البخاري، محمد بن إسماعيل،‪‪‪‪‪‪‪</subfield>
 		<subfield code="d">810-870،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.‪‪‪‪‪‪‪</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
-		<subfield code="a">الأدب المفرد /</subfield>
-		<subfield code="c">لأبي عبد الله محمد بن إسماعيل البخاري، 194-256 ؛ حقق نصوصه ورقم أبوابه وأحاديثه وعلق عليه محمد فؤاد عبد الباقي</subfield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">الأدب المفرد /‪‪‪‪‪‪‪</subfield>
+		<subfield code="c">لأبي عبد الله محمد بن إسماعيل البخاري، 194-256 ؛ حقق نصوصه ورقم أبوابه وأحاديثه وعلق عليه محمد فؤاد عبد الباقي‪‪‪‪‪‪‪</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
-		<subfield code="a">القاهرة :</subfield>
-		<subfield code="b">قصي محب الدين الخطيب،</subfield>
-		<subfield code="c">1375 [هـ.]، [1955؟ م.]</subfield>
+		<subfield code="6">264-03</subfield>
+		<subfield code="a">القاهرة :‪‪‪‪‪‪‪</subfield>
+		<subfield code="b">قصي محب الدين الخطيب،‪‪‪‪‪‪‪</subfield>
+		<subfield code="c">1375 [هـ.]، [1955؟ م.]‪‪‪‪‪‪‪</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
-		<subfield code="a">351 صفحة ؛</subfield>
-		<subfield code="c">25 سم</subfield>
+		<subfield code="6">300-04</subfield>
+		<subfield code="a">351 صفحة ؛‪‪‪‪‪‪‪</subfield>
+		<subfield code="c">25 سم‪‪‪‪‪‪‪</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">الحديث‪‪‪‪‪‪‪</subfield>
+		<subfield code="x">نصوص‪‪‪‪‪‪‪</subfield>
+		<subfield code="v">اعمال قديمة حتى 1800.‪‪‪‪‪‪‪</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">الحياة الدينية‪‪‪‪‪‪‪</subfield>
+		<subfield code="x">الاسلام‪‪‪‪‪‪‪</subfield>
+		<subfield code="v">اعمال قديمة حتى 1800.‪‪‪‪‪‪‪</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">الاخلاق الاسلامية‪‪‪‪‪‪‪</subfield>
+		<subfield code="v">اعمال قديمة حتى 1800.‪‪‪‪‪‪‪</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-05/(3/r</subfield>
-		<subfield code="a">عبد الباقي، محمد فؤاد،</subfield>
-		<subfield code="e">معد. </subfield>
+		<subfield code="6">700-08</subfield>
+		<subfield code="a">عبد الباقي، محمد فؤاد،‪‪‪‪‪‪‪</subfield>
+		<subfield code="e">معد.‪‪‪‪‪‪‪</subfield>
 		<subfield code="4">com.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -148,5 +158,6 @@
 		<subfield code="i">LeBAU_b12338576</subfield>
 		<subfield code="s">aub_aco000984</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco000984</subfield>
 	</datafield>
 </record>

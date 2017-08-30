@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170718s1910    ua      o     ||0 e ara d</controlfield>
+	<controlfield tag="008">170830s1910    ua      o     ||0 e ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">AC106</subfield>
+		<subfield code="b">.S48 1910</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">576.8</subfield>
@@ -26,7 +30,7 @@
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">Majmūʻat al-Duktūr Shiblī Shumayyil</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-03</subfield>
 		<subfield code="a">al-Juz’ al-thānī min majmūʻat al-Duktūr Shiblī Shumayyil :</subfield>
 		<subfield code="b">wa-huwa yabḥath fī mawḍū‘āt shattá ‘umrānīyah ṭabī‘īyah wa-‘ilmīyah wa-tārīkhīyah wa-adabīyah wa-siyāsīyah taqrīrīyah wa-intiqādīyah fukāhīyah.</subfield>
@@ -56,7 +60,61 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="0" tag="505">
+	<datafield ind1=" " ind2=" " tag="533">
+		<subfield code="a">Electronic reproduction.</subfield>
+		<subfield code="b">New York, N.Y. :</subfield>
+		<subfield code="c">New York University,</subfield>
+		<subfield code="d">2017.</subfield>
+		<subfield code="5">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="655">
+		<subfield code="6">880-06</subfield>
+		<subfield code="a">Essays.</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="710">
+		<subfield code="a">Jafet Memorial Library.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="730">
+		<subfield code="a">Arabic Collections Online.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Print version:</subfield>
+		<subfield code="a">Shumayyil, Shiblī, -1917, author.</subfield>
+		<subfield code="t">al-Juz’ al-thānī min majmūʻat al-Duktūr Shiblī Shumayyil</subfield>
+		<subfield code="w">(LeBAU)b19028957</subfield>
+	</datafield>
+	<datafield ind1="4" ind2="0" tag="856">
+		<subfield code="u">http://hdl.handle.net/2333.1/m905qmqb</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">شميل، شبلي،</subfield>
+		<subfield code="d">-1917،</subfield>
+		<subfield code="e">مؤلف.</subfield>
+		<subfield code="4">aut.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">240-02</subfield>
+		<subfield code="a">مجموعة الدكتور شبلي شميل</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-03</subfield>
+		<subfield code="a">الجزء الثاني من مجموعة الدكتور شبلي شميل :</subfield>
+		<subfield code="b">وهو يبحث في موضوعات شتى عمرانية طبيعية وعلمية وتاريخية وأدبية وسياسية تقريرية وانتقادية فكاهية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="1" tag="880">
+		<subfield code="6">264-04</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مطبعة المعارف،</subfield>
+		<subfield code="c">1910.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">300-05</subfield>
+		<subfield code="a">341، ا-ط ؛</subfield>
+		<subfield code="c">24 سم</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">505-00</subfield>
 		<subfield code="t">الجزء الثاني من مجموعة الدكتور شبلي شميل:</subfield>
 		<subfield code="g">المقالة الأولى.</subfield>
 		<subfield code="t">حوادث وأفكار --</subfield>
@@ -197,60 +255,9 @@
 		<subfield code="g">المقالة التاسعة والستون.</subfield>
 		<subfield code="t">الدفن والمدافن.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="533">
-		<subfield code="a">Electronic reproduction.</subfield>
-		<subfield code="b">New York, N.Y. :</subfield>
-		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2017.</subfield>
-		<subfield code="5">NNU</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="655">
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">655-06</subfield>
 		<subfield code="a">مقالات.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="0" tag="655">
-		<subfield code="a">Essays.</subfield>
-	</datafield>
-	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="a">Jafet Memorial Library.</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="730">
-		<subfield code="a">Arabic Collections Online.</subfield>
-	</datafield>
-	<datafield ind1="0" ind2="8" tag="776">
-		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Shumayyil, Shiblī, -1917, author.</subfield>
-		<subfield code="t">al-Juz’ al-thānī min majmūʻat al-Duktūr Shiblī Shumayyil</subfield>
-		<subfield code="w">(LeBAU)b19028957</subfield>
-	</datafield>
-	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">http://hdl.handle.net/2333.1/m905qmqb</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
-		<subfield code="a">شميل، شبلي،</subfield>
-		<subfield code="d">-1917،</subfield>
-		<subfield code="e">مؤلف. </subfield>
-		<subfield code="4">aut.</subfield>
-	</datafield>
-	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">240-02/(3/r</subfield>
-		<subfield code="a">مجموعة الدكتور شبلي شميل</subfield>
-	</datafield>
-	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-03/(3/r</subfield>
-		<subfield code="a">الجزء الثاني من مجموعة الدكتور شبلي شميل :</subfield>
-		<subfield code="b">وهو يبحث في موضوعات شتى عمرانية طبيعية وعلمية وتاريخية وأدبية وسياسية تقريرية وانتقادية فكاهية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-04/(3/r</subfield>
-		<subfield code="a">مصر :</subfield>
-		<subfield code="b">مطبعة المعارف،</subfield>
-		<subfield code="c">1910.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-05/(3/r</subfield>
-		<subfield code="a">341، ا-ط ؛ </subfield>
-		<subfield code="c">24 سم</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -264,5 +271,6 @@
 		<subfield code="i">LeBAU_b19028957</subfield>
 		<subfield code="s">aub_aco001175:v.2</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001175:v.2</subfield>
 	</datafield>
 </record>
