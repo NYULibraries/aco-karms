@@ -1,0 +1,58 @@
+Records containing UNLINKED 880 script fields - batch UaCaAUL_20170825
+--  At least one 880 field has sequence number -00 in subfield $6,
+    meaning it is not linked to the corresponding parallel field
+Report produced: 2017-09-07 20:38:55.311110
+---------------------------------------------------------------------
+FILE: UaCaAUL_20170825_1/UaCaAUL_20170825_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: UaCaAUL_b1213384x
+   orig_rec_035 num: =035  \\$a(OCoLC)23506179
+Record 999:  UaCaAUL_b1213384x
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Tadhkarah al-Taymur̄iȳah.
+   264 - al-Qāhirah, Miṣr : Lajnat Nashr al-Muʼallafāt al-Taymūrīyah, 1953.
+ERROR-880: Unlinked 880s: YES
+   880 $6 264-00/(3/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
+040 $e field: rda
+RDA fields: YES
+050 call number: AG90.A7 T3 1953
+Source entities (book IDs): auc_aco000104
+---------------------------------------------------------------------
+Institution ID: UaCaAUL_b14001226
+   orig_rec_035 num: =035  \\$a(OCoLC)922570751
+Record 999:  UaCaAUL_b14001226
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   245 - Mashāhid Dimashq al-atharīyah : ṣuwar min al-waṭan al-khālid tuqaddimuhā Mudīrīyat al-Āthār al-ʻĀmmah ilá ʻArab mā warāʼa al-biḥār / taʼlīf Salīm ʻĀdil ʻAbd al-Ḥaqq, Khālid Muʻādh.
+ERROR-880: Unlinked 880s: YES
+   880 $6 245-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-03 Maṭbūʻāt Mudīrīyat al-Āthār al-ʻĀmmah fī Sūrīyah.
+040 $e field: rda
+RDA fields: YES
+050 call number: DS99.D3 A23 1950
+Source entities (book IDs): auc_aco000060
+---------------------------------------------------------------------
+Institution ID: UaCaAUL_b14372228
+   orig_rec_035 num: =035  \\$a(OCoLC)40778477
+Record 999:  UaCaAUL_b14372228
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Lehrbuch der sieben Koranlesungen.
+   260 - Istānbūl : Maṭbaʻat al-Dawlah, 1930.
+   700 - Pretzl, O. (Otto)
+   710 - Deutsche Morgenländische Gesellschaft.
+ERROR-880: Unlinked 880s: YES
+   880 $6 260-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 700-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: [none]
+RDA fields: YES
+050 call number: BP131.5 .D3 1930a
+Source entities (book IDs): auc_aco000202
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: UaCaAUL_20170825_1/UaCaAUL_20170825_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing unlinked 880 script fields: 3
+
