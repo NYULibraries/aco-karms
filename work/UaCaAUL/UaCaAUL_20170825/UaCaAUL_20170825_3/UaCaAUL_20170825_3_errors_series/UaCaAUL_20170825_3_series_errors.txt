@@ -3,91 +3,21 @@ Records containing SERIES errors - batch UaCaAUL_20170825
 --  Either the 490 field has 1st indicator=0 (untraced)
 --  Or there are more 490 fields than there are 800/810/811/830 fields,
     so the corresponding 8XX heading needs added
-Report produced: 2017-09-07 20:48:22.784994
+Report produced: 2017-09-26 15:16:49.216524
 ---------------------------------------------------------------------
-FILE: UaCaAUL_20170825_2_oclc_recs_batch.mrc
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn922570751
-   oclc_rec_035_num: (OCoLC)922570751
-Institution ID: UaCaAUL_b14001226
-Record 999:  UaCaAUL_b14001226 (OCoLC)ocn922570751
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   245 - Mashāhid Dimashq al-atharīyah : ṣuwar min al-waṭan al-khālid tuqaddimuhā Mudīrīyat al-Āthār al-ʻĀmmah ilá ʻArab mā warāʼ al-biḥār / taʼlīf Salīm ʻĀdil ʻAbd al-Ḥaqq, Khālid Muʻādh.
-ERROR-880: Unlinked 880s: YES
-   880 $6 245-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-03 Maṭbūʻāt Mudīrīyat al-Āthār al-ʻĀmmah fī Sūrīyah
-040 $e field: rda
-RDA fields: YES
-050 call number: DS99.D3 A23 1950
-Source entities (book IDs): auc_aco000060
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn122725272
-   oclc_rec_035_num: (OCoLC)122725272
-Institution ID: UaCaAUL_b13047577
-Record 999:  UaCaAUL_b13047577 (OCoLC)ocn122725272
-880 script fields: YES
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Rasāʼil al-nādirah ; 8
-040 $e field: rda
-RDA fields: YES
-050 call number: BP80.S53 K38 1936
-Source entities (book IDs): auc_aco000195
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn318941491
-   oclc_rec_035_num: (OCoLC)318941491
-   oclc_rec_035_num: (OCoLC)33995259
-Institution ID: UaCaAUL_b13142124
-Record 999:  UaCaAUL_b13142124 (OCoLC)ocn318941491
-880 script fields: YES
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Khulāṣat al-fikr al-Ūrubbī. Silsilat al-yanābīʻ
-040 $e field: rda
-RDA fields: YES
-050 call number: B175.A7 B13 1943
-Source entities (book IDs): auc_aco000076
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm22988273
-   oclc_rec_035_num: (OCoLC)22988273
-Institution ID: UaCaAUL_b14420533
-Record 999:  UaCaAUL_b14420533 (OCoLC)ocm22988273
-880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 490-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-   880 $6 830-00/(3/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Sabīl Allāh
-040 $e field: [none]
-RDA fields: YES
-050 call number: KBL0 .M344 1984
-Source entities (book IDs): auc_aco000167
+FILE: UaCaAUL_20170825_3/UaCaAUL_20170825_3_updates.mrc
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocn318941526
    oclc_rec_035_num: (OCoLC)318941526
 Institution ID: UaCaAUL_b13171616
-Record 999:  UaCaAUL_b13171616 (OCoLC)ocn318941526
+Record 999:  UaCaAUL_b13171616 (OCoLC)ocn318941526 auc_aco000188
 880 script fields: YES
 ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
 ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-03 al-Kitāb al-sanawī lil-Jamʻīyah ; 1
 040 $e field: [none]
 RDA fields: YES
-090 call number: BP173.75 .I6 1951
+050 call number: BP173.75 .I6 1951
 Source entities (book IDs): auc_aco000188
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn122795404
-   oclc_rec_035_num: (OCoLC)122795404
-Institution ID: UaCaAUL_b12929098
-Record 999:  UaCaAUL_b12929098 (OCoLC)ocn122795404
-880 script fields: YES
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Silsilah al-falsafīyah
-040 $e field: [none]
-RDA fields: YES
-ERROR-MISC: No 050 or 090 call number
-Source entities (book IDs): auc_aco000133:v.1, auc_aco000134:v.2
----------------------------------------------------------------------
----------------------------------------------------------------------
-FILE: UaCaAUL_20170825_1/UaCaAUL_20170825_1_orig_no_oclc_nums.mrc
----------------------------------------------------------------------
-TOTAL Number of Records containing series errors: 6
+TOTAL Number of Records containing series errors: 1
 

@@ -5,15 +5,12 @@
 	<controlfield tag="003">UaCaAUL</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170907s1927    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">170926s1927    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">(3</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">BP166.73</subfield>
@@ -85,15 +82,17 @@
 		<subfield code="2">fast</subfield>
 		<subfield code="0">(OCoLC)fst01126918</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="700">
+	<datafield ind1="0" ind2="2" tag="700">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Ghazzālī,</subfield>
 		<subfield code="d">1058-1111.</subfield>
-		<subfield code="t">Qaṣīdah al-hā'iyah.</subfield>
+		<subfield code="t">Qaṣīdah al-hāʼiyah. </subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="700">
+	<datafield ind1="0" ind2="2" tag="700">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Ghazzālī,</subfield>
 		<subfield code="d">1058-1111.</subfield>
-		<subfield code="t">Qaṣīdah al-tā'iyah.</subfield>
+		<subfield code="t">Qaṣīdah al-tāʼiyah.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">American University in Cairo.</subfield>
@@ -121,28 +120,40 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/ksn031f0</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01/r</subfield>
 		<subfield code="a">غزالي،</subfield>
 		<subfield code="d">1058-1111.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">‏معارج القدس في مدارج معرفة النفس /‏</subfield>
 		<subfield code="c">‏تأليف الامام الهمام حجة الاسلام أبي حامد محمد بن محمد الغزالي المتوفى سنة 505. وتليها القصيدة الهائية والقصيدة التائية له أيضا.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-03/(3/r</subfield>
+		<subfield code="6">250-03/r</subfield>
 		<subfield code="a">الطبعة الأولى.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-04/(3/r</subfield>
+		<subfield code="6">264-04/r</subfield>
 		<subfield code="a">مصر :</subfield>
 		<subfield code="b">مطبعة السعادة بجوار محافظة مصر،</subfield>
 		<subfield code="c">1346 ه، 1927 م.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">500-05/(3/r</subfield>
+		<subfield code="6">500-05/r</subfield>
 		<subfield code="a">الطبعة الأولى سنة 1346 ه،  1927 م على نفقة الرحالة البحاثة المنقب عن الاسفار النفيسة محي الدين صبري الكردي.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="2" tag="880">
+		<subfield code="6">700-06/r</subfield>
+		<subfield code="a">غزالي،</subfield>
+		<subfield code="d">1058-1111.</subfield>
+		<subfield code="t">قصيدة الهائية. </subfield>
+	</datafield>
+	<datafield ind1="0" ind2="2" tag="880">
+		<subfield code="6">700-07/r</subfield>
+		<subfield code="a">غزالي،</subfield>
+		<subfield code="d">1058-1111.</subfield>
+		<subfield code="t">قصيدة التائية.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -157,5 +168,6 @@
 		<subfield code="o">(OCoLC)ocm31264989</subfield>
 		<subfield code="s">auc_aco000156</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">auc_aco000156</subfield>
 	</datafield>
 </record>
