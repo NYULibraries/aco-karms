@@ -1,0 +1,134 @@
+Records containing MISCELLANEOUS errors - batch UaCaAUL_20170825
+--  Each of these records contain at least one of the miscellaneous errors
+    recorded mostly for notice of validation errors or to identify programming issues
+--  List of possible miscellaneous errors:
+    --  the OCLC # in the OCLC batch record did not match on any OCLC #s in the original records
+    --  record contains multiple 999 fields
+    --  zero or multiple $6 subfields in 880s
+    --  record is missing an 040 field
+    --  record contains invalid replacement character (black diamond with question mark) - found in NYU records
+    --  code in the 003 does not match any of the partner institution codes
+    --  the 003/001 fields did not change from the OCLC # to the BSN during processing
+    --  the 003/001 fields in the handles.csv file did not match on any record in the batch
+    --  an 006 or 007 field is present in the original record (signifying an alternate format other than print)
+    --  record is missing a 245 title field, or has multiple 245 fields
+    --  a 245 $h GMD field is present in the original record (signifying an alternate format other than print)
+    --  the 245 $h GMD field was not added to a non-RDA e-version record during processing
+    --  the $6 subfield did not sort to the first position in the field - issue with NYU records
+    --  record is missing a call number - no 050 or 090 field
+Report produced: 2017-09-07 20:48:22.784994
+---------------------------------------------------------------------
+FILE: UaCaAUL_20170825_2_oclc_recs_batch.mrc
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm34143897
+   oclc_rec_035_num: (OCoLC)34143897
+Institution ID: UaCaAUL_b14013745
+Record 999:  UaCaAUL_b14013745 (OCoLC)ocm34143897
+880 script fields: YES
+ERROR-880: Unlinked 880s: YES
+   880 $6 490-00/(3/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): auc_aco000187
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm11175832
+   oclc_rec_035_num: (OCoLC)11175832
+Institution ID: UaCaAUL_b14513249
+Record 999:  UaCaAUL_b14513249 (OCoLC)ocm11175832
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): auc_aco000106
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm40819715
+   oclc_rec_035_num: (OCoLC)40819715
+Institution ID: UaCaAUL_b13142070
+Record 999:  UaCaAUL_b13142070 (OCoLC)ocm40819715
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): auc_aco000113
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocn122811431
+   oclc_rec_035_num: (OCoLC)122811431
+Institution ID: UaCaAUL_b1313419x
+Record 999:  UaCaAUL_b1313419x (OCoLC)ocn122811431
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): auc_aco000170
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocn863494020
+   oclc_rec_035_num: (OCoLC)863494020
+Institution ID: UaCaAUL_b13048715
+Record 999:  UaCaAUL_b13048715 (OCoLC)ocn863494020
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): auc_aco000154
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm40976711
+   oclc_rec_035_num: (OCoLC)40976711
+Institution ID: UaCaAUL_b14395344
+Record 999:  UaCaAUL_b14395344 (OCoLC)ocm40976711
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): auc_aco000169
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm80061748
+   oclc_rec_035_num: (OCoLC)80061748
+Institution ID: UaCaAUL_b14374110
+Record 999:  UaCaAUL_b14374110 (OCoLC)ocm80061748
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): auc_aco000191
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm33196249
+   oclc_rec_035_num: (OCoLC)33196249
+Institution ID: UaCaAUL_b14418125
+Record 999:  UaCaAUL_b14418125 (OCoLC)ocm33196249
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+ERROR-MISC: 007  hd bfa013baaa
+ERROR-MISC: 007  hd bfa013baba
+ERROR-MISC: 007  hd afa013baca
+Source entities (book IDs): auc_aco000173
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocn122795404
+   oclc_rec_035_num: (OCoLC)122795404
+Institution ID: UaCaAUL_b12929098
+Record 999:  UaCaAUL_b12929098 (OCoLC)ocn122795404
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Silsilah al-falsafīyah
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): auc_aco000133:v.1, auc_aco000134:v.2
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm40972611
+   oclc_rec_035_num: (OCoLC)40972611
+Institution ID: UaCaAUL_b1440896x
+Record 999:  UaCaAUL_b1440896x (OCoLC)ocm40972611
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): auc_aco000204
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: UaCaAUL_20170825_1/UaCaAUL_20170825_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing miscellaneous errors: 10
+
