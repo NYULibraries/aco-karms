@@ -1,0 +1,87 @@
+Records containing MISCELLANEOUS errors - batch UaCaAUL_20170503
+--  Each of these records contain at least one of the miscellaneous errors
+    recorded mostly for notice of validation errors or to identify programming issues
+--  List of possible miscellaneous errors:
+    --  the OCLC # in the OCLC batch record did not match on any OCLC #s in the original records
+    --  record contains multiple 999 fields
+    --  zero or multiple $6 subfields in 880s
+    --  record is missing an 040 field
+    --  record contains invalid replacement character (black diamond with question mark) - found in NYU records
+    --  code in the 003 does not match any of the partner institution codes
+    --  the 003/001 fields did not change from the OCLC # to the BSN during processing
+    --  the 003/001 fields in the handles.csv file did not match on any record in the batch
+    --  an 006 or 007 field is present in the original record (signifying an alternate format other than print)
+    --  record is missing a 245 title field, or has multiple 245 fields
+    --  a 245 $h GMD field is present in the original record (signifying an alternate format other than print)
+    --  the 245 $h GMD field was not added to a non-RDA e-version record during processing
+    --  the $6 subfield did not sort to the first position in the field - issue with NYU records
+    --  record is missing a call number - no 050 or 090 field
+Report produced: 2017-09-26 17:59:45.999880
+---------------------------------------------------------------------
+FILE: UaCaAUL_20170503_2_oclc_recs_batch.mrc
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm33321307
+   oclc_rec_035_num: (OCoLC)33321307
+Institution ID: UaCaAUL_b1286335x
+Record 999:  UaCaAUL_b1286335x (OCoLC)ocm33321307
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): auc_aco000015
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm42871879
+   oclc_rec_035_num: (OCoLC)42871879
+Institution ID: UaCaAUL_b13631809
+Record 999:  UaCaAUL_b13631809 (OCoLC)ocm42871879
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): auc_aco000074
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocn166265402
+   oclc_rec_035_num: (OCoLC)166265402
+Institution ID: UaCaAUL_b1400009x
+Record 999:  UaCaAUL_b1400009x (OCoLC)ocn166265402
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): auc_aco000018
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm60505969
+   oclc_rec_035_num: (OCoLC)60505969
+Institution ID: UaCaAUL_b11968503
+Record 999:  UaCaAUL_b11968503 (OCoLC)ocm60505969
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): auc_aco000048:2 v. in 1
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm60506773
+   oclc_rec_035_num: (OCoLC)60506773
+Institution ID: UaCaAUL_b12745972
+Record 999:  UaCaAUL_b12745972 (OCoLC)ocm60506773
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): auc_aco000059
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm84990824
+   oclc_rec_035_num: (OCoLC)84990824
+Institution ID: UaCaAUL_b14007058
+Record 999:  UaCaAUL_b14007058 (OCoLC)ocm84990824
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): auc_aco000077
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: UaCaAUL_20170503_1/UaCaAUL_20170503_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing miscellaneous errors: 6
+
