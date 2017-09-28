@@ -1,0 +1,23 @@
+Records containing SERIES errors - batch UaCaAUL_20170825
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2017-09-28 10:29:06.550835
+---------------------------------------------------------------------
+FILE: UaCaAUL_20170825_3/UaCaAUL_20170825_3_updates.mrc
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocn318941526
+   oclc_rec_035_num: (OCoLC)318941526
+Institution ID: UaCaAUL_b13171616
+Record 999:  UaCaAUL_b13171616 (OCoLC)ocn318941526 auc_aco000188
+880 script fields: YES
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-03 al-Kitāb al-sanawī lil-Jamʻīyah ; 1
+040 $e field: [none]
+RDA fields: YES
+050 call number: BP173.75 .I6 1951
+Source entities (book IDs): auc_aco000188
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 1
+
