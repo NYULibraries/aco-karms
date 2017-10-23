@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170926s1911    tu      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">171023s1911    tu      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">KBP300.N37</subfield>
+		<subfield code="b">K58 1911</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">349.297</subfield>
@@ -28,7 +32,7 @@
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="246">
 		<subfield code="6">880-03</subfield>
-		<subfield code="a">al-Manār fī al-uṣūl</subfield>
+		<subfield code="a">Manār fī al-uṣūl</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="264">
 		<subfield code="6">880-04</subfield>
@@ -62,19 +66,13 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الفقه الاسلامي</subfield>
-		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">المذهب الحنفي</subfield>
-		<subfield code="v">أعمال قديمة حتى 1800.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Islamic law</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Hanafites</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
@@ -94,30 +92,40 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/v9s4n2mf</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01/r</subfield>
 		<subfield code="a">النسفي، عبد الله بن احمد،</subfield>
 		<subfield code="d">-1310،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">كتاب المنار في الأصول.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="880">
-		<subfield code="6">246-03/(3/r</subfield>
-		<subfield code="a">المنار في الأصول</subfield>
+		<subfield code="6">246-03/r</subfield>
+		<subfield code="a">منار في الأصول</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-04/(3/r</subfield>
+		<subfield code="6">264-04/r</subfield>
 		<subfield code="a">درسعادت :</subfield>
 		<subfield code="b">مطبعة عثمانية،</subfield>
 		<subfield code="c">1329 هـ.، [1911؟ م.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-05/(3/r</subfield>
+		<subfield code="6">300-05/r</subfield>
 		<subfield code="a">287 صفحة ؛</subfield>
 		<subfield code="c">27 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06/r</subfield>
+		<subfield code="a">الفقه الاسلامي</subfield>
+		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07/r</subfield>
+		<subfield code="a">المذهب الحنفي</subfield>
+		<subfield code="v">أعمال قديمة حتى 1800.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -131,5 +139,6 @@
 		<subfield code="i">LeBAU_b12761308</subfield>
 		<subfield code="s">aub_aco001287</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001287</subfield>
 	</datafield>
 </record>
