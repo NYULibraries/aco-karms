@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170926s1912    ua      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">171023s1912    ua      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP130.4</subfield>
+		<subfield code="b">.I26 1912</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">297.207</subfield>
@@ -58,9 +62,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;طبع هذا الكتاب على نفقة سلطان المغرب الأقصى سابقاً إمام زمانه وفريد عصره وأوانه قدوة الأمراء وحجة العلماء العلامة المحقق والملاذ الأكبر المدقق فرع الشجرة النبوية وخلاصة السلالة الطاهرة العلوية سيدنا ومولانا عبد الحفيظ إبن السلطان مولاي الحسن بن السلطان سيدي محمد.&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -70,21 +71,14 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="4" tag="630">
-		<subfield code="a">قرآن</subfield>
-		<subfield code="x">تفسير وتأويل</subfield>
-		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
-	</datafield>
 	<datafield ind1="0" ind2="0" tag="630">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Qur'an</subfield>
 		<subfield code="x">Hermeneutics</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الفقه الاسلامي</subfield>
-		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Islamic law</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
@@ -100,8 +94,57 @@
 		<subfield code="t">Kitāb aḥkām al-Qurʼān</subfield>
 		<subfield code="w">(LeBAU)b12371841</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="856">
-		<subfield code="6">WWW</subfield>
+	<datafield ind1="4" ind2="0" tag="856">
+		<subfield code="u">http://hdl.handle.net/2333.1/kprr53s9</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">ابن العربي، محمد بن عبد الله،‪‪‪‪‪‪‪</subfield>
+		<subfield code="d">1076-1148،</subfield>
+		<subfield code="e">مؤلف.‪‪‪‪‪‪‪</subfield>
+		<subfield code="4">aut.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">كتاب أحكام القرآن /‪‪‪‪‪‪‪</subfield>
+		<subfield code="c">تصنيف الإمام الحافظ القاضي أبي بكر محمد بن عبد الله بن محمد بن عبد الله بن أحمد المعروف بإبن العربي المعافري الأندلسي الإشبيلي المالكي ختام، علماء الأندلس وآخر أئمتها المولود سنة 468 المتوفى سنة 542 هجرية.‪‪‪‪‪‪‪</subfield>
+	</datafield>
+	<datafield ind1="3" ind2="0" tag="880">
+		<subfield code="6">246-03/r</subfield>
+		<subfield code="a">أحكام القرآن‪‪‪‪‪‪‪</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">250-04/r</subfield>
+		<subfield code="a">الطبعة الأولى.‪‪‪‪‪‪‪</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="1" tag="880">
+		<subfield code="6">264-05/r</subfield>
+		<subfield code="a">مصر :‪‪‪‪‪‪‪</subfield>
+		<subfield code="b">مطبعة السعادة،‪‪‪‪‪‪‪</subfield>
+		<subfield code="c">1331 هـ.، [1912؟ م.]‪‪‪‪‪‪‪</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">300-06/r</subfield>
+		<subfield code="a">2 جزء ؛‪‪‪‪‪‪‪</subfield>
+		<subfield code="c">28 سم‪‪‪‪‪‪‪</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00/r</subfield>
+		<subfield code="a">&quot;طبع هذا الكتاب على نفقة سلطان المغرب الأقصى سابقاً إمام زمانه وفريد عصره وأوانه قدوة الأمراء وحجة العلماء العلامة المحقق والملاذ الأكبر المدقق فرع الشجرة النبوية وخلاصة السلالة الطاهرة العلوية سيدنا ومولانا عبد الحفيظ إبن السلطان مولاي الحسن بن السلطان سيدي محمد.&quot;‪‪‪‪‪‪‪</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">630-07/r</subfield>
+		<subfield code="a">قرآن‪‪‪‪‪‪‪</subfield>
+		<subfield code="x">تفسير وتأويل‪‪‪‪‪‪‪</subfield>
+		<subfield code="v">اعمال قديمة حتى 1800.‪‪‪‪‪‪‪</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-08/r</subfield>
+		<subfield code="a">الفقه الاسلامي‪‪‪‪‪‪‪</subfield>
+		<subfield code="v">اعمال قديمة حتى 1800.‪‪‪‪‪‪‪</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">856-00/r</subfield>
 		<subfield code="a">1</subfield>
 		<subfield code="b">T</subfield>
 		<subfield code="d">A</subfield>
@@ -110,41 +153,7 @@
 		<subfield code="q">T</subfield>
 		<subfield code="u">https://ezproxy.aub.edu.lb/login?url=http://feqh.al-islam.com/BookHier.asp?DocID=17</subfield>
 		<subfield code="w">285586</subfield>
-		<subfield code="z">اضغط على الرابط للوصول الى النسخة الالكترونية</subfield>
-	</datafield>
-	<datafield ind1="4" ind2="0" tag="856">
-		<subfield code="u">http://hdl.handle.net/2333.1/kprr53s9</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
-		<subfield code="a">ابن العربي، محمد بن عبد الله،</subfield>
-		<subfield code="d">1076-1148،</subfield>
-		<subfield code="e">مؤلف. </subfield>
-		<subfield code="4">aut.</subfield>
-	</datafield>
-	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
-		<subfield code="a">كتاب أحكام القرآن /</subfield>
-		<subfield code="c">تصنيف الإمام الحافظ القاضي أبي بكر محمد بن عبد الله بن محمد بن عبد الله بن أحمد المعروف بإبن العربي المعافري الأندلسي الإشبيلي المالكي ختام، علماء الأندلس وآخر أئمتها المولود سنة 468 المتوفى سنة 542 هجرية.</subfield>
-	</datafield>
-	<datafield ind1="3" ind2="0" tag="880">
-		<subfield code="6">246-03/(3/r</subfield>
-		<subfield code="a">أحكام القرآن</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-04/(3/r</subfield>
-		<subfield code="a">الطبعة الأولى.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-05/(3/r</subfield>
-		<subfield code="a">مصر :</subfield>
-		<subfield code="b">مطبعة السعادة،</subfield>
-		<subfield code="c">1331 هـ.، [1912؟ م.]</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-06/(3/r</subfield>
-		<subfield code="a">2 جزء ؛</subfield>
-		<subfield code="c">28 سم</subfield>
+		<subfield code="z">اضغط على الرابط للوصول الى النسخة الالكترونية‪‪‪‪‪‪‪</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -159,5 +168,7 @@
 		<subfield code="s">aub_aco001331:v.1</subfield>
 		<subfield code="s">aub_aco001332:v.2</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001331:v.1</subfield>
+		<subfield code="s">aub_aco001332:v.2</subfield>
 	</datafield>
 </record>

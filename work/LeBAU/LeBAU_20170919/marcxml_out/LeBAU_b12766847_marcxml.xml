@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170926s1909    ua      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">171023s1909    ua      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">KRM2754.</subfield>
+		<subfield code="b">.E48 1909</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">385</subfield>
@@ -50,9 +54,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">نموذج عقد إمتياز.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -62,26 +63,18 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">العقود العامة</subfield>
-		<subfield code="z">مصر.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">السكك الحديدية</subfield>
-		<subfield code="z">مصر.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">نموذج عقود.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Public contracts</subfield>
 		<subfield code="z">Egypt.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Railroads</subfield>
 		<subfield code="z">Egypt.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Form of contract.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -100,27 +93,45 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/n02v735b</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">110-01/(3/r</subfield>
+		<subfield code="6">110-01/r</subfield>
 		<subfield code="a">مصر.</subfield>
 		<subfield code="b">وزارة الأشغال العمومية،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">عقد إمتياز بإقامة خطوط حديدية زراعية ضيقة في [...] /</subfield>
 		<subfield code="c">الحكومة المصرية، نظارة الأشغال العمومية.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03/r</subfield>
 		<subfield code="a">مصر :</subfield>
 		<subfield code="b">المطبعة الأميرية،</subfield>
 		<subfield code="c">1909.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04/r</subfield>
 		<subfield code="a">16 صفحة ؛</subfield>
 		<subfield code="c">33 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00/r</subfield>
+		<subfield code="a">نموذج عقد إمتياز.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05/r</subfield>
+		<subfield code="a">العقود العامة</subfield>
+		<subfield code="z">مصر.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06/r</subfield>
+		<subfield code="a">السكك الحديدية</subfield>
+		<subfield code="z">مصر.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07/r</subfield>
+		<subfield code="a">نموذج عقود.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -134,5 +145,6 @@
 		<subfield code="i">LeBAU_b12766847</subfield>
 		<subfield code="s">aub_aco001246</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001246</subfield>
 	</datafield>
 </record>

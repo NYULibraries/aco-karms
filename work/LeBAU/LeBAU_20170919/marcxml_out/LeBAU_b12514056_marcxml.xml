@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">170926s1910    ua      ob    ||0 0 ara d</controlfield>
+	<controlfield tag="008">171023s1910    ua      ob    ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ6065</subfield>
+		<subfield code="b">.A33 1910</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">808</subfield>
@@ -21,7 +25,7 @@
 		<subfield code="a">ʻAbd al-Khāliq, Ibrāhīm,</subfield>
 		<subfield code="e">author.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Taṭbīqāt al-ʻArabiyyah li-talāmīdh al-madāris al-thānawīyah /</subfield>
 		<subfield code="c">ta’līf Ibrāhīm ʻAbd al-Khāliq, mudarris al-‘ulūm al-‘Arabīyah bi-al-qism al-thānawī bi-kullīyat al-Aqbāṭ bi-al-Qāhirah.</subfield>
@@ -55,9 +59,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="505">
-		<subfield code="a">الجزء الأول. يشتمل على ما تقرر تدريسه من النحو و الصرف بكتاب قواعد اللغة العربية لتلاميذ السنة الأولى والثانية ... --الجزء الثاني. يشتمل على ما تقرر تدريسه من علوم البلاغة بكتاب قواعد اللغة العربية لتلاميذ السنة الثالثة والرابعة طبقا لما جاء ببرنامج نظارة المعارف العمومية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -65,22 +66,13 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="590">
-		<subfield code="a">في المكتبة: الجزء 2.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">اللغة العربية</subfield>
-		<subfield code="x">الدرس والتدريس (الثانوي)</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">البلاغة</subfield>
-		<subfield code="x">الدرس والتدريس (الثانوي)</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Arabic language</subfield>
 		<subfield code="x">Study and teaching (Secondary)</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Rhetoric</subfield>
 		<subfield code="x">Study and teaching (Secondary)</subfield>
 	</datafield>
@@ -100,30 +92,48 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/7pvmd1nj</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
-		<subfield code="a">عبد الخالق، إبراهيم،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">عبد الخالق، إبراهيم،‪‪‪‪‪‪‪</subfield>
+		<subfield code="e">مؤلف.‪‪‪‪‪‪‪</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
-		<subfield code="a">التطبيقات العربية لتلاميذ المدارس الثانوية /</subfield>
-		<subfield code="c">تأليف إبراهيم عبد الخالق، مدرس العلوم العربية بالقسم الثانوي بكلية الأقباط بالقاهرة.</subfield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">التطبيقات العربية لتلاميذ المدارس الثانوية /‪‪‪‪‪‪‪</subfield>
+		<subfield code="c">تأليف إبراهيم عبد الخالق، مدرس العلوم العربية بالقسم الثانوي بكلية الأقباط بالقاهرة.‪‪‪‪‪‪‪</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-03/(3/r</subfield>
-		<subfield code="a">الطبعة الأولى.</subfield>
+		<subfield code="6">250-03/r</subfield>
+		<subfield code="a">الطبعة الأولى.‪‪‪‪‪‪‪</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-04/(3/r</subfield>
-		<subfield code="a">مصر :</subfield>
-		<subfield code="b">مطبعة التوفيق،</subfield>
-		<subfield code="c">1328 هـ. = 1910 م.</subfield>
+		<subfield code="6">264-04/r</subfield>
+		<subfield code="a">مصر :‪‪‪‪‪‪‪</subfield>
+		<subfield code="b">مطبعة التوفيق،‪‪‪‪‪‪‪</subfield>
+		<subfield code="c">1328 هـ. = 1910 م.‪‪‪‪‪‪‪</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-05/(3/r</subfield>
-		<subfield code="a">2 جزء ؛</subfield>
-		<subfield code="c">20 سم</subfield>
+		<subfield code="6">300-05/r</subfield>
+		<subfield code="a">2 جزء ؛‪‪‪‪‪‪‪</subfield>
+		<subfield code="c">20 سم‪‪‪‪‪‪‪</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">505-00/r</subfield>
+		<subfield code="a">الجزء الأول. يشتمل على ما تقرر تدريسه من النحو و الصرف بكتاب قواعد اللغة العربية لتلاميذ السنة الأولى والثانية ... --الجزء الثاني. يشتمل على ما تقرر تدريسه من علوم البلاغة بكتاب قواعد اللغة العربية لتلاميذ السنة الثالثة والرابعة طبقا لما جاء ببرنامج نظارة المعارف العمومية.‪‪‪‪‪‪‪</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">590-00/r</subfield>
+		<subfield code="a">في المكتبة: الجزء 2.‪‪‪‪‪‪‪</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06/r</subfield>
+		<subfield code="a">اللغة العربية‪‪‪‪‪‪‪</subfield>
+		<subfield code="x">الدرس والتدريس (الثانوي)‪‪‪‪‪‪‪</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07/r</subfield>
+		<subfield code="a">البلاغة‪‪‪‪‪‪‪</subfield>
+		<subfield code="x">الدرس والتدريس (الثانوي)‪‪‪‪‪‪‪</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -137,5 +147,6 @@
 		<subfield code="i">LeBAU_b12514056</subfield>
 		<subfield code="s">aub_aco001249:v.2</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001249:v.2</subfield>
 	</datafield>
 </record>
