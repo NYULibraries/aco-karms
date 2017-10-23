@@ -198,8 +198,8 @@ def check_for_unlinked_880s(rec):
 			msg += 'ERROR-MISC: There are either zero or multiple subfield $6s in this 880: '+rec_880+'\n'
 		else:
 			rec_880_6 = rec_880_6s[0]
-			#if rec_880_6[4:6]=='00' and not rec_880_6[0:1]=='5':
-			if rec_880_6[4:6]=='00':
+			if rec_880_6[4:6]=='00' and not rec_880_6[0:1]=='5':	# don't include unlinked 880s for 5XX fields in error report
+			#if rec_880_6[4:6]=='00':
 				unlinked_880s_exist = True
 				msg_unlnkd_880_6s += '   880 $6 '+rec_880_6+' - '
 				rec_880_pf = rec_880_6[0:3]				# get the corresponding parallel MARC field tag
