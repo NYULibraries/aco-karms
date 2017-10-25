@@ -1,0 +1,44 @@
+Records containing MISCELLANEOUS errors - batch LeBAU_20170919
+--  Each of these records contain at least one of the miscellaneous errors
+    recorded mostly for notice of validation errors or to identify programming issues
+--  List of possible miscellaneous errors:
+    --  the OCLC # in the OCLC batch record did not match on any OCLC #s in the original records
+    --  record contains multiple 999 fields
+    --  zero or multiple $6 subfields in 880s
+    --  record is missing an 040 field
+    --  record contains invalid replacement character (black diamond with question mark) - found in NYU records
+    --  code in the 003 does not match any of the partner institution codes
+    --  the 003/001 fields did not change from the OCLC # to the BSN during processing
+    --  the 003/001 fields in the handles.csv file did not match on any record in the batch
+    --  an 006 or 007 field is present in the original record (signifying an alternate format other than print)
+    --  record is missing a 245 title field, or has multiple 245 fields
+    --  a 245 $h GMD field is present in the original record (signifying an alternate format other than print)
+    --  the 245 $h GMD field was not added to a non-RDA e-version record during processing
+    --  the $6 subfield did not sort to the first position in the field - issue with NYU records
+    --  record is missing a call number - no 050 or 090 field
+Report produced: 2017-10-23 11:58:54.475545
+---------------------------------------------------------------------
+FILE: LeBAU_20170919_3/LeBAU_20170919_3_updates.mrc
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12738608
+   orig_rec_035 num: =035  \\$aocm55549641
+Record 999:  LeBAU_b12738608 aub_aco001325
+880 script fields: YES
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco001325
+---------------------------------------------------------------------
+Institution ID: LeBAU_b12738645
+   orig_rec_035 num: =035  \\$aocn784495840
+Record 999:  LeBAU_b12738645 aub_aco001272:v.2
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - HISTOIRE DES BENI ‘ABD EL-WÂD : ROIS DE TELMCEN
+040 $e field: rda
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): aub_aco001272:v.2
+---------------------------------------------------------------------
+TOTAL Number of Records containing miscellaneous errors: 2
+
