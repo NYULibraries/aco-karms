@@ -5,22 +5,31 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171105s1908    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">171205s1908    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP135.A3</subfield>
+		<subfield code="b">M83 1908</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Mundhirī, ʻAbd al-ʻAẓīm ibn ʻAbd al-Qawī,</subfield>
 		<subfield code="d">1185-1258.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">Al-targhīb wa al-tarhīb ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Al-targhīb wa al-tarhīb /</subfield>
+		<subfield code="c">Zakī al-Dīn Abī Muḥammad ʻAbd al-ʻAẓīm ibn ʻAbd al-Qawī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[al-Qāhirah] :</subfield>
+		<subfield code="b">Idārat al-Ṭibāʻah al-Munyriayah,</subfield>
 		<subfield code="c">1326 A.H. [1908]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -48,6 +57,9 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Hadith</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -65,6 +77,22 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/m37pvsnz</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">منذري، عبد العظيم بن عبد القوي،</subfield>
+		<subfield code="d">1185-1258.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">الترغيب و الترهيب /</subfield>
+		<subfield code="c">زكي الدين ابي محمد عبد العظيم بن عبد القوي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">ادارة الطباعة المنيرية،</subfield>
+		<subfield code="c">1326 ا.ه. [1908]</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -79,5 +107,7 @@
 		<subfield code="s">columbia_aco002538:v.1-2</subfield>
 		<subfield code="s">columbia_aco002539:v.3-4</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco002538:v.1-2</subfield>
+		<subfield code="s">columbia_aco002539:v.3-4</subfield>
 	</datafield>
 </record>

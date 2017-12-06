@@ -5,29 +5,32 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171105s1905    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">171205s1905    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="4" tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">PJ6101.I23</subfield>
-		<subfield code="b">A9</subfield>
+		<subfield code="b">A9 1905</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Azharī, Khālid ibn ʻAbd Allāh,</subfield>
 		<subfield code="d">-1499.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Iʻrāb Alfīyat al-imām Ibn Mālik fī al-naḥw, al-musammā:</subfield>
-		<subfield code="b">Tamrīn al-ṭullāb fī ṣināʻat al-iʻrāb, lil-shaykh ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Iʻrāb Alfīyat al-imām Ibn Mālik fī al-naḥw, al-musammā :</subfield>
+		<subfield code="b">Tamrīn al-ṭullāb fī ṣināʻat al-iʻrāb, lil-shaykh .../ </subfield>
 		<subfield code="c">Zayn al-Dīn Abī al-Walīd Khālid ibn ʻAbd Allāh al-Azharī. Wa-bi-hāmishihī: sharh al-shaykh Khālid, al-musammā: Muwaṣsil al-tullāb ilā Qawāʻid al-iʻrāb, lil-ʻallāmah Ibn Hisʻhām al-Ansārī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[al-Qāhirah]</subfield>
-		<subfield code="b">al-Matbaʻah al-Ḥusaynīyah al-Misrīyah</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[al-Qāhirah] :</subfield>
+		<subfield code="b">al-Matbaʻah al-Ḥusaynīyah al-Misrīyah,</subfield>
 		<subfield code="c">[1323 h., 1905]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -55,6 +58,16 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Ibn Mālik, Muḥammad ibn ʻAbd Allāh,</subfield>
+		<subfield code="d">-1274.</subfield>
+		<subfield code="t">Alfīyah.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Arabic language</subfield>
+		<subfield code="x">Grammar.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -72,6 +85,29 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/0gb5mrt4</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">ازهري، خالد بن عبد الله،</subfield>
+		<subfield code="d">-1499.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">اعراب الفية الامام ابن مالك في النحو، المسمى :</subfield>
+		<subfield code="b">تمرين الطلاب في صناعة الاعراب، للشيخ ... /</subfield>
+		<subfield code="c">زين الدين ابي الوليد خال بن عبد الله الاچري. وبهامشهي: شره الشيخ خال، المسما: موصسل التلاب الا قواعد الاعراب، للعلامة ابن هسعهام الانساري.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">المطبعة الحسينية المصرية،</subfield>
+		<subfield code="c">[1323 ه.، 1905]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">600-04/r</subfield>
+		<subfield code="a">ابن مالك، محمد بن عبد الله،</subfield>
+		<subfield code="d">-1274.</subfield>
+		<subfield code="t">الفية.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -85,5 +121,6 @@
 		<subfield code="o">(OCoLC)ocm46322084</subfield>
 		<subfield code="s">columbia_aco002781</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002781</subfield>
 	</datafield>
 </record>

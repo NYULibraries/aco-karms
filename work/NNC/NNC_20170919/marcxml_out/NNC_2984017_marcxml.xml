@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171105s1926    sy      o     000 0 ara d</controlfield>
+	<controlfield tag="008">171205s1926    sy      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -13,18 +13,21 @@
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="4" tag="050">
-		<subfield code="a">PJ6696</subfield>
-		<subfield code="b">.A29</subfield>
+		<subfield code="a">BP133</subfield>
+		<subfield code="b">.A28 1926</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Abū Ḥayyān Muḥammad ibn Yūsuf,</subfield>
 		<subfield code="d">1256-1344.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Tuḥfat al-arīb bi-mā fī al-Qurʼān min al-gharīb /</subfield>
-		<subfield code="c">taʼlīf Abī Hayyāh al-Andalusī ; mudhayyal bi-awjuh al-qirāʼāt wa-istidrāk mā aghfalahū al-muṣannif.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb tuḥfat al-arīb bi-mā fī al-Qurʼān min al-gharīb /</subfield>
+		<subfield code="c">taʼlīf Athīr al-Dīn Abī Ḥayyān al-Andalusī ; ʻuniya bi-taṣḥīḥihi wa-ḍabṭihi wa-al-wuqūf ʻalá ṭabʻihi Ṭāhir al-Naʻsānī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Ḥamāh :</subfield>
 		<subfield code="b">Maṭbaʻat al-Ikhlāṣ,</subfield>
 		<subfield code="c">1345 h., 1926 m.</subfield>
@@ -54,6 +57,17 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="0" tag="630">
+		<subfield code="a">Qurʼan</subfield>
+		<subfield code="x">Dictionaries.</subfield>
+		<subfield code="l">Arabic</subfield>
+		<subfield code="v">Early works to 1800.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="630">
+		<subfield code="a">Qurʼan</subfield>
+		<subfield code="x">Readings</subfield>
+		<subfield code="v">Early works to 1800.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -64,12 +78,28 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Abū Ḥayyān Muḥammad ibn Yūsuf, 1256-1344.</subfield>
-		<subfield code="t">Tuḥfat al-arīb bi-mā fī al-Qurʼān min al-gharīb</subfield>
+		<subfield code="t">Kitāb tuḥfat al-arīb bi-mā fī al-Qurʼān min al-gharīb</subfield>
 		<subfield code="w">(NNC)2984017</subfield>
 		<subfield code="w">(OCoLC)46322372</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/b8gtj0h1</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">ابو حيان محمد بن يوسف،</subfield>
+		<subfield code="d">1256-1344.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">كتاب تحفة الأريب بما في القرآن من الغريب /</subfield>
+		<subfield code="c">تأليف اثير الدين ابي حيان الاندلسي ؛ عني بتصحيحه وضبطه والوقوف على طبعه طاهر النعساني.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">حماه :</subfield>
+		<subfield code="b">مطبعة الاخلاص،</subfield>
+		<subfield code="c">1345 ه.، 1926 م.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -84,5 +114,6 @@
 		<subfield code="o">(OCoLC)ocm46322372</subfield>
 		<subfield code="s">columbia_aco002686</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002686</subfield>
 	</datafield>
 </record>

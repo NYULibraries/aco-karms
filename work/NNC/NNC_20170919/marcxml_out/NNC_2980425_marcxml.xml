@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171105s1931    ua      ob    000 0 arao </controlfield>
+	<controlfield tag="008">171205s1931    ua      ob    000 0 arao </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,10 +17,12 @@
 		<subfield code="b">.I26 1931</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ibn al-Mudabbir, Ibrāhīm ibn Muḥammad,</subfield>
 		<subfield code="d">-892 or 893.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Risālah al-ʻadhrāʼ /</subfield>
 		<subfield code="c">li-Ibrāhīm ibn al-Mudabbir ; muṣaḥḥaḥah wa-mashrūḥah maʻ muqaddimah mufaṣṣalah bi-al-Faransīyah ʻan fann al-inshāʼ wa-madhāhib al-kitāb fī al-qarn al-thālith bi-qalam Zakī Mubārak.</subfield>
 	</datafield>
@@ -28,9 +30,11 @@
 		<subfield code="a">Étude critique sur la Lettre vierge dʼIbn el-Mudabber</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">al-Ṭabʻah 2.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">al-Qāhirah :</subfield>
 		<subfield code="b">Maṭbaʻat Dār al-Kutub al-Miṣrīyah,</subfield>
 		<subfield code="c">1931.</subfield>
@@ -77,7 +81,8 @@
 		<subfield code="0">(OCoLC)fst00812415</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="700">
-		<subfield code="a">Zakī Mubārak.</subfield>
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Zakī Mubārak. </subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
@@ -87,6 +92,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="6">880-06</subfield>
 		<subfield code="i">Online version:</subfield>
 		<subfield code="a">Ibn al-Mudabbir, Ibrāhīm ibn Muḥammad, -892 or 3.</subfield>
 		<subfield code="t">Risālah al-ʻadhrāʼ.</subfield>
@@ -105,6 +111,39 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/00000557</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">ابن المدبر، ابراهيم بن محمد،</subfield>
+		<subfield code="d">-892 or 893.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">الرسالة العذراء /</subfield>
+		<subfield code="c">لابراهيم بن المدبر ؛ مصححة ومشروحة مع مقدمة مفصلة بالفرنسية عن فن الانشاء ومذاهب الكتاب في القرن الثالث بقلم زكي مبارك.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">250-03/r</subfield>
+		<subfield code="a">الطبعة 2.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/r</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">مطبعة دار الكتب المصرية،</subfield>
+		<subfield code="c">1931.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">700-05/r</subfield>
+		<subfield code="a">زكي مبارك.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="880">
+		<subfield code="6">776-06/r</subfield>
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">ابن المدبر، ابراهيم بن محمد، 892 ر 3.</subfield>
+		<subfield code="t">رسالة العذراء.</subfield>
+		<subfield code="b">الطبعة 2.</subfield>
+		<subfield code="d">القاهرة : مطبعة دار الكتب المصرية، 1931</subfield>
+		<subfield code="w">(ل)582643254</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -118,5 +157,6 @@
 		<subfield code="o">(OCoLC)ocm32577319</subfield>
 		<subfield code="s">columbia_aco002678</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002678</subfield>
 	</datafield>
 </record>

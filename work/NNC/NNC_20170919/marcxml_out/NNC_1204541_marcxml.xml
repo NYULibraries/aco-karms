@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171105m19489999ua      ob    000 0 arard</controlfield>
+	<controlfield tag="008">171205m19489999ua      ob    000 0 arard</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,19 +17,24 @@
 		<subfield code="b">B3821</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Jāḥiẓ,</subfield>
 		<subfield code="d">-868 or 869.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Bayān wa-al-tabyīn.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Bayān wa-al-tabyīn /</subfield>
+		<subfield code="c">[taʼlīf Abī ʻUthmān ʻAmr ibn Baḥr al-Jāḥiẓ] ; bi-taḥqīq wa-sharḥ ʻAbd al-Salām Muḥammad Hārūn.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
-		<subfield code="a">al-Tabāh 1.</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Ṭabʻah 1.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[al-Qāhirah] :</subfield>
-		<subfield code="b">Maṭbaʻat lajnat al-tālīf wa-al-tarjama wa- al-nashr,</subfield>
-		<subfield code="c">1948 -</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
+		<subfield code="b">Maṭbaʻat Lajnat al-Taʼlīf wa-al-Tarjama wa-al-Nashr,</subfield>
+		<subfield code="c">1948-</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (4 volumes in 2)</subfield>
@@ -47,6 +52,7 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Maktabat al-Jāḥiẓ.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -96,10 +102,39 @@
 		<subfield code="w">(OCoLC)23990333</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Maktabat al-Jāḥiẓ.</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/h44j151v</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">جاحظ،,</subfield>
+		<subfield code="d">-868 or 869.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">البيان والتبيين /</subfield>
+		<subfield code="c">[تأليف ابي عثمان عمرو بن بحر الجاحظ] ؛ بتحقيق وشرح عبد السلام محمد هارون.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">250-03/r</subfield>
+		<subfield code="a">الطبعة 1.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/r</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">مطبعة لجنة التأليف والترجم والنشر،</subfield>
+		<subfield code="c">1948-</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">490-05/r</subfield>
+		<subfield code="a">مكتبة الجاحظ.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">830-06/r</subfield>
+		<subfield code="a">مكتبة الجاحظ.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -115,5 +150,7 @@
 		<subfield code="s">columbia_aco002620:v.3-4</subfield>
 		<subfield code="s">columbia_aco002630:v.1-2</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002620:v.3-4</subfield>
+		<subfield code="s">columbia_aco002630:v.1-2</subfield>
 	</datafield>
 </record>

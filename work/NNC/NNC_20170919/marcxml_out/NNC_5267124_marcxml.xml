@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171105m19459999tu      o     000 0 ara d</controlfield>
+	<controlfield tag="008">171205m19459999tu      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,16 +17,23 @@
 		<subfield code="b">D5 1945</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ibn al-Muʻtazz, ʻAbd Allāh,</subfield>
 		<subfield code="d">861-908.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="4" tag="245">
-		<subfield code="a">Der Diwan,</subfield>
-		<subfield code="c">hrsg. von Bernhard Lewin.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Shiʻr ʻAbd Allāh ibn al-Muʻtazz /</subfield>
+		<subfield code="c">ṣanaʻahu Abī Bakr al-Ṣūlī ; ʻuniya bi-taṣḥīḥih B. Lūwīn.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="246">
+		<subfield code="i">Title on added t.p.:</subfield>
+		<subfield code="a">Diwan des ʻAbdallah ibn al-Muʻtazz</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Istanbul,</subfield>
-		<subfield code="b">Staatsdruckerei,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Istānbūl :</subfield>
+		<subfield code="b">Maṭbaʻat al-Maʻārif,</subfield>
 		<subfield code="c">1945-</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -45,8 +52,9 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
-		<subfield code="a">Bibliotheca Islamica.</subfield>
-		<subfield code="v">Bd. 17</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Nasharāt al-Islāmīyah ;</subfield>
+		<subfield code="v">v. 17</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Text in Arabic.</subfield>
@@ -64,7 +72,18 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Poetry.</subfield>
+		<subfield code="2">lcgft</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-06</subfield>
+		<subfield code="a">Ṣūlī, Muḥammad ibn Yaḥyá,</subfield>
+		<subfield code="d">-approximately 947.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Levin, Bernhard,</subfield>
 		<subfield code="e">editor.</subfield>
 	</datafield>
@@ -85,16 +104,56 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Ibn al-Muʻtazz, ʻAbd Allāh, 861-908.</subfield>
-		<subfield code="t">Der Diwan</subfield>
+		<subfield code="t">Shiʻr ʻAbd Allāh ibn al-Muʻtazz</subfield>
 		<subfield code="w">(NNC)5267124</subfield>
 		<subfield code="w">(OCoLC)26616863</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="a">Bibliotheca Islamica ;</subfield>
-		<subfield code="v">Bd. 17.</subfield>
+		<subfield code="6">880-08</subfield>
+		<subfield code="a">Nasharāt al-Islāmīyah ;</subfield>
+		<subfield code="v">v. 17.</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/z8w9gq84</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">ابن المعتز، عبد الله،</subfield>
+		<subfield code="d">861-908.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">شعر عبد الله بن المعتز /</subfield>
+		<subfield code="c">صنعه ابي بكر الصولي ؛ عني بتصحيحه ب. لوين.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">استانبول :</subfield>
+		<subfield code="b">مطبعة المعارف،</subfield>
+		<subfield code="c">1945-</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">490-04/r</subfield>
+		<subfield code="a">نشرات الاسلامية ؛</subfield>
+		<subfield code="v">v. 17.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">655-05/r</subfield>
+		<subfield code="a">الشعر.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-06/r</subfield>
+		<subfield code="a">صولي، محمد بن يحيى،</subfield>
+		<subfield code="d">-approximately 947.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-07/r</subfield>
+		<subfield code="a">لوين، برنهارد.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">830-08/r</subfield>
+		<subfield code="a">نشرات الاسلامية ؛</subfield>
+		<subfield code="v">v. 17.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -110,5 +169,7 @@
 		<subfield code="s">columbia_aco002585:v.17c</subfield>
 		<subfield code="s">columbia_aco002911:v.17d</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002585:v.17c</subfield>
+		<subfield code="s">columbia_aco002911:v.17d</subfield>
 	</datafield>
 </record>

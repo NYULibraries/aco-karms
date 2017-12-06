@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171105s1904    sy      o     000 p arard</controlfield>
+	<controlfield tag="008">171205s1904    sy      o     000 p arard</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,17 +17,21 @@
 		<subfield code="b">A6 1904</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Abū al-Hudá al-Ṣayyādī, Muḥammad ibn Ḥasan Wādī,</subfield>
 		<subfield code="d">1849 or 1850-1910 or 1911.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Dīwān rawḍat al-ʻirfān al-mudhayyalah manẓūmātuhu bi-manthūr al-Durar al-ḥisān</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Hadhā Dīwān rawḍat al-ʻirfān al-mudhayyalah manẓūmātuhu bi-manthūr al-Durar al-ḥisān /</subfield>
 		<subfield code="c">taʼlīf Muḥammad Abū al-Hudá al-Ṣayyādī al-Rifāʻī al-Ḥusaynī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">[Syria] :</subfield>
 		<subfield code="b">[publisher not identified],</subfield>
 		<subfield code="c">1322 [1904]</subfield>
@@ -57,6 +61,11 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Poetry.</subfield>
+		<subfield code="2">lcgft</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -82,6 +91,30 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/k3j9kkf8</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">ابو الهدى الصيادي، محمد بن حسن وادي،</subfield>
+		<subfield code="d">1849 or 1850-1910 or 1911.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">240-02/r</subfield>
+		<subfield code="a">ديوان روضة العرفان المذيلة منظوماته بمنثور الدرر الحسان</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-03/r</subfield>
+		<subfield code="a">هذا ديوان روضة العرفان المذيلة منظوماته بمنثور الدرر الحسان /</subfield>
+		<subfield code="c">تأليف محمد ابو الهدى الصيادي الرفاعي الحسيني.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/r</subfield>
+		<subfield code="a">[سوريا] :</subfield>
+		<subfield code="b">[publisher not identified],</subfield>
+		<subfield code="c">1322 [1904]</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">655-05/r</subfield>
+		<subfield code="a">الشعر.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -95,5 +128,6 @@
 		<subfield code="o">(OCoLC)ocm45769278</subfield>
 		<subfield code="s">columbia_aco002602</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002602</subfield>
 	</datafield>
 </record>

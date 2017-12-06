@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171105s1968    iq c    o     000 0 araod</controlfield>
+	<controlfield tag="008">171205s1968    iq c    o     000 0 araod</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,14 +17,17 @@
 		<subfield code="b">A17 1968</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Naṣrat, Kamāl,</subfield>
 		<subfield code="d">1906-</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Dīwān /</subfield>
 		<subfield code="c">Kamāl Naṣrat ; qaddama lahu Ibrāhīm al-Wāʼilī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Baghdād :</subfield>
 		<subfield code="b">Maṭbaʻat Dār al-Baṣrī,</subfield>
 		<subfield code="c">[1968]</subfield>
@@ -58,6 +61,10 @@
 		<subfield code="d">2017.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">Poetry.</subfield>
+		<subfield code="2">lcgft</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -66,6 +73,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="6">880-04</subfield>
 		<subfield code="i">Online version:</subfield>
 		<subfield code="a">Naṣrat, Kamāl, 1906-</subfield>
 		<subfield code="t">Dīwān.</subfield>
@@ -82,6 +90,30 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/jsxkst9c</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">نصرة، كمال،</subfield>
+		<subfield code="d">1906-</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">ديوان /</subfield>
+		<subfield code="c">كمال نصرة ؛ قدم له ابراهيم الوائلي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">بغداد :</subfield>
+		<subfield code="b">مطبعة دار البصري،</subfield>
+		<subfield code="c">[1968]</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="880">
+		<subfield code="6">776-04/r</subfield>
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">نصرة، كمال، 1906</subfield>
+		<subfield code="t">ديوان.</subfield>
+		<subfield code="d">بغداد : مطبعة دار البصري، [1968]</subfield>
+		<subfield code="w">(ل)701151603</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -95,5 +127,6 @@
 		<subfield code="o">(OCoLC)ocm32365617</subfield>
 		<subfield code="s">columbia_aco002696</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002696</subfield>
 	</datafield>
 </record>

@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171105s1968    iq a    o     000 0 araod</controlfield>
+	<controlfield tag="008">171205s1968    iq a    o     000 0 araod</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -13,18 +13,21 @@
 		<subfield code="c">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
-		<subfield code="a">PJ7850</subfield>
-		<subfield code="b">.M9624 B4</subfield>
+		<subfield code="a">PJ7850.M9624</subfield>
+		<subfield code="b">B4 1968</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Murād, Ḥāzim.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Bayt al-dhikrayāt :</subfield>
 		<subfield code="b">riwāyah /</subfield>
 		<subfield code="c">taʼlīf Ḥāzim Murād.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">[Baghdād] :</subfield>
 		<subfield code="b">[Maktab al-Muthanná li-Tawzīʻ al-Maṭbūʻāt],</subfield>
 		<subfield code="c">[1968]</subfield>
@@ -63,6 +66,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="6">880-04</subfield>
 		<subfield code="i">Online version:</subfield>
 		<subfield code="a">Murād, Ḥāzim.</subfield>
 		<subfield code="t">Bayt al-dhikrayāt.</subfield>
@@ -79,6 +83,30 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/v41ns75g</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">مراد، حازم.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">بيت الذكريات :</subfield>
+		<subfield code="b">رواية /</subfield>
+		<subfield code="c">تأليف حازم مراد.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[بغداد] :</subfield>
+		<subfield code="b">[مكتب المثنى لتوزيع المطبوعات]،</subfield>
+		<subfield code="c">[1968]</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="880">
+		<subfield code="6">776-04/r</subfield>
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">مراد، حازم.</subfield>
+		<subfield code="t">بيت الذكريات.</subfield>
+		<subfield code="d">[بغداد : مكتب المثنى لتوزيع المطبوعات، 1968]</subfield>
+		<subfield code="w">(ل)583894630</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -92,5 +120,6 @@
 		<subfield code="o">(OCoLC)ocm23514176</subfield>
 		<subfield code="s">columbia_aco002719</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002719</subfield>
 	</datafield>
 </record>
