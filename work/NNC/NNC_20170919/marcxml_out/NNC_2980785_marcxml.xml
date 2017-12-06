@@ -5,33 +5,31 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171105s1969    iq      ob    000 0 arar </controlfield>
+	<controlfield tag="008">171205s1969    iq      ob    000 0 arar </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">(3</subfield>
-	</datafield>
 	<datafield ind1="0" ind2="0" tag="050">
 		<subfield code="a">PJ7741.I186</subfield>
 		<subfield code="b">A6 1969</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ibn Harmah, Ibrāhīm ibn ʻAlī,</subfield>
 		<subfield code="d">709-792 or 793.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="6">880-01</subfield>
-		<subfield code="a">Dīwān.</subfield>
-		<subfield code="c">Ibrāhīm ibn Harmah. Taḥqīq Muḥammad Jabbār al-Muʻaybid.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Dīwān Ibrāhīm ibn Harmah /</subfield>
+		<subfield code="c">Taḥqīq Muḥammad Jabbār al-Muʻaybid.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">880-02</subfield>
-		<subfield code="a">[Baghdād],</subfield>
-		<subfield code="b">[Maktabat al-Andalus]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Baghdād :</subfield>
+		<subfield code="b">Maktabat al-Andalus,</subfield>
 		<subfield code="c">1969.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -63,9 +61,9 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-03</subfield>
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Muʻaybid, Muḥammad Jabbār,</subfield>
-		<subfield code="e">editor.</subfield>
+		<subfield code="e">editor. </subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
@@ -75,6 +73,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="6">880-05</subfield>
 		<subfield code="i">Online version:</subfield>
 		<subfield code="a">Ibn Harmah, Ibrāhīm ibn ʻAlī, 709-792 or 3.</subfield>
 		<subfield code="t">Dīwān.</subfield>
@@ -84,7 +83,7 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Ibn Harmah, Ibrāhīm ibn ʻAlī, 709-792 or 793.</subfield>
-		<subfield code="t">Dīwān</subfield>
+		<subfield code="t">Dīwān Ibrāhīm ibn Harmah</subfield>
 		<subfield code="w">(NNC)2980785</subfield>
 		<subfield code="w">(DLC)   70232299 </subfield>
 		<subfield code="w">(OCoLC)8228102</subfield>
@@ -92,21 +91,34 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/9kd51jds</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">ابن هرمة، ابراهيم بن علي، </subfield>
+		<subfield code="d">709-792 or 793.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-01/(3/r</subfield>
-		<subfield code="a">ديوان.</subfield>
-		<subfield code="c">إبراهيم بن هرمة. تحقيق محمد جبار المعيبد.</subfield>
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">ديوان ابراهيم بن هرمة /</subfield>
+		<subfield code="c">تحقيق محمد جبار المعيبد.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-02/(3/r</subfield>
-		<subfield code="a">[بغداد،</subfield>
-		<subfield code="b">مكتبة الأندلس]</subfield>
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">بغداد :</subfield>
+		<subfield code="b">مكتبة الاندلس،</subfield>
 		<subfield code="c">1969.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-03/(3/r</subfield>
-		<subfield code="a">المعيبد، محمد جبار،,</subfield>
-		<subfield code="e">editor.</subfield>
+		<subfield code="6">700-04/r</subfield>
+		<subfield code="a">معيبد، محمد جبار،</subfield>
+		<subfield code="e">editor. </subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="880">
+		<subfield code="6">776-05/r</subfield>
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">ابن هرمة، ابراهيم بن علي، 709-792 or 3. .</subfield>
+		<subfield code="t">ديوان.</subfield>
+		<subfield code="d">[بغداد، مكتبة الاندلس] 1969</subfield>
+		<subfield code="w">(ل)569432918</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -121,5 +133,6 @@
 		<subfield code="o">(OCoLC)ocm08228102</subfield>
 		<subfield code="s">columbia_aco002604</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002604</subfield>
 	</datafield>
 </record>

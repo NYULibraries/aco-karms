@@ -5,15 +5,12 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171105s1970    iq h    ob    000 0 arar </controlfield>
+	<controlfield tag="008">171205s1970    iq h    ob    000 0 arar </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">(3</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="050">
 		<subfield code="a">PJ6123</subfield>
@@ -92,6 +89,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="6">880-06</subfield>
 		<subfield code="i">Online version:</subfield>
 		<subfield code="a">Hītī, ʻAbd Allāh ibn ʻAlī, approximately 1413-1486.</subfield>
 		<subfield code="t">ʻUmdah.</subfield>
@@ -111,29 +109,38 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/vdnck0bh</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
-		<subfield code="a">هيتي، عبد الله بن علي،,</subfield>
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">هيتي، عبد الله بن علي،</subfield>
 		<subfield code="d">approximately 1413-1486.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">العمدة :</subfield>
 		<subfield code="b">رسالة في الخط والقلم /</subfield>
 		<subfield code="c">تصنيف عبد الله بن علي الهيتي ؛ حققه وقدم له هلال ناجي.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-03/(3/r</subfield>
+		<subfield code="6">250-03/r</subfield>
 		<subfield code="a">الطبعة 1.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-04/(3/r</subfield>
+		<subfield code="6">260-04/r</subfield>
 		<subfield code="a">بغداد :</subfield>
 		<subfield code="b">مطبعة المعارف،</subfield>
 		<subfield code="c">1970.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-05/(3/r</subfield>
+		<subfield code="6">700-05/r</subfield>
 		<subfield code="a">ناجي، هلال.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="880">
+		<subfield code="6">776-06/r</subfield>
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">هيتي، عبد الله بن علي، approximately 1413-1486.</subfield>
+		<subfield code="t">عمدة.</subfield>
+		<subfield code="b">الطبعة 1.</subfield>
+		<subfield code="d">بغداد : مطبعة المعارف، 1970</subfield>
+		<subfield code="w">(ل)586670753</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -148,5 +155,6 @@
 		<subfield code="o">(OCoLC)ocm20384452</subfield>
 		<subfield code="s">columbia_aco002625</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002625</subfield>
 	</datafield>
 </record>

@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171105s1930    xx      o     000 0 ara d</controlfield>
+	<controlfield tag="008">171205s1930    xx      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,12 +17,19 @@
 		<subfield code="b">.B32 Z5 M28</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Manṣōr, Ḥusayn.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Manṣūr, Ḥusayn.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Bashshār ibn Burd.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Bashshār ibn Burd :</subfield>
+		<subfield code="b">bayna al-jidd wa-al-majnūn /</subfield>
+		<subfield code="c">bi-qalam Ḥusayn Manṣūr, ustādh fī al-adab.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">al-Maṭbaʻah al-Raḥmānīyah,</subfield>
 		<subfield code="c">1930.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -41,6 +48,9 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Non-Latin script record</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -51,6 +61,7 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Bashshār ibn Burd,</subfield>
 		<subfield code="d">-783 or 784.</subfield>
 	</datafield>
@@ -69,13 +80,34 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Manṣōr, Ḥusayn.</subfield>
+		<subfield code="a">Manṣūr, Ḥusayn.</subfield>
 		<subfield code="t">Bashshār ibn Burd</subfield>
 		<subfield code="w">(NNC)2980757</subfield>
 		<subfield code="w">(OCoLC)23508609</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/sf7m0jt0</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">منصور، حسين.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">بشار بن برد :</subfield>
+		<subfield code="b">بين الجد والمجنون /</subfield>
+		<subfield code="c">بقلم حسين منصور، استاذ في الادب.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">المطبعة الرحمانية،</subfield>
+		<subfield code="c">1930.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">600-04/r</subfield>
+		<subfield code="a">بشار بن برد،</subfield>
+		<subfield code="d">-783 or 784.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -90,5 +122,6 @@
 		<subfield code="o">(OCoLC)ocm23508609</subfield>
 		<subfield code="s">columbia_aco002646</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002646</subfield>
 	</datafield>
 </record>

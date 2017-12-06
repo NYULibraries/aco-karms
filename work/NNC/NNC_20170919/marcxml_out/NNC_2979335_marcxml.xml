@@ -5,29 +5,33 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171105s1899    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">171205s1899    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="4" tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">PJ6121</subfield>
-		<subfield code="b">.D54</subfield>
+		<subfield code="b">.D54 1899</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Dimyāṭī, Aḥmad ibn Muḥammad,</subfield>
 		<subfield code="d">-1705.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Kitāb Ithāf fuḍalāʼ al-bashar fī al-qirāʼāt al-arbaʻat ʻashar /</subfield>
 		<subfield code="c">Aḥmad ibn Muḥammad ibn Aḥmad ibn Muḥammad ibn ʻAbd al-Ghanī al-Dimyātī al-shahīr bi al-Bannāʼ.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="246">
-		<subfield code="a">Itḥāf fudalāʼ al-bashar fī al-qirāʼāt al-arbaʻat ʻashar</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Itḥāf fuḍalāʼ al-bashar fī al-qirāʼāt al-arbaʻat ʻashar</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Miṣr :</subfield>
 		<subfield code="b">al-Maṭbaʻah al-Maymanīyah,</subfield>
 		<subfield code="c">1317 [1899]</subfield>
@@ -78,6 +82,26 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/3xsj414d</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">دمياطي، احمد بن محمد،</subfield>
+		<subfield code="d">-1705.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">كتاب اثحاف فضلاء البشر في القراءات الاربعة عشر /</subfield>
+		<subfield code="c">احمد بن محمد بن احمد بن محمد بن عبد الغني الدمياطي الشهير بالبناء.</subfield>
+	</datafield>
+	<datafield ind1="3" ind2="0" tag="880">
+		<subfield code="6">246-03/r</subfield>
+		<subfield code="a">اتحاف فضلاء البشر في القراءات الاربعة عشر</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/r</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">المطبعة الميمنية،</subfield>
+		<subfield code="c">1317 [1899]</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -91,5 +115,6 @@
 		<subfield code="o">(OCoLC)ocm46239561</subfield>
 		<subfield code="s">columbia_aco002623</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002623</subfield>
 	</datafield>
 </record>

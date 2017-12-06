@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171105m19569999iq      o     000 0 arard</controlfield>
+	<controlfield tag="008">171205m19569999iq      o     000 0 arard</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -20,12 +20,15 @@
 		<subfield code="a">Wahhābī, Khaldūn.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Marājiʻ tarājim al-udabāʼ al-ʻArab.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Marājiʻ tarājim al-udabāʹ al-ʻArab /</subfield>
+		<subfield code="c">[taʹlīf] Khaldūn al-Wahhābī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Baghdād,</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Baghdād :</subfield>
 		<subfield code="b">Maṭbaʻat Shafīq,</subfield>
-		<subfield code="c">[1956-]</subfield>
+		<subfield code="c">[1956]-</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (volumes)</subfield>
@@ -77,6 +80,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="6">880-03</subfield>
 		<subfield code="i">Online version:</subfield>
 		<subfield code="a">Wahhābī, Khaldūn.</subfield>
 		<subfield code="t">Marājiʻ tarājim al-udabāʼ al-ʻArab.</subfield>
@@ -86,12 +90,31 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Wahhābī, Khaldūn.</subfield>
-		<subfield code="t">Marājiʻ tarājim al-udabāʼ al-ʻArab</subfield>
+		<subfield code="t">Marājiʻ tarājim al-udabāʹ al-ʻArab</subfield>
 		<subfield code="w">(NNC)2579642</subfield>
 		<subfield code="w">(OCoLC)23486638</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/fttdz5k6</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-01/r</subfield>
+		<subfield code="a">مراجع تراجم الأدبا العرب /</subfield>
+		<subfield code="c">[تليف] خلدون الوهابي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-02/r</subfield>
+		<subfield code="a">بغداد :</subfield>
+		<subfield code="b">مطبعة شفيق،</subfield>
+		<subfield code="c">[1956]-</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="880">
+		<subfield code="6">776-03/r</subfield>
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">وهابي، خلدون.</subfield>
+		<subfield code="t">مراجع تراجم الأدباء العرب.</subfield>
+		<subfield code="d">بغداد، مطبعة شفيق، [1956]</subfield>
+		<subfield code="w">(ل)560287278</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -109,5 +132,9 @@
 		<subfield code="s">columbia_aco002724:v.3</subfield>
 		<subfield code="s">columbia_aco002725:v.4</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002722:v.1</subfield>
+		<subfield code="s">columbia_aco002723:v.2</subfield>
+		<subfield code="s">columbia_aco002724:v.3</subfield>
+		<subfield code="s">columbia_aco002725:v.4</subfield>
 	</datafield>
 </record>

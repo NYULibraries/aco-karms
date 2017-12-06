@@ -5,15 +5,12 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171105s1908    le      obd   001 0 ara d</controlfield>
+	<controlfield tag="008">171205s1908    le      obd   001 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">(3</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">PJ6670</subfield>
@@ -38,10 +35,11 @@
 		<subfield code="c">taʼlīf al-Sayyid Addī Shīr.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Alfāẓ al-Fārisīyah al-muʻarrabah</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">880-04</subfield>
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Bayrūt :</subfield>
 		<subfield code="b">Al-Maṭbaʻah al-Kāthūlīkīyah lil-Abāʼ al-Yasūʻīyīn,</subfield>
 		<subfield code="c">1908.</subfield>
@@ -144,6 +142,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="6">880-06</subfield>
 		<subfield code="i">Online version:</subfield>
 		<subfield code="a">Scher, Addai, 1867-1916.</subfield>
 		<subfield code="s">Alfāẓ al-Fārisīyah al-muʻarrabah.</subfield>
@@ -162,24 +161,37 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/rfj6qbjp</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
-		<subfield code="a">شير، أدي،,</subfield>
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">شير، أدي،</subfield>
 		<subfield code="d">1867-1916.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">240-02/(3/r</subfield>
+		<subfield code="6">240-02/r</subfield>
 		<subfield code="a">الفاظ الفارسية المعربة</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-03/(3/r</subfield>
+		<subfield code="6">245-03/r</subfield>
 		<subfield code="a">كتاب الالفاظ الفارسية المعربة /</subfield>
 		<subfield code="c">تأليف السيد ادي شير.</subfield>
 	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">246-04/r</subfield>
+		<subfield code="a">الفاظ الفارسية المعربة</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-04/(3/r</subfield>
+		<subfield code="6">260-05/r</subfield>
 		<subfield code="a">بيروت :</subfield>
 		<subfield code="b">المطبعة الكاثوليكية للاباء اليسوعيين،</subfield>
 		<subfield code="c">1908.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="880">
+		<subfield code="6">776-06/r</subfield>
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">Scher, Addai، 1867-1916.</subfield>
+		<subfield code="s">الفاظ الفارسية المعربة.</subfield>
+		<subfield code="t">كتاب الالفاظ الفارسية المعربة.</subfield>
+		<subfield code="d">بيروت : المطبعة الكاثوليكية للاباء اليسوعيين، 1908</subfield>
+		<subfield code="w">(ل)551617261</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -194,5 +206,6 @@
 		<subfield code="o">(OCoLC)ocm31085102</subfield>
 		<subfield code="s">columbia_aco002657</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002657</subfield>
 	</datafield>
 </record>

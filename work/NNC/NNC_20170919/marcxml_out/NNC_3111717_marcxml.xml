@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171105s1929    ua ach  o     000 0 arard</controlfield>
+	<controlfield tag="008">171205s1929    ua ach  o     000 0 arard</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -14,19 +14,22 @@
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">PJ6063</subfield>
-		<subfield code="b">.G9</subfield>
+		<subfield code="b">.G9 1929</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Gyra, Joseph.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Gyra, Joseph. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Tārīkh dirāsat al-lughah al-ʻArabīyah bi-Ūrūbbā :</subfield>
 		<subfield code="b">wa-fīhi baḥth wāfin ʻan mabdaʼ ẓuhūrihā wa-yatanāwalu al-baḥth ʻan tarājim baʻḍ mashāhīr al-mustashriqīn wa-muʼallafātihim qadīman wa-ḥadīthan /</subfield>
 		<subfield code="c">taʼlīf Yūsuf Jīrā.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">[Cairo] :</subfield>
-		<subfield code="b">[publisher not identified],</subfield>
+		<subfield code="b"> J. Gyra,</subfield>
 		<subfield code="c">[1929]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -80,6 +83,22 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/41ns1xwc</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">يوسف، جيرا. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">تاريخ دراسة اللغة العربية باوروبا :</subfield>
+		<subfield code="b">وفيه بحث واف عن مبدأ ظهورها ويتناول البحث عن تراجم بعض مشاهير المستشرقين ومؤلفاتهم قديما وحديثا /</subfield>
+		<subfield code="c">تأليف يوسف جيرا.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">ي. جيرا،</subfield>
+		<subfield code="c">[1929]</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -93,5 +112,6 @@
 		<subfield code="o">(OCoLC)ocm40971573</subfield>
 		<subfield code="s">columbia_aco002475</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002475</subfield>
 	</datafield>
 </record>

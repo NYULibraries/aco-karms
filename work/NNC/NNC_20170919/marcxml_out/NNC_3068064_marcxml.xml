@@ -5,18 +5,19 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171105s1908    ae      ob    001 0caraod</controlfield>
+	<controlfield tag="008">171205s1908    ae      ob    001 0caraod</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">(3</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">f-ae---</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DT299.T55</subfield>
+		<subfield code="b">I37 1908</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">410.65</subfield>
@@ -145,6 +146,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="6">880-05</subfield>
 		<subfield code="i">Online version:</subfield>
 		<subfield code="a">Ibn Maryam al-Sharīf al-Malītī al-Madyūnī al-Tilimsānī, Muḥammad ibn Muḥammad ibn Aḥmad, 17th cent.</subfield>
 		<subfield code="t">Bustān fī dhikr al-awliyāʼ wa-al-ʻulamāʼ bi-Tilimsān.</subfield>
@@ -162,24 +164,32 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/j6q578x6</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
-		<subfield code="a">إبن مريم الشريف المليتي المديوني التلمساني، محمد بن محمد بن أحمد،,</subfield>
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">إبن مريم الشريف المليتي المديوني التلمساني، محمد بن محمد بن أحمد،</subfield>
 		<subfield code="d">active 17th century.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">البستان في ذكر الأولياء والعلماء بتلمسان /</subfield>
 		<subfield code="c">تأليف أبي عبد الله محمد بن محمد بن أحمد، الملقب بإبن مريم الشريف المليفي المديوني التلمساني ؛ وقف على طبعه واعتنى بمراجعة أصله محمد بن أبي شنب.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-03/(3/r</subfield>
+		<subfield code="6">260-03/r</subfield>
 		<subfield code="a">الجزائر :</subfield>
 		<subfield code="b">المطبعة الثعالبية،</subfield>
 		<subfield code="c">1908.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-04/(3/r</subfield>
+		<subfield code="6">700-04/r</subfield>
 		<subfield code="a">إبن أبي شنب، محمد.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="880">
+		<subfield code="6">776-05/r</subfield>
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">ابن مريم الشريف المليتي المديوني التلساني، محمد بن محمد بن احمد، 17ث نت.</subfield>
+		<subfield code="t">بستان في ذكر الاولاء والعلماء بتلسان.</subfield>
+		<subfield code="d">الجزائر : المطبعة الثعالية، 1908</subfield>
+		<subfield code="w">(ل)767852834</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -194,5 +204,6 @@
 		<subfield code="o">(OCoLC)ocm22950895</subfield>
 		<subfield code="s">columbia_aco002565</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco002565</subfield>
 	</datafield>
 </record>

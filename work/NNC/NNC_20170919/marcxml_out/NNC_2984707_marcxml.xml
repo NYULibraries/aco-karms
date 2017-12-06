@@ -5,15 +5,12 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171105s1910    iq      o     000 0 ara d</controlfield>
+	<controlfield tag="008">171205s1910    iq      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">(3</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="4" tag="050">
 		<subfield code="a">PJ6697</subfield>
@@ -25,13 +22,16 @@
 		<subfield code="d">969 or 970-1016.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Majāzāt al-Nabawīyah</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Kitāb 'al-Majāzāt al-Nabawīyah' /</subfield>
 		<subfield code="c">lil-Sharīf al-Mūsawī al-Sayyid al-Raḍī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">[Baghdād] :</subfield>
 		<subfield code="b">Maṭbaʻat al-Ādāb,</subfield>
 		<subfield code="c">[1328 h., 1910 m.]</subfield>
@@ -95,8 +95,24 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/zkh18ggg</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
-		<subfield code="a">شريف الرضي، محمد بن الحسين.</subfield>
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">شريف الرضي، محمد بن الحسين، </subfield>
+		<subfield code="d">969 or 970-1016</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">240-02/r</subfield>
+		<subfield code="a">مجازات النبوية</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-03/r</subfield>
+		<subfield code="a">كتاب 'لمجازات النبوية' /</subfield>
+		<subfield code="c">للشريف الموسوي السيد الرضي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04/r</subfield>
+		<subfield code="a">[بغداد] :</subfield>
+		<subfield code="b">مطبعة الاداب،</subfield>
+		<subfield code="c">[1328 ه.، 1910 م.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -111,5 +127,6 @@
 		<subfield code="o">(OCoLC)ocm46323184</subfield>
 		<subfield code="s">columbia_aco002799</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002799</subfield>
 	</datafield>
 </record>

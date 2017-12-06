@@ -5,25 +5,32 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171105m19381947ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">171205m19381947ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">QL41</subfield>
+		<subfield code="b">.J3 1938</subfield>
+	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Jāḥiẓ,</subfield>
 		<subfield code="d">-868 or 869.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Kitāb al-Ḥayawān,</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb al-Ḥayawān /</subfield>
 		<subfield code="c">bi taḥqīq wa sharḥ ʻAbd al-Salām Muḥammad Hārūn.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Miṣr,</subfield>
-		<subfield code="b">Maṭb. Muṣṭafā al-Bābī al-Ḥalabī</subfield>
-		<subfield code="c">[1357-66 A.H., 1938-1947 A.D.]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Maṭbʻat Muṣṭafá al-Bābī al-Ḥalabī,</subfield>
+		<subfield code="c">[1357-1366 A.H., 1938-1947 A.D.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (7 volumes)</subfield>
@@ -66,8 +73,9 @@
 		<subfield code="0">(OCoLC)fst01411636</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Hārūn, ʻAbd al-Salām Muḥammad,</subfield>
-		<subfield code="e">editor.</subfield>
+		<subfield code="e">editor. </subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
@@ -86,6 +94,26 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/b2rbp523</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">جاحظ، </subfield>
+		<subfield code="d">-868 or 869.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">كتاب الحيوان /</subfield>
+		<subfield code="c">بتحقيق و شرح عبد السلام محمد هارون.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مطبعة مصطفى البابي الحلبي،</subfield>
+		<subfield code="c">[1357-1366 ا.ه.، 1938-1947 ا.د.]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-04/r</subfield>
+		<subfield code="a">هارون، عبد السلام محمد. </subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -102,5 +130,9 @@
 		<subfield code="s">columbia_aco002728:v.6</subfield>
 		<subfield code="s">columbia_aco002729:v.7</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco002726:v.4</subfield>
+		<subfield code="s">columbia_aco002727:v.5</subfield>
+		<subfield code="s">columbia_aco002728:v.6</subfield>
+		<subfield code="s">columbia_aco002729:v.7</subfield>
 	</datafield>
 </record>

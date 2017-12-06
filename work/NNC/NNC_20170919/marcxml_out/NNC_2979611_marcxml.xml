@@ -5,15 +5,12 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171105s1968    iq a    ob    000 0 arar </controlfield>
+	<controlfield tag="008">171205s1968    iq a    ob    000 0 arar </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">(3</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="050">
 		<subfield code="a">PJ6171</subfield>
@@ -24,6 +21,7 @@
 		<subfield code="a">Rāḍī, ʻAbd al-Ḥamīd.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Sharḥ Tuḥfat al-khalīl fī al-ʻarūḍ wa-al-qāfiyah /</subfield>
 		<subfield code="c">taʼlīf ʻAbd al-Ḥamīd Rāḍī.</subfield>
 	</datafield>
@@ -32,7 +30,7 @@
 		<subfield code="a">Sharh tuhfat al-khalil fi al-arud wa al-qafiya</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">880-02</subfield>
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Baghdād :</subfield>
 		<subfield code="b">Maṭbaʻat al-ʻĀnī,</subfield>
 		<subfield code="c">1968.</subfield>
@@ -82,7 +80,7 @@
 		<subfield code="0">(OCoLC)fst00812458</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-03</subfield>
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Kayshawān, Muḥammad Ḥusayn ibn Kāẓim,</subfield>
 		<subfield code="d">1878-1937 or 1938.</subfield>
 		<subfield code="t">Tuḥfat al-khalīl fī al-ʻarūḍ wa-al-qāfiyah.</subfield>
@@ -95,6 +93,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="6">880-05</subfield>
 		<subfield code="i">Online version:</subfield>
 		<subfield code="a">Rāḍī, ʻAbd al-Ḥamīd.</subfield>
 		<subfield code="t">Sharḥ Tuḥfat al-khalīl fī al-ʻarūḍ wa-al-qāfiyah.</subfield>
@@ -113,20 +112,33 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/qnk98zv7</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01/r</subfield>
 		<subfield code="a">راضي، عبد الحميد.</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">شرح تحفة الخليل في العروض والقافية /</subfield>
+		<subfield code="c">تأليف عبد الحميد راضي.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-02/(3/r</subfield>
-		<subfield code="a">بغداد،</subfield>
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">بغداد :</subfield>
 		<subfield code="b">مطبعة العاني،</subfield>
 		<subfield code="c">1968.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-03/(3/r</subfield>
-		<subfield code="a">كيشوان، محمد حسين بن كاظم،,</subfield>
+		<subfield code="6">700-04/r</subfield>
+		<subfield code="a">كيشوان، محمد حسين بن كاظم،</subfield>
 		<subfield code="d">1878-1937 أو 8.</subfield>
 		<subfield code="t">تحفة الخليل في العروض والقافية.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="880">
+		<subfield code="6">776-05/r</subfield>
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">راضي، عبد الحميد.</subfield>
+		<subfield code="t">شرح تحفة الخليل في العروض والقافية.</subfield>
+		<subfield code="d">بغداد، مطبعة العاني، 1968</subfield>
+		<subfield code="w">(ل)580922757</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -141,5 +153,6 @@
 		<subfield code="o">(OCoLC)ocm21614836</subfield>
 		<subfield code="s">columbia_aco002626</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002626</subfield>
 	</datafield>
 </record>
