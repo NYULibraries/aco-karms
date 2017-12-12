@@ -1,0 +1,24 @@
+Records containing SERIES errors - batch NNC_20171019
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2017-12-11 19:28:12.261150
+---------------------------------------------------------------------
+FILE: NNC_20171019_1/NNC_20171019_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: NNC_5367672
+   orig_rec_035 num: =035  \\$a(OCoLC)ocm17721279
+   orig_rec_035 num: =035  \\$a(NNC)5367672
+Record 999:  NNC_5367672
+ERROR-880: 880 script fields: NO
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+040 $e field: [none]
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002946
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNC_20171019_1/NNC_20171019_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 1
+

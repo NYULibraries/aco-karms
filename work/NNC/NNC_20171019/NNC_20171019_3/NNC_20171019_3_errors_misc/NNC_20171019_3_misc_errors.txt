@@ -1,0 +1,529 @@
+Records containing MISCELLANEOUS errors - batch NNC_20171019
+--  Each of these records contain at least one of the miscellaneous errors
+    recorded mostly for notice of validation errors or to identify programming issues
+--  List of possible miscellaneous errors:
+    --  the OCLC # in the OCLC batch record did not match on any OCLC #s in the original records
+    --  record contains multiple 999 fields
+    --  zero or multiple $6 subfields in 880s
+    --  record is missing an 040 field
+    --  record contains invalid replacement character (black diamond with question mark) - found in NYU records
+    --  code in the 003 does not match any of the partner institution codes
+    --  the 003/001 fields did not change from the OCLC # to the BSN during processing
+    --  the 003/001 fields in the handles.csv file did not match on any record in the batch
+    --  an 006 or 007 field is present in the original record (signifying an alternate format other than print)
+    --  record is missing a 245 title field, or has multiple 245 fields
+    --  a 245 $h GMD field is present in the original record (signifying an alternate format other than print)
+    --  the 245 $h GMD field was not added to a non-RDA e-version record during processing
+    --  the $6 subfield did not sort to the first position in the field - issue with NYU records
+    --  record is missing a call number - no 050 or 090 field
+Report produced: 2017-12-11 19:29:36.773029
+---------------------------------------------------------------------
+FILE: NNC_20171019_2_oclc_recs_batch.mrc
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm49870522
+   oclc_rec_035_num: (OCoLC)49870522
+Institution ID: NNC_3286637
+Record 999:  NNC_3286637 (OCoLC)ocm49870522
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003048:v.1
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm40579384
+   oclc_rec_035_num: (OCoLC)40579384
+Institution ID: NNC_10837639
+Record 999:  NNC_10837639 (OCoLC)ocm40579384
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003011:v.1
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm42914563
+   oclc_rec_035_num: (OCoLC)42914563
+Institution ID: NNC_2682220
+Record 999:  NNC_2682220 (OCoLC)ocm42914563
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003033
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm31928096
+   oclc_rec_035_num: (OCoLC)31928096
+Institution ID: NNC_3367902
+Record 999:  NNC_3367902 (OCoLC)ocm31928096
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003009:v.1-2
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm39991736
+   oclc_rec_035_num: (OCoLC)39991736
+Institution ID: NNC_5961383
+Record 999:  NNC_5961383 (OCoLC)ocm39991736
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Wizārat al-Thaqāfah wa-al-Irshād al-Qawmī. Mudīrīyat al-Taʼlīf wa-al-Tarjamah
+   260 - [Damascus] : [al-Fann al-Ḥadīth al-ʻĀlamī], [[1963]
+   490 - Silsilah al-Fannīyah ; 4
+   830 - Silsilah al-Fannīyah ; 4.
+ERROR-880: Unlinked 880s: YES
+   880 $6 260-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 490-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002962
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm40975813
+   oclc_rec_035_num: (OCoLC)40975813
+Institution ID: NNC_5367704
+Record 999:  NNC_5367704 (OCoLC)ocm40975813
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   490 - Silsilat al-kutub al-ḥadīthah ; 24
+ERROR-880: Unlinked 880s: YES
+   880 $6 490-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003030
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm26456397
+   oclc_rec_035_num: (OCoLC)26456397
+Institution ID: NNC_3068305
+Record 999:  NNC_3068305 (OCoLC)ocm26456397
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+ERROR-MISC: 007  hd bfa013baaa
+ERROR-MISC: 007  hd bfa013baba
+ERROR-MISC: 007  hd afa013baca
+Source entities (book IDs): columbia_aco002909:v.2, columbia_aco002910:v.3
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm74415559
+   oclc_rec_035_num: (OCoLC)74415559
+Institution ID: NNC_5967916
+Record 999:  NNC_5967916 (OCoLC)ocm74415559
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003043
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm41102108
+   oclc_rec_035_num: (OCoLC)41102108
+Institution ID: NNC_2678109
+Record 999:  NNC_2678109 (OCoLC)ocm41102108
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002936:v.1-2, columbia_aco002937:v.4-5
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm48193286
+   oclc_rec_035_num: (OCoLC)48193286
+Institution ID: NNC_3121130
+Record 999:  NNC_3121130 (OCoLC)ocm48193286
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002921:v.2, columbia_aco002922:v.3, columbia_aco002923:v.4, columbia_aco002924:v.6
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm31404622
+   oclc_rec_035_num: (OCoLC)31404622
+Institution ID: NNC_3071348
+Record 999:  NNC_3071348 (OCoLC)ocm31404622
+880 script fields: YES
+ERROR-880: Unlinked 880s: YES
+   880 $6 700-00/(3/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003015
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm45079367
+   oclc_rec_035_num: (OCoLC)45079367
+Institution ID: NNC_2684671
+Record 999:  NNC_2684671 (OCoLC)ocm45079367
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002981
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocn505759730
+   oclc_rec_035_num: (OCoLC)505759730
+Institution ID: NNC_2635076
+Record 999:  NNC_2635076 (OCoLC)ocn505759730
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Kitāb al-Jāmiʻ li-mufradāt al-adwiya wa-l-aghdhiya
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002999:v.1-2, columbia_aco003000:v.3-4
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm40972598
+   oclc_rec_035_num: (OCoLC)40972598
+   oclc_rec_035_num: (OCoLC)79571414
+Institution ID: NNC_5967905
+Record 999:  NNC_5967905 (OCoLC)ocm40972598
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - Dimashq : Wizārat al-Thaqāfah wa-al-Irshād al-Qawmī, Mudīrīyat al-Taʼlīf wa-al-Tarjamah, [1962]
+   490 - Silsilah al-qiṣaṣiyah ; 4
+ERROR-880: Unlinked 880s: YES
+   880 $6 260-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 490-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 830-00/(3/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Silsilah al-qiṣaṣiyah ; 4
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+020s: YES
+020a: 8987990478
+020s: YES
+020a: 9788987990477
+Source entities (book IDs): columbia_aco002969
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm45063636
+   oclc_rec_035_num: (OCoLC)45063636
+Institution ID: NNC_2677985
+Record 999:  NNC_2677985 (OCoLC)ocm45063636
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003056
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm47748477
+   oclc_rec_035_num: (OCoLC)47748477
+Institution ID: NNC_3063018
+Record 999:  NNC_3063018 (OCoLC)ocm47748477
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002913:v.2
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm45116681
+   oclc_rec_035_num: (OCoLC)45116681
+Institution ID: NNC_2695220
+Record 999:  NNC_2695220 (OCoLC)ocm45116681
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003034
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm45086590
+   oclc_rec_035_num: (OCoLC)45086590
+Institution ID: NNC_2686574
+Record 999:  NNC_2686574 (OCoLC)ocm45086590
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Added t.-p. in French: Historique de la Bibliothèque Nationale, par Ibrahim Maouad et Mounir Wéhaiba. 1948. (République libanaise. Ministère de l'education nationale et des beaux arts)
+   260 - [Bayrūt] : [Maṭābiʻ Jadʻūn], 1948.
+   490 - al-Jumhūrīyah al-Lubnānīyah. Manshūrāt Wizārat al-tarbīyah al-waṭanīyah wa-al-funūn al-jamīlah
+   830 - Manshūrāt Wizārat al-tarbīyah al-waṭanīyah wa-al-funūn al-jamīlah.
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003038
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm49705334
+   oclc_rec_035_num: (OCoLC)49705334
+Institution ID: NNC_3274769
+Record 999:  NNC_3274769 (OCoLC)ocm49705334
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003006:v.1, columbia_aco003007:v.2, columbia_aco003008:v.3
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm41099831
+   oclc_rec_035_num: (OCoLC)41099831
+Institution ID: NNC_3062885
+Record 999:  NNC_3062885 (OCoLC)ocm41099831
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003010
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm45063726
+   oclc_rec_035_num: (OCoLC)45063726
+Institution ID: NNC_2678065
+Record 999:  NNC_2678065 (OCoLC)ocm45063726
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - [al-Qāhirah], [Dār al-Hilāl], [1936]
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002990
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm45085792
+   oclc_rec_035_num: (OCoLC)45085792
+Institution ID: NNC_2686031
+Record 999:  NNC_2686031 (OCoLC)ocm45085792
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003052
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm74416989
+   oclc_rec_035_num: (OCoLC)74416989
+Institution ID: NNC_5967917
+Record 999:  NNC_5967917 (OCoLC)ocm74416989
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003044
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm48241113
+   oclc_rec_035_num: (OCoLC)48241113
+Institution ID: NNC_3131397
+Record 999:  NNC_3131397 (OCoLC)ocm48241113
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002905
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm45079458
+   oclc_rec_035_num: (OCoLC)45079458
+Institution ID: NNC_2684736
+Record 999:  NNC_2684736 (OCoLC)ocm45079458
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002988:v.1
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm74458490
+   oclc_rec_035_num: (OCoLC)74458490
+Institution ID: NNC_5967991
+Record 999:  NNC_5967991 (OCoLC)ocm74458490
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003040
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm45079353
+   oclc_rec_035_num: (OCoLC)45079353
+Institution ID: NNC_2684666
+Record 999:  NNC_2684666 (OCoLC)ocm45079353
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002982
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocn777083050
+   oclc_rec_035_num: (OCoLC)777083050
+Institution ID: NNC_3071692
+Record 999:  NNC_3071692 (OCoLC)ocn777083050
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - [Cairo?] : Maṭbaʻat al-Ādāb wa-al-Funūn, [19--?]
+   830 - Princeton University Arabic collection ; cn. 9201408.10.
+   830 - Princeton University Arabic collection. Title II-C.
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002917
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm45063583
+   oclc_rec_035_num: (OCoLC)45063583
+Institution ID: NNC_2677952
+Record 999:  NNC_2677952 (OCoLC)ocm45063583
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002995
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm45116643
+   oclc_rec_035_num: (OCoLC)45116643
+Institution ID: NNC_2695214
+Record 999:  NNC_2695214 (OCoLC)ocm45116643
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002956
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm31084986
+   oclc_rec_035_num: (OCoLC)31084986
+Institution ID: NNC_3076212
+Record 999:  NNC_3076212 (OCoLC)ocm31084986
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - [al-Qāhirah] : ʻIsá al-Bābī al-Ḥalabī wa-sharikāhu, 1945.
+   490 - Muʼallafāt al-Jamʻīyah al-Falsafīyah al-Miṣrīyah
+   830 - Muʼallafāt al-Jamʻīyah al-Falsafīyah al-Miṣrīyah.
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003005
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm73266674
+   oclc_rec_035_num: (OCoLC)73266674
+Institution ID: NNC_5960978
+Record 999:  NNC_5960978 (OCoLC)ocm73266674
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003041
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm45249610
+   oclc_rec_035_num: (OCoLC)45249610
+   oclc_rec_035_num: (OCoLC)82452177
+Institution ID: NNC_2733000
+Record 999:  NNC_2733000 (OCoLC)ocm45249610
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002929
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm84287766
+   oclc_rec_035_num: (OCoLC)84287766
+Institution ID: NNC_2677978
+Record 999:  NNC_2677978 (OCoLC)ocm84287766
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002993
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm44211257
+   oclc_rec_035_num: (OCoLC)44211257
+Institution ID: NNC_2677970
+Record 999:  NNC_2677970 (OCoLC)ocm44211257
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002994
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm47865846
+   oclc_rec_035_num: (OCoLC)47865846
+Institution ID: NNC_3076972
+Record 999:  NNC_3076972 (OCoLC)ocm47865846
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003019:v.1, columbia_aco003020:v.2
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm45129586
+   oclc_rec_035_num: (OCoLC)45129586
+Institution ID: NNC_2697660
+Record 999:  NNC_2697660 (OCoLC)ocm45129586
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003045
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocn933572923
+   oclc_rec_035_num: (OCoLC)933572923
+Institution ID: NNC_3122351
+Record 999:  NNC_3122351 (OCoLC)ocn933572923
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003017
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm78745777
+   oclc_rec_035_num: (OCoLC)78745777
+Institution ID: NNC_2678783
+Record 999:  NNC_2678783 (OCoLC)ocm78745777
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - [Dimashq], [al-Maktab al-ṣuḥufī fi Riʼāsat al-arkān al-ʻāmma], [195-?]
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002975
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm45072994
+   oclc_rec_035_num: (OCoLC)45072994
+Institution ID: NNC_2683144
+Record 999:  NNC_2683144 (OCoLC)ocm45072994
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003051
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm33924729
+   oclc_rec_035_num: (OCoLC)33924729
+Institution ID: NNC_5367714
+Record 999:  NNC_5367714 (OCoLC)ocm33924729
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - Āl Saʻīd, Shākir Ḥasan, 1928-
+   260 - Baghdād : al-Muʼassasah al-ʻĀmmah lil-Ṣaḥāfah wa-al-Ṭibāʻah, 1969.
+ERROR-880: Unlinked 880s: YES
+   880 $6 100-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 260-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002950
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm85067581
+   oclc_rec_035_num: (OCoLC)85067581
+Institution ID: NNC_2678073
+Record 999:  NNC_2678073 (OCoLC)ocm85067581
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003023
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm41100818
+   oclc_rec_035_num: (OCoLC)41100818
+Institution ID: NNC_3068062
+Record 999:  NNC_3068062 (OCoLC)ocm41100818
+ERROR-880: 880 script fields: NO
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco002901
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm74418780
+   oclc_rec_035_num: (OCoLC)74418780
+Institution ID: NNC_5967921
+Record 999:  NNC_5967921 (OCoLC)ocm74418780
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   100 - Cane, Philip.
+   260 - Dimashq, [1963]
+   490 - Syria. Mudīrīyat al-Ta︡līf wa-al-Tarjamah. Silsilat tabsīṭ al-︠ulūm. v. 2
+   810 - Ayria. Mudīrīyat al-Ta︡līf wa-al-Tarjamah. Silsilat tabsīṭ al-︠ulūm ; v. 2.
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003042
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNC_20171019_1/NNC_20171019_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing miscellaneous errors: 44
+
