@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <collection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd" xmlns="http://www.loc.gov/MARC21/slim">
 <record>
-  <leader>01646cam a2200385Ia 4500</leader>
+  <leader>01657cam a2200385Ia 4500</leader>
   <controlfield tag="001">3128110</controlfield>
   <controlfield tag="003">NNC</controlfield>
-  <controlfield tag="005">20140516141008.0</controlfield>
+  <controlfield tag="005">20151019143211.0</controlfield>
   <controlfield tag="008">011102s1928    ua       b    000 0 arard</controlfield>
+  <datafield tag="019" ind1=" " ind2=" ">
+    <subfield code="a">122811659</subfield>
+  </datafield>
   <datafield tag="035" ind1=" " ind2=" ">
     <subfield code="9">ATW1926CU</subfield>
   </datafield>
   <datafield tag="035" ind1=" " ind2=" ">
     <subfield code="a">(OCoLC)ocm17504482</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(OCoLC)17504482</subfield>
+    <subfield code="z">(OCoLC)122811659</subfield>
+  </datafield>
+  <datafield tag="035" ind1=" " ind2=" ">
+    <subfield code="a">(NNC)3128110</subfield>
   </datafield>
   <datafield tag="040" ind1=" " ind2=" ">
     <subfield code="a">WAU</subfield>
@@ -24,31 +34,21 @@
     <subfield code="d">OCLCQ</subfield>
     <subfield code="d">OCLCF</subfield>
   </datafield>
-  <datafield tag="019" ind1=" " ind2=" ">
-    <subfield code="a">122811659</subfield>
-  </datafield>
-  <datafield tag="035" ind1=" " ind2=" ">
-    <subfield code="a">(OCoLC)17504482</subfield>
-    <subfield code="z">(OCoLC)122811659</subfield>
-  </datafield>
   <datafield tag="050" ind1=" " ind2="4">
     <subfield code="a">B746</subfield>
     <subfield code="b">1928</subfield>
-  </datafield>
-  <datafield tag="049" ind1=" " ind2=" ">
-    <subfield code="a">ZCUA</subfield>
   </datafield>
   <datafield tag="110" ind1="2" ind2=" ">
     <subfield code="6">880-01</subfield>
     <subfield code="a">Ikhwān al-Ṣafāʼ.</subfield>
   </datafield>
   <datafield tag="245" ind1="1" ind2="0">
-    <subfield code="a">Rasaʼil Ikhwān al-Safāʼ /</subfield>
+    <subfield code="a">Rasāʼil Ikhwān al-Safāʼ /</subfield>
     <subfield code="c">ʻAnī bi-taṣḥīḥah Khayr al-Dīn al-Ziriklī.</subfield>
   </datafield>
   <datafield tag="260" ind1=" " ind2=" ">
     <subfield code="a">[Cairo] :</subfield>
-    <subfield code="b">al-Matbaʻah al-ʻArabiyah,</subfield>
+    <subfield code="b">al-Maṭbaʻah al-ʻArabīyah,</subfield>
     <subfield code="c">1928.</subfield>
   </datafield>
   <datafield tag="300" ind1=" " ind2=" ">
@@ -119,10 +119,10 @@
     <subfield code="a">زركلي، خير الدين.</subfield>
   </datafield>
   <datafield tag="955" ind1=" " ind2=" ">
-    <subfield code="b">CU13133071</subfield>
+    <subfield code="b">CU12473154</subfield>
     <subfield code="d">off,glx</subfield>
     <subfield code="e">893.7991 Ik4</subfield>
-    <subfield code="v">v.1-2</subfield>
+    <subfield code="v">v.3-4</subfield>
   </datafield>
 </record>
 </collection>
