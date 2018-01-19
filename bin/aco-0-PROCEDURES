@@ -88,6 +88,6 @@ Procedures for processing MARC files for ACO:
 	1) Retrieve the updates file from the shared ACO folder on the Box drive: BoxSync/ACO-QC-Files - it should be named in the pattern "[BATCH NAME]_3_updates.mrc"  -->  NNC_20170109_3_updates.mrc
 	2) Copy the updates file into the folder in the batch that has the suffix "_3"
 	3) Repeat Steps 1-4 above, Skip Steps 5-6, and Repeat Steps 7-12
-    4) In Step 8, if there are NO more valid errors that need to be fixed, assign the Jira ticket to Joe P. letting him know that the QC process is complete and he can start on the next steps of publishing
+    	4) In Step 8, if there are NO more valid errors that need to be fixed, assign the Jira ticket to Joe P. letting him know that the QC process is complete and he can start on the next steps of publishing
 	5) In Step 11 you will add "- FINAL SET" to the end of the git commit message
 	6) In the queue table, set the Cataloging Status to "Done" and change the Owner to "N/A"
