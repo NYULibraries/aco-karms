@@ -21,7 +21,6 @@ prev_processed = os.path.exists(aco_globals.batch_folder+'/'+batch_name+'_3')
 
 input_files = {}
 if not prev_processed or inst_code == 'NNU':
-	aco_globals.set_auto_error = 'True'
 	# Get INPUT FILES from folder 'batch_name_1'
 	input_folder = aco_globals.batch_folder+'/'+batch_name+'_1'
 	
@@ -42,6 +41,19 @@ if not prev_processed or inst_code == 'NNU':
 		marcRecsIn_oclc_batch = pymarc.MARCReader(file(aco_globals.batch_folder+'/'+batch_name+'_2_oclc_recs_batch.mrc'), to_unicode=True, force_utf8=True)
 		input_files['oclc_batch'] = [marcRecsIn_oclc_batch, batch_name+'_2_oclc_recs_batch.mrc', 'oclc']
 	except: marcRecsIn_oclc_batch = ''
+		
+	## retreive the OCLC records from the MANUAL process - OBSOLETE?  These would be records manually found in OCLC Connexion for original records lacking OCLC nums 
+	#try:	marcRecsIn_oclc_manual = pymarc.MARCReader(file(aco_globals.batch_folder+'/'+inst_code+'_'+batch_date+'_3_oclc_recs_manual.mrc'), to_unicode=True, force_utf8=True)
+	#except:	marcRecsIn_oclc_manual = ''
+	## compile the list of 001s/003s and OCLC nums for the OCLC MANUAL records
+	#try:
+	#	oclc_nums_bsns_manual = open(aco_globals.batch_folder+'/'+inst_code+'_'+batch_date+'_3_oclc_nums_bsns_manual.txt', 'r')	# opens the txt file containing the 001s, 003s, and corresponding OCLC nums (read-only)
+	#	oclc_nums_bsns_manual_lines = oclc_nums_bsns_manual.readlines()	# read the txt file containing 001/003 and corresponding OCLC numbers
+	#	for line in oclc_nums_bsns_manual_lines:
+	#		aco_globals.oclc_nums_bsns_all.append(line)
+	#	oclc_nums_bsns_manual.close()
+	#except:
+	#	oclc_nums_bsns_manual_lines = ''
 
 else:
 	# Get INPUT FILES from folder 'batch_name_3'
@@ -108,7 +120,6 @@ aco_globals.recs_errors_all_txt.write('    --  missing a key 880 field\n')
 aco_globals.recs_errors_all_txt.write('    --  have an unlinked 880 field\n')
 aco_globals.recs_errors_all_txt.write('    --  have a series heading error in the 490/800/810/811/830 fields\n')
 aco_globals.recs_errors_all_txt.write('    --  have one of the various miscellaneous errors, marked with ERROR-MISC\n')
-aco_globals.recs_errors_all_txt.write('    --  missing a call number - no 050 or 090 field\n')
 aco_globals.recs_errors_all_txt.write('Report produced: '+aco_globals.curr_time+'\n')
 
 all_recs_analysis_txt = codecs.open(output_folder+'/'+batch_name+'_3_all_recs_analysis.txt', 'w', encoding='utf8')
@@ -143,8 +154,6 @@ for file_type in input_files:
 	write_filename(filename)
 	rec_count_file = 0
 	for mrc_rec in mrc_file:
-		mrc_rec_001 = mrc_rec.get_fields('001')[0]
-		print mrc_rec_001
 		dup_rec = aco_functions.process_rec(mrc_rec, rec_type)
 		if not dup_rec:
 			rec_count_file +=1
@@ -172,7 +181,6 @@ perc_unlinked_880s = aco_functions.calculate_percentage(aco_globals.recs_unlinke
 perc_series_errors = aco_functions.calculate_percentage(aco_globals.recs_series_errors_count,rec_count_tot)
 perc_misc_errors = aco_functions.calculate_percentage(aco_globals.recs_misc_errors_count,rec_count_tot)
 perc_rda = aco_functions.calculate_percentage(aco_globals.recs_rda_count,rec_count_tot)
-perc_no_call_num = aco_functions.calculate_percentage(aco_globals.recs_no_call_num_count,rec_count_tot)
 
 aco_globals.all_recs_analysis_msg += 'Records where OCLC nums did not match: '+str(aco_globals.recs_no_oclc_match_count)+'\n'
 aco_globals.all_recs_analysis_msg += 'Total records containing any type of error for this round: '+str(aco_globals.recs_errors_all_count)+' ('+perc_errors_all+'%)\n'
@@ -186,7 +194,6 @@ aco_globals.all_recs_analysis_msg += 'Records containing series errors in 490/80
 aco_globals.all_recs_analysis_msg += 'Records containing miscellaneous errors: '+str(aco_globals.recs_misc_errors_count)+' ('+perc_misc_errors+'%)\n'
 aco_globals.all_recs_analysis_msg += 'Records containing bad encoding replacement character: '+str(aco_globals.recs_repl_char_count)+'\n'
 aco_globals.all_recs_analysis_msg += 'Records containing RDA fields: '+str(aco_globals.recs_rda_count)+' ('+perc_rda+'%)\n'
-aco_globals.all_recs_analysis_msg += 'Records with NO 050 or 090 call number fields: '+str(aco_globals.recs_no_call_num_count)+' ('+perc_no_call_num+'%)\n'
 aco_globals.all_recs_analysis_msg += '---------------------------------------------------------------------\nINDIVIDUAL RECORDS ANALYSIS:\n---------------------------------------------------------------------\n'
 
 all_recs_analysis_txt.write(aco_globals.all_recs_analysis_msg)

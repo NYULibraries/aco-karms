@@ -9,8 +9,6 @@ batch_folder = work_folder
 handles_lines = ''			# variable to contain the lines from the CSV file containing the 003/001 values and corresponding URL handle
 bsn_se_lines = ''			# variable to contain the lines from the CSV file containing the BSNs and SE (source entity) values
 
-set_auto_error = ''			# variable to automatically set the record as having an error so all recs get checked in 1st round of QC
-
 indiv_rec_analysis_msgs = ''	# variable to compile all individual analysis messages for all records
 all_recs_analysis_msg = ''		# variable to collect record analysis messages, statistics, etc.
 
@@ -30,7 +28,6 @@ recs_series_errors_count = 0		# total records having series errors for 490 + 800
 recs_misc_errors_count = 0			# total records having miscellaneous errors (unrelated to 880 fields)
 recs_repl_char_count = 0			# total records containing the bad encoding replacement character
 recs_rda_count = 0					# total records having RDA 3XX or 040e fields
-recs_no_call_num_count = 0			# total records missing an LC call number - no 050 or 090 field
 
 
 # OUTPUT FILES from aco_process scripts

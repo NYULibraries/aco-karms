@@ -198,8 +198,7 @@ def check_for_unlinked_880s(rec):
 			msg += 'ERROR-MISC: There are either zero or multiple subfield $6s in this 880: '+rec_880+'\n'
 		else:
 			rec_880_6 = rec_880_6s[0]
-			if rec_880_6[4:6]=='00' and not rec_880_6[0:1]=='5':	# don't include unlinked 880s for 5XX fields in error report
-			#if rec_880_6[4:6]=='00':
+			if rec_880_6[4:6]=='00':
 				unlinked_880s_exist = True
 				msg_unlnkd_880_6s += '   880 $6 '+rec_880_6+' - '
 				rec_880_pf = rec_880_6[0:3]				# get the corresponding parallel MARC field tag
@@ -363,43 +362,6 @@ def check_if_rda(rec):
 	return (rda_rec, msg)
 
 ######################################################################
-##  Method:  check_if_call_num()
-##  -  check if record has 050 or 090 field with LC call number
-######################################################################
-def check_if_call_num(rec):
-	msg = ''
-	no_call_num = False
-	rec_050s = rec.get_fields('050')
-	if len(rec_050s)==0:
-		rec_090s = rec.get_fields('090')
-		if len(rec_090s)==0:
-			no_call_num = True
-			msg += 'ERROR-MISC: No 050 or 090 call number\n'
-		else:
-			if len(rec_090s[0].get_subfields('a')) > 0:
-				rec_090_a = rec_090s[0].get_subfields('a')[0]
-			else:
-				rec_090_a = ''
-			if len(rec_090s[0].get_subfields('b')) > 0:
-				rec_090_b = rec_090s[0].get_subfields('b')[0]
-			else:
-				rec_090_b = ''
-			msg += '090 call number: '+rec_090_a+' '+rec_090_b+'\n'
-	else:
-		if len(rec_050s[0].get_subfields('a')) > 0:
-			rec_050_a = rec_050s[0].get_subfields('a')[0]
-		else:
-			rec_050_a = ''
-		if len(rec_050s[0].get_subfields('b')) > 0:
-			rec_050_b = rec_050s[0].get_subfields('b')[0]
-		else:
-			rec_050_b = ''
-		msg += '050 call number: '+rec_050_a+' '+rec_050_b+'\n'
-	
-	return (no_call_num, msg)
-
-
-######################################################################
 ##  Method:  check_repl_char()
 ##  -  check if record has bad encoding replacement character - u"\uFFFD"
 ##     (i.e., black diamond with question mark in the center)
@@ -557,9 +519,9 @@ def convert_2_eres_rec(rec, rda_rec):
 	else:
 		cat_lang = 'eng'
 	if rda_rec:
-		new_040 = Field(tag='040', indicators=[' ',' '], subfields=['a','ZYU','b',cat_lang,'e','rda','c','ZYU'])
+		new_040 = Field(tag='040', indicators=[' ',' '], subfields=['a','NNU','b',cat_lang,'e','rda','c','NNU'])
 	else:
-		new_040 = Field(tag='040', indicators=[' ',' '], subfields=['a','ZYU','b',cat_lang,'c','ZYU'])
+		new_040 = Field(tag='040', indicators=[' ',' '], subfields=['a','NNU','b',cat_lang,'c','NNU'])
 	rec.add_ordered_field(new_040)
 	
 	# correct the 041 language code field when multiple codes exist in the same subfield
@@ -983,7 +945,6 @@ def insert_src_entities(rec, bsn_se_lines):
 			se_IDs_list = se_IDs.split('|')
 			for se_ID in se_IDs_list:
 				se_ID = se_ID.strip()
-				se_ID = se_ID.replace("'",'')
 				rec.get_fields('999')[0].add_subfield('s', se_ID)
 				msg += se_ID + ', '
 			msg = msg.rstrip(', ')
@@ -1055,44 +1016,37 @@ def process_rec(rec, type):
 		rda_rec, msg_5 = check_if_rda(rec)
 		indiv_rec_analysis_msg += msg_5
 		if rda_rec:
-			aco_globals.recs_rda_count += 1
-		
-		################################################
-		# Check if record lacks an LC call number - no 050 or 090 field
-		no_call_num, msg_6 = check_if_call_num(rec)
-		indiv_rec_analysis_msg += msg_6
-		if no_call_num:
-			aco_globals.recs_no_call_num_count += 1
+			aco_globals.recs_rda_count += 1	
 		
 		################################################
 		# Check if record contains bad encoding script character (black diamond around question-mark)
 		# Evidenced by presence of Python source code u"\uFFFD" (See: http://www.fileformat.info/info/unicode/char/0fffd/index.htm)
-		repl_char, msg_7 = check_repl_char(rec)
-		indiv_rec_analysis_msg += msg_7
+		repl_char, msg_6 = check_repl_char(rec)
+		indiv_rec_analysis_msg += msg_6
 		if repl_char:
 			aco_globals.recs_repl_char_count += 1
 		
 		################################################
 		# Add/Delete/Modify MARC fields in print record to convert to an e-resource record
-		rec, msg_8 = convert_2_eres_rec(rec, rda_rec)
-		indiv_rec_analysis_msg += msg_8
+		rec, msg_7 = convert_2_eres_rec(rec, rda_rec)
+		indiv_rec_analysis_msg += msg_7
 		
 		################################################
 		# Sort any $6 subfields that do not appear first in the field
 		rec = sort_6_subs(rec)
 		
-		rec, msg_9 = second_sort_6_check(rec)
-		indiv_rec_analysis_msg += msg_9
+		rec, msg_8 = second_sort_6_check(rec)
+		indiv_rec_analysis_msg += msg_8
 				
 		################################################
 		# Match the 001/003 fields and insert the corresponding URL handle in an 856 field
-		rec, msg_10 = insert_url(rec, aco_globals.handles_lines)
-		indiv_rec_analysis_msg += msg_10
+		rec, msg_9 = insert_url(rec, aco_globals.handles_lines)
+		indiv_rec_analysis_msg += msg_9
 		
 		################################################
 		# Match the BSNs and insert the corresponding SE (source entity) book IDs into the 999 field
-		rec, msg_11 = insert_src_entities(rec, aco_globals.bsn_se_lines)
-		indiv_rec_analysis_msg += msg_11
+		rec, msg_10 = insert_src_entities(rec, aco_globals.bsn_se_lines)
+		indiv_rec_analysis_msg += msg_10
 		
 		################################################
 		# Change LDR values
@@ -1100,9 +1054,7 @@ def process_rec(rec, type):
 		ldr[5] = 'n'
 		ldr[6] = 'a'
 		ldr[7] = 'm'
-		ldr[9] = 'a'
-		ldr[17] = 'M'
-		ldr[18] = 'i'
+		#ldr[9] = 'a'
 		rec.leader = ''.join(ldr)
 		
 		################################################
@@ -1121,6 +1073,17 @@ def process_rec(rec, type):
 					rec_orig.get_fields('999')[0].delete_subfield('e')
 			add_999e = True
 		
+# 		rec_999s = rec.get_fields('999')
+# 		if len(rec_999s) == 0:
+# 			indiv_rec_analysis_msg += 'ERROR-MISC: The 999 field did not get added to the converted record during processing\n'
+# 		elif len(rec_999s) > 1:
+# 			indiv_rec_analysis_msg += 'ERROR-MISC: Converted record contains multiple 999 fields\n'
+# 		elif len(rec_999s) == 1:
+# 			if len(rec.get_fields('999')[0].get_subfields('e')) > 0:
+# 				for rec_999e in rec.get_fields('999')[0].get_subfields('e'):
+# 					rec.get_fields('999')[0].delete_subfield('e')
+# 			add_999e = True
+		
 		if add_999e:
 			error_types = ''
 			if 'ERROR-880' in indiv_rec_analysis_msg:
@@ -1138,16 +1101,26 @@ def process_rec(rec, type):
 		# Write out ERROR message and MARC records depending on status
 		if no_880_rec:
 			aco_globals.recs_no_880s_count += 1
+			aco_globals.marcRecsOut_no_880s.write(rec_orig)
+			aco_globals.recs_no_880s_txt.write(indiv_rec_analysis_msg)
 		if missing_key_880_rec:
 			aco_globals.recs_missing_key_880s_count += 1
+			aco_globals.marcRecsOut_missing_key_880s.write(rec_orig)
+			aco_globals.recs_missing_key_880s_txt.write(indiv_rec_analysis_msg)
 		if unlinked_880_rec:
 			aco_globals.recs_unlinked_880s_count += 1
+			aco_globals.marcRecsOut_unlinked_880s.write(rec_orig)
+			aco_globals.recs_unlinked_880s_txt.write(indiv_rec_analysis_msg)
 		if 'ERROR-SERIES' in indiv_rec_analysis_msg:
 			aco_globals.recs_series_errors_count += 1
+			aco_globals.marcRecsOut_series_errors.write(rec_orig)
+			aco_globals.recs_series_errors_txt.write(indiv_rec_analysis_msg)
 		if 'ERROR-MISC' in indiv_rec_analysis_msg:
 			aco_globals.recs_misc_errors_count += 1
+			aco_globals.marcRecsOut_misc_errors.write(rec_orig)
+			aco_globals.recs_misc_errors_txt.write(indiv_rec_analysis_msg)
 		
-		if 'ERROR' in indiv_rec_analysis_msg or aco_globals.set_auto_error:
+		if 'ERROR' in indiv_rec_analysis_msg:
 			aco_globals.recs_errors_all_count += 1
 			aco_globals.marcRecsOut_errors_all.write(rec_orig)
 			aco_globals.recs_errors_all_txt.write(indiv_rec_analysis_msg)
