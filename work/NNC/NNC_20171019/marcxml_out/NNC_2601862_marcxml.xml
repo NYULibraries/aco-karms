@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171211s1969    iq      o    l000 0 ara d</controlfield>
+	<controlfield tag="008">180119s1969    iq      o    l000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,14 +17,18 @@
 		<subfield code="b">.B352</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="110">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Jāmiʻat Baghdād.</subfield>
 		<subfield code="b">al-Maktabah al-Markazīyah.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Bibliyoghrāfīyah al-mujammiʻah al-ʻIrāqīyah khilāl 1963-1967.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Baghdad,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Baghdād :</subfield>
+		<subfield code="b">al-Maktabah al-Markaziyah li-Jāmiʻat Baghdād,</subfield>
 		<subfield code="c">1969.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -52,8 +56,12 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2017.</subfield>
+		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="a">Iraq</subfield>
+		<subfield code="v"> Bibliography. </subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
@@ -72,6 +80,21 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/x69p8kf2</subfield>
 	</datafield>
+	<datafield ind1="2" ind2=" " tag="880">
+		<subfield code="6">110-01/r</subfield>
+		<subfield code="a">جامعة بغداد.</subfield>
+		<subfield code="b">المكتبة المركزية.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">الببلوغرافية المجمعة العراقية خلال 1963-1967.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">بغداد :</subfield>
+		<subfield code="b">المكتبة المركزية لجامعة بغداد،</subfield>
+		<subfield code="c">1969.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -85,5 +108,6 @@
 		<subfield code="o">(OCoLC)ocm44659841</subfield>
 		<subfield code="s">columbia_aco002808</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002808</subfield>
 	</datafield>
 </record>

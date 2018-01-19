@@ -5,27 +5,30 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171211s1932    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">180119s1932    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="4" tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">PJ7745.J3</subfield>
-		<subfield code="b">H3</subfield>
+		<subfield code="b">H3 1932</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Jāḥiẓ,</subfield>
 		<subfield code="d">-868 or 869.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Ḥanīn ilā al-awtān,</subfield>
-		<subfield code="c">li Abī ʻUthmān ʻAmr ibn Baḥr al-Jāḥiz, ṣaḥhaḥạ aslahā waʻallaqa ḥawāshiyahā al-shaykh Ṫāhir al-Jazāʼirī.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Ḥanīn ilá al-awṭān /</subfield>
+		<subfield code="c">li-Abī ʻUthmān ʻAmr ibn Baḥr al-Jāḥiẓ, ṣaḥhaḥạ aṣlahā waʻallaqa ḥawāshiyahā al-shaykh Ṭāhir al-Jazāʼirī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">al-Qāhirah,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
 		<subfield code="b">al-Maktabah al-Salafīyah,</subfield>
 		<subfield code="c">1351 [1932]</subfield>
 	</datafield>
@@ -51,11 +54,16 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2017.</subfield>
+		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Nostalgia.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">Jazāʼirī, Ṭāhir,</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Jazāʼirī, Ṭāhir ibn Ṣāliḥ,</subfield>
+		<subfield code="d">1851 or 1852-1919 or 1920,</subfield>
 		<subfield code="e">editor.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -68,12 +76,34 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Jāḥiẓ, -868 or 869.</subfield>
-		<subfield code="t">al-Ḥanīn ilā al-awtān</subfield>
+		<subfield code="t">al-Ḥanīn ilá al-awṭān</subfield>
 		<subfield code="w">(NNC)2981388</subfield>
 		<subfield code="w">(OCoLC)46313022</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/3bk3jgvn</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">جاحظ،</subfield>
+		<subfield code="d">-868 or 869.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">الحنين الى الأوطان /</subfield>
+		<subfield code="c">لأبي عثمان عمرو بن بحر الجاحظ، صحح اصلها وعلق حواشيها الشيخ طاهر الجزائري.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">المكتبة السلفية،</subfield>
+		<subfield code="c">1351 [1932]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-04/r</subfield>
+		<subfield code="a">جزائري، طاهر بن صالح،</subfield>
+		<subfield code="d">1851 or 1852-1919 or 1920،</subfield>
+		<subfield code="e">editor.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -88,5 +118,6 @@
 		<subfield code="o">(OCoLC)ocm46313022</subfield>
 		<subfield code="s">columbia_aco003078</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003078</subfield>
 	</datafield>
 </record>

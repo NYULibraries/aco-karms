@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171211m19241952ua      o     000 0 arard</controlfield>
+	<controlfield tag="008">180119m19241952ua      o     000 0 arard</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,15 +17,19 @@
 		<subfield code="b">Z72</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ibn Manẓūr, Muḥammad ibn Mukarram,</subfield>
 		<subfield code="d">1232-1311 or 1312.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Akhbār Abī Nuwās,</subfield>
-		<subfield code="c">taʼlīf Ibn Manzūr.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Akhbār Abī Nuwās :</subfield>
+		<subfield code="b">tārīkhuhu, nawādiruhu, shiʻruhu, mujūnuh /</subfield>
+		<subfield code="c">sharaḥahu wa-ḍabaṭahu Muḥammad ʻAbd al-Rasūl Ibrāhīm ; ʻuniya bi-jamʻihi wa-nashrihi ʻAbbās al-Shirbīnī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Miṣr,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[Cairo] :</subfield>
 		<subfield code="b">Maṭbaʻat al-Iʻtimād,</subfield>
 		<subfield code="c">1924-1952.</subfield>
 	</datafield>
@@ -54,13 +58,16 @@
 		<subfield code="a">Title varies.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Non-Latin script record</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2017.</subfield>
+		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
@@ -72,6 +79,14 @@
 		<subfield code="d">approximately 756-approximately 810</subfield>
 		<subfield code="2">fast</subfield>
 		<subfield code="0">(OCoLC)fst01803251</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Ibrāhīm, Muḥammad ʻAbd al-Rasūl.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Shirbīnī, ʻAbbās.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
@@ -90,6 +105,31 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/zkh18ghq</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">ابن منظور، محمد بن مكرم،</subfield>
+		<subfield code="d">1232-1311 or 1312.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">أخبار أبي نواس :</subfield>
+		<subfield code="b">تاريخه، نوادره، شعره، مجونه /</subfield>
+		<subfield code="c">شرحه وضبطه محمد عبد الرسول إبراهيم ؛ عني بجمعه ونشره عباس الشربيني.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">مطبعة الاعتماد،</subfield>
+		<subfield code="c">1924-1952.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-04/r</subfield>
+		<subfield code="a">ابراهيم، محمد عبد الرسول.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-05/r</subfield>
+		<subfield code="a">شربيني، عباس.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -103,5 +143,6 @@
 		<subfield code="o">(OCoLC)ocm19387187</subfield>
 		<subfield code="s">columbia_aco002914:v.1</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002914:v.1</subfield>
 	</datafield>
 </record>

@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171211s1962    sy a    ob    000 0 arard</controlfield>
+	<controlfield tag="008">180119s1962    sy a    ob    000 0 arard</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -14,16 +14,19 @@
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">TL793</subfield>
-		<subfield code="b">.S26</subfield>
+		<subfield code="b">.S26 1962</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Sammān, Wajīh.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Sammān, Wajīh. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Ṣawārīkh wa-al-aqmār al-ṣanʻīyah /</subfield>
 		<subfield code="c">taʼlīf Wajīh al-Sammān.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">[Damascus] :</subfield>
 		<subfield code="b">Maktabat Aṭlas,</subfield>
 		<subfield code="c">[1962]</subfield>
@@ -45,6 +48,7 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Silsilat tabsīṭ al-ʻulūm ;</subfield>
 		<subfield code="v">1</subfield>
 	</datafield>
@@ -61,7 +65,7 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2017.</subfield>
+		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
@@ -94,11 +98,37 @@
 		<subfield code="w">(OCoLC)45054983</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Silsilat tabsīṭ al-ʻulūm ;</subfield>
 		<subfield code="v">1.</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/kkwh766d</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">سمان، وجيه. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">الصواريخ والاقمار الصنعية /</subfield>
+		<subfield code="c">تأليف وجيه السمان.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[دمشق] :</subfield>
+		<subfield code="b">مكتبة اطلس،</subfield>
+		<subfield code="c">[1962]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">490-04/r</subfield>
+		<subfield code="a">سلسلة تبسيط العلوم ؛</subfield>
+		<subfield code="v">1</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">830-05/r</subfield>
+		<subfield code="a">سلسلة تبسيط العلوم ؛</subfield>
+		<subfield code="v">1.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -113,5 +143,6 @@
 		<subfield code="o">(OCoLC)ocm45054983</subfield>
 		<subfield code="s">columbia_aco002965</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002965</subfield>
 	</datafield>
 </record>

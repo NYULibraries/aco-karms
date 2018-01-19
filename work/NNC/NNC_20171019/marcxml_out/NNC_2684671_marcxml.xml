@@ -5,23 +5,30 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171211s1933    ua c    o     000 0 ara d</controlfield>
+	<controlfield tag="008">180119s1933    ua c    o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DT95</subfield>
+		<subfield code="b">.A88 1933</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ayyūbī, Ilyās.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Tārīkh Miṣr al-Islāmīyah min al-fatḥ al-ʻArabī sanata 640 m. ilā al-fatḥ al-ʻUthmānī sanata 1517 m.,</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Tārīkh Miṣr al-Islāmīyah min al-fatḥ al-ʻArabī sanata 640 m. ilā al-fatḥ al-ʻUthmānī sanata 1517 m. /</subfield>
 		<subfield code="c">taʼlīf al-ustādh Ilyās al-Ayyūbī. Dawlat al-ʻArab fī Miṣr min sanat 20 h. ilā sanat 254 h. [al-khilāfāt al-thalāth: al-Rāshidah wa-al-Umawīyah wa-al-ʻAbbāsīyah].</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[Miṣr],</subfield>
-		<subfield code="b">[Maṭb. al-Raghāyib]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Maṭbaʻat al-Raghāyib,</subfield>
 		<subfield code="c">[1933]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -47,8 +54,13 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2017.</subfield>
+		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Egypt</subfield>
+		<subfield code="x">History</subfield>
+		<subfield code="y">640-1882.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
@@ -67,6 +79,21 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/wh70s48c</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">ايوبي، الياس.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">تاريخ مصر الاسلامية من الفتح العربي سنة 640 م. الى الفتح العثماني سنة 1517 م. /</subfield>
+		<subfield code="c">تأليف الأستاذ الياس الأيوبي. دولة العرب في مصر من سنة 20 ه. الى سنة 254 ه. [الخلافات الثلاث: الراشدة والاموية والعباسية].</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مطبعة الرغايب،</subfield>
+		<subfield code="c">[1933]</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -80,5 +107,6 @@
 		<subfield code="o">(OCoLC)ocm45079367</subfield>
 		<subfield code="s">columbia_aco002981</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco002981</subfield>
 	</datafield>
 </record>

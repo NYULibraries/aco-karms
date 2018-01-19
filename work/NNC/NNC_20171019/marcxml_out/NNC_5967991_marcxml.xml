@@ -5,28 +5,35 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171211s1962    sy      o     000 0 ara d</controlfield>
+	<controlfield tag="008">180119s1962    sy      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PQ2003</subfield>
+		<subfield code="b">.F125 1962</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Marivaux, Pierre Carlet de Chamblain de,</subfield>
 		<subfield code="d">1688-1763.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Iʻtirāfāt al-kādhibah</subfield>
-		<subfield code="b">tarjamat Kafīq al-Ṣabbān.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Iʻtirāfāt al-kādhibah /</subfield>
+		<subfield code="c">tarjamat Rafīq al-Ṣabbān.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Dimashq,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Dimashq :</subfield>
 		<subfield code="b">Dār al-Fikr,</subfield>
 		<subfield code="c">1962.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (1 volume.)</subfield>
+		<subfield code="a">online resource (127 pages)</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">text</subfield>
@@ -41,8 +48,9 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
-		<subfield code="a">Syria. Mudīrīyat al-Ta︡līf wa-al-Tarjamah. al-Silsilah al-masraḥīyah.</subfield>
-		<subfield code="v">v.3</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Syria. Mudīrīyat al-Ta︡līf wa-al-Tarjamah. al-Silsilah al-masraḥīyah ;</subfield>
+		<subfield code="v">3</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
@@ -51,8 +59,12 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2017.</subfield>
+		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">Drama.</subfield>
+		<subfield code="2">lcgft</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
@@ -68,14 +80,41 @@
 		<subfield code="w">(NNC)5967991</subfield>
 		<subfield code="w">(OCoLC)74458490</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="810">
-		<subfield code="a">Syria.</subfield>
-		<subfield code="b">Mudīrīyat al-Ta︡līf wa-al-Tarjamah.</subfield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Syria. Mudīrīyat al-Ta︡līf wa-al-Tarjamah.</subfield>
 		<subfield code="t">Silsilah al-masraḥīyah ;</subfield>
-		<subfield code="v">v. 3.</subfield>
+		<subfield code="v">3.</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/rr4xh3rx</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">ماريفو، پير،</subfield>
+		<subfield code="d">1688-1763.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">الاعترافات الكاذبة /</subfield>
+		<subfield code="c">ترجمة رفيق الصبان.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">دمشق :</subfield>
+		<subfield code="b">دار الفكر،</subfield>
+		<subfield code="c">1962.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">490-04/r</subfield>
+		<subfield code="a">سوريا. مديرية التأليف والترجمة. السلسلة المسرحية ;</subfield>
+		<subfield code="v">3</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">830-05/r</subfield>
+		<subfield code="a">سوريا. مديرية التأليف والترجمة.</subfield>
+		<subfield code="t">سلسلة المسرحية ؛</subfield>
+		<subfield code="v">3.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -90,5 +129,6 @@
 		<subfield code="o">(OCoLC)ocm74458490</subfield>
 		<subfield code="s">columbia_aco003040</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003040</subfield>
 	</datafield>
 </record>

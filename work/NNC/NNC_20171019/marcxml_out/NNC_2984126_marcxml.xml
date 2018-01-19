@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171211m19361937xx      o     000 0 ara d</controlfield>
+	<controlfield tag="008">180119m19361937xx      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -16,15 +16,21 @@
 		<subfield code="a">BP130.4</subfield>
 		<subfield code="b">.I13 M98 1936</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="100">
-		<subfield code="a">Ibn Muṭarraf,</subfield>
-		<subfield code="d">997-1062.</subfield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Ibn Qutaybah, ʻAbd Allāh ibn Muslim,</subfield>
+		<subfield code="d">828-889?</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Qurtayn.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Qurṭayn -- li-Ibn Muṭrif al-Kinānī, aw, Kitābay mushkil al-Qurʼān wa-gharībih /</subfield>
+		<subfield code="c">li-Ibn Qutaybah.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="c">[1936/37]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Maktabat al-Khānjī,</subfield>
+		<subfield code="c">[1936]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (2 volumes in 1)</subfield>
@@ -48,7 +54,7 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2017.</subfield>
+		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="630">
@@ -65,9 +71,9 @@
 		<subfield code="2">fast</subfield>
 		<subfield code="0">(OCoLC)fst01423723</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="700">
-		<subfield code="a">Ibn Qutaybah,</subfield>
-		<subfield code="d">828-889?</subfield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Ibn Muṭrif al-Kinānī, Muḥammad ibn Aḥmad.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
@@ -85,13 +91,33 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Ibn Muṭarraf, 997-1062.</subfield>
-		<subfield code="t">al-Qurtayn</subfield>
+		<subfield code="a">Ibn Qutaybah, ʻAbd Allāh ibn Muslim, 828-889?</subfield>
+		<subfield code="t">al-Qurṭayn -- li-Ibn Muṭrif al-Kinānī, aw, Kitābay mushkil al-Qurʼān wa-gharībih</subfield>
 		<subfield code="w">(NNC)2984126</subfield>
 		<subfield code="w">(OCoLC)23488091</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/xd254dsc</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">ابن قتيبة، عبد الله بن مسلم،</subfield>
+		<subfield code="d">828-889؟</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">القرطين- لابن مطرف الكناني، او، كتابي مشكل القرآن وغريبه /</subfield>
+		<subfield code="c">لابن قتيبة.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مكتبة الخانجي،</subfield>
+		<subfield code="c">[1936]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-04/r</subfield>
+		<subfield code="a">ابن مطرف الكناني، محمد بن احمد.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -106,5 +132,6 @@
 		<subfield code="o">(OCoLC)ocm23488091</subfield>
 		<subfield code="s">columbia_aco003070</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003070</subfield>
 	</datafield>
 </record>

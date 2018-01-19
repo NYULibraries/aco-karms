@@ -5,22 +5,19 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171211s1851    le      o     000 0 ara d</controlfield>
+	<controlfield tag="008">180119s1851    le      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">(3</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">BS480</subfield>
 		<subfield code="b">.A73 1851</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Archibald, Alexander,</subfield>
+		<subfield code="a">Alexander, Archibald,</subfield>
 		<subfield code="d">1772-1851.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
@@ -29,7 +26,12 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">880-01</subfield>
-		<subfield code="a">[Dalīl al-sawāb ilá ṣidq al-kitāb].</subfield>
+		<subfield code="a">Dalīl al-ṣawāb ilá ṣidq al-kitāb /</subfield>
+		<subfield code="c">[tarjama bi-wāsiṭah Yūḥanā Wartabāt].</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Dalīl al-ṣawāb ilá ṣidq al-kitāb</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="a">[Beirut] :</subfield>
@@ -61,7 +63,7 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2017.</subfield>
+		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
@@ -96,6 +98,7 @@
 		<subfield code="0">(OCoLC)fst00821658</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Wortabet, John,</subfield>
 		<subfield code="d">1827-1908.</subfield>
 	</datafield>
@@ -111,8 +114,8 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Archibald, Alexander, 1772-1851.</subfield>
-		<subfield code="t">[Dalīl al-sawāb ilá ṣidq al-kitāb]</subfield>
+		<subfield code="a">Alexander, Archibald, 1772-1851.</subfield>
+		<subfield code="t">Dalīl al-ṣawāb ilá ṣidq al-kitāb</subfield>
 		<subfield code="w">(NNC)3238973</subfield>
 		<subfield code="w">(OCoLC)32961229</subfield>
 	</datafield>
@@ -120,18 +123,18 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/tqjq2j8d</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-01/(3/r</subfield>
-		<subfield code="a">دليل الصواب الى صدق الكتاب.</subfield>
+		<subfield code="6">245-01/r</subfield>
+		<subfield code="a">دليل الصواب الى صدق الكتاب /</subfield>
+		<subfield code="c">[ترجم بواسطة يوحنا ورتبات].</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="880">
-		<subfield code="6">246-00/(3/r</subfield>
+		<subfield code="6">246-02/r</subfield>
 		<subfield code="a">دليل الصواب على صدق الكتاب</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-00/(3/r</subfield>
-		<subfield code="a">بيروت :</subfield>
-		<subfield code="b">[د.ن.]،</subfield>
-		<subfield code="c">1851.</subfield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-03/r</subfield>
+		<subfield code="a">ورتبات، يوحنا،</subfield>
+		<subfield code="d">1827-1908.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -146,5 +149,6 @@
 		<subfield code="o">(OCoLC)ocm32961229</subfield>
 		<subfield code="s">columbia_aco003013</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003013</subfield>
 	</datafield>
 </record>

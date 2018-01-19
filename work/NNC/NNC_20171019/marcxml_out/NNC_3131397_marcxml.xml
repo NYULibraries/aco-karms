@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171211s1837    xx      o     000 0 ara d</controlfield>
+	<controlfield tag="008">180119s1837    xx      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -19,18 +19,26 @@
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">f-ua---</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">RS141.9.E3</subfield>
+		<subfield code="b">C46 1837</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Clot-Bey, A. B.</subfield>
 		<subfield code="q">(Antoine Barthélemy),</subfield>
 		<subfield code="d">1793-1868.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Dustar al-ʻamāl al-aḳrābādhīnīyat.</subfield>
-		<subfield code="c">[Compiled in French by the members of the Sanitary Council: A.B. Clot-Bey, and MM. Dibaggi and Dutouche; tr. into Arabic by Khwājā Yaʻḳūb].</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Dustūr al-aʻmāl al-aqrābādhīnīyah li-ḥukamāʼ al-diyār al-Miṣrīyah /</subfield>
+		<subfield code="c">A. B. Clot-Bey.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Bulak,</subfield>
-		<subfield code="c">1252 A.H. [1837 A.D.]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[al-Qāhirah] :</subfield>
+		<subfield code="b">[Maṭbaʻat Būlāq],</subfield>
+		<subfield code="c">[1837]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (126, 59 pages)</subfield>
@@ -54,7 +62,7 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2017.</subfield>
+		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
@@ -88,12 +96,29 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Clot-Bey, A. B. (Antoine Barthélemy), 1793-1868.</subfield>
-		<subfield code="t">Dustar al-ʻamāl al-aḳrābādhīnīyat</subfield>
+		<subfield code="t">Dustūr al-aʻmāl al-aqrābādhīnīyah li-ḥukamāʼ al-diyār al-Miṣrīyah</subfield>
 		<subfield code="w">(NNC)3131397</subfield>
 		<subfield code="w">(OCoLC)48241113</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/fj6q5dgs</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">لتبي، ا. ب.</subfield>
+		<subfield code="q">(Antoine Barthélemy),</subfield>
+		<subfield code="d">1793-1868.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">دستور الاعمال الاقراباذينية لحكماء الديار المصرية /</subfield>
+		<subfield code="c">ا. ب. لتبي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">[مطبعة بولاق]،</subfield>
+		<subfield code="c">[1837]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -108,5 +133,6 @@
 		<subfield code="o">(OCoLC)ocm48241113</subfield>
 		<subfield code="s">columbia_aco002905</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco002905</subfield>
 	</datafield>
 </record>

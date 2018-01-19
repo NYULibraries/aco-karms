@@ -5,17 +5,14 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171211s1911    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">180119s1911    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">(3</subfield>
-	</datafield>
-	<datafield ind1="1" ind2="4" tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">PJ7745</subfield>
 		<subfield code="b">.B8 1911</subfield>
 	</datafield>
@@ -24,14 +21,17 @@
 		<subfield code="a">Buḥturī, al-Walīd ibn ʻUbayd,</subfield>
 		<subfield code="d">approximately 821-897 or 898.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="240">
-		<subfield code="a">Poems</subfield>
-	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">880-02</subfield>
-		<subfield code="a">Dīwān al-Buḥturī.</subfield>
+		<subfield code="a">Dīwān al-Buḥturī /</subfield>
+		<subfield code="c">rattaba ʻAbd al-Raḥmān al-Barqūqī.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Ṭabʻah 1.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Miṣr :</subfield>
 		<subfield code="b">Maṭbaʻah Hindīyah,</subfield>
 		<subfield code="c">1911.</subfield>
@@ -58,8 +58,12 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2017.</subfield>
+		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">Poetry.</subfield>
+		<subfield code="2">lcgft</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
@@ -79,22 +83,23 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/59zw3xc1</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
-		<subfield code="a">بحتري، الوليد بن عبيد.</subfield>
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">بحتري، الوليد بن عبيد،</subfield>
+		<subfield code="d">approximately 821-897 or 898.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">ديوان البحتري /</subfield>
-		<subfield code="c">وقد رتب على حروف الهجاء وقوبل على نسخة ... ووقف على طبعه وضبطه وتصحيصه عبد الرحمن افندي البرقوقي.</subfield>
+		<subfield code="c"> عبد الرحمن  البرقوقي.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-00/(3/r</subfield>
+		<subfield code="6">250-03/r</subfield>
 		<subfield code="a">الطبعة 1.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-00/(3/r</subfield>
-		<subfield code="a">[القاهرة] :</subfield>
-		<subfield code="b">مطبعة هنديه،</subfield>
+		<subfield code="6">260-04/r</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مطبعة هندية،</subfield>
 		<subfield code="c">1911.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -110,5 +115,6 @@
 		<subfield code="o">(OCoLC)ocm46310462</subfield>
 		<subfield code="s">columbia_aco003076</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003076</subfield>
 	</datafield>
 </record>
