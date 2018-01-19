@@ -5,24 +5,31 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171211s1891    tu      o     000 0 ara d</controlfield>
+	<controlfield tag="008">180119s1891    tu      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">KBP144</subfield>
+		<subfield code="b">.I96 1891</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Izmīrī, Muḥammad ibn Walī,</subfield>
 		<subfield code="d">-1751 or 1752.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Ḥāshiyat ʼal-fāḍil ʼal-ʼIzmīrī ʻalá ʼal-Mirʼāt.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Ḥāshiyat al-fāḍil al-Izmīrī ʻalá al-Mirʼāt.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Qusṭanṭīnīyah :</subfield>
-		<subfield code="b">Sharikat ʼal-Ṣaḥāfīyah ʼal-ʻUthmānīyah</subfield>
-		<subfield code="f">(Dār ʼal-Ṭibāʻah ʼal-ʻĀmirah),</subfield>
+		<subfield code="b">Sharikat al-Ṣaḥāfīyah al-ʻUthmānīyah</subfield>
+		<subfield code="f">(Dār al-Ṭibāʻah al-ʻĀmirah),</subfield>
 		<subfield code="c">1309 [1891]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -47,14 +54,15 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2017.</subfield>
+		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Hüsrev,</subfield>
 		<subfield code="c">Molla,</subfield>
 		<subfield code="d">-1480.</subfield>
-		<subfield code="t">Mirʼāt ʼal-ʼuṣūl.</subfield>
+		<subfield code="t">Mirʼāt al-uṣūl. </subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">Islamic law.</subfield>
@@ -69,12 +77,35 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Izmīrī, Muḥammad ibn Walī, -1751 or 1752.</subfield>
-		<subfield code="t">Ḥāshiyat ʼal-fāḍil ʼal-ʼIzmīrī ʻalá ʼal-Mirʼāt</subfield>
+		<subfield code="t">Ḥāshiyat al-fāḍil al-Izmīrī ʻalá al-Mirʼāt</subfield>
 		<subfield code="w">(NNC)10837639</subfield>
 		<subfield code="w">(OCoLC)40579384</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/ncjsxs63</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">ازميري، محمد بن ولي، </subfield>
+		<subfield code="d">-1751 or 1752.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">حاشية الفاضل الازميري على المرآت.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">قسطنطينية :</subfield>
+		<subfield code="b">شركة الصحافية العثمانية</subfield>
+		<subfield code="f">(دار الطباعة العامره)،</subfield>
+		<subfield code="c">1309 [1891]</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">600-04/r</subfield>
+		<subfield code="a">خسرو</subfield>
+		<subfield code="c">ملا،</subfield>
+		<subfield code="d">-1480.</subfield>
+		<subfield code="t">مرآة الوصول. </subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -89,5 +120,6 @@
 		<subfield code="o">(OCoLC)ocm40579384</subfield>
 		<subfield code="s">columbia_aco003011:v.1</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003011:v.1</subfield>
 	</datafield>
 </record>

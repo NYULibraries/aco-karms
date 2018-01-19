@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171211s1964    iq      ob    000 0 araod</controlfield>
+	<controlfield tag="008">180119s1964    iq      ob    000 0 araod</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -14,17 +14,21 @@
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">JC585</subfield>
-		<subfield code="b">.K45</subfield>
+		<subfield code="b">.K45 1964</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Khāl, Ibrāhīm ʻAbd al-Raḥmān,</subfield>
 		<subfield code="d">1923-</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Ḥurrīyah,</subfield>
-		<subfield code="b">baḥth fikrī mūjaz fī tārīkhihā wa maṣīrihā.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Ḥurrīyah :</subfield>
+		<subfield code="b">baḥth fikrī mūjaz fī tārīkhihā wa maṣīrihā /</subfield>
+		<subfield code="c">Ibrāhīm al-Khāl.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Baghdād :</subfield>
 		<subfield code="b">Dār al-Jumhūrīyah lil-Ṭibāʻah wa-al-Nashr,</subfield>
 		<subfield code="c">1964.</subfield>
@@ -45,6 +49,7 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Silsilat al-Kutub al-Ḥadīthah;</subfield>
 		<subfield code="v">4</subfield>
 	</datafield>
@@ -61,7 +66,7 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2017.</subfield>
+		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
@@ -87,11 +92,39 @@
 		<subfield code="w">(OCoLC)35260468</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="a">Silsilat al-kutub al-ḥadīthah ;</subfield>
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Silsilat al-kutub al-ḥadīthah  (Iraq. Wizārat al-Thaqāfīyah  wa-al-Irshād) ;</subfield>
 		<subfield code="v">4.</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/n5tb2xqv</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">خال، ابراهيم عبد الرحمن،</subfield>
+		<subfield code="d">1923-</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">الحرية :</subfield>
+		<subfield code="b">بحث فكري موجز في تاريخها و مصيرها /</subfield>
+		<subfield code="c">ابراهيم الخال.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">بغداد :</subfield>
+		<subfield code="b">دار الجمهورية للطباعة والنشر،</subfield>
+		<subfield code="c">1964.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">490-04/r</subfield>
+		<subfield code="a">سلسلة الكتب الحديثه؛</subfield>
+		<subfield code="v">4</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">830-05/r</subfield>
+		<subfield code="a">سلسلة الكتب الحديثة  (العراق. وزارة الثقافية  والارشاد) ؛</subfield>
+		<subfield code="v">4.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -106,5 +139,6 @@
 		<subfield code="o">(OCoLC)ocm35260468</subfield>
 		<subfield code="s">columbia_aco002940</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002940</subfield>
 	</datafield>
 </record>

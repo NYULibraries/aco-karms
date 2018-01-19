@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171211s1937    iq      ob    000 0 arar </controlfield>
+	<controlfield tag="008">180119s1937    iq      ob    000 0 arar </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -17,15 +17,19 @@
 		<subfield code="b">T8</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ṭūsī, Muḥammad ibn al-Ḥasan,</subfield>
 		<subfield code="d">995-1067?</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Fihrist,</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Fihrist /</subfield>
 		<subfield code="c">taʼlīf Abī Jaʻfar Muḥammad ibn al-Ḥasan al-Ṭūsī; ṣaḥḥaḥahu wa ʻallaqa ʻalayhi Muḥammad Ṣādiq Āl Baḥr al-ʻUlūm.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">al-Najaf,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Najaf :</subfield>
+		<subfield code="b">al-Maktabah al-Murtaḍawīyah,</subfield>
 		<subfield code="c">1356 [1937]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -44,7 +48,8 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
-		<subfield code="a">Nashrīyāt al-Maktabah al-Murtaḍawīyah, [95]</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Nashrīyāt  al-Maktabah al-Murtaḍawīyah, [95]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Cover title: al-Fihrist, contenant les biograhies de presque 900 écrivains, par Abu Jaʼfar Muhammad ibn al-Hasan al-Ṭūsī. Rédigé par Muhammad Sadiq Al Bahr al-Ulūm.</subfield>
@@ -56,7 +61,7 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2017.</subfield>
+		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
@@ -96,11 +101,37 @@
 		<subfield code="w">(OCoLC)8961467</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="810">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">al-Maktabah al-Murtaḍawīyah, Nejef.</subfield>
 		<subfield code="t">Nashrīyāt,95.</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/j3tx9c9z</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">طوسي، محمد بن الحسن،</subfield>
+		<subfield code="d">995-1067؟</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">الفهرست /</subfield>
+		<subfield code="c">تأليف ابي جعفر محمد بن الحسن الطوسي؛ صححه و علق عليه محمد صادق آل بحر العلوم.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">النجف :</subfield>
+		<subfield code="b">المكتبة المرتضوية،</subfield>
+		<subfield code="c">1356 [1937]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">490-04/r</subfield>
+		<subfield code="a">نشريات المكتبة المرتضوية، [95]</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="880">
+		<subfield code="6">810-05/r</subfield>
+		<subfield code="a">المكتبة المرتضوية، نجف.</subfield>
+		<subfield code="t">نشريات،95.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -115,5 +146,6 @@
 		<subfield code="o">(OCoLC)ocm08961467</subfield>
 		<subfield code="s">columbia_aco002829</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002829</subfield>
 	</datafield>
 </record>

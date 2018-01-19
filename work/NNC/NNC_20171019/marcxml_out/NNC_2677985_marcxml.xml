@@ -5,23 +5,31 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171211s1954    ua      ob    000 0 ara d</controlfield>
+	<controlfield tag="008">180119s1954    ua      ob    000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ7518.5</subfield>
+		<subfield code="b">.T35 1945</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Tājir, Jack.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Tājir, Jāk.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Ḥarakat al-tarjamah bi-Miṣr khilāla al-qarn al-tāsiʻ ʻashar.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Ḥarakat al-tarjamah bi-Miṣr khilāl al-qarn al-tāsiʻ ʻashar /</subfield>
+		<subfield code="c">Jāk Tājir.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[Cairo]</subfield>
-		<subfield code="b">Dār al-Maʻārif bi Miṣr</subfield>
-		<subfield code="c">[1954]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Dār al-Maʻārif,</subfield>
+		<subfield code="c">[1945?]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (158 pages)</subfield>
@@ -48,8 +56,12 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2017.</subfield>
+		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Arabic literature</subfield>
+		<subfield code="x">Translations.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
@@ -60,13 +72,28 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Tājir, Jack.</subfield>
-		<subfield code="t">Ḥarakat al-tarjamah bi-Miṣr khilāla al-qarn al-tāsiʻ ʻashar</subfield>
+		<subfield code="a">Tājir, Jāk.</subfield>
+		<subfield code="t">Ḥarakat al-tarjamah bi-Miṣr khilāl al-qarn al-tāsiʻ ʻashar</subfield>
 		<subfield code="w">(NNC)2677985</subfield>
 		<subfield code="w">(OCoLC)45063636</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/1ns1rtkq</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">تاجر، جاك.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">حركة الترجمة بمصر خلال القرن التاسع عشر /</subfield>
+		<subfield code="c">جاك تاجر.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">دار المعارف،</subfield>
+		<subfield code="c">[1945؟]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -81,5 +108,6 @@
 		<subfield code="o">(OCoLC)ocm45063636</subfield>
 		<subfield code="s">columbia_aco003056</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003056</subfield>
 	</datafield>
 </record>

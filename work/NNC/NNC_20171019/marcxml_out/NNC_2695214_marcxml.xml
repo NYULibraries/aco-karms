@@ -5,22 +5,29 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171211s1947    iq ab   o     000 0 ara d</controlfield>
+	<controlfield tag="008">180119s1947    iq ab   o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">G93.B345</subfield>
+		<subfield code="b">A33 1947</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">ʻAbd al-Bāqī, Aḥmad.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">ʻAbd al-Bāqī, Aḥmad. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Jughrāfīyat al- ʻIrāq wa-al-bilād al-ʻArabīyah,</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Jughrāfīyat al-ʻIrāq wa-al-bilād al-ʻArabīyah /</subfield>
 		<subfield code="c">taʼlīf Aḥmad ʻAbd-al-Bāqī, ʻAwnī Bakr-Ṣidqī, ʻAbd-al-Muṭṭalib al-Hāshimī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Baghdād,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Baghdād :</subfield>
 		<subfield code="b">Maṭbaʻat al-Najāh,</subfield>
 		<subfield code="c">1947.</subfield>
 	</datafield>
@@ -50,8 +57,12 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2017.</subfield>
+		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Iraq</subfield>
+		<subfield code="x">Geography.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
@@ -63,12 +74,27 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">ʻAbd al-Bāqī, Aḥmad.</subfield>
-		<subfield code="t">Jughrāfīyat al- ʻIrāq wa-al-bilād al-ʻArabīyah</subfield>
+		<subfield code="t">Jughrāfīyat al-ʻIrāq wa-al-bilād al-ʻArabīyah</subfield>
 		<subfield code="w">(NNC)2695214</subfield>
 		<subfield code="w">(OCoLC)45116643</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/j9kd56qr</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">عبد الباقي، احمد. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">جغرافية العراق والبلاد العربية /</subfield>
+		<subfield code="c">تأليف احمد عبدالباقي، عوني بكرصدقي، عبدالمطلب الهاشمي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">بغداد :</subfield>
+		<subfield code="b">مطبعة النجاح،</subfield>
+		<subfield code="c">1947.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -83,5 +109,6 @@
 		<subfield code="o">(OCoLC)ocm45116643</subfield>
 		<subfield code="s">columbia_aco002956</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco002956</subfield>
 	</datafield>
 </record>

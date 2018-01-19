@@ -5,18 +5,19 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171211s1936    ua f    o     000 0 ara d</controlfield>
+	<controlfield tag="008">180119s1936    ua f    o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">(3</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">f-ua---</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">ND1081.7</subfield>
+		<subfield code="b">.R37 1936</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="6">880-01</subfield>
@@ -24,10 +25,12 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">880-02</subfield>
-		<subfield code="a">Ṣabbāgh.</subfield>
+		<subfield code="a">Ṣabbāgh /</subfield>
+		<subfield code="c">Aḥmad Rāsim.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[al-Qāhirah],</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[al-Qāhirah] :</subfield>
 		<subfield code="b">[Dār al-Hilāl],</subfield>
 		<subfield code="c">[1936]</subfield>
 	</datafield>
@@ -56,7 +59,7 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2017.</subfield>
+		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
@@ -101,13 +104,19 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/j0zpcfkw</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01/r</subfield>
 		<subfield code="a">راسم، أحمد.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
-		<subfield code="a">صباغ.</subfield>
-		<subfield code="c">بقلم أحمد راسم.</subfield>
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">صباغ /</subfield>
+		<subfield code="c">احمد راسم.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">[دار الهلال]،</subfield>
+		<subfield code="c">[1936]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -122,5 +131,6 @@
 		<subfield code="o">(OCoLC)ocm45063726</subfield>
 		<subfield code="s">columbia_aco002990</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco002990</subfield>
 	</datafield>
 </record>

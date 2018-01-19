@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">171211s1894    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">180119s1894    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">eng</subfield>
@@ -14,17 +14,21 @@
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">PJ6620</subfield>
-		<subfield code="b">.J35</subfield>
+		<subfield code="b">.J35 1894</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Jawharī, Ismāʻīl ibn Ḥammād,</subfield>
 		<subfield code="d">-1003?</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Mukhtār al-Ṣiḥāh li-Muḥammad ibn Abī Bakr ibn ʻAbd al-Qādir al-Rāzī.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Mukhtār al-Ṣiḥāh /</subfield>
+		<subfield code="c">li-Muḥammad ibn Abī Bakr ibn ʻAbd al-Qādir al-Rāzī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[Cairo]</subfield>
+		<subfield code="a">[Place of publication not identified] :</subfield>
+		<subfield code="b">[publisher not identified],</subfield>
 		<subfield code="c">1311 [1894]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -49,7 +53,7 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2017.</subfield>
+		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="546">
@@ -57,6 +61,10 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">An abridgment of al-Jawharī's Tāj al-lughah wa-ṣiḥāh al-ʻarabīyah.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Arabic language</subfield>
+		<subfield code="v">Dictionaries.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
@@ -68,12 +76,22 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Jawharī, Ismāʻīl ibn Ḥammād, -1003?</subfield>
-		<subfield code="t">Mukhtār al-Ṣiḥāh li-Muḥammad ibn Abī Bakr ibn ʻAbd al-Qādir al-Rāzī</subfield>
+		<subfield code="t">Mukhtār al-Ṣiḥāh</subfield>
 		<subfield code="w">(NNC)2980388</subfield>
 		<subfield code="w">(OCoLC)42858094</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/0zpc8chs</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">جوهري، اسماعيل بن حماد،</subfield>
+		<subfield code="d">-1003؟</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">مختارالصحاح /</subfield>
+		<subfield code="c">لمحمد بن ابي بكر بن عبد القادر الرازي.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -88,5 +106,6 @@
 		<subfield code="o">(OCoLC)ocm42858094</subfield>
 		<subfield code="s">columbia_aco002861</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco002861</subfield>
 	</datafield>
 </record>
