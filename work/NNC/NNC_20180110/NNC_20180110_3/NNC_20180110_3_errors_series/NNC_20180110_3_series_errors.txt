@@ -1,0 +1,85 @@
+Records containing SERIES errors - batch NNC_20180110
+--  These records contain an error with series headings in the 490/800/810/811/830 fields
+--  Either the 490 field has 1st indicator=0 (untraced)
+--  Or there are more 490 fields than there are 800/810/811/830 fields,
+    so the corresponding 8XX heading needs added
+Report produced: 2018-01-19 15:30:24.927425
+---------------------------------------------------------------------
+FILE: NNC_20180110_2_oclc_recs_batch.mrc
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm41199292
+   oclc_rec_035_num: (OCoLC)41199292
+   oclc_rec_035_num: (OCoLC)43517969
+Institution ID: NNC_2678381
+Record 999:  NNC_2678381 (OCoLC)ocm41199292
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   245 - al-batrūl wa-al-siyāsah al-ʻArabīyah / ishtaraka fī ikhrāj hadhā al-kitāb Amīn Shākir, Saʻīd al-ʻAryān, Tawfīq Muqār.
+   260 - Miṣr : Dār al-Maʻārif, [1954?]
+   490 - Ikhtarnā laka ; 6
+   700 - Muqār, Tawfīq.
+ERROR-880: Unlinked 880s: YES
+   880 $6 245-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 260-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 490-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 830-00/(3/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): Ikhtarnā laka ; 6
+040 $e field: [none]
+RDA fields: YES
+050 call number: HD9578.A72 S5
+Source entities (book IDs): columbia_aco003207
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm40732807
+   oclc_rec_035_num: (OCoLC)40732807
+Institution ID: NNC_3372763
+Record 999:  NNC_3372763 (OCoLC)ocm40732807
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - [Cairo] : Maktab Nashr al-Thaqāfah al-Islāmīyah, 1952.
+   700 - Kawtharī, Muḥammad Zāhid ibn al-Ḥasan.
+   700 - Ḥusaynī, ʻIzzat al-ʻAṭṭār.
+ERROR-880: Unlinked 880s: YES
+   880 $6 260-00/(3/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Kutub nādirah
+040 $e field: [none]
+RDA fields: YES
+050 call number: BP130 .S53 1952
+Source entities (book IDs): columbia_aco003164:v.1-2
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm21577322
+   oclc_rec_035_num: (OCoLC)21577322
+   oclc_rec_035_num: (OCoLC)820579552
+Institution ID: NNC_2677520
+Record 999:  NNC_2677520 (OCoLC)ocm21577322
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Outline history of the Nile Valley Sudan
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Dirāsāt tārīkhīyah Sūdānīyah
+040 $e field: [none]
+RDA fields: YES
+050 call number: DT108 .A486 1955
+Source entities (book IDs): columbia_aco003221
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm40245076
+   oclc_rec_035_num: (OCoLC)40245076
+   oclc_rec_035_num: (OCoLC)23504084
+Institution ID: NNC_4271896
+Record 999:  NNC_4271896 (OCoLC)ocm40245076
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Khaṣā'iṣ al-'ashara al-kirām al-barara
+ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
+ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Silsilat kutub al-turāth ; 10
+040 $e field: [none]
+RDA fields: YES
+050 call number: BP70 .Z34 1968
+Source entities (book IDs): columbia_aco003199
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: NNC_20180110_1/NNC_20180110_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+TOTAL Number of Records containing series errors: 4
+
