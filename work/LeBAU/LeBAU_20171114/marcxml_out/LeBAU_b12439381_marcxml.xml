@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12439381</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1930    iq      o     000 0 ara d</controlfield>
+	<controlfield tag="008">180301s1930    iq      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
 		<subfield code="a">eng</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS70.96.G7</subfield>
+		<subfield code="b">M83 1930</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">342.242</subfield>
@@ -31,8 +35,8 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">880-03</subfield>
-		<subfield code="a">Mu‘āhadat al-taḥāluf bayna al-‘Irāq wa-Barīṭāniyā al-‘Udhmah al-muwaqqa‘ ‘alayhā fī 30 Huzayrān sanat 1930 : ma‘a al-mulḥaq wa-tabādul al-mudhakkirāt = Treaty of alliance between ‘Iraq and Great Britain : signed on 30th June, 1930 : together with annexure and exchange of notes</subfield>
-		<subfield code="b">الموقع عليها في 30 حزيران سنة 1930 : مع الملحق وتبادل المذكرات = Treaty of alliance between ‘Iraq and Great Britain : signed on 30th June, 1930 : together with annexure and exchange of notes.</subfield>
+		<subfield code="a">Mu‘āhadat al-taḥāluf bayna al-‘Irāq wa-Barīṭāniyā al-‘Udhmah al-muwaqqa‘ ‘alayhā fī 30 Huzayrān sanat 1930 :</subfield>
+		<subfield code="b">ma‘a al-mulḥaq wa-tabādul al-mudhakkirāt = Treaty of alliance between ‘Iraq and Great Britain : signed on 30th June, 1930 : together with annexure and exchange of notes </subfield>
 	</datafield>
 	<datafield ind1="3" ind2="1" tag="246">
 		<subfield code="a">Treaty of alliance between ‘Iraq and Great Britain : signed on 30th June, 1930 : together with annexure and exchange of notes</subfield>
@@ -60,6 +64,12 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Non-Latin script record</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Non-Latin script record</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -69,28 +79,15 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="546">
-		<subfield code="a">النص بالعربية والإنجليزية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">العراق</subfield>
-		<subfield code="x">العلاقات الخارجية</subfield>
-		<subfield code="x">معاهدات</subfield>
-		<subfield code="z">بريطانيا العظمى.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">بريطانيا العظمى</subfield>
-		<subfield code="x">العلاقات الخارجية</subfield>
-		<subfield code="x">معاهدات</subfield>
-		<subfield code="z">العراق.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Iraq</subfield>
 		<subfield code="x">Foreign relations</subfield>
 		<subfield code="x">Treaties</subfield>
 		<subfield code="z">Great Britain.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Great Britain</subfield>
 		<subfield code="x">Foreign relations</subfield>
 		<subfield code="x">Treaties</subfield>
@@ -105,36 +102,55 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">al-‘Irāq, issuing body.</subfield>
-		<subfield code="t">Mu‘āhadat al-taḥāluf bayna al-‘Irāq wa-Barīṭāniyā al-‘Udhmah al-muwaqqa‘ ‘alayhā fī 30 Huzayrān sanat 1930 : ma‘a al-mulḥaq wa-tabādul al-mudhakkirāt = Treaty of alliance between ‘Iraq and Great Britain : signed on 30th June, 1930 : together with annexure and exchange of notes</subfield>
+		<subfield code="t">Mu‘āhadat al-taḥāluf bayna al-‘Irāq wa-Barīṭāniyā al-‘Udhmah al-muwaqqa‘ ‘alayhā fī 30 Huzayrān sanat 1930</subfield>
 		<subfield code="w">(LeBAU)b12439381</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/h9w0w0j5</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">110-01/(3/r</subfield>
+		<subfield code="6">110-01</subfield>
 		<subfield code="a">العراق،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">240-02/(3/r</subfield>
+		<subfield code="6">240-02</subfield>
 		<subfield code="a">معاهدات، الخ</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-03/(3/r</subfield>
-		<subfield code="a">معاهدة التحالف بين العراق وبريطانية العظمى :</subfield>
+		<subfield code="6">245-03</subfield>
+		<subfield code="a">معاهدة التحالف بين العراق وبريطانية العظمى : الموقع عليها في 30 حزيران سنة 1930 :</subfield>
+		<subfield code="b"> مع الملحق وتبادل المذكرات = Treaty of alliance between ‘Iraq and Great Britain : signed on 30th June, 1930 : together with annexure and exchange of notes between </subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-04/(3/r</subfield>
+		<subfield code="6">264-04</subfield>
 		<subfield code="a">بغداد :</subfield>
 		<subfield code="b">مطبعة الحكومة،</subfield>
 		<subfield code="c">1930.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-05/(3/r</subfield>
+		<subfield code="6">300-05</subfield>
 		<subfield code="a">25، 21 صفحة ؛</subfield>
 		<subfield code="c">22 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">546-00</subfield>
+		<subfield code="a">النص بالعربية والإنجليزية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-06</subfield>
+		<subfield code="a">العراق</subfield>
+		<subfield code="x">العلاقات الخارجية</subfield>
+		<subfield code="x">معاهدات</subfield>
+		<subfield code="z">بريطانيا العظمى.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-07</subfield>
+		<subfield code="a">بريطانيا العظمى</subfield>
+		<subfield code="x">العلاقات الخارجية</subfield>
+		<subfield code="x">معاهدات</subfield>
+		<subfield code="z">العراق.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -148,5 +164,6 @@
 		<subfield code="i">LeBAU_b12439381</subfield>
 		<subfield code="s">aub_aco001447</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001447</subfield>
 	</datafield>
 </record>

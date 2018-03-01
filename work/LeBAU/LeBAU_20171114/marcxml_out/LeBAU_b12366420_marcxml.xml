@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12366420</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1934    ua      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301s1934    ua      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP170</subfield>
+		<subfield code="b">.J39 1934</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">297.3</subfield>
@@ -28,7 +32,7 @@
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="246">
 		<subfield code="6">880-03</subfield>
-		<subfield code="a">al-radd ‘alá Kitāb Mīzān al-ḥaqq wa-ghayrihi min maṭā‘in al-mubashshirīn al-Masīḥīyīn fī al-Islām</subfield>
+		<subfield code="a">Radd ‘alá Kitāb Mīzān al-ḥaqq wa-ghayrihi min maṭā‘in al-mubashshirīn al-Masīḥīyīn fī al-Islām</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
 		<subfield code="6">880-04</subfield>
@@ -66,45 +70,29 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="4" tag="600">
-		<subfield code="a">فندر، ك. ج.</subfield>
-		<subfield code="q">(كارل غوتليب).</subfield>
-		<subfield code="t">ميزان الحق.</subfield>
-	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Pfander, C. G.</subfield>
 		<subfield code="q">(Carl Gottlieb).</subfield>
 		<subfield code="t">Mīzān al-ḥaqq.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الاسلام</subfield>
-		<subfield code="x">اعمال دفع المطاعن الدينية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الفلسفة الاسلامية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الاسلام</subfield>
-		<subfield code="x">علاقات</subfield>
-		<subfield code="x">المسيحية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">المسيحية والديانات الاخرى</subfield>
-		<subfield code="x">الاسلام.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Islam</subfield>
 		<subfield code="v">Apologetic works.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-09</subfield>
 		<subfield code="a">Islamic philosophy.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-10</subfield>
 		<subfield code="a">Islam</subfield>
 		<subfield code="x">Relations</subfield>
 		<subfield code="x">Christianity.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-11</subfield>
 		<subfield code="a">Christianity and other religions</subfield>
 		<subfield code="x">Islam.</subfield>
 	</datafield>
@@ -124,34 +112,60 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/xgxd2bnb</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">الجزيري، عبد الرحمن،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">أدلة اليقين في الرد على كتاب ميزان الحق وغيره من مطاعن المبشرين المسيحيين في الإسلام /</subfield>
 		<subfield code="c">تأليف عبد الرحمن الجزيري، مفتش أول بمساجد الأوقاف وعضو اللجنة العلمية لهيئة كبار العلماء في حماية الدين والدعوة الى سبيل الله.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="880">
-		<subfield code="6">246-03/(3/r</subfield>
-		<subfield code="a">الرد على كتاب ميزان الحق وغيره من مطاعن المبشرين المسيحيين في الإسلام</subfield>
+		<subfield code="6">246-03</subfield>
+		<subfield code="a">رد على كتاب ميزان الحق وغيره من مطاعن المبشرين المسيحيين في الإسلام</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-04/(3/r</subfield>
+		<subfield code="6">250-04</subfield>
 		<subfield code="a">الطبعة الأولى.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-05/(3/r</subfield>
+		<subfield code="6">264-05</subfield>
 		<subfield code="a">شبرا، [مصر] :</subfield>
 		<subfield code="b">مطبعة الإرشاد،</subfield>
 		<subfield code="c">1353 هـ. = 1934 م.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-06/(3/r</subfield>
+		<subfield code="6">300-06</subfield>
 		<subfield code="a">512 صفحة ؛</subfield>
 		<subfield code="c">25 سم</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">600-07</subfield>
+		<subfield code="a">فندر، ك. ج.</subfield>
+		<subfield code="q">(كارل غوتليب).</subfield>
+		<subfield code="t">ميزان الحق.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-08</subfield>
+		<subfield code="a">الاسلام</subfield>
+		<subfield code="x">اعمال دفع المطاعن الدينية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-09</subfield>
+		<subfield code="a">الفلسفة الاسلامية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-10</subfield>
+		<subfield code="a">الاسلام</subfield>
+		<subfield code="x">علاقات</subfield>
+		<subfield code="x">المسيحية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-11</subfield>
+		<subfield code="a">المسيحية والديانات الاخرى</subfield>
+		<subfield code="x">الاسلام.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -165,5 +179,6 @@
 		<subfield code="i">LeBAU_b12366420</subfield>
 		<subfield code="s">aub_aco001439</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001439</subfield>
 	</datafield>
 </record>

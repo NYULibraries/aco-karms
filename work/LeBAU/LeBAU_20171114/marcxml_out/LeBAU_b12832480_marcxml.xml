@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12832480</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1926    le      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301s1926    le      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
 		<subfield code="h">eng</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">HS447.S36</subfield>
+		<subfield code="b">F74 1926</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">366.1</subfield>
@@ -26,7 +30,7 @@
 		<subfield code="b">Grand Lodge of Scotland,</subfield>
 		<subfield code="e">issuing body.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Qānūn al-‘umūmī lil-Maḥfal al-Akbar al-Iskūtlandī :</subfield>
 		<subfield code="b">al-‘āmil bi-ṭarīqat al-bannā’īn al-aḥrār al-qadīmah al-maqbūlah /</subfield>
@@ -55,12 +59,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">مترجم عن الإنجليزية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;بأمر محفل السلام نمرو 908&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -70,29 +68,23 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الماسونية</subfield>
-		<subfield code="x">قوانين وتشريعات.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الماسونية</subfield>
-		<subfield code="z">سكوتلاندا.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Freemasonry</subfield>
 		<subfield code="x">Law and legislation.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Freemasonry</subfield>
 		<subfield code="z">Scotland.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Ashqar, Jūrj,</subfield>
 		<subfield code="e">translator.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Ḥannā, Wadī‘,</subfield>
 		<subfield code="e">translator.</subfield>
 	</datafield>
@@ -112,39 +104,57 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/p2ngf7c2</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="880">
-		<subfield code="6">110-01/(3/r</subfield>
+		<subfield code="6">110-01</subfield>
 		<subfield code="a">الماسونيون.</subfield>
 		<subfield code="b">المحفل الأكبر الإسكوتلاندي،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">القانون العمومي للمحفل الأكبر الإسكوتلاندي :</subfield>
 		<subfield code="b">العامل بطريقة البنائين الأحرار القديمة المقبولة /</subfield>
 		<subfield code="c">عربه عن النسخة الإنكليزية المطبوعة سنة 1923 جورج أشقر ووديع حنا.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03</subfield>
 		<subfield code="a">بيروت :</subfield>
 		<subfield code="b">مطبعة مجلة المعارف،</subfield>
 		<subfield code="c">1926.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04</subfield>
 		<subfield code="a">236 صفحة ؛</subfield>
 		<subfield code="c">21 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">مترجم عن الإنجليزية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;بأمر محفل السلام نمرو 908&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">الماسونية</subfield>
+		<subfield code="x">قوانين وتشريعات.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">الماسونية</subfield>
+		<subfield code="z">سكوتلاندا.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-05/(3/r</subfield>
+		<subfield code="6">700-07</subfield>
 		<subfield code="a">اشقر، جورج،</subfield>
-		<subfield code="e">مترجم. </subfield>
+		<subfield code="e">مترجم.</subfield>
 		<subfield code="4">trl.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-06/(3/r</subfield>
+		<subfield code="6">700-08</subfield>
 		<subfield code="a">حنا، وديع،</subfield>
-		<subfield code="e">مترجم. </subfield>
+		<subfield code="e">مترجم.</subfield>
 		<subfield code="4">trl.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -159,5 +169,6 @@
 		<subfield code="i">LeBAU_b12832480</subfield>
 		<subfield code="s">aub_aco001503</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001503</subfield>
 	</datafield>
 </record>

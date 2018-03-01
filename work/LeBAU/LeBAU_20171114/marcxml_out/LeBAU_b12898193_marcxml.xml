@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12898193</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1922    ua      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301s1922    ua      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
 		<subfield code="h">eng</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BJ1611</subfield>
+		<subfield code="b">.S6125 1922</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">174</subfield>
@@ -66,9 +70,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">ترجمة كتاب: Self-help.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -78,20 +79,16 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">النجاح.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">السلوك الحياتي.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Success.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Conduct of life.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-07</subfield>
+		<subfield code="6">880-09</subfield>
 		<subfield code="a">Ṣarrūf, Yaʻqūb,</subfield>
 		<subfield code="d">1852-1927,</subfield>
 		<subfield code="e">translator.</subfield>
@@ -103,7 +100,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="775">
-		<subfield code="6">880-08</subfield>
+		<subfield code="6">880-10</subfield>
 		<subfield code="t">Kitāb Sirr al-najāḥ.</subfield>
 		<subfield code="b">Ṭab‘ah thānīyah, wa-qad nuqqiḥa wa-uḍīfa ilayhi iḍāfāt wa-amthilah kathīrah</subfield>
 		<subfield code="d">al-Qāhirah : Maṭba‘at al-Muqtaṭaf, 1886</subfield>
@@ -111,14 +108,14 @@
 		<subfield code="w">(OCoLC)784199037</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="775">
-		<subfield code="6">880-09</subfield>
+		<subfield code="6">880-11</subfield>
 		<subfield code="t">Kitāb Sirr al-najāḥ</subfield>
 		<subfield code="d">Bayrūt : [publisher not identified], 1880</subfield>
 		<subfield code="w">(OCoLC)784526469</subfield>
 		<subfield code="w">(OCoLC)784526469</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="775">
-		<subfield code="6">880-10</subfield>
+		<subfield code="6">880-12</subfield>
 		<subfield code="t">Kitāb Sirr al-najāḥ.</subfield>
 		<subfield code="b">Ṭubi‘a thānīyatan</subfield>
 		<subfield code="d">Bayrūt : [publisher not identified], 1884</subfield>
@@ -135,45 +132,57 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/fn2z3b73</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">صميلز، صموئيل،</subfield>
 		<subfield code="d">1812-1904،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">كتاب سر النجاح /</subfield>
 		<subfield code="c">من مؤلفات الفاضل صموئيل صميلز الإنكليزي ؛ [ترجمة] يعقوب صروف.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="880">
-		<subfield code="6">246-03/(3/r</subfield>
+		<subfield code="6">246-03</subfield>
 		<subfield code="a">سر النجاح</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-04/(3/r</subfield>
+		<subfield code="6">250-04</subfield>
 		<subfield code="a">طبعة رابعة، وقد نقح واضيف اليه امثلة كثيرة.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-05/(3/r</subfield>
+		<subfield code="6">264-05</subfield>
 		<subfield code="a">القاهرة :</subfield>
 		<subfield code="b">مطبعة المقتطف،</subfield>
 		<subfield code="c">1922.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-06/(3/r</subfield>
+		<subfield code="6">300-06</subfield>
 		<subfield code="a">326 صفحة ؛</subfield>
 		<subfield code="c">21 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">ترجمة كتاب: Self-help.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">النجاح.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-08</subfield>
+		<subfield code="a">السلوك الحياتي.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-07/(3/r</subfield>
+		<subfield code="6">700-09</subfield>
 		<subfield code="a">صروف، يعقوب،</subfield>
 		<subfield code="d">1852-1927،</subfield>
-		<subfield code="e">مترجم. </subfield>
+		<subfield code="e">مترجم.</subfield>
 		<subfield code="4">trl.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">775-08/(3/r</subfield>
+		<subfield code="6">775-10</subfield>
 		<subfield code="t">كتاب سر النجاح.</subfield>
 		<subfield code="b">طبعة ثانية، وقد نقّح وأضيف اليه إضافات وأمثلة كثيرة</subfield>
 		<subfield code="d">القاهرة : مطبعة المقتطف، 1886</subfield>
@@ -181,14 +190,14 @@
 		<subfield code="w">(OCoLC)784199037</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">775-09/(3/r</subfield>
+		<subfield code="6">775-11</subfield>
 		<subfield code="t">كتاب سر النجاح</subfield>
 		<subfield code="d">بيروت : [الناشر غير محدد]، 1880</subfield>
 		<subfield code="w">b12898119</subfield>
 		<subfield code="w">(OCoLC)784526469</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">775-10/(3/r</subfield>
+		<subfield code="6">775-12</subfield>
 		<subfield code="t">كتاب سر النجاح.</subfield>
 		<subfield code="b">طبع ثانيةً</subfield>
 		<subfield code="d">بيروت : [الناشر غير محدد]، 1884</subfield>
@@ -207,5 +216,6 @@
 		<subfield code="i">LeBAU_b12898193</subfield>
 		<subfield code="s">aub_aco001573</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001573</subfield>
 	</datafield>
 </record>

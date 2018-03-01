@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12701154</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126m19231926sy acf  o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301m19231926sy acf  o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS99.A56</subfield>
+		<subfield code="b">T34 1923</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">956.8</subfield>
@@ -64,22 +68,13 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="590">
-		<subfield code="a">تم تجليد فهرس الجزء الخامس من نسخة مكتبة يافث في أول الكتاب بدلا من آخره عن طريق الخطأ.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">حلب (سوريا)</subfield>
-		<subfield code="x">تاريخ.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">حلب (سوريا)</subfield>
-		<subfield code="v">تراجم.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Aleppo (Syria)</subfield>
 		<subfield code="x">History.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Aleppo (Syria)</subfield>
 		<subfield code="v">Biography.</subfield>
 	</datafield>
@@ -99,32 +94,46 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/hhmgqtzp</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">الطباخ، محمد راغب،</subfield>
 		<subfield code="d">1877-1951،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">اعلام النبلاء بتاريخ حلب الشهباء /</subfield>
 		<subfield code="c">تأليف محمد راغب بن محمود بن هاشم الطباخ الحلبي.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-03/(3/r</subfield>
+		<subfield code="6">250-03</subfield>
 		<subfield code="a">الطبعة الأولى.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-04/(3/r</subfield>
+		<subfield code="6">264-04</subfield>
 		<subfield code="a">حلب :</subfield>
 		<subfield code="b">المطبعة العلمية،</subfield>
 		<subfield code="c">1342-1345 هـ. = 1923-1926 م.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-05/(3/r</subfield>
+		<subfield code="6">300-05</subfield>
 		<subfield code="a">7 أجزاء :</subfield>
 		<subfield code="b">مصورات، صور شخصانية ؛</subfield>
 		<subfield code="c">25 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">590-00</subfield>
+		<subfield code="a">تم تجليد فهرس الجزء الخامس من نسخة مكتبة يافث في أول الكتاب بدلا من آخره عن طريق الخطأ.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-06</subfield>
+		<subfield code="a">حلب (سوريا)</subfield>
+		<subfield code="x">تاريخ.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-07</subfield>
+		<subfield code="a">حلب (سوريا)</subfield>
+		<subfield code="v">تراجم.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -144,5 +153,12 @@
 		<subfield code="s">aub_aco001677:v.6</subfield>
 		<subfield code="s">aub_aco001678:v.7</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001672:v.1</subfield>
+		<subfield code="s">aub_aco001673:v.2</subfield>
+		<subfield code="s">aub_aco001674:v.3</subfield>
+		<subfield code="s">aub_aco001675:v.4</subfield>
+		<subfield code="s">aub_aco001676:v.5</subfield>
+		<subfield code="s">aub_aco001677:v.6</subfield>
+		<subfield code="s">aub_aco001678:v.7</subfield>
 	</datafield>
 </record>

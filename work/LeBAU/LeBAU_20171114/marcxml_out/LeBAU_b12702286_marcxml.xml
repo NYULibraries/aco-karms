@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12702286</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1927    ua abcf o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301s1927    ua abcf o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS99.H3</subfield>
+		<subfield code="b">A24 1927</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">956.9</subfield>
@@ -59,9 +63,6 @@
 		<subfield code="v">al-ḥalaqah al-thānīyah</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;بحث عام في تاريخ شعوبها ونسبهم وعاداتهم واعتقاداتهم وآثارهم وحروبهم ونوابغهم النازحين عنها، وهي الحلقة الثانية من حلقات سلسلة الرحلة الشرقية العامة وفيها تتمة البحث عن ثورة جبل الدروز ونسب سكانه القاطنين به، وتفصيل عشائرهم وعاداتهم وأسباب انقلاب ثورتهم القومية إلى حرب عامة سورية مع دولة الاستعمار. واستيفاء مباحث وقائعها المهمة وكشف الستار عن اسرارها الغامضة ونشر وثائقها الخطيرة وذكر المفاوضات السلمية السرية وامجاد الثورة الفكرية في أنحاء العالم.&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -71,32 +72,19 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="590">
-		<subfield code="a">صفحة العنوان والصفحة الأولى مفتقدة.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الدروز</subfield>
-		<subfield code="x">تاريخ.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Druzes</subfield>
 		<subfield code="x">History.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">سوريا</subfield>
-		<subfield code="x">تاريخ</subfield>
-		<subfield code="y">الثورة، 1925-1927.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">حوران (سوريا)</subfield>
-		<subfield code="x">تاريخ.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Syria</subfield>
 		<subfield code="x">History</subfield>
 		<subfield code="y">Insurrection, 1925-1927.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-09</subfield>
 		<subfield code="a">Hauran (Syria)</subfield>
 		<subfield code="x">History.</subfield>
 	</datafield>
@@ -113,7 +101,7 @@
 		<subfield code="w">(LeBAU)b12702286</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="6">880-07</subfield>
+		<subfield code="6">880-10</subfield>
 		<subfield code="a">Silsilat al-riḥlah al-sharqīyah al-‘ámmah ;</subfield>
 		<subfield code="v">2.</subfield>
 	</datafield>
@@ -121,39 +109,63 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/zcrjdn6n</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">أبو راشد، حنا،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">حوران الدامية /</subfield>
 		<subfield code="c">بقلم البحاثة الرحالة حنا أبي راشد، صاحب مجلة القاموس العام والمكتبة الشعبية.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-03/(3/r</subfield>
+		<subfield code="6">250-03</subfield>
 		<subfield code="a">الطبعة الأولى.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-04/(3/r</subfield>
+		<subfield code="6">264-04</subfield>
 		<subfield code="a">مصر :</subfield>
 		<subfield code="b">مكتبة زيدان العمومية،</subfield>
 		<subfield code="c">1927.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-05/(3/r</subfield>
+		<subfield code="6">300-05</subfield>
 		<subfield code="a">ا-و، 326 صفحة :</subfield>
 		<subfield code="b">مصورات، خرائط، صور شخصانية ؛</subfield>
 		<subfield code="c">22 سم.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">490-06/(3/r</subfield>
+		<subfield code="6">490-06</subfield>
 		<subfield code="a">سلسلة الرحلة الشرقية العامة ؛</subfield>
 		<subfield code="v">الحلقة الثانية</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;بحث عام في تاريخ شعوبها ونسبهم وعاداتهم واعتقاداتهم وآثارهم وحروبهم ونوابغهم النازحين عنها، وهي الحلقة الثانية من حلقات سلسلة الرحلة الشرقية العامة وفيها تتمة البحث عن ثورة جبل الدروز ونسب سكانه القاطنين به، وتفصيل عشائرهم وعاداتهم وأسباب انقلاب ثورتهم القومية إلى حرب عامة سورية مع دولة الاستعمار. واستيفاء مباحث وقائعها المهمة وكشف الستار عن اسرارها الغامضة ونشر وثائقها الخطيرة وذكر المفاوضات السلمية السرية وامجاد الثورة الفكرية في أنحاء العالم.&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">590-00</subfield>
+		<subfield code="a">صفحة العنوان والصفحة الأولى مفتقدة.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">الدروز</subfield>
+		<subfield code="x">تاريخ.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-08</subfield>
+		<subfield code="a">سوريا</subfield>
+		<subfield code="x">تاريخ</subfield>
+		<subfield code="y">الثورة، 1925-1927.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-09</subfield>
+		<subfield code="a">حوران (سوريا)</subfield>
+		<subfield code="x">تاريخ.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
-		<subfield code="6">830-07/(3/r</subfield>
+		<subfield code="6">830-10</subfield>
 		<subfield code="a">سلسلة الرحلة الشرقية العامة ؛</subfield>
 		<subfield code="v">2.</subfield>
 	</datafield>
@@ -169,5 +181,6 @@
 		<subfield code="i">LeBAU_b12702286</subfield>
 		<subfield code="s">aub_aco001687</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001687</subfield>
 	</datafield>
 </record>

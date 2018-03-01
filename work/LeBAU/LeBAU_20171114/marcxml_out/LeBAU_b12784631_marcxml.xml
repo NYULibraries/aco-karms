@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12784631</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1923    le      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301s1923    le      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BV4596.A48</subfield>
+		<subfield code="b">H33 1923</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">261.832</subfield>
@@ -64,21 +68,14 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الكحول، إدمان</subfield>
-		<subfield code="x">النواحي الدينية</subfield>
-		<subfield code="x">المسيحية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الكحول، إدمان</subfield>
-		<subfield code="x">النواحي الاجتماعية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Alcoholism</subfield>
 		<subfield code="x">Religious aspects</subfield>
 		<subfield code="x">Christianity.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Alcoholism</subfield>
 		<subfield code="x">Social aspects.</subfield>
 	</datafield>
@@ -98,32 +95,43 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/6hdr804v</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">حداد، اسكندر،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">كتاب خدمة الإنسانية لنفع الخليقة البشرية وتنبيه الطوائف المسيحية :</subfield>
 		<subfield code="b">وهو مجموع مناظرات في أضرار المسكرات /</subfield>
 		<subfield code="c">تأليف القس إسكندر حداد.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="880">
-		<subfield code="6">246-03/(3/r</subfield>
+		<subfield code="6">246-03</subfield>
 		<subfield code="a">خدمة الإنسانية لنفع الخليقة البشرية وتنبيه الطوائف المسيحية :</subfield>
 		<subfield code="b">وهو مجموع مناظرات في أضرار المسكرات</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-04/(3/r</subfield>
+		<subfield code="6">264-04</subfield>
 		<subfield code="a">بيروت :</subfield>
 		<subfield code="b">المطبعة الأميركانية،</subfield>
 		<subfield code="c">1923.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-05/(3/r</subfield>
+		<subfield code="6">300-05</subfield>
 		<subfield code="a">76 صفحة ؛</subfield>
 		<subfield code="c">18 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">الكحول، إدمان</subfield>
+		<subfield code="x">النواحي الدينية</subfield>
+		<subfield code="x">المسيحية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">الكحول، إدمان</subfield>
+		<subfield code="x">النواحي الاجتماعية.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -137,5 +145,6 @@
 		<subfield code="i">LeBAU_b12784631</subfield>
 		<subfield code="s">aub_aco001481</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001481</subfield>
 	</datafield>
 </record>

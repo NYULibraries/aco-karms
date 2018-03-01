@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12379967</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1934    ua      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301s1934    ua      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP130.79</subfield>
+		<subfield code="b">.N39 1934</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">297.208</subfield>
@@ -22,7 +26,7 @@
 		<subfield code="d">1233-1277,</subfield>
 		<subfield code="e">author.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Tibyān fī ādāb ḥamalat al-Qurʼān /</subfield>
 		<subfield code="c">ta’līf Abī Zakarīyā Yaḥyá ibn Sharaf al-Dīn al-Nawawī al-Shāfi‘ī, 631-677 H. Wa-maʻahu Fatḥ al-karīm al-mannān fī ādāb ḥamalat al-Qurʼān / taʼlīf ʻAlī ibn Muḥammad al-maʻrūf bi-al-Ḍabbāʻ al-Miṣrī.</subfield>
@@ -59,36 +63,25 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="4" tag="630">
-		<subfield code="a">قرآن</subfield>
-		<subfield code="x">الدرس والتدريس</subfield>
-		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
-	</datafield>
-	<datafield ind1="0" ind2="4" tag="630">
-		<subfield code="a">قرآن</subfield>
-		<subfield code="x">تلاوة</subfield>
-		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
-	</datafield>
 	<datafield ind1="0" ind2="0" tag="630">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Qurʼan</subfield>
 		<subfield code="x">Study and teaching</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="630">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Qurʼan</subfield>
 		<subfield code="x">Recitation</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">آداب السلوك الاسلامية</subfield>
-		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Islamic etiquette</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="700">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Miṣrī, ʻAlī ibn Muḥammad al-Ḍabbāʻ.</subfield>
 		<subfield code="t">Fatḥ al-karīm al-mannān fī ādāb ḥamalat al-Qurʼān.</subfield>
 	</datafield>
@@ -108,30 +101,47 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/3j9kdbc8</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">النووي،</subfield>
 		<subfield code="d">1233-1277،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">التبيان في آداب حملة القرآن /</subfield>
 		<subfield code="c">تأليف أبي زكريا يحيى بن شرف الدين النووي الشافعي،  631-677 هـ. ومعه فتح الكريم المنان في آداب حملة القرآن / تأليف علي بن محمد المعروف بالضباع المصري.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03</subfield>
 		<subfield code="a">مصر :</subfield>
 		<subfield code="b">مطبعة مصطفى البابي الحلبي وأولاده،</subfield>
 		<subfield code="c">1353 هـ. = 1934 م.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04</subfield>
 		<subfield code="a">43 صفحة ؛</subfield>
 		<subfield code="c">28 سم</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">630-05</subfield>
+		<subfield code="a">قرآن</subfield>
+		<subfield code="x">الدرس والتدريس</subfield>
+		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">630-06</subfield>
+		<subfield code="a">قرآن</subfield>
+		<subfield code="x">تلاوة</subfield>
+		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">آداب السلوك الاسلامية</subfield>
+		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
-		<subfield code="6">700-05/(3/r</subfield>
+		<subfield code="6">700-08</subfield>
 		<subfield code="a">المصري، علي بن محمد الضباع.</subfield>
 		<subfield code="t">فتح الكريم المنان في آداب حملة القرآن.</subfield>
 	</datafield>
@@ -147,5 +157,6 @@
 		<subfield code="i">LeBAU_b12379967</subfield>
 		<subfield code="s">aub_aco001433</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001433</subfield>
 	</datafield>
 </record>

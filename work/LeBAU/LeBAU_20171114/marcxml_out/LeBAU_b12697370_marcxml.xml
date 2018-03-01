@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12697370</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1953    iq      ob    ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301s1953    iq      ob    ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
 		<subfield code="b">eng</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS79.53</subfield>
+		<subfield code="b">.S35 1953</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">956.704</subfield>
@@ -58,9 +62,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -68,15 +69,8 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="546">
-		<subfield code="a">النص بالعربية؛ مع قائمة محتويات بالإنجليزية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">العراق</subfield>
-		<subfield code="x">تاريخ</subfield>
-		<subfield code="y">القرن العشرون.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Iraq</subfield>
 		<subfield code="x">History</subfield>
 		<subfield code="y">20th century.</subfield>
@@ -97,26 +91,40 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/s1rn8w0h</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">صالح، زكي،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">مقدمة في دراسة العراق المعاصر /</subfield>
 		<subfield code="c">بقلم الدكتور زكي صالح، أستاذ التاريخ الحديث في دار المعلمين العالية - بغداد.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03</subfield>
 		<subfield code="a">بغداد :</subfield>
 		<subfield code="b">مطبعة الرابطة،</subfield>
 		<subfield code="c">1953.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04</subfield>
 		<subfield code="a">ا-هـ، 235 ،VII صفحات ؛</subfield>
 		<subfield code="c">24 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">546-00</subfield>
+		<subfield code="a">النص بالعربية؛ مع قائمة محتويات بالإنجليزية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-05</subfield>
+		<subfield code="a">العراق</subfield>
+		<subfield code="x">تاريخ</subfield>
+		<subfield code="y">القرن العشرون.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -130,5 +138,6 @@
 		<subfield code="i">LeBAU_b12697370</subfield>
 		<subfield code="s">aub_aco001670</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001670</subfield>
 	</datafield>
 </record>

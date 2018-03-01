@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12774418</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1948    le      o     1|0 0 ara  </controlfield>
+	<controlfield tag="008">180301s1948    le      o     1|0 0 ara  </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
 		<subfield code="a">fre</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">Q105.A1</subfield>
+		<subfield code="b">S53 1948</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">507.4</subfield>
@@ -27,11 +31,10 @@
 		<subfield code="d">1948 :</subfield>
 		<subfield code="c">Beirut)</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Ma‘raḍ al-‘Ilmī /</subfield>
-		<subfield code="c">CETTE EXPOSITION A ÉTÉ RÉALISÉE PAR LES SOINS DE LA COMMISSION LIBANAISE CHARGÉE DE LA PRÉPARATION DE LA 3ℯ CONFÉRENCE GÉNÉRALE DE L'UNESCO, AVEC LE CONCOURS DE LA SECTION DES SCIENCES DE L'UNESCO.</subfield>
-		<subfield code="c">CETTE EXPOSITION A ÉTÉ RÉALISÉE PAR LES SOINS DE LA COMMISSION LIBANAISE CHARGÉE DE LA PRÉPARATION DE LA 3ℯ CONFÉRENCE GÉNÉRALE DE L'UNESCO, AVEC LE CONCOURS DE LA SECTION DES SCIENCES DE L'UNESCO.</subfield>
+		<subfield code="c">u‘idda hādhā al-ma‘raḍ bi-‘ināyat al-Lajnah al-Lubnānīyah al-mukallafah bi-taḥḍīr Mu’tamar al-Ūniskū al-‘āmm al-thālith, bi-mu’āzarat fir‘ al-‘ulūm fī al-Ūniskū. </subfield>
 	</datafield>
 	<datafield ind1="3" ind2="1" tag="246">
 		<subfield code="a">EXPOSITION SCIENTIFIQUE</subfield>
@@ -59,9 +62,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;تشرين الثاني-كانون الأول.&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -71,14 +71,8 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="546">
-		<subfield code="a">النص بالعربية والفرنسية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">العلوم</subfield>
-		<subfield code="v">معارض.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Science</subfield>
 		<subfield code="v">Exhibitions.</subfield>
 	</datafield>
@@ -97,28 +91,40 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/pzgmshvn</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="880">
-		<subfield code="6">111-01/(3/r</subfield>
+		<subfield code="6">111-01</subfield>
 		<subfield code="a">شهر الأونسكو</subfield>
 		<subfield code="n">(3 :</subfield>
 		<subfield code="d">1948 :</subfield>
 		<subfield code="c">بيروت)</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">المعرض العلمي /</subfield>
-		<subfield code="c">u‘idda hādhā al-ma‘raḍ bi-‘ināyat al-Lajnah al-Lubnānīyah al-mukallafah bi-taḥḍīr Mu’tamar al-Ūniskū al-‘āmm al-thālith, bi-mu’āzarat fir‘ al-‘ulūm fī al-Ūniskū = EXPOSITION SCIENTIFIQUE /</subfield>
-		<subfield code="c">CETTE EXPOSITION A ÉTÉ RÉALISÉE PAR LES SOINS DE LA COMMISSION LIBANAISE CHARGÉE DE LA PRÉPARATION DE LA 3ℯ CONFÉRENCE GÉNÉRALE DE L'UNESCO, AVEC LE CONCOURS DE LA SECTION DES SCIENCES DE L'UNESCO.</subfield>
+		<subfield code="c">اعد هذا المعرض بعناية اللجنة اللبنانية المكلفة بتحضير مؤتمر الاونسكو العام الثالث، بمؤزارة فرع العلوم في الاونسكو.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03</subfield>
 		<subfield code="a">بيروت، لبنان :</subfield>
 		<subfield code="b">دار الأحد،</subfield>
 		<subfield code="c">1948.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04</subfield>
 		<subfield code="a">39، 37 صفحة ؛</subfield>
 		<subfield code="c">20 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;تشرين الثاني-كانون الأول.&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">546-00</subfield>
+		<subfield code="a">النص بالعربية والفرنسية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">العلوم</subfield>
+		<subfield code="v">معارض.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -132,5 +138,6 @@
 		<subfield code="i">LeBAU_b12774418</subfield>
 		<subfield code="s">aub_aco001544</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001544</subfield>
 	</datafield>
 </record>

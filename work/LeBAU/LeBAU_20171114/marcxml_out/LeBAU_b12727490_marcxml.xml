@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12727490</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1950    sy af   o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301s1950    sy af   o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
 		<subfield code="a">eng</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">HC415.23</subfield>
+		<subfield code="b">.G48 1950</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">956.9</subfield>
@@ -32,7 +36,7 @@
 		<subfield code="c">tanshuruhā Ghurfat Tijārat Ḥalab li-munāsabat ziyārat al-sādah wa-al-sayyidāt min a-mughtaribīn lil-shahbā’ fī 30 wa 31 Āb 1950 = An Outline of the economical life of Aleppo; and, Aleppo through the ages / published by Aleppo Chamber of Commerce for the Syrian-Lebanaese emigrants' visit to Aleppo, August 30 and 31, 1950.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="5" tag="246">
-		<subfield code="a">Outline of the economical life of Aleppo; </subfield>
+		<subfield code="a">Outline of the economical life of Aleppo;</subfield>
 		<subfield code="b">and, Aleppo through the ages</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="246">
@@ -64,13 +68,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="0" tag="505">
-		<subfield code="t">لمحة عن اقتصاديات حلب : أمس، اليوم، غدا وتاريخها الماضي:</subfield>
-		<subfield code="t">اقتصاديات حلب /</subfield>
-		<subfield code="r">محمد سعيد الزعيم --</subfield>
-		<subfield code="t">موجز عن تاريخ حلب /</subfield>
-		<subfield code="r">صبحي الصواف.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -78,27 +75,18 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="546">
-		<subfield code="a">النص بالعربية والإنجليزية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">حلب (سوريا)</subfield>
-		<subfield code="x">الاحوال الاقتصادية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">حلب (سوريا)</subfield>
-		<subfield code="x">تاريخ.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Aleppo (Syria)</subfield>
 		<subfield code="x">Economic conditions.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Aleppo (Syria)</subfield>
 		<subfield code="x">History.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Ṣawwāf, Ṣubḥī.</subfield>
 		<subfield code="t">Mūjaz ‘an tārīkh Ḥalab.</subfield>
 	</datafield>
@@ -118,31 +106,53 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/k98sff2m</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="880">
-		<subfield code="6">110-01/(3/r</subfield>
+		<subfield code="6">110-01</subfield>
 		<subfield code="a">غرفة تجارة حلب،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">لمحة عن اقتصاديات حلب :</subfield>
 		<subfield code="b">أمس، اليوم، غدا وتاريخها الماضي /</subfield>
-		<subfield code="c"> تنشرها غرفة تجارة حلب لمناسبة زيارة السادة والسيدات من المغتربين للشهباء في 30 و 31 آب 1950 = An Outline of the economical life of Aleppo; and, Aleppo through the ages / published by Aleppo Chamber of Commerce for the Syrian-Lebanaese emigrants' visit to Aleppo, August 30 and 31, 1950.</subfield>
+		<subfield code="c">تنشرها غرفة تجارة حلب لمناسبة زيارة السادة والسيدات من المغتربين للشهباء في 30 و 31 آب 1950 = An Outline of the economical life of Aleppo; and, Aleppo through the ages / published by Aleppo Chamber of Commerce for the Syrian-Lebanaese emigrants' visit to Aleppo, August 30 and 31, 1950.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03</subfield>
 		<subfield code="a">حلب :</subfield>
 		<subfield code="b">غرفة تجارة حلب،</subfield>
 		<subfield code="c">1950.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04</subfield>
 		<subfield code="a">34، 24 صفحة، 12 ورقة لوحات غير مرقمة :</subfield>
 		<subfield code="b">مصورات (بعضها ملون) ؛</subfield>
 		<subfield code="c">22 سم</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">505-00</subfield>
+		<subfield code="t">لمحة عن اقتصاديات حلب : أمس، اليوم، غدا وتاريخها الماضي:</subfield>
+		<subfield code="t">اقتصاديات حلب /</subfield>
+		<subfield code="r">محمد سعيد الزعيم --</subfield>
+		<subfield code="t">موجز عن تاريخ حلب /</subfield>
+		<subfield code="r">صبحي الصواف.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">546-00</subfield>
+		<subfield code="a">النص بالعربية والإنجليزية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-05</subfield>
+		<subfield code="a">حلب (سوريا)</subfield>
+		<subfield code="x">الاحوال الاقتصادية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-06</subfield>
+		<subfield code="a">حلب (سوريا)</subfield>
+		<subfield code="x">تاريخ.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-05/(3/r</subfield>
+		<subfield code="6">700-07</subfield>
 		<subfield code="a">الصواف، صبحي.</subfield>
 		<subfield code="t">موجز عن تاريخ حلب.</subfield>
 	</datafield>
@@ -158,5 +168,6 @@
 		<subfield code="i">LeBAU_b12727490</subfield>
 		<subfield code="s">aub_aco001704</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001704</subfield>
 	</datafield>
 </record>

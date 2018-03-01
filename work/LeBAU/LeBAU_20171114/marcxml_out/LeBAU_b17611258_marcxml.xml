@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b17611258</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1932    le ac   ob    ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301s1932    le ac   ob    ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BJ1291</subfield>
+		<subfield code="b">.A45 1932</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">297.5</subfield>
@@ -50,16 +54,7 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">من المرجح أنه لم يتم إصدار الجزء الثاني من الكتاب.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="520">
-		<subfield code="a">يتضمن اللازم من الفلسفة العقلية والعلمية والأخلاقية مجملة من الموحيات السماوية والفرائد التاريخية وإنطباق المرتبة الأولى من مكارم الأخلاق على القانون الأساسي للدين الإسلامي وإنحصار ما جاء به صاحب الدعوة الإسلامية في قانون عبادي، صحي، أخلاقي، إجتماعي، سياسي، وبهذا يتم إنتظام الإنسان في كونه الأول والثاني.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
@@ -68,48 +63,30 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="590">
-		<subfield code="a">في المكتبة: الجزء 1.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الاخلاق الاسلامية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الإسلام</subfield>
-		<subfield code="x">السلوك الحياتي.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">آداب السلوك الاسلامية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الحياة الدينية</subfield>
-		<subfield code="x">الاسلام.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الفلسفة الاسلامية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الاسلام</subfield>
-		<subfield code="x">العادات والممارسات.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Islamic ethics.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">Islamic etiquette.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">Religious life</subfield>
-		<subfield code="x">Islam.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Islam</subfield>
 		<subfield code="x">Conduct of life.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
+		<subfield code="a">Islamic etiquette.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-08</subfield>
+		<subfield code="a">Religious life</subfield>
+		<subfield code="x">Islam.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-09</subfield>
 		<subfield code="a">Islamic philosophy.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-10</subfield>
 		<subfield code="a">Islam</subfield>
 		<subfield code="x">Customs and practices.</subfield>
 	</datafield>
@@ -129,27 +106,70 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/fj6q5dj8</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">العاملي، محمد صفي الدين الحسيني،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">مناهل الأشواق في العقل و العلم و مكارم الأخلاق /</subfield>
 		<subfield code="c">تأليف العلامة السيد محمد صفي الدين الحسيني العاملي.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03</subfield>
 		<subfield code="a">صيدا :</subfield>
 		<subfield code="b">مطبعة العرفان،</subfield>
 		<subfield code="c">1351 [هـ.] = 1932 [م.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04</subfield>
 		<subfield code="a">2 جزء :</subfield>
 		<subfield code="b">مصورات، صورة شخصانية ؛</subfield>
 		<subfield code="c">24 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">من المرجح أنه لم يتم إصدار الجزء الثاني من الكتاب.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">520-00</subfield>
+		<subfield code="a">يتضمن اللازم من الفلسفة العقلية والعلمية والأخلاقية مجملة من الموحيات السماوية والفرائد التاريخية وإنطباق المرتبة الأولى من مكارم الأخلاق على القانون الأساسي للدين الإسلامي وإنحصار ما جاء به صاحب الدعوة الإسلامية في قانون عبادي، صحي، أخلاقي، إجتماعي، سياسي، وبهذا يتم إنتظام الإنسان في كونه الأول والثاني.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">590-00</subfield>
+		<subfield code="a">في المكتبة: الجزء 1.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">الاخلاق الاسلامية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">الإسلام</subfield>
+		<subfield code="x">السلوك الحياتي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">آداب السلوك الاسلامية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-08</subfield>
+		<subfield code="a">الحياة الدينية</subfield>
+		<subfield code="x">الاسلام.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-09</subfield>
+		<subfield code="a">الفلسفة الاسلامية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-10</subfield>
+		<subfield code="a">الاسلام</subfield>
+		<subfield code="x">العادات والممارسات.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -163,5 +183,6 @@
 		<subfield code="i">LeBAU_b17611258</subfield>
 		<subfield code="s">aub_aco001489:v.1</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001489:v.1</subfield>
 	</datafield>
 </record>

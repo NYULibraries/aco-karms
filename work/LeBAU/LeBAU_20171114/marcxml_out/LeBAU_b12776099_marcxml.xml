@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12776099</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1947    le af   o     001 0 ara d</controlfield>
+	<controlfield tag="008">180301s1947    le af   o     001 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
 		<subfield code="a">fre</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">ND976.6</subfield>
+		<subfield code="b">.L43 1947</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">750.74</subfield>
@@ -40,11 +44,6 @@
 		<subfield code="b">al-Jumhūrīyah al-Lubnānīyah, Wizārat al-Tarbīyah al-Waṭanīyah wa-al-Funūn al-Jamīlah,</subfield>
 		<subfield code="c">1947.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="6">880-04</subfield>
-		<subfield code="a">online resource (36 pages) :</subfield>
-		<subfield code="b">معظمه مصورات ؛</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="336">
 		<subfield code="a">text</subfield>
 		<subfield code="2">rdacontent</subfield>
@@ -58,15 +57,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;برعاية صاحب الفخامة الشيخ بشارة الخوري، رئيس الجمهورية اللبنانية&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;الإفتتاح: يوم الثلاثاء في 15 نيسان 1947، الساعة الثالثة بعد الظهر&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">يتضمن كشاف.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -76,39 +66,22 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="546">
-		<subfield code="a">النص بالعربية؛ مع لائحة &quot;مجموعة اللوحات المعروضة&quot; بالفرنسية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الرسامون</subfield>
-		<subfield code="z">لبنان</subfield>
-		<subfield code="v">معارض</subfield>
-		<subfield code="v">فهارس.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">النحاتون</subfield>
-		<subfield code="z">لبنان</subfield>
-		<subfield code="v">معارض</subfield>
-		<subfield code="v">فهارس.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الفن اللبناني</subfield>
-		<subfield code="x">معارض</subfield>
-		<subfield code="v">فهارس.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Painters</subfield>
 		<subfield code="z">Lebanon</subfield>
 		<subfield code="v">Exhibitions</subfield>
 		<subfield code="v">Catalogs.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Sculptors</subfield>
 		<subfield code="z">Lebanon</subfield>
 		<subfield code="v">Exhibitions</subfield>
-		<subfield code="v">Catalogs.</subfield>
+		<subfield code="v">Catalogs</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Art, Lebanese</subfield>
 		<subfield code="v">Exhibitions</subfield>
 		<subfield code="v">Catalogs.</subfield>
@@ -129,28 +102,70 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/f1vhhsws</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">110-01/(3/r</subfield>
+		<subfield code="6">110-01</subfield>
 		<subfield code="a">لبنان.</subfield>
 		<subfield code="b">وزارة التربية الوطنية والفنون الجميلة،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">معرض الفنانين اللبنانيين في المتحف الوطني /</subfield>
 		<subfield code="c">الجمهورية اللبنانية، وزارة التربية الوطنية والفنون الجميلة.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03</subfield>
 		<subfield code="a">[لبنان] :</subfield>
 		<subfield code="b">الجمهورية اللبنانية، وزارة التربية الوطنية والفنون الجميلة،</subfield>
 		<subfield code="c">1947.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-00</subfield>
 		<subfield code="a">36 صفحة :</subfield>
 		<subfield code="c">chiefly illustrations ;</subfield>
 		<subfield code="c">24 cm</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">300-00</subfield>
+		<subfield code="a">36 pages ;</subfield>
+		<subfield code="b">معظمه مصورات ؛</subfield>
+		<subfield code="c">24 cm</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;برعاية صاحب الفخامة الشيخ بشارة الخوري، رئيس الجمهورية اللبنانية&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;الإفتتاح: يوم الثلاثاء في 15 نيسان 1947، الساعة الثالثة بعد الظهر&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">يتضمن كشاف.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">546-00</subfield>
+		<subfield code="a">النص بالعربية؛ مع لائحة &quot;مجموعة اللوحات المعروضة&quot; بالفرنسية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-04</subfield>
+		<subfield code="a">الرسامون</subfield>
+		<subfield code="z">لبنان</subfield>
+		<subfield code="v">معارض</subfield>
+		<subfield code="v">فهارس.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">النحاتون</subfield>
+		<subfield code="z">لبنان</subfield>
+		<subfield code="v">معارض</subfield>
+		<subfield code="v">فهارس.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">الفن اللبناني</subfield>
+		<subfield code="x">معارض</subfield>
+		<subfield code="v">فهارس.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -164,5 +179,6 @@
 		<subfield code="i">LeBAU_b12776099</subfield>
 		<subfield code="s">aub_aco001605</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001605</subfield>
 	</datafield>
 </record>

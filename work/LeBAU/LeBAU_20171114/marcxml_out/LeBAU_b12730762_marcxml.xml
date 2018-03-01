@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12730762</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1949    sy aj   ob    ||1 0 ara d</controlfield>
+	<controlfield tag="008">180301s1949    sy aj   ob    ||1 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS99.D3</subfield>
+		<subfield code="b">I232 1949</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">956.9</subfield>
@@ -52,13 +56,7 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;بحث نشر في الجزء الرابع من المجلد الرابع والعشرين والجزء الأول من المجلد الخامس والعشرين من مجلة المجمع العلمي العربي&quot;--خلف صفحة العنوان.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية وكشافات.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
@@ -67,36 +65,25 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">السلجوقيون.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Seljuks.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">دمشق (سوريا)</subfield>
-		<subfield code="x">تاريخ</subfield>
-		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">دمشق (سوريا)</subfield>
-		<subfield code="x">الملوك والحكام</subfield>
-		<subfield code="v">تراجم</subfield>
-		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Damascus (Syria)</subfield>
 		<subfield code="x">History</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Damascus (Syria)</subfield>
 		<subfield code="x">Kings and rulers</subfield>
 		<subfield code="v">Biography</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Munajjid, Ṣalāḥ al-Dīn,</subfield>
 		<subfield code="e">compiler.</subfield>
 	</datafield>
@@ -116,34 +103,59 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/k98sff3v</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">ابن عساكر، علي بن الحسن،</subfield>
 		<subfield code="d">1105-1176،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">ولاة دمشق في العهد السلجوقي :</subfield>
 		<subfield code="b">نصوص مستخرجة من تاريخ دمشق الكبير للحافظ إبن عساكر /</subfield>
 		<subfield code="c">مهد لها وحققها صلاح الدين المنجد.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03</subfield>
 		<subfield code="a">دمشق :</subfield>
 		<subfield code="b">مطبعة الترقي،</subfield>
 		<subfield code="c">1368 هـ. = 1949 م.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04</subfield>
 		<subfield code="a">32 صفحة :</subfield>
 		<subfield code="b">مصورات، أشجار أنساب ؛</subfield>
 		<subfield code="c">24 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;بحث نشر في الجزء الرابع من المجلد الرابع والعشرين والجزء الأول من المجلد الخامس والعشرين من مجلة المجمع العلمي العربي&quot;--خلف صفحة العنوان.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية وكشافات.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">السلجوقيون.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-06</subfield>
+		<subfield code="a">دمشق (سوريا)</subfield>
+		<subfield code="x">تاريخ</subfield>
+		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-07</subfield>
+		<subfield code="a">دمشق (سوريا)</subfield>
+		<subfield code="x">الملوك والحكام</subfield>
+		<subfield code="v">تراجم</subfield>
+		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-05/(3/r</subfield>
+		<subfield code="6">700-08</subfield>
 		<subfield code="a">المنجد، صلاح الدين،</subfield>
-		<subfield code="e">معد. </subfield>
+		<subfield code="e">معد.</subfield>
 		<subfield code="4">com.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -158,5 +170,6 @@
 		<subfield code="i">LeBAU_b12730762</subfield>
 		<subfield code="s">aub_aco001713</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001713</subfield>
 	</datafield>
 </record>

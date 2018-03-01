@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12832029</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1929    le      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301s1929    le      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">HJ5444.9</subfield>
+		<subfield code="b">.L43 1929</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">352.0569</subfield>
@@ -53,13 +57,7 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">من المرجح بأنه لم يتم اصدار أي جزء آخر من الكتاب .</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="505">
-		<subfield code="a">الجزء الأول. الرسوم.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
@@ -68,23 +66,13 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="590">
-		<subfield code="a">في المكتبة: الجزء 1.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الرسوم الادارية</subfield>
-		<subfield code="z">لبنان.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">البلديات</subfield>
-		<subfield code="z">لبنان</subfield>
-		<subfield code="z">بيروت.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Fees, Administrative</subfield>
-		<subfield code="z">Lebanon. </subfield>
+		<subfield code="z">Lebanon.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Municipal government</subfield>
 		<subfield code="z">Lebanon</subfield>
 		<subfield code="z">Beirut.</subfield>
@@ -105,30 +93,53 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/t4b8h118</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">110-01/(3/r</subfield>
+		<subfield code="6">110-01</subfield>
 		<subfield code="a">لبنان،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">240-02/(3/r</subfield>
+		<subfield code="6">240-02</subfield>
 		<subfield code="a">قوانين، الخ.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-03/(3/r</subfield>
+		<subfield code="6">245-03</subfield>
 		<subfield code="a">بلدية بيروت :</subfield>
 		<subfield code="b">مجموعة قوانينها وأنظمتها.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-04/(3/r</subfield>
+		<subfield code="6">264-04</subfield>
 		<subfield code="a">[بيروت] :</subfield>
 		<subfield code="b">مطبعة وزنكوغراف طبارة،</subfield>
 		<subfield code="c">1929.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-05/(3/r</subfield>
+		<subfield code="6">300-05</subfield>
 		<subfield code="a">1 جزء (62 صفحة) ؛</subfield>
 		<subfield code="c">20 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">من المرجح بأنه لم يتم اصدار أي جزء آخر من الكتاب .</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">505-00</subfield>
+		<subfield code="a">الجزء الأول. الرسوم.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">590-00</subfield>
+		<subfield code="a">في المكتبة: الجزء 1.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">الرسوم الادارية</subfield>
+		<subfield code="z">لبنان.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">البلديات</subfield>
+		<subfield code="z">لبنان</subfield>
+		<subfield code="z">بيروت.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -142,5 +153,6 @@
 		<subfield code="i">LeBAU_b12832029</subfield>
 		<subfield code="s">aub_aco001499:v.1</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001499:v.1</subfield>
 	</datafield>
 </record>

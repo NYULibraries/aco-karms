@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b1248426x</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1935    mauacfh o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301s1935    mauacfh o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
 		<subfield code="a">eng</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">G62</subfield>
+		<subfield code="b">.A35 1925</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">525</subfield>
@@ -66,9 +70,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;بشأن توضيح جوهر إحقاق تستطيح [أي تسطيح] وجه الأرض وثباتها أيضا وتحقيق كيفية جوهر مسير الشمس والقمر والنجوم وخلافه ولأجل إيضاح الجوهر أعلاه تجدوا في صفحات هذه الجغرافية جملة براهين عقلية وتاريخية وطبيعية، كذلك تروا رسالات من أشخاص أوجه كرام يحبذون بكل رغبة وقبول تحقيق الجوهر وإظهاره لكافة الأمم والشعوب.&quot;--غلاف.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -78,19 +79,12 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="546">
-		<subfield code="a">النص بالعربية والإنجليزية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الجغرافيا.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الأرض (كوكب)</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Geography.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="651">
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Earth (Planet)</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -109,36 +103,52 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/dr7sr1r4</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">أبي زيد، يوحنا جرجس،</subfield>
 		<subfield code="d">1868-</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">كتاب جغرافية إنارة العالم /</subfield>
 		<subfield code="c">يوحنا جرجس أبي زيد = The Enlightenment of the world geography / by John G. Abizaid.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="880">
-		<subfield code="6">246-03/(3/r</subfield>
+		<subfield code="6">246-03</subfield>
 		<subfield code="a">جغرافية إنارة العالم</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-04/(3/r</subfield>
+		<subfield code="6">250-04</subfield>
 		<subfield code="a">طبعة ثالثة.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-05/(3/r</subfield>
+		<subfield code="6">264-05</subfield>
 		<subfield code="a">بوسطن :</subfield>
 		<subfield code="b">مطبعة جريدة العروس،</subfield>
 		<subfield code="c">1935.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-06/(3/r</subfield>
+		<subfield code="6">300-06</subfield>
 		<subfield code="a">96، 32 صفحة، 5 ورقات لوحات غير مرقمة :</subfield>
 		<subfield code="b">مصورات (بعضها مطوي وملون)، صور شخصانية، صور طبق الأصل ؛</subfield>
 		<subfield code="c">23 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;بشأن توضيح جوهر إحقاق تستطيح [أي تسطيح] وجه الأرض وثباتها أيضا وتحقيق كيفية جوهر مسير الشمس والقمر والنجوم وخلافه ولأجل إيضاح الجوهر أعلاه تجدوا في صفحات هذه الجغرافية جملة براهين عقلية وتاريخية وطبيعية، كذلك تروا رسالات من أشخاص أوجه كرام يحبذون بكل رغبة وقبول تحقيق الجوهر وإظهاره لكافة الأمم والشعوب.&quot;--غلاف.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">546-00</subfield>
+		<subfield code="a">النص بالعربية والإنجليزية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">الجغرافيا.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-08</subfield>
+		<subfield code="a">الأرض (كوكب)</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -152,5 +162,6 @@
 		<subfield code="i">LeBAU_b1248426x</subfield>
 		<subfield code="s">aub_aco001579</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001579</subfield>
 	</datafield>
 </record>

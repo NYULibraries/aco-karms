@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b17929908</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1955    ua      ob    ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301s1955    ua      ob    ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP166.72</subfield>
+		<subfield code="b">A43 1955</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">610.92</subfield>
@@ -22,7 +26,7 @@
 		<subfield code="d">1252 or 1253-1320 or 1321,</subfield>
 		<subfield code="e">author.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Aḥkām al-Nabawīyah fī al-ṣinā‘ah al-ṭibbīyah /</subfield>
 		<subfield code="c">ta’līf Abī al-Ḥasan ‘Alī ibn ‘Abd al-Karīm ibn Ṭarkhān ibn Taqī al-Ḥamawī ‘Alā’ al-Dīn al-Kaḥḥāl, 650-720 H. ; ‘uniya bi-taḥqīqihi wa-al-ta‘līq ‘alayhi al-Ustādh ‘Abd al-Salām Hāshim Ḥāfiẓ.</subfield>
@@ -54,13 +58,7 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">2 جزء ببليوغرافي في 1 جزء مادي.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
@@ -69,32 +67,22 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الطب</subfield>
-		<subfield code="x">النواحي الدينية</subfield>
-		<subfield code="x">الاسلام</subfield>
-		<subfield code="v">أعمال قديمة حتى 1800.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الاسلام</subfield>
-		<subfield code="x">العادات والممارسات</subfield>
-		<subfield code="x">النواحي الصحية</subfield>
-		<subfield code="v">أعمال قديمة حتى 1800.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Medicine</subfield>
 		<subfield code="x">Religious aspects</subfield>
 		<subfield code="x">Islam</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Islam</subfield>
 		<subfield code="x">Customs and practices</subfield>
 		<subfield code="x">Health aspects</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Ḥāfiẓ, ʻAbd al-Salām Hāshim,</subfield>
 		<subfield code="e">compiler.</subfield>
 	</datafield>
@@ -114,36 +102,58 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/98sf7sdw</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">علاء الدين الكحال، علي بن عبد الكريم،</subfield>
 		<subfield code="d">1252 او 1253-1320 او 1321،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">الأحكام النبوية في الصناعة الطبية /</subfield>
 		<subfield code="c">تأليف أبي الحسن علي بن عبد الكريم بن طرخان بن تقي الحموي علاء الدين الكحال، 650-720 هـ. ؛ عني بتحقيقه والتعليق عليه الأستاذ عبد السلام هاشم حافظ.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-03/(3/r</subfield>
+		<subfield code="6">250-03</subfield>
 		<subfield code="a">الطبعة الأولى.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-04/(3/r</subfield>
+		<subfield code="6">264-04</subfield>
 		<subfield code="a">مصر :</subfield>
 		<subfield code="b">شركة مكتبة ومطبعة مصطفى البابي الحلبي وأولاده،</subfield>
 		<subfield code="c">1374 هـ. = 1955 م.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-05/(3/r</subfield>
+		<subfield code="6">300-05</subfield>
 		<subfield code="a">1 جزء ؛</subfield>
 		<subfield code="c">20 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">2 جزء ببليوغرافي في 1 جزء مادي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">الطب</subfield>
+		<subfield code="x">النواحي الدينية</subfield>
+		<subfield code="x">الاسلام</subfield>
+		<subfield code="v">أعمال قديمة حتى 1800.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">الاسلام</subfield>
+		<subfield code="x">العادات والممارسات</subfield>
+		<subfield code="x">النواحي الصحية</subfield>
+		<subfield code="v">أعمال قديمة حتى 1800.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-06/(3/r</subfield>
+		<subfield code="6">700-08</subfield>
 		<subfield code="a">حافظ، عبد السلام هاشم،</subfield>
-		<subfield code="e">معد. </subfield>
+		<subfield code="e">معد.</subfield>
 		<subfield code="4">com.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -158,5 +168,6 @@
 		<subfield code="i">LeBAU_b17929908</subfield>
 		<subfield code="s">aub_aco001585:v.1-2</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001585:v.1-2</subfield>
 	</datafield>
 </record>

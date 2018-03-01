@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b1793106x</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1948    ua      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301s1948    ua      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP174</subfield>
+		<subfield code="b">.M89 1948</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">297.813</subfield>
@@ -21,7 +25,7 @@
 		<subfield code="a">Muwaqqit, Muḥammad bin Muḥammad bin ʻAbd Allāh,</subfield>
 		<subfield code="e">author.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Ḥabl al-matīn ‘alá naẓam al-Murshid al-Mu‘īn ‘alá al-ḍarūrī min ‘ulūm al-dīn fī madhhab al-Imām Mālik raḍiya Allāh ‘anhu /</subfield>
 		<subfield code="c">ta’līf Muḥammad ibn Muḥammad ibn ‘Abd Allāh ibn al-Mubārāk al-Fatḥī al-Marrākushī al-Mālikī al-Muwaqqit.</subfield>
@@ -62,36 +66,24 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="4" tag="600">
-		<subfield code="a">ابن عاشر، عبد الواحد بن احمد،</subfield>
-		<subfield code="d">1582 او 1583-1630 او 1631.</subfield>
-		<subfield code="t">المرشد المعين.</subfield>
-	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Ibn ʻĀshir, ʻAbd al-Wāḥid ibn Aḥmad,</subfield>
 		<subfield code="d">1582 or 1583-1630 or 1631.</subfield>
 		<subfield code="t">Murshid al-muʻīn.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الاسلام</subfield>
-		<subfield code="x">عقائد.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الحياة الدينية</subfield>
-		<subfield code="x">الاسلام.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">المذهب المالكي.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Islam</subfield>
 		<subfield code="x">Doctrines.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Religious life</subfield>
 		<subfield code="x">Islam.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-09</subfield>
 		<subfield code="a">Malikites.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -110,30 +102,50 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/x0k6dr04</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">الموقت، محمد بن محمد بن عبد الله،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">الحبل المتين على نظم المرشد المعين على الضروري من علوم الدين في مذهب الإمام مالك رضي الله عنه /</subfield>
 		<subfield code="c">تأليف محمد بن محمد بن عبد الله بن المبارك الفتحي المراكشي المالكي الموقت.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-03/(3/r</subfield>
+		<subfield code="6">250-03</subfield>
 		<subfield code="a">الطبعة الثالثة.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-04/(3/r</subfield>
+		<subfield code="6">264-04</subfield>
 		<subfield code="a">مصر :</subfield>
 		<subfield code="b">شركة مكتبة ومطبعة مصطفى البابي الحلبي وأولاده،</subfield>
 		<subfield code="c">1367 هـ. = 1948 م.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-05/(3/r</subfield>
+		<subfield code="6">300-05</subfield>
 		<subfield code="a">80 صفحة ؛</subfield>
 		<subfield code="c">22 سم</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">600-06</subfield>
+		<subfield code="a">ابن عاشر، عبد الواحد بن احمد،</subfield>
+		<subfield code="d">1582 او 1583-1630 او 1631.</subfield>
+		<subfield code="t">المرشد المعين.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">الاسلام</subfield>
+		<subfield code="x">عقائد.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-08</subfield>
+		<subfield code="a">الحياة الدينية</subfield>
+		<subfield code="x">الاسلام.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-09</subfield>
+		<subfield code="a">المذهب المالكي.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -147,5 +159,6 @@
 		<subfield code="i">LeBAU_b1793106x</subfield>
 		<subfield code="s">aub_aco001494</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001494</subfield>
 	</datafield>
 </record>
