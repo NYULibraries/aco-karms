@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12730907</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1938    ua acfh o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301s1938    ua acfh o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP187.55.J47</subfield>
+		<subfield code="b">J36 1938</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">956.9</subfield>
@@ -54,9 +58,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;هذا المسجد المبارك في خطر الضياع من أيدي المسلمين فماذا هم فاعلون؟&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -67,23 +68,15 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="2" ind2="0" tag="610">
-		<subfield code="a">المسجد الأقصى (القدس)</subfield>
-	</datafield>
-	<datafield ind1="2" ind2="0" tag="610">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Masjid al-Aqṣá (Jerusalem)</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الصهيونية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Zionism.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">فلسطين</subfield>
-		<subfield code="x">تاريخ</subfield>
-		<subfield code="y">1917-1948.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Palestine</subfield>
 		<subfield code="x">History</subfield>
 		<subfield code="y">1917-1948.</subfield>
@@ -104,31 +97,49 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/qz612r2s</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="880">
-		<subfield code="6">110-01/(3/r</subfield>
+		<subfield code="6">110-01</subfield>
 		<subfield code="a">جماعة أنصار فلسطين المقدسة من المصريين (الإسكندرية)،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">هذا بلاغ للناس ولينذروا به :</subfield>
 		<subfield code="b">نداء الى العالمين الإسلامي و العربي لإنقاذ المسجد الأقصى ومن حوله.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-03/(3/r</subfield>
+		<subfield code="6">250-03</subfield>
 		<subfield code="a">الطبعة الثالثة.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-04/(3/r</subfield>
+		<subfield code="6">264-04</subfield>
 		<subfield code="a">الإسكندرية :</subfield>
 		<subfield code="b">المركز العام لجماعة أنصار فلسطين المقدسة من المصريين،</subfield>
 		<subfield code="c">1357 [هـ.] = 1938 [م.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-05/(3/r</subfield>
+		<subfield code="6">300-05</subfield>
 		<subfield code="a">174، ا-د صفحة :</subfield>
 		<subfield code="b">مصورات (بعضها مطوي وملون)، صور شخصانية، صورة طبق الأصل ؛</subfield>
 		<subfield code="c">27 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;هذا المسجد المبارك في خطر الضياع من أيدي المسلمين فماذا هم فاعلون؟&quot;</subfield>
+	</datafield>
+	<datafield ind1="2" ind2="0" tag="880">
+		<subfield code="6">610-06</subfield>
+		<subfield code="a">المسجد الأقصى (القدس)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">الصهيونية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-08</subfield>
+		<subfield code="a">فلسطين</subfield>
+		<subfield code="x">تاريخ</subfield>
+		<subfield code="y">1917-1948.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -142,5 +153,6 @@
 		<subfield code="i">LeBAU_b12730907</subfield>
 		<subfield code="s">aub_aco001717</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001717</subfield>
 	</datafield>
 </record>

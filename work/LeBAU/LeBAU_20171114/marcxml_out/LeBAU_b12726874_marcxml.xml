@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12726874</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1950    le abcf o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301s1950    le abcf o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="037">
 		<subfield code="b">Ibad Al-Rahman Library</subfield>
 		<subfield code="z">41166</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS62.4</subfield>
+		<subfield code="b">.D35 1950</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">956.9</subfield>
@@ -56,13 +60,7 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">يحوي ملاحق تتعلق بالجامعة العربية والقضية الفلسطينية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="505">
-		<subfield code="a">الجزء الأول. يحتوي الكلام على الفكرة العربية وأدوار الحركة العربية في عهد الدولة العثمانية والثورة العربية وتاريخها وأدوار العهد الفيصلي في الشام وصور متنوعة عن هذا العهد وجمعياته ونشاطه --الجزء الثاني. يحتوي هذا الجزء الكلام على فرنسا والحركة العربية في سوريا ولبنان والمغرب العربي --الجزء الخامس. إنكلتره والحركة العربية، يحتوي تتمة الكلام عن القضية الفلسطينية من بعد قرار التقسيم إلى الآن ومواقف الإنكليز منها --الجزء السادس. فصول في حاضر العربية ومستقبلها ومشاكلها ومعالجاتها: آراء ومقترحات.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
@@ -71,35 +69,21 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="590">
-		<subfield code="a">في المكتبة: الأجزاء 1-2، 5-6.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">البلدان العربية</subfield>
-		<subfield code="x">تاريخ.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">البلدان العربية</subfield>
-		<subfield code="x">تاريخ</subfield>
-		<subfield code="y">القرن العشرون.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">البلدان العربية</subfield>
-		<subfield code="x">السياسة والحكومة</subfield>
-		<subfield code="y">القرن العشرون.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Arab countries</subfield>
 		<subfield code="x">History.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Arab countries</subfield>
 		<subfield code="x">Politics and government</subfield>
 		<subfield code="y">20th century.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Arab countries</subfield>
-		<subfield code="x">History</subfield>
+		<subfield code="x">Politics and government</subfield>
 		<subfield code="y">20th century.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -118,29 +102,58 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/s7h44qgs</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">دروزة، محمد عزة،</subfield>
 		<subfield code="d">1889-</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">حول الحركة العربية الحديثة :</subfield>
 		<subfield code="b">تاريخ ومذكرات وتعليقات /</subfield>
 		<subfield code="c">تأليف محمد عزة دروزة.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03</subfield>
 		<subfield code="a">صيدا :</subfield>
 		<subfield code="b">المطبعة العصرية،</subfield>
 		<subfield code="c">1950.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04</subfield>
 		<subfield code="a">6 أجزاء :</subfield>
 		<subfield code="b">مصورات (بعضها ملون)، خرائط (بعضها ملون) ، صور شخصانية (بعضها ملون) ؛</subfield>
 		<subfield code="c">23 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">يحوي ملاحق تتعلق بالجامعة العربية والقضية الفلسطينية.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">505-00</subfield>
+		<subfield code="a">الجزء الأول. يحتوي الكلام على الفكرة العربية وأدوار الحركة العربية في عهد الدولة العثمانية والثورة العربية وتاريخها وأدوار العهد الفيصلي في الشام وصور متنوعة عن هذا العهد وجمعياته ونشاطه --الجزء الثاني. يحتوي هذا الجزء الكلام على فرنسا والحركة العربية في سوريا ولبنان والمغرب العربي --الجزء الخامس. إنكلتره والحركة العربية، يحتوي تتمة الكلام عن القضية الفلسطينية من بعد قرار التقسيم إلى الآن ومواقف الإنكليز منها --الجزء السادس. فصول في حاضر العربية ومستقبلها ومشاكلها ومعالجاتها: آراء ومقترحات.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">590-00</subfield>
+		<subfield code="a">في المكتبة: الأجزاء 1-2، 5-6.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-05</subfield>
+		<subfield code="a">البلدان العربية</subfield>
+		<subfield code="x">تاريخ.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-06</subfield>
+		<subfield code="a">البلدان العربية</subfield>
+		<subfield code="x">تاريخ</subfield>
+		<subfield code="y">القرن العشرون.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-07</subfield>
+		<subfield code="a">البلدان العربية</subfield>
+		<subfield code="x">السياسة والحكومة</subfield>
+		<subfield code="y">القرن العشرون.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -157,5 +170,9 @@
 		<subfield code="s">aub_aco001699:v.5</subfield>
 		<subfield code="s">aub_aco001700:v.6</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001697:v.1</subfield>
+		<subfield code="s">aub_aco001698:v.2</subfield>
+		<subfield code="s">aub_aco001699:v.5</subfield>
+		<subfield code="s">aub_aco001700:v.6</subfield>
 	</datafield>
 </record>

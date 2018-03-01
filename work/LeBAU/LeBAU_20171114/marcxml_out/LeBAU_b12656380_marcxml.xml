@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12656380</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1916    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">180301s1916    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ7631</subfield>
+		<subfield code="b">.S55 1916</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">892.7109</subfield>
@@ -49,9 +53,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;وهي تصحيحات وزيادات وتعليقات وتكميل للفهارس منقولة عن نسخة الإمام الشنقيطي المحفوظة &quot;بدار الكتب السلطانية&quot; بالقاهرة، محمد عبد الجواد الأصمعي&quot; --خلف صفحة العنوان.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -61,18 +62,14 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="4" tag="600">
-		<subfield code="a">ابو الفرج الاصفهاني،</subfield>
-		<subfield code="d">897 او 898-967.</subfield>
-		<subfield code="t">الاغاني.</subfield>
-	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Abū al-Faraj al-Iṣbahānī,</subfield>
 		<subfield code="d">897 or 898-967.</subfield>
 		<subfield code="t">al-Aghānī.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Aṣmaʻī, Muḥammad ʻAbd al-Jawwād,</subfield>
 		<subfield code="e">compiler.</subfield>
 	</datafield>
@@ -89,7 +86,7 @@
 		<subfield code="w">(LeBAU)b12656380</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="787">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-07</subfield>
 		<subfield code="i">is supplement to (work):</subfield>
 		<subfield code="t">Kitāb al-Aghānī.</subfield>
 		<subfield code="b">al-Ṭab‘ah al-ūlá</subfield>
@@ -97,7 +94,7 @@
 		<subfield code="w">b18376769</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="787">
-		<subfield code="6">880-07</subfield>
+		<subfield code="6">880-08</subfield>
 		<subfield code="i">is supplement to (work):</subfield>
 		<subfield code="t">Kitāb al-Aghānī</subfield>
 		<subfield code="d">[Miṣr] : Dār al-Ṭibā‘ah al-‘Āmirah, 1285-1305 [H.], [1868-1887? M.]</subfield>
@@ -108,35 +105,45 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/gf1vhq13</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">الشنقيطي، محمد محمود،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">تصحيح كتاب الاغاني /</subfield>
 		<subfield code="c">بقلم صفوة العلماء المحققين وعمدة الباحثين المدققين الإمام اللغوي الحجة الثقة محمد محمود الشنقيطي ؛ عني بجمعه وطبعه محمد عبد الجواد الأصمعي.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03</subfield>
 		<subfield code="a">مصر :</subfield>
 		<subfield code="b">مطبعة الجمالية،</subfield>
 		<subfield code="c">1334 هـ. = 1916 م.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04</subfield>
 		<subfield code="a">70 صفحة ؛</subfield>
 		<subfield code="c">28 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;وهي تصحيحات وزيادات وتعليقات وتكميل للفهارس منقولة عن نسخة الإمام الشنقيطي المحفوظة &quot;بدار الكتب السلطانية&quot; بالقاهرة، محمد عبد الجواد الأصمعي&quot; --خلف صفحة العنوان.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">600-05</subfield>
+		<subfield code="a">ابو الفرج الاصفهاني،</subfield>
+		<subfield code="d">897 او 898-967.</subfield>
+		<subfield code="t">الاغاني.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-05/(3/r</subfield>
+		<subfield code="6">700-06</subfield>
 		<subfield code="a">الاصمعي، محمد عبد الجواد،</subfield>
-		<subfield code="e">معد. </subfield>
+		<subfield code="e">معد.</subfield>
 		<subfield code="4">com.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">787-06/(3/r</subfield>
+		<subfield code="6">787-07</subfield>
 		<subfield code="i">ملحق لـ (عمل):</subfield>
 		<subfield code="t">كتاب الأغاني.</subfield>
 		<subfield code="b">الطبعة الأولى</subfield>
@@ -144,7 +151,7 @@
 		<subfield code="w">b18376769</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">787-07/(3/r</subfield>
+		<subfield code="6">787-08</subfield>
 		<subfield code="i">ملحق لـ (عمل):</subfield>
 		<subfield code="t">كتاب الأغاني</subfield>
 		<subfield code="d">[مصر] : دار الطباعة العامرة، 1285-1305 [هـ.]، [1868-1887. م.]</subfield>
@@ -163,5 +170,6 @@
 		<subfield code="i">LeBAU_b12656380</subfield>
 		<subfield code="s">aub_aco001646</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001646</subfield>
 	</datafield>
 </record>

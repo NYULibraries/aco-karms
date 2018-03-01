@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12776105</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1948    le      o     1|0 0 ara d</controlfield>
+	<controlfield tag="008">180301s1948    le      o     1|0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
 		<subfield code="a">fre</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">N7276.8.R39</subfield>
+		<subfield code="b">M88 1948</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">750.74</subfield>
@@ -66,39 +70,22 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="546">
-		<subfield code="a">النص بالعربية والفرنسية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الرسامون</subfield>
-		<subfield code="z">لبنان</subfield>
-		<subfield code="v">معارض</subfield>
-		<subfield code="v">فهارس.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">النحاتون</subfield>
-		<subfield code="z">لبنان</subfield>
-		<subfield code="v">معارض</subfield>
-		<subfield code="v">فهارس.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الفن اللبناني</subfield>
-		<subfield code="x">معارض</subfield>
-		<subfield code="v">فهارس.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Painters</subfield>
 		<subfield code="z">Lebanon</subfield>
 		<subfield code="v">Exhibitions</subfield>
 		<subfield code="v">Catalogs.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Sculptors</subfield>
 		<subfield code="z">Lebanon</subfield>
 		<subfield code="v">Exhibitions</subfield>
 		<subfield code="v">Catalogs.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Art, Lebanese</subfield>
 		<subfield code="v">Exhibitions</subfield>
 		<subfield code="v">Catalogs.</subfield>
@@ -118,26 +105,50 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/gtht7d0p</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="880">
-		<subfield code="6">111-01/(3/r</subfield>
+		<subfield code="6">111-01</subfield>
 		<subfield code="a">مؤتمر الأونيسكو</subfield>
 		<subfield code="n">(3 :</subfield>
 		<subfield code="d">1948 :</subfield>
 		<subfield code="c">بيروت)</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">معرض الفنانين اللبنانيين بمناسبة إنعقاد مؤتمر الأونيسكو الثالث في مدينة بيروت، 1948 = Exposition des artistes Libanais a l'occasion du mois de l'Unesco.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03</subfield>
 		<subfield code="a">بيروت :</subfield>
 		<subfield code="b">أونيسكو،</subfield>
 		<subfield code="c">1948.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04</subfield>
 		<subfield code="a">1 جزء (دون ترقيم) ؛</subfield>
 		<subfield code="c">24 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">546-00</subfield>
+		<subfield code="a">النص بالعربية والفرنسية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">الرسامون</subfield>
+		<subfield code="z">لبنان</subfield>
+		<subfield code="v">معارض</subfield>
+		<subfield code="v">فهارس.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">النحاتون</subfield>
+		<subfield code="z">لبنان</subfield>
+		<subfield code="v">معارض</subfield>
+		<subfield code="v">فهارس.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">الفن اللبناني</subfield>
+		<subfield code="x">معارض</subfield>
+		<subfield code="v">فهارس.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -151,5 +162,6 @@
 		<subfield code="i">LeBAU_b12776105</subfield>
 		<subfield code="s">aub_aco001606</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001606</subfield>
 	</datafield>
 </record>

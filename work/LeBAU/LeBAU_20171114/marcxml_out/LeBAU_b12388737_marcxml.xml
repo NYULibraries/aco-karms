@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12388737</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1927    sy      ob    000 0 ara d</controlfield>
+	<controlfield tag="008">180301s1927    sy      ob    000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP195.W2</subfield>
+		<subfield code="b">A47 1927</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">297.8</subfield>
@@ -50,19 +54,7 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;يتضمن تاريخ الوهابية وحروبهم وأعمالهم من ابتداء ظهورهم الى اليوم. وذكر فوائد مهمة يتوقف عليها رد معتقداتهم وتفصيل شبههم واعتقاداتهم كلها وردها مما لم يسبق له نظير الى اليوم.&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">مجلد مع: العقود الدرية في رد شبهات الوهابية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="501">
-		<subfield code="a">النسخة الثانية لقسم الأرشيف والمجموعات الخاصة (CA)، مجلدة مع: العقود الدرية في رد شبهات الوهابية؛ ودفع شبهة التشبيه والرد على المجسمة ممن ينتحل مذهب الإمام أحمد / للإمام أبي الفرج عبد الرحمن بن الجوزي الحنبلي، المتوفى ببغداد سنة 597 هـ.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
@@ -71,30 +63,24 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الوهابية</subfield>
-		<subfield code="x">تاريخ.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الوهابية</subfield>
-		<subfield code="x">الادب الجدلي.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Wahhābīyah</subfield>
 		<subfield code="x">History.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Wahhābīyah</subfield>
 		<subfield code="v">Controversial literature.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="700">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">ʻĀmilī, Muḥsin al-Ḥusaynī,</subfield>
 		<subfield code="d">1865-1952.</subfield>
 		<subfield code="t">ʻUqūd al-durrīyah fī radd shubuhāt al-Wahhābīyah.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="700">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Ibn al-Jawzī, Abū al-Faraj ʻAbd al-Raḥmān ibn ʻAlī,</subfield>
 		<subfield code="d">approximately 1116-1201.</subfield>
 		<subfield code="t">Daf‘ shubhat al-tashbīh wa-al-radd ‘alá al-mujassimah mimman yantaḥilu madhhab al-Imām Aḥmad.</subfield>
@@ -115,36 +101,62 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/0gb5mrxv</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">العاملي، محسن الحسيني،</subfield>
 		<subfield code="d">1865-1952،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">كشف الإرتياب في أتباع محمد بن عبد الوهاب  /</subfield>
 		<subfield code="c">تأليف العلامة السيد محسن الأمين الحسيني العاملي.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03</subfield>
 		<subfield code="a">دمشق :</subfield>
 		<subfield code="b">مطبعة إبن زيدون،</subfield>
 		<subfield code="c">1346 هـ.، [1927؟ م.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04</subfield>
 		<subfield code="a">18، 506، 26 صفحة ؛</subfield>
 		<subfield code="c">23 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;يتضمن تاريخ الوهابية وحروبهم وأعمالهم من ابتداء ظهورهم الى اليوم. وذكر فوائد مهمة يتوقف عليها رد معتقداتهم وتفصيل شبههم واعتقاداتهم كلها وردها مما لم يسبق له نظير الى اليوم.&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">مجلد مع: العقود الدرية في رد شبهات الوهابية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">501-00</subfield>
+		<subfield code="a">النسخة الثانية لقسم الأرشيف والمجموعات الخاصة (CA)، مجلدة مع: العقود الدرية في رد شبهات الوهابية؛ ودفع شبهة التشبيه والرد على المجسمة ممن ينتحل مذهب الإمام أحمد / للإمام أبي الفرج عبد الرحمن بن الجوزي الحنبلي، المتوفى ببغداد سنة 597 هـ.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">الوهابية</subfield>
+		<subfield code="x">تاريخ.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">الوهابية</subfield>
+		<subfield code="x">الادب الجدلي.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
-		<subfield code="6">700-05/(3/r</subfield>
+		<subfield code="6">700-07</subfield>
 		<subfield code="a">العاملي، محسن الحسيني،</subfield>
 		<subfield code="d">1865-1952.</subfield>
 		<subfield code="t">العقود الدرية في رد شبهات الوهابية.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
-		<subfield code="6">700-06/(3/r</subfield>
+		<subfield code="6">700-08</subfield>
 		<subfield code="a">ابن الجوزي، ابو الفرج عبد الرحمن بن علي،</subfield>
 		<subfield code="d">حوالي 1116-1201.</subfield>
 		<subfield code="t">دفع شبهة التشبيه والرد على المجسمة ممن ينتحل مذهب الإمام أحمد.</subfield>
@@ -161,5 +173,6 @@
 		<subfield code="i">LeBAU_b12388737</subfield>
 		<subfield code="s">aub_aco001493</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001493</subfield>
 	</datafield>
 </record>

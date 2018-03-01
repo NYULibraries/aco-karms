@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b1276873x</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1946    le b    ob    001 0 ara d</controlfield>
+	<controlfield tag="008">180301s1946    le b    ob    001 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">R143</subfield>
+		<subfield code="b">.K5 1946</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">610</subfield>
@@ -22,7 +26,7 @@
 		<subfield code="d">1889-</subfield>
 		<subfield code="e">author.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Ṭibb al-‘Arabī :</subfield>
 		<subfield code="b">muqaddimah li-dars musāhamat al-‘Arab fī al-ṭibb wa-al-‘ulūm al-muttaṣilah bi-hi /</subfield>
@@ -57,9 +61,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية (صفحات 262-264) وكشافات.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -67,22 +68,17 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الطب العربي.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الطب</subfield>
-		<subfield code="x">تاريخ.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Medicine, Arab.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Medicine</subfield>
 		<subfield code="x">History.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Abū ‘Izz al-Dīn, Muṣṭafá,</subfield>
 		<subfield code="e">translator.</subfield>
 	</datafield>
@@ -93,7 +89,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="765">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-08</subfield>
 		<subfield code="i">Translation of:</subfield>
 		<subfield code="t">Outline of Arabic contributions to medicine</subfield>
 		<subfield code="d">Beirut, Lebanon : American Press, 1946</subfield>
@@ -110,38 +106,51 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/80gb5szg</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">خير الله، أمين أ.،</subfield>
 		<subfield code="d">1889-</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">الطب العربي :</subfield>
 		<subfield code="b">مقدمة لدرس مساهمة العرب في الطب و العلوم المتصلة به /</subfield>
 		<subfield code="c">تأليف الدكتور أمين أسعد خير الله، أستاذ في الجراحة في الجامعة الأميركية في بيروت، جراح مستشفى خير الله في بيروت، عضو في الجمعية الجراحية الأميركية ؛ عرب هذا الكتاب عن الإنكليزية الدكتور مصطفى أبو عز الدين.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03</subfield>
 		<subfield code="a">بيروت :</subfield>
 		<subfield code="b">المطبعة الأميركانية،</subfield>
 		<subfield code="c">1946.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04</subfield>
 		<subfield code="a">274 صفحة، 1 ورقة لوحات غير مرقمة :</subfield>
 		<subfield code="b">خريطة ؛</subfield>
 		<subfield code="c">24 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية (صفحات 262-264) وكشافات.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">الطب العربي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">الطب</subfield>
+		<subfield code="x">تاريخ.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-05/(3/r</subfield>
+		<subfield code="6">700-07</subfield>
 		<subfield code="a">ابو عز الدين، مصطفى،</subfield>
-		<subfield code="e">مترجم. </subfield>
+		<subfield code="e">مترجم.</subfield>
 		<subfield code="4">trl.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">765-06/(3/r</subfield>
+		<subfield code="6">765-08</subfield>
 		<subfield code="i">ترجمة كتاب:</subfield>
 		<subfield code="t">Outline of Arabic contributions to medicine</subfield>
 		<subfield code="d">Beirut, Lebanon : American Press, 1946</subfield>
@@ -160,5 +169,6 @@
 		<subfield code="i">LeBAU_b1276873x</subfield>
 		<subfield code="s">aub_aco001583</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001583</subfield>
 	</datafield>
 </record>

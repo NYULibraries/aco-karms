@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12771259</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1923    le      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301s1923    le      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
 		<subfield code="h">eng</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS107</subfield>
+		<subfield code="b">.K46 1923</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">220.9</subfield>
@@ -58,9 +62,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">ترجمة كتاب: Biblical geography and history.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -70,40 +71,23 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="4" tag="630">
-		<subfield code="a">الكتاب المقدس</subfield>
-		<subfield code="x">تاريخ.</subfield>
-	</datafield>
-	<datafield ind1="0" ind2="4" tag="630">
-		<subfield code="a">الكتاب المقدس</subfield>
-		<subfield code="x">الجغرافيا.</subfield>
-	</datafield>
 	<datafield ind1="0" ind2="0" tag="630">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Bible</subfield>
 		<subfield code="x">History.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="630">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Bible</subfield>
 		<subfield code="x">Geography.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">فلسطين</subfield>
-		<subfield code="x">تاريخ.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">فلسطين</subfield>
-		<subfield code="x">الجغرافيا التاريخية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
-		<subfield code="a">Palestine</subfield>
-		<subfield code="x">History.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Palestine</subfield>
 		<subfield code="x">Historical geography.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Ghabrīl, Niqūlā Yaʻqūb,</subfield>
 		<subfield code="e">translator.</subfield>
 	</datafield>
@@ -123,32 +107,51 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/dfn2z8jw</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">كنت، شارلس فوستر،</subfield>
 		<subfield code="d">1867-1925،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">جغرافية الكتاب وتاريخه /</subfield>
 		<subfield code="c">تأليف تشارلس فوستر كنت، د.ف. ؛ ترجمه بتصرف عن الإنكليزية نقولا يعقوب غبريل.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03</subfield>
 		<subfield code="a">بيروت :</subfield>
 		<subfield code="b">المطبعة الأميركانية،</subfield>
 		<subfield code="c">1923.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04</subfield>
 		<subfield code="a">248 صفحة ؛</subfield>
 		<subfield code="c">21 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">ترجمة كتاب: Biblical geography and history.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">630-05</subfield>
+		<subfield code="a">الكتاب المقدس</subfield>
+		<subfield code="x">تاريخ.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">630-06</subfield>
+		<subfield code="a">الكتاب المقدس</subfield>
+		<subfield code="x">الجغرافيا.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-07</subfield>
+		<subfield code="a">فلسطين</subfield>
+		<subfield code="x">الجغرافيا التاريخية.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-05/(3/r</subfield>
+		<subfield code="6">700-08</subfield>
 		<subfield code="a">غبريل، نقولا يعقوب،</subfield>
-		<subfield code="e">مترجم. </subfield>
+		<subfield code="e">مترجم.</subfield>
 		<subfield code="4">trl.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -163,5 +166,6 @@
 		<subfield code="i">LeBAU_b12771259</subfield>
 		<subfield code="s">aub_aco001475</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001475</subfield>
 	</datafield>
 </record>

@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12479925</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1952    iq a    o     ||1 0 ara d</controlfield>
+	<controlfield tag="008">180301s1952    iq a    o     ||1 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
 		<subfield code="h">eng</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">QA7</subfield>
+		<subfield code="b">.W5312 1952</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">510</subfield>
@@ -59,9 +63,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">يتضمن كشاف.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -71,19 +72,12 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="541">
-		<subfield code="c">هبة؛</subfield>
-		<subfield code="a">محي الدين يوسف؛</subfield>
-		<subfield code="3">نسخة قسم الارشيف والمجموعات الخاصة.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الرياضيات.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Mathematics.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Yūsuf, Muḥyī al-Dīn,</subfield>
 		<subfield code="e">translator.</subfield>
 	</datafield>
@@ -94,7 +88,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="765">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-07</subfield>
 		<subfield code="i">Translation of:</subfield>
 		<subfield code="t">An introduction to mathematics</subfield>
 		<subfield code="d">London : Williams, [1961?]</subfield>
@@ -111,37 +105,51 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/189324sn</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">وايتهيد، الفرد نورث،</subfield>
 		<subfield code="d">1861-1947،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">مقدمة للرياضيات /</subfield>
 		<subfield code="c">تأليف وايت هيد ؛ ترجمة محي الدين يوسف.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03</subfield>
 		<subfield code="a">بغداد :</subfield>
 		<subfield code="b">المجمع العلمي العراقي،</subfield>
 		<subfield code="c">1371 [هـ.] = 1952 [م.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04</subfield>
 		<subfield code="a">242 صفحة :</subfield>
 		<subfield code="b">مصورات ؛</subfield>
 		<subfield code="c">23 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">يتضمن كشاف.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">541-00</subfield>
+		<subfield code="c">هبة؛</subfield>
+		<subfield code="a">محي الدين يوسف؛</subfield>
+		<subfield code="3">نسخة قسم الارشيف والمجموعات الخاصة.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">الرياضيات.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-05/(3/r</subfield>
+		<subfield code="6">700-06</subfield>
 		<subfield code="a">يوسف، محيي الدين،</subfield>
-		<subfield code="e">مترجم. </subfield>
+		<subfield code="e">مترجم.</subfield>
 		<subfield code="4">trl.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">765-06/(3/r</subfield>
+		<subfield code="6">765-07</subfield>
 		<subfield code="i">ترجمة كتاب:</subfield>
 		<subfield code="t">An introduction to mathematics</subfield>
 		<subfield code="d">London : Williams, [1961?]</subfield>
@@ -160,5 +168,6 @@
 		<subfield code="i">LeBAU_b12479925</subfield>
 		<subfield code="s">aub_aco001519</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001519</subfield>
 	</datafield>
 </record>

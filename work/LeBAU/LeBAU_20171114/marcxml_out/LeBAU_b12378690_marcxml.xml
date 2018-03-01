@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12378690</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126m19341937le      o     ||0 0 ara  </controlfield>
+	<controlfield tag="008">180301m19341937le      o     ||0 0 ara  </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP130.4</subfield>
+		<subfield code="b">.T34 1934</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">297.207</subfield>
@@ -50,12 +54,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;يقع في خمسة مجلدات أو عشرة أجزاء؛ يكون مجموعة من الفهارس زهاء ثلاثة آلاف صفحة.&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">10 أجزاء ببليوغرافية في 5 مجلدات مادية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -65,18 +63,8 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="588">
-		<subfield code="a">الوصف يستند الى الجزء الثالث.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="590">
-		<subfield code="a">الجزء الأول المجلد مع هذه الطبعة صادر عن مطبعة العرفان سنة 1333 [هـ.]، [1914؟ م.]</subfield>
-	</datafield>
-	<datafield ind1="0" ind2="4" tag="630">
-		<subfield code="a">قرآن</subfield>
-		<subfield code="x">تفسير وتأويل</subfield>
-		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
-	</datafield>
 	<datafield ind1="0" ind2="0" tag="630">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Qur'an</subfield>
 		<subfield code="x">Hermeneutics</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
@@ -88,14 +76,14 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="775">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-06</subfield>
 		<subfield code="t">Majmaʻ al-bayān fī tafsīr al-Qurʼān</subfield>
 		<subfield code="d">Bayrūt : Dār Maktabat al-Ḥayāt, 1961</subfield>
 		<subfield code="w">(OCoLC)784291030</subfield>
 		<subfield code="w">(OCoLC)784291030</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="775">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-07</subfield>
 		<subfield code="t">Majmaʻ al-bayān fī tafsīr al-Qurʼān</subfield>
 		<subfield code="d">Bayrūt : Dār al-Kutub al-‘Ilmīyah, 1997</subfield>
 		<subfield code="w">(OCoLC)784521489</subfield>
@@ -111,37 +99,59 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/7m0cg42q</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">الطبرسي، الفضل بن الحسن،</subfield>
 		<subfield code="d">-1153،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">مجمع البيان في تفسير القرآن /</subfield>
 		<subfield code="c">لمؤلفه الشيخ أبو علي الفضل بن الحسن الطبرسي، من أكابر علماء الإمامية في القرن السادس.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03</subfield>
 		<subfield code="a">صيدا :</subfield>
 		<subfield code="b">مطبعة العرفان،</subfield>
 		<subfield code="c">1353-1356 هـ. = 1934-1937 م.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04</subfield>
 		<subfield code="a">5 أجزاء ؛</subfield>
 		<subfield code="c">30 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;يقع في خمسة مجلدات أو عشرة أجزاء؛ يكون مجموعة من الفهارس زهاء ثلاثة آلاف صفحة.&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">10 أجزاء ببليوغرافية في 5 مجلدات مادية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">588-00</subfield>
+		<subfield code="a">الوصف يستند الى الجزء الثالث.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">590-00</subfield>
+		<subfield code="a">الجزء الأول المجلد مع هذه الطبعة صادر عن مطبعة العرفان سنة 1333 [هـ.]، [1914؟ م.]</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">630-05</subfield>
+		<subfield code="a">قرآن</subfield>
+		<subfield code="x">تفسير وتأويل</subfield>
+		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
+	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">775-05/(3/r</subfield>
+		<subfield code="6">775-06</subfield>
 		<subfield code="t">مجمع البيان في تفسير القرآن</subfield>
 		<subfield code="d">بيروت : دار مكتبة الحياة، 1961</subfield>
 		<subfield code="w">b12378719</subfield>
 		<subfield code="w">(OCoLC)784291030</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">775-06/(3/r</subfield>
+		<subfield code="6">775-07</subfield>
 		<subfield code="t">مجمع البيان في تفسير القرآن</subfield>
 		<subfield code="d">بيروت : دار الكتب العلمية، 1997</subfield>
 		<subfield code="w">b12839553</subfield>
@@ -163,5 +173,10 @@
 		<subfield code="s">aub_aco001431:v.7-8</subfield>
 		<subfield code="s">aub_aco001432:v.9-10</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001428:v.1-2</subfield>
+		<subfield code="s">aub_aco001429:v.3-4</subfield>
+		<subfield code="s">aub_aco001430:v.5-6</subfield>
+		<subfield code="s">aub_aco001431:v.7-8</subfield>
+		<subfield code="s">aub_aco001432:v.9-10</subfield>
 	</datafield>
 </record>

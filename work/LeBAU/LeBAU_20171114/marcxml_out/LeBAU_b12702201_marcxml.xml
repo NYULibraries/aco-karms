@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12702201</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1929    le bcf  ob    ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301s1929    le bcf  ob    ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS97.6.I27</subfield>
+		<subfield code="b">A284 1929</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">956.9</subfield>
@@ -18,8 +22,8 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="6">880-01</subfield>
-		<subfield code="a">Abū ʻIzz al-Dīn, Sulaymān،</subfield>
-		<subfield code="d">1871-1933,</subfield>
+		<subfield code="a">Abū ʻIzz al-Dīn, Sulaymān,</subfield>
+		<subfield code="d">1874-1933,</subfield>
 		<subfield code="e">author.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
@@ -51,13 +55,7 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;هو تاريخ بدء النهضة الحديثة في الشرق الأدنى وأحوال سوريا في عهد محمد علي وثورات السوريين ودروز حوران على حكومته وصفحة من تاريخ المسألة الشرقية ومطامع دول أوروبا في البلاد العثمانية.&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية (صفحات ر-ش)</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
@@ -66,38 +64,24 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="4" tag="600">
-		<subfield code="a">إبراهيم،</subfield>
-		<subfield code="c">باشا،</subfield>
-		<subfield code="d">1789-1848.</subfield>
-	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Ibrahim</subfield>
 		<subfield code="c">Pasha,</subfield>
 		<subfield code="d">1789-1848.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">المسألة الشرقية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Eastern question.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">سوريا</subfield>
-		<subfield code="x">تاريخ</subfield>
-		<subfield code="y">القرن التاسع عشر.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">لبنان</subfield>
-		<subfield code="x">تاريخ</subfield>
-		<subfield code="y">القرن التاسع عشر.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Syria</subfield>
 		<subfield code="x">History</subfield>
 		<subfield code="y">19th century.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Lebanon</subfield>
 		<subfield code="x">History</subfield>
 		<subfield code="y">19th century.</subfield>
@@ -110,7 +94,7 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Abū ʻIzz al-Dīn, Sulaymān، 1871-1933, author.</subfield>
+		<subfield code="a">Abū ʻIzz al-Dīn, Sulaymān, 1874-1933, author.</subfield>
 		<subfield code="t">Ibrāhīm Bāshā fī Sūriyā</subfield>
 		<subfield code="w">(LeBAU)b12702201</subfield>
 	</datafield>
@@ -118,28 +102,58 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/vx0k6m29</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">ابو عز الدين، سليمان،</subfield>
 		<subfield code="d">1871-1933،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">إبراهيم باشا في سوريا /</subfield>
 		<subfield code="c">تأليف سليمان أبو عز الدين.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03</subfield>
 		<subfield code="a">بيروت :</subfield>
 		<subfield code="b">المطبعة العلمية،</subfield>
 		<subfield code="c">1929.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04</subfield>
 		<subfield code="a">344، [ا]-ش صفحة، 9 ورقات لوحات غير مرقمة :</subfield>
 		<subfield code="b">مصورات، خرائط، صور شخصانية ؛</subfield>
 		<subfield code="c">24 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;هو تاريخ بدء النهضة الحديثة في الشرق الأدنى وأحوال سوريا في عهد محمد علي وثورات السوريين ودروز حوران على حكومته وصفحة من تاريخ المسألة الشرقية ومطامع دول أوروبا في البلاد العثمانية.&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية (صفحات ر-ش)</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">600-05</subfield>
+		<subfield code="a">إبراهيم،</subfield>
+		<subfield code="c">باشا،</subfield>
+		<subfield code="d">1789-1848.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">المسألة الشرقية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-07</subfield>
+		<subfield code="a">سوريا</subfield>
+		<subfield code="x">تاريخ</subfield>
+		<subfield code="y">القرن التاسع عشر.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-08</subfield>
+		<subfield code="a">لبنان</subfield>
+		<subfield code="x">تاريخ</subfield>
+		<subfield code="y">القرن التاسع عشر.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -153,5 +167,6 @@
 		<subfield code="i">LeBAU_b12702201</subfield>
 		<subfield code="s">aub_aco001685</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001685</subfield>
 	</datafield>
 </record>

@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12777365</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126m19131914le      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301m19131914le      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP130.4</subfield>
+		<subfield code="b">.B28 1913</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">297.29</subfield>
@@ -61,9 +65,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="501">
-		<subfield code="a">مجلد 2 جزء ببليوغرافي في 1 جزء مادي.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -71,48 +72,30 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الاسلام</subfield>
-		<subfield code="x">اعمال دفع المطاعن الدينية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الاسلام</subfield>
-		<subfield code="x">علاقات</subfield>
-		<subfield code="x">المسيحية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الاسلام</subfield>
-		<subfield code="x">علاقات</subfield>
-		<subfield code="x">اليهودية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">المسيحية والديانات الاخرى</subfield>
-		<subfield code="x">الاسلام.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">اليهودية</subfield>
-		<subfield code="x">علاقات</subfield>
-		<subfield code="x">الاسلام.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Islam</subfield>
 		<subfield code="x">Apologetic works.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Islam</subfield>
 		<subfield code="x">Relations</subfield>
 		<subfield code="x">Christianity.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-09</subfield>
 		<subfield code="a">Islam</subfield>
 		<subfield code="x">Relations</subfield>
 		<subfield code="x">Judaism.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-10</subfield>
 		<subfield code="a">Christianity and other religions</subfield>
 		<subfield code="x">Islam.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-11</subfield>
 		<subfield code="a">Judaism</subfield>
 		<subfield code="x">Relations</subfield>
 		<subfield code="x">Islam.</subfield>
@@ -133,36 +116,68 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/n5tb2xtk</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">البلاغي، محمد جواد،</subfield>
 		<subfield code="d">-1933،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">كتاب الهدى الى دين المصطفى /</subfield>
 		<subfield code="c">لأقل خدام الشريعة المقدسة النجفي.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="880">
-		<subfield code="6">246-03/(3/r</subfield>
+		<subfield code="6">246-03</subfield>
 		<subfield code="a">الهدى الى دين المصطفى</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">246-04/(3/r</subfield>
+		<subfield code="6">246-04</subfield>
 		<subfield code="i">العنوان على صفحة عنوان الجزء الثاني:</subfield>
 		<subfield code="a">al,Houda ila Dine al-Moustafa</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-05/(3/r</subfield>
+		<subfield code="6">264-05</subfield>
 		<subfield code="a">صيدا :</subfield>
 		<subfield code="b">مطبعة العرفان،</subfield>
 		<subfield code="c">1330-1332 [هـ.]، [1913-1914؟ م.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-06/(3/r</subfield>
+		<subfield code="6">300-06</subfield>
 		<subfield code="a">2 جزء ؛</subfield>
 		<subfield code="c">23 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">501-00</subfield>
+		<subfield code="a">مجلد 2 جزء ببليوغرافي في 1 جزء مادي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">الاسلام</subfield>
+		<subfield code="x">اعمال دفع المطاعن الدينية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-08</subfield>
+		<subfield code="a">الاسلام</subfield>
+		<subfield code="x">علاقات</subfield>
+		<subfield code="x">المسيحية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-09</subfield>
+		<subfield code="a">الاسلام</subfield>
+		<subfield code="x">علاقات</subfield>
+		<subfield code="x">اليهودية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-10</subfield>
+		<subfield code="a">المسيحية والديانات الاخرى</subfield>
+		<subfield code="x">الاسلام.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-11</subfield>
+		<subfield code="a">اليهودية</subfield>
+		<subfield code="x">علاقات</subfield>
+		<subfield code="x">الاسلام.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -176,5 +191,6 @@
 		<subfield code="i">LeBAU_b12777365</subfield>
 		<subfield code="s">aub_aco001437:v.1-2</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001437:v.1-2</subfield>
 	</datafield>
 </record>

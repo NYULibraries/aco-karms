@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12702493</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1946    sy bf   o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301s1946    sy bf   o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
 		<subfield code="h">eng</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS63</subfield>
+		<subfield code="b">.A512 1946</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">956.9</subfield>
@@ -67,54 +71,36 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الحرب العالمية، 1914-1918</subfield>
-		<subfield code="z">البلدان العربية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الوحدة العربية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">القومية</subfield>
-		<subfield code="z">البلدان العربية</subfield>
-		<subfield code="x">تاريخ</subfield>
-		<subfield code="y">القرن العشرون.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">World War, 1914-1918</subfield>
 		<subfield code="z">Arab countries.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Panarabism.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Nationalism</subfield>
 		<subfield code="z">Arab countries</subfield>
 		<subfield code="x">History</subfield>
 		<subfield code="y">20th century.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">البلدان العربية</subfield>
-		<subfield code="x">تاريخ</subfield>
-		<subfield code="y">القرن العشرون.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">البلدان العربية</subfield>
-		<subfield code="x">السياسة والحكومة</subfield>
-		<subfield code="y">القرن العشرون.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Arab countries</subfield>
 		<subfield code="x">History</subfield>
 		<subfield code="y">20th century.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-09</subfield>
 		<subfield code="a">Arab countries</subfield>
 		<subfield code="x">Politics and government</subfield>
 		<subfield code="y">20th century.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-10</subfield>
 		<subfield code="a">Rikābī, ‘Alī Ḥaydar,</subfield>
 		<subfield code="e">translator.</subfield>
 	</datafield>
@@ -125,7 +111,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="765">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-11</subfield>
 		<subfield code="i">Translation of:</subfield>
 		<subfield code="t">Arab awakening : the story of the Arab National movement.</subfield>
 		<subfield code="d">New York : J.B. Lippincott, 1939</subfield>
@@ -133,7 +119,7 @@
 		<subfield code="w">(OCoLC)00359649</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="765">
-		<subfield code="6">880-07</subfield>
+		<subfield code="6">880-12</subfield>
 		<subfield code="i">Translation of:</subfield>
 		<subfield code="t">Arab awakening : the story of the Arab National movement.</subfield>
 		<subfield code="d">Beirut : Khayats, [1938]</subfield>
@@ -141,7 +127,7 @@
 		<subfield code="w">(OCoLC)318937085</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="765">
-		<subfield code="6">880-08</subfield>
+		<subfield code="6">880-13</subfield>
 		<subfield code="i">Translation of:</subfield>
 		<subfield code="t">Arab awakening : the story of the Arab National movement.</subfield>
 		<subfield code="d">London : Hamish Hamilton, 1938, repr.1945</subfield>
@@ -149,7 +135,7 @@
 		<subfield code="w">(OCoLC)07549762</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="765">
-		<subfield code="6">880-09</subfield>
+		<subfield code="6">880-14</subfield>
 		<subfield code="i">Translation of:</subfield>
 		<subfield code="t">Arab awakening : the story of the Arab National movement.</subfield>
 		<subfield code="d">Beirut : Khayat's College Book Cooperative, 1938, repr. 1955</subfield>
@@ -157,7 +143,7 @@
 		<subfield code="w">(OCoLC)03945466</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="775">
-		<subfield code="6">880-10</subfield>
+		<subfield code="6">880-15</subfield>
 		<subfield code="t">Yaqaẓat al-‘Arab: tārīkh ḥarakat al-‘Arab al-qawmīyah.</subfield>
 		<subfield code="b">al-Ṭab‘ah al-ūlá.</subfield>
 		<subfield code="d">Bayrūt : Dār al-‘Ilm lil-Malāyīn, 1962</subfield>
@@ -165,7 +151,7 @@
 		<subfield code="w">b12702481</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="775">
-		<subfield code="6">880-11</subfield>
+		<subfield code="6">880-16</subfield>
 		<subfield code="t">Yaqaẓat al-‘Arab: tārīkh ḥarakat al-‘Arab al-qawmīyah.</subfield>
 		<subfield code="b">al-Ṭab‘ah al-thānīyah</subfield>
 		<subfield code="d">Bayrūt : Dār al-‘Ilm lil-Malāyīn, 1966</subfield>
@@ -181,36 +167,64 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/h44j155t</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">انطونيوس، جورج،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">يقظة العرب /</subfield>
 		<subfield code="c">جورج أنطونيوس ؛ تعريب علي حيدر الركابي.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03</subfield>
 		<subfield code="a">دمشق :</subfield>
 		<subfield code="b">مطبعة الترقي،</subfield>
 		<subfield code="c">1365 [هـ.] = [1946 [م.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04</subfield>
 		<subfield code="a">463 صفحة، 5 ورقات لوحات غير مرقمة :</subfield>
 		<subfield code="b">خرائط مطوية وملونة ؛</subfield>
 		<subfield code="c">19 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">الحرب العالمية، 1914-1918</subfield>
+		<subfield code="z">البلدان العربية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">الوحدة العربية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">القومية</subfield>
+		<subfield code="z">البلدان العربية</subfield>
+		<subfield code="x">تاريخ</subfield>
+		<subfield code="y">القرن العشرون.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-08</subfield>
+		<subfield code="a">البلدان العربية</subfield>
+		<subfield code="x">تاريخ</subfield>
+		<subfield code="y">القرن العشرون.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-09</subfield>
+		<subfield code="a">البلدان العربية</subfield>
+		<subfield code="x">السياسة والحكومة</subfield>
+		<subfield code="y">القرن العشرون.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-05/(3/r</subfield>
+		<subfield code="6">700-10</subfield>
 		<subfield code="a">الركابي، علي حيدر،</subfield>
-		<subfield code="e">مترجم. </subfield>
+		<subfield code="e">مترجم.</subfield>
 		<subfield code="4">trl.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">765-06/(3/r</subfield>
+		<subfield code="6">765-11</subfield>
 		<subfield code="i">ترجمة كتاب:</subfield>
 		<subfield code="t">Arab awakening : the story of the Arab National movement.</subfield>
 		<subfield code="d">New York : J.B. Lippincott, 1939</subfield>
@@ -218,7 +232,7 @@
 		<subfield code="w">(OCoLC)00359649</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">765-07/(3/r</subfield>
+		<subfield code="6">765-12</subfield>
 		<subfield code="i">ترجمة كتاب:</subfield>
 		<subfield code="t">Arab awakening : the story of the Arab National movement.</subfield>
 		<subfield code="d">Beirut : Khayat, [1938]</subfield>
@@ -226,7 +240,7 @@
 		<subfield code="w">(OCoLC)318937085</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">765-08/(3/r</subfield>
+		<subfield code="6">765-13</subfield>
 		<subfield code="i">ترجمة كتاب:</subfield>
 		<subfield code="t">Arab awakening : the story of the Arab National movement.</subfield>
 		<subfield code="d">London : Hamish Hamilton, 1938, repr.1945</subfield>
@@ -234,7 +248,7 @@
 		<subfield code="w">(OCoLC)07549762</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">765-09/(3/r</subfield>
+		<subfield code="6">765-14</subfield>
 		<subfield code="i">ترجمة كتاب:</subfield>
 		<subfield code="t">Arab awakening : the story of the Arab National movement.</subfield>
 		<subfield code="d">Beirut : Khayat's College Book Cooperative, 1938, repr. 1955</subfield>
@@ -242,7 +256,7 @@
 		<subfield code="w">(OCoLC)03945466</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">775-10/(3/r</subfield>
+		<subfield code="6">775-15</subfield>
 		<subfield code="t">يقظة العرب : تاريخ حركة العرب القومية.</subfield>
 		<subfield code="b">ط. 1</subfield>
 		<subfield code="d">بيروت : دار العلم للملايين، 1962</subfield>
@@ -250,7 +264,7 @@
 		<subfield code="w">b12702481</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">775-11/(3/r</subfield>
+		<subfield code="6">775-16</subfield>
 		<subfield code="t">يقظة العرب : تاريخ حركة العرب القومية</subfield>
 		<subfield code="b">الطبعة الثانية</subfield>
 		<subfield code="d">بيروت : دار العلم للملايين، 1966</subfield>
@@ -268,5 +282,6 @@
 		<subfield code="i">LeBAU_b12702493</subfield>
 		<subfield code="s">aub_aco001690</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001690</subfield>
 	</datafield>
 </record>

@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12770516</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1925    ua      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301s1925    ua      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP189</subfield>
+		<subfield code="b">.M84 1925</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">181.07</subfield>
@@ -29,11 +33,8 @@
 		<subfield code="c">ta’līf al-Ustādh al-Imām al-Shaykh Muḥammad ‘Abduh ; jarradahu min al-juz’ al-thānī min tārīkhihi wa-huwa juz’ munsha’ātihi wa-ṭab‘ihi, murīduhu  al-Sayyid Muḥammad Rashīd Riḍā, munshi’ Majallat al-Manār.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
-		<subfield code="a">al-‘aqīdah al-Muḥammadīyah</subfield>
-	</datafield>
-	<datafield ind1="3" ind2="0" tag="246">
 		<subfield code="6">880-03</subfield>
-		<subfield code="a">العقيدة المحمدية</subfield>
+		<subfield code="a">‘Aqīdah al-Muḥammadīyah</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
 		<subfield code="6">880-04</subfield>
@@ -71,37 +72,30 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">التصوف.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الفلسفة الاسلامية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الاسلام</subfield>
-		<subfield code="x">عقائد.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Sufism.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Islamic philosophy.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-09</subfield>
 		<subfield code="a">Islam</subfield>
 		<subfield code="x">Doctrines.</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-10</subfield>
+		<subfield code="a">Muḥammad Rashīd Riḍā,</subfield>
+		<subfield code="d">1865-1935,</subfield>
+		<subfield code="e">compiler.</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="2" tag="700">
-		<subfield code="6">880-07</subfield>
+		<subfield code="6">880-11</subfield>
 		<subfield code="a">Muḥammad ʻAbduh,</subfield>
 		<subfield code="d">1849-1905.</subfield>
 		<subfield code="t">‘Aqīdah al-Muḥammadīyah.</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="700">
-		<subfield code="6">880-08</subfield>
-		<subfield code="a"> Muḥammad Rashīd Riḍā,</subfield>
-		<subfield code="d">1865-1935،</subfield>
-		<subfield code="e">compiler.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Jafet Memorial Library.</subfield>
@@ -119,48 +113,61 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/zkh18gk6</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">محمد عبده،</subfield>
 		<subfield code="d">1849-1905،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">رسالة الواردات في نظريات المتكلمين و الصوفية وفي الفلسفة الإلهية ؛</subfield>
 		<subfield code="b">ويليها العقيدة المحمدية /</subfield>
 		<subfield code="c">تأليف الأستاذ الإمام الشيخ محمد عبده ؛ جرده من الجزء الثاني من تاريخه وهو جزء منشآته وطبعه، مريده السيد محمد رشيد رضا، منشئ مجلة المنار.</subfield>
 	</datafield>
-	<datafield ind1="3" ind2="0" tag="880">
-		<subfield code="6">246-03/(3/r</subfield>
-		<subfield code="a">al-‘aqīdah al-Muḥammadīyah</subfield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">246-03</subfield>
+		<subfield code="a">عقيدة المحمدية</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-04/(3/r</subfield>
+		<subfield code="6">250-04</subfield>
 		<subfield code="a">الطبعة الثانية.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-05/(3/r</subfield>
+		<subfield code="6">264-05</subfield>
 		<subfield code="a">مصر :</subfield>
 		<subfield code="b">مطبعة المنار،</subfield>
 		<subfield code="c">1344 هـ. = 1925 م.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-06/(3/r</subfield>
+		<subfield code="6">300-06</subfield>
 		<subfield code="a">31 صفحة ؛</subfield>
 		<subfield code="c">24 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">التصوف.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-08</subfield>
+		<subfield code="a">الفلسفة الاسلامية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-09</subfield>
+		<subfield code="a">الاسلام</subfield>
+		<subfield code="x">عقائد.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-10</subfield>
+		<subfield code="a">محمد رشيد رضا،</subfield>
+		<subfield code="e">معد.</subfield>
+		<subfield code="4">com.</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="2" tag="880">
-		<subfield code="6">700-07/(3/r</subfield>
+		<subfield code="6">700-11</subfield>
 		<subfield code="a">محمد عبده،</subfield>
 		<subfield code="d">1849-1905.</subfield>
 		<subfield code="t">العقيدة المحمدية.</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-08/(3/r</subfield>
-		<subfield code="a">محمد رشيد رضا،</subfield>
-		<subfield code="e">معد. </subfield>
-		<subfield code="4">com.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -174,5 +181,6 @@
 		<subfield code="i">LeBAU_b12770516</subfield>
 		<subfield code="s">aub_aco001464</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001464</subfield>
 	</datafield>
 </record>

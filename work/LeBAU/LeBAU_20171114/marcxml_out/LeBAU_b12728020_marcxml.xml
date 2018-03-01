@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b12728020</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1954    ua abcf o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301s1954    ua abcf o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS119.7</subfield>
+		<subfield code="b">.H858 1954</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">956.9</subfield>
@@ -25,8 +29,8 @@
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">Ḥaqāʼiq ʻan qaḍīyat Filasṭīn :</subfield>
-		<subfield code="b">ṣarraḥa bi-hā Muḥammad Amīn al-Ḥusaynī, muftī Filasṭīn wa-ra’īs al-Hay’ah al-‘Arabīyah al-‘Ulyā, wa-kashafa al-sitār ʻan baʻḍ al-muʼāmarāt al-dawlīyah al-Yahūdīyah allatī kānat min aham al-asbāb fī kārithat Filasṭīn.</subfield>
-		<subfield code="c">أصدره مكتب الهيئة العربية العليا لفلسطين.</subfield>
+		<subfield code="b">ṣarraḥa bi-hā Muḥammad Amīn al-Ḥusaynī, muftī Filasṭīn wa-ra’īs al-Hay’ah al-‘Arabīyah al-‘Ulyā,  wa kashafa al-sitār ʻan baʻḍ al-muʼāmarāt al-dawlīyah al-Yahūdīyah allatī kānat min aham al-asbāb fī kārithat Filasṭīn /</subfield>
+		<subfield code="c"> Aṣdarah Maktab al-Hay’ah al-‘Arabīyah al-‘Ulyā li-Filasṭīn.  </subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="264">
 		<subfield code="6">880-03</subfield>
@@ -52,6 +56,12 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Non-Latin script record</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Non-Latin script record</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -61,36 +71,25 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الفلسطينيون العرب</subfield>
-		<subfield code="x">السياسة والحكومة.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">العلاقات اليهودية العربية</subfield>
-		<subfield code="x">تاريخ</subfield>
-		<subfield code="y">1917-1948.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Palestinian Arabs</subfield>
 		<subfield code="x">Politics and government.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Jewish-Arab relations</subfield>
 		<subfield code="x">History</subfield>
 		<subfield code="y">1917-1948.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">فلسطين</subfield>
-		<subfield code="x">السياسة والحكومة</subfield>
-		<subfield code="y">1917-1948.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Palestine</subfield>
 		<subfield code="x">Politics and government</subfield>
 		<subfield code="y">1917-1948.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Hayʼah al-ʻArabīyah al-ʻUlyā li-Filasṭīn,</subfield>
 		<subfield code="e">issuing body.</subfield>
 	</datafield>
@@ -110,33 +109,50 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/wdbrv6p5</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">الحسيني، امين،</subfield>
 		<subfield code="d">1893-1974،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">حقائق عن قضية فلسطين :</subfield>
-		<subfield code="b">صرح بها محمد امين الحسيني، مفتي فلسطين ورئيس الهيئة العربية العليا، وكشف الستار عن بعض المؤامرات الدولية واليهودية التي كانت من أهم الأسباب في كارثة فلسطين /</subfield>
+		<subfield code="b">صرح بها محمد امين الحسيني، مفتي فلسطين ورئيس الهيئة العربية العليا، وكشف الستار عن بعض المؤامرات الدولية واليهودية التي كانت من أهم الأسباب في كارثة فلسطين / أصدره مكتب الهيئة العربية العليا لفلسطين.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03/(3/r</subfield>
+		<subfield code="6">264-03</subfield>
 		<subfield code="a">القاهرة :</subfield>
 		<subfield code="b">مكتب الهيئة العربية العليا لفلسطين،</subfield>
 		<subfield code="c">1373 هـ. = 1954 م.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04/(3/r</subfield>
+		<subfield code="6">300-04</subfield>
 		<subfield code="a">205 صفحات :</subfield>
 		<subfield code="b">مصورات، خرائط (بعضها مطوي)، صور شخصانية، صورة طبق الأصل ؛</subfield>
 		<subfield code="c">22 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">الفلسطينيون العرب</subfield>
+		<subfield code="x">السياسة والحكومة.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">العلاقات اليهودية العربية</subfield>
+		<subfield code="x">تاريخ</subfield>
+		<subfield code="y">1917-1948.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-07</subfield>
+		<subfield code="a">فلسطين</subfield>
+		<subfield code="x">السياسة والحكومة</subfield>
+		<subfield code="y">1917-1948.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="880">
-		<subfield code="6">710-05/(3/r</subfield>
+		<subfield code="6">710-08</subfield>
 		<subfield code="a">الهيئة العربية العليا لفلسطين،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -151,5 +167,6 @@
 		<subfield code="i">LeBAU_b12728020</subfield>
 		<subfield code="s">aub_aco001709</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001709</subfield>
 	</datafield>
 </record>

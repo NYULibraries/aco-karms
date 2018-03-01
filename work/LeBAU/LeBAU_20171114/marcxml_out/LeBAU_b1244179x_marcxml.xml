@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b1244179x</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126m19511955le      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301m19511955le      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
 		<subfield code="a">fre</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">KZ934.5</subfield>
+		<subfield code="b">.L43 1951</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">341.2</subfield>
@@ -36,13 +40,12 @@
 		<subfield code="c">‘iniya bi-jam‘ihā wa-tartīb abwābihā Īlī Yūsuf al-Bustānī = Recueil de traites et conventions bilatérales : avec un index des accords généraux internationaux auxquels le Liban a adhéré / par Elie J. Boustany.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="1" tag="246">
-		<subfield code="a">Majmū‘at al-mu‘āhadāt wa-al-ittifāqiyāt al-thunā’īyah wa-al-muta‘addidat al-aṭrāf</subfield>
-		<subfield code="i">volume 2 has title:</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="i">volume 2 has title: Majmū‘at al-mu‘āhadāt wa-al-ittifāqiyāt al-thunā’īyah wa-al-muta‘addidat al-aṭrāf </subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="246">
-		<subfield code="6">880-04</subfield>
-		<subfield code="i">عنوان الجزء الثاني:</subfield>
-		<subfield code="a">مجموعة المعاهدات والإتفاقيات الثنائية والمتعددة الأطراف</subfield>
+		<subfield code="i">volume 2 has title:</subfield>
+		<subfield code="a">Recueil de traités et conventions bilatérales : avec un index des accords généraux internationaux auxquels le Liban a adhéré</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="264">
 		<subfield code="6">880-05</subfield>
@@ -67,20 +70,7 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;قد رأت وزارة العدل بالإشتراك مع وزارة الخارجية والمغتربين أن تعمد الى نشر مجموعة كاملة من الإتفاقات الدولية تنقسم الى قسمين&quot;--صفحة 552.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">في رأس العنوان: الجمهورية اللبنانية، وزارة العدلية والخارجية والمغتربين.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
-	</datafield>
-	<datafield ind1="0" ind2="0" tag="505">
-		<subfield code="t">مجموعة المعاهدات والإتفاقيات الدولية الثنائية:</subfield>
-		<subfield code="g">القسم الأول.</subfield>
-		<subfield code="t">المعاهدات والإتفاقات الثنائية مرتبة وفقا لأسماء الدول المتعاقدة وحسب احرف الهجاء الفرنسية البلدان المتعاقدة</subfield>
-		<subfield code="g">القسم الثاني.</subfield>
-		<subfield code="t">الإتفاقات الدولية العامة التي إنضم اليها لبنان. </subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
@@ -89,24 +79,14 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="546">
-		<subfield code="a">النص بالعربية والفرنسية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="588">
-		<subfield code="a">الوصف يستند الى الجزء الأول.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">لبنان</subfield>
-		<subfield code="x">العلاقات الخارجية</subfield>
-		<subfield code="x">معاهدات.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Lebanon</subfield>
 		<subfield code="x">Foreign relations</subfield>
 		<subfield code="v">Treaties.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-07</subfield>
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Bustānī, Īlī Yūsuf,</subfield>
 		<subfield code="e">compiler.</subfield>
 	</datafield>
@@ -126,41 +106,71 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/ns1rng60</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">110-01/(3/r</subfield>
+		<subfield code="6">110-01</subfield>
 		<subfield code="a">لبنان،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">240-02/(3/r</subfield>
+		<subfield code="6">240-02</subfield>
 		<subfield code="a">معاهدات، الخ</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-03/(3/r</subfield>
+		<subfield code="6">245-03</subfield>
 		<subfield code="a">مجموعة المعاهدات و الإتفاقيات الدولية الثنائية :</subfield>
 		<subfield code="b">مع لائحة الإتفاقات الدولية العامة التي انضم لبنان إليها /</subfield>
 		<subfield code="c">عني بجمعها وترتيب أبوابها إيلي يوسف البستاني، رئيس دائرة في وزارة العدلية = Recueil de traités et conventions bilatérales : avec un index des accords généraux internationaux auxquels le Liban a adhéré / par Elie J. Boustany.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">246-04/(3/r</subfield>
-		<subfield code="i">volume 2 has title:</subfield>
-		<subfield code="a">Recueil de traités et conventions bilatérales : avec un index des accords généraux internationaux auxquels le Liban a adhéré</subfield>
+		<subfield code="6">246-04</subfield>
+		<subfield code="i">عنوان الجزء الثاني:</subfield>
+		<subfield code="a">مجموعة المعاهدات والإتفاقيات الثنائية والمتعددة الأطراف</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-05/(3/r</subfield>
+		<subfield code="6">264-05</subfield>
 		<subfield code="a">بيروت :</subfield>
 		<subfield code="b">وزارة العدلية،</subfield>
 		<subfield code="c">1951-1955.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-06/(3/r</subfield>
+		<subfield code="6">300-06</subfield>
 		<subfield code="a">2 جزء ؛</subfield>
 		<subfield code="c">25 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;قد رأت وزارة العدل بالإشتراك مع وزارة الخارجية والمغتربين أن تعمد الى نشر مجموعة كاملة من الإتفاقات الدولية تنقسم الى قسمين&quot;--صفحة 552.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">في رأس العنوان: الجمهورية اللبنانية، وزارة العدلية والخارجية والمغتربين.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">505-00</subfield>
+		<subfield code="t">مجموعة المعاهدات والإتفاقيات الدولية الثنائية:</subfield>
+		<subfield code="g">القسم الأول.</subfield>
+		<subfield code="t">المعاهدات والإتفاقات الثنائية مرتبة وفقا لأسماء الدول المتعاقدة وحسب احرف الهجاء الفرنسية البلدان المتعاقدة</subfield>
+		<subfield code="g">القسم الثاني.</subfield>
+		<subfield code="t">الإتفاقات الدولية العامة التي إنضم اليها لبنان.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">546-00</subfield>
+		<subfield code="a">النص بالعربية والفرنسية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">588-00</subfield>
+		<subfield code="a">الوصف يستند الى الجزء الأول.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-07</subfield>
+		<subfield code="a">لبنان</subfield>
+		<subfield code="x">العلاقات الخارجية</subfield>
+		<subfield code="x">معاهدات.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-07/(3/r</subfield>
+		<subfield code="6">700-08</subfield>
 		<subfield code="a">البستاني، ايلي يوسف،</subfield>
-		<subfield code="e">معد. </subfield>
+		<subfield code="e">معد.</subfield>
 		<subfield code="4">com.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -176,5 +186,7 @@
 		<subfield code="s">aub_aco001441:v.1</subfield>
 		<subfield code="s">aub_aco001442:v.2</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001441:v.1</subfield>
+		<subfield code="s">aub_aco001442:v.2</subfield>
 	</datafield>
 </record>

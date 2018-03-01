@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">b13627375</controlfield>
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180126s1930    iq      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">180301s1930    iq      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS70.96.G7</subfield>
+		<subfield code="b">I73 1930</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">341.273</subfield>
@@ -61,53 +65,33 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">العراق</subfield>
-		<subfield code="x">العلاقات الخارجية</subfield>
-		<subfield code="x">معاهدات</subfield>
-		<subfield code="z">بريطانيا العظمى.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">بريطانيا العظمى</subfield>
-		<subfield code="x">العلاقات الخارجية</subfield>
-		<subfield code="x">معاهدات</subfield>
-		<subfield code="z">العراق.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">العراق</subfield>
-		<subfield code="x">العلاقات الخارجية</subfield>
-		<subfield code="x">معاهدات</subfield>
-		<subfield code="z">الولايات المتحدة.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">الولايات المتحدة</subfield>
-		<subfield code="x">العلاقات الخارجية</subfield>
-		<subfield code="x">معاهدات</subfield>
-		<subfield code="z">العراق.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Iraq</subfield>
 		<subfield code="x">Foreign relations</subfield>
 		<subfield code="x">Treaties</subfield>
 		<subfield code="z">Great Britain.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Great Britain</subfield>
 		<subfield code="x">Foreign relations</subfield>
 		<subfield code="x">Treaties</subfield>
 		<subfield code="z">Iraq.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Iraq</subfield>
 		<subfield code="x">Foreign relations</subfield>
 		<subfield code="x">Treaties</subfield>
 		<subfield code="z">United states.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
-		<subfield code="a">United states</subfield>
+		<subfield code="6">880-09</subfield>
+		<subfield code="a">Iraq</subfield>
 		<subfield code="x">Foreign relations</subfield>
 		<subfield code="x">Treaties</subfield>
-		<subfield code="z">Iraq.</subfield>
+		<subfield code="z">Great Britain.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Jafet Memorial Library.</subfield>
@@ -125,29 +109,57 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/zgmsbjts</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">110-01/(3/r</subfield>
+		<subfield code="6">110-01</subfield>
 		<subfield code="a">العراق،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">240-02/(3/r</subfield>
+		<subfield code="6">240-02</subfield>
 		<subfield code="a">معاهدات، الخ</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-03/(3/r</subfield>
+		<subfield code="6">245-03</subfield>
 		<subfield code="a">معاهدة بين الولايات المتحدة الأميريكية وبريطانيا العظمى و العراق.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-04/(3/r</subfield>
+		<subfield code="6">264-04</subfield>
 		<subfield code="a">بغداد :</subfield>
 		<subfield code="b">مطبعة الحكومة،</subfield>
 		<subfield code="c">1930.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-05/(3/r</subfield>
+		<subfield code="6">300-05</subfield>
 		<subfield code="a">18 صفحة ؛</subfield>
 		<subfield code="c">26 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-06</subfield>
+		<subfield code="a">العراق</subfield>
+		<subfield code="x">العلاقات الخارجية</subfield>
+		<subfield code="x">معاهدات</subfield>
+		<subfield code="z">بريطانيا العظمى.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-07</subfield>
+		<subfield code="a">بريطانيا العظمى</subfield>
+		<subfield code="x">العلاقات الخارجية</subfield>
+		<subfield code="x">معاهدات</subfield>
+		<subfield code="z">العراق.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-08</subfield>
+		<subfield code="a">العراق</subfield>
+		<subfield code="x">العلاقات الخارجية</subfield>
+		<subfield code="x">معاهدات</subfield>
+		<subfield code="z">الولايات المتحدة.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-09</subfield>
+		<subfield code="a">الولايات المتحدة</subfield>
+		<subfield code="x">العلاقات الخارجية</subfield>
+		<subfield code="x">معاهدات</subfield>
+		<subfield code="z">العراق.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -161,5 +173,6 @@
 		<subfield code="i">LeBAU_b13627375</subfield>
 		<subfield code="s">aub_aco001446</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001446</subfield>
 	</datafield>
 </record>
