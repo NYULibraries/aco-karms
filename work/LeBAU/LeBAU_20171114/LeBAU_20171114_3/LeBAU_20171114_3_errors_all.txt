@@ -6,7 +6,7 @@ ALL Records containing any type of error - batch LeBAU_20171114
     --  have a series heading error in the 490/800/810/811/830 fields
     --  have one of the various miscellaneous errors, marked with ERROR-MISC
     --  missing a call number - no 050 or 090 field
-Report produced: 2018-03-01 12:42:41.605155
+Report produced: 2018-03-21 14:23:01.811501
 ---------------------------------------------------------------------
 FILE: LeBAU_20171114_3/LeBAU_20171114_3_updates.mrc
 ---------------------------------------------------------------------
@@ -28,8 +28,6 @@ Record 999:  LeBAU_b12477023 aub_aco001516
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - Arabiya: Untersuchungen zur arabischen Sprach- und Stilgeschichte. Arabic
-ERROR-880: Unlinked 880s: YES
-   880 $6 765-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: rda
 RDA fields: YES
 050 call number: PJ6075 .F83125 1951
@@ -134,18 +132,6 @@ RDA fields: YES
 050 call number: DS99.A56 T36 1940
 Source entities (book IDs): aub_aco001679:v.1, aub_aco001680:v.1, aub_aco001681:v.3, aub_aco001682:v.4, aub_aco001683:v.4, aub_aco001684:v.4
 ---------------------------------------------------------------------
-Institution ID: LeBAU_b12761679
-   orig_rec_035 num: =035  \\$aocn784505897
-Record 999:  LeBAU_b12761679 aub_aco001541
-880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 775-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
-   880 $6 775-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7741 .B5 1935
-Source entities (book IDs): aub_aco001541
----------------------------------------------------------------------
 Institution ID: LeBAU_b12485299
    orig_rec_035 num: =035  \\$aocn784341685
 Record 999:  LeBAU_b12485299 aub_aco001531
@@ -229,9 +215,6 @@ Record 999:  LeBAU_b14381783 aub_aco001627:v.1
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - The Pilgrim's Progress. Arabic
-ERROR-880: Unlinked 880s: YES
-   880 $6 775-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 775-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: PR3330 .A73 1921
@@ -344,23 +327,10 @@ Record 999:  LeBAU_b12358265 aub_aco001470
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - TAHAFOT AL-FALASIFAT
-   264 - Beyrouth : Imprimerie Catholique, 1927.
-   264 - Beyrouth : Imprimerie Catholique, 1927.
 040 $e field: rda
 RDA fields: YES
 050 call number: B753.G33 T3 1927
 Source entities (book IDs): aub_aco001470
----------------------------------------------------------------------
-Institution ID: LeBAU_b12702742
-   orig_rec_035 num: =035  \\$aocn784469998
-Record 999:  LeBAU_b12702742 aub_aco001691
-880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 651-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
-040 $e field: rda
-RDA fields: YES
-050 call number: DS87 .B33 1950
-Source entities (book IDs): aub_aco001691
 ---------------------------------------------------------------------
 Institution ID: LeBAU_b12761977
    orig_rec_035 num: =035  \\$aocn784505975
@@ -530,18 +500,6 @@ RDA fields: YES
 050 call number: HC415.23 .G48 1950
 Source entities (book IDs): aub_aco001704
 ---------------------------------------------------------------------
-Institution ID: LeBAU_b12459148
-   orig_rec_035 num: =035  \\$aocn784325680
-Record 999:  LeBAU_b12459148 aub_aco001506
-880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 775-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 775-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-040 $e field: rda
-RDA fields: YES
-050 call number: LA2383.L42 A3 1950
-Source entities (book IDs): aub_aco001506
----------------------------------------------------------------------
 Institution ID: LeBAU_b1278462x
    orig_rec_035 num: =035  \\$aocn784513198
 Record 999:  LeBAU_b1278462x aub_aco001480
@@ -553,38 +511,12 @@ RDA fields: YES
 050 call number: BP172 .J57 1933
 Source entities (book IDs): aub_aco001480
 ---------------------------------------------------------------------
-Institution ID: LeBAU_b1270085x
-   orig_rec_035 num: =035  \\$aocn123002029
-Record 999:  LeBAU_b1270085x aub_aco001587
-880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 300-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-040 $e field: rda
-RDA fields: YES
-050 call number: DS79.9.B25 W34 1950
-Source entities (book IDs): aub_aco001587
----------------------------------------------------------------------
-Institution ID: LeBAU_b12473947
-   orig_rec_035 num: =035  \\$aocn784333514
-Record 999:  LeBAU_b12473947 aub_aco001512
-880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 775-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
-   880 $6 775-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7741 .B5 1933
-Source entities (book IDs): aub_aco001512
----------------------------------------------------------------------
 Institution ID: LeBAU_b12776099
    orig_rec_035 num: =035  \\$aocn784510858
 Record 999:  LeBAU_b12776099 aub_aco001605
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Salon des artistes Libanais
-ERROR-880: Unlinked 880s: YES
-   880 $6 300-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 300-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 050 call number: ND976.6 .L43 1947
@@ -606,11 +538,8 @@ Institution ID: LeBAU_b12784850
 Record 999:  LeBAU_b12784850 aub_aco001488
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Hudá
    246 - Livre de la direction
    246 - KITĀB AL-HUDĀ, ou, Livre de la direction
-ERROR-880: Unlinked 880s: YES
-   880 $6 246-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
 040 $e field: rda
 RDA fields: YES
 050 call number: BX182 .C38 1935
@@ -682,18 +611,6 @@ RDA fields: YES
 050 call number: PQ2211.C3 P7 1922
 Source entities (book IDs): aub_aco001632
 ---------------------------------------------------------------------
-Institution ID: LeBAU_b12727702
-   orig_rec_035 num: =035  \\$aocn784486880
-Record 999:  LeBAU_b12727702 aub_aco001706
-880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 775-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 775-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-040 $e field: rda
-RDA fields: YES
-050 call number: DS86 .H3 1946
-Source entities (book IDs): aub_aco001706
----------------------------------------------------------------------
 Institution ID: LeBAU_b12761850
    orig_rec_035 num: =035  \\$aocn784505945
 Record 999:  LeBAU_b12761850 aub_aco001625
@@ -731,7 +648,6 @@ Institution ID: LeBAU_b17923360
 Record 999:  LeBAU_b17923360 aub_aco001555
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   245 - ʼIqlīd al-Khizāna or, Index of titles of works referred to or Quoted by Abd-al-Qádir al-Baghdādí in his Khizānat al-adab / prepared by M. ‘Abd al-‘Azīz Maīman, formerly additional Maulavi in the Oriental College, Lahore.
    246 - Index of titles of works referred to or Quoted by Abd-al-Qádir al-Baghdādí in his Khizānat al-adab
    264 - Lahore : The University of The Panjab, 1927.
    490 - Punjab University Oriental Publications
@@ -741,16 +657,5 @@ RDA fields: YES
 050 call number: PJ7541 .A23 1927
 Source entities (book IDs): aub_aco001555
 ---------------------------------------------------------------------
-Institution ID: LeBAU_b17931113
-Record 999:  LeBAU_b17931113 aub_aco001647
-880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 775-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 775-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7543 .B87 1927
-Source entities (book IDs): aub_aco001647
----------------------------------------------------------------------
-TOTAL Number of Records containing any type of error: 65
+TOTAL Number of Records containing any type of error: 58
 
