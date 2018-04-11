@@ -5,7 +5,7 @@
 	<controlfield tag="003">UaCaAUL</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180301s1945    ua abc  ob    001 0 ara d</controlfield>
+	<controlfield tag="008">180411s1945    ua abc  ob    001 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">eng</subfield>
@@ -18,9 +18,6 @@
 	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">DK18</subfield>
 		<subfield code="b">.S8x 1945</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">(3</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="090">
 		<subfield code="a">DK18</subfield>
@@ -61,9 +58,9 @@
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="6">880-05</subfield>
-		<subfield code="a">Silsilat al-Madhāhib wa al-Shuʻūb.</subfield>
+		<subfield code="a">Silsilat al-Madhāhib wa al-Shuʻūb</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University in Cairo Library.</subfield>
@@ -97,31 +94,39 @@
 		<subfield code="t">Rūsiyā</subfield>
 		<subfield code="w">(UaCaAUL)b13211225</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-06</subfield>
+		<subfield code="a">Silsilat al-Madhāhib wa al-Shuʻūb.</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/4j0zpjsd</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01</subfield>
-		<subfield code="a">صبيح، محمد..</subfield>
+		<subfield code="a">صبيح، محمد.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">245-02</subfield>
 		<subfield code="a">روسيا /‪</subfield>
-		<subfield code="c">لمحمد صبيح..</subfield>
+		<subfield code="c">لمحمد صبيح.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">250-03</subfield>
-		<subfield code="a">الطبعة الأولى..</subfield>
+		<subfield code="a">الطبعة الأولى.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
 		<subfield code="6">264-04</subfield>
-		<subfield code="a">القاهرة :‪</subfield>
-		<subfield code="b">دار الثقافة العامة،‪</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">دار الثقافة العمة،</subfield>
 		<subfield code="c">1945.</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
+	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">490-05</subfield>
-		<subfield code="a">سلسلة المذاهب والشعوب.</subfield>
+		<subfield code="a">سلسلة المذاهب والشعوب</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">830-06</subfield>
+		<subfield code="a">سلسلة المذاهب و الشعوب.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="902">
 		<subfield code="a">170923</subfield>
@@ -138,5 +143,6 @@
 		<subfield code="i">UaCaAUL_b13211225</subfield>
 		<subfield code="s">auc_aco000303</subfield>
 		<subfield code="e">(ERROR-SERIES)</subfield>
+		<subfield code="s">auc_aco000303</subfield>
 	</datafield>
 </record>
