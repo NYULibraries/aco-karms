@@ -5,7 +5,7 @@
 	<controlfield tag="003">UaCaAUL</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180301s1931    sy      ob    000 0 ara  </controlfield>
+	<controlfield tag="008">180411s1931    sy      ob    000 0 ara  </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">eng</subfield>
@@ -15,9 +15,6 @@
 	<datafield ind1="0" ind2="0" tag="050">
 		<subfield code="a">DS288.6</subfield>
 		<subfield code="b">.M3</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">(3</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="090">
 		<subfield code="a">DS288.6</subfield>
@@ -60,10 +57,10 @@
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="6">880-05</subfield>
 		<subfield code="a">Aʼimmat al-Adab ;</subfield>
-		<subfield code="v">3.</subfield>
+		<subfield code="v">3</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University in Cairo Library.</subfield>
@@ -98,42 +95,52 @@
 		<subfield code="a">Mardam, Khalīl, 1895-1959.</subfield>
 		<subfield code="t">Ibn al-ʻAmīd</subfield>
 		<subfield code="w">(UaCaAUL)b13764007</subfield>
-		<subfield code="w">(DLC)ne 68001222</subfield>
+		<subfield code="w">(DLC)ne 68001222 </subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-07</subfield>
+		<subfield code="a">Aʼimmat al-Adab ;</subfield>
+		<subfield code="v">3.</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/gb5mksg7</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01</subfield>
-		<subfield code="a">مردم، خليل،‪</subfield>
-		<subfield code="d">1895?-1959.</subfield>
+		<subfield code="a">مردم، خليل،</subfield>
+		<subfield code="d">1895-1959.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">245-02</subfield>
 		<subfield code="a">ابن العميد /‪</subfield>
-		<subfield code="c">بقلم خليل مردم بك..</subfield>
+		<subfield code="c">بقلم خليل مردم بك.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
 		<subfield code="6">264-03</subfield>
-		<subfield code="a">دمشق :‪</subfield>
-		<subfield code="b">عنيت بنشره مكتبة عرفة بدمشق،‪</subfield>
-		<subfield code="c">1350 ه: 1931 م..</subfield>
+		<subfield code="a">دمشق :</subfield>
+		<subfield code="b">عنيت بنشره مكتبة عرفة بدمشق،</subfield>
+		<subfield code="c">1350 ه، 1931 م.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="3" tag="880">
 		<subfield code="6">264-04</subfield>
-		<subfield code="a">دمشق :‪</subfield>
-		<subfield code="b">مطبعة الاعتدال،‪</subfield>
+		<subfield code="a">دمشق :</subfield>
+		<subfield code="b">مطبعة الاعتدال،</subfield>
 		<subfield code="c">1931.</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
+	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">490-05</subfield>
-		<subfield code="a">أئمة الأدب ؛‪</subfield>
-		<subfield code="v">3.</subfield>
+		<subfield code="a">أئمة الأدب ؛</subfield>
+		<subfield code="v">3</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="880">
+	<datafield ind1="1" ind2="4" tag="880">
 		<subfield code="6">600-06</subfield>
 		<subfield code="a">ابن العميد، محمد بن الحسين،‪</subfield>
 		<subfield code="d">970 أو 971.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">830-07</subfield>
+		<subfield code="a">أئمة الأدب ؛</subfield>
+		<subfield code="v">3. </subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="902">
 		<subfield code="a">170923</subfield>
@@ -150,5 +157,6 @@
 		<subfield code="i">UaCaAUL_b13764007</subfield>
 		<subfield code="s">auc_aco000310</subfield>
 		<subfield code="e">(ERROR-SERIES)</subfield>
+		<subfield code="s">auc_aco000310</subfield>
 	</datafield>
 </record>
