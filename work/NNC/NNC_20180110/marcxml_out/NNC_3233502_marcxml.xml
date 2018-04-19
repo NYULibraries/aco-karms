@@ -1,30 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">3233502</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180119s1931    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">180419s1931    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">BP131.5</subfield>
 		<subfield code="b">.I2 1931</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ibn al-Jazrī, Muḥammad ibn Muḥammad,</subfield>
 		<subfield code="d">1350-1429.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Munjid al-muḳriʻīn wa murshid al-ṭālibīn ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Munjid al-Muqriʼīn wa-murshid al-ṭālibīn /</subfield>
+		<subfield code="c">lil-Shaykh Shams al-Dīn Abī al-Khayr Muḥammad ibn Muḥammad ibn al-Jazarī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
+		<subfield code="b">Maktabat al-Qudsī,</subfield>
 		<subfield code="c">1350 A.H. [1931]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -70,12 +75,28 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Ibn al-Jazrī, Muḥammad ibn Muḥammad, 1350-1429.</subfield>
-		<subfield code="t">Munjid al-muḳriʻīn wa murshid al-ṭālibīn</subfield>
+		<subfield code="t">Munjid al-Muqriʼīn wa-murshid al-ṭālibīn</subfield>
 		<subfield code="w">(NNC)3233502</subfield>
 		<subfield code="w">(OCoLC)49333693</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/v41ns7fd</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">ابن الجزري، محمد بن محمد،</subfield>
+		<subfield code="d">1350-1429.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">منجد المقرئين ومرشد الطالبين /</subfield>
+		<subfield code="c">للشيخ شمس الدين ابي الخير محمد بن محمد بن الجزري.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">مكتبة القدسي،</subfield>
+		<subfield code="c">1350 ا.ه. [1931]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -90,5 +111,6 @@
 		<subfield code="o">(OCoLC)ocm49333693</subfield>
 		<subfield code="s">columbia_aco003191</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003191</subfield>
 	</datafield>
 </record>

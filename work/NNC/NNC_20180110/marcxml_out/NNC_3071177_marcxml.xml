@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">3071177</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180119m19549999ua      ob    000 0 ara  </controlfield>
+	<controlfield tag="008">180419m19549999ua      ob    000 0 ara  </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">(3</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="050">
 		<subfield code="a">PJ7538</subfield>
@@ -29,6 +26,7 @@
 		<subfield code="c">tāʼlīf Muḥammad Ḥusayn.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">[al-Qāhirah] :</subfield>
 		<subfield code="b">Maktabat al-Ādāb,</subfield>
 		<subfield code="c">1954-</subfield>
@@ -102,19 +100,19 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/6hdr8092</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">حسين، محمد محمد.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">الاتجاهات الوطنية في الأدب المعاصر /</subfield>
 		<subfield code="c">تأليف م. محمد حسين.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-00/(3/r</subfield>
+		<subfield code="6">260-03</subfield>
 		<subfield code="a">[القاهرة] :</subfield>
-		<subfield code="b">مكتبة الآداب ومطبعتها،</subfield>
-		<subfield code="c">1956-1954.</subfield>
+		<subfield code="b">مكتبة الآداب، -</subfield>
+		<subfield code="c">1954</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -129,5 +127,6 @@
 		<subfield code="o">(OCoLC)ocm24450375</subfield>
 		<subfield code="s">columbia_aco003155:v.1</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003155:v.1</subfield>
 	</datafield>
 </record>

@@ -1,31 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">3079716</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180119s1903    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">180419s1903    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP165.5</subfield>
+		<subfield code="b">.T3 1903</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Taftāzānī, Masʻūd ibn ʻUmar,</subfield>
 		<subfield code="d">1322-1389?</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Sharḥ al-ʻAqāʼid al-Nasafīyah</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Sharḥ Saʻd al-Dīn al-Taftāzānī ʻalā al-Aqāʼid al-Nasafīyah li-ʻUmar al-Nasafī;</subfield>
-		<subfield code="b">mudhayyalan bi-Ḥāshiyat al-Khayālī; wa-muhammashan bi-Sharḥ al-ʻIṣām ʻalā al-Sharḥ al-madhkūr.</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Sharḥ Saʻd al-Dīn al-Taftāzānī ʻalá al-Aqāʼid al-Nasafīyah li-ʻUmar al-Nasafī :</subfield>
+		<subfield code="b">mudhayyalan bi-Ḥāshiyat al-Khayālī; wa-muhammashan bi-Sharḥ al-ʻIṣām ʻalá al-Sharḥ al-madhkūr.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Miṣr,</subfield>
-		<subfield code="b">Muṣṭafā al-Bābī al-Ḥalabī</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Muṣṭafā al-Bābī al-Ḥalabī,</subfield>
 		<subfield code="c">[1321 h., 1903 m.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -79,12 +87,32 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Taftāzānī, Masʻūd ibn ʻUmar, 1322-1389?</subfield>
-		<subfield code="t">Sharḥ Saʻd al-Dīn al-Taftāzānī ʻalā al-Aqāʼid al-Nasafīyah li-ʻUmar al-Nasafī;</subfield>
+		<subfield code="t">Sharḥ Saʻd al-Dīn al-Taftāzānī ʻalá al-Aqāʼid al-Nasafīyah li-ʻUmar al-Nasafī</subfield>
 		<subfield code="w">(NNC)3079716</subfield>
 		<subfield code="w">(OCoLC)47911821</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/gtht7d4n</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">تفتازاني، مسعود بن عمر،</subfield>
+		<subfield code="d">13221389؟</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">240-02</subfield>
+		<subfield code="a">شرح العقائد النسفية</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-03</subfield>
+		<subfield code="a">شرح سعد الدين التفتازاني على العقائد النسفية لعمر النسفي :</subfield>
+		<subfield code="b">مذيلا بحاشية الخيالي؛ ومهمشا بشرح العصام على الشرح المذكور.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مصطفى البابي الحلبي،</subfield>
+		<subfield code="c">[1321 ه.، 1903 م.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -99,5 +127,6 @@
 		<subfield code="o">(OCoLC)ocm47911821</subfield>
 		<subfield code="s">columbia_aco003161</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003161</subfield>
 	</datafield>
 </record>

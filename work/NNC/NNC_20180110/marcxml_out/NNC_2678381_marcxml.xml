@@ -1,36 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">2678381</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180119s1954    ua abc  o     000 0 araod</controlfield>
+	<controlfield tag="008">180419s1954    ua abc  o     000 0 araod</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">(3</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">ma-----</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">HD9578.A72</subfield>
-		<subfield code="b">S5</subfield>
+		<subfield code="b">S5 1954</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="6">880-01</subfield>
 		<subfield code="a">Shākir, Amīn.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-batrūl wa-al-siyāsah al-ʻArabīyah /</subfield>
 		<subfield code="c">ishtaraka fī ikhrāj hadhā al-kitāb Amīn Shākir, Saʻīd al-ʻAryān, Tawfīq Muqār.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Miṣr :</subfield>
 		<subfield code="b">Dār al-Maʻārif,</subfield>
 		<subfield code="c">[1954?]</subfield>
@@ -52,8 +51,9 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="490">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Ikhtarnā laka ;</subfield>
-		<subfield code="v">6</subfield>
+		<subfield code="v">7</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
@@ -80,10 +80,11 @@
 		<subfield code="0">(OCoLC)fst01240128</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-02</subfield>
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">ʻIryān, Muḥammad Saʻīd.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Muqār, Tawfīq.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -101,36 +102,45 @@
 		<subfield code="w">(DLC)ne 68002842 </subfield>
 		<subfield code="w">(OCoLC)41199292</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-07</subfield>
+		<subfield code="a">Ikhtarnā laka ;</subfield>
+		<subfield code="v">7.</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/hqbzkpnh</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
+		<subfield code="6">100-01</subfield>
 		<subfield code="a">شاكر، أمين.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
-		<subfield code="6">245-00/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">البترول والسياسة العربية /</subfield>
 		<subfield code="c">اشترك في إخراج هذا الكتاب أمين شاكر، سعيد العريان، توفيق مقار.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-00/(3/r</subfield>
-		<subfield code="a">[القاهرة] :</subfield>
-		<subfield code="b">دار المعارف بمصر،</subfield>
-		<subfield code="c">[1954]</subfield>
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">دار المعارف،</subfield>
+		<subfield code="c">[1954؟]</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">490-00/(3/r</subfield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">490-04</subfield>
 		<subfield code="a">اخترنا لك ؛</subfield>
 		<subfield code="v">7</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-02/(3/r</subfield>
+		<subfield code="6">700-05</subfield>
 		<subfield code="a">عريان، محمد سعيد.</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-06</subfield>
+		<subfield code="a">مقار، توفيق.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
-		<subfield code="6">830-00/(3/r</subfield>
-		<subfield code="a">اخترنا لك ؛ ;</subfield>
+		<subfield code="6">830-07</subfield>
+		<subfield code="a">اخترنا لك ؛</subfield>
 		<subfield code="v">7.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -146,5 +156,6 @@
 		<subfield code="o">(OCoLC)ocm41199292</subfield>
 		<subfield code="s">columbia_aco003207</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-SERIES)</subfield>
+		<subfield code="s">columbia_aco003207</subfield>
 	</datafield>
 </record>

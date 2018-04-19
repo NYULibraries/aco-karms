@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">4271896</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180119s1968    iq a    ob    000 0 ara d</controlfield>
+	<controlfield tag="008">180419s1968    iq a    ob    000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">(3</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
 		<subfield code="b">eng</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="4" tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">BP70</subfield>
 		<subfield code="b">.Z34 1968</subfield>
 	</datafield>
@@ -62,7 +59,7 @@
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="6">880-05</subfield>
 		<subfield code="a">Silsilat kutub al-turāth ;</subfield>
 		<subfield code="v">10</subfield>
@@ -124,37 +121,47 @@
 		<subfield code="w">(DLC)   72255831 </subfield>
 		<subfield code="w">(OCoLC)40245076</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-07</subfield>
+		<subfield code="a">Silsilat Kutub al-turāth ;</subfield>
+		<subfield code="v">10.</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/msbcc831</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
-		<subfield code="a">زمخشري، محمود بن عمر،,</subfield>
-		<subfield code="d">10751144.</subfield>
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">زمخشري، محمود بن عمر،</subfield>
+		<subfield code="d">1075-1144.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">240-02/(3/r</subfield>
+		<subfield code="6">240-02</subfield>
 		<subfield code="a">خصائص العشرة الكرام البررة</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-03/(3/r</subfield>
+		<subfield code="6">245-03</subfield>
 		<subfield code="a">كتاب خصائص العشرة الكرام البررة /</subfield>
 		<subfield code="c">تأليف جار الله أبي القاسم محمود بن عمر بن محمد بن عمر الخوارزمي الزمخشري ؛ حققته وعلقت حواشيه و قدمت له بهيجة باقر الحسني.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-04/(3/r</subfield>
+		<subfield code="6">260-04</subfield>
 		<subfield code="a">بغداد :</subfield>
 		<subfield code="b">وزارة الثقافة والإعلام، مديرية الثقافة العامة،</subfield>
 		<subfield code="c">1968.</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">490-05/(3/r</subfield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">490-05</subfield>
 		<subfield code="a">سلسلة كتب التراث ؛</subfield>
 		<subfield code="v">10</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-06/(3/r</subfield>
+		<subfield code="6">700-06</subfield>
 		<subfield code="a">حسني، بهيجة باقر.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">830-07</subfield>
+		<subfield code="a">سلسلة كتب التراث ؛</subfield>
+		<subfield code="v">10.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -169,5 +176,6 @@
 		<subfield code="o">(OCoLC)ocm40245076</subfield>
 		<subfield code="s">columbia_aco003199</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-SERIES)</subfield>
+		<subfield code="s">columbia_aco003199</subfield>
 	</datafield>
 </record>

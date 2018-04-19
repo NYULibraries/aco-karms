@@ -1,36 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">2685970</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180119s1950    ua c    o     000 0 arard</controlfield>
+	<controlfield tag="008">180419s1950    ua c    o     000 0 arard</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">f-ua---</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">HD978</subfield>
-		<subfield code="b">.H638t</subfield>
+		<subfield code="b">.H638 1950</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Ḥittah, Aḥmad Aḥmad.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Ḥittah, Aḥmad Aḥmad. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Taʼrīkh al-zirāʻah al-Miṣrīyah :</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Tārīkh al-zirāʻah al-Miṣrīyah :</subfield>
 		<subfield code="b">fī ʻahd Muḥammad ʻAlī al-kabīr /</subfield>
 		<subfield code="c">Aḥmad Aḥmad al-Ḥittah.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo :</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
 		<subfield code="b">Dār al-Maʻārif,</subfield>
-		<subfield code="c">1369, 1950.</subfield>
+		<subfield code="c">1369 H., 1950 M.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (xiv, 382 pages) :</subfield>
@@ -67,6 +70,7 @@
 		<subfield code="x">History.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Muḥammad ʻAlī Bāshā,</subfield>
 		<subfield code="c">Governor of Egypt,</subfield>
 		<subfield code="d">1769-1849.</subfield>
@@ -94,6 +98,7 @@
 		<subfield code="0">(OCoLC)fst01411628</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Jamʻīyah al-Miṣrīyah lil-Dirāsāt al-Tārīkhīyah.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -106,12 +111,38 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Ḥittah, Aḥmad Aḥmad.</subfield>
-		<subfield code="t">Taʼrīkh al-zirāʻah al-Miṣrīyah</subfield>
+		<subfield code="t">Tārīkh al-zirāʻah al-Miṣrīyah</subfield>
 		<subfield code="w">(NNC)2685970</subfield>
 		<subfield code="w">(OCoLC)5467330</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/v6wwq545</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">حتة، احمد احمد. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">تاريخ الزراعة المصرية :</subfield>
+		<subfield code="b">في عهد محمد علي الكبير /</subfield>
+		<subfield code="c">احمد احمد الحتة.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">دار المعارف،</subfield>
+		<subfield code="c">1369 H., 1950 M.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">600-04</subfield>
+		<subfield code="a">محمد علي باشا،</subfield>
+		<subfield code="c">Governor of Egypt,</subfield>
+		<subfield code="d">1769-1849.</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="880">
+		<subfield code="6">710-05</subfield>
+		<subfield code="a">جمعية المصرية للدراسات التاريخية.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -126,5 +157,6 @@
 		<subfield code="o">(OCoLC)ocm05467330</subfield>
 		<subfield code="s">columbia_aco003218</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003218</subfield>
 	</datafield>
 </record>

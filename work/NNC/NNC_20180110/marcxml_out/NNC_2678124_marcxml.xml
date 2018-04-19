@@ -1,32 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">2678124</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180119s1948    ua acf  o     100 0 ara d</controlfield>
+	<controlfield tag="008">180419s1948    ua acf  o     100 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">ma-----</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">LA1491</subfield>
+		<subfield code="b">.M878 1948</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="111">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Muʼtamar al-Thaqāfī al-ʻArabī</subfield>
 		<subfield code="n">(1st :</subfield>
 		<subfield code="d">1947 :</subfield>
 		<subfield code="c">Beit Meri, Lebanon)</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Muʼtamar al-Thaqāfī al-ʻArabī :</subfield>
 		<subfield code="b">al-munʻaqad taḥta riʻāyat fakhāmat Raʼīs al-Jumhūrīyah al-Lubnānīyah fī Bayt Mirī bi-Lubnān min 2 ilá 11 Aylūl 1947 /</subfield>
 		<subfield code="c">Jāmiʻat al-Duwal al-ʻArabīyah.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">al-Qāhirah :</subfield>
 		<subfield code="b">Maṭbaʻat Lajnat al-Taʼlīf,</subfield>
 		<subfield code="c">1948.</subfield>
@@ -78,6 +85,7 @@
 		<subfield code="0">(OCoLC)fst01423772</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">League of Arab States.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -96,6 +104,29 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/pc8670p4</subfield>
 	</datafield>
+	<datafield ind1="2" ind2=" " tag="880">
+		<subfield code="6">111-01</subfield>
+		<subfield code="a">مؤتمر الثقافي العربي</subfield>
+		<subfield code="n">(الأول :</subfield>
+		<subfield code="d">1947 :</subfield>
+		<subfield code="c">بيت مري، لبنان)</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">المؤتمر الثقافي العربي الأول :</subfield>
+		<subfield code="b">المنعقد تحت رعاية فخامة رئيس الجمهورية اللبنانية في بيت مري بلبنان، من ٢ إلى ١١ أيلول (سبتمبر) ١٩٤٧ /</subfield>
+		<subfield code="c">جامعة الدول العربية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">مطبعة لجنة التأليف،</subfield>
+		<subfield code="c">1948.</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="880">
+		<subfield code="6">710-04</subfield>
+		<subfield code="a">جامعة الدول العربية.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -109,5 +140,6 @@
 		<subfield code="o">(OCoLC)ocm43655455</subfield>
 		<subfield code="s">columbia_aco003203</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003203</subfield>
 	</datafield>
 </record>
