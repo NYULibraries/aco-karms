@@ -6,20 +6,9 @@ ALL Records containing any type of error - batch UaCaAUL_20180110
     --  have a series heading error in the 490/800/810/811/830 fields
     --  have one of the various miscellaneous errors, marked with ERROR-MISC
     --  missing a call number - no 050 or 090 field
-Report produced: 2018-04-11 10:01:08.070771
+Report produced: 2018-04-19 12:41:02.711473
 ---------------------------------------------------------------------
 FILE: UaCaAUL_20180110_3/UaCaAUL_20180110_3_updates.mrc
----------------------------------------------------------------------
-Institution ID: UaCaAUL_b12964591
-   orig_rec_035 num: =035  \\$a(OCoLC)318941371
-Record 999:  UaCaAUL_b12964591 auc_aco000279
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Ẓarf wa-al-ẓurafāʼ.
-040 $e field: rda
-RDA fields: YES
-050 call number: BJ2019.5.I8 W3 1906
-Source entities (book IDs): auc_aco000279
 ---------------------------------------------------------------------
 Institution ID: UaCaAUL_b13146804
    orig_rec_035 num: =035  \\$a(OCoLC)122748216
@@ -37,7 +26,7 @@ Institution ID: UaCaAUL_b13148710
 Record 999:  UaCaAUL_b13148710 auc_aco000228
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   264 - [Cairo] : [Publisher not identified], [Date of publication not identified]
+   264 - [Cairo] : [Publisher not identified], [1940?]
 040 $e field: rda
 RDA fields: YES
 050 call number: DD247.H5 A845
@@ -54,17 +43,6 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 050 call number: DS62 .E992 1953
 Source entities (book IDs): auc_aco000334
----------------------------------------------------------------------
-Institution ID: UaCaAUL_b13276384
-   orig_rec_035 num: =035  \\$a(OCoLC)60650002
-Record 999:  UaCaAUL_b13276384 auc_aco000272
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   130 - Qurʼan.
-040 $e field: rda
-RDA fields: YES
-090 call number: BP130.4 .Q8x 1953
-Source entities (book IDs): auc_aco000272
 ---------------------------------------------------------------------
 Institution ID: UaCaAUL_b13203952
    orig_rec_035 num: =035  \\$a(OCoLC)23488417
@@ -124,16 +102,6 @@ RDA fields: YES
 050 call number: DS70.6 .M212 1952
 Source entities (book IDs): auc_aco000330
 ---------------------------------------------------------------------
-Institution ID: UaCaAUL_b13745712
-   orig_rec_035 num: =035  \\$a(OCoLC)840765204
-Record 999:  UaCaAUL_b13745712 auc_aco000257
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Filasṭīn wa-jārātahā.
-040 $e field: [none]
-050 call number: DS119.7 .A 45 1954
-Source entities (book IDs): auc_aco000257
----------------------------------------------------------------------
 Institution ID: UaCaAUL_b12712838
    orig_rec_035 num: =035  \\$a(OCoLC)60498638
 Record 999:  UaCaAUL_b12712838 auc_aco000319
@@ -153,45 +121,19 @@ ERROR-880: Unlinked 880s: YES
    880 $6 240-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
-090 call number: CB220 .D412 1908
+050 call number: CB220 .D412 1908
 Source entities (book IDs): auc_aco000277
----------------------------------------------------------------------
-Institution ID: UaCaAUL_b12699378
-   orig_rec_035 num: =035  \\$a(OCoLC)37439054$z(OCoLC)863386462
-Record 999:  UaCaAUL_b12699378 auc_aco000288
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   245 - Bayna al-kutub wal-al-nās / bi-qalam ʻAbbās Maḥmūd al-ʻAqqād.
-ERROR-880: Unlinked 880s: YES
-   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-040 $e field: rda
-RDA fields: YES
-050 call number: AC106 .A633 1952
-Source entities (book IDs): auc_aco000288
 ---------------------------------------------------------------------
 Institution ID: UaCaAUL_b13210269
    orig_rec_035 num: =035  \\$a(OCoLC)22322805
 Record 999:  UaCaAUL_b13210269 auc_aco000373
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Stālīn.
-   264 - [Place of publication not identified] : [publisher not identified], [between 1950 and 1953]
    264 - [Place of publication not identified] : [publisher not identified], [between 1950 and 1953]
 040 $e field: rda
 RDA fields: YES
 050 call number: DK268.S8 S9 1950
 Source entities (book IDs): auc_aco000373
----------------------------------------------------------------------
-Institution ID: UaCaAUL_b13214482
-   orig_rec_035 num: =035  \\$a(OCoLC)26867803
-Record 999:  UaCaAUL_b13214482 auc_aco000246:v.1
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Dawlah al-Umawīyah.
-040 $e field: rda
-RDA fields: YES
-050 call number: DP107 .N37 1926
-Source entities (book IDs): auc_aco000246:v.1
 ---------------------------------------------------------------------
 Institution ID: UaCaAUL_b12692864
    orig_rec_035 num: =035  \\$a(OCoLC)318940766
@@ -215,5 +157,5 @@ RDA fields: YES
 050 call number: DS238.A1 S23 1948
 Source entities (book IDs): auc_aco000316
 ---------------------------------------------------------------------
-TOTAL Number of Records containing any type of error: 18
+TOTAL Number of Records containing any type of error: 13
 
