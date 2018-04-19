@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">4271901</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180119s1970    iq h    ob    001 0 arax </controlfield>
+	<controlfield tag="008">180419s1970    iq h    ob    001 0 arax </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">(3</subfield>
-	</datafield>
-	<datafield ind1="0" ind2="4" tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">PJ7745.K8</subfield>
 		<subfield code="b">A6 1970</subfield>
 	</datafield>
@@ -24,14 +21,15 @@
 		<subfield code="a">Kushājim, Maḥmūd ibn al-Ḥusayn,</subfield>
 		<subfield code="d">active 10th century.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="0" ind2="0" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">Dīwān Kushājim. /</subfield>
 		<subfield code="c">Taḥqīq wa-sharḥ wa-taqdīm Khayrīyah Muḥammad Maḥfūẓ.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">[Baghdād] :</subfield>
-		<subfield code="b">Mudīrīyat al-Thaqāfah al-ʻĀmmah,</subfield>
+		<subfield code="b">Wizarat al-ʻlām Mudīrīyat al-Thaqāfah al-ʻĀmmah,</subfield>
 		<subfield code="c">[1970]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -83,7 +81,7 @@
 		<subfield code="2">fast</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-03</subfield>
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Maḥfūẓ, Khayrīyah Muḥammad,</subfield>
 		<subfield code="d">1928-</subfield>
 		<subfield code="e">editor.</subfield>
@@ -107,22 +105,23 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/w3r22fph</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
-		<subfield code="a">كشاجم، محمود بن الحسين.</subfield>
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">كشاجم، محمود بن الحسين،</subfield>
+		<subfield code="d">active 10th century.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">ديوان كشاجم /</subfield>
 		<subfield code="c">تحقيق و شرح و تقديم خيرية محمد محفوظ.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-00/(3/r</subfield>
+		<subfield code="6">260-03</subfield>
 		<subfield code="a">[بغداد] :</subfield>
 		<subfield code="b">وزارة الإعلام مديرية الثقافة العامة،</subfield>
 		<subfield code="c">[١٩٧٠]</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-03/(3/r</subfield>
+		<subfield code="6">700-04</subfield>
 		<subfield code="a">محفوظ، خيرية محمد.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -138,5 +137,6 @@
 		<subfield code="o">(OCoLC)ocm13883854</subfield>
 		<subfield code="s">columbia_aco003202</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003202</subfield>
 	</datafield>
 </record>

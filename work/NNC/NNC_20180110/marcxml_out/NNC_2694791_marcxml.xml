@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">2694791</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180119s1946    le ac   ob    000 0 arar </controlfield>
+	<controlfield tag="008">180419s1946    le ac   ob    000 0 arar </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">a-tu---</subfield>
@@ -20,16 +20,19 @@
 		<subfield code="b">.D35</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Darwazah, Muḥammad ʻIzzat,</subfield>
 		<subfield code="d">1889-</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Turkīyā al-ḥadīthah,</subfield>
-		<subfield code="b">fuṣūl fī al-ḥarakah al-niḍālīyah al-istiqlālīyah wa-al-khuṭuwāt al-inqilābīyah wa-al-iṣlāḥīyah wa-al-shuʼūn al-siyāsīyah wa-al-ijtimāʻīyah wa-al-ḥarakāt al-ʻilmīyah wa-al-iqtiṣādīyah wa-al-idārīyah,</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Turkīyā al-ḥadīthah :</subfield>
+		<subfield code="b">fuṣūl fī al-ḥarakah al-niḍālīyah al-istiqlālīyah wa-al-khuṭuwāt al-inqilābīyah wa-al-iṣlāḥīyah wa-al-shuʼūn al-siyāsīyah wa-al-ijtimāʻīyah wa-al-ḥarakāt al-ʻilmīyah wa-al-iqtiṣādīyah wa-al-idārīyah /</subfield>
 		<subfield code="c">taʼlīf Muḥammad ʻIzzat Darwazah.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Bayrūt,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Bayrūt :</subfield>
 		<subfield code="b">Maṭbaʻat al-Kashshāf,</subfield>
 		<subfield code="c">1946.</subfield>
 	</datafield>
@@ -95,6 +98,23 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/6djhb2k0</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">دروزة، محمد عازة،</subfield>
+		<subfield code="d">1889-</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">تركيا الحديثة :</subfield>
+		<subfield code="b">فصول في الحركة النضالية الاستقلالية والخطوات الانقلابية والاصلاحية والشؤون السياسية والاجتماعية والحركات العلمية والاقتصادية والادارية /</subfield>
+		<subfield code="c">تأليف محمد عازة دروزة.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">بيروت :</subfield>
+		<subfield code="b">مطبعة الكشاف،</subfield>
+		<subfield code="c">1946.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -108,5 +128,6 @@
 		<subfield code="o">(OCoLC)ocm22578430</subfield>
 		<subfield code="s">columbia_aco003208</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003208</subfield>
 	</datafield>
 </record>

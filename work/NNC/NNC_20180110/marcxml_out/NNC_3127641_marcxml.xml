@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">3127641</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180119s1937    sy h    ob    000 0 arard</controlfield>
+	<controlfield tag="008">180419s1937    sy h    ob    000 0 arard</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">(3</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">a-sy---</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="4" tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">PJ6819</subfield>
 		<subfield code="b">.I2 1937</subfield>
 	</datafield>
@@ -36,7 +33,7 @@
 		<subfield code="a">Baḥr al-ʻawwām fī-mā aṣāba fīhi al-ʻawwām /</subfield>
 		<subfield code="c">li-Muḥammad ibn Ibrāhīm al-maʻrūf bi-Ibn al-Ḥanbalī al-Ḥalabī. ʻUniya bi-nashrihi wa-taḥqīqihi maʻ waḍʻ muqaddimatihi ʻIzz al-Dīn al-Tanūkhī.</subfield>
 	</datafield>
-	<datafield ind1="3" ind2=" " tag="246">
+	<datafield ind1="1" ind2="5" tag="246">
 		<subfield code="a">Bahr ul-awwam fi ma asaba fihil Iʻwam</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
@@ -62,6 +59,7 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq ;</subfield>
 		<subfield code="v">10</subfield>
 	</datafield>
@@ -98,7 +96,7 @@
 		<subfield code="0">(OCoLC)fst01208757</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-04</subfield>
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Tanūkhī, ʻIzz al-Dīn.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -117,6 +115,7 @@
 		<subfield code="w">(OCoLC)48251766</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Maṭbūʻāt al-Majmaʻ al-ʻIlmī al-ʻArabī bi-Dimashq ;</subfield>
 		<subfield code="v">10.</subfield>
 	</datafield>
@@ -124,28 +123,34 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/4f4qrn3s</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
-		<subfield code="a">ابن الحنبلي، محمد بن إبراهيم.</subfield>
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">ابن الحنبلي، محمد بن ابراهيم،</subfield>
+		<subfield code="d">1502 or 1503-1563.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">بحر العوام فيما أصاب فيه العوام /</subfield>
 		<subfield code="c">لمؤلفه محمد بن إبراهيم المعروف بابن الحنبلي الحلبي ؛ عني بنشره وتحقيقه مع وضع مقدمته عز الدين التنوخي.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-03/(3/r</subfield>
+		<subfield code="6">260-03</subfield>
 		<subfield code="a">دمشق :</subfield>
 		<subfield code="b">مطبعة ابن زيدون،</subfield>
 		<subfield code="c">1937.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">490-00</subfield>
+		<subfield code="6">490-04</subfield>
 		<subfield code="a">مطبوعات المجمع العلمى العربى بدمشق ؛</subfield>
 		<subfield code="v">10</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-04/(3/r</subfield>
+		<subfield code="6">700-05</subfield>
 		<subfield code="a">تنوخي، عز الدين.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">830-06</subfield>
+		<subfield code="a">مطبوعات المجمع العلمي العربي بدمشق ؛</subfield>
+		<subfield code="v">10.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -160,5 +165,6 @@
 		<subfield code="o">(OCoLC)ocm48251766</subfield>
 		<subfield code="s">columbia_aco003237</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003237</subfield>
 	</datafield>
 </record>

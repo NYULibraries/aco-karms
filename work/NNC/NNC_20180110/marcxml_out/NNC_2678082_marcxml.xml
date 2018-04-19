@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">2678082</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180119s1965    iq      ob    000 0 ara d</controlfield>
+	<controlfield tag="008">180419s1965    iq      ob    000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">DS51.K7</subfield>
 		<subfield code="b">.F4</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Fīl, Muḥammad Rashīd.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Fīl, Muḥammad Rashīd. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Akrād fī naẓar al-ʻilm.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">al-Najaf,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Najaf :</subfield>
 		<subfield code="b">Maṭbaʻat al-Ādāb,</subfield>
 		<subfield code="c">1385 h., 1965 m.</subfield>
 	</datafield>
@@ -87,6 +90,20 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/2rbnzzsd</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">فيل، محمد رشيد. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">الاكراد في نظر العلم.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">النجف :</subfield>
+		<subfield code="b">مطبعة الاداب،</subfield>
+		<subfield code="c">1385 ه.، 1965 م.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -100,5 +117,6 @@
 		<subfield code="o">(OCoLC)ocm45063795</subfield>
 		<subfield code="s">columbia_aco003194</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003194</subfield>
 	</datafield>
 </record>

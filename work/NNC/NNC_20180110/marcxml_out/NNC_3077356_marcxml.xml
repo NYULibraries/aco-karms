@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">3077356</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180119m19549999ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">180419m19549999ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
 		<subfield code="h">und</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">LB1051</subfield>
+		<subfield code="b">.G28 1954</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Gates, Arthur I.</subfield>
 		<subfield code="q">(Arthur Irving),</subfield>
 		<subfield code="d">1890-1972.</subfield>
@@ -26,11 +31,13 @@
 		<subfield code="l">Arabic</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">ʻIlm al-nafs al-tarbawī,</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">ʻIlm al-nafs al-tarbawī /</subfield>
 		<subfield code="c">taʼlīf Arthur I. Gates, Arthur T. Jersild, T.R. McConnell [wa] Robert C. Challman; tarjamat al-asātidha Ibrāhīm Ḥāfiẓ, Muḥammad ʻUthmān [wa] Muḥammad ʻAbd-al-Ḥamīd Abū al-ʻAzm; ishrāf wa taqdīm ʻAbd-al-ʻAzīz al-Qūṣī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[Miṣr]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
 		<subfield code="b">Maktabat al-Nahḍah al-Miṣrīyah,</subfield>
 		<subfield code="c">1954-</subfield>
 	</datafield>
@@ -84,6 +91,23 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/0vt4bg1m</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">جيتس، ارثر .</subfield>
+		<subfield code="q">(ارثر ارڤينك)،</subfield>
+		<subfield code="d">1890-1972.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">علم النفس التربوي /</subfield>
+		<subfield code="c">تأليف ارثر جيتس، ارثر ت. جرسيلد، ت.ر. ماكونل [و] روبرت  س. تشاللمان؛ ترجمة الاساتذة ابراهيم حافظ، محمد عثمان [و] محمد عبدالحميد ابو العزم؛ اشراف و تقديم عبدالعزيز القوصي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">مكتبة النهضة المصرية،</subfield>
+		<subfield code="c">1954 </subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -97,5 +121,6 @@
 		<subfield code="o">(OCoLC)ocm47883039</subfield>
 		<subfield code="s">columbia_aco003152:v.1</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003152:v.1</subfield>
 	</datafield>
 </record>

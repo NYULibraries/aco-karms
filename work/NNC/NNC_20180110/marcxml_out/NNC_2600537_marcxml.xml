@@ -1,35 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">2600537</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180119s1969    iq      ob   l000 0 ara d</controlfield>
+	<controlfield tag="008">180419s1969    iq      ob   l000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">ma-----</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="4" tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">Z7052.A6</subfield>
-		<subfield code="b">B3</subfield>
+		<subfield code="b">B3 1969</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="110">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Jāmiʻat Baghdād.</subfield>
 		<subfield code="b">al-Maktabah al-Markazīyah.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Dalīl maʻriḍ al-kuttāb lil-jāmiʻāt al-ʻArabīyah. /</subfield>
 		<subfield code="c">al-Maktabah al-Markazīyah li-Jāmiʻat Baghdād.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Baghdād :</subfield>
-		<subfield code="b">al-Maktabah,</subfield>
+		<subfield code="b">al-Maktabah al-Markazīyah,</subfield>
 		<subfield code="c">1969.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -114,6 +117,22 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/3r22861z</subfield>
 	</datafield>
+	<datafield ind1="2" ind2=" " tag="880">
+		<subfield code="6">110-01</subfield>
+		<subfield code="a">جامعة بغداد.</subfield>
+		<subfield code="b">المكتبة المركزية.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">دليل معرض الكتاب للجامعات العربية. /</subfield>
+		<subfield code="c">المكتبة المركزية لجامعة بغداد.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">بغداد :</subfield>
+		<subfield code="b">المكتبة المركزية،</subfield>
+		<subfield code="c">1969.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -127,5 +146,6 @@
 		<subfield code="o">(OCoLC)ocm44658720</subfield>
 		<subfield code="s">columbia_aco003100</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003100</subfield>
 	</datafield>
 </record>

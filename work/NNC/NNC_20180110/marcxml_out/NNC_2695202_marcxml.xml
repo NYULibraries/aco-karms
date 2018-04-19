@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">2695202</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180119s1952    iq a    o     000 0 ara d</controlfield>
+	<controlfield tag="008">180419s1952    iq a    o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">a-iq---</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS62.8</subfield>
+		<subfield code="b">.F28 1952</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Fayḍī, Sulaymān.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Fayḍī, Sulaymān. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Fi ghamrat al-niḍāl;</subfield>
-		<subfield code="b">mudhakkarāt ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Fī ghamrat al-niḍāl :</subfield>
+		<subfield code="b">mudhakkirāt Sulaymān Fayḍī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Baghdād,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Baghdād :</subfield>
+		<subfield code="b">Sharikat al-Tijārah wa al-Ṭibāʻah al-Maḥdūdah,</subfield>
 		<subfield code="c">1952.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -55,6 +63,14 @@
 	<datafield ind1=" " ind2=" " tag="546">
 		<subfield code="a">Title-page and text in Arabic.</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Fayḍī, Sulaymān. </subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="a">Middle East</subfield>
+		<subfield code="x">Politics and government. </subfield>
+	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
 		<subfield code="a">Iraq</subfield>
 		<subfield code="x">History.</subfield>
@@ -79,12 +95,31 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Fayḍī, Sulaymān.</subfield>
-		<subfield code="t">Fi ghamrat al-niḍāl;</subfield>
+		<subfield code="t">Fī ghamrat al-niḍāl</subfield>
 		<subfield code="w">(NNC)2695202</subfield>
 		<subfield code="w">(OCoLC)42899089</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/zw3r27zn</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">فيضي، سليمان. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">في غمرة النضال :</subfield>
+		<subfield code="b">مذكرات سليمان فيضي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">بغداد :</subfield>
+		<subfield code="b">شركة التجارة و الطباعة المحدودة،</subfield>
+		<subfield code="c">1952.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">600-04</subfield>
+		<subfield code="a">فيضي، سليمان. </subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -99,5 +134,6 @@
 		<subfield code="o">(OCoLC)ocm42899089</subfield>
 		<subfield code="s">columbia_aco003209</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003209</subfield>
 	</datafield>
 </record>

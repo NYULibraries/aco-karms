@@ -1,29 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">642856</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180119s1888    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">180419s1888    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ6161</subfield>
+		<subfield code="b">.B84 1888</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Būlāqī, ʻAlī ibn Ḥusayn,</subfield>
-		<subfield code="d">active 1890.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Būlāqī, ʻAlī ibn Ḥusayn. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Tibyān a-bayān ʻalá Ḥāshiyat al-ʻAllāmah al-Ṣāwī li-Sharḥ Tuf̣at al-ikhwān /</subfield>
 		<subfield code="c">li-ʻAlī ibn Ḥusayn al-Masriʻī, al-maʻrūf bi-al-Būlāqī ; [muṣaḥḥiḥuhu Ḥammād al-Fayyūmī al-ʻAjmāwī].</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Ḥāshiyat Tuḥfat al-ikhwān</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Miṣr :</subfield>
 		<subfield code="b">al-Maṭbaʻah al-ʻĀmirah al-Sharafīyah,</subfield>
 		<subfield code="c">1305 [1888]</subfield>
@@ -61,17 +68,20 @@
 		<subfield code="x">Rhetoric.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Dardīr, Aḥmad ibn Muḥammad,</subfield>
-		<subfield code="d">1715-1786.</subfield>
-		<subfield code="t">Sharḥ Tuḥfat al-ikhwān.</subfield>
+		<subfield code="d"> 1715-1786.</subfield>
+		<subfield code="t">Sharḥ Tuḥfat al-ikhwān. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">ʻAjmāwī, Ḥammād al-Fayyūmī.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
+	<datafield ind1="1" ind2="2" tag="700">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Ṣāwī, Aḥmad ibn Muḥammad,</subfield>
 		<subfield code="d">-1825 or 1826.</subfield>
-		<subfield code="t">Ḥashiyat Tuḥfat al-ikhwān.</subfield>
+		<subfield code="t">Ḥashiyat Tuḥfat al-ikhwān. </subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
@@ -89,13 +99,48 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Būlāqī, ʻAlī ibn Ḥusayn, active 1890.</subfield>
+		<subfield code="a">Būlāqī, ʻAlī ibn Ḥusayn.</subfield>
 		<subfield code="t">Tibyān a-bayān ʻalá Ḥāshiyat al-ʻAllāmah al-Ṣāwī li-Sharḥ Tuf̣at al-ikhwān</subfield>
 		<subfield code="w">(NNC)642856</subfield>
 		<subfield code="w">(OCoLC)33992801</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/bzkh1fw7</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">بولاقي، علي بن حسين. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">تبيان ابيان على حاشية العلامة الصاوي لشرح تحفة الاخوان /</subfield>
+		<subfield code="c">لعلي بن حسين المسرعي، المعروف بالبولاقي ؛ [مصححه حماد الفيومي العجماوي].</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">246-03</subfield>
+		<subfield code="a">حاشية تحفة الاخوان</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">المطبعة العامرة الشرفية،</subfield>
+		<subfield code="c">1305 [1888]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">600-05</subfield>
+		<subfield code="a">دردير، احمد بن محمد،</subfield>
+		<subfield code="d">1715-1786.</subfield>
+		<subfield code="t">شرح تحفة الاخوان. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-06</subfield>
+		<subfield code="a">عجماوي، حماد الفيومي.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">700-07</subfield>
+		<subfield code="a">صاوي، احمد بن محمد، </subfield>
+		<subfield code="d">-1825 or 1826.</subfield>
+		<subfield code="t">حشية تحفة الاخوان. </subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -110,5 +155,6 @@
 		<subfield code="o">(OCoLC)ocm33992801</subfield>
 		<subfield code="s">columbia_aco003235</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003235</subfield>
 	</datafield>
 </record>

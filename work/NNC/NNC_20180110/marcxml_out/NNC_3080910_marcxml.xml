@@ -1,31 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">3080910</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180119s19uu    ua      oi    001 0 arard</controlfield>
+	<controlfield tag="008">180419s19uu    ua      oi    001 0 arard</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">BP135.A1</subfield>
 		<subfield code="b">A2 1900z</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Ibn al-Ṣiddīq, ʻAbd al-ʻAzīz ibn Muḥammad.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Ibn al-Ṣiddīq, ʻAbd al-ʻAzīz ibn Muḥammad. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Bughyah fī tartīb aḥādīth al-Ḥilyah /</subfield>
 		<subfield code="c">ʻAbd al-ʻAzīz ibn Muḥammad ibn al-Ṣiddīq.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">al-Qāhirah :</subfield>
-		<subfield code="b">Maktabat al-Khanijī,</subfield>
+		<subfield code="b">Maktabat al-Khānijī,</subfield>
 		<subfield code="c">[19--?]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -54,10 +57,14 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Abū Nuʻaym al-Iṣbahānī, Aḥmad ibn ʻAbd Allāh,</subfield>
 		<subfield code="d">948-1038.</subfield>
 		<subfield code="t">Ḥilyat al-awlīyāʼ</subfield>
-		<subfield code="v">Indexes.</subfield>
+		<subfield code="v">Indexes. </subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Hadith.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
@@ -76,6 +83,28 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/0zpc8crg</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">ابن الصديق، عبد العزيز بن محمد. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">البغية في ترتيب احاديث الحلية /</subfield>
+		<subfield code="c">عبد العزيز بن محمد بن الصديق.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">مكتبة الخانجي،</subfield>
+		<subfield code="c">[19--?]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">600-04</subfield>
+		<subfield code="a">ابو نعيم الاصبهاني، احمد بن عبد الله،</subfield>
+		<subfield code="d">948-1038.</subfield>
+		<subfield code="t">حلية الاولياء </subfield>
+		<subfield code="v">Indexes. </subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -89,5 +118,6 @@
 		<subfield code="o">(OCoLC)ocm41069482</subfield>
 		<subfield code="s">columbia_aco003163</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003163</subfield>
 	</datafield>
 </record>

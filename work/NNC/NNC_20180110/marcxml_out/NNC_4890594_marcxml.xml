@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">4890594</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180119m18831884ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">180419m18831884ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">(3</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">aw-----</subfield>
@@ -35,6 +32,7 @@
 		<subfield code="c">lil-ʻalāmah Abī al-Ḥasan ʻAlī ibn Abī al-Karam Muḥammad ibn Muḥammad ibn ʻAbd al-Karīm ibn ʻAbd al-Wāḥid al-Shaybānī al-maʻrūf bi-Ibn al-Athīr al-Jazarī al-mulaqqab bi-ʻIzz al-Dīn.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Miṣr :</subfield>
 		<subfield code="b">al-Maṭbuʻah al-Azharīyah al-Miṣrīyah,</subfield>
 		<subfield code="c">[1883-1884]</subfield>
@@ -79,20 +77,28 @@
 		<subfield code="0">(OCoLC)fst01411628</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="700">
-		<subfield code="6">880-03</subfield>
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Qaramānī, Aḥmad ibn Yūsuf,</subfield>
 		<subfield code="d">1532 or 1533-1611.</subfield>
 		<subfield code="t">Akhbār al-duwal wa-āthār al-uwal.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="700">
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">ʻUtbī, Muḥammad ibn ʻAbd al-Jabbār,</subfield>
+		<subfield code="d">-1035 or 1036.</subfield>
+		<subfield code="t">Tārīkh al-yamīnī. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="700">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Ibn al-Shiḥnah, Muḥibb al-Dīn Muḥammad ibn Muḥammad,</subfield>
 		<subfield code="d">1402-1485.</subfield>
 		<subfield code="t">Rawḍat al-manāẓir fī akhbār al-awāʼil wa-al-awākhir.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="700">
-		<subfield code="a">ʻUtbī, Muḥammad ibn ʻAbd al-Jabbār,</subfield>
-		<subfield code="d">-1035 or 1036.</subfield>
-		<subfield code="t">Tārīkh al-yamīnī.</subfield>
+		<subfield code="6">880-07</subfield>
+		<subfield code="a">Qaramānī, Aḥmad ibn Yūsuf,</subfield>
+		<subfield code="d">1532 or 1533-1611.</subfield>
+		<subfield code="t">Akhbār al-duwal wa-āthār al-uwal.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
@@ -112,28 +118,44 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/b8gtj0t6</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
-		<subfield code="a">ابن الاثير، علي بن محمد،,</subfield>
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">ابن الاثير، علي بن محمد،</subfield>
 		<subfield code="d">1160-1233.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
-		<subfield code="a">تاريخ الكامل.</subfield>
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">تاريخ الكامل /</subfield>
+		<subfield code="c">للعلامة ابي الحسن علي بن ابي الكرم محمد بن محمد بن عبد الكريم بن عبد الواحد الشيباني المعروف بابن الاثير الجزري الملقب بعز الدين.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-00/(3/r</subfield>
-		<subfield code="a">قرماني، أحمد بن يوسف،,</subfield>
-		<subfield code="d">1532 or 3-1611.</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-00/(3/r</subfield>
-		<subfield code="a">عتبي، محمد بن عبد الجبار،,</subfield>
-		<subfield code="d">-1035 or 6.</subfield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">المطبعة الازهرية المصرية،</subfield>
+		<subfield code="c">[1883-1884]</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
-		<subfield code="6">700-03/(3/r</subfield>
-		<subfield code="a">ابن الشحنة، محب الدين محمد بن محمد.</subfield>
-		<subfield code="t">روضة المناظر في أخبار الأوائل والأواخر.</subfield>
+		<subfield code="6">700-04</subfield>
+		<subfield code="a">قرماني، احمد بن يوسف،</subfield>
+		<subfield code="d">1532 or 1533-1611.</subfield>
+		<subfield code="t">اخبار الدول وآثار الأول.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">700-05</subfield>
+		<subfield code="a">عتبي، محمد بن عبد الجبار،</subfield>
+		<subfield code="d">-1035 or 1036.</subfield>
+		<subfield code="t">تاريخ اليميني. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">700-06</subfield>
+		<subfield code="a">ابن الشحنة، محب الدين محمد بن محمد،</subfield>
+		<subfield code="d">1402-1485.</subfield>
+		<subfield code="t">روضة المناظر في اخبار الاوائل والاواخر.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">700-07</subfield>
+		<subfield code="a">قرماني، احمد بن يوسف،</subfield>
+		<subfield code="d">1532 or 1533-1611.</subfield>
+		<subfield code="t">اخبار الدول وآثار الأول.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -158,5 +180,16 @@
 		<subfield code="s">columbia_aco003133:v.11</subfield>
 		<subfield code="s">columbia_aco003134:v.12</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003124:v.1-2</subfield>
+		<subfield code="s">columbia_aco003125:v.3</subfield>
+		<subfield code="s">columbia_aco003126:v.4</subfield>
+		<subfield code="s">columbia_aco003127:v.5</subfield>
+		<subfield code="s">columbia_aco003128:v.6</subfield>
+		<subfield code="s">columbia_aco003129:v.7</subfield>
+		<subfield code="s">columbia_aco003130:v.8</subfield>
+		<subfield code="s">columbia_aco003131:v.9</subfield>
+		<subfield code="s">columbia_aco003132:v.10</subfield>
+		<subfield code="s">columbia_aco003133:v.11</subfield>
+		<subfield code="s">columbia_aco003134:v.12</subfield>
 	</datafield>
 </record>

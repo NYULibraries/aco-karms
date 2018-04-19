@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">5346132</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180119s1952    ua      ob    001 0 araod</controlfield>
+	<controlfield tag="008">180419s1952    ua      ob    001 0 araod</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="066">
-		<subfield code="c">(3</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">aw-----</subfield>
@@ -39,6 +36,7 @@
 		<subfield code="c">taʼlīf Muḥammad ibn Sallām al-Jumaḥī ; sharaḥahu Maḥmūd Muḥammad Shākir.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">[al-Qāhirah?] :</subfield>
 		<subfield code="b">Dār al-Maʻārif lil-Ṭibāʻah wa-al-Nashr,</subfield>
 		<subfield code="c">[1952]</subfield>
@@ -59,7 +57,7 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
-		<subfield code="6">880-03</subfield>
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Dhakhāʼir al-ʻArab ;</subfield>
 		<subfield code="v">7</subfield>
 	</datafield>
@@ -111,7 +109,7 @@
 		<subfield code="0">(OCoLC)fst01411635</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-04</subfield>
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Shākir, Maḥmūd Muḥammad.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -136,7 +134,7 @@
 		<subfield code="w">(OCoLC)10552363</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Dhakhāʼir al-ʻArab ;</subfield>
 		<subfield code="v">7.</subfield>
 	</datafield>
@@ -144,33 +142,33 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/8931zkb3</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01/(3/r</subfield>
-		<subfield code="a">جمحى، محمد بن سلام،,</subfield>
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">جمحى، محمد بن سلام،</subfield>
 		<subfield code="d">d. 845؟.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02/(3/r</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">طبقات فحول الشعراء /</subfield>
 		<subfield code="c">تأليف محمد بن سلام الجمحى ؛ شرحه محمود محمد شاكر.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-00/(3/r</subfield>
+		<subfield code="6">260-03</subfield>
 		<subfield code="a">[القاهرة] :</subfield>
 		<subfield code="b">دار المعارف للطباعة والنشر،</subfield>
 		<subfield code="c">[1952].</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">490-03/(3/r</subfield>
+		<subfield code="6">490-04</subfield>
 		<subfield code="a">ذخائر العرب ؛</subfield>
-		<subfield code="v">7.</subfield>
+		<subfield code="v">7</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-04/(3/r</subfield>
+		<subfield code="6">700-05</subfield>
 		<subfield code="a">شاكر، محمود محمد.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
-		<subfield code="6">830-05/(3/r</subfield>
-		<subfield code="a">ذخائر العرب ؛ ;</subfield>
+		<subfield code="6">830-06</subfield>
+		<subfield code="a">ذخائر العرب ؛ </subfield>
 		<subfield code="v">7.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -186,5 +184,6 @@
 		<subfield code="o">(OCoLC)ocm10552363</subfield>
 		<subfield code="s">columbia_aco003144:v.7</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003144:v.7</subfield>
 	</datafield>
 </record>

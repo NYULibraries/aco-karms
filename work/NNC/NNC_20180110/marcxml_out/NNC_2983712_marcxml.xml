@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22        4500</leader>
+	<leader>     nam a22     Mi 4500</leader>
 	<controlfield tag="001">2983712</controlfield>
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180119s1909    ua      od    000 0 ara d</controlfield>
+	<controlfield tag="008">180419s1909    ua      od    000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
-		<subfield code="a">NNU</subfield>
+		<subfield code="a">ZYU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="e">rda</subfield>
-		<subfield code="c">NNU</subfield>
+		<subfield code="c">ZYU</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="4" tag="050">
+	<datafield ind1=" " ind2="4" tag="050">
 		<subfield code="a">PJ6620</subfield>
-		<subfield code="b">.Z34</subfield>
+		<subfield code="b">.Z34 1909</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Zamakhsharī, Maḥmūd ibn ʻUmar,</subfield>
 		<subfield code="d">1075-1144.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Kitāb Asās al-balāghah, taʼlif Abī al-Qāsim Maḥmūd ibn ʻUmar al-Zamakhsharī.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb Asās al-balāghah /</subfield>
+		<subfield code="c">taʼlīf Jār Allāh Abī al-Qāsim Maḥmūd ibn ʻUmar al-Zamakhsharī.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="246">
-		<subfield code="a">Asās al-balāghah</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Asās al-balāghah.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[al-Qāhirah],</subfield>
+		<subfield code="a">[Place of publication not identified] :</subfield>
+		<subfield code="b">[publisher not identified],</subfield>
 		<subfield code="c">[1327 h., 1909]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -44,6 +49,9 @@
 	<datafield ind1=" " ind2=" " tag="338">
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Non-Latin script record</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
@@ -79,12 +87,26 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Zamakhsharī, Maḥmūd ibn ʻUmar, 1075-1144.</subfield>
-		<subfield code="t">Kitāb Asās al-balāghah, taʼlif Abī al-Qāsim Maḥmūd ibn ʻUmar al-Zamakhsharī</subfield>
+		<subfield code="t">Kitāb Asās al-balāghah</subfield>
 		<subfield code="w">(NNC)2983712</subfield>
 		<subfield code="w">(OCoLC)46322140</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/1ns1rttd</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">زمخشري، محمود بن عمر،</subfield>
+		<subfield code="d">1075-1144.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">كتاب اساس البلاغة /</subfield>
+		<subfield code="c">تأليف جار الله ابي القاسم محمود بن عمر الزمخشري.</subfield>
+	</datafield>
+	<datafield ind1="3" ind2="0" tag="880">
+		<subfield code="6">246-03</subfield>
+		<subfield code="a">اساس البلاغة</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -99,5 +121,6 @@
 		<subfield code="o">(OCoLC)ocm46322140</subfield>
 		<subfield code="s">columbia_aco003236</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003236</subfield>
 	</datafield>
 </record>
