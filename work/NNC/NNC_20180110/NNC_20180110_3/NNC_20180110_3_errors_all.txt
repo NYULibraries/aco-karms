@@ -6,21 +6,46 @@ ALL Records containing any type of error - batch NNC_20180110
     --  have a series heading error in the 490/800/810/811/830 fields
     --  have one of the various miscellaneous errors, marked with ERROR-MISC
     --  missing a call number - no 050 or 090 field
-Report produced: 2018-04-19 13:15:45.638738
+Report produced: 2018-05-15 15:55:30.088388
 ---------------------------------------------------------------------
 FILE: NNC_20180110_3/NNC_20180110_3_updates.mrc
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm41199292 
-   oclc_rec_035_num: (OCoLC)41199292
-   oclc_rec_035_num: (OCoLC)43517969
-Institution ID: NNC_2678381
-Record 999:  NNC_2678381 (OCoLC)ocm41199292 columbia_aco003207
+OCLC ID: (OCoLC)ocm46322140 
+   oclc_rec_035_num: (OCoLC)46322140
+Institution ID: NNC_2983712
+Record 999:  NNC_2983712 (OCoLC)ocm46322140 columbia_aco003236
 880 script fields: YES
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Ikhtarnā laka ; 7
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - [Place of publication not identified] : [publisher not identified], [1327 h., 1909]
 040 $e field: [none]
 RDA fields: YES
-050 call number: HD9578.A72 S5 1954
-Source entities (book IDs): columbia_aco003207
+050 call number: PJ6620 .Z34 1909
+Source entities (book IDs): columbia_aco003236
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm40245076 
+   oclc_rec_035_num: (OCoLC)40245076
+   oclc_rec_035_num: (OCoLC)23504084
+Institution ID: NNC_4271896
+Record 999:  NNC_4271896 (OCoLC)ocm40245076 columbia_aco003199
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Khaṣā'iṣ al-'ashara al-kirām al-barara
+040 $e field: [none]
+RDA fields: YES
+050 call number: BP70 .Z34 1968
+Source entities (book IDs): columbia_aco003199
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm48210254 
+   oclc_rec_035_num: (OCoLC)48210254
+Institution ID: NNC_3122403
+Record 999:  NNC_3122403 (OCoLC)ocm48210254 columbia_aco003174
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - [Place of publication not identified] : [publisher not identified] [1882]
+040 $e field: [none]
+RDA fields: YES
+050 call number: DS231 .I22 1882
+Source entities (book IDs): columbia_aco003174
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm48382555 
    oclc_rec_035_num: (OCoLC)48382555
@@ -99,42 +124,5 @@ RDA fields: YES
 050 call number: DT108 .A486 1955
 Source entities (book IDs): columbia_aco003221
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm46322140 
-   oclc_rec_035_num: (OCoLC)46322140
-Institution ID: NNC_2983712
-Record 999:  NNC_2983712 (OCoLC)ocm46322140 columbia_aco003236
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - [Place of publication not identified] : [publisher not identified], [1327 h., 1909]
-040 $e field: [none]
-RDA fields: YES
-050 call number: PJ6620 .Z34 1909
-Source entities (book IDs): columbia_aco003236
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm40245076 
-   oclc_rec_035_num: (OCoLC)40245076
-   oclc_rec_035_num: (OCoLC)23504084
-Institution ID: NNC_4271896
-Record 999:  NNC_4271896 (OCoLC)ocm40245076 columbia_aco003199
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Khaṣā'iṣ al-'ashara al-kirām al-barara
-040 $e field: [none]
-RDA fields: YES
-050 call number: BP70 .Z34 1968
-Source entities (book IDs): columbia_aco003199
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm48210254 
-   oclc_rec_035_num: (OCoLC)48210254
-Institution ID: NNC_3122403
-Record 999:  NNC_3122403 (OCoLC)ocm48210254 columbia_aco003174
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - [Place of publication not identified] : [publisher not identified] [1882]
-040 $e field: [none]
-RDA fields: YES
-050 call number: DS231 .I22 1882
-Source entities (book IDs): columbia_aco003174
----------------------------------------------------------------------
-TOTAL Number of Records containing any type of error: 10
+TOTAL Number of Records containing any type of error: 9
 
