@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180326m196u9999ir      o     000 0 ara d</controlfield>
+	<controlfield tag="008">180802m196u9999ir      o     000 0 ara d</controlfield>
 	<datafield ind1="7" ind2=" " tag="024">
 		<subfield code="a">princeton_aco001274</subfield>
 		<subfield code="2">local</subfield>
@@ -14,6 +14,10 @@
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">eng</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP193.1.A3</subfield>
+		<subfield code="b">T37 1960z</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="079">
 		<subfield code="a">ocm42866988</subfield>
@@ -24,14 +28,15 @@
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="245">
 		<subfield code="6">880-02</subfield>
-		<subfield code="a">Dāʼirat al-maʻārif al-ʻAlawīyah ḥawla al-Kalimāt al-qiṣār lil-imām Amīr al-Muʼminīn ʻAlī ... Sharḥ ... Javād Tārā</subfield>
-		<subfield code="h">[electronic resource].</subfield>
+		<subfield code="a">Dāʼirat al-maʻārif al-ʻAlawīyah ḥawla al-Kalimāt al-qiṣār lil-imām Amīr al-Muʼminīn ʻAlī</subfield>
+		<subfield code="h">[electronic resource] /</subfield>
+		<subfield code="c">.Sharḥ Javād Tārā.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="6">880-03</subfield>
-		<subfield code="a">Qumm,</subfield>
-		<subfield code="b">al-Maṭbaʻah al-ʻIlmīyah</subfield>
-		<subfield code="c">[196-?-</subfield>
+		<subfield code="a">Qumm :</subfield>
+		<subfield code="b">al-Maṭbaʻah al-ʻIlmīyah,</subfield>
+		<subfield code="c">[196?]-</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (v.)</subfield>
@@ -50,6 +55,7 @@
 		<subfield code="a">In Arabic.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">ʻAlī ibn Abī Ṭālib,</subfield>
 		<subfield code="c">Caliph,</subfield>
 		<subfield code="d">approximately 600-661.</subfield>
@@ -64,7 +70,7 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Tārā, Jāvād.</subfield>
-		<subfield code="t">Dāʼirat al-maʻārif al-ʻAlawīyah ḥawla al-Kalimāt al-qiṣār lil-imām Amīr al-Muʼminīn ʻAlī ... Sharḥ ... Javād Tārā</subfield>
+		<subfield code="t">Dāʼirat al-maʻārif al-ʻAlawīyah ḥawla al-Kalimāt al-qiṣār lil-imām Amīr al-Muʼminīn ʻAlī</subfield>
 		<subfield code="w">(NjP)2788248</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
@@ -72,17 +78,24 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01</subfield>
-		<subfield code="a">تارا، جاواد.</subfield>
+		<subfield code="a">تارا، جاواد.‎‎</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="880">
 		<subfield code="6">245-02</subfield>
-		<subfield code="a">دائرة المعارف العلوية حول الكلمات القصار للامام امير المؤمنين علي ... شرح ... جواد تارا.</subfield>
+		<subfield code="a">دائرة المعارف العلوية حول الكلمات القصار للامام امير المؤمنين علي  /‎‎</subfield>
+		<subfield code="c">.شرح جڤاد تارا.‎‎</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">260-03</subfield>
-		<subfield code="a">قم،</subfield>
-		<subfield code="b">المطبعة العلمية</subfield>
-		<subfield code="c">[196-؟</subfield>
+		<subfield code="a">قم :‎‎</subfield>
+		<subfield code="b">المطبعة العلمية،‎‎</subfield>
+		<subfield code="c">[196?]-</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">600-04</subfield>
+		<subfield code="a">علي بن ابي طالب،‎‎</subfield>
+		<subfield code="c">Caliph,</subfield>
+		<subfield code="d">approximately 600-661.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="911">
 		<subfield code="a">20000130</subfield>
@@ -97,6 +110,8 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="a">2788248</subfield>
+		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="i">NjP_2788248</subfield>
 		<subfield code="s">princeton_aco001274:vol.1</subfield>
 	</datafield>
 </record>

@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180326q19601969iq      o     000|0 ara d</controlfield>
+	<controlfield tag="008">180802q19601969iq      o     000 0 ara d</controlfield>
 	<datafield ind1="7" ind2=" " tag="024">
 		<subfield code="a">princeton_aco001272</subfield>
 		<subfield code="2">local</subfield>
@@ -15,17 +15,23 @@
 		<subfield code="b">eng</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP193.1.A3</subfield>
+		<subfield code="b">Q565 1960z </subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Qummī, Shādhān ibn Jabrāʼīl,</subfield>
 		<subfield code="d">-approximately 1261.</subfield>
-		<subfield code="0">(uri)http://id.loc.gov/authorities/names/nr92028190</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Faḍāʼil li-Ibn Shādhān</subfield>
 		<subfield code="h">[electronic resource] /</subfield>
 		<subfield code="c">li-Abī al-Faḍl Sadīd al-Dīn Shādhān ibn Jabrāʼīl ibn Ismāʻīl ibn Abī Ṭālib al-Qummī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">al-Najaf :</subfield>
 		<subfield code="b">al-Maṭbaʻah al-Ḥaydarīyah,</subfield>
 		<subfield code="c">[196-?]</subfield>
@@ -44,10 +50,10 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">ʻAlī ibn Abī Ṭālib,</subfield>
 		<subfield code="c">Caliph,</subfield>
 		<subfield code="d">approximately 600-661.</subfield>
-		<subfield code="0">(uri)http://id.loc.gov/authorities/names/n50039100</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
@@ -58,12 +64,34 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Qummī, Shādhān ibn Jabrāʼīl, -approximately 1261. (uri)http://id.loc.gov/authorities/names/nr92028190</subfield>
+		<subfield code="a">Qummī, Shādhān ibn Jabrāʼīl, -approximately 1261.</subfield>
 		<subfield code="t">al-Faḍāʼil li-Ibn Shādhān</subfield>
 		<subfield code="w">(NjP)889700</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/0zpc8csq</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">قمي، شاذان بن جبرائيل،‎‎</subfield>
+		<subfield code="d">-approximately 1261.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">الفضائل لابن شاذان /‎‎</subfield>
+		<subfield code="c">لابي الفضل سديد الدين شاذان بن جبرائيل بن اسماعيل بن ابي طال القمي.‎‎</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">النجف :‎‎</subfield>
+		<subfield code="b">المطبعة الحيدرية،‎‎</subfield>
+		<subfield code="c">[196؟]‎‎</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">600-04</subfield>
+		<subfield code="a">علي بن ابي طالب،‎‎</subfield>
+		<subfield code="c">Caliph,</subfield>
+		<subfield code="d">approximately 600-661.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="911">
 		<subfield code="a">19940612</subfield>
@@ -83,5 +111,6 @@
 		<subfield code="i">NjP_889700</subfield>
 		<subfield code="s">princeton_aco001272</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco001272</subfield>
 	</datafield>
 </record>

@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180326m19889999ir      ob    00010 ara d</controlfield>
+	<controlfield tag="008">180802m19889999ir      ob    000 0 ara d</controlfield>
 	<datafield ind1="7" ind2=" " tag="024">
 		<subfield code="a">princeton_aco001376</subfield>
 		<subfield code="2">local</subfield>
@@ -15,20 +15,27 @@
 		<subfield code="b">eng</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP193</subfield>
+		<subfield code="b">.N86 1988</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Nuʻmān ibn Muḥammad, Abū Ḥanīfah,</subfield>
 		<subfield code="d">-974.</subfield>
-		<subfield code="0">(uri)http://id.loc.gov/authorities/names/n80118462</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Sharḥ al-akhbār fī faḍāʾil al-aʾimmah al-aṭhār</subfield>
 		<subfield code="h">[electronic resource] /</subfield>
 		<subfield code="c">lil-qāḍī Abī Ḥanīfah al-Nuʻmān ibn Muḥammad al-Tamīmī al-Maghribī ; [al-muḥaqqiq, Muḥammad al-Ḥusaynī al-Jalālī].</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">al-Ṭabʻah 1.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Qum :</subfield>
 		<subfield code="b">Muʾassasat al-Nashr al-Islāmī,</subfield>
 		<subfield code="c">1409- [1988 or 1989- ]</subfield>
@@ -57,10 +64,10 @@
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">Ismailites.</subfield>
-		<subfield code="0">(uri)http://id.loc.gov/authorities/subjects/sh85068625</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">Jalālī, Muḥammad Ḥusayn al-Ḥusaynī.</subfield>
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Jalālī, Muḥammad Ḥusayn al-Ḥusaynī. </subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
@@ -70,16 +77,45 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Sharḥ al-akhbār.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Nuʻmān ibn Muḥammad, Abū Ḥanīfah, -974. (uri)http://id.loc.gov/authorities/names/n80118462</subfield>
+		<subfield code="a">Nuʻmān ibn Muḥammad, Abū Ḥanīfah, -974.</subfield>
 		<subfield code="t">Sharḥ al-akhbār fī faḍāʾil al-aʾimmah al-aṭhār</subfield>
 		<subfield code="w">(NjP)618399</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/5x69pfzs</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">نعمان بن محمد، ابو حنيفة،‎‎</subfield>
+		<subfield code="d">-974.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">شرح الأخبار في فضائل الأئمة الأطهار /‎‎</subfield>
+		<subfield code="c">للقاضي أبي حنيفة النعمان بن محمد التميمي المغربي ؛ [المحقق، محمد الحيسني الجلالي].‎‎</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">250-03</subfield>
+		<subfield code="a">الطبعة 1.‎‎</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04</subfield>
+		<subfield code="a">قم :‎‎</subfield>
+		<subfield code="b">مؤسسة النشر الاسلامي،‎‎</subfield>
+		<subfield code="c">1409-1412 [1988 or 1989-1991 or 1992].</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-05</subfield>
+		<subfield code="a">جلالي، محمد حسين الحسيني. ‎‎</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">740-06</subfield>
+		<subfield code="a">شرح الاخبار.‎‎</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="911">
 		<subfield code="a">19950425</subfield>
@@ -101,5 +137,8 @@
 		<subfield code="s">princeton_aco001377:juz 2</subfield>
 		<subfield code="s">princeton_aco001376:juz 3</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco001378:juz 1</subfield>
+		<subfield code="s">princeton_aco001377:juz 2</subfield>
+		<subfield code="s">princeton_aco001376:juz 3</subfield>
 	</datafield>
 </record>

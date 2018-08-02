@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180326s1987    ir      o     000 0 ara d</controlfield>
+	<controlfield tag="008">180802s1987    ir      o     000 0 ara d</controlfield>
 	<datafield ind1="7" ind2=" " tag="024">
 		<subfield code="a">princeton_aco001396</subfield>
 		<subfield code="2">local</subfield>
@@ -18,6 +18,10 @@
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">a-su---</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP156</subfield>
+		<subfield code="b">.T86 1987</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="079">
 		<subfield code="a">ocm26476464</subfield>
 	</datafield>
@@ -25,7 +29,6 @@
 		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ṭūsī, Muḥammad ibn al-Ḥasan,</subfield>
 		<subfield code="d">995-1067?</subfield>
-		<subfield code="0">(uri)http://id.loc.gov/authorities/names/n80149963</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">880-02</subfield>
@@ -61,17 +64,14 @@
 		<subfield code="a">Muslim pilgrims and pilgrimages</subfield>
 		<subfield code="z">Saudi Arabia</subfield>
 		<subfield code="z">Mecca.</subfield>
-		<subfield code="0">(uri)http://id.loc.gov/authorities/subjects/sh85089072</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">Islam</subfield>
 		<subfield code="x">Rituals.</subfield>
-		<subfield code="0">(uri)http://id.loc.gov/authorities/subjects/sh90001655</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">Islam</subfield>
 		<subfield code="v">Prayers and devotions.</subfield>
-		<subfield code="0">(uri)http://id.loc.gov/authorities/subjects/sh85068403</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
@@ -82,7 +82,7 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Ṭūsī, Muḥammad ibn al-Ḥasan, 995-1067? (uri)http://id.loc.gov/authorities/names/n80149963</subfield>
+		<subfield code="a">Ṭūsī, Muḥammad ibn al-Ḥasan, 995-1067?</subfield>
 		<subfield code="t">Miṣbāḥ al-mutahajjid</subfield>
 		<subfield code="w">(NjP)479816</subfield>
 	</datafield>
@@ -91,23 +91,23 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01</subfield>
-		<subfield code="a">طوسي، محمد بن الحسن،</subfield>
-		<subfield code="d">995-1067؟</subfield>
+		<subfield code="a">طوسي، محمد بن الحسن،‎‎</subfield>
+		<subfield code="d">995-1067؟‎‎</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">245-02</subfield>
-		<subfield code="a">مصباح المتهجد :</subfield>
-		<subfield code="b">ادعية الحج ومناسكه /</subfield>
-		<subfield code="c">للشيخ ابي جعفر محمد بن الحسن بن علي بن الحسن الطوسي المشتهر بشيخ الطائفة والشيخ الطوسي.</subfield>
+		<subfield code="a">مصباح المتهجد :‎‎</subfield>
+		<subfield code="b">ادعية الحج ومناسكه /‎‎</subfield>
+		<subfield code="c">للشيخ ابي جعفر محمد بن الحسن بن علي بن الحسن الطوسي المشتهر بشيخ الطائفة والشيخ الطوسي.‎‎</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">250-03</subfield>
-		<subfield code="a">الطبعة 1.</subfield>
+		<subfield code="a">الطبعة 1.‎‎</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">260-04</subfield>
-		<subfield code="a">طهران :</subfield>
-		<subfield code="b">مركز بحوث الحج والعمرة،</subfield>
+		<subfield code="a">طهران :‎‎</subfield>
+		<subfield code="b">مركز بحوث الحج والعمرة،‎‎</subfield>
 		<subfield code="c">1987.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="911">
@@ -126,6 +126,8 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="a">479816</subfield>
+		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="i">NjP_479816</subfield>
 		<subfield code="s">princeton_aco001396</subfield>
 	</datafield>
 </record>
