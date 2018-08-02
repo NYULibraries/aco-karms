@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180326s1948    ua c    o     000 0 arard</controlfield>
+	<controlfield tag="008">180802s1948    ua c    o     000 0 arard</controlfield>
 	<datafield ind1="7" ind2=" " tag="024">
 		<subfield code="a">princeton_aco001200</subfield>
 		<subfield code="2">local</subfield>
@@ -15,16 +15,23 @@
 		<subfield code="b">eng</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP186.34</subfield>
+		<subfield code="b">.S26 1948</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Sandūbī, Ḥasan.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Ta'rīkh al-iḥtifāl bi-al-mawlid al-nabawī min ʻaṣr al-islām al-awwal ilā ʻaṣr Fārūq al-awwal</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Tārīkh al-iḥtifāl bi-al-mawlid al-nabawī min ʻaṣr al-islām al-awwal ilá ʻaṣr Fārūq al-awwal</subfield>
 		<subfield code="h">[electronic resource] /</subfield>
-		<subfield code="c">ta'līf Ḥasan al-Sandūbī.</subfield>
+		<subfield code="c">taʼlīf Ḥasan al-Sandūbī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo :</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
 		<subfield code="b">Maṭbaʻat al-Istiqāmah,</subfield>
 		<subfield code="c">1367, 1948.</subfield>
 	</datafield>
@@ -56,11 +63,26 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Sandūbī, Ḥasan.</subfield>
-		<subfield code="t">Ta'rīkh al-iḥtifāl bi-al-mawlid al-nabawī min ʻaṣr al-islām al-awwal ilā ʻaṣr Fārūq al-awwal</subfield>
+		<subfield code="t">Tārīkh al-iḥtifāl bi-al-mawlid al-nabawī min ʻaṣr al-islām al-awwal ilá ʻaṣr Fārūq al-awwal</subfield>
 		<subfield code="w">(NjP)1568927</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/n2z35183</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">سندوبي، حسن.‎</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">تاريخ الاحتفال بالمولد النبوي من عصر الاسلام الأول الى عصر فاروق الاول /‎</subfield>
+		<subfield code="c">تأليف حسن السندوبي.‎</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">القاهرة :‎</subfield>
+		<subfield code="b">مطبعة الاستقامة،‎</subfield>
+		<subfield code="c">1367، 1948.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="947">
 		<subfield code="a">CEX6458</subfield>
@@ -80,5 +102,6 @@
 		<subfield code="i">NjP_1568927</subfield>
 		<subfield code="s">princeton_aco001200</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco001200</subfield>
 	</datafield>
 </record>

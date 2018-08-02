@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180326s1946    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">180802s1946    ua      o     000 0 ara d</controlfield>
 	<datafield ind1="7" ind2=" " tag="024">
 		<subfield code="a">princeton_aco001040</subfield>
 		<subfield code="2">local</subfield>
@@ -15,16 +15,25 @@
 		<subfield code="b">eng</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
-	<datafield ind1="2" ind2=" " tag="100">
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP135.A2</subfield>
+		<subfield code="b">I26 1946</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ibn Rajab, ʻAbd al-Raḥmān ibn Aḥmad,</subfield>
 		<subfield code="d">1336-1393.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="245">
-		<subfield code="a">Nūr al-iqtibās fī Mishkāt waṣīyat al-Nabī ... li-Ibn ʻAbbās</subfield>
-		<subfield code="h">[electronic resource].</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Nūr al-iqtibās</subfield>
+		<subfield code="h">[electronic resource] :</subfield>
+		<subfield code="b">fī Mishkāt waṣīyat al-Nabī li-Ibn ʻAbbās /</subfield>
+		<subfield code="c">lil-ḥāfiẓ Zayn al-Dīn Abī al-Faraj ʻAbd al-Raḥamān  ibn Rajab al-Hanbali.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[Cairo] :</subfield>
 		<subfield code="b">Jamāʻat al-Taʻāwun al-ʻIlmī,</subfield>
 		<subfield code="c">1946.</subfield>
 	</datafield>
@@ -47,6 +56,15 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Edited by ʻAbd al-Fattāḥ Khalīfah, and Maḥmūd Khalīfah.</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">ʻAbd Allāh ibn al-ʻAbbās,</subfield>
+		<subfield code="d">-688?</subfield>
+		<subfield code="t">Tafsīr.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Hadith.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
 		<subfield code="b">Library.</subfield>
@@ -57,11 +75,34 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Ibn Rajab, ʻAbd al-Raḥmān ibn Aḥmad, 1336-1393.</subfield>
-		<subfield code="t">Nūr al-iqtibās fī Mishkāt waṣīyat al-Nabī ... li-Ibn ʻAbbās</subfield>
+		<subfield code="t">Nūr al-iqtibās</subfield>
 		<subfield code="w">(NjP)2786680</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/8cz8wh23</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">ابن رجب، عبد الرحمن بن احمد،‎‎</subfield>
+		<subfield code="d">1336-1393.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">نور الاقتباس :‎‎</subfield>
+		<subfield code="b">في مشكاة وصية النبي لابن عباس /‎‎</subfield>
+		<subfield code="c">للحافظ زين الدين ابي الفرج عبد الرحمن  بن رجب الحنبلي‎‎</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">[Cairo] :</subfield>
+		<subfield code="b">جماعة التعاون العلمي،‎‎</subfield>
+		<subfield code="c">1946.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">600-04</subfield>
+		<subfield code="a">عبد الله بن العباس،‎‎</subfield>
+		<subfield code="d">-688؟‎‎</subfield>
+		<subfield code="t">تفسير.‎‎</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="911">
 		<subfield code="a">20000130</subfield>
@@ -78,5 +119,6 @@
 		<subfield code="i">NjP_2786680</subfield>
 		<subfield code="s">princeton_aco001040</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco001040</subfield>
 	</datafield>
 </record>

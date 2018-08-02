@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180326s1946    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">180802s1946    ua      o     000 0 ara d</controlfield>
 	<datafield ind1="7" ind2=" " tag="024">
 		<subfield code="a">princeton_aco001394</subfield>
 		<subfield code="2">local</subfield>
@@ -15,20 +15,26 @@
 		<subfield code="b">eng</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP161</subfield>
+		<subfield code="b">.M84 1946</subfield>
+	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Muḥammad ibn ʻAbd al-Wahhāb,</subfield>
 		<subfield code="d">1703 or 1704-1792.</subfield>
-		<subfield code="0">http://id.loc.gov/authorities/names/n82221616</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="3" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Uṣūl al-thalāthah wa-adillatuhā</subfield>
 		<subfield code="h">[electronic resource] :</subfield>
-		<subfield code="b">wa-yalīhā shurūṭ al-ṣalāh ... bi-taʻlīq aḥad afāḍil al-ʻulamāʾ;</subfield>
-		<subfield code="c">rājaʻahā ... Aḥmad Muḥammad Shākir.</subfield>
+		<subfield code="b">wa-yalīhā shurūṭ al-ṣalāh bi-taʻlīq aḥad afāḍil al-ʻulamāʾ /</subfield>
+		<subfield code="c">rājaʻahā Aḥmad Muḥammad Shākir.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo,</subfield>
-		<subfield code="b">Dār al-Maʻārif</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Dār al-Maʻārif,</subfield>
 		<subfield code="c">[1946]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -47,6 +53,10 @@
 	<datafield ind1=" " ind2=" " tag="546">
 		<subfield code="a">In Arabic.</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Islam</subfield>
+		<subfield code="x">Doctrines.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
 		<subfield code="b">Library.</subfield>
@@ -56,12 +66,29 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Muḥammad ibn ʻAbd al-Wahhāb, 1703 or 1704-1792. http://id.loc.gov/authorities/names/n82221616</subfield>
+		<subfield code="a">Muḥammad ibn ʻAbd al-Wahhāb, 1703 or 1704-1792.</subfield>
 		<subfield code="t">al-Uṣūl al-thalāthah wa-adillatuhā</subfield>
 		<subfield code="w">(NjP)1513671</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/f7m0cnkq</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">محمد بن عبد الوهاب،‎‎</subfield>
+		<subfield code="d">1703 or 1704-1792.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">الأصول الثلاثة وادلتها :‎‎</subfield>
+		<subfield code="b">ويليها شروط الصلاة  بتعليق احد افاضل العلماء /‎‎</subfield>
+		<subfield code="c">راجعها  احمد محمد شاكر.‎‎</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">مصر :‎‎</subfield>
+		<subfield code="b">دار المعارف،‎‎</subfield>
+		<subfield code="c">[1946]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="947">
 		<subfield code="a">CER9967</subfield>
@@ -81,5 +108,6 @@
 		<subfield code="i">NjP_1513671</subfield>
 		<subfield code="s">princeton_aco001394</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco001394</subfield>
 	</datafield>
 </record>

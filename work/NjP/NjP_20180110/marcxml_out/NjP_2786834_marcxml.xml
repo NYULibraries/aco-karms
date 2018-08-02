@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180326s1900    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">180802s1900    ua      o     000 0 ara d</controlfield>
 	<datafield ind1="7" ind2=" " tag="024">
 		<subfield code="a">princeton_aco001147</subfield>
 		<subfield code="2">local</subfield>
@@ -19,20 +19,27 @@
 		<subfield code="a">ara</subfield>
 		<subfield code="h">tur</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP173.4</subfield>
+		<subfield code="b">.J36 1900</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="079">
 		<subfield code="a">ocm42834660</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Bereketzade Abdullah Cemaleddin.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="3" tag="245">
-		<subfield code="6">880-01</subfield>
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Iḥtijāb</subfield>
-		<subfield code="h">[electronic resource].</subfield>
+		<subfield code="h">[electronic resource] /</subfield>
+		<subfield code="c">taʼlīf ʻAbd Allāh Jamāl al-Dīn Afandī ; ʻarrabahu ʻan al-Turkīyah Aṣmaʻī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">880-02</subfield>
-		<subfield code="a">[Cairo]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Maṭbaʻat al-Taraqqī,</subfield>
 		<subfield code="c">1318 [1900]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -55,9 +62,17 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Translated from the Turkish by Aṣmaʻī.</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Women in Islam.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Muslim women</subfield>
+		<subfield code="x">Conduct of life.</subfield>
+	</datafield>
 	<datafield ind1="0" ind2=" " tag="700">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Asmaî,</subfield>
-		<subfield code="e">tr.</subfield>
+		<subfield code="e">tr. </subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
@@ -75,14 +90,25 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/ffbg7h0m</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">جمال الدين، عبد الله.‎‎</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="2" tag="880">
-		<subfield code="6">245-01</subfield>
-		<subfield code="a">الاحتجاب ...</subfield>
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">الاحتجاب /‎‎</subfield>
+		<subfield code="c">تأليف عبد الله جمال الدين افندي ؛ عربه عن التركية اصمعي.‎‎</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-02</subfield>
-		<subfield code="a">[القاهرة]</subfield>
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">مصر :‎‎</subfield>
+		<subfield code="b">مطبعة الترقي،‎‎</subfield>
 		<subfield code="c">1318 [1900]</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">700-04</subfield>
+		<subfield code="a">اصمعي،‎‎</subfield>
+		<subfield code="e">tr. </subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="911">
 		<subfield code="a">20000130</subfield>
@@ -97,6 +123,8 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="a">2786834</subfield>
+		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="i">NjP_2786834</subfield>
 		<subfield code="s">princeton_aco001147</subfield>
 	</datafield>
 </record>
