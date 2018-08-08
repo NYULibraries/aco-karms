@@ -9,7 +9,7 @@ class Marcxml
   # NjP = Princeton University
   # LeBAU = American University of Beirut
   # UaCaAUL = The American University in Cairo
-  VALID_003_CODES = %w(NNU NNC NIC NjP LeBAU UaCaAUL)
+  VALID_003_CODES = %w(NNU NNC NIC NjP LeBAU UaCaAUL aeadna)
 
   def initialize(path)
     @path        = path.dup
