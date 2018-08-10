@@ -1,3 +1,4 @@
+
 import os
 import errno
 import pymarc
@@ -513,6 +514,10 @@ def convert_2_eres_rec(rec, rda_rec):
 		inst_name = "American University in Cairo Library"
 		inst_710a = 'American University in Cairo.'
 		inst_710b = 'Library.'
+	elif rec_003_value == 'aeadna':
+		inst_name = 'United Arab Emirates National Archives'
+		inst_710a = 'Abu Dhabi (United Arab Emirates).'
+		inst_710b = 'National Archives.'
 	else:
 		inst_name = ''
 		inst_710a = ''
@@ -1032,6 +1037,8 @@ def insert_src_entities(rec, bsn_se_lines):
 			se_003 = 'LeBAU'
 		if se_inst == 'auc':
 			se_003 = 'UaCaAUL'
+		if se_inst == 'uaena':
+			se_003 = 'aeadna'
 		if rec_003 == se_003 and rec_001 == se_001:
 			se_match = True
 			msg += 'Source entities (book IDs): '
