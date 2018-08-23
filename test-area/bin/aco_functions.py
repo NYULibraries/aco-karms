@@ -1,3 +1,4 @@
+
 import os
 import errno
 import pymarc
@@ -9,6 +10,44 @@ import string
 from copy import deepcopy
 import aco_globals
 import xml.dom.minidom
+
+######################################################################
+##  Method:  fix_updates()
+##		before processing an updates file received after the QC process, this function:
+##		-- checks for any 001 fields that contain "NEW"
+##			(meaning there wasn't any OCLC number/record used and the updates record
+##			originated from the partner's original record)
+##		-- if "NEW", deletes the existing 001 and 003 fields
+##		-- replaces the 001 with the original record's print BSN
+##		-- replaces the 003 with the partner's institutional code
+##		-- deletes any 035 fields containing "(OCoLC)NEW" in subfield $a
+######################################################################
+def fix_updates(rec):
+	rec_001 = rec.get_fields('001')[0]
+	rec_003 = rec.get_fields('003')[0]
+	rec_001_val = rec_001.value()
+	if 'NEW' in rec_001_val:
+		rec.remove_field(rec_001)
+		rec.remove_field(rec_003)
+		
+		rec_999i = rec.get_fields('999')[0].get_subfields('i')[0]
+		inst_code = rec_999i.split('_')[0]
+		inst_bsn = rec_999i.split('_')[1]
+		
+		new_001 = Field(tag='001', data=inst_bsn)
+		new_003 = Field(tag='003', data=inst_code)
+
+		rec.add_ordered_field(new_001)
+		rec.add_ordered_field(new_003)
+	
+	rec_035s = rec.get_fields('035')
+	if len(rec_035s) > 0:
+		for rec_035 in rec_035s:
+			if rec_035.get_subfields('a'):
+				rec_035a = rec_035.get_subfields('a')[0]
+				if 'OCoLC' in rec_035a and 'NEW' in rec_035a:
+					rec.remove_field(rec_035)
+	return rec
 
 ######################################################################
 ##  Method:  pad_008() - for NYU records, pads the 008 field to 40 chars
@@ -28,7 +67,6 @@ def pad_008(rec):
 		rec.add_ordered_field(new_008)
 		
 	return rec
-		
 
 ######################################################################
 ##  Method:  strip_number()
@@ -198,8 +236,8 @@ def check_for_unlinked_880s(rec):
 			msg += 'ERROR-MISC: There are either zero or multiple subfield $6s in this 880: '+rec_880+'\n'
 		else:
 			rec_880_6 = rec_880_6s[0]
-			#if rec_880_6[4:6]=='00' and not rec_880_6[0:1]=='5':
-			if rec_880_6[4:6]=='00':
+			if rec_880_6[4:6]=='00' and not rec_880_6[0:1]=='5':	# don't include unlinked 880s for 5XX fields in error report
+			#if rec_880_6[4:6]=='00':
 				unlinked_880s_exist = True
 				msg_unlnkd_880_6s += '   880 $6 '+rec_880_6+' - '
 				rec_880_pf = rec_880_6[0:3]				# get the corresponding parallel MARC field tag
@@ -476,6 +514,10 @@ def convert_2_eres_rec(rec, rda_rec):
 		inst_name = "American University in Cairo Library"
 		inst_710a = 'American University in Cairo.'
 		inst_710b = 'Library.'
+	elif rec_003_value == 'aeadna':
+		inst_name = 'United Arab Emirates National Archives'
+		inst_710a = 'Abu Dhabi (United Arab Emirates).'
+		inst_710b = 'National Archives.'
 	else:
 		inst_name = ''
 		inst_710a = ''
@@ -549,17 +591,17 @@ def convert_2_eres_rec(rec, rda_rec):
 		for rec_049 in rec.get_fields('049'):
 			rec.remove_field(rec_049)
 	
-	# create new 040 field for NNU
+	# create new 040 field for ZYU cataloging of new e-resource version record
 	for rec_040 in rec.get_fields('040'):
 		rec.remove_field(rec_040)	# delete the existing 040 field(s)
-	if rec_003_value == 'LeBAU':
+	if rec_003_value == 'LeBAU' or 'aeadna':
 		cat_lang = 'ara'
 	else:
 		cat_lang = 'eng'
 	if rda_rec:
-		new_040 = Field(tag='040', indicators=[' ',' '], subfields=['a','NNU','b',cat_lang,'e','rda','c','NNU'])
+		new_040 = Field(tag='040', indicators=[' ',' '], subfields=['a','ZYU','b',cat_lang,'e','rda','c','ZYU'])
 	else:
-		new_040 = Field(tag='040', indicators=[' ',' '], subfields=['a','NNU','b',cat_lang,'c','NNU'])
+		new_040 = Field(tag='040', indicators=[' ',' '], subfields=['a','ZYU','b',cat_lang,'c','ZYU'])
 	rec.add_ordered_field(new_040)
 	
 	# correct the 041 language code field when multiple codes exist in the same subfield
@@ -819,6 +861,24 @@ def convert_2_eres_rec(rec, rda_rec):
 	
 	rec.add_ordered_field(new_776)
 	
+	# remove any '/r' codes from the ends of the 880 $6 subfields
+	new_880_fields = []					# variable to collect the modified 880 fields with the '/r' codes removed from subfield 6's
+	if len(rec.get_fields('880')) > 0:							# record contains 880 parallel fields
+		for rec_880 in rec.get_fields('880'):					# iterate through each of the 880 fields
+			if len(rec_880.get_subfields('6')) > 0:				# the 880 field has a subfield 6
+				for rec_880_6 in rec_880.get_subfields('6'):	# iterate through the subfield 6's for each 880 field
+					if len(rec_880_6) > 6:			# subfield 6 has more than 6 characters and likely contains an '/r' code at the end
+						rec_880_6_re = re.compile('\d\d\d-\d\d')	# regular expression for matching the first 6 characters of the 880 $6 with pattern ###-## (e.g., 245-01)
+						if rec_880_6_re.match(rec_880_6):			# the first 6 characters of the 880 $6 subfield matches the pattern ###-##
+							new_880_6 = rec_880_6[0:6]				# create a new subfield $6 that contains ONLY the first 6 characters, removing any '/r' coding at the end
+							rec_880.delete_subfield('6')			# delete the existing subfield $6 in the 880 field containing the '/r' coding
+							rec_880.add_subfield('6', new_880_6)	# add the new, modified subfield $6 to the 880 field
+			new_880_fields.append(rec_880)			# add each 880 field to the array variable of 880 fields
+			rec.remove_field(rec_880)				# delete each of the existing 880 fields
+	
+	for new_880_field in new_880_fields:		# for each of the 880 fields in the array, including modified 880s
+		rec.add_ordered_field(new_880_field)	# add the 880 field back to the record, with changes made to subfield 6's
+	
 	# delete any 090 $h/$i fields
 	if len(rec.get_fields('090')) > 0:
 		for rec_090 in rec.get_fields('090'):
@@ -977,6 +1037,8 @@ def insert_src_entities(rec, bsn_se_lines):
 			se_003 = 'LeBAU'
 		if se_inst == 'auc':
 			se_003 = 'UaCaAUL'
+		if se_inst == 'uaena':
+			se_003 = 'aeadna'
 		if rec_003 == se_003 and rec_001 == se_001:
 			se_match = True
 			msg += 'Source entities (book IDs): '
@@ -1062,8 +1124,8 @@ def process_rec(rec, type):
 		no_call_num, msg_6 = check_if_call_num(rec)
 		indiv_rec_analysis_msg += msg_6
 		if no_call_num:
-			aco_globals.recs_no_call_num_count += 1	
-				
+			aco_globals.recs_no_call_num_count += 1
+		
 		################################################
 		# Check if record contains bad encoding script character (black diamond around question-mark)
 		# Evidenced by presence of Python source code u"\uFFFD" (See: http://www.fileformat.info/info/unicode/char/0fffd/index.htm)
@@ -1100,7 +1162,9 @@ def process_rec(rec, type):
 		ldr[5] = 'n'
 		ldr[6] = 'a'
 		ldr[7] = 'm'
-		#ldr[9] = 'a'
+		ldr[9] = 'a'
+		ldr[17] = 'M'
+		ldr[18] = 'i'
 		rec.leader = ''.join(ldr)
 		
 		################################################
@@ -1119,17 +1183,6 @@ def process_rec(rec, type):
 					rec_orig.get_fields('999')[0].delete_subfield('e')
 			add_999e = True
 		
-# 		rec_999s = rec.get_fields('999')
-# 		if len(rec_999s) == 0:
-# 			indiv_rec_analysis_msg += 'ERROR-MISC: The 999 field did not get added to the converted record during processing\n'
-# 		elif len(rec_999s) > 1:
-# 			indiv_rec_analysis_msg += 'ERROR-MISC: Converted record contains multiple 999 fields\n'
-# 		elif len(rec_999s) == 1:
-# 			if len(rec.get_fields('999')[0].get_subfields('e')) > 0:
-# 				for rec_999e in rec.get_fields('999')[0].get_subfields('e'):
-# 					rec.get_fields('999')[0].delete_subfield('e')
-# 			add_999e = True
-		
 		if add_999e:
 			error_types = ''
 			if 'ERROR-880' in indiv_rec_analysis_msg:
@@ -1147,26 +1200,16 @@ def process_rec(rec, type):
 		# Write out ERROR message and MARC records depending on status
 		if no_880_rec:
 			aco_globals.recs_no_880s_count += 1
-			aco_globals.marcRecsOut_no_880s.write(rec_orig)
-			aco_globals.recs_no_880s_txt.write(indiv_rec_analysis_msg)
 		if missing_key_880_rec:
 			aco_globals.recs_missing_key_880s_count += 1
-			aco_globals.marcRecsOut_missing_key_880s.write(rec_orig)
-			aco_globals.recs_missing_key_880s_txt.write(indiv_rec_analysis_msg)
 		if unlinked_880_rec:
 			aco_globals.recs_unlinked_880s_count += 1
-			aco_globals.marcRecsOut_unlinked_880s.write(rec_orig)
-			aco_globals.recs_unlinked_880s_txt.write(indiv_rec_analysis_msg)
 		if 'ERROR-SERIES' in indiv_rec_analysis_msg:
 			aco_globals.recs_series_errors_count += 1
-			aco_globals.marcRecsOut_series_errors.write(rec_orig)
-			aco_globals.recs_series_errors_txt.write(indiv_rec_analysis_msg)
 		if 'ERROR-MISC' in indiv_rec_analysis_msg:
 			aco_globals.recs_misc_errors_count += 1
-			aco_globals.marcRecsOut_misc_errors.write(rec_orig)
-			aco_globals.recs_misc_errors_txt.write(indiv_rec_analysis_msg)
 		
-		if 'ERROR' in indiv_rec_analysis_msg:
+		if 'ERROR' in indiv_rec_analysis_msg or aco_globals.set_auto_error:
 			aco_globals.recs_errors_all_count += 1
 			aco_globals.marcRecsOut_errors_all.write(rec_orig)
 			aco_globals.recs_errors_all_txt.write(indiv_rec_analysis_msg)
@@ -1200,7 +1243,7 @@ def process_rec(rec, type):
 		indiv_marcRecOut_xml = codecs.open(aco_globals.batch_folder+'/marcxml_out/'+inst_id+'_marcxml.xml', 'w')
 		indiv_marcRecOut_xml.write(pretty_rec_xml)
 		indiv_marcRecOut_xml.close()
-				
+		
 		aco_globals.indiv_rec_analysis_msgs += indiv_rec_analysis_msg
 	
 	return dup_num

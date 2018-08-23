@@ -594,7 +594,7 @@ def convert_2_eres_rec(rec, rda_rec):
 	# create new 040 field for ZYU cataloging of new e-resource version record
 	for rec_040 in rec.get_fields('040'):
 		rec.remove_field(rec_040)	# delete the existing 040 field(s)
-	if rec_003_value == 'LeBAU':
+	if rec_003_value == 'LeBAU' or 'aeadna':
 		cat_lang = 'ara'
 	else:
 		cat_lang = 'eng'
