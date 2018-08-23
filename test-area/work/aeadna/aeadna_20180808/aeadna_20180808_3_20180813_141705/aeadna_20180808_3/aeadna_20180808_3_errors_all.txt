@@ -6,18 +6,24 @@ ALL Records containing any type of error - batch aeadna_20180808
     --  have a series heading error in the 490/800/810/811/830 fields
     --  have one of the various miscellaneous errors, marked with ERROR-MISC
     --  missing a call number - no 050 or 090 field
-Report produced: 2018-08-23 14:01:22.857061
+Report produced: 2018-08-10 11:31:02.415498
 ---------------------------------------------------------------------
-FILE: aeadna_20180808_3/aeadna_20180808_3_updates.mrc
+FILE: aeadna_20180808_1/aeadna_20180808_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: aeadna_20180808_1/aeadna_20180808_1_orig_no_oclc_nums.mrc
 ---------------------------------------------------------------------
 Institution ID: aeadna_6235
    orig_rec_035 num: =035  \\$a(Sirsi) 6235
-Record 999:  aeadna_6235 uaena_aco000001:1
+Record 999:  aeadna_6235
 880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 300-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   245 - كتاب محيط المحيط : أي، قاموس مطَول للغة العربية / تأليف بطرس البستاني.
+   246 - محيط المحيط
+   246 - Muhit-al-muhit
+   260 - [بيروت: د.ن]، [1867-1870]
 040 $e field: AACR2
-050 call number: PJ6622 .B87 1867
+050 call number: PJ6622 .B87 1870
 Source entities (book IDs): uaena_aco000001:1
 ---------------------------------------------------------------------
 TOTAL Number of Records containing any type of error: 1
