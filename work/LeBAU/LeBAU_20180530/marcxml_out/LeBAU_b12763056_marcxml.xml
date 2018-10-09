@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1932    ua      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">181009s1932    ua      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DGPO</subfield>
+		<subfield code="b">.E48 1932</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">627.8</subfield>
@@ -26,7 +30,7 @@
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">Laws, etc.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-03</subfield>
 		<subfield code="a">al-Qānūn raqam 19 li-sanat 1932 bi-i‘timād insha’ khazzān Jabal al-Awliyā’ /</subfield>
 		<subfield code="c">Majlis al-Shuyūkh, al-Idārah al-tashrī‘īyah.</subfield>
@@ -54,9 +58,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">في رأس العنوان: المناقشات البرلمانية في القوانين.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -66,22 +67,14 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1="2" ind2="4" tag="610">
-		<subfield code="a">مصر.</subfield>
-		<subfield code="b">مجلس الشيوخ</subfield>
-		<subfield code="v">محاضر الجلسات.</subfield>
-	</datafield>
 	<datafield ind1="2" ind2="0" tag="610">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Egypt.</subfield>
 		<subfield code="b">Majlis al-Shuyūkh</subfield>
 		<subfield code="v">Proceedings.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الخزانات</subfield>
-		<subfield code="x">قوانين وتشريعات</subfield>
-		<subfield code="z">السودان.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Reservoirs</subfield>
 		<subfield code="x">Law and legislation</subfield>
 		<subfield code="z">Sudan.</subfield>
@@ -106,14 +99,14 @@
 		<subfield code="a">مصر.</subfield>
 		<subfield code="b">Majlis al-Shuyūkh.</subfield>
 		<subfield code="b">Idārah al-tashrī‘īyah,</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">240-02</subfield>
 		<subfield code="a">قوانين، الخ.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
+	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">245-03</subfield>
 		<subfield code="a">القانون رقم 19 لسنة 1932 باعتماد إنشاء خزان جبل الأولياء /</subfield>
 		<subfield code="c">مجلس الشيوخ، الإدارة التشريعية.</subfield>
@@ -129,6 +122,22 @@
 		<subfield code="a">258 صفحة ؛</subfield>
 		<subfield code="c">32 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">في رأس العنوان: المناقشات البرلمانية في القوانين.</subfield>
+	</datafield>
+	<datafield ind1="2" ind2="4" tag="880">
+		<subfield code="6">610-06</subfield>
+		<subfield code="a">مصر.</subfield>
+		<subfield code="b">مجلس الشيوخ</subfield>
+		<subfield code="v">محاضر الجلسات.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">الخزانات</subfield>
+		<subfield code="x">قوانين وتشريعات</subfield>
+		<subfield code="z">السودان.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -141,5 +150,6 @@
 		<subfield code="i">LeBAU_b12763056</subfield>
 		<subfield code="s">aub_aco001792</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001792</subfield>
 	</datafield>
 </record>

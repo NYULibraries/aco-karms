@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1947    le      ob    ||0 0 ara d</controlfield>
+	<controlfield tag="008">181009s1947    le      ob    ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="037">
 		<subfield code="b">Library</subfield>
 		<subfield code="z">30975</subfield>
@@ -19,6 +19,10 @@
 	<datafield ind1="0" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
 		<subfield code="b">eng</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ6810.Z5</subfield>
+		<subfield code="b">F87 1947</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">492.7703</subfield>
@@ -68,9 +72,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية (صفحات د-و)</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -78,27 +79,15 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="546">
-		<subfield code="a">النص بالعربية، مع مقدمة بالانجليزية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">اللغة العربية</subfield>
-		<subfield code="x">اللهجات</subfield>
-		<subfield code="z">لبنان</subfield>
-		<subfield code="v">قواميس.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">اللغة العربية</subfield>
-		<subfield code="x">العامية</subfield>
-		<subfield code="v">قواميس.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Arabic language</subfield>
 		<subfield code="x">Dialects</subfield>
 		<subfield code="z">Lebanon</subfield>
 		<subfield code="v">Dictionaries.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Arabic language</subfield>
 		<subfield code="x">Slang</subfield>
 		<subfield code="v">Dictionaries.</subfield>
@@ -110,7 +99,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="762">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Silsilat al-‘ulūm al-sharqīyah</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
@@ -120,7 +109,7 @@
 		<subfield code="w">(LeBAU)b12488161</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="6">880-07</subfield>
+		<subfield code="6">880-09</subfield>
 		<subfield code="a">Publication of the Faculty of Arts and Sciences.</subfield>
 		<subfield code="p">Oriental series ;</subfield>
 		<subfield code="v">19.</subfield>
@@ -132,7 +121,7 @@
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">فريحة، انيس،</subfield>
 		<subfield code="d">1903-</subfield>
-		<subfield code="e">معد. </subfield>
+		<subfield code="e">معد.</subfield>
 		<subfield code="4">com.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -156,12 +145,33 @@
 		<subfield code="a">منشورات كلية العلوم والآداب. سلسلة العلوم الشرقية ؛</subfield>
 		<subfield code="v">الحلقة التاسعة عشرة</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية (صفحات د-و)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">546-00</subfield>
+		<subfield code="a">النص بالعربية، مع مقدمة بالانجليزية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">اللغة العربية</subfield>
+		<subfield code="x">اللهجات</subfield>
+		<subfield code="z">لبنان</subfield>
+		<subfield code="v">قواميس.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">اللغة العربية</subfield>
+		<subfield code="x">العامية</subfield>
+		<subfield code="v">قواميس.</subfield>
+	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">762-06</subfield>
+		<subfield code="6">762-08</subfield>
 		<subfield code="a">سلسلة العلوم الشرقية</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
-		<subfield code="6">830-07</subfield>
+		<subfield code="6">830-09</subfield>
 		<subfield code="a">منشورات كلية العلوم والآداب.</subfield>
 		<subfield code="p">سلسلة العلوم الشرقية ؛</subfield>
 		<subfield code="v">19.</subfield>
@@ -178,5 +188,6 @@
 		<subfield code="i">LeBAU_b12488161</subfield>
 		<subfield code="s">aub_aco001956</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001956</subfield>
 	</datafield>
 </record>

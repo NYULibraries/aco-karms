@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1951    ua      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">181009s1951    ua      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP130.4</subfield>
+		<subfield code="b">.B3 1951</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">297.1226</subfield>
@@ -23,7 +27,7 @@
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">Qurʼān Karīm bi-khaṭṭ al-Ḥāfiẓ ʻUthmān.</subfield>
-		<subfield code="b">wa bi-hāmishihi tafsir al-Qāḍī Nāṣir al-Dīn al-Bayḍāwī. </subfield>
+		<subfield code="b">wa bi-hāmishihi tafsir al-Qāḍī Nāṣir al-Dīn al-Bayḍāwī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="264">
 		<subfield code="6">880-03</subfield>
@@ -48,12 +52,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;طبع بإذن من مشيخة المقارئ المصرية تحت نمرة 58.&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;طبع على نفقة مكتبة ومطبعة محمد علي صبيح واولاده.&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -63,18 +61,14 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="4" tag="630">
-		<subfield code="a">قرآن</subfield>
-		<subfield code="x">تفسير وتأويل</subfield>
-		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
-	</datafield>
 	<datafield ind1="0" ind2="0" tag="630">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Qur'an</subfield>
 		<subfield code="x">Hermeneutics</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="700">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Bayḍāwī, ʻAbd Allāh ibn ʻUmar,</subfield>
 		<subfield code="d">-1286?</subfield>
 		<subfield code="t">Tafsīr.</subfield>
@@ -113,8 +107,22 @@
 		<subfield code="a">815 صفحة ؛</subfield>
 		<subfield code="c">33 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;طبع بإذن من مشيخة المقارئ المصرية تحت نمرة 58.&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;طبع على نفقة مكتبة ومطبعة محمد علي صبيح واولاده.&quot;</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">630-05</subfield>
+		<subfield code="a">قرآن</subfield>
+		<subfield code="x">تفسير وتأويل</subfield>
+		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
-		<subfield code="6">700-05</subfield>
+		<subfield code="6">700-06</subfield>
 		<subfield code="a">البيضاوي، عبد الله بن عمر،</subfield>
 		<subfield code="d">-1286؟</subfield>
 		<subfield code="t">تفسير.</subfield>
@@ -131,5 +139,6 @@
 		<subfield code="i">LeBAU_b12758383</subfield>
 		<subfield code="s">aub_aco001738</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001738</subfield>
 	</datafield>
 </record>

@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604m19271930le      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">181009m19271930le      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="037">
 		<subfield code="b">Dr. Najla Abu Izzeddin</subfield>
 		<subfield code="z">34300</subfield>
@@ -16,6 +16,10 @@
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ6611</subfield>
+		<subfield code="b">.B87 1927</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">492.73</subfield>
 		<subfield code="2">22</subfield>
@@ -25,7 +29,7 @@
 		<subfield code="a">Bustānī, ʻAbd Allāh,</subfield>
 		<subfield code="e">compiler.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Bustān :</subfield>
 		<subfield code="b">wa-huwa muʻjam lughawī /</subfield>
@@ -56,9 +60,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="505">
-		<subfield code="a">الجزء الأول. من أ - ص -- الجزء الثاني. من ض - ي.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -66,11 +67,8 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">اللغة العربية</subfield>
-		<subfield code="v">قواميس.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Arabic language</subfield>
 		<subfield code="v">Dictionaries.</subfield>
 	</datafield>
@@ -92,10 +90,10 @@
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">البستاني، عبد الله،</subfield>
-		<subfield code="e">معد. </subfield>
+		<subfield code="e">معد.</subfield>
 		<subfield code="4">com.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
+	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">245-02</subfield>
 		<subfield code="a">البستان :</subfield>
 		<subfield code="b">وهو معجم لغوي /</subfield>
@@ -112,6 +110,15 @@
 		<subfield code="a">2 جزء ؛</subfield>
 		<subfield code="c">29 سم</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">505-00</subfield>
+		<subfield code="a">الجزء الأول. من أ - ص -- الجزء الثاني. من ض - ي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">اللغة العربية</subfield>
+		<subfield code="v">قواميس.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -125,5 +132,7 @@
 		<subfield code="s">aub_aco002108:v.1</subfield>
 		<subfield code="s">aub_aco002109:v.2</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco002108:v.1</subfield>
+		<subfield code="s">aub_aco002109:v.2</subfield>
 	</datafield>
 </record>

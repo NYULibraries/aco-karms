@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1946    su      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">181009s1946    su      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">KMT1220.A351984</subfield>
+		<subfield code="b">A4 1946</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">608</subfield>
@@ -58,9 +62,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;صدر الأمر السامي رقم 8762، 28/7/1358 عطفاً على الإرادة الملكية السنية رقم 33/1/4، 24/6/1358 بالموافقة على هذا النظام.&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -70,12 +71,8 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">العلامة التجارية</subfield>
-		<subfield code="x">قوانين وتشريعات</subfield>
-		<subfield code="z">السعودية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Trademarks</subfield>
 		<subfield code="x">Law and legislation</subfield>
 		<subfield code="z">Saudi Arabia.</subfield>
@@ -95,15 +92,11 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/d2547mkn</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-04</subfield>
-		<subfield code="a">الطبعة الثالثة.</subfield>
-	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">110-01</subfield>
 		<subfield code="a">السعودية.</subfield>
 		<subfield code="b">وزارة المالية،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -115,6 +108,10 @@
 		<subfield code="a">نظام تسجيل العلامات الفارقة /</subfield>
 		<subfield code="c">المملكة العربية السعودية، وزارة المالية.</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">250-04</subfield>
+		<subfield code="a">الطبعة الثالثة.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
 		<subfield code="6">264-05</subfield>
 		<subfield code="a">مكة المكرمة :</subfield>
@@ -125,6 +122,16 @@
 		<subfield code="6">300-06</subfield>
 		<subfield code="a">12 صفحة ؛</subfield>
 		<subfield code="c">25 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;صدر الأمر السامي رقم 8762، 28/7/1358 عطفاً على الإرادة الملكية السنية رقم 33/1/4، 24/6/1358 بالموافقة على هذا النظام.&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">العلامة التجارية</subfield>
+		<subfield code="x">قوانين وتشريعات</subfield>
+		<subfield code="z">السعودية.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -138,5 +145,6 @@
 		<subfield code="i">LeBAU_b12489712</subfield>
 		<subfield code="s">aub_aco002043</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco002043</subfield>
 	</datafield>
 </record>

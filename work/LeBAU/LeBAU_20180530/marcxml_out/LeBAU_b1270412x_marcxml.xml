@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1955    le acf  o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">181009s1955    le acf  o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS87</subfield>
+		<subfield code="b">.L43 1955</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">956.92</subfield>
@@ -61,30 +65,19 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="4" tag="600">
-		<subfield code="a">شمعون، كميل،</subfield>
-		<subfield code="d">1900-1987.</subfield>
-	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Chamoun, Camille,</subfield>
 		<subfield code="d">1900-1987.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">لبنان</subfield>
-		<subfield code="x">تاريخ</subfield>
-		<subfield code="y">القرن العشرون.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">لبنان</subfield>
-		<subfield code="x">الاحوال الاقتصادية</subfield>
-		<subfield code="y">القرن العشرون.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Lebanon</subfield>
 		<subfield code="x">History</subfield>
 		<subfield code="y">20th century.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Lebanon</subfield>
 		<subfield code="x">Economic conditions</subfield>
 		<subfield code="y">20th century.</subfield>
@@ -108,7 +101,7 @@
 		<subfield code="6">110-01</subfield>
 		<subfield code="a">لبنان.</subfield>
 		<subfield code="b">وزارة الأنباء،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -129,6 +122,23 @@
 		<subfield code="b">مصورات، صور شخصانية ؛</subfield>
 		<subfield code="c">20 سم</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">600-05</subfield>
+		<subfield code="a">شمعون، كميل،</subfield>
+		<subfield code="d">1900-1987.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-06</subfield>
+		<subfield code="a">لبنان</subfield>
+		<subfield code="x">تاريخ</subfield>
+		<subfield code="y">القرن العشرون.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-07</subfield>
+		<subfield code="a">لبنان</subfield>
+		<subfield code="x">الاحوال الاقتصادية</subfield>
+		<subfield code="y">القرن العشرون.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -141,5 +151,6 @@
 		<subfield code="i">LeBAU_b1270412x</subfield>
 		<subfield code="s">aub_aco001922</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001922</subfield>
 	</datafield>
 </record>

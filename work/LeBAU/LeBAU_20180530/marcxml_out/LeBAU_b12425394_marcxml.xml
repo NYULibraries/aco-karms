@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1938    le b    ob    ||1 0 ara d</controlfield>
+	<controlfield tag="008">181009s1938    le b    ob    ||1 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="037">
 		<subfield code="b">Library</subfield>
 		<subfield code="z">30975</subfield>
@@ -16,6 +16,10 @@
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">HC415.4.A1</subfield>
+		<subfield code="b">.A64 1938</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">330.9567</subfield>
 		<subfield code="2">22</subfield>
@@ -25,7 +29,7 @@
 		<subfield code="a">American University of Beirut,</subfield>
 		<subfield code="e">issuing body.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Niẓām al-iqtiṣādī fī al-‘Irāq /</subfield>
 		<subfield code="c">muḥarriruhu Saʼid Ḥamādah, ustādh al-iqtiṣād al-‘amalī fī Jāmi‘at Bayrūt al-Amīrikīyah.</subfield>
@@ -61,9 +65,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية (صفحات 609-619) وكشاف.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -71,28 +72,20 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">العراق</subfield>
-		<subfield code="x">الاحوال الاقتصادية</subfield>
-		<subfield code="y">القرن العشرون.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">العراق</subfield>
-		<subfield code="x">السياسة الإقتصادية</subfield>
-		<subfield code="y">القرن العشرون.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
-		<subfield code="a">Iraq</subfield>
-		<subfield code="x">Economic conditions</subfield>
-		<subfield code="y">20th century.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Iraq</subfield>
 		<subfield code="x">Economic policy</subfield>
 		<subfield code="y">20th century.</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-07</subfield>
+		<subfield code="a">Iraq</subfield>
+		<subfield code="x">Economic conditions</subfield>
+		<subfield code="y">20th century.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Ḥimādeh, Saʼid B.,</subfield>
 		<subfield code="d">1894-</subfield>
 		<subfield code="e">editor.</subfield>
@@ -104,7 +97,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="762">
-		<subfield code="6">880-07</subfield>
+		<subfield code="6">880-09</subfield>
 		<subfield code="a">Silsilat al-‘ulūm al-ijtimā‘īyah</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
@@ -114,7 +107,7 @@
 		<subfield code="w">(LeBAU)b12425394</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="6">880-08</subfield>
+		<subfield code="6">880-10</subfield>
 		<subfield code="a">Publications of the Faculty of Arts and Sciences.</subfield>
 		<subfield code="p">Social science series ;</subfield>
 		<subfield code="v">16.</subfield>
@@ -125,10 +118,10 @@
 	<datafield ind1="2" ind2=" " tag="880">
 		<subfield code="6">110-01</subfield>
 		<subfield code="a">الجامعة الأميركية في بيروت،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
+	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">245-02</subfield>
 		<subfield code="a">النظام الإقتصادي في العراق /</subfield>
 		<subfield code="c">محرره سعيد حماده، أستاذ الإقتصاد العملي في جامعة بيروت الأميركية.</subfield>
@@ -150,19 +143,35 @@
 		<subfield code="a">منشورات كلية العلوم والآداب. سلسلة العلوم الاجتماعية ؛</subfield>
 		<subfield code="v">الحلقة السادسة عشرة</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية (صفحات 609-619) وكشاف.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-06</subfield>
+		<subfield code="a">العراق</subfield>
+		<subfield code="x">السياسة الإقتصادية</subfield>
+		<subfield code="y">القرن العشرون.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-07</subfield>
+		<subfield code="a">العراق</subfield>
+		<subfield code="x">الاحوال الاقتصادية</subfield>
+		<subfield code="y">القرن العشرون.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-06</subfield>
+		<subfield code="6">700-08</subfield>
 		<subfield code="a">حمادة، سعيد ب.،</subfield>
 		<subfield code="d">1894-</subfield>
-		<subfield code="e">محرر. </subfield>
+		<subfield code="e">محرر.</subfield>
 		<subfield code="4">edt.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">762-07</subfield>
+		<subfield code="6">762-09</subfield>
 		<subfield code="a">سلسلة العلوم الاجتماعية</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
-		<subfield code="6">830-08</subfield>
+		<subfield code="6">830-10</subfield>
 		<subfield code="a">منشورات كلية العلوم والآداب.</subfield>
 		<subfield code="p">سلسلة العلوم الاجتماعية ؛</subfield>
 		<subfield code="v">16.</subfield>
@@ -179,5 +188,6 @@
 		<subfield code="i">LeBAU_b12425394</subfield>
 		<subfield code="s">aub_aco001944</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001944</subfield>
 	</datafield>
 </record>

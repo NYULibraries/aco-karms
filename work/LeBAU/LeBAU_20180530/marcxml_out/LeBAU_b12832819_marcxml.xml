@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1950    le acf  o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">181009s1950    le acf  o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -18,6 +18,10 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">a-le---</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS87.2.K565</subfield>
+		<subfield code="b">K48 1950</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">956.9204</subfield>
@@ -61,12 +65,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">عنوان غلاف.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;بمناسبة إجتماع المغتربين في لبنان صيف عام 1950&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -76,21 +74,13 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="546">
-		<subfield code="a">النص بالعربية والإنجليزية.</subfield>
-	</datafield>
-	<datafield ind1="1" ind2="4" tag="600">
-		<subfield code="a">الخوري، بشارة خليل،</subfield>
-		<subfield code="d">1890-1964.</subfield>
-	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Khūrī, Bishārah Khalīl,</subfield>
 		<subfield code="d">1890-1964.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="655">
-		<subfield code="a">كلمات.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="655">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Speeches.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -112,7 +102,7 @@
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">الخوري، بشارة خليل،</subfield>
 		<subfield code="d">1890-1964،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -132,6 +122,27 @@
 		<subfield code="b">مصورات، صورة شخصانية ؛</subfield>
 		<subfield code="c">24 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">عنوان غلاف.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;بمناسبة إجتماع المغتربين في لبنان صيف عام 1950&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">546-00</subfield>
+		<subfield code="a">النص بالعربية والإنجليزية.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">600-05</subfield>
+		<subfield code="a">الخوري، بشارة خليل،</subfield>
+		<subfield code="d">1890-1964.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">655-06</subfield>
+		<subfield code="a">كلمات.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -144,5 +155,6 @@
 		<subfield code="i">LeBAU_b12832819</subfield>
 		<subfield code="s">aub_aco001915</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001915</subfield>
 	</datafield>
 </record>

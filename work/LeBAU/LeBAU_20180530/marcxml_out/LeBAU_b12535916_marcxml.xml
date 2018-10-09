@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1948    sy ac   o     ||0 p ara d</controlfield>
+	<controlfield tag="008">181009s1948    sy ac   o     ||0 p ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ7842</subfield>
+		<subfield code="b">.A87 1948</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">892.78</subfield>
@@ -55,12 +59,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;حققها ونشرها حكمة الجادرجي، قنصل المملكة العراقية بالإسكندرية&quot; --المجموعة الثانية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;حققها ونشرها حكمة الجادرجي، طبع بمطبعة دار إحياء الكتب العربية لأصحابها عيسى البابي الحلبي وشركاه&quot; --المجموعة الثانية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -70,14 +68,12 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="655">
-		<subfield code="a">شعر.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="655">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Poetry.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Jādirjī, Ḥikmat,</subfield>
 		<subfield code="e">annotator.</subfield>
 	</datafield>
@@ -100,7 +96,7 @@
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">الكاظمي، عبد المحسن،</subfield>
 		<subfield code="d">1865-1935،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -124,10 +120,22 @@
 		<subfield code="b">مصورات (بعضها ملون)، صور شخصانية ؛</subfield>
 		<subfield code="c">24 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;حققها ونشرها حكمة الجادرجي، قنصل المملكة العراقية بالإسكندرية&quot; --المجموعة الثانية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;حققها ونشرها حكمة الجادرجي، طبع بمطبعة دار إحياء الكتب العربية لأصحابها عيسى البابي الحلبي وشركاه&quot; --المجموعة الثانية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">655-06</subfield>
+		<subfield code="a">شعر.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-06</subfield>
+		<subfield code="6">700-07</subfield>
 		<subfield code="a">الجادرجي، حكمة،</subfield>
-		<subfield code="e">محقق. </subfield>
+		<subfield code="e">محقق.</subfield>
 		<subfield code="4">ann.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -143,5 +151,7 @@
 		<subfield code="s">aub_aco001802:v.1</subfield>
 		<subfield code="s">aub_aco001803:v.2</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001802:v.1</subfield>
+		<subfield code="s">aub_aco001803:v.2</subfield>
 	</datafield>
 </record>

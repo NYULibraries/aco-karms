@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1942    ua      o       0 0 ara d</controlfield>
+	<controlfield tag="008">181009s1942    ua      o       0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -15,6 +15,10 @@
 	<datafield ind1="0" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
 		<subfield code="a">eng</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">Q183.4.A65</subfield>
+		<subfield code="b">R33 1942</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">507</subfield>
@@ -63,16 +67,8 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="546">
-		<subfield code="a">النص بالعربية، مع نص بالإنجليزية</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">العلوم</subfield>
-		<subfield code="x">الدرس والتدريس</subfield>
-		<subfield code="z">البلدان العربية</subfield>
-		<subfield code="v">مؤتمرات.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Science</subfield>
 		<subfield code="x">Study and teaching</subfield>
 		<subfield code="z">Arab countries</subfield>
@@ -82,7 +78,7 @@
 		<subfield code="a">Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="711">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Muʼtamar tadrīs al-ʻulūm</subfield>
 		<subfield code="d">(1942 :</subfield>
 		<subfield code="c">Cairo, Egypt)</subfield>
@@ -102,7 +98,7 @@
 	<datafield ind1="2" ind2=" " tag="880">
 		<subfield code="6">110-01</subfield>
 		<subfield code="a">رابطة التربية الحديثة (القاهرة، مصر)،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -122,8 +118,19 @@
 		<subfield code="a">د-س، 203، ط-س صفحة</subfield>
 		<subfield code="c">26 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">546-00</subfield>
+		<subfield code="a">النص بالعربية، مع نص بالإنجليزية</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">العلوم</subfield>
+		<subfield code="x">الدرس والتدريس</subfield>
+		<subfield code="z">البلدان العربية</subfield>
+		<subfield code="v">مؤتمرات.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="880">
-		<subfield code="6">711-05</subfield>
+		<subfield code="6">711-06</subfield>
 		<subfield code="a">مؤتمر تدريس العلوم</subfield>
 		<subfield code="d">(1942 :</subfield>
 		<subfield code="c">القاهرة، مصر)</subfield>
@@ -140,5 +147,6 @@
 		<subfield code="i">LeBAU_b1248782x</subfield>
 		<subfield code="s">aub_aco002035</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco002035</subfield>
 	</datafield>
 </record>

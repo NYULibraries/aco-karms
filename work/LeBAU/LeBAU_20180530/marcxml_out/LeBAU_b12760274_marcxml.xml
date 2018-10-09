@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1931    iq      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">181009s1931    iq      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">JX1954</subfield>
+		<subfield code="b">.I73 1931</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">341.2</subfield>
@@ -62,23 +66,13 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="4" tag="610">
-		<subfield code="a">العراق.</subfield>
-		<subfield code="t">معاهدات، الخ.</subfield>
-	</datafield>
 	<datafield ind1="1" ind2="0" tag="610">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Iraq.</subfield>
 		<subfield code="t">Treaties, etc.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">البترول، صناعة وتجارة</subfield>
-		<subfield code="z">العراق.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">البترول، قوانين وتشريعات</subfield>
-		<subfield code="z">العراق.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Petroleum industry and trade</subfield>
 		<subfield code="z">Iraq.</subfield>
 	</datafield>
@@ -104,7 +98,7 @@
 	<datafield ind1="2" ind2=" " tag="880">
 		<subfield code="6">110-01</subfield>
 		<subfield code="a">شركة نفط العراق المحدودة،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -127,6 +121,21 @@
 		<subfield code="a">1 جزء (متنوع الترقيم ) ؛</subfield>
 		<subfield code="c">34 سم</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">610-06</subfield>
+		<subfield code="a">العراق.</subfield>
+		<subfield code="t">معاهدات، الخ.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-00</subfield>
+		<subfield code="a">البترول، صناعة وتجارة</subfield>
+		<subfield code="z">العراق.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">البترول، قوانين وتشريعات</subfield>
+		<subfield code="z">العراق.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -139,5 +148,6 @@
 		<subfield code="i">LeBAU_b12760274</subfield>
 		<subfield code="s">aub_aco001762</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001762</subfield>
 	</datafield>
 </record>

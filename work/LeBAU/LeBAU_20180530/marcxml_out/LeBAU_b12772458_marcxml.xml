@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1948    le acf  ob    ||0 0 ara d</controlfield>
+	<controlfield tag="008">181009s1948    le acf  ob    ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -14,6 +14,10 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">a-le---</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BX173.2</subfield>
+		<subfield code="b">.T37 1948</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">956.9</subfield>
@@ -68,13 +72,7 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">3 أجزاء ببليوغرافية في 2 جزء مادي.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
@@ -83,24 +81,18 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">المسيحيون السريان</subfield>
-		<subfield code="x">تاريخ.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Syriac Christians</subfield>
 		<subfield code="x">History.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">لبنان</subfield>
-		<subfield code="x">التاريخ الكنسي.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-09</subfield>
 		<subfield code="a">Lebanon</subfield>
 		<subfield code="x">Church history.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-08</subfield>
+		<subfield code="6">880-10</subfield>
 		<subfield code="i">is critiqued in (work)</subfield>
 		<subfield code="a">Qarʼalī, Būlus,</subfield>
 		<subfield code="d">-1952.</subfield>
@@ -126,7 +118,7 @@
 		<subfield code="a">طرازي، فيليب دي،</subfield>
 		<subfield code="c">الفيكونت،</subfield>
 		<subfield code="d">1865-1956،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -159,8 +151,26 @@
 		<subfield code="b">مصورات، صورة شخصانية في الواجهة ؛</subfield>
 		<subfield code="c">24 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">3 أجزاء ببليوغرافية في 2 جزء مادي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-08</subfield>
+		<subfield code="a">المسيحيون السريان</subfield>
+		<subfield code="x">تاريخ.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-09</subfield>
+		<subfield code="a">لبنان</subfield>
+		<subfield code="x">التاريخ الكنسي.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-08</subfield>
+		<subfield code="6">700-10</subfield>
 		<subfield code="i">منتقد في (عمل)</subfield>
 		<subfield code="4">http://rdaregistry.info/Elements/w/P10115:</subfield>
 		<subfield code="a">قرألي، بولس</subfield>
@@ -180,5 +190,7 @@
 		<subfield code="s">aub_aco001904:v.1-2</subfield>
 		<subfield code="s">aub_aco001905:v.3</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001904:v.1-2</subfield>
+		<subfield code="s">aub_aco001905:v.3</subfield>
 	</datafield>
 </record>

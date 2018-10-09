@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1949    sy      o     ||0 1 ara d</controlfield>
+	<controlfield tag="008">181009s1949    sy      o     ||0 1 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -15,6 +15,10 @@
 	<datafield ind1="1" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
 		<subfield code="h">fre</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PQ2625.A95</subfield>
+		<subfield code="b">C6125 1949 </subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">843</subfield>
@@ -62,9 +66,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">ترجمة كتاب: Climats.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -74,22 +75,18 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">القصة الفرنسية</subfield>
-		<subfield code="v">ترجمات الى العربية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">French fiction</subfield>
 		<subfield code="v">Translations into Arabic.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="0" tag="650">
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Fiction.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="655">
-		<subfield code="a">قصص.</subfield>
+		<subfield code="2">lcgft</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Qaḍamānī, Sa‘īd,</subfield>
 		<subfield code="e">translator.</subfield>
 	</datafield>
@@ -112,7 +109,7 @@
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">موروا، اندريه،</subfield>
 		<subfield code="d">1885-1967،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -135,10 +132,23 @@
 		<subfield code="a">139 صفحة ؛</subfield>
 		<subfield code="c">21 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">ترجمة كتاب: Climats.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">القصة الفرنسية</subfield>
+		<subfield code="v">ترجمات الى العربية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">655-07</subfield>
+		<subfield code="a">قصص.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-06</subfield>
+		<subfield code="6">700-08</subfield>
 		<subfield code="a">القضماني، سعيد،</subfield>
-		<subfield code="e">مترجم. </subfield>
+		<subfield code="e">مترجم.</subfield>
 		<subfield code="4">trl.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -153,5 +163,6 @@
 		<subfield code="i">LeBAU_b12523367</subfield>
 		<subfield code="s">aub_aco002008</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco002008</subfield>
 	</datafield>
 </record>

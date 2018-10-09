@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1946    ua      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">181009s1946    ua      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="037">
 		<subfield code="b">Majid Fakhry</subfield>
 		<subfield code="z">40850</subfield>
@@ -15,6 +15,10 @@
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">B741</subfield>
+		<subfield code="b">.A77 1948</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">181.07</subfield>
@@ -26,7 +30,7 @@
 		<subfield code="d">1889-1964,</subfield>
 		<subfield code="e">author.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Shaykh al-Raʼīs Ibn Sīnā /</subfield>
 		<subfield code="c">ʻAbbās Maḥmūd al-ʻAqqād.</subfield>
@@ -68,27 +72,18 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="4" tag="600">
-		<subfield code="a">إبن سينا،</subfield>
-		<subfield code="d">980-1037.</subfield>
-	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Avicenna,</subfield>
 		<subfield code="d">980-1037.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الفلسفة الاسلامية</subfield>
-		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الفلسفة العربية</subfield>
-		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Islamic philosophy</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Philosophy, Arab</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
@@ -105,7 +100,7 @@
 		<subfield code="w">(LeBAU)b14186998</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-09</subfield>
 		<subfield code="a">Iqra’  ;</subfield>
 		<subfield code="v">46.</subfield>
 	</datafield>
@@ -116,10 +111,10 @@
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">العقاد، عباس محمود،</subfield>
 		<subfield code="d">1889-1964،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
+	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">245-02</subfield>
 		<subfield code="a">الشيخ الرئيس إبن سينا /</subfield>
 		<subfield code="c">عباس محمود العقاد.</subfield>
@@ -140,8 +135,23 @@
 		<subfield code="a">اقرأ ؛</subfield>
 		<subfield code="v">46</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">600-06</subfield>
+		<subfield code="a">إبن سينا،</subfield>
+		<subfield code="d">980-1037.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">الفلسفة الاسلامية</subfield>
+		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-08</subfield>
+		<subfield code="a">الفلسفة العربية</subfield>
+		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
-		<subfield code="6">830-06</subfield>
+		<subfield code="6">830-09</subfield>
 		<subfield code="a">اقرأ ؛</subfield>
 		<subfield code="v">46.</subfield>
 	</datafield>
@@ -157,5 +167,6 @@
 		<subfield code="i">LeBAU_b14186998</subfield>
 		<subfield code="s">aub_aco002049</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco002049</subfield>
 	</datafield>
 </record>

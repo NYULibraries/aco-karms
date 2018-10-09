@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1926    le      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">181009s1926    le      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS87</subfield>
+		<subfield code="b">.D24 1926</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">956.9</subfield>
@@ -52,9 +56,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="505">
-		<subfield code="a">ااضرار تقسيم الوطن السوري الى دويلات مستقلة -- فوائد الإتحاد اللامركزي (فديراسيون) -- إستقلال لبنان الكبير عن سوريا مفتعل -- إستقلال لبنان الكبير والإعتماد على فرنسا -- لبنان الكبير والوطن القومي المسيحي -- خطر نظرية الوطن القومي المسيحي على اللبنانيين -- الوطن القومي المسيحي والخطر الارمني -- سكان لبنان الكبير بعد خمسين سنة -- لبنان الكبير مدعاة للتفرقة الدائمة -- مصلحة فرنسا في الوحدة السورية</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -62,17 +63,8 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">لبنان</subfield>
-		<subfield code="x">تاريخ</subfield>
-		<subfield code="y">القرن العشرون.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">لبنان</subfield>
-		<subfield code="x">السياسة والحكومة</subfield>
-		<subfield code="y">القرن العشرون.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Lebanon</subfield>
 		<subfield code="x">History</subfield>
 		<subfield code="y">20th century.</subfield>
@@ -100,7 +92,7 @@
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">الدحداح، ادوار،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -120,6 +112,22 @@
 		<subfield code="a">60 صفحة ؛</subfield>
 		<subfield code="c">20 سم</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">505-00</subfield>
+		<subfield code="a">ااضرار تقسيم الوطن السوري الى دويلات مستقلة -- فوائد الإتحاد اللامركزي (فديراسيون) -- إستقلال لبنان الكبير عن سوريا مفتعل -- إستقلال لبنان الكبير والإعتماد على فرنسا -- لبنان الكبير والوطن القومي المسيحي -- خطر نظرية الوطن القومي المسيحي على اللبنانيين -- الوطن القومي المسيحي والخطر الارمني -- سكان لبنان الكبير بعد خمسين سنة -- لبنان الكبير مدعاة للتفرقة الدائمة -- مصلحة فرنسا في الوحدة السورية</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-00</subfield>
+		<subfield code="a">لبنان</subfield>
+		<subfield code="x">تاريخ</subfield>
+		<subfield code="y">القرن العشرون.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-05</subfield>
+		<subfield code="a">لبنان</subfield>
+		<subfield code="x">السياسة والحكومة</subfield>
+		<subfield code="y">القرن العشرون.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -132,5 +140,6 @@
 		<subfield code="i">LeBAU_b12768972</subfield>
 		<subfield code="s">aub_aco001932</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001932</subfield>
 	</datafield>
 </record>

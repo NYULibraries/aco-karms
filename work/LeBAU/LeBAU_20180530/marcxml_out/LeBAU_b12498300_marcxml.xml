@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1952    ua aef  o    o001 0 ara d</controlfield>
+	<controlfield tag="008">181009s1952    ua aef  o    o001 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">AM87.A1</subfield>
+		<subfield code="b">.M38 1952</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">708.962</subfield>
@@ -56,12 +60,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">في رأس العنوان: وزارة المعارف العمومية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">يتضمن كشاف.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -71,22 +69,18 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1="2" ind2="4" tag="610">
-		<subfield code="a">متحف الفن الإسلامي (القاهرة، مصر)</subfield>
-	</datafield>
 	<datafield ind1="2" ind2="0" tag="610">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Matḥaf al-Fann al-Islāmī (Cairo, Egypt)</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">المتاحف</subfield>
-		<subfield code="z">مصر</subfield>
-		<subfield code="v">فهارس.</subfield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
+		<subfield code="a">Museums</subfield>
+		<subfield code="z">Egypt</subfield>
+		<subfield code="v">Catalogs.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">الفن الإسلامي</subfield>
-		<subfield code="v">فهارس.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Museums</subfield>
 		<subfield code="z">Egypt</subfield>
 		<subfield code="v">Catalogs.</subfield>
@@ -113,7 +107,7 @@
 	<datafield ind1="2" ind2=" " tag="880">
 		<subfield code="6">110-01</subfield>
 		<subfield code="a">متحف الفن الإسلامي (القاهرة، مصر)،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -139,6 +133,29 @@
 		<subfield code="b">مصورات، مخطط هندسي ؛</subfield>
 		<subfield code="c">25 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">في رأس العنوان: وزارة المعارف العمومية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">يتضمن كشاف.</subfield>
+	</datafield>
+	<datafield ind1="2" ind2="4" tag="880">
+		<subfield code="6">610-06</subfield>
+		<subfield code="a">متحف الفن الإسلامي (القاهرة، مصر)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">المتاحف</subfield>
+		<subfield code="z">مصر</subfield>
+		<subfield code="v">فهارس.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">650-08</subfield>
+		<subfield code="a">الفن الإسلامي</subfield>
+		<subfield code="v">فهارس.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -151,5 +168,6 @@
 		<subfield code="i">LeBAU_b12498300</subfield>
 		<subfield code="s">aub_aco002083</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco002083</subfield>
 	</datafield>
 </record>
