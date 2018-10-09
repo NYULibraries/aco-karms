@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1930    le      o     ||1 0 fre d</controlfield>
+	<controlfield tag="008">181009s1930    le      o     ||1 0 fre d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -15,6 +15,10 @@
 	<datafield ind1="0" ind2=" " tag="041">
 		<subfield code="a">fre</subfield>
 		<subfield code="a">ara</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">B743.I7</subfield>
+		<subfield code="b">A92 1930</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">181.07</subfield>
@@ -28,7 +32,7 @@
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">880-01</subfield>
 		<subfield code="a">TAHAFOT AL-TAHAFOT /</subfield>
-		<subfield code="c"> texte Arabe établi par Maurice Bouyges, S. J. = Tahāfut al-tahāfut / li-Abī al-Walīd Muḥammad ibn Aḥmad ibn Muḥammad ibn Rushd.</subfield>
+		<subfield code="c">texte Arabe établi par Maurice Bouyges, S. J. = Tahāfut al-tahāfut / li-Abī al-Walīd Muḥammad ibn Aḥmad ibn Muḥammad ibn Rushd.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="1" tag="246">
 		<subfield code="6">880-02</subfield>
@@ -74,10 +78,6 @@
 		<subfield code="a">Philosophy, Arab</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الفلسفة العربية</subfield>
-		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
-	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="a">Bouyges, Maurice,</subfield>
 		<subfield code="e">compiler.</subfield>
@@ -100,11 +100,16 @@
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">245-01</subfield>
 		<subfield code="a">TAHAFOT AL-TAHAFOT /</subfield>
-		<subfield code="c"> texte Arabe établi par Maurice Bouyges, S. J. = تهافت التهافت / لأبي الوليد محمد بن أحمد بن محمد ابن رشد.</subfield>
+		<subfield code="c">texte Arabe établi par Maurice Bouyges, S. J. = تهافت التهافت / لأبي الوليد محمد بن أحمد بن محمد ابن رشد.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="1" tag="880">
 		<subfield code="6">246-02</subfield>
 		<subfield code="a">تهافت التهافت</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-00</subfield>
+		<subfield code="a">الفلسفة العربية</subfield>
+		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -118,5 +123,6 @@
 		<subfield code="i">LeBAU_b13078082</subfield>
 		<subfield code="s">aub_aco002009</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco002009</subfield>
 	</datafield>
 </record>

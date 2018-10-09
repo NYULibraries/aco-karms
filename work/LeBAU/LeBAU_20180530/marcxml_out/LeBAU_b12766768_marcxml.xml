@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1929    iq      o     1|0 0 ara d</controlfield>
+	<controlfield tag="008">181009s1929    iq      o     1|0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">HE6275</subfield>
+		<subfield code="b">.U65 1929</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">383.4</subfield>
@@ -58,18 +62,12 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الاتفاقيات البريدية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">البريد، خدمات</subfield>
-		<subfield code="x">قوانين وتشريعات</subfield>
-		<subfield code="z">العراق.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Postal conventions.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Postal service</subfield>
 		<subfield code="x">Law and legislation</subfield>
 		<subfield code="z">Iraq.</subfield>
@@ -109,6 +107,16 @@
 		<subfield code="a">26 صفحة ؛</subfield>
 		<subfield code="c">34 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">الاتفاقيات البريدية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">البريد، خدمات</subfield>
+		<subfield code="x">قوانين وتشريعات</subfield>
+		<subfield code="z">العراق.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -121,5 +129,6 @@
 		<subfield code="i">LeBAU_b12766768</subfield>
 		<subfield code="s">aub_aco001779</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001779</subfield>
 	</datafield>
 </record>

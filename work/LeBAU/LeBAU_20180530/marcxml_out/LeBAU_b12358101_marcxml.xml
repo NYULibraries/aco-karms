@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1936    le      o       0 0 fre d</controlfield>
+	<controlfield tag="008">181009s1936    le      o       0 0 fre d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -15,6 +15,10 @@
 	<datafield ind1="0" ind2=" " tag="041">
 		<subfield code="a">fre</subfield>
 		<subfield code="a">ara</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">B753.I5</subfield>
+		<subfield code="b">H3 1936</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">181.07</subfield>
@@ -41,11 +45,6 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
 		<subfield code="a">2e edition, revue, augmentée et completement remaniée.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="1" tag="264">
-		<subfield code="a">Beyrouth :</subfield>
-		<subfield code="b">Imprimerie Catholique،</subfield>
-		<subfield code="c">1936.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (XXXIV, 193, 188 pages)</subfield>
@@ -83,18 +82,13 @@
 		<subfield code="a">Text in French and Arabic.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Hayy ibn Yakzan (Legendary character)</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="4" tag="600">
-		<subfield code="a">حي بن يقظان (شخصية اسطورية)</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Islamic philosophy</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الفلسفة الاسلامية</subfield>
-		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="a">Gauthier, Leon,</subfield>
@@ -139,6 +133,21 @@
 		<subfield code="6">246-03</subfield>
 		<subfield code="a">حي بن يقظان</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="1" tag="880">
+		<subfield code="6">264-00</subfield>
+		<subfield code="a">Beyrouth :</subfield>
+		<subfield code="b">Imprimerie Catholique،</subfield>
+		<subfield code="c">1936.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">600-04</subfield>
+		<subfield code="a">حي بن يقظان (شخصية اسطورية)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">الفلسفة الاسلامية</subfield>
+		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -151,5 +160,6 @@
 		<subfield code="i">LeBAU_b12358101</subfield>
 		<subfield code="s">aub_aco002012</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco002012</subfield>
 	</datafield>
 </record>

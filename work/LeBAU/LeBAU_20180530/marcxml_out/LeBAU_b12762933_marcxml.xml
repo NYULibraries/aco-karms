@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1923    iq      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">181009s1923    iq      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">KMJ3073.A12</subfield>
+		<subfield code="b">I73 1923</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">626.8</subfield>
@@ -54,9 +58,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="501">
-		<subfield code="a">مجلد مع: قانون تعديل قانون الري والسداد لسنة 1924 و 1925 و 1927.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -64,32 +65,23 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">قوانين الري</subfield>
-		<subfield code="z">العراق.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">السدود</subfield>
-		<subfield code="z">العراق.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">التعديلات الدستورية</subfield>
-		<subfield code="z">العراق.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Irrigation laws</subfield>
 		<subfield code="z">Iraq.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Dams</subfield>
 		<subfield code="z">Iraq.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Constitutional amendments</subfield>
 		<subfield code="z">Iraq.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="710">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-09</subfield>
 		<subfield code="a">Iraq.</subfield>
 		<subfield code="t">Qānūn ta‘dīl Qānūn al-rayy wa-al-sidād.</subfield>
 	</datafield>
@@ -111,7 +103,7 @@
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">110-01</subfield>
 		<subfield code="a">العراق،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -133,8 +125,27 @@
 		<subfield code="a">6 صفحات ؛</subfield>
 		<subfield code="c">34 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">501-00</subfield>
+		<subfield code="a">مجلد مع: قانون تعديل قانون الري والسداد لسنة 1924 و 1925 و 1927.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">قوانين الري</subfield>
+		<subfield code="z">العراق.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">السدود</subfield>
+		<subfield code="z">العراق.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-08</subfield>
+		<subfield code="a">التعديلات الدستورية</subfield>
+		<subfield code="z">العراق.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
-		<subfield code="6">710-06</subfield>
+		<subfield code="6">710-09</subfield>
 		<subfield code="a">العراق.</subfield>
 		<subfield code="t">قانون تعديل قانون الري والسداد.</subfield>
 	</datafield>
@@ -150,5 +161,6 @@
 		<subfield code="i">LeBAU_b12762933</subfield>
 		<subfield code="s">aub_aco002062</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco002062</subfield>
 	</datafield>
 </record>

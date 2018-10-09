@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1942    ua      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">181009s1942    ua      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DT107</subfield>
+		<subfield code="b">.H55 1942</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">655.462</subfield>
@@ -21,7 +25,7 @@
 		<subfield code="a">Dār al-Hilāl (Cairo, Egypt),</subfield>
 		<subfield code="e">issuing body.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Hilāl :</subfield>
 		<subfield code="b">al-kitāb al-dhahabī, 1892-1942 /</subfield>
@@ -60,18 +64,12 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1="2" ind2="4" tag="610">
-		<subfield code="a">دار الهلال (القاهرة، مصر)</subfield>
-	</datafield>
 	<datafield ind1="2" ind2="0" tag="610">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Dār al-Hilāl (Cairo, Egypt)</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">مصر</subfield>
-		<subfield code="x">تاريخ</subfield>
-		<subfield code="y">الإحتلال البريطاني، 1882-1936.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Egypt</subfield>
 		<subfield code="x">History</subfield>
 		<subfield code="y">British occupation, 1882-1936.</subfield>
@@ -94,10 +92,10 @@
 	<datafield ind1="2" ind2=" " tag="880">
 		<subfield code="6">110-01</subfield>
 		<subfield code="a">دار الهلال (القاهرة، مصر)،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
+	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">245-02</subfield>
 		<subfield code="a">الهلال :</subfield>
 		<subfield code="b">الكتاب الذهبي، 1892-1942 /</subfield>
@@ -115,6 +113,16 @@
 		<subfield code="b">مصورات (بعضها ملون)، خرائط، شجرة أنساب، صور شخصانية ؛</subfield>
 		<subfield code="c">33 سم</subfield>
 	</datafield>
+	<datafield ind1="2" ind2="4" tag="880">
+		<subfield code="6">610-05</subfield>
+		<subfield code="a">دار الهلال (القاهرة، مصر)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-06</subfield>
+		<subfield code="a">مصر</subfield>
+		<subfield code="x">تاريخ</subfield>
+		<subfield code="y">الإحتلال البريطاني، 1882-1936.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -127,5 +135,6 @@
 		<subfield code="i">LeBAU_b12763275</subfield>
 		<subfield code="s">aub_aco001793</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001793</subfield>
 	</datafield>
 </record>

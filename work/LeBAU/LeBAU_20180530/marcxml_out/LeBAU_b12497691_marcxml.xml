@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1948    ua      ob    ||0 0 ara d</controlfield>
+	<controlfield tag="008">181009s1948    ua      ob    ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -15,6 +15,10 @@
 	<datafield ind1="1" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
 		<subfield code="h">fre</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">N70</subfield>
+		<subfield code="b">.G88 1948</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">701</subfield>
@@ -56,9 +60,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -66,34 +67,25 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الفن</subfield>
-		<subfield code="x">فلسفة.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الفن، نقد.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الفن والأدب.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الفن في الأدب.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Art</subfield>
 		<subfield code="x">Philosophy.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Art criticism.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Art and literature.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Art in literature.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-09</subfield>
 		<subfield code="a">Durūbī, Sāmī,</subfield>
 		<subfield code="d">1921-1976,</subfield>
 		<subfield code="e">translator.</subfield>
@@ -117,7 +109,7 @@
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">جويو، جان ماري،</subfield>
 		<subfield code="d">1854-1888،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -136,11 +128,32 @@
 		<subfield code="a">187 صفحة ؛</subfield>
 		<subfield code="c">25 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">الفن</subfield>
+		<subfield code="x">فلسفة.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">الفن، نقد.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">الفن والأدب.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-08</subfield>
+		<subfield code="a">الفن في الأدب.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-05</subfield>
+		<subfield code="6">700-09</subfield>
 		<subfield code="a">الدروبي، سامي،</subfield>
 		<subfield code="d">1921-1976،</subfield>
-		<subfield code="e">مترجم. </subfield>
+		<subfield code="e">مترجم.</subfield>
 		<subfield code="4">trl.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -155,5 +168,6 @@
 		<subfield code="i">LeBAU_b12497691</subfield>
 		<subfield code="s">aub_aco002004</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco002004</subfield>
 	</datafield>
 </record>

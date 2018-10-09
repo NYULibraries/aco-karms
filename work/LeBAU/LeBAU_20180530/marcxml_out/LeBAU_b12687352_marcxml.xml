@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1922    sy      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">181009s1922    sy      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -16,6 +16,10 @@
 		<subfield code="a">ara</subfield>
 		<subfield code="h">tur</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">D568.2</subfield>
+		<subfield code="b">.C43 1922</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">940.42</subfield>
 		<subfield code="2">20</subfield>
@@ -25,7 +29,7 @@
 		<subfield code="a">Cebesoy, Ali Fuat,</subfield>
 		<subfield code="e">author.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Ḥamlah al-Miṣrīyah, aw, min Bārīs ilā ṣaḥrāʼ at-tīh :</subfield>
 		<subfield code="b">fuṣūl ʻaskarīyah wa-muṭālaʻāt siyāsīyah fī ḥurūb al-Atrāk wa-thawrat al-ʻArab wa-ghayr dhālika min al-masāʼil al-muhimmah allatī tataʻallaqu bi-al-ḥarb al-ʻuẓmá /</subfield>
@@ -67,28 +71,20 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الحرب العالمية، 1914-1918</subfield>
-		<subfield code="x">الحملات</subfield>
-		<subfield code="z">مصر.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">World War, 1914-1918</subfield>
 		<subfield code="x">Campaigns</subfield>
 		<subfield code="z">Egypt.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">تركيا</subfield>
-		<subfield code="x">تاريخ</subfield>
-		<subfield code="y">محمد الخامس، 1909-1918.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Turkey</subfield>
 		<subfield code="x">History</subfield>
 		<subfield code="y">Mehmed V, 1909-1918.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Armanāzī, Najīb,</subfield>
 		<subfield code="e">translator.</subfield>
 	</datafield>
@@ -110,10 +106,10 @@
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">جيبسوي، علي فؤاد،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
+	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">245-02</subfield>
 		<subfield code="a">الحملة المصرية، أو، من باريس إلى صحراء التيه :</subfield>
 		<subfield code="b">فصول عسكرية ومطالعات سياسية في حروب الأتراك وثورة العرب وغير ذلك من المسائل المهمة التي تتعلق بالحرب العظمى /</subfield>
@@ -134,10 +130,22 @@
 		<subfield code="a">159 صفحة ؛</subfield>
 		<subfield code="c">22 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">الحرب العالمية، 1914-1918</subfield>
+		<subfield code="x">الحملات</subfield>
+		<subfield code="z">مصر.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-07</subfield>
+		<subfield code="a">تركيا</subfield>
+		<subfield code="x">تاريخ</subfield>
+		<subfield code="y">محمد الخامس، 1909-1918.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-06</subfield>
+		<subfield code="6">700-08</subfield>
 		<subfield code="a">الارمنازي، نجيب،</subfield>
-		<subfield code="e">مترجم. </subfield>
+		<subfield code="e">مترجم.</subfield>
 		<subfield code="4">trl.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -152,5 +160,6 @@
 		<subfield code="i">LeBAU_b12687352</subfield>
 		<subfield code="s">aub_aco001866</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001866</subfield>
 	</datafield>
 </record>

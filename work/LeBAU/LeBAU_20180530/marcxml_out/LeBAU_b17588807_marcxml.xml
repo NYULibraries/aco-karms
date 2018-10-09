@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1947    ua      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">181009s1947    ua      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -14,6 +14,10 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">a-is---</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS126.4</subfield>
+		<subfield code="b">M88 1947</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">956.9404</subfield>
@@ -61,30 +65,20 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="541">
-		<subfield code="c">هبة؛</subfield>
-		<subfield code="a">مكتبة امين المميز.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">Speeches.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">فلسطين</subfield>
-		<subfield code="x">تاريخ</subfield>
-		<subfield code="y">1917-1948</subfield>
-		<subfield code="v">مؤتمرات.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Palestine</subfield>
 		<subfield code="x">History</subfield>
 		<subfield code="y">1917-1948</subfield>
 		<subfield code="v">Congresses.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="655">
-		<subfield code="a">كلمات.</subfield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="6">880-06</subfield>
+		<subfield code="a">Speeches.</subfield>
+		<subfield code="2">lcgft</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">League of Arab States,</subfield>
 		<subfield code="e">organizer of meeting.</subfield>
 	</datafield>
@@ -123,10 +117,26 @@
 		<subfield code="a">77 صفحة ؛</subfield>
 		<subfield code="c">24 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">541-00</subfield>
+		<subfield code="c">هبة؛</subfield>
+		<subfield code="a">مكتبة امين المميز.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-05</subfield>
+		<subfield code="a">فلسطين</subfield>
+		<subfield code="x">تاريخ</subfield>
+		<subfield code="y">1917-1948</subfield>
+		<subfield code="v">مؤتمرات.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">655-06</subfield>
+		<subfield code="a">كلمات.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="880">
-		<subfield code="6">710-05</subfield>
+		<subfield code="6">710-07</subfield>
 		<subfield code="a">جامعة الدول العربية،</subfield>
-		<subfield code="e">منظم لقاء. </subfield>
+		<subfield code="e">منظم لقاء.</subfield>
 		<subfield code="4">orm.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -141,5 +151,6 @@
 		<subfield code="i">LeBAU_b17588807</subfield>
 		<subfield code="s">aub_aco001943</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001943</subfield>
 	</datafield>
 </record>

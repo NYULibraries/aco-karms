@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1930    iq      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">181009s1930    iq      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">HE7197.I73</subfield>
+		<subfield code="b">Q36 1930</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">383</subfield>
@@ -35,17 +39,16 @@
 		<subfield code="a">Qānūn al-barīd raqam (6) li-sanat 1930</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="6" tag="246">
-		<subfield code="6">880-04</subfield>
-		<subfield code="a">قانون البريد رقم (6) لسنة 1930</subfield>
+		<subfield code="a">Qānūn al-barīd raqam (6) li-sanat 1930</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="264">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Baghdād :</subfield>
 		<subfield code="b">Maṭba‘at al-Ḥukūmah,</subfield>
 		<subfield code="c">1930.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">online resource (44 pages)</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="336">
@@ -70,12 +73,8 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">البريد، خدمات</subfield>
-		<subfield code="x">قوانين وتشريعات</subfield>
-		<subfield code="z">العراق.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Postal service</subfield>
 		<subfield code="x">Law and legislation</subfield>
 		<subfield code="z">Iraq.</subfield>
@@ -98,7 +97,7 @@
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">110-01</subfield>
 		<subfield code="a">العراق،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -112,19 +111,25 @@
 		<subfield code="c">الحكومة العراقية.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="6" tag="880">
-		<subfield code="6">246-04</subfield>
-		<subfield code="a">Qānūn al-barīd raqam (6) li-sanat 1930</subfield>
+		<subfield code="6">246-00</subfield>
+		<subfield code="a">قانون البريد رقم (6) لسنة 1930</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-05</subfield>
+		<subfield code="6">264-04</subfield>
 		<subfield code="a">بغداد :</subfield>
 		<subfield code="b">مطبعة الحكومة،</subfield>
 		<subfield code="c">1930.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-06</subfield>
+		<subfield code="6">300-05</subfield>
 		<subfield code="a">44 صفحة ؛</subfield>
 		<subfield code="c">33 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">البريد، خدمات</subfield>
+		<subfield code="x">قوانين وتشريعات</subfield>
+		<subfield code="z">العراق.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -138,5 +143,6 @@
 		<subfield code="i">LeBAU_b12766689</subfield>
 		<subfield code="s">aub_aco001780</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001780</subfield>
 	</datafield>
 </record>

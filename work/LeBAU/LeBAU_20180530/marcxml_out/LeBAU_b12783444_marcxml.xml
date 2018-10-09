@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1955    le      o     1|0 0 ara d</controlfield>
+	<controlfield tag="008">181009s1955    le      o     1|0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">LC1203.A73</subfield>
+		<subfield code="b">A64 1955</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">371.1</subfield>
@@ -50,9 +54,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;الكلمات والمحاضر والتوصيات التي أسفرت عنها أبحاث حلقة دراسة أزمة المعلمين في الأقطار العربية التي عقدت في الجامعة الأميركية في بيروت، من 17/8/1954 الى 20/8/1954.&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -62,23 +63,15 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">التعليم</subfield>
-		<subfield code="z">البلدان العربية</subfield>
-		<subfield code="x">تاريخ</subfield>
-		<subfield code="y">القرن العشرون.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">المعلمون</subfield>
-		<subfield code="z">البلدان العربية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Teaching</subfield>
 		<subfield code="z">Arab countries</subfield>
 		<subfield code="x">History</subfield>
 		<subfield code="y">20th century.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Teachers</subfield>
 		<subfield code="z">Arab countries.</subfield>
 	</datafield>
@@ -86,7 +79,7 @@
 		<subfield code="a">Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="711">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Ḥalaqat dirāsat Azmat al-mu‘allimīn fī al-aqṭār al-‘Arabīyah</subfield>
 		<subfield code="d">(1954 :</subfield>
 		<subfield code="c">Beirut, Lebanon)</subfield>
@@ -107,7 +100,7 @@
 		<subfield code="6">110-01</subfield>
 		<subfield code="a">الجامعة الأميركية في بيروت.</subfield>
 		<subfield code="b">دائرة التربية،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -126,8 +119,24 @@
 		<subfield code="a">81 صفحة ؛</subfield>
 		<subfield code="c">20 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;الكلمات والمحاضر والتوصيات التي أسفرت عنها أبحاث حلقة دراسة أزمة المعلمين في الأقطار العربية التي عقدت في الجامعة الأميركية في بيروت، من 17/8/1954 الى 20/8/1954.&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">التعليم</subfield>
+		<subfield code="z">البلدان العربية</subfield>
+		<subfield code="x">تاريخ</subfield>
+		<subfield code="y">القرن العشرون.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">المعلمون</subfield>
+		<subfield code="z">البلدان العربية.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="880">
-		<subfield code="6">711-05</subfield>
+		<subfield code="6">711-07</subfield>
 		<subfield code="a">حلقة دراسة أزمة المعلمين في الأقطار العربية</subfield>
 		<subfield code="d">(1954 :</subfield>
 		<subfield code="c">بيروت، لبنان)</subfield>
@@ -144,5 +153,6 @@
 		<subfield code="i">LeBAU_b12783444</subfield>
 		<subfield code="s">aub_aco001989</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001989</subfield>
 	</datafield>
 </record>

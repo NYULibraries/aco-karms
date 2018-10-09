@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1938    le      o     1|0 0 ara d</controlfield>
+	<controlfield tag="008">181009s1938    le      o     1|0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS63.6</subfield>
+		<subfield code="b">.M88 1938</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">956.9</subfield>
@@ -18,12 +22,12 @@
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="111">
 		<subfield code="6">880-01</subfield>
-		<subfield code="a">Muʼtamar al-Ṭullāb al-ʻArab fī Ūrūbbā </subfield>
+		<subfield code="a">Muʼtamar al-Ṭullāb al-ʻArab fī Ūrūbbā</subfield>
 		<subfield code="n">(1 :</subfield>
 		<subfield code="d">1938 :</subfield>
 		<subfield code="c">Brussels, Belgium)</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Qawmīyah al-ʻArabīyah :</subfield>
 		<subfield code="b">ḥaqīqatuhā - ahdāfuhā - wasāʼiluhā, kamā waḍa‘ahā al-Muʼtamar al-Awwal lil-Ṭullāb fī Ūrubbā al-mun‘aqid fī Brūksil min 5-7 Dhī al-Qi‘dah sanat 1357 H. wa 27-29 Dīsambir sanat 1938.</subfield>
@@ -65,16 +69,12 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">القومية العربية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الوحدة العربية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Arab nationalism.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Panarabism.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -89,7 +89,7 @@
 		<subfield code="w">(LeBAU)b12730191</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Kitāb al-mu’tamar ;</subfield>
 		<subfield code="v">1.</subfield>
 	</datafield>
@@ -103,15 +103,10 @@
 		<subfield code="d">1938 :</subfield>
 		<subfield code="c">بروكسل، بلجيكا)</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
+	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">245-02</subfield>
 		<subfield code="a">القومية العربية :</subfield>
 		<subfield code="b">حقيقتها - أهدافها - وسائلها، كما وضعها المؤتمر الأول للطلاب العرب في أوربا المنعقد في بروكسل من 5-7 ذي القعدة سنة 1357 هـ. و 27-29 ديسمبر سنة 1938.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04</subfield>
-		<subfield code="a">145 صفحة ؛</subfield>
-		<subfield code="c">20 سم.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
 		<subfield code="6">264-03</subfield>
@@ -119,13 +114,26 @@
 		<subfield code="b">دار الأحد للطبع والنشر،</subfield>
 		<subfield code="c">1938.</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">300-04</subfield>
+		<subfield code="a">145 صفحة ؛</subfield>
+		<subfield code="c">20 سم.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">490-05</subfield>
 		<subfield code="a">كتاب المؤتمر ؛</subfield>
 		<subfield code="v">1</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">القومية العربية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">الوحدة العربية.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
-		<subfield code="6">830-06</subfield>
+		<subfield code="6">830-08</subfield>
 		<subfield code="a">كتاب المؤتمر ؛</subfield>
 		<subfield code="v">1.</subfield>
 	</datafield>
@@ -141,5 +149,6 @@
 		<subfield code="i">LeBAU_b12730191</subfield>
 		<subfield code="s">aub_aco001903</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001903</subfield>
 	</datafield>
 </record>

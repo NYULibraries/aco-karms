@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180604s1952    iq      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">181009s1952    iq      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">HC415.4</subfield>
+		<subfield code="b">.I73 1952</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">338.9567</subfield>
@@ -22,7 +26,7 @@
 		<subfield code="b">Majlis al-Iʻmār,</subfield>
 		<subfield code="e">issuing body.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Minhāj al-iḍāfī al-‘āmm li-Majlis al-Iʻmār :</subfield>
 		<subfield code="b">min sanat 1951 ilá sanat 1956 al-mālīyah : ma‘a taqrīr sanawī ‘an a‘māl al-majlis li-sanat 1951 /</subfield>
@@ -51,9 +55,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">يتضمن جدولين احداهما مطوي.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -63,19 +64,13 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="4" tag="610">
-		<subfield code="a">العراق.</subfield>
-		<subfield code="b">مجلس الاعمار.</subfield>
-	</datafield>
 	<datafield ind1="1" ind2="0" tag="610">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Iraq.</subfield>
 		<subfield code="b">Majlis al-Iʻmār.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">العراق</subfield>
-		<subfield code="x">الاحوال الاقتصادية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Iraq</subfield>
 		<subfield code="x">Economic conditions.</subfield>
 	</datafield>
@@ -98,7 +93,7 @@
 		<subfield code="6">110-01</subfield>
 		<subfield code="a">العراق.</subfield>
 		<subfield code="b">مجلس الاعمار،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="880">
@@ -118,6 +113,20 @@
 		<subfield code="a">17 صفحة ؛</subfield>
 		<subfield code="c">34 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">يتضمن جدولين احداهما مطوي.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">610-05</subfield>
+		<subfield code="a">العراق.</subfield>
+		<subfield code="b">مجلس الاعمار.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-06</subfield>
+		<subfield code="a">العراق</subfield>
+		<subfield code="x">الاحوال الاقتصادية.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -130,5 +139,6 @@
 		<subfield code="i">LeBAU_b12760122</subfield>
 		<subfield code="s">aub_aco001758</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco001758</subfield>
 	</datafield>
 </record>
