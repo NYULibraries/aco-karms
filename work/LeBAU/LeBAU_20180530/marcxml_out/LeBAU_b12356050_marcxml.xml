@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">181009s1950    ua      ob    ||0 0 ara d</controlfield>
+	<controlfield tag="008">181029s1950    ua      ob    ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -15,6 +15,10 @@
 	<datafield ind1="0" ind2=" " tag="041">
 		<subfield code="a">ara</subfield>
 		<subfield code="b">fre</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">B133.S49 </subfield>
+		<subfield code="b">A84 1950</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">189.3</subfield>
@@ -68,9 +72,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -78,59 +79,47 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="546">
-		<subfield code="a">النص بالعربية؛ مع مستخلص بالفرنسية.</subfield>
-	</datafield>
-	<datafield ind1="0" ind2="4" tag="600">
-		<subfield code="a">أرسطوطاليس.</subfield>
-		<subfield code="t">النفس.</subfield>
-	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Aristotle.</subfield>
 		<subfield code="t">De anima.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">النفس (فلسفة)</subfield>
-		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الفلسفة العربية</subfield>
-		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Self (Philosophy)</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-09</subfield>
 		<subfield code="a">Philosophy, Arab</subfield>
 		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-07</subfield>
+		<subfield code="6">880-10</subfield>
 		<subfield code="a">Ahwānī, Aḥmad Fuʼād,</subfield>
 		<subfield code="d">-1970,</subfield>
 		<subfield code="e">compiler.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="2" tag="700">
-		<subfield code="6">880-08</subfield>
+		<subfield code="6">880-11</subfield>
 		<subfield code="a">Avempace,</subfield>
 		<subfield code="d">-1138 or 1139.</subfield>
 		<subfield code="t">Risālat al-ittiṣāl.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="2" tag="700">
-		<subfield code="6">880-09</subfield>
+		<subfield code="6">880-12</subfield>
 		<subfield code="a">Isḥāq ibn Ḥunayn,</subfield>
 		<subfield code="d">830 or 831-910 or 911.</subfield>
 		<subfield code="t">Nafs.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="2" tag="700">
-		<subfield code="6">880-10</subfield>
+		<subfield code="6">880-13</subfield>
 		<subfield code="a">Averroës,</subfield>
 		<subfield code="d">1126-1198.</subfield>
 		<subfield code="t">Risālat al-ittiṣāl.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="2" tag="700">
-		<subfield code="6">880-11</subfield>
+		<subfield code="6">880-14</subfield>
 		<subfield code="a">Kindī,</subfield>
 		<subfield code="d">-approximately 873.</subfield>
 		<subfield code="t">Risālat al-ʻaql.</subfield>
@@ -181,33 +170,56 @@
 		<subfield code="a">188 صفحة ؛</subfield>
 		<subfield code="c">24 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">546-00</subfield>
+		<subfield code="a">النص بالعربية؛ مع مستخلص بالفرنسية.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">600-07</subfield>
+		<subfield code="a">أرسطوطاليس.</subfield>
+		<subfield code="t">النفس.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-08</subfield>
+		<subfield code="a">النفس (فلسفة)</subfield>
+		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-09</subfield>
+		<subfield code="a">الفلسفة العربية</subfield>
+		<subfield code="v">اعمال قديمة حتى 1800.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-07</subfield>
+		<subfield code="6">700-10</subfield>
 		<subfield code="a">الاهواني، احمد فؤاد،</subfield>
 		<subfield code="d">-1970،</subfield>
 		<subfield code="e">معد.</subfield>
 		<subfield code="4">com.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="2" tag="880">
-		<subfield code="6">700-08</subfield>
+		<subfield code="6">700-11</subfield>
 		<subfield code="a">ابن باجة،</subfield>
 		<subfield code="d">-1138 او 1139.</subfield>
 		<subfield code="t">رسالة الإتصال.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="2" tag="880">
-		<subfield code="6">700-09</subfield>
+		<subfield code="6">700-12</subfield>
 		<subfield code="a">اسحق بن حنين،</subfield>
 		<subfield code="d">830 او 831-910 او 911.</subfield>
 		<subfield code="t">النفس.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="2" tag="880">
-		<subfield code="6">700-10</subfield>
+		<subfield code="6">700-13</subfield>
 		<subfield code="a">ابن رشد،</subfield>
 		<subfield code="d">1126-1198.</subfield>
 		<subfield code="t">رسالة الإتصال.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="2" tag="880">
-		<subfield code="6">700-11</subfield>
+		<subfield code="6">700-14</subfield>
 		<subfield code="a">الكندي،</subfield>
 		<subfield code="d">-حوالي 873.</subfield>
 		<subfield code="t">رسالة العقل.</subfield>

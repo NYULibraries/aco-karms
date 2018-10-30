@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">181009m19401943le acf  ob    ||1 0 ara d</controlfield>
+	<controlfield tag="008">181029m19401943le acf  ob    ||1 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="037">
 		<subfield code="b">Library</subfield>
 		<subfield code="z">30975</subfield>
@@ -15,6 +15,10 @@
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DS98</subfield>
+		<subfield code="b">.R87 1940</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">956.9</subfield>
@@ -26,7 +30,7 @@
 		<subfield code="d">1897-1965,</subfield>
 		<subfield code="e">author.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Maḥfūẓāt al-Malakīyah al-Miṣrīyah :</subfield>
 		<subfield code="b">bayān bi-wathāʼiq al-Shām wa-mā yusāʻid ʻalá faḥmihā wa-yūḍiḥu maqāṣid Muḥammad ʻAlī al-Kabīr /</subfield>
@@ -36,13 +40,17 @@
 		<subfield code="a">A calendar of state papers from the royal archives of Egypt relating to the affairs of Syria</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="264">
-		<subfield code="6">880-03</subfield>
+		<subfield code="a">Beirut :</subfield>
+		<subfield code="b">American press,</subfield>
+		<subfield code="c">1940-1943.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="1" tag="264">
 		<subfield code="a">Beirut :</subfield>
 		<subfield code="b">American press</subfield>
 		<subfield code="c">1940-1943.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="6">880-04</subfield>
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">online resource (4 volumes) :</subfield>
 		<subfield code="b">illustrations, portraits</subfield>
 	</datafield>
@@ -61,12 +69,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="505">
-		<subfield code="a">المحفوظات الملكية المصرية: المجلد الأول. 1225-1247 هـ.، 1810-1832 م. -- المجلد الثاني. 1248-1250 هـ.، 1832-1835 م. -- المجلد الثالث. 1251-1254 هـ.، 1835-1839 م. -- المجلد الرابع. 1255-1256 هـ.، 1839-1841 م.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -74,46 +76,28 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">سوريا</subfield>
-		<subfield code="x">تاريخ</subfield>
-		<subfield code="y">القرن التاسع عشر</subfield>
-		<subfield code="v">مصادر.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">مصر</subfield>
-		<subfield code="x">تاريخ</subfield>
-		<subfield code="y">القرن التاسع عشر</subfield>
-		<subfield code="v">مصادر.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">سوريا</subfield>
-		<subfield code="x">العلاقات الخارجية</subfield>
-		<subfield code="z">مصر.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">مصر</subfield>
-		<subfield code="x">العلاقات الخارجية</subfield>
-		<subfield code="z">سوريا.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Syria</subfield>
 		<subfield code="x">History</subfield>
 		<subfield code="y">19th century</subfield>
 		<subfield code="v">Sources.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Egypt</subfield>
 		<subfield code="x">History</subfield>
 		<subfield code="y">19th century</subfield>
 		<subfield code="v">Sources.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Syria</subfield>
 		<subfield code="x">Foreign relations</subfield>
 		<subfield code="z">Egypt.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Egypt</subfield>
 		<subfield code="x">Foreign relations</subfield>
 		<subfield code="z">Syria.</subfield>
@@ -125,7 +109,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="775">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-08</subfield>
 		<subfield code="i">has designation of edition</subfield>
 		<subfield code="4">http://rdaregistry.info/Elements/m/P30133:</subfield>
 		<subfield code="t">al-Maḥfūẓāt al-Malakīyah al-Miṣrīyah.</subfield>
@@ -141,7 +125,7 @@
 		<subfield code="w">(LeBAU)b12696778</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="787">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-09</subfield>
 		<subfield code="i">is indexed in (work)</subfield>
 		<subfield code="4">http://rdaregistry.info/Elements/m/P30133:</subfield>
 		<subfield code="t">al-Maḥfūẓāt al-Malakīyah.</subfield>
@@ -158,26 +142,54 @@
 		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
+	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">245-02</subfield>
 		<subfield code="a">المحفوظات الملكية المصرية :</subfield>
 		<subfield code="b">بيان بوثائق الشام وما يساعد على فهمها ويوضح مقاصد محمد علي الكبير /</subfield>
 		<subfield code="c">للدكتور أسد رستم، أحد أساتذة التأريخ في جامعة بيروت الأميركية.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="1" tag="880">
-		<subfield code="6">264-03</subfield>
-		<subfield code="a">Beirut :</subfield>
-		<subfield code="b">American press,</subfield>
-		<subfield code="c">1940-1943.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">300-04</subfield>
+		<subfield code="6">300-03</subfield>
 		<subfield code="a">4 أجزاء :</subfield>
 		<subfield code="b">مصورات، صور شخصانية ؛</subfield>
 		<subfield code="c">23 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
+	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">775-05</subfield>
+		<subfield code="6">505-00</subfield>
+		<subfield code="a">المحفوظات الملكية المصرية: المجلد الأول. 1225-1247 هـ.، 1810-1832 م. -- المجلد الثاني. 1248-1250 هـ.، 1832-1835 م. -- المجلد الثالث. 1251-1254 هـ.، 1835-1839 م. -- المجلد الرابع. 1255-1256 هـ.، 1839-1841 م.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-04</subfield>
+		<subfield code="a">سوريا</subfield>
+		<subfield code="x">تاريخ</subfield>
+		<subfield code="y">القرن التاسع عشر</subfield>
+		<subfield code="v">مصادر.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-05</subfield>
+		<subfield code="a">مصر</subfield>
+		<subfield code="x">تاريخ</subfield>
+		<subfield code="y">القرن التاسع عشر</subfield>
+		<subfield code="v">مصادر.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-06</subfield>
+		<subfield code="a">سوريا</subfield>
+		<subfield code="x">العلاقات الخارجية</subfield>
+		<subfield code="z">مصر.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-07</subfield>
+		<subfield code="a">مصر</subfield>
+		<subfield code="x">العلاقات الخارجية</subfield>
+		<subfield code="z">سوريا.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">775-08</subfield>
 		<subfield code="i">دلالة على الطبعة</subfield>
 		<subfield code="4">http://rdaregistry.info/Elements/m/P30133</subfield>
 		<subfield code="t">المحفوظات الملكية المصرية.</subfield>
@@ -187,7 +199,7 @@
 		<subfield code="w">(OCoLC)784487738</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">787-06</subfield>
+		<subfield code="6">787-09</subfield>
 		<subfield code="i">مكشف في (عمل)</subfield>
 		<subfield code="4">http://rdaregistry.info/Elements/w/P10090:</subfield>
 		<subfield code="t">المحفوظات الملكية.</subfield>

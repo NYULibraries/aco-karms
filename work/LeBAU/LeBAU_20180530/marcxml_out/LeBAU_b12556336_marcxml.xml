@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">181009s1946    le      ob    ||0 0 ara d</controlfield>
+	<controlfield tag="008">181029s1946    le      ob    ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ7553</subfield>
+		<subfield code="b">.M33 1946</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">892.7109</subfield>
@@ -56,12 +60,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="505">
-		<subfield code="a">أبو نواس -- أبو العتاهية -- أبو تمام -- البحتري -- إبن الرومي -- المتنبي -- المعري -- ابن الفارض.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -69,22 +67,14 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الشعر العربي</subfield>
-		<subfield code="y">750-1258</subfield>
-		<subfield code="x">تاريخ ونقد.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الشعراء العرب</subfield>
-		<subfield code="y">750-1258</subfield>
-		<subfield code="v">تراجم.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Arabic poetry</subfield>
 		<subfield code="y">750-1258</subfield>
 		<subfield code="x">History and criticism.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Poets, Arab</subfield>
 		<subfield code="y">750-1258</subfield>
 		<subfield code="v">Biography.</subfield>
@@ -96,7 +86,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="775">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-08</subfield>
 		<subfield code="i">has designation of edition</subfield>
 		<subfield code="4">http://rdaregistry.info/Elements/m/P30133:</subfield>
 		<subfield code="t">Umarā’ al-shi‘r al-‘Arabī fī al-‘Aṣr al-‘Abbāsī : wa-huwa dirāsāt taḥlīlīyah li-adab thamānīyah min ashhar shu‘arā’ al-‘Arab wa-lil-jaw alladhī nasha’ū fīh.</subfield>
@@ -106,7 +96,7 @@
 		<subfield code="w">(OCoLC)784507057</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="775">
-		<subfield code="6">880-07</subfield>
+		<subfield code="6">880-09</subfield>
 		<subfield code="i">has designation of edition</subfield>
 		<subfield code="4">http://rdaregistry.info/Elements/m/P30133:</subfield>
 		<subfield code="t">Umarā’ al-shi‘r al-‘Arabī fī al-‘Aṣr al-‘Abbāsī : wa-huwa dirāsāt taḥlīlīyah li-adab thamānīyah min ashhar shu‘arā’ al-‘Arab wa-lil-jaw alladhī nasha’ū fīh.</subfield>
@@ -151,8 +141,28 @@
 		<subfield code="a">402، أ-و صفحة ؛</subfield>
 		<subfield code="c">22 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
+	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">775-06</subfield>
+		<subfield code="6">505-00</subfield>
+		<subfield code="a">أبو نواس -- أبو العتاهية -- أبو تمام -- البحتري -- إبن الرومي -- المتنبي -- المعري -- ابن الفارض.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">الشعر العربي</subfield>
+		<subfield code="y">750-1258</subfield>
+		<subfield code="x">تاريخ ونقد.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">الشعراء العرب</subfield>
+		<subfield code="y">750-1258</subfield>
+		<subfield code="v">تراجم.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">775-08</subfield>
 		<subfield code="i">دلالة على الطبعة</subfield>
 		<subfield code="4">http://rdaregistry.info/Elements/m/P30133:</subfield>
 		<subfield code="t">أمراء الشعر العربي في العصر العباسي: وهو دراسات تحليلية لأدب ثمانية من أشهر شعراء العرب وللجو الذي نشأوا فيه.</subfield>
@@ -162,7 +172,7 @@
 		<subfield code="w">(OCoLC)784507057</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">775-07</subfield>
+		<subfield code="6">775-09</subfield>
 		<subfield code="i">دلالة على الطبعة</subfield>
 		<subfield code="4">http://rdaregistry.info/Elements/m/P30133:</subfield>
 		<subfield code="t">أمراء الشعر العربي في العصر العباسي: وهو دراسات تحليلية لأدب ثمانية من أشهر شعراء العرب وللجو الذي نشأوا فيه.</subfield>

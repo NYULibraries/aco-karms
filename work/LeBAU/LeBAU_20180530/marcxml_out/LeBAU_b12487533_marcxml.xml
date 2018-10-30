@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">181009s1954    le      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">181029s1954    le      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="037">
 		<subfield code="b">Library</subfield>
 		<subfield code="z">30975</subfield>
@@ -15,6 +15,10 @@
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ6065 </subfield>
+		<subfield code="b">.H87 1954</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">492.707</subfield>
@@ -57,9 +61,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;يطلب هذا الكتاب من دائرة التربية في الجامعة الأميركية في بيروت.&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -69,16 +70,13 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">اللغة العربية</subfield>
-		<subfield code="x">الدرس والتدريس (الابتدائي)</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Arabic language</subfield>
 		<subfield code="x">Study and teaching (Elementary)</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">American University of Beirut,</subfield>
 		<subfield code="e">issuing body.</subfield>
 	</datafield>
@@ -123,8 +121,17 @@
 		<subfield code="a">48 صفحة ؛</subfield>
 		<subfield code="c">20 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;يطلب هذا الكتاب من دائرة التربية في الجامعة الأميركية في بيروت.&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">اللغة العربية</subfield>
+		<subfield code="x">الدرس والتدريس (الابتدائي)</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="880">
-		<subfield code="6">710-06</subfield>
+		<subfield code="6">710-07</subfield>
 		<subfield code="a">الجامعة الأميركية في بيروت،</subfield>
 		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
