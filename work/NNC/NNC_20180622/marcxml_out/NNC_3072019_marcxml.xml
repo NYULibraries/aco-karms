@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180920s1919    ua      ob    000 0 ara  </controlfield>
+	<controlfield tag="008">181206s1919    ua      ob    000 0 ara  </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -17,16 +17,23 @@
 		<subfield code="b">I26</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ibn Muyassar,</subfield>
 		<subfield code="d">-1278.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Juzʼ al-thānī min akhbār Miṣr /</subfield>
+		<subfield code="c">taʼlīf Muḥammad ibn ʻAlī ibn Yūsuf ibn Jalab al-maʻrūf bi-ibn Muyassar ; iʻtanā bi-taṣḥīḥih Hanrī Masyīh.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="5" tag="246">
 		<subfield code="a">Annales d'Égypte (les khalifes Fâtimides)</subfield>
 		<subfield code="c">texte arabe édité par m. Henri Massé.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Le Caire,</subfield>
-		<subfield code="b">Impr. de l'Institut français d'archéologie orientale,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
+		<subfield code="b">Maṭbaʻat al-Maʻhad al-ʻIlmī al-Faransī,</subfield>
 		<subfield code="c">1919.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -44,7 +51,7 @@
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="a">Publications de l'Institut français d'archéologie orientale. [Textes arabes,</subfield>
 		<subfield code="v">I]</subfield>
 	</datafield>
@@ -78,11 +85,6 @@
 		<subfield code="2">fast</subfield>
 		<subfield code="0">(OCoLC)fst00921954</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="700">
-		<subfield code="a">Musabbiḥī,</subfield>
-		<subfield code="d">977-1029,</subfield>
-		<subfield code="e">supposed author.</subfield>
-	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="a">Massé, Henri,</subfield>
 		<subfield code="d">1886-1969,</subfield>
@@ -98,13 +100,33 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Ibn Muyassar, -1278.</subfield>
-		<subfield code="t">Annales d'Égypte (les khalifes Fâtimides)</subfield>
+		<subfield code="t">al-Juzʼ al-thānī min akhbār Miṣr</subfield>
 		<subfield code="w">(NNC)3072019</subfield>
 		<subfield code="w">(DLC)   44045582 </subfield>
 		<subfield code="w">(OCoLC)5503197</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="a">Publications de l'Institut français d'archéologie orientale. [Textes arabes,</subfield>
+		<subfield code="v">I]</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/zkh18hgp</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">ابن ميسر،</subfield>
+		<subfield code="d">-1278.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">الجزء الثاني من أخبار مصر /</subfield>
+		<subfield code="c">تأليف محمد بن علي بن يوسف بن جلب المعروف بابن ميسر ؛ اعتنى بتصحيحه هنري ماسيه.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">مطبعة المعهد العلمي الفرنسي،</subfield>
+		<subfield code="c">1919. </subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -116,8 +138,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3072019</subfield>
-		<subfield code="o">(OCoLC)ocm05503197 </subfield>
+		<subfield code="o">(OCoLC)ocm05503197</subfield>
 		<subfield code="s">columbia_aco003345</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-SERIES)</subfield>
+		<subfield code="s">columbia_aco003345</subfield>
 	</datafield>
 </record>

@@ -5,19 +5,26 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180920s1909    le      o     000 0 ara d</controlfield>
+	<controlfield tag="008">181206s1909    le      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ7696</subfield>
+		<subfield code="b">.S35 1909</subfield>
+	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Samawʼal,</subfield>
 		<subfield code="d">-approximately 560.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Dīwān ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Dīwān al-Samawʼal /</subfield>
+		<subfield code="c">riwāyat Abī ʻAbd Allāh Nifṭawayh ; nasharahu li-awwal marrah fī Majallat al-Mashriq thumma ṭabaʻahu ʻalá ḥidah wa-aḍāfa ilayhi malḥūẓāt ʻadīdah Luwīs Shaykhū.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="246">
 		<subfield code="i">Added title-page reads:</subfield>
@@ -25,7 +32,9 @@
 		<subfield code="b">édité pour la première fois d'après un ancien manuscrit avec des variantes et des notes par ... Louis Cheikho</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Beirut,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Bayrūt :</subfield>
+		<subfield code="b">al-Maṭbaʻah al-Kāthūlīkīyah lil-Ābāʼ al-Yasūʻīyīn,</subfield>
 		<subfield code="c">1909.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -54,6 +63,7 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Cheikho, Louis,</subfield>
 		<subfield code="d">1859-1927,</subfield>
 		<subfield code="e">editor.</subfield>
@@ -75,12 +85,34 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Samawʼal, -approximately 560.</subfield>
-		<subfield code="t">Dīwān</subfield>
+		<subfield code="t">Dīwān al-Samawʼal</subfield>
 		<subfield code="w">(NNC)3121508</subfield>
 		<subfield code="w">(OCoLC)48202406</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/k3j9kmgq</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">سموؤل،</subfield>
+		<subfield code="d">-approximately 560.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">ديوان السموؤل /</subfield>
+		<subfield code="c">رواية ابي عبد الله نفطويه ؛ نشره لاول مرة في مجلة المشرق ثم طبعه على حدة واضاف اليه ملحوظات عديدة لويس شيخوا.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">بيروت :</subfield>
+		<subfield code="b">المطبعة الكاثوليكية للآباء اليسوعيين،</subfield>
+		<subfield code="c">1909.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-04</subfield>
+		<subfield code="a">شيخو، لويس،</subfield>
+		<subfield code="d">1859-1927،</subfield>
+		<subfield code="e">editor.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -92,8 +124,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3121508</subfield>
-		<subfield code="o">(OCoLC)ocm48202406 </subfield>
+		<subfield code="o">(OCoLC)ocm48202406</subfield>
 		<subfield code="s">columbia_aco003349</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003349</subfield>
 	</datafield>
 </record>

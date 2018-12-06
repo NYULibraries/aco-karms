@@ -5,22 +5,29 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180920s1931    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">181206s1931    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP70</subfield>
+		<subfield code="b">.I24 1931</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ibn ʻAbd al-Barr, Yūsuf ibn ʻAbd Allāh,</subfield>
 		<subfield code="d">978 or 979-1071.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Intiqāʻ fī fadāʻil ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Intiqāʼ fī faḍāʼil al-aʼimmah al-thalāthah al-fuqahāʼ.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo,</subfield>
+		<subfield code="a">Cairo : </subfield>
+		<subfield code="b">[publisher not identified], </subfield>
 		<subfield code="c">1350 A.H. [1931 A.D.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -66,12 +73,21 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Ibn ʻAbd al-Barr, Yūsuf ibn ʻAbd Allāh, 978 or 979-1071.</subfield>
-		<subfield code="t">al-Intiqāʻ fī fadāʻil</subfield>
+		<subfield code="t">al-Intiqāʼ fī faḍāʼil al-aʼimmah al-thalāthah al-fuqahāʼ</subfield>
 		<subfield code="w">(NNC)3131281</subfield>
 		<subfield code="w">(OCoLC)48240614</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/mgqnkhn0</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">ابن عبد البر، يوسف بن عبد الله،</subfield>
+		<subfield code="d">978 or 979-1071.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">الانتقاء في فضائل الائمة الثلاثة الفقهاء.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -83,8 +99,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3131281</subfield>
-		<subfield code="o">(OCoLC)ocm48240614 </subfield>
+		<subfield code="o">(OCoLC)ocm48240614</subfield>
 		<subfield code="s">columbia_aco003300</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003300</subfield>
 	</datafield>
 </record>

@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180920s1909    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">181206s1908    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -15,16 +15,25 @@
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">a-su---</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ7760.S28</subfield>
+		<subfield code="b">W3 1908</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Samhūdī, ʻAlī ibn ʻAbd Allāh,</subfield>
 		<subfield code="d">1440-1506.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Wafāʼ al-wafāʼ bi-akhbār dār al-muṣṭafā ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb wafāʼ al-wafāʼ bi-akhbār dār al-Muṣṭafá /</subfield>
+		<subfield code="c">taʼlīf Jamāl al-Dīn Abū al-Maḥāsin ʻAbd Allāh ibn al-Sayyid al-Sharīf Shihāb al-Dīn ibn al-ʻAbbās Aḥmad al-Ḥusaynī al-Shāfiʻī al-Samhūdī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo,</subfield>
-		<subfield code="c">1326 A.H. [1909]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Maṭbaʻat al-Ādāb,</subfield>
+		<subfield code="c">1326 A.H. [1908]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (2 volumes in 1.)</subfield>
@@ -76,12 +85,28 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Samhūdī, ʻAlī ibn ʻAbd Allāh, 1440-1506.</subfield>
-		<subfield code="t">Wafāʼ al-wafāʼ bi-akhbār dār al-muṣṭafā</subfield>
+		<subfield code="t">Kitāb wafāʼ al-wafāʼ bi-akhbār dār al-Muṣṭafá</subfield>
 		<subfield code="w">(NNC)3111519</subfield>
 		<subfield code="w">(OCoLC)48176619</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/2ngf22sx</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">سمهودي، علي بن عبد الله،</subfield>
+		<subfield code="d">1440-1506.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">كتاب وفاء الوفاء بأخبار دار المصطفى /</subfield>
+		<subfield code="c">تأليف جمال الدين أبو المحاسن عبد الله بن السيد الشريف شهاب الدين بن العباس أحمد الحسيني الشافعي السمهودي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مطبعة الاداب،</subfield>
+		<subfield code="c">1326 A.H. [1908]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -93,8 +118,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3111519</subfield>
-		<subfield code="o">(OCoLC)ocm48176619 </subfield>
+		<subfield code="o">(OCoLC)ocm48176619</subfield>
 		<subfield code="s">columbia_aco003406</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003406</subfield>
 	</datafield>
 </record>

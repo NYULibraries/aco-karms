@@ -5,23 +5,32 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180920s1885    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">181206s1885    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">D17</subfield>
+		<subfield code="b">.M29 1885</subfield>
+	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Masʻūdī,</subfield>
 		<subfield code="d">-956?</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Murūj al-dhahab wa-maʻādin al-jawhar.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Tārīkh al-yāniʻ al-azāhir wa-al-thamar al-mawsūm bi-Murūj al-dhahab wa-maʻādin al-jawhar :</subfield>
+		<subfield code="b">muḥallá al-hawāmish bi-al-tārīkh al-musammá bi-Rawḍat al-manāẓir fī akhbār al-awāʼil wa-al-awākhir li-Abī al-Walīd ibn al-Shiḥnah.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo,</subfield>
-		<subfield code="c">1303 A.H. [1885 A.D]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Maṭbaʻat al-Azharīyah,</subfield>
+		<subfield code="c">1303 [1885]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (2 volumes in 1.)</subfield>
@@ -62,9 +71,11 @@
 		<subfield code="2">fast</subfield>
 		<subfield code="0">(OCoLC)fst01411636</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="700">
-		<subfield code="a">Ibn al-Shiḥnah,</subfield>
-		<subfield code="d">-1412.</subfield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Ibn al-Shiḥnah, Muḥibb al-Dīn Muḥammad ibn Muḥammad,</subfield>
+		<subfield code="d"> 1402-1485.</subfield>
+		<subfield code="t">Rawḍat al-manāẓir fī akhbār al-awāʼil wa-al-awākhir. </subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
@@ -76,12 +87,34 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Masʻūdī, -956?</subfield>
-		<subfield code="t">Murūj al-dhahab wa-maʻādin al-jawhar</subfield>
+		<subfield code="t">al-Tārīkh al-yāniʻ al-azāhir wa-al-thamar al-mawsūm bi-Murūj al-dhahab wa-maʻādin al-jawhar</subfield>
 		<subfield code="w">(NNC)3235663</subfield>
 		<subfield code="w">(OCoLC)505050330</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/4xgxd8ds</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">مسعودي،</subfield>
+		<subfield code="d">-956?</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">التاريخ اليانع الازاهر والثمر الموسوم بمروج الذهب ومعادن الجوهر :</subfield>
+		<subfield code="b">محلى الهوامش بالتاريخ المسمى بروضة المناظر في اخبار الاوائل والاواخر لابي الوليد بن الشحنة.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مطبعة الاچرية،</subfield>
+		<subfield code="c">1303 [1885]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-04</subfield>
+		<subfield code="a">ابن الشحنة، محب الدين محمد بن محمد،</subfield>
+		<subfield code="d">1402-1485.</subfield>
+		<subfield code="t">روضة المناظر في اخبار الاوائل والاواخر. </subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -96,5 +129,6 @@
 		<subfield code="o">(OCoLC)ocn505050330</subfield>
 		<subfield code="s">columbia_aco003259</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003259</subfield>
 	</datafield>
 </record>

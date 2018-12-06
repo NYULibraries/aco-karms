@@ -5,23 +5,30 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180920s1940    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">181206s1940    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">B99.A6</subfield>
+		<subfield code="b">M17 1940</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Madkūr, Ibrahīm Buyumī.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Madkūr, Ibrāhīm. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Durūs fī taʼrīkh al-falsafat.</subfield>
-		<subfield code="b">Ṭaʼlīf ...</subfield>
-		<subfield code="c">Ibrahīm Buyūmī Madkūr wa Yūsuf Efendi Karam.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Durūs fī tārīkh al-falsafah /</subfield>
+		<subfield code="c">Ibrāhīm Madkūr wa-Yūsuf Karam.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
+		<subfield code="b">Lajnat al-Taʼlīf wa-al-Tarjamah wa-al-Nashr,</subfield>
 		<subfield code="c">1940.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -52,6 +59,10 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Philosophy</subfield>
+		<subfield code="x">History.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -61,13 +72,28 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Madkūr, Ibrahīm Buyumī.</subfield>
-		<subfield code="t">Durūs fī taʼrīkh al-falsafat</subfield>
+		<subfield code="a">Madkūr, Ibrāhīm.</subfield>
+		<subfield code="t">Durūs fī tārīkh al-falsafah</subfield>
 		<subfield code="w">(NNC)982556</subfield>
 		<subfield code="w">(OCoLC)22631328</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/xpnvx6zc</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">مدكور، ابراهيم.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">دروس في تاريخ الفلسفة /</subfield>
+		<subfield code="c">ابراهيم مدكور ويوسف كرم.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">لجنة التأليف والترجمة والنشر،</subfield>
+		<subfield code="c">1940.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -79,8 +105,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_982556</subfield>
-		<subfield code="o">(OCoLC)ocm22631328 </subfield>
+		<subfield code="o">(OCoLC)ocm22631328</subfield>
 		<subfield code="s">columbia_aco003401</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003401</subfield>
 	</datafield>
 </record>

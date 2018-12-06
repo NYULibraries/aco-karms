@@ -5,25 +5,32 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180920s1930    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">181206s1930    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP183.3</subfield>
+		<subfield code="b">.I36 1930</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ibn ʻAẓẓūm, ʻAbd al-Jalīl ibn Muḥammad,</subfield>
 		<subfield code="d">-1552 or 1553.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Tanbīh al-anām fī bayān ʻulūw maqām nabīyinā Muḥammad ʻalayhi al-ṣalāt wa-al-salām;</subfield>
-		<subfield code="b">wa [=aw], Shifāʼ al-asqām wa maḥw al-āthām fī al-ṣalāt ʻalā khayr al-anām.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Tanbīh al-anām fī bayān ʻulūw maqām nabīyinā Muḥammad ʻalayhi al-ṣalāt wa-al-salām :</subfield>
+		<subfield code="b">wa [=aw], Shifāʼ al-asqām wa maḥw al-āthām fī al-ṣalāt ʻalā khayr al-anām /</subfield>
 		<subfield code="c">Taʼlīf Sīdī ʻAbd-al-Jalīl ibn ʻAẓẓūm al-Maghribī al-Qayra-wānī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">al-Qāhirah,</subfield>
-		<subfield code="b">al-Maktabah al-Tijārīyah al-Kubrā</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
+		<subfield code="b">al-Maktabah al-Tijārīyah al-Kubrá,</subfield>
 		<subfield code="c">[1930?]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -51,6 +58,18 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Muḥammad,</subfield>
+		<subfield code="c">Prophet,</subfield>
+		<subfield code="d">-632.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="a">Muḥammad,</subfield>
+		<subfield code="c">Prophet,</subfield>
+		<subfield code="d">-632</subfield>
+		<subfield code="v">Prayers and devotions.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -61,12 +80,35 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Ibn ʻAẓẓūm, ʻAbd al-Jalīl ibn Muḥammad, -1552 or 1553.</subfield>
-		<subfield code="t">Tanbīh al-anām fī bayān ʻulūw maqām nabīyinā Muḥammad ʻalayhi al-ṣalāt wa-al-salām;</subfield>
+		<subfield code="t">Tanbīh al-anām fī bayān ʻulūw maqām nabīyinā Muḥammad ʻalayhi al-ṣalāt wa-al-salām</subfield>
 		<subfield code="w">(NNC)3080128</subfield>
 		<subfield code="w">(OCoLC)47918111</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/qv9s4v6v</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">ابن عظوم، عبد الجليل بن محمد،</subfield>
+		<subfield code="d">-1552 or 1553.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">تنبيه الانام في بيان علو مقام نبينا محمد عليه الصلاة والسلام :</subfield>
+		<subfield code="b">و [=او]، شفاء الاسقام و محو الاثام في الصلاة على خير الانام /</subfield>
+		<subfield code="c">تأليف سيدي عبدالجليل بن عظوم المغربي القيرواني.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">المكتبة التجارية الكبرى،</subfield>
+		<subfield code="c">[1930؟]</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">600-04</subfield>
+		<subfield code="a">محمد،</subfield>
+		<subfield code="c">Prophet,</subfield>
+		<subfield code="d">-632.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -78,8 +120,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3080128</subfield>
-		<subfield code="o">(OCoLC)ocm47918111 </subfield>
+		<subfield code="o">(OCoLC)ocm47918111</subfield>
 		<subfield code="s">columbia_aco003291</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003291</subfield>
 	</datafield>
 </record>

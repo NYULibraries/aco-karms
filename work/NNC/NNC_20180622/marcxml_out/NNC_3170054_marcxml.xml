@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180920s1895    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">181206s1895    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -15,16 +15,24 @@
 	<datafield ind1=" " ind2=" " tag="043">
 		<subfield code="a">f------</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP64.A1</subfield>
+		<subfield code="b">M37 1895</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="6">880-01</subfield>
 		<subfield code="a">Maqrīzī, Aḥmad ibn ʻAlī,</subfield>
 		<subfield code="d">1364-1442.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">Al-ilmām bi-akhbār man bi-arḍ al-Ḥabasha min mulūk al-Islām ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb al-ilmām bi-akhbār man bi-arḍ al-Ḥabashah min mulūk al-Islām /</subfield>
+		<subfield code="c">taʼlīf Aḥmad ibn ʻAlī ibn ʻAbd al-Qādir ibn Muḥammad al-Maqrīzī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Maṭbaʻat al-Taʼlīf,</subfield>
 		<subfield code="c">1895.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -76,7 +84,7 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Maqrīzī, Aḥmad ibn ʻAlī, 1364-1442.</subfield>
-		<subfield code="t">Al-ilmām bi-akhbār man bi-arḍ al-Ḥabasha min mulūk al-Islām</subfield>
+		<subfield code="t">Kitāb al-ilmām bi-akhbār man bi-arḍ al-Ḥabashah min mulūk al-Islām</subfield>
 		<subfield code="w">(NNC)3170054</subfield>
 		<subfield code="w">(OCoLC)83958864</subfield>
 	</datafield>
@@ -85,8 +93,19 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01</subfield>
-		<subfield code="a">مقريزي احمد بن علي،,</subfield>
+		<subfield code="a">مقريزي احمد بن علي،</subfield>
 		<subfield code="d">1364-1442.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">كتاب الالمام باخبار من بأرض الحبشة من ملوك الاسلام /</subfield>
+		<subfield code="c">تأليف احمد بن علي بن عبد القادر بن محمد المقريزي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مطبعة التأليف،</subfield>
+		<subfield code="c">1895.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -98,8 +117,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3170054</subfield>
-		<subfield code="o">(OCoLC)ocm83958864 </subfield>
+		<subfield code="o">(OCoLC)ocm83958864</subfield>
 		<subfield code="s">columbia_aco003260</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003260</subfield>
 	</datafield>
 </record>
