@@ -5,19 +5,26 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180920s1907    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">181206s1907    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ6101.I23</subfield>
+		<subfield code="b">I252 1907</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Azharī, Khālid ibn ʻAbd Allāh,</subfield>
 		<subfield code="d">-1499.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Sharḥ al-Taṣrīḥ li-Khālid ibn ʻAbd Allāh al-Azharī ʻalá al-tawdih li-Alfiyat ibn Mālik fī al-naḥw li-Jamāl al-Dīn Abī Muḥammad ibn ʻAbd Allāh ibn Yūsuf Hishām al-Anṣarī.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Sharḥ al-Taṣrīḥ /</subfield>
+		<subfield code="c">li-Khālid ibn ʻAbd Allāh al-Azharī ʻalá al-Tawḍīḥ li-Alfīyat ibn Mālik fī al-naḥw li-Jamāl al-Dīn Abī Muḥammad ibn ʻAbd Allāh ibn Yūsuf ibn Hishām al-Anṣārī. Wa-bi-hāmishih ḥāshīyatuh li-Yāsīn ibn Zayn al-Dīn al-ʻUlaymī al-Ḥimṣī.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
 		<subfield code="a">Taṣrīḥ ʻalá al-tawḍīḥ</subfield>
@@ -26,8 +33,9 @@
 		<subfield code="a">2nd ed.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Misr :</subfield>
-		<subfield code="b">al-Matbaʻah al-Azhariyah,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">al-Maṭbaʻah al-Azhariyah,</subfield>
 		<subfield code="c">1325h [1907]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -56,6 +64,7 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Ibn Hishām, ʻAbd Allāh ibn Yūsuf,</subfield>
 		<subfield code="d">1309-1360.</subfield>
 		<subfield code="t">Awḍaḥ al-masālik ilá Alfīyat Ibn Mālik.</subfield>
@@ -85,12 +94,34 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Azharī, Khālid ibn ʻAbd Allāh, -1499.</subfield>
-		<subfield code="t">Sharḥ al-Taṣrīḥ li-Khālid ibn ʻAbd Allāh al-Azharī ʻalá al-tawdih li-Alfiyat ibn Mālik fī al-naḥw li-Jamāl al-Dīn Abī Muḥammad ibn ʻAbd Allāh ibn Yūsuf Hishām al-Anṣarī</subfield>
+		<subfield code="t">Sharḥ al-Taṣrīḥ</subfield>
 		<subfield code="w">(NNC)648486</subfield>
 		<subfield code="w">(OCoLC)62345891</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/ksn032hp</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">ازهري، خالد بن عبد الله،</subfield>
+		<subfield code="d">-1499.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">شرح التصريح /</subfield>
+		<subfield code="c">لخالد بن عبد الله الأهري على التوضيح لألفية بن مالك في النحو لجمال الدين أبي محمد بن عبد الله بن يوسف بن هشام الأنصاري. وبهامشه حاشيته ليس بن زين الدين العليمي الحمصي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">المطبعة الازهرية،</subfield>
+		<subfield code="c">1325h [1907]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">600-04</subfield>
+		<subfield code="a">ابن هشام، عبد الله بن يوسف،</subfield>
+		<subfield code="d">1309-1360.</subfield>
+		<subfield code="t">اوضح المسالك الى ألفية ابن مالك.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -102,9 +133,11 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_648486</subfield>
-		<subfield code="o">(OCoLC)ocm62345891 </subfield>
+		<subfield code="o">(OCoLC)ocm62345891</subfield>
 		<subfield code="s">columbia_aco003380:v.1</subfield>
 		<subfield code="s">columbia_aco003381:v.2</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003380:v.1</subfield>
+		<subfield code="s">columbia_aco003381:v.2</subfield>
 	</datafield>
 </record>

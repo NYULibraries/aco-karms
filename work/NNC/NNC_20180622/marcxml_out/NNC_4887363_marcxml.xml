@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180920s1881    tu      o     000 0 arard</controlfield>
+	<controlfield tag="008">181206s1881    tu      o     000 0 arard</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -17,14 +17,17 @@
 		<subfield code="b">H218 1881</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Kūzalḥiṣārī, Muṣṭafá ibn Muḥammad,</subfield>
 		<subfield code="d">-1800 or 1801.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Ḥilyat al-nājī [ʻalá al-sharḥ al-Ḥalabī /</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Ḥilyat al-nājī ʻalá al-sharḥ al-Ḥalabī /</subfield>
 		<subfield code="c">taʼlīf Muṣṭafá ibn Muḥammad ibn Muṣṭafá Judhul al-Ḥiṣārī].</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Istanbūl :</subfield>
 		<subfield code="b">al-Maṭbaʻah al-ʻUthmānīyah,</subfield>
 		<subfield code="c">1299 [1881]</subfield>
@@ -58,11 +61,13 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Kashgharī, Sadīd al-Dīn,</subfield>
 		<subfield code="d">active 13th century?</subfield>
 		<subfield code="t">Munyat al-muṣallī wa-ghunyat al-mubtadiʼ.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="600">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Ḥalabī, Ibrāhīm ibn Muṣṭafá,</subfield>
 		<subfield code="d">-1776.</subfield>
 		<subfield code="t">Sharḥ al-Ḥalabī.</subfield>
@@ -99,12 +104,40 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Kūzalḥiṣārī, Muṣṭafá ibn Muḥammad, -1800 or 1801.</subfield>
-		<subfield code="t">Ḥilyat al-nājī [ʻalá al-sharḥ al-Ḥalabī</subfield>
+		<subfield code="t">Ḥilyat al-nājī ʻalá al-sharḥ al-Ḥalabī</subfield>
 		<subfield code="w">(NNC)4887363</subfield>
 		<subfield code="w">(OCoLC)43848378</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/280gbcvk</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">كوزلحصاري، مصطفى بن محمد،</subfield>
+		<subfield code="d">-1800 or 1801.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">حلية الناجي على الشرح الحلبي /</subfield>
+		<subfield code="c">تأليف مصطفى بن محمد بن مصطفى جذل الحصاري].</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">استنبول :</subfield>
+		<subfield code="b">المطبعة العثمانية،</subfield>
+		<subfield code="c">1299 [1881]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">600-04</subfield>
+		<subfield code="a">كشغري، سديد الدين،</subfield>
+		<subfield code="d">active 13th century?</subfield>
+		<subfield code="t">منية المصلي وغنية المبتدئ.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="4" tag="880">
+		<subfield code="6">600-05</subfield>
+		<subfield code="a">حلبي، ابراهيم بن مصطفى،</subfield>
+		<subfield code="d">-1776.</subfield>
+		<subfield code="t">شرح الحلبي.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -116,8 +149,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_4887363</subfield>
-		<subfield code="o">(OCoLC)ocm43848378 </subfield>
+		<subfield code="o">(OCoLC)ocm43848378</subfield>
 		<subfield code="s">columbia_aco003306</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003306</subfield>
 	</datafield>
 </record>

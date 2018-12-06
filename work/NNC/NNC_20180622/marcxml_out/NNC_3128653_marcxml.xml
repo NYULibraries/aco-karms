@@ -5,22 +5,32 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180920s1884    le a    o     000 0 ara d</controlfield>
+	<controlfield tag="008">181206s1884    le a    o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BX5133.J35</subfield>
+		<subfield code="b">N48 1884</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Newton, Richard,</subfield>
 		<subfield code="d">1813-1887.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Tuffāḥ min dhahab fī maṣugh min fiḍḍāh.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Tuffāḥ min dhahab fī maṣūgh min fiḍḍah :</subfield>
+		<subfield code="b">amthāl 25:11 /</subfield>
+		<subfield code="c">lil-qiṣṣ Ritshārd Niyūtin.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Beirut,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Bayrūt :</subfield>
+		<subfield code="b">al-Maṭbaʻah al-Amīrikānīyah,</subfield>
 		<subfield code="c">1884.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -49,6 +59,14 @@
 		<subfield code="d">2018.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Christianity</subfield>
+		<subfield code="x">Children</subfield>
+		<subfield code="v">Sermons.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Proverbs.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -59,12 +77,29 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Newton, Richard, 1813-1887.</subfield>
-		<subfield code="t">Tuffāḥ min dhahab fī maṣugh min fiḍḍāh</subfield>
+		<subfield code="t">Tuffāḥ min dhahab fī maṣūgh min fiḍḍah</subfield>
 		<subfield code="w">(NNC)3128653</subfield>
 		<subfield code="w">(OCoLC)48270578</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/n8pk0wf4</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">نيوتن، رشارد</subfield>
+		<subfield code="d">1813-1887.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">تفاح من ذهب في مصوغ من فضة :</subfield>
+		<subfield code="b">امثال 25:11 /</subfield>
+		<subfield code="c">للقص رتشارد نيوتن.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">بيروت :</subfield>
+		<subfield code="b">المطبعة الاميركانية،</subfield>
+		<subfield code="c">1884.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -76,8 +111,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3128653</subfield>
-		<subfield code="o">(OCoLC)ocm48270578 </subfield>
+		<subfield code="o">(OCoLC)ocm48270578</subfield>
 		<subfield code="s">columbia_aco003347</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003347</subfield>
 	</datafield>
 </record>

@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180920s1903    ae      ob    000 0 ara  </controlfield>
+	<controlfield tag="008">181206s1903    ae      ob    000 0 ara  </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -26,14 +26,19 @@
 		<subfield code="d">-approximately 1130.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">A'azz mā yuṭlab</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">Le livre de Mohammed ibn Toumert, mahdi des Almohades;</subfield>
-		<subfield code="c">texte arabe, accompagné de notices biographiques et d'une introd. par I. Goldziher.</subfield>
+	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Kitāb Aʻazz mā yuṭlab :</subfield>
+		<subfield code="b">mushtamal ʻalá jamīʻ taʻālīq Muḥammad Tūmart mimmā amlāhu ʻAbd al-Muʼmin ibn ʻAlī.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="246">
+		<subfield code="a">livre de Mohammed ibn Toumert, mahdi des Almohades</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Alger,</subfield>
+		<subfield code="a">Alger :</subfield>
 		<subfield code="b">P. Fontana,</subfield>
 		<subfield code="c">1903.</subfield>
 	</datafield>
@@ -80,8 +85,12 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
 		<subfield code="a">Goldziher, Ignác,</subfield>
-		<subfield code="d">1850-1921,</subfield>
-		<subfield code="e">editor.</subfield>
+		<subfield code="d">1850-1921.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="a">Luciani, J.-D.</subfield>
+		<subfield code="q">(Jean Dominique),</subfield>
+		<subfield code="d">-1932.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
@@ -89,9 +98,6 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="730">
 		<subfield code="a">Arabic Collections Online.</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="740">
-		<subfield code="a">A'azz mā yuṭlab.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Online version:</subfield>
@@ -103,7 +109,7 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Ibn Tūmart, Muḥammad, -approximately 1130.</subfield>
-		<subfield code="t">Le livre de Mohammed ibn Toumert, mahdi des Almohades;</subfield>
+		<subfield code="t">Kitāb Aʻazz mā yuṭlab</subfield>
 		<subfield code="w">(NNC)3122356</subfield>
 		<subfield code="w">(DLC)ne 63000656 </subfield>
 		<subfield code="w">(OCoLC)4068813</subfield>
@@ -113,24 +119,17 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01</subfield>
-		<subfield code="a">ابن تومرت، محمد.</subfield>
+		<subfield code="a">ابن تومرت، محمد،</subfield>
+		<subfield code="d">-approximately 1130.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">240-00</subfield>
+		<subfield code="6">240-02</subfield>
 		<subfield code="a">أعز ما يطلب</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">246-00</subfield>
-		<subfield code="a">كتاب أعز ما يطلب :</subfield>
-		<subfield code="b">مشتمل على جميع تعاليق محمد تومرت مما املاه عبد المؤمن بن علي</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-00</subfield>
-		<subfield code="a">لوسياني، جان دومينيك.</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-00</subfield>
-		<subfield code="a">جولتسيهر، إجناس.</subfield>
+		<subfield code="6">245-03</subfield>
+		<subfield code="a">كتاب اعز ما يطلب :</subfield>
+		<subfield code="b">مشتمل على جميع تعاليق محمد تومرت مما املاه عبد المؤمن بن علي. </subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -142,8 +141,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3122356</subfield>
-		<subfield code="o">(OCoLC)ocm04068813 </subfield>
+		<subfield code="o">(OCoLC)ocm04068813</subfield>
 		<subfield code="s">columbia_aco003298</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003298</subfield>
 	</datafield>
 </record>

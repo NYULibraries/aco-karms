@@ -5,23 +5,32 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180920s1909    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">181206s1900    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">PJ7765</subfield>
+		<subfield code="b">.K45 1900</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Khafājī, Aḥmad ibn Muḥammad,</subfield>
 		<subfield code="d">1571 or 1572-1659.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Tirāz al-majālis ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb ṭirāz al-majālis /</subfield>
+		<subfield code="c">li-Mawlānā Shihāb al-Dīn Aḥmad ibn Muḥammad al-Khafājī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[Cairo],</subfield>
-		<subfield code="c">[1909]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Ṭanṭā :</subfield>
+		<subfield code="b">Maṭbaʻah al-ʻĀmirah al-Sharafīyah,</subfield>
+		<subfield code="c">[190-?]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (280 pages)</subfield>
@@ -69,12 +78,28 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Khafājī, Aḥmad ibn Muḥammad, 1571 or 1572-1659.</subfield>
-		<subfield code="t">Tirāz al-majālis</subfield>
+		<subfield code="t">Kitāb ṭirāz al-majālis</subfield>
 		<subfield code="w">(NNC)3131645</subfield>
 		<subfield code="w">(OCoLC)48245499</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/ht76hn46</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">خفاجي، احمد بن محمد،</subfield>
+		<subfield code="d">1571 or 1572-1659.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">كتاب طراز المجالس /</subfield>
+		<subfield code="c">لمولانا شهاب الدين احمد بن محمد الخفاجي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">طنطا :</subfield>
+		<subfield code="b">مطبعة العامرة الشرفية،</subfield>
+		<subfield code="c">[190-?]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -86,8 +111,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3131645</subfield>
-		<subfield code="o">(OCoLC)ocm48245499 </subfield>
+		<subfield code="o">(OCoLC)ocm48245499</subfield>
 		<subfield code="s">columbia_aco003428</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003428</subfield>
 	</datafield>
 </record>

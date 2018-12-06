@@ -5,27 +5,35 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">180920s1902    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">181206s1902    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP135.8.E3</subfield>
+		<subfield code="b">i36 1902</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ibn ʻAbd al-Barr, Yūsuf ibn ʻAbd Allāh,</subfield>
 		<subfield code="d">978 or 979-1071.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Kitāb Jāmiʻ bayān al-ʻilm wa-faḍlihi wa-mā yanbaghī fī riwāyatihi wa-ḥamlih</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Mukhtaṣar Jāmiʻ bayān al-ʻilm wa-faḍlihī wa-mā yanbaghī fī riwāyatihī wa-ḥamlih.</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Mukhtaṣar Jāmiʻ bayān al-ʻilm wa-faḍlihī wa-mā yanbaghī fī riwāyatihī wa-ḥamlih /</subfield>
 		<subfield code="c">Ikhtiṣār Aḥmad ibn ʻUmar al-Maḥmaṣānī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Miṣr,</subfield>
-		<subfield code="b">Maṭb. al-Mausūʻāt,</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Maṭbaʻat al-Mawsūʻāt,</subfield>
 		<subfield code="c">1320 [1902]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -54,8 +62,8 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
-		<subfield code="a">Islam</subfield>
-		<subfield code="x">Tradition.</subfield>
+		<subfield code="a">Islamic religious education</subfield>
+		<subfield code="v">Early works to 1800.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">Islamic law.</subfield>
@@ -66,7 +74,8 @@
 		<subfield code="0">(OCoLC)fst00979949</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">Maḥmaṣānī, Aḥmad ʻUmar.</subfield>
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Maḥmaṣānī, Aḥmad ʻUmar. </subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
@@ -85,6 +94,30 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/tdz08t3m</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">ابن عبد البر، يوسف بن عبد الله،</subfield>
+		<subfield code="d">978 or 979-1071.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">240-02</subfield>
+		<subfield code="a">كتاب جامع بيان العلم وفضل وما ينبغي في روايته وحمل</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-03</subfield>
+		<subfield code="a">مختصر جامع بيان العلم وفضله وما ينبغي في روايته وحمله /</subfield>
+		<subfield code="c">اختصار احمد بن عمر المحمصاني.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مطبعة الموسوعات،</subfield>
+		<subfield code="c">1320 [1902]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-05</subfield>
+		<subfield code="a">محمصاني، احمد عمر.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -95,8 +128,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3082681</subfield>
-		<subfield code="o">(OCoLC)ocm47942110 </subfield>
+		<subfield code="o">(OCoLC)ocm47942110</subfield>
 		<subfield code="s">columbia_aco003295</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003295</subfield>
 	</datafield>
 </record>
