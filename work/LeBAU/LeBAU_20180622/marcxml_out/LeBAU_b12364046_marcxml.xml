@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">181218s1939    ti      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">190123s1939    ti      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP42</subfield>
+		<subfield code="b">.I36 1939</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">297.35</subfield>
@@ -56,30 +60,21 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2018.</subfield>
+		<subfield code="d">2019.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">المساجد</subfield>
-		<subfield code="z">تونس.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الهندسة المعمارية الاسلامية</subfield>
-		<subfield code="z">تونس.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الاسلام</subfield>
-		<subfield code="x">الدرس والتدريس.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Mosques</subfield>
 		<subfield code="z">Tunisia.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Islamic architecture</subfield>
 		<subfield code="z">Tunisia.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Islam</subfield>
 		<subfield code="x">Study and teaching.</subfield>
 	</datafield>
@@ -102,7 +97,7 @@
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">ابن الخوجة، محمد،</subfield>
 		<subfield code="d">1869-1942،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -121,6 +116,21 @@
 		<subfield code="a">253 صفحة ؛</subfield>
 		<subfield code="c">24 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">المساجد</subfield>
+		<subfield code="z">تونس.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">الهندسة المعمارية الاسلامية</subfield>
+		<subfield code="z">تونس.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">الاسلام</subfield>
+		<subfield code="x">الدرس والتدريس.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -133,5 +143,6 @@
 		<subfield code="i">LeBAU_b12364046</subfield>
 		<subfield code="s">aub_aco002281</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco002281</subfield>
 	</datafield>
 </record>

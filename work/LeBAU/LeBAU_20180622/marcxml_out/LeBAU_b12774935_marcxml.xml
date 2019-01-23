@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">181218s1938    le b    o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">190123s1938    le b    o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -18,6 +18,10 @@
 		<subfield code="h">cha</subfield>
 		<subfield code="h">grc</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BS315.A6</subfield>
+		<subfield code="b">1938</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">220</subfield>
 		<subfield code="2">22</subfield>
@@ -28,7 +32,7 @@
 		<subfield code="l">Arabic.</subfield>
 		<subfield code="f">1938.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Kitāb al-muqaddas :</subfield>
 		<subfield code="b">ay kutub al-ʻAhd al-Qadīm wa-al-ʻAhd al-Jadīd.</subfield>
@@ -61,22 +65,17 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;وقد ترجم من اللغات الأصلية وهي اللغة العبرانية واللغة الكلدانية واللغة اليونانية.&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2018.</subfield>
+		<subfield code="d">2019.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1="2" ind2="4" tag="630">
-		<subfield code="a">الكتاب المقدس.</subfield>
-	</datafield>
 	<datafield ind1="0" ind2="0" tag="630">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Bible.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -99,7 +98,7 @@
 		<subfield code="l">عربي.</subfield>
 		<subfield code="f">1938.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
+	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">245-02</subfield>
 		<subfield code="a">الكتاب المقدس :</subfield>
 		<subfield code="b">أي كتب العهد القديم والعهد الجديد.</subfield>
@@ -120,6 +119,14 @@
 		<subfield code="b">خرائط مطوية ملونة ؛</subfield>
 		<subfield code="c">18 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;وقد ترجم من اللغات الأصلية وهي اللغة العبرانية واللغة الكلدانية واللغة اليونانية.&quot;</subfield>
+	</datafield>
+	<datafield ind1="2" ind2="4" tag="880">
+		<subfield code="6">630-06</subfield>
+		<subfield code="a">الكتاب المقدس.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -132,5 +139,6 @@
 		<subfield code="i">LeBAU_b12774935</subfield>
 		<subfield code="s">aub_aco002222</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco002222</subfield>
 	</datafield>
 </record>

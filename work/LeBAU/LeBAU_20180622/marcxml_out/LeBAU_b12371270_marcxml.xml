@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">181218s1951    ua      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">190123s1951    ua      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP130.2</subfield>
+		<subfield code="b">.B36 1951</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">297.207</subfield>
@@ -52,31 +56,21 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="505">
-		<subfield code="a">مقدمة الشهاب -- مقدمة التفسير -- تفسير الفاتحة.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2018.</subfield>
+		<subfield code="d">2019.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="4" tag="630">
-		<subfield code="a">قرآن</subfield>
-		<subfield code="x">تفسير وتأويل</subfield>
-		<subfield code="x">تاريخ.</subfield>
-	</datafield>
-	<datafield ind1="0" ind2="4" tag="630">
-		<subfield code="a">قرآن.</subfield>
-		<subfield code="p">سورة الفاتحة.</subfield>
-	</datafield>
 	<datafield ind1="0" ind2="0" tag="630">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Qur'an</subfield>
 		<subfield code="x">Hermeneutics</subfield>
 		<subfield code="x">History.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="0" tag="630">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Qur'an.</subfield>
 		<subfield code="p">Sūrat al-Fātiḥah.</subfield>
 	</datafield>
@@ -99,7 +93,7 @@
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">البنا، حسن،</subfield>
 		<subfield code="d">1906-1949،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -118,6 +112,21 @@
 		<subfield code="a">94 صفحة ؛</subfield>
 		<subfield code="c">17 سم</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">505-00</subfield>
+		<subfield code="a">مقدمة الشهاب -- مقدمة التفسير -- تفسير الفاتحة.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">630-05</subfield>
+		<subfield code="a">قرآن</subfield>
+		<subfield code="x">تفسير وتأويل</subfield>
+		<subfield code="x">تاريخ.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="4" tag="880">
+		<subfield code="6">630-06</subfield>
+		<subfield code="a">قرآن.</subfield>
+		<subfield code="p">سورة الفاتحة.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -130,5 +139,6 @@
 		<subfield code="i">LeBAU_b12371270</subfield>
 		<subfield code="s">aub_aco002344</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco002344</subfield>
 	</datafield>
 </record>

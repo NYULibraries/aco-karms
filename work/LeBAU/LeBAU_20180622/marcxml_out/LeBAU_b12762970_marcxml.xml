@@ -5,16 +5,20 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">181218s1920    ua b    o    o||0 0 ara d</controlfield>
+	<controlfield tag="008">190123s1920    ua b    o    o||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">TC917</subfield>
+		<subfield code="b">.M33 1920</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">626.8</subfield>
-		<subfield code="2">20</subfield>
+		<subfield code="2">201920</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="6">880-01</subfield>
@@ -50,34 +54,26 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">في راس العنوان: وزارة الاشغال العمومية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2018.</subfield>
+		<subfield code="d">2019.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الري</subfield>
-		<subfield code="z">مصر.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Irrigation</subfield>
 		<subfield code="z">Egypt.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">نهر النيل.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Nile River.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="710">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Egypt.</subfield>
 		<subfield code="b">Aʻmāl Ḍabṭ al-Nīl,</subfield>
 		<subfield code="e">issuing body.</subfield>
@@ -100,8 +96,13 @@
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">مكدونالد، مردخ،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">مذكرة بشأن طائفة من أعمال الضبط لأحكام توزيع مياه الري في وادي النيل /</subfield>
+		<subfield code="c">بقلم مستشار وزارة الأشغال العمومية بمصر.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
 		<subfield code="6">264-03</subfield>
@@ -109,22 +110,30 @@
 		<subfield code="b">المطبعة الأميرية،</subfield>
 		<subfield code="c">1920.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02</subfield>
-		<subfield code="a">مذكرة بشأن طائفة من أعمال الضبط لأحكام توزيع مياه الري في وادي النيل /</subfield>
-		<subfield code="c">بقلم مستشار وزارة الأشغال العمومية بمصر.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">300-04</subfield>
 		<subfield code="a">17 صفحة، 1 ورقة لوحات غير مرقمة :</subfield>
 		<subfield code="b">خريطة مطوية وملونة ؛</subfield>
 		<subfield code="c">34 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">في راس العنوان: وزارة الاشغال العمومية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">الري</subfield>
+		<subfield code="z">مصر.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-06</subfield>
+		<subfield code="a">نهر النيل.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">710-05</subfield>
+		<subfield code="6">710-07</subfield>
 		<subfield code="a">مصر.</subfield>
 		<subfield code="b">أعمال ضبط النيل،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -139,5 +148,6 @@
 		<subfield code="i">LeBAU_b12762970</subfield>
 		<subfield code="s">aub_aco002159</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco002159</subfield>
 	</datafield>
 </record>
