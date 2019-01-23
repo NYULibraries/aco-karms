@@ -5,12 +5,16 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">181218s1920    ua      o    o||0 0 ara d</controlfield>
+	<controlfield tag="008">190123s1920    ua      o    o||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">TC917</subfield>
+		<subfield code="b">.E48 1920</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">626.8</subfield>
@@ -54,33 +58,22 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;ترجمة.&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;.يمكن الحصول على تقرير اللجنة (إما مباشرة وإما بواسطة أحد باعة الكتب) من قلم نشر مطبوعات الحكومة بسراي الإسماعيلية القديمة بشارع قصر العيني بالقاهرة والثمن عشر قروش&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2018.</subfield>
+		<subfield code="d">2019.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الري</subfield>
-		<subfield code="z">مصر.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Irrigation</subfield>
 		<subfield code="z">Egypt.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">نهر النيل.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Nile River.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -102,7 +95,7 @@
 		<subfield code="6">110-01</subfield>
 		<subfield code="a">مصر.</subfield>
 		<subfield code="b">لجنة مشروعات النيل،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -125,6 +118,23 @@
 		<subfield code="a">7 صفحات ؛</subfield>
 		<subfield code="c">34 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;ترجمة.&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;.يمكن الحصول على تقرير اللجنة (إما مباشرة وإما بواسطة أحد باعة الكتب) من قلم نشر مطبوعات الحكومة بسراي الإسماعيلية القديمة بشارع قصر العيني بالقاهرة والثمن عشر قروش&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">الري</subfield>
+		<subfield code="z">مصر.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-07</subfield>
+		<subfield code="a">نهر النيل.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -137,5 +147,6 @@
 		<subfield code="i">LeBAU_b12762982</subfield>
 		<subfield code="s">aub_aco002160</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco002160</subfield>
 	</datafield>
 </record>
