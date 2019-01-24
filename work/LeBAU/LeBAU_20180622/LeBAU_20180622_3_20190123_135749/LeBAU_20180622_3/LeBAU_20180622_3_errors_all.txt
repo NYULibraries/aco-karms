@@ -6,7 +6,7 @@ ALL Records containing any type of error - batch LeBAU_20180622
     --  have a series heading error in the 490/800/810/811/830 fields
     --  have one of the various miscellaneous errors, marked with ERROR-MISC
     --  missing a call number - no 050 or 090 field
-Report produced: 2019-01-24 10:57:29.597392
+Report produced: 2019-01-23 13:51:52.806801
 ---------------------------------------------------------------------
 FILE: LeBAU_20180622_3/LeBAU_20180622_3_updates.mrc
 ---------------------------------------------------------------------
@@ -99,6 +99,17 @@ RDA fields: YES
 050 call number: Z6605.A6 C42 1924
 Source entities (book IDs): aub_aco002164
 ---------------------------------------------------------------------
+Institution ID: LeBAU_b12434061
+   orig_rec_035 num: =035  \\$aocn784313644
+Record 999:  LeBAU_b12434061 aub_aco002230
+880 script fields: YES
+ERROR-880: Unlinked 880s: YES
+   880 $6 650-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
+040 $e field: rda
+RDA fields: YES
+050 call number: HJ3036 .A45 1950
+Source entities (book IDs): aub_aco002230
+---------------------------------------------------------------------
 Institution ID: LeBAU_b12369755
    orig_rec_035 num: =035  \\$aocn784280093
 Record 999:  LeBAU_b12369755 aub_aco002325
@@ -109,6 +120,17 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 050 call number: BP166 .S24 1955
 Source entities (book IDs): aub_aco002325
+---------------------------------------------------------------------
+Institution ID: LeBAU_b1236650x
+   orig_rec_035 num: =035  \\$aocn784272501
+Record 999:  LeBAU_b1236650x aub_aco002296
+880 script fields: YES
+ERROR-880: Unlinked 880s: YES
+   880 $6 650-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
+040 $e field: rda
+RDA fields: YES
+050 call number: BP163 .S315 1948
+Source entities (book IDs): aub_aco002296
 ---------------------------------------------------------------------
 Institution ID: LeBAU_b12367102
    orig_rec_035 num: =035  \\$aocn122885109
@@ -164,6 +186,17 @@ ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
 RDA fields: YES
 050 call number: B753 .S83 1945
 Source entities (book IDs): aub_aco002213:v.1
+---------------------------------------------------------------------
+Institution ID: LeBAU_b1236325x
+   orig_rec_035 num: =035  \\$aocn784264042
+Record 999:  LeBAU_b1236325x aub_aco002152
+880 script fields: YES
+ERROR-880: Unlinked 880s: YES
+   880 $6 651-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
+040 $e field: rda
+RDA fields: YES
+050 call number: B741  .Y39 1954
+Source entities (book IDs): aub_aco002152
 ---------------------------------------------------------------------
 Institution ID: LeBAU_b12361768
    orig_rec_035 num: =035  \\$aocn784260675
@@ -231,6 +264,17 @@ RDA fields: YES
 050 call number: B741 .B64 1948
 Source entities (book IDs): aub_aco002142
 ---------------------------------------------------------------------
+Institution ID: LeBAU_b12357856
+   orig_rec_035 num: =035  \\$aocn784249473
+Record 999:  LeBAU_b12357856 aub_aco002149
+880 script fields: YES
+ERROR-880: Unlinked 880s: YES
+   880 $6 264-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+040 $e field: rda
+RDA fields: YES
+050 call number: B741 .F3778 1949 
+Source entities (book IDs): aub_aco002149
+---------------------------------------------------------------------
 Institution ID: LeBAU_b12359026
    orig_rec_035 num: =035  \\$aocn784252423
 Record 999:  LeBAU_b12359026 aub_aco002193:v.1
@@ -286,11 +330,11 @@ Record 999:  LeBAU_b12348909 aub_aco002191
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Title on page [4] of cover: A survey of the origin, conferences and an analysis of the Colloquium on Islamic Culture held at Princeton University and the Library of Congress from 8th to 19th Sept. 1953.
 ERROR-880: Unlinked 880s: YES
-   880 $6 246-00 - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 246-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: rda
 RDA fields: YES
 050 call number: DS36.85 .D34 1954
 Source entities (book IDs): aub_aco002191
 ---------------------------------------------------------------------
-TOTAL Number of Records containing any type of error: 25
+TOTAL Number of Records containing any type of error: 29
 
