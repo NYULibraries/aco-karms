@@ -5,12 +5,16 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190124s1905    le      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190221s1905    le      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BS315</subfield>
+		<subfield code="b">.A65 1905</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="130">
 		<subfield code="a">Bible.</subfield>
@@ -19,10 +23,12 @@
 		<subfield code="f">1905.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Kitāb al-ʻAhd al-Jadīd li-rabbinā wa-mukhalliṣinā Yasūʻ al-Masīḥ :</subfield>
-		<subfield code="b">wa-qad turjima min al-lughah al-Yunānīyah.</subfield>
+		<subfield code="b">wa-qad turjima min al-lughah al-Yūnānīyah.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Bayrūt :</subfield>
 		<subfield code="b">al-Maṭbaʻah al-Amīrkānīyah,</subfield>
 		<subfield code="c">1905.</subfield>
@@ -52,6 +58,10 @@
 		<subfield code="d">2019.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="0" tag="630">
+		<subfield code="a">Bible.</subfield>
+		<subfield code="p">New Testament.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
 		<subfield code="b">Library.</subfield>
@@ -75,6 +85,17 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/69p8d631</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-01</subfield>
+		<subfield code="a">كتاب العهد الجديد لربنا ومخلصنا يسوع المسيح :</subfield>
+		<subfield code="b">وقد ترجم من اللغة اليونانية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-02</subfield>
+		<subfield code="a">بيروت :</subfield>
+		<subfield code="b">المطبعة الاميركانية،</subfield>
+		<subfield code="c">1905.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -85,8 +106,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_502726</subfield>
-		<subfield code="o">(OCoLC)ocm26578230 </subfield>
+		<subfield code="o">(OCoLC)ocm26578230</subfield>
 		<subfield code="s">princeton_aco001569</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco001569</subfield>
 	</datafield>
 </record>

@@ -5,21 +5,28 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190124s1942    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190221s1942    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP80.A226</subfield>
+		<subfield code="b">K38 1942</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Kawtharī, Muḥammad Zāhid ibn al-Ḥasan.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Kawtharī, Muḥammad Zāhid ibn al-Ḥasan. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Taʼnīb al-Khaṭīb ʻalā mā sāoahu fī tarjamat Abī Ḥanīfah min al-akādhīb.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Taʼnīb al-khaṭīb ʻalá mā sāqahu fī tarjamat Abī Ḥanīfah min al-akādhīb.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[Cairo]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[Cairo] :</subfield>
 		<subfield code="b">Maṭbaʻah wa-warshat tajlīd al-anwār,</subfield>
 		<subfield code="c">1942.</subfield>
 	</datafield>
@@ -51,6 +58,10 @@
 	<datafield ind1=" " ind2=" " tag="546">
 		<subfield code="a">In Arabic.</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="0" tag="600">
+		<subfield code="a">Abū Ḥanīfah,</subfield>
+		<subfield code="d">-767 or 768.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
 		<subfield code="b">Library.</subfield>
@@ -61,12 +72,26 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Kawtharī, Muḥammad Zāhid ibn al-Ḥasan.</subfield>
-		<subfield code="t">Taʼnīb al-Khaṭīb ʻalā mā sāoahu fī tarjamat Abī Ḥanīfah min al-akādhīb</subfield>
+		<subfield code="t">Taʼnīb al-khaṭīb ʻalá mā sāqahu fī tarjamat Abī Ḥanīfah min al-akādhīb</subfield>
 		<subfield code="w">(NjP)1691290</subfield>
 		<subfield code="w">(OCoLC)42873265</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/s7h44rzc</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">كوثري، محمد زاهد بن الحسن. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">تأنيب الخطيب على ما ساقه في ترجمة أبي حنيفة من الأكاذيب.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">مطبعة وورشة تجليد الانوار،</subfield>
+		<subfield code="c">1942.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -78,8 +103,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_1691290</subfield>
-		<subfield code="o">(OCoLC)ocm42873265 </subfield>
+		<subfield code="o">(OCoLC)ocm42873265</subfield>
 		<subfield code="s">princeton_aco001749</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco001749</subfield>
 	</datafield>
 </record>
