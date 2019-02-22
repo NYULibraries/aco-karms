@@ -5,18 +5,24 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190124s1900    mr      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190221s1900    mr      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">KBP320.K43</subfield>
+		<subfield code="b">A35 1900</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Binnīs, Muḥammad ibn Aḥmad,</subfield>
 		<subfield code="d">approximately 1747-1798 or 1799.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Bahjat al-baṣar fī sharḥ farāʼiḍ al-Mukhtaṣar /</subfield>
 		<subfield code="c">lil-Shaykh Muḥammad ibn Aḥmad Binnīs ʻalá farāʼiḍ Ḍiyāʼ al-Dīn Abī al-Mawaddah Khalīl. Wa-bi-ḥāmishihi Ḥāshiyat al-Shaykh al-faqīh al-ʻallāmah Khātimat al-Muḥaqqiqīn Abī ʻAbd Allāh Sayyidī al-Ḥājj Muḥammad ibn al-Madanī Jannūn.</subfield>
 	</datafield>
@@ -82,6 +88,7 @@
 		<subfield code="2">gmgpc</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="700">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Ibn al-Madanī Jannūn, Muḥammad,</subfield>
 		<subfield code="d">-1884 or 1885.</subfield>
 		<subfield code="t">Ḥāshiyah ʻalá Bahjat al-baṣar.</subfield>
@@ -94,6 +101,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Ḥāshiyah ʻalá Bahjat al-baṣar.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
@@ -106,6 +114,26 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/c59zwbmd</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">بنيس، محمد بن احمد،‎‎</subfield>
+		<subfield code="d">approximately 1747-1798 or 1799.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">بهجة البصر في شرح فرائض المختصر /‎‎</subfield>
+		<subfield code="c">للشيخ محمد بن احمد بنيس على فرائض ضياء الدين ابي المودة خليل. وبحامشه حاشية الشيخ الفقيه العلامة خاتمة المحققين ابي عبد الله سيدي الحاج محمد بن المدني جنون.‎‎</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">700-03</subfield>
+		<subfield code="a">ابن المدني جنون، محمد،‎‎</subfield>
+		<subfield code="d">-1884 or 1885.</subfield>
+		<subfield code="t">حاشية على بهجة البصر.‎‎</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">740-04</subfield>
+		<subfield code="a">حاشية على بهجة البصر.‎‎</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -116,8 +144,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2794671</subfield>
-		<subfield code="o">(OCoLC)ocm79291628 </subfield>
+		<subfield code="o">(OCoLC)ocm79291628</subfield>
 		<subfield code="s">princeton_aco001727</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco001727</subfield>
 	</datafield>
 </record>

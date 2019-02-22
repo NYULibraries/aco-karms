@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190124s1989    ir      ob    000 0 ara d</controlfield>
+	<controlfield tag="008">190221s1989    ir      ob    000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -16,20 +16,28 @@
 		<subfield code="a">a------</subfield>
 		<subfield code="a">f------</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">BP170.25</subfield>
+		<subfield code="b">.B34 1989</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Baḥrānī, Ḥusayn,</subfield>
 		<subfield code="d">-1802.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Burhān al-ashrāf fī al-manʻ min bayʻ al-awqāf /</subfield>
 		<subfield code="c">taʼlīf Ḥusayn al-ʻUṣfūrī al-Baḥrānī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">al-Ṭabʻah 1.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">[Iran] :</subfield>
-		<subfield code="b">Maktabat al-ʻAzīzī</subfield>
+		<subfield code="b">Maktabat al-ʻAzīzī,</subfield>
 		<subfield code="c">1410 [1989]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -47,7 +55,8 @@
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Dār Bāqir al-ʻUlum li-Iḥyʼ̄ Turāth ʻUlamāʼ Āl ʻUṣfūr ;</subfield>
 		<subfield code="v">1</subfield>
 	</datafield>
@@ -101,8 +110,43 @@
 		<subfield code="w">(NjP)985886</subfield>
 		<subfield code="w">(OCoLC)32884527</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-06</subfield>
+		<subfield code="a">Dār Bāqir al-ʻUlum li-Iḥyʼ̄ Turāth ʻUlamāʼ Āl ʻUṣfūr ;</subfield>
+		<subfield code="v">1.</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/9cnp5rk9</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">بحراني، حسين،</subfield>
+		<subfield code="d">-1802.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">برهان الاشراف في المنع من بيع الاوقاف /</subfield>
+		<subfield code="c">تأليف حسين العصفوري البحراني.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">250-03</subfield>
+		<subfield code="a">الطبعة 1.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04</subfield>
+		<subfield code="a">[ايران] :</subfield>
+		<subfield code="b">مكتبة العزيزي،</subfield>
+		<subfield code="c">1410 [1989]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">490-05</subfield>
+		<subfield code="a">دار باقر العلم لاحياء تراث علماء آل عصفور ؛</subfield>
+		<subfield code="v">1</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">830-06</subfield>
+		<subfield code="a">دار باقر العلم لاحياء تراث علماء آل عصفور ؛</subfield>
+		<subfield code="v">1.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -114,8 +158,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_985886</subfield>
-		<subfield code="o">(OCoLC)ocm32884527 </subfield>
+		<subfield code="o">(OCoLC)ocm32884527</subfield>
 		<subfield code="s">princeton_aco001882</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-SERIES)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco001882</subfield>
 	</datafield>
 </record>

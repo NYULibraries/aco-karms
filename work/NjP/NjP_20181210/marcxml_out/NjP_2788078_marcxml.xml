@@ -5,22 +5,30 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190124s1946    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190221s1946    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">KBP632.35</subfield>
+		<subfield code="b">.K48 1946</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Khuḍarī, Aḥmad Kāmil.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Mawārīth al-Islāmīyah;</subfield>
-		<subfield code="b">kitāb yashtamilu ʻalā aḥkām al-mīrāth fī al-madhāhib al-arbaʻah ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Mawārīth al-Islāmīyah :</subfield>
+		<subfield code="b">kitāb yashtamil ʻala ahkām al-mirath fī al-madhāhib al-arbaʻah wa-jadwal al-māwarith wa-kayfiyat taqsīm al-tarikah wa-hisāb al-masa'il, wa-al-ta'sīl wa-al-taṣhih wa-ghayrihā min al-qawa`id biʻibarat sahlah wa-uslūb wāḍih, wa-bihi qānunan al-māwarīth al-jadīd al-ma`mul bi-h fi al-bilād al-Maṣriyah /</subfield>
+		<subfield code="c">li-Ahmad Kamil al-Khudari.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[Cairo]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[al-Qāhirah] :</subfield>
 		<subfield code="b">Maṭbaʻat Wādī al-Mulūk,</subfield>
 		<subfield code="c">1946.</subfield>
 	</datafield>
@@ -52,6 +60,9 @@
 	<datafield ind1=" " ind2=" " tag="546">
 		<subfield code="a">In Arabic.</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Non-Latin script record</subfield>
+	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">Inheritance and succession (Islamic law)</subfield>
 	</datafield>
@@ -70,12 +81,28 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Khuḍarī, Aḥmad Kāmil.</subfield>
-		<subfield code="t">al-Mawārīth al-Islāmīyah;</subfield>
+		<subfield code="t">al-Mawārīth al-Islāmīyah</subfield>
 		<subfield code="w">(NjP)2788078</subfield>
 		<subfield code="w">(OCoLC)42865746</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/7h44j7vg</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">خضري، احمد كامل.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">المواريث الاسلامية :</subfield>
+		<subfield code="b">كتاب يشتمل على احكام الميراث في المذاهب الاربعة وجدول المواريث  وكيفية تقسيم التركة وحساب المسائل، والتأصيل والتصحيح وغيرها من القواعد بعبارة سهلة واسلوب واضح، وبه قانون المواريث الجديد المعمول في البلاد المصرية /</subfield>
+		<subfield code="c">لاحمد كامل الخضري.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">مطبعة وادي الملوك،</subfield>
+		<subfield code="c">1946.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -87,8 +114,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2788078</subfield>
-		<subfield code="o">(OCoLC)ocm42865746 </subfield>
+		<subfield code="o">(OCoLC)ocm42865746</subfield>
 		<subfield code="s">princeton_aco001867</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco001867</subfield>
 	</datafield>
 </record>

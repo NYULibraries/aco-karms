@@ -5,25 +5,32 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190124s1906    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190221s1906    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">KBP295</subfield>
+		<subfield code="b">.M34 1906</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Maḥbūbī, ʻUbayd Allāh ibn Masʻūd,</subfield>
 		<subfield code="d">-1346 or 1347.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Tawḍīh ʻalā al-Tanqīh ...</subfield>
-		<subfield code="b">wa-ʻalayhi al-Talwīḥ lil-imām Saʻd al-Dīn al-Taftāzānī wa-ḥāshiyat al-Fanarī ʻalā al-Talwīḥ wa-ḥāshiyat Mullā Khusraw wa-ʻAbd al-Ḥakīm ʻalayhi ayḍan ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Juzʼ al-awwal [-al-thālith] min Sharḥ al-Tawḍīḥ ʻalá al-Tanqīḥ /</subfield>
+		<subfield code="c">li-ʻUbayd Allāh ibn Masʻūd. Wa-al-Talwīḥ / li-Saʻd al-Dīn al-Taftāzānī. Wa-Ḥāshiyah ʻalá al-Talwīḥ / al-Fanarī. Wa-Ḥāshiyah / Mullā Khusraw. Wa-Ḥāshiyah ʻalayhi ayḍan /ʻAbd al-Ḥakīm.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
 		<subfield code="b">al-Maṭbaʻah al-Khayrīyah,</subfield>
-		<subfield code="c">1324 [1906]</subfield>
+		<subfield code="c">1322-1324 [1904-1906]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (3 volumes in 2.)</subfield>
@@ -53,6 +60,10 @@
 	<datafield ind1=" " ind2=" " tag="546">
 		<subfield code="a">In Arabic.</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Hanafites</subfield>
+		<subfield code="v">Early works to 1800.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
 		<subfield code="b">Library.</subfield>
@@ -63,12 +74,28 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Maḥbūbī, ʻUbayd Allāh ibn Masʻūd, -1346 or 1347.</subfield>
-		<subfield code="t">al-Tawḍīh ʻalā al-Tanqīh</subfield>
+		<subfield code="t">al-Juzʼ al-awwal [-al-thālith] min Sharḥ al-Tawḍīḥ ʻalá al-Tanqīḥ</subfield>
 		<subfield code="w">(NjP)2787290</subfield>
 		<subfield code="w">(OCoLC)42847086</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/ttdz0hg2</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">محبوبي، عبيد الله بن مسعود،‎‎</subfield>
+		<subfield code="d">-1346 or 1347.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">الجزء الاول [الثالث] من شرح التوضيح على التنقيح /‎‎</subfield>
+		<subfield code="c">لعبيد الله بن مسعود. والتلويح / لسعد الدين التفتازاني. وحاشية على التلويح / الفنري. وحاشية / ملا خسرو. وحاشية عليه ايضا /عبد الحكيم.‎‎</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">القاهرة :‎‎</subfield>
+		<subfield code="b">المطبعة الخيرية،‎‎</subfield>
+		<subfield code="c">1322-1324 [1904-1906]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -80,8 +107,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2787290</subfield>
-		<subfield code="o">(OCoLC)ocm42847086 </subfield>
+		<subfield code="o">(OCoLC)ocm42847086</subfield>
 		<subfield code="s">princeton_aco001775:vol.3</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco001775:vol.3</subfield>
 	</datafield>
 </record>
