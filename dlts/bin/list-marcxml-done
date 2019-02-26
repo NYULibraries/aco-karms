@@ -113,7 +113,9 @@ for d in $DIRS ; do
     partner=$(echo $d | cut -d'_' -f1)
     #ls -1 ${WORK_DIR}/${partner}/${d}/marcxml_out/*.xml >> "$TMPFILE"
     for f in $(ls -1 ${WORK_DIR}/${partner}/${d}/marcxml_out/*.xml); do
-     basename $f | cut -d'_' -f1-2 | sed -e 's/_/,/' 
+     bsn=$(basename $f | cut -d'_' -f1-2 | sed -e 's/_/,/' )
+     committed=$( git log -n 1 --pretty=format:'%cI' -- $f | cut -dT -f1 )
+     echo "$bsn,$committed"
     done 
 done | sort
 
