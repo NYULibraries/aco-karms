@@ -1,9 +1,19 @@
 #!/bin/bash 
 
-# ls -1 ../../work/NjP/NjP_20160504/marcxml_out/ | cut -d'_' -f1-2 | sed -e 's/_/,/' | sort
-# Overview
-# This script counts the number of MARCXML files marked "done" in the tkts file
-# this script assumes it is run from the work/ directory of the aco-karms git repo.
+#------------------------------------------------------------------------------
+# Time-stamp: <2019-03-07 09:09:13 jgp>
+#
+# Overview:
+# ---------
+# This script generates a report of "done" MARCXML records in the
+# aco-karms repo.
+#
+# Dependencies:
+# -------------
+# This script relies on the "tickets" file that lists directories that
+# are "done" and the aco-karms repository layout.
+# Also, this assumes that the git version on the host system is at least 1.7.1
+#------------------------------------------------------------------------------
 export TMPDIR='/tmp'
 TMPFILE="$(mktemp)"
 
@@ -107,14 +117,13 @@ fi
 # extract directories that are marked "Done"
 # sample line in csv file:
 # Columbia-11,NNC_20161024,DLTSACO-440,52,Done,N/A
-DIRS=`cat "$TKTS_PATH" | grep -i done | cut -d ',' -f2`
+DIRS=$(cat "$TKTS_PATH" | grep -i done | cut -d ',' -f2)
 
 for d in $DIRS ; do
     partner=$(echo $d | cut -d'_' -f1)
-    #ls -1 ${WORK_DIR}/${partner}/${d}/marcxml_out/*.xml >> "$TMPFILE"
     for f in $(ls -1 ${WORK_DIR}/${partner}/${d}/marcxml_out/*.xml); do
      bsn=$(basename $f | cut -d'_' -f1-2 | sed -e 's/_/,/' )
-     committed=$( git log -n 1 --pretty=format:'%cI' -- $f | cut -dT -f1 )
+     committed=$( git log -n 1 --pretty=format:'%ci' -- $f | cut -d' ' -f1 )
      echo "$bsn,$committed"
     done 
 done | sort
