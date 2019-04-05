@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190315m19619999ua      o     000 0 arar </controlfield>
+	<controlfield tag="008">190404m19619999ua      o     000 0 arar </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -27,6 +27,7 @@
 		<subfield code="c">ta'līf Shihāb al-Dīn Abī al-ʻAbbās Aḥmad ibn Idrīs ibn ʻAbd al-Raḥmān al-Ṣanhājī al-Miṣrī al-mashhūr bi-al-Qarāfī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">[al-Qāhirah] :</subfield>
 		<subfield code="b">Maṭbaʻat Kulliyat al-Sharīʻah,</subfield>
 		<subfield code="c">1961-</subfield>
@@ -46,8 +47,8 @@
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
-		<subfield code="6">880-03</subfield>
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Min mawsūʻat al-fiqh al-Islāmī</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -104,12 +105,17 @@
 		<subfield code="w">(DLC)   62000982 </subfield>
 		<subfield code="w">(OCoLC)123289225</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Min mawsūʻat al-fiqh al-Islāmī.</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/2fqz6864</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01</subfield>
-		<subfield code="a">قرافي، أحمد بن إدريس.</subfield>
+		<subfield code="a">قرافي، احمد بن ادريس، </subfield>
+		<subfield code="d">-1285.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">245-02</subfield>
@@ -117,14 +123,18 @@
 		<subfield code="c">تأليف شهاب الدين أبي العباس أحمد بن إدريس بن عبد الرحمن الصنهاجي المصري المشهور بالقرافي.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-00</subfield>
+		<subfield code="6">260-03</subfield>
 		<subfield code="a">[القاهرة] :</subfield>
 		<subfield code="b">مطبعة كلية الشريعة،</subfield>
 		<subfield code="c">1961-</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">490-03</subfield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">490-04</subfield>
 		<subfield code="a">من موسوعة الفقه الإسلامي</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">830-05</subfield>
+		<subfield code="a">من موسوعة الفقه الاسلامي.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -139,5 +149,6 @@
 		<subfield code="o">(OCoLC)ocn123289225</subfield>
 		<subfield code="s">columbia_aco003877:v.1</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-SERIES)</subfield>
+		<subfield code="s">columbia_aco003877:v.1</subfield>
 	</datafield>
 </record>

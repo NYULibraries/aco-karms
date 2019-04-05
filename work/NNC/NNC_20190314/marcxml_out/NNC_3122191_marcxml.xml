@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190315s1907    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190404s1907    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -13,14 +13,20 @@
 		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Avicenna,</subfield>
 		<subfield code="d">980-1037.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Mabḥath ʻan al-ḳuwa al-nafsānīya ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Hadīyat al-Raʼīs Abī ʻAlī al-Ḥusayn ibn ʻAbd Allāh ibn Sīnā ahdāhā lil-Amīr Nūḥ ibn Manṣūr al-Sāmānī :</subfield>
+		<subfield code="b">wa haya mabḥath ʻan al-quwá al-nafsānīyah, aw, Kitāb fī al-nafs ʻalá sunnat al-ikhtiṣār wa-muqtaḍá ṭarīqat al-manṭiqiyīn /</subfield>
+		<subfield code="c">ʻuniya bi-ḍabṭuhā wa-taṣḥīḥuhā Idward ibn Kurnīlyūs Fandīk al-Amrīkānī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Maṭbaʻat al-Maʻārif,</subfield>
 		<subfield code="c">1325 A.H. [1907]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -58,12 +64,29 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Avicenna, 980-1037.</subfield>
-		<subfield code="t">Mabḥath ʻan al-ḳuwa al-nafsānīya</subfield>
+		<subfield code="t">Hadīyat al-Raʼīs Abī ʻAlī al-Ḥusayn ibn ʻAbd Allāh ibn Sīnā ahdāhā lil-Amīr Nūḥ ibn Manṣūr al-Sāmānī</subfield>
 		<subfield code="w">(NNC)3122191</subfield>
 		<subfield code="w">(OCoLC)48208427</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/2547dh16</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">إبن سينا،</subfield>
+		<subfield code="d">980-1037.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">هدية الرئيس أبي علي الحسين بن عبد الله بن سينا أهداها للأمير نوح بن منصور الساماني :</subfield>
+		<subfield code="b">وهي مبحث عن القوى النفسانية، أو، كتاب في النفس على سنة الاختصار و مقتضى طريقة المنطقيين /</subfield>
+		<subfield code="c">عني بضبطها و تصحيحها إدورد بن كرنيليوس فنديك الأميركاني.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مطبعة المعارف، </subfield>
+		<subfield code="c">1325 A.H. [1907]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -75,8 +98,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3122191</subfield>
-		<subfield code="o">(OCoLC)ocm48208427 </subfield>
+		<subfield code="o">(OCoLC)ocm48208427</subfield>
 		<subfield code="s">columbia_aco003463</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003463</subfield>
 	</datafield>
 </record>

@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190315s1964    xx      ob    000 0 ara  </controlfield>
+	<controlfield tag="008">190404s1964    xx      ob    000 0 ara  </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -25,9 +25,13 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">880-02</subfield>
-		<subfield code="a">Rāʼid al-mūsīqā al-ʻArabīyah.</subfield>
+		<subfield code="a">Rāʼid al-mūsīqā al-ʻArabīyah /</subfield>
+		<subfield code="c">taʼlīf ʻAbd al-Ḥamīd al-ʻAlwachī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Baghdād :</subfield>
+		<subfield code="b">Sharikat Dār al-Jumhūrīyah lil-Ṭibāʻah wa-al-Nashr,</subfield>
 		<subfield code="c">1964.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -46,7 +50,7 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="490">
-		<subfield code="6">880-03</subfield>
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Silsilat al-kutub al-ḥadīthah ;</subfield>
 		<subfield code="v">1</subfield>
 	</datafield>
@@ -83,9 +87,20 @@
 		<subfield code="2">fast</subfield>
 		<subfield code="0">(OCoLC)fst01423717</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="710">
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Iraq.</subfield>
+		<subfield code="b">Mudīrīyat al-Thaqāfah al-ʻĀmmah.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
+	</datafield>
+	<datafield ind1="2" ind2=" " tag="711">
+		<subfield code="6">880-06</subfield>
+		<subfield code="a">Muʼtamar al-Dawlī lil-Mūsīqá al-ʻArabīyah</subfield>
+		<subfield code="d">(1964 :</subfield>
+		<subfield code="c">Baghdad, Iraq)</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="730">
 		<subfield code="a">Arabic Collections Online.</subfield>
@@ -106,7 +121,7 @@
 		<subfield code="w">(OCoLC)23520676</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="6">880-04</subfield>
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Silsilat al-kutub al-ḥadīthah ;</subfield>
 		<subfield code="v">1.</subfield>
 	</datafield>
@@ -123,30 +138,30 @@
 		<subfield code="c">تأليف عبد الحميد العلوچي.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-00</subfield>
+		<subfield code="6">260-03</subfield>
 		<subfield code="a">بغداد :</subfield>
 		<subfield code="b">شركة دار الجمهرية للطباعة والنشر،</subfield>
 		<subfield code="c">1964.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">490-03</subfield>
+		<subfield code="6">490-04</subfield>
 		<subfield code="a">سلسلة الكتب الحديثة ؛</subfield>
 		<subfield code="v">1</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">710-00</subfield>
+		<subfield code="6">710-05</subfield>
 		<subfield code="a">عراق.</subfield>
 		<subfield code="b">مديرية الثقافة العامة.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="880">
-		<subfield code="6">711-00</subfield>
+		<subfield code="6">711-06</subfield>
 		<subfield code="a">مؤتمر الدولي للموسيقى العربية</subfield>
 		<subfield code="d">(1964 :</subfield>
 		<subfield code="c">بغداد، عراق)</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
-		<subfield code="6">830-04</subfield>
-		<subfield code="a">سلسلة الكتب الحديثة ؛ ;</subfield>
+		<subfield code="6">830-07</subfield>
+		<subfield code="a">سلسلة الكتب الحديثة ؛ </subfield>
 		<subfield code="v">1.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -159,8 +174,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_2614475</subfield>
-		<subfield code="o">(OCoLC)ocm23520676 </subfield>
+		<subfield code="o">(OCoLC)ocm23520676</subfield>
 		<subfield code="s">columbia_aco003642</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003642</subfield>
 	</datafield>
 </record>

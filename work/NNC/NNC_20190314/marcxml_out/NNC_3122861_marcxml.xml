@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190315q19071908xx      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190404q19071908xx      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -17,17 +17,25 @@
 		<subfield code="b">.D53 1907</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Dhahabī, Muḥammad ibn Aḥmad,</subfield>
 		<subfield code="d">1274-1348.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Kitāb mīzān al-iʻtidāl.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb mīzān al-iʻtidāl fī naqd al-rijāl :</subfield>
+		<subfield code="b">rijāl al-ḥadīth /</subfield>
+		<subfield code="c">taʼlīf Shams al-Dīn Abī ʻAbd Allāh Muḥammad ibn Aḥmad ibn ʻUthmān ibn Qāyimāz al-Dhahabī ; ʻuniya bi-taṣḥīḥihi Muḥammad Badr al-Dīn al-Naʻsānī.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
-		<subfield code="a">Mīzān al al-iʻtidāl</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Mīzān al-iʻtidāl</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="c">[1907 or 8]</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Maṭbaʻat al-Saʻādah,</subfield>
+		<subfield code="c">[1907 or 1908]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (3 volumes)</subfield>
@@ -81,12 +89,33 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Dhahabī, Muḥammad ibn Aḥmad, 1274-1348.</subfield>
-		<subfield code="t">Kitāb mīzān al-iʻtidāl</subfield>
+		<subfield code="t">Kitāb mīzān al-iʻtidāl fī naqd al-rijāl</subfield>
 		<subfield code="w">(NNC)3122861</subfield>
 		<subfield code="w">(OCoLC)23501159</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/h9w0w29w</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">ذهبي، محمد بن احمد،</subfield>
+		<subfield code="d">1274-1348.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">كتاب ميزان الاعتدال في نقد الرجال :</subfield>
+		<subfield code="b">رجال الحديث /</subfield>
+		<subfield code="c">تأليف شمس الدين ابي عبد الله محمد بن احمد بن عثمان بن قايماز الذهبي ؛ عني بتصحيحه محمد بدر الدين النعساني.</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">246-03</subfield>
+		<subfield code="a">ميزان الاعتدال</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مطبعة السعادة،</subfield>
+		<subfield code="c">[1907 or 1908]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -98,10 +127,13 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3122861</subfield>
-		<subfield code="o">(OCoLC)ocm23501159 </subfield>
+		<subfield code="o">(OCoLC)ocm23501159</subfield>
 		<subfield code="s">columbia_aco003552:v.1</subfield>
 		<subfield code="s">columbia_aco003553:v.2</subfield>
 		<subfield code="s">columbia_aco003554:v.3</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003552:v.1</subfield>
+		<subfield code="s">columbia_aco003553:v.2</subfield>
+		<subfield code="s">columbia_aco003554:v.3</subfield>
 	</datafield>
 </record>

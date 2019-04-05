@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190315s1882    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190404s1882    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -13,14 +13,19 @@
 		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ḥarīrī,</subfield>
 		<subfield code="d">1054-1122.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Sharḥ al-maqāmāt li-Ḥarīrī li-Abi al-ʻAbbās Aḥmad ibn ʻAbd al-Mumin al-Qaysī al-Sharīshī ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Sharḥ al-maqāmāt al-Ḥarīryah /</subfield>
+		<subfield code="c">li-Abī al-ʻAbbās Aḥmad ibn ʻAbd al-Mūʼmin al-Qaysī al-Sharīshī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Būlāq,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
+		<subfield code="b">al-Maṭbaʻah al-Kubrá al-Mīrīyah al-ʻĀmirah,</subfield>
 		<subfield code="c">1300 [A.D. 1882]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -49,6 +54,7 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Sharīshī, Aḥmad ibn ʻAbd al-Muʼmin,</subfield>
 		<subfield code="d">-1222 or 1223.</subfield>
 	</datafield>
@@ -62,12 +68,33 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Ḥarīrī, 1054-1122.</subfield>
-		<subfield code="t">Sharḥ al-maqāmāt li-Ḥarīrī li-Abi al-ʻAbbās Aḥmad ibn ʻAbd al-Mumin al-Qaysī al-Sharīshī</subfield>
+		<subfield code="t">Sharḥ al-maqāmāt al-Ḥarīryah</subfield>
 		<subfield code="w">(NNC)3071314</subfield>
 		<subfield code="w">(OCoLC)47813638</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/9zw3r98x</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">حريري،</subfield>
+		<subfield code="d">1054-1122.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">شرح المقامات الحريرية /</subfield>
+		<subfield code="c">لابي العباس احمد بن عبد المؤمن القيسي الشريشي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">المطبعة الكبرى الميرية العامرة، </subfield>
+		<subfield code="c">1300 [A.D. 1882]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-04</subfield>
+		<subfield code="a">شريشي، احمد بن عبد المؤمن،</subfield>
+		<subfield code="d">-1222 or 1223.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -79,8 +106,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3071314</subfield>
-		<subfield code="o">(OCoLC)ocm47813638 </subfield>
+		<subfield code="o">(OCoLC)ocm47813638</subfield>
 		<subfield code="s">columbia_aco003616</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003616</subfield>
 	</datafield>
 </record>
