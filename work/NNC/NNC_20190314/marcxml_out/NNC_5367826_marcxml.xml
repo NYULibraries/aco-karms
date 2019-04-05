@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190315s1966    iq      ob   f000 0 ara  </controlfield>
+	<controlfield tag="008">190404s1966    iq      ob   f000 0 ara  </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -49,7 +49,7 @@
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="6">880-04</subfield>
 		<subfield code="a">al-Silsilah al-thaqāfīyah ;</subfield>
 		<subfield code="v">13</subfield>
@@ -112,6 +112,11 @@
 		<subfield code="w">(DLC)ne 67001558 </subfield>
 		<subfield code="w">(OCoLC)12814213</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-05</subfield>
+		<subfield code="a">Silsilah al-thaqāfīyah ;</subfield>
+		<subfield code="v">13.</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/4qrfjfv4</subfield>
 	</datafield>
@@ -130,10 +135,15 @@
 		<subfield code="b">مديرية الفنون والثقافة الشعبية في وزارة الثقافة والارشاد،</subfield>
 		<subfield code="c">1966.</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
+	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">490-04</subfield>
 		<subfield code="a">السلسلة الثقافية ؛</subfield>
 		<subfield code="v">13</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">830-05</subfield>
+		<subfield code="a">سلسلة الثقافية ؛</subfield>
+		<subfield code="v">13.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -145,8 +155,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_5367826</subfield>
-		<subfield code="o">(OCoLC)ocm12814213 </subfield>
+		<subfield code="o">(OCoLC)ocm12814213</subfield>
 		<subfield code="s">columbia_aco004038</subfield>
 		<subfield code="e">(ERROR-SERIES)</subfield>
+		<subfield code="s">columbia_aco004038</subfield>
 	</datafield>
 </record>

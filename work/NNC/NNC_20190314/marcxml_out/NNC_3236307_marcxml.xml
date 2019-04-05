@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190315s1890    le      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190404s1890    le      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -13,14 +13,18 @@
 		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Badīʻ al-Zamān al-Hamadhānī,</subfield>
 		<subfield code="d">969-1008.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Kashf al-maʻānī wa-al-bayān ʻan rasʼ̄il Badīʻ al-Zamānal-Hamadhānī.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kashf al-maʻānī wa-al-bayān ʻan rasʼ̄il Badīʻ al-Zamāna.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Bayrut,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Bayrūt :</subfield>
+		<subfield code="b">Al-Maṭbaʻah al-Kāthūlīkīyah,</subfield>
 		<subfield code="c">1890.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -49,6 +53,7 @@
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Aḥdab, Ibrāhīm,</subfield>
 		<subfield code="d">1826-1891,</subfield>
 		<subfield code="e">editor.</subfield>
@@ -63,12 +68,33 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Badīʻ al-Zamān al-Hamadhānī, 969-1008.</subfield>
-		<subfield code="t">Kashf al-maʻānī wa-al-bayān ʻan rasʼ̄il Badīʻ al-Zamānal-Hamadhānī</subfield>
+		<subfield code="t">Kashf al-maʻānī wa-al-bayān ʻan rasʼ̄il Badīʻ al-Zamāna</subfield>
 		<subfield code="w">(NNC)3236307</subfield>
 		<subfield code="w">(OCoLC)83509470</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/n02v754h</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">بديع الزمان الهمذاني،</subfield>
+		<subfield code="d">969-1008.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">كشف المعاني والبيان عن رسئل بديع الزمان.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">بيروت :</subfield>
+		<subfield code="b">المطبعة الكاثوليكية،</subfield>
+		<subfield code="c">1890.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-04</subfield>
+		<subfield code="a">احدب، ابراهيم،</subfield>
+		<subfield code="d">1826-1891,</subfield>
+		<subfield code="e">editor.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -80,8 +106,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3236307</subfield>
-		<subfield code="o">(OCoLC)ocm83509470 </subfield>
+		<subfield code="o">(OCoLC)ocm83509470</subfield>
 		<subfield code="s">columbia_aco003477</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003477</subfield>
 	</datafield>
 </record>

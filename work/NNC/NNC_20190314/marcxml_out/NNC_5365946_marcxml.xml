@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190315s1939    ua a    ob    000 0 ara d</controlfield>
+	<controlfield tag="008">190404s1939    ua a    ob    000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -17,17 +17,22 @@
 		<subfield code="b">.M84 1939x</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">al-Rāzī, Abū Bakr Muḥammad ibn Zakarīyā,</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Rāzī, Abū Bakr Muḥammad ibn Zakarīyā,</subfield>
 		<subfield code="d">865?-925?</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Opera philosophica :</subfield>
-		<subfield code="b">fragmentaque quæ supersunt /</subfield>
-		<subfield code="c">Abi Bakr Mohammadi filii Zachariæ Raghensis (Razis) ; collegit et edidit Paulus Kraus.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Rasāʼil falsafīyah /</subfield>
+		<subfield code="c">li-Abū Bakr Muḥammad ibn Zakarīyā al-Rāzī. Maʻa qiṭaʻ baqiyat min kutubihī al-mafqūdah. Jamaʻahā wa-ṣaḥḥaḥahā B. Kirāws.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="5" tag="246">
+		<subfield code="a">Opera philosophica</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cahiræ :</subfield>
-		<subfield code="b">[publisher not identified],</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
+		<subfield code="b">Maṭbaʻat Bawl Bārbīh,</subfield>
 		<subfield code="c">1939.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -45,9 +50,6 @@
 	<datafield ind1=" " ind2=" " tag="338">
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
-		<subfield code="a">Universitatis Fouadi I Literarum Facultatis Publicationum, Fasc. XXII</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Original title page and text in Arabic.</subfield>
@@ -80,6 +82,7 @@
 		<subfield code="0">(OCoLC)fst01411636</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Kraus, Paul,</subfield>
 		<subfield code="d">1904-1944.</subfield>
 	</datafield>
@@ -92,13 +95,34 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">al-Rāzī, Abū Bakr Muḥammad ibn Zakarīyā, 865?-925?</subfield>
-		<subfield code="t">Opera philosophica</subfield>
+		<subfield code="a">Rāzī, Abū Bakr Muḥammad ibn Zakarīyā, 865?-925?</subfield>
+		<subfield code="t">Rasāʼil falsafīyah</subfield>
 		<subfield code="w">(NNC)5365946</subfield>
 		<subfield code="w">(OCoLC)4041535</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/w3r22h7s</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">رازي، ابو بكر محمد بن زكريا،</subfield>
+		<subfield code="d">865?-925?</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">رسائل فلسفية /</subfield>
+		<subfield code="c">لابو بكر محمد بن زكريا الرازي. مع قطع بقية من كتبه المفقودة. جمعها وصححها ب. كراوس.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">مطبعة بول باربيه،</subfield>
+		<subfield code="c">1939.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-04</subfield>
+		<subfield code="a">كراوس، پول،</subfield>
+		<subfield code="d">1904-1944.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -110,8 +134,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_5365946</subfield>
-		<subfield code="o">(OCoLC)ocm04041535 </subfield>
+		<subfield code="o">(OCoLC)ocm04041535</subfield>
 		<subfield code="s">columbia_aco004001</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-SERIES)</subfield>
+		<subfield code="s">columbia_aco004001</subfield>
 	</datafield>
 </record>

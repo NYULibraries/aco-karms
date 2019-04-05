@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190315s1875    xx      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190404s1875    xx      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -16,15 +16,19 @@
 		<subfield code="a">KRM534</subfield>
 		<subfield code="b">.A34 1875</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="100">
-		<subfield code="a">Amīn Hindīyah.</subfield>
+	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Hindīyah, Amīn. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Aḥkam al-sharʻīyah ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Aḥkām al-sharʻīyah fī al-aḥwāl al-shakhṣiyah.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[Bulak],</subfield>
-		<subfield code="c">[A.H. 1292 (A.D. 1875)]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Būlāq :</subfield>
+		<subfield code="b">al-Maṭbaʻah al-Suniyah, </subfield>
+		<subfield code="c">1292 [1875]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (12, 138 pages)</subfield>
@@ -46,6 +50,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="520">
 		<subfield code="a">Compilation of Hanafi personal status laws in Egypt.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Non-Latin script record</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
@@ -78,23 +85,27 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Amīn Hindīyah.</subfield>
-		<subfield code="t">al-Aḥkam al-sharʻīyah</subfield>
+		<subfield code="a">Hindīyah, Amīn.</subfield>
+		<subfield code="t">al-Aḥkām al-sharʻīyah fī al-aḥwāl al-shakhṣiyah</subfield>
 		<subfield code="w">(NNC)3238989</subfield>
 		<subfield code="w">(OCoLC)49396662</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/rbnzsgrf</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="0" tag="880">
-		<subfield code="6">245-00</subfield>
-		<subfield code="a">احكام الشرعية في الاحوال الشخصية على مذهب الامام ابي حنيفة النعمان.</subfield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">هندية، امين. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">الاحكام الشرعية في الاحوال الشخصية.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-00</subfield>
+		<subfield code="6">260-03</subfield>
 		<subfield code="a">بولاق :</subfield>
-		<subfield code="b">المطبعة السنية،</subfield>
-		<subfield code="c">1292</subfield>
+		<subfield code="b">المطبعة السنية، </subfield>
+		<subfield code="c">1292 [1875]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -106,8 +117,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3238989</subfield>
-		<subfield code="o">(OCoLC)ocm49396662 </subfield>
+		<subfield code="o">(OCoLC)ocm49396662</subfield>
 		<subfield code="s">columbia_aco003763</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003763</subfield>
 	</datafield>
 </record>
