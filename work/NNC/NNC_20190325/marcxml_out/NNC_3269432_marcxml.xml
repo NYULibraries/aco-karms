@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190409s1906    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190509s1906    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -13,14 +13,20 @@
 		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Suwaydī, ʻAbd al-Raḥmān ibn ʻAbd Allāh,</subfield>
-		<subfield code="d">1721 or 1722-1786.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Suwaydī, ʻAbd Allāh ibn Ḥusayn,</subfield>
+		<subfield code="d">1692 or 1693-1760 or 1761.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Maqāmat al-amthāl al-sāʼirah ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb Maqāmat al-Amthāl al-sāʼirah :</subfield>
+		<subfield code="b">hādhihi al-maqāmah al-musammāh bi-al-Amthāl al-sāʼirah al-mutaḍamminah lil-aḥwāl al-mūṣilah lil-maqāmāt al-ākhirah /</subfield>
+		<subfield code="c">athar Abī al-Barakāt Jamāl al-Dīn ʻAbd Allāh ibn Ḥusayn ibn Mrʻī ibn Nāṣir al-Dīn al-ʻAbbāsī al-Baghdādī al-shahīr bi-al-Suwaydī. Wa-fī dhaylihā Maqāmah / li-ʻAbd al-Raḥmān al-Anṣārī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Maṭbaʻat al-Nīl, </subfield>
 		<subfield code="c">1324 A.H. [1906]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -65,13 +71,30 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Suwaydī, ʻAbd al-Raḥmān ibn ʻAbd Allāh, 1721 or 1722-1786.</subfield>
-		<subfield code="t">Maqāmat al-amthāl al-sāʼirah</subfield>
+		<subfield code="a">Suwaydī, ʻAbd Allāh ibn Ḥusayn, 1692 or 1693-1760 or 1761.</subfield>
+		<subfield code="t">Kitāb Maqāmat al-Amthāl al-sāʼirah</subfield>
 		<subfield code="w">(NNC)3269432</subfield>
 		<subfield code="w">(OCoLC)84596556</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/9kd51mgp</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">سويدي، عبد الله بن حسين،</subfield>
+		<subfield code="d">1692 or 1693-1760 or 1761.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">كتاب مقامة الامثال السائرة :</subfield>
+		<subfield code="b">هذه المقامة المسماة بالامثال السائرة المتضمنة للاحوال الموصلة للمقامات الآخرة /</subfield>
+		<subfield code="c">اثر ابي البركات جمال الدين عبد الله بن حسين بن مرعي بن ناصر الدين العباسي البغدادي الشهير بالسويدي. وفي ذيلها مقامة / لعبد الرحمن الانصاري.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مطبعة النيل، </subfield>
+		<subfield code="c">1324 A.H. [1906]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -83,8 +106,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3269432</subfield>
-		<subfield code="o">(OCoLC)ocm84596556 </subfield>
+		<subfield code="o">(OCoLC)ocm84596556</subfield>
 		<subfield code="s">columbia_aco003736</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003736</subfield>
 	</datafield>
 </record>

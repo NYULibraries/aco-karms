@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190409s1849    le      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190509s1849    le      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -23,13 +23,16 @@
 		<subfield code="a">King, Jonas,</subfield>
 		<subfield code="d">1792-1869.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="0" tag="240">
 		<subfield code="6">880-01</subfield>
-		<subfield code="a">[Kitāb al-thalath ʻashrah risālah /</subfield>
+		<subfield code="a">Thalath ʻashrah risālah </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb al-thalath ʻashrah risālah /</subfield>
 		<subfield code="c">Yūnas Kīn].</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">880-02</subfield>
 		<subfield code="a">[Beirut] :</subfield>
 		<subfield code="b">[publisher not identified],</subfield>
 		<subfield code="c">1849.</subfield>
@@ -93,6 +96,10 @@
 		<subfield code="2">fast</subfield>
 		<subfield code="0">(OCoLC)fst01423917</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Abū Karam, Buṭrus.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -110,7 +117,7 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">King, Jonas, 1792-1869.</subfield>
-		<subfield code="t">[Kitāb al-thalath ʻashrah risālah</subfield>
+		<subfield code="t">Kitāb al-thalath ʻashrah risālah</subfield>
 		<subfield code="w">(NNC)3239562</subfield>
 		<subfield code="w">(OCoLC)32961087</subfield>
 	</datafield>
@@ -118,21 +125,15 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/k98sfh1s</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">240-00</subfield>
+		<subfield code="6">240-01</subfield>
 		<subfield code="a">ثلاث عشرة رسالة</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-01</subfield>
+		<subfield code="6">245-02</subfield>
 		<subfield code="a">كتاب الثلاث عشرة رسالة.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-02</subfield>
-		<subfield code="a">[بيروت :</subfield>
-		<subfield code="b">د.ن.]،</subfield>
-		<subfield code="c">1849.</subfield>
-	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-00</subfield>
+		<subfield code="6">700-03</subfield>
 		<subfield code="a">أبو كرم، بطرس.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -145,8 +146,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3239562</subfield>
-		<subfield code="o">(OCoLC)ocm32961087 </subfield>
+		<subfield code="o">(OCoLC)ocm32961087</subfield>
 		<subfield code="s">columbia_aco003614</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003614</subfield>
 	</datafield>
 </record>

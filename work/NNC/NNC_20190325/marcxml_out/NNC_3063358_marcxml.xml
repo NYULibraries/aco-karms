@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190409s1945    xx      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190509s1945    xx      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -17,12 +17,17 @@
 		<subfield code="b">M8 (Orien Arab)</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Mūsá, Muḥammad Yūsuf.</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Mūsá, Muḥammad Yūsuf. </subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Ibn Rudhs al-faylasūf.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Ibn Rushd al-faylasūf.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[al-Qāhirah] :</subfield>
+		<subfield code="b">Dār Iḥyāʼ al-Kutub al-ʻArabīyah,</subfield>
 		<subfield code="c">[1945]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -39,6 +44,11 @@
 	<datafield ind1=" " ind2=" " tag="338">
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Aʻlām al-Islām ;</subfield>
+		<subfield code="v">11</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Romanized.</subfield>
@@ -80,17 +90,42 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Mūsá, Muḥammad Yūsuf.</subfield>
-		<subfield code="t">Ibn Rudhs al-faylasūf</subfield>
+		<subfield code="t">Ibn Rushd al-faylasūf</subfield>
 		<subfield code="w">(NNC)3063358</subfield>
 		<subfield code="w">(DLC)ne 63001247 </subfield>
 		<subfield code="w">(OCoLC)23491541</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Aʻlām al-Islām ;</subfield>
 		<subfield code="v">11.</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/02v6x507</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">موسى، محمد يوسف. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">ابن رشد الفيلسوف.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">دار احياء الكتب العربية،</subfield>
+		<subfield code="c">[1945]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">490-04</subfield>
+		<subfield code="a">اعلام الاسلام ؛</subfield>
+		<subfield code="v">11</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">830-05</subfield>
+		<subfield code="a">اعلام الاسلام ؛</subfield>
+		<subfield code="v">11.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -102,8 +137,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3063358</subfield>
-		<subfield code="o">(OCoLC)ocm23491541 </subfield>
+		<subfield code="o">(OCoLC)ocm23491541</subfield>
 		<subfield code="s">columbia_aco003882</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003882</subfield>
 	</datafield>
 </record>

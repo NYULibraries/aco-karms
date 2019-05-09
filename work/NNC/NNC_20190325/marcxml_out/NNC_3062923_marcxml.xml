@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190409s1931    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190509s1931    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -23,14 +23,16 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">880-02</subfield>
-		<subfield code="a">Tajrīd al-tamhīd limā fī al-muwaṭṭaʼ min al-maʻānī wa-al-asānīd; aw, al-Taqaṣṣi,</subfield>
+		<subfield code="a">Tajrīd al-tamhīd limā fī al-muwaṭṭaʼ min al-maʻānī wa-al-asānīd; aw, al-Taqaṣṣi /</subfield>
 		<subfield code="c">li Abī ʻUmar Yūsuf ibn Abd al-Barr al-Namarī al-Andalusī.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2=" " tag="246">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Taqaṣṣī</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Qāhirah,</subfield>
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
 		<subfield code="b">Maktabat al-Qudsī,</subfield>
 		<subfield code="c">1931.</subfield>
 	</datafield>
@@ -51,6 +53,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">In Arabic characters.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Non-Latin script record</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Columbia University Libraries.</subfield>
@@ -101,15 +106,18 @@
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">245-02</subfield>
-		<subfield code="a">تجريد التمهبد لما في الموطأ من المعاني و الاساني :</subfield>
-		<subfield code="b">او التقصى لحديث الموطأ و شيوخ الامام مالك ... و ملحق في شروح بضعة احادبث من التمهيد /</subfield>
-		<subfield code="c">ابي عمر يوسف بن عبد البر النمري الاندلسي.</subfield>
+		<subfield code="a">تجريد التمهيد لما في الموطأ من المعاني و الاسانيد او التقصى /</subfield>
+		<subfield code="c">لأبي عمر يوسف بن عبد البر النمري الاندلسي.</subfield>
+	</datafield>
+	<datafield ind1="3" ind2=" " tag="880">
+		<subfield code="6">246-03</subfield>
+		<subfield code="a">تقصي</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-00</subfield>
-		<subfield code="a">القاهرة:</subfield>
-		<subfield code="b">مكتبة القدس،</subfield>
-		<subfield code="c">١٣٥٠ (١٩٣١)</subfield>
+		<subfield code="6">260-04</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">مكتبة القدسي،</subfield>
+		<subfield code="c">1931.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -121,8 +129,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3062923</subfield>
-		<subfield code="o">(OCoLC)ocm16772361 </subfield>
+		<subfield code="o">(OCoLC)ocm16772361</subfield>
 		<subfield code="s">columbia_aco003454</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003454</subfield>
 	</datafield>
 </record>

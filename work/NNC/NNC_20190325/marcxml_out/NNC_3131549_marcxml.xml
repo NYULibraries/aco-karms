@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190409m19089999ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190509m19089999ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -13,14 +13,20 @@
 		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Zaydān, Jirjī,</subfield>
 		<subfield code="d">1861-1914.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Kitāb al-ʻArab al-Islām.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb al-ʻArab qabla al-Islām :</subfield>
+		<subfield code="b">yabḥathu fī aṣl al-ʻArab wa-tārīkhihim wa-duwalihim wa-tamaddunihim wa-ādābihim wa-ʻādātihim min aqdam azmānihim ilá ẓuhūr al-Islām /</subfield>
+		<subfield code="c">taʼlīf Jirjī Zaydān.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Maṭbaʻat al-Hilāl,</subfield>
 		<subfield code="c">1908-</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -66,12 +72,29 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Zaydān, Jirjī, 1861-1914.</subfield>
-		<subfield code="t">Kitāb al-ʻArab al-Islām</subfield>
+		<subfield code="t">Kitāb al-ʻArab qabla al-Islām</subfield>
 		<subfield code="w">(NNC)3131549</subfield>
 		<subfield code="w">(OCoLC)48243970</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/dz08kz44</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">زيدان، جرجي،</subfield>
+		<subfield code="d">1861-1914.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">كتاب العرب قبل الاسلام :</subfield>
+		<subfield code="b">يبحث في اصل العرب وتاريخهم ودولهم وتمدنهم وآدابهم وعاداتهم من اقدم ازمانهم الى ظهور الاسلام /</subfield>
+		<subfield code="c">تأليف جرجى زيدان.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مطبعة الهلال،</subfield>
+		<subfield code="c">1908-</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -83,8 +106,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3131549</subfield>
-		<subfield code="o">(OCoLC)ocm48243970 </subfield>
+		<subfield code="o">(OCoLC)ocm48243970</subfield>
 		<subfield code="s">columbia_aco003709:pt.1</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003709:pt.1</subfield>
 	</datafield>
 </record>

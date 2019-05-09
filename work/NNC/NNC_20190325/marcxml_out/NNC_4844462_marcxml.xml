@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190409s1932    le      o     000 0 fre d</controlfield>
+	<controlfield tag="008">190509s1932    le      o     000 0 fre d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -13,17 +13,21 @@
 		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Averroës,</subfield>
 		<subfield code="d">1126-1198.</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Talkhīṣ Kitāb al-Maqūlāt</subfield>
+	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Talkhiq loitāb al-maqoūlāt.</subfield>
-		<subfield code="b">Texte arabe inédit publié avec une recension nouvelle du Kitāb al-maqoūlāt (Catégories) d'Aristote</subfield>
-		<subfield code="c">par Maurice Bouyges.</subfield>
+		<subfield code="a">Talkhiç kitab al-maqoulat /</subfield>
+		<subfield code="c">Averroès ; texte arabe inédit publié avec une recension nouvelle du Kitab al-maqoulat (Catégories) d'Aristote par Maurice Bouyges.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Beyrouth,</subfield>
-		<subfield code="b">Impr. catholique,</subfield>
+		<subfield code="a">Beyrouth :</subfield>
+		<subfield code="b">Imprimerie Catholique,</subfield>
 		<subfield code="c">1932.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -41,7 +45,7 @@
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="a">Bibliotheca arabica scholasticorum. Série arabe,</subfield>
 		<subfield code="v">t. 4</subfield>
 	</datafield>
@@ -92,12 +96,26 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Averroës, 1126-1198.</subfield>
-		<subfield code="t">Talkhiq loitāb al-maqoūlāt</subfield>
+		<subfield code="t">Talkhiç kitab al-maqoulat</subfield>
 		<subfield code="w">(NNC)4844462</subfield>
 		<subfield code="w">(OCoLC)23401474</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="a">Bibliotheca arabica scholasticorum.</subfield>
+		<subfield code="p">Série arabe ;</subfield>
+		<subfield code="v">t. 4.</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/05qfv2pv</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">‏ابن رشد،‏</subfield>
+		<subfield code="d">‏1126-1198</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">240-02</subfield>
+		<subfield code="a">تلخيص كتاب المقولات</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -109,8 +127,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_4844462</subfield>
-		<subfield code="o">(OCoLC)ocm23401474 </subfield>
+		<subfield code="o">(OCoLC)ocm23401474</subfield>
 		<subfield code="s">columbia_aco003865</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-SERIES)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003865</subfield>
 	</datafield>
 </record>

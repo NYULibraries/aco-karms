@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190409s193u    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190509s193u    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -13,6 +13,7 @@
 		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Būṣīrī, Sharaf al-Dīn Muḥammad ibn Saʻīd,</subfield>
 		<subfield code="d">1213?-1296?</subfield>
 	</datafield>
@@ -22,12 +23,15 @@
 		<subfield code="f">1930</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Matn al-Burdah;</subfield>
-		<subfield code="b">wa-al-Qasīdah al-Muḍarīyah wa-munājātuhā ; wa-al-Qaṣīdah al-Muḥammadīyah, lil-Būṣīrī. Wa-yalīhā: Takhmīs al-istighāthah al-mashhūrah litafrīj al-kurūb, lilsayyid Ibrāhīm al-Sanūsī.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Matn al-Burdah :</subfield>
+		<subfield code="b">wa-al-Qasīdah al-Muḍarīyah wa-munājātuhā ; wa-al-Qaṣīdah al-Muḥammadīyah /</subfield>
+		<subfield code="c">lil-Būṣīrī. Wa-yalīhā: Takhmīs al-istighāthah al-mashhūrah litafrīj al-kurūb, lilsayyid Ibrāhīm al-Sanūsī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[al-Qāhirah]</subfield>
-		<subfield code="b">Maṭb. al-Futūḥ</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[al-Qāhirah] :</subfield>
+		<subfield code="b">Maṭbʻat al-Futūḥ,</subfield>
 		<subfield code="c">[193-?]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -65,12 +69,29 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Būṣīrī, Sharaf al-Dīn Muḥammad ibn Saʻīd, 1213?-1296?</subfield>
-		<subfield code="t">Matn al-Burdah;</subfield>
+		<subfield code="t">Matn al-Burdah</subfield>
 		<subfield code="w">(NNC)3068416</subfield>
 		<subfield code="w">(OCoLC)47808942</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/5tb2rkxz</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">بوصيري، شرف الدين محمد بن سعيد،</subfield>
+		<subfield code="d">1213?-1296?</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">متن البردة :</subfield>
+		<subfield code="b">والقصيدة المضرية ومناجاتها ؛ والقصيدة المحمدية /</subfield>
+		<subfield code="c">للبوصيري. ويليها: تخميس الاستغاثة المشهورة لتفريج الكروب، للسيد ابراهيم السنوسي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">مطبعة الفتوح،</subfield>
+		<subfield code="c">[193؟]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -82,8 +103,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3068416</subfield>
-		<subfield code="o">(OCoLC)ocm47808942 </subfield>
+		<subfield code="o">(OCoLC)ocm47808942</subfield>
 		<subfield code="s">columbia_aco003475</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003475</subfield>
 	</datafield>
 </record>

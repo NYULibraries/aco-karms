@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190409s1930    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190509s1930    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -13,14 +13,17 @@
 		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Anṭākī, Dāʼūd ibn ʻUmar,</subfield>
 		<subfield code="d">-1599.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Tadhkirat uli al-albāb.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Tadhkirat ūlī al-albāb.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cario,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
 		<subfield code="b">Maṭbaʻah al-Azhariyah,</subfield>
 		<subfield code="c">1930.</subfield>
 	</datafield>
@@ -63,11 +66,6 @@
 		<subfield code="2">fast</subfield>
 		<subfield code="0">(OCoLC)fst01015186</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">Anṭākī, Dāʼūd ibn ʻUmar,</subfield>
-		<subfield code="d">-1599.</subfield>
-		<subfield code="t">Nuzhah a-mubahhajah fī tashḥīdh al-ʼadhhān wa-taʻdīlal-amzijah.</subfield>
-	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -78,12 +76,27 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Anṭākī, Dāʼūd ibn ʻUmar, -1599.</subfield>
-		<subfield code="t">Tadhkirat uli al-albāb</subfield>
+		<subfield code="t">Tadhkirat ūlī al-albāb</subfield>
 		<subfield code="w">(NNC)3072220</subfield>
 		<subfield code="w">(OCoLC)47828523</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/3ffbggpv</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">انطاكي، داؤود بن عمر،</subfield>
+		<subfield code="d">-1599.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">تذكرة اولي الالباب.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مطبعة الازهرية،</subfield>
+		<subfield code="c">1930.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -95,8 +108,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_3072220</subfield>
-		<subfield code="o">(OCoLC)ocm47828523 </subfield>
+		<subfield code="o">(OCoLC)ocm47828523</subfield>
 		<subfield code="s">columbia_aco003564:v.1</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">columbia_aco003564:v.1</subfield>
 	</datafield>
 </record>

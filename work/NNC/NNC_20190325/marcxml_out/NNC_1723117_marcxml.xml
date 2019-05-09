@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190409s1912    le      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190509s1912    le      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -17,17 +17,25 @@
 		<subfield code="b">.C5 v.65</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Agapius,</subfield>
-		<subfield code="c">Bp. of Hierapolis,</subfield>
+		<subfield code="c">Bishop of Hierapolis,</subfield>
 		<subfield code="d">active 10th century.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb al-ʻnwān :</subfield>
+		<subfield code="b">al-mukallal bi-faḍāʼil al-ḥikmah al-mutawwaj bi-anwāʻ al-falsafah al-mamdūḥ bi-ḥqāiq al-maʻrifah /</subfield>
+		<subfield code="c">li-Aghābiyus Bin Qusṭnṭīn al-Rūmī al-Manbijī.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="5" tag="246">
 		<subfield code="a">Agapius Episcopus Mabbugensis Historia universalis.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Beryti :</subfield>
-		<subfield code="b">E Typographeo Catholico,</subfield>
-		<subfield code="c">1912.</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Bayrūt :</subfield>
+		<subfield code="b">Maṭbaʻat al-Ābāʼ al-Yasūʻiyyn,</subfield>
+		<subfield code="c">1907.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (volumes)</subfield>
@@ -80,10 +88,6 @@
 		<subfield code="2">fast</subfield>
 		<subfield code="0">(OCoLC)fst01411636</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">Cheikho, Louis,</subfield>
-		<subfield code="d">1859-1927.</subfield>
-	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
 		<subfield code="b">Libraries.</subfield>
@@ -103,8 +107,8 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Agapius, Bp. of Hierapolis, active 10th century.</subfield>
-		<subfield code="t">Agapius Episcopus Mabbugensis Historia universalis</subfield>
+		<subfield code="a">Agapius, Bishop of Hierapolis, active 10th century.</subfield>
+		<subfield code="t">Kitāb al-ʻnwān</subfield>
 		<subfield code="w">(NNC)1723117</subfield>
 		<subfield code="w">(DLC)a  53005798 </subfield>
 		<subfield code="w">(OCoLC)25416375</subfield>
@@ -121,6 +125,22 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/ht76hp5n</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">اغابيوس بن قسطنطين الرومي المنبجي.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">كتاب العنوان :</subfield>
+		<subfield code="b">المكلل بفضائل الحكمة المتوج بانواع الفلسفة الممدوح بحقائق المعرفة /</subfield>
+		<subfield code="c">لاغابيوس بن قسطنطين الرومي المنبجي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">بيروت :</subfield>
+		<subfield code="b">مطبعة الاباء اليسوعيين،</subfield>
+		<subfield code="c">1907.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -131,8 +151,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_1723117</subfield>
-		<subfield code="o">(OCoLC)ocm25416375 </subfield>
+		<subfield code="o">(OCoLC)ocm25416375</subfield>
 		<subfield code="s">columbia_aco004110:v.10 (65)</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco004110:v.10 (65)</subfield>
 	</datafield>
 </record>
