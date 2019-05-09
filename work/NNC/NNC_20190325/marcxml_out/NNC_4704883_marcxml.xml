@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190409s1923    ae      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190509s1923    ae      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -24,18 +24,20 @@
 		<subfield code="b">P8 v.59</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">al-Jaznā'ī, Abū al-Hasan 'Alī,</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Jaznāʼī, Abū al-Ḥasan ʻAlī,</subfield>
 		<subfield code="d">active 14th century.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Zahrat el-âs</subfield>
-		<subfield code="b">(La fleur du myrte) traitant de la fondation de la ville de Fès,</subfield>
-		<subfield code="c">par Aboul-Hasan 'Ali el-Djaznâi. Texte Arabe et traduction annotée par Alfred Bel.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb Zahrat al-ās fī bināʼ madinat fās  /</subfield>
+		<subfield code="c">lil-imām al-ʻālim al-ʻallāmah Abī al-Ḥasan ʻAlī al-Jaznāʼī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Alger,</subfield>
-		<subfield code="b">J. Carbonel,</subfield>
-		<subfield code="c">1923.</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Jazāʼir :</subfield>
+		<subfield code="b">Maṭbaʻat Jūl Kārbūnīl,</subfield>
+		<subfield code="c">1922.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (196, 86 pages)</subfield>
@@ -108,8 +110,8 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">al-Jaznā'ī, Abū al-Hasan 'Alī, active 14th century.</subfield>
-		<subfield code="t">Zahrat el-âs</subfield>
+		<subfield code="a">Jaznāʼī, Abū al-Ḥasan ʻAlī, active 14th century.</subfield>
+		<subfield code="t">Kitāb Zahrat al-ās fī bināʼ madinat fās</subfield>
 		<subfield code="w">(NNC)4704883</subfield>
 		<subfield code="w">(OCoLC)7395142</subfield>
 	</datafield>
@@ -121,8 +123,20 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/34tmpqhr</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-00</subfield>
-		<subfield code="a">جزنائي، أبو الحسن علي.</subfield>
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">جزنائي، ابو الحسن علي،</subfield>
+		<subfield code="d">active 14th century.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">كتاب زهرة الاس في بناء مدنة فاس  /</subfield>
+		<subfield code="c">للامام العالم العلامة أبي الحسن علي الجزنائي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">الجزائر :</subfield>
+		<subfield code="b">مطبعة جول كاربونيل،</subfield>
+		<subfield code="c">1922.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -134,8 +148,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_4704883</subfield>
-		<subfield code="o">(OCoLC)ocm07395142 </subfield>
+		<subfield code="o">(OCoLC)ocm07395142</subfield>
 		<subfield code="s">columbia_aco004070</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco004070</subfield>
 	</datafield>
 </record>

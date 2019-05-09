@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190409s1953    tu h    o     000 0 ara  </controlfield>
+	<controlfield tag="008">190509s1953    tu h    o     000 0 ara  </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -25,13 +25,17 @@
 		<subfield code="a">Avicenna,</subfield>
 		<subfield code="d">980-1037.</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Rasāʼil</subfield>
+	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Rasāʼil Ibn Sīnā.</subfield>
+	</datafield>
+	<datafield ind1="3" ind2="0" tag="246">
 		<subfield code="a">Ibn Sina risâleleri.</subfield>
 		<subfield code="b">Les opuscules d'Ibn Sina. Publiés sous la direction de Hilmi Ziya Ülken.</subfield>
-	</datafield>
-	<datafield ind1="1" ind2="5" tag="246">
-		<subfield code="6">880-02</subfield>
-		<subfield code="a">Rasāʼil Ibn Sīnā</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
 		<subfield code="a">Ankara,</subfield>
@@ -83,7 +87,13 @@
 	<datafield ind1="0" ind2="0" tag="600">
 		<subfield code="a">Qusṭā ibn Lūqā,</subfield>
 		<subfield code="d">approximately 820-approximately 912.</subfield>
-		<subfield code="t">Kitāb ʼal-firaq bayna ʼal-rūḥ wa-ʼal-nafs.</subfield>
+		<subfield code="t">Kitāb ʼal-firaq bayna ʼal-rūḥ wa-ʼal-nafs. </subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="700">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Qusṭā ibn Lūqā,</subfield>
+		<subfield code="d">approximately 820-approximately 912.</subfield>
+		<subfield code="t">Kitāb al-firaq bayna al-rūḥ wa-al-nafs. </subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
@@ -112,7 +122,7 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Avicenna, 980-1037.</subfield>
-		<subfield code="t">Ibn Sina risâleleri</subfield>
+		<subfield code="t">Rasāʼil Ibn Sīnā</subfield>
 		<subfield code="w">(NNC)5366949</subfield>
 		<subfield code="w">(DLC)ne 62000491 </subfield>
 		<subfield code="w">(OCoLC)16771630</subfield>
@@ -128,20 +138,22 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
 		<subfield code="6">100-01</subfield>
-		<subfield code="a">ابن سينا.</subfield>
+		<subfield code="a">ابن سينا،</subfield>
+		<subfield code="d">980-1037.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">240-00</subfield>
+		<subfield code="6">240-02</subfield>
 		<subfield code="a">رسائل</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="5" tag="880">
-		<subfield code="6">246-02</subfield>
-		<subfield code="a">رسائل ابن سينا</subfield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-03</subfield>
+		<subfield code="a">رسائل ابن سينا. </subfield>
 	</datafield>
-	<datafield ind1="0" ind2="2" tag="880">
-		<subfield code="6">700-00</subfield>
-		<subfield code="a">قسطا بن لوقا.</subfield>
-		<subfield code="t">فرق بين الروح والنفس.</subfield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">700-04</subfield>
+		<subfield code="a">قسطا بن لوقا،</subfield>
+		<subfield code="d">approximately 820-approximately 912.</subfield>
+		<subfield code="t">كتاب الفرق بين الروح والنفس. </subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -153,8 +165,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_5366949</subfield>
-		<subfield code="o">(OCoLC)ocm16771630 </subfield>
+		<subfield code="o">(OCoLC)ocm16771630</subfield>
 		<subfield code="s">columbia_aco003814:v.1-3</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003814:v.1-3</subfield>
 	</datafield>
 </record>

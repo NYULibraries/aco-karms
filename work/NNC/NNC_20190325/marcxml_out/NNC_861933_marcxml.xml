@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190409s1908    ua      o     000 0 araod</controlfield>
+	<controlfield tag="008">190509s1908    ua      o     000 0 araod</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -30,11 +30,20 @@
 		<subfield code="a">Tisʻ rasāʼīl fī al-ḥikmah wa-al-ṭabīʻīyat /</subfield>
 		<subfield code="c">taʼlīf Abī ʻAlī al-Ḥusayn ibn ʻAbd Allāh Ibn Sīnā. wa-fī ākhirihā qiṣṣat Sulāmān wa-Absāl / tarjamahā min al-Yūnānī Hunayn ibn Ishāq.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="250">
+	<datafield ind1="3" ind2="0" tag="246">
 		<subfield code="6">880-03</subfield>
+		<subfield code="a">Rasāʼīl fī al-ḥikmah wa-al-ṭabīʻīyat </subfield>
+	</datafield>
+	<datafield ind1="3" ind2="0" tag="246">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Sulāmān wa-Absāl </subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="250">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">al-Ṭabʻah 1.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Miṣr</subfield>
 		<subfield code="b">Maṭbaʻah Hindīyah bi-al-Mūsiki,</subfield>
 		<subfield code="c">1908.</subfield>
@@ -86,8 +95,10 @@
 		<subfield code="2">fast</subfield>
 		<subfield code="0">(OCoLC)fst01411636</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">Ḥunayan ibn Isḥāq al-ʻIbādī, 809?-873.</subfield>
+	<datafield ind1="0" ind2=" " tag="700">
+		<subfield code="6">880-07</subfield>
+		<subfield code="a">Ḥunayn ibn Isḥāq al-ʻIbādī,</subfield>
+		<subfield code="d">809?-873.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Columbia University.</subfield>
@@ -108,7 +119,8 @@
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
 		<subfield code="6">100-01</subfield>
-		<subfield code="a">ابن سينا.</subfield>
+		<subfield code="a">ابن سينا،</subfield>
+		<subfield code="d">980-1037.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">245-02</subfield>
@@ -116,31 +128,26 @@
 		<subfield code="c">تأليف أبي علي الحسين بن عبد الله بن سينا. وفي آخرها قصة سلامان وأبسال / ترجمها من اليوناني حنين بن إسحاق.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="880">
-		<subfield code="6">246-00</subfield>
+		<subfield code="6">246-03</subfield>
 		<subfield code="a">رسائل في الحكمة والطبيعيات</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="880">
-		<subfield code="6">246-00</subfield>
+		<subfield code="6">246-04</subfield>
 		<subfield code="a">سلامان وأبسال</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">250-03</subfield>
+		<subfield code="6">250-05</subfield>
 		<subfield code="a">الطبعة ١.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-00</subfield>
+		<subfield code="6">260-06</subfield>
 		<subfield code="a">مصر :مطبعة هندية،</subfield>
 		<subfield code="c">١٣٢٦ [١٩٠٨]</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">264-00</subfield>
-		<subfield code="a">مصر :</subfield>
-		<subfield code="b">مطبعة هندية,</subfield>
-		<subfield code="c">١٣٢٦ [١٩٠٨]</subfield>
-	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">700-00</subfield>
-		<subfield code="a">حنين بن اسحاق العبادي.</subfield>
+		<subfield code="6">700-07</subfield>
+		<subfield code="a">حنين بن اسحاق العبادي، </subfield>
+		<subfield code="d">809?-873..</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -152,8 +159,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_861933</subfield>
-		<subfield code="o">(OCoLC)ocm16770752 </subfield>
+		<subfield code="o">(OCoLC)ocm16770752</subfield>
 		<subfield code="s">columbia_aco003654</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003654</subfield>
 	</datafield>
 </record>

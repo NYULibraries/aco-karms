@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190409s1923    xx      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190509s1923    xx      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -17,14 +17,20 @@
 		<subfield code="b">S85</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Sulaymān ibn Saḥmān,</subfield>
 		<subfield code="d">1849 or 1850-1930.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Hadīyah al-sanīyah.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Hadīyah al-sanīyah wa-al-tuḥfah al-Wahhābīyah al-Najdīyah /</subfield>
+		<subfield code="c">li-jamīʻ ikhwāninā al-muwaḥḥidīn ; taʼlīf Sulaymān ibn Saḥmān al-Najdī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="c">[1923 or 4]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr :</subfield>
+		<subfield code="b">Maṭbaʻat al-Manār,</subfield>
+		<subfield code="c">1342 [1923 or 1924]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (131 pages)</subfield>
@@ -69,12 +75,28 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Sulaymān ibn Saḥmān, 1849 or 1850-1930.</subfield>
-		<subfield code="t">al-Hadīyah al-sanīyah</subfield>
+		<subfield code="t">al-Hadīyah al-sanīyah wa-al-tuḥfah al-Wahhābīyah al-Najdīyah</subfield>
 		<subfield code="w">(NNC)2958374</subfield>
 		<subfield code="w">(OCoLC)505583713</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/fbg79n01</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">سليمان بن سحمان،</subfield>
+		<subfield code="d">1849 or 1850-1930.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">الهدية السنية والتحفة الوهابية النجدية /</subfield>
+		<subfield code="c">لجميع اخواننا الموحدين ؛ تأليف سليمان بن سحمان النجدي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">مصر :</subfield>
+		<subfield code="b">مطبعة المنار، </subfield>
+		<subfield code="c">1342 [1923 or 1924]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -89,5 +111,6 @@
 		<subfield code="o">(OCoLC)ocn505583713</subfield>
 		<subfield code="s">columbia_aco003911</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003911</subfield>
 	</datafield>
 </record>

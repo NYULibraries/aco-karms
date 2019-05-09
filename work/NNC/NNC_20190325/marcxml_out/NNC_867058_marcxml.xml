@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190409s1875    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190509s1875    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -17,15 +17,18 @@
 		<subfield code="b">H3</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Bājūrī, Ibrāhīm ibn Muḥammad,</subfield>
 		<subfield code="d">1783 or 1784-1860.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Ḥāshiyat al-shaykh Ibrāhīm al-Bājūrī ʻala Mukhtaṣar, al-shaykh Muḥammad al-Sanūsī fī fann al-manṭiq.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[al-Qāhirah]</subfield>
-		<subfield code="b">al-Maṭba ʻah al-Khayrīyah</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[al-Qāhirah] :</subfield>
+		<subfield code="b">al-Maṭba ʻah al-Khayrīyah,</subfield>
 		<subfield code="c">[1292 h., 1875 m.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -73,6 +76,21 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/k0p2nqs3</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">باجوري، ابراهيم بن محمد،</subfield>
+		<subfield code="d">1783 or 1784-1860.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">حاشية الشيخ ابراهيم الباجوري عل مختصر، الشيخ محمد السنوسي في فن المنطق.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">المطبعة الخيرية،</subfield>
+		<subfield code="c">[1292 ه.، 1875 م.]</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -83,8 +101,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_867058</subfield>
-		<subfield code="o">(OCoLC)ocm20458429 </subfield>
+		<subfield code="o">(OCoLC)ocm20458429</subfield>
 		<subfield code="s">columbia_aco004064</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco004064</subfield>
 	</datafield>
 </record>

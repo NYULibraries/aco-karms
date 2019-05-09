@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190409s1900    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190509s1900    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -17,6 +17,7 @@
 		<subfield code="b">M33</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Makkūdī, ʻAbd al-Raḥmān ibn ʻAlī,</subfield>
 		<subfield code="d">-1404 or 1405.</subfield>
 	</datafield>
@@ -24,11 +25,12 @@
 		<subfield code="a">Sharḥ ʻalā Alfīyat Ibn Mālik</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Sharh ...</subfield>
-		<subfield code="c">Abī Zayd ʻAbd al-Rahmān ibn ʻAlī ibn Ṣāliḥ al-Makkūdī ʻalā Alfīyat Ibn Mālik fī alnaḥw. Wabihāmishihī Ḥāshiyat al-Mollawī.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Sharḥ al-ʻallāmah al-naḥwī al-muqrī al-lughawī Abī Zayd ʻAbd al-Raḥmān ibn ʻAlī ibn Ṣāliḥ al-Makkūdī ʻalá al-Alfīyat Ibn Mālik fī al-naḥw. Wa-bi-hāmishihi Ḥāshiyat al-ʻallāmah al-Mullawī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[al-Qāhirah]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Miṣr  :</subfield>
 		<subfield code="b">al-Maṭba ʻah al-Azharīyah al-Miṣrīyah,</subfield>
 		<subfield code="c">1318 [1900]</subfield>
 	</datafield>
@@ -88,12 +90,27 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Makkūdī, ʻAbd al-Raḥmān ibn ʻAlī, -1404 or 1405.</subfield>
-		<subfield code="t">Sharh</subfield>
+		<subfield code="t">Sharḥ al-ʻallāmah al-naḥwī al-muqrī al-lughawī Abī Zayd ʻAbd al-Raḥmān ibn ʻAlī ibn Ṣāliḥ al-Makkūdī ʻalá al-Alfīyat Ibn Mālik fī al-naḥw. Wa-bi-hāmishihi Ḥāshiyat al-ʻallāmah al-Mullawī</subfield>
 		<subfield code="w">(NNC)2983822</subfield>
 		<subfield code="w">(OCoLC)46322236</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/rjdfnbfc</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">مكودي، عبد الرحمن بن علي، </subfield>
+		<subfield code="d">-1404 or 1405.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">شرح العلامة النحوي المقري اللغوي ابي زيد عبد الرحمن بن علي بن صالح المكودي على الفية ابن مالك. وبهامشه حاشية العلامة الملوي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">مصر  :</subfield>
+		<subfield code="b">المطبعة الازهرية المصرية،</subfield>
+		<subfield code="c">1318 [1900]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -105,8 +122,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_2983822</subfield>
-		<subfield code="o">(OCoLC)ocm46322236 </subfield>
+		<subfield code="o">(OCoLC)ocm46322236</subfield>
 		<subfield code="s">columbia_aco003678</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003678</subfield>
 	</datafield>
 </record>

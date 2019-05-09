@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190409s1911    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="008">190509s1911    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -17,14 +17,20 @@
 		<subfield code="b">A33</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Kushājim, Abu al-Fatḥ Maḥmūd ibn al-Ḥusayn,</subfield>
 		<subfield code="d">-962.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Adab al-nudamāʼ wa laṭāʼif al-ẓurafāʼ ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb Adab al-nudamāʼ wa-laṭāʼif al-ẓurafāʼ :</subfield>
+		<subfield code="b">wa-yalīhi sharḥ wa-tashṭīr qaṣīdat Abī Firās al-Ḥamdānī /</subfield>
+		<subfield code="c">taʼlīf Abī al-Fatḥ Maḥmūd ibn Kushājim.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[Alexandria]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Iskandarīyah :</subfield>
+		<subfield code="b">Maṭbaʻat Jurjī Gharzūzī,</subfield>
 		<subfield code="c">1329 [1911]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -58,7 +64,11 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Contains also the amplification of an ode by Abu Firās.</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Non-Latin script record</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Abū Firās al-Ḥamdānī, al-Ḥārith ibn Saʻīd,</subfield>
 		<subfield code="d">932-968.</subfield>
 	</datafield>
@@ -72,12 +82,34 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Kushājim, Abu al-Fatḥ Maḥmūd ibn al-Ḥusayn, -962.</subfield>
-		<subfield code="t">Adab al-nudamāʼ wa laṭāʼif al-ẓurafāʼ</subfield>
+		<subfield code="t">Kitāb Adab al-nudamāʼ wa-laṭāʼif al-ẓurafāʼ</subfield>
 		<subfield code="w">(NNC)2981762</subfield>
 		<subfield code="w">(OCoLC)42873444</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/p2ngf990</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">كشاجم، ابي الفتح محمود بن الحسين،</subfield>
+		<subfield code="d">-962.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">كتاب ادب الندماء ولطائف الظرفاء :</subfield>
+		<subfield code="b">ويليه شرح وتشطير قصيدة ابي فراس الحمداني /</subfield>
+		<subfield code="c">تأليف ابي الفتح محمود بن كشاجم.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">الاسكندرية :</subfield>
+		<subfield code="b">مطبعة جرجي غرزوزي،</subfield>
+		<subfield code="c">1329 [1911]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-04</subfield>
+		<subfield code="a">ابو فراس الحمداني، الحارث بن سعيد،</subfield>
+		<subfield code="d">932-968.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -89,8 +121,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_2981762</subfield>
-		<subfield code="o">(OCoLC)ocm42873444 </subfield>
+		<subfield code="o">(OCoLC)ocm42873444</subfield>
 		<subfield code="s">columbia_aco003985</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco003985</subfield>
 	</datafield>
 </record>
