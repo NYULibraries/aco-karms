@@ -1,74 +1,90 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-   <marc:record type="Bibliographic">
-      <marc:leader>02145cam a2200241 a 4500</marc:leader>
-      <marc:controlfield tag="001">894590</marc:controlfield>
-      <marc:controlfield tag="003">NjP</marc:controlfield>
-      <marc:controlfield tag="005">20161026165350.0</marc:controlfield>
-      <marc:controlfield tag="008">940621m19879999ir       i    000 0 ara d</marc:controlfield>
-      <marc:datafield tag="024" ind1="7" ind2=" ">
-         <marc:subfield code="a">princeton_aco001336</marc:subfield>
-         <marc:subfield code="2">local</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="035" ind1=" " ind2=" ">
-         <marc:subfield code="a">(OCoLC)30704343</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="035" ind1=" " ind2=" ">
-         <marc:subfield code="a">(CStRLIN)NJPG94-B35800</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="035" ind1=" " ind2=" ">
-         <marc:subfield code="9">CBE8992TS</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="040" ind1=" " ind2=" ">
-         <marc:subfield code="a">NjP</marc:subfield>
-         <marc:subfield code="c">NjP</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="245" ind1="0" ind2="0">
-         <marc:subfield code="a">Fihris aḥādīth Ahl al-Bayt ʻalayhim al-salām /</marc:subfield>
-         <marc:subfield code="c">iʻdād Majmaʻ al-Buḥūth al-Islāmīyah.</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="250" ind1=" " ind2=" ">
-         <marc:subfield code="a">al-Ṭabʻah 1.</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="260" ind1=" " ind2=" ">
-         <marc:subfield code="a">Mashhad, Īrān :</marc:subfield>
-         <marc:subfield code="b">Majmaʻ al-Buḥūth al-Islāmīyah,</marc:subfield>
-         <marc:subfield code="c">1408- [1987 or 1988- ]</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="300" ind1=" " ind2=" ">
-         <marc:subfield code="a">v. ;</marc:subfield>
-         <marc:subfield code="c">21 x 26 cm.</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="500" ind1=" " ind2=" ">
-         <marc:subfield code="a">Cover title.</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="505" ind1="1" ind2=" ">
-         <marc:subfield code="a">al-juzʾ 1. al-Āmālī / lil-Shaykh al-Ṣadūq -- al-juzʾ 2. ʻIlal al-sharāyiʻ / lil-Shaykh al-Ṣadūq -- al-juzʾ 3. Kitāb al-khiṣāl / lil-Shaykh al-Ṣadūq -- al-juzʾ 4. Kamāl al-Dīn / lil-Shaykh al-Ṣadūq -- al-juzʾ 5. ʻUyūn akhbār al-Riḍā / lil-Shaykh al-Ṣadūq -- al-juzʾ 6. al-Tawḥīd / lil-Shaykh al-Ṣadūq -- al-juzʾ 7. Maʻānī al-akhbār / lil-Shaykh al-Ṣadūq -- al-juzʾ 8. Man lā yaḥḍaruhu al-faqīh / lil-Shaykh al-Ṣadūq -- al-juzʾ 9. Thawāb al-aʻmāl wa-ʻiqāb al-aʻmāl / lil-Shaykh al-Ṣadūq -- al-juzʾ 10-14. al-Mawāʻiẓ-Muṣādaqat al-ikhwān-Faḍāʾil al-shīʻah-Ṣifāt al-shīʻah-Faḍāʾil al-ashhur al-thalāthah / lil-Shaykh al-Ṣadūq -- al-juzʾ 15. al-Muqniʻ wa-al-hidāyah / lil-Shaykh al-Ṣadūq -- al-juzʾ 16. al-Ūṣūl min al-Kāfī / lil-Kulaynī al-Rāzī -- al-juzʾ 18. al-Rawḍah min al-Kāfī / lil-Kulaynī al-Rāzī -- al-juzʾ 19-21. al-Āmālī-al-Irshād-al-Ikhtiṣāṣ / lil-Shaykh al-Mufīd -- al-juzʾ 22. al-Istibṣār / lil-Shaykh al-Ṭūsī -- al-juzʾ 24-25. al-Āmālī-al-Ghaybah / lil-Shaykh al-Ṭūsī -- al-juzʾ 27. al-Furūʻ min al-Kāfī / lil-Kulaynī al-Rāzī.</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="650" ind1=" " ind2="0">
-         <marc:subfield code="a">Hadith (Shiites)</marc:subfield>
-         <marc:subfield code="x">Indexes.</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="710" ind1="2" ind2=" ">
-         <marc:subfield code="a">Majmaʻ al-Buḥūth al-Islāmīyah.</marc:subfield>
-         <marc:subfield code="0">(uri)http://id.loc.gov/authorities/names/n50042169</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="998" ind1=" " ind2=" ">
-         <marc:subfield code="a">07/12/94</marc:subfield>
-         <marc:subfield code="s">9114</marc:subfield>
-         <marc:subfield code="n">NjP</marc:subfield>
-         <marc:subfield code="w">NJPG94B35800</marc:subfield>
-         <marc:subfield code="d">06/21/94</marc:subfield>
-         <marc:subfield code="c">KC</marc:subfield>
-         <marc:subfield code="b">MTL</marc:subfield>
-         <marc:subfield code="i">940712</marc:subfield>
-         <marc:subfield code="l">NJPG</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="911" ind1=" " ind2=" ">
-         <marc:subfield code="a">19940723</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="912" ind1=" " ind2=" ">
-         <marc:subfield code="a">19961105041344.0</marc:subfield>
-      </marc:datafield>
-   </marc:record>
-</marc:collection>
+<?xml version='1.0' encoding='UTF-8'?>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader>02163cam a2200253 a 4500</leader>
+  <controlfield tag="001">894590</controlfield>
+  <controlfield tag="003">NjP</controlfield>
+  <controlfield tag="005">20170905105013.0</controlfield>
+  <controlfield tag="008">940621m19879999ir       i    000 0 ara d</controlfield>
+  <datafield tag="024" ind1="7" ind2=" ">
+    <subfield code="a">princeton_aco001437</subfield>
+    <subfield code="2">local</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(OCoLC)30704343</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">(CStRLIN)NJPG94-B35800</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="9">CBE8992TS</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="035">
+    <subfield code="a">894590</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="040">
+    <subfield code="a">NjP</subfield>
+    <subfield code="c">NjP</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="0" tag="245">
+    <subfield code="a">Fihris aḥādīth Ahl al-Bayt ʻalayhim al-salām /</subfield>
+    <subfield code="c">iʻdād Majmaʻ al-Buḥūth al-Islāmīyah.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="250">
+    <subfield code="a">al-Ṭabʻah 1.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="260">
+    <subfield code="a">Mashhad, Īrān :</subfield>
+    <subfield code="b">Majmaʻ al-Buḥūth al-Islāmīyah,</subfield>
+    <subfield code="c">1408- [1987 or 1988- ]</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="300">
+    <subfield code="a">v. ;</subfield>
+    <subfield code="c">21 x 26 cm.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="500">
+    <subfield code="a">Cover title.</subfield>
+  </datafield>
+  <datafield ind1="1" ind2=" " tag="505">
+    <subfield code="a">al-juzʾ 1. al-Āmālī / lil-Shaykh al-Ṣadūq -- al-juzʾ 2. ʻIlal al-sharāyiʻ / lil-Shaykh al-Ṣadūq -- al-juzʾ 3. Kitāb al-khiṣāl / lil-Shaykh al-Ṣadūq -- al-juzʾ 4. Kamāl al-Dīn / lil-Shaykh al-Ṣadūq -- al-juzʾ 5. ʻUyūn akhbār al-Riḍā / lil-Shaykh al-Ṣadūq -- al-juzʾ 6. al-Tawḥīd / lil-Shaykh al-Ṣadūq -- al-juzʾ 7. Maʻānī al-akhbār / lil-Shaykh al-Ṣadūq -- al-juzʾ 8. Man lā yaḥḍaruhu al-faqīh / lil-Shaykh al-Ṣadūq -- al-juzʾ 9. Thawāb al-aʻmāl wa-ʻiqāb al-aʻmāl / lil-Shaykh al-Ṣadūq -- al-juzʾ 10-14. al-Mawāʻiẓ-Muṣādaqat al-ikhwān-Faḍāʾil al-shīʻah-Ṣifāt al-shīʻah-Faḍāʾil al-ashhur al-thalāthah / lil-Shaykh al-Ṣadūq -- al-juzʾ 15. al-Muqniʻ wa-al-hidāyah / lil-Shaykh al-Ṣadūq -- al-juzʾ 16. al-Ūṣūl min al-Kāfī / lil-Kulaynī al-Rāzī -- al-juzʾ 18. al-Rawḍah min al-Kāfī / lil-Kulaynī al-Rāzī -- al-juzʾ 19-21. al-Āmālī-al-Irshād-al-Ikhtiṣāṣ / lil-Shaykh al-Mufīd -- al-juzʾ 22. al-Istibṣār / lil-Shaykh al-Ṭūsī -- al-juzʾ 24-25. al-Āmālī-al-Ghaybah / lil-Shaykh al-Ṭūsī -- al-juzʾ 27. al-Furūʻ min al-Kāfī / lil-Kulaynī al-Rāzī.</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="650">
+    <subfield code="a">Hadith (Shiites)</subfield>
+    <subfield code="x">Indexes.</subfield>
+  </datafield>
+  <datafield ind1="2" ind2=" " tag="710">
+    <subfield code="a">Majmaʻ al-Buḥūth al-Islāmīyah.</subfield>
+    <subfield code="0">http://id.loc.gov/authorities/names/n50042169</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="998">
+    <subfield code="a">07/12/94</subfield>
+    <subfield code="s">9114</subfield>
+    <subfield code="n">NjP</subfield>
+    <subfield code="w">NJPG94B35800</subfield>
+    <subfield code="d">06/21/94</subfield>
+    <subfield code="c">KC</subfield>
+    <subfield code="b">MTL</subfield>
+    <subfield code="i">940712</subfield>
+    <subfield code="l">NJPG</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="911">
+    <subfield code="a">19940723</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="912">
+    <subfield code="a">19961105041344.0</subfield>
+  </datafield>
+  <datafield ind1="0" ind2="1" tag="852">
+    <subfield code="0">1024330</subfield>
+    <subfield code="b">nec</subfield>
+    <subfield code="t">1</subfield>
+    <subfield code="h">BP193.27</subfield>
+    <subfield code="i">.F537 1987</subfield>
+  </datafield>
+  <datafield ind1=" " ind2="0" tag="866">
+    <subfield code="0">1024330</subfield>
+    <subfield code="6">0</subfield>
+    <subfield code="a">juzʼ 1-16, 18-22, 24-25, 27</subfield>
+  </datafield>
+  <datafield ind1=" " ind2=" " tag="959">
+    <subfield code="a">2000-06-13 00:00:00 -0400</subfield>
+  </datafield>
+</record>
