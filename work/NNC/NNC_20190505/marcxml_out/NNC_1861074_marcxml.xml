@@ -5,7 +5,7 @@
 	<controlfield tag="003">NNC</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190517r19261962iq fh   o     000 0 arard</controlfield>
+	<controlfield tag="008">190605r19261962iq fh   o     000 0 arard</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -26,15 +26,17 @@
 		<subfield code="d">active 813-846.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="240">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Ṣūrat al-arḍ.</subfield>
 		<subfield code="f">1970</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Kitāb ṣūrat al-arḍ min al-mudun wa-jibāl wa-al-biḥar wa-al-jazāʼir wa-al-anhār istakhrajahu Abū Jaʻfar Muḥammad ibn Mūsá al-Khuwārizmī min kitāb jughrāfiyā alladhī allafahu bi-Ṭulumiyūs al-Qulūdhī /</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Kitāb ṣūrat al-arḍ min al-mudun wa-al-jibāl wa-al-biḥar wa-al-jazāʼir wa-al-anhār istakhrajahu Abū Jaʻfar Muḥammad ibn Mūsá al-Khuwārizmī min kitāb jughrāfiyā alladhī allafahu bi-Ṭulumiyūs al-Qulūdhī /</subfield>
 		<subfield code="c">wa-qad iʻtaná bi-naskhihi wa-taṣḥīḥihi Hāns fūn Mzhīk.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">880-02</subfield>
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Baghdād :</subfield>
 		<subfield code="b">[publisher not identified],</subfield>
 		<subfield code="c">1962.</subfield>
@@ -93,7 +95,7 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Khuwārizmī, Muḥammad ibn Mūsá, active 813-846.</subfield>
-		<subfield code="t">Kitāb ṣūrat al-arḍ min al-mudun wa-jibāl wa-al-biḥar wa-al-jazāʼir wa-al-anhār istakhrajahu Abū Jaʻfar Muḥammad ibn Mūsá al-Khuwārizmī min kitāb jughrāfiyā alladhī allafahu bi-Ṭulumiyūs al-Qulūdhī</subfield>
+		<subfield code="t">Kitāb ṣūrat al-arḍ min al-mudun wa-al-jibāl wa-al-biḥar wa-al-jazāʼir wa-al-anhār istakhrajahu Abū Jaʻfar Muḥammad ibn Mūsá al-Khuwārizmī min kitāb jughrāfiyā alladhī allafahu bi-Ṭulumiyūs al-Qulūdhī</subfield>
 		<subfield code="w">(NNC)1861074</subfield>
 		<subfield code="w">(OCoLC)36264423</subfield>
 	</datafield>
@@ -106,10 +108,21 @@
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01</subfield>
-		<subfield code="a">خوارزمي، محمد بن موسى.</subfield>
+		<subfield code="a">خوارزمي، محمد بن موسى،</subfield>
+		<subfield code="d">active 813-846.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">240-02</subfield>
+		<subfield code="a">صورة الارض.</subfield>
+		<subfield code="f">1970</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-03</subfield>
+		<subfield code="a">كتاب صورة الارض من المدن والجبال والبحر والجزائر والانهار استخرجه ابو جعفر محمد بن موسى الخوارزمي من كتاب جغرافيا الذي الفه بطلميوس القلوذي /</subfield>
+		<subfield code="c">وقد اعتنى بنسخه وتصحيحه هانس فون مچيك.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-02</subfield>
+		<subfield code="6">260-04</subfield>
 		<subfield code="a">بغداد :</subfield>
 		<subfield code="b">د.ن.،</subfield>
 		<subfield code="c">1962.</subfield>
@@ -124,8 +137,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NNC_1861074</subfield>
-		<subfield code="o">(OCoLC)ocm36264423 </subfield>
+		<subfield code="o">(OCoLC)ocm36264423</subfield>
 		<subfield code="s">columbia_aco004109</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">columbia_aco004109</subfield>
 	</datafield>
 </record>
