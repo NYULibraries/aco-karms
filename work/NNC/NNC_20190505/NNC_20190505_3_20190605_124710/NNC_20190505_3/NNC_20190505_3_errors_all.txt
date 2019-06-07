@@ -1,123 +1,104 @@
-Total records processed - batch NNC_20190505: 61 records
-Report produced: 2019-06-07 12:57:33.942824
-Input File (updates): 27
-Input File (final subset): 34
-
-Records where OCLC nums did not match: 0
-Total records containing any type of error for this round: 27 (44.3%)
-Total records passing to final version for this round: 34 (55.7%)
------------------------
-Records containing 880 script fields: 27 (44.3%)
-Records with NO 880 script fields: 0 (0.0%)
-Records missing key 880 script fields: 11 (18.0%)
-Records containing unlinked 880 script fields: 0 (0.0%)
-Records containing series errors in 490/800/810/811/830 fields: 0 (0.0%)
-Records containing miscellaneous errors: 21 (34.4%)
-Records containing bad encoding replacement character: 0
-Records containing RDA fields: 61 (100.0%)
-Records with NO 050 or 090 call number fields: 21 (34.4%)
+ALL Records containing any type of error - batch NNC_20190505
+--  Each of these records have one or more of the following errors:
+    --  no 880 fields
+    --  missing a key 880 field
+    --  have an unlinked 880 field
+    --  have a series heading error in the 490/800/810/811/830 fields
+    --  have one of the various miscellaneous errors, marked with ERROR-MISC
+    --  missing a call number - no 050 or 090 field
+Report produced: 2019-06-05 11:58:02.295653
 ---------------------------------------------------------------------
-INDIVIDUAL RECORDS ANALYSIS:
+FILE: NNC_20190505_3/NNC_20190505_3_updates.mrc
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm46331793 
-   oclc_rec_035_num: (OCoLC)46331793
-Institution ID: NNC_2986161
-Record 999:  NNC_2986161 (OCoLC)ocm46331793 columbia_aco003695
+OCLC ID: (OCoLC)ocm79416266 
+   oclc_rec_035_num: (OCoLC)79416266
+   oclc_rec_035_num: (OCoLC)48196218
+Institution ID: NNC_3121177
+Record 999:  NNC_3121177 (OCoLC)ocm79416266 columbia_aco004035
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Added t.-p. in English: Yousif Issidien's poetry: its form and contents, by Abdallah Darwish. Badhdad, 1967
+   260 - [Ṭihrān] : [publisher not identified], 1283 [1866]
 040 $e field: [none]
 RDA fields: YES
-050 call number: PJ7838.Z9 D3
-Source entities (book IDs): columbia_aco003695
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco004035
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn234383923
-   oclc_rec_035_num: (OCoLC)234383923
-Institution ID: NNC_4825523
-Record 999:  NNC_4825523 (OCoLC)ocn234383923 columbia_aco003789:v.1
+OCLC ID: (OCoLC)ocm45063722 
+   oclc_rec_035_num: (OCoLC)45063722
+Institution ID: NNC_2678063
+Record 999:  NNC_2678063 (OCoLC)ocm45063722 columbia_aco003650
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 ERROR-MISC: No 050 or 090 call number
-Source entities (book IDs): columbia_aco003789:v.1
+Source entities (book IDs): columbia_aco003650
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm22379950 
-   oclc_rec_035_num: (OCoLC)22379950
-   oclc_rec_035_num: (OCoLC)150425810
-Institution ID: NNC_2760974
-Record 999:  NNC_2760974 (OCoLC)ocm22379950 columbia_aco003927
+OCLC ID: (OCoLC)ocm41217950 
+   oclc_rec_035_num: (OCoLC)41217950
+Institution ID: NNC_2598233
+Record 999:  NNC_2598233 (OCoLC)ocm41217950 columbia_aco003994
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Kuwait, past & present
-   246 - Kuwait, past and present
+   246 - Bibliography of Baghdad, compiled by Gurgis ʻAwad [and] Abdul-Hameed al-ʻAlouchi
 040 $e field: [none]
 RDA fields: YES
-050 call number: DS247.K85 M33
-Source entities (book IDs): columbia_aco003927
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003994
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60601364 
-   oclc_rec_035_num: (OCoLC)60601364
-Institution ID: NNC_650479
-Record 999:  NNC_650479 (OCoLC)ocm60601364 columbia_aco003672
+OCLC ID: (OCoLC)ocm45079105 
+   oclc_rec_035_num: (OCoLC)45079105
+Institution ID: NNC_2684640
+Record 999:  NNC_2684640 (OCoLC)ocm45079105 columbia_aco003649
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 ERROR-MISC: No 050 or 090 call number
-Source entities (book IDs): columbia_aco003672
+Source entities (book IDs): columbia_aco003649
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn506311779
-   oclc_rec_035_num: (OCoLC)506311779
-Institution ID: NNC_647511
-Record 999:  NNC_647511 (OCoLC)ocn506311779 columbia_aco003533
+OCLC ID: (OCoLC)ocm49635523 
+   oclc_rec_035_num: (OCoLC)49635523
+Institution ID: NNC_3266835
+Record 999:  NNC_3266835 (OCoLC)ocm49635523 columbia_aco004027
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 ERROR-MISC: No 050 or 090 call number
-Source entities (book IDs): columbia_aco003533
+Source entities (book IDs): columbia_aco004027
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47808844 
-   oclc_rec_035_num: (OCoLC)47808844
-Institution ID: NNC_3068411
-Record 999:  NNC_3068411 (OCoLC)ocm47808844 columbia_aco003707
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-ERROR-MISC: No 050 or 090 call number
-Source entities (book IDs): columbia_aco003707
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm47809285 
-   oclc_rec_035_num: (OCoLC)47809285
-Institution ID: NNC_3068451
-Record 999:  NNC_3068451 (OCoLC)ocm47809285 columbia_aco003461
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-ERROR-MISC: No 050 or 090 call number
-Source entities (book IDs): columbia_aco003461
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23494773 
-   oclc_rec_035_num: (OCoLC)23494773
-Institution ID: NNC_2871404
-Record 999:  NNC_2871404 (OCoLC)ocm23494773 columbia_aco003659:v.2
+OCLC ID: (OCoLC)ocm48205641 
+   oclc_rec_035_num: (OCoLC)48205641
+Institution ID: NNC_3121920
+Record 999:  NNC_3121920 (OCoLC)ocm48205641 columbia_aco003450
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - [Place of publication not identified] : [publisher not identified], [19-]
-040 $e field: [none]
-RDA fields: YES
-050 call number: BP75.2 .A25 1973 (Orien Arab)
-Source entities (book IDs): columbia_aco003659:v.2
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm48361251 
-   oclc_rec_035_num: (OCoLC)48361251
-Institution ID: NNC_3128973
-Record 999:  NNC_3128973 (OCoLC)ocm48361251 columbia_aco003809
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - [Beirut] : [publisher not identified], [1883]
+   260 - [Teheran] : publisher not identified], [1316 A.H. 1899]
 040 $e field: [none]
 RDA fields: YES
 ERROR-MISC: No 050 or 090 call number
-Source entities (book IDs): columbia_aco003809
+Source entities (book IDs): columbia_aco003450
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm48196585 
+   oclc_rec_035_num: (OCoLC)48196585
+Institution ID: NNC_3121211
+Record 999:  NNC_3121211 (OCoLC)ocm48196585 columbia_aco003810
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003810
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm49629245 
+   oclc_rec_035_num: (OCoLC)49629245
+Institution ID: NNC_3266426
+Record 999:  NNC_3266426 (OCoLC)ocm49629245 columbia_aco003890
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   110 - Coptic Church. Liturgy.
+   245 - Pigiom ǹte Pithohs et̄hȳ nem Pisclil ǹte abba ʹStherpou / Aftobf ṅgie pinib K.I. Labib ...
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003890
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm48240608 
    oclc_rec_035_num: (OCoLC)48240608
@@ -234,91 +215,107 @@ RDA fields: YES
 050 call number: DS70.7 .S29 1970
 Source entities (book IDs): columbia_aco003955
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm79416266 
-   oclc_rec_035_num: (OCoLC)79416266
-   oclc_rec_035_num: (OCoLC)48196218
-Institution ID: NNC_3121177
-Record 999:  NNC_3121177 (OCoLC)ocm79416266 columbia_aco004035
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-ERROR-MISC: No 050 or 090 call number
-Source entities (book IDs): columbia_aco004035
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm45063722 
-   oclc_rec_035_num: (OCoLC)45063722
-Institution ID: NNC_2678063
-Record 999:  NNC_2678063 (OCoLC)ocm45063722 columbia_aco003650
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-ERROR-MISC: No 050 or 090 call number
-Source entities (book IDs): columbia_aco003650
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm41217950 
-   oclc_rec_035_num: (OCoLC)41217950
-Institution ID: NNC_2598233
-Record 999:  NNC_2598233 (OCoLC)ocm41217950 columbia_aco003994
+OCLC ID: (OCoLC)ocm46331793 
+   oclc_rec_035_num: (OCoLC)46331793
+Institution ID: NNC_2986161
+Record 999:  NNC_2986161 (OCoLC)ocm46331793 columbia_aco003695
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Bibliography of Baghdad, compiled by Gurgis ʻAwad [and] Abdul-Hameed al-ʻAlouchi
+   246 - Added t.-p. in English: Yousif Issidien's poetry: its form and contents, by Abdallah Darwish. Badhdad, 1967
 040 $e field: [none]
 RDA fields: YES
-ERROR-MISC: No 050 or 090 call number
-Source entities (book IDs): columbia_aco003994
+050 call number: PJ7838.Z9 D3
+Source entities (book IDs): columbia_aco003695
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm45079105 
-   oclc_rec_035_num: (OCoLC)45079105
-Institution ID: NNC_2684640
-Record 999:  NNC_2684640 (OCoLC)ocm45079105 columbia_aco003649
+OCLC ID: (OCoLC)ocn234383923
+   oclc_rec_035_num: (OCoLC)234383923
+Institution ID: NNC_4825523
+Record 999:  NNC_4825523 (OCoLC)ocn234383923 columbia_aco003789:v.1
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 ERROR-MISC: No 050 or 090 call number
-Source entities (book IDs): columbia_aco003649
+Source entities (book IDs): columbia_aco003789:v.1
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm49635523 
-   oclc_rec_035_num: (OCoLC)49635523
-Institution ID: NNC_3266835
-Record 999:  NNC_3266835 (OCoLC)ocm49635523 columbia_aco004027
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-ERROR-MISC: No 050 or 090 call number
-Source entities (book IDs): columbia_aco004027
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm48205641 
-   oclc_rec_035_num: (OCoLC)48205641
-Institution ID: NNC_3121920
-Record 999:  NNC_3121920 (OCoLC)ocm48205641 columbia_aco003450
+OCLC ID: (OCoLC)ocm22379950 
+   oclc_rec_035_num: (OCoLC)22379950
+   oclc_rec_035_num: (OCoLC)150425810
+Institution ID: NNC_2760974
+Record 999:  NNC_2760974 (OCoLC)ocm22379950 columbia_aco003927
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - [Teheran] : publisher not identified], [1316 A.H. 1899]
+   246 - Kuwait, past & present
+   246 - Kuwait, past and present
 040 $e field: [none]
 RDA fields: YES
-ERROR-MISC: No 050 or 090 call number
-Source entities (book IDs): columbia_aco003450
+050 call number: DS247.K85 M33
+Source entities (book IDs): columbia_aco003927
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm48196585 
-   oclc_rec_035_num: (OCoLC)48196585
-Institution ID: NNC_3121211
-Record 999:  NNC_3121211 (OCoLC)ocm48196585 columbia_aco003810
+OCLC ID: (OCoLC)ocm60601364 
+   oclc_rec_035_num: (OCoLC)60601364
+Institution ID: NNC_650479
+Record 999:  NNC_650479 (OCoLC)ocm60601364 columbia_aco003672
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
 ERROR-MISC: No 050 or 090 call number
-Source entities (book IDs): columbia_aco003810
+Source entities (book IDs): columbia_aco003672
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm49629245 
-   oclc_rec_035_num: (OCoLC)49629245
-Institution ID: NNC_3266426
-Record 999:  NNC_3266426 (OCoLC)ocm49629245 columbia_aco003890
+OCLC ID: (OCoLC)ocn506311779
+   oclc_rec_035_num: (OCoLC)506311779
+Institution ID: NNC_647511
+Record 999:  NNC_647511 (OCoLC)ocn506311779 columbia_aco003533
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   110 - Coptic Church. Liturgy.
-   245 - Pigiom ǹte Pithohs et̄hȳ nem Pisclil ǹte abba ʹStherpou / Aftobf ṅgie pinib K.I. Labib ...
+   700 - Suyūṭī, 1445-1505.
 040 $e field: [none]
 RDA fields: YES
 ERROR-MISC: No 050 or 090 call number
-Source entities (book IDs): columbia_aco003890
+Source entities (book IDs): columbia_aco003533
 ---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm47808844 
+   oclc_rec_035_num: (OCoLC)47808844
+Institution ID: NNC_3068411
+Record 999:  NNC_3068411 (OCoLC)ocm47808844 columbia_aco003707
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003707
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm47809285 
+   oclc_rec_035_num: (OCoLC)47809285
+Institution ID: NNC_3068451
+Record 999:  NNC_3068451 (OCoLC)ocm47809285 columbia_aco003461
+880 script fields: YES
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003461
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm23494773 
+   oclc_rec_035_num: (OCoLC)23494773
+Institution ID: NNC_2871404
+Record 999:  NNC_2871404 (OCoLC)ocm23494773 columbia_aco003659:v.2
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - [Place of publication not identified] : [publisher not identified], [19-]
+040 $e field: [none]
+RDA fields: YES
+050 call number: BP75.2 .A25 1973 (Orien Arab)
+Source entities (book IDs): columbia_aco003659:v.2
+---------------------------------------------------------------------
+OCLC ID: (OCoLC)ocm48361251 
+   oclc_rec_035_num: (OCoLC)48361251
+Institution ID: NNC_3128973
+Record 999:  NNC_3128973 (OCoLC)ocm48361251 columbia_aco003809
+880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   260 - [Beirut] : [publisher not identified], [1883]
+040 $e field: [none]
+RDA fields: YES
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): columbia_aco003809
+---------------------------------------------------------------------
+TOTAL Number of Records containing any type of error: 27
+
