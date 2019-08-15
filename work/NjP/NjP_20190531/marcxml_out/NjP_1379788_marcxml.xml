@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190606s1968    iq a    o     000 0 ara d</controlfield>
+	<controlfield tag="008">190815s1968    iq a    o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -27,19 +27,18 @@
 	<datafield ind1="0" ind2="4" tag="082">
 		<subfield code="a">391.00935</subfield>
 	</datafield>
-	<datafield ind1="1" ind2=" " tag="110">
+	<datafield ind1="0" ind2="3" tag="245">
 		<subfield code="6">880-01</subfield>
-		<subfield code="a">Iraq.</subfield>
-		<subfield code="b">Mudīrīyat al-Āthār al-ʻĀmmah.</subfield>
+		<subfield code="a">al-Azyāʼ al-Bābilīyah.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="5" tag="246">
 		<subfield code="a">Babylonian costumes - :</subfield>
-		<subfield code="b">les costumes babyloniens /</subfield>
-		<subfield code="c">Directorate General of Antiquities.</subfield>
+		<subfield code="b">les costumes babyloniens</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Baghdad :</subfield>
-		<subfield code="b">The Directorate,</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Baghdād :</subfield>
+		<subfield code="b">Mudīrīyah al-Āthār al-ʻĀmmah,</subfield>
 		<subfield code="c">1968.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -57,10 +56,6 @@
 	<datafield ind1=" " ind2=" " tag="338">
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="490">
-		<subfield code="a">Its Costumes of Iraq ;</subfield>
-		<subfield code="v">2</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Text in Arabic, English and French.</subfield>
@@ -96,6 +91,11 @@
 		<subfield code="2">fast</subfield>
 		<subfield code="0">(OCoLC)fst01205757</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="710">
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Iraq.</subfield>
+		<subfield code="b"> Mudīrīyat al-Āthār al-ʻĀmmah. </subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
 		<subfield code="b">Library.</subfield>
@@ -107,27 +107,36 @@
 		<subfield code="a">Costumes babyloniens.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Azyā' al-Babilīyah.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Iraq. Mudīrīyat al-Āthār al-ʻĀmmah.</subfield>
-		<subfield code="t">Babylonian costumes -</subfield>
+		<subfield code="t">al-Azyāʼ al-Bābilīyah</subfield>
 		<subfield code="w">(NjP)1379788</subfield>
 		<subfield code="w">(OCoLC)1348767</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="810">
-		<subfield code="a">Iraq.</subfield>
-		<subfield code="b">Mudīrīyat al-Āthār al-ʻĀmmah.</subfield>
-		<subfield code="t">Costumes of Iraq ;</subfield>
-		<subfield code="v">2.</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/8cz8wk18</subfield>
 	</datafield>
+	<datafield ind1="0" ind2="2" tag="880">
+		<subfield code="6">245-01</subfield>
+		<subfield code="a">الازياء البابلية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-02</subfield>
+		<subfield code="a">بغداد :</subfield>
+		<subfield code="b">مديرية الاثار العامة،</subfield>
+		<subfield code="c">1968.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">110-01</subfield>
-		<subfield code="a">عراق. مديريات الآثار الآمة.</subfield>
+		<subfield code="6">710-03</subfield>
+		<subfield code="a">العراق.</subfield>
+		<subfield code="b">مديرية الاثار العامة. </subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">740-04</subfield>
+		<subfield code="a">‏أزياء البابلية.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -139,8 +148,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_1379788</subfield>
-		<subfield code="o">(OCoLC)ocm01348767 </subfield>
+		<subfield code="o">(OCoLC)ocm01348767</subfield>
 		<subfield code="s">princeton_aco002529</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">princeton_aco002529</subfield>
 	</datafield>
 </record>
