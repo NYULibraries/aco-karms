@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190821s1950    ua      o   b ||0 0 ara d</controlfield>
+	<controlfield tag="008">190920s1950    ua      ob    ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -30,7 +30,7 @@
 		<subfield code="a">State and economics in the Middle East.</subfield>
 		<subfield code="l">Arabic</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Dawlah wa-al-nuẓum al-iqtiṣādīyah fī al-Sharq al-Awsaṭ /</subfield>
 		<subfield code="c">taʼlīf A. Būnīh ; tarjamat Duktūr Rāshid al-Barrāwī.</subfield>
@@ -64,9 +64,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -74,40 +71,28 @@
 		<subfield code="d">2019.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">الشرق الاوسط</subfield>
-		<subfield code="x">السياسة والحكومة.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">تركيا</subfield>
-		<subfield code="x">السياسة والحكومة.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">الشرق الاوسط</subfield>
-		<subfield code="x">الاحوال الاجتماعية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">الشرق الاوسط</subfield>
-		<subfield code="x">الاحوال الاقتصادية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Middle East</subfield>
 		<subfield code="x">Politics and government.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Turkey</subfield>
 		<subfield code="x">Politics and government.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Middle East</subfield>
 		<subfield code="x">Social conditions.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-09</subfield>
 		<subfield code="a">Middle East</subfield>
 		<subfield code="x">Economic conditions.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-10</subfield>
 		<subfield code="a">Barrāwī, Rāshid,</subfield>
 		<subfield code="e">translator.</subfield>
 	</datafield>
@@ -118,7 +103,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="765">
-		<subfield code="6">880-07</subfield>
+		<subfield code="6">880-11</subfield>
 		<subfield code="i">is translation of</subfield>
 		<subfield code="4">http://rdaregistry.info/Elements/e/P20141 :</subfield>
 		<subfield code="a">Bonne, Alfred, 1899-1959.</subfield>
@@ -140,10 +125,10 @@
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">بونيه، ألفرد،</subfield>
 		<subfield code="d">1899-1959،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
+	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">245-02</subfield>
 		<subfield code="a">الدولة والنظم الإقتصادية في الشرق الاوسط /</subfield>
 		<subfield code="c">تأليف أ. بونيه ؛ ترجمة دكتور راشد البراوي.</subfield>
@@ -163,14 +148,38 @@
 		<subfield code="a">391 صفحة ؛</subfield>
 		<subfield code="c">24 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-06</subfield>
+		<subfield code="a">الشرق الاوسط</subfield>
+		<subfield code="x">السياسة والحكومة.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-07</subfield>
+		<subfield code="a">تركيا</subfield>
+		<subfield code="x">السياسة والحكومة.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-08</subfield>
+		<subfield code="a">الشرق الاوسط</subfield>
+		<subfield code="x">الاحوال الاجتماعية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-09</subfield>
+		<subfield code="a">الشرق الاوسط</subfield>
+		<subfield code="x">الاحوال الاقتصادية.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-06</subfield>
+		<subfield code="6">700-10</subfield>
 		<subfield code="a">البراوي، راشد،</subfield>
-		<subfield code="e">مترجم. </subfield>
+		<subfield code="e">مترجم.</subfield>
 		<subfield code="4">trl.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="880">
-		<subfield code="6">765-07</subfield>
+		<subfield code="6">765-11</subfield>
 		<subfield code="i">ترجمة</subfield>
 		<subfield code="4">http://rdaregistry.info/Elements/e/P20141 :</subfield>
 		<subfield code="a">Bonne, Alfred, 1899-1959.</subfield>
@@ -191,5 +200,6 @@
 		<subfield code="i">LeBAU_b12395754</subfield>
 		<subfield code="s">aub_aco003011</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco003011</subfield>
 	</datafield>
 </record>

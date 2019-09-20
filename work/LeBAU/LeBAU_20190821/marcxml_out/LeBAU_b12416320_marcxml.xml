@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190821s1951    ua      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">190920s1951    ua      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -21,7 +21,7 @@
 		<subfield code="a">Khūlī, al-Bahī,</subfield>
 		<subfield code="e">author.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Islām lā shuyūʻīyah wa-lā raʼsmālīyah :</subfield>
 		<subfield code="b">al-ʻamal wa-al-ʻummāl /</subfield>
@@ -63,28 +63,14 @@
 		<subfield code="d">2019.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="541">
-		<subfield code="c">هبة؛</subfield>
-		<subfield code="a">مكتبة المفتي الشيخ حسن خالد؛</subfield>
-		<subfield code="3">النسخة الثانية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="590">
-		<subfield code="a">إهداء: &quot;حسن خالد، 30/10/952.&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الإقتصاد</subfield>
-		<subfield code="x">النواحي الدينية</subfield>
-		<subfield code="x">الاسلام.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الاسلام والعمل.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Economics</subfield>
 		<subfield code="x">Religious aspects</subfield>
 		<subfield code="x">Islam.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Islam and labor.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -100,7 +86,7 @@
 		<subfield code="w">(LeBAU)b12416320</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="787">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-08</subfield>
 		<subfield code="i">has dedicatee (item)</subfield>
 		<subfield code="4">http://rdaregistry.info/Elements/i/P40025:</subfield>
 		<subfield code="a">Khālid, Ḥasan.</subfield>
@@ -112,10 +98,10 @@
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">الخولي، البهي،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
+	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">245-02</subfield>
 		<subfield code="a">الإسلام لا شيوعية ولا رأسمالية :</subfield>
 		<subfield code="b">العمل والعمال /</subfield>
@@ -136,8 +122,28 @@
 		<subfield code="a">160 صفحة ؛</subfield>
 		<subfield code="c">20 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">541-00</subfield>
+		<subfield code="c">هبة؛</subfield>
+		<subfield code="a">مكتبة المفتي الشيخ حسن خالد؛</subfield>
+		<subfield code="3">النسخة الثانية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">590-00</subfield>
+		<subfield code="a">إهداء: &quot;حسن خالد، 30/10/952.&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">الإقتصاد</subfield>
+		<subfield code="x">النواحي الدينية</subfield>
+		<subfield code="x">الاسلام.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">الاسلام والعمل.</subfield>
+	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">787-06</subfield>
+		<subfield code="6">787-08</subfield>
 		<subfield code="i">اهداء (نسخة)</subfield>
 		<subfield code="4">http://rdaregistry.info/Elements/i/P40025:</subfield>
 		<subfield code="a">خالد، حسن.</subfield>
@@ -155,5 +161,6 @@
 		<subfield code="i">LeBAU_b12416320</subfield>
 		<subfield code="s">aub_aco002620</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco002620</subfield>
 	</datafield>
 </record>
