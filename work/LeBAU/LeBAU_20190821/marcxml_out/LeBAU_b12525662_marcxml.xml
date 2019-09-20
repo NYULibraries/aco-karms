@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">190821s1951    le acf  o     ||0 d ara d</controlfield>
+	<controlfield tag="008">190920s1951    le acf  o     ||0 d ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -30,7 +30,7 @@
 		<subfield code="a">Le Cid.</subfield>
 		<subfield code="l">Arabic</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Sayyid /</subfield>
 		<subfield code="c">taʼlīf al-shāʻir al-Faransī Kūrnī ; taʻrīb Khalīl Muṭtān.</subfield>
@@ -68,25 +68,17 @@
 		<subfield code="d">2019.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="590">
-		<subfield code="a">صفحة التمهيد في النسخة الأولى مفتقدة.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">المسرحية الفرنسية (المأساة)</subfield>
-		<subfield code="v">ترجمات الى العربية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">French drama (Tragedy)</subfield>
 		<subfield code="v">Translations into Arabic.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="655">
-		<subfield code="a">مسرحيات.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="655">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Drama.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Muṭrān, Khalīl,</subfield>
 		<subfield code="d">1872-1949,</subfield>
 		<subfield code="e">translator.</subfield>
@@ -98,8 +90,8 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="765">
-		<subfield code="6">880-06</subfield>
-		<subfield code="i">is translation of </subfield>
+		<subfield code="6">880-08</subfield>
+		<subfield code="i">is translation of</subfield>
 		<subfield code="4">http://rdaregistry.info/Elements/e/P20141 :</subfield>
 		<subfield code="a">Corneille, Pierre, 1606-1684.</subfield>
 		<subfield code="t">Le Cid : tragedie.</subfield>
@@ -120,10 +112,10 @@
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">كورنيي، بيير،</subfield>
 		<subfield code="d">1606-1684،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
+	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">245-02</subfield>
 		<subfield code="a">السيد /</subfield>
 		<subfield code="c">تأليف الشاعر الفرنسي كورني ؛ تعريب خليل مطران.</subfield>
@@ -140,15 +132,28 @@
 		<subfield code="b">مصورات، صورة شخصانية في الواجهة ؛</subfield>
 		<subfield code="c">24 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">590-00</subfield>
+		<subfield code="a">صفحة التمهيد في النسخة الأولى مفتقدة.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">المسرحية الفرنسية (المأساة)</subfield>
+		<subfield code="v">ترجمات الى العربية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">655-06</subfield>
+		<subfield code="a">مسرحيات.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-05</subfield>
+		<subfield code="6">700-07</subfield>
 		<subfield code="a">مطران، خليل،</subfield>
 		<subfield code="d">1872-1949،</subfield>
-		<subfield code="e">مترجم. </subfield>
+		<subfield code="e">مترجم.</subfield>
 		<subfield code="4">trl.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">765-06</subfield>
+		<subfield code="6">765-08</subfield>
 		<subfield code="i">ترجمة</subfield>
 		<subfield code="4">http://rdaregistry.info/Elements/e/P20141 :</subfield>
 		<subfield code="a">Corneille, Pierre, 1606-1684.</subfield>
@@ -169,5 +174,6 @@
 		<subfield code="i">LeBAU_b12525662</subfield>
 		<subfield code="s">aub_aco002835</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco002835</subfield>
 	</datafield>
 </record>
