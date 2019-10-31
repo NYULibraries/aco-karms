@@ -1,108 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-   <marc:record type="Bibliographic">
-      <marc:leader>01352cam a2200337 a 4500</marc:leader>
-      <marc:controlfield tag="001">343545</marc:controlfield>
-      <marc:controlfield tag="003">NjP</marc:controlfield>
-      <marc:controlfield tag="005">20110125133824.0</marc:controlfield>
-      <marc:controlfield tag="008">861125s1928    ua            000 0 ara d</marc:controlfield>
-      <marc:datafield tag="024" ind1="7" ind2=" ">
-         <marc:subfield code="a">princeton_aco000572</marc:subfield>
-         <marc:subfield code="2">local</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="035" ind1=" " ind2=" ">
-         <marc:subfield code="a">(OCoLC)ocn175914118</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="040" ind1=" " ind2=" ">
-         <marc:subfield code="a">NjP</marc:subfield>
-         <marc:subfield code="c">PUL</marc:subfield>
-         <marc:subfield code="d">PUL</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="035" ind1=" " ind2=" ">
-         <marc:subfield code="a">(OCoLC)175914118</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="035" ind1=" " ind2=" ">
-         <marc:subfield code="a">(CStRLIN)NJPG86-B53400</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="035" ind1=" " ind2=" ">
-         <marc:subfield code="9">ABR8901TS</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="035" ind1=" " ind2=" ">
-         <marc:subfield code="a">(NjP)343545</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="079" ind1=" " ind2=" ">
-         <marc:subfield code="a">ocm29685135</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="049" ind1=" " ind2=" ">
-         <marc:subfield code="a">PULL</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="100" ind1="1" ind2=" ">
-         <marc:subfield code="6">880-01</marc:subfield>
-         <marc:subfield code="a">ʻAbd al-Raḥmān, ʻĪd al-Waṣīf Muḥammad.</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="245" ind1="1" ind2="0">
-         <marc:subfield code="6">880-02</marc:subfield>
-         <marc:subfield code="a">ʻIlm al-manṭiq al-ḥadīth wa-al-qadīm ʻalá al-niẓām al-ṣaḥīḥ wa-al-naẓm al-qawīm /</marc:subfield>
-         <marc:subfield code="c">ʻĪd al-Waṣīf Muḥammad ʻAbd al-Raḥmān.</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="260" ind1=" " ind2=" ">
-         <marc:subfield code="6">880-03</marc:subfield>
-         <marc:subfield code="a">Miṣr :</marc:subfield>
-         <marc:subfield code="b">Maṭbaʻat al-Maʻāhid,</marc:subfield>
-         <marc:subfield code="c">[1928?</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="300" ind1=" " ind2=" ">
-         <marc:subfield code="a">136 p. ;</marc:subfield>
-         <marc:subfield code="c">24 cm.</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="500" ind1=" " ind2=" ">
-         <marc:subfield code="a">Errata: p. 132-133.</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="650" ind1=" " ind2="0">
-         <marc:subfield code="a">Logic</marc:subfield>
-         <marc:subfield code="x">History.</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="880" ind1="1" ind2=" ">
-         <marc:subfield code="6">100-01/r</marc:subfield>
-         <marc:subfield code="a">عبد الرحمن، عيد الوصيف محمد.</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="880" ind1="1" ind2="0">
-         <marc:subfield code="6">245-02/r</marc:subfield>
-         <marc:subfield code="a">علم المنطق الحديث والقديم على النظام الصحيح والنظم القويم /</marc:subfield>
-         <marc:subfield code="c">عيد الوصيف محمد عبد الرحمن.</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="880" ind1=" " ind2=" ">
-         <marc:subfield code="6">260-03/r</marc:subfield>
-         <marc:subfield code="a">مصر :</marc:subfield>
-         <marc:subfield code="b">مطبعة المعاهد،</marc:subfield>
-         <marc:subfield code="c">[1928؟</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="998" ind1=" " ind2=" ">
-         <marc:subfield code="a">01/11/94</marc:subfield>
-         <marc:subfield code="s">9124</marc:subfield>
-         <marc:subfield code="n">NjP</marc:subfield>
-         <marc:subfield code="w">NJPG86B53400</marc:subfield>
-         <marc:subfield code="d">11/25/86</marc:subfield>
-         <marc:subfield code="c">SSH</marc:subfield>
-         <marc:subfield code="b">JAB</marc:subfield>
-         <marc:subfield code="i">940111</marc:subfield>
-         <marc:subfield code="l">NJPG</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="948" ind1=" " ind2=" ">
-         <marc:subfield code="a">CON PC2</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="911" ind1=" " ind2=" ">
-         <marc:subfield code="a">19940120</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="912" ind1=" " ind2=" ">
-         <marc:subfield code="a">19940111000000.0</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="994" ind1=" " ind2=" ">
-         <marc:subfield code="a">C0</marc:subfield>
-         <marc:subfield code="b">PUL</marc:subfield>
-      </marc:datafield>
-      <marc:datafield tag="999" ind1=" " ind2=" ">
-         <marc:subfield code="a">343545</marc:subfield>
-      </marc:datafield>
-   </marc:record>
-</marc:collection>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+   <leader>01379cam a2200325 a 4500</leader>
+   <controlfield tag="001">343545</controlfield>
+   <controlfield tag="003">NjP</controlfield>
+   <controlfield tag="005">20190705140253.0</controlfield>
+   <controlfield tag="008">861125s1928    ua            000 0 ara d</controlfield>
+   <datafield tag="024" ind1="7" ind2=" ">
+      <subfield code="a">princeton_aco003971</subfield>
+      <subfield code="2">local</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="040">
+      <subfield code="a">NjP</subfield>
+      <subfield code="c">PUL</subfield>
+      <subfield code="d">PUL</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(CStRLIN)NJPG86-B53400</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="9">ABR8901TS</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(NjP)343545</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="049">
+      <subfield code="a">PULL</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="035">
+      <subfield code="a">(OCoLC)ocm29685135</subfield>
+   </datafield>
+   <datafield ind1="1" ind2=" " tag="100">
+      <subfield code="6">880-01</subfield>
+      <subfield code="a">ʻAbd al-Raḥmān, ʻĪd al-Waṣīf Muḥammad.</subfield>
+   </datafield>
+   <datafield ind1="1" ind2="0" tag="245">
+      <subfield code="6">880-02</subfield>
+      <subfield code="a">ʻIlm al-manṭiq al-ḥadīth wa-al-qadīm ʻalá al-niẓām al-ṣaḥīḥ wa-al-naẓm al-qawīm /</subfield>
+      <subfield code="c">ʻĪd al-Waṣīf Muḥammad ʻAbd al-Raḥmān.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="260">
+      <subfield code="6">880-03</subfield>
+      <subfield code="a">Miṣr :</subfield>
+      <subfield code="b">Maṭbaʻat al-Maʻāhid,</subfield>
+      <subfield code="c">[1928?</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="300">
+      <subfield code="a">136 p. ;</subfield>
+      <subfield code="c">24 cm.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="500">
+      <subfield code="a">Errata: p. 132-133.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2="0" tag="650">
+      <subfield code="a">Logic</subfield>
+      <subfield code="x">History.</subfield>
+      <subfield code="0">http://id.loc.gov/authorities/subjects/sh2008106653</subfield>
+   </datafield>
+   <datafield ind1="1" ind2=" " tag="880">
+      <subfield code="6">100-01/r</subfield>
+      <subfield code="a">عبد الرحمن، عيد الوصيف محمد.</subfield>
+   </datafield>
+   <datafield ind1="1" ind2="0" tag="880">
+      <subfield code="6">245-02/r</subfield>
+      <subfield code="a">علم المنطق الحديث والقديم على النظام الصحيح والنظم القويم /</subfield>
+      <subfield code="c">عيد الوصيف محمد عبد الرحمن.</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="880">
+      <subfield code="6">260-03/r</subfield>
+      <subfield code="a">مصر :</subfield>
+      <subfield code="b">مطبعة المعاهد،</subfield>
+      <subfield code="c">[1928؟</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="998">
+      <subfield code="a">01/11/94</subfield>
+      <subfield code="s">9124</subfield>
+      <subfield code="n">NjP</subfield>
+      <subfield code="w">NJPG86B53400</subfield>
+      <subfield code="d">11/25/86</subfield>
+      <subfield code="c">SSH</subfield>
+      <subfield code="b">JAB</subfield>
+      <subfield code="i">940111</subfield>
+      <subfield code="l">NJPG</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="948">
+      <subfield code="a">CON PC2</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="911">
+      <subfield code="a">19940120</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="912">
+      <subfield code="a">19940111000000.0</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="994">
+      <subfield code="a">C0</subfield>
+      <subfield code="b">PUL</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="999">
+      <subfield code="a">343545</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="979">
+      <subfield code="a">(OCoLC)ocn175914118</subfield>
+   </datafield>
+   <datafield ind1="0" ind2="0" tag="852">
+      <subfield code="0">375387</subfield>
+      <subfield code="b">rcppa</subfield>
+      <subfield code="t">1</subfield>
+      <subfield code="h">BC15</subfield>
+      <subfield code="i">.xA25</subfield>
+      <subfield code="x">tr fr anxafst</subfield>
+   </datafield>
+   <datafield ind1="0" ind2="0" tag="852">
+      <subfield code="0">375388</subfield>
+      <subfield code="b">nec</subfield>
+      <subfield code="t">2</subfield>
+      <subfield code="h">BC15</subfield>
+      <subfield code="i">.xA25</subfield>
+   </datafield>
+   <datafield ind1=" " ind2=" " tag="959">
+      <subfield code="a">2000-06-13 00:00:00 -0400</subfield>
+   </datafield>
+</record>
