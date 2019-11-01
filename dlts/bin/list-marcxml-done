@@ -124,7 +124,8 @@ for d in $DIRS ; do
     for f in $(ls -1 ${WORK_DIR}/${partner}/${d}/marcxml_out/*.xml); do
      bsn=$(basename $f | cut -d'_' -f1-2 | sed -e 's/_/,/' )
      committed=$( git log -n 1 --pretty=format:'%ci' -- $f | cut -d' ' -f1 )
-     echo "$bsn,$committed"
+     call_nums=$(${BIN_DIR}/extract-call-numbers.rb $f)
+     echo "$bsn,$committed,$call_nums"
     done 
 done | sort
 
