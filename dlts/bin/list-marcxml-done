@@ -119,12 +119,14 @@ fi
 # Columbia-11,NNC_20161024,DLTSACO-440,52,Done,N/A
 DIRS=$(cat "$TKTS_PATH" | grep -i done | cut -d ',' -f2)
 
+echo 'bsn,commit_date,datafield_050,datafield_082,datafield_090,datafield_852'
+
 for d in $DIRS ; do
     partner=$(echo $d | cut -d'_' -f1)
     for f in $(ls -1 ${WORK_DIR}/${partner}/${d}/marcxml_out/*.xml); do
      bsn=$(basename $f | cut -d'_' -f1-2 | sed -e 's/_/,/' )
      committed=$( git log -n 1 --pretty=format:'%ci' -- $f | cut -d' ' -f1 )
-     call_nums=$(${BIN_DIR}/extract-call-numbers.rb $f)
+     call_nums=$(${HOME}/.rvm/wrappers/aco-karms/ruby ${BIN_DIR}/extract-call-numbers.rb $f)
      echo "$bsn,$committed,$call_nums"
     done 
 done | sort

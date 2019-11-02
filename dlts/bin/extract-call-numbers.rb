@@ -24,7 +24,6 @@ end
 
 
 def clean_call_number(str)
-#  str.strip.gsub("\n",';')
   str.strip.gsub(/\s+/,' ')
 end
 
