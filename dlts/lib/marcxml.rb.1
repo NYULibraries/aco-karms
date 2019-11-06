@@ -1,3 +1,26 @@
+      def data_050
+        @doc.xpath("#{data_xpath_prefix}[@tag='050']").text
+      end
+
+      def data_082
+        @doc.xpath("#{data_xpath_prefix}[@tag='082']").text
+      end
+
+      def data_090
+        @doc.xpath("#{data_xpath_prefix}[@tag='090']").text
+      end
+
+      def data_852
+        @doc.xpath("#{data_xpath_prefix}[@tag='852']").text
+      end
+
+      def data_852_lcc
+        @doc.xpath("#{data_xpath_prefix}[@tag='852'][").text
+      end
+
+
+
+
 require 'nokogiri'
 require 'open-uri'
 
