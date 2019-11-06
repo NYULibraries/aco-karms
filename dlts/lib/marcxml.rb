@@ -155,7 +155,11 @@ class Marcxml
     @datafield_852 = @doc.xpath("#{xpath_prefix_datafield}[@tag='852']").text
     datafield_852_i = @doc.xpath("#{xpath_prefix_datafield}[@tag='852' and @ind1='0']/#{ns}:subfield[@code='i']").text
     datafield_852_h = @doc.xpath("#{xpath_prefix_datafield}[@tag='852' and @ind1='0']/#{ns}:subfield[@code='h']").text
-    @datafield_852_lcc = "h|#{datafield_852_h} i|#{datafield_852_i}"
+    if datafield_852_h.strip.empty? && datafield_852_i.strip.empty?
+      @datafield_852_lcc = ''
+    else
+      @datafield_852_lcc = "h|#{datafield_852_h} i|#{datafield_852_i}"
+    end
 
     # assert that controlfields are not missing or empty
     raise 'missing controlfield 001' if @ctrl_001 == ''

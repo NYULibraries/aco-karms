@@ -119,6 +119,11 @@ class MarcxmlTest < MiniTest::Test
     assert(h.get_852_lcc == "h|KMU293.7 i|.S975 1956", "expected: 'h|KMU293.7 i|.S975 1956', got #{h.get_852_lcc}")
   end
 
+  def test_marcxml_852_lcc_no_data
+    h = Marcxml.new(MISSING_090)
+    assert(h.get_852_lcc == "", "expected: '', got #{h.get_852_lcc}")
+  end
+
   def test_marcxml_get_082
     h = Marcxml.new(HAS_050_082_090_852)
     assert(h.get_082 == "\n    893.79\n    K5273\n  ")
