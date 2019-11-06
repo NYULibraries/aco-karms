@@ -15,6 +15,7 @@ class MarcxmlTest < MiniTest::Test
   MISSING_090               = 'test/fixtures/marcxml/missing_090'
   HAS_050_090               = 'test/fixtures/marcxml/has_050_090'
   HAS_050_082_090_852       = 'test/fixtures/marcxml/has_050_082_090_852'
+  HAS_852_LCC               = 'test/fixtures/marcxml/has_852_lcc'
 
   # restore read/write permissions on test file
   def teardown
@@ -111,6 +112,11 @@ class MarcxmlTest < MiniTest::Test
   def test_marcxml_852_empty
     h = Marcxml.new(MISSING_090)
     assert(h.is_852_empty?)
+  end
+
+  def test_marcxml_852_lcc
+    h = Marcxml.new(HAS_852_LCC)
+    assert(h.get_852_lcc == "h|KMU293.7 i|.S975 1956", "expected: 'h|KMU293.7 i|.S975 1956', got #{h.get_852_lcc}")
   end
 
   def test_marcxml_get_082
