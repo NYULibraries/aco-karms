@@ -1,22 +1,3 @@
-      def data_050
-        @doc.xpath("#{data_xpath_prefix}[@tag='050']").text
-      end
-
-      def data_082
-        @doc.xpath("#{data_xpath_prefix}[@tag='082']").text
-      end
-
-      def data_090
-        @doc.xpath("#{data_xpath_prefix}[@tag='090']").text
-      end
-
-      def data_852
-        @doc.xpath("#{data_xpath_prefix}[@tag='852']").text
-      end
-
-
-
-
 require 'nokogiri'
 require 'open-uri'
 
@@ -40,6 +21,7 @@ class Marcxml
     @datafield_082 = nil
     @datafield_090 = nil
     @datafield_852 = nil
+    @datafield_852_lcc = nil
 
     get_schema_path
     validate_path!
@@ -87,6 +69,11 @@ class Marcxml
     @datafield_852 == ''
   end
 
+  def get_852_lcc
+    @datafield_852_lcc
+  end
+
+
 
   private
   def get_schema_path
@@ -114,6 +101,11 @@ class Marcxml
 
       raise emsg
     end
+  end
+
+  def init_852_lcc
+    foo = @doc.xpath("#{xpath_prefix_datafield}[@tag='852'][@ind='0']").text
+    @datafield_852_lcc = foo
   end
 
   def extract_ctrl!
@@ -161,6 +153,13 @@ class Marcxml
     @datafield_082 = @doc.xpath("#{xpath_prefix_datafield}[@tag='082']").text
     @datafield_090 = @doc.xpath("#{xpath_prefix_datafield}[@tag='090']").text
     @datafield_852 = @doc.xpath("#{xpath_prefix_datafield}[@tag='852']").text
+    datafield_852_i = @doc.xpath("#{xpath_prefix_datafield}[@tag='852' and @ind1='0']/#{ns}:subfield[@code='i']").text
+    datafield_852_h = @doc.xpath("#{xpath_prefix_datafield}[@tag='852' and @ind1='0']/#{ns}:subfield[@code='h']").text
+    if datafield_852_h.strip.empty? && datafield_852_i.strip.empty?
+      @datafield_852_lcc = ''
+    else
+      @datafield_852_lcc = "h|#{datafield_852_h} i|#{datafield_852_i}"
+    end
 
     # assert that controlfields are not missing or empty
     raise 'missing controlfield 001' if @ctrl_001 == ''

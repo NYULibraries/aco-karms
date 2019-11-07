@@ -30,5 +30,5 @@ end
 
 m = Marcxml.new(ARGV[0])
 
-puts "#{clean_call_number(m.get_050)},#{clean_call_number(m.get_082)},#{clean_call_number(m.get_090)},#{clean_call_number(m.get_852)}"
+puts "#{clean_call_number(m.get_050)},#{clean_call_number(m.get_082)},#{clean_call_number(m.get_090)},#{clean_call_number(m.get_852)},#{clean_call_number(m.get_852_lcc)}"
 

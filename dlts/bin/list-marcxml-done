@@ -119,7 +119,7 @@ fi
 # Columbia-11,NNC_20161024,DLTSACO-440,52,Done,N/A
 DIRS=$(cat "$TKTS_PATH" | grep -i done | cut -d ',' -f2)
 
-echo 'bsn,commit_date,datafield_050,datafield_082,datafield_090,datafield_852'
+echo 'library,bsn,commit_date,datafield_050,datafield_082,datafield_090,datafield_852,datafield_852_lcc'
 
 for d in $DIRS ; do
     partner=$(echo $d | cut -d'_' -f1)
