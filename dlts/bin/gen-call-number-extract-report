@@ -1,0 +1,87 @@
+#!/bin/bash
+
+#------------------------------------------------------------------------------
+# this script generates a report sent to stdout of the call number fields
+# in a directory of MARCXML files.
+# the MARCXML file names must end in this string "_marcxml.xml"
+# 
+# usage: please see "print_usage" function below
+#------------------------------------------------------------------------------
+
+ACO_KARMS_RUBY="${HOME}/.rvm/wrappers/aco-karms/ruby"
+
+set_readlink() {
+    readlink=''
+
+    case $(uname) in
+	Linux)
+            readlink=/usr/bin/readlink
+            ;;
+	
+	Darwin)
+            readlink=/usr/local/bin/greadlink
+            ;;
+	
+	*)
+            echo "ERROR: script only supported on Linux and Darwin (OS X)"
+            exit 1
+            ;;
+    esac
+
+    if [[ ! -x "$readlink" ]]
+    then
+	echo "ERROR: $READLINK executable is required, but not found, or not executable by this user."
+	exit 1
+    fi
+}
+
+
+initialize_dirs() {
+    dirname=/usr/bin/dirname
+    set_readlink
+    BIN_DIR="$("$dirname" $("$readlink" -f $0))"
+}
+
+
+stderr_echo() {
+    echo "$1" >&2
+}
+
+print_usage() {
+    stderr_echo "usage: $0 <path to directory containing *_marcxml.xml files to analyze>"
+}
+    
+emit_header() {
+    echo "filename,datafield_050,datafield_082,datafield_090,datafield_852,datafield_852_lcc"
+}
+
+if [[ ! -f "$ACO_KARMS_RUBY" ]]; then
+   stderr_echo "ERROR: aco-karms RVM alias does not exit" 
+   stderr_echo "       please create rvm alias and try again."
+   stderr_echo " e.g., rvm alias create aco-karms ruby-2.3.3@aco-karms"
+   exit 1
+fi
+
+if [[ "$#" -ne 1 ]]; then
+    print_usage
+    exit 1
+fi
+
+dir="$1"
+
+if [[ ! -d "$dir" ]]; then
+    stderr_echo "ERROR: $dir is not a directory or cannot be accessed"
+    exit 1
+fi
+
+#------------------------------------------------------------------------------
+# MAIN CODE
+#------------------------------------------------------------------------------
+initialize_dirs
+emit_header
+pushd "$dir" >/dev/null
+for f in $(ls -1 *_marcxml.xml); do
+    printf "$f,"
+    $ACO_KARMS_RUBY $BIN_DIR/extract-call-numbers.rb $f
+done
+popd >/dev/null
