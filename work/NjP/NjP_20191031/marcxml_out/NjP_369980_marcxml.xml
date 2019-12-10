@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">191101s1931    ua a    o     000 1dara d</controlfield>
+	<controlfield tag="008">191210s1931    ua a    o     000 1dara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -13,19 +13,23 @@
 		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Shawqī, A.hmad,</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Shawqī, Aḥmad,</subfield>
 		<subfield code="d">1868-1932.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Riwayat Qambīz /</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Riwāyat Qambīz /</subfield>
 		<subfield code="c">taʼlīf A.hmad Shawqī.</subfield>
 	</datafield>
 	<datafield ind1="3" ind2="0" tag="246">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Qambīz</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">[al-Qāhirah] :</subfield>
-		<subfield code="b">[publisher not identified],</subfield>
+		<subfield code="b">Maṭbaʻat Miṣr,</subfield>
 		<subfield code="c">1931.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -86,13 +90,33 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Shawqī, A.hmad, 1868-1932.</subfield>
-		<subfield code="t">Riwayat Qambīz</subfield>
+		<subfield code="a">Shawqī, Aḥmad, 1868-1932.</subfield>
+		<subfield code="t">Riwāyat Qambīz</subfield>
 		<subfield code="w">(NjP)369980</subfield>
 		<subfield code="w">(OCoLC)59813950</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/rxwdc247</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">شوقي، احمد،</subfield>
+		<subfield code="d">1868-1932.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">رواية قمبيز /</subfield>
+		<subfield code="c">تأليف احمد شوقي.</subfield>
+	</datafield>
+	<datafield ind1="3" ind2="0" tag="880">
+		<subfield code="6">246-03</subfield>
+		<subfield code="a">قمبيز </subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-04</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">مطبعة مصر،</subfield>
+		<subfield code="c">1931.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -104,8 +128,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_369980</subfield>
-		<subfield code="o">(OCoLC)ocm59813950 </subfield>
+		<subfield code="o">(OCoLC)ocm59813950</subfield>
 		<subfield code="s">princeton_aco002946</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco002946</subfield>
 	</datafield>
 </record>
