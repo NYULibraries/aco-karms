@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">191101s1982    ir      ob    001 0 ara d</controlfield>
+	<controlfield tag="008">191210s1982    ir      ob    001 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -13,15 +13,18 @@
 		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ibn al-Ṣiddīq, Aḥmad,</subfield>
 		<subfield code="d">1902-1960.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Fatḥ al-Malik al-ʻAlī :</subfield>
 		<subfield code="b">bi-ṣiḥḥat ḥadīth bāb Madīnat al-ʻIlm ʻAlī /</subfield>
 		<subfield code="c">lil-Imām Aḥmad ibn Muḥammad ibn al-Ṣiddīq al-Ḥasanī al-Maghribī ; ḥaqqaqahu wa-ʻallaqa ḥawāshīhi wa-saḥḥaḥa asānīdahu Muḥammad Hādī al-Aynī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Iṣfahān :</subfield>
 		<subfield code="b">Maktabat al-Imām Amīr al-Muʼminīn ʻAlī,</subfield>
 		<subfield code="c">1403 [1982 or 1983]</subfield>
@@ -41,8 +44,9 @@
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
-		<subfield code="a">Maktabat al-Imān Amīr al-Muʼminīn al-ʻĀmmah ;</subfield>
+	<datafield ind1="1" ind2=" " tag="490">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Maktabat al-Imām Amīr al-Muʼminīn al-ʻĀmmah ;</subfield>
 		<subfield code="v">7</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
@@ -84,10 +88,12 @@
 		<subfield code="0">(OCoLC)fst01117948</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Aynī, Muḥammad Hādī.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">Amīnī, Muḥammad Hādī.</subfield>
+		<subfield code="6">880-06</subfield>
+		<subfield code="a">Amīnī, Muḥammad Hādī. </subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
@@ -103,8 +109,48 @@
 		<subfield code="w">(NjP)240502</subfield>
 		<subfield code="w">(OCoLC)82249218</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-07</subfield>
+		<subfield code="a">Maktabat al-Imām Amīr al-Muʼminīn al-ʻĀmmah ;</subfield>
+		<subfield code="v">7.</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/66t1g9s2</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">ابن الصديق، احمد،‎</subfield>
+		<subfield code="d">1902-1960.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">فتح الملك العلي :‎</subfield>
+		<subfield code="b">بصحة حديث باب مدينة العلم علي /‎</subfield>
+		<subfield code="c">للامام احمد بن محمد بن الصديق الحسني المغربي ؛ حققه وعلق حواشيه وصحح اسانيده محمد هادي الايني.‎</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">اصفهان :‎</subfield>
+		<subfield code="b">مكتبة الامام امير المؤمنين علي،‎</subfield>
+		<subfield code="c">1403 [1982 or 1983]</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">490-04</subfield>
+		<subfield code="a">مكتبة الامام امير المؤمنين العامة ؛‎</subfield>
+		<subfield code="v">7</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-05</subfield>
+		<subfield code="a">ايني، محمد هادي.‎</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-06</subfield>
+		<subfield code="a">اميني، محمد هادي. ‎</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">830-07</subfield>
+		<subfield code="a">مكتبة الامام امير المؤمنين العامة ؛‎</subfield>
+		<subfield code="v">7.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -116,8 +162,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_240502</subfield>
-		<subfield code="o">(OCoLC)ocm82249218 </subfield>
+		<subfield code="o">(OCoLC)ocm82249218</subfield>
 		<subfield code="s">princeton_aco003128</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-SERIES)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco003128</subfield>
 	</datafield>
 </record>
