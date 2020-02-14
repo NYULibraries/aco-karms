@@ -5,7 +5,7 @@
 	<controlfield tag="003">UaCaAUL</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">200122s1940    mr f    o    f000 0 ara d</controlfield>
+	<controlfield tag="008">200214s1940    mr f    o    f000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -61,7 +61,7 @@
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="6">880-05</subfield>
 		<subfield code="a">Ḥimāyah al-Isbānīyah bi-al-Maghrib : Majlis al-Aʻlá lil-Āthār al-Tārīkhīyah wa-al-Fannīyah ;</subfield>
 		<subfield code="v">raqm 1</subfield>
@@ -110,6 +110,11 @@
 		<subfield code="w">(UaCaAUL)b14412238</subfield>
 		<subfield code="w">(OCoLC)33995842</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-06</subfield>
+		<subfield code="a">Ḥimāyah al-Isbānīyah bi-al-Maghrib : Majlis al-Aʻlá lil-Āthār al-Tārīkhīyah wa-al-Fannīyah ;</subfield>
+		<subfield code="v">raqm 1.</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/xgxd2fp6</subfield>
 	</datafield>
@@ -133,10 +138,15 @@
 		<subfield code="a">العرائش، المغرب :</subfield>
 		<subfield code="b">مطبعة الفنون المصورة بوسكا.</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
+	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">490-05</subfield>
 		<subfield code="a">حماية الاسبانية بالمغرب : مجلس الأعلى للآثار التاريخية والفنية ؛</subfield>
 		<subfield code="v">رقم1</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">830-06</subfield>
+		<subfield code="a">حماية الاسبانية بالمغرب : مجل الاعلى للآثار التاريخية والفنية ؛</subfield>
+		<subfield code="v">رقم 1.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -148,8 +158,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">UaCaAUL_b14412238</subfield>
-		<subfield code="o">(OCoLC)ocm33995842 </subfield>
+		<subfield code="o">(OCoLC)ocm33995842</subfield>
 		<subfield code="s">auc_aco000610</subfield>
-		<subfield code="e">(ERROR-880)(ERROR-SERIES)</subfield>
+		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">auc_aco000610</subfield>
 	</datafield>
 </record>
