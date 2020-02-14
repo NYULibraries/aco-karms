@@ -1,17 +1,17 @@
 Total records processed - batch UaCaAUL_20200113: 119 records
-Report produced: 2020-01-22 11:51:16.445291
-Input File (oclc_batch): 119
-Input File (orig_no_oclc): 0
+Report produced: 2020-02-14 14:44:29.746690
+Input File (updates): 15
+Input File (final subset): 104
 
 Records where OCLC nums did not match: 0
-Total records containing any type of error for this round: 119 (100.0%)
-Total records passing to final version for this round: 0 (0.0%)
+Total records containing any type of error for this round: 12 (10.1%)
+Total records passing to final version for this round: 107 (89.9%)
 -----------------------
-Records containing 880 script fields: 119 (100.0%)
+Records containing 880 script fields: 15 (12.6%)
 Records with NO 880 script fields: 0 (0.0%)
-Records missing key 880 script fields: 19 (16.0%)
-Records containing unlinked 880 script fields: 6 (5.0%)
-Records containing series errors in 490/800/810/811/830 fields: 4 (3.4%)
+Records missing key 880 script fields: 11 (9.2%)
+Records containing unlinked 880 script fields: 0 (0.0%)
+Records containing series errors in 490/800/810/811/830 fields: 0 (0.0%)
 Records containing miscellaneous errors: 1 (0.8%)
 Records containing bad encoding replacement character: 0
 Records containing RDA fields: 119 (100.0%)
@@ -19,176 +19,62 @@ Records with NO 050 or 090 call number fields: 1 (0.8%)
 ---------------------------------------------------------------------
 INDIVIDUAL RECORDS ANALYSIS:
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm27857107 
-   oclc_rec_035_num: (OCoLC)27857107
-   oclc_rec_035_num: (OCoLC)1015524441
-Institution ID: UaCaAUL_b11854583
-Institution ID: UaCaAUL_b11854583
-Record 999:  UaCaAUL_b11854583 (OCoLC)ocm27857107
-880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7700 .J3 1934
-Source entities (book IDs): auc_aco001047
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm18357987 
-   oclc_rec_035_num: (OCoLC)18357987
-   oclc_rec_035_num: (OCoLC)23485910
-   oclc_rec_035_num: (OCoLC)47815367
-Institution ID: UaCaAUL_b12595536
-Institution ID: UaCaAUL_b12595536
-Institution ID: UaCaAUL_b12595536
-Record 999:  UaCaAUL_b12595536 (OCoLC)ocm18357987
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7741.J3 U8 1955
-Source entities (book IDs): auc_aco001084
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm06883761 
-   oclc_rec_035_num: (OCoLC)6883761
-   oclc_rec_035_num: (OCoLC)23499586
-Institution ID: UaCaAUL_b13324056
-Institution ID: UaCaAUL_b13324056
-Record 999:  UaCaAUL_b13324056 (OCoLC)ocm06883761
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: BP88.S5 G5 1954
-Source entities (book IDs): auc_aco001076:v.1, auc_aco001077:v.2
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60506090 
-   oclc_rec_035_num: (OCoLC)60506090
-Institution ID: UaCaAUL_b12096982
-Record 999:  UaCaAUL_b12096982 (OCoLC)ocm60506090
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ6622 .A8 1927
-Source entities (book IDs): auc_aco001079
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm32792853 
-   oclc_rec_035_num: (OCoLC)32792853
-   oclc_rec_035_num: (OCoLC)67308789
-   oclc_rec_035_num: (OCoLC)1002878093
-   oclc_rec_035_num: (OCoLC)1055939905
-   oclc_rec_035_num: (OCoLC)1056810408
-Institution ID: UaCaAUL_b28061214
-Institution ID: UaCaAUL_b28061214
-Institution ID: UaCaAUL_b28061214
-Institution ID: UaCaAUL_b28061214
-Record 999:  UaCaAUL_b28061214 (OCoLC)ocm32792853
+OCLC ID: (OCoLC)on1112129450
+   oclc_rec_035_num: (OCoLC)1112129450
+Institution ID: UaCaAUL_b12613575
+Record 999:  UaCaAUL_b12613575 (OCoLC)on1112129450 auc_aco001075:2v. In 1
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   700 - Zwettler, Michael.
-   710 - Ohio State University. Department of Near Eastern Languages and Cultures.
+   710 - Mansuri Collection (Library of Congress) DLC
 040 $e field: rda
 RDA fields: YES
-050 call number: PJ6161 .A3 1952
-Source entities (book IDs): auc_aco000942
+050 call number: PJ7750.A25 S335 1906
+Source entities (book IDs): auc_aco001075:2v. In 1
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60498999 
-   oclc_rec_035_num: (OCoLC)60498999
-Institution ID: UaCaAUL_b13007373
-Record 999:  UaCaAUL_b13007373 (OCoLC)ocm60498999
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-090 call number: DS57 .L412 1922
-Source entities (book IDs): auc_aco000564
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60506461 
-   oclc_rec_035_num: (OCoLC)60506461
-Institution ID: UaCaAUL_b12510154
-Record 999:  UaCaAUL_b12510154 (OCoLC)ocm60506461
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-050 call number: PJ7692.F8 M8 1943
-Source entities (book IDs): auc_aco001068
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60506460 
-   oclc_rec_035_num: (OCoLC)60506460
-Institution ID: UaCaAUL_b12510105
-Record 999:  UaCaAUL_b12510105 (OCoLC)ocm60506460
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-090 call number: PJ7694.E8 S25 1943
-Source entities (book IDs): auc_aco001044
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm20135427 
-   oclc_rec_035_num: (OCoLC)20135427
-Institution ID: UaCaAUL_b14527054
-Record 999:  UaCaAUL_b14527054 (OCoLC)ocm20135427
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-050 call number: BJ1291 .K45
-Source entities (book IDs): auc_aco000710
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn122709650
-   oclc_rec_035_num: (OCoLC)122709650
-Institution ID: UaCaAUL_b11793557
-Record 999:  UaCaAUL_b11793557 (OCoLC)ocn122709650
+OCLC ID: (OCoLC)ocm11853213 
+   oclc_rec_035_num: (OCoLC)11853213
+Institution ID: UaCaAUL_b27159735
+Record 999:  UaCaAUL_b27159735 (OCoLC)ocm11853213 auc_aco000805
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Job analysis in the rehabilitation process
+   240 - Economic organization of Palestine. Arabic
 040 $e field: rda
 RDA fields: YES
-090 call number: HF5549 .M88 1955
-Source entities (book IDs): auc_aco000833
+050 call number: HC497.P2 H512
+Source entities (book IDs): auc_aco000805
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)on1033849345
-   oclc_rec_035_num: (OCoLC)1033849345
-Institution ID: UaCaAUL_b11997187
-Record 999:  UaCaAUL_b11997187 (OCoLC)on1033849345
+OCLC ID: (OCoLC)ocm60506006 
+   oclc_rec_035_num: (OCoLC)60506006
+   oclc_rec_035_num: (OCoLC)264335158
+Institution ID: UaCaAUL_b12012464
+Institution ID: UaCaAUL_b12012464
+Record 999:  UaCaAUL_b12012464 (OCoLC)ocm60506006 auc_aco001082
 880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Three essays of Abu ʻOthman ʻAmr ibn Baḥr al-Jaḥiẓ
 040 $e field: rda
 RDA fields: YES
-050 call number: PJ7750.A25 R5 1938
-Source entities (book IDs): auc_aco001097:4 v. in 1
+050 call number: PJ7745.J3 T5 1925
+Source entities (book IDs): auc_aco001082
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn978092531
-   oclc_rec_035_num: (OCoLC)978092531
-   oclc_rec_035_num: (OCoLC)60505913
-Institution ID: UaCaAUL_b11879385
-Institution ID: UaCaAUL_b11879385
-Record 999:  UaCaAUL_b11879385 (OCoLC)ocn978092531
+OCLC ID: (OCoLC)ocn122740937
+   oclc_rec_035_num: (OCoLC)122740937
+Institution ID: UaCaAUL_b13945348
+Record 999:  UaCaAUL_b13945348 (OCoLC)ocn122740937 auc_aco000844
 880 script fields: YES
-040 $e field: rda
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Binder's title: Character and education
+040 $e field: [none]
 RDA fields: YES
-050 call number: PJ7745 B8 Z86
-Source entities (book IDs): auc_aco001083
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60506268 
-   oclc_rec_035_num: (OCoLC)60506268
-Institution ID: UaCaAUL_b12303859
-Record 999:  UaCaAUL_b12303859 (OCoLC)ocm60506268
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ6620 .F3 1926
-Source entities (book IDs): auc_aco001050:2v. In 1
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn956920471
-   oclc_rec_035_num: (OCoLC)956920471
-Institution ID: UaCaAUL_b13723522
-Record 999:  UaCaAUL_b13723522 (OCoLC)ocn956920471
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: DS36.96 
-Source entities (book IDs): auc_aco000720
+090 call number: LC266 .F2 1930
+Source entities (book IDs): auc_aco000844
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocm34093772 
    oclc_rec_035_num: (OCoLC)34093772
    oclc_rec_035_num: (OCoLC)21268855
 Institution ID: UaCaAUL_b12115034
 Institution ID: UaCaAUL_b12115034
-Record 999:  UaCaAUL_b12115034 (OCoLC)ocm34093772
+Record 999:  UaCaAUL_b12115034 (OCoLC)ocm34093772 auc_aco000607
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    246 - Commentaire du Livre des étapes
@@ -201,723 +87,96 @@ RDA fields: YES
 050 call number: BP188.9.A66 I75 1954
 Source entities (book IDs): auc_aco000607
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn122725246
-   oclc_rec_035_num: (OCoLC)122725246
-Institution ID: UaCaAUL_b13004645
-Record 999:  UaCaAUL_b13004645 (OCoLC)ocn122725246
+OCLC ID: (OCoLC)ocn122709650
+   oclc_rec_035_num: (OCoLC)122709650
+Institution ID: UaCaAUL_b11793557
+Record 999:  UaCaAUL_b11793557 (OCoLC)ocn122709650 auc_aco000833
 880 script fields: YES
+ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
+   246 - Job analysis in the rehabilitation process
 040 $e field: rda
 RDA fields: YES
-090 call number: LA631.8 .I26x 1936
-Source entities (book IDs): auc_aco000862
+090 call number: HF5549 .M88 1955
+Source entities (book IDs): auc_aco000833
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60506522 
-   oclc_rec_035_num: (OCoLC)60506522
-Institution ID: UaCaAUL_b12574867
-Record 999:  UaCaAUL_b12574867 (OCoLC)ocm60506522
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7745.J3 R3 1933
-Source entities (book IDs): auc_aco001057
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn122722659
-   oclc_rec_035_num: (OCoLC)122722659
-Institution ID: UaCaAUL_b12910880
-Record 999:  UaCaAUL_b12910880 (OCoLC)ocn122722659
+OCLC ID: (OCoLC)ocm60498999 
+   oclc_rec_035_num: (OCoLC)60498999
+Institution ID: UaCaAUL_b13007373
+Record 999:  UaCaAUL_b13007373 (OCoLC)ocm60498999 auc_aco000564
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
-050 call number: DT154.A4 M38
-Source entities (book IDs): auc_aco000596
+090 call number: DS57 .L412 1922
+Source entities (book IDs): auc_aco000564
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60499156 
-   oclc_rec_035_num: (OCoLC)60499156
-Institution ID: UaCaAUL_b13139617
-Record 999:  UaCaAUL_b13139617 (OCoLC)ocm60499156
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-090 call number: HM261 .I5x
-Source entities (book IDs): auc_aco000699
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn122817938
-   oclc_rec_035_num: (OCoLC)122817938
-Institution ID: UaCaAUL_b13152634
-Record 999:  UaCaAUL_b13152634 (OCoLC)ocn122817938
+OCLC ID: (OCoLC)ocm32792853 
+   oclc_rec_035_num: (OCoLC)32792853
+   oclc_rec_035_num: (OCoLC)67308789
+   oclc_rec_035_num: (OCoLC)1002878093
+   oclc_rec_035_num: (OCoLC)1055939905
+   oclc_rec_035_num: (OCoLC)1056810408
+Institution ID: UaCaAUL_b28061214
+Institution ID: UaCaAUL_b28061214
+Institution ID: UaCaAUL_b28061214
+Institution ID: UaCaAUL_b28061214
+Record 999:  UaCaAUL_b28061214 (OCoLC)ocm32792853 auc_aco000942
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   700 - Ḥassūnah, Muḥammad Aḥmad, author.
+   700 - Zwettler, Michael.
+   710 - Ohio State University. Department of Near Eastern Languages and Cultures.
 040 $e field: rda
 RDA fields: YES
-050 call number: D116 .R54 1925
-Source entities (book IDs): auc_aco001066
+050 call number: PJ6161 .A3 1952
+Source entities (book IDs): auc_aco000942
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60507199 
-   oclc_rec_035_num: (OCoLC)60507199
-   oclc_rec_035_num: (OCoLC)1049088443
-Institution ID: UaCaAUL_b13107690
-Institution ID: UaCaAUL_b13107690
-Record 999:  UaCaAUL_b13107690 (OCoLC)ocm60507199
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: ML410.M59 H43 1939
-Source entities (book IDs): auc_aco000856
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn122740937
-   oclc_rec_035_num: (OCoLC)122740937
-Institution ID: UaCaAUL_b13945348
-Record 999:  UaCaAUL_b13945348 (OCoLC)ocn122740937
+OCLC ID: (OCoLC)ocm60498452 
+   oclc_rec_035_num: (OCoLC)60498452
+Institution ID: UaCaAUL_b12638791
+Record 999:  UaCaAUL_b12638791 (OCoLC)ocm60498452 auc_aco000705
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Binder's title: Character and education
+   246 - Title on p. 4 of cover: Post system in Moslem State
 040 $e field: [none]
 RDA fields: YES
-090 call number: LC266 .F2 1930
-Source entities (book IDs): auc_aco000844
+090 call number: HE7316 .S3x 1953
+Source entities (book IDs): auc_aco000705
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm15270284 
-   oclc_rec_035_num: (OCoLC)15270284
-Institution ID: UaCaAUL_b12531686
-Record 999:  UaCaAUL_b12531686 (OCoLC)ocm15270284
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7700.A43 A6 1938
-Source entities (book IDs): auc_aco001023
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm40974722 
-   oclc_rec_035_num: (OCoLC)40974722
-Institution ID: UaCaAUL_b12387782
-Record 999:  UaCaAUL_b12387782 (OCoLC)ocm40974722
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7541 A2 1946
-Source entities (book IDs): auc_aco001078
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm31071561 
-   oclc_rec_035_num: (OCoLC)31071561
-Institution ID: UaCaAUL_b12367746
-Record 999:  UaCaAUL_b12367746 (OCoLC)ocm31071561
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7745 .I165 1917
-Source entities (book IDs): auc_aco001071:v.1
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60506315 
-   oclc_rec_035_num: (OCoLC)60506315
-Institution ID: UaCaAUL_b12331363
-Record 999:  UaCaAUL_b12331363 (OCoLC)ocm60506315
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7515 .R5x 1910
-Source entities (book IDs): auc_aco000985:v.1, auc_aco000986:v.2, auc_aco000987:v.3, auc_aco000988:v.4
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn122796559
-   oclc_rec_035_num: (OCoLC)122796559
-   oclc_rec_035_num: (OCoLC)1033846284
-Institution ID: UaCaAUL_b12418262
-Record 999:  UaCaAUL_b12418262 (OCoLC)ocn122796559
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-090 call number: HJ2179.7 .Y812 1934
-Source entities (book IDs): auc_aco000759
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60506410 
-   oclc_rec_035_num: (OCoLC)60506410
-Institution ID: UaCaAUL_b12466360
-Record 999:  UaCaAUL_b12466360 (OCoLC)ocm60506410
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7601 .B29 1908
-Source entities (book IDs): auc_aco000989:v.1, auc_aco000990:v.2
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60506006 
-   oclc_rec_035_num: (OCoLC)60506006
-   oclc_rec_035_num: (OCoLC)264335158
-Institution ID: UaCaAUL_b12012464
-Institution ID: UaCaAUL_b12012464
-Record 999:  UaCaAUL_b12012464 (OCoLC)ocm60506006
+OCLC ID: (OCoLC)ocm33995842 
+   oclc_rec_035_num: (OCoLC)33995842
+Institution ID: UaCaAUL_b14412238
+Record 999:  UaCaAUL_b14412238 (OCoLC)ocm33995842 auc_aco000610
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Three essays of Abu ʻOthman ʻAmr ibn Baḥr al-Jaḥiẓ
+   246 - Resumen de la memoria presentada ante esta junta por D. Cesar L. Montalbán referente a los trabajos efectuados en el año 1939 en las ruinas de Ad-Mercuri y Tabernes (región occidental)
 040 $e field: rda
 RDA fields: YES
-050 call number: PJ7745.J3 T5 1925
-Source entities (book IDs): auc_aco001082
+050 call number: DT311 .M6 1940
+Source entities (book IDs): auc_aco000610
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60506412 
-   oclc_rec_035_num: (OCoLC)60506412
-Institution ID: UaCaAUL_b12466487
-Record 999:  UaCaAUL_b12466487 (OCoLC)ocm60506412
+OCLC ID: (OCoLC)ocn249576541
+   oclc_rec_035_num: (OCoLC)249576541
+Institution ID: UaCaAUL_b13242350
+Record 999:  UaCaAUL_b13242350 (OCoLC)ocn249576541 auc_aco001081
 880 script fields: YES
 040 $e field: rda
 RDA fields: YES
-050 call number: PJ7601 .T9 1885
-Source entities (book IDs): auc_aco001056
+050 call number: DS98.13.J68 A4
+Source entities (book IDs): auc_aco001081
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn318102182
-   oclc_rec_035_num: (OCoLC)318102182
-Institution ID: UaCaAUL_b13999515
-Record 999:  UaCaAUL_b13999515 (OCoLC)ocn318102182
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-090 call number: KBP440.25.B39 A36 1951
-Source entities (book IDs): auc_aco000773
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn122725312
-   oclc_rec_035_num: (OCoLC)122725312
-Institution ID: UaCaAUL_b12501840
-Record 999:  UaCaAUL_b12501840 (OCoLC)ocn122725312
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: HD2956 .I42x 1954
-Source entities (book IDs): auc_aco000626
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm72655107 
-   oclc_rec_035_num: (OCoLC)72655107
-Institution ID: UaCaAUL_b13810935
-Record 999:  UaCaAUL_b13810935 (OCoLC)ocm72655107
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-090 call number: G440 .D8
-Source entities (book IDs): auc_aco000676
----------------------------------------------------------------------
-OCLC ID: (OCoLC)on1109386676
-   oclc_rec_035_num: (OCoLC)1109386676
-Institution ID: UaCaAUL_b11526932
-Record 999:  UaCaAUL_b11526932 (OCoLC)on1109386676
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7696.N25 Z56x 1949
-Source entities (book IDs): auc_aco001024
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm11853213 
-   oclc_rec_035_num: (OCoLC)11853213
-Institution ID: UaCaAUL_b27159735
-Record 999:  UaCaAUL_b27159735 (OCoLC)ocm11853213
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   240 - Economic organization of Palestine. Arabic
-   810 - American University of Beirut. Faculty of Arts and Sciences. Silsilat al-ʻulūm al-ijtimāʻīyah ; al-ḥalqah 11.
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Jāmiʻat Bayrūt al-Amīrkīyah. Manshūrāt Kullīyat al-ʻUlūm wa-al-Ādāb. Silsilat al-ʻUlūm al-Ijtimāʻīyah ; al-ḥalaqah 11
-040 $e field: rda
-RDA fields: YES
-050 call number: HC497.P2 H512
-Source entities (book IDs): auc_aco000805
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60498486 
-   oclc_rec_035_num: (OCoLC)60498486
-   oclc_rec_035_num: (OCoLC)122817519
-Institution ID: UaCaAUL_b12652830
-Institution ID: UaCaAUL_b12652830
-Record 999:  UaCaAUL_b12652830 (OCoLC)ocm60498486
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-090 call number: E168 .M9x 1913
-Source entities (book IDs): auc_aco000656
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60506532 
-   oclc_rec_035_num: (OCoLC)60506532
-Institution ID: UaCaAUL_b12590885
-Record 999:  UaCaAUL_b12590885 (OCoLC)ocm60506532
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7745.I155 M3 1951
-Source entities (book IDs): auc_aco001080
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn962957318
-   oclc_rec_035_num: (OCoLC)962957318
-Institution ID: UaCaAUL_b12412740
-Record 999:  UaCaAUL_b12412740 (OCoLC)ocn962957318
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7701.6.T35 H37x 1955
-Source entities (book IDs): auc_aco001104:v.1
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60506312 
-   oclc_rec_035_num: (OCoLC)60506312
-Institution ID: UaCaAUL_b12331272
-Record 999:  UaCaAUL_b12331272 (OCoLC)ocm60506312
-880 script fields: YES
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-04 Maktabat al-Jayb
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7515 .K45x 1922
-Source entities (book IDs): auc_aco001026:v.1, auc_aco001027:v.2, auc_aco001028:v.3, auc_aco001029:v.4, auc_aco001030:v.5, auc_aco001031:v.6, auc_aco001032:v.7, auc_aco001033:v.8, auc_aco001034:v.9, auc_aco001035:v.10, auc_aco001036:v.11
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm33857117 
-   oclc_rec_035_num: (OCoLC)33857117
-Institution ID: UaCaAUL_b12590903
-Record 999:  UaCaAUL_b12590903 (OCoLC)ocm33857117
-880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 600-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
-040 $e field: rda
-RDA fields: YES
-090 call number: PJ7745.I16 Z3x 1951
-Source entities (book IDs): auc_aco001101
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn318940671
-   oclc_rec_035_num: (OCoLC)318940671
-Institution ID: UaCaAUL_b12590897
-Record 999:  UaCaAUL_b12590897 (OCoLC)ocn318940671
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7745.I16 A17 1914
-Source entities (book IDs): auc_aco001070
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn912687478
-   oclc_rec_035_num: (OCoLC)912687478
-Institution ID: UaCaAUL_b11491541
-Record 999:  UaCaAUL_b11491541 (OCoLC)ocn912687478
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: HX811.F26 A72 1906
-Source entities (book IDs): auc_aco001058
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn318941406
-   oclc_rec_035_num: (OCoLC)318941406
-Institution ID: UaCaAUL_b13014092
-Record 999:  UaCaAUL_b13014092 (OCoLC)ocn318941406
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-090 call number: BP70 .N34 1921
-Source entities (book IDs): auc_aco000724
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60498560 
-   oclc_rec_035_num: (OCoLC)60498560
-Institution ID: UaCaAUL_b1268479x
-Record 999:  UaCaAUL_b1268479x (OCoLC)ocm60498560
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-090 call number: HN543 .B5x 1941
-Source entities (book IDs): auc_aco000815
----------------------------------------------------------------------
-OCLC ID: (OCoLC)on1084725304
-   oclc_rec_035_num: (OCoLC)1084725304
-Institution ID: UaCaAUL_b14473367
-Record 999:  UaCaAUL_b14473367 (OCoLC)on1084725304
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: KRM40.P64 M34 1953
-Source entities (book IDs): auc_aco000871:3 v. in 1
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn318936699
-   oclc_rec_035_num: (OCoLC)318936699
-Institution ID: UaCaAUL_b11884502
-Record 999:  UaCaAUL_b11884502 (OCoLC)ocn318936699
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7700.J3 Z68
-Source entities (book IDs): auc_aco001011
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60506400 
-   oclc_rec_035_num: (OCoLC)60506400
-Institution ID: UaCaAUL_b1246031x
-Record 999:  UaCaAUL_b1246031x (OCoLC)ocm60506400
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7578 .H26 1945
-Source entities (book IDs): auc_aco001038
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm11102994 
-   oclc_rec_035_num: (OCoLC)11102994
-   oclc_rec_035_num: (OCoLC)42861487
-Institution ID: UaCaAUL_b12071687
-Institution ID: UaCaAUL_b12071687
-Record 999:  UaCaAUL_b12071687 (OCoLC)ocm11102994
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: DT107.2.A5 A3 1934
-Source entities (book IDs): auc_aco000857:v.1 , auc_aco000858:v.2 pt.1, auc_aco000859:v.2 pt.2, auc_aco000860:v.3
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm36513825 
-   oclc_rec_035_num: (OCoLC)36513825
-   oclc_rec_035_num: (OCoLC)85085918
-Institution ID: UaCaAUL_b13792799
-Record 999:  UaCaAUL_b13792799 (OCoLC)ocm36513825
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7580 .A45x 1947
-Source entities (book IDs): auc_aco000585
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm29403926 
-   oclc_rec_035_num: (OCoLC)29403926
-   oclc_rec_035_num: (OCoLC)23503059
-   oclc_rec_035_num: (OCoLC)47757041
-   oclc_rec_035_num: (OCoLC)843332054
-Institution ID: UaCaAUL_b13954891
-Institution ID: UaCaAUL_b13954891
-Institution ID: UaCaAUL_b13954891
-Institution ID: UaCaAUL_b13954891
-Record 999:  UaCaAUL_b13954891 (OCoLC)ocm29403926
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: KBP295 .A76 1954
-Source entities (book IDs): auc_aco000813:v.1
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm85102895 
-   oclc_rec_035_num: (OCoLC)85102895
-Institution ID: UaCaAUL_b13693876
-Record 999:  UaCaAUL_b13693876 (OCoLC)ocm85102895
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-090 call number: BP136.74 .K497 1932
-Source entities (book IDs): auc_aco000660:v.1-2
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm32582928 
-   oclc_rec_035_num: (OCoLC)32582928
-   oclc_rec_035_num: (OCoLC)79273249
-   oclc_rec_035_num: (OCoLC)1033928644
-Institution ID: UaCaAUL_b12510063
-Institution ID: UaCaAUL_b12510063
-Institution ID: UaCaAUL_b12510063
-Record 999:  UaCaAUL_b12510063 (OCoLC)ocm32582928
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-090 call number: PJ7694.A3 M76 1938
-Source entities (book IDs): auc_aco001102
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm33860996 
-   oclc_rec_035_num: (OCoLC)33860996
-Institution ID: UaCaAUL_b12766720
-Record 999:  UaCaAUL_b12766720 (OCoLC)ocm33860996
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7805.I26 A5
-Source entities (book IDs): auc_aco000640
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm33924412 
-   oclc_rec_035_num: (OCoLC)33924412
-Institution ID: UaCaAUL_b1200344x
-Record 999:  UaCaAUL_b1200344x (OCoLC)ocm33924412
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ6161 .S54 1945
-Source entities (book IDs): auc_aco000917
----------------------------------------------------------------------
-OCLC ID: (OCoLC)on1112129450
-   oclc_rec_035_num: (OCoLC)1112129450
-Institution ID: UaCaAUL_b12613575
-Record 999:  UaCaAUL_b12613575 (OCoLC)on1112129450
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   710 - Mansuri Collection (Library of Congress) DLC
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7750.A25 S335 1906
-Source entities (book IDs): auc_aco001075:2v. In 1
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn318937902
-   oclc_rec_035_num: (OCoLC)318937902
-Institution ID: UaCaAUL_b12085431
-Record 999:  UaCaAUL_b12085431 (OCoLC)ocn318937902
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   710 - Egypt. Wizārat al-Maʻārif al-ʻUmūmīyah.
-040 $e field: rda
-RDA fields: YES
-090 call number: PJ6071 .F3x 1908
-Source entities (book IDs): auc_aco001049:v.2
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm85059981 
-   oclc_rec_035_num: (OCoLC)85059981
-Institution ID: UaCaAUL_b12104498
-Record 999:  UaCaAUL_b12104498 (OCoLC)ocm85059981
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - Bayrūt : Maṭbaʻat ʼal-Qiddīs Jāwurjiyūs, 1886.
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ6075 .Z37 1886
-Source entities (book IDs): auc_aco000926
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60506293 
-   oclc_rec_035_num: (OCoLC)60506293
-Institution ID: UaCaAUL_b12317287
-Record 999:  UaCaAUL_b12317287 (OCoLC)ocm60506293
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7507 .I8 1955
-Source entities (book IDs): auc_aco000951
----------------------------------------------------------------------
-OCLC ID: (OCoLC)on1059426978
-   oclc_rec_035_num: (OCoLC)1059426978
-Institution ID: UaCaAUL_b27990539
-Record 999:  UaCaAUL_b27990539 (OCoLC)on1059426978
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-090 call number: PJ7810.F5 M87 1933
-Source entities (book IDs): auc_aco000707
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60506122 
-   oclc_rec_035_num: (OCoLC)60506122
-Institution ID: UaCaAUL_b12115873
-Record 999:  UaCaAUL_b12115873 (OCoLC)ocm60506122
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ6075 A9 1952
-Source entities (book IDs): auc_aco000883
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60506183 
-   oclc_rec_035_num: (OCoLC)60506183
-Institution ID: UaCaAUL_b1217340x
-Record 999:  UaCaAUL_b1217340x (OCoLC)ocm60506183
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7741.B3 Z9x 1951
-Source entities (book IDs): auc_aco001069
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn956970348
-   oclc_rec_035_num: (OCoLC)956970348
-Institution ID: UaCaAUL_b14416840
-Record 999:  UaCaAUL_b14416840 (OCoLC)ocn956970348
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: BP188.14.H8 S27 1948
-Source entities (book IDs): auc_aco000984
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm42588149 
-   oclc_rec_035_num: (OCoLC)42588149
-Institution ID: UaCaAUL_b13760786
-Record 999:  UaCaAUL_b13760786 (OCoLC)ocm42588149
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   260 - al-Qāhirah : Asʻad Darābzūnī al-Ḥusaynī : Yuṭlabu min al-Maktabah al-Tijārīyah al-Kubrá, [196-]
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-040 $e field: [none]
-RDA fields: YES
-050 call number: DS248.M5 A23 1960z
-Source entities (book IDs): auc_aco000709
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn318939990
-   oclc_rec_035_num: (OCoLC)318939990
-Institution ID: UaCaAUL_b12585531
-Record 999:  UaCaAUL_b12585531 (OCoLC)ocn318939990
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: HN786 .T4125 1955
-Source entities (book IDs): auc_aco000781
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm37324314 
-   oclc_rec_035_num: (OCoLC)37324314
-Institution ID: UaCaAUL_b12399577
-Record 999:  UaCaAUL_b12399577 (OCoLC)ocm37324314
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7541 .I3197 1926
-Source entities (book IDs): auc_aco000991
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm22755300 
-   oclc_rec_035_num: (OCoLC)22755300
-Institution ID: UaCaAUL_b12216409
-Record 999:  UaCaAUL_b12216409 (OCoLC)ocm22755300
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ6190 .Y3 1904
-Source entities (book IDs): auc_aco000937:2 v. in 1
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm67310806 
-   oclc_rec_035_num: (OCoLC)67310806
-Institution ID: UaCaAUL_b13180538
-Record 999:  UaCaAUL_b13180538 (OCoLC)ocm67310806
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-090 call number: KRM1270 .M258 1954
-Source entities (book IDs): auc_aco000837
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn318938717
-   oclc_rec_035_num: (OCoLC)318938717
-   oclc_rec_035_num: (OCoLC)79764608
-Institution ID: UaCaAUL_b12148076
-Institution ID: UaCaAUL_b12148076
-Record 999:  UaCaAUL_b12148076 (OCoLC)ocn318938717
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7745.A2 Z8 1953
-Source entities (book IDs): auc_aco001065
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm49693002 
-   oclc_rec_035_num: (OCoLC)49693002
-Institution ID: UaCaAUL_b12114224
-Record 999:  UaCaAUL_b12114224 (OCoLC)ocm49693002
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-090 call number: PJ6106 .A8 1887
-Source entities (book IDs): auc_aco000919
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm43185049 
-   oclc_rec_035_num: (OCoLC)43185049
-Institution ID: UaCaAUL_b12329976
-Record 999:  UaCaAUL_b12329976 (OCoLC)ocm43185049
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7515 .F3 1941
-Source entities (book IDs): auc_aco001055
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23503332 
-   oclc_rec_035_num: (OCoLC)23503332
-Institution ID: UaCaAUL_b12331284
-Record 999:  UaCaAUL_b12331284 (OCoLC)ocm23503332
+OCLC ID: (OCoLC)ocm75087419 
+   oclc_rec_035_num: (OCoLC)75087419
+Institution ID: UaCaAUL_b1383583x
+Record 999:  UaCaAUL_b1383583x (OCoLC)ocm75087419 auc_aco000606
 880 script fields: YES
 040 $e field: [none]
 RDA fields: YES
-050 call number: PJ7675 .K96 1913
-Source entities (book IDs): auc_aco000998
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm42898995 
-   oclc_rec_035_num: (OCoLC)42898995
-Institution ID: UaCaAUL_b12537184
-Record 999:  UaCaAUL_b12537184 (OCoLC)ocm42898995
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   264 - [Cairo] : [Publisher not identified], 1949.
-040 $e field: rda
-RDA fields: YES
-090 call number: HV443 .Q8x 1949
-Source entities (book IDs): auc_aco000764
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm28812012 
-   oclc_rec_035_num: (OCoLC)28812012
-Institution ID: UaCaAUL_b11749386
-Record 999:  UaCaAUL_b11749386 (OCoLC)ocm28812012
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7696.Z8 A17 1944
-Source entities (book IDs): auc_aco001098
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60498480 
-   oclc_rec_035_num: (OCoLC)60498480
-Institution ID: UaCaAUL_b12652301
-Record 999:  UaCaAUL_b12652301 (OCoLC)ocm60498480
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-090 call number: HA29 .S558 1948
-Source entities (book IDs): auc_aco000623:v.1, auc_aco000624:v.2
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn122987048
-   oclc_rec_035_num: (OCoLC)122987048
-Institution ID: UaCaAUL_b12726424
-Record 999:  UaCaAUL_b12726424 (OCoLC)ocn122987048
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: LB1051 .K4 1939
-Source entities (book IDs): auc_aco001048
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm22068093 
-   oclc_rec_035_num: (OCoLC)22068093
-Institution ID: UaCaAUL_b12510518
-Record 999:  UaCaAUL_b12510518 (OCoLC)ocm22068093
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-050 call number: PJ7695.8 .Z56x
-Source entities (book IDs): auc_aco001067
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm67308170 
-   oclc_rec_035_num: (OCoLC)67308170
-   oclc_rec_035_num: (OCoLC)9752746
-Institution ID: UaCaAUL_b12315230
-Record 999:  UaCaAUL_b12315230 (OCoLC)ocm67308170
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7510 .S23 1950
-Source entities (book IDs): auc_aco001103:2 v. In 1
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn122725349
-   oclc_rec_035_num: (OCoLC)122725349
-Institution ID: UaCaAUL_b12410032
-Record 999:  UaCaAUL_b12410032 (OCoLC)ocn122725349
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: HB180.A7 A67 1953
-Source entities (book IDs): auc_aco000633
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm22875521 
-   oclc_rec_035_num: (OCoLC)22875521
-Institution ID: UaCaAUL_b14533716
-Record 999:  UaCaAUL_b14533716 (OCoLC)ocm22875521
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   700 - Muṣṭafá, Sayyid.
-040 $e field: rda
-RDA fields: YES
-090 call number: KRM15 .M87 1923
-Source entities (book IDs): auc_aco000853
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm16943627 
-   oclc_rec_035_num: (OCoLC)16943627
-Institution ID: UaCaAUL_b11845247
-Record 999:  UaCaAUL_b11845247 (OCoLC)ocm16943627
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7515 .T32 1936
-Source entities (book IDs): auc_aco000997
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm40972900 
-   oclc_rec_035_num: (OCoLC)40972900
-Institution ID: UaCaAUL_b12665836
-Record 999:  UaCaAUL_b12665836 (OCoLC)ocm40972900
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: CT203 .M972
-Source entities (book IDs): auc_aco000723
+ERROR-MISC: No 050 or 090 call number
+Source entities (book IDs): auc_aco000606
 ---------------------------------------------------------------------
 OCLC ID: (OCoLC)ocn122722755
    oclc_rec_035_num: (OCoLC)122722755
 Institution ID: UaCaAUL_b12160696
-Record 999:  UaCaAUL_b12160696 (OCoLC)ocn122722755
+Record 999:  UaCaAUL_b12160696 (OCoLC)ocn122722755 auc_aco000825
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - History of Egypt from the earliest times to the Persian conquest. Arabic. 1929
@@ -926,397 +185,25 @@ RDA fields: YES
 050 call number: DT83 .B74125 1929
 Source entities (book IDs): auc_aco000825
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn123004680
-   oclc_rec_035_num: (OCoLC)123004680
-Institution ID: UaCaAUL_b12287064
-Record 999:  UaCaAUL_b12287064 (OCoLC)ocn123004680
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-090 call number: BP189.7.Q32 A34 1904
-Source entities (book IDs): auc_aco000739:2 v. in 1
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm32577268 
-   oclc_rec_035_num: (OCoLC)32577268
-Institution ID: UaCaAUL_b12150745
-Record 999:  UaCaAUL_b12150745 (OCoLC)ocm32577268
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ6131 .M85 1929
-Source entities (book IDs): auc_aco000923
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm61737877 
-   oclc_rec_035_num: (OCoLC)61737877
-Institution ID: UaCaAUL_b14521921
-Record 999:  UaCaAUL_b14521921 (OCoLC)ocm61737877
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: KBP440.62.S53 A34 1940
-Source entities (book IDs): auc_aco000798
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm80050527 
-   oclc_rec_035_num: (OCoLC)80050527
-Institution ID: UaCaAUL_b12613629
-Record 999:  UaCaAUL_b12613629 (OCoLC)ocm80050527
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7750.A25 Z3x 1925
-Source entities (book IDs): auc_aco001059
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm75087419 
-   oclc_rec_035_num: (OCoLC)75087419
-Institution ID: UaCaAUL_b1383583x
-Record 999:  UaCaAUL_b1383583x (OCoLC)ocm75087419
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-ERROR-MISC: No 050 or 090 call number
-Source entities (book IDs): auc_aco000606
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn249576541
-   oclc_rec_035_num: (OCoLC)249576541
-Institution ID: UaCaAUL_b13242350
-Record 999:  UaCaAUL_b13242350 (OCoLC)ocn249576541
+OCLC ID: (OCoLC)ocm42898995 
+   oclc_rec_035_num: (OCoLC)42898995
+Institution ID: UaCaAUL_b12537184
+Record 999:  UaCaAUL_b12537184 (OCoLC)ocm42898995 auc_aco000764
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   700 - Jouvenel, Henry de, 1876-1935.
+   264 - [Cairo] : [Publisher not identified], 1949.
 040 $e field: rda
 RDA fields: YES
-050 call number: DS98.13.J68 A4
-Source entities (book IDs): auc_aco001081
+090 call number: HV443 .Q8x 1949
+Source entities (book IDs): auc_aco000764
 ---------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn264908193
-   oclc_rec_035_num: (OCoLC)264908193
-Institution ID: UaCaAUL_b13942232
-Record 999:  UaCaAUL_b13942232 (OCoLC)ocn264908193
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-090 call number: KBP3670 .A289 1927
-Source entities (book IDs): auc_aco000943
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60506519 
-   oclc_rec_035_num: (OCoLC)60506519
-Institution ID: UaCaAUL_b12568557
-Record 999:  UaCaAUL_b12568557 (OCoLC)ocm60506519
+OCLC ID: (OCoLC)ocm85059981 
+   oclc_rec_035_num: (OCoLC)85059981
+Institution ID: UaCaAUL_b12104498
+Record 999:  UaCaAUL_b12104498 (OCoLC)ocm85059981 auc_aco000926
 880 script fields: YES
 040 $e field: rda
 RDA fields: YES
-050 call number: PJ7741.A7 Z75 1955
-Source entities (book IDs): auc_aco001099
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm37963368 
-   oclc_rec_035_num: (OCoLC)37963368
-Institution ID: UaCaAUL_b12076703
-Record 999:  UaCaAUL_b12076703 (OCoLC)ocm37963368
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ6101.I23 I2 1902
-Source entities (book IDs): auc_aco000892
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60498437 
-   oclc_rec_035_num: (OCoLC)60498437
-Institution ID: UaCaAUL_b12621171
-Record 999:  UaCaAUL_b12621171 (OCoLC)ocm60498437
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-090 call number: JA81 .N36 1952
-Source entities (book IDs): auc_aco000827
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm19116462 
-   oclc_rec_035_num: (OCoLC)19116462
-Institution ID: UaCaAUL_b12216513
-Record 999:  UaCaAUL_b12216513 (OCoLC)ocm19116462
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-050 call number: PJ7814 .Q6 1921
-Source entities (book IDs): auc_aco000970:v.1
----------------------------------------------------------------------
-OCLC ID: (OCoLC)on1079749936
-   oclc_rec_035_num: (OCoLC)1079749936
-Institution ID: UaCaAUL_b14497724
-Record 999:  UaCaAUL_b14497724 (OCoLC)on1079749936
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-090 call number: KJA147 .H34 1951
-Source entities (book IDs): auc_aco000787
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn249366764
-   oclc_rec_035_num: (OCoLC)249366764
-   oclc_rec_035_num: (OCoLC)318936669
-Institution ID: UaCaAUL_b11840870
-Institution ID: UaCaAUL_b11840870
-Record 999:  UaCaAUL_b11840870 (OCoLC)ocn249366764
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7641.A2 B8 1929
-Source entities (book IDs): auc_aco001085
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60506573 
-   oclc_rec_035_num: (OCoLC)60506573
-Institution ID: UaCaAUL_b12626375
-Record 999:  UaCaAUL_b12626375 (OCoLC)ocm60506573
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7701.6.T35 A17 1879
-Source entities (book IDs): auc_aco000993:v.1-4
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60506574 
-   oclc_rec_035_num: (OCoLC)60506574
-Institution ID: UaCaAUL_b12626387
-Record 999:  UaCaAUL_b12626387 (OCoLC)ocm60506574
-880 script fields: YES
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 ʻIqd al-Farīd ; 29
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7745.I15 T3x 1953
-Source entities (book IDs): auc_aco001072
----------------------------------------------------------------------
-OCLC ID: (OCoLC)on1112662444
-   oclc_rec_035_num: (OCoLC)1112662444
-Institution ID: UaCaAUL_b12034952
-Record 999:  UaCaAUL_b12034952 (OCoLC)on1112662444
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7750.A25 Z59 1944
-Source entities (book IDs): auc_aco001074
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60499217 
-   oclc_rec_035_num: (OCoLC)60499217
-Institution ID: UaCaAUL_b13201323
-Record 999:  UaCaAUL_b13201323 (OCoLC)ocm60499217
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: GT99 .W3x
-Source entities (book IDs): auc_aco000572:v.1, auc_aco000573:v.2
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm33995842 
-   oclc_rec_035_num: (OCoLC)33995842
-Institution ID: UaCaAUL_b14412238
-Record 999:  UaCaAUL_b14412238 (OCoLC)ocm33995842
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Resumen de la memoria presentada ante esta junta por D. Cesar L. Montalbán referente a los trabajos efectuados en el año 1939 en las ruinas de Ad-Mercuri y Tabernes (región occidental)
-ERROR-SERIES: There are 490 fields that are missing a corresponding 8XX field
-ERROR-SERIES: This 490 field needs traced (1st indicator is 0): 880-05 Ḥimāyah al-Isbānīyah bi-al-Maghrib : Majlis al-Aʻlá lil-Āthār al-Tārīkhīyah wa-al-Fannīyah ; raqm 1
-040 $e field: rda
-RDA fields: YES
-050 call number: DT311 .M6 1940
-Source entities (book IDs): auc_aco000610
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm44102394 
-   oclc_rec_035_num: (OCoLC)44102394
-Institution ID: UaCaAUL_b11740553
-Record 999:  UaCaAUL_b11740553 (OCoLC)ocm44102394
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ6172 .M3 1947
-Source entities (book IDs): auc_aco000930
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm32577276 
-   oclc_rec_035_num: (OCoLC)32577276
-Institution ID: UaCaAUL_b12188906
-Record 999:  UaCaAUL_b12188906 (OCoLC)ocm32577276
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ6696.M78 T53 1914
-Source entities (book IDs): auc_aco001061:v.1, auc_aco001062:v.2, auc_aco001063:v.3
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm40973886 
-   oclc_rec_035_num: (OCoLC)40973886
-Institution ID: UaCaAUL_b11773212
-Record 999:  UaCaAUL_b11773212 (OCoLC)ocm40973886
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   245 - al-Jāḥiẓ : muʻallim al-ʻaql wa-al-adab / Shafīq Jabrī.
-ERROR-880: Unlinked 880s: YES
-   880 $6 245-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7745.J3 Z76 1948
-Source entities (book IDs): auc_aco001100
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn843856089
-   oclc_rec_035_num: (OCoLC)843856089
-   oclc_rec_035_num: (OCoLC)19120773
-Institution ID: UaCaAUL_b14395459
-Record 999:  UaCaAUL_b14395459 (OCoLC)ocn843856089
-880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 260-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-040 $e field: rda
-RDA fields: YES
-050 call number: KBP310.B323 A36 1920
-Source entities (book IDs): auc_aco000687
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60506362 
-   oclc_rec_035_num: (OCoLC)60506362
-Institution ID: UaCaAUL_b12384999
-Record 999:  UaCaAUL_b12384999 (OCoLC)ocm60506362
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ6680 .K43x 1907
-Source entities (book IDs): auc_aco000944
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60506078 
-   oclc_rec_035_num: (OCoLC)60506078
-Institution ID: UaCaAUL_b12088213
-Record 999:  UaCaAUL_b12088213 (OCoLC)ocm60506078
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ6074 M88
-Source entities (book IDs): auc_aco000938
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm38960453 
-   oclc_rec_035_num: (OCoLC)38960453
-   oclc_rec_035_num: (OCoLC)29774745
-Institution ID: UaCaAUL_b13082309
-Institution ID: UaCaAUL_b13082309
-Record 999:  UaCaAUL_b13082309 (OCoLC)ocm38960453
-880 script fields: YES
-040 $e field: [none]
-RDA fields: YES
-050 call number: LA1491 .M878 1950
-Source entities (book IDs): auc_aco001064
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn122797370
-   oclc_rec_035_num: (OCoLC)122797370
-Institution ID: UaCaAUL_b13344705
-Record 999:  UaCaAUL_b13344705 (OCoLC)ocn122797370
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: P121 .W16 1950
-Source entities (book IDs): auc_aco000840
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm23490661 
-   oclc_rec_035_num: (OCoLC)23490661
-Institution ID: UaCaAUL_b12169262
-Record 999:  UaCaAUL_b12169262 (OCoLC)ocm23490661
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: DT80 .T35 1945
-Source entities (book IDs): auc_aco000600
----------------------------------------------------------------------
-OCLC ID: (OCoLC)on1112477200
-   oclc_rec_035_num: (OCoLC)1112477200
-Institution ID: UaCaAUL_b14015869
-Record 999:  UaCaAUL_b14015869 (OCoLC)on1112477200
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: BP75.5 .R3 1954
-Source entities (book IDs): auc_aco001060
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm61210482 
-   oclc_rec_035_num: (OCoLC)61210482
-Institution ID: UaCaAUL_b12090001
-Record 999:  UaCaAUL_b12090001 (OCoLC)ocm61210482
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-090 call number: PJ6074 .I2 1946
-Source entities (book IDs): auc_aco000956
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm62685824 
-   oclc_rec_035_num: (OCoLC)62685824
-Institution ID: UaCaAUL_b14530375
-Record 999:  UaCaAUL_b14530375 (OCoLC)ocm62685824
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Matn al-Qudūrī
-   246 - Matn al-Qaddūrī
-040 $e field: rda
-RDA fields: YES
-050 call number: KBP300.A272 I234 1948
-Source entities (book IDs): auc_aco000823
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm40975601 
-   oclc_rec_035_num: (OCoLC)40975601
-Institution ID: UaCaAUL_b12189042
-Record 999:  UaCaAUL_b12189042 (OCoLC)ocm40975601
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ6161 .S54 1939
-Source entities (book IDs): auc_aco000927
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn940530015
-   oclc_rec_035_num: (OCoLC)940530015
-Institution ID: UaCaAUL_b13953825
-Record 999:  UaCaAUL_b13953825 (OCoLC)ocn940530015
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: LC31 .M8 1947
-Source entities (book IDs): auc_aco000957
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm42517875 
-   oclc_rec_035_num: (OCoLC)42517875
-Institution ID: UaCaAUL_b11900805
-Record 999:  UaCaAUL_b11900805 (OCoLC)ocm42517875
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7852.A625 A79 1869
-Source entities (book IDs): auc_aco000992
----------------------------------------------------------------------
-OCLC ID: (OCoLC)on1107638614
-   oclc_rec_035_num: (OCoLC)1107638614
-Institution ID: UaCaAUL_b12682871
-Record 999:  UaCaAUL_b12682871 (OCoLC)on1107638614
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ7530 .B29x 1937 
-Source entities (book IDs): auc_aco001073
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm35725694 
-   oclc_rec_035_num: (OCoLC)35725694
-Institution ID: UaCaAUL_b13305256
-Record 999:  UaCaAUL_b13305256 (OCoLC)ocm35725694
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: PJ6101.I163 K32x 1865
-Source entities (book IDs): auc_aco000885
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocn318939383
-   oclc_rec_035_num: (OCoLC)318939383
-Institution ID: UaCaAUL_b12396400
-Record 999:  UaCaAUL_b12396400 (OCoLC)ocn318939383
-880 script fields: YES
-040 $e field: rda
-RDA fields: YES
-050 call number: DT77 .M9x 1949
-Source entities (book IDs): auc_aco000615
----------------------------------------------------------------------
-OCLC ID: (OCoLC)ocm60498452 
-   oclc_rec_035_num: (OCoLC)60498452
-Institution ID: UaCaAUL_b12638791
-Record 999:  UaCaAUL_b12638791 (OCoLC)ocm60498452
-880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   246 - Title on p. 4 of cover: Post system in Moslem State
-040 $e field: [none]
-RDA fields: YES
-090 call number: HE7316 .S3x 1953
-Source entities (book IDs): auc_aco000705
+050 call number: PJ6075 .Z37 1886
+Source entities (book IDs): auc_aco000926
 ---------------------------------------------------------------------

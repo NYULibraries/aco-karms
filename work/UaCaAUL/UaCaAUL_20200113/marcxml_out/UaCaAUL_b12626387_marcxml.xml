@@ -5,7 +5,7 @@
 	<controlfield tag="003">UaCaAUL</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">200122s1953    le      o     000 0 ara d</controlfield>
+	<controlfield tag="008">200214s1953    le      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -52,7 +52,7 @@
 		<subfield code="a">online resource</subfield>
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="490">
+	<datafield ind1="1" ind2=" " tag="490">
 		<subfield code="6">880-05</subfield>
 		<subfield code="a">ʻIqd al-Farīd ;</subfield>
 		<subfield code="v">29</subfield>
@@ -118,12 +118,17 @@
 		<subfield code="w">(UaCaAUL)b12626387</subfield>
 		<subfield code="w">(OCoLC)60506574</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="830">
+		<subfield code="6">880-08</subfield>
+		<subfield code="a">ʻIqd al-Farīd ;</subfield>
+		<subfield code="v">29.</subfield>
+	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/69p8d7qk</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01</subfield>
-		<subfield code="a">ابن عبد ربه أحمد بن محمد،,</subfield>
+		<subfield code="a">ابن عبد ربه أحمد بن محمد،</subfield>
 		<subfield code="d">940-860.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -142,7 +147,7 @@
 		<subfield code="b">مكتبة صادر،</subfield>
 		<subfield code="c">1953.</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
+	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">490-05</subfield>
 		<subfield code="a">عقد الفريد ؛</subfield>
 		<subfield code="v">29</subfield>
@@ -157,6 +162,11 @@
 		<subfield code="d">860-940.</subfield>
 		<subfield code="t">عقد الفريد.</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">830-08</subfield>
+		<subfield code="a">عقد الفريد ؛</subfield>
+		<subfield code="v">29. </subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -167,8 +177,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">UaCaAUL_b12626387</subfield>
-		<subfield code="o">(OCoLC)ocm60506574 </subfield>
+		<subfield code="o">(OCoLC)ocm60506574</subfield>
 		<subfield code="s">auc_aco001072</subfield>
 		<subfield code="e">(ERROR-SERIES)</subfield>
+		<subfield code="s">auc_aco001072</subfield>
 	</datafield>
 </record>
