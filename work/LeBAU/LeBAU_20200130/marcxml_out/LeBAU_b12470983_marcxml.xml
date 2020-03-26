@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">200219q1928    ua      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">200325q1928    ua      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -21,7 +21,7 @@
 		<subfield code="a">Dana, C. M.,</subfield>
 		<subfield code="e">author.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Ṭarāʼif fī hijāʼ al-lughah al-Inkilīzīyah /</subfield>
 		<subfield code="c">taʼlīf S. M. Dānā = Rules of English Orthography / by C. M. Dana.</subfield>
@@ -52,9 +52,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;قواعد جديدة لا عهد لكتب الهجاء بها قبل الآن، تجمع بين الطلاوة والسهولة وجزالة الفائدة، ولا غنى عنها لمتعلم وطالب.&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -64,14 +61,8 @@
 		<subfield code="d">2020.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="546">
-		<subfield code="a">النص بالعربية والإنجليزية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">اللغة الإنجليزية</subfield>
-		<subfield code="x">الإملاء وضبط التهجئة.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">English language</subfield>
 		<subfield code="x">Orthography and spelling.</subfield>
 	</datafield>
@@ -93,13 +84,13 @@
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">دانا، س. م.،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
+	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">245-02</subfield>
 		<subfield code="a">الطرائف في هجاء اللغة الإنكليزية /</subfield>
-		<subfield code="c">تأليف س. م. دانا = Rules of English Orthography / by C. M. Dana. </subfield>
+		<subfield code="c">تأليف س. م. دانا = Rules of English Orthography / by C. M. Dana.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
 		<subfield code="6">264-03</subfield>
@@ -111,6 +102,19 @@
 		<subfield code="6">300-04</subfield>
 		<subfield code="a">86 صفحة ؛</subfield>
 		<subfield code="c">22 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;قواعد جديدة لا عهد لكتب الهجاء بها قبل الآن، تجمع بين الطلاوة والسهولة وجزالة الفائدة، ولا غنى عنها لمتعلم وطالب.&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">546-00</subfield>
+		<subfield code="a">النص بالعربية والإنجليزية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">اللغة الإنجليزية</subfield>
+		<subfield code="x">الإملاء وضبط التهجئة.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -124,5 +128,6 @@
 		<subfield code="i">LeBAU_b12470983</subfield>
 		<subfield code="s">aub_aco003323:</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco003323:</subfield>
 	</datafield>
 </record>
