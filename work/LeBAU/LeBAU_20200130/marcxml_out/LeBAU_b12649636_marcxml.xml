@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">200219s1941    ua      ob    ||0 0 ara d</controlfield>
+	<controlfield tag="008">200325s1941    ua      ob    ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -26,7 +26,7 @@
 		<subfield code="b">Maṣlaḥat al-Misāḥah,</subfield>
 		<subfield code="e">Issuing body.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Dalīl al-jughrāfī li-asmāʼ al-mudun wa-al-nawāḥī al-Miṣrīyah al-muʻtabarah wiḥdah ʻaqārīyah li-ḥaṣr al-arāḍī wa taḥṣīl al-amwāl al-muqarrarah /</subfield>
 		<subfield code="c">Wizārat al-Mālīyah, Maṣlaḥat al-Misāḥah.</subfield>
@@ -56,9 +56,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -66,25 +63,14 @@
 		<subfield code="d">2020.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="546">
-		<subfield code="a">النص بالعربية؛ مع مصطلحات باللاتينية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الأسماء الجغرافية</subfield>
-		<subfield code="z">مصر</subfield>
-		<subfield code="v">أدلة.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">المدن والحواضر</subfield>
-		<subfield code="z">مصر</subfield>
-		<subfield code="v">أدلة.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Names, Geographical</subfield>
 		<subfield code="z">Egypt</subfield>
 		<subfield code="v">Directories.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Cities and towns</subfield>
 		<subfield code="z">Egypt</subfield>
 		<subfield code="v">Directories.</subfield>
@@ -108,10 +94,10 @@
 		<subfield code="6">110-01</subfield>
 		<subfield code="a">مصر.</subfield>
 		<subfield code="b">مصلحة المساحة،</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
+	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">245-02</subfield>
 		<subfield code="a">الدليل الجغرافي لأسماء المدن والنواحي المصرية المعتبرة وحدة عقارية لحصر الأراضي وتحصيل الأموال المقررة /</subfield>
 		<subfield code="c">وزارة المالية، مصلحة المساحة.</subfield>
@@ -127,6 +113,26 @@
 		<subfield code="a">ج-ف، 380 صفحة ؛</subfield>
 		<subfield code="c">25 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">546-00</subfield>
+		<subfield code="a">النص بالعربية؛ مع مصطلحات باللاتينية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">الأسماء الجغرافية</subfield>
+		<subfield code="z">مصر</subfield>
+		<subfield code="v">أدلة.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">المدن والحواضر</subfield>
+		<subfield code="z">مصر</subfield>
+		<subfield code="v">أدلة.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -139,5 +145,6 @@
 		<subfield code="i">LeBAU_b12649636</subfield>
 		<subfield code="s">aub_aco003297:</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco003297:</subfield>
 	</datafield>
 </record>
