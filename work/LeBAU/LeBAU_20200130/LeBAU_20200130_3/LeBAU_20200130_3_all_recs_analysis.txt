@@ -1,5 +1,5 @@
 Total records processed - batch LeBAU_20200130: 350 records
-Report produced: 2020-03-25 13:26:06.764445
+Report produced: 2020-03-27 11:51:08.617568
 Input File (updates): 350
 Input File (final subset): 0
 
@@ -10,7 +10,7 @@ Total records passing to final version for this round: 0 (0.0%)
 Records containing 880 script fields: 350 (100.0%)
 Records with NO 880 script fields: 0 (0.0%)
 Records missing key 880 script fields: 33 (9.4%)
-Records containing unlinked 880 script fields: 5 (1.4%)
+Records containing unlinked 880 script fields: 0 (0.0%)
 Records containing series errors in 490/800/810/811/830 fields: 0 (0.0%)
 Records containing miscellaneous errors: 350 (100.0%)
 Records containing bad encoding replacement character: 0
@@ -43,9 +43,6 @@ Institution ID: LeBAU_b12409777
    orig_rec_035 num: =035  \\$aocn784302210
 Record 999:  LeBAU_b12409777 aub_aco003160:
 880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 110-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 110-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 ERROR-MISC: No 050 or 090 call number
@@ -1618,9 +1615,6 @@ Institution ID: LeBAU_b12498592
    orig_rec_035 num: =035  \\$aocn784360781
 Record 999:  LeBAU_b12498592 aub_aco003685:v.1
 880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 100-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 100-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 ERROR-MISC: No 050 or 090 call number
@@ -1639,9 +1633,6 @@ Institution ID: LeBAU_b12499936
    orig_rec_035 num: =035  \\$aocn784361558
 Record 999:  LeBAU_b12499936 aub_aco003674:
 880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 300-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 300-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 ERROR-MISC: No 050 or 090 call number
@@ -1754,8 +1745,6 @@ Institution ID: LeBAU_b12509619
    orig_rec_035 num: =035  \\$aocn784365578
 Record 999:  LeBAU_b12509619 aub_aco003266:
 880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 600-00 - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: rda
 RDA fields: YES
 ERROR-MISC: No 050 or 090 call number
@@ -2831,9 +2820,6 @@ Institution ID: LeBAU_b12699676
    orig_rec_035 num: =035  \\$aocn784468087
 Record 999:  LeBAU_b12699676 aub_aco003707:v.1 aub_aco003708:v.2
 880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 300-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 300-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 ERROR-MISC: No 050 or 090 call number
