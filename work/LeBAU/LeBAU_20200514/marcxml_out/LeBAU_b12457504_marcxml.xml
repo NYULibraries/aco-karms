@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">200522s1952    iq      ob    ||0 0 ara d</controlfield>
+	<controlfield tag="008">200626s1952    iq      ob    ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -60,13 +60,7 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;مطبعة العالي.&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
@@ -75,24 +69,18 @@
 		<subfield code="d">2020.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">أصول المحاكمات المدنية</subfield>
-		<subfield code="z">العراق.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">أصول المحاكمات (قانون)</subfield>
-		<subfield code="z">العراق.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Civil procedure</subfield>
 		<subfield code="z">Iraq.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Procedure (Law)</subfield>
 		<subfield code="z">Iraq.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-07</subfield>
+		<subfield code="6">880-09</subfield>
 		<subfield code="a">Sāmarrāʼī, Kāmil.</subfield>
 		<subfield code="e">compiler.</subfield>
 		<subfield code="0">https://lccn.loc.gov/n2006010856 ,</subfield>
@@ -112,15 +100,15 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/dfn2zczd</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">240-02</subfield>
-		<subfield code="a">قوانين، إلخ.</subfield>
-	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">110-01</subfield>
 		<subfield code="a">العراق،</subfield>
-		<subfield code="e">هيئة اصدار. </subfield>
+		<subfield code="e">هيئة اصدار.</subfield>
 		<subfield code="4">isb.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">240-02</subfield>
+		<subfield code="a">قوانين، إلخ.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">245-03</subfield>
@@ -142,11 +130,29 @@
 		<subfield code="a">أ-ج، 125 صفحة ؛</subfield>
 		<subfield code="c">22 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;مطبعة العالي.&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">أصول المحاكمات المدنية</subfield>
+		<subfield code="z">العراق.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-08</subfield>
+		<subfield code="a">أصول المحاكمات (قانون)</subfield>
+		<subfield code="z">العراق.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-07</subfield>
+		<subfield code="6">700-09</subfield>
 		<subfield code="a">السامرائي، كامل،</subfield>
 		<subfield code="0">https://lccn.loc.gov/n2006010856 ,</subfield>
-		<subfield code="e">معد. </subfield>
+		<subfield code="e">معد.</subfield>
 		<subfield code="4">com.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -161,5 +167,6 @@
 		<subfield code="i">LeBAU_b12457504</subfield>
 		<subfield code="s">aub_aco003954:</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco003954:</subfield>
 	</datafield>
 </record>

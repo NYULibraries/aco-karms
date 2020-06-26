@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">200522s1951    ua      ob    000 0 ara d</controlfield>
+	<controlfield tag="008">200626s1951    ua      ob    000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -22,7 +22,7 @@
 		<subfield code="e">author.</subfield>
 		<subfield code="0">https://lccn.loc.gov/n84181820 ,</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Istiʻmār al-Amīrkī al-Jadīd, aw, Barnāmaj al-nuqṭah al-rābiʻah /</subfield>
 		<subfield code="c">Aḥmad Bahāʼ al-Dīn.</subfield>
@@ -60,9 +60,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -70,16 +67,12 @@
 		<subfield code="d">2020.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1="2" ind2="4" tag="610">
-		<subfield code="a">برنامج النقطة الرابعة (الولايات المتحدة)</subfield>
-	</datafield>
 	<datafield ind1="2" ind2="0" tag="610">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Point Four Program (U.S.)</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">المساعدة الإقتصادية الاميركية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Economic assistance, American.</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -101,10 +94,10 @@
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">بهاء الدين، احمد،</subfield>
 		<subfield code="0">https://lccn.loc.gov/n84181820 ,</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
+	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">245-02</subfield>
 		<subfield code="a">الإستعمار الأميركي الجديد، او، برنامج النقطة الرابعة /</subfield>
 		<subfield code="c">احمد بهاء الدين.</subfield>
@@ -128,6 +121,18 @@
 		<subfield code="a">92 صفحة ؛</subfield>
 		<subfield code="c">20 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
+	</datafield>
+	<datafield ind1="2" ind2="4" tag="880">
+		<subfield code="6">610-07</subfield>
+		<subfield code="a">برنامج النقطة الرابعة (الولايات المتحدة)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-08</subfield>
+		<subfield code="a">المساعدة الإقتصادية الاميركية.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -140,5 +145,6 @@
 		<subfield code="i">LeBAU_b12429260</subfield>
 		<subfield code="s">aub_aco003726:</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco003726:</subfield>
 	</datafield>
 </record>
