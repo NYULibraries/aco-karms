@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">200522s1934    ua      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">200626s1934    ua      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -27,7 +27,7 @@
 		<subfield code="d">-857 or 858,</subfield>
 		<subfield code="e">author.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Nawādir al-ṭibbīyah =</subfield>
 		<subfield code="b">Les axiomes médicaux de Yohanna ben Massawaïh, célèbre médecin chrétien décédé en 857 /</subfield>
@@ -61,9 +61,6 @@
 		<subfield code="a">&quot;Edité aux frais de son cousin Naoum Georges Chamaz, fondé de pouvoirs de &quot;The Delta Trading Cy&quot;.&quot;</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">يتضمن الكتاب منشورات بولس سباط بالعربية والفرنسية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -73,25 +70,17 @@
 		<subfield code="d">2020.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="546">
-		<subfield code="a">النص بالعربية؛ مع مقدمة وبعض النصوص بالفرنسية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الطب العربي.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الطب</subfield>
-		<subfield code="v">شواهد، حكم، إلخ.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Medicine, Arab.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Medicine</subfield>
 		<subfield code="v">Quotations, maxims, etc.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-04</subfield>
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Sbath, Paul,</subfield>
 		<subfield code="e">compiler.</subfield>
 	</datafield>
@@ -114,10 +103,10 @@
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">إبن ماسويه، يوحنا،</subfield>
 		<subfield code="d">-857 أو 858،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
+	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">245-02</subfield>
 		<subfield code="a">النوادر الطبية =</subfield>
 		<subfield code="b">Les axiomes médicaux de Yohanna ben Massawaïh, célèbre médecin chrétien décédé en 857 /</subfield>
@@ -128,10 +117,27 @@
 		<subfield code="a">34, VII صفحة ؛</subfield>
 		<subfield code="c">24 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">يتضمن الكتاب منشورات بولس سباط بالعربية والفرنسية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">546-00</subfield>
+		<subfield code="a">النص بالعربية؛ مع مقدمة وبعض النصوص بالفرنسية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-04</subfield>
+		<subfield code="a">الطب العربي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">الطب</subfield>
+		<subfield code="v">شواهد، حكم، إلخ.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-04</subfield>
+		<subfield code="6">700-06</subfield>
 		<subfield code="a">سباط، بولس،</subfield>
-		<subfield code="e">معد. </subfield>
+		<subfield code="e">معد.</subfield>
 		<subfield code="4">com.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -146,5 +152,6 @@
 		<subfield code="i">LeBAU_b12494951</subfield>
 		<subfield code="s">aub_aco003583:</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco003583:</subfield>
 	</datafield>
 </record>

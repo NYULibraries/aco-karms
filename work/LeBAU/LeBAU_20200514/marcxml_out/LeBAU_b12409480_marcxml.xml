@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">200522s1955    ua      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">200626s1955    ua      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -49,9 +49,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;اعرفوا الحق، ثم اتبعوه..؛ وسيجعلكم الحق أحرارا..&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -61,23 +58,16 @@
 		<subfield code="d">2020.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الديمقراطية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">القيم الإجتماعية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Democracy.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Social values.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">مصر</subfield>
-		<subfield code="x">الاحوال الاجتماعية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Egypt</subfield>
 		<subfield code="x">Social conditions.</subfield>
 	</datafield>
@@ -88,7 +78,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="775">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-08</subfield>
 		<subfield code="i">has designation of edition</subfield>
 		<subfield code="4">http://rdaregistry.info/Elements/m/P30133 :</subfield>
 		<subfield code="t">Likay lā taḥruthū fī al-baḥr.</subfield>
@@ -109,7 +99,7 @@
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">خالد، خالد محمد</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -128,8 +118,25 @@
 		<subfield code="a">228 صفحة ؛</subfield>
 		<subfield code="c">20 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;اعرفوا الحق، ثم اتبعوه..؛ وسيجعلكم الحق أحرارا..&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">الديمقراطية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">القيم الإجتماعية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-07</subfield>
+		<subfield code="a">مصر</subfield>
+		<subfield code="x">الاحوال الاجتماعية.</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="8" tag="880">
-		<subfield code="6">775-05</subfield>
+		<subfield code="6">775-08</subfield>
 		<subfield code="i">دلالة على الطبعة</subfield>
 		<subfield code="4">http://rdaregistry.info/Elements/m/P30133 :</subfield>
 		<subfield code="t">لكي لا تحرثوا في البحر.</subfield>
@@ -150,5 +157,6 @@
 		<subfield code="i">LeBAU_b12409480</subfield>
 		<subfield code="s">aub_aco003154:</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco003154:</subfield>
 	</datafield>
 </record>
