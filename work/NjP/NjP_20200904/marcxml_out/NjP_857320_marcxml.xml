@@ -5,23 +5,19 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">201130s1939    iq      o     000 0 ara d</controlfield>
-	<datafield ind1="7" ind2=" " tag="024">
-		<subfield code="a">princeton_aco003476</subfield>
-		<subfield code="2">local</subfield>
-	</datafield>
+	<controlfield tag="008">210111s1939    iq      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="a">Malakī, Muḥammad Kāẓim.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Uṣūl al-ḥadīthah fī mabāḥith al-alfāẓ</subfield>
-		<subfield code="h">[electronic resource] /</subfield>
-		<subfield code="c">taʾlīf Muḥammad Kāẓim Ṣādiq al-Malakī.</subfield>
+		<subfield code="a">al-Uṣūl al-ḥadīthah fī mabāḥith al-alfāẓ /</subfield>
+		<subfield code="c">taʼlīf Muḥammad Kāẓim Ṣādiq al-Malakī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="250">
 		<subfield code="a">al-Ṭabʻah 1.</subfield>
@@ -32,7 +28,19 @@
 		<subfield code="c">1358 [1939 or 1940]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (220 p.)</subfield>
+		<subfield code="a">online resource (220 pages)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Princeton University Libraries.</subfield>
@@ -41,12 +49,16 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2020.</subfield>
+		<subfield code="d">2021.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">Islamic law.</subfield>
-		<subfield code="0">http://id.loc.gov/authorities/subjects/sh85068454</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Islamic law.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst00979949</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
@@ -60,18 +72,10 @@
 		<subfield code="a">Malakī, Muḥammad Kāẓim.</subfield>
 		<subfield code="t">al-Uṣūl al-ḥadīthah fī mabāḥith al-alfāẓ</subfield>
 		<subfield code="w">(NjP)857320</subfield>
+		<subfield code="w">(OCoLC)29685585</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/4qrfjhs2</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="911">
-		<subfield code="a">19940120</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="912">
-		<subfield code="a">19940111000000.0</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="959">
-		<subfield code="a">2000-06-13 00:00:00 -0400</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -83,6 +87,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_857320</subfield>
+		<subfield code="o">(OCoLC)ocm29685585 </subfield>
 		<subfield code="s">princeton_aco003476:</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
 	</datafield>

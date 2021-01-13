@@ -5,14 +5,11 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">201130s1881    tu      o     000 0 ara d</controlfield>
-	<datafield ind1="7" ind2=" " tag="024">
-		<subfield code="a">princeton_aco004163</subfield>
-		<subfield code="2">local</subfield>
-	</datafield>
+	<controlfield tag="008">210111s1881    tu      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="041">
@@ -22,11 +19,9 @@
 	<datafield ind1="0" ind2=" " tag="100">
 		<subfield code="a">Ahmet Cevdet Paşa,</subfield>
 		<subfield code="d">1822-1895.</subfield>
-		<subfield code="0">http://id.loc.gov/authorities/names/n84182509</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Taqwīm al-adwār</subfield>
-		<subfield code="h">[electronic resource] :</subfield>
+		<subfield code="a">Taqwīm al-adwār.</subfield>
 		<subfield code="b">Tarjamahā min al-lughah al-Turkīyah ilā al-ʻArabīyah Ilyās Maṭar.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
@@ -35,7 +30,19 @@
 		<subfield code="c">1881.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (52 p.)</subfield>
+		<subfield code="a">online resource (52 pages)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Arabic translation of Takvim ül-edvar.</subfield>
@@ -47,7 +54,7 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2020.</subfield>
+		<subfield code="d">2021.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
@@ -58,22 +65,21 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">Ahmet Cevdet Paşa, 1822-1895.</subfield>
+		<subfield code="t">Taqwīm al-adwār.</subfield>
+		<subfield code="d">[Istanbul] Maṭbaʻat Maḥmūd Bik, 1881</subfield>
+		<subfield code="w">(OCoLC)657001433</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Ahmet Cevdet Paşa, 1822-1895. http://id.loc.gov/authorities/names/n84182509</subfield>
+		<subfield code="a">Ahmet Cevdet Paşa, 1822-1895.</subfield>
 		<subfield code="t">Taqwīm al-adwār</subfield>
 		<subfield code="w">(NjP)2786425</subfield>
-	</datafield>
-	<datafield ind1="4" ind2=" " tag="856">
-		<subfield code="u">http://hdl.handle.net/2027/njp.32101073503987</subfield>
+		<subfield code="w">(OCoLC)42824649</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/hx3ffng1</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="911">
-		<subfield code="a">20000130</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="959">
-		<subfield code="a">2000-06-08 00:00:00 -0500</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -85,6 +91,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2786425</subfield>
+		<subfield code="o">(OCoLC)ocm42824649 </subfield>
 		<subfield code="s">princeton_aco004163:</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
 	</datafield>

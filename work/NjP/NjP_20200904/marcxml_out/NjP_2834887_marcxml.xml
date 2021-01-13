@@ -5,45 +5,89 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">201130s1949    ua a    o     000 0 ara d</controlfield>
-	<datafield ind1="7" ind2=" " tag="024">
-		<subfield code="a">princeton_aco002301</subfield>
-		<subfield code="2">local</subfield>
-	</datafield>
+	<controlfield tag="008">210111s1949    ua a    ob    000 0 arard</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="043">
+		<subfield code="a">f-ua---</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">DT96.4</subfield>
+		<subfield code="b">.H113</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Ḥabashī, Ḥasan.</subfield>
 	</datafield>
-	<datafield ind1="0" ind2="3" tag="245">
-		<subfield code="a">al-Sharq al-ʻArabī bayna shaqqay al-raḥā</subfield>
-		<subfield code="h">[electronic resource] :</subfield>
-		<subfield code="b">ḥamlat al-Qiddīs Luwīs ʻalā Miṣr wa-al-Shām.</subfield>
+	<datafield ind1="1" ind2="3" tag="245">
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Sharq al-ʻArabī bayna shaqqay al-raḥā :</subfield>
+		<subfield code="b">ḥamlat al-Qiddīs Luwīs ʻalá Miṣr wa-al-Shām.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[Cairo]</subfield>
-		<subfield code="b">Dār al-Fikr al-ʻArabī</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">[Cairo] :</subfield>
+		<subfield code="b">Dār al-Fikr al-ʻArabī,</subfield>
 		<subfield code="c">[1949]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (129 p.) :</subfield>
-		<subfield code="b">illus.</subfield>
+		<subfield code="a">online resource (129 pages) :</subfield>
+		<subfield code="b">illustrations</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Princeton University Libraries.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="504">
+		<subfield code="a">Includes bibliographical references.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2020.</subfield>
+		<subfield code="d">2021.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="546">
-		<subfield code="a">In Arabic.</subfield>
+	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="a">Egypt</subfield>
+		<subfield code="x">History</subfield>
+		<subfield code="y">Invasion of Saint Louis, 1249.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">Egypt.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01208755</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="647">
+		<subfield code="a">Invasion of Egypt by Saint Louis</subfield>
+		<subfield code="c">(Egypt :</subfield>
+		<subfield code="d">1249)</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01353419</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="648">
+		<subfield code="a">1249</subfield>
+		<subfield code="2">fast</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="655">
+		<subfield code="a">History.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01411628</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
@@ -57,15 +101,25 @@
 		<subfield code="a">Ḥabashī, Ḥasan.</subfield>
 		<subfield code="t">al-Sharq al-ʻArabī bayna shaqqay al-raḥā</subfield>
 		<subfield code="w">(NjP)2834887</subfield>
+		<subfield code="w">(OCoLC)42914954</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/t76hf29t</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="911">
-		<subfield code="a">20000220</subfield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">حبشي، حسن.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="959">
-		<subfield code="a">2009-06-30 09:42:50 -0400</subfield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">الشرق العربي بين شقي الرحا :</subfield>
+		<subfield code="b">حملة القديس لويس على مصر والشام.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">دار الفكر العربي،</subfield>
+		<subfield code="c">[1949]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -77,7 +131,7 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2834887</subfield>
+		<subfield code="o">(OCoLC)ocm42914954 </subfield>
 		<subfield code="s">princeton_aco002301</subfield>
-		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
 	</datafield>
 </record>

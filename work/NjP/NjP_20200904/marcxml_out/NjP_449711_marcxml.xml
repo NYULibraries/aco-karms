@@ -5,34 +5,37 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">201130s1909    le      o     000 0 ara d</controlfield>
-	<datafield ind1="7" ind2=" " tag="024">
-		<subfield code="a">princeton_aco003402</subfield>
-		<subfield code="2">local</subfield>
-	</datafield>
+	<controlfield tag="008">210111s1909    le      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="079">
-		<subfield code="a">ocm25521407</subfield>
-	</datafield>
 	<datafield ind1="0" ind2="0" tag="245">
-		<subfield code="6">880-01</subfield>
-		<subfield code="a">Manāʼir al-ṭaqsīyāt</subfield>
-		<subfield code="h">[electronic resource] :</subfield>
+		<subfield code="a">Manāʼir al-ṭaqsīyāt :</subfield>
 		<subfield code="b">wa-huwa kitāb yaḥtawī ʻalá tansīq ḥarakāt khuddām al-khūrus fī al-quddāsāt al-iḥtifālīyah wa-al-ʻādiyah wa-ṣalawāt al-khūrus wa-al-jināzāt wa-al-rutab wa-al-ʻibādāt wa-al-ṭawāfāt /</subfield>
 		<subfield code="c">waḍaʻahu wa-ʻallaqa ḥawāshiyahu baʻḍ ābāʼ al-risālah al-Lubnānīyah al-Mārūnīyah.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">880-02</subfield>
 		<subfield code="a">[Beirut] :</subfield>
 		<subfield code="b">Buṭrus Shiblī,</subfield>
 		<subfield code="c">1909.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (272 p.)</subfield>
+		<subfield code="a">online resource (272 pages)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Princeton University Libraries.</subfield>
@@ -41,18 +44,21 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2020.</subfield>
+		<subfield code="d">2021.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1="2" ind2="0" tag="610">
-		<subfield code="a">Catholic Church</subfield>
-		<subfield code="x">Maronite rite</subfield>
-		<subfield code="x">Liturgy.</subfield>
-		<subfield code="0">http://id.loc.gov/authorities/subjects/sh97002210</subfield>
+		<subfield code="a">Catholic Church.</subfield>
+		<subfield code="b">Maronite Patriarchate of Antioch.</subfield>
+		<subfield code="b">Liturgy and ritual.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">Mass.</subfield>
-		<subfield code="0">http://id.loc.gov/authorities/subjects/sh85081846</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Mass.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01011191</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
@@ -62,30 +68,19 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Online version:</subfield>
+		<subfield code="t">Manāʼir al-ṭaqsīyāt.</subfield>
+		<subfield code="d">[Beirut] : Buṭrus Shiblī, 1909</subfield>
+		<subfield code="w">(OCoLC)780171354</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="t">Manāʼir al-ṭaqsīyāt</subfield>
 		<subfield code="w">(NjP)449711</subfield>
+		<subfield code="w">(OCoLC)25521407</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/6m9061g0</subfield>
-	</datafield>
-	<datafield ind1="0" ind2="0" tag="880">
-		<subfield code="6">245-01</subfield>
-		<subfield code="a">منائر الطقسيات :</subfield>
-		<subfield code="b">وهو كتاب يحتوي على تنسيق حركات خدام الخورس في القداسات الاحتفالية والعادية وصلوات الخورس والجنازات والرتب والعبادات والطوافات /</subfield>
-		<subfield code="c">وضعه وعلق حواشيه بعض آباء الرسالة اللبنانية المارونية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-02</subfield>
-		<subfield code="a">[بيروت] :</subfield>
-		<subfield code="b">بطرس شبلي،</subfield>
-		<subfield code="c">1909.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="911">
-		<subfield code="a">19930311</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="912">
-		<subfield code="a">19930305000000.0</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -96,10 +91,9 @@
 		<subfield code="s">01</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
-		<subfield code="a">449711</subfield>
+		<subfield code="i">NjP_449711</subfield>
+		<subfield code="o">(OCoLC)ocm25521407 </subfield>
 		<subfield code="s">princeton_aco003402:</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="959">
-		<subfield code="a">2000-06-13 00:00:00 -0400</subfield>
+		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
 	</datafield>
 </record>
