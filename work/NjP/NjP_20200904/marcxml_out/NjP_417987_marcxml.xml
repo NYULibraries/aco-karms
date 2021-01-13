@@ -5,33 +5,36 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">201130s1914    sy      o     000 0 ara d</controlfield>
-	<datafield ind1="7" ind2=" " tag="024">
-		<subfield code="a">princeton_aco003489</subfield>
-		<subfield code="2">local</subfield>
-	</datafield>
+	<controlfield tag="008">210111s1914    sy      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="079">
-		<subfield code="a">ocm80401574</subfield>
-	</datafield>
 	<datafield ind1="0" ind2="0" tag="245">
-		<subfield code="6">880-01</subfield>
-		<subfield code="a">Hādhihi risālah fī al-tawḥīd wa-al-tathlīth</subfield>
-		<subfield code="h">[electronic resource] :</subfield>
-		<subfield code="b">wa-hiya jawāb li-risālah jāʼatnī khuṣūṣan min nawāḥī Sūriyā mimman lam yuʻarrifnī nafsah = at-Tawhïd oi-ttasliss.</subfield>
+		<subfield code="a">Hādhihi risālah fī al-tawḥīd wa-al-tathlīth :</subfield>
+		<subfield code="b">wa-hiya jawāb li-risālah jāʼatnī khuṣūṣan min nawāḥī Sūriyā mimman lam yuʻarrifnī nafsah = at Tawhïd oi-ttasliss.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">880-02</subfield>
 		<subfield code="a">Ṣaydā :</subfield>
-		<subfield code="b">Maṭbaʻah al-ʻIrfān,</subfield>
+		<subfield code="b">Matbaat al-ʻIrfān,</subfield>
 		<subfield code="c">1914.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (56 p.)</subfield>
+		<subfield code="a">online resource (56 pages)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Errata slip inserted.</subfield>
@@ -43,12 +46,16 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2020.</subfield>
+		<subfield code="d">2021.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
 		<subfield code="a">Trinity.</subfield>
-		<subfield code="0">http://id.loc.gov/authorities/subjects/sh85137555</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Trinity.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01156777</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
@@ -58,40 +65,22 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="740">
-		<subfield code="6">880-03</subfield>
 		<subfield code="a">Tawhïd oi-ttasliss.</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Online version:</subfield>
+		<subfield code="t">Hādhihi risālah fī al-tawḥīd wa-al-tathlīth.</subfield>
+		<subfield code="d">Ṣaydā : Matbaat al-ʻIrfān, 1914</subfield>
+		<subfield code="w">(OCoLC)656782552</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="t">Hādhihi risālah fī al-tawḥīd wa-al-tathlīth</subfield>
 		<subfield code="w">(NjP)417987</subfield>
-	</datafield>
-	<datafield ind1="4" ind2=" " tag="856">
-		<subfield code="u">http://hdl.handle.net/2027/njp.32101016271569</subfield>
+		<subfield code="w">(OCoLC)80401574</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/rbnzsjjd</subfield>
-	</datafield>
-	<datafield ind1="0" ind2="0" tag="880">
-		<subfield code="6">245-01</subfield>
-		<subfield code="a">هذه رسالة في التوحيد والتثليث :</subfield>
-		<subfield code="b">وهي جواب لرسالة جاءتني خصوصن من نواحي سوريا ممن لم يعرفني نفسة = التوحيد تسلس.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-02</subfield>
-		<subfield code="a">صيدا :</subfield>
-		<subfield code="b">مطبعة العرفان،</subfield>
-		<subfield code="c">1914.</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">740-03</subfield>
-		<subfield code="a">التوحيد تسلس.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="911">
-		<subfield code="a">19921028</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="912">
-		<subfield code="a">19910104000000.0</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -102,10 +91,9 @@
 		<subfield code="s">01</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
-		<subfield code="a">417987</subfield>
+		<subfield code="i">NjP_417987</subfield>
+		<subfield code="o">(OCoLC)ocm80401574 </subfield>
 		<subfield code="s">princeton_aco003489:</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="959">
-		<subfield code="a">2000-06-08 00:00:00 -0400</subfield>
+		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
 	</datafield>
 </record>

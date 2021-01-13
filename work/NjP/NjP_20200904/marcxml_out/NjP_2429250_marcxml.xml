@@ -5,46 +5,47 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">201130s1958    sy      ob    000 0 ara d</controlfield>
-	<datafield ind1="7" ind2=" " tag="024">
-		<subfield code="a">princeton_aco004123</subfield>
-		<subfield code="2">local</subfield>
-	</datafield>
+	<controlfield tag="008">210111s1958    ua      ob    000 0 arard</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
+		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="043">
-		<subfield code="a">a-le---</subfield>
 		<subfield code="a">a-sy---</subfield>
+		<subfield code="a">a-le---</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="050">
+		<subfield code="a">HG3258</subfield>
+		<subfield code="b">.M87 1958</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="6">880-01</subfield>
-		<subfield code="a">Mursī, Fuʼād,</subfield>
-		<subfield code="d">1925-1990.</subfield>
-		<subfield code="0">http://id.loc.gov/authorities/names/n81056914</subfield>
+		<subfield code="a">Mursī, Fuʻād.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="6">880-02</subfield>
-		<subfield code="a">Muḥāḍarāt ʻan al-nuqūd wa-al-bunūk fī al-bilād al-ʻArabīyah</subfield>
-		<subfield code="h">[electronic resource] :</subfield>
-		<subfield code="b">Sūriyā wa-Lubnān /</subfield>
-		<subfield code="c">alqāhā Fuʼād Mursī.</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="246">
-		<subfield code="6">880-03</subfield>
-		<subfield code="i">Title on half-t.p.:</subfield>
-		<subfield code="a">Nuqūd wa-al-bunūk fī al-bilād al-ʻArabīyah</subfield>
+		<subfield code="a">Muḥāḍarāt ʻan al-nuqūd wa-al-bunūk fī al-bilʻad al-ʻArabīyah, Sūrīyah wa-Lubān /</subfield>
+		<subfield code="c">alqāhā Fuʻād Mursī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">880-04</subfield>
 		<subfield code="a">[Cairo] :</subfield>
-		<subfield code="b">Jāmiʻat al-Duwal al-ʻArabīyah, Maʻhad al-Dirāsāt al-ʻĀlīyah,</subfield>
+		<subfield code="b">Jāmiʻat al-Duwal al-ʻArabīyah, Maʻhad al-Dirāsāt al-ʻArabīyah al-ʻĀliyah,</subfield>
 		<subfield code="c">1958.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
-		<subfield code="a">online resource (88 p.)</subfield>
+		<subfield code="a">online resource (88 pages)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="336">
+		<subfield code="a">text</subfield>
+		<subfield code="2">rdacontent</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="337">
+		<subfield code="a">computer</subfield>
+		<subfield code="2">rdamedia</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="338">
+		<subfield code="a">online resource</subfield>
+		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by Princeton University Libraries.</subfield>
@@ -56,7 +57,7 @@
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
 		<subfield code="c">New York University,</subfield>
-		<subfield code="d">2020.</subfield>
+		<subfield code="d">2021.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
@@ -75,6 +76,26 @@
 		<subfield code="a">Money</subfield>
 		<subfield code="z">Lebanon.</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Banks and banking.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst00826867</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="650">
+		<subfield code="a">Money.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01025265</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">Lebanon.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01206063</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="7" tag="651">
+		<subfield code="a">Syria.</subfield>
+		<subfield code="2">fast</subfield>
+		<subfield code="0">(OCoLC)fst01208757</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
 		<subfield code="b">Library.</subfield>
@@ -83,35 +104,21 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
+		<subfield code="i">Online version:</subfield>
+		<subfield code="a">Mursī, Fuʻād.</subfield>
+		<subfield code="t">Muḥāḍarāt ʻan al-nuqūd wa-al-bunūk fī al-bilʻad al-ʻArabīyah, Sūrīyah wa-Lubān.</subfield>
+		<subfield code="d">[Cairo] : Jāmiʻat al-Duwal al-ʻArabīyah, Maʻhad al-Dirāsāt al-ʻArabīyah al-ʻĀliyah, 1958</subfield>
+		<subfield code="w">(OCoLC)1103329802</subfield>
+	</datafield>
+	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Mursī, Fuʼād, 1925-1990. http://id.loc.gov/authorities/names/n81056914</subfield>
-		<subfield code="t">Muḥāḍarāt ʻan al-nuqūd wa-al-bunūk fī al-bilād al-ʻArabīyah</subfield>
+		<subfield code="a">Mursī, Fuʻād.</subfield>
+		<subfield code="t">Muḥāḍarāt ʻan al-nuqūd wa-al-bunūk fī al-bilʻad al-ʻArabīyah, Sūrīyah wa-Lubān</subfield>
 		<subfield code="w">(NjP)2429250</subfield>
+		<subfield code="w">(OCoLC)47925466</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/qjq2c5sr</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01</subfield>
-		<subfield code="a">مرسي، فؤاد،</subfield>
-		<subfield code="d">1925-1990.</subfield>
-	</datafield>
-	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02</subfield>
-		<subfield code="a">محاضرات عن النقود والبنوك في البلاد العربية :</subfield>
-		<subfield code="b">سوريا ولبنان /</subfield>
-		<subfield code="c">القاها فؤاد مرسي.</subfield>
-	</datafield>
-	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">246-03</subfield>
-		<subfield code="i">Title on half-t.p.:</subfield>
-		<subfield code="a">نقود والبنوك في البلاد العربية</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-04</subfield>
-		<subfield code="a">[القاهرة] :</subfield>
-		<subfield code="b">جامعة الدول العربية، معهد الدراسات العالية،</subfield>
-		<subfield code="c">1958.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -122,13 +129,9 @@
 		<subfield code="s">01</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
-		<subfield code="a">2429250</subfield>
+		<subfield code="i">NjP_2429250</subfield>
+		<subfield code="o">(OCoLC)ocm47925466 </subfield>
 		<subfield code="s">princeton_aco004123:</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="979">
-		<subfield code="a">(OCoLC)ocn178234089</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="959">
-		<subfield code="a">2000-06-13 00:00:00 -0400</subfield>
+		<subfield code="e">(ERROR-880)</subfield>
 	</datafield>
 </record>
