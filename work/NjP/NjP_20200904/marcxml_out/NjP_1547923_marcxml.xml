@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210111s1933    le c    o     000 0 ara d</controlfield>
+	<controlfield tag="008">210211s1933    le c    o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -30,13 +30,18 @@
 		<subfield code="a">Nöldeke, Theodor,</subfield>
 		<subfield code="d">1836-1930.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="4" tag="245">
-		<subfield code="a">The princes of Ghassān from the house of Gafna,</subfield>
-		<subfield code="c">tr. into Arabic from the original German, and provided with the author's last corrections, by Pendali Jousé [&amp;] Costi K. Zurayk.</subfield>
+	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">ʼUmarāʼ Ghassān /</subfield>
+		<subfield code="c">li-Thīwadūr Nūldakah, wa-hiyá risālatuhu : ʼUmarāʼ Ghassān min al-Jafnah al-latī nasharathā Ikadimiyat al-ʻUlūm al-Brūsiyāniyah fī Barlīn ; naqalah ilá al- ʻArabīyah wa-aḍāf ilayhā taṣḥiḥat muʼallifahā al-Bandalī Jawzī wa-Qusṭanṭīn Zurayq.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="246">
+		<subfield code="a">The princes of Ghassān from the house of Gafna</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[Beirut]</subfield>
-		<subfield code="b">Printed at the Catholic Press,</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Bayrūt :</subfield>
+		<subfield code="b">al-Maṭbaʻah al-Kāthulīkiyah,</subfield>
 		<subfield code="c">1933.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -100,8 +105,15 @@
 		<subfield code="e">translator.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="a">Zurayk, Costi K.,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Zurayq, Qusṭanṭīn,</subfield>
+		<subfield code="d">1909-</subfield>
 		<subfield code="e">translator.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="700">
+		<subfield code="6">880-04</subfield>
+		<subfield code="a">Zhuze, Panteleĭmon Krestovich,</subfield>
+		<subfield code="d">1871-</subfield>
 	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
@@ -113,7 +125,7 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Nöldeke, Theodor, 1836-1930.</subfield>
-		<subfield code="t">The princes of Ghassān from the house of Gafna</subfield>
+		<subfield code="t">ʼUmarāʼ Ghassān</subfield>
 		<subfield code="w">(NjP)1547923</subfield>
 		<subfield code="w">(OCoLC)7497823</subfield>
 	</datafield>
@@ -126,6 +138,28 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/5hqbzwhk</subfield>
 	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-01</subfield>
+		<subfield code="a">أمراء غسان /</subfield>
+		<subfield code="c">لثيودور نولدكة، وهيى رسالته : ءامراء غسان من الجفنة اللتي نشرثا اكدمية العلوم البروسيانية في برلين ؛ نقلة الى ال عربية واضاف اليها تصححة مؤلفها البندلي جوزي وقسطنطين زريق.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-02</subfield>
+		<subfield code="a">بيروت :</subfield>
+		<subfield code="b">المطبعة الكاثوليكية،</subfield>
+		<subfield code="c">1933.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-03</subfield>
+		<subfield code="a">زريق، قسطنطين،</subfield>
+		<subfield code="d">1909-</subfield>
+		<subfield code="e">translator.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">700-04</subfield>
+		<subfield code="a">جوزي، بندلي،</subfield>
+		<subfield code="d">1871-</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -136,8 +170,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_1547923</subfield>
-		<subfield code="o">(OCoLC)ocm07497823 </subfield>
+		<subfield code="o">(OCoLC)ocm07497823</subfield>
 		<subfield code="s">princeton_aco003970:</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">princeton_aco003970:</subfield>
 	</datafield>
 </record>

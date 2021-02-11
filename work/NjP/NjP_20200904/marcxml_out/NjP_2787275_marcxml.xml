@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210111s1960    sy a    o     000 0 ara d</controlfield>
+	<controlfield tag="008">210211s1960    sy a    o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -13,14 +13,19 @@
 		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Subḥ, Ḥusnī,</subfield>
 		<subfield code="d">1900-</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Mūjaz mabādiʼ ʻilm al-amrāḍ ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Mūjaz mabādī ʻilm al-amrāḍ :</subfield>
+		<subfield code="b">li-ṭullāb ṭibb al-isnān wa-ṭalibāt farʻī al-qibālah wa-al-tamrīḍ fī al-maʻhad al-ṭibbī al-ʻarabī /</subfield>
+		<subfield code="c">taʼlīf Ḥusnī Sabbaḥ.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Damascus,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Dimashq :</subfield>
 		<subfield code="b">Maṭbaʻat Jāmiʻat Dimashq,</subfield>
 		<subfield code="c">1960.</subfield>
 	</datafield>
@@ -63,12 +68,29 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Subḥ, Ḥusnī, 1900-</subfield>
-		<subfield code="t">Mūjaz mabādiʼ ʻilm al-amrāḍ</subfield>
+		<subfield code="t">Mūjaz mabādī ʻilm al-amrāḍ</subfield>
 		<subfield code="w">(NjP)2787275</subfield>
 		<subfield code="w">(OCoLC)42847054</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/hqbzkt3g</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">سبح، حسني،</subfield>
+		<subfield code="d">1900-</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">موجز مبادي علم الامراض :</subfield>
+		<subfield code="b">لطلاب طب الاسنان وطلات فرعي القبالة والتمريض في المعهد الطبي العربي /</subfield>
+		<subfield code="c">تأليف حسني سبح.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">دمشق :</subfield>
+		<subfield code="b">مطبعة جامعة دمشق،</subfield>
+		<subfield code="c">1960.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -80,8 +102,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2787275</subfield>
-		<subfield code="o">(OCoLC)ocm42847054 </subfield>
+		<subfield code="o">(OCoLC)ocm42847054</subfield>
 		<subfield code="s">princeton_aco004600:</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco004600:</subfield>
 	</datafield>
 </record>

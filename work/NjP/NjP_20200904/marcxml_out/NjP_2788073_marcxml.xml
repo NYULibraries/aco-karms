@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210111s1920    ti      o     000 0 ara d</controlfield>
+	<controlfield tag="008">210211s1920    ti      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -13,17 +13,20 @@
 		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
-		<subfield code="a">Khaznadār, Muḥammad al-Shādhilī,</subfield>
-		<subfield code="d">1881 or 1882-</subfield>
+		<subfield code="6">880-01</subfield>
+		<subfield code="a">Khaznahdār, Muḥammad al-Shādhilī.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Ḥayāt al-shiʻr wa-aṭwāruh;</subfield>
-		<subfield code="b">musāmarah.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Ḥayāt al-Shiʻr wa-Aṭwāruh :</subfield>
+		<subfield code="b">musāmarah /</subfield>
+		<subfield code="c">Muḥammad al-Shādhilī Khaznahdār.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Tunis,</subfield>
-		<subfield code="b">al-Maṭbaʻah al-Tūnisīyah,</subfield>
-		<subfield code="c">1920.</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Tūnis :</subfield>
+		<subfield code="b">al-Maṭbaʻah al-Tūnisīyah,</subfield>
+		<subfield code="c">1338 [H.] = 1920 [M.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (52 pages)</subfield>
@@ -53,6 +56,10 @@
 	<datafield ind1=" " ind2=" " tag="546">
 		<subfield code="a">In Arabic.</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="a">Arabic poetry</subfield>
+		<subfield code="x">History and criticism.</subfield>
+	</datafield>
 	<datafield ind1="2" ind2=" " tag="710">
 		<subfield code="a">Princeton University.</subfield>
 		<subfield code="b">Library.</subfield>
@@ -69,13 +76,29 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Khaznadār, Muḥammad al-Shādhilī, 1881 or 1882-</subfield>
-		<subfield code="t">Ḥayāt al-shiʻr wa-aṭwāruh;</subfield>
+		<subfield code="a">Khaznahdār, Muḥammad al-Shādhilī.</subfield>
+		<subfield code="t">Ḥayāt al-Shiʻr wa-Aṭwāruh</subfield>
 		<subfield code="w">(NjP)2788073</subfield>
 		<subfield code="w">(OCoLC)42865740</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/1zcrjqgm</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">خزنة دار، محمد الشاذلي.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">حياة الشعر وأطواره :</subfield>
+		<subfield code="b">مسامرة /</subfield>
+		<subfield code="c">محمد الشاذلي خزنة دار.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">تونس :</subfield>
+		<subfield code="b">المطبعة التونسية،</subfield>
+		<subfield code="c">1338 [هـ.] = 1920 [م.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -87,8 +110,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2788073</subfield>
-		<subfield code="o">(OCoLC)ocm42865740 </subfield>
+		<subfield code="o">(OCoLC)ocm42865740</subfield>
 		<subfield code="s">princeton_aco004456:</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco004456:</subfield>
 	</datafield>
 </record>
