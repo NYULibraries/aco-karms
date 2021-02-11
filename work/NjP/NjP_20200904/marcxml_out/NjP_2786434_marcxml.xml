@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210111m18861889ua a    o     000 0 ara d</controlfield>
+	<controlfield tag="008">210211m18861889ua a    o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -17,16 +17,21 @@
 		<subfield code="h">tur</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Aḥmed Mukhtār pāshā, Ghāzī,</subfield>
 		<subfield code="d">1832-1919.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Riyāḍ al-Mukhtār;</subfield>
-		<subfield code="b">mirʼāt al-mīqāt w-al-adwār ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Riyāḍ al-Mukhtār :</subfield>
+		<subfield code="b">mirʼāt al-mīqāt wa-al-adwār /</subfield>
+		<subfield code="c">muʼallifī Ghāzī Aḥmad Mukhtār Pāshā.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Būlāq,</subfield>
-		<subfield code="c">1303-06 [1886-89]</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Maḥrūsah Miṣr :</subfield>
+		<subfield code="b">Maṭbaʻat Ḥusayan Ṣabrī,</subfield>
+		<subfield code="c">1303-06 [1886-1889]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
 		<subfield code="a">online resource (374 pages and atlas of diagrams)</subfield>
@@ -60,6 +65,7 @@
 		<subfield code="a">Translated from the Turkish by Shafīq Manṣūr (Yegen).</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="700">
+		<subfield code="6">880-04</subfield>
 		<subfield code="a">Shafīq Manṣūr,</subfield>
 		<subfield code="e">translator.</subfield>
 	</datafield>
@@ -80,12 +86,33 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Aḥmed Mukhtār pāshā, Ghāzī, 1832-1919.</subfield>
-		<subfield code="t">Riyāḍ al-Mukhtār;</subfield>
+		<subfield code="t">Riyāḍ al-Mukhtār</subfield>
 		<subfield code="w">(NjP)2786434</subfield>
 		<subfield code="w">(OCoLC)42824671</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/wwpzgxzc</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">احمد مختار پاشا، غازى،</subfield>
+		<subfield code="d">1832-1919.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">رياض المختار :</subfield>
+		<subfield code="b">مرآه المىقات والادوار /</subfield>
+		<subfield code="c">مؤلفى غازى احمد مختار پاشا.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">محروسه مصر :</subfield>
+		<subfield code="b">مطبعة حسىن صبرى،</subfield>
+		<subfield code="c">1303-06 [1886-1889]</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">700-04</subfield>
+		<subfield code="a">شفىق منصور.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -97,9 +124,11 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2786434</subfield>
-		<subfield code="o">(OCoLC)ocm42824671 </subfield>
+		<subfield code="o">(OCoLC)ocm42824671</subfield>
 		<subfield code="s">princeton_aco004284:text</subfield>
 		<subfield code="s">princeton_aco004280:plates</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco004284:text</subfield>
+		<subfield code="s">princeton_aco004280:plates</subfield>
 	</datafield>
 </record>

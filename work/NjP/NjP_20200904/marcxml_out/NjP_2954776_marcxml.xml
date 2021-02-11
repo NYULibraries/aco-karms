@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210111s1921    ir      o     000 0 ara d</controlfield>
+	<controlfield tag="008">210211s1921    ir      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -13,14 +13,16 @@
 		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Marandī, Abū al-Ḥasan.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Lamaʻān al-anwār.</subfield>
-		<subfield code="b">Jild-i khāmis-i Nūr al-anwār dar ʻalāʼim-i ẓuḥūr-i nāmus-i dahr, ḥujjat-i ʻaṣr Qāʼim-i āl-i Muḥammad.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Kitāb mustaṭāb Lamaʻāt al-anwār.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">[Tehran]</subfield>
+		<subfield code="a">[Tehran] :</subfield>
+		<subfield code="b">[publisher not identified],</subfield>
 		<subfield code="c">1338 [i.e. 1340 [1921]]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -48,9 +50,6 @@
 		<subfield code="d">2021.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="546">
-		<subfield code="a">In Arabic.</subfield>
-	</datafield>
 	<datafield ind1="0" ind2="0" tag="600">
 		<subfield code="a">Muḥammad al-Mahdī,</subfield>
 		<subfield code="c">12th imām,</subfield>
@@ -73,12 +72,20 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Marandī, Abū al-Ḥasan.</subfield>
-		<subfield code="t">Lamaʻān al-anwār</subfield>
+		<subfield code="t">Kitāb mustaṭāb Lamaʻāt al-anwār</subfield>
 		<subfield code="w">(NjP)2954776</subfield>
 		<subfield code="w">(OCoLC)43492240</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/s7h44v46</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">مرندى، ابو الحسن.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">كتاب مستطاب لمعات الانوار.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -90,8 +97,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2954776</subfield>
-		<subfield code="o">(OCoLC)ocm43492240 </subfield>
+		<subfield code="o">(OCoLC)ocm43492240</subfield>
 		<subfield code="s">princeton_aco004694:</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco004694:</subfield>
 	</datafield>
 </record>
