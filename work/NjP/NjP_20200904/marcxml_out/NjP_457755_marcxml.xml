@@ -1,16 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22     Mi 4500</leader>
-	<controlfield tag="001">457755</controlfield>
-	<controlfield tag="003">NjP</controlfield>
+	<leader>01977nam a2200397Mi 4500</leader>
+	<controlfield tag="001">ocm00000NEW </controlfield>
+	<controlfield tag="003">OCoLC</controlfield>
+	<controlfield tag="005">20210316051602.0</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
-	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210212m19629999ir      o     000 0 ara d</controlfield>
+	<controlfield tag="007">cr cn||||m|||a</controlfield>
+	<controlfield tag="008">210316m19629999ir      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="035">
+		<subfield code="a">(OCoLC)NEW</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="049">
+		<subfield code="a">ZYUU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
 		<subfield code="6">880-01</subfield>
@@ -23,6 +30,7 @@
 		<subfield code="c">taʼlīf wa-taḥqīq Muḥammad Mahdī.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">[Iran] :</subfield>
 		<subfield code="b">[publisher not identified],</subfield>
 		<subfield code="c">[1383- [1962]-]</subfield>
@@ -83,14 +91,20 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/h44j18ss</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">100-01</subfield>
+		<subfield code="6">100-01/r</subfield>
 		<subfield code="a">مهدي، محمد.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">بيان الائمة للوقايع الغريبة والاسرار العجيبة :</subfield>
 		<subfield code="b">وهو كتاب علمي تاريخي ... /</subfield>
 		<subfield code="c">تأليف وتحقيق محمد مهدي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[ايران] :</subfield>
+		<subfield code="b">[الناشر غيرمعروف]،</subfield>
+		<subfield code="c">[1383- [1962]-]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -106,5 +120,9 @@
 		<subfield code="s">princeton_aco002951:juz 1</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
 		<subfield code="s">princeton_aco002951:juz 1</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="994">
+		<subfield code="a">C0</subfield>
+		<subfield code="b">ZYU</subfield>
 	</datafield>
 </record>
