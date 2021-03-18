@@ -1,16 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22     Mi 4500</leader>
-	<controlfield tag="001">2834968</controlfield>
-	<controlfield tag="003">NjP</controlfield>
+	<leader>01853nam a2200409Mi 4500</leader>
+	<controlfield tag="001">ocm00000NEW </controlfield>
+	<controlfield tag="003">OCoLC</controlfield>
+	<controlfield tag="005">20210316041221.0</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
-	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210212s1916    ua      o     000 0 ara d</controlfield>
+	<controlfield tag="007">cr cn||||m|||a</controlfield>
+	<controlfield tag="008">210316s1916    ua      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="035">
+		<subfield code="a">(OCoLC)NEW</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="049">
+		<subfield code="a">ZYUU</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="100">
 		<subfield code="6">880-01</subfield>
@@ -22,6 +29,7 @@
 		<subfield code="a">Iḥyāʼ al-ʻUlūm.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">[Cairo] :</subfield>
 		<subfield code="b">[publisher not identified],</subfield>
 		<subfield code="c">1334 A.H. [i.e. 1916]</subfield>
@@ -85,13 +93,19 @@
 		<subfield code="u">http://hdl.handle.net/2333.1/m0cfz0sx</subfield>
 	</datafield>
 	<datafield ind1="0" ind2=" " tag="880">
-		<subfield code="6">100-01</subfield>
+		<subfield code="6">100-01/r</subfield>
 		<subfield code="a">غزالي،</subfield>
 		<subfield code="d">1058-1111.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-02</subfield>
+		<subfield code="6">245-02/r</subfield>
 		<subfield code="a">احياء العلوم.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03/r</subfield>
+		<subfield code="a">[القاهرة] :</subfield>
+		<subfield code="b">[ الناشر غيرمعروف]،</subfield>
+		<subfield code="c">1334 A.H. [i.e. 1916]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -113,5 +127,9 @@
 		<subfield code="s">princeton_aco004192:v.2</subfield>
 		<subfield code="s">princeton_aco004247:v.3</subfield>
 		<subfield code="s">princeton_aco004248:v.4</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="994">
+		<subfield code="a">C0</subfield>
+		<subfield code="b">ZYU</subfield>
 	</datafield>
 </record>
