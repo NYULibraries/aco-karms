@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210308s1942    mr      obc   000 0 ara d</controlfield>
+	<controlfield tag="008">210322s1942    mr      obc   000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -17,19 +17,23 @@
 		<subfield code="b">.T48 1942</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="110">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Tétouan (Morocco).</subfield>
 		<subfield code="b">Maʻhad Mawlāya al-Ḥasan.</subfield>
 		<subfield code="b">al-Maktabah.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Fihris al-Khizānah al-Khalīfīvah bi-Maʻhad Mawlāya al-Ḥasan;</subfield>
-		<subfield code="b">muḥtawayāt Maktabat al-Maʻhad al-Khalīfī bi-cismay-hā al-ʻArabī wa-al-Ifranjī mundhu nashʼatihā ilā al-ān.</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Fihris al-Khizānah al-Khalīfīvah bi-Maʻhad Mawlāya al-Ḥasan :</subfield>
+		<subfield code="b">muḥtawayāt Maktabat al-Maʻhad al-Khalīfī bi-qismayhā al-ʻArabī wa-al-Ifranjī mundhu nashʼatihā ilá al-ān.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="4" tag="246">
 		<subfield code="a">Catalogo de las obras en lenguas árabe y europeas e xistentes en la Biblioteca de este Institute</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Tetuán,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Tiṭūān :</subfield>
+		<subfield code="b">Maṭbaʻat al-Waḥdah al-Maghribiyah,</subfield>
 		<subfield code="c">1942.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -90,12 +94,29 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Tétouan (Morocco). Maʻhad Mawlāya al-Ḥasan. al-Maktabah.</subfield>
-		<subfield code="t">Fihris al-Khizānah al-Khalīfīvah bi-Maʻhad Mawlāya al-Ḥasan;</subfield>
+		<subfield code="t">Fihris al-Khizānah al-Khalīfīvah bi-Maʻhad Mawlāya al-Ḥasan</subfield>
 		<subfield code="w">(NjP)2370966</subfield>
 		<subfield code="w">(OCoLC)41048497</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/8931zpz2</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">110-01</subfield>
+		<subfield code="a">تطوان (المغرب).</subfield>
+		<subfield code="b">معهد مولاي الحسن.</subfield>
+		<subfield code="b">المكتبة.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">فهرس الخزانة الخليفيڤة بمعهد مولاي الحسن :</subfield>
+		<subfield code="b">محتويات مكتبة المعهد الخليفي بقسميها العربي والافرنجي منذ نشأتها الى الان.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">تطوان :</subfield>
+		<subfield code="b">مطبعة الوحدة المغربية،</subfield>
+		<subfield code="c">1942.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -107,8 +128,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2370966</subfield>
-		<subfield code="o">(OCoLC)ocm41048497 </subfield>
+		<subfield code="o">(OCoLC)ocm41048497</subfield>
 		<subfield code="s">princeton_aco004678:</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">princeton_aco004678:</subfield>
 	</datafield>
 </record>
