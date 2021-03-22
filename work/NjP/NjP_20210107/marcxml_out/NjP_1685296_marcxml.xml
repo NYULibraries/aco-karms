@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210308s1931    le      o     000 0 ara d</controlfield>
+	<controlfield tag="008">210322s1931    le      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -13,14 +13,18 @@
 		<subfield code="c">ZYU</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Shahbandar, ʻAbd al-Ghanī.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="245">
-		<subfield code="a">al-Riḥlah al-ʻilmīyah;</subfield>
-		<subfield code="b">tataḍamman dirāsat al-ḥayāh al-ṭibbīyah wa-al-ijtimāʻīyan fī Bārīs wa-Vīchī wa-Iks Lībān wa-Aviyān wa-Lūzān ...</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">al-Riḥlah al-ʻilmīyah;</subfield>
+		<subfield code="b">tataḍamman dirāsat al-ḥayāt al-ṭibbīyah wa-al-ijtimāʻīyah fī Bārīs wa-Fīshī wa-Iks Lībān wa-Afiyān wa-Lūzān wa-Līzin /</subfield>
+		<subfield code="c">bi-qalam ʻAbd al-Ghanī Shahbandar, al-mutakhaṣṣiṣ bi-al-amrāḍ al-ṣadrīyah wa-munshi' Majallat al-Ḥikmah.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Beirut,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Bayrūt :</subfield>
 		<subfield code="b">al-Maṭbaʻah al-ʻIlmīyah,</subfield>
 		<subfield code="c">1931.</subfield>
 	</datafield>
@@ -62,12 +66,28 @@
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
 		<subfield code="a">Shahbandar, ʻAbd al-Ghanī.</subfield>
-		<subfield code="t">al-Riḥlah al-ʻilmīyah;</subfield>
+		<subfield code="t">al-Riḥlah al-ʻilmīyah;</subfield>
 		<subfield code="w">(NjP)1685296</subfield>
 		<subfield code="w">(OCoLC)42862172</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/2547dk0c</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">شهبندر، عبد الغني.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">الرحلة العلمية :</subfield>
+		<subfield code="b">تتضمن دراسة الحياة الطبية والإجتماعية في باريس وفيشي واكس ليبان وأفيان ولوزان وليزن /</subfield>
+		<subfield code="c">بقلم عبد الغني شهبندر، المتخصص بالأمراض الصدرية ومنشىء مجلة الحكمة.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">بيروت :</subfield>
+		<subfield code="b">المطبعة العلمية،</subfield>
+		<subfield code="c">1931.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -79,8 +99,9 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_1685296</subfield>
-		<subfield code="o">(OCoLC)ocm42862172 </subfield>
+		<subfield code="o">(OCoLC)ocm42862172</subfield>
 		<subfield code="s">princeton_aco004737:</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco004737:</subfield>
 	</datafield>
 </record>
