@@ -1,27 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?>
-<record xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
-	<leader>     nam a22     Mi 4500</leader>
-	<controlfield tag="001">1331957</controlfield>
-	<controlfield tag="003">NjP</controlfield>
+<?xml version="1.0" encoding="UTF-8" ?>
+<record xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+	<leader>02199nam a2200421Mi 4500</leader>
+	<controlfield tag="001">ocm00000NEW </controlfield>
+	<controlfield tag="003">OCoLC</controlfield>
+	<controlfield tag="005">20210401015314.0</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
-	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210322s1959    sy ab   o     000 0 ara d</controlfield>
+	<controlfield tag="007">cr cn||||m|||a</controlfield>
+	<controlfield tag="008">210401s1959    sy ab   o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
 		<subfield code="e">rda</subfield>
 		<subfield code="c">ZYU</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="035">
+		<subfield code="a">(OCoLC)NEW</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="049">
+		<subfield code="a">ZYUU</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Qushayrī, Muḥammad ibn Saʻīd,</subfield>
 		<subfield code="d">-945.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="6">880-01</subfield>
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Tārīkh al-Raqqah wa-man nazalahā min aṣḥāb rasūl Allāh ṣallá Allāh ʻaliyah wa sallam, wa al-tābiʻyn wa al-fuqahāʼ wa al-muḥdīthīn.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="6">880-02</subfield>
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">[Ḥamāh] :</subfield>
 		<subfield code="b">[publisher not identified],</subfield>
 		<subfield code="c">[1959]</subfield>
@@ -90,12 +98,17 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/6t1g1w1p</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01/r</subfield>
+		<subfield code="a">قشيري، محمد بن سعيد،</subfield>
+		<subfield code="d">-945.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-01</subfield>
-		<subfield code="a">تاريخ الرقة ومن نزلها من اصحاب رسول الله صلى الله علة و سلم، و التابعين و الفقهاء و المحدثين.</subfield>
+		<subfield code="6">245-02/r</subfield>
+		<subfield code="a">تاريخ الرقة ومن نزلها من اصحاب رسول الله صلى الله عليه و سلم، و التابعين و الفقهاء و المحدثين.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
-		<subfield code="6">260-02</subfield>
+		<subfield code="6">260-03/r</subfield>
 		<subfield code="a">[حماه] :</subfield>
 		<subfield code="b">[publisher not identified]،</subfield>
 		<subfield code="c">[1959]</subfield>
@@ -114,5 +127,9 @@
 		<subfield code="s">princeton_aco002216</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
 		<subfield code="s">princeton_aco002216</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="994">
+		<subfield code="a">C0</subfield>
+		<subfield code="b">ZYU</subfield>
 	</datafield>
 </record>
