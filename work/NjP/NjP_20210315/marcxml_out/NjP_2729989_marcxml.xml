@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210322m19151936ua abcd o     000 0 arard</controlfield>
+	<controlfield tag="008">210405m19151936ua abcd o     000 0 arard</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -21,16 +21,19 @@
 		<subfield code="b">.S2541</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Sāmī, Amīn,</subfield>
 		<subfield code="d">-1941.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
+		<subfield code="6">880-02</subfield>
 		<subfield code="a">Taqwīm al-Nīl :</subfield>
-		<subfield code="b">wa-asmāʼ man tawallaw amr Miṣr wa-muddat ḥukmihim ʻalayhā wa-mulāḥaẓāt taʼrīkhīyah ʻan aḥwāl al-khilāfah al-ʻāmmah wa-shuʼūn Miṣr al-khāṣṣah ʻan al-muddah al-munḥasirah bayna al-sanah al-ūlā wa-sanat 1333 al-hijrīyah (622-1915 mīlādīyah) /</subfield>
+		<subfield code="b">wa-asmāʼ man tawallaw amr Miṣr wa-muddat ḥukmihim ʻalayhā wa-mulāḥaẓāt tārīkhīyah ʻan aḥwāl al-khilāfah al-ʻāmmah wa-shuʼūn Miṣr al-khāṣṣah ʻan al-muddah min sanat 1264-27 Rajab sanat 1279 hijrīyah (1848-1863 mīlādīyah) /</subfield>
 		<subfield code="c">li-wāḍiʻihi Amīn Sāmī Bāshā.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Cairo :</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">al-Qāhirah :</subfield>
 		<subfield code="b">al-Maṭbaʻah al-Amīrīyah,</subfield>
 		<subfield code="c">1334-1355, 1916-1936.</subfield>
 	</datafield>
@@ -121,6 +124,23 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/41ns22xm</subfield>
 	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">سامي، امين،</subfield>
+		<subfield code="d">-1941.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">تقويم النيل :</subfield>
+		<subfield code="b">واسماء من تولو أمر مصر ومدة حكمهم عليها وملاحظات تاريخية عن احوال الخلافة العامة وشؤون مصر الخاصة عن المدة من سنة 1264-27 رجب سنة 1279 هجرية (1848-1863 ميلادية) /</subfield>
+		<subfield code="c">لواضعه امين سامي باشا.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">القاهرة :</subfield>
+		<subfield code="b">المطبعة الاميرية،</subfield>
+		<subfield code="c">1334-1355، 1916-1936.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -131,11 +151,15 @@
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="999">
 		<subfield code="i">NjP_2729989</subfield>
-		<subfield code="o">(OCoLC)ocm05214028 </subfield>
+		<subfield code="o">(OCoLC)ocm05214028</subfield>
 		<subfield code="s">princeton_aco004945:vol.3 pt.1</subfield>
 		<subfield code="s">princeton_aco004948:vol.3 pt.2</subfield>
 		<subfield code="s">princeton_aco004949:vol.3 pt.3</subfield>
 		<subfield code="s">princeton_aco004947:suppl.</subfield>
 		<subfield code="e">(ERROR-880)</subfield>
+		<subfield code="s">princeton_aco004945:vol.3 pt.1</subfield>
+		<subfield code="s">princeton_aco004948:vol.3 pt.2</subfield>
+		<subfield code="s">princeton_aco004949:vol.3 pt.3</subfield>
+		<subfield code="s">princeton_aco004947:suppl.</subfield>
 	</datafield>
 </record>
