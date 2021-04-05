@@ -5,7 +5,7 @@
 	<controlfield tag="003">NjP</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210322s1962    iq ab   o     000 0 arard</controlfield>
+	<controlfield tag="008">210405s1962    iq ab   o     000 0 arard</controlfield>
 	<datafield ind1="7" ind2=" " tag="024">
 		<subfield code="a">princeton_aco004865</subfield>
 		<subfield code="2">local</subfield>
@@ -19,18 +19,20 @@
 		<subfield code="a">a-iq---</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="100">
+		<subfield code="6">880-01</subfield>
 		<subfield code="a">Massignon, Louis,</subfield>
 		<subfield code="d">1883-1962.</subfield>
-		<subfield code="0">http://id.loc.gov/authorities/names/n80013400</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="245">
-		<subfield code="a">Taʹliqāt ʻalā lahjah Baghdād al-ʻarabiyah</subfield>
+		<subfield code="6">880-02</subfield>
+		<subfield code="a">Taʻlīqāt ʻalá lahjat Baghdād al-ʻArabīyah</subfield>
 		<subfield code="h">[electronic resource] /</subfield>
-		<subfield code="c">taʾlīf Lūwis Māsīnīyun ; tarjamat Akram Fādil.</subfield>
+		<subfield code="c">taʼlif Luwīs Māsīniyūn ; tarjamat Akram Fāḍil.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="260">
-		<subfield code="a">Baghdād :</subfield>
-		<subfield code="b">Markaz al-Fulklūr al-Iraqi fi Wizārat al-Irshād,</subfield>
+		<subfield code="6">880-03</subfield>
+		<subfield code="a">Baghdād,</subfield>
+		<subfield code="b">Markaz al-Fulklūr al-ʻIrāqī fī Wizārat al-Irshād,</subfield>
 		<subfield code="c">1962.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="300">
@@ -65,13 +67,29 @@
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="776">
 		<subfield code="i">Print version:</subfield>
-		<subfield code="a">Massignon, Louis, 1883-1962. http://id.loc.gov/authorities/names/n80013400</subfield>
-		<subfield code="t">Taʹliqāt ʻalā lahjah Baghdād al-ʻarabiyah</subfield>
+		<subfield code="a">Massignon, Louis, 1883-1962.</subfield>
+		<subfield code="t">Taʻlīqāt ʻalá lahjat Baghdād al-ʻArabīyah</subfield>
 		<subfield code="w">(NjP)3204138</subfield>
-		<subfield code="w">(DLC)67001687</subfield>
+		<subfield code="w">(DLC)   67001687 </subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/h9w0w4f8</subfield>
+	</datafield>
+	<datafield ind1="1" ind2=" " tag="880">
+		<subfield code="6">100-01</subfield>
+		<subfield code="a">ماسينيون، لويس،</subfield>
+		<subfield code="d">1883-1962.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="0" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">تعليقات على لهجة بغداد العربية /</subfield>
+		<subfield code="c">تأل لويس ماسينيون ؛ ترجمة اكرم فاضل.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">260-03</subfield>
+		<subfield code="a">بغداد،</subfield>
+		<subfield code="b">مركز الفلكلور العراقي في وزارة الارشاد،</subfield>
+		<subfield code="c">1962.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="902">
 		<subfield code="a">jab</subfield>
@@ -96,5 +114,6 @@
 		<subfield code="i">NjP_3204138</subfield>
 		<subfield code="s">princeton_aco004865</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">princeton_aco004865</subfield>
 	</datafield>
 </record>
