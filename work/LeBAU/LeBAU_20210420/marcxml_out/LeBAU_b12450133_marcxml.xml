@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210422s1947    ua      ob    000 0 ara d</controlfield>
+	<controlfield tag="008">210514s1947    ua      ob    000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -25,7 +25,7 @@
 		<subfield code="e">author.</subfield>
 		<subfield code="0">https://lccn.loc.gov/n82214091 ,</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Dalīl li-ʻumad wa-mashāyikh al-bilād wa-lil-ʻāmilīn fī al-amn al-ʻāmm wa-al-ḍabṭīyah al-qaḍāʼīyah /</subfield>
 		<subfield code="c">taʼlīf al-Amirālāy ʻAlī Ḥilmī, mudīr Jarjā.</subfield>
@@ -59,9 +59,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية (صفحات 9-12)</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -69,45 +66,29 @@
 		<subfield code="d">2021.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">عمد</subfield>
-		<subfield code="x">الوضع القانوني، إلخ.</subfield>
-		<subfield code="z">مصر.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">تطبيق القانون</subfield>
-		<subfield code="z">مصر.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">القانون الجنائي</subfield>
-		<subfield code="z">مصر.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الأمن الداخلي</subfield>
-		<subfield code="z">مصر.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الحكومة المحلية</subfield>
-		<subfield code="z">مصر.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Mayors</subfield>
 		<subfield code="x">Legal status, laws, etc.</subfield>
 		<subfield code="z">Egypt.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Law enforcement</subfield>
 		<subfield code="z">Egypt.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Criminal law</subfield>
 		<subfield code="z">Egypt.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-09</subfield>
 		<subfield code="a">Internal security</subfield>
 		<subfield code="z">Egypt.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-10</subfield>
 		<subfield code="a">Local government</subfield>
 		<subfield code="z">Egypt.</subfield>
 	</datafield>
@@ -130,10 +111,10 @@
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">حلمي، علي،</subfield>
 		<subfield code="0">https://lccn.loc.gov/n82214091 ,</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
+	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">245-02</subfield>
 		<subfield code="a">الدليل لعمد ومشايخ البلاد وللعاملين في الامن العام والضبطية القضائية /</subfield>
 		<subfield code="c">تأليف الأميرالاي علي حلمي، مدير جرجا.</subfield>
@@ -153,6 +134,36 @@
 		<subfield code="a">195 صفحة ؛</subfield>
 		<subfield code="c">24 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية (صفحات 9-12)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">عمد</subfield>
+		<subfield code="x">الوضع القانوني، إلخ.</subfield>
+		<subfield code="z">مصر.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">تطبيق القانون</subfield>
+		<subfield code="z">مصر.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-08</subfield>
+		<subfield code="a">القانون الجنائي</subfield>
+		<subfield code="z">مصر.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-09</subfield>
+		<subfield code="a">الأمن الداخلي</subfield>
+		<subfield code="z">مصر.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-10</subfield>
+		<subfield code="a">الحكومة المحلية</subfield>
+		<subfield code="z">مصر.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -165,5 +176,6 @@
 		<subfield code="i">LeBAU_b12450133</subfield>
 		<subfield code="s">aub_aco004066</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco004066</subfield>
 	</datafield>
 </record>

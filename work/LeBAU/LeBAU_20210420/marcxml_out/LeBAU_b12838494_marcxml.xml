@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210422s1953    ua      oi    ||0 0 ara d</controlfield>
+	<controlfield tag="008">210514s1953    ua      oi    ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -30,7 +30,7 @@
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">Laws.etc.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-03</subfield>
 		<subfield code="a">al-Tashrīʻāt al-ṣādīrah khilāl al-sittat shuhūr al-ūlá li-ʻahd al-taḥrīr (23 Yūliyah sanat 1952-23 Yanāyir sanat 1953 /</subfield>
 		<subfield code="c">al-Ḥukūmah al-Miṣrīyah, Wizārat al-ʻAdl.</subfield>
@@ -58,9 +58,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;صادر عن قسم المجموعة الرسمية بوزارة العدل.&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -70,12 +67,8 @@
 		<subfield code="d">2021.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">القانون</subfield>
-		<subfield code="z">مصر</subfield>
-		<subfield code="v">كشافات.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Law</subfield>
 		<subfield code="z">Egypt</subfield>
 		<subfield code="v">Indexes.</subfield>
@@ -100,14 +93,14 @@
 		<subfield code="a">مصر.</subfield>
 		<subfield code="b">وزارة العدل،</subfield>
 		<subfield code="0">https://lccn.loc.gov/n81068681 ,</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">240-02</subfield>
 		<subfield code="a">قوانين، إلخ.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
+	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">245-03</subfield>
 		<subfield code="a">التشريعات الصادرة خلال الستة شهور الأولى لعهد التحرير، (23 يوليه سنة 1952-32 يناير سنة 1953) /</subfield>
 		<subfield code="c">الحكومة المصرية، وزارة العدل.</subfield>
@@ -123,6 +116,16 @@
 		<subfield code="a">876 صفحة ؛</subfield>
 		<subfield code="c">24 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;صادر عن قسم المجموعة الرسمية بوزارة العدل.&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">القانون</subfield>
+		<subfield code="z">مصر</subfield>
+		<subfield code="v">كشافات.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -135,5 +138,6 @@
 		<subfield code="i">LeBAU_b12838494</subfield>
 		<subfield code="s">aub_aco004014</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco004014</subfield>
 	</datafield>
 </record>

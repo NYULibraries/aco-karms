@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210422s1954    ua      ob    ||0 0 ara d</controlfield>
+	<controlfield tag="008">210514s1954    ua      ob    ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -57,12 +57,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية (صفحات 1365-1382)</subfield>
-	</datafield>
-	<datafield ind1="0" ind2=" " tag="505">
-		<subfield code="a">قوانين -- مراسيم بقوانين -- مراسيم قرارات مجلس الوزراء -- قرارات وزارية -- تعليمات للطيارين -- معاهدات -- إتفاقيات دولية -- إتفاقات ثنائية ومذكراتها التفسيرية - مع التعليق عليها.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -70,20 +64,13 @@
 		<subfield code="d">2021.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الطيران</subfield>
-		<subfield code="x">قوانين وتشريعات.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الطيران</subfield>
-		<subfield code="z">مصر</subfield>
-		<subfield code="x">قوانين وتشريعات.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Aeronautics</subfield>
 		<subfield code="x">Law and legislation.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Aeronautics</subfield>
 		<subfield code="z">Egypt</subfield>
 		<subfield code="x">Law and legislation.</subfield>
@@ -108,12 +95,12 @@
 		<subfield code="a">مصر.</subfield>
 		<subfield code="b">مصلحة الطيران المدني،</subfield>
 		<subfield code="0">https://lccn.loc.gov/n86106594 ,</subfield>
-		<subfield code="e">هيئة اصدار. </subfield>
+		<subfield code="e">هيئة اصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">240-02</subfield>
-		<subfield code="a">قوانين، إلخ.</subfield>
+		<subfield code="a">قوانين، إلخ.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">245-03</subfield>
@@ -123,13 +110,32 @@
 	<datafield ind1=" " ind2="1" tag="880">
 		<subfield code="6">264-04</subfield>
 		<subfield code="a">[مصر] :</subfield>
-		<subfield code="b">المطبعة الأميرية،</subfield>
+		<subfield code="b">المطبعة الأميرية،</subfield>
 		<subfield code="c">1373 [هـ.] = 1954 [م.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">300-05</subfield>
 		<subfield code="a">هـظ، 1411 صفحة ؛</subfield>
 		<subfield code="c">24 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية (صفحات 1365-1382)</subfield>
+	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">505-00</subfield>
+		<subfield code="a">قوانين -- مراسيم بقوانين -- مراسيم قرارات مجلس الوزراء -- قرارات وزارية -- تعليمات للطيارين -- معاهدات -- إتفاقيات دولية -- إتفاقات ثنائية ومذكراتها التفسيرية - مع التعليق عليها.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">الطيران</subfield>
+		<subfield code="x">قوانين وتشريعات.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">الطيران</subfield>
+		<subfield code="z">مصر</subfield>
+		<subfield code="x">قوانين وتشريعات.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -143,5 +149,6 @@
 		<subfield code="i">LeBAU_b12474174</subfield>
 		<subfield code="s">aub_aco004295</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco004295</subfield>
 	</datafield>
 </record>

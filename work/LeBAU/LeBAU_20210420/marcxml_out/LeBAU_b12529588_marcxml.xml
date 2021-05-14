@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210422s1951    iq cf   o     ||0 p ara d</controlfield>
+	<controlfield tag="008">210514s1951    iq cf   o     ||0 p ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -32,7 +32,7 @@
 	<datafield ind1="1" ind2="0" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">Durar min shi'r Iqbāl shā'ir al-Islām wa-faylasūfihi /</subfield>
-		<subfield code="c">naqalat'hu ilá al-'Arabīyah naẓman al-Ānisah Amīrah Nūr al-Dīn Dāwūd. </subfield>
+		<subfield code="c">naqalat'hu ilá al-'Arabīyah naẓman al-Ānisah Amīrah Nūr al-Dīn Dāwūd.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="264">
 		<subfield code="6">880-03</subfield>
@@ -58,9 +58,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">تم ترجمة بعض النصوص عن الفارسية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -70,17 +67,12 @@
 		<subfield code="d">2021.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="546">
-		<subfield code="a">النص بالعربية والفارسية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="655">
-		<subfield code="a">شعر.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="0" tag="655">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Poetry.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Dāwūd, Amīrah Nūr al-Dīn,</subfield>
 		<subfield code="e">translator.</subfield>
 	</datafield>
@@ -105,13 +97,13 @@
 		<subfield code="c">سيد،</subfield>
 		<subfield code="d">1877-1938.</subfield>
 		<subfield code="0">http://id.loc.gov/authorities/names/n79110521 ,</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">245-02</subfield>
-		<subfield code="a">درر من شعر إقبال شاعر الإسلام وفيلسوفه /</subfield>
-		<subfield code="c">نقلته إلى العربية نظماً الآنسة أميرة نور الدين داود.</subfield>
+		<subfield code="a">درر من شعر إقبال شاعر الإسلام وفيلسوفه /</subfield>
+		<subfield code="c">نقلته إلى العربية نظماً الأنسة أميرة نور الدين داود.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
 		<subfield code="6">264-03</subfield>
@@ -125,10 +117,22 @@
 		<subfield code="b">مصورات، صور شخصانية ؛</subfield>
 		<subfield code="c">24 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">تم ترجمة بعض النصوص عن الفارسية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">546-00</subfield>
+		<subfield code="a">النص بالعربية والفارسية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="0" tag="880">
+		<subfield code="6">655-05</subfield>
+		<subfield code="a">شعر.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-05</subfield>
-		<subfield code="a">داود، أميرة نور الدين،</subfield>
-		<subfield code="e">مترجم. </subfield>
+		<subfield code="6">700-06</subfield>
+		<subfield code="a">داود، أميرة نور الدين،</subfield>
+		<subfield code="e">مترجم.</subfield>
 		<subfield code="4">trl.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -143,5 +147,6 @@
 		<subfield code="i">LeBAU_b12529588</subfield>
 		<subfield code="s">aub_aco004516</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco004516</subfield>
 	</datafield>
 </record>
