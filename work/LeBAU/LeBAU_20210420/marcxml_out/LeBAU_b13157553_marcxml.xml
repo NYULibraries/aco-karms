@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210422s1954    le      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">210514s1954    le      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="037">
 		<subfield code="b">Servico General Services</subfield>
 		<subfield code="c">15</subfield>
@@ -26,7 +26,7 @@
 		<subfield code="a">Ḥaddād, Kamāl,</subfield>
 		<subfield code="e">author.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Nakabāt wa-atharuhā fi ḥayāt al-umam /</subfield>
 		<subfield code="c">taʻlīf Kamāl Ḥaddād.</subfield>
@@ -67,40 +67,26 @@
 		<subfield code="d">2021.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الحرب</subfield>
-		<subfield code="x">النواحي الإقتصادية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الحرب</subfield>
-		<subfield code="x">النواحي النفسية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">النزاع العربي الاسرائيلي.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">العلاقات اليهودية العربية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">War</subfield>
 		<subfield code="x">Economic aspects.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">War</subfield>
 		<subfield code="x">Psychological aspects.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-08</subfield>
 		<subfield code="a">Arab-Israeli conflict.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-09</subfield>
 		<subfield code="a">Jewish-Arab relations.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">فلسطين</subfield>
-		<subfield code="x">تاريخ</subfield>
-		<subfield code="y">1948-</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-10</subfield>
 		<subfield code="a">Palestine</subfield>
 		<subfield code="x">History</subfield>
 		<subfield code="y">1948-</subfield>
@@ -123,10 +109,10 @@
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">حداد، كمال،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
+	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">245-02</subfield>
 		<subfield code="a">النكبات وأثرها في حياة الامم /</subfield>
 		<subfield code="c">تأليف كمال حداد.</subfield>
@@ -146,6 +132,30 @@
 		<subfield code="a">116 صفحة ؛</subfield>
 		<subfield code="c">20 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">الحرب</subfield>
+		<subfield code="x">النواحي الإقتصادية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-07</subfield>
+		<subfield code="a">الحرب</subfield>
+		<subfield code="x">النواحي النفسية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-08</subfield>
+		<subfield code="a">النزاع العربي الاسرائيلي.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-09</subfield>
+		<subfield code="a">العلاقات اليهودية العربية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-10</subfield>
+		<subfield code="a">فلسطين</subfield>
+		<subfield code="x">تاريخ</subfield>
+		<subfield code="y">1948-</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -158,5 +168,6 @@
 		<subfield code="i">LeBAU_b13157553</subfield>
 		<subfield code="s">aub_aco004087</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco004087</subfield>
 	</datafield>
 </record>

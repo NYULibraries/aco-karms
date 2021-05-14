@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210422s1933    le      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">210514s1933    le      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -53,9 +53,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1="0" ind2=" " tag="505">
-		<subfield code="a">الدرجة الثالثة. في الصرف والكلم المتصرفة وأجزائها --الدرجة الخامسة. في المعاني والبيان والبديع. </subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -63,22 +60,14 @@
 		<subfield code="d">2021.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">اللغة العربية</subfield>
-		<subfield code="x">قواعد</subfield>
-		<subfield code="x">الدرس والتدريس.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">اللغة العربية</subfield>
-		<subfield code="x">البلاغة</subfield>
-		<subfield code="x">الدرس والتدريس.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Arabic language</subfield>
 		<subfield code="x">Grammar</subfield>
 		<subfield code="x">Study and teaching.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Arabic language</subfield>
 		<subfield code="x">Rhetoric</subfield>
 		<subfield code="x">Study and teaching.</subfield>
@@ -90,7 +79,7 @@
 		<subfield code="a">Arabic Collections Online.</subfield>
 	</datafield>
 	<datafield ind1="0" ind2="8" tag="775">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-07</subfield>
 		<subfield code="i">has designation of edition</subfield>
 		<subfield code="4">http://rdaregistry.info/Elements/m/P30133 :</subfield>
 		<subfield code="a">ʻAṭīyah, Jurjī Shāhīn.</subfield>
@@ -111,14 +100,14 @@
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">عطية، جرجي شاهين،</subfield>
 		<subfield code="0">https://lccn.loc.gov/n82046779 ,</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">245-02</subfield>
 		<subfield code="a">سلم اللسان في الصرف والنحو والبيان :</subfield>
 		<subfield code="b">الدرجة الخامسة في المعاني والبيان والبديع /</subfield>
-		<subfield code="c">تأليف جرجي شاهين عطية.</subfield>
+		<subfield code="c">تأليف جرجي شاهين عطية.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
 		<subfield code="6">264-03</subfield>
@@ -131,8 +120,24 @@
 		<subfield code="a">332 صفحة ؛</subfield>
 		<subfield code="c">19 سم</subfield>
 	</datafield>
+	<datafield ind1="0" ind2=" " tag="880">
+		<subfield code="6">505-00</subfield>
+		<subfield code="a">الدرجة الثالثة. في الصرف والكلم المتصرفة وأجزائها --الدرجة الخامسة. في المعاني والبيان والبديع.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">اللغة العربية</subfield>
+		<subfield code="x">قواعد</subfield>
+		<subfield code="x">الدرس والتدريس.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">اللغة العربية</subfield>
+		<subfield code="x">البلاغة</subfield>
+		<subfield code="x">الدرس والتدريس.</subfield>
+	</datafield>
 	<datafield ind1="0" ind2="8" tag="880">
-		<subfield code="6">775-05</subfield>
+		<subfield code="6">775-07</subfield>
 		<subfield code="i">دلالة على الطبعة</subfield>
 		<subfield code="4">http://rdaregistry.info/Elements/m/P30133 :</subfield>
 		<subfield code="a">عطية، جرجي شاهين.</subfield>
@@ -152,5 +157,6 @@
 		<subfield code="i">LeBAU_b13087915</subfield>
 		<subfield code="s">aub_aco004376</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco004376</subfield>
 	</datafield>
 </record>

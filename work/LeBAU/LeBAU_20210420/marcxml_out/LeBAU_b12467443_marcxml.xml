@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210422s1953    iq a    ob    000 0 ara  </controlfield>
+	<controlfield tag="008">210514s1953    iq a    ob    000 0 ara  </controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -58,9 +58,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -68,11 +65,8 @@
 		<subfield code="d">2021.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1="2" ind2="4" tag="610">
-		<subfield code="a">جامعة النجف الدينية</subfield>
-		<subfield code="x">تاريخ.</subfield>
-	</datafield>
 	<datafield ind1="2" ind2="0" tag="610">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Jāmiʻat al-Najaf al-Dīnīyah</subfield>
 		<subfield code="x">History.</subfield>
 	</datafield>
@@ -89,7 +83,7 @@
 		<subfield code="w">(LeBAU)b12467443</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">al-Ḥalaqah al-ʻulá (al-Maṭbaʻah al-ʻIlmīyah)</subfield>
 	</datafield>
 	<datafield ind1="4" ind2="0" tag="856">
@@ -99,7 +93,7 @@
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">شمس الدين، محمد رضا،</subfield>
 		<subfield code="0">https://lccn.loc.gov/nr91039588 ,</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -124,8 +118,17 @@
 		<subfield code="6">490-05</subfield>
 		<subfield code="a">الحلقة الاولى</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
+	</datafield>
+	<datafield ind1="2" ind2="4" tag="880">
+		<subfield code="6">610-06</subfield>
+		<subfield code="a">جامعة النجف الدينية</subfield>
+		<subfield code="x">تاريخ.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2="3" tag="880">
-		<subfield code="6">830-06</subfield>
+		<subfield code="6">830-07</subfield>
 		<subfield code="a">الحلقة الاولى (المطبعة العلمية)</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -140,5 +143,6 @@
 		<subfield code="i">LeBAU_b12467443</subfield>
 		<subfield code="s">aub_aco004229</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco004229</subfield>
 	</datafield>
 </record>

@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210422s1951    ua      ob    000 0 ara d</controlfield>
+	<controlfield tag="008">210514s1951    ua      ob    000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -53,9 +53,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -63,25 +60,14 @@
 		<subfield code="d">2021.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="588">
-		<subfield code="a">تاريخ النشر أخذ من المقدمة.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الادب العربي</subfield>
-		<subfield code="y">750-1258</subfield>
-		<subfield code="x">تاريخ ونقد.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الادب العربي</subfield>
-		<subfield code="z">مصر</subfield>
-		<subfield code="x">تاريخ ونقد.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Arabic literature</subfield>
 		<subfield code="y">750-1258</subfield>
 		<subfield code="x">History and criticism.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Arabic literature</subfield>
 		<subfield code="z">Egypt</subfield>
 		<subfield code="x">History and criticism.</subfield>
@@ -105,25 +91,45 @@
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">حميدة، عبد الرزاق،</subfield>
 		<subfield code="0">http://id.loc.gov/authorities/names/nr91002869 ,</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="3" tag="880">
 		<subfield code="6">245-02</subfield>
-		<subfield code="a">الأدب العربي في مصر :</subfield>
-		<subfield code="b">من الفتح الإسلامي الى الفاطميين /</subfield>
-		<subfield code="c">تأليف عبد الرزاق حميدة.</subfield>
+		<subfield code="a">الأدب العربي في مصر :</subfield>
+		<subfield code="b">من الفتح الإسلامي الى الفاطميين /</subfield>
+		<subfield code="c">تأليف عبد الرزاق حميدة.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
 		<subfield code="6">264-03</subfield>
 		<subfield code="a">القاهرة :</subfield>
-		<subfield code="b">مكتبة الأنجلو المصرية،</subfield>
+		<subfield code="b">مكتبة الأنجلو المصرية،</subfield>
 		<subfield code="c">1370 [هـ.] = 1951 [م.]</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">300-04</subfield>
 		<subfield code="a">ح-هـ، 298 صفحة ؛</subfield>
 		<subfield code="c">22 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">588-00</subfield>
+		<subfield code="a">تاريخ النشر أخذ من المقدمة.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">الادب العربي</subfield>
+		<subfield code="y">750-1258</subfield>
+		<subfield code="x">تاريخ ونقد.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">الادب العربي</subfield>
+		<subfield code="z">مصر</subfield>
+		<subfield code="x">تاريخ ونقد.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -137,5 +143,6 @@
 		<subfield code="i">LeBAU_b12533774</subfield>
 		<subfield code="s">aub_aco004580</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco004580</subfield>
 	</datafield>
 </record>

@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210422s1918    mr      o     ||0 0 ara d</controlfield>
+	<controlfield tag="008">210514s1918    mr      o     ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -22,7 +22,7 @@
 		<subfield code="0">https://lccn.loc.gov/no2002068613 ,</subfield>
 		<subfield code="e">author.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="242">
+	<datafield ind1="1" ind2="3" tag="242">
 		<subfield code="6">880-01</subfield>
 		<subfield code="a">al-Lahajah al-ʻArabīyah al-ʻāmmīyah fī al-Rabāṭ.</subfield>
 	</datafield>
@@ -61,16 +61,8 @@
 		<subfield code="d">2021.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="590">
-		<subfield code="a">العنوان اخذ من الصفحة المقحمة من قبل المكتبة في اول الكتاب.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">اللغة العربية</subfield>
-		<subfield code="x">اللهجات</subfield>
-		<subfield code="z">المغرب</subfield>
-		<subfield code="z">الرباط.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-03</subfield>
 		<subfield code="a">Arabic language</subfield>
 		<subfield code="x">Dialects</subfield>
 		<subfield code="z">Morocco</subfield>
@@ -91,7 +83,7 @@
 	<datafield ind1="4" ind2="0" tag="856">
 		<subfield code="u">http://hdl.handle.net/2333.1/w0vt4nrq</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
+	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">242-01</subfield>
 		<subfield code="a">اللهجة العربية العامية في الرباط.</subfield>
 	</datafield>
@@ -99,6 +91,17 @@
 		<subfield code="6">300-02</subfield>
 		<subfield code="a">42 صفحة ؛</subfield>
 		<subfield code="c">23 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">590-00</subfield>
+		<subfield code="a">العنوان اخذ من الصفحة المقحمة من قبل المكتبة في اول الكتاب.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-03</subfield>
+		<subfield code="a">اللغة العربية</subfield>
+		<subfield code="x">اللهجات</subfield>
+		<subfield code="z">المغرب</subfield>
+		<subfield code="z">الرباط.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -112,5 +115,6 @@
 		<subfield code="i">LeBAU_b12494586</subfield>
 		<subfield code="s">aub_aco004352</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco004352</subfield>
 	</datafield>
 </record>
