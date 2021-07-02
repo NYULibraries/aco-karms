@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210616s1952    sy      o     000 0 ara d</controlfield>
+	<controlfield tag="008">210702s1952    sy      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -26,7 +26,7 @@
 		<subfield code="e">issuing body.</subfield>
 		<subfield code="0">https://lccn.loc.gov/n82005783 ,</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
 		<subfield code="a">al-Taqsīmāt al-idārīyah fī al-Jumhūrīyah al-Sūrīyah /</subfield>
 		<subfield code="c">Wizārat al-Iqtisād al-Waṭanī, Mudīrīyat al-Iḥṣāʼ.</subfield>
@@ -59,9 +59,6 @@
 		<subfield code="v">raqm 6/1952</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">كله جداول.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -71,11 +68,8 @@
 		<subfield code="d">2021.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="651">
-		<subfield code="a">سوريا</subfield>
-		<subfield code="x">التقسيمات الادارية والسياسية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="651">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Syria</subfield>
 		<subfield code="x">Administrative and political divisions.</subfield>
 	</datafield>
@@ -92,7 +86,7 @@
 		<subfield code="w">(LeBAU)b12448527</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="830">
-		<subfield code="6">880-06</subfield>
+		<subfield code="6">880-07</subfield>
 		<subfield code="a">Silsilat al-nasharāt al-khāṣṣah ;</subfield>
 		<subfield code="v">6/1952.</subfield>
 	</datafield>
@@ -104,10 +98,10 @@
 		<subfield code="a">سوريا.</subfield>
 		<subfield code="b">مديرية الإحصاء،</subfield>
 		<subfield code="0">https://lccn.loc.gov/n82005783 ,</subfield>
-		<subfield code="e">هيئة إصدار. </subfield>
+		<subfield code="e">هيئة إصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
+	<datafield ind1="1" ind2="2" tag="880">
 		<subfield code="6">245-02</subfield>
 		<subfield code="a">التقسيمات الادارية في الجمهورية السورية /</subfield>
 		<subfield code="c">وزارة الاقتصاد الوطني، مديرية الإحصاء.</subfield>
@@ -128,8 +122,17 @@
 		<subfield code="a">سلسلة النشرات الخاصة ؛</subfield>
 		<subfield code="v">رقم 6/1952</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">كله جداول.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">651-06</subfield>
+		<subfield code="a">سوريا</subfield>
+		<subfield code="x">التقسيمات الادارية والسياسية.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2="0" tag="880">
-		<subfield code="6">830-06</subfield>
+		<subfield code="6">830-07</subfield>
 		<subfield code="a">سلسلة النشرات الخاصة ؛</subfield>
 		<subfield code="v">6/1952.</subfield>
 	</datafield>
@@ -145,5 +148,6 @@
 		<subfield code="i">LeBAU_b12448527</subfield>
 		<subfield code="s">aub_aco004070</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco004070</subfield>
 	</datafield>
 </record>
