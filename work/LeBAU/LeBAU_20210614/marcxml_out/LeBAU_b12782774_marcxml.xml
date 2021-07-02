@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210616s1942    mr      od    ||0 0 ara d</controlfield>
+	<controlfield tag="008">210702s1942    mr      od    ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -59,9 +59,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">من المرجح انه لم يتم اصدار جزء آخر من الكتاب.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -71,22 +68,14 @@
 		<subfield code="d">2021.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">اللغة العربية</subfield>
-		<subfield code="v">قواميس</subfield>
-		<subfield code="x">فرنسية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">اللغة الفرنسية</subfield>
-		<subfield code="v">قواميس</subfield>
-		<subfield code="x">عربية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Arabic language</subfield>
 		<subfield code="v">Dictionaries</subfield>
 		<subfield code="x">French.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">French language</subfield>
 		<subfield code="v">Dictionaries</subfield>
 		<subfield code="x">Arabic.</subfield>
@@ -111,7 +100,7 @@
 		<subfield code="a">ليفي-برفنسال، ايفاريست،</subfield>
 		<subfield code="d">1894-1956،</subfield>
 		<subfield code="0">https://lccn.loc.gov/n81047665 ,</subfield>
-		<subfield code="e">معد. </subfield>
+		<subfield code="e">معد.</subfield>
 		<subfield code="4">com.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -131,6 +120,22 @@
 		<subfield code="a">1 قسم (98 صفحة) ؛</subfield>
 		<subfield code="c">22 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">من المرجح انه لم يتم اصدار جزء آخر من الكتاب.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">اللغة العربية</subfield>
+		<subfield code="v">قواميس</subfield>
+		<subfield code="x">فرنسية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">اللغة الفرنسية</subfield>
+		<subfield code="v">قواميس</subfield>
+		<subfield code="x">عربية.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -143,5 +148,6 @@
 		<subfield code="i">LeBAU_b12782774</subfield>
 		<subfield code="s">aub_aco004367</subfield>
 		<subfield code="e">(ERROR-880)(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco004367</subfield>
 	</datafield>
 </record>

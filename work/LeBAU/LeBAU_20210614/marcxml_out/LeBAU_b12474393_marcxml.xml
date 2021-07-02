@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210616s1950    su      o     000 0 ara d</controlfield>
+	<controlfield tag="008">210702s1950    su      o     000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -53,9 +53,6 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">&quot;صدر الامر السامي برقم 13152 وتاريخ 10/11/1361 بالموافقة عليه.&quot;</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
@@ -65,11 +62,8 @@
 		<subfield code="d">2021.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">المواصلات والسير</subfield>
-		<subfield code="x">قوانين وتشريعات.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Communication and traffic</subfield>
 		<subfield code="z">Laws and legislation.</subfield>
 	</datafield>
@@ -91,17 +85,17 @@
 	<datafield ind1="1" ind2=" " tag="880">
 		<subfield code="6">110-01</subfield>
 		<subfield code="a">السعودية،</subfield>
-		<subfield code="e">هيئة اصدار. </subfield>
+		<subfield code="e">هيئة اصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">245-03</subfield>
-		<subfield code="a">تعديل نظام السيارات وتعليم سائقي السيارات الحكومية والاهلية ومعاونيهم وتعليمات لمستودعات السيارات الحكومية /</subfield>
-		<subfield code="c">المملكة العربية السعودية، مديرية الامن العام.</subfield>
+		<subfield code="6">240-02</subfield>
+		<subfield code="a">قوانين، ألخ.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
-		<subfield code="6">240-02</subfield>
-		<subfield code="a">قوانين، إلخ.</subfield>
+		<subfield code="6">245-03</subfield>
+		<subfield code="a">تعديل نظام السيارات وتعليم سائقي السيارات الحكومية والاهلية معاونيهم وتعليمات لمستودعات السيارات الحكومية /</subfield>
+		<subfield code="c">المملكة العربية السعودية، مديرية الامن العام.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
 		<subfield code="6">264-04</subfield>
@@ -113,6 +107,15 @@
 		<subfield code="6">300-05</subfield>
 		<subfield code="a">24 صفحة ؛</subfield>
 		<subfield code="c">24 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">&quot;صدر الامر السامي برقم 13152 وتاريخ 10/11/1361 بالموافقة عليه.&quot;</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">المواصلات والسير</subfield>
+		<subfield code="x">قوانين وتشريعات.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -126,5 +129,6 @@
 		<subfield code="i">LeBAU_b12474393</subfield>
 		<subfield code="s">aub_aco004296</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco004296</subfield>
 	</datafield>
 </record>

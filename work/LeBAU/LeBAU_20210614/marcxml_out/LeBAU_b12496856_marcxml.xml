@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210616s1934    ua      ob    000 0 ara d</controlfield>
+	<controlfield tag="008">210702s1934    ua      ob    000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -57,9 +57,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -67,11 +64,8 @@
 		<subfield code="d">2021.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الزراعة، قوانين وتشريعات</subfield>
-		<subfield code="z">مصر.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Agricultural laws and legislation</subfield>
 		<subfield code="z">Egypt.</subfield>
 	</datafield>
@@ -95,7 +89,7 @@
 		<subfield code="a">مصر.</subfield>
 		<subfield code="b">وزارة الزراعة،</subfield>
 		<subfield code="0">http://id.loc.gov/authorities/names/n80079686 ,</subfield>
-		<subfield code="e">هيئة اصدار. </subfield>
+		<subfield code="e">هيئة اصدار.</subfield>
 		<subfield code="4">isb.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
@@ -110,13 +104,22 @@
 	<datafield ind1=" " ind2="1" tag="880">
 		<subfield code="6">264-04</subfield>
 		<subfield code="a">القاهرة :</subfield>
-		<subfield code="b">المطبعة الأميرية،</subfield>
+		<subfield code="b">المطبعة الأميرية،</subfield>
 		<subfield code="c">1934.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">300-05</subfield>
 		<subfield code="a">129 صفحة ؛</subfield>
 		<subfield code="c">24 سم</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-06</subfield>
+		<subfield code="a">الزراعة، قوانين وتشريعات</subfield>
+		<subfield code="z">مصر.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
@@ -130,5 +133,6 @@
 		<subfield code="i">LeBAU_b12496856</subfield>
 		<subfield code="s">aub_aco004430</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco004430</subfield>
 	</datafield>
 </record>

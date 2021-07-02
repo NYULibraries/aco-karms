@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210616s1941    mr acfh ob    ||0 0 ara d</controlfield>
+	<controlfield tag="008">210702s1941    mr acfh ob    ||0 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -23,11 +23,10 @@
 		<subfield code="e">author.</subfield>
 		<subfield code="0">http://id.loc.gov/authorities/names/no2001061545 ,</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="0" tag="245">
+	<datafield ind1="1" ind2="3" tag="245">
 		<subfield code="6">880-02</subfield>
-		<subfield code="a">al-Adab al-Andalusī /</subfield>
-		<subfield code="n">الجزء الأول /</subfield>
-		<subfield code="c">lil-Ustādhayn &quot;Aḥmad Balāfrīj&quot; wa-&quot;ʻAbd al-Jalīl Khalīfah&quot;.</subfield>
+		<subfield code="a">al-Adab al-Andalusī  /</subfield>
+		<subfield code="c">lil-Ustādhayn &quot;Aḥmad Balāfrīj&quot; wa-&quot;ʻAbd al-Jalīl Khalīfah</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="264">
 		<subfield code="6">880-03</subfield>
@@ -53,13 +52,13 @@
 		<subfield code="2">rdacarrier</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
-		<subfield code="a">من المرجح انه لم يتم اصدار جزء آخر من الكتاب.</subfield>
+		<subfield code="a">Non-Latin script record</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="500">
+		<subfield code="a">Non-Latin script record</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
@@ -68,19 +67,14 @@
 		<subfield code="d">2021.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">الادب العربي</subfield>
-		<subfield code="z">اسبانيا</subfield>
-		<subfield code="z">الاندلس</subfield>
-		<subfield code="x">تاريخ ونقد.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Arabic literature</subfield>
 		<subfield code="z">Spain</subfield>
 		<subfield code="x">History and criticism.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2=" " tag="700">
-		<subfield code="6">880-05</subfield>
+		<subfield code="6">880-06</subfield>
 		<subfield code="a">Khalīfah, ʻAbd al-Jalīl,</subfield>
 		<subfield code="e">author.</subfield>
 	</datafield>
@@ -104,8 +98,13 @@
 		<subfield code="a">بلافريج، أحمد،</subfield>
 		<subfield code="d">1908-1990،</subfield>
 		<subfield code="0">http://id.loc.gov/authorities/names/no2001061545 ,</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
+	</datafield>
+	<datafield ind1="1" ind2="2" tag="880">
+		<subfield code="6">245-02</subfield>
+		<subfield code="a">الأدب الاندلسي /</subfield>
+		<subfield code="c">للأستاذين &quot;أحمد بلافريج&quot; و&quot;عبد الجليل خليفة&quot;.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
 		<subfield code="6">264-03</subfield>
@@ -113,21 +112,31 @@
 		<subfield code="b">مطبعة الوحدة المغربية،</subfield>
 		<subfield code="c">1360 [هـ.] = 1941 [م.]</subfield>
 	</datafield>
-	<datafield ind1="1" ind2="3" tag="880">
-		<subfield code="6">245-02</subfield>
-		<subfield code="a">الأدب الاندلسي.</subfield>
-		<subfield code="c">للأستاذين &quot;أحمد بلافريج&quot; و&quot;عبد الجليل خليفة&quot;.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="880">
 		<subfield code="6">300-04</subfield>
 		<subfield code="a">1 جزء (188 صفحة، 3 ورقات لوحات غير مرقمة) :</subfield>
 		<subfield code="b">مصورات، صورة شخصانية، صور طبق الأصل ؛</subfield>
 		<subfield code="c">20 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">500-00</subfield>
+		<subfield code="a">من المرجح انه لم يتم اصدار جزء آخر من الكتاب.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">الادب العربي</subfield>
+		<subfield code="z">اسبانيا</subfield>
+		<subfield code="z">الاندلس</subfield>
+		<subfield code="x">تاريخ ونقد.</subfield>
+	</datafield>
 	<datafield ind1="1" ind2=" " tag="880">
-		<subfield code="6">700-05</subfield>
+		<subfield code="6">700-06</subfield>
 		<subfield code="a">خليفة، عبد الجليل،</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
@@ -142,5 +151,6 @@
 		<subfield code="i">LeBAU_b12530372</subfield>
 		<subfield code="s">aub_aco004558:v.1</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco004558:v.1</subfield>
 	</datafield>
 </record>

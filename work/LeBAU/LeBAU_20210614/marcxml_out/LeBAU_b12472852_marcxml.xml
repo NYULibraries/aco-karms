@@ -5,7 +5,7 @@
 	<controlfield tag="003">LeBAU</controlfield>
 	<controlfield tag="006">m        d        </controlfield>
 	<controlfield tag="007">cr cn |||m|||a</controlfield>
-	<controlfield tag="008">210616s1953    ua b    ob    000 0 ara d</controlfield>
+	<controlfield tag="008">210702s1953    ua b    ob    000 0 ara d</controlfield>
 	<datafield ind1=" " ind2=" " tag="040">
 		<subfield code="a">ZYU</subfield>
 		<subfield code="b">ara</subfield>
@@ -57,9 +57,6 @@
 	<datafield ind1=" " ind2=" " tag="500">
 		<subfield code="a">Part of the Arabic Collections Online (ACO) project, contributed by American University of Beirut's Jafet Memorial Library.</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="504">
-		<subfield code="a">يتضمن مراجع ببليوغرافية (صفحات 170-173)</subfield>
-	</datafield>
 	<datafield ind1=" " ind2=" " tag="533">
 		<subfield code="a">Electronic reproduction.</subfield>
 		<subfield code="b">New York, N.Y. :</subfield>
@@ -67,14 +64,8 @@
 		<subfield code="d">2021.</subfield>
 		<subfield code="5">NNU</subfield>
 	</datafield>
-	<datafield ind1=" " ind2=" " tag="546">
-		<subfield code="a">النص بالعربية؛ مع مقدمة بالانجليزية.</subfield>
-	</datafield>
-	<datafield ind1=" " ind2="4" tag="650">
-		<subfield code="a">البريد، خدمات</subfield>
-		<subfield code="z">الامبراطورية الاسلامية.</subfield>
-	</datafield>
 	<datafield ind1=" " ind2="0" tag="650">
+		<subfield code="6">880-05</subfield>
 		<subfield code="a">Postal service</subfield>
 		<subfield code="z">Islamic Empire.</subfield>
 	</datafield>
@@ -97,13 +88,13 @@
 		<subfield code="6">100-01</subfield>
 		<subfield code="a">سعداوي، نظير حسان،</subfield>
 		<subfield code="0">https://lccn.loc.gov/nr94029082 ,</subfield>
-		<subfield code="e">مؤلف. </subfield>
+		<subfield code="e">مؤلف.</subfield>
 		<subfield code="4">aut.</subfield>
 	</datafield>
 	<datafield ind1="1" ind2="0" tag="880">
 		<subfield code="6">245-02</subfield>
-		<subfield code="a">نظام البريد في الدولة الإسلامية /</subfield>
-		<subfield code="c">تأليف نظير حسان سعداوي، مدرس أول المواد الاجتماعية بمدرسة المعادي الثانوية النموذجية.</subfield>
+		<subfield code="a">نظام البريد في الدولة الاسلامية /</subfield>
+		<subfield code="c">تأليف نظير حسان سعداوي، مدرس اول المواد الاجتماعية بمدرسة المعادي الثانوية النموذجية.</subfield>
 	</datafield>
 	<datafield ind1=" " ind2="1" tag="880">
 		<subfield code="6">264-03</subfield>
@@ -117,6 +108,19 @@
 		<subfield code="b">خرائط ؛</subfield>
 		<subfield code="c">25 سم</subfield>
 	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">504-00</subfield>
+		<subfield code="a">يتضمن مراجع ببليوغرافية (صفحات 170-173)</subfield>
+	</datafield>
+	<datafield ind1=" " ind2=" " tag="880">
+		<subfield code="6">546-00</subfield>
+		<subfield code="a">النص بالعربية؛ مع مقدمة بالانجليزية.</subfield>
+	</datafield>
+	<datafield ind1=" " ind2="4" tag="880">
+		<subfield code="6">650-05</subfield>
+		<subfield code="a">البريد، خدمات</subfield>
+		<subfield code="z">الامبراطورية الاسلامية.</subfield>
+	</datafield>
 	<datafield ind1=" " ind2=" " tag="959">
 		<subfield code="a">NNU</subfield>
 		<subfield code="b">WEB</subfield>
@@ -129,5 +133,6 @@
 		<subfield code="i">LeBAU_b12472852</subfield>
 		<subfield code="s">aub_aco004291</subfield>
 		<subfield code="e">(ERROR-MISC)</subfield>
+		<subfield code="s">aub_aco004291</subfield>
 	</datafield>
 </record>
