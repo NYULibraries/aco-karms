@@ -6,7 +6,7 @@ ALL Records containing any type of error - batch LeBAU_20210614
     --  have a series heading error in the 490/800/810/811/830 fields
     --  have one of the various miscellaneous errors, marked with ERROR-MISC
     --  missing a call number - no 050 or 090 field
-Report produced: 2021-07-02 13:00:25.494184
+Report produced: 2021-07-13 14:46:24.814444
 ---------------------------------------------------------------------
 FILE: LeBAU_20210614_3/LeBAU_20210614_3_updates.mrc
 ---------------------------------------------------------------------
@@ -122,11 +122,7 @@ Institution ID: LeBAU_b12448503
    orig_rec_035 num: =035  \\$aocn784322203
 Record 999:  LeBAU_b12448503 aub_aco004073
 880 script fields: YES
-ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
-   264 - al-Qāhirah : Dār al-Fuṣūl lil-Nashr, 1945.
 ERROR-880: Unlinked 880s: YES
-   880 $6 250-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 264-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
    880 $6 300-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: rda
 RDA fields: YES
@@ -630,8 +626,6 @@ Institution ID: LeBAU_b12459707
    orig_rec_035 num: =035  \\$aocn784325744
 Record 999:  LeBAU_b12459707 aub_aco004187
 880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 300-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: rda
 RDA fields: YES
 ERROR-MISC: No 050 or 090 call number
@@ -1805,7 +1799,6 @@ Record 999:  LeBAU_b12509590 aub_aco004490
 880 script fields: YES
 ERROR-880: Key fields missing script 880 field (i.e., missing subfield $6):
    240 - Shane. Arabic
-   246 - Shīn : al-fāris al-majhūl
 040 $e field: rda
 RDA fields: YES
 ERROR-MISC: No 050 or 090 call number
@@ -2329,7 +2322,7 @@ Institution ID: LeBAU_b12548844
 Record 999:  LeBAU_b12548844 aub_aco004616:v.1 aub_aco004617:v.2
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 300-00/r - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
+   880 $6 300-00 - There is one parallel field for this unlinked 880 - NEED TO CHECK PF
 040 $e field: rda
 RDA fields: YES
 ERROR-MISC: No 050 or 090 call number
