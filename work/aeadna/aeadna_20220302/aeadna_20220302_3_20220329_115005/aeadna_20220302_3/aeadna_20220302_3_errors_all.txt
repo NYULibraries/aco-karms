@@ -6,17 +6,29 @@ ALL Records containing any type of error - batch aeadna_20220302
     --  have a series heading error in the 490/800/810/811/830 fields
     --  have one of the various miscellaneous errors, marked with ERROR-MISC
     --  missing a call number - no 050 or 090 field
-Report produced: 2022-03-31 12:17:40.991344
+Report produced: 2022-03-28 11:43:28.050996
 ---------------------------------------------------------------------
 FILE: aeadna_20220302_3/aeadna_20220302_3_updates.mrc
+---------------------------------------------------------------------
+Institution ID: aeadna_6329
+   orig_rec_035 num: =035  \\$a(Sirsi) 6329
+Record 999:  aeadna_6329 uaena_aco000079:1
+880 script fields: YES
+ERROR-880: Unlinked 880s: YES
+   880 $6 090-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 949-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+040 $e field: AACR2
+050 call number: BP63.Y45 .S26 1944
+ERROR-MISC: 006  a      000 0      
+Source entities (book IDs): uaena_aco000079:1
 ---------------------------------------------------------------------
 Institution ID: aeadna_6309
    orig_rec_035 num: =035  \\$a(Sirsi) 6309
 Record 999:  aeadna_6309 uaena_aco000078:2 uaena_aco000092:1
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 949-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 949-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 949-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 949-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: AACR2
 050 call number: PJ6620 .Z35 1922
 Source entities (book IDs): uaena_aco000078:2, uaena_aco000092:1
@@ -50,7 +62,7 @@ Institution ID: aeadna_6318
 Record 999:  aeadna_6318 uaena_aco000076:1
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 949-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 949-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: AACR2
 050 call number: G370 .I2 1928
 Source entities (book IDs): uaena_aco000076:1
@@ -60,10 +72,10 @@ Institution ID: aeadna_6336
 Record 999:  aeadna_6336 uaena_aco000081:1 uaena_aco000082:2 uaena_aco000083:3 uaena_aco000084:4
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 949-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 949-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 949-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 949-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 949-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 949-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 949-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 949-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: AACR2
 050 call number: BP136.48 .I24
 Source entities (book IDs): uaena_aco000081:1, uaena_aco000082:2, uaena_aco000083:3, uaena_aco000084:4
@@ -73,7 +85,7 @@ Institution ID: aeadna_6330
 Record 999:  aeadna_6330 uaena_aco000080:1
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
-   880 $6 949-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
+   880 $6 949-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
 040 $e field: AACR2
 050 call number: CS2970 .M88 1935
 Source entities (book IDs): uaena_aco000080:1
@@ -83,6 +95,7 @@ Institution ID: aeadna_6340
 Record 999:  aeadna_6340 uaena_aco000086:1 uaena_aco000087:2 uaena_aco000088:3 uaena_aco000089:4 uaena_aco000090:5 uaena_aco000091:6
 880 script fields: YES
 ERROR-880: Unlinked 880s: YES
+   880 $6 246-00/r - There are multiple parallel fields for this unlinked 880 - NEED TO DISTIINGUISH PF
    880 $6 949-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
    880 $6 949-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
    880 $6 949-00/r - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
@@ -92,18 +105,6 @@ ERROR-880: Unlinked 880s: YES
 040 $e field: AACR2
 050 call number: D17 .T33 1908
 Source entities (book IDs): uaena_aco000086:1, uaena_aco000087:2, uaena_aco000088:3, uaena_aco000089:4, uaena_aco000090:5, uaena_aco000091:6
----------------------------------------------------------------------
-Institution ID: aeadna_6329
-   orig_rec_035 num: =035  \\$a(Sirsi) 6329
-Record 999:  aeadna_6329 uaena_aco000079:1
-880 script fields: YES
-ERROR-880: Unlinked 880s: YES
-   880 $6 090-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-   880 $6 949-00 - A parallel field does NOT exist for this unlinked 880 - NEED TO CREATE PF
-040 $e field: AACR2
-050 call number: BP63.Y45 .S26 1944
-ERROR-MISC: 006  a      000 0      
-Source entities (book IDs): uaena_aco000079:1
 ---------------------------------------------------------------------
 TOTAL Number of Records containing any type of error: 8
 
