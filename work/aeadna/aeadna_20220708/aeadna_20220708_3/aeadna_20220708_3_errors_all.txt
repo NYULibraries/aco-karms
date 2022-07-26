@@ -1,0 +1,25 @@
+ALL Records containing any type of error - batch aeadna_20220708
+--  Each of these records have one or more of the following errors:
+    --  no 880 fields
+    --  missing a key 880 field
+    --  have an unlinked 880 field
+    --  have a series heading error in the 490/800/810/811/830 fields
+    --  have one of the various miscellaneous errors, marked with ERROR-MISC
+    --  missing a call number - no 050 or 090 field
+Report produced: 2022-07-26 13:20:02.687844
+---------------------------------------------------------------------
+FILE: aeadna_20220708_1/aeadna_20220708_1_orig_with_oclc_nums.mrc
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+FILE: aeadna_20220708_1/aeadna_20220708_1_orig_no_oclc_nums.mrc
+---------------------------------------------------------------------
+Institution ID: aeadna_14629
+   orig_rec_035 num: =035  \\$a(Sirsi) 14629
+Record 999:  aeadna_14629
+ERROR-880: 880 script fields: NO
+040 $e field: AACR2
+050 call number: PJ6031 .S8 1907
+Source entities (book IDs): uaena_aco000106:1
+---------------------------------------------------------------------
+TOTAL Number of Records containing any type of error: 1
+
